@@ -1,0 +1,832 @@
+{
+  "updated": "2026-10-12",
+  "repo": {
+    "stars": 118262,
+    "forks": 26568
+  },
+  "log": [
+    {
+      "date": "2026-10-12",
+      "note": "首次建立：收錄 35 個案例，來源涵蓋英、中、日、韓、葡文"
+    }
+  ],
+  "cases": [
+    {
+      "id": "dotey-claude-slides",
+      "title": "逆向 Claude Slides 編輯器，近乎完整復刻",
+      "author": "宝玉 (@dotey)",
+      "author_url": "https://x.com/dotey",
+      "date": "2026-10-11",
+      "added": "2026-10-12",
+      "source": "community",
+      "category": "Web / JS",
+      "target": "Claude Slides 編輯器",
+      "summary": "想把 Claude Slides 的編輯體驗搬進自己的影片 Agent BaoCut。用 Codex 安裝 REA、以 REA Skill 做混淆前端的初步還原，再交給 Claude Code 做結構重寫；系統提示詞不硬抽，而是讓模型「模仿效果」生成等效 prompt。成果已提交進 BaoCut。",
+      "metric": "近乎完整的功能復刻",
+      "wow": 5,
+      "links": [
+        {
+          "label": "原帖",
+          "url": "https://x.com/dotey/status/2109151666020794711"
+        },
+        {
+          "label": "程式提交",
+          "url": "https://github.com/JimLiu/baocut/commit/b8585e0c8d7a82bdee9f0ed019cf6edb075e41c1"
+        },
+        {
+          "label": "報導",
+          "url": "https://todayforai.com/en/story/story-1e7753f3-572"
+        }
+      ],
+      "lang": "zh",
+      "status": "shipped"
+    },
+    {
+      "id": "obsidian-quick-switcher",
+      "title": "還原 Obsidian 快速切換器的排序演算法",
+      "author": "Hyperautomation Labs",
+      "author_url": "https://youtu.be/hG3kcpQFKvU",
+      "date": "2026-10-11",
+      "added": "2026-10-12",
+      "source": "community",
+      "category": "Electron",
+      "target": "Obsidian",
+      "summary": "Claude 用 REA 找出 quick switcher 的模糊比對與扣分制排序，約 4 分鐘重建，並與原版逐筆比對。REA 索引在壓縮 bundle 上失效時，Claude 改為直接讀 3.7 MB 的壓縮 JS。另外完整列出 Obsidian 的 42 個 IPC 通道。",
+      "metric": "4,915 筆查詢結果完全一致",
+      "wow": 5,
+      "links": [
+        {
+          "label": "影片",
+          "url": "https://youtu.be/hG3kcpQFKvU"
+        },
+        {
+          "label": "摘要",
+          "url": "https://vidaspect.com/v/this-github-repo-lets-claude-clone-any-app-rea-e09575"
+        }
+      ],
+      "lang": "en",
+      "status": "tested"
+    },
+    {
+      "id": "dx-ball-sound-pan",
+      "title": "DX-Ball（1996）音效聲道計算還原成 C",
+      "author": "N0zoM1z0 (Ysopwnable)",
+      "author_url": "https://github.com/N0zoM1z0",
+      "date": null,
+      "added": "2026-10-12",
+      "source": "official",
+      "category": "Native / 遊戲",
+      "target": "DX-Ball（Windows x86）",
+      "summary": "從播放音效的呼叫追到「位置轉聲道」的輔助函式，檢查指令、呼叫端與數值常數，把不完整的偽碼補成可編譯的 C 函式。",
+      "metric": "3,205 個原始 x86 測試全過，63 bytes 機器碼逐位元組相同",
+      "wow": 5,
+      "links": [
+        {
+          "label": "案例研究",
+          "url": "https://rea.tools/showcase/dx-ball/"
+        },
+        {
+          "label": "重建 repo",
+          "url": "https://github.com/N0zoM1z0/dx-ball"
+        }
+      ],
+      "lang": "en",
+      "status": "tested"
+    },
+    {
+      "id": "th04-bullet-ring",
+      "title": "東方幻想鄉 TH04（PC-98 DOS）環狀彈幕瞄準計算",
+      "author": "N0zoM1z0 (Ysopwnable)",
+      "author_url": "https://github.com/N0zoM1z0",
+      "date": null,
+      "added": "2026-10-12",
+      "source": "official",
+      "category": "Native / 遊戲",
+      "target": "TH04（16-bit DOS）",
+      "summary": "檢查原版 16-bit 角度輔助函式，把乘法、除法與座標運算對應成可讀的 C++，並與當年編譯器的輸出比較，重現朝玩家瞄準的子彈環。",
+      "metric": "與歷史編譯器輸出比對",
+      "wow": 4,
+      "links": [
+        {
+          "label": "案例研究",
+          "url": "https://rea.tools/showcase/th04/"
+        },
+        {
+          "label": "重建 repo",
+          "url": "https://github.com/N0zoM1z0/th04"
+        }
+      ],
+      "lang": "en",
+      "status": "tested"
+    },
+    {
+      "id": "wispr-flow-eric",
+      "title": "複製 Wispr Flow 語音輸入：快捷鍵、筆記、本地轉錄",
+      "author": "Eric Tech",
+      "author_url": "https://youtu.be/FnB9tHKBJXQ",
+      "date": "2026-10-11",
+      "added": "2026-10-12",
+      "source": "community",
+      "category": "Native / macOS",
+      "target": "Wispr Flow",
+      "summary": "前 Amazon / Microsoft 資深工程師示範用 REA 搭配 Hopper 分析他每天在用的語音轉文字 App，做出含快捷鍵、筆記與本地轉錄的版本。結論是「程式碼不再是護城河，品牌與使用者才是」。",
+      "metric": "影片觀看 9.6 萬",
+      "wow": 4,
+      "links": [
+        {
+          "label": "影片",
+          "url": "https://youtu.be/FnB9tHKBJXQ"
+        }
+      ],
+      "lang": "en",
+      "status": "shipped"
+    },
+    {
+      "id": "wispr-flow-az9713",
+      "title": "Wispr Flow 靜態拆解 + 64 行本地重建 flowlite",
+      "author": "az9713",
+      "author_url": "https://github.com/az9713",
+      "date": "2026-10-11",
+      "added": "2026-10-12",
+      "source": "community",
+      "category": "Native / macOS",
+      "target": "Wispr Flow 1.6.1102",
+      "summary": "跟著 Eric Tech 的影片實作。拆解報告把收音、轉錄、貼上文字的每個結論標成「已證實／推論／未知」，另記錄 Ghidra 為何一開始沒跑起來、後來證實了什麼。附完整開發紀錄與測試結果。",
+      "metric": "64 行 Python 重建：按住 F9 說話",
+      "wow": 4,
+      "links": [
+        {
+          "label": "拆解報告",
+          "url": "https://az9713.github.io/wispr-flow-rea-teardown/wispr-flow-teardown.html"
+        },
+        {
+          "label": "repo",
+          "url": "https://github.com/az9713/wispr-flow-rea-teardown"
+        }
+      ],
+      "lang": "en",
+      "status": "tested"
+    },
+    {
+      "id": "nextjs-stripe-leak-check",
+      "title": "從外部對正式上線的 Next.js + Stripe 系統做外洩檢查",
+      "author": "gold567200",
+      "author_url": "https://github.com/gold567200",
+      "date": "2026-10-10",
+      "added": "2026-10-12",
+      "source": "community",
+      "category": "Web / 資安",
+      "target": "自家客戶入口網站（Next.js 16、Postgres、Stripe）",
+      "summary": "不看原始碼，用 REA 的瀏覽器工具檢查 694 KB 的 JS：沒有金鑰、source map 全 404、偽造 token 與未簽章 webhook 都被擋。唯一真實問題是登入表單可經純 HTTP 存取。同一台 Windows 也用 Ghidra 分析 PE、用 JADX 分析 APK。",
+      "metric": "找到 1 個真實漏洞（HTTP 登入頁）",
+      "wow": 4,
+      "links": [
+        {
+          "label": "討論串",
+          "url": "https://github.com/morluto/rea/discussions/1406"
+        }
+      ],
+      "lang": "en",
+      "status": "tested"
+    },
+    {
+      "id": "notion-clipboard",
+      "title": "追蹤 Notion 如何複製文字與 HTML",
+      "author": "REA 團隊",
+      "author_url": "https://rea.tools/",
+      "date": null,
+      "added": "2026-10-12",
+      "source": "official",
+      "category": "Electron",
+      "target": "Notion 桌面版",
+      "summary": "從 renderer 暴露的剪貼簿 API，經 preload 與 IPC 包裝追到主程序的系統剪貼簿，看出一個小 HTML 標記如何讓複製內容保留區塊資料。",
+      "metric": "renderer → preload → IPC → 剪貼簿完整路徑",
+      "wow": 3,
+      "links": [
+        {
+          "label": "案例研究",
+          "url": "https://rea.tools/showcase/notion/"
+        }
+      ],
+      "lang": "en",
+      "status": "tested"
+    },
+    {
+      "id": "aegis-totp",
+      "title": "Aegis 驗證器如何產生六位數登入碼",
+      "author": "REA 團隊",
+      "author_url": "https://rea.tools/",
+      "date": null,
+      "added": "2026-10-12",
+      "source": "official",
+      "category": "Android",
+      "target": "Aegis Authenticator APK",
+      "summary": "在已發佈的 APK 裡找到六位數驗證碼的計算方法並追蹤產生流程，再用可調時鐘的 demo 說明為何每 30 秒換一次。",
+      "metric": "從 APK 還原 TOTP 規則",
+      "wow": 3,
+      "links": [
+        {
+          "label": "案例研究",
+          "url": "https://rea.tools/showcase/"
+        }
+      ],
+      "lang": "en",
+      "status": "tested"
+    },
+    {
+      "id": "downunderctf",
+      "title": "解出 DownUnderCTF 的 flag 檢查器",
+      "author": "REA 團隊",
+      "author_url": "https://rea.tools/",
+      "date": null,
+      "added": "2026-10-12",
+      "source": "official",
+      "category": "CTF",
+      "target": "DownUnderCTF 入門題",
+      "summary": "找出檢查函式，把遮罩與加總轉成方程式求解，最後用原程式驗證 flag 正確。",
+      "metric": "原程式回應 Correct!",
+      "wow": 3,
+      "links": [
+        {
+          "label": "案例研究",
+          "url": "https://rea.tools/showcase/"
+        }
+      ],
+      "lang": "en",
+      "status": "tested"
+    },
+    {
+      "id": "macos-preview-race",
+      "title": "REA 對決純 Claude：複製 macOS 預覽程式",
+      "author": "Nick Saraev",
+      "author_url": "https://youtu.be/dAzs_rU6080",
+      "date": "2026-10-10",
+      "added": "2026-10-12",
+      "source": "community",
+      "category": "Native / macOS",
+      "target": "macOS Preview",
+      "summary": "讓有 REA 與沒有 REA 的 Claude 同時複製 Preview。REA 版更接近原版但花較久，純 agent 先完成且結果相近。他的看法是軟體價值正往通用 agent 那一層移動。",
+      "metric": "影片觀看 39.6 萬",
+      "wow": 3,
+      "links": [
+        {
+          "label": "影片",
+          "url": "https://youtu.be/dAzs_rU6080"
+        },
+        {
+          "label": "摘要",
+          "url": "https://moderncreator.app/2026-10-10-nick-saraev-reverse-engineer-anything-testing-the-viral-ai-decompiler-everyone-s-hyping"
+        }
+      ],
+      "lang": "en",
+      "status": "shipped"
+    },
+    {
+      "id": "pi-desktop-electron",
+      "title": "對 100 MB Electron App 實測，抓出漏掉的兩個 preload",
+      "author": "ishank-dev",
+      "author_url": "https://dev.to/ishank-dev",
+      "date": "2026-10-12",
+      "added": "2026-10-12",
+      "source": "community",
+      "category": "Electron",
+      "target": "PI-Desktop v0.16.1（app.asar 100 MB、459 檔）",
+      "summary": "不用 agent，直接走 CLI 與原始 MCP 呼叫，另做一個答案已知的五檔玩具 App 來評分。結論是靜態 JS 分析快且好用，但漏了兩個用 grep 就看得到的 preload 檔。",
+      "metric": "附對照組的獨立評測",
+      "wow": 3,
+      "links": [
+        {
+          "label": "文章",
+          "url": "https://dev.to/ishank-dev/i-pointed-rea-at-a-100-mb-electron-app-heres-what-it-found-and-the-two-preload-files-it-missed-502p"
+        }
+      ],
+      "lang": "en",
+      "status": "tested"
+    },
+    {
+      "id": "local-models-12gb",
+      "title": "單張 12 GB 顯卡跑 REA，比較五個本地模型",
+      "author": "CassieFox23",
+      "author_url": "https://github.com/CassieFox23",
+      "date": "2026-10-12",
+      "added": "2026-10-12",
+      "source": "community",
+      "category": "工具鏈",
+      "target": "自製 C 密碼鎖程式",
+      "summary": "用 REA CLI + Ghidra 跑三個呼叫，讓五個本地模型讀同一份輸出回答問題。兩個 27B 模型讀得最好且沒有捏造，小模型會把數字弄錯。",
+      "metric": "免費本地模型可用的實測數據",
+      "wow": 2,
+      "links": [
+        {
+          "label": "討論串",
+          "url": "https://github.com/morluto/rea/discussions/2006"
+        }
+      ],
+      "lang": "en",
+      "status": "tested"
+    },
+    {
+      "id": "psp-mips-lab",
+      "title": "為 REA 加入 MIPS 與 PSP/Allegrex 支援",
+      "author": "jaelliot",
+      "author_url": "https://github.com/jaelliot",
+      "date": "2026-10-11",
+      "added": "2026-10-12",
+      "source": "community",
+      "category": "工具鏈",
+      "target": "PSP / MIPS 二進位",
+      "summary": "貢獻通用 MIPS 與 PSP/Allegrex 分析（PR #1362、#1599），並以 REA + Ghidra + Codex 搭建個人逆向實驗室，研究如何減少 token 消耗。",
+      "metric": "2 個合併 PR 擴充平台",
+      "wow": 2,
+      "links": [
+        {
+          "label": "討論串",
+          "url": "https://github.com/morluto/rea/discussions/1958"
+        },
+        {
+          "label": "PR #1599",
+          "url": "https://github.com/morluto/rea/pull/1599"
+        }
+      ],
+      "lang": "en",
+      "status": "shipped"
+    },
+    {
+      "id": "zenn-electron-known-answer",
+      "title": "用自寫 Electron App 當標準答案，檢驗 REA 的準確度",
+      "author": "matsushima_a",
+      "author_url": "https://zenn.dev/matsushima_a",
+      "date": "2026-10-09",
+      "added": "2026-10-12",
+      "source": "community",
+      "lang": "ja",
+      "category": "Electron",
+      "target": "自製 Electron App（折扣邏輯 + 隱藏除錯功能）",
+      "summary": "先寫好一個答案已知的 App 再讓 REA 分析。IPC 配線、公開 API、視窗設定的重建在數值層級完全正確，但「為什麼這是隱藏功能」這句解釋不會自動產生，要自己讀 Evidence 串起來。",
+      "metric": "結構重建完全正確",
+      "wow": 3,
+      "links": [
+        {
+          "label": "Zenn 文章",
+          "url": "https://zenn.dev/matsushima_a/articles/day-010-rea-reverse-engineering-mcp-limits"
+        }
+      ],
+      "status": "tested"
+    },
+    {
+      "id": "kingy-notes-exporter",
+      "title": "追蹤筆記匯出功能，重寫的 CSV 格式器全數通過",
+      "author": "Kingy AI",
+      "author_url": "https://kingy.ai/",
+      "date": "2026-10-08",
+      "added": "2026-10-12",
+      "source": "community",
+      "lang": "en",
+      "category": "Electron",
+      "target": "公開 Electron 範例的筆記匯出",
+      "summary": "從 renderer 追到主程序 handler，依據 REA 的發現另寫一個 CSV 格式器，再用第二個解析器逐位元組比對。全程只用免費軟體。",
+      "metric": "14 個測試案例全部吻合",
+      "wow": 3,
+      "links": [
+        {
+          "label": "文章",
+          "url": "https://kingy.ai/blog/reverse-engineer-anything-ai-rea-guide/"
+        }
+      ],
+      "status": "tested"
+    },
+    {
+      "id": "heartland-side-effects",
+      "title": "逐項驗證 REA 宣告的 7 種副作用與 Evidence 雜湊",
+      "author": "AI Heartland",
+      "author_url": "https://ai-heartland.com/",
+      "date": "2026-10-06",
+      "added": "2026-10-12",
+      "source": "community",
+      "lang": "ja",
+      "category": "工具鏈",
+      "target": "rea-agents 4.0.1 本身",
+      "summary": "統計 16 項功能宣告的副作用：改寫目標、需 root、改權限皆為 0，但有 10 項會啟動程序，不能無條件放行。並用 sha256sum 驗證 Evidence 的 SHA-256 完全一致。",
+      "metric": "Evidence 雜湊 100% 吻合",
+      "wow": 2,
+      "links": [
+        {
+          "label": "文章",
+          "url": "https://ai-heartland.com/agent/rea-reverse-engineering/"
+        }
+      ],
+      "status": "tested"
+    },
+    {
+      "id": "apisitlee-mac-pitfalls",
+      "title": "登上 Trending 第一當天實測，Mac 上踩的 4 個坑",
+      "author": "暗夜独行 (apisitlee)",
+      "author_url": "https://apisitlee.com/",
+      "date": "2026-10-07",
+      "added": "2026-10-12",
+      "source": "community",
+      "lang": "zh",
+      "category": "Native / macOS",
+      "target": "REA 在 macOS 的安裝與 doctor",
+      "summary": "在 REA 只有 1 萬星時就動手實測，整理 Mac 上安裝與執行會遇到的 4 個問題，並說明 Decompile → Understand → Recreate 的調查流程。",
+      "metric": "最早期的中文實測之一",
+      "wow": 2,
+      "links": [
+        {
+          "label": "文章",
+          "url": "https://apisitlee.com/rea-reverse-engineer-anything-mcp-mac-first-look/"
+        }
+      ],
+      "status": "reported"
+    },
+    {
+      "added": "2026-10-12",
+      "source": "community",
+      "id": "touhou-factory",
+      "title": "東方 Project 三部作逐函式重建，TH08 已能在 Linux 與瀏覽器上玩",
+      "author": "N0zoM1z0 (Ysopwnable)",
+      "author_url": "https://github.com/N0zoM1z0",
+      "date": "2026-10-10",
+      "lang": "en",
+      "category": "Native / 遊戲",
+      "target": "東方永夜抄 TH08、東方文花帖 TH095、東方幻想鄉 TH04",
+      "summary": "用 Agent 分析原始執行檔，逐函式恢復 C++，再編譯並與原二進位比對，目標是可執行、可維護的原始碼。TH08 已有 Linux 與瀏覽器可玩版本，TH095 有可玩的 Windows 重建版。",
+      "metric": "TH08 原始碼重建 ★105，跨平台可玩",
+      "wow": 5,
+      "status": "shipped",
+      "links": [
+        {
+          "label": "官方部落格",
+          "url": "https://rea.tools/blog/touhou-reconstruction/"
+        },
+        {
+          "label": "TH08",
+          "url": "https://github.com/N0zoM1z0/th08"
+        },
+        {
+          "label": "TH095",
+          "url": "https://github.com/N0zoM1z0/th095"
+        }
+      ]
+    },
+    {
+      "added": "2026-10-12",
+      "source": "community",
+      "id": "zwo-asiair",
+      "title": "拆解 ZWO ASIAIR 天文控制盒韌體，發現控制協定沒加密",
+      "author": "Jiang-sustech",
+      "author_url": "https://github.com/Jiang-sustech",
+      "date": "2026-10-11",
+      "lang": "zh",
+      "category": "韌體 / 硬體",
+      "target": "ZWO ASIAIR（天文攝影控制器）",
+      "summary": "在手邊沒有實機的情況下純靜態分析：ASIAIR 其實是魔改 INDI + 魔改 Raspberry Pi OS（32-bit armhf）的三層拼裝，內嵌 FFmpeg 4.2.2-Kodi、OpenCV、TUTK P2P、RKNN 追蹤模型。主控制走 4700 埠的明文 JSON-RPC。不散佈原廠韌體，並公開徵求有實機的人接手。",
+      "metric": "明文 JSON-RPC（埠 4700）、三代硬體取韌體路線",
+      "wow": 5,
+      "status": "tested",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/Jiang-sustech/REA-ZWO"
+        }
+      ]
+    },
+    {
+      "added": "2026-10-12",
+      "source": "community",
+      "id": "ski-or-die",
+      "title": "1990 年 DOS 遊戲 Ski or Die 的雪球大戰，用 Rust 重新做出來",
+      "author": "tuunanet",
+      "author_url": "https://github.com/tuunanet",
+      "date": "2026-10-11",
+      "lang": "en",
+      "category": "Native / 遊戲",
+      "target": "Ski or Die（EA，1990，MS-DOS）",
+      "summary": "分析原版執行檔、帶證據還原雪球大戰小遊戲的規則並寫成規格，再依規格用 Rust + SDL2 從零重建。素材由玩家自己的原版遊戲在本機產生，repo 不含任何原版檔案。",
+      "metric": "可玩的 Rust + SDL2 重建版",
+      "wow": 5,
+      "status": "shipped",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/tuunanet/rea-ski-or-die-reconstruction"
+        }
+      ]
+    },
+    {
+      "added": "2026-10-12",
+      "source": "community",
+      "id": "smart-toilet",
+      "title": "分析微信小程式的藍牙協定，從電腦選單列控制智慧馬桶",
+      "author": "thinkszyg",
+      "author_url": "https://x.com/thinkszyg",
+      "date": "2026-10-11",
+      "lang": "zh",
+      "category": "IoT / 藍牙",
+      "target": "智慧馬桶的微信小程式",
+      "summary": "用 REA + Codex 分析控制馬桶的微信小程式的藍牙通訊，約半小時做出能在電腦狀態列翻蓋的小工具。屬於第一手使用報告。",
+      "metric": "約 30 分鐘完成",
+      "wow": 4,
+      "status": "reported",
+      "links": [
+        {
+          "label": "原帖",
+          "url": "https://x.com/thinkszyg/status/2109309251533570509"
+        }
+      ]
+    },
+    {
+      "added": "2026-10-12",
+      "source": "community",
+      "id": "codex-browser-annotation",
+      "title": "找出 Codex 內建瀏覽器喚起評論框的隱藏介面",
+      "author": "宝玉 (@dotey)",
+      "author_url": "https://x.com/dotey",
+      "date": "2026-10-11",
+      "lang": "zh",
+      "category": "Electron",
+      "target": "Codex / ChatGPT App 內建瀏覽器",
+      "summary": "想讓自己的網頁接上 Codex 瀏覽器的標註互動，用 Codex + REA 查 Electron 程式碼並做測試頁。發現可用 document.oai.annotation.request() 彈出評論框並填入內容，但無法直接附加到對話輸入框。",
+      "metric": "找到 document.oai.annotation.request()",
+      "wow": 4,
+      "status": "tested",
+      "links": [
+        {
+          "label": "原帖",
+          "url": "https://x.com/dotey/status/2109417222724600172"
+        }
+      ]
+    },
+    {
+      "added": "2026-10-12",
+      "source": "community",
+      "id": "claude-code-muse",
+      "title": "讓 Agent 自己裝 REA，讀 Claude Code 47 MB 的壓縮程式碼",
+      "author": "huangserva",
+      "author_url": "https://x.com/servasyy_ai",
+      "date": "2026-10-10",
+      "lang": "zh",
+      "category": "Web / JS",
+      "target": "Claude Code（約 47 MB 壓縮 bundle）",
+      "summary": "讓 Muse 自動安裝 REA，再分析 Claude Code 的壓縮程式包並錄影展示。沒有公開具體還原了哪些模組。",
+      "metric": "X 上 11.4 萬瀏覽",
+      "wow": 3,
+      "status": "reported",
+      "links": [
+        {
+          "label": "原帖",
+          "url": "https://x.com/servasyy_ai/status/2108846931183378537"
+        }
+      ]
+    },
+    {
+      "added": "2026-10-12",
+      "source": "community",
+      "id": "encrypted-lib-rewrite",
+      "title": "分析加密二進位函式庫，讓 Claude Code 重寫出替代實作",
+      "author": "Leo Xiang",
+      "author_url": "https://x.com/leeoxiang",
+      "date": "2026-10-11",
+      "lang": "zh",
+      "category": "Native",
+      "target": "未公開的加密二進位函式庫",
+      "summary": "先用 REA 分析只能呼叫、看不懂的加密函式庫，再讓 Claude Code 依分析結果重新實作，作者表示評測指標與原庫接近。庫名與測試方法未公開。",
+      "metric": "X 上 11 萬瀏覽",
+      "wow": 3,
+      "status": "reported",
+      "links": [
+        {
+          "label": "原帖",
+          "url": "https://x.com/leeoxiang/status/2109159806183538768"
+        }
+      ]
+    },
+    {
+      "added": "2026-10-12",
+      "source": "community",
+      "id": "windows-calc-percent",
+      "title": "還原 Windows 計算機「%」在加法與乘法中的不同規則",
+      "author": "REA 貢獻者",
+      "author_url": "https://github.com/morluto/rea/pull/1272",
+      "date": null,
+      "lang": "en",
+      "category": "Native",
+      "target": "Windows 計算機 CalcViewModel.dll",
+      "summary": "先發現 calc.exe 只是啟動器，再用 REA 檢查 CalcViewModel.dll 的運算分支，對照微軟公開原始碼，還原加減與乘除使用不同百分比規則的邏輯，做成互動 demo。",
+      "metric": "DLL 分支與公開原始碼交叉驗證",
+      "wow": 3,
+      "status": "tested",
+      "links": [
+        {
+          "label": "PR #1272",
+          "url": "https://github.com/morluto/rea/pull/1272"
+        },
+        {
+          "label": "證據",
+          "url": "https://github.com/morluto/rea/blob/main/website/evidence/calculator-and-dino.md"
+        }
+      ]
+    },
+    {
+      "added": "2026-10-12",
+      "source": "community",
+      "id": "netcat-audit",
+      "title": "靜態審查 Ubuntu 的 netcat 二進位，確認沒有後門",
+      "author": "NullLabTests",
+      "author_url": "https://github.com/NullLabTests",
+      "date": "2026-10-09",
+      "lang": "en",
+      "category": "Native / 資安",
+      "target": "netcat-openbsd 1.234-1（stripped PIE）",
+      "summary": "不執行、只用 REA 6.2.0 + Ghidra 做靜態分析，比對版本字串、選項表與所有匯入符號，每個結論都附上 files/ 裡的原始證據檔。結論是與上游套件一致、保護全開、沒有被植入程式碼的跡象。",
+      "metric": "每項結論都附證據檔",
+      "wow": 3,
+      "status": "tested",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/NullLabTests/OpenBSD_netcat_REA"
+        }
+      ]
+    },
+    {
+      "added": "2026-10-12",
+      "source": "community",
+      "id": "openbattlefield2",
+      "title": "OpenBattlefield2：重新實作《戰地風雲 2》的 Refractor 2 引擎",
+      "author": "Moxnatiy",
+      "author_url": "https://github.com/Moxnatiy",
+      "date": null,
+      "lang": "en",
+      "category": "Native / 遊戲",
+      "target": "Battlefield 2（2005）Refractor 2 引擎",
+      "summary": "以 C++20 做 clean-room 引擎重製，讀取玩家自己安裝的遊戲內容。repo 內附 tools/rea.sh，用 REA + Ghidra 對各個二進位做快照分析。射擊、載具與音效仍在進行中。",
+      "metric": "★39 的引擎重製專案",
+      "wow": 3,
+      "status": "shipped",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/Moxnatiy/OpenBattlefield2"
+        }
+      ]
+    },
+    {
+      "added": "2026-10-12",
+      "source": "community",
+      "id": "vsl-dsp",
+      "title": "為 PreSonus AudioBox VSL 錄音介面寫 Linux 驅動",
+      "author": "grisuno",
+      "author_url": "https://github.com/grisuno",
+      "date": null,
+      "lang": "en",
+      "category": "韌體 / 硬體",
+      "target": "PreSonus AudioBox VSL 系列 USB 音訊介面",
+      "summary": "開源 Linux 核心模組與 DSP 參數工具。廠商協定研究的一部分透過 LazyOwn 的 REA 整合完成。批次 I/O 仍需硬體驗證。",
+      "metric": "Linux 核心模組",
+      "wow": 3,
+      "status": "shipped",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/grisuno/VSL-DSP"
+        }
+      ]
+    },
+    {
+      "added": "2026-10-12",
+      "source": "community",
+      "id": "dino-speed",
+      "title": "小恐龍跑酷遊戲什麼時候加速、每次加多少",
+      "author": "REA 貢獻者",
+      "author_url": "https://github.com/morluto/rea/pull/1203",
+      "date": null,
+      "lang": "en",
+      "category": "Web / JS",
+      "target": "t-rex-runner 網頁版",
+      "summary": "用 REA 讀遊戲腳本，找到初始速度、加速度與更新分支，再用獨立的 Playwright 控制器在原頁面上驗證更新次數與速度的關係。",
+      "metric": "Playwright 實測驗證",
+      "wow": 2,
+      "status": "tested",
+      "links": [
+        {
+          "label": "PR #1203",
+          "url": "https://github.com/morluto/rea/pull/1203"
+        }
+      ]
+    },
+    {
+      "added": "2026-10-12",
+      "source": "community",
+      "id": "poker-organizer",
+      "title": "40 分鐘複製一款付費撲克牌桌整理工具",
+      "author": "trickstar",
+      "author_url": "https://x.com/lipinhobeats",
+      "date": "2026-10-12",
+      "lang": "en",
+      "category": "Native",
+      "target": "未公開的撲克牌桌管理 App",
+      "summary": "用 PowerShell 搭配 REA、Ghidra 與 Codex 重建牌桌整理功能，從此不必再付費。軟體名稱與原始碼未公開。",
+      "metric": "約 40 分鐘",
+      "wow": 2,
+      "status": "reported",
+      "links": [
+        {
+          "label": "原帖",
+          "url": "https://x.com/lipinhobeats/status/2109435654962655526"
+        }
+      ]
+    },
+    {
+      "added": "2026-10-12",
+      "source": "community",
+      "id": "korean-practice",
+      "title": "韓文實作教材：用 REA 分析自製 Electron 與 C 程式",
+      "author": "jkf87（코난쌤）",
+      "author_url": "https://github.com/jkf87",
+      "date": "2026-10-12",
+      "lang": "ko",
+      "category": "教學",
+      "target": "自製 Electron 筆記 App、仿 DX-Ball 的 C 程式",
+      "summary": "搭配 YouTube 影片的實作 repo。另附在 Apple Silicon Mac 上自行編譯 Ghidra arm64 反編譯器的腳本，補上官方文件沒有的部分。",
+      "metric": "補上 Ghidra arm64 建置腳本",
+      "wow": 2,
+      "status": "shipped",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/jkf87/rea-practice"
+        }
+      ]
+    },
+    {
+      "added": "2026-10-12",
+      "source": "community",
+      "id": "fathom-rust",
+      "title": "fathom：依 REA 公開介面寫的 Rust clean-room 移植",
+      "author": "Qompass AI",
+      "author_url": "https://github.com/qompassai",
+      "date": "2026-10-10",
+      "lang": "en",
+      "category": "工具鏈",
+      "target": "REA 本身",
+      "summary": "不使用上游程式碼，依 REA 的公開契約用 Rust 重寫，加入 fail-closed 策略閘門與簽章的 A2A agent card，讓供應鏈可釘選、可稽核。",
+      "metric": "Rust 重寫 + 策略閘門",
+      "wow": 2,
+      "status": "shipped",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/qompassai/fathom"
+        }
+      ]
+    },
+    {
+      "added": "2026-10-12",
+      "source": "community",
+      "id": "tracebrief",
+      "title": "TraceBrief：把 REA 證據包變成可驗證的報告",
+      "author": "dany331x",
+      "author_url": "https://github.com/dany331x",
+      "date": "2026-10-09",
+      "lang": "en",
+      "category": "工具鏈",
+      "target": "REA Evidence bundle",
+      "summary": "Agent 只負責寫結論，確定性的腳本檢查每條結論引用的 Evidence 是否真的存在，引用不成立就拒絕產出報告。",
+      "metric": "引用不存在就拒絕發佈",
+      "wow": 2,
+      "status": "shipped",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/dany331x/tracebrief"
+        }
+      ]
+    },
+    {
+      "added": "2026-10-12",
+      "source": "community",
+      "id": "pt-guide",
+      "title": "葡／英／西三語的 REA 指南與案例整理",
+      "author": "inematds",
+      "author_url": "https://github.com/inematds",
+      "date": null,
+      "lang": "pt",
+      "category": "教學",
+      "target": "REA 入門",
+      "summary": "以葡萄牙文為主、附英文與西班牙文，整理 REA 的用法、案例、評估與注意事項。",
+      "metric": "三語指南",
+      "wow": 1,
+      "status": "shipped",
+      "links": [
+        {
+          "label": "指南",
+          "url": "https://inematds.github.io/rea-engenharia-reversa/guia/"
+        }
+      ]
+    }
+  ],
+  "ignore": [
+    "https://github.com/inematds/rea-engenharia-reversa"
+  ]
+}

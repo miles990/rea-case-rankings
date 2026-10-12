@@ -1,0 +1,1325 @@
+{
+  "dx-ball-sound-pan": {
+    "hash": "4bc60fb5874d",
+    "en": {
+      "title": "DX-Ball (1996) Sound Channel Calculation Recovered as C",
+      "summary": "Starting from the sound-playback calls, I traced back to the helper that maps position to channel, examined the instructions, callers and numeric constants, and turned the incomplete pseudocode into a compilable C function.",
+      "target": "DX-Ball (Windows x86)",
+      "metric": "All 3,205 raw x86 tests pass; 63 bytes of machine code identical byte for byte"
+    },
+    "zh-CN": {
+      "title": "DX-Ball（1996）音效声道计算还原为 C",
+      "summary": "从播放音效的调用追到“位置转声道”的辅助函数,检查指令、调用方与数值常量,把不完整的伪代码补成可编译的 C 函数。",
+      "target": "DX-Ball（Windows x86）",
+      "metric": "3,205 个原始 x86 测试全部通过,63 bytes 机器码逐字节一致"
+    },
+    "ja": {
+      "title": "DX-Ball(1996)の音声チャンネル計算を C に復元",
+      "summary": "効果音を再生する呼び出しから「位置→チャンネル」変換のヘルパー関数まで辿り、命令・呼び出し元・数値定数を調べて、不完全な疑似コードをコンパイル可能な C 関数に仕上げた。",
+      "target": "DX-Ball(Windows x86)",
+      "metric": "生の x86 テスト 3,205 件がすべて合格、63 bytes の機械語がバイト単位で一致"
+    },
+    "ko": {
+      "title": "DX-Ball(1996) 사운드 채널 계산을 C로 복원",
+      "summary": "효과음을 재생하는 호출에서 '위치→채널' 변환 헬퍼 함수까지 추적해 명령어, 호출부, 숫자 상수를 점검하고, 불완전한 의사 코드를 컴파일 가능한 C 함수로 완성했다.",
+      "target": "DX-Ball(Windows x86)",
+      "metric": "원시 x86 테스트 3,205개 전부 통과, 63 bytes 기계어가 바이트 단위로 동일"
+    }
+  },
+  "obsidian-quick-switcher": {
+    "hash": "311b0560cd58",
+    "en": {
+      "title": "Recovering the Sorting Algorithm of Obsidian's Quick Switcher",
+      "summary": "Using REA, Claude identified the quick switcher's fuzzy matching and penalty-based ranking and rebuilt it in about 4 minutes, then compared it against the original entry by entry. When the REA index failed on the minified bundle, Claude read the 3.7 MB of minified JS directly. It also catalogued all 42 of Obsidian's IPC channels.",
+      "target": "Obsidian",
+      "metric": "4,915 query results match exactly"
+    },
+    "zh-CN": {
+      "title": "还原 Obsidian 快速切换器的排序算法",
+      "summary": "Claude 用 REA 找出 quick switcher 的模糊匹配与扣分制排序,约 4 分钟重建,并与原版逐条比对。REA 索引在压缩 bundle 上失效时,Claude 改为直接读取 3.7 MB 的压缩 JS。此外还完整列出了 Obsidian 的 42 个 IPC 通道。",
+      "target": "Obsidian",
+      "metric": "4,915 条查询结果完全一致"
+    },
+    "ja": {
+      "title": "Obsidian クイックスイッチャーのソートアルゴリズムを復元",
+      "summary": "Claude は REA で quick switcher のあいまい一致と減点方式のソートを突き止め、約 4 分で再構築し、オリジナルと1件ずつ照合した。REA のインデックスが圧縮済み bundle で機能しなかったため、3.7 MB の圧縮 JS を直接読む方式に切り替えた。さらに Obsidian の 42 個の IPC チャンネルも網羅的に洗い出した。",
+      "target": "Obsidian",
+      "metric": "4,915 件のクエリ結果が完全一致"
+    },
+    "ko": {
+      "title": "Obsidian 퀵 스위처의 정렬 알고리즘 복원",
+      "summary": "Claude는 REA로 quick switcher의 퍼지 매칭과 감점제 정렬을 찾아내 약 4분 만에 재구현하고, 원본과 건별로 대조했다. REA 인덱스가 압축된 bundle에서 작동하지 않자 3.7 MB의 압축 JS를 직접 읽는 방식으로 전환했다. 또한 Obsidian의 IPC 채널 42개를 모두 정리했다.",
+      "target": "Obsidian",
+      "metric": "쿼리 결과 4,915건 완전 일치"
+    }
+  },
+  "zwo-asiair": {
+    "hash": "e66b3a63848f",
+    "en": {
+      "title": "Teardown of ZWO ASIAIR Firmware Reveals an Unencrypted Control Protocol",
+      "summary": "Pure static analysis without the physical device: the ASIAIR turns out to be a three-layer patchwork of a heavily modified INDI and a heavily modified Raspberry Pi OS (32-bit armhf), embedding FFmpeg 4.2.2-Kodi, OpenCV, TUTK P2P and an RKNN tracking model. Primary control runs over plaintext JSON-RPC on port 4700. The vendor firmware is not redistributed, and the project is looking for someone with the hardware to take over.",
+      "target": "ZWO ASIAIR (astrophotography controller)",
+      "metric": "Plaintext JSON-RPC (port 4700); firmware acquisition routes across three hardware generations"
+    },
+    "zh-CN": {
+      "title": "拆解 ZWO ASIAIR 天文控制盒固件,发现控制协议未加密",
+      "summary": "在手边没有实机的情况下纯静态分析:ASIAIR 其实是魔改 INDI + 魔改 Raspberry Pi OS(32-bit armhf)的三层拼装,内嵌 FFmpeg 4.2.2-Kodi、OpenCV、TUTK P2P、RKNN 追踪模型。主控制走 4700 端口的明文 JSON-RPC。不分发原厂固件,并公开征求有实机的人接手。",
+      "target": "ZWO ASIAIR(天文摄影控制器)",
+      "metric": "明文 JSON-RPC(端口 4700)、三代硬件的固件获取路线"
+    },
+    "ja": {
+      "title": "天体撮影コントローラ ZWO ASIAIR のファームウェアを解析、制御プロトコルが暗号化されていないことを発見",
+      "summary": "実機なしの純粋な静的解析。ASIAIR は大幅に改造した INDI と改造版 Raspberry Pi OS(32-bit armhf)による三層構成で、FFmpeg 4.2.2-Kodi、OpenCV、TUTK P2P、RKNN 追跡モデルを内蔵している。主制御はポート 4700 の平文 JSON-RPC で行われる。純正ファームウェアは配布せず、実機を持つ方への引き継ぎを公募している。",
+      "target": "ZWO ASIAIR(天体撮影コントローラ)",
+      "metric": "平文 JSON-RPC(ポート 4700)、3世代のハードウェアにわたるファームウェア入手ルート"
+    },
+    "ko": {
+      "title": "ZWO ASIAIR 천체 촬영 컨트롤러 펌웨어 분석, 제어 프로토콜이 암호화되지 않음을 발견",
+      "summary": "실기기 없이 순수 정적 분석으로 진행했다. ASIAIR는 개조된 INDI와 개조된 Raspberry Pi OS(32-bit armhf)로 이루어진 3계층 구조이며, FFmpeg 4.2.2-Kodi, OpenCV, TUTK P2P, RKNN 추적 모델이 내장되어 있다. 주 제어는 4700 포트의 평문 JSON-RPC로 이루어진다. 공식 펌웨어는 배포하지 않으며, 실기기를 가진 분의 인수를 공개 모집한다.",
+      "target": "ZWO ASIAIR(천체 촬영 컨트롤러)",
+      "metric": "평문 JSON-RPC(포트 4700), 3세대 하드웨어의 펌웨어 확보 경로"
+    }
+  },
+  "dotey-claude-slides": {
+    "hash": "09cd84d9fec5",
+    "en": {
+      "title": "Reverse-Engineering the Claude Slides Editor into a Near-Complete Replica",
+      "summary": "The goal was to bring the Claude Slides editing experience into my own video agent, BaoCut. I had Codex install REA and used the REA Skill for a first-pass recovery of the obfuscated frontend, then handed it to Claude Code for a structural rewrite. Rather than extracting the system prompt verbatim, I had the model imitate its behavior to generate an equivalent prompt. The result has been committed into BaoCut.",
+      "target": "Claude Slides editor",
+      "metric": "Near-complete feature replication"
+    },
+    "zh-CN": {
+      "title": "逆向 Claude Slides 编辑器,近乎完整复刻",
+      "summary": "想把 Claude Slides 的编辑体验搬进自己的视频 Agent BaoCut。用 Codex 安装 REA、以 REA Skill 对混淆前端做初步还原,再交给 Claude Code 做结构重写;系统提示词不硬抽,而是让模型“模仿效果”生成等效 prompt。成果已提交进 BaoCut。",
+      "target": "Claude Slides 编辑器",
+      "metric": "近乎完整的功能复刻"
+    },
+    "ja": {
+      "title": "Claude Slides エディタをリバースエンジニアリングし、ほぼ完全に再現",
+      "summary": "Claude Slides の編集体験を自作の動画 Agent「BaoCut」に取り込むのが目的。Codex で REA をインストールし、REA Skill で難読化されたフロントエンドを初期復元した後、Claude Code に構造の書き直しを任せた。システムプロンプトは無理に抽出せず、モデルに「効果を真似」させて等価な prompt を生成した。成果は BaoCut にコミット済み。",
+      "target": "Claude Slides エディタ",
+      "metric": "ほぼ完全な機能再現"
+    },
+    "ko": {
+      "title": "Claude Slides 에디터를 리버스 엔지니어링해 거의 완벽하게 재현",
+      "summary": "Claude Slides의 편집 경험을 자체 영상 Agent인 BaoCut에 가져오는 것이 목표였다. Codex로 REA를 설치하고 REA Skill로 난독화된 프런트엔드를 1차 복원한 뒤, Claude Code에 구조 재작성을 맡겼다. 시스템 프롬프트는 억지로 추출하지 않고 모델이 '효과를 모방'하게 해 동등한 prompt를 생성했다. 결과물은 BaoCut에 커밋되었다.",
+      "target": "Claude Slides 에디터",
+      "metric": "거의 완전한 기능 재현"
+    }
+  },
+  "ski-or-die": {
+    "hash": "e52a3a561b44",
+    "en": {
+      "title": "The Snowball Fight from the 1990 DOS Game Ski or Die, Rebuilt in Rust",
+      "summary": "I analyzed the original executable, recovered the snowball-fight minigame's rules with supporting evidence and wrote them up as a spec, then rebuilt the game from scratch in Rust + SDL2 following that spec. Assets are generated locally from the player's own copy of the original game; the repo contains no original files.",
+      "target": "Ski or Die (EA, 1990, MS-DOS)",
+      "metric": "Playable Rust + SDL2 rebuild"
+    },
+    "zh-CN": {
+      "title": "1990 年 DOS 游戏 Ski or Die 的雪球大战,用 Rust 重新做出来",
+      "summary": "分析原版可执行文件、带证据还原雪球大战小游戏的规则并写成规格,再依规格用 Rust + SDL2 从零重建。素材由玩家自己的原版游戏在本机生成,repo 不含任何原版文件。",
+      "target": "Ski or Die(EA,1990,MS-DOS)",
+      "metric": "可玩的 Rust + SDL2 重建版"
+    },
+    "ja": {
+      "title": "1990年の DOS ゲーム Ski or Die の雪合戦を Rust で作り直す",
+      "summary": "オリジナルの実行ファイルを解析し、雪合戦ミニゲームのルールを根拠付きで復元して仕様書にまとめ、その仕様に沿って Rust + SDL2 でゼロから再構築した。素材はプレイヤー自身が持つ original ゲームからローカルで生成する方式で、repo にオリジナルのファイルは一切含まれない。",
+      "target": "Ski or Die(EA、1990、MS-DOS)",
+      "metric": "プレイ可能な Rust + SDL2 再構築版"
+    },
+    "ko": {
+      "title": "1990년 DOS 게임 Ski or Die의 눈싸움을 Rust로 다시 만들다",
+      "summary": "원본 실행 파일을 분석해 눈싸움 미니게임의 규칙을 근거와 함께 복원하고 명세서로 정리한 뒤, 그 명세에 따라 Rust + SDL2로 처음부터 재구축했다. 에셋은 플레이어가 가진 원본 게임에서 로컬로 생성하며, repo에는 원본 파일이 전혀 포함되어 있지 않다.",
+      "target": "Ski or Die(EA, 1990, MS-DOS)",
+      "metric": "플레이 가능한 Rust + SDL2 재구축판"
+    }
+  },
+  "touhou-factory": {
+    "hash": "b0ba3f3a52bf",
+    "en": {
+      "title": "Touhou Project: Three Titles Rebuilt Function by Function, with TH08 Now Playable on Linux and in the Browser",
+      "summary": "An Agent analyzes the original executables and recovers C++ function by function, then compiles and compares the result against the original binary, aiming for runnable, maintainable source code. TH08 has playable Linux and browser builds, and TH095 has a playable Windows rebuild.",
+      "target": "Imperishable Night (TH08), Shoot the Bullet (TH095), Mystic Square (TH04)",
+      "metric": "TH08 source rebuild ★105, playable cross-platform"
+    },
+    "zh-CN": {
+      "title": "东方 Project 三部作逐函数重建,TH08 已能在 Linux 与浏览器上玩",
+      "summary": "用 Agent 分析原始可执行文件,逐函数恢复 C++,再编译并与原二进制比对,目标是可运行、可维护的源代码。TH08 已有 Linux 与浏览器可玩版本,TH095 有可玩的 Windows 重建版。",
+      "target": "东方永夜抄 TH08、东方文花帖 TH095、东方幻想乡 TH04",
+      "metric": "TH08 源代码重建 ★105,跨平台可玩"
+    },
+    "ja": {
+      "title": "東方Project 三作を関数単位で再構築、TH08 は Linux とブラウザでプレイ可能に",
+      "summary": "Agent で元の実行ファイルを解析し、関数ごとに C++ を復元。コンパイルして元のバイナリと照合し、実行可能で保守しやすいソースコードを目指している。TH08 には Linux 版とブラウザ版のプレイ可能なビルドがあり、TH095 にはプレイ可能な Windows 再構築版がある。",
+      "target": "東方永夜抄 TH08、東方文花帖 TH095、東方幻想郷 TH04",
+      "metric": "TH08 ソースコード再構築 ★105、クロスプラットフォームでプレイ可能"
+    },
+    "ko": {
+      "title": "동방 Project 세 작품을 함수 단위로 재구축, TH08은 Linux와 브라우저에서 플레이 가능",
+      "summary": "Agent로 원본 실행 파일을 분석해 함수별로 C++를 복원하고, 컴파일한 뒤 원본 바이너리와 대조한다. 실행 가능하고 유지보수할 수 있는 소스 코드가 목표다. TH08은 Linux와 브라우저에서 플레이 가능한 빌드가 있고, TH095는 플레이 가능한 Windows 재구축판이 있다.",
+      "target": "동방영야초 TH08, 동방문화첩 TH095, 동방환상향 TH04",
+      "metric": "TH08 소스 코드 재구축 ★105, 크로스 플랫폼 플레이 가능"
+    }
+  },
+  "th04-bullet-ring": {
+    "hash": "4c0b03e1f8da",
+    "en": {
+      "title": "Touhou Gensokyo TH04 (PC-98 DOS): Ring Bullet Aiming Calculation",
+      "summary": "Examines the original 16-bit angle helper function, maps its multiplication, division, and coordinate operations to readable C++, and compares the result against the period compiler's output to reproduce the ring of bullets aimed at the player.",
+      "target": "TH04 (16-bit DOS)",
+      "metric": "Compared against historical compiler output"
+    },
+    "zh-CN": {
+      "title": "东方幻想乡 TH04（PC-98 DOS）环状弹幕瞄准计算",
+      "summary": "检查原版 16-bit 角度辅助函数，把乘法、除法与坐标运算对应成可读的 C++，并与当年编译器的输出比较，重现朝玩家瞄准的子弹环。",
+      "target": "TH04（16-bit DOS）",
+      "metric": "与历史编译器输出比对"
+    },
+    "ja": {
+      "title": "東方幻想郷 TH04（PC-98 DOS）環状弾幕の照準計算",
+      "summary": "オリジナルの 16-bit 角度補助関数を調べ、乗算・除算・座標演算を読みやすい C++ に対応づけ、当時のコンパイラの出力と比較して、プレイヤーを狙う弾の輪を再現した。",
+      "target": "TH04（16-bit DOS）",
+      "metric": "当時のコンパイラ出力と照合"
+    },
+    "ko": {
+      "title": "동방환상향 TH04(PC-98 DOS) 환형 탄막 조준 계산",
+      "summary": "원본 16-bit 각도 보조 함수를 분석해 곱셈·나눗셈·좌표 연산을 읽기 쉬운 C++로 대응시키고, 당시 컴파일러의 출력과 비교하여 플레이어를 향하는 탄환 고리를 재현했다.",
+      "target": "TH04(16-bit DOS)",
+      "metric": "당시 컴파일러 출력과 비교"
+    }
+  },
+  "wispr-flow-az9713": {
+    "hash": "fccbdca513c7",
+    "en": {
+      "title": "Wispr Flow Static Teardown + 64-Line Local Rebuild: flowlite",
+      "summary": "Follows Eric Tech's video. The teardown report labels every conclusion about audio capture, transcription, and text pasting as \"confirmed / inferred / unknown\", and also records why Ghidra failed to run at first and what it ultimately confirmed. Includes the full development log and test results.",
+      "target": "Wispr Flow 1.6.1102",
+      "metric": "64-line Python rebuild: hold F9 to speak"
+    },
+    "zh-CN": {
+      "title": "Wispr Flow 静态拆解 + 64 行本地重建 flowlite",
+      "summary": "跟着 Eric Tech 的视频实操。拆解报告把收音、转录、粘贴文字的每个结论标成“已证实／推论／未知”，另记录 Ghidra 为何一开始没跑起来、后来证实了什么。附完整开发记录与测试结果。",
+      "target": "Wispr Flow 1.6.1102",
+      "metric": "64 行 Python 重建：按住 F9 说话"
+    },
+    "ja": {
+      "title": "Wispr Flow の静的解析 + 64 行のローカル再実装 flowlite",
+      "summary": "Eric Tech の動画に沿って実践。解析レポートでは、音声取得・文字起こし・テキスト貼り付けの各結論を「確認済み／推測／不明」に分類し、Ghidra が最初に動かなかった理由と、その後に確認できた内容も記録した。開発ログ全文とテスト結果付き。",
+      "target": "Wispr Flow 1.6.1102",
+      "metric": "64 行の Python で再実装：F9 を押している間だけ音声入力"
+    },
+    "ko": {
+      "title": "Wispr Flow 정적 분석 + 64줄 로컬 재구현 flowlite",
+      "summary": "Eric Tech의 영상을 따라 직접 실습했다. 분석 보고서는 음성 수집·전사·텍스트 붙여넣기에 대한 모든 결론을 '확인됨／추정／미확인'으로 표시하고, Ghidra가 처음에 실행되지 않은 이유와 이후 확인된 내용도 기록했다. 전체 개발 기록과 테스트 결과를 첨부했다.",
+      "target": "Wispr Flow 1.6.1102",
+      "metric": "64줄 Python 재구현: F9를 누르고 있는 동안 음성 입력"
+    }
+  },
+  "codex-browser-annotation": {
+    "hash": "c12d9d8dd8cd",
+    "en": {
+      "title": "Finding the Hidden Interface That Opens the Comment Box in Codex's Built-in Browser",
+      "summary": "Wanting to hook their own web page into the Codex browser's annotation interaction, the author used Codex + REA to inspect the Electron code and build a test page. They found that document.oai.annotation.request() pops up the comment box and pre-fills content, but the result cannot be attached directly to the chat input.",
+      "target": "Codex / ChatGPT App built-in browser",
+      "metric": "Found document.oai.annotation.request()"
+    },
+    "zh-CN": {
+      "title": "找出 Codex 内置浏览器唤起评论框的隐藏接口",
+      "summary": "想让自己的网页接入 Codex 浏览器的标注交互，用 Codex + REA 查 Electron 代码并做测试页。发现可用 document.oai.annotation.request() 弹出评论框并填入内容，但无法直接附加到对话输入框。",
+      "target": "Codex / ChatGPT App 内置浏览器",
+      "metric": "找到 document.oai.annotation.request()"
+    },
+    "ja": {
+      "title": "Codex 内蔵ブラウザでコメントボックスを呼び出す隠しインターフェースの発見",
+      "summary": "自分の Web ページを Codex ブラウザの注釈操作に連携させたいと考え、Codex + REA で Electron のコードを調査してテストページを作成。document.oai.annotation.request() でコメントボックスを表示し内容を入力できることが分かったが、チャット入力欄へ直接添付することはできなかった。",
+      "target": "Codex / ChatGPT App 内蔵ブラウザ",
+      "metric": "document.oai.annotation.request() を発見"
+    },
+    "ko": {
+      "title": "Codex 내장 브라우저에서 댓글 창을 띄우는 숨겨진 인터페이스 찾기",
+      "summary": "자신의 웹 페이지를 Codex 브라우저의 주석 상호작용에 연결하고 싶어 Codex + REA로 Electron 코드를 조사하고 테스트 페이지를 만들었다. document.oai.annotation.request()로 댓글 창을 띄워 내용을 채울 수 있음을 발견했지만, 대화 입력창에 직접 첨부할 수는 없었다.",
+      "target": "Codex / ChatGPT App 내장 브라우저",
+      "metric": "document.oai.annotation.request() 발견"
+    }
+  },
+  "nextjs-stripe-leak-check": {
+    "hash": "9d308dbe2432",
+    "en": {
+      "title": "Leak Check of a Production Next.js + Stripe System from the Outside",
+      "summary": "Without looking at the source code, the author used REA's browser tools to inspect 694 KB of JS: no keys, all source maps return 404, and forged tokens and unsigned webhooks are both rejected. The only real issue is that the login form is reachable over plain HTTP. On the same Windows machine, Ghidra was also used to analyze a PE and JADX to analyze an APK.",
+      "target": "Own customer portal (Next.js 16, Postgres, Stripe)",
+      "metric": "Found 1 real vulnerability (HTTP login page)"
+    },
+    "zh-CN": {
+      "title": "从外部对正式上线的 Next.js + Stripe 系统做泄露检查",
+      "summary": "不看源代码，用 REA 的浏览器工具检查 694 KB 的 JS：没有密钥、source map 全部 404、伪造 token 与未签名 webhook 都被拦截。唯一真实的问题是登录表单可通过纯 HTTP 访问。同一台 Windows 也用 Ghidra 分析 PE、用 JADX 分析 APK。",
+      "target": "自家客户门户网站（Next.js 16、Postgres、Stripe）",
+      "metric": "发现 1 个真实漏洞（HTTP 登录页）"
+    },
+    "ja": {
+      "title": "本番稼働中の Next.js + Stripe システムを外部から行う情報漏えいチェック",
+      "summary": "ソースコードは見ずに、REA のブラウザツールで 694 KB の JS を検査。キーは含まれておらず、source map はすべて 404、偽造 token や未署名の webhook もすべて拒否された。唯一の実際の問題は、ログインフォームにプレーンな HTTP でアクセスできること。同じ Windows マシンで、Ghidra による PE 解析と JADX による APK 解析も行った。",
+      "target": "自社の顧客ポータルサイト（Next.js 16、Postgres、Stripe）",
+      "metric": "実際の脆弱性を 1 件発見（HTTP のログインページ）"
+    },
+    "ko": {
+      "title": "운영 중인 Next.js + Stripe 시스템을 외부에서 점검한 유출 검사",
+      "summary": "소스 코드를 보지 않고 REA의 브라우저 도구로 694 KB 분량의 JS를 점검했다. 키는 없었고, source map은 전부 404였으며, 위조 token과 서명되지 않은 webhook도 모두 차단되었다. 유일한 실제 문제는 로그인 폼에 일반 HTTP로 접근할 수 있다는 점이다. 같은 Windows PC에서 Ghidra로 PE를, JADX로 APK를 분석하기도 했다.",
+      "target": "자사 고객 포털 사이트(Next.js 16, Postgres, Stripe)",
+      "metric": "실제 취약점 1건 발견(HTTP 로그인 페이지)"
+    }
+  },
+  "wispr-flow-eric": {
+    "hash": "38c10a8d4c12",
+    "en": {
+      "title": "Cloning Wispr Flow Voice Input: Hotkeys, Notes, and Local Transcription",
+      "summary": "A former senior engineer at Amazon / Microsoft demonstrates using REA with Hopper to analyze the speech-to-text app they use every day, and builds a version with hotkeys, notes, and local transcription. The takeaway: \"code is no longer the moat; brand and users are.\"",
+      "target": "Wispr Flow",
+      "metric": "96K video views"
+    },
+    "zh-CN": {
+      "title": "复刻 Wispr Flow 语音输入：快捷键、笔记、本地转录",
+      "summary": "前 Amazon / Microsoft 资深工程师演示用 REA 搭配 Hopper 分析他每天在用的语音转文字 App，做出含快捷键、笔记与本地转录的版本。结论是“代码不再是护城河，品牌与用户才是”。",
+      "target": "Wispr Flow",
+      "metric": "视频观看 9.6 万"
+    },
+    "ja": {
+      "title": "Wispr Flow の音声入力を再現：ショートカットキー、ノート、ローカル文字起こし",
+      "summary": "元 Amazon / Microsoft のシニアエンジニアが、毎日使っている音声文字起こしアプリを REA と Hopper で解析し、ショートカットキー、ノート、ローカル文字起こしを備えた版を作るまでを実演。結論は「コードはもはや堀ではなく、ブランドとユーザーこそが堀」。",
+      "target": "Wispr Flow",
+      "metric": "動画再生 9.6 万回"
+    },
+    "ko": {
+      "title": "Wispr Flow 음성 입력 복제: 단축키, 노트, 로컬 전사",
+      "summary": "전 Amazon / Microsoft 시니어 엔지니어가 매일 쓰는 음성 인식 앱을 REA와 Hopper로 분석해, 단축키·노트·로컬 전사를 갖춘 버전을 만드는 과정을 시연한다. 결론은 \"코드는 더 이상 해자가 아니며, 브랜드와 사용자가 해자\"라는 것이다.",
+      "target": "Wispr Flow",
+      "metric": "영상 조회수 9.6만"
+    }
+  },
+  "smart-toilet": {
+    "hash": "8716ac30af32",
+    "en": {
+      "title": "Analyzing a WeChat Mini Program's Bluetooth Protocol to Control a Smart Toilet from the Desktop Menu Bar",
+      "summary": "Used REA + Codex to analyze the Bluetooth communication of the WeChat mini program that controls a toilet, and built in about half an hour a small utility that opens and closes the lid from the computer's status bar. A first-hand usage report.",
+      "target": "Smart toilet's WeChat mini program",
+      "metric": "Done in about 30 minutes"
+    },
+    "zh-CN": {
+      "title": "分析微信小程序的蓝牙协议，从电脑菜单栏控制智能马桶",
+      "summary": "用 REA + Codex 分析控制马桶的微信小程序的蓝牙通信，约半小时做出能在电脑状态栏翻盖的小工具。属于第一手使用报告。",
+      "target": "智能马桶的微信小程序",
+      "metric": "约 30 分钟完成"
+    },
+    "ja": {
+      "title": "WeChat ミニプログラムの Bluetooth プロトコルを解析し、PC のメニューバーからスマートトイレを操作",
+      "summary": "REA + Codex でトイレを操作する WeChat ミニプログラムの Bluetooth 通信を解析し、約 30 分で PC のステータスバーから便座のふたを開閉できる小さなツールを作成。実際に使った一次レポート。",
+      "target": "スマートトイレの WeChat ミニプログラム",
+      "metric": "約 30 分で完成"
+    },
+    "ko": {
+      "title": "WeChat 미니 프로그램의 블루투스 프로토콜을 분석해 PC 메뉴 막대에서 스마트 변기 제어",
+      "summary": "REA + Codex로 변기를 제어하는 WeChat 미니 프로그램의 블루투스 통신을 분석하고, 약 30분 만에 PC 상태 표시줄에서 변기 뚜껑을 여닫는 작은 도구를 만들었다. 직접 사용해 본 1차 후기이다.",
+      "target": "스마트 변기의 WeChat 미니 프로그램",
+      "metric": "약 30분 만에 완성"
+    }
+  },
+  "notion-clipboard": {
+    "hash": "407afcf10d78",
+    "en": {
+      "title": "Tracing How Notion Copies Text and HTML",
+      "summary": "Starting from the clipboard API exposed to the renderer, through the preload and IPC wrappers, down to the main process's system clipboard, this shows how a small piece of HTML markup lets copied content keep its block data.",
+      "target": "Notion desktop app",
+      "metric": "Full path: renderer → preload → IPC → clipboard"
+    },
+    "zh-CN": {
+      "title": "追踪 Notion 如何复制文字与 HTML",
+      "summary": "从 renderer 暴露的剪贴板 API 出发，经 preload 与 IPC 封装，一路追到主进程的系统剪贴板，看出一小段 HTML 标记如何让复制内容保留块数据。",
+      "target": "Notion 桌面版",
+      "metric": "renderer → preload → IPC → 剪贴板完整路径"
+    },
+    "ja": {
+      "title": "Notion がテキストと HTML をコピーする仕組みを追う",
+      "summary": "renderer に公開されたクリップボード API から、preload と IPC のラッパーを経て、メインプロセスのシステムクリップボードまで追跡。小さな HTML マークアップによって、コピー内容がブロックデータを保持できる仕組みを明らかにする。",
+      "target": "Notion デスクトップ版",
+      "metric": "renderer → preload → IPC → クリップボードの全経路"
+    },
+    "ko": {
+      "title": "Notion이 텍스트와 HTML을 복사하는 방식 추적",
+      "summary": "renderer에 노출된 클립보드 API에서 시작해 preload와 IPC 래퍼를 거쳐 메인 프로세스의 시스템 클립보드까지 추적하며, 작은 HTML 마크업이 어떻게 복사된 내용에 블록 데이터를 보존하게 하는지 살펴본다.",
+      "target": "Notion 데스크톱 앱",
+      "metric": "renderer → preload → IPC → 클립보드 전체 경로"
+    }
+  },
+  "aegis-totp": {
+    "hash": "4b14f3b17a70",
+    "en": {
+      "title": "How the Aegis Authenticator Generates Six-Digit Login Codes",
+      "summary": "Finds how the six-digit code is computed inside the released APK and traces the generation flow, then uses a demo with an adjustable clock to show why the code changes every 30 seconds.",
+      "target": "Aegis Authenticator APK",
+      "metric": "TOTP rules recovered from the APK"
+    },
+    "zh-CN": {
+      "title": "Aegis 验证器如何生成六位数登录码",
+      "summary": "在已发布的 APK 中找到六位数验证码的计算方法并追踪生成流程，再用可调时钟的 demo 说明为何每 30 秒更换一次。",
+      "target": "Aegis Authenticator APK",
+      "metric": "从 APK 还原 TOTP 规则"
+    },
+    "ja": {
+      "title": "Aegis Authenticator が 6 桁のログインコードを生成する仕組み",
+      "summary": "公開済みの APK から 6 桁コードの計算方法を見つけて生成フローを追跡し、時計を調整できる demo で、なぜ 30 秒ごとにコードが変わるのかを説明する。",
+      "target": "Aegis Authenticator APK",
+      "metric": "APK から TOTP の規則を復元"
+    },
+    "ko": {
+      "title": "Aegis Authenticator가 6자리 로그인 코드를 생성하는 방식",
+      "summary": "배포된 APK에서 6자리 인증 코드의 계산 방법을 찾아 생성 흐름을 추적하고, 시계를 조절할 수 있는 demo로 코드가 왜 30초마다 바뀌는지 설명한다.",
+      "target": "Aegis Authenticator APK",
+      "metric": "APK에서 TOTP 규칙 복원"
+    }
+  },
+  "downunderctf": {
+    "hash": "10a7b9d166ca",
+    "en": {
+      "title": "Solving the DownUnderCTF Flag Checker",
+      "summary": "Locates the check function, turns the masks and sums into equations to solve, and finally confirms with the original program that the flag is correct.",
+      "target": "DownUnderCTF beginner challenge",
+      "metric": "Original program responds Correct!"
+    },
+    "zh-CN": {
+      "title": "解出 DownUnderCTF 的 flag 检查器",
+      "summary": "找出检查函数，把掩码与求和转成方程求解，最后用原程序验证 flag 正确。",
+      "target": "DownUnderCTF 入门题",
+      "metric": "原程序返回 Correct!"
+    },
+    "ja": {
+      "title": "DownUnderCTF の flag チェッカーを解く",
+      "summary": "チェック関数を特定し、マスクと合計値を方程式に変換して解き、最後に元のプログラムで flag が正しいことを確認する。",
+      "target": "DownUnderCTF 入門問題",
+      "metric": "元のプログラムが Correct! と応答"
+    },
+    "ko": {
+      "title": "DownUnderCTF의 flag 검사기 풀이",
+      "summary": "검사 함수를 찾아 마스크와 합계를 방정식으로 바꿔 풀고, 마지막으로 원본 프로그램으로 flag가 맞는지 검증한다.",
+      "target": "DownUnderCTF 입문 문제",
+      "metric": "원본 프로그램이 Correct! 응답"
+    }
+  },
+  "pi-desktop-electron": {
+    "hash": "0cc473486579",
+    "en": {
+      "title": "Testing on a 100 MB Electron App: Catching Two Missed preloads",
+      "summary": "Skips the agent and goes straight through the CLI and raw MCP calls, plus a five-file toy app with known answers for scoring. The conclusion: static JS analysis is fast and useful, but it missed two preload files that a simple grep can find.",
+      "target": "PI-Desktop v0.16.1 (app.asar 100 MB, 459 files)",
+      "metric": "Independent evaluation with a control group"
+    },
+    "zh-CN": {
+      "title": "对 100 MB Electron App 实测，抓出漏掉的两个 preload",
+      "summary": "不用 agent，直接走 CLI 与原始 MCP 调用，另做一个答案已知的五文件玩具 App 来评分。结论是静态 JS 分析快且好用，但漏了两个用 grep 就能看到的 preload 文件。",
+      "target": "PI-Desktop v0.16.1（app.asar 100 MB、459 个文件）",
+      "metric": "附对照组的独立评测"
+    },
+    "ja": {
+      "title": "100 MB の Electron App で実測し、見落とされた 2 つの preload を検出",
+      "summary": "agent は使わず、CLI と生の MCP 呼び出しを直接使い、答えが既知の 5 ファイルのおもちゃ App を別途用意して採点した。結論として、静的 JS 解析は速くて有用だが、grep で見つかる preload ファイルを 2 つ見落とした。",
+      "target": "PI-Desktop v0.16.1（app.asar 100 MB、459 ファイル）",
+      "metric": "対照群付きの独立評価"
+    },
+    "ko": {
+      "title": "100 MB Electron App 실측으로 놓친 preload 2개 찾아내기",
+      "summary": "agent 없이 CLI와 원시 MCP 호출을 직접 사용하고, 정답을 아는 5개 파일짜리 장난감 App을 따로 만들어 채점했다. 결론은 정적 JS 분석이 빠르고 쓸 만하지만, grep으로 바로 보이는 preload 파일 2개를 놓쳤다는 것이다.",
+      "target": "PI-Desktop v0.16.1 (app.asar 100 MB, 459개 파일)",
+      "metric": "대조군을 포함한 독립 평가"
+    }
+  },
+  "windows-calc-percent": {
+    "hash": "5cb12b8e2aa4",
+    "en": {
+      "title": "Recovering the Different \"%\" Rules for Addition and Multiplication in Windows Calculator",
+      "summary": "First discovers that calc.exe is only a launcher, then uses REA to inspect the operation branches in CalcViewModel.dll and cross-checks them against Microsoft's public source code. This recovers the logic where add/subtract and multiply/divide use different percentage rules, and turns it into an interactive demo.",
+      "target": "Windows Calculator CalcViewModel.dll",
+      "metric": "DLL branches cross-verified with public source"
+    },
+    "zh-CN": {
+      "title": "还原 Windows 计算器「%」在加法与乘法中的不同规则",
+      "summary": "先发现 calc.exe 只是启动器，再用 REA 检查 CalcViewModel.dll 的运算分支，对照微软公开源码，还原加减与乘除使用不同百分比规则的逻辑，做成交互式 demo。",
+      "target": "Windows 计算器 CalcViewModel.dll",
+      "metric": "DLL 分支与公开源码交叉验证"
+    },
+    "ja": {
+      "title": "Windows 電卓の「%」が加算と乗算で異なる規則を復元",
+      "summary": "まず calc.exe が単なるランチャーだと突き止め、REA で CalcViewModel.dll の演算分岐を調べ、Microsoft の公開ソースコードと照合。加減算と乗除算で異なるパーセント規則を使うロジックを復元し、インタラクティブな demo にした。",
+      "target": "Windows 電卓 CalcViewModel.dll",
+      "metric": "DLL の分岐と公開ソースを相互検証"
+    },
+    "ko": {
+      "title": "Windows 계산기 '%'가 덧셈과 곱셈에서 다르게 동작하는 규칙 복원",
+      "summary": "먼저 calc.exe가 단순한 런처임을 확인한 뒤, REA로 CalcViewModel.dll의 연산 분기를 살펴보고 Microsoft 공개 소스 코드와 대조했다. 덧셈·뺄셈과 곱셈·나눗셈이 서로 다른 퍼센트 규칙을 쓰는 로직을 복원해 인터랙티브 demo로 만들었다.",
+      "target": "Windows 계산기 CalcViewModel.dll",
+      "metric": "DLL 분기와 공개 소스 교차 검증"
+    }
+  },
+  "zenn-electron-known-answer": {
+    "hash": "40834d07881f",
+    "en": {
+      "title": "Using a Self-Written Electron App as Ground Truth to Test REA's Accuracy",
+      "summary": "Write an app with known answers first, then let REA analyze it. The reconstruction of IPC wiring, public APIs, and window settings is exactly correct down to the values, but the explanation of \"why this is a hidden feature\" is not produced automatically; you have to read the Evidence and connect the dots yourself.",
+      "target": "Custom Electron App (discount logic + hidden debug feature)",
+      "metric": "Structure reconstruction fully correct"
+    },
+    "zh-CN": {
+      "title": "用自写 Electron App 当标准答案，检验 REA 的准确度",
+      "summary": "先写好一个答案已知的 App 再让 REA 分析。IPC 接线、公开 API、窗口设置的重建在数值层面完全正确，但「为什么这是隐藏功能」这句解释不会自动产生，要自己读 Evidence 串起来。",
+      "target": "自制 Electron App（折扣逻辑 + 隐藏调试功能）",
+      "metric": "结构重建完全正确"
+    },
+    "ja": {
+      "title": "自作 Electron App を正解にして REA の精度を検証",
+      "summary": "答えが既知の App を先に作ってから REA に解析させた。IPC の配線、公開 API、ウィンドウ設定の再構築は数値レベルで完全に正確だったが、「なぜこれが隠し機能なのか」という説明は自動では生成されず、Evidence を自分で読んでつなぎ合わせる必要がある。",
+      "target": "自作 Electron App（割引ロジック + 隠しデバッグ機能）",
+      "metric": "構造の再構築は完全に正確"
+    },
+    "ko": {
+      "title": "직접 만든 Electron App을 정답지로 삼아 REA의 정확도 검증",
+      "summary": "정답을 아는 App을 먼저 만든 뒤 REA에게 분석시켰다. IPC 배선, 공개 API, 창 설정의 복원은 수치 단위까지 완전히 정확했지만, '왜 이것이 숨겨진 기능인가'라는 설명은 자동으로 나오지 않아 Evidence를 직접 읽고 연결해야 한다.",
+      "target": "자작 Electron App (할인 로직 + 숨겨진 디버그 기능)",
+      "metric": "구조 복원 완전 정확"
+    }
+  },
+  "netcat-audit": {
+    "hash": "ebb925935bcb",
+    "en": {
+      "title": "Static review of Ubuntu's netcat binary confirms no backdoor",
+      "summary": "Without running it, static analysis with REA 6.2.0 + Ghidra compared version strings, the option table, and all imported symbols. Every conclusion is backed by the raw evidence files in files/. The result: it matches the upstream package, all hardening is enabled, and there are no signs of injected code.",
+      "target": "netcat-openbsd 1.234-1 (stripped PIE)",
+      "metric": "Every conclusion backed by an evidence file"
+    },
+    "zh-CN": {
+      "title": "静态审查 Ubuntu 的 netcat 二进制文件,确认没有后门",
+      "summary": "不执行程序,仅用 REA 6.2.0 + Ghidra 做静态分析,比对版本字符串、选项表和所有导入符号,每个结论都附上 files/ 中的原始证据文件。结论是与上游软件包一致、保护全开、没有被植入代码的迹象。",
+      "target": "netcat-openbsd 1.234-1(stripped PIE)",
+      "metric": "每项结论都附证据文件"
+    },
+    "ja": {
+      "title": "Ubuntu の netcat バイナリを静的解析し、バックドアがないことを確認",
+      "summary": "実行はせず、REA 6.2.0 + Ghidra による静的解析のみで、バージョン文字列、オプションテーブル、全インポートシンボルを照合。各結論には files/ 内の生の証拠ファイルを添付しています。結果は、アップストリームのパッケージと一致し、保護機構はすべて有効で、コードが埋め込まれた形跡もありませんでした。",
+      "target": "netcat-openbsd 1.234-1(stripped PIE)",
+      "metric": "すべての結論に証拠ファイルを添付"
+    },
+    "ko": {
+      "title": "Ubuntu의 netcat 바이너리를 정적 분석해 백도어가 없음을 확인",
+      "summary": "실행하지 않고 REA 6.2.0 + Ghidra로 정적 분석만 수행해 버전 문자열, 옵션 테이블, 모든 임포트 심볼을 대조했습니다. 각 결론에는 files/의 원본 증거 파일을 첨부했습니다. 결과적으로 업스트림 패키지와 일치하고, 보호 기능이 모두 켜져 있으며, 코드가 삽입된 흔적은 없었습니다.",
+      "target": "netcat-openbsd 1.234-1 (stripped PIE)",
+      "metric": "모든 결론에 증거 파일 첨부"
+    }
+  },
+  "kingy-notes-exporter": {
+    "hash": "e0d08fda711c",
+    "en": {
+      "title": "Tracing a note-export feature, with a rewritten CSV formatter passing every test",
+      "summary": "Traced from the renderer to the main-process handler, wrote a separate CSV formatter based on REA's findings, then compared it byte by byte against a second parser. Only free software was used throughout.",
+      "target": "Note export in a public Electron sample",
+      "metric": "All 14 test cases match"
+    },
+    "zh-CN": {
+      "title": "追踪笔记导出功能,重写的 CSV 格式器全部通过",
+      "summary": "从 renderer 追踪到主进程 handler,依据 REA 的发现另写一个 CSV 格式器,再用第二个解析器逐字节比对。全程只使用免费软件。",
+      "target": "公开 Electron 示例的笔记导出",
+      "metric": "14 个测试用例全部吻合"
+    },
+    "ja": {
+      "title": "ノートのエクスポート機能を追跡し、書き直した CSV フォーマッターが全テストに合格",
+      "summary": "renderer からメインプロセスの handler までを追跡し、REA の調査結果に基づいて CSV フォーマッターを別途実装。その出力を 2 つ目のパーサーとバイト単位で比較しました。作業全体を通して無料のソフトウェアのみを使用しています。",
+      "target": "公開されている Electron サンプルのノートエクスポート",
+      "metric": "14 件のテストケースがすべて一致"
+    },
+    "ko": {
+      "title": "노트 내보내기 기능을 추적해 다시 작성한 CSV 포매터가 모든 테스트 통과",
+      "summary": "renderer에서 메인 프로세스 handler까지 추적하고, REA의 분석 결과를 바탕으로 CSV 포매터를 별도로 작성한 뒤, 두 번째 파서와 바이트 단위로 비교했습니다. 전 과정에서 무료 소프트웨어만 사용했습니다.",
+      "target": "공개 Electron 샘플의 노트 내보내기",
+      "metric": "테스트 케이스 14개 모두 일치"
+    }
+  },
+  "openbattlefield2": {
+    "hash": "dcdd9f0d1696",
+    "en": {
+      "title": "OpenBattlefield2: reimplementing the Refractor 2 engine of Battlefield 2",
+      "summary": "A clean-room engine remake in C++20 that reads game content from the player's own installation. The repo ships tools/rea.sh, which uses REA + Ghidra to take snapshot analyses of individual binaries. Shooting, vehicles, and audio are still in progress.",
+      "target": "Battlefield 2 (2005) Refractor 2 engine",
+      "metric": "Engine remake project with ★39"
+    },
+    "zh-CN": {
+      "title": "OpenBattlefield2:重新实现《战地风云 2》的 Refractor 2 引擎",
+      "summary": "以 C++20 进行 clean-room 引擎重制,读取玩家自己安装的游戏内容。仓库内附 tools/rea.sh,用 REA + Ghidra 对各个二进制文件做快照分析。射击、载具和音效仍在进行中。",
+      "target": "Battlefield 2(2005)Refractor 2 引擎",
+      "metric": "★39 的引擎重制项目"
+    },
+    "ja": {
+      "title": "OpenBattlefield2:『Battlefield 2』の Refractor 2 エンジンを再実装",
+      "summary": "C++20 によるクリーンルーム方式のエンジンリメイクで、プレイヤー自身がインストールしたゲームコンテンツを読み込みます。リポジトリには tools/rea.sh が付属し、REA + Ghidra で各バイナリのスナップショット解析を行います。射撃、乗り物、サウンドは開発中です。",
+      "target": "Battlefield 2(2005)の Refractor 2 エンジン",
+      "metric": "★39 のエンジンリメイクプロジェクト"
+    },
+    "ko": {
+      "title": "OpenBattlefield2: 『Battlefield 2』의 Refractor 2 엔진 재구현",
+      "summary": "C++20으로 만든 clean-room 방식의 엔진 리메이크로, 플레이어가 직접 설치한 게임 콘텐츠를 읽어 들입니다. 저장소에 포함된 tools/rea.sh는 REA + Ghidra로 각 바이너리의 스냅샷 분석을 수행합니다. 사격, 탈것, 사운드는 아직 진행 중입니다.",
+      "target": "Battlefield 2(2005) Refractor 2 엔진",
+      "metric": "★39의 엔진 리메이크 프로젝트"
+    }
+  },
+  "vsl-dsp": {
+    "hash": "ebbc25fcdd23",
+    "en": {
+      "title": "Writing a Linux driver for the PreSonus AudioBox VSL audio interface",
+      "summary": "An open-source Linux kernel module and DSP parameter tool. Part of the vendor protocol research was done through LazyOwn's REA integration. Bulk I/O still needs hardware verification.",
+      "target": "PreSonus AudioBox VSL series USB audio interfaces",
+      "metric": "Linux kernel module"
+    },
+    "zh-CN": {
+      "title": "为 PreSonus AudioBox VSL 录音接口编写 Linux 驱动",
+      "summary": "开源的 Linux 内核模块与 DSP 参数工具。厂商协议研究的一部分通过 LazyOwn 的 REA 集成完成。批量 I/O 仍需硬件验证。",
+      "target": "PreSonus AudioBox VSL 系列 USB 音频接口",
+      "metric": "Linux 内核模块"
+    },
+    "ja": {
+      "title": "PreSonus AudioBox VSL オーディオインターフェース向け Linux ドライバーを開発",
+      "summary": "オープンソースの Linux カーネルモジュールと DSP パラメータツールです。ベンダープロトコル調査の一部は、LazyOwn の REA 連携を通じて行われました。バルク I/O はまだハードウェアでの検証が必要です。",
+      "target": "PreSonus AudioBox VSL シリーズの USB オーディオインターフェース",
+      "metric": "Linux カーネルモジュール"
+    },
+    "ko": {
+      "title": "PreSonus AudioBox VSL 오디오 인터페이스용 Linux 드라이버 개발",
+      "summary": "오픈 소스 Linux 커널 모듈과 DSP 파라미터 도구입니다. 벤더 프로토콜 조사의 일부는 LazyOwn의 REA 통합을 통해 진행되었습니다. 벌크 I/O는 아직 하드웨어 검증이 필요합니다.",
+      "target": "PreSonus AudioBox VSL 시리즈 USB 오디오 인터페이스",
+      "metric": "Linux 커널 모듈"
+    }
+  },
+  "macos-preview-race": {
+    "hash": "6af3dc7d1a1a",
+    "en": {
+      "title": "REA vs. plain Claude: cloning the macOS Preview app",
+      "summary": "Had Claude with REA and Claude without REA clone Preview at the same time. The REA version came closer to the original but took longer, while the plain agent finished first with a similar result. The author's take is that software value is moving toward the general-purpose agent layer.",
+      "target": "macOS Preview",
+      "metric": "396K video views"
+    },
+    "zh-CN": {
+      "title": "REA 对决纯 Claude:复刻 macOS 预览程序",
+      "summary": "让有 REA 和没有 REA 的 Claude 同时复刻 Preview。REA 版更接近原版但耗时更长,纯 agent 先完成且结果相近。他的看法是软件价值正在向通用 agent 这一层转移。",
+      "target": "macOS Preview",
+      "metric": "视频观看 39.6 万"
+    },
+    "ja": {
+      "title": "REA 対 素の Claude:macOS のプレビューアプリを再現",
+      "summary": "REA ありと REA なしの Claude に、同時に Preview を再現させました。REA 版のほうがオリジナルに近い一方で時間がかかり、素のエージェントは先に完成し、結果も近いものでした。本人は、ソフトウェアの価値が汎用エージェントの層へ移りつつあると見ています。",
+      "target": "macOS Preview",
+      "metric": "動画再生 39.6 万回"
+    },
+    "ko": {
+      "title": "REA 대 순수 Claude: macOS 미리보기 앱 복제",
+      "summary": "REA가 있는 Claude와 없는 Claude에게 동시에 Preview를 복제하게 했습니다. REA 버전이 원본에 더 가까웠지만 시간이 더 오래 걸렸고, 순수 에이전트가 먼저 완성했으며 결과도 비슷했습니다. 작성자는 소프트웨어의 가치가 범용 에이전트 계층으로 이동하고 있다고 봅니다.",
+      "target": "macOS Preview",
+      "metric": "영상 조회수 39.6만"
+    }
+  },
+  "encrypted-lib-rewrite": {
+    "hash": "11e0f9085c67",
+    "en": {
+      "title": "Analyzing an encrypted binary library so Claude Code can rewrite a replacement implementation",
+      "summary": "First used REA to analyze an encryption library that could only be called and not understood, then had Claude Code reimplement it from the analysis. The author says the benchmark metrics come out close to the original library. The library name and test method have not been disclosed.",
+      "target": "Undisclosed encryption binary library",
+      "metric": "110K views on X"
+    },
+    "zh-CN": {
+      "title": "分析加密二进制库,让 Claude Code 重写出替代实现",
+      "summary": "先用 REA 分析只能调用、无法看懂的加密库,再让 Claude Code 依据分析结果重新实现,作者表示评测指标与原库接近。库名与测试方法未公开。",
+      "target": "未公开的加密二进制库",
+      "metric": "X 上 11 万浏览"
+    },
+    "ja": {
+      "title": "暗号化バイナリライブラリを解析し、Claude Code に代替実装を書き直させる",
+      "summary": "呼び出すことしかできず中身が分からない暗号ライブラリをまず REA で解析し、その結果をもとに Claude Code に再実装させました。作者によると、ベンチマークの指標は元のライブラリに近いとのことです。ライブラリ名とテスト方法は非公開です。",
+      "target": "非公開の暗号化バイナリライブラリ",
+      "metric": "X で 11 万ビュー"
+    },
+    "ko": {
+      "title": "암호화 바이너리 라이브러리를 분석해 Claude Code로 대체 구현을 다시 작성",
+      "summary": "호출만 할 수 있을 뿐 내부를 알 수 없는 암호화 라이브러리를 먼저 REA로 분석한 뒤, 그 결과를 바탕으로 Claude Code가 다시 구현하게 했습니다. 작성자는 벤치마크 지표가 원본 라이브러리와 비슷하다고 밝혔습니다. 라이브러리 이름과 테스트 방법은 공개되지 않았습니다.",
+      "target": "비공개 암호화 바이너리 라이브러리",
+      "metric": "X에서 조회수 11만"
+    }
+  },
+  "claude-code-muse": {
+    "hash": "794d9769b2c5",
+    "en": {
+      "title": "Letting an Agent install REA itself and read Claude Code's 47 MB minified bundle",
+      "summary": "Had Muse install REA automatically, then analyze Claude Code's minified bundle and record a demo. Which modules were actually recovered has not been disclosed.",
+      "target": "Claude Code (~47 MB minified bundle)",
+      "metric": "114K views on X"
+    },
+    "zh-CN": {
+      "title": "让 Agent 自己安装 REA，读取 Claude Code 47 MB 的压缩代码",
+      "summary": "让 Muse 自动安装 REA，再分析 Claude Code 的压缩程序包并录像展示。没有公开具体还原了哪些模块。",
+      "target": "Claude Code（约 47 MB 压缩 bundle）",
+      "metric": "X 上 11.4 万浏览"
+    },
+    "ja": {
+      "title": "Agent に REA を自分でインストールさせ、Claude Code の 47 MB の圧縮コードを読む",
+      "summary": "Muse に REA を自動インストールさせ、Claude Code の圧縮されたバンドルを解析する様子を録画して公開。具体的にどのモジュールを復元できたかは明かされていない。",
+      "target": "Claude Code（約 47 MB の圧縮バンドル）",
+      "metric": "X で 11.4 万回表示"
+    },
+    "ko": {
+      "title": "Agent가 직접 REA를 설치해 Claude Code의 47 MB 압축 코드를 읽다",
+      "summary": "Muse가 REA를 자동으로 설치하게 한 뒤 Claude Code의 압축된 번들을 분석하고 녹화해 시연했다. 어떤 모듈을 구체적으로 복원했는지는 공개되지 않았다.",
+      "target": "Claude Code(약 47 MB 압축 번들)",
+      "metric": "X에서 조회수 11.4만"
+    }
+  },
+  "local-models-12gb": {
+    "hash": "a842b79b682f",
+    "en": {
+      "title": "Running REA on a single 12 GB GPU: comparing five local models",
+      "summary": "Ran three calls with the REA CLI + Ghidra, then had five local models answer questions from the same output. The two 27B models read it best with no fabrication; smaller models got the numbers wrong.",
+      "target": "Custom C combination-lock program",
+      "metric": "Measured data showing free local models are usable"
+    },
+    "zh-CN": {
+      "title": "单张 12 GB 显卡跑 REA，比较五个本地模型",
+      "summary": "用 REA CLI + Ghidra 跑三次调用，让五个本地模型读同一份输出回答问题。两个 27B 模型读得最好且没有捏造，小模型会把数字弄错。",
+      "target": "自制 C 密码锁程序",
+      "metric": "免费本地模型可用的实测数据"
+    },
+    "ja": {
+      "title": "12 GB の GPU 1 枚で REA を動かし、5 つのローカルモデルを比較",
+      "summary": "REA CLI + Ghidra で 3 回の呼び出しを実行し、同じ出力を 5 つのローカルモデルに読ませて質問に答えさせた。2 つの 27B モデルが最も正確に読み取り、捏造もなかった。小型モデルは数値を誤った。",
+      "target": "自作の C 製ダイヤル錠プログラム",
+      "metric": "無料のローカルモデルが使えることを示す実測データ"
+    },
+    "ko": {
+      "title": "12 GB GPU 한 장으로 REA를 실행하고 로컬 모델 5개 비교",
+      "summary": "REA CLI + Ghidra로 세 번의 호출을 실행하고, 같은 출력을 5개의 로컬 모델에 읽혀 질문에 답하게 했다. 27B 모델 두 개가 가장 잘 읽었고 날조도 없었으며, 작은 모델은 숫자를 틀렸다.",
+      "target": "직접 만든 C 비밀번호 자물쇠 프로그램",
+      "metric": "무료 로컬 모델이 쓸 만함을 보여 주는 실측 데이터"
+    }
+  },
+  "dino-speed": {
+    "hash": "119e8446381f",
+    "en": {
+      "title": "When does the dino runner speed up, and by how much each time",
+      "summary": "Used REA to read the game script and found the initial speed, acceleration, and update branch, then verified the relationship between update count and speed on the original page with a separate Playwright controller.",
+      "target": "t-rex-runner web version",
+      "metric": "Verified by Playwright measurements"
+    },
+    "zh-CN": {
+      "title": "小恐龙跑酷游戏什么时候加速、每次加多少",
+      "summary": "用 REA 读游戏脚本，找到初始速度、加速度与更新分支，再用独立的 Playwright 控制器在原页面上验证更新次数与速度的关系。",
+      "target": "t-rex-runner 网页版",
+      "metric": "Playwright 实测验证"
+    },
+    "ja": {
+      "title": "恐竜ランゲームはいつ加速し、毎回どれだけ上がるのか",
+      "summary": "REA でゲームスクリプトを読み、初期速度・加速度・更新分岐を特定。さらに独立した Playwright コントローラーで元のページ上の更新回数と速度の関係を検証した。",
+      "target": "t-rex-runner Web 版",
+      "metric": "Playwright による実測で検証"
+    },
+    "ko": {
+      "title": "공룡 러너 게임은 언제 빨라지고, 한 번에 얼마나 빨라지나",
+      "summary": "REA로 게임 스크립트를 읽어 초기 속도, 가속도, 업데이트 분기를 찾아내고, 별도의 Playwright 컨트롤러로 원본 페이지에서 업데이트 횟수와 속도의 관계를 검증했다.",
+      "target": "t-rex-runner 웹 버전",
+      "metric": "Playwright 실측으로 검증"
+    }
+  },
+  "heartland-side-effects": {
+    "hash": "ce4232647e85",
+    "en": {
+      "title": "Verifying REA's 7 declared side effects and Evidence hashes, item by item",
+      "summary": "Tallied the side effects declared across 16 features: rewriting the target, requiring root, and changing permissions all came to 0, but 10 features launch processes, so they cannot be allowed unconditionally. Also confirmed with sha256sum that the Evidence SHA-256 hashes match exactly.",
+      "target": "rea-agents 4.0.1 itself",
+      "metric": "Evidence hashes 100% matched"
+    },
+    "zh-CN": {
+      "title": "逐项验证 REA 声明的 7 种副作用与 Evidence 哈希",
+      "summary": "统计 16 项功能声明的副作用：改写目标、需 root、改权限均为 0，但有 10 项会启动进程，不能无条件放行。并用 sha256sum 验证 Evidence 的 SHA-256 完全一致。",
+      "target": "rea-agents 4.0.1 本身",
+      "metric": "Evidence 哈希 100% 吻合"
+    },
+    "ja": {
+      "title": "REA が宣言する 7 種の副作用と Evidence ハッシュを項目ごとに検証",
+      "summary": "16 機能が宣言する副作用を集計した結果、ターゲットの書き換え、root 要求、権限変更はいずれも 0 件だったが、10 機能がプロセスを起動するため無条件では許可できない。また sha256sum で Evidence の SHA-256 が完全に一致することを確認した。",
+      "target": "rea-agents 4.0.1 本体",
+      "metric": "Evidence ハッシュが 100% 一致"
+    },
+    "ko": {
+      "title": "REA가 선언한 7가지 부작용과 Evidence 해시를 항목별로 검증",
+      "summary": "16개 기능이 선언한 부작용을 집계한 결과, 대상 덮어쓰기·root 요구·권한 변경은 모두 0건이었지만 10개 기능이 프로세스를 실행하므로 무조건 허용할 수는 없다. 또한 sha256sum으로 Evidence의 SHA-256이 완전히 일치함을 확인했다.",
+      "target": "rea-agents 4.0.1 자체",
+      "metric": "Evidence 해시 100% 일치"
+    }
+  },
+  "d-549b544e96": {
+    "hash": "7ead463c5f74",
+    "en": {
+      "title": "Packaging a reproducible pixi environment for static Mach-O analysis with REA and Ghidra",
+      "summary": "The goal is to analyze Mach-O on Linux x64 without Hopper or IDA, using a version-pinned pixi environment running REA 6.4.0 with Ghidra 12.1.4. The author tested analyze, decompile, xrefs, and other workflows on public arm64 builds of jq and esbuild, attaching commands and result JSON as evidence. The limitations are also stated clearly: macOS-specific features are unavailable on Linux.",
+      "target": "Mach-O arm64 binaries (jq 1.7.1, esbuild)",
+      "metric": "rea mcp doctor reports 170/170 tools and 6/6 prompts healthy, with per-command result JSON under evidence/"
+    },
+    "zh-CN": {
+      "title": "打包可复现的 pixi 环境，用 REA 与 Ghidra 静态分析 Mach-O",
+      "summary": "目标是在 Linux x64 上不依赖 Hopper、IDA，以固定版本的 pixi 环境运行 REA 6.4.0 搭配 Ghidra 12.1.4 分析 Mach-O。作者以 jq 与 esbuild 的公开 arm64 版本实测 analyze、decompile、xrefs 等流程，并附上命令与结果 JSON 作为证据。同时清楚列出 macOS 专属功能在 Linux 上不可用的限制。",
+      "target": "Mach-O arm64 二进制文件（jq 1.7.1、esbuild）",
+      "metric": "rea mcp doctor 显示 170/170 工具、6/6 提示正常，且 evidence/ 附有各命令的结果 JSON"
+    },
+    "ja": {
+      "title": "再現可能な pixi 環境をパッケージ化し、REA と Ghidra で Mach-O を静的解析",
+      "summary": "Hopper や IDA に依存せず、Linux x64 上でバージョン固定の pixi 環境により REA 6.4.0 と Ghidra 12.1.4 で Mach-O を解析することが目標。作者は jq と esbuild の公開 arm64 ビルドで analyze、decompile、xrefs などのフローを実測し、コマンドと結果 JSON を証拠として添付している。macOS 専用機能が Linux では使えないという制約も明記されている。",
+      "target": "Mach-O arm64 バイナリ（jq 1.7.1、esbuild）",
+      "metric": "rea mcp doctor で 170/170 ツール、6/6 プロンプトが正常。evidence/ に各コマンドの結果 JSON を添付"
+    },
+    "ko": {
+      "title": "재현 가능한 pixi 환경을 패키징해 REA와 Ghidra로 Mach-O 정적 분석",
+      "summary": "Hopper나 IDA 없이 Linux x64에서 버전을 고정한 pixi 환경으로 REA 6.4.0과 Ghidra 12.1.4를 실행해 Mach-O를 분석하는 것이 목표다. 작성자는 jq와 esbuild의 공개 arm64 빌드로 analyze, decompile, xrefs 등의 흐름을 실측하고, 명령어와 결과 JSON을 증거로 첨부했다. macOS 전용 기능은 Linux에서 쓸 수 없다는 제약도 분명히 밝혔다.",
+      "target": "Mach-O arm64 바이너리(jq 1.7.1, esbuild)",
+      "metric": "rea mcp doctor에서 170/170 도구, 6/6 프롬프트 정상, evidence/에 각 명령의 결과 JSON 첨부"
+    }
+  },
+  "d-58c16f12d8": {
+    "hash": "46d7693abe74",
+    "en": {
+      "title": "A hands-on REA tutorial: Electron example, evidence extraction, and a verifiable reconstruction workflow",
+      "summary": "Builds a minimal Electron target and turns REA's ~1.8 MB Evidence JSON into a readable report with file:line references, plus MCP probing and reconstruction examples, with no native reverse-engineering engine to install. The repo ships with CI and 32 tests, and the demo is generated from actual command output.",
+      "target": "A custom minimal Electron sample app and its REA Evidence output",
+      "metric": "1.8 MB Evidence condensed to ~4.21%; 32/32 tests pass, reconstruction 10/10 assertions"
+    },
+    "zh-CN": {
+      "title": "提供 REA 实操教程：Electron 示例、证据提取与可验证的重建流程",
+      "summary": "构建最小 Electron 目标，把 REA 约 1.8 MB 的 Evidence JSON 转成带 file:line 的可读报告，并提供 MCP 探测与重建示例，无需安装原生逆向引擎。仓库附 CI 与 32 项测试，demo 由实际命令输出生成。",
+      "target": "自制最小 Electron 示例应用与 REA Evidence 输出",
+      "metric": "1.8 MB Evidence 压缩为约 4.21%；32/32 测试通过、重建 10/10 断言"
+    },
+    "ja": {
+      "title": "REA 実践チュートリアル：Electron サンプル、証拠抽出、検証可能な再構築フロー",
+      "summary": "最小構成の Electron ターゲットを作り、REA が出力する約 1.8 MB の Evidence JSON を file:line 付きの読みやすいレポートに変換。MCP によるプローブと再構築の例も用意しており、ネイティブのリバースエンジニアリングエンジンのインストールは不要。リポジトリには CI と 32 件のテストが含まれ、デモは実際のコマンド出力から生成されている。",
+      "target": "自作の最小 Electron サンプルアプリと REA の Evidence 出力",
+      "metric": "1.8 MB の Evidence を約 4.21% に圧縮。32/32 テスト合格、再構築 10/10 アサーション"
+    },
+    "ko": {
+      "title": "REA 실습 튜토리얼: Electron 예제, 증거 추출, 검증 가능한 재구성 흐름",
+      "summary": "최소 구성의 Electron 대상을 만들고 REA의 약 1.8 MB Evidence JSON을 file:line이 달린 읽기 쉬운 보고서로 변환하며, MCP 탐색과 재구성 예제도 제공한다. 네이티브 리버스 엔지니어링 엔진을 설치할 필요가 없다. 저장소에는 CI와 32개의 테스트가 포함되어 있고, 데모는 실제 명령 출력으로 생성된다.",
+      "target": "직접 만든 최소 Electron 예제 앱과 REA Evidence 출력",
+      "metric": "1.8 MB Evidence를 약 4.21%로 압축, 32/32 테스트 통과, 재구성 10/10 단언"
+    }
+  },
+  "korean-practice": {
+    "hash": "70b15aceb758",
+    "en": {
+      "title": "Korean hands-on tutorial: analyzing a custom Electron app and C program with REA",
+      "summary": "A hands-on repo that accompanies a YouTube video. It also includes a script for building the Ghidra arm64 decompiler yourself on Apple Silicon Macs, filling a gap the official docs don't cover.",
+      "target": "A custom Electron note-taking app and a C program modeled on DX-Ball",
+      "metric": "Adds a Ghidra arm64 build script"
+    },
+    "zh-CN": {
+      "title": "韩文实操教程:用 REA 分析自制 Electron 与 C 程序",
+      "summary": "配合 YouTube 视频的实操 repo。另附在 Apple Silicon Mac 上自行编译 Ghidra arm64 反编译器的脚本,补上官方文档没有涉及的部分。",
+      "target": "自制 Electron 笔记 App、仿 DX-Ball 的 C 程序",
+      "metric": "补上 Ghidra arm64 构建脚本"
+    },
+    "ja": {
+      "title": "韓国語のハンズオン教材:REA で自作の Electron アプリと C プログラムを解析",
+      "summary": "YouTube 動画に対応したハンズオン用リポジトリ。Apple Silicon Mac で Ghidra の arm64 デコンパイラを自分でビルドするためのスクリプトも収録しており、公式ドキュメントにない部分を補っている。",
+      "target": "自作の Electron メモアプリ、DX-Ball 風の C プログラム",
+      "metric": "Ghidra arm64 ビルドスクリプトを追加"
+    },
+    "ko": {
+      "title": "한국어 실습 교재: REA로 직접 만든 Electron 및 C 프로그램 분석",
+      "summary": "YouTube 영상과 함께 쓰는 실습 repo. Apple Silicon Mac에서 Ghidra arm64 디컴파일러를 직접 빌드하는 스크립트도 포함해, 공식 문서에 없는 부분을 보완했다.",
+      "target": "직접 만든 Electron 메모 앱, DX-Ball을 본뜬 C 프로그램",
+      "metric": "Ghidra arm64 빌드 스크립트 추가"
+    }
+  },
+  "psp-mips-lab": {
+    "hash": "e0d7141745e8",
+    "en": {
+      "title": "Adding MIPS and PSP/Allegrex support to REA",
+      "summary": "Contributed generic MIPS and PSP/Allegrex analysis (PR #1362, #1599), and built a personal reverse-engineering lab with REA + Ghidra + Codex to study how to reduce token consumption.",
+      "target": "PSP / MIPS binaries",
+      "metric": "2 merged PRs expanding platform support"
+    },
+    "zh-CN": {
+      "title": "为 REA 加入 MIPS 与 PSP/Allegrex 支持",
+      "summary": "贡献通用 MIPS 与 PSP/Allegrex 分析(PR #1362、#1599),并以 REA + Ghidra + Codex 搭建个人逆向实验室,研究如何减少 token 消耗。",
+      "target": "PSP / MIPS 二进制文件",
+      "metric": "2 个已合并 PR 扩展平台"
+    },
+    "ja": {
+      "title": "REA に MIPS と PSP/Allegrex のサポートを追加",
+      "summary": "汎用 MIPS および PSP/Allegrex の解析機能を提供(PR #1362、#1599)。さらに REA + Ghidra + Codex で個人用のリバースエンジニアリング環境を構築し、token 消費を減らす方法を検証している。",
+      "target": "PSP / MIPS バイナリ",
+      "metric": "マージ済み PR 2 件でプラットフォームを拡張"
+    },
+    "ko": {
+      "title": "REA에 MIPS 및 PSP/Allegrex 지원 추가",
+      "summary": "범용 MIPS와 PSP/Allegrex 분석을 기여했으며(PR #1362, #1599), REA + Ghidra + Codex로 개인 리버스 엔지니어링 환경을 구축해 token 소비를 줄이는 방법을 연구한다.",
+      "target": "PSP / MIPS 바이너리",
+      "metric": "병합된 PR 2건으로 플랫폼 확장"
+    }
+  },
+  "fathom-rust": {
+    "hash": "cc94671244a8",
+    "en": {
+      "title": "fathom: a Rust clean-room port based on REA's public interface",
+      "summary": "Rewritten in Rust from REA's public contract without using any upstream code. Adds a fail-closed policy gate and a signed A2A agent card, making the supply chain pinnable and auditable.",
+      "target": "REA itself",
+      "metric": "Rust rewrite + policy gate"
+    },
+    "zh-CN": {
+      "title": "fathom:依据 REA 公开接口编写的 Rust clean-room 移植",
+      "summary": "不使用上游代码,依据 REA 的公开契约用 Rust 重写,加入 fail-closed 策略闸门与签名的 A2A agent card,让供应链可锁定、可审计。",
+      "target": "REA 本身",
+      "metric": "Rust 重写 + 策略闸门"
+    },
+    "ja": {
+      "title": "fathom:REA の公開インターフェースに基づく Rust clean-room 移植",
+      "summary": "上流のコードを使わず、REA の公開コントラクトに従って Rust で書き直した。fail-closed のポリシーゲートと署名付き A2A agent card を加え、サプライチェーンを固定・監査できるようにしている。",
+      "target": "REA 本体",
+      "metric": "Rust による書き直し + ポリシーゲート"
+    },
+    "ko": {
+      "title": "fathom: REA 공개 인터페이스를 따른 Rust clean-room 이식",
+      "summary": "업스트림 코드를 쓰지 않고 REA의 공개 계약에 따라 Rust로 다시 작성했다. fail-closed 정책 게이트와 서명된 A2A agent card를 더해 공급망을 고정하고 감사할 수 있게 했다.",
+      "target": "REA 자체",
+      "metric": "Rust 재작성 + 정책 게이트"
+    }
+  },
+  "tracebrief": {
+    "hash": "1732c1db1030",
+    "en": {
+      "title": "TraceBrief: turning REA evidence bundles into verifiable reports",
+      "summary": "The agent only writes the conclusions; a deterministic script checks that the Evidence cited by each conclusion actually exists, and refuses to produce the report if a citation doesn't hold up.",
+      "target": "REA Evidence bundle",
+      "metric": "Refuses to publish if a citation doesn't exist"
+    },
+    "zh-CN": {
+      "title": "TraceBrief:把 REA 证据包变成可验证的报告",
+      "summary": "Agent 只负责撰写结论,确定性的脚本会检查每条结论引用的 Evidence 是否真实存在,引用不成立就拒绝生成报告。",
+      "target": "REA Evidence bundle",
+      "metric": "引用不存在就拒绝发布"
+    },
+    "ja": {
+      "title": "TraceBrief:REA の Evidence bundle を検証可能なレポートに変換",
+      "summary": "Agent が書くのは結論のみ。決定論的なスクリプトが各結論の引用する Evidence が実在するかを検査し、引用が成立しなければレポートの生成を拒否する。",
+      "target": "REA Evidence bundle",
+      "metric": "引用が存在しなければ公開を拒否"
+    },
+    "ko": {
+      "title": "TraceBrief: REA 증거 번들을 검증 가능한 보고서로 변환",
+      "summary": "Agent는 결론만 작성하고, 결정론적 스크립트가 각 결론이 인용한 Evidence가 실제로 존재하는지 검사한다. 인용이 성립하지 않으면 보고서 생성을 거부한다.",
+      "target": "REA Evidence bundle",
+      "metric": "인용이 존재하지 않으면 발행 거부"
+    }
+  },
+  "d-da8a49f9d0": {
+    "hash": "5523a32baa66",
+    "en": {
+      "title": "A curated directory site of REA projects, plugins, and case studies",
+      "summary": "Aims to build an independent community directory of REA-related projects, integrations, and learning resources. Each entry is labeled with its purpose, type, relationship to REA, and evidence limits, clearly distinguishing \"source reviewed\" from \"software actually tested.\" It currently lists 19 entries and states that no complete commercial-software replacement built entirely with REA has been confirmed yet.",
+      "target": "Directory of REA community projects and resources",
+      "metric": "19 entries across 5 purpose groups"
+    },
+    "zh-CN": {
+      "title": "整理 REA 项目、插件与案例的精选目录网站",
+      "summary": "目标是建立一份 REA 相关项目、集成与学习资源的独立社区目录。每个条目分别标注用途、类型、与 REA 的关系及证据限制,并明确区分“来源已审阅”与“软件已实测”。目前收录 19 个条目,并声明尚未确认有完全由 REA 构建的商业软件替代品。",
+      "target": "REA 社区项目与资源目录",
+      "metric": "收录 19 个条目,分属 5 个用途分组"
+    },
+    "ja": {
+      "title": "REA のプロジェクト・プラグイン・事例をまとめたキュレーションサイト",
+      "summary": "REA 関連のプロジェクト、連携、学習リソースを集めた独立のコミュニティディレクトリを目指している。各エントリには用途、種類、REA との関係、証拠の限界を記載し、「ソース確認済み」と「ソフトウェア動作検証済み」を明確に区別する。現在 19 件を掲載しており、REA だけで作られた商用ソフトウェアの代替品はまだ確認されていないと明記している。",
+      "target": "REA コミュニティのプロジェクトとリソースのディレクトリ",
+      "metric": "19 件を掲載、5 つの用途グループに分類"
+    },
+    "ko": {
+      "title": "REA 프로젝트, 플러그인, 사례를 정리한 큐레이션 디렉터리 사이트",
+      "summary": "REA 관련 프로젝트, 통합, 학습 자료를 모은 독립 커뮤니티 디렉터리를 목표로 한다. 항목마다 용도, 유형, REA와의 관계, 증거의 한계를 표기하며 '소스 검토 완료'와 '소프트웨어 실측 완료'를 명확히 구분한다. 현재 19개 항목을 수록했고, REA만으로 만든 상용 소프트웨어 대체품은 아직 확인되지 않았다고 밝힌다.",
+      "target": "REA 커뮤니티 프로젝트 및 자료 디렉터리",
+      "metric": "19개 항목 수록, 5개 용도 그룹으로 분류"
+    }
+  },
+  "d-f5aadf840e": {
+    "hash": "43e3f603239c",
+    "en": {
+      "title": "A Chinese-language collection of REA and AI reverse-engineering cases",
+      "summary": "Collects REA and other AI reverse-engineering cases covering game preservation, hardware interoperability, application reconstruction, and algorithm research. Each case explains the author's goal and approach, links to the original post, code, or verification record, and notes whether REA was actually used and the stage of the case. It includes 55 cases in total, grouped into four categories by purpose.",
+      "target": "Public cases of REA and AI reverse engineering",
+      "metric": "55 cases in four categories (games 13, hardware 11, applications 27, algorithms 4)"
+    },
+    "zh-CN": {
+      "title": "汇总 REA 与 AI 逆向案例的中文案例集",
+      "summary": "目标是收集游戏保存、硬件互通、应用重建与算法研究等 REA 及其他 AI 逆向案例。每个案例说明作者的目的与做法,并链接原帖、代码或验证记录,同时标注是否真的使用 REA 与案例阶段。共收录 55 个案例,按用途分为四大类。",
+      "target": "REA 与 AI 逆向的公开案例",
+      "metric": "收录 55 个案例,分四类(游戏 13、硬件 11、应用 27、算法 4)"
+    },
+    "ja": {
+      "title": "REA と AI リバースエンジニアリングの事例を集めた中国語ケース集",
+      "summary": "ゲーム保存、ハードウェア互換、アプリ再構築、アルゴリズム研究など、REA およびその他の AI リバースエンジニアリング事例を収集している。各事例について作者の目的と手法を説明し、元の投稿・コード・検証記録へのリンクを付け、REA を実際に使用したか、および事例の段階も明記する。全 55 件を用途別に 4 つに分類して掲載。",
+      "target": "REA と AI リバースエンジニアリングの公開事例",
+      "metric": "55 件を掲載、4 分類(ゲーム 13、ハードウェア 11、アプリ 27、アルゴリズム 4)"
+    },
+    "ko": {
+      "title": "REA 및 AI 리버스 엔지니어링 사례를 모은 중국어 사례집",
+      "summary": "게임 보존, 하드웨어 상호 운용, 애플리케이션 재구축, 알고리즘 연구 등 REA 및 기타 AI 리버스 엔지니어링 사례를 수집한다. 사례마다 작성자의 목적과 방법을 설명하고 원문 게시물, 코드 또는 검증 기록을 링크하며, REA를 실제로 사용했는지와 사례 단계도 표기한다. 총 55건을 수록했고 용도에 따라 4개 대분류로 나눴다.",
+      "target": "REA 및 AI 리버스 엔지니어링 공개 사례",
+      "metric": "55건 수록, 4개 분류(게임 13, 하드웨어 11, 앱 27, 알고리즘 4)"
+    }
+  },
+  "d-fad55735f3": {
+    "hash": "a5051f4b39ae",
+    "en": {
+      "title": "A reverse-engineering agent skill pack with automated REA analysis",
+      "summary": "Lets an AI coding agent load reverse-engineering skills on demand, covering IDA, Ghidra, kernel drivers, .NET, IL2CPP, Unreal, Frida, x64dbg and REA. It ships nine standalone SKILL.md files, and rea-automated-analysis specifically explains how to drive REA through the CLI and MCP. The content focuses on procedures and common pitfalls; it presents no analysis results for any specific target.",
+      "target": "Reverse-engineering agent skill pack (including the REA skill)",
+      "metric": "Nine skills, one of them dedicated to REA"
+    },
+    "zh-CN": {
+      "title": "提供含 REA 自动分析的逆向工程 agent 技能包",
+      "summary": "目标是让 AI coding agent 按需加载逆向技能,涵盖 IDA、Ghidra、内核驱动、.NET、IL2CPP、Unreal、Frida、x64dbg 与 REA。共九个独立的 SKILL.md,其中 rea-automated-analysis 专门说明 CLI 与 MCP 的驱动方式。内容以操作方法和常见陷阱为主,没有针对特定目标给出分析成果。",
+      "target": "逆向工程 agent 技能包(含 REA 技能)",
+      "metric": "九个技能,其中一个专门针对 REA"
+    },
+    "ja": {
+      "title": "REA 自動解析を含むリバースエンジニアリング用 agent スキルパック",
+      "summary": "AI coding agent が必要に応じてリバースエンジニアリングのスキルを読み込めるようにするもので、IDA、Ghidra、カーネルドライバ、.NET、IL2CPP、Unreal、Frida、x64dbg、REA を扱う。独立した SKILL.md が計 9 本あり、そのうち rea-automated-analysis は CLI と MCP から REA を動かす方法に特化している。内容は操作手順とよくある落とし穴が中心で、特定ターゲットの解析成果は示されていない。",
+      "target": "リバースエンジニアリング用 agent スキルパック(REA スキル含む)",
+      "metric": "9 つのスキル、うち 1 つは REA 専用"
+    },
+    "ko": {
+      "title": "REA 자동 분석을 포함한 리버스 엔지니어링 agent 스킬 팩",
+      "summary": "AI coding agent가 필요할 때 리버스 엔지니어링 스킬을 불러올 수 있게 하는 것이 목표로, IDA, Ghidra, 커널 드라이버, .NET, IL2CPP, Unreal, Frida, x64dbg, REA를 다룬다. 독립된 SKILL.md가 총 9개이며, 그중 rea-automated-analysis는 CLI와 MCP로 REA를 구동하는 방법을 전담해 설명한다. 내용은 작업 방법과 흔한 함정 위주이며, 특정 대상에 대한 분석 결과는 제시하지 않는다.",
+      "target": "리버스 엔지니어링 agent 스킬 팩(REA 스킬 포함)",
+      "metric": "스킬 9개, 그중 1개는 REA 전용"
+    }
+  },
+  "d-723866fc43": {
+    "hash": "d9dc7c081063",
+    "en": {
+      "title": "Mirror/fork repository of the REA project, containing the official README",
+      "summary": "This repository contains the official REA README, which explains how to set up the agent with npx rea-agents setup and how to analyze native binaries, JS/Electron, .NET and websites. The excerpt includes no reverse-engineering results of the author's own against any target.",
+      "target": "The REA tool itself (README)",
+      "metric": "Setup in one command, npx rea-agents setup; no standalone results"
+    },
+    "zh-CN": {
+      "title": "REA 项目的镜像/分叉仓库,内容为官方 README",
+      "summary": "此仓库内容是 REA 官方 README,说明如何用 npx rea-agents setup 配置 agent,并可分析原生二进制、JS/Electron、.NET 与网站。节选中没有作者自己对任何目标的逆向成果。",
+      "target": "REA 工具本身(README)",
+      "metric": "一行命令 npx rea-agents setup 完成配置;无独立成果"
+    },
+    "ja": {
+      "title": "REA プロジェクトのミラー/フォークリポジトリ(公式 README を収録)",
+      "summary": "このリポジトリには REA の公式 README が収められており、npx rea-agents setup による agent のセットアップ方法と、ネイティブバイナリ、JS/Electron、.NET、Web サイトの解析方法が説明されている。抜粋には、作者自身による特定ターゲットのリバース成果は含まれていない。",
+      "target": "REA ツール本体(README)",
+      "metric": "npx rea-agents setup の 1 コマンドでセットアップ完了。独自の成果なし"
+    },
+    "ko": {
+      "title": "REA 프로젝트의 미러/포크 저장소, 공식 README 수록",
+      "summary": "이 저장소에는 REA 공식 README가 담겨 있으며, npx rea-agents setup으로 agent를 설정하는 방법과 네이티브 바이너리, JS/Electron, .NET, 웹사이트를 분석하는 방법을 설명한다. 발췌본에는 작성자가 직접 어떤 대상을 리버싱한 결과는 없다.",
+      "target": "REA 도구 자체(README)",
+      "metric": "npx rea-agents setup 한 줄로 설정 완료; 별도 성과 없음"
+    }
+  },
+  "d-7b1ef2129b": {
+    "hash": "03ee75644c3d",
+    "en": {
+      "title": "A Windows GUI that needs no MCP, integrating Ghidra and others for local decompilation",
+      "summary": "A GUI written in Python Tkinter that integrates Ghidra, LIEF, ILSpy, Tree-sitter and the REA CLI, exporting C-style pseudocode and call relationships for EXE/DLL files. The author tested whoami.exe and WPS's ksolaunch.exe in their own environment, noting that results are limited and compatibility has not been tested on a clean environment.",
+      "target": "Native Windows EXE/DLL (whoami.exe, WPS ksolaunch.exe)",
+      "metric": "ksolaunch.exe: 2,350 function pseudocode files and 5,393 static call relationships exported (marked partial)"
+    },
+    "zh-CN": {
+      "title": "打造无需 MCP 的 Windows 图形界面,整合 Ghidra 等做本地反编译",
+      "summary": "用 Python Tkinter 编写的 GUI,整合 Ghidra、LIEF、ILSpy、Tree-sitter 与 REA CLI,可对 EXE/DLL 导出 C 风格伪代码与调用关系。作者在自己的环境中测试了 whoami.exe 与 WPS 的 ksolaunch.exe,并注明结果有限、尚未在全新环境中做兼容性测试。",
+      "target": "Windows 原生 EXE/DLL(whoami.exe、WPS ksolaunch.exe)",
+      "metric": "ksolaunch.exe 导出 2,350 份函数伪代码与 5,393 条静态调用关系(标记为 partial)"
+    },
+    "ja": {
+      "title": "MCP 不要の Windows GUI を構築、Ghidra などを統合してローカルで逆コンパイル",
+      "summary": "Python Tkinter で書かれた GUI で、Ghidra、LIEF、ILSpy、Tree-sitter、REA CLI を統合し、EXE/DLL から C 風の疑似コードと呼び出し関係をエクスポートできる。作者は自身の環境で whoami.exe と WPS の ksolaunch.exe を試しており、結果は限定的で、クリーンな環境での互換性テストは未実施と明記している。",
+      "target": "Windows ネイティブ EXE/DLL(whoami.exe、WPS ksolaunch.exe)",
+      "metric": "ksolaunch.exe で 2,350 件の関数疑似コードと 5,393 件の静的呼び出し関係を出力(partial 扱い)"
+    },
+    "ko": {
+      "title": "MCP 없이 쓰는 Windows GUI 제작, Ghidra 등을 통합해 로컬 디컴파일",
+      "summary": "Python Tkinter로 작성한 GUI로, Ghidra, LIEF, ILSpy, Tree-sitter, REA CLI를 통합해 EXE/DLL에서 C 스타일 의사 코드와 호출 관계를 내보낸다. 작성자는 자신의 환경에서 whoami.exe와 WPS의 ksolaunch.exe를 테스트했으며, 결과가 제한적이고 깨끗한 환경에서의 호환성 테스트는 아직 하지 않았다고 밝혔다.",
+      "target": "Windows 네이티브 EXE/DLL(whoami.exe, WPS ksolaunch.exe)",
+      "metric": "ksolaunch.exe에서 함수 의사 코드 2,350개와 정적 호출 관계 5,393건 추출(partial 표시)"
+    }
+  },
+  "d-309b4f51ec": {
+    "hash": "548520ce7a9c",
+    "en": {
+      "title": "A thin MCP bridge for REA that trims 139 tools down to 21",
+      "summary": "The native REA MCP exposes 139 tools with about 1.83 MB of schema, which fills up the prefill of every request. The author built a thin MCP stdio shim that exposes only 21 curated tools plus a CLI escape hatch (rea_cli), along with 8 self-test assertions (handshake, size, a real REA run, argument passthrough, rejection of invalid commands, and more).",
+      "target": "REA itself (MCP integration for DSH / DeepSeek Harness)",
+      "metric": "Schema reduced from about 1.83 MB to about 6.7 KB (roughly 1/270)"
+    },
+    "zh-CN": {
+      "title": "为 REA 打造 MCP 薄壳桥接,把 139 个工具精简成 21 个",
+      "summary": "原生 REA MCP 暴露 139 个工具、约 1.83 MB schema,会塞满每次请求的 prefill。作者做了一个只暴露 21 个精选工具加 CLI 逃生舱(rea_cli)的 MCP stdio 薄壳,并附 8 项自测断言(握手、体积、真实运行 REA、参数透传、非法命令拒绝等)。",
+      "target": "REA 本身(MCP 集成给 DSH / DeepSeek Harness)",
+      "metric": "schema 由约 1.83 MB 降至约 6.7 KB(约 1/270)"
+    },
+    "ja": {
+      "title": "REA 向けに MCP の薄いブリッジを作り、139 個のツールを 21 個に絞り込み",
+      "summary": "ネイティブの REA MCP は 139 個のツール、約 1.83 MB の schema を公開しており、リクエストごとの prefill を圧迫する。作者は、厳選した 21 個のツールと CLI のエスケープハッチ(rea_cli)だけを公開する MCP stdio の薄いシムを作成し、8 項目のセルフテスト(ハンドシェイク、サイズ、REA の実行、引数の透過、不正コマンドの拒否など)も付けた。",
+      "target": "REA 本体(DSH / DeepSeek Harness 向け MCP 統合)",
+      "metric": "schema を約 1.83 MB から約 6.7 KB に削減(約 1/270)"
+    },
+    "ko": {
+      "title": "REA용 MCP 얇은 브리지 제작, 139개 도구를 21개로 압축",
+      "summary": "기본 REA MCP는 도구 139개와 약 1.83 MB의 schema를 노출해 매 요청의 prefill을 가득 채운다. 작성자는 엄선한 도구 21개와 CLI 탈출구(rea_cli)만 노출하는 MCP stdio 얇은 셸을 만들고, 8개의 자체 테스트 단언(핸드셰이크, 크기, 실제 REA 실행, 인자 전달, 잘못된 명령 거부 등)도 함께 제공했다.",
+      "target": "REA 자체(DSH / DeepSeek Harness용 MCP 통합)",
+      "metric": "schema를 약 1.83 MB에서 약 6.7 KB로 축소(약 1/270)"
+    }
+  },
+  "poker-organizer": {
+    "hash": "87dde75409b9",
+    "en": {
+      "title": "Cloning a paid poker table organizer in 40 minutes",
+      "summary": "Rebuilt the table-organizing feature using PowerShell with REA, Ghidra and Codex, so there is no need to pay for it anymore. The software's name and source code are not disclosed.",
+      "target": "An undisclosed poker table management app",
+      "metric": "About 40 minutes"
+    },
+    "zh-CN": {
+      "title": "40 分钟复刻一款付费扑克牌桌整理工具",
+      "summary": "用 PowerShell 搭配 REA、Ghidra 与 Codex 重建牌桌整理功能,从此不必再付费。软件名称与源码均未公开。",
+      "target": "未公开的扑克牌桌管理 App",
+      "metric": "约 40 分钟"
+    },
+    "ja": {
+      "title": "有料のポーカーテーブル整理ツールを 40 分で再現",
+      "summary": "PowerShell と REA、Ghidra、Codex を組み合わせてテーブル整理機能を作り直し、以後は課金不要になった。ソフトウェア名とソースコードは非公開。",
+      "target": "非公開のポーカーテーブル管理アプリ",
+      "metric": "約 40 分"
+    },
+    "ko": {
+      "title": "40분 만에 유료 포커 테이블 정리 도구 복제",
+      "summary": "PowerShell과 REA, Ghidra, Codex를 조합해 테이블 정리 기능을 다시 만들어, 더 이상 비용을 낼 필요가 없어졌다. 소프트웨어 이름과 소스 코드는 공개되지 않았다.",
+      "target": "비공개 포커 테이블 관리 앱",
+      "metric": "약 40분"
+    }
+  },
+  "apisitlee-mac-pitfalls": {
+    "hash": "75d97035baf3",
+    "en": {
+      "title": "Hands-on test on the day it hit #1 on Trending: 4 pitfalls on Mac",
+      "summary": "Tested hands-on when REA had only 10k stars, summarizing the 4 problems you run into when installing and running it on Mac, and explaining the Decompile → Understand → Recreate investigation workflow.",
+      "target": "REA installation and doctor on macOS",
+      "metric": "One of the earliest hands-on write-ups in Chinese"
+    },
+    "zh-CN": {
+      "title": "登上 Trending 第一当天实测,Mac 上踩的 4 个坑",
+      "summary": "在 REA 只有 1 万星时就动手实测,整理了 Mac 上安装与运行会遇到的 4 个问题,并说明了 Decompile → Understand → Recreate 的调查流程。",
+      "target": "REA 在 macOS 的安装与 doctor",
+      "metric": "最早期的中文实测之一"
+    },
+    "ja": {
+      "title": "Trending 1 位になった当日に試した、Mac で踏んだ 4 つの落とし穴",
+      "summary": "REA がまだ 1 万スターだった頃に実際に試し、Mac でのインストールと実行で遭遇する 4 つの問題をまとめた。あわせて Decompile → Understand → Recreate という調査の流れも解説している。",
+      "target": "macOS での REA のインストールと doctor",
+      "metric": "中国語圏で最も早い部類の実測レポートの一つ"
+    },
+    "ko": {
+      "title": "Trending 1위에 오른 날 직접 써본 후기, Mac에서 겪은 4가지 함정",
+      "summary": "REA의 별이 1만 개였을 때 직접 테스트해, Mac에서 설치하고 실행할 때 마주치는 4가지 문제를 정리하고 Decompile → Understand → Recreate 조사 흐름을 설명한다.",
+      "target": "macOS에서의 REA 설치 및 doctor",
+      "metric": "중국어권에서 가장 이른 시기의 실사용 후기 중 하나"
+    }
+  },
+  "d-c98d5d03bf": {
+    "hash": "e945f7ede591",
+    "en": {
+      "title": "Introduction to REA's workflow and setup: teaching AI to reverse-engineer app features",
+      "summary": "The article explains REA's three stages — decompile, understand, rebuild — and uses a hypothetical Notes offline search to list the REA tool steps an agent would use. It is mostly a conceptual overview and setup tutorial; the author shows no hands-on results against a real target.",
+      "target": "Introduction to REA (hypothetical Notes offline search example)",
+      "metric": "Describes a 6-step workflow; no hands-on results"
+    },
+    "zh-CN": {
+      "title": "介绍 REA 的工作流程与安装，教你让 AI 逆向 App 功能",
+      "summary": "文章说明了 REA「反编译、理解、重建」三个阶段，并以假想的 Notes 离线搜索为例，列出代理会用到的 REA 工具步骤。内容偏概念介绍与配置教程，没有看到作者对实际目标的实测成果。",
+      "target": "REA 工具介绍（假想的 Notes 离线搜索示例）",
+      "metric": "说明 6 步工作流程，无实测结果"
+    },
+    "ja": {
+      "title": "REA のワークフローとセットアップ紹介：AI にアプリ機能をリバースさせる方法",
+      "summary": "REA の「デコンパイル・理解・再構築」の 3 段階を解説し、仮想の Notes オフライン検索を例に、エージェントが使う REA ツールの手順を挙げている。概念の紹介とセットアップ手順が中心で、実在のターゲットに対する筆者の検証結果は見当たらない。",
+      "target": "REA ツールの紹介（仮想の Notes オフライン検索を例に）",
+      "metric": "6 ステップのワークフローを解説、実測結果なし"
+    },
+    "ko": {
+      "title": "REA 워크플로와 설치 소개: AI로 앱 기능을 리버스 엔지니어링하는 방법",
+      "summary": "REA의 '디컴파일, 이해, 재구성' 3단계를 설명하고, 가상의 Notes 오프라인 검색을 예로 에이전트가 사용하는 REA 도구 단계를 정리한다. 개념 소개와 설정 안내 위주이며, 실제 대상에 대해 저자가 검증한 결과는 보이지 않는다.",
+      "target": "REA 도구 소개(가상의 Notes 오프라인 검색 예시)",
+      "metric": "6단계 워크플로 설명, 실측 결과 없음"
+    }
+  },
+  "pt-guide": {
+    "hash": "7e56befa2562",
+    "en": {
+      "title": "Portuguese/English/Spanish REA guide with case roundup",
+      "summary": "Written mainly in Portuguese, with English and Spanish versions, it covers REA usage, cases, evaluation and caveats.",
+      "target": "Getting started with REA",
+      "metric": "Trilingual guide"
+    },
+    "zh-CN": {
+      "title": "葡/英/西三语的 REA 指南与案例整理",
+      "summary": "以葡萄牙语为主，附英语和西班牙语，整理了 REA 的用法、案例、评估与注意事项。",
+      "target": "REA 入门",
+      "metric": "三语指南"
+    },
+    "ja": {
+      "title": "ポルトガル語・英語・スペイン語の 3 言語版 REA ガイドと事例まとめ",
+      "summary": "ポルトガル語を主に、英語とスペイン語を併記し、REA の使い方、事例、評価、注意点をまとめている。",
+      "target": "REA 入門",
+      "metric": "3 言語対応のガイド"
+    },
+    "ko": {
+      "title": "포르투갈어·영어·스페인어 3개 국어 REA 가이드와 사례 정리",
+      "summary": "포르투갈어를 중심으로 영어와 스페인어를 함께 제공하며, REA의 사용법, 사례, 평가, 유의 사항을 정리했다.",
+      "target": "REA 입문",
+      "metric": "3개 국어 가이드"
+    }
+  },
+  "d-a46004f52f": {
+    "hash": "e2f2ba64a09a",
+    "en": {
+      "title": "Resource page linking REA and a \"clone any software in minutes\" video",
+      "summary": "This repo contains only a link to the main REA project and a link to one tutorial video, with no actual analysis results, code or tests. The excerpt does not reveal what the video does or what it achieves.",
+      "target": "REA demo video",
+      "metric": "Only one video link; no concrete results"
+    },
+    "zh-CN": {
+      "title": "链接 REA 与「几分钟复制任何软件」视频的资源页",
+      "summary": "该 repo 仅有 REA 主项目链接和一个教程视频链接，没有提供实际分析成果、代码或测试。从节选内容无法判断视频中的具体做法或结果。",
+      "target": "REA 使用演示视频",
+      "metric": "仅有一个视频链接，无具体成果"
+    },
+    "ja": {
+      "title": "REA と「数分であらゆるソフトを複製」動画へのリンク集",
+      "summary": "この repo には REA 本体プロジェクトへのリンクと解説動画 1 本へのリンクがあるだけで、実際の解析成果、コード、テストは含まれない。抜粋だけでは動画の具体的な手法や結果は判断できない。",
+      "target": "REA の使用デモ動画",
+      "metric": "動画リンク 1 件のみ、具体的な成果なし"
+    },
+    "ko": {
+      "title": "REA와 '몇 분 만에 어떤 소프트웨어든 복제' 영상을 연결한 자료 페이지",
+      "summary": "이 repo에는 REA 메인 프로젝트 링크와 튜토리얼 영상 링크 하나만 있으며, 실제 분석 결과, 코드, 테스트는 없다. 발췌만으로는 영상의 구체적인 방법이나 결과를 알 수 없다.",
+      "target": "REA 사용 시연 영상",
+      "metric": "영상 링크 1개뿐, 구체적인 성과 없음"
+    }
+  },
+  "d-74f8cfb060": {
+    "hash": "d3acdca5e065",
+    "en": {
+      "title": "Report on REA gaining 25K stars in a day and its impact on software moats",
+      "summary": "The article rounds up REA's viral signals within a week (a surge of GitHub stars, Hacker News discussion, a wave of game decompilation) and introduces how REA lets AI agents analyze native binaries, Electron apps, APKs and firmware via MCP. It is mostly commentary and trend analysis; the author reports no hands-on results against any specific target.",
+      "target": "The REA project and its community discussion (no specific reverse-engineering target)",
+      "metric": "About 25,784 new GitHub stars in one day; HN discussion with 769 points and 327 comments"
+    },
+    "zh-CN": {
+      "title": "报道 REA 单日暴涨 2.5 万星并分析其对软件护城河的冲击",
+      "summary": "文章梳理了 REA 一周内的爆红信号（GitHub 星数暴涨、Hacker News 讨论、游戏反编译热潮），并介绍 REA 如何通过 MCP 让 AI agent 分析原生二进制、Electron、APK 与固件。内容以评论和趋势解读为主，没有作者对特定目标的实测成果。",
+      "target": "REA 项目及其社区讨论（非特定逆向目标）",
+      "metric": "单日新增约 25,784 颗 GitHub 星；HN 讨论 769 分、327 条评论"
+    },
+    "ja": {
+      "title": "REA の 1 日 2.5 万スター急増と、ソフトウェアの堀への影響を論じる記事",
+      "summary": "1 週間での REA の急速な注目の高まり（GitHub スターの急増、Hacker News での議論、ゲームのデコンパイルブーム）をまとめ、REA が MCP 経由で AI エージェントにネイティブバイナリ、Electron、APK、ファームウェアを解析させる仕組みを紹介している。内容は論評とトレンド解説が中心で、特定のターゲットに対する筆者自身の検証結果はない。",
+      "target": "REA プロジェクトとコミュニティでの議論（特定のリバース対象なし）",
+      "metric": "1 日で約 25,784 スター増、HN で 769 ポイント・327 コメント"
+    },
+    "ko": {
+      "title": "REA의 하루 2.5만 스타 급증 보도와 소프트웨어 해자에 미치는 영향 분석",
+      "summary": "일주일 사이 REA가 화제가 된 신호(GitHub 스타 급증, Hacker News 토론, 게임 디컴파일 열풍)를 정리하고, REA가 MCP를 통해 AI 에이전트로 네이티브 바이너리, Electron, APK, 펌웨어를 분석하게 하는 방식을 소개한다. 논평과 트렌드 해설 위주이며, 특정 대상에 대한 저자의 실측 결과는 없다.",
+      "target": "REA 프로젝트와 커뮤니티 토론(특정 리버싱 대상 아님)",
+      "metric": "하루 새 GitHub 스타 약 25,784개 증가, HN 769점·댓글 327개"
+    }
+  },
+  "d-38d2e24f6f": {
+    "hash": "3fe313d2e158",
+    "en": {
+      "title": "V2EX post sharing REA and discussing what reverse engineering means for indie developers",
+      "summary": "The poster briefly introduces REA as able to decompile most applications and asks whether being reverse-engineered is good or bad for developers. The replies are all opinions and chit-chat, with no record or results of actually using REA.",
+      "target": "The REA project (community discussion)",
+      "metric": "5 replies, no hands-on results"
+    },
+    "zh-CN": {
+      "title": "V2EX 帖子转介 REA 并讨论逆向对个人开发者的影响",
+      "summary": "发帖者简短介绍了 REA 可反编译大部分应用，并提出被逆向对开发者是好是坏的疑问。回复都是感想和闲聊，没有实际使用 REA 的记录或成果。",
+      "target": "REA 项目（社区讨论）",
+      "metric": "5 条回复，无任何实测结果"
+    },
+    "ja": {
+      "title": "V2EX の投稿：REA を紹介し、リバースが個人開発者に与える影響を議論",
+      "summary": "投稿者は REA がほとんどのアプリをデコンパイルできると簡単に紹介し、リバースされることは開発者にとって良いのか悪いのかと問いかけている。返信は感想や雑談ばかりで、REA を実際に使った記録や成果はない。",
+      "target": "REA プロジェクト（コミュニティでの議論）",
+      "metric": "返信 5 件、実測結果なし"
+    },
+    "ko": {
+      "title": "V2EX 게시글: REA 소개와 리버싱이 개인 개발자에게 미치는 영향 논의",
+      "summary": "작성자가 REA가 대부분의 애플리케이션을 디컴파일할 수 있다고 짧게 소개하고, 리버싱당하는 것이 개발자에게 좋은 일인지 묻는다. 답글은 모두 감상과 잡담이며, REA를 실제로 사용한 기록이나 결과는 없다.",
+      "target": "REA 프로젝트(커뮤니티 토론)",
+      "metric": "답글 5개, 실측 결과 없음"
+    }
+  },
+  "d-638c7f2748": {
+    "hash": "56bd58e81521",
+    "en": {
+      "title": "Hacker News question: has anyone tried REA?",
+      "summary": "The poster saw a lot of discussion about REA on X and asks what people think. The only comment is an opinion on intellectual property and the value of software; there is no actual use or analysis.",
+      "target": "REA (community discussion)",
+      "metric": "2 points, 1 comment; no hands-on results"
+    },
+    "zh-CN": {
+      "title": "Hacker News 提问：有人试过 REA 吗？",
+      "summary": "发帖者看到 X 上有很多关于 REA 的讨论，询问大家的看法。唯一的评论是对知识产权和软件价值的看法，没有任何实际使用或分析。",
+      "target": "REA（社区讨论）",
+      "metric": "2 分、1 条评论，无实际成果"
+    },
+    "ja": {
+      "title": "Hacker News の質問：REA を試した人はいる？",
+      "summary": "投稿者は X で REA に関する議論を多く見かけ、皆の意見を尋ねている。唯一のコメントは知的財産権とソフトウェアの価値についての意見で、実際の使用や解析は含まれない。",
+      "target": "REA（コミュニティでの議論）",
+      "metric": "2 ポイント・コメント 1 件、実際の成果なし"
+    },
+    "ko": {
+      "title": "Hacker News 질문: REA 써본 사람 있나요?",
+      "summary": "작성자가 X에서 REA에 관한 논의를 많이 보고 사람들의 생각을 묻는다. 유일한 댓글은 지식재산권과 소프트웨어의 가치에 대한 의견이며, 실제 사용이나 분석은 없다.",
+      "target": "REA(커뮤니티 토론)",
+      "metric": "2점, 댓글 1개, 실제 성과 없음"
+    }
+  },
+  "d-09b3661b71": {
+    "hash": "a3e38aef5b46",
+    "en": {
+      "title": "Article on REA letting AI analyze programs without source code, citing the DX-Ball example",
+      "summary": "The article introduces REA, an open-source bridge connecting Claude Code and Cursor with Ghidra, IDA Pro, and Hopper, and explains the supported target types and limitations. It cites the official example: after the DX-Ball sound-position calculation was reproduced, it passed 3,205 tests compared against the original, and all 63 bytes of the function were reproduced; it also mentions a trace of Notion's clipboard handling. This is a secondhand account; the author did not test it personally.",
+      "target": "REA project overview (citing the DX-Ball and Notion examples)",
+      "metric": "Cited: 3,205 tests matching the original, 63-byte function fully reproduced"
+    },
+    "zh-CN": {
+      "title": "报道 REA 让 AI 在没有源代码的情况下分析程序，引述 DX-Ball 示例",
+      "summary": "文章介绍 REA 是连接 Claude Code、Cursor 与 Ghidra、IDA Pro、Hopper 的开源桥接工具，并说明支持的目标类型与限制。内容引述官方示例：DX-Ball 音效位置计算重现后通过了 3,205 条与原版比对的测试，并重现了函数全部 63 个字节；另提到对 Notion 剪贴板处理的追踪。这是转述，作者没有亲自实测。",
+      "target": "REA 项目介绍（引述 DX-Ball、Notion 示例）",
+      "metric": "引述：3,205 条测试与原版一致、63 字节函数完整重现"
+    },
+    "ja": {
+      "title": "REA によりソースコードなしで AI がプログラムを解析できるとする記事。DX-Ball の例を引用",
+      "summary": "Claude Code や Cursor を Ghidra、IDA Pro、Hopper に接続するオープンソースのブリッジツール REA を紹介し、対応するターゲットの種類と制約を解説している。公式の例として、DX-Ball のサウンド位置計算を再現したところ、オリジナル版と照合する 3,205 件のテストに合格し、関数の 63 バイトすべてを再現できたことを引用。Notion のクリップボード処理のトレースにも触れている。これは伝聞であり、筆者自身は検証していない。",
+      "target": "REA プロジェクト紹介（DX-Ball・Notion の例を引用）",
+      "metric": "引用：3,205 件のテストがオリジナルと一致、63 バイトの関数を完全再現"
+    },
+    "ko": {
+      "title": "REA로 소스 코드 없이 AI가 프로그램을 분석한다는 기사, DX-Ball 사례 인용",
+      "summary": "Claude Code, Cursor를 Ghidra, IDA Pro, Hopper와 연결하는 오픈소스 브리지 도구 REA를 소개하고, 지원하는 대상 유형과 제약을 설명한다. 공식 사례로 DX-Ball의 사운드 위치 계산을 재현한 뒤 원본과 대조한 3,205건의 테스트를 통과했고 함수 63바이트를 모두 재현했다고 인용한다. Notion 클립보드 처리 추적도 언급한다. 이는 전해 들은 내용을 옮긴 것으로, 필자가 직접 검증한 것은 아니다.",
+      "target": "REA 프로젝트 소개 (DX-Ball, Notion 사례 인용)",
+      "metric": "인용: 3,205건 테스트가 원본과 일치, 63바이트 함수 완전 재현"
+    }
+  }
+}

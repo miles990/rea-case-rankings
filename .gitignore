@@ -1,0 +1,5 @@
+dist/
+data/.pending-context.json
+node_modules/
+.DS_Store
+.claude/

@@ -1,0 +1,139 @@
+<title>REA 案例排行榜</title>
+<meta name="description" content="People reverse engineering real software with REA (morluto/rea): every case, app and write-up, scored, ranked and updated daily.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=JetBrains+Mono:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700;900&display=swap">
+<style>/*__CSS__*/</style>
+<!--__HEAD_EXTRA__-->
+<!--SPLIT-->
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top" id="top"><span class="brand-mark">REA</span><span class="brand-name" data-i18n="title"></span></a>
+    <nav aria-label="Sections">
+      <a href="#explore" data-i18n="nav.explore"></a>
+      <a href="#latest" data-i18n="nav.new"></a>
+      <a href="#about" data-i18n="nav.about"></a>
+    </nav>
+    <div class="top-right">
+      <button class="ctl" id="open-pal" type="button" aria-keyshortcuts="Meta+K Control+K"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg><span class="kl" data-i18n="k.palette"></span><kbd>⌘K</kbd></button>
+      <button class="ctl" id="theme" type="button" hidden aria-label="Theme"></button>
+      <select class="ctl" id="lang" aria-label="Language"></select>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow" data-i18n="hero.eyebrow"></div>
+      <h1><span data-i18n="hero.h1a"></span> <span class="rea">REA</span><br id="h1br"><span data-i18n="hero.h1b"></span><span class="cursor" aria-hidden="true"></span></h1>
+      <p class="lede" data-i18n-html="hero.lede"></p>
+      <ul class="stats" id="stats"></ul>
+      <div class="hero-cta">
+        <a class="btn primary" href="#explore" data-i18n="hero.cta"></a>
+        <a class="btn" href="https://github.com/morluto/rea" target="_blank" rel="noopener noreferrer">morluto/rea ↗</a>
+      </div>
+    </div>
+    <figure class="listing" aria-hidden="true">
+      <div class="listing-head"><span><b>DXBALL.EXE</b> · .text</span><span data-i18n="panel.head"></span></div>
+      <div class="asm" id="asm"></div>
+      <div class="csrc" id="csrc"></div>
+      <div class="listing-foot"><span data-i18n="panel.caption"></span><span class="pass">✓ 3,205 / 3,205</span></div>
+    </figure>
+  </div>
+</section>
+
+<section class="hl" aria-labelledby="hl-h">
+  <div class="wrap">
+    <div class="hl-head"><h2 id="hl-h" data-i18n="feat.h2"></h2><p data-i18n="feat.p"></p></div>
+    <div class="hl-row" id="highlights"></div>
+  </div>
+</section>
+
+<section class="explorer" id="explore" aria-label="Explorer">
+  <div class="wrap ex-grid">
+    <aside class="rail" id="rail" aria-label="Filters">
+      <label class="search" for="q">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+        <span class="vh" data-i18n="k.search"></span>
+        <input id="q" type="search" autocomplete="off" data-i18n-ph="search.ph">
+        <kbd>/</kbd>
+      </label>
+      <div id="facets"></div>
+      <div class="rail-foot">
+        <a href="#about" data-i18n="ex.howScored"></a>
+        <a id="api-link" href="api/records.json" data-i18n="ex.api"></a>
+      </div>
+      <button class="btn only-mobile" id="rail-done" type="button" style="margin-top:16px;width:100%;justify-content:center" data-i18n="ex.done"></button>
+    </aside>
+
+    <div class="center">
+      <div class="ex-top">
+        <button class="ctl only-mobile" id="open-rail" type="button"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 6h18M6 12h12M10 18h4"></path></svg><span data-i18n="ex.filters"></span></button>
+        <div class="tabs" id="tabs" role="tablist" aria-label="Type"></div>
+        <div class="views" id="views" role="group" aria-label="View">
+          <button type="button" data-view="list" aria-pressed="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="7" height="6" rx="1"></rect><path d="M13 6h8M13 9h5"></path><rect x="3" y="14" width="7" height="6" rx="1"></rect><path d="M13 16h8M13 19h5"></path></svg><span class="vl" data-i18n="view.list"></span></button>
+          <button type="button" data-view="grid" aria-pressed="false"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="8" height="8" rx="1"></rect><rect x="13" y="3" width="8" height="8" rx="1"></rect><rect x="3" y="13" width="8" height="8" rx="1"></rect><rect x="13" y="13" width="8" height="8" rx="1"></rect></svg><span class="vl" data-i18n="view.grid"></span></button>
+          <button type="button" data-view="table" aria-pressed="false"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 5h18M3 10h18M3 15h18M3 20h18M9 5v15"></path></svg><span class="vl" data-i18n="view.table"></span></button>
+          <button type="button" data-view="timeline" aria-pressed="false"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="6" cy="15" r="2.5"></circle><circle cx="12" cy="8" r="3.5"></circle><circle cx="18" cy="14" r="2"></circle><path d="M3 21h18"></path></svg><span class="vl" data-i18n="view.timeline"></span></button>
+          <button type="button" data-view="graph" aria-pressed="false"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="5" r="2.5"></circle><circle cx="5" cy="18" r="2.5"></circle><circle cx="19" cy="18" r="2.5"></circle><path d="M11 7.5 6.5 16M13 7.5l4.5 8.5M7.5 18h9"></path></svg><span class="vl" data-i18n="view.graph"></span></button>
+        </div>
+        <select id="sort" aria-label="Sort"><option value="rank" data-i18n="sort.rank"></option><option value="heat" data-i18n="sort.heat"></option><option value="new" data-i18n="sort.new"></option></select>
+        <span class="count" id="count" aria-live="polite"></span>
+      </div>
+      <div class="active-filters" id="active"></div>
+      <div id="results"></div>
+    </div>
+
+    <aside class="detail-wrap" id="detail-wrap" aria-label="Details">
+      <div class="detail" id="detail"></div>
+    </aside>
+  </div>
+</section>
+
+<section class="block" id="latest">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><div class="eyebrow" data-i18n="new.eyebrow"></div><h2 data-i18n="new.h2"></h2></div>
+      <p id="scan"></p>
+    </div>
+    <div class="latest" id="latest-row" data-scroll-x></div>
+  </div>
+</section>
+
+<section class="block" id="about">
+  <div class="wrap">
+    <div class="sec-head"><div><div class="eyebrow">About</div><h2 data-i18n="about.h2"></h2></div></div>
+    <div class="about">
+      <details open><summary data-i18n="rubric.h"></summary><div class="body"><ul class="rubric" id="rubric"></ul></div></details>
+      <details open><summary data-i18n="heat.h"></summary><div class="body"><p data-i18n="heat.note"></p><p data-i18n="sort.note"></p></div></details>
+      <details><summary data-i18n="how.h2"></summary><div class="body"><ol class="steps"><li><b data-i18n="how.1h"></b> — <span data-i18n="how.1p"></span></li><li><b data-i18n="how.2h"></b> — <span data-i18n="how.2p"></span></li><li><b data-i18n="how.3h"></b> — <span data-i18n="how.3p"></span></li></ol></div></details>
+      <details><summary data-i18n="agent.h"></summary><div class="body"><p data-i18n="agent.p"></p><div class="code" id="agent-code"></div></div></details>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span><span data-i18n="foot.updated"></span> <span class="mono" id="updated"></span> · <span data-i18n="foot.rights"></span></span>
+    <span><span data-i18n="foot.legal"></span> · <a id="repo-link" href="https://github.com/miles990/rea-awesome" target="_blank" rel="noopener noreferrer">GitHub</a></span>
+  </div>
+</footer>
+
+<div class="scrim" id="scrim"></div>
+<div class="pal" id="pal" role="dialog" aria-modal="true" aria-label="Jump">
+  <input id="pal-q" type="text" autocomplete="off" data-i18n-ph="pal.ph" role="combobox" aria-controls="pal-list" aria-expanded="true">
+  <ul id="pal-list" role="listbox"></ul>
+  <div class="pal-foot" data-i18n="pal.hint"></div>
+</div>
+<div class="tip" id="tip" aria-hidden="true"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const DATA = /*__DATA__*/null;
+const UI = /*__UI__*/null;
+const PAGE_LANG = /*__LANG__*/null;
+/*__JS__*/
+</script>

@@ -1,0 +1,14 @@
+{
+  "name": "rea-awesome",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/validate.mjs && node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "dev": "node scripts/validate.mjs && node scripts/build.mjs && node scripts/check.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}

@@ -1,0 +1,495 @@
+{
+  "touhou-factory": {
+    "tried": "2026-10-12",
+    "file": "touhou-factory.jpg",
+    "src": "https://rea.tools/assets/social-card.png",
+    "generic": true
+  },
+  "obsidian-quick-switcher": {
+    "tried": "2026-10-12",
+    "file": "obsidian-quick-switcher.jpg",
+    "src": "https://i.ytimg.com/vi/hG3kcpQFKvU/hqdefault.jpg"
+  },
+  "dotey-claude-slides": {
+    "tried": "2026-10-12",
+    "file": "dotey-claude-slides.jpg",
+    "src": "https://opengraph.githubassets.com/0d9795c75879208748761314ce679ecb8ab0fa8d517e0d714f5be6e4e9d2cda1/JimLiu/baocut/commit/b8585e0c8d7a82bdee9f0ed019cf6edb075e41c1"
+  },
+  "dx-ball-sound-pan": {
+    "tried": "2026-10-12",
+    "file": "dx-ball-sound-pan.svg",
+    "src": "https://rea.tools/assets/figures/dx-ball-sound-pan-investigation.svg"
+  },
+  "zwo-asiair": {
+    "tried": "2026-10-12",
+    "file": "zwo-asiair.jpg",
+    "src": "https://opengraph.githubassets.com/1/Jiang-sustech/REA-ZWO"
+  },
+  "ski-or-die": {
+    "tried": "2026-10-12",
+    "file": "ski-or-die.jpg",
+    "src": "https://opengraph.githubassets.com/1/tuunanet/rea-ski-or-die-reconstruction"
+  },
+  "wispr-flow-eric": {
+    "tried": "2026-10-12",
+    "file": "wispr-flow-eric.jpg",
+    "src": "https://i.ytimg.com/vi/FnB9tHKBJXQ/hqdefault.jpg"
+  },
+  "codex-browser-annotation": {
+    "tried": "2026-10-12"
+  },
+  "d-fab901f33e": {
+    "tried": "2026-10-12"
+  },
+  "d-c6fbea64b5": {
+    "tried": "2026-10-12"
+  },
+  "th04-bullet-ring": {
+    "tried": "2026-10-12",
+    "file": "th04-bullet-ring.svg",
+    "src": "https://rea.tools/assets/figures/th04-bullet-ring.svg"
+  },
+  "nextjs-stripe-leak-check": {
+    "tried": "2026-10-12",
+    "file": "nextjs-stripe-leak-check.jpg",
+    "src": "https://opengraph.githubassets.com/959ac8e41dde77105733e0367db23fe0160fb53d0b52aeb33cda32da82ccd16e/morluto/rea/discussions/1406"
+  },
+  "wispr-flow-az9713": {
+    "tried": "2026-10-12",
+    "file": "wispr-flow-az9713.jpg",
+    "src": "https://opengraph.githubassets.com/1/az9713/wispr-flow-rea-teardown"
+  },
+  "smart-toilet": {
+    "tried": "2026-10-12"
+  },
+  "d-39a6a89f43": {
+    "tried": "2026-10-12"
+  },
+  "macos-preview-race": {
+    "tried": "2026-10-12",
+    "file": "macos-preview-race.jpg",
+    "src": "https://i.ytimg.com/vi/dAzs_rU6080/hqdefault.jpg"
+  },
+  "claude-code-muse": {
+    "tried": "2026-10-12"
+  },
+  "encrypted-lib-rewrite": {
+    "tried": "2026-10-12"
+  },
+  "d-365a6c591d": {
+    "tried": "2026-10-12"
+  },
+  "openbattlefield2": {
+    "tried": "2026-10-12"
+  },
+  "vsl-dsp": {
+    "tried": "2026-10-12",
+    "file": "vsl-dsp.jpg",
+    "src": "https://opengraph.githubassets.com/1/grisuno/VSL-DSP"
+  },
+  "netcat-audit": {
+    "tried": "2026-10-12",
+    "file": "netcat-audit.jpg",
+    "src": "https://opengraph.githubassets.com/1/NullLabTests/OpenBSD_netcat_REA"
+  },
+  "d-f40052c423": {
+    "tried": "2026-10-12"
+  },
+  "d-9409d062f4": {
+    "tried": "2026-10-12"
+  },
+  "d-a080ed3b32": {
+    "tried": "2026-10-12"
+  },
+  "d-4037cb4975": {
+    "tried": "2026-10-12"
+  },
+  "notion-clipboard": {
+    "tried": "2026-10-12",
+    "file": "notion-clipboard.jpg",
+    "src": "https://rea.tools/assets/social-card.png",
+    "generic": true
+  },
+  "aegis-totp": {
+    "tried": "2026-10-12",
+    "file": "aegis-totp.jpg",
+    "src": "https://rea.tools/assets/social-card.png",
+    "generic": true
+  },
+  "downunderctf": {
+    "tried": "2026-10-12",
+    "file": "downunderctf.svg",
+    "src": "https://rea.tools/assets/figures/ctf-mask-equation.svg"
+  },
+  "pi-desktop-electron": {
+    "tried": "2026-10-12",
+    "file": "pi-desktop-electron.jpg",
+    "src": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fmiro.medium.com%2Fv2%2Fresize%3Afit%3A1400%2F1%2AtstMsbB7Ts2jLqSWbB0n2A.png"
+  },
+  "windows-calc-percent": {
+    "tried": "2026-10-12",
+    "file": "windows-calc-percent.jpg",
+    "src": "https://opengraph.githubassets.com/1c66ac517528e42bae636e2ef1725ea10c3c0136e744b84e61b5744b40c4885a/morluto/rea/pull/1272"
+  },
+  "zenn-electron-known-answer": {
+    "tried": "2026-10-12",
+    "file": "zenn-electron-known-answer.jpg",
+    "src": "https://res.cloudinary.com/zenn/image/upload/s--3-b850Lu--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%258CReverse%2520Engineer%2520Anything%25E3%2580%258D%25E3%2582%2592%25E5%2590%258D%25E4%25B9%2597%25E3%2582%258BMCP%25E3%2582%25B5%25E3%2583%25BC%25E3%2583%2590%25E3%2583%25BCREA%25E3%2582%2592%25E8%2587%25AA%25E4%25BD%259CElectron%25E3%2582%25A2%25E3%2583%2597%25E3%2583%25AA%25E3%2581%25A7%25E8%25A9%25A6%25E3%2581%2597%25E3%2581%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:matsu%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzVkY2YwMTZjYWEuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE"
+  },
+  "kingy-notes-exporter": {
+    "tried": "2026-10-12",
+    "file": "kingy-notes-exporter.jpg",
+    "src": "https://kingy.ai/wp-content/uploads/2026/10/rea-featured-image.webp"
+  },
+  "gunzrs": {
+    "tried": "2026-10-12",
+    "file": "gunzrs.jpg",
+    "src": "https://opengraph.githubassets.com/1/OpenRsG/GunZRs"
+  },
+  "d-ecbb34ba3f": {
+    "tried": "2026-10-12"
+  },
+  "d-3cacad9892": {
+    "tried": "2026-10-12"
+  },
+  "d-5a8e8882b7": {
+    "tried": "2026-10-12"
+  },
+  "d-1ea735e339": {
+    "tried": "2026-10-12",
+    "file": "d-1ea735e339.jpg",
+    "src": "https://i.ytimg.com/vi/RtFYGM1wpOY/hqdefault.jpg"
+  },
+  "d-9aea516faa": {
+    "tried": "2026-10-12",
+    "file": "d-9aea516faa.jpg",
+    "src": "https://i.ytimg.com/vi/aaSQVqEa6U4/hqdefault.jpg"
+  },
+  "d-2731867e4e": {
+    "tried": "2026-10-12"
+  },
+  "d-19ff7d8929": {
+    "tried": "2026-10-12"
+  },
+  "d-1d3d058162": {
+    "tried": "2026-10-12"
+  },
+  "d-b50fa3ab1c": {
+    "tried": "2026-10-12",
+    "file": "d-b50fa3ab1c.jpg",
+    "src": "https://i.ytimg.com/vi/zVwM_vsIJSo/hqdefault.jpg"
+  },
+  "d-c98d5d03bf": {
+    "tried": "2026-10-12",
+    "file": "d-c98d5d03bf.jpg",
+    "src": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpxk736aeksewdpd1sx73.png"
+  },
+  "d-a0e7f6b9af": {
+    "tried": "2026-10-12",
+    "file": "d-a0e7f6b9af.jpg",
+    "src": "https://i.ytimg.com/vi/PXhWRIKcIig/hqdefault.jpg"
+  },
+  "d-3ea3ed837d": {
+    "tried": "2026-10-12",
+    "file": "d-3ea3ed837d.jpg",
+    "src": "https://i.ytimg.com/vi/nFKJ85U6T94/hqdefault.jpg"
+  },
+  "psp-mips-lab": {
+    "tried": "2026-10-12",
+    "file": "psp-mips-lab.jpg",
+    "src": "https://opengraph.githubassets.com/6e673732f01196ef85c5a2b3dedfd87a06269e095df5b923d4674cd72da039e9/morluto/rea/discussions/1958"
+  },
+  "d-d2c64cc5c2": {
+    "tried": "2026-10-12"
+  },
+  "local-models-12gb": {
+    "tried": "2026-10-12",
+    "file": "local-models-12gb.jpg",
+    "src": "https://opengraph.githubassets.com/3651d7d982ace743c074c08e293ae4cabb4b2e260135ede4e2b5416ff75b2f94/morluto/rea/discussions/2006"
+  },
+  "d-fad55735f3": {
+    "tried": "2026-10-12",
+    "file": "d-fad55735f3.jpg",
+    "src": "https://opengraph.githubassets.com/1/nesaon03/XYREVERSE"
+  },
+  "poker-organizer": {
+    "tried": "2026-10-12"
+  },
+  "d-f5aadf840e": {
+    "tried": "2026-10-12"
+  },
+  "d-58c16f12d8": {
+    "tried": "2026-10-12",
+    "file": "d-58c16f12d8.jpg",
+    "src": "https://opengraph.githubassets.com/1/jinshi666888/rea-playbook"
+  },
+  "d-7b1ef2129b": {
+    "tried": "2026-10-12",
+    "file": "d-7b1ef2129b.jpg",
+    "src": "https://opengraph.githubassets.com/1/Error0422-bit/rea-local-gui"
+  },
+  "d-e1728ce0c0": {
+    "tried": "2026-10-12"
+  },
+  "d-c4120d6952": {
+    "tried": "2026-10-12"
+  },
+  "d-793448136a": {
+    "tried": "2026-10-12"
+  },
+  "dino-speed": {
+    "tried": "2026-10-12",
+    "file": "dino-speed.jpg",
+    "src": "https://opengraph.githubassets.com/53ae6417f9300a711417befe7fd1ddafb830ef26d71cae98bdb6d00294d51353/morluto/rea/pull/1203"
+  },
+  "d-549b544e96": {
+    "tried": "2026-10-12",
+    "file": "d-549b544e96.jpg",
+    "src": "https://opengraph.githubassets.com/1/SilenWang/rea-pixi-env"
+  },
+  "heartland-side-effects": {
+    "tried": "2026-10-12",
+    "file": "heartland-side-effects.jpg",
+    "src": "https://ai-heartland.com/generated_images/cover_rea_reverse_engineering.webp"
+  },
+  "korean-practice": {
+    "tried": "2026-10-12",
+    "file": "korean-practice.jpg",
+    "src": "https://opengraph.githubassets.com/1/jkf87/rea-practice"
+  },
+  "d-da8a49f9d0": {
+    "tried": "2026-10-12",
+    "file": "d-da8a49f9d0.jpg",
+    "src": "https://opengraph.githubassets.com/1/kaixinbaba/awesome-rea"
+  },
+  "rea-investigate": {
+    "tried": "2026-10-12",
+    "file": "rea-investigate.jpg",
+    "src": "https://opengraph.githubassets.com/1/Devaretanmay/rea-investigate"
+  },
+  "d-723866fc43": {
+    "tried": "2026-10-12",
+    "file": "d-723866fc43.jpg",
+    "src": "https://opengraph.githubassets.com/1/Atlien-Caballeros/REA"
+  },
+  "fathom-rust": {
+    "tried": "2026-10-12",
+    "file": "fathom-rust.jpg",
+    "src": "https://opengraph.githubassets.com/1/qompassai/fathom"
+  },
+  "d-309b4f51ec": {
+    "tried": "2026-10-12",
+    "file": "d-309b4f51ec.jpg",
+    "src": "https://opengraph.githubassets.com/1/Ersith/dsh-mcp-rea"
+  },
+  "tracebrief": {
+    "tried": "2026-10-12",
+    "file": "tracebrief.jpg",
+    "src": "https://opengraph.githubassets.com/1/dany331x/tracebrief"
+  },
+  "rea-jev": {
+    "tried": "2026-10-12",
+    "file": "rea-jev.jpg",
+    "src": "https://opengraph.githubassets.com/1/juan-viox/rea-jev"
+  },
+  "d-980ec6dbee": {
+    "tried": "2026-10-12"
+  },
+  "d-b7bab8c269": {
+    "tried": "2026-10-12"
+  },
+  "apisitlee-mac-pitfalls": {
+    "tried": "2026-10-12",
+    "file": "apisitlee-mac-pitfalls.jpg",
+    "src": "https://apisitlee.com/wp-content/uploads/2026/08/apisitlee_twitter_card.webp"
+  },
+  "d-8bc58b3522": {
+    "tried": "2026-10-12",
+    "file": "d-8bc58b3522.jpg",
+    "src": "https://i.ytimg.com/vi/OMobTlfjb8s/hqdefault.jpg"
+  },
+  "d-3fed5ef749": {
+    "tried": "2026-10-12",
+    "file": "d-3fed5ef749.jpg",
+    "src": "https://i.ytimg.com/vi/QMQTrLUlxBo/hqdefault.jpg"
+  },
+  "d-549e5f22f1": {
+    "tried": "2026-10-12",
+    "file": "d-549e5f22f1.jpg",
+    "src": "https://i.ytimg.com/vi/c3qwsFtwtWQ/hqdefault.jpg"
+  },
+  "d-4b6f076aec": {
+    "tried": "2026-10-12",
+    "file": "d-4b6f076aec.jpg",
+    "src": "https://i.ytimg.com/vi/cHPWA4omJD8/hqdefault.jpg"
+  },
+  "d-7bdfe59176": {
+    "tried": "2026-10-12",
+    "file": "d-7bdfe59176.jpg",
+    "src": "https://i.ytimg.com/vi/U_8af4oJpMo/hqdefault.jpg"
+  },
+  "d-c1929a8763": {
+    "tried": "2026-10-12",
+    "file": "d-c1929a8763.jpg",
+    "src": "https://i.ytimg.com/vi/ygbgiLqKTwA/hqdefault.jpg"
+  },
+  "d-9b117df4ee": {
+    "tried": "2026-10-12",
+    "file": "d-9b117df4ee.jpg",
+    "src": "https://i.ytimg.com/vi/Ae4wsTTLNRI/hqdefault.jpg"
+  },
+  "d-1db90967d1": {
+    "tried": "2026-10-12",
+    "file": "d-1db90967d1.jpg",
+    "src": "https://i.ytimg.com/vi/mj4udeSTKXc/hqdefault.jpg"
+  },
+  "d-f9f5841bd6": {
+    "tried": "2026-10-12"
+  },
+  "d-9b672fd678": {
+    "tried": "2026-10-12"
+  },
+  "d-6f8af58586": {
+    "tried": "2026-10-12"
+  },
+  "d-8a3810818f": {
+    "tried": "2026-10-12",
+    "file": "d-8a3810818f.jpg",
+    "src": "https://i.ytimg.com/vi/o8Ca8Y9LG_0/hqdefault.jpg"
+  },
+  "d-118ae879d0": {
+    "tried": "2026-10-12",
+    "file": "d-118ae879d0.jpg",
+    "src": "https://i.ytimg.com/vi/VkSPoEbLFQs/hqdefault.jpg"
+  },
+  "d-b459ed93cc": {
+    "tried": "2026-10-12",
+    "file": "d-b459ed93cc.jpg",
+    "src": "https://i.ytimg.com/vi/ZubVul8YouU/hqdefault.jpg"
+  },
+  "d-e90ed175c1": {
+    "tried": "2026-10-12"
+  },
+  "d-f5431e337a": {
+    "tried": "2026-10-12",
+    "file": "d-f5431e337a.jpg",
+    "src": "https://i.ytimg.com/vi/Y17YhD1jrME/hqdefault.jpg"
+  },
+  "d-fe5e277ca1": {
+    "tried": "2026-10-12",
+    "file": "d-fe5e277ca1.jpg",
+    "src": "https://i.ytimg.com/vi/OGoVRwq_3Uk/hqdefault.jpg"
+  },
+  "d-972fc7b6da": {
+    "tried": "2026-10-12",
+    "file": "d-972fc7b6da.jpg",
+    "src": "https://i.ytimg.com/vi/HNgW9fgkyzc/hqdefault.jpg"
+  },
+  "d-46454c1b46": {
+    "tried": "2026-10-12",
+    "file": "d-46454c1b46.jpg",
+    "src": "https://i.ytimg.com/vi/X5ayfedIG5U/hqdefault.jpg"
+  },
+  "d-e850375db0": {
+    "tried": "2026-10-12"
+  },
+  "d-5590acd0a2": {
+    "tried": "2026-10-12"
+  },
+  "d-f2965ebbaf": {
+    "tried": "2026-10-12"
+  },
+  "d-e38dc18735": {
+    "tried": "2026-10-12"
+  },
+  "d-8291995c5c": {
+    "tried": "2026-10-12",
+    "file": "d-8291995c5c.jpg",
+    "src": "https://i.ytimg.com/vi/nL9MmtrdcC8/hqdefault.jpg"
+  },
+  "d-e2517fca1f": {
+    "tried": "2026-10-12",
+    "file": "d-e2517fca1f.jpg",
+    "src": "https://i.ytimg.com/vi/UF57CK8zLAI/hqdefault.jpg"
+  },
+  "d-541d86fb17": {
+    "tried": "2026-10-12"
+  },
+  "d-0cf41ba371": {
+    "tried": "2026-10-12"
+  },
+  "d-7db4521e35": {
+    "tried": "2026-10-12",
+    "file": "d-7db4521e35.jpg",
+    "src": "https://i.ytimg.com/vi/wvoG0AM6SkM/hqdefault.jpg"
+  },
+  "d-e9e9ff9a0d": {
+    "tried": "2026-10-12",
+    "file": "d-e9e9ff9a0d.jpg",
+    "src": "https://i.ytimg.com/vi/POy9GvhxJ8o/hqdefault.jpg"
+  },
+  "d-9006ac460e": {
+    "tried": "2026-10-12"
+  },
+  "d-638c7f2748": {
+    "tried": "2026-10-12"
+  },
+  "d-eba5d51a83": {
+    "tried": "2026-10-12"
+  },
+  "d-56c7d044e5": {
+    "tried": "2026-10-12"
+  },
+  "d-d99b98a7ca": {
+    "tried": "2026-10-12",
+    "file": "d-d99b98a7ca.jpg",
+    "src": "https://i.ytimg.com/vi/l0ELm0Ibe-8/hqdefault.jpg"
+  },
+  "d-aa39204331": {
+    "tried": "2026-10-12"
+  },
+  "d-5ac743a574": {
+    "tried": "2026-10-12"
+  },
+  "d-34440664fc": {
+    "tried": "2026-10-12"
+  },
+  "d-859187d68d": {
+    "tried": "2026-10-12"
+  },
+  "d-d0c8adfed2": {
+    "tried": "2026-10-12"
+  },
+  "d-72cb8cee2d": {
+    "tried": "2026-10-12"
+  },
+  "d-fb892ff98b": {
+    "tried": "2026-10-12"
+  },
+  "d-0385137f8d": {
+    "tried": "2026-10-12"
+  },
+  "d-b1cce6fd07": {
+    "tried": "2026-10-12"
+  },
+  "d-d74e91afd6": {
+    "tried": "2026-10-12"
+  },
+  "d-60597dfae8": {
+    "tried": "2026-10-12"
+  },
+  "d-014a45b644": {
+    "tried": "2026-10-12"
+  },
+  "d-4cfb19949f": {
+    "tried": "2026-10-12"
+  },
+  "d-1d1f21b68a": {
+    "tried": "2026-10-12"
+  },
+  "d-705128dfa3": {
+    "tried": "2026-10-12",
+    "file": "d-705128dfa3.jpg",
+    "src": "https://files.mastodon.social/media_attachments/files/117/415/634/992/732/100/original/cf7767e5dc968711.webp"
+  }
+}

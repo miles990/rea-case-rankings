@@ -1,7 +1,7 @@
 // Runs Claude Code headless with no tools and a single turn, so text scraped from
 // the web can only influence the JSON it returns, never run commands or reach the
 // network. In GitHub Actions the CLI reads CLAUDE_CODE_OAUTH_TOKEN from the env.
-import { execFileSync } from "node:child_process";
+import { execFileSync, execFile } from "node:child_process";
 
 export function claudeAvailable() {
   if (process.env.SKIP_CLAUDE) return false;
@@ -25,6 +25,21 @@ export function askClaudeJSON(prompt) {
   });
   const text = JSON.parse(raw).result || "";
   return JSON.parse(text.slice(text.indexOf("{"), text.lastIndexOf("}") + 1));
+}
+
+export function askClaudeJSONAsync(prompt) {
+  const args = ["-p", "--output-format", "json", "--max-turns", "1", "--tools", ""];
+  if (process.env.CLAUDE_MODEL) args.push("--model", process.env.CLAUDE_MODEL);
+  return new Promise((resolve, reject) => {
+    const child = execFile("claude", args, { encoding: "utf8", timeout: 300000, maxBuffer: 16 << 20 }, (err, stdout) => {
+      if (err) return reject(err);
+      try {
+        const text = JSON.parse(stdout).result || "";
+        resolve(JSON.parse(text.slice(text.indexOf("{"), text.lastIndexOf("}") + 1)));
+      } catch (e) { reject(e); }
+    });
+    child.stdin.end(prompt);
+  });
 }
 
 // Model output is untrusted: keep plain strings only, trimmed to a sane length.

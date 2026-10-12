@@ -1,8 +1,8 @@
 {
   "updated": "2026-10-12",
   "repo": {
-    "stars": 119490,
-    "forks": 26844
+    "stars": 120197,
+    "forks": 26998
   },
   "log": [
     {
@@ -39,7 +39,10 @@
         }
       ],
       "lang": "zh",
-      "status": "shipped"
+      "status": "shipped",
+      "pop": {
+        "points": 68
+      }
     },
     {
       "id": "obsidian-quick-switcher",
@@ -65,7 +68,10 @@
         }
       ],
       "lang": "en",
-      "status": "tested"
+      "status": "tested",
+      "pop": {
+        "views": 7749
+      }
     },
     {
       "id": "dx-ball-sound-pan",
@@ -91,7 +97,10 @@
         }
       ],
       "lang": "en",
-      "status": "tested"
+      "status": "tested",
+      "pop": {
+        "stars": 35
+      }
     },
     {
       "id": "th04-bullet-ring",
@@ -117,7 +126,10 @@
         }
       ],
       "lang": "en",
-      "status": "tested"
+      "status": "tested",
+      "pop": {
+        "stars": 25
+      }
     },
     {
       "id": "wispr-flow-eric",
@@ -139,7 +151,10 @@
         }
       ],
       "lang": "en",
-      "status": "shipped"
+      "status": "shipped",
+      "pop": {
+        "views": 96545
+      }
     },
     {
       "id": "wispr-flow-az9713",
@@ -165,7 +180,10 @@
         }
       ],
       "lang": "en",
-      "status": "tested"
+      "status": "tested",
+      "pop": {
+        "stars": 0
+      }
     },
     {
       "id": "nextjs-stripe-leak-check",
@@ -187,7 +205,10 @@
         }
       ],
       "lang": "en",
-      "status": "tested"
+      "status": "tested",
+      "pop": {
+        "upvotes": 1
+      }
     },
     {
       "id": "notion-clipboard",
@@ -227,7 +248,7 @@
       "links": [
         {
           "label": "案例研究",
-          "url": "https://rea.tools/showcase/"
+          "url": "https://rea.tools/showcase/aegis/"
         }
       ],
       "lang": "en",
@@ -249,7 +270,7 @@
       "links": [
         {
           "label": "案例研究",
-          "url": "https://rea.tools/showcase/"
+          "url": "https://rea.tools/showcase/ctf/"
         }
       ],
       "lang": "en",
@@ -279,7 +300,10 @@
         }
       ],
       "lang": "en",
-      "status": "shipped"
+      "status": "shipped",
+      "pop": {
+        "views": 396335
+      }
     },
     {
       "id": "pi-desktop-electron",
@@ -323,7 +347,10 @@
         }
       ],
       "lang": "en",
-      "status": "tested"
+      "status": "tested",
+      "pop": {
+        "upvotes": 1
+      }
     },
     {
       "id": "psp-mips-lab",
@@ -349,7 +376,10 @@
         }
       ],
       "lang": "en",
-      "status": "shipped"
+      "status": "shipped",
+      "pop": {
+        "upvotes": 2
+      }
     },
     {
       "id": "zenn-electron-known-answer",
@@ -467,7 +497,10 @@
           "label": "TH095",
           "url": "https://github.com/N0zoM1z0/th095"
         }
-      ]
+      ],
+      "pop": {
+        "stars": 127
+      }
     },
     {
       "added": "2026-10-12",
@@ -489,7 +522,10 @@
           "label": "repo",
           "url": "https://github.com/Jiang-sustech/REA-ZWO"
         }
-      ]
+      ],
+      "pop": {
+        "stars": 0
+      }
     },
     {
       "added": "2026-10-12",
@@ -511,7 +547,10 @@
           "label": "repo",
           "url": "https://github.com/tuunanet/rea-ski-or-die-reconstruction"
         }
-      ]
+      ],
+      "pop": {
+        "stars": 0
+      }
     },
     {
       "added": "2026-10-12",
@@ -555,7 +594,11 @@
           "label": "原帖",
           "url": "https://x.com/dotey/status/2109417222724600172"
         }
-      ]
+      ],
+      "pop": {
+        "likes": 252,
+        "views": 29085
+      }
     },
     {
       "added": "2026-10-12",
@@ -577,7 +620,11 @@
           "label": "原帖",
           "url": "https://x.com/servasyy_ai/status/2108846931183378537"
         }
-      ]
+      ],
+      "pop": {
+        "likes": 576,
+        "views": 114000
+      }
     },
     {
       "added": "2026-10-12",
@@ -599,7 +646,11 @@
           "label": "原帖",
           "url": "https://x.com/leeoxiang/status/2109159806183538768"
         }
-      ]
+      ],
+      "pop": {
+        "likes": 355,
+        "views": 110000
+      }
     },
     {
       "added": "2026-10-12",
@@ -647,7 +698,10 @@
           "label": "repo",
           "url": "https://github.com/NullLabTests/OpenBSD_netcat_REA"
         }
-      ]
+      ],
+      "pop": {
+        "stars": 3
+      }
     },
     {
       "added": "2026-10-12",
@@ -669,7 +723,10 @@
           "label": "repo",
           "url": "https://github.com/Moxnatiy/OpenBattlefield2"
         }
-      ]
+      ],
+      "pop": {
+        "stars": 39
+      }
     },
     {
       "added": "2026-10-12",
@@ -691,7 +748,10 @@
           "label": "repo",
           "url": "https://github.com/grisuno/VSL-DSP"
         }
-      ]
+      ],
+      "pop": {
+        "stars": 6
+      }
     },
     {
       "added": "2026-10-12",
@@ -735,7 +795,11 @@
           "label": "原帖",
           "url": "https://x.com/lipinhobeats/status/2109435654962655526"
         }
-      ]
+      ],
+      "pop": {
+        "likes": 2,
+        "views": 95
+      }
     },
     {
       "added": "2026-10-12",
@@ -757,7 +821,10 @@
           "label": "repo",
           "url": "https://github.com/jkf87/rea-practice"
         }
-      ]
+      ],
+      "pop": {
+        "stars": 0
+      }
     },
     {
       "added": "2026-10-12",
@@ -779,7 +846,10 @@
           "label": "repo",
           "url": "https://github.com/qompassai/fathom"
         }
-      ]
+      ],
+      "pop": {
+        "stars": 0
+      }
     },
     {
       "added": "2026-10-12",
@@ -801,7 +871,10 @@
           "label": "repo",
           "url": "https://github.com/dany331x/tracebrief"
         }
-      ]
+      ],
+      "pop": {
+        "stars": 0
+      }
     },
     {
       "added": "2026-10-12",
@@ -822,6 +895,94 @@
         {
           "label": "指南",
           "url": "https://inematds.github.io/rea-engenharia-reversa/guia/"
+        }
+      ]
+    },
+    {
+      "added": "2026-10-12",
+      "source": "community",
+      "id": "rea-investigate",
+      "title": "REA Investigator：把調查流程拆成規劃、追蹤、驗證、報告的 Agent Skill",
+      "author": "Devaretanmay",
+      "author_url": "https://github.com/Devaretanmay",
+      "date": "2026-10-11",
+      "lang": "en",
+      "category": "工具鏈",
+      "target": "REA 調查流程",
+      "summary": "以 REA CLI 為分析引擎的 agent skill，提供 13 項能力，並用本機證據帳本記錄每一步，讓結論可以回溯到 Evidence。",
+      "metric": "13 項能力 + 本機證據帳本",
+      "wow": 2,
+      "status": "shipped",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/Devaretanmay/rea-investigate"
+        }
+      ]
+    },
+    {
+      "added": "2026-10-12",
+      "source": "community",
+      "id": "rea-jev",
+      "title": "rea-jev：在 REA 調查外層加上路由、工具呼叫檢查與證據追蹤",
+      "author": "juan-viox",
+      "author_url": "https://github.com/juan-viox",
+      "date": "2026-10-06",
+      "lang": "en",
+      "category": "工具鏈",
+      "target": "REA MCP + Jev",
+      "summary": "社群外掛，把 REA 的 MCP server 和 Jev 判斷模型組合起來，在調查過程中做工具路由、呼叫前檢查與證據追蹤。檢查是建議性質，不是安全邊界。",
+      "metric": "REA MCP + Jev 閘門",
+      "wow": 2,
+      "status": "shipped",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/juan-viox/rea-jev"
+        }
+      ]
+    },
+    {
+      "added": "2026-10-12",
+      "source": "community",
+      "id": "gunzrs",
+      "title": "GunZRs：用 Rust 移植 GunZ，內含 REA + Ghidra 調查框架",
+      "author": "OpenRsG",
+      "author_url": "https://github.com/OpenRsG",
+      "date": "2026-10-08",
+      "lang": "en",
+      "category": "Native / 遊戲",
+      "target": "GunZ: The Duel",
+      "summary": "從玩家自己的 Steam 安裝讀取素材的 Rust 移植版，repo 內另有一套與目標無關的 REA + Ghidra 逆向調查框架。",
+      "metric": "Rust 移植 + 通用 REA 框架",
+      "wow": 3,
+      "status": "shipped",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/OpenRsG/GunZRs"
+        }
+      ]
+    },
+    {
+      "added": "2026-10-12",
+      "source": "community",
+      "id": "homebrew-rea",
+      "title": "社群維護的 rea-agents Homebrew formula",
+      "author": "moonfruit",
+      "author_url": "https://github.com/moonfruit",
+      "date": null,
+      "lang": "en",
+      "category": "工具鏈",
+      "target": "rea-agents 安裝",
+      "summary": "放在 moonfruit 個人 tap 裡的 Homebrew formula，指向上游的 npm 套件。非官方發行，安裝前請自行檢查 formula。",
+      "metric": "brew 安裝",
+      "wow": 1,
+      "status": "shipped",
+      "links": [
+        {
+          "label": "formula",
+          "url": "https://github.com/moonfruit/homebrew-tap/blob/main/Formula/rea-agents.rb"
         }
       ]
     }

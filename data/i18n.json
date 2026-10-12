@@ -1543,5 +1543,230 @@
       "target": "Electron 示例桌面应用",
       "metric": "把功能追溯到具体文件与行号，并将重建结果与原版对照"
     }
+  },
+  "d-0a452529f0": {
+    "hash": "8848bc13d194",
+    "en": {
+      "title": "A plugin that installs REA MCP and skills for DeepSeek Harness in one step",
+      "summary": "The goal is to let DeepSeek Harness use REA with no manual configuration. The plugin registers REA's 139 MCP tools and bundles the reverse-engineer-anything skill, and the launcher locates the REA runtime on its own. A verification script is included for the MCP handshake and catalog checks.",
+      "target": "Integrating DeepSeek Harness with the REA MCP server",
+      "metric": "One install provides all 139 REA MCP tools and the skill"
+    },
+    "zh-CN": {
+      "title": "为 DeepSeek Harness 打造一键安装 REA MCP 与技能的插件",
+      "summary": "目标是让 DeepSeek Harness 无需手动配置即可使用 REA。插件注册 REA 的 139 个 MCP 工具并附带 reverse-engineer-anything 技能，启动器会自行查找 REA 运行环境。另附验证脚本，可做 MCP 握手与目录检查。",
+      "target": "DeepSeek Harness 与 REA MCP 服务器集成",
+      "metric": "一次安装即提供 REA 全部 139 个 MCP 工具与技能"
+    }
+  },
+  "d-9991989e8e": {
+    "hash": "3792b05f7f73",
+    "en": {
+      "title": "An REA adapter plugin for DeepSeek Harness, providing the rea and rea_doctor tools",
+      "summary": "The goal is to let every DeepSeek Harness session call the local REA CLI. The plugin registers a skill and two tools, rea and rea_doctor, probes for a usable REA entry point in order, and writes large outputs to disk. The project has zero dependencies, ships with 12 test cases, and does not include REA itself.",
+      "target": "Integrating DeepSeek Harness with the local REA CLI",
+      "metric": "Provides two tools, rea and rea_doctor, with 12 test cases"
+    },
+    "zh-CN": {
+      "title": "为 DeepSeek Harness 制作 REA 转接插件，提供 rea 与 rea_doctor 工具",
+      "summary": "目标是让 DeepSeek Harness 的每个会话都能调用本机 REA CLI。插件注册技能与 rea、rea_doctor 两个工具，并按顺序查找可用的 REA 入口，大型输出改为落盘。项目零依赖，附 12 个测试用例，且不包含 REA 本体。",
+      "target": "DeepSeek Harness 与本机 REA CLI 集成",
+      "metric": "提供 rea、rea_doctor 两个工具与 12 个测试用例"
+    }
+  },
+  "d-d9f3e2beb7": {
+    "hash": "fe81fa38549d",
+    "en": {
+      "title": "Building an REA training lab that runs smoke tests against a custom Electron demo app",
+      "summary": "The target is a self-made Electron-like demo app that lets visitors practice using REA in GitHub Actions or Codespaces. It provides smoke-test and static-inventory scripts and produces evidence-style training reports in JSON and HTML, with analysis explicitly limited to the bundled demo.",
+      "target": "A custom Electron-style demo app",
+      "metric": "The GitHub Actions smoke-test workflow produces JSON and HTML reports"
+    },
+    "zh-CN": {
+      "title": "搭建 REA 教学实验室，以自制 Electron 演示程序跑冒烟测试",
+      "summary": "目标是自制的类 Electron 演示程序，供访客在 GitHub Actions 或 Codespaces 练习使用 REA。提供冒烟测试与静态盘点脚本，产出 JSON 与 HTML 的证据风格教学报告，并明确限制只分析内置演示。",
+      "target": "自制的 Electron 风格演示程序",
+      "metric": "GitHub Actions 冒烟测试流程可产出 JSON 与 HTML 报告"
+    }
+  },
+  "d-778047f459": {
+    "hash": "c4b3a4afded3",
+    "en": {
+      "title": "Korean hands-on video: give the AI only an executable and have it reconstruct and verify with REA",
+      "summary": "The video demonstrates providing only an executable and letting the AI reconstruct and verify it through REA, with GitHub practice code and an installation guide in rea-practice. The excerpt does not state a specific reconstruction target or result; it is instructional in nature.",
+      "target": "Sample executable (not specified)",
+      "metric": "Public practice repo jkf87/rea-practice included"
+    },
+    "zh-CN": {
+      "title": "韩文实操视频:只提供可执行文件,让 AI 用 REA 还原并验证",
+      "summary": "视频演示只提供可执行文件,让 AI 通过 REA 进行还原与验证,并附有 GitHub 练习代码和安装指南 rea-practice。节选内容未说明具体还原目标与结果,属于教学性质。",
+      "target": "示例可执行文件(未具体说明)",
+      "metric": "附公开练习 repo jkf87/rea-practice"
+    }
+  },
+  "d-6472b3d476": {
+    "hash": "62363a4a642f",
+    "en": {
+      "title": "Unifying Ghidra, JADX, Frida and other tools into a single reverse-engineering MCP server",
+      "summary": "REA-Viper is an MCP-based reverse-engineering server that wraps Ghidra, JADX, ADB, Frida and Radare2 as AI-callable tools, attaching a SHA-256 evidence chain to the result of every step. The content is mostly installation and usage instructions; no analysis results against a concrete target are shown.",
+      "target": "Integrated toolchain of Ghidra / JADX / ADB / Frida / Radare2",
+      "metric": "Integrates 5 reverse-engineering engines with a SHA-256 evidence chain"
+    },
+    "zh-CN": {
+      "title": "将 Ghidra、JADX、Frida 等工具整合为统一的逆向 MCP 服务器",
+      "summary": "REA-Viper 是基于 MCP 的逆向分析服务器,把 Ghidra、JADX、ADB、Frida、Radare2 封装成 AI 可调用的工具,每一步结果都附带 SHA-256 证据链。内容以安装和使用说明为主,未见针对具体目标的分析成果。",
+      "target": "Ghidra / JADX / ADB / Frida / Radare2 整合工具链",
+      "metric": "整合 5 种逆向引擎并提供 SHA-256 证据链"
+    }
+  },
+  "d-44200b3153": {
+    "hash": "53aad354d8c6",
+    "en": {
+      "title": "One-click install script for REA and Ghidra on arm64 Linux",
+      "summary": "The official Ghidra build for arm64 Linux lacks the decompiler binary. This script supplies a prebuilt decompiler, resumable downloads and a zip cache, cutting installation from 15–20 minutes to 3–5 minutes. It also documents REA's APK analysis commands and has been tested against the NewPipe APK.",
+      "target": "REA + Ghidra installation environment on arm64 Linux",
+      "metric": "Install time cut from 15–20 minutes to 3–5 minutes; reinstall takes about 30 seconds"
+    },
+    "zh-CN": {
+      "title": "提供 REA 与 Ghidra 在 arm64 Linux 上的一键安装脚本",
+      "summary": "针对 arm64 Linux 上官方 Ghidra 缺少反编译器二进制文件的问题,脚本提供预编译反编译器、断点续传和 zip 缓存,将安装时间从 15–20 分钟缩短到 3–5 分钟。另附 REA 的 APK 分析命令说明,并已用 NewPipe APK 实测。",
+      "target": "arm64 Linux 上的 REA + Ghidra 安装环境",
+      "metric": "安装时间由 15–20 分钟降至 3–5 分钟,重装约 30 秒"
+    }
+  },
+  "d-e4a069d9ea": {
+    "hash": "a76054a17b78",
+    "en": {
+      "title": "Assimilate: an agent skill that can use REA to investigate external sources",
+      "summary": "Assimilate is an agent skill for analyzing external code or apps, optionally adapting and verifying them while preserving source and license information. It ships an original REA adapter note, using REA to investigate shipped apps only when source code is insufficient. It is an integration and workflow tool; the excerpt shows no concrete reverse-engineering results.",
+      "target": "Codex agent skill (adapting external sources into project improvements)",
+      "metric": "Skill version 0.2.0, matching rea-agents 6.3.0"
+    },
+    "zh-CN": {
+      "title": "可选用 REA 调查外部来源的 agent 技能 Assimilate",
+      "summary": "Assimilate 是一个 agent 技能,用于分析外部代码或应用、按需改造并验证,同时保留来源与许可信息。它附带原创的 REA 适配说明,仅在源代码不足时才用 REA 调查已发布的应用。属于集成与工作流工具,节选中没有具体的逆向成果。",
+      "target": "Codex agent 技能(将外部来源改造为项目改进)",
+      "metric": "技能版本 0.2.0,对应 rea-agents 6.3.0"
+    }
+  },
+  "d-4e8823e589": {
+    "hash": "6a04589b34f4",
+    "en": {
+      "title": "Reverse-engineering the World of Warcraft client with REA to rebuild a playable Shadowfang Keep for iPhone",
+      "summary": "Using REA with Ghidra, this analyzes the World of Warcraft 12.1.0.69404 China-server client, extracts real assets, and rebuilds a single-player vertical slice of Shadowfang Keep in Godot 4.7. Deliverables include a working Windows build, an unsigned iPhone .ipa, an Xcode project, a reverse-engineering report, and automated gameplay tests.",
+      "target": "World of Warcraft 12.1.0.69404 (Shadowfang Keep zone)",
+      "metric": "9/9 automated gameplay tests pass; a 64.91 MB arm64 .ipa released"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向魔兽世界客户端，重建可玩的影牙城堡 iPhone 版",
+      "summary": "以 REA 搭配 Ghidra 分析魔兽世界 12.1.0.69404 国服客户端，提取真实资产并在 Godot 4.7 重建影牙城堡单机垂直切片。产出可运行的 Windows 版、未签名 iPhone .ipa 与 Xcode 工程，并附逆向报告与自动化玩法测试。",
+      "target": "魔兽世界 12.1.0.69404（影牙城堡场景）",
+      "metric": "玩法自动化测试 9/9 通过，并发布 64.91 MB 的 arm64 .ipa"
+    }
+  },
+  "d-c24f94de41": {
+    "hash": "b35001d30038",
+    "en": {
+      "title": "Rebuilding Untangle from a Windows executable using only REA, then scoring it against the source",
+      "summary": "An agent was limited to REA and Ghidra to analyze Simon Tatham's untangle.exe, froze its findings, and rebuilt the game as a web game. A separate grading agent then verified it against the source code. 52 of 54 checkable claims were correct, the same game ID generates the same puzzles as the original, and a timeline of verification plus a playable page are included.",
+      "target": "untangle.exe from Simon Tatham's Portable Puzzle Collection",
+      "metric": "52 of 54 claims correct (96.3%); same game ID matches the original puzzle for puzzle"
+    },
+    "zh-CN": {
+      "title": "仅凭 REA 分析 Windows 可执行文件重建 Untangle，并对照源码评分",
+      "summary": "让 agent 只用 REA 与 Ghidra 分析 Simon Tatham 的 untangle.exe，冻结发现后重建成网页游戏，再由独立评分 agent 对照源码验证。54 项可检查的主张中 52 项正确，同一游戏 ID 生成与原版相同的谜题，并附时间线验证与可玩页面。",
+      "target": "Simon Tatham's Portable Puzzle Collection 的 untangle.exe",
+      "metric": "54 项主张 52 项正确（96.3%），同游戏 ID 与原版逐一一致"
+    }
+  },
+  "d-b704d89ca5": {
+    "hash": "021b731c42d8",
+    "en": {
+      "title": "Evidence-backed decompilation of the DOS game Larax & Zaco with REA and Ghidra",
+      "summary": "The target is the DOS shareware game LEZAC.EXE. Using REA 6.3.0 with Ghidra, 215 functions were exported, producing per-function files, pseudocode, and assembly. Seven routines were also rebuilt in the original Pascal style, along with sixteen packet record layouts and six C routines, and all were tested extensively against the original. The result explicitly claims neither a playable game nor a bit-exact reconstruction.",
+      "target": "Larax & Zaco v1.0 shareware (LEZAC.EXE, DOS)",
+      "metric": "174,777 native comparisons of Pascal against the original, plus 173,725 C-versus-original x86 cases passed"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Ghidra 对 DOS 游戏 Larax & Zaco 做有证据支撑的反编译",
+      "summary": "目标是 DOS 共享软件游戏 LEZAC.EXE，以 REA 6.3.0 搭配 Ghidra 导出 215 个函数并产出函数文件、伪代码与汇编。另以原版 Pascal 风格重建七个例程、十六种封包记录布局与六个 C 例程，并对照原版执行大量测试。成果明确声明不是可玩游戏，也不是位级一致的重建。",
+      "target": "Larax & Zaco v1.0 共享软件（LEZAC.EXE，DOS）",
+      "metric": "174,777 次 Pascal 与原版的原生对照比对，另有 173,725 个 C 对原版 x86 案例通过"
+    }
+  },
+  "d-6417fa2b6c": {
+    "hash": "93d113c268a7",
+    "en": {
+      "title": "Static analysis of the Infinix X6831 arm64 kernel with REA and Ghidra on GitHub Actions",
+      "summary": "The target is a 25,784,320-byte arm64 Image. Ghidra auto-analysis runs out of memory on a 2GB machine, so a five-stage GitHub Actions pipeline was used instead. The author wrapped the Image unmodified in a minimal ELF so REA would accept it, and wrote a custom paging driver and merge script. All three artifacts match the earlier manual analysis byte for byte by sha256.",
+      "target": "Infinix X6831 prebuilt arm64 kernel (Image, ~25.8MB)",
+      "metric": "Image, kernel.config, and kernel.elf all match the earlier manual analysis exactly by sha256"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Ghidra 在 GitHub Actions 静态分析 Infinix X6831 arm64 内核",
+      "summary": "目标是 25,784,320 字节的 arm64 Image，2GB 内存机器上 Ghidra 自动分析会 OOM，因此改用 GitHub Actions 五段式流程。作者将 Image 无修改地包成最小 ELF 让 REA 接受，并自写分页驱动与合并脚本。三个产物与先前手动分析的 sha256 逐字节一致。",
+      "target": "Infinix X6831 预编译 arm64 内核（Image，约 25.8MB）",
+      "metric": "Image、kernel.config、kernel.elf 三个产物与先前手动分析结果 sha256 完全一致"
+    }
+  },
+  "d-87ce73d9b4": {
+    "hash": "80f8d93f861c",
+    "en": {
+      "title": "Having REA analyze its own installed package to infer the provider selection mechanism and self-grade",
+      "summary": "Used analyze_javascript_application to statically analyze 5 of REA's own folders, answering 4 questions with file and line-number evidence. The author first saved verifiable predictions, then ran rea doctor to test them, and finally graded themselves against the source code. The predictions were wrong on 3 of 8 Ghidra checks, and the author found that in auto mode, when multiple providers are available, REA reports ambiguous instead of picking the first one.",
+      "target": "Installed rea-agents 6.3.0 package (provider selection and availability checks)",
+      "metric": "Predictions wrong on 3 of 8 Ghidra checks; found that auto mode reports ambiguous when multiple providers are available"
+    },
+    "zh-CN": {
+      "title": "让 REA 分析自己的已安装包,推断 provider 选择机制并自我评分",
+      "summary": "用 analyze_javascript_application 静态分析 REA 自身的 5 个文件夹,回答 4 个问题并附文件行号证据。作者先保存可验证的预测,再用 rea doctor 实测,最后对照源代码自评。预测在 8 项 Ghidra 检查中错了 3 项,并发现 auto 模式遇到多个可用 provider 时会报告 ambiguous,而不是选第一个。",
+      "target": "rea-agents 6.3.0 已安装包(provider 选择与可用性判断)",
+      "metric": "预测在 8 项 Ghidra 检查中错 3 项;发现 auto 模式下多个 provider 可用时报告 ambiguous"
+    }
+  },
+  "d-21657b277b": {
+    "hash": "9f0580af007f",
+    "en": {
+      "title": "A video walkthrough of REA: how it works, how to try it, official public examples, and limitations",
+      "summary": "The video explains how REA lets an AI coding agent inspect software without source code and bring back evidence. It covers the old approach, how REA works, how to try it, the examples the project has published, its limitations, and where it is heading. Figures come from the project's own documentation, with versions and dates noted; it is a roundup-style introduction.",
+      "target": "Overview of the REA project and a roundup of its official examples",
+      "metric": "About 1.6K views; compiles the examples the project has published"
+    },
+    "zh-CN": {
+      "title": "视频完整介绍 REA:工作方式、试用方法、官方公开示例与局限",
+      "summary": "视频说明 REA 如何让 AI coding agent 检视没有源代码的软件并带回证据,涵盖旧做法、工作原理、试用方式、项目已公开的示例、局限与未来走向。数字取自项目自己的文档,并标明版本与日期,属于整理性介绍。",
+      "target": "REA 项目整体介绍与官方示例整理",
+      "metric": "视频约 1.6K 次观看,整理项目已公开的示例"
+    }
+  },
+  "d-48e797d2e8": {
+    "hash": "4288d30008bd",
+    "en": {
+      "title": "Writing an unofficial French-language guide to REA, covering installation, workflow, and the legal framework",
+      "summary": "The goal is to explain REA, an AI-agent-driven reverse engineering tool, to French-speaking readers. The guide covers reverse engineering basics, installation and quick start, MCP setup, analysis providers, security and privacy, and legal and ethical issues, with a glossary and FAQ. It contains no REA code and is written from the upstream documentation.",
+      "target": "The REA (Reverse Engineer Anything) tool itself",
+      "metric": "A complete French guide covering installation, MCP setup, the legal framework, and an FAQ"
+    },
+    "zh-CN": {
+      "title": "撰写 REA 非官方法语教程指南,涵盖安装、流程与法律框架",
+      "summary": "目标是向法语读者介绍 REA 这个由 AI 代理驱动的逆向工具。指南涵盖逆向基础、安装与快速上手、MCP 配置、分析 provider、安全与隐私、法律与伦理,并附术语表和常见问答。内容不含 REA 代码,依据上游文档撰写。",
+      "target": "REA(Reverse Engineer Anything)工具本身",
+      "metric": "涵盖安装、MCP 配置、法律框架与常见问答的完整法语指南"
+    }
+  },
+  "d-49c3fe3859": {
+    "hash": "b176f4b833bf",
+    "en": {
+      "title": "Using GitHub Actions on Linux to validate REA's Ghidra, Android, and firmware workflows with synthetic files",
+      "summary": "Built a public, isolated validation repository and manually ran three REA workflows on GitHub-hosted Ubuntu using fully synthetic files: a Ghidra overview of an x86-64 ELF, a JADX search for LeadScore in a generated APK, and Binwalk/Unblob extraction of a synthetic GZIP blob. All three workflows passed their checks, with run IDs and SHA-256-verified downloads attached. The author also states clearly that this does not validate REA on real programs or firmware.",
+      "target": "REA 5.0.0 integration with Ghidra, JADX, and Binwalk/Unblob on Linux (synthetic test files)",
+      "metric": "The three workflows passed 4/4, 4/4, and 5/5 checks respectively"
+    },
+    "zh-CN": {
+      "title": "用 GitHub Actions 在 Linux 上以合成文件验证 REA 的 Ghidra、Android、固件三条流程",
+      "summary": "建立公开的隔离验证仓库,以全合成文件在 GitHub-hosted Ubuntu 上手动运行三条 REA 工作流:Ghidra 的 x86-64 ELF 概览、JADX 对生成的 APK 搜索 LeadScore、Binwalk/Unblob 对合成 GZIP blob 的提取。三条流程均通过检查,并附上运行编号与 SHA-256 验证的下载;作者也明确说明这不代表对真实程序或固件的验证。",
+      "target": "REA 5.0.0 在 Linux 上的 Ghidra、JADX、Binwalk/Unblob 集成(合成测试文件)",
+      "metric": "三条工作流分别通过 4/4、4/4、5/5 项检查"
+    }
   }
 }

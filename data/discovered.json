@@ -569,7 +569,17 @@
       "kind": "貼文",
       "score": 0,
       "lang": "en",
-      "found": "2026-10-12"
+      "found": "2026-10-12",
+      "relevant": true,
+      "title_zh": "Hacker News 上轉貼 REA 逆向工程工具官網",
+      "summary": "這是 Bluesky 上的 Hacker News 機器人貼文，只轉貼了 rea.tools 網址與標題。沒有任何實際使用 REA 的內容或成果。",
+      "target": "REA 官方網站（rea.tools）",
+      "metric": "僅轉貼連結，無實際成果",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-10-12",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://github.com/Atlien-Caballeros/REA",
@@ -1301,7 +1311,17 @@
       "kind": "專案",
       "score": 0,
       "lang": "zh",
-      "found": "2026-10-12"
+      "found": "2026-10-12",
+      "relevant": true,
+      "title_zh": "把 Ghidra、JADX、Frida 等工具整合成統一的逆向 MCP 伺服器",
+      "summary": "REA-Viper 是以 MCP 為基礎的逆向分析伺服器，把 Ghidra、JADX、ADB、Frida、Radare2 封裝成 AI 可呼叫的工具，每一步結果附 SHA-256 證據鏈。內容主要是安裝與使用說明，未見對具體目標的分析成果。",
+      "target": "Ghidra / JADX / ADB / Frida / Radare2 整合工具鏈",
+      "metric": "整合 5 種逆向引擎並提供 SHA-256 證據鏈",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-10-12",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://github.com/wubing733-prog/wow-mobile-ios",
@@ -1312,7 +1332,17 @@
       "kind": "專案",
       "score": 0,
       "lang": "en",
-      "found": "2026-10-12"
+      "found": "2026-10-12",
+      "relevant": true,
+      "title_zh": "用 REA 逆向魔獸世界客戶端，重建可玩的影牙城堡 iPhone 版",
+      "summary": "以 REA 搭配 Ghidra 分析魔獸世界 12.1.0.69404 國服客戶端，提取真實資產並在 Godot 4.7 重建影牙城堡單機垂直切片。產出可運行的 Windows 版、未簽名 iPhone .ipa 與 Xcode 工程，並附逆向報告與自動化玩法測試。",
+      "target": "魔獸世界 12.1.0.69404（影牙城堡場景）",
+      "metric": "玩法自動化測試 9/9 通過，並發布 64.91 MB 的 arm64 .ipa",
+      "category": "Native / 遊戲",
+      "status": "tested",
+      "wow": 5,
+      "scored": "2026-10-12",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://github.com/az9713/untangle-rebuild",
@@ -1323,7 +1353,17 @@
       "kind": "專案",
       "score": 0,
       "lang": "en",
-      "found": "2026-10-12"
+      "found": "2026-10-12",
+      "relevant": true,
+      "title_zh": "僅憑 REA 分析 Windows 執行檔重建 Untangle，並對照原始碼評分",
+      "summary": "讓 agent 只用 REA 與 Ghidra 分析 Simon Tatham 的 untangle.exe，凍結發現後重建成網頁遊戲，再由獨立評分 agent 對照原始碼驗證。54 項可檢查的主張中 52 項正確，同一遊戲 ID 產生與原版相同的謎題，並附時間軸驗證與可玩頁面。",
+      "target": "Simon Tatham's Portable Puzzle Collection 的 untangle.exe",
+      "metric": "54 項主張 52 項正確（96.3%），同遊戲 ID 與原版逐筆一致",
+      "category": "Native / 遊戲",
+      "status": "tested",
+      "wow": 5,
+      "scored": "2026-10-12",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://github.com/Jack-kd/rea-quick-install",
@@ -1334,7 +1374,17 @@
       "kind": "專案",
       "score": 0,
       "lang": "zh",
-      "found": "2026-10-12"
+      "found": "2026-10-12",
+      "relevant": true,
+      "title_zh": "提供 REA 與 Ghidra 在 arm64 Linux 的一鍵安裝腳本",
+      "summary": "針對 arm64 Linux 官方 Ghidra 缺少反編譯器二進位的問題，提供預編譯反編譯器、斷點續傳與 zip 快取，把安裝從 15–20 分鐘縮短到 3–5 分鐘。另附 REA 的 APK 分析指令說明，並以 NewPipe APK 做過實測。",
+      "target": "REA + Ghidra 的 arm64 Linux 安裝環境",
+      "metric": "安裝時間由 15–20 分鐘降至 3–5 分鐘，重裝約 30 秒",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-10-12",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://github.com/jhonneiber/x6831-analysis",
@@ -1345,7 +1395,17 @@
       "kind": "專案",
       "score": 0,
       "lang": "en",
-      "found": "2026-10-12"
+      "found": "2026-10-12",
+      "relevant": true,
+      "title_zh": "用 REA 與 Ghidra 在 GitHub Actions 靜態分析 Infinix X6831 arm64 核心",
+      "summary": "目標是 25,784,320 位元組的 arm64 Image，2GB 記憶體機器上 Ghidra 自動分析會 OOM，因此改用 GitHub Actions 五段式流程。作者將 Image 無修改地包成最小 ELF 讓 REA 接受，並自寫分頁驅動與合併腳本。三個產物與先前手動分析的 sha256 逐位元組一致。",
+      "target": "Infinix X6831 預編譯 arm64 核心（Image，約 25.8MB）",
+      "metric": "Image、kernel.config、kernel.elf 三個產物與先前手動分析結果 sha256 完全一致",
+      "category": "韌體 / 硬體",
+      "status": "tested",
+      "wow": 4,
+      "scored": "2026-10-12",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://github.com/ReverseEngineerAnything/REA",
@@ -1356,7 +1416,17 @@
       "kind": "專案",
       "score": 10,
       "lang": "en",
-      "found": "2026-10-12"
+      "found": "2026-10-12",
+      "relevant": false,
+      "title_zh": "冒用 REA 名義的 Windows 下載頁（疑似 SEO 垃圾倉庫）",
+      "summary": "此倉庫以關鍵字堆砌的標題與 Windows zip 下載宣傳，內容僅是功能清單與安裝步驟。未呈現任何實際逆向分析成果，並非官方專案，疑似垃圾或惡意下載頁。",
+      "target": "無（非 REA 的實際使用）",
+      "metric": "無實際分析成果",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-10-12",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://github.com/ringozzt/rea-research",
@@ -1367,7 +1437,17 @@
       "kind": "專案",
       "score": 9,
       "lang": "zh",
-      "found": "2026-10-12"
+      "found": "2026-10-12",
+      "relevant": true,
+      "title_zh": "整理 REA 架構、增長數據與 DX-Ball 案例的深度調研報告",
+      "summary": "作者以第三方角度調研 REA 的定位、證據契約、支援目標與版本演進，並附互動式 HTML 報告與思維導圖。內容整理 DX-Ball 函式級位元組一致案例與星數對 npm 下載量落差等觀察。屬於二手整理與評論，沒有作者自己的逆向成果。",
+      "target": "REA 專案本身（架構、版本時間線、社群熱度）",
+      "metric": "整理出 79,124 stars 對比 npm 週下載約 1.3k，及 DX-Ball 3,205 項測試",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-10-12",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://github.com/az9713/REA-demo",
@@ -1378,7 +1458,17 @@
       "kind": "專案",
       "score": 0,
       "lang": "en",
-      "found": "2026-10-12"
+      "found": "2026-10-12",
+      "relevant": true,
+      "title_zh": "讓 REA 分析自己的已安裝套件，推斷 provider 選擇機制並自我評分",
+      "summary": "以 analyze_javascript_application 靜態分析 REA 自身 5 個資料夾，回答 4 個問題並附檔案行號證據。作者先存下可驗證的預測，再用 rea doctor 實測，最後對照原始碼自評。預測在 8 項 Ghidra 檢查中錯 3 項，並發現 auto 模式遇到多個可用 provider 會回報 ambiguous 而非選第一個。",
+      "target": "rea-agents 6.3.0 已安裝套件（provider 選擇與可用性判斷）",
+      "metric": "預測 8 項 Ghidra 檢查錯 3 項；發現 auto 模式多個 provider 可用時回報 ambiguous",
+      "category": "工具鏈",
+      "status": "tested",
+      "wow": 3,
+      "scored": "2026-10-12",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://github.com/Kian-hdr/assimilate",
@@ -1389,7 +1479,17 @@
       "kind": "專案",
       "score": 0,
       "lang": "en",
-      "found": "2026-10-12"
+      "found": "2026-10-12",
+      "relevant": true,
+      "title_zh": "可選用 REA 調查外部來源的 agent 技能 Assimilate",
+      "summary": "Assimilate 是一個 agent 技能，用來分析外部程式碼或應用、選擇性改造並驗證，保留來源與授權資訊。它附有原創的 REA 轉接說明，在原始碼不足時才用 REA 調查已發行的應用。屬於整合與工作流程工具，節錄中沒有具體逆向成果。",
+      "target": "Codex agent 技能（將外部來源改造為專案改進）",
+      "metric": "技能版本 0.2.0，對應 rea-agents 6.3.0",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-10-12",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://github.com/Error0422-bit/rea-local-gui",
@@ -2273,7 +2373,17 @@
       "kind": "專案",
       "score": 0,
       "lang": "en",
-      "found": "2026-10-12"
+      "found": "2026-10-12",
+      "relevant": true,
+      "title_zh": "用 REA 與 Ghidra 對 DOS 遊戲 Larax & Zaco 做有證據支撐的反編譯",
+      "summary": "目標是 DOS 共享軟體遊戲 LEZAC.EXE，以 REA 6.3.0 搭配 Ghidra 匯出 215 個函式並產出函式檔案、偽代碼與組語。另以原版 Pascal 風格重建七個常式、十六種封包記錄佈局與六個 C 常式，並對照原版執行大量測試。成果明確聲明不是可玩遊戲，也不是位元級一致的重建。",
+      "target": "Larax & Zaco v1.0 共享軟體（LEZAC.EXE，DOS）",
+      "metric": "174,777 次 Pascal 與原版的原生對照比對，另有 173,725 個 C 對原版 x86 案例通過",
+      "category": "Native / 遊戲",
+      "status": "tested",
+      "wow": 5,
+      "scored": "2026-10-12",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://github.com/ya123-4/rea-dsh-plugin",
@@ -2284,7 +2394,17 @@
       "kind": "專案",
       "score": 0,
       "lang": "en",
-      "found": "2026-10-12"
+      "found": "2026-10-12",
+      "relevant": true,
+      "title_zh": "為 DeepSeek Harness 打造一鍵安裝 REA MCP 與技能的外掛",
+      "summary": "目標是讓 DeepSeek Harness 免手動設定即可使用 REA。外掛註冊 REA 的 139 個 MCP 工具並附帶 reverse-engineer-anything 技能，啟動器會自行尋找 REA 執行環境。另附驗證腳本，可做 MCP 握手與目錄檢查。",
+      "target": "DeepSeek Harness 與 REA MCP 伺服器整合",
+      "metric": "一次安裝即提供 REA 全部 139 個 MCP 工具與技能",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-10-12",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://github.com/zhaofeng130/dsh-rea",
@@ -2295,7 +2415,17 @@
       "kind": "專案",
       "score": 0,
       "lang": "en",
-      "found": "2026-10-12"
+      "found": "2026-10-12",
+      "relevant": true,
+      "title_zh": "為 DeepSeek Harness 製作 REA 轉接外掛，提供 rea 與 rea_doctor 工具",
+      "summary": "目標是讓 DeepSeek Harness 的每個會話都能呼叫本機 REA CLI。外掛註冊技能與 rea、rea_doctor 兩個工具，並依序尋找可用的 REA 入口，大型輸出改為落盤。專案零依賴，附 12 個測試案例，且不包含 REA 本體。",
+      "target": "DeepSeek Harness 與本機 REA CLI 整合",
+      "metric": "提供 rea、rea_doctor 兩個工具與 12 個測試案例",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-10-12",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://github.com/ylwl1997/rea-run-lab",
@@ -2306,7 +2436,17 @@
       "kind": "專案",
       "score": 0,
       "lang": "en",
-      "found": "2026-10-12"
+      "found": "2026-10-12",
+      "relevant": true,
+      "title_zh": "建立 REA 教學實驗室，以自製 Electron 示範程式跑煙霧測試",
+      "summary": "目標是自製的類 Electron 示範程式，供訪客在 GitHub Actions 或 Codespaces 練習使用 REA。提供煙霧測試與靜態盤點腳本，產出 JSON 與 HTML 的證據風格教學報告，並明確限制只分析內建示範。",
+      "target": "自製的 Electron 風格示範程式",
+      "metric": "GitHub Actions 煙霧測試流程可產出 JSON 與 HTML 報告",
+      "category": "教學",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-10-12",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://bsky.app/profile/kerry.bsky.social/post/3mxhugpoyec23",
@@ -2485,7 +2625,17 @@
       "kind": "專案",
       "score": 5,
       "lang": "fr",
-      "found": "2026-10-12"
+      "found": "2026-10-12",
+      "relevant": true,
+      "title_zh": "撰寫 REA 非官方法文教學指南，涵蓋安裝、流程與法律框架",
+      "summary": "目標是為法語讀者說明 REA 這個由 AI 代理驅動的逆向工具。指南涵蓋逆向基礎、安裝與快速上手、MCP 設定、分析提供者、安全隱私與法律倫理，並附詞彙表與常見問答。內容不含 REA 程式碼，依據上游文件撰寫。",
+      "target": "REA（Reverse Engineer Anything）工具本身",
+      "metric": "涵蓋安裝、MCP 設定、法律框架與常見問答的完整法語指南",
+      "category": "教學",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-10-12",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://dev.to/arshtechpro/rea-let-your-ai-agent-reverse-engineer-the-app-features-you-wish-you-had-3en7",
@@ -2559,7 +2709,17 @@
       "kind": "專案",
       "score": 0,
       "lang": "en",
-      "found": "2026-10-12"
+      "found": "2026-10-12",
+      "relevant": true,
+      "title_zh": "用 GitHub Actions 在 Linux 上以合成檔案驗證 REA 的 Ghidra、Android、韌體三條流程",
+      "summary": "建立公開的隔離驗證倉庫，以全合成檔案在 GitHub-hosted Ubuntu 上手動執行三條 REA 工作流：Ghidra 的 x86-64 ELF 概覽、JADX 對生成 APK 搜尋 LeadScore、Binwalk/Unblob 對合成 GZIP blob 的萃取。三條流程皆成功通過檢查，並附上執行編號與 SHA-256 驗證的下載；作者也明確說明這不代表對真實程式或韌體的驗證。",
+      "target": "REA 5.0.0 在 Linux 上的 Ghidra、JADX、Binwalk/Unblob 整合（合成測試檔）",
+      "metric": "三條工作流分別通過 4/4、4/4、5/5 項檢查",
+      "category": "工具鏈",
+      "status": "tested",
+      "wow": 2,
+      "scored": "2026-10-12",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://bsky.app/profile/cyberveille-ch.bsky.social/post/3mxcry5k43g2m",
@@ -3326,7 +3486,17 @@
       "kind": "影片",
       "score": 1353,
       "lang": "en",
-      "found": "2026-10-12"
+      "found": "2026-10-12",
+      "relevant": true,
+      "title_zh": "YouTube 影片實測號稱能複製任何應用程式的 REA 倉庫，結論是表現不佳",
+      "summary": "影片作者測試這個爆紅的 REA 倉庫，標題指出結果為失敗。提供的內容只有頁面外框、說明欄與推薦清單，看不到具體測試目標、做法或數據。",
+      "target": "REA 複製應用程式的能力（影片評測）",
+      "metric": "標題宣稱 REA 在測試中落敗（內容未提供細節）",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-10-12",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://youtu.be/pqoIzUnEg-g",
@@ -3337,7 +3507,17 @@
       "kind": "影片",
       "score": 239,
       "lang": "zh",
-      "found": "2026-10-12"
+      "found": "2026-10-12",
+      "relevant": true,
+      "title_zh": "中文影片介紹用 Agent 搭配 REA 從應用行為到原生二進位檔的逆向分析",
+      "summary": "影片與配套部落格說明如何透過 AI Agent 使用 REA 做多層次逆向分析，涵蓋 Agent 的角色與工具接入方式。內容屬於介紹與說明，沒有針對具體目標的實測成果。",
+      "target": "REA 專案與 Agent 工具接入方式（介紹）",
+      "metric": "影片觀看約 238 次，無具體實測成果",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-10-12",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://youtu.be/U1-qlIESZOE",
@@ -3348,7 +3528,17 @@
       "kind": "影片",
       "score": 62,
       "lang": "zh",
-      "found": "2026-10-12"
+      "found": "2026-10-12",
+      "relevant": true,
+      "title_zh": "影片討論 REA 在 GitHub 爆紅與「軟體完了」的說法",
+      "summary": "影片說明 REA 在數日內獲得大量 GitHub 星數，並轉述 X 上有人評論「軟體完了」。內容為轉述與評論，沒有實際使用 REA 的成果。",
+      "target": "REA 專案的爆紅現象與社群評論",
+      "metric": "四天內獲得超過 8 萬顆 GitHub 星（影片轉述）",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-10-12",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://youtu.be/UwShDHk9eeQ",
@@ -3359,7 +3549,17 @@
       "kind": "影片",
       "score": 1667,
       "lang": "en",
-      "found": "2026-10-12"
+      "found": "2026-10-12",
+      "relevant": true,
+      "title_zh": "影片完整介紹 REA：運作方式、試用方法、官方公開範例與限制",
+      "summary": "影片說明 REA 讓 AI coding agent 檢視沒有原始碼的軟體並帶回證據，涵蓋舊做法、運作原理、試用方式、專案已公開的範例、限制與未來走向。數字取自專案自己的文件，並標明版本與日期，屬於整理性介紹。",
+      "target": "REA 專案整體介紹與官方範例整理",
+      "metric": "影片約 1.6K 次觀看，整理專案已公開的範例",
+      "category": "教學",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-12",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://youtu.be/acGhUUPtjo0",
@@ -3370,10 +3570,82 @@
       "kind": "影片",
       "score": 679,
       "lang": "ja",
-      "found": "2026-10-12"
+      "found": "2026-10-12",
+      "relevant": true,
+      "title_zh": "影片報導 REA 單日暴增約 2.9 萬 GitHub 星標",
+      "summary": "Prism Labs 的影片記錄 REA 在一天內從 13.5k 星標升至 44k，並發布三個大版本與 rea.tools。內容為對該專案熱度的報導，沒有實際用 REA 逆向任何目標。",
+      "target": "REA 專案本身（GitHub 熱度）",
+      "metric": "一天約 29,000 顆星標，13.5k → 44k",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-10-12",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://youtu.be/8n-2TbpR4jc",
+      "title": "Reverse Engineer Anything Github Repo (What It Can and Cannot See)",
+      "author": "Johnny Nel | AI for Founders",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 785,
+      "lang": "en",
+      "found": "2026-10-12",
+      "relevant": true,
+      "title_zh": "影片評測 REA 對無原始碼應用能看到與看不到什麼",
+      "summary": "作者討論編碼 agent 能否對沒有原始碼的應用，針對可見功能找回證據。節錄內容只有簡短介紹，沒有具體目標、發現或成果。",
+      "target": "無原始碼應用（未具體說明）",
+      "metric": "節錄中無具體成果",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-10-12",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://youtu.be/zFujXrPKoGA",
+      "title": "실행 파일만 줬더니 AI가 복원하고 검증까지? | REA 실습",
+      "author": "코난쌤 conanssam",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 3,
+      "lang": "ko",
+      "found": "2026-10-12",
+      "relevant": true,
+      "title_zh": "韓文實作影片：只給執行檔讓 AI 用 REA 還原並驗證",
+      "summary": "影片示範只提供執行檔，讓 AI 透過 REA 做還原與驗證，並附上 GitHub 練習程式碼與安裝指南 rea-practice。節錄未說明具體還原目標與結果，屬教學性質。",
+      "target": "範例執行檔（未具體說明）",
+      "metric": "附公開練習 repo jkf87/rea-practice",
+      "category": "教學",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-10-12",
+      "scored_by": "sonnet"
     }
   ],
   "runs": [
+    {
+      "date": "2026-10-12",
+      "added": 2,
+      "stats": {
+        "githubShowAndTell": 6,
+        "githubRepos": 186,
+        "hackerNews": 17,
+        "qiita": 20,
+        "devto": 150,
+        "reddit": "error: 403 https://www.reddit.com/search.json?q=%22morluto%2Frea%22&sort=new&limit=25",
+        "v2ex": 1,
+        "youtube": 90,
+        "bluesky": 150,
+        "mastodon": 160,
+        "x": 0
+      },
+      "scoring": {
+        "scored": 23
+      }
+    },
     {
       "date": "2026-10-12",
       "added": 21,

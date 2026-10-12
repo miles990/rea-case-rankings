@@ -9,8 +9,8 @@ import { allRecords } from "./records.mjs";
 
 const ROOT = new URL("..", import.meta.url);
 const I18N = new URL("data/i18n.json", ROOT);
-// Same 19 locales as REA's own READMEs (Traditional Chinese is the source).
-export const TARGETS = { en: "English", "zh-CN": "简体中文", ja: "日本語", ko: "한국어", tr: "Türkçe", ru: "Русский", vi: "Tiếng Việt", th: "ไทย", de: "Deutsch", es: "Español", fr: "Français", uk: "Українська", pl: "Polski", "pt-BR": "Português (Brasil)", ar: "العربية", fa: "فارسی", id: "Bahasa Indonesia", it: "Italiano" };
+// The site is read in Chinese and English; other languages only matter as sources.
+export const TARGETS = { en: "English", "zh-CN": "简体中文" };
 const FIELDS = ["title", "summary", "target", "metric"];
 const MAX_PER_RUN = Number(process.env.MAX_TRANSLATED_PER_RUN || 80);
 
@@ -28,7 +28,9 @@ async function main() {
 
   const records = await allRecords();
   const missing = (r) => (cache[r.id]?.hash !== hashOf(r) ? Object.keys(TARGETS) : Object.keys(TARGETS).filter((l) => !cache[r.id]?.[l]?.title));
-  const todo = records.filter((r) => missing(r).length).slice(0, MAX_PER_RUN);
+  // One-point entries (news, link shares) stay in their original language: the
+  // default view hides them, so translating them would mostly be wasted calls.
+  const todo = records.filter((r) => (r.wow == null || r.wow >= 2) && missing(r).length).slice(0, MAX_PER_RUN);
   let done = 0;
   // Small calls (4 entries × up to 6 languages) keep each answer well under the
   // CLI timeout. Up to 4 run at once; all merging happens here, in one process.

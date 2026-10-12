@@ -103,7 +103,7 @@ await writeFile(out("pages/api/records.json"), JSON.stringify(api));
 
 await writeFile(out("pages/llms.txt"), `# REA case rankings
 
-> Every public case, app, tutorial and article about REA (Reverse Engineer Anything, github.com/morluto/rea), scored on one 1–5 rubric, ranked, and updated daily in 19 languages.
+> Every public case, app, tutorial and article about REA (Reverse Engineer Anything, github.com/morluto/rea), scored on one 1–5 rubric, ranked, and updated daily, in Chinese and English.
 
 ## Data
 - [All entries as JSON](${SITE_URL}api/records.json): rank, score (wow 1–5), heat (0–100), status, type, category, source links, popularity signals and translations.

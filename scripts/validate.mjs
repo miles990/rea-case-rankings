@@ -48,7 +48,7 @@ for (const r of records) {
 
 // Translations: every ranked entry should exist in every target language.
 const i18n = await read("data/i18n.json").catch(() => ({}));
-const missingTr = records.filter((r) => Object.keys(TARGETS).some((l) => !i18n[r.id]?.[l]?.title));
+const missingTr = records.filter((r) => (r.wow == null || r.wow >= 2) && Object.keys(TARGETS).some((l) => !i18n[r.id]?.[l]?.title));
 if (missingTr.length) warn(`${missingTr.length} entries lack some translations (filled on the next translate run)`);
 
 // UI strings: every key used by the page must exist in English and Traditional Chinese.

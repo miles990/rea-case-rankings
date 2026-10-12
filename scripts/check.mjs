@@ -18,8 +18,8 @@ const runs = [
   { name: "zh-desktop-light", url: page("index.html"), width: 1440, height: 900, scheme: "light", full: true },
   { name: "zh-desktop-dark", url: page("index.html"), width: 1440, height: 900, scheme: "dark" },
   { name: "en-tablet", url: page("en/index.html"), width: 820, height: 1100, scheme: "light" },
-  { name: "ja-phone-dark", url: page("ja/index.html"), width: 390, height: 844, scheme: "dark", mobile: true },
-  { name: "ar-phone-rtl", url: page("ar/index.html"), width: 390, height: 844, scheme: "light", mobile: true },
+  { name: "cn-phone-dark", url: page("zh-cn/index.html"), width: 390, height: 844, scheme: "dark", mobile: true },
+  { name: "en-phone-light", url: page("en/index.html"), width: 390, height: 844, scheme: "light", mobile: true },
   { name: "artifact", url: pathToFileURL(new URL("dist/artifact-preview.html", ROOT).pathname).href, width: 1280, height: 860, scheme: "light" },
 ];
 

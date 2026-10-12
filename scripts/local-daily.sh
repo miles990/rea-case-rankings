@@ -19,5 +19,5 @@ git add data/
 git diff --cached --quiet || { git commit -q -m "data: local daily run $(date +%F)"; git push -q; }
 gh workflow run daily.yml -R miles990/rea-awesome -f skip_collect=true
 # Personal radar (private repo next to this one), if present.
-[ -x ../radar/scripts/run.sh ] && ../radar/scripts/run.sh || echo "radar skipped"
+[ -x ../radar/scripts/daily.sh ] && ../radar/scripts/daily.sh || echo "radar skipped"
 echo "== $(date '+%F %T') done"

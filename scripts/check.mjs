@@ -20,7 +20,6 @@ const runs = [
   { name: "en-tablet", url: page("en/index.html"), width: 820, height: 1100, scheme: "light" },
   { name: "cn-phone-dark", url: page("zh-cn/index.html"), width: 390, height: 844, scheme: "dark", mobile: true },
   { name: "en-phone-light", url: page("en/index.html"), width: 390, height: 844, scheme: "light", mobile: true },
-  { name: "artifact", url: pathToFileURL(new URL("dist/artifact-preview.html", ROOT).pathname).href, width: 1280, height: 860, scheme: "light" },
 ];
 
 for (const run of runs) {

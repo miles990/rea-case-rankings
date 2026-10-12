@@ -2,8 +2,6 @@
 //   dist/pages/<lang>/index.html  one static page per language (GitHub Pages)
 //   dist/pages/api/records.json   the full ranking with every translation
 //   dist/pages/llms.txt, feed.xml, sitemap.xml, thumbs/
-//   dist/artifact.html            one page with every language (Claude artifact)
-//   dist/artifact-preview.html    the artifact page wrapped for local checks
 import { readFile, writeFile, mkdir, cp, rm } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { allRecords } from "./records.mjs";
@@ -46,14 +44,7 @@ await rm(out(""), { recursive: true, force: true });
 await mkdir(out("pages/api"), { recursive: true });
 if (existsSync(new URL("site/thumbs/", ROOT))) {
   await cp(new URL("site/thumbs/", ROOT), out("pages/thumbs/"), { recursive: true });
-  await cp(new URL("site/thumbs/", ROOT), out("thumbs/"), { recursive: true });
 }
-
-// ---- Claude artifact: every language in one page, thumbnails as sibling files.
-const artifact = assemble({ ...base, i18n, pages: null, thumbBase: "thumbs/" }, null);
-await writeFile(out("artifact.html"), split(artifact).join("\n"));
-const [ah, ab] = split(artifact);
-await writeFile(out("artifact-preview.html"), `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><style>:root{color-scheme:light}body{margin:0}</style>${ah}</head><body>${ab}</body></html>`);
 
 // ---- GitHub Pages: one page per language, only that language's translations inline.
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
@@ -141,4 +132,4 @@ ${Object.values(PATHS).map((p) => `<url><loc>${SITE_URL}${p}</loc><lastmod>${upd
 `);
 await writeFile(out("pages/robots.txt"), `User-agent: *\nAllow: /\nSitemap: ${SITE_URL}sitemap.xml\n`);
 await writeFile(out("pages/.nojekyll"), "");
-console.log(`built ${records.length} records · ${Object.keys(PATHS).length} language pages · ${Object.keys(thumbs).length} thumbnails · artifact ${(Buffer.byteLength(artifact) / 1024).toFixed(0)} KB`);
+console.log(`built ${records.length} records · ${Object.keys(PATHS).length} language pages · ${Object.keys(thumbs).length} thumbnails`);

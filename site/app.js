@@ -520,7 +520,7 @@ function renderStatic() {
 }
 document.addEventListener("click", (e) => { const g = e.target.closest(".hcard[data-go], .lcard[data-go]"); if (g) reveal(g.dataset.go); });
 
-// ---------- Theme (GitHub Pages only; inside Claude the host owns the theme) ----------
+// ---------- Theme ----------
 function applyTheme(mode) {
   if (mode === "light" || mode === "dark") document.documentElement.dataset.theme = mode; else delete document.documentElement.dataset.theme;
   $("#theme").textContent = { light: "☀", dark: "☾", system: "◐" }[mode] || "◐";

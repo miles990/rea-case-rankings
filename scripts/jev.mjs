@@ -4,6 +4,8 @@
 // Fails open: no key, a timeout or a 429 sends the item to Claude as before.
 import { readFileSync, appendFileSync, mkdirSync } from "node:fs";
 import { createHash } from "node:crypto";
+import { homedir } from "node:os";
+import { join } from "node:path";
 
 const API = "https://api.typesafe.ai/v1/systemone";
 const MODEL = process.env.JEV_MODEL || "jev-1.13.0";
@@ -14,7 +16,13 @@ const LOG = new URL("../jev/runs.jsonl", import.meta.url);
 // P(score ≥ 2) ≥ 0.3 kept 37/37 items worth scoring and skipped 8/10 junk items.
 export const POLICY = { worthMin: 0.3, irrelevantMax: 0.15 };
 
-export const jevAvailable = () => !!process.env.TYPESAFE_API_KEY && !process.env.SKIP_JEV;
+// Same lookup as the jev CLI: the environment, then ~/.config/jev/config.json
+// (scheduled jobs don't load the shell profile). The key never leaves this machine.
+const KEY = (() => {
+  if (process.env.TYPESAFE_API_KEY) return process.env.TYPESAFE_API_KEY;
+  try { return JSON.parse(readFileSync(join(homedir(), ".config/jev/config.json"), "utf8")).apiKey || ""; } catch { return ""; }
+})();
+export const jevAvailable = () => !!KEY && !process.env.SKIP_JEV;
 
 export async function judge(item) {
   const host = (() => { try { return new URL(item.url).hostname; } catch { return ""; } })();
@@ -22,7 +30,7 @@ export async function judge(item) {
   const t0 = Date.now();
   const res = await fetch(API, {
     method: "POST",
-    headers: { authorization: `Bearer ${process.env.TYPESAFE_API_KEY}`, "content-type": "application/json" },
+    headers: { authorization: `Bearer ${KEY}`, "content-type": "application/json" },
     body: JSON.stringify({ model: MODEL, state, questions: QUESTIONS }),
     signal: AbortSignal.timeout(30000),
   });

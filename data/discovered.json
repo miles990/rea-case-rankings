@@ -320,6 +320,23 @@
     {
       "date": "2026-10-12",
       "added": 0,
+      "stats": {
+        "githubShowAndTell": 6,
+        "githubRepos": 63,
+        "hackerNews": 17,
+        "qiita": 20,
+        "devto": 150,
+        "reddit": "error: 403 https://www.reddit.com/search.json?q=%22morluto%2Frea%22&sort=new&limit=25",
+        "v2ex": 1,
+        "youtube": 0
+      },
+      "scoring": {
+        "scored": 0
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "added": 0,
       "scoring": {
         "scored": 15
       },

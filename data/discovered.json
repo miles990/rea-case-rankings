@@ -3623,9 +3623,41 @@
       "wow": 2,
       "scored": "2026-10-12",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://youtu.be/c_o-2m7925o",
+      "title": "I Used REA + Claude Code on 5 Real Tests. Here's What I Found",
+      "author": "Darius X AI",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 1195,
+      "lang": "en",
+      "found": "2026-10-12"
     }
   ],
   "runs": [
+    {
+      "date": "2026-10-12",
+      "added": 1,
+      "stats": {
+        "githubShowAndTell": 6,
+        "githubRepos": 186,
+        "hackerNews": 17,
+        "qiita": 20,
+        "devto": 150,
+        "reddit": "error: 403 https://www.reddit.com/search.json?q=%22morluto%2Frea%22&sort=new&limit=25",
+        "v2ex": 1,
+        "youtube": 90,
+        "bluesky": 150,
+        "mastodon": 160,
+        "x": 0
+      },
+      "scoring": {
+        "scored": 0,
+        "error": "Command failed: claude -p --output-format json --max-turns 1 --tools  --model sonnet"
+      }
+    },
     {
       "date": "2026-10-12",
       "added": 2,

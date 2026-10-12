@@ -1,10 +1,9 @@
 name: Daily update
 
-# Only the schedule and the repo owner can start this workflow. There is no
+# Only the repo owner can start this workflow (the Mac daily job calls it
+# with skip_collect=true at 08:18 and 12:30 Taipei). There is no
 # pull_request trigger, so code from forks never runs with the Claude token.
 on:
-  schedule:
-    - cron: "30 4 * * *"  # 12:30 Asia/Taipei
   workflow_dispatch:
     inputs:
       skip_collect:

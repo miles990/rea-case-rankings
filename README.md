@@ -18,13 +18,15 @@
 
 ## 每日流程
 
-| 時間 | 在哪裡 | 做什麼 |
+全部由本機執行，訂閱憑證（Claude、Grok、瀏覽器登入）不離開這台 Mac；GitHub 只負責建置與部署。
+
+| 時間（台灣） | 在哪裡 | 做什麼 |
 |---|---|---|
-| 08:15（台灣） | 本機 launchd：`scripts/x-daily.sh` | Grok 搜尋 X 上的新貼文並推到 repo（Grok 訂閱憑證不離開本機） |
-| 04:30 UTC（台灣 12:30） | GitHub Actions `collect` | GitHub、Hacker News、DEV、Qiita、V2EX、YouTube、Bluesky、Mastodon；去重；碰不到 Claude token |
-| | `enrich`（`claude` environment，限 main） | Claude 在無工具、單回合模式下評分與翻譯 |
-| | `publish` | 縮圖、資料驗證、提交、建置、**Playwright 瀏覽器檢查**（失敗就不部署） |
-| | `deploy` | GitHub Pages |
+| 08:18、12:30 | 本機 launchd：`scripts/local-daily.sh` | 收集所有來源（X 用 Grok、Reddit 用 OpenCLI）→ Jev 篩選 → Claude 評分、翻譯、每日簡報 → 驗證 → 推到 repo；Mac 睡眠時錯過的會在喚醒後補跑 |
+| 接著 | GitHub Actions（`skip_collect=true`） | `publish`：縮圖、資料驗證、建置、**Playwright 瀏覽器檢查**（失敗就不部署）→ `deploy`：GitHub Pages |
+| 最後 | `../radar/scripts/daily.sh` | 更新本機資訊雷達 |
+
+GitHub Actions 沒有排程，只能由 repo 擁有者手動觸發；不帶 `skip_collect` 時會在雲端收集公開來源，但沒有 Claude token，不會評分與翻譯。
 
 ## 開發
 
@@ -47,7 +49,7 @@ node scripts/check.mjs --shots   # 另存截圖到 dist/shots/
 
 ## 安全設計
 
-- 只由排程與 `workflow_dispatch` 觸發，沒有 `pull_request` 觸發，fork 永遠拿不到 secret。
+- 只由 `workflow_dispatch` 觸發，沒有 `pull_request` 觸發，fork 永遠拿不到 secret。
 - Claude token 放在 `claude` environment，限定 `main` 分支，只注入評分與翻譯步驟；蒐集網頁內容的 job 拿不到它。
 - 抓到的內容一律視為不可信：Claude 以 `--tools ""`、`--max-turns 1` 執行，輸出只取白名單欄位並限制長度；頁面輸出全部 HTML 跳脫，連結只允許 http(s)；SVG 縮圖拒絕任何腳本、事件屬性與外部連結。
 - 所有 Actions 釘選 commit SHA，Claude Code、Playwright、yt-dlp 釘選版本。

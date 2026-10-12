@@ -1,0 +1,41 @@
+{
+  "questions": {
+    "relevant": {
+      "type": "noul",
+      "instructions": "Is `title` or `text` about REA, the 'Reverse Engineer Anything' tool (github.com/morluto/rea, npm rea-agents) that lets AI coding agents reverse engineer software? Answer no when REA means something else (real estate, a person, another product) or the tool is not mentioned at all.",
+      "criteria": { "true": "the item is about this REA reverse-engineering tool or something built with it", "false": "unrelated, or REA means something else" }
+    },
+    "wow": {
+      "type": "score",
+      "instructions": "How impressive and verifiable is what the author did with REA, based only on `title` and `text`? Judge the work reported, not how popular it is. News articles, reposts, opinions and link shares are the lowest level even when enthusiastic. A rebuild or finding only counts as verified when the text names tests, comparisons against the original, published code or a playable/usable result.",
+      "criteria": [
+        "News, commentary, opinion, a link share, or REA is only mentioned; no hands-on work by the author",
+        "A tool, integration, plugin, package, tutorial or small experiment around REA, or a first try with no specific target",
+        "A hands-on analysis of a specific named target with a clear concrete finding (a function, rule, protocol or limitation)",
+        "A usable rebuild or an important finding on a specific target, with some evidence such as code, a commit, screenshots or a few tests",
+        "A major verified result: a playable or usable full rebuild, large test suites matching the original output, or a significant firmware or hardware finding"
+      ]
+    },
+    "status": {
+      "type": "choice",
+      "instructions": "What evidence does `text` say exists for the author's claims?",
+      "criteria": {
+        "tested": "comparison tests against the original, evidence files, or reproducible steps are described",
+        "shipped": "a public repo, commit, release, or usable output exists, without described tests",
+        "reported": "only the author's own account; no code, tests or output are offered",
+        "none": "not a claim of work at all (news, opinion, question)"
+      }
+    },
+    "type": {
+      "type": "choice",
+      "instructions": "What kind of item is this, based on `title` and `text`?",
+      "criteria": {
+        "case": "someone used REA on a specific target and reports what they found or rebuilt",
+        "app": "a tool, plugin, MCP bridge, port, GUI, package or integration built around REA",
+        "learn": "a tutorial, guide, course material or how-to video about using REA",
+        "news": "news, review, commentary, opinion or a link share about REA",
+        "other": "none of the above"
+      }
+    }
+  }
+}

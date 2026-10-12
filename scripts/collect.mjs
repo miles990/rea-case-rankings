@@ -7,6 +7,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import { readFileSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 import { askClaudeJSON, claudeAvailable, clean } from "./claude.mjs";
+import { judge, jevAvailable } from "./jev.mjs";
 
 const ROOT = new URL("..", import.meta.url);
 const DISCOVERED = new URL("data/discovered.json", ROOT);
@@ -258,9 +259,30 @@ async function saveContexts(items) {
   return Object.keys(out).length;
 }
 
+const JEV_TYPE = { case: null, app: "工具鏈", learn: "教學", news: "報導 / 評論", other: "報導 / 評論" };
+
 async function scorePending(items, contexts) {
-  if (!claudeAvailable()) return { scored: 0, error: "claude CLI unavailable; items stay unscored" };
-  const pending = pendingOf(items);
+  let pending = pendingOf(items);
+  // Jev triage first: low-value finds get a score of 1 without a Claude call.
+  let jevLow = 0, jevIrrelevant = 0, jevErrors = 0;
+  if (jevAvailable()) {
+    const keep = [];
+    for (const it of pending) {
+      it.context = contexts ? contexts[it.url] || "" : it.text || "";
+      try {
+        const { decision, answers } = await judge(it);
+        if (decision === "irrelevant") { it.relevant = false; it.scored = TODAY; it.scored_by = "jev"; jevIrrelevant++; }
+        else if (decision === "low") {
+          Object.assign(it, { relevant: true, wow: 1, category: JEV_TYPE[answers.type.choice] || "報導 / 評論", status: answers.status.choice === "none" ? "reported" : answers.status.choice, scored: TODAY, scored_by: "jev" });
+          jevLow++;
+        } else keep.push(it);
+      } catch { jevErrors++; keep.push(it); }
+      delete it.context;
+    }
+    pending = keep;
+  }
+  const jev = { low: jevLow, irrelevant: jevIrrelevant, errors: jevErrors, toClaude: pending.length };
+  if (!claudeAvailable()) return { scored: 0, jev, error: "claude CLI unavailable; remaining items stay unscored" };
   let scored = 0;
   for (let i = 0; i < pending.length; i += 5) {
     const batch = pending.slice(i, i + 5);
@@ -282,11 +304,11 @@ async function scorePending(items, contexts) {
     } catch (e) {
       console.error(`scoring failed: ${e.message}`);
       for (const it of batch) delete it.context;
-      return { scored, error: e.message.slice(0, 120) };
+      return { scored, jev, error: e.message.slice(0, 120) };
     }
     for (const it of batch) delete it.context;
   }
-  return { scored };
+  return { scored, jev };
 }
 
 async function bluesky() {

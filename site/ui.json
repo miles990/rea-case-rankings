@@ -6,7 +6,7 @@
     "title": "REA 案例排行榜",
     "nav.top": "精選",
     "nav.rank": "完整排名",
-    "nav.new": "最新進榜",
+    "nav.new": "每日脈絡",
     "nav.how": "更新方式",
     "hero.eyebrow": "Reverse Engineer Anything · 全球案例排行 · 每日更新",
     "hero.h1a": "別人用",
@@ -49,8 +49,6 @@
     "row.unscored": "待評分",
     "row.orig": "原標題",
     "empty": "沒有符合的項目。試試清除篩選或換個關鍵字。",
-    "new.eyebrow": "Latest · 每日自動蒐集",
-    "new.h2": "最新進榜",
     "new.p": "每天自動掃描 GitHub、Hacker News、DEV、Qiita、V2EX、YouTube 等來源，新項目評分後直接進入排名。",
     "new.th.day": "進榜",
     "new.th.rank": "名次",
@@ -173,7 +171,22 @@
     "theme.system": "跟隨系統",
     "k.palette": "快速跳轉",
     "f.min": "最低分數",
-    "link": {}
+    "link": {},
+    "day.eyebrow": "Daily context · 每天自動整理",
+    "day.h2": "每日脈絡",
+    "day.stars": "REA GitHub 星數",
+    "day.newPerDay": "每天新增的 2 分以上項目（點長條看那天）",
+    "day.noBrief": "這天的簡報還沒產生",
+    "day.showAll": "看這天的 {n} 個項目",
+    "sig": {
+      "A": "程式碼不再是護城河",
+      "B": "驗證是瓶頸",
+      "C": "舊軟體保存與遷移",
+      "D": "硬體互通",
+      "E": "模型平台限制",
+      "F": "成本與效率",
+      "G": "生態系擴張"
+    }
   },
   "zh-CN": {
     "_name": "简体中文",
@@ -182,7 +195,7 @@
     "title": "REA 案例排行榜",
     "nav.top": "精选",
     "nav.rank": "完整排名",
-    "nav.new": "最新上榜",
+    "nav.new": "每日脉络",
     "nav.how": "更新方式",
     "hero.eyebrow": "Reverse Engineer Anything · 全球案例排行 · 每日更新",
     "hero.h1a": "别人用",
@@ -225,8 +238,6 @@
     "row.unscored": "待评分",
     "row.orig": "原标题",
     "empty": "没有符合的项目。试试清除筛选或换个关键词。",
-    "new.eyebrow": "Latest · 每日自动收集",
-    "new.h2": "最新上榜",
     "new.p": "每天自动扫描 GitHub、Hacker News、DEV、Qiita、V2EX、YouTube 等来源，新项目评分后直接进入排名。",
     "new.th.day": "上榜",
     "new.th.rank": "名次",
@@ -365,6 +376,21 @@
       "指南": "指南",
       "Zenn 文章": "Zenn 文章",
       "formula": "公式"
+    },
+    "day.eyebrow": "Daily context · 每天自动整理",
+    "day.h2": "每日脉络",
+    "day.stars": "REA GitHub 星数",
+    "day.newPerDay": "每天新增的 2 分以上项目（点柱子看那天）",
+    "day.noBrief": "这天的简报还没生成",
+    "day.showAll": "看这天的 {n} 个项目",
+    "sig": {
+      "A": "代码不再是护城河",
+      "B": "验证是瓶颈",
+      "C": "旧软件保存与迁移",
+      "D": "硬件互通",
+      "E": "模型平台限制",
+      "F": "成本与效率",
+      "G": "生态扩张"
     }
   },
   "en": {
@@ -374,7 +400,7 @@
     "title": "REA Case Rankings",
     "nav.top": "Highlights",
     "nav.rank": "Rankings",
-    "nav.new": "Latest",
+    "nav.new": "Daily context",
     "nav.how": "How it updates",
     "hero.eyebrow": "Reverse Engineer Anything · Worldwide cases · Updated daily",
     "hero.h1a": "What people took apart with",
@@ -417,8 +443,6 @@
     "row.unscored": "Unscored",
     "row.orig": "Original title",
     "empty": "Nothing matches. Clear a filter or try another keyword.",
-    "new.eyebrow": "Latest · collected daily",
-    "new.h2": "Latest entries",
     "new.p": "Every day a bot scans GitHub, Hacker News, DEV, Qiita, V2EX, YouTube and more. New entries are scored and go straight into the ranking.",
     "new.th.day": "Added",
     "new.th.rank": "Rank",
@@ -557,6 +581,21 @@
       "指南": "Guide",
       "Zenn 文章": "Zenn article",
       "formula": "Formula"
+    },
+    "day.eyebrow": "Daily context · written every day",
+    "day.h2": "Daily context",
+    "day.stars": "REA GitHub stars",
+    "day.newPerDay": "New entries scored 2+ per day (click a bar)",
+    "day.noBrief": "No brief for this day yet",
+    "day.showAll": "Show this day's {n} entries",
+    "sig": {
+      "A": "Code is no longer a moat",
+      "B": "Verification is the bottleneck",
+      "C": "Legacy preservation & migration",
+      "D": "Hardware interop",
+      "E": "Model-platform limits",
+      "F": "Cost & efficiency",
+      "G": "Ecosystem expansion"
     }
   }
 }

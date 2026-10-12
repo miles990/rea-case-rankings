@@ -90,12 +90,15 @@ const FACETS = ["cat", "via", "lang", "status", "source"];
 const FIELD = { cat: "category", via: "via", lang: "lang", status: "status", source: "source" };
 // min: lowest score shown. Default 2 hides one-line link shares and news;
 // entries not scored yet always stay visible.
-const state = { type: "all", q: "", sort: "rank", view: store.get("rea-view") || "list", id: null, tsort: null, min: 2, cat: null, via: null, lang: null, status: null, source: null };
+const DAYS = (DATA.history?.days || []).filter((d) => d.new?.length || d.text);
+const dayIds = (date) => new Set(DAYS.find((d) => d.date === date)?.new || []);
+const state = { day: null, type: "all", q: "", sort: "rank", view: store.get("rea-view") || "list", id: null, tsort: null, min: 2, cat: null, via: null, lang: null, status: null, source: null };
 if (!["list", "grid", "table", "timeline", "graph"].includes(state.view)) state.view = "list";
 function readURL() {
   const p = new URLSearchParams(isPages ? location.search : "");
   for (const k of ["type", "q", "sort", "view", ...FACETS]) if (p.get(k)) state[k] = p.get(k);
   if (/^[1-5]$/.test(p.get("min") || "")) state.min = +p.get("min");
+  if (/^\d{4}-\d{2}-\d{2}$/.test(p.get("day") || "")) state.day = p.get("day");
   const h = location.hash.match(/^#r-([\w-]+)$/);
   state.id = (h && h[1]) || p.get("id") || null;
 }
@@ -108,6 +111,7 @@ function writeURL() {
     if (state[k] && state[k] !== def) p.set(k, state[k]);
   }
   if (state.min !== 2) p.set("min", state.min);
+  if (state.day) p.set("day", state.day);
   const qs = p.toString();
   history.replaceState(null, "", location.pathname + (qs ? "?" + qs : "") + hash);
 }
@@ -118,7 +122,9 @@ const hay = (r) => {
   if (!haystack.has(k)) haystack.set(k, [tx(r, "title"), tx(r, "summary"), tx(r, "target"), tx(r, "metric"), r.title, r.target, r.original_title, r.author, catName(r.category), r.via].join(" \u0001 ").toLowerCase());
   return haystack.get(k);
 };
+let dayCache = [null, new Set()];
 function matches(r, skip) {
+  if (state.day) { if (dayCache[0] !== state.day) dayCache = [state.day, dayIds(state.day)]; if (!dayCache[1].has(r.id)) return false; }
   if (skip !== "min" && r.wow != null && r.wow < state.min) return false;
   if (skip !== "type" && state.type !== "all" && r.type !== state.type) return false;
   for (const f of FACETS) if (skip !== f && state[f] && r[FIELD[f]] !== state[f]) return false;
@@ -215,12 +221,14 @@ function renderActive() {
   const names = { cat: catName, via: (v) => v, lang: langName, status: (v) => t("status." + v), source: (v) => t("src." + v) };
   for (const f of FACETS) if (state[f]) chips.push([f, names[f](state[f])]);
   if (state.min !== 2) chips.push(["min", `${t("score")} ≥ ${state.min}`]);
+  if (state.day) chips.push(["day", state.day]);
   $("#active").innerHTML = chips.length ? chips.map(([k, v]) => `<button class="afchip" type="button" data-rm="${k}">${esc(v)}<span aria-hidden="true">×</span></button>`).join("") + `<button class="afclear" type="button" data-rm="all">${esc(t("f.clear"))}</button>` : "";
 }
 $("#active").addEventListener("click", (e) => {
   const b = e.target.closest("[data-rm]"); if (!b) return;
-  if (b.dataset.rm === "all") { for (const f of FACETS) state[f] = null; state.q = ""; state.type = "all"; state.min = 2; $("#q").value = ""; }
+  if (b.dataset.rm === "all") { for (const f of FACETS) state[f] = null; state.q = ""; state.type = "all"; state.min = 2; state.day = null; $("#q").value = ""; }
   else if (b.dataset.rm === "min") state.min = 2;
+  else if (b.dataset.rm === "day") state.day = null;
   else if (b.dataset.rm === "q") { state.q = ""; $("#q").value = ""; }
   else state[b.dataset.rm] = null;
   update();
@@ -508,8 +516,7 @@ function renderStatic() {
   $("#highlights").innerHTML = records.filter((r) => r.wow === 5).slice(0, 6).map((r, i) => `<button class="hcard" type="button" data-go="${esc(r.id)}">
     <span class="rkb">#${r.rank}</span>${thumbHTML(r, i < 3)}
     <span class="hb"><span class="eyebrow">${esc(catName(r.category))}</span><h3>${esc(tx(r, "title"))}</h3><span class="metric"><span class="sel">${esc(tx(r, "metric"))}</span></span></span></button>`).join("");
-  const fresh = [...records].sort((a, b) => (b.added || "").localeCompare(a.added || "") || a.rank - b.rank).slice(0, 16);
-  $("#latest-row").innerHTML = fresh.map((r) => `<button class="lcard" type="button" data-go="${esc(r.id)}">${thumbHTML(r)}<span><b>${esc(tx(r, "title"))}</b><small>#${r.rank} · ${r.wow ?? "—"}/5 · ${esc(r.via)}${r.added === latestDay ? ` <span class="new">${esc(t("new.badge"))}</span>` : ""}</small></span></button>`).join("");
+  renderDays();
   $("#scan").textContent = t("new.scan").replace("{d}", DATA.scanned || DATA.updated);
   $("#rubric").innerHTML = [5, 4, 3, 2, 1].map((n) => `<li>${wowBar(n)}<span>${esc(t("rubric." + n))}</span></li>`).join("");
   const base = DATA.site?.url || "https://miles990.github.io/rea-awesome/";
@@ -518,7 +525,63 @@ function renderStatic() {
   // On GitHub Pages the site root is wherever the Traditional Chinese page lives.
   $("#api-link").href = (isPages ? DATA.pages["zh-TW"] : base) + "api/records.json";
 }
-document.addEventListener("click", (e) => { const g = e.target.closest(".hcard[data-go], .lcard[data-go]"); if (g) reveal(g.dataset.go); });
+document.addEventListener("click", (e) => { const g = e.target.closest(".hcard[data-go], .lcard[data-go], .day-hl [data-go]"); if (g) reveal(g.dataset.go); });
+
+// ---------- Daily context ----------
+let daysShown = 7;
+const dayText = (d) => d.text?.[lang] || d.text?.["zh-TW"] || null;
+function sparkStars() {
+  const pts = DAYS.filter((d) => d.stars).map((d) => [d.date, d.stars]);
+  const svg = $("#spark-stars");
+  if (pts.length < 2) { svg.innerHTML = ""; return; }
+  const W = svg.clientWidth || 400, H = 96, m = { l: 6, r: 52, t: 14, b: 16 };
+  const t0 = Date.parse(pts[0][0]), t1 = Date.parse(pts.at(-1)[0]), max = Math.max(...pts.map((p) => p[1]));
+  const X = (d) => m.l + ((Date.parse(d) - t0) / Math.max(1, t1 - t0)) * (W - m.l - m.r), Y = (v) => H - m.b - (v / max) * (H - m.t - m.b);
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  svg.innerHTML = `<line x1="${m.l}" x2="${W - m.r}" y1="${H - m.b}" y2="${H - m.b}" stroke="var(--axis)"/>
+    <polyline fill="none" stroke="var(--bar)" stroke-width="2" stroke-linejoin="round" points="${pts.map(([d, v]) => `${X(d).toFixed(1)},${Y(v).toFixed(1)}`).join(" ")}"/>
+    ${pts.map(([d, v]) => `<circle cx="${X(d).toFixed(1)}" cy="${Y(v).toFixed(1)}" r="3" fill="var(--bar)"><title>${d} · ${fmt(v)}</title></circle>`).join("")}
+    <text class="lbl" x="${X(pts.at(-1)[0]) + 6}" y="${Y(pts.at(-1)[1]) + 4}">${Math.round(pts.at(-1)[1] / 1000)}k</text>
+    <text x="${m.l}" y="${H - 3}">${pts[0][0].slice(5)}</text><text x="${W - m.r}" y="${H - 3}" text-anchor="end">${pts.at(-1)[0].slice(5)}</text>`;
+}
+function sparkNew() {
+  const svg = $("#spark-new");
+  const days = DAYS.slice(-14);
+  if (!days.length) { svg.innerHTML = ""; return; }
+  const W = svg.clientWidth || 400, H = 96, m = { l: 6, r: 6, t: 14, b: 16 };
+  const max = Math.max(1, ...days.map((d) => d.new.length)), bw = (W - m.l - m.r) / days.length;
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  svg.innerHTML = days.map((d, i) => {
+    const h = (d.new.length / max) * (H - m.t - m.b), x = m.l + i * bw + 2;
+    return `<g class="nb" data-day="${d.date}" style="cursor:pointer"><rect x="${x.toFixed(1)}" y="${(H - m.b - h).toFixed(1)}" width="${Math.max(2, bw - 4).toFixed(1)}" height="${Math.max(1, h).toFixed(1)}" rx="2" fill="var(--bar)"/><title>${d.date} · ${d.new.length}</title>${d.new.length ? `<text x="${(x + (bw - 4) / 2).toFixed(1)}" y="${(H - m.b - h - 3).toFixed(1)}" text-anchor="middle">${d.new.length}</text>` : ""}</g>`;
+  }).join("") + `<line x1="${m.l}" x2="${W - m.r}" y1="${H - m.b}" y2="${H - m.b}" stroke="var(--axis)"/><text x="${m.l}" y="${H - 3}">${days[0].date.slice(5)}</text><text x="${W - m.r}" y="${H - 3}" text-anchor="end">${days.at(-1).date.slice(5)}</text>`;
+}
+function renderDays() {
+  const list = [...DAYS].reverse();
+  const weekday = (d) => { try { return new Date(d + "T00:00:00Z").toLocaleDateString(UI[lang]._html, { weekday: "short", timeZone: "UTC" }); } catch { return ""; } };
+  $("#days").innerHTML = list.slice(0, daysShown).map((d, i) => {
+    const tx_ = dayText(d), hl = (d.highlights || []).map((id) => byId.get(id)).filter(Boolean);
+    return `<li class="day${i === 0 ? " today" : ""}">
+      <div class="day-date"><b>${d.date.slice(5).replace("-", "/")}</b><span>${esc(weekday(d.date))} · ${d.date.slice(0, 4)}</span>${d.stars ? `<span>★ ${fmt(d.stars)}${d.stars_delta ? ` <span class="delta">+${fmt(d.stars_delta)}</span>` : ""}</span>` : ""}</div>
+      <div class="day-body">
+        <h3>${esc(tx_?.headline || t("day.noBrief"))}</h3>
+        ${tx_?.summary ? `<p>${esc(tx_.summary)}</p>` : ""}
+        ${d.signals?.length ? `<div class="sigs">${d.signals.map((k) => `<span class="sigtag" title="${esc(tm("sig")[k] || k)}"><b>${esc(k)}</b>${esc(tm("sig")[k] || k)}</span>`).join("")}</div>` : ""}
+        ${hl.length ? `<div class="day-hl">${hl.map((r) => `<button type="button" data-go="${esc(r.id)}">${thumbHTML(r)}<b>${esc(tx(r, "title"))}</b></button>`).join("")}</div>` : ""}
+        ${d.new.length ? `<div class="day-act"><button type="button" data-day="${d.date}">${esc(t("day.showAll").replace("{n}", d.new.length))} →</button></div>` : ""}
+      </div></li>`;
+  }).join("") || `<li class="empty">${esc(t("empty"))}</li>`;
+  $("#days-more").hidden = list.length <= daysShown;
+  $("#days-more").textContent = t("f.more");
+  sparkStars(); sparkNew();
+}
+$("#days-more").addEventListener("click", () => { daysShown += 14; renderDays(); });
+document.addEventListener("click", (e) => {
+  const b = e.target.closest("[data-day]"); if (!b) return;
+  state.day = b.dataset.day; state.min = 1; state.type = "all";
+  update();
+  $("#explore").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" });
+});
 
 // ---------- Theme ----------
 function applyTheme(mode) {

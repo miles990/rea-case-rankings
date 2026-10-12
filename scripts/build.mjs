@@ -19,6 +19,7 @@ const discovered = JSON.parse(await read("data/discovered.json").catch(() => '{"
 const i18nAll = JSON.parse(await read("data/i18n.json").catch(() => "{}"));
 const thumbsManifest = JSON.parse(await read("data/thumbs.json").catch(() => "{}"));
 const records = await allRecords();
+const historyAll = JSON.parse(await read("data/history.json").catch(() => '{"days":[]}'));
 
 // Language → path under the site root. Traditional Chinese is the root page.
 const PATHS = Object.fromEntries(Object.keys(ui).map((l) => [l, l === "zh-TW" ? "" : l.toLowerCase() + "/"]));
@@ -65,7 +66,8 @@ ${Object.entries(PATHS).map(([l, p]) => `<link rel="alternate" hreflang="${ui[l]
 <meta property="og:type" content="website"><meta property="og:title" content="${esc(t("title"))}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${SITE_URL}${path}">
 <meta name="twitter:card" content="summary">
 <script type="application/ld+json">${js_(jsonld)}</script>`;
-  const page = assemble({ ...base, i18n: own, pages, thumbBase: up + "thumbs/" }, lang, head);
+  const history = { days: historyAll.days.map((d) => ({ ...d, text: d.text ? { [lang]: d.text[lang] || d.text["zh-TW"] } : undefined })) };
+  const page = assemble({ ...base, i18n: own, pages, thumbBase: up + "thumbs/", history }, lang, head);
   const [h, b] = split(page);
   const doc = `<!doctype html>
 <html lang="${ui[lang]._html}" dir="${ui[lang]._dir || "ltr"}">
@@ -91,6 +93,7 @@ const api = {
   records: records.map((r, i) => ({ rank: i + 1, id: r.id, title: r.title, summary: r.summary, target: r.target, metric: r.metric, wow: r.wow, heat: r.heat, status: r.status, type: r.type, category: r.category, lang: r.lang, author: r.author, author_url: r.author_url || null, date: r.date || null, added: r.added || null, via: r.via, source: r.source, pop: r.pop || {}, links: r.links, thumbnail: thumbs[r.id] ? SITE_URL + "thumbs/" + thumbs[r.id] : null, page: `${SITE_URL}#r-${r.id}`, i18n: i18n[r.id] || {} })),
 };
 await writeFile(out("pages/api/records.json"), JSON.stringify(api));
+await writeFile(out("pages/api/daily.json"), JSON.stringify({ description: "One entry per day: REA stars, entries added (ids into records.json), and a short brief in zh-TW/en/zh-CN naming which long-term signals the day supports.", signals: historyAll.signals || {}, days: historyAll.days }));
 
 await writeFile(out("pages/llms.txt"), `# REA case rankings
 
@@ -98,6 +101,7 @@ await writeFile(out("pages/llms.txt"), `# REA case rankings
 
 ## Data
 - [All entries as JSON](${SITE_URL}api/records.json): rank, score (wow 1–5), heat (0–100), status, type, category, source links, popularity signals and translations.
+- [Daily context as JSON](${SITE_URL}api/daily.json): per-day stars, new entry ids and a brief naming which long-term signals (A–G) the day supports.
 - [RSS feed of the newest entries](${SITE_URL}feed.xml)
 
 ## Page URLs carry state

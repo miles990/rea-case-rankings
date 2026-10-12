@@ -1,0 +1,432 @@
+{
+  "days": [
+    {
+      "date": "2026-10-06",
+      "stars": 5336,
+      "stars_delta": null,
+      "new": [
+        "heartland-side-effects",
+        "rea-jev"
+      ],
+      "stats": {
+        "count": 2,
+        "wow": {
+          "2": 2
+        },
+        "type": {
+          "app": 2
+        },
+        "status": {
+          "tested": 1,
+          "shipped": 1
+        }
+      },
+      "backfilled": true,
+      "text": {
+        "zh-TW": {
+          "headline": "REA 副作用逐項驗證與社群外掛 rea-jev 同日出現",
+          "summary": "這天只有兩個項目，熱度都是 0，都偏向「在 REA 外層加一層檢查」。人工整理的驗證顯示，16 項功能宣告中改寫目標、需 root、改權限皆為 0，但有 10 項會啟動程序，不能無條件放行，Evidence 的 SHA-256 也經 sha256sum 驗證完全一致。社群外掛 rea-jev 則把 REA 的 MCP server 與 Jev 判斷模型結合，做工具路由、呼叫前檢查與證據追蹤，不過檢查只是建議性質，不是安全邊界。資料不足以與前幾天做比較，重點在於調查結果的可信度正被獨立檢驗。"
+        },
+        "en": {
+          "headline": "REA side-effect audit and the rea-jev plugin land on the same day",
+          "summary": "Only two items appeared, both with zero heat, and both add a checking layer around REA. A hand-curated audit found that across 16 feature declarations, none rewrite targets, require root or change permissions, but 10 launch processes and so cannot be allowed unconditionally; the Evidence SHA-256 hashes also matched exactly under sha256sum. The community plugin rea-jev combines REA's MCP server with the Jev judgment model to add tool routing, pre-call checks and evidence tracking, though its checks are advisory rather than a security boundary. There is not enough data to compare with previous days, but the theme is clear: the trustworthiness of investigation results is being independently verified."
+        },
+        "zh-CN": {
+          "headline": "REA 副作用逐项验证与社区插件 rea-jev 同日出现",
+          "summary": "这天只有两个项目，热度都是 0，都偏向“在 REA 外层加一层检查”。人工整理的验证显示，16 项功能声明中改写目标、需 root、改权限皆为 0，但有 10 项会启动进程，不能无条件放行，Evidence 的 SHA-256 也经 sha256sum 验证完全一致。社区插件 rea-jev 则把 REA 的 MCP server 与 Jev 判断模型结合，做工具路由、调用前检查与证据追踪，不过检查只是建议性质，不是安全边界。数据不足以与前几天做比较，重点在于调查结果的可信度正被独立检验。"
+        }
+      },
+      "signals": [
+        "B",
+        "F"
+      ],
+      "highlights": [
+        "heartland-side-effects",
+        "rea-jev"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "stars": 10746,
+      "stars_delta": 5410,
+      "new": [
+        "apisitlee-mac-pitfalls"
+      ],
+      "stats": {
+        "count": 1,
+        "wow": {
+          "2": 1
+        },
+        "type": {
+          "case": 1
+        },
+        "status": {
+          "reported": 1
+        }
+      },
+      "backfilled": true,
+      "text": {
+        "zh-TW": {
+          "headline": "REA 星數倍增至 1 萬以上，Mac 實測文章同日出現",
+          "summary": "當天 REA GitHub 星數達 10746，比前一個紀錄 5336 多出 5410，增幅超過一倍。當天只有一個項目：一篇人工整理的案例，在 REA 登上 Trending 第一的同一天於 Mac 上實測，整理出安裝與執行會遇到的 4 個問題，並說明 Decompile → Understand → Recreate 的調查流程。這顯示工具爆紅後，社群很快開始補上平台相容性與上手方法，不過當天資料量少、評分也只有 2/5，只能視為早期訊號。"
+        },
+        "en": {
+          "headline": "REA stars pass 10,000 as a hands-on Mac pitfalls write-up appears the same day",
+          "summary": "REA's GitHub star count reached 10,746, up 5,410 from the previous record of 5,336, more than doubling. The day's only item is a hand-curated case study: written the day REA hit #1 on Trending, it tests REA on a Mac, lists 4 pitfalls in installation and running, and explains the Decompile → Understand → Recreate investigation flow. It suggests the community quickly starts filling in platform compatibility and onboarding once a tool goes viral, but with a single item rated 2/5 it is only an early signal."
+        },
+        "zh-CN": {
+          "headline": "REA 星数翻倍至 1 万以上，Mac 实测文章同日出现",
+          "summary": "当天 REA GitHub 星数达 10746，比之前的记录 5336 多出 5410，增幅超过一倍。当天只有一个条目：一篇人工整理的案例，在 REA 登上 Trending 第一的同一天于 Mac 上实测，整理出安装与运行会遇到的 4 个问题，并说明 Decompile → Understand → Recreate 的调查流程。这表明工具爆红后，社区很快开始补上平台兼容性与上手方法，不过当天数据量少、评分也只有 2/5，只能视为早期信号。"
+        }
+      },
+      "signals": [],
+      "highlights": [
+        "apisitlee-mac-pitfalls"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "stars": null,
+      "stars_delta": null,
+      "new": [
+        "kingy-notes-exporter",
+        "gunzrs",
+        "d-c98d5d03bf",
+        "d-49c3fe3859"
+      ],
+      "stats": {
+        "count": 4,
+        "wow": {
+          "2": 2,
+          "3": 2
+        },
+        "type": {
+          "case": 2,
+          "learn": 1,
+          "app": 1
+        },
+        "status": {
+          "tested": 2,
+          "shipped": 1,
+          "reported": 1
+        }
+      },
+      "backfilled": true,
+      "text": {
+        "zh-TW": {
+          "headline": "REA 用免費工具完成逐位元組驗證，驗證成為焦點",
+          "summary": "這天最值得看的是兩則重視驗證的案例：一位作者依 REA 的發現重寫筆記匯出的 CSV 格式器，再用第二個解析器逐位元組比對，全數通過且只用免費軟體；另一則在 GitHub Actions 上以全合成檔案跑通 Ghidra、JADX、Binwalk/Unblob 三條流程，並明說這不代表對真實程式的驗證。另有 GunZRs 把 GunZ 移植到 Rust，素材取自玩家自己的 Steam 安裝。整體重心從「能不能逆向」轉向「怎麼證明結果是對的」，同時舊遊戲移植也持續出現。"
+        },
+        "en": {
+          "headline": "REA work verified byte-for-byte with free tools; verification takes center stage",
+          "summary": "The standout items are two verification-minded cases. One author rebuilt a notes-export CSV formatter from REA's findings and checked it byte-for-byte against a second parser, with everything passing using only free software. Another ran REA's Ghidra, JADX and Binwalk/Unblob workflows on fully synthetic files in GitHub Actions, and states plainly that this does not validate real programs or firmware. GunZRs, a Rust port of GunZ that loads assets from the player's own Steam install, also appeared. The emphasis is shifting from whether REA can reverse something to how to prove the result is right, while legacy game ports keep showing up."
+        },
+        "zh-CN": {
+          "headline": "REA 用免费工具完成逐字节验证，验证成为焦点",
+          "summary": "这天最值得看的是两则重视验证的案例：一位作者依 REA 的发现重写笔记导出的 CSV 格式器，再用第二个解析器逐字节比对，全部通过且只用免费软件；另一则在 GitHub Actions 上以全合成文件跑通 Ghidra、JADX、Binwalk/Unblob 三条流程，并明说这不代表对真实程序的验证。另有 GunZRs 把 GunZ 移植到 Rust，素材取自玩家自己的 Steam 安装。整体重心从“能不能逆向”转向“怎么证明结果是对的”，同时旧游戏移植也持续出现。"
+        }
+      },
+      "signals": [
+        "B",
+        "C",
+        "G"
+      ],
+      "highlights": [
+        "kingy-notes-exporter",
+        "d-49c3fe3859",
+        "gunzrs"
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "stars": null,
+      "stars_delta": null,
+      "new": [
+        "netcat-audit",
+        "zenn-electron-known-answer",
+        "d-48e797d2e8",
+        "tracebrief"
+      ],
+      "stats": {
+        "count": 4,
+        "wow": {
+          "2": 2,
+          "3": 2
+        },
+        "type": {
+          "case": 2,
+          "learn": 1,
+          "app": 1
+        },
+        "status": {
+          "tested": 2,
+          "shipped": 2
+        }
+      },
+      "backfilled": true,
+      "text": {
+        "zh-TW": {
+          "headline": "兩個案例同講一件事：REA 的結論要附證據、可驗證",
+          "summary": "這天的重點是兩個人工整理的案例：一個用 REA 6.2.0 加 Ghidra 靜態審查 Ubuntu 的 netcat，每個結論都附原始證據檔，結果與上游一致、沒有植入跡象；另一個拿自寫的 Electron App 當標準答案，發現 IPC、API 與視窗設定的重建數值完全正確，但「為什麼是隱藏功能」仍要人自己讀 Evidence。TraceBrief 則進一步用確定性腳本檢查報告引用的證據是否存在，不成立就拒絕產出。這顯示社群關注的重點正從「能不能分析」轉向「結論能不能驗證」。"
+        },
+        "en": {
+          "headline": "Two cases show REA conclusions need evidence you can verify",
+          "summary": "Two hand-curated cases lead the day. One statically audits Ubuntu's netcat with REA 6.2.0 and Ghidra, attaching raw evidence files to every conclusion; it found the binary consistent with upstream and no sign of implanted code. The other tests REA against a self-written Electron app with known answers: IPC wiring, public APIs and window settings were reconstructed exactly, but the explanation of why a feature is hidden still has to be pieced together from the Evidence. TraceBrief goes a step further, using a deterministic script to check that every cited Evidence item exists and refusing to produce a report if one does not. The community's focus is shifting from whether REA can analyze to whether its conclusions can be verified."
+        },
+        "zh-CN": {
+          "headline": "两个案例共同说明：REA 的结论要附证据、可验证",
+          "summary": "这天的重点是两个人工整理的案例：一个用 REA 6.2.0 加 Ghidra 静态审查 Ubuntu 的 netcat，每个结论都附原始证据文件，结果与上游一致、没有植入迹象；另一个拿自写的 Electron App 当标准答案，发现 IPC、API 与窗口设置的重建数值完全正确，但“为什么是隐藏功能”仍要人自己读 Evidence。TraceBrief 则进一步用确定性脚本检查报告引用的证据是否存在，不成立就拒绝产出。这说明社区关注的重点正从“能不能分析”转向“结论能不能验证”。"
+        }
+      },
+      "signals": [
+        "B"
+      ],
+      "highlights": [
+        "netcat-audit",
+        "zenn-electron-known-answer",
+        "tracebrief"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "stars": 58461,
+      "stars_delta": 47715,
+      "new": [
+        "touhou-factory",
+        "d-b704d89ca5",
+        "nextjs-stripe-leak-check",
+        "d-39a6a89f43",
+        "macos-preview-race",
+        "claude-code-muse",
+        "d-ecbb34ba3f",
+        "d-3cacad9892",
+        "d-2731867e4e",
+        "d-58c16f12d8",
+        "d-7b1ef2129b",
+        "fathom-rust",
+        "d-309b4f51ec",
+        "d-0a452529f0",
+        "d-9991989e8e",
+        "d-d9f3e2beb7"
+      ],
+      "stats": {
+        "count": 16,
+        "wow": {
+          "2": 10,
+          "3": 3,
+          "4": 1,
+          "5": 2
+        },
+        "type": {
+          "case": 8,
+          "app": 6,
+          "learn": 2
+        },
+        "status": {
+          "shipped": 8,
+          "tested": 3,
+          "reported": 5
+        }
+      },
+      "backfilled": true,
+      "text": {
+        "zh-TW": {
+          "headline": "東方遊戲逐函式重建登頂,社群實作與工具並進",
+          "summary": "這天 REA 星數升至 58461,比前一個紀錄 10746 多出 47715,關注度明顯暴增。排名第一的是東方 Project 三部作的逐函式重建:用 Agent 分析原始執行檔、還原 C++ 並與原二進位比對,TH08 已有 Linux 與瀏覽器可玩版本。另有 DOS 遊戲 Larax & Zaco 的反編譯,且明確聲明不是可玩遊戲、也非位元級一致;以及對上線中的 Next.js + Stripe 系統做外洩檢查。其餘多是 MCP 精簡橋接、DeepSeek 外掛與教學專案,顯示生態系持續擴張;不少高熱度貼文只有心得、沒有證據,值得保留判斷。"
+        },
+        "en": {
+          "headline": "Touhou function-by-function rebuild tops the day as tools and tutorials grow",
+          "summary": "REA's GitHub stars reached 58,461 on this day, up 47,715 from the previous record of 10,746. The top item is a function-by-function rebuild of three Touhou Project games, using agents to analyze the original executables, recover C++ and compare against the original binaries; TH08 is already playable on Linux and in the browser. Other evidence-backed work includes a decompilation of the DOS game Larax & Zaco, which explicitly says it is neither playable nor bit-exact, and an external leak check of a live Next.js + Stripe system. Much of the rest is ecosystem building, such as a thin MCP bridge cutting 139 tools to 21, DeepSeek Harness plugins and tutorials, while several high-heat posts offer only impressions without evidence."
+        },
+        "zh-CN": {
+          "headline": "东方游戏逐函数重建登顶,社区实践与工具并进",
+          "summary": "这天 REA 星数升至 58461,比之前的纪录 10746 多出 47715,关注度明显暴增。排名第一的是东方 Project 三部作的逐函数重建:用 Agent 分析原始可执行文件、还原 C++ 并与原二进制比对,TH08 已有 Linux 与浏览器可玩版本。另有 DOS 游戏 Larax & Zaco 的反编译,并明确声明不是可玩游戏、也非位级一致;以及对线上 Next.js + Stripe 系统做的泄露检查。其余多是 MCP 精简桥接、DeepSeek 插件与教学项目,显示生态持续扩张;不少高热度帖子只有心得、没有证据,值得保留判断。"
+        }
+      },
+      "signals": [
+        "B",
+        "C",
+        "G"
+      ],
+      "highlights": [
+        "touhou-factory",
+        "d-b704d89ca5",
+        "nextjs-stripe-leak-check"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "stars": 76998,
+      "stars_delta": 18537,
+      "new": [
+        "obsidian-quick-switcher",
+        "dotey-claude-slides",
+        "zwo-asiair",
+        "d-4e8823e589",
+        "d-c24f94de41",
+        "ski-or-die",
+        "wispr-flow-eric",
+        "codex-browser-annotation",
+        "wispr-flow-az9713",
+        "d-6417fa2b6c",
+        "smart-toilet",
+        "encrypted-lib-rewrite",
+        "d-f40052c423",
+        "d-4037cb4975",
+        "d-87ce73d9b4",
+        "d-5a8e8882b7",
+        "d-19ff7d8929",
+        "psp-mips-lab",
+        "rea-investigate",
+        "d-c4120d6952",
+        "d-723866fc43",
+        "d-6472b3d476",
+        "d-44200b3153",
+        "d-e4a069d9ea",
+        "d-b7bab8c269"
+      ],
+      "stats": {
+        "count": 25,
+        "wow": {
+          "2": 10,
+          "3": 4,
+          "4": 5,
+          "5": 6
+        },
+        "type": {
+          "case": 15,
+          "app": 9,
+          "learn": 1
+        },
+        "status": {
+          "tested": 8,
+          "shipped": 9,
+          "reported": 8
+        }
+      },
+      "backfilled": true,
+      "text": {
+        "zh-TW": {
+          "headline": "REA 星數衝破 7.6 萬，逆向案例從遊戲延伸到韌體與核心",
+          "summary": "2026-10-11 的 REA GitHub 星數達 76998，比前一個紀錄 58461 增加 18537。當天排名最前的幾則都是有細節的案例：Obsidian 快速切換器排序演算法約 4 分鐘重建並逐筆比對、ZWO ASIAIR 韌體純靜態分析發現 4700 埠為明文 JSON-RPC、Untangle 重建在 54 項主張中對 52 項。同時也出現把 Windows 版魔獸世界、DOS 遊戲、arm64 核心納入的案例，顯示 REA 的使用範圍持續擴大，而且愈來愈多作者用對照原版或標示「已證實／推論／未知」的方式驗證結論。"
+        },
+        "en": {
+          "headline": "REA passes 76,998 stars as cases spread from games to firmware and kernels",
+          "summary": "On 2026-10-11 REA's GitHub stars reached 76,998, up 18,537 from the previous record of 58,461. The top items were detailed cases: Obsidian's quick switcher ranking rebuilt in about 4 minutes and compared entry by entry, ZWO ASIAIR firmware analyzed purely statically with a plaintext JSON-RPC control port on 4700, and an Untangle rebuild where 52 of 54 checkable claims held up. Targets also ranged from a World of Warcraft client and a DOS game to an arm64 kernel, and more authors validated their conclusions by comparing against the original or labeling findings as confirmed, inferred or unknown."
+        },
+        "zh-CN": {
+          "headline": "REA 星数突破 7.6 万，逆向案例从游戏延伸到固件与内核",
+          "summary": "2026-10-11 的 REA GitHub 星数达 76998，比前一个纪录 58461 增加 18537。当天排名最前的几则都是有细节的案例：Obsidian 快速切换器排序算法约 4 分钟重建并逐笔比对、ZWO ASIAIR 固件纯静态分析发现 4700 端口为明文 JSON-RPC、Untangle 重建在 54 项主张中对 52 项。同时也出现把 Windows 版魔兽世界、DOS 游戏、arm64 内核纳入的案例，显示 REA 的使用范围持续扩大，而且越来越多作者用对照原版或标示「已证实／推论／未知」的方式验证结论。"
+        }
+      },
+      "signals": [
+        "B",
+        "C",
+        "D"
+      ],
+      "highlights": [
+        "zwo-asiair",
+        "d-c24f94de41",
+        "obsidian-quick-switcher"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "stars": 122236,
+      "stars_delta": 45238,
+      "new": [
+        "dx-ball-sound-pan",
+        "d-fab901f33e",
+        "d-c6fbea64b5",
+        "th04-bullet-ring",
+        "d-365a6c591d",
+        "openbattlefield2",
+        "vsl-dsp",
+        "d-9409d062f4",
+        "d-a080ed3b32",
+        "notion-clipboard",
+        "aegis-totp",
+        "downunderctf",
+        "pi-desktop-electron",
+        "windows-calc-percent",
+        "d-1ea735e339",
+        "d-9aea516faa",
+        "d-1d3d058162",
+        "d-21657b277b",
+        "d-b50fa3ab1c",
+        "d-a0e7f6b9af",
+        "d-3ea3ed837d",
+        "d-d2c64cc5c2",
+        "local-models-12gb",
+        "d-fad55735f3",
+        "poker-organizer",
+        "d-f5aadf840e",
+        "d-e1728ce0c0",
+        "d-793448136a",
+        "dino-speed",
+        "d-549b544e96",
+        "korean-practice",
+        "d-da8a49f9d0",
+        "d-778047f459",
+        "d-980ec6dbee",
+        "d-7b67dfdd18"
+      ],
+      "stats": {
+        "count": 35,
+        "wow": {
+          "2": 20,
+          "3": 10,
+          "4": 3,
+          "5": 1,
+          "none": 1
+        },
+        "type": {
+          "case": 19,
+          "learn": 8,
+          "app": 5,
+          "news": 3
+        },
+        "status": {
+          "tested": 10,
+          "reported": 16,
+          "shipped": 8,
+          "none": 1
+        }
+      },
+      "backfilled": true,
+      "text": {
+        "zh-TW": {
+          "headline": "REA 星數暴增逾四萬，遊戲還原與影片教學同日湧現",
+          "summary": "REA 的 GitHub 星數來到 122236，比前一個紀錄 76998 多了 45238，當天共 35 個項目。排名最前的是人工整理的遊戲還原案例，如 DX-Ball 音效聲道與東方幻想鄉 TH04 環狀彈幕，另有 OpenBattlefield2 重新實作戰地風雲 2 引擎。同時也出現多支 YouTube 教學影片，以及 X 上的民間案例，從下載 2291 個 CapCut 模板、逆向馬桶藍牙到 Grokbot 觸發安全降級提示。不過不少民間案例只有作者自述、缺乏程式碼或截圖等證據，顯示關注度跑在可驗證成果之前。"
+        },
+        "en": {
+          "headline": "REA stars jump by over 45,000 as game recoveries and tutorials surge",
+          "summary": "REA's GitHub stars reached 122,236, up 45,238 from the previous record of 76,998, with 35 items logged for the day. The top-ranked entries are hand-curated game-recovery cases, such as DX-Ball's sound panning and Touhou TH04's ring-bullet aiming, plus OpenBattlefield2, a reimplementation of the Battlefield 2 engine. Several YouTube tutorials also appeared, along with community cases on X, from downloading 2,291 CapCut templates and reversing a smart toilet's Bluetooth to a Grokbot decompile that triggered a safety downgrade notice. Many of the community cases rest on the author's own account with no code or screenshots, so attention is running ahead of verifiable results."
+        },
+        "zh-CN": {
+          "headline": "REA 星数暴增逾四万,游戏还原与视频教程同日涌现",
+          "summary": "REA 的 GitHub 星数达到 122236,比之前的纪录 76998 多了 45238,当天共 35 个条目。排名最靠前的是人工整理的游戏还原案例,如 DX-Ball 音效声道与东方幻想乡 TH04 环状弹幕,另有 OpenBattlefield2 重新实现战地风云 2 引擎。同时也出现多支 YouTube 教程,以及 X 上的民间案例,从下载 2291 个 CapCut 模板、逆向马桶蓝牙到 Grokbot 触发安全降级提示。不过不少民间案例只有作者自述、缺少代码或截图等证据,说明关注度跑在可验证成果之前。"
+        }
+      },
+      "signals": [
+        "C",
+        "D",
+        "E"
+      ],
+      "highlights": [
+        "dx-ball-sound-pan",
+        "openbattlefield2",
+        "d-fab901f33e"
+      ]
+    }
+  ],
+  "signals": {
+    "A": "Client-side code is no longer a moat (features get cloned fast)",
+    "B": "Verification is the bottleneck (differential tests, evidence, honest grading)",
+    "C": "Legacy software preservation and migration (games first, then enterprise)",
+    "D": "Hardware interop and control of one's own devices (firmware, BLE, IoT)",
+    "E": "Model-platform limits (refusals, account bans, policy changes)",
+    "F": "Cost and efficiency (tokens, tool surface, local models)",
+    "G": "Ecosystem expansion (new architectures, formats, integrations, ports)"
+  }
+}

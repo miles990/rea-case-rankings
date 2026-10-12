@@ -95,10 +95,15 @@
 <section class="block" id="latest">
   <div class="wrap">
     <div class="sec-head">
-      <div><div class="eyebrow" data-i18n="new.eyebrow"></div><h2 data-i18n="new.h2"></h2></div>
+      <div><div class="eyebrow" data-i18n="day.eyebrow"></div><h2 data-i18n="day.h2"></h2></div>
       <p id="scan"></p>
     </div>
-    <div class="latest" id="latest-row" data-scroll-x></div>
+    <div class="day-charts">
+      <figure class="mini"><figcaption data-i18n="day.stars"></figcaption><svg id="spark-stars" role="img"></svg></figure>
+      <figure class="mini"><figcaption data-i18n="day.newPerDay"></figcaption><svg id="spark-new" role="img"></svg></figure>
+    </div>
+    <ol class="days" id="days"></ol>
+    <button class="fmore" id="days-more" type="button" hidden></button>
   </div>
 </section>
 

@@ -40,11 +40,12 @@ for (const run of runs) {
     }).slice(0, 5).map((e) => `${e.tagName.toLowerCase()}.${[...e.classList].join(".")}`);
     const text = document.body.innerText;
     const rawKeys = [...new Set(text.match(/\b(?:nav|hero|viz|rank|feat|new|how|rubric|foot|status|legend|row|sort|f|src|stat|panel|d|k|pal|type|view|heat|pop|ex|agent|about)\.[a-zA-Z0-9.]+\b/g) || [])].slice(0, 8);
-    return { scrollW: document.documentElement.scrollWidth, w, over, rawKeys, rows: document.querySelectorAll("[data-row]").length };
+    return { scrollW: document.documentElement.scrollWidth, w, over, rawKeys, rows: document.querySelectorAll("[data-row]").length, days: document.querySelectorAll("#days .day").length, hasHistory: typeof DATA !== "undefined" && !!DATA.history?.days?.length };
   });
   if (info.scrollW > info.w + 1) fail(`${tag} horizontal overflow ${info.scrollW}>${info.w}: ${info.over.join(", ")}`);
   if (info.rawKeys.length) fail(`${tag} untranslated keys on page: ${info.rawKeys.join(", ")}`);
   if (!info.rows) fail(`${tag} no result rows rendered`);
+  if (info.hasHistory && !info.days) fail(`${tag} daily timeline rendered nothing`);
 
   // Interaction smoke test: every view renders, selection opens details, palette opens.
   for (const v of ["grid", "table", "timeline", "graph", "list"]) {

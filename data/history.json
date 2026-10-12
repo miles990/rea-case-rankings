@@ -332,8 +332,8 @@
     },
     {
       "date": "2026-10-12",
-      "stars": 123187,
-      "stars_delta": 46189,
+      "stars": 124087,
+      "stars_delta": 47089,
       "new": [
         "touhou-factory",
         "obsidian-quick-switcher",
@@ -384,28 +384,36 @@
         "d-1d3d058162",
         "d-21657b277b",
         "d-b50fa3ab1c",
+        "d-7b67dfdd18",
         "d-c98d5d03bf",
         "d-a0e7f6b9af",
         "d-3ea3ed837d",
         "psp-mips-lab",
         "d-48e797d2e8",
         "d-d2c64cc5c2",
+        "d-d150fc5a4f",
         "local-models-12gb",
         "d-fad55735f3",
         "poker-organizer",
+        "d-fbb1b433ec",
         "d-f5aadf840e",
+        "d-135476cbb2",
         "d-58c16f12d8",
         "rea-investigate",
         "d-7b1ef2129b",
+        "d-bd181ec8c5",
         "d-e1728ce0c0",
+        "d-5df65cb299",
         "d-c4120d6952",
         "d-793448136a",
+        "d-1c34171707",
         "dino-speed",
         "d-549b544e96",
         "d-49c3fe3859",
         "heartland-side-effects",
         "korean-practice",
         "d-da8a49f9d0",
+        "d-967ffa90e5",
         "d-778047f459",
         "d-723866fc43",
         "d-6472b3d476",
@@ -420,58 +428,51 @@
         "rea-jev",
         "d-980ec6dbee",
         "d-b7bab8c269",
-        "apisitlee-mac-pitfalls",
-        "d-7b67dfdd18",
-        "d-967ffa90e5",
-        "d-b26b36da3a",
-        "d-d00eededc8",
-        "d-84db29bdde"
+        "apisitlee-mac-pitfalls"
       ],
       "stats": {
-        "count": 91,
+        "count": 94,
         "wow": {
-          "2": 47,
+          "2": 55,
           "3": 21,
           "4": 9,
-          "5": 9,
-          "none": 5
+          "5": 9
         },
         "type": {
-          "case": 51,
-          "app": 24,
-          "learn": 13,
-          "news": 3
+          "case": 50,
+          "app": 25,
+          "learn": 15,
+          "news": 4
         },
         "status": {
-          "shipped": 29,
+          "shipped": 30,
           "tested": 26,
-          "reported": 31,
-          "none": 5
+          "reported": 38
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 星數暴增逾四萬，遊戲還原與影片教學同日湧現",
-          "summary": "REA 的 GitHub 星數來到 122236，比前一個紀錄 76998 多了 45238，當天共 35 個項目。排名最前的是人工整理的遊戲還原案例，如 DX-Ball 音效聲道與東方幻想鄉 TH04 環狀彈幕，另有 OpenBattlefield2 重新實作戰地風雲 2 引擎。同時也出現多支 YouTube 教學影片，以及 X 上的民間案例，從下載 2291 個 CapCut 模板、逆向馬桶藍牙到 Grokbot 觸發安全降級提示。不過不少民間案例只有作者自述、缺乏程式碼或截圖等證據，顯示關注度跑在可驗證成果之前。"
+          "headline": "REA 星數暴增逾四萬,逆向案例從遊戲擴及整套應用",
+          "summary": "REA 的 GitHub 星數來到 124,087,比前一個紀錄 76,998 多了 47,089。當天榜首多是人工整理的 5/5 案例:東方 Project 逐函式重建、Obsidian 快速切換器排序演算法還原、Claude Slides 編輯器復刻,以及用 REA 與 Ghidra 重建可玩的遊戲。值得注意的是,多個案例開始用對照原始碼評分或逐位元組比對來驗證成果(如 Untangle 54 項主張中 52 項正確),顯示重點正從「能不能還原」轉向「怎麼證明還原得對」。"
         },
         "en": {
-          "headline": "REA stars jump by over 45,000 as game recoveries and tutorials surge",
-          "summary": "REA's GitHub stars reached 122,236, up 45,238 from the previous record of 76,998, with 35 items logged for the day. The top-ranked entries are hand-curated game-recovery cases, such as DX-Ball's sound panning and Touhou TH04's ring-bullet aiming, plus OpenBattlefield2, a reimplementation of the Battlefield 2 engine. Several YouTube tutorials also appeared, along with community cases on X, from downloading 2,291 CapCut templates and reversing a smart toilet's Bluetooth to a Grokbot decompile that triggered a safety downgrade notice. Many of the community cases rest on the author's own account with no code or screenshots, so attention is running ahead of verifiable results."
+          "headline": "REA stars jump by over 47,000 as reverse engineering moves beyond games to whole apps",
+          "summary": "REA's GitHub stars reached 124,087, up 47,089 from the previous record of 76,998. The top-ranked items are mostly hand-curated 5/5 cases: a function-by-function rebuild of the Touhou Project games, the Obsidian quick switcher's ranking algorithm, a near-complete clone of the Claude Slides editor, and playable game rebuilds made with REA and Ghidra. Several cases now verify their results by grading against the original source or comparing byte for byte (for example, Untangle had 52 of 54 checkable claims correct). That suggests the focus is shifting from whether something can be recovered to how to prove the recovery is right."
         },
         "zh-CN": {
-          "headline": "REA 星数暴增逾四万,游戏还原与视频教程同日涌现",
-          "summary": "REA 的 GitHub 星数达到 122236,比之前的纪录 76998 多了 45238,当天共 35 个条目。排名最靠前的是人工整理的游戏还原案例,如 DX-Ball 音效声道与东方幻想乡 TH04 环状弹幕,另有 OpenBattlefield2 重新实现战地风云 2 引擎。同时也出现多支 YouTube 教程,以及 X 上的民间案例,从下载 2291 个 CapCut 模板、逆向马桶蓝牙到 Grokbot 触发安全降级提示。不过不少民间案例只有作者自述、缺少代码或截图等证据,说明关注度跑在可验证成果之前。"
+          "headline": "REA 星数暴增逾四万,逆向案例从游戏扩及整套应用",
+          "summary": "REA 的 GitHub 星数达到 124,087,比之前的纪录 76,998 多了 47,089。当天榜首多是人工整理的 5/5 案例:东方 Project 逐函数重建、Obsidian 快速切换器排序算法还原、Claude Slides 编辑器复刻,以及用 REA 与 Ghidra 重建可玩的游戏。值得注意的是,多个案例开始用对照源码评分或逐字节比对来验证成果(如 Untangle 54 项主张中 52 项正确),说明重点正从“能不能还原”转向“怎么证明还原得对”。"
         }
       },
       "signals": [
-        "C",
-        "D",
-        "E"
+        "A",
+        "B",
+        "C"
       ],
       "highlights": [
-        "dx-ball-sound-pan",
-        "openbattlefield2",
-        "d-fab901f33e"
+        "touhou-factory",
+        "obsidian-quick-switcher",
+        "d-c24f94de41"
       ]
     }
   ],
@@ -483,5 +484,43 @@
     "E": "Model-platform limits (refusals, account bans, policy changes)",
     "F": "Cost and efficiency (tokens, tool surface, local models)",
     "G": "Ecosystem expansion (new architectures, formats, integrations, ports)"
+  },
+  "trend": {
+    "updated": "2026-10-12",
+    "from": "2026-10-06",
+    "to": "2026-10-12",
+    "text": {
+      "zh-TW": {
+        "headline": "REA 從展示逆向能力，轉向證明還原結果正確",
+        "summary": "本週 REA 星數從 5336 一路升到 124087，關注度暴增。第一天只有兩個項目，重點已是替 REA 的副作用與輸出加驗證層；10 月 8、9 日，逐位元組比對、附原始證據檔、檢查引用證據是否存在等做法接連出現。10 月 10 日起案例量跟著星數放大，從東方 Project 逐函式重建、DOS 遊戲，擴及 ZWO ASIAIR 韌體、arm64 核心與 Claude Slides 編輯器復刻。到 10 月 12 日，Untangle 以 54 項主張中 52 項正確、Obsidian 排序演算法逐筆比對等，成了評分與標示「已證實／推論／未知」的範本。驗證訊號 B 在 7 天中出現 6 天，遊戲與舊軟體訊號 C 出現 4 天，是本週最穩定的兩條主線。",
+        "watch": "接下來幾天可觀察新增項目是否持續維持附證據、可對照原版的格式，而不是只有心得的高熱度貼文；也值得留意 REA 的驗證工具與外掛（如 rea-jev、TraceBrief 一類的證據檢查）是否變多。10 月 12 日首次出現「客戶端程式碼不再是護城河」的訊號 A，加上韌體與硬體案例開始冒頭，可優先追蹤這兩個方向的後續案例。"
+      },
+      "en": {
+        "headline": "REA is shifting from showing off reverse engineering to proving the results are correct",
+        "summary": "REA's GitHub stars climbed from 5,336 to 124,087 this week. The first day had only two items, and both added a verification layer around REA's side effects and outputs. On Oct 8–9, byte-by-byte comparisons, conclusions backed by raw evidence files, and scripts that check cited evidence exists followed one after another. From Oct 10, case volume grew with the stars, from function-by-function Touhou rebuilds and a DOS game to ZWO ASIAIR firmware, an arm64 kernel and a Claude Slides editor clone. By Oct 12, cases like Untangle (52 of 54 claims correct) and the Obsidian switcher sort order, compared entry by entry, set the template, along with labeling findings as confirmed, inferred or unknown. Verification signal B appeared on 6 of 7 days and legacy software signal C on 4, making them the steadiest threads of the week.",
+        "watch": "In the next few days, check whether new items keep the evidence-backed, compare-to-original format, rather than high-engagement posts that offer only impressions. Also watch whether more verification tools and plugins appear, such as rea-jev and TraceBrief-style evidence checkers. Signal A (client-side code is no longer a moat) showed up for the first time on Oct 12, and firmware and hardware cases are starting to appear, so those two directions are the best places to follow up."
+      },
+      "zh-CN": {
+        "headline": "REA 从展示逆向能力，转向证明还原结果正确",
+        "summary": "本周 REA 星数从 5336 一路升到 124087，关注度暴增。第一天只有两个项目，重点已是为 REA 的副作用与输出加上验证层；10 月 8、9 日，逐字节比对、附原始证据文件、检查引用证据是否存在等做法接连出现。10 月 10 日起案例数量随星数放大，从东方 Project 逐函数重建、DOS 游戏，扩展到 ZWO ASIAIR 固件、arm64 内核与 Claude Slides 编辑器复刻。到 10 月 12 日，Untangle 以 54 项主张中 52 项正确、Obsidian 排序算法逐条比对等，成为评分与标注“已证实／推论／未知”的范本。验证信号 B 在 7 天中出现 6 天，游戏与旧软件信号 C 出现 4 天，是本周最稳定的两条主线。",
+        "watch": "接下来几天可以观察新增项目是否持续保持附证据、可对照原版的格式，而不是只有心得的高热度帖子；也值得留意 REA 的验证工具与插件（如 rea-jev、TraceBrief 一类的证据检查）是否变多。10 月 12 日首次出现“客户端代码不再是护城河”的信号 A，加上固件与硬件案例开始冒头，可优先跟踪这两个方向的后续案例。"
+      }
+    },
+    "rising": [
+      "B",
+      "C",
+      "G",
+      "A"
+    ],
+    "fading": [],
+    "tally": {
+      "A": 1,
+      "B": 6,
+      "C": 4,
+      "D": 1,
+      "E": 0,
+      "F": 1,
+      "G": 2
+    }
   }
 }

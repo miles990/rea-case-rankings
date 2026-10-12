@@ -1768,5 +1768,125 @@
       "target": "REA 5.0.0 在 Linux 上的 Ghidra、JADX、Binwalk/Unblob 集成(合成测试文件)",
       "metric": "三条工作流分别通过 4/4、4/4、5/5 项检查"
     }
+  },
+  "d-bd181ec8c5": {
+    "hash": "756db02a38c7",
+    "en": {
+      "title": "Tried REA on their own product, said it worked well and found two minor bugs",
+      "summary": "The author tried REA on their own company's product and reports that it worked quite well. They claim it found two minor bugs but provide no details, code, or evidence.",
+      "target": "Author's own product (unnamed)",
+      "metric": "Self-reported: 2 minor bugs found"
+    },
+    "zh-CN": {
+      "title": "在自家产品上试用 REA，称其表现不错并找到两个小 bug",
+      "summary": "作者在自己公司的产品上试用了 REA，自述效果相当不错。声称它找出了两个小 bug，但未提供任何细节、代码或证据。",
+      "target": "作者自家产品（未具名）",
+      "metric": "自述找到 2 个小 bug"
+    }
+  },
+  "d-5df65cb299": {
+    "hash": "df9fa8ef50a0",
+    "en": {
+      "title": "Reverse engineering the 1991 game Lemmings with REA and Hermes",
+      "summary": "The author is using REA together with Hermes to reverse engineer the 1991 game Lemmings, and says the process is fun. The post is only a progress remark, with no results or evidence.",
+      "target": "Lemmings (1991 game)",
+      "metric": "In progress, no concrete results"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Hermes 逆向 1991 年游戏《Lemmings》",
+      "summary": "作者正在使用 REA 搭配 Hermes 逆向 1991 年的 Lemmings，表示过程很有趣。内容仅为进行中的自述，没有成果或证据。",
+      "target": "Lemmings（1991 年游戏）",
+      "metric": "进行中，无具体成果"
+    }
+  },
+  "d-1c34171707": {
+    "hash": "d51f7dd962e8",
+    "en": {
+      "title": "Having Codex reverse engineer Codex with REA so it can run in a local browser",
+      "summary": "The author plans to have Codex reverse engineer Codex itself through REA so that it can run in a browser on localhost instead of the remote Codex. The post only states an intention, with no results or evidence.",
+      "target": "Codex (application)",
+      "metric": "Plan only, no concrete results"
+    },
+    "zh-CN": {
+      "title": "让 Codex 用 REA 逆向 Codex，以便在本机浏览器运行",
+      "summary": "作者打算让 Codex 通过 REA 逆向 Codex 本身，使其能在 localhost 的浏览器中运行，取代远程 Codex。内容只是意图说明，没有成果或证据。",
+      "target": "Codex（应用程序）",
+      "metric": "仅说明计划，无具体成果"
+    }
+  },
+  "d-967ffa90e5": {
+    "hash": "cd170aa80de8",
+    "en": {
+      "title": "A filtering REA MCP bridge plugin for DeepSeek Harness that registers tools in tiers to save tokens",
+      "summary": "REA's MCP server exposes about 170 tools with a schema of roughly 1.9 MB (about 540k tokens), so connecting it directly would consume most of the context window. This plugin acts as a filtering bridge and registers only a curated subset across four tiers: entry, navigate, analyze, and all. The default tier has 9 tools at about 27k tokens, and the plugin includes configuration options and a usage routing table.",
+      "target": "DeepSeek Harness (REA MCP bridge plugin)",
+      "metric": "Default tier: only 9 tools, ~27k tokens, versus ~543k tokens for all 170 tools"
+    },
+    "zh-CN": {
+      "title": "为 DeepSeek Harness 打造过滤式 REA MCP 桥接插件，分层注册工具以省 token",
+      "summary": "REA 的 MCP 服务器有约 170 个工具，schema 约 1.9 MB（约 54 万 token），直接接入会吃掉大半上下文。此插件以过滤式桥接，按 entry／navigate／analyze／all 四层只注册精选子集，默认 9 个工具约 27k token，并提供配置选项和使用路由表。",
+      "target": "DeepSeek Harness（REA MCP 桥接插件）",
+      "metric": "默认层仅 9 个工具、约 27k token，相比完整 170 个工具约 543k token"
+    }
+  },
+  "d-7b67dfdd18": {
+    "hash": "79068779c920",
+    "en": {
+      "title": "Five hands-on tests with REA and Claude Code, plus a prompt roundup",
+      "summary": "The video creator ran 5 hands-on tests with REA and Claude Code and offers a free collection of 5 prompts, along with an explanation of what REA is and a one-line install command. The excerpt doesn't describe each test's goal or outcome, so it can only be confirmed as a hands-on, tutorial-style piece.",
+      "target": "REA and Claude Code (5 tests)",
+      "metric": "5 hands-on tests and 5 free prompts"
+    },
+    "zh-CN": {
+      "title": "用 REA 搭配 Claude Code 进行 5 项实测并整理提示词",
+      "summary": "视频作者用 REA 加 Claude Code 做了 5 个实测,并提供 5 组提示词的免费整理,同时介绍 REA 是什么以及一行命令安装方式。摘录内容未说明各测试的目标与结果,只能确认带有实测与教学性质。",
+      "target": "REA 与 Claude Code(5 项实测)",
+      "metric": "5 项实测与 5 组免费提示词"
+    }
+  },
+  "d-d150fc5a4f": {
+    "hash": "a50c7cb9d396",
+    "en": {
+      "title": "Reverse engineering a game's PlayerController with REA and Ghidra and rebuilding it in Godot",
+      "summary": "The author uses REA with Ghidra to analyze a target game and is rebuilding its PlayerController step by step in Godot. Only the author's own progress report is given, with no code, tests, or screenshots, so how far the work has come can't be verified.",
+      "target": "Game PlayerController (rebuilt in Godot)",
+      "metric": "PlayerController being rebuilt in Godot (work in progress)"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Ghidra 逆向并在 Godot 重建游戏 PlayerController",
+      "summary": "作者用 REA 搭配 Ghidra 分析目标游戏,并在 Godot 中逐步重建其 PlayerController。仅有作者自述进度,未附代码、测试或截图说明,成果程度无法验证。",
+      "target": "游戏 PlayerController(在 Godot 中重建)",
+      "metric": "PlayerController 正在 Godot 中重建(进行中)"
+    }
+  },
+  "d-fbb1b433ec": {
+    "hash": "ae823fdd81c9",
+    "en": {
+      "title": "Reverse engineering the classic game Betrayal at Krondor with REA and Opus 5.5",
+      "summary": "The author reverse engineered the classic game Betrayal at Krondor using REA and Opus 5.5 and says it is going well. The post is a single sentence with no concrete results or evidence.",
+      "target": "Betrayal at Krondor (game)",
+      "metric": "Self-described as \"going well\"; no concrete results"
+    },
+    "zh-CN": {
+      "title": "用 REA 搭配 Opus 5.5 逆向经典游戏《Betrayal at Krondor》",
+      "summary": "作者以 REA 与 Opus 5.5 对经典游戏 Betrayal at Krondor 进行逆向工程,自述进展良好。内容只有一句话,没有具体成果或证据。",
+      "target": "Betrayal at Krondor(游戏)",
+      "metric": "自述“进展不错”,无具体成果"
+    }
+  },
+  "d-135476cbb2": {
+    "hash": "779f9ab1b886",
+    "en": {
+      "title": "Introducing the REA architecture and a demo of recovering an app from just a compiled image",
+      "summary": "The post explains that REA is an MCP tool sitting between the agent and Ghidra, consolidating pseudocode, assembly, strings, symbols, and call relationships into evidence, and previews a pixel-accurate recovery of an app from only its compiled image. The excerpt contains only the opening introduction, with no concrete results to verify.",
+      "target": "REA workflow and a demo of recovering an app from a compiled image",
+      "metric": "Claims 120K stars within a week (author's claim)"
+    },
+    "zh-CN": {
+      "title": "介绍 REA 架构并演示只给编译镜像就还原应用",
+      "summary": "帖子说明 REA 是夹在 agent 与 Ghidra 之间的 MCP 工具,将伪代码、汇编、字符串、符号与调用关系汇总成证据,并预告仅凭编译后的镜像文件像素级还原应用。节选仅有开头介绍,没有具体成果可验证。",
+      "target": "REA 工作流程与编译镜像应用还原演示",
+      "metric": "称一周内达 12 万星(作者自述)"
+    }
   }
 }

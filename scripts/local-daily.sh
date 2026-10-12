@@ -2,7 +2,7 @@
 # Daily run on this Mac, where Claude Code, Grok and the browser are already
 # signed in, so no subscription credential ever has to live in GitHub.
 # collect (all sources, X via Grok, Reddit via OpenCLI) → score → translate →
-# daily brief → push → ask GitHub Actions to deploy. Actions' own 01:00 UTC
+# daily brief → push → ask GitHub Actions to deploy. Actions' own 04:30 UTC (12:30 Taipei)
 # run stays as a fallback for days this Mac is off.
 set -euo pipefail
 cd "$(dirname "$0")/.."

@@ -21,7 +21,7 @@
 | 時間 | 在哪裡 | 做什麼 |
 |---|---|---|
 | 08:15（台灣） | 本機 launchd：`scripts/x-daily.sh` | Grok 搜尋 X 上的新貼文並推到 repo（Grok 訂閱憑證不離開本機） |
-| 01:00 UTC | GitHub Actions `collect` | GitHub、Hacker News、DEV、Qiita、V2EX、YouTube、Bluesky、Mastodon；去重；碰不到 Claude token |
+| 04:30 UTC（台灣 12:30） | GitHub Actions `collect` | GitHub、Hacker News、DEV、Qiita、V2EX、YouTube、Bluesky、Mastodon；去重；碰不到 Claude token |
 | | `enrich`（`claude` environment，限 main） | Claude 在無工具、單回合模式下評分與翻譯 |
 | | `publish` | 縮圖、資料驗證、提交、建置、**Playwright 瀏覽器檢查**（失敗就不部署） |
 | | `deploy` | GitHub Pages |

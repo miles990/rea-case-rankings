@@ -66,7 +66,7 @@ export async function allRecords() {
       source: "auto",
       via: d.source,
       kind: d.kind,
-      pop: d.pop || (d.score != null ? { [POP_FIELD[d.source] || (d.source?.startsWith("Reddit") ? "upvotes" : "likes")]: d.score } : {}),
+      pop: d.pop || (d.score != null ? { [POP_FIELD[d.source] || (d.source?.startsWith("Reddit") ? "points" : "likes")]: d.score } : {}),
     }));
 
   for (const r of [...curated, ...auto]) {

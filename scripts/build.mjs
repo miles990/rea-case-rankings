@@ -66,7 +66,8 @@ ${Object.entries(PATHS).map(([l, p]) => `<link rel="alternate" hreflang="${ui[l]
 <meta property="og:type" content="website"><meta property="og:title" content="${esc(t("title"))}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${SITE_URL}${path}">
 <meta name="twitter:card" content="summary">
 <script type="application/ld+json">${js_(jsonld)}</script>`;
-  const history = { days: historyAll.days.map((d) => ({ ...d, text: d.text ? { [lang]: d.text[lang] || d.text["zh-TW"] } : undefined })) };
+  const pick = (o) => (o?.text ? { ...o, text: { [lang]: o.text[lang] || o.text["zh-TW"] } } : o);
+  const history = { days: historyAll.days.map(pick), trend: pick(historyAll.trend) };
   const page = assemble({ ...base, i18n: own, pages, thumbBase: up + "thumbs/", history }, lang, head);
   const [h, b] = split(page);
   const doc = `<!doctype html>

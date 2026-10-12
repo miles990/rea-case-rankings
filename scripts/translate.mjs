@@ -67,4 +67,4 @@ ${JSON.stringify(payload)}`;
 }
 
 // Run only when executed directly, not when imported.
-if (import.meta.url === pathToFileURL(process.argv[1]).href) main();
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) main();

@@ -186,7 +186,10 @@
       "E": "模型平台限制",
       "F": "成本與效率",
       "G": "生態系擴張"
-    }
+    },
+    "trend.label": "本週趨勢",
+    "trend.watch": "接下來注意：",
+    "trend.heat": "哪幾天出現哪些訊號（▲ 升溫 ▼ 降溫）"
   },
   "zh-CN": {
     "_name": "简体中文",
@@ -391,7 +394,10 @@
       "E": "模型平台限制",
       "F": "成本与效率",
       "G": "生态扩张"
-    }
+    },
+    "trend.label": "本周趋势",
+    "trend.watch": "接下来注意：",
+    "trend.heat": "哪几天出现哪些信号（▲ 升温 ▼ 降温）"
   },
   "en": {
     "_name": "English",
@@ -596,6 +602,9 @@
       "E": "Model-platform limits",
       "F": "Cost & efficiency",
       "G": "Ecosystem expansion"
-    }
+    },
+    "trend.label": "This week",
+    "trend.watch": "Watch next:",
+    "trend.heat": "Which signals appeared on which days (▲ rising ▼ fading)"
   }
 }

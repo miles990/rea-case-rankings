@@ -556,7 +556,24 @@ function sparkNew() {
     return `<g class="nb" data-day="${d.date}" style="cursor:pointer"><rect x="${x.toFixed(1)}" y="${(H - m.b - h).toFixed(1)}" width="${Math.max(2, bw - 4).toFixed(1)}" height="${Math.max(1, h).toFixed(1)}" rx="2" fill="var(--bar)"/><title>${d.date} · ${d.new.length}</title>${d.new.length ? `<text x="${(x + (bw - 4) / 2).toFixed(1)}" y="${(H - m.b - h - 3).toFixed(1)}" text-anchor="middle">${d.new.length}</text>` : ""}</g>`;
   }).join("") + `<line x1="${m.l}" x2="${W - m.r}" y1="${H - m.b}" y2="${H - m.b}" stroke="var(--axis)"/><text x="${m.l}" y="${H - 3}">${days[0].date.slice(5)}</text><text x="${W - m.r}" y="${H - 3}" text-anchor="end">${days.at(-1).date.slice(5)}</text>`;
 }
+function renderTrend() {
+  const tr = DATA.history?.trend, txt = tr?.text?.[lang] || tr?.text?.["zh-TW"];
+  $("#trend").hidden = !DAYS.length;
+  if (txt) {
+    $("#trend-range").textContent = `${t("trend.label")} · ${tr.from} → ${tr.to}`;
+    $("#trend-h").textContent = txt.headline; $("#trend-s").textContent = txt.summary; $("#trend-w").textContent = txt.watch;
+  }
+  $(".trend-main").hidden = !txt;
+  const days = DAYS.slice(-14), sig = tm("sig");
+  const mark = (k) => (tr?.rising?.includes(k) ? ["up", "▲"] : tr?.fading?.includes(k) ? ["down", "▼"] : ["", ""]);
+  $("#sig-grid").innerHTML = `<div class="sg" style="--n:${days.length}">
+    <div class="sg-row sg-head"><span></span>${days.map((d) => `<span>${d.date.slice(8)}</span>`).join("")}<span></span></div>
+    ${Object.keys(sig).map((k) => { const [cls, arrow] = mark(k); const n = days.filter((d) => d.signals?.includes(k)).length;
+      return `<div class="sg-row"><span class="sl" title="${esc(sig[k])}"><b>${k}</b>${esc(sig[k])}</span>${days.map((d) => `<span class="sg-cell${d.signals?.includes(k) ? " on" : ""}" title="${d.date} · ${esc(sig[k])}"></span>`).join("")}<span class="st ${cls}">${n}${arrow ? " " + arrow : ""}</span></div>`; }).join("")}
+  </div>`;
+}
 function renderDays() {
+  renderTrend();
   const list = [...DAYS].reverse();
   const weekday = (d) => { try { return new Date(d + "T00:00:00Z").toLocaleDateString(UI[lang]._html, { weekday: "short", timeZone: "UTC" }); } catch { return ""; } };
   $("#days").innerHTML = list.slice(0, daysShown).map((d, i) => {

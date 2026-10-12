@@ -6,6 +6,11 @@ on:
   schedule:
     - cron: "0 1 * * *"
   workflow_dispatch:
+    inputs:
+      skip_collect:
+        description: "Deploy the data already in the repo (used by the local daily job)"
+        type: boolean
+        default: false
 
 permissions: {}
 
@@ -28,8 +33,10 @@ jobs:
         with:
           node-version: 24
       - name: Install yt-dlp
+        if: ${{ !inputs.skip_collect }}
         run: python3 -m pip install --user --quiet "yt-dlp==2026.8.19" || echo "yt-dlp unavailable; YouTube skipped"
       - name: Collect new finds
+        if: ${{ !inputs.skip_collect }}
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: node scripts/collect.mjs collect
@@ -45,6 +52,7 @@ jobs:
   #    can change the JSON it returns but cannot run commands or reach the network.
   enrich:
     needs: collect
+    if: ${{ !inputs.skip_collect }}
     runs-on: ubuntu-latest
     timeout-minutes: 45
     environment: claude
@@ -120,6 +128,9 @@ jobs:
           npm ci --no-audit --no-fund
       - name: Fetch thumbnails
         run: node scripts/thumbs.mjs
+      - name: Daily snapshot (keeps existing briefs when Claude is unavailable)
+        if: ${{ !inputs.skip_collect }}
+        run: node scripts/daily.mjs
       - name: Validate data
         run: node scripts/validate.mjs
       - name: Commit data

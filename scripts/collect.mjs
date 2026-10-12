@@ -149,12 +149,32 @@ async function devto() {
   return out;
 }
 
+// Reddit refuses unauthenticated JSON API calls (403) since its 2023 API change.
+// On the Mac, OpenCLI uses the browser's logged-in session and returns scores;
+// anywhere else the public search RSS feed still works without an account.
 async function reddit() {
+  const queries = ["\"Reverse Engineer Anything\"", "\"morluto/rea\"", "rea-agents", "REA reverse engineering agent"];
   const out = [];
-  for (const q of ["\"morluto/rea\"", "\"rea-agents\"", "\"Reverse Engineer Anything\""]) {
-    const d = await getJSON(`https://www.reddit.com/search.json?q=${encodeURIComponent(q)}&sort=new&limit=25`);
-    for (const { data: p } of d.data?.children || []) {
-      out.push({ url: `https://www.reddit.com${p.permalink}`, title: p.title, author: p.author, date: new Date(p.created_utc * 1000).toISOString().slice(0, 10), source: `Reddit r/${p.subreddit}`, kind: "討論", score: p.score, text: p.selftext?.slice(0, 2000) });
+  let viaCli = false;
+  for (const q of queries) {
+    try {
+      const raw = execFileSync("opencli", ["reddit", "search", q, "-f", "json"], { encoding: "utf8", timeout: 90000, stdio: ["ignore", "pipe", "ignore"] });
+      for (const p of JSON.parse(raw)) {
+        out.push({ url: p.url.startsWith("http") ? p.url : `https://www.reddit.com${p.permalink || p.url}`, title: p.title, author: p.author, date: new Date((p.created_utc || 0) * 1000).toISOString().slice(0, 10), source: `Reddit ${p.subreddit || ""}`.trim(), kind: "討論", score: p.score || 0, pop: { upvotes: p.score || 0, comments: p.comments || 0 }, text: (p.selftext || "").slice(0, 2000) });
+      }
+      viaCli = true;
+    } catch {}
+  }
+  if (viaCli) return out;
+  for (const q of queries) {
+    const res = await fetch(`https://www.reddit.com/search.rss?q=${encodeURIComponent(q)}&sort=new`, { headers: { "user-agent": UA }, signal: AbortSignal.timeout(30000) });
+    if (!res.ok) throw new Error(`${res.status} reddit rss`);
+    const xml = await res.text();
+    for (const e of xml.split("<entry>").slice(1)) {
+      const pick = (re) => e.match(re)?.[1]?.replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'") || "";
+      const url = pick(/<link href="([^"]+)"/);
+      if (!/\/comments\//.test(url)) continue;
+      out.push({ url, title: pick(/<title>([\s\S]*?)<\/title>/), author: pick(/<name>\/?u\/([^<]+)<\/name>/), date: pick(/<published>([^<]{10})/), source: `Reddit ${pick(/<category[^>]+label="([^"]+)"/)}`.trim(), kind: "討論", text: pick(/<content[^>]*>([\s\S]*?)<\/content>/).replace(/<[^>]+>/g, " ").slice(0, 2000) });
     }
   }
   return out;
@@ -415,4 +435,4 @@ async function main() {
 }
 
 // Run only when executed directly, not when imported.
-if (import.meta.url === pathToFileURL(process.argv[1]).href) main();
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) main();

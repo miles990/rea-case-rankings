@@ -316,6 +316,24 @@ section.block { padding-block: clamp(28px, 4vw, 44px); border-top: 1px solid var
 .lcard .thumb { border-radius: 5px; }
 .lcard b { font-size: 12.5px; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .lcard small { display: block; font-family: var(--f-mono); font-size: 10.5px; color: var(--faint); margin-top: 3px; }
+.trend { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 14px; margin-bottom: 14px; }
+.trend-main { background: var(--panel); border: 1px solid var(--rule); border-inline-start: 4px solid var(--ink); border-radius: 0 10px 10px 0; padding: 16px 20px; display: grid; gap: 8px; align-content: start; }
+.trend-main h3 { margin: 0; font-size: 19px; line-height: 1.4; text-wrap: balance; }
+.trend-main p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.75; }
+.trend-watch { background: var(--panel-2); border-radius: 6px; padding: 8px 10px; color: var(--ink) !important; }
+.heat-grid { margin: 0; background: var(--panel); border: 1px solid var(--rule); border-radius: 10px; padding: 12px 14px; overflow-x: auto; }
+.heat-grid figcaption { font-size: 12.5px; color: var(--muted); font-weight: 600; margin-bottom: 8px; }
+.sg { display: grid; gap: 3px; font-size: 12px; min-width: max-content; }
+.sg-row { display: grid; grid-template-columns: 9.5em repeat(var(--n), 22px) 3.4em; gap: 3px; align-items: center; }
+.sg-row .sl { color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: flex; gap: 6px; align-items: center; }
+.sg-row .sl b { font-family: var(--f-mono); font-size: 10.5px; background: var(--ink); color: var(--paper); border-radius: 999px; width: 18px; height: 18px; display: grid; place-items: center; flex: none; }
+.sg-cell { height: 18px; border-radius: 3px; background: var(--rule-2); }
+.sg-cell.on { background: var(--bar); }
+.sg-row .st { font-family: var(--f-mono); font-size: 10.5px; color: var(--faint); text-align: end; }
+.sg-row .st.up { color: var(--ok); }
+.sg-row .st.down { color: var(--said); }
+.sg-head span { font-family: var(--f-mono); font-size: 9.5px; color: var(--faint); text-align: center; }
+@media (max-width: 960px) { .trend { grid-template-columns: minmax(0, 1fr); } }
 .day-charts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-bottom: 16px; }
 .mini { margin: 0; background: var(--panel); border: 1px solid var(--rule); border-radius: 10px; padding: 10px 14px 6px; }
 .mini figcaption { font-size: 12.5px; color: var(--muted); font-weight: 600; }

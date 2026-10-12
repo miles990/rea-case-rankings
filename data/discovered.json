@@ -561,6 +561,17 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://bsky.app/profile/mm-hacker-news.bsky.social/post/3mxnyvbmdiw2l",
+      "title": "REA Reverse – Engineer Anything",
+      "author": "mm-hacker-news.bsky.social",
+      "date": "2026-10-12",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-12"
+    },
+    {
       "url": "https://github.com/Atlien-Caballeros/REA",
       "title": "Atlien-Caballeros/REA: Reverse engineer anything with agents, from app behavior down to native binaries.",
       "author": "Atlien-Caballeros",
@@ -1280,6 +1291,105 @@
       "wow": 2,
       "scored": "2026-10-12",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/andrewji8/rea-viper",
+      "title": "andrewji8/rea-viper: REA-Viper 是一个基于 **MCP（Model Context Protocol）** 的统一逆向工程分析服务器",
+      "author": "andrewji8",
+      "date": "2026-10-11",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "zh",
+      "found": "2026-10-12"
+    },
+    {
+      "url": "https://github.com/wubing733-prog/wow-mobile-ios",
+      "title": "wubing733-prog/wow-mobile-ios: WoW Midnight (12.1.0.69404) -> iPhone single-player vertical slice, built with REA + Ghidra + Godot 4.7",
+      "author": "wubing733-prog",
+      "date": "2026-10-11",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-12"
+    },
+    {
+      "url": "https://github.com/az9713/untangle-rebuild",
+      "title": "az9713/untangle-rebuild: Untangle (Simon Tatham's Puzzles) rebuilt from REA/Ghidra evidence on the Windows binary only, graded against the source",
+      "author": "az9713",
+      "date": "2026-10-11",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-12"
+    },
+    {
+      "url": "https://github.com/Jack-kd/rea-quick-install",
+      "title": "Jack-kd/rea-quick-install: REA + Ghidra 一键快速安装：arm64 预编译反编译器 + 断点续传 + zip 缓存，3-5 分钟装完",
+      "author": "Jack-kd",
+      "date": "2026-10-11",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "zh",
+      "found": "2026-10-12"
+    },
+    {
+      "url": "https://github.com/jhonneiber/x6831-analysis",
+      "title": "jhonneiber/x6831-analysis: Analisis estatico del kernel prebuilt de Infinix X6831 (arm64) con REA + Ghidra en GitHub Actions",
+      "author": "jhonneiber",
+      "date": "2026-10-11",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-12"
+    },
+    {
+      "url": "https://github.com/ReverseEngineerAnything/REA",
+      "title": "ReverseEngineerAnything/REA: REA Reverse Engineer Anything 6.3.0 is the agent RE desk: github rea, rea github, rea reverse engineer, reverse engineer anything, rea mcp. Oct 10 2026. Windows 10/11 x64. Official free download. Local zip. Download:🡇",
+      "author": "ReverseEngineerAnything",
+      "date": "2026-10-11",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 10,
+      "lang": "en",
+      "found": "2026-10-12"
+    },
+    {
+      "url": "https://github.com/ringozzt/rea-research",
+      "title": "ringozzt/rea-research: REA (Reverse Engineer Anything) 深度技术调研：让 AI coding agent 无源码逆向软件的 MCP 工具链",
+      "author": "ringozzt",
+      "date": "2026-10-11",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 9,
+      "lang": "zh",
+      "found": "2026-10-12"
+    },
+    {
+      "url": "https://github.com/az9713/REA-demo",
+      "title": "az9713/REA-demo: Receipt: REA (rea-agents 6.3.0) reverse-engineers its own provider selection",
+      "author": "az9713",
+      "date": "2026-10-11",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-12"
+    },
+    {
+      "url": "https://github.com/Kian-hdr/assimilate",
+      "title": "Kian-hdr/assimilate: Agent skill for adapting useful external sources into verified project improvements, with optional REA investigation.",
+      "author": "Kian-hdr",
+      "date": "2026-10-11",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-12"
     },
     {
       "url": "https://github.com/Error0422-bit/rea-local-gui",
@@ -2155,6 +2265,50 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://github.com/Hubert-Rybak/lezac-decompilation",
+      "title": "Hubert-Rybak/lezac-decompilation: Evidence-backed decompilation of Larax & Zaco (LEZAC.EXE) using REA and Ghidra",
+      "author": "Hubert-Rybak",
+      "date": "2026-10-10",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-12"
+    },
+    {
+      "url": "https://github.com/ya123-4/rea-dsh-plugin",
+      "title": "ya123-4/rea-dsh-plugin: DeepSeek Harness plugin for REA (rea-agents): registers the REA MCP server as mcp__rea__* tools and bundles the reverse-engineer-anything agent skill in one install.",
+      "author": "ya123-4",
+      "date": "2026-10-10",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-12"
+    },
+    {
+      "url": "https://github.com/zhaofeng130/dsh-rea",
+      "title": "zhaofeng130/dsh-rea: DeepSeek Harness adapter for REA (rea-agents): registers the reverse-engineer-anything skill plus the rea / rea_doctor tools in every session. REA itself is not bundled.",
+      "author": "zhaofeng130",
+      "date": "2026-10-10",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-12"
+    },
+    {
+      "url": "https://github.com/ylwl1997/rea-run-lab",
+      "title": "ylwl1997/rea-run-lab: Codespaces lab for REA (rea-agents): bundled self-owned Electron demo only",
+      "author": "ylwl1997",
+      "date": "2026-10-10",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-12"
+    },
+    {
       "url": "https://bsky.app/profile/kerry.bsky.social/post/3mxhugpoyec23",
       "title": "I suppose this was inevitable...",
       "author": "kerry.bsky.social",
@@ -2323,6 +2477,17 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://github.com/valorisa/Reverse-Engineer-Anything",
+      "title": "valorisa/Reverse-Engineer-Anything: Guide pédagogique non officiel en français sur REA (Reverse Engineer Anything) : analyser des applications et des binaires avec un agent de code via MCP et CLI, Hopper ou Ghidra, preuves à l'appui. Inclut le cadre légal de la rétro-ingénierie. Projet amont : morluto/rea.",
+      "author": "valorisa",
+      "date": "2026-10-09",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 5,
+      "lang": "fr",
+      "found": "2026-10-12"
+    },
+    {
       "url": "https://dev.to/arshtechpro/rea-let-your-ai-agent-reverse-engineer-the-app-features-you-wish-you-had-3en7",
       "title": "REA: Let Your AI Agent Reverse Engineer the App Features You Wish You Had",
       "author": "arshtechpro",
@@ -2384,6 +2549,17 @@
       "wow": 1,
       "scored": "2026-10-12",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/danielobede20-pixel/rea-platform-validation-lab",
+      "title": "danielobede20-pixel/rea-platform-validation-lab: Synthetic open-source REA and Ghidra Linux validation; no private user files",
+      "author": "danielobede20-pixel",
+      "date": "2026-10-08",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-12"
     },
     {
       "url": "https://bsky.app/profile/cyberveille-ch.bsky.social/post/3mxcry5k43g2m",
@@ -3140,9 +3316,85 @@
       "wow": 1,
       "scored": "2026-10-12",
       "scored_by": "claude"
+    },
+    {
+      "url": "https://youtu.be/wousvECaFgk",
+      "title": "I Tested the Viral Repo That Clones Any App. It Lost.",
+      "author": "Konrad Lawaetz",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 1353,
+      "lang": "en",
+      "found": "2026-10-12"
+    },
+    {
+      "url": "https://youtu.be/pqoIzUnEg-g",
+      "title": "morluto/rea：用 Agent 做逆向工程——从应用行为到原生二进制的自动化分析",
+      "author": "updownx",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 239,
+      "lang": "zh",
+      "found": "2026-10-12"
+    },
+    {
+      "url": "https://youtu.be/U1-qlIESZOE",
+      "title": "REA 火了：为什么有人说软件完了？",
+      "author": "澳哥AI瞎玩",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 62,
+      "lang": "zh",
+      "found": "2026-10-12"
+    },
+    {
+      "url": "https://youtu.be/UwShDHk9eeQ",
+      "title": "The Honest Guide to REA, the AI Reverse Engineering Tool",
+      "author": "PromptlyAshwin",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 1667,
+      "lang": "en",
+      "found": "2026-10-12"
+    },
+    {
+      "url": "https://youtu.be/acGhUUPtjo0",
+      "title": "REAを無視するのはやめよう — 1日で29,000 GitHubスターを獲得",
+      "author": "Prism Labs",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 679,
+      "lang": "ja",
+      "found": "2026-10-12"
     }
   ],
   "runs": [
+    {
+      "date": "2026-10-12",
+      "added": 21,
+      "stats": {
+        "githubShowAndTell": 6,
+        "githubRepos": 186,
+        "hackerNews": 17,
+        "qiita": 20,
+        "devto": 150,
+        "reddit": "error: 403 https://www.reddit.com/search.json?q=%22morluto%2Frea%22&sort=new&limit=25",
+        "v2ex": 1,
+        "youtube": 90,
+        "bluesky": 150,
+        "mastodon": 160,
+        "x": 0
+      },
+      "scoring": {
+        "scored": 0,
+        "error": "Command failed: claude -p --output-format json --max-turns 1 --tools  --model sonnet"
+      }
+    },
     {
       "date": "2026-10-12",
       "added": 75,

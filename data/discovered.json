@@ -582,6 +582,50 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://github.com/JeremyWangCY/dsh-rea",
+      "title": "JeremyWangCY/dsh-rea: REA reverse-engineering tools for DeepSeek Harness, as a filtering MCP bridge",
+      "author": "JeremyWangCY",
+      "date": "2026-10-12",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-12"
+    },
+    {
+      "url": "https://bsky.app/profile/kmi-ne.bsky.social/post/3mxo2orxlyc2p",
+      "title": "了解",
+      "author": "kmi-ne.bsky.social",
+      "date": "2026-10-12",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 0,
+      "lang": "ja",
+      "found": "2026-10-12"
+    },
+    {
+      "url": "https://bsky.app/profile/sigmanor.net/post/3mxo2ezfeoo2q",
+      "title": "https://github.com/morluto/rea",
+      "author": "sigmanor.net",
+      "date": "2026-10-12",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-12"
+    },
+    {
+      "url": "https://bsky.app/profile/startupledger.bsky.social/post/3mxo2csolur25",
+      "title": "REA bundles Ghidra, radare2 and debuggers into an MCP interface, so coding agents like Claude and Cursor can drive reverse engineering with ",
+      "author": "startupledger.bsky.social",
+      "date": "2026-10-12",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-12"
+    },
+    {
       "url": "https://github.com/Atlien-Caballeros/REA",
       "title": "Atlien-Caballeros/REA: Reverse engineer anything with agents, from app behavior down to native binaries.",
       "author": "Atlien-Caballeros",
@@ -3637,6 +3681,27 @@
     }
   ],
   "runs": [
+    {
+      "date": "2026-10-12",
+      "added": 4,
+      "stats": {
+        "githubShowAndTell": 6,
+        "githubRepos": 188,
+        "hackerNews": 17,
+        "qiita": 20,
+        "devto": 150,
+        "reddit": "error: 403 https://www.reddit.com/search.json?q=%22morluto%2Frea%22&sort=new&limit=25",
+        "v2ex": 1,
+        "youtube": 90,
+        "bluesky": 150,
+        "mastodon": 160,
+        "x": 0
+      },
+      "scoring": {
+        "scored": 0,
+        "error": "Command failed: claude -p --output-format json --max-turns 1 --tools  --model sonnet"
+      }
+    },
     {
       "date": "2026-10-12",
       "added": 1,

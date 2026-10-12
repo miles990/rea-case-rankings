@@ -1888,5 +1888,170 @@
       "target": "REA 工作流程与编译镜像应用还原演示",
       "metric": "称一周内达 12 万星(作者自述)"
     }
+  },
+  "d-d947abe6ea": {
+    "hash": "1341d9e2e994",
+    "en": {
+      "title": "A Chinese Guide to the REA Source Code, with Reproducible Static-Analysis and Version-Diff Experiments",
+      "summary": "Based on REA 6.4.0 at a pinned commit, this project provides a Chinese architecture guide and an explanation of the evidence model, plus a JavaScript static-analysis experiment on a small target. A second round adds a version diff and negative cases for evidence validation, all run through the real CLI and verified in CI. It is a learning and teaching resource, not a reverse-engineering result against a real product.",
+      "target": "The REA source code and a self-made small static-analysis target",
+      "metric": "Two experiments (static analysis, version diff) plus CI verification"
+    },
+    "zh-CN": {
+      "title": "REA 源码中文导读及可重复的静态分析、版本比较实验",
+      "summary": "基于固定提交的 REA 6.4.0，撰写中文架构导读与证据模型说明，并提供针对小型目标的 JavaScript 静态分析实验。第二轮加入版本比较与证据校验负例，通过真实 CLI 运行并由 CI 验证。属于学习与教学资源，并非针对实际产品的逆向成果。",
+      "target": "REA 源码与自制的小型静态分析目标",
+      "metric": "两个实验（静态分析、版本比较）加 CI 验证"
+    }
+  },
+  "d-482475583c": {
+    "hash": "c2c4b7e6b05d",
+    "en": {
+      "title": "An Unofficial Bilingual Community Documentation Site and Brand Website for REA",
+      "summary": "Built as a static site with Astro and deployed to Cloudflare Pages, this is an unofficial bilingual documentation site for REA. It includes Pages Functions with GitHub OAuth login and states that it is for lawfully authorized reverse-engineering research only. The content is documentation and a website; it contains no reverse-engineering analysis results.",
+      "target": "The REA community documentation site (rea.run)",
+      "metric": "Astro static site deployed at rea.run, with GitHub login"
+    },
+    "zh-CN": {
+      "title": "为 REA 建立非官方双语社区文档与品牌网站",
+      "summary": "使用 Astro 构建静态站并部署到 Cloudflare Pages，作为 REA 的非官方双语文档站。附带 GitHub OAuth 登录的 Pages Functions，并声明仅限合法授权的逆向研究。内容为文档与网站，没有逆向分析成果。",
+      "target": "REA 社区文档站（rea.run）",
+      "metric": "Astro 静态站部署于 rea.run，含 GitHub 登录"
+    }
+  },
+  "d-861443acdc": {
+    "hash": "fdb71ff21a64",
+    "en": {
+      "title": "Releasing the rea-agents setup One-Line Command to Register REA with Multiple AI Coding Agents",
+      "summary": "Introduces the npx rea-agents setup command, which registers REA in one step with agents that support local MCP, including Claude Code, Codex, Cursor, Gemini CLI, and Grok Build, along with matching workflow notes. Existing config files are backed up before any change. The content is only a promotional post about the installation integration.",
+      "target": "Integration setup between REA and various AI coding agents",
+      "metric": "One command supports 5+ agents and backs up configs automatically"
+    },
+    "zh-CN": {
+      "title": "发布 rea-agents setup 一键命令，将 REA 注册到多款 AI 编码代理",
+      "summary": "介绍 npx rea-agents setup 命令，可一次把 REA 注册到 Claude Code、Codex、Cursor、Gemini CLI、Grok Build 等支持本地 MCP 的代理，并附上对应的工作流程说明。配置前会先备份已有的配置文件。内容仅为安装集成的宣传帖。",
+      "target": "REA 与各 AI 编码代理的集成配置",
+      "metric": "一条命令支持 5 种以上代理并自动备份配置"
+    }
+  },
+  "d-bfaf7bdd8b": {
+    "hash": "8f54ed26d909",
+    "en": {
+      "title": "Reverse-engineering a treadmill with REA: turning it on and off from a computer",
+      "summary": "The author used REA to reverse-engineer their own treadmill's communication and can now turn it on and off from a computer. Next they plan to write hooks so that Codex powers the treadmill on at startup, slows it down when a question is asked, slows it down when it stops, and stops it when typing begins. That part is not done yet.",
+      "target": "Smart treadmill",
+      "metric": "Successfully controlled the treadmill's on/off from a computer"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向跑步机,可由电脑开启与关闭",
+      "summary": "作者用 REA 逆向自己的跑步机通信,已能从电脑开启、关闭。后续打算写 hook,让 Codex 启动时自动开机、提问时降速、停止时降速、开始输入时停止,目前这部分尚未完成。",
+      "target": "智能跑步机",
+      "metric": "成功由电脑控制跑步机开关"
+    }
+  },
+  "d-a82ddff1d7": {
+    "hash": "22b897ed4720",
+    "en": {
+      "title": "Reverse-engineering a SaaS product on a free trial with REA: a personalized clone in half a day",
+      "summary": "The author signed up for a free trial of a product, had an agent walk through it and use it heavily, then combined that with REA reverse-engineering analysis. In about half a day they built a personalized clone. The post does not name the target product and offers no evidence.",
+      "target": "A SaaS product (unnamed)",
+      "metric": "Personalized clone completed in about half a day"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向试用中的 SaaS 产品,半天做出个人化复制版",
+      "summary": "作者注册某产品的免费试用,让 agent 走完并大量使用,再配合 REA 逆向分析。约半天做出个人化的复制版,但未说明目标产品,也没有提供证据。",
+      "target": "某 SaaS 产品(未具名)",
+      "metric": "约半天完成个人化复制版"
+    }
+  },
+  "d-fc29eb6876": {
+    "hash": "ce573b5e882e",
+    "en": {
+      "title": "A Codex skill for authorized penetration-testing workflows, inspired by REA",
+      "summary": "Modeled on REA's thin-skill, thick-tools, evidence-contract architecture, this Codex skill covers reconnaissance, scanning, validation, and reporting, using bounded CLI tools to preserve verifiable evidence. It includes a recorded demo against the author's own local HTTP test target and a tutorial on rebuilding the report offline. REA was not actually used for reverse engineering; only its design was borrowed.",
+      "target": "Domains, IPs, and HTTP URLs within authorized scope (local demo)",
+      "metric": "The local demo produced 3 informational header observations, each with an evidence ID"
+    },
+    "zh-CN": {
+      "title": "受 REA 启发的授权渗透测试流程 Codex skill",
+      "summary": "仿效 REA 的薄 skill、厚工具与证据契约架构,做出侦察、扫描、验证、报告流程的 Codex skill,以有界 CLI 工具保存可验证证据。附有对自有本机 HTTP 测试目标的录制演示与离线重建报告教程。并未实际使用 REA 做逆向,只是借鉴其设计。",
+      "target": "授权范围内的域名、IP 与 HTTP URL(本机演示)",
+      "metric": "本机演示产出 3 项带证据 ID 的信息性 header 观察"
+    }
+  },
+  "d-643f986b06": {
+    "hash": "f10d26c9239d",
+    "en": {
+      "title": "Decompiling work software into Rust in 45 minutes with REA and Opus 5.5",
+      "summary": "The author says they used REA with Opus 5.5 in high-reasoning mode to fully decompile a piece of software they use daily at work into Rust in under 45 minutes, and that it runs fine. The post provides no target name, code, or test evidence; this is the author's own claim.",
+      "target": "A desktop application the author uses at work",
+      "metric": "Fully decompiled to Rust in under 45 minutes (self-reported)"
+    },
+    "zh-CN": {
+      "title": "用 REA 搭配 Opus 5.5 在 45 分钟内将工作软件反编译成 Rust",
+      "summary": "作者自述用 REA 加上 Opus 5.5 高推理模式,在不到 45 分钟内把一款日常工作软件完整反编译成 Rust,并称运行正常。帖子没有提供目标名称、代码或测试证据,仅为作者自述。",
+      "target": "作者工作中使用的某款桌面软件",
+      "metric": "不到 45 分钟完整反编译为 Rust(自述)"
+    }
+  },
+  "d-11f7715188": {
+    "hash": "6e9cd7dbaae6",
+    "en": {
+      "title": "Parsing and Publicly Rebuilding a WebGL/WASM Website with Antigravity, Gemini, and REA",
+      "summary": "The author used Google Antigravity with Gemini and the REA MCP server to tackle the complex WebGL/WASM parts of the Santioni Spirits website and produce a rebuilt version. A live demo page and a GitHub repo are available, and the post notes that the site was selected for Awwwards.",
+      "target": "WebGL/WASM front end of the Santioni Spirits website",
+      "metric": "Public repo and live rebuild at santioni-rev.vercel.app"
+    },
+    "zh-CN": {
+      "title": "用 Antigravity、Gemini 与 REA 解析 WebGL/WASM 网站并公开重建",
+      "summary": "作者使用 Google Antigravity 搭配 Gemini 与 REA MCP 服务器,处理 Santioni Spirits 网站中复杂的 WebGL/WASM 部分,做出了重建版本。成果包括在线演示页面和可供查看的 GitHub repo,并提到该站入选了 Awwwards。",
+      "target": "Santioni Spirits 网站的 WebGL/WASM 前端",
+      "metric": "公开 repo 与在线重建版 santioni-rev.vercel.app"
+    }
+  },
+  "d-831a3c86b4": {
+    "hash": "38c23459369d",
+    "en": {
+      "title": "Reverse-Engineering a Commercial Video Client's Codec with REA and Cross-Checking It Against a Custom Transcoder",
+      "summary": "The goal was to investigate the encoding behavior of a locally installed commercial video app (the Windows client for 极空间) and to verify which parameters can be recovered using a self-built native Windows transcoder. Using REA/Ghidra, the author recovered three configurations from the custom program, then used FFprobe on four synthetic videos to verify H.264/HEVC profile, level, bitrate, and GOP. The commercial client was only observed statically, and the author states this boundary explicitly.",
+      "target": "The 极空间 Windows client and a custom native transcoder",
+      "metric": "21 fields × 3 configurations = 63 items matching the ground truth"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向商用视频客户端的 codec,并以自建转码程序对照验证",
+      "summary": "目标是调查本机商用视频应用(极空间 Windows 客户端)的编码行为,并用自建的 Windows 原生转码程序验证能恢复哪些参数。作者以 REA/Ghidra 对自建程序恢复了三组配置,并用四段合成视频通过 FFprobe 验证 H.264/HEVC 的 profile、level、码率与 GOP。商用客户端仅做了静态观察,作者明确标注了这一边界。",
+      "target": "极空间 Windows 客户端与自建原生转码程序",
+      "metric": "21 个字段 × 3 组配置 = 63 项与答案一致"
+    }
+  },
+  "d-04c6b16c3b": {
+    "hash": "7b621c280712",
+    "en": {
+      "title": "Reverse-Engineering a Mini Controller's Official Bluetooth Protocol with REA, Planning a Cross-Platform Config Tool",
+      "summary": "The author used REA to successfully reverse-engineer the official Bluetooth protocol of the Vibe Coding mini controller they use daily, and plans to write a Mac and Windows configuration tool that is nicer to use than the official one. The post mainly asks for advice on tech stack choices and gives no protocol details or code.",
+      "target": "Official Bluetooth protocol of the Vibe Coding mini controller",
+      "metric": "Author reports successfully reverse-engineering the official Bluetooth protocol"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向小手柄原厂蓝牙协议,打算自制跨平台设置程序",
+      "summary": "作者用 REA 成功逆向了自己常用的 Vibe Coding 小手柄的原厂蓝牙协议,并计划编写一个比原厂更好用的 Mac 与 Windows 设置程序。帖子主要是在询问技术栈的选择,没有提供协议细节或代码。",
+      "target": "Vibe Coding 小手柄的原厂蓝牙协议",
+      "metric": "自述成功逆向原厂蓝牙协议"
+    }
+  },
+  "d-733ba71db9": {
+    "hash": "66eac117f507",
+    "en": {
+      "title": "Recreating the Dino Game Locally with REA + Codex, Plus a Three-Way Comparison Video",
+      "summary": "The author placed the original Chrome dino game, the official REA case version, and their own local recreation built with REA and Codex side by side in a comparison video. The result shows the recreation is close to the official case, but no test data or code is provided.",
+      "target": "Chrome dino game",
+      "metric": "Comparison video of the original, the official case version, and the local recreation"
+    },
+    "zh-CN": {
+      "title": "用 REA + Codex 在本机复刻恐龙小游戏并制作三方对比视频",
+      "summary": "作者将 Chrome 恐龙小游戏原版、REA 官方案例版,以及自己用 REA 加 Codex 在本机跑出的复刻版并排,制作成对比视频。结果显示复刻成果与官方案例相近,但内容未提供测试数据或代码。",
+      "target": "Chrome 恐龙小游戏",
+      "metric": "原版、官方案例版、本机复刻版三者对比视频"
+    }
   }
 }

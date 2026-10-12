@@ -332,8 +332,8 @@
     },
     {
       "date": "2026-10-12",
-      "stars": 124087,
-      "stars_delta": 47089,
+      "stars": 129748,
+      "stars_delta": 52750,
       "new": [
         "touhou-factory",
         "obsidian-quick-switcher",
@@ -350,6 +350,8 @@
         "d-c6fbea64b5",
         "th04-bullet-ring",
         "nextjs-stripe-leak-check",
+        "d-11f7715188",
+        "d-831a3c86b4",
         "wispr-flow-az9713",
         "d-6417fa2b6c",
         "smart-toilet",
@@ -358,11 +360,14 @@
         "claude-code-muse",
         "encrypted-lib-rewrite",
         "d-365a6c591d",
+        "d-04c6b16c3b",
         "openbattlefield2",
         "vsl-dsp",
+        "d-733ba71db9",
         "netcat-audit",
         "d-f40052c423",
         "d-9409d062f4",
+        "d-bfaf7bdd8b",
         "d-a080ed3b32",
         "d-4037cb4975",
         "notion-clipboard",
@@ -390,6 +395,7 @@
         "d-3ea3ed837d",
         "psp-mips-lab",
         "d-48e797d2e8",
+        "d-a82ddff1d7",
         "d-d2c64cc5c2",
         "d-d150fc5a4f",
         "local-models-12gb",
@@ -401,7 +407,9 @@
         "d-58c16f12d8",
         "rea-investigate",
         "d-7b1ef2129b",
+        "d-fc29eb6876",
         "d-bd181ec8c5",
+        "d-643f986b06",
         "d-e1728ce0c0",
         "d-5df65cb299",
         "d-c4120d6952",
@@ -414,6 +422,7 @@
         "korean-practice",
         "d-da8a49f9d0",
         "d-967ffa90e5",
+        "d-d947abe6ea",
         "d-778047f459",
         "d-723866fc43",
         "d-6472b3d476",
@@ -424,55 +433,57 @@
         "d-0a452529f0",
         "d-9991989e8e",
         "d-d9f3e2beb7",
+        "d-482475583c",
         "tracebrief",
         "rea-jev",
         "d-980ec6dbee",
+        "d-861443acdc",
         "d-b7bab8c269",
         "apisitlee-mac-pitfalls"
       ],
       "stats": {
-        "count": 94,
+        "count": 105,
         "wow": {
-          "2": 55,
-          "3": 21,
-          "4": 9,
+          "2": 61,
+          "3": 24,
+          "4": 11,
           "5": 9
         },
         "type": {
-          "case": 50,
-          "app": 25,
-          "learn": 15,
+          "case": 57,
+          "app": 27,
+          "learn": 17,
           "news": 4
         },
         "status": {
-          "shipped": 30,
-          "tested": 26,
-          "reported": 38
+          "shipped": 34,
+          "tested": 27,
+          "reported": 44
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 星數暴增逾四萬,逆向案例從遊戲擴及整套應用",
-          "summary": "REA 的 GitHub 星數來到 124,087,比前一個紀錄 76,998 多了 47,089。當天榜首多是人工整理的 5/5 案例:東方 Project 逐函式重建、Obsidian 快速切換器排序演算法還原、Claude Slides 編輯器復刻,以及用 REA 與 Ghidra 重建可玩的遊戲。值得注意的是,多個案例開始用對照原始碼評分或逐位元組比對來驗證成果(如 Untangle 54 項主張中 52 項正確),顯示重點正從「能不能還原」轉向「怎麼證明還原得對」。"
+          "headline": "REA 星數暴增逾五萬,逆向工程案例從遊戲擴及應用與硬體",
+          "summary": "REA 的 GitHub 星數來到 129748,比前一個紀錄 76998 多了 52750。當天 105 個項目中,排名最前的多是有實際成果的案例:東方 Project 逐函式重建、Obsidian 快速切換器排序演算法還原、Claude Slides 編輯器近乎完整復刻,以及僅憑 REA 重建 Untangle 並由獨立 agent 對照原始碼評分(54 項主張中 52 項正確)。題材已不限於老遊戲,還涵蓋 ZWO ASIAIR 韌體、智慧馬桶藍牙協定與 Steam 遊戲;同時也出現「純 Claude 先完成、結果相近」的對照,提醒 REA 的優勢仍有爭議。"
         },
         "en": {
-          "headline": "REA stars jump by over 47,000 as reverse engineering moves beyond games to whole apps",
-          "summary": "REA's GitHub stars reached 124,087, up 47,089 from the previous record of 76,998. The top-ranked items are mostly hand-curated 5/5 cases: a function-by-function rebuild of the Touhou Project games, the Obsidian quick switcher's ranking algorithm, a near-complete clone of the Claude Slides editor, and playable game rebuilds made with REA and Ghidra. Several cases now verify their results by grading against the original source or comparing byte for byte (for example, Untangle had 52 of 54 checkable claims correct). That suggests the focus is shifting from whether something can be recovered to how to prove the recovery is right."
+          "headline": "REA stars jump by over 50,000 as reverse-engineering cases spread beyond games",
+          "summary": "REA's GitHub stars reached 129,748, up 52,750 from the previous record of 76,998. Of the 105 items that day, the top ones are cases with concrete results: function-by-function Touhou rebuilds, a recovered Obsidian quick-switcher ranking algorithm, a near-complete clone of the Claude Slides editor, and an Untangle rebuild made only with REA and graded against the source by an independent agent (52 of 54 checkable claims correct). Topics now go beyond old games to ZWO ASIAIR firmware, a smart toilet's Bluetooth protocol and a Steam game. One comparison found plain Claude finished first with a similar result, so REA's edge is still debated."
         },
         "zh-CN": {
-          "headline": "REA 星数暴增逾四万,逆向案例从游戏扩及整套应用",
-          "summary": "REA 的 GitHub 星数达到 124,087,比之前的纪录 76,998 多了 47,089。当天榜首多是人工整理的 5/5 案例:东方 Project 逐函数重建、Obsidian 快速切换器排序算法还原、Claude Slides 编辑器复刻,以及用 REA 与 Ghidra 重建可玩的游戏。值得注意的是,多个案例开始用对照源码评分或逐字节比对来验证成果(如 Untangle 54 项主张中 52 项正确),说明重点正从“能不能还原”转向“怎么证明还原得对”。"
+          "headline": "REA 星数暴增逾五万,逆向工程案例从游戏扩及应用与硬件",
+          "summary": "REA 的 GitHub 星数达到 129748,比之前的纪录 76998 多了 52750。当天 105 个项目中,排名靠前的多是有实际成果的案例:东方 Project 逐函数重建、Obsidian 快速切换器排序算法还原、Claude Slides 编辑器近乎完整复刻,以及仅凭 REA 重建 Untangle 并由独立 agent 对照源码评分(54 项主张中 52 项正确)。题材已不限于老游戏,还涵盖 ZWO ASIAIR 固件、智能马桶蓝牙协议与 Steam 游戏;同时也出现“纯 Claude 先完成、结果相近”的对照,提醒 REA 的优势仍有争议。"
         }
       },
       "signals": [
         "A",
         "B",
-        "C"
+        "D"
       ],
       "highlights": [
-        "touhou-factory",
-        "obsidian-quick-switcher",
-        "d-c24f94de41"
+        "d-c24f94de41",
+        "dotey-claude-slides",
+        "zwo-asiair"
       ]
     }
   ],
@@ -491,33 +502,34 @@
     "to": "2026-10-12",
     "text": {
       "zh-TW": {
-        "headline": "REA 從展示逆向能力，轉向證明還原結果正確",
-        "summary": "本週 REA 星數從 5336 一路升到 124087，關注度暴增。第一天只有兩個項目，重點已是替 REA 的副作用與輸出加驗證層；10 月 8、9 日，逐位元組比對、附原始證據檔、檢查引用證據是否存在等做法接連出現。10 月 10 日起案例量跟著星數放大，從東方 Project 逐函式重建、DOS 遊戲，擴及 ZWO ASIAIR 韌體、arm64 核心與 Claude Slides 編輯器復刻。到 10 月 12 日，Untangle 以 54 項主張中 52 項正確、Obsidian 排序演算法逐筆比對等，成了評分與標示「已證實／推論／未知」的範本。驗證訊號 B 在 7 天中出現 6 天，遊戲與舊軟體訊號 C 出現 4 天，是本週最穩定的兩條主線。",
-        "watch": "接下來幾天可觀察新增項目是否持續維持附證據、可對照原版的格式，而不是只有心得的高熱度貼文；也值得留意 REA 的驗證工具與外掛（如 rea-jev、TraceBrief 一類的證據檢查）是否變多。10 月 12 日首次出現「客戶端程式碼不再是護城河」的訊號 A，加上韌體與硬體案例開始冒頭，可優先追蹤這兩個方向的後續案例。"
+        "headline": "REA 爆紅後，社群重心從展示逆向轉向證明結果正確",
+        "summary": "星數從 10/6 的 5336 一路升到 10/12 的 129748，每日新增項目也由 2 項增至 105 項，關注度快速放大。早期內容多是在 REA 外層加檢查（rea-jev）與 Mac 上手實測，之後逐位元組比對、附原始證據檔、以獨立 agent 評分（Untangle 54 項主張中 52 項正確）成為常見做法，驗證訊號 B 一週有 6 天出現。題材也從東方 Project、DOS 老遊戲的逐函式重建，擴大到 ZWO ASIAIR 韌體、智慧馬桶藍牙協定與 arm64 核心，硬體與韌體訊號 D 開始出現。不過也有「純 Claude 先完成、結果相近」的對照，且不少高熱度貼文只有心得、沒有證據。",
+        "watch": "接下來幾天可留意驗證流程能否標準化，例如附證據、標示「已證實／推論／未知」、與原版逐筆比對，這類做法可能成為可重複利用的工具或服務機會。也可關注硬體與韌體的互通案例是否持續增加，以及 REA 相對純 Claude 的優勢爭議是否有更嚴謹的對照結果。"
       },
       "en": {
-        "headline": "REA is shifting from showing off reverse engineering to proving the results are correct",
-        "summary": "REA's GitHub stars climbed from 5,336 to 124,087 this week. The first day had only two items, and both added a verification layer around REA's side effects and outputs. On Oct 8–9, byte-by-byte comparisons, conclusions backed by raw evidence files, and scripts that check cited evidence exists followed one after another. From Oct 10, case volume grew with the stars, from function-by-function Touhou rebuilds and a DOS game to ZWO ASIAIR firmware, an arm64 kernel and a Claude Slides editor clone. By Oct 12, cases like Untangle (52 of 54 claims correct) and the Obsidian switcher sort order, compared entry by entry, set the template, along with labeling findings as confirmed, inferred or unknown. Verification signal B appeared on 6 of 7 days and legacy software signal C on 4, making them the steadiest threads of the week.",
-        "watch": "In the next few days, check whether new items keep the evidence-backed, compare-to-original format, rather than high-engagement posts that offer only impressions. Also watch whether more verification tools and plugins appear, such as rea-jev and TraceBrief-style evidence checkers. Signal A (client-side code is no longer a moat) showed up for the first time on Oct 12, and firmware and hardware cases are starting to appear, so those two directions are the best places to follow up."
+        "headline": "After REA's surge, the community shifts from showing reverse engineering to proving it correct",
+        "summary": "GitHub stars climbed from 5,336 on 10/6 to 129,748 on 10/12, and daily new items rose from 2 to 105, so attention grew fast. Early items added checks around REA (rea-jev) and hands-on Mac testing; later, byte-by-byte comparison, raw evidence files and independent agent grading (Untangle: 52 of 54 claims correct) became common, and the verification signal B appeared on 6 of 7 days. Subjects also widened from function-by-function rebuilds of Touhou and DOS games to ZWO ASIAIR firmware, a smart toilet's Bluetooth protocol and an arm64 kernel, so the hardware signal D started to appear. There was also a comparison where plain Claude finished first with similar results, and many high-engagement posts offered impressions without evidence.",
+        "watch": "In the next few days, watch whether verification practices become standardized: attaching evidence, labeling claims as confirmed, inferred or unknown, and comparing against the original item by item. These could become reusable tools or services. Also watch whether hardware and firmware interop cases keep growing, and whether stricter comparisons settle the dispute over REA's edge versus plain Claude."
       },
       "zh-CN": {
-        "headline": "REA 从展示逆向能力，转向证明还原结果正确",
-        "summary": "本周 REA 星数从 5336 一路升到 124087，关注度暴增。第一天只有两个项目，重点已是为 REA 的副作用与输出加上验证层；10 月 8、9 日，逐字节比对、附原始证据文件、检查引用证据是否存在等做法接连出现。10 月 10 日起案例数量随星数放大，从东方 Project 逐函数重建、DOS 游戏，扩展到 ZWO ASIAIR 固件、arm64 内核与 Claude Slides 编辑器复刻。到 10 月 12 日，Untangle 以 54 项主张中 52 项正确、Obsidian 排序算法逐条比对等，成为评分与标注“已证实／推论／未知”的范本。验证信号 B 在 7 天中出现 6 天，游戏与旧软件信号 C 出现 4 天，是本周最稳定的两条主线。",
-        "watch": "接下来几天可以观察新增项目是否持续保持附证据、可对照原版的格式，而不是只有心得的高热度帖子；也值得留意 REA 的验证工具与插件（如 rea-jev、TraceBrief 一类的证据检查）是否变多。10 月 12 日首次出现“客户端代码不再是护城河”的信号 A，加上固件与硬件案例开始冒头，可优先跟踪这两个方向的后续案例。"
+        "headline": "REA 爆红后，社区重心从展示逆向转向证明结果正确",
+        "summary": "星数从 10/6 的 5336 一路升到 10/12 的 129748，每日新增项目也由 2 项增至 105 项，关注度快速放大。早期内容多是在 REA 外层加检查（rea-jev）与 Mac 上手实测，之后逐位元组比对、附原始证据文件、由独立 agent 评分（Untangle 54 项主张中 52 项正确）成为常见做法，验证信号 B 一周有 6 天出现。题材也从东方 Project、DOS 老游戏的逐函数重建，扩大到 ZWO ASIAIR 固件、智能马桶蓝牙协议与 arm64 内核，硬件与固件信号 D 开始出现。不过也有“纯 Claude 先完成、结果相近”的对照，且不少高热度帖子只有心得、没有证据。",
+        "watch": "接下来几天可留意验证流程能否标准化，例如附证据、标示“已证实／推论／未知”、与原版逐项比对，这类做法可能成为可重复使用的工具或服务机会。也可关注硬件与固件的互通案例是否持续增加，以及 REA 相对纯 Claude 的优势争议是否有更严谨的对照结果。"
       }
     },
     "rising": [
       "B",
-      "C",
-      "G",
+      "D",
+      "G"
+    ],
+    "fading": [
       "A"
     ],
-    "fading": [],
     "tally": {
       "A": 1,
       "B": 6,
-      "C": 4,
-      "D": 1,
+      "C": 3,
+      "D": 2,
       "E": 0,
       "F": 1,
       "G": 2

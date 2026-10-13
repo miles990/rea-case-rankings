@@ -1,83 +1,78 @@
-# REA 案例排行榜 · REA Case Rankings
+# REA Case Rankings · REA 案例排行榜
 
-**一頁看懂全世界的人用 [REA](https://github.com/morluto/rea) 拆開了什麼。**
+**See what people around the world took apart with [REA](https://github.com/morluto/rea), ranked and updated twice a day.**
+**一頁看懂全世界的人用 [REA](https://github.com/morluto/rea) 拆開了什麼，每天更新兩次。**
 
-REA（Reverse Engineer Anything）讓 Claude Code、Codex 這類 coding agent 直接分析沒有原始碼的程式。這個網站收集全世界用它做出來的事：復刻 App 功能、重建老遊戲、拆解韌體、做資安檢查。每一筆都用同一套 1–5 分標準評分，依熱度排名，並連回原始來源。資料每天更新兩次，介面提供繁中、簡中與英文。
+### → [miles990.github.io/rea-awesome](https://miles990.github.io/rea-awesome/)
 
-*A daily-updated, scored ranking of what people build and discover with REA: app clones, game rebuilds, firmware and security findings. Every entry links to its source. Available in Traditional Chinese, Simplified Chinese and English.*
+![Today page](docs/today.jpg)
 
-**→ https://miles990.github.io/rea-awesome/**
+---
 
-![今日首頁：當天簡報、數字與焦點案例](docs/today.jpg)
+## English
 
-## 能用它做什麼
+REA (Reverse Engineer Anything) lets coding agents such as Claude Code and Codex analyze programs without source code. This site collects what people do with it: app features cloned, decades-old games rebuilt, firmware and Bluetooth protocols decoded, security checks. Every entry is scored on one rubric, ranked, summarized in English and Chinese, and links back to its original source.
 
-| 你是… | 打開網站就能 |
+**What you get**
+
+- **Today first**: the day's brief, today's top cases and the numbers that moved
+- **Today / 7 days / 30 days / all time**, filters by category, platform, language and evidence
+- **Six views**: list, cards, table, timeline, relation graph and a 3D map of how cases connect
+- **Daily context**: what each day added and which long-term trends it supports
+- **For AI agents**: [JSON](https://miles990.github.io/rea-awesome/api/records.json), [daily JSON](https://miles990.github.io/rea-awesome/api/daily.json), [llms.txt](https://miles990.github.io/rea-awesome/llms.txt), [RSS](https://miles990.github.io/rea-awesome/feed.xml); every filter lives in the URL
+
+### How entries are collected
+
+Twice a day (08:18 and 12:30 Taipei time) the collector searches public sources in many languages: GitHub, Hacker News, X, Reddit, YouTube, Bluesky, Mastodon, DEV, Qiita and V2EX. Mirrors, list repos and duplicates are dropped. A small judgment model filters out posts that are off-topic before anything is scored.
+
+### How entries are scored
+
+| Score | Meaning |
 |---|---|
-| 想知道 REA 能做什麼的人 | 首頁直接看到今天的重點、今日焦點案例和數字；點「全部」看歷來最強的 5 分案例 |
-| 想追最新動態的人 | 預設顯示「今天」，可切換 7 天內、30 天內、全部；「每日脈絡」整理每天的趨勢與長期訊號 |
-| 研究者或開發者 | 依類別、來源平台、語言、驗證程度、分數篩選；表格排序；節點圖與 3D 星系看案例之間的關聯 |
-| AI agent | 讀 [`api/records.json`](https://miles990.github.io/rea-awesome/api/records.json)、[`api/daily.json`](https://miles990.github.io/rea-awesome/api/daily.json)、[`llms.txt`](https://miles990.github.io/rea-awesome/llms.txt) 或 [RSS](https://miles990.github.io/rea-awesome/feed.xml)；網址本身就是狀態，可直接開啟特定篩選與項目 |
+| **5** | Major verifiable result: a playable or usable rebuild, large test suites matching the original, a significant hardware or firmware finding |
+| **4** | Usable result or important finding on a specific target, with some evidence |
+| **3** | Hands-on test or analysis of a specific target with clear conclusions |
+| **2** | Tools, integrations, tutorials, small experiments |
+| **1** | News, rewrites, commentary, or only a mention of REA |
 
-![探索器：篩選欄、排行清單與詳情窗格（含關聯網路）](docs/explorer.jpg)
+Curated entries are scored by hand; new finds are scored by Claude on the same rubric. Ties are broken by **heat** (0–100, log-scaled stars, points, likes, upvotes ×3 and views ÷100), then by evidence (tested > shipped > self-reported), then by date.
 
-## 功能
+---
 
-- **今日首頁**：當天簡報、今日／7 天／累計／REA 星數四個數字、今日焦點卡片；背景的星空是每一筆項目（橫軸日期、縱軸分數）
-- **時間範圍**：今天（預設）、7 天內、30 天內、全部，計數即時更新
-- **六種同步檢視**：清單、卡片、表格、時間 × 分數泡泡圖、關係節點圖、3D 星系（需要時才載入程式庫）
-- **子母畫面**：右側詳情窗格含來源連結、關鍵成果、摘要、關聯網路小圖與相關項目；手機上改成抽屜
-- **可收合的篩選欄**：每組篩選都有即時計數長條，開合狀態會記住
-- **自動封面**：沒有預覽圖的項目，依目標名稱、平台與類型產生封面
-- **鍵盤操作**：`⌘K` 跳到任何項目、`/` 搜尋、`J`/`K` 上下、`O` 開來源、`1`–`6` 切換檢視
-- **網址即狀態**：`?range=7&q=firmware&type=case&view=graph#r-<id>`，可分享，也能讓 agent 直接開啟
-- 淺色／深色、手機到寬螢幕都可用；尊重「減少動態效果」設定
+## 中文
 
-![3D 星系：類別與關聯](docs/space.jpg)
+REA（Reverse Engineer Anything）讓 Claude Code、Codex 這類 coding agent 直接分析沒有原始碼的程式。這個網站收集全世界用它做出來的事：復刻 App 功能、重建幾十年前的遊戲、解開韌體與藍牙協定、做資安檢查。每一筆都用同一套標準評分、排名，附中英文摘要，並連回原始來源。
 
-## 排名方式
+**你可以**
 
-1. **分數 1–5**：人工或 AI 依同一套準則評分（5 = 可驗證的重大成果，1 = 新聞或只提到 REA）
-2. **熱度 0–100**：星數、HN 分數、讚數各算 1，討論票算 3，每 100 次觀看算 1，取對數換算
-3. 再依驗證程度（有測試 > 有成果 > 作者自述），最後依日期
+- **先看今天**：當天簡報、今日焦點案例與關鍵數字
+- **今天／7 天內／30 天內／全部**，再依類別、平台、語言、驗證程度篩選
+- **六種檢視**：清單、卡片、表格、時間圖、關係節點圖，以及看案例如何相連的 3D 星系
+- **每日脈絡**：每天新增了什麼、支持哪些長期趨勢
+- **給 AI agent**：[JSON](https://miles990.github.io/rea-awesome/api/records.json)、[每日 JSON](https://miles990.github.io/rea-awesome/api/daily.json)、[llms.txt](https://miles990.github.io/rea-awesome/llms.txt)、[RSS](https://miles990.github.io/rea-awesome/feed.xml)；所有篩選都寫在網址裡
 
-## 每天怎麼更新
+### 如何收錄
 
-收集與評分都在維護者的 Mac 上執行，訂閱憑證（Claude、Grok、瀏覽器登入）不離開本機；GitHub 只負責建置與部署。
+每天 08:18 與 12:30（台灣時間）搜尋多種語言的公開來源：GitHub、Hacker News、X、Reddit、YouTube、Bluesky、Mastodon、DEV、Qiita、V2EX。去除鏡像、清單型 repo 與重複項目後，先由小型判讀模型濾掉離題內容，再進入評分。
 
-| 時間（台灣） | 在哪裡 | 做什麼 |
-|---|---|---|
-| 08:18、12:30 | 本機 launchd：`scripts/local-daily.sh` | 收集 GitHub、Hacker News、X（Grok）、Reddit（OpenCLI）、YouTube、Bluesky、Mastodon、DEV、Qiita、V2EX → Jev 篩選 → Claude 評分、翻譯、寫每日簡報 → 驗證 → 推到 repo |
-| 接著 | GitHub Actions（`skip_collect=true`） | 縮圖、資料驗證、建置、**Playwright 瀏覽器檢查**（失敗就不部署）→ GitHub Pages |
+### 如何評分
 
-Mac 睡眠時錯過的排程會在喚醒後補跑。GitHub Actions 沒有自己的排程，只能由 repo 擁有者觸發。
-
-## 開發
-
-```bash
-npm install && npx playwright install chromium
-npm run dev                       # validate → build → 瀏覽器檢查
-node scripts/check.mjs --shots    # 另存截圖到 dist/shots/
-```
-
-| 腳本 | 用途 |
+| 分數 | 標準 |
 |---|---|
-| `scripts/collect.mjs collect\|score\|all\|x` | 蒐集、評分、或只跑 X |
-| `scripts/translate.mjs` | 只翻譯 2 分以上、內容有變更的項目（英文、簡中） |
-| `scripts/daily.mjs` | 每日快照、簡報與本週趨勢 |
-| `scripts/thumbs.mjs` | 下載並縮小預覽圖；SVG 經安全過濾 |
-| `scripts/validate.mjs` | 資料結構、連結安全、重複來源、翻譯與介面字串覆蓋 |
-| `scripts/build.mjs` | 產生各語言頁面、JSON、llms.txt、RSS、sitemap |
-| `scripts/check.mjs` | Playwright：主控台錯誤、水平溢出、未翻譯字串、首頁、時間範圍、六種檢視與互動；5 種螢幕與深淺色 |
+| **5** | 可驗證的重大成果：可玩或可用的完整重建、與原版逐筆一致的大量測試、硬體或韌體的重大發現 |
+| **4** | 對具體目標做出可用成果或重要發現，有部分證據 |
+| **3** | 對具體目標的實測或分析，結論清楚具體 |
+| **2** | 工具、整合、教學或小型實驗 |
+| **1** | 新聞、轉述、評論，或只是提到 REA |
 
-網站是單一靜態頁（`site/index.html`、`site/app.css`、`site/app.js`、`site/ui.json`），資料在建置時嵌入，不需要伺服器。想新增或修正案例，改 `data/cases.json` 後開 PR。
+人工整理的項目由人評分；新發現的項目由 Claude 依同一套標準評分。同分時依**熱度**（0–100，星數、HN 分數、讚數各算 1，討論票 ×3，觀看數 ÷100，取對數）排序，再看驗證程度（有測試 > 有成果 > 作者自述），最後看日期。
 
-## 安全設計
+---
 
-- 收集與評分只在本機執行；GitHub 上沒有 Claude 或 Grok 憑證。
-- Workflow 只由 `workflow_dispatch` 觸發，沒有 `pull_request` 觸發；所有 Actions 釘選 commit SHA。
-- 抓到的內容一律視為不可信：Claude 以 `--tools ""`、`--max-turns 1` 執行，輸出只取白名單欄位並限制長度；頁面輸出全部 HTML 跳脫，連結只允許 http(s)；SVG 縮圖拒絕腳本、事件屬性與外部連結。
+![Explorer](docs/explorer.jpg)
 
-## 授權
+## License · 授權
 
-程式碼以 [MIT License](LICENSE) 授權。各案例的內容、截圖與商標屬於原作者，本站只做索引與摘要。逆向他人軟體前，請先確認授權條款與當地法律。
+Code: [MIT](LICENSE). Case content, screenshots and trademarks belong to their original authors; this site only indexes and summarizes. Check license terms and local law before reverse engineering software you don't own.
+
+程式碼以 [MIT](LICENSE) 授權。各案例的內容、截圖與商標屬於原作者，本站只做索引與摘要。逆向他人軟體前，請先確認授權條款與當地法律。

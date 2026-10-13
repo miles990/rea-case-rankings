@@ -64,11 +64,13 @@ for (const run of runs) {
     const btn = p.locator(`[data-view="${v}"]`).first();
     if (!(await btn.count())) { fail(`${tag} missing view button ${v}`); continue; }
     await btn.click();
-    if (v === "graph") await p.waitForSelector("#graph .node", { timeout: 15000 }).catch(() => {});
-    if (v === "space") await p.waitForSelector("#space canvas, .empty", { timeout: 20000 }).catch(() => {});
+    // Graph and 3D load their libraries on first use; wait past the loading placeholder.
+    if (v === "graph") await p.waitForSelector("#graph .node, #results .empty:not(.loading)", { timeout: 30000 }).catch(() => {});
+    if (v === "space") await p.waitForSelector("#space canvas, #results .empty:not(.loading)", { timeout: 30000 }).catch(() => {});
     await p.waitForTimeout(150);
     const ok = await p.evaluate((v) => {
-      const sel = { grid: ".gcard", table: ".dtable tbody tr", timeline: "#timeline .dot", graph: "#graph .node", space: "#space canvas", list: ".row" }[v];
+      // Without WebGL the 3D view shows a fallback message instead; that is a pass.
+      const sel = { grid: ".gcard", table: ".dtable tbody tr", timeline: "#timeline .dot", graph: "#graph .node", space: "#space canvas, #results .empty:not(.loading)", list: ".row" }[v];
       return document.querySelectorAll(sel).length;
     }, v);
     if (!ok) fail(`${tag} view "${v}" rendered nothing`);

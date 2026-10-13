@@ -355,7 +355,7 @@ const loadScript = (src) => {
 };
 const D3 = "https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js";
 const FG3D = "https://cdn.jsdelivr.net/npm/3d-force-graph@1.80.1/dist/3d-force-graph.min.js";
-const vizLoading = (box) => { box.innerHTML = `<div class="viz"><p class="empty">${esc(t("viz.loading"))}</p></div>`; };
+const vizLoading = (box) => { box.innerHTML = `<div class="viz"><p class="empty loading">${esc(t("viz.loading"))}</p></div>`; };
 function renderGraph(box) {
   if (!window.d3) {
     vizLoading(box);

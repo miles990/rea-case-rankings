@@ -11,7 +11,7 @@
 
 ## English
 
-REA (Reverse Engineer Anything) lets coding agents such as Claude Code and Codex analyze programs without source code. This site collects what people do with it: app features cloned, decades-old games rebuilt, firmware and Bluetooth protocols decoded, security checks. Every entry is scored on one rubric, ranked, summarized in English and Chinese, and links back to its original source.
+REA (Reverse Engineer Anything) lets coding agents such as Claude Code and Codex analyze programs without source code. This site collects what people do with it: app features cloned, decades-old games rebuilt, firmware and Bluetooth protocols decoded, security checks. Every entry is scored on one rubric, ranked, summarized, and links back to its original source.
 
 **What you get**
 
@@ -41,7 +41,7 @@ Curated entries are scored by hand; new finds are scored by Claude on the same r
 
 ## 中文
 
-REA（Reverse Engineer Anything）讓 Claude Code、Codex 這類 coding agent 直接分析沒有原始碼的程式。這個網站收集全世界用它做出來的事：復刻 App 功能、重建幾十年前的遊戲、解開韌體與藍牙協定、做資安檢查。每一筆都用同一套標準評分、排名，附中英文摘要，並連回原始來源。
+REA（Reverse Engineer Anything）讓 Claude Code、Codex 這類 coding agent 直接分析沒有原始碼的程式。這個網站收集全世界用它做出來的事：復刻 App 功能、重建幾十年前的遊戲、解開韌體與藍牙協定、做資安檢查。每一筆都用同一套標準評分、排名、摘要，並連回原始來源。
 
 **你可以**
 

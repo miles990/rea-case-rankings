@@ -75,7 +75,7 @@ jobs:
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           CLAUDE_MODEL: sonnet
-          MAX_SCORED_PER_RUN: "60"
+          MAX_SCORED_PER_RUN: "300"
         run: node scripts/collect.mjs score
       - name: Translate
         env:

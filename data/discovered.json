@@ -84,17 +84,7 @@
     {
       "url": "https://github.com/manualfa14/REA2",
       "title": "manualfa14/REA2",
-      "author": "manualfa14",
-      "date": "2026-10-13",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 0,
-      "pop": {
-        "stars": 0
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: package.json",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -194,7 +184,13 @@
       "kind": "文章",
       "score": 0,
       "lang": "th",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://dev.to/sebbasstian/rea-reverse-engineer-anything-la-gi-may-chu-mcp-dat-115000-sao-github-trong-mot-tuan-231p",
@@ -205,7 +201,13 @@
       "kind": "文章",
       "score": 0,
       "lang": "vi",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://dev.to/antoine_laurentt/quest-ce-que-rea-reverse-engineer-anything-le-serveur-mcp-qui-a-atteint-115-000-etoiles-github-355n",
@@ -216,7 +218,13 @@
       "kind": "文章",
       "score": 0,
       "lang": "fr",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://juejin.cn/post/7695710239949766675",
@@ -231,7 +239,13 @@
         "views": 0
       },
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://www.v2ex.com/t/1248307",
@@ -241,7 +255,13 @@
       "source": "V2EX",
       "kind": "討論",
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://www.v2ex.com/t/1248283",
@@ -251,7 +271,13 @@
       "source": "V2EX",
       "kind": "討論",
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://bsky.app/profile/brumbus.bsky.social/post/3mxq4j3lhqs2x",
@@ -262,7 +288,17 @@
       "kind": "貼文",
       "score": 0,
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "title_zh": "用 REA 加 Hopper 五分鐘解析 3D Pinball 作弊碼原理，再用 Ghidra 描述球體物理",
+      "summary": "目標是 Windows 內建的 3D Pinball。作者讓 Opus 5.5 搭配 REA 與 Hopper，約 5 分鐘就說明作弊碼的運作方式，之後改裝 Ghidra，從頭約 2 分鐘描述完整的球體物理。內容只有作者自述，沒有附程式碼或對照測試。",
+      "target": "3D Pinball for Windows",
+      "metric": "約 5 分鐘解出作弊碼運作，約 2 分鐘描述球體物理",
+      "category": "Native / 遊戲",
+      "status": "reported",
+      "wow": 3,
+      "scored": "2026-10-13",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://bsky.app/profile/druce.ai/post/3mxpw6pxpnq27",
@@ -273,7 +309,13 @@
       "kind": "貼文",
       "score": 0,
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://bsky.app/profile/tatsuzo.arkstudios.co.jp/post/3mxprka6v6224",
@@ -284,7 +326,13 @@
       "kind": "貼文",
       "score": 0,
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://bsky.app/profile/brumbus.bsky.social/post/3mxq4j3md3t2x",
@@ -295,7 +343,17 @@
       "kind": "貼文",
       "score": 0,
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "title_zh": "評論 REA 讓 agent 做逆向的價值，彈珠台實驗花費 3.29 美元",
+      "summary": "這是同一作者對上一則彈珠台實驗的評論，認為 agent 擅長逆向，REA 是好用的介面，並說這類逆向成本合理。內容沒有新的技術成果，只提到實驗花了 3.29 美元。",
+      "target": "3D Pinball 實驗（評論）",
+      "metric": "整個實驗花費 3.29 美元",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-10-13",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://bsky.app/profile/druce.ai/post/3mxpvs2vflc24",
@@ -306,7 +364,13 @@
       "kind": "貼文",
       "score": 0,
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://blog.bucoms.com/rea-reverse-engineer-anything-mcp/",
@@ -316,7 +380,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "ko",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://www.oflight.co.jp/ja/columns/rea-reverse-engineer-anything-mcp-agents-2026",
@@ -326,7 +396,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "ja",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "shipped",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://x.com/0xshimei/status/2109864958863536266",
@@ -341,7 +417,17 @@
         "views": 14
       },
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "title_zh": "用 REA 193 秒分析 Obsidian 桌面版，找出 42 個 IPC 通道與內建廣告攔截",
+      "summary": "作者在隔離目錄安裝 rea-agents 並加 --ignore-scripts，約 9 秒完成。接著複製 23MB 的 obsidian.asar 進行分析，193 秒內找出 42 個 IPC 通道，並發現內建廣告攔截。內容有具體數字，但節錄中沒有附證據檔。",
+      "target": "Obsidian 桌面版（Electron）",
+      "metric": "193 秒找出 42 個 IPC 通道與內建廣告攔截",
+      "category": "Electron",
+      "status": "reported",
+      "wow": 3,
+      "scored": "2026-10-13",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://x.com/re_refoto/status/2109864057180504506",
@@ -356,22 +442,26 @@
         "views": 34
       },
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "title_zh": "用 REA 反編譯 Unity IL2CPP 商業遊戲並重構成乾淨 C#",
+      "summary": "作者聲稱用 REA 反編譯 Unity IL2CPP 商業遊戲，讓 AI 沿控制流做語意重構，還原核心演算法與手感參數成乾淨 C#。貼文附專欄長文與 5 步教學，但節錄中沒有可驗證的程式碼或測試，只是作者自述。",
+      "target": "Unity IL2CPP 商業遊戲",
+      "metric": "核心演算法與手感參數還原成乾淨 C#（作者自述）",
+      "category": "Native / 遊戲",
+      "status": "reported",
+      "wow": 3,
+      "scored": "2026-10-13",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://x.com/greco_dev/status/2109853092409745614",
-      "title": "na real n foi engenharia reversa de vdd   eu achei o ip da TV na rede, o modelo dela, fiz o pareamento e usei a api local do webOS pra contr",
-      "author": "@greco_dev",
-      "date": "2026-10-13",
+      "title": "na real n foi engenharia reversa de vdd   eu achei o ip da TV na rede, o modelo dela, fiz o pareamento e usei a api loca",
       "source": "X",
-      "kind": "貼文",
-      "score": 10,
-      "pop": {
-        "likes": 10,
-        "views": 533
-      },
-      "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": false,
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://x.com/zookmas1314/status/2109848308717871445",
@@ -386,7 +476,17 @@
         "views": 38
       },
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "title_zh": "補充用 mitmproxy 加 Frida 繞過 SSL pinning，再用 REA 拆私有協定",
+      "summary": "這是拆硬體協定的實測補充。作者建議先用 mitmproxy 加 Frida 繞過 App 的 SSL pinning，否則抓包多半是空的。REA 能劃分私有二進位協定（如空調的自訂幀頭加 CRC）的欄位邊界，但節錄中沒有具體目標與結果。",
+      "target": "廠商 App 與私有二進位協定（如空調）",
+      "metric": "REA 可劃分自訂幀頭加 CRC 協定的欄位邊界",
+      "category": "IoT / 藍牙",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-13",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://x.com/volatilemarkts/status/2109844827223269630",
@@ -401,7 +501,13 @@
         "views": 221
       },
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://x.com/HanZhang415188/status/2109843188341207283",
@@ -416,7 +522,17 @@
         "views": 583
       },
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "title_zh": "用 REA 拆解 Screen Studio，讓 Claude Code 半小時復刻出片",
+      "summary": "目標是知名錄屏軟體 Screen Studio。作者用 REA 拆解後整理規則，讓 Claude Code 照著復刻一個，約半小時完成，文章裡的示範影片也由復刻品自己錄製。成果有公開文章，但節錄沒有程式碼或對照測試。",
+      "target": "Screen Studio",
+      "metric": "半小時復刻並自行錄出示範影片",
+      "category": "Native / macOS",
+      "status": "reported",
+      "wow": 4,
+      "scored": "2026-10-13",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://x.com/greco_dev/status/2109842197654692349",
@@ -431,7 +547,17 @@
         "views": 3888
       },
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "title_zh": "用 REA 逆向自家電視，取得切換 App／輸入源等功能",
+      "summary": "作者對自己的電視做逆向工程並使用 REA。從標題可知整理出切換 App 與輸入源、音量等主要功能。節錄沒有提供測試或程式碼證據。",
+      "target": "電視（智慧電視）",
+      "metric": "整理出切換 App／輸入源、音量等控制功能",
+      "category": "韌體 / 硬體",
+      "status": "reported",
+      "wow": 3,
+      "scored": "2026-10-13",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://x.com/0xlangeai/status/2109842048023212348",
@@ -446,7 +572,13 @@
         "views": 205
       },
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://x.com/KKetemepi/status/2109839329933824026",
@@ -461,7 +593,17 @@
         "views": 16
       },
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "title_zh": "用 REA 從 MarkText 成品逆向並重建 HTML 匯出功能",
+      "summary": "作者的 AI 機器人以 REA 追蹤已建置的 MarkText 應用，逆向其 HTML 匯出功能後自行重建。目標明確，但節錄沒有附上程式碼或測試證據。",
+      "target": "MarkText 的 HTML 匯出功能",
+      "metric": "從已建置的應用逆向並重建 HTML 匯出功能",
+      "category": "Electron",
+      "status": "reported",
+      "wow": 4,
+      "scored": "2026-10-13",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://x.com/2025Thomas0755/status/2109834042703298927",
@@ -476,7 +618,17 @@
         "views": 3
       },
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "title_zh": "用 REA 研究 QuickBooks Desktop for Mac，開源重建專案上線",
+      "summary": "團隊以 REA 調查 QuickBooks Desktop for Mac，並以公開方式重建這類付費桌面會計軟體。專案編號 #000001 已經上線。",
+      "target": "QuickBooks Desktop for Mac",
+      "metric": "重建專案 #000001 已公開上線",
+      "category": "Native / macOS",
+      "status": "shipped",
+      "wow": 4,
+      "scored": "2026-10-13",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://x.com/coolthor/status/2109818662811009160",
@@ -491,7 +643,17 @@
         "views": 21
       },
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "title_zh": "只給編譯後的 iOS App，用 REA＋Ghidra 16 分鐘重建損益公式",
+      "summary": "作者只把自己 iOS App 的編譯檔（無原始碼）交給 AI，搭配免費的 REA 與 Ghidra。AI 在 16 分鐘內精確重建出損益（P&L）計算公式。",
+      "target": "作者自己的 iOS App（損益計算公式）",
+      "metric": "16 分鐘內精確重建 P&L 公式",
+      "category": "Native",
+      "status": "reported",
+      "wow": 3,
+      "scored": "2026-10-13",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://x.com/clps/status/2109815316570386434",
@@ -506,7 +668,17 @@
         "views": 84
       },
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "title_zh": "用 REA 為研究與教育目的重建 Grok Bot 原始碼",
+      "summary": "作者聲明以研究與教育為目的，用 REA 重建 Grok Bot 的原始碼，並附上匿名連結公開成果。節錄沒有測試或驗證的細節。",
+      "target": "Grok Bot",
+      "metric": "重建 Grok Bot 原始碼並公開連結",
+      "category": "Native",
+      "status": "shipped",
+      "wow": 3,
+      "scored": "2026-10-13",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://github.com/ady95/rea-tutorial",
@@ -1416,16 +1588,7 @@
     {
       "url": "https://x.com/stevenknowsweb/status/2109748930926039332",
       "title": "Turns out the ink check for HP is in the firmware on the printer itself",
-      "author": "@stevenknowsweb",
-      "date": "2026-10-12",
       "source": "X",
-      "kind": "貼文",
-      "score": 3,
-      "pop": {
-        "likes": 3,
-        "views": 689
-      },
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -1652,17 +1815,7 @@
     {
       "url": "https://github.com/MG-Cafe/blog",
       "title": "MG-Cafe/blog: Hands on AI tests from my YouTube videos, with the prompts and Claude Code skills you can reuse",
-      "author": "MG-Cafe",
-      "date": "2026-10-12",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 0,
-      "pop": {
-        "stars": 0
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: skills/rea-clone/SKILL.md",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -1671,17 +1824,7 @@
     {
       "url": "https://github.com/aanan9451/rta",
       "title": "aanan9451/rta",
-      "author": "aanan9451",
-      "date": "2026-10-12",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 0,
-      "pop": {
-        "stars": 0
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: skills/rea-analysis/SKILL.md, package.json",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -1690,17 +1833,7 @@
     {
       "url": "https://github.com/ai-integr8tor/morluto_Reverse_Engineer_Anything",
       "title": "ai-integr8tor/morluto_Reverse_Engineer_Anything",
-      "author": "ai-integr8tor",
-      "date": "2026-10-12",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 0,
-      "pop": {
-        "stars": 0
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: skills/rea-analysis/SKILL.md, package.json",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -1708,18 +1841,8 @@
     },
     {
       "url": "https://github.com/Mbaka11/pi-tools-and-skills",
-      "title": "Mbaka11/pi-tools-and-skills: Reusable personal Pi skills, offline helpers, and pinned reverse-engineering tool references. Cross-project workflows with documented sources and updates.",
-      "author": "Mbaka11",
-      "date": "2026-10-12",
+      "title": "Mbaka11/pi-tools-and-skills: Reusable personal Pi skills, offline helpers, and pinned reverse-engineering tool reference",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 0,
-      "pop": {
-        "stars": 0
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: skills/rea-investigation/SKILL.md",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -1728,17 +1851,7 @@
     {
       "url": "https://github.com/mehsimar/Reacode",
       "title": "mehsimar/Reacode",
-      "author": "mehsimar",
-      "date": "2026-10-12",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 0,
-      "pop": {
-        "stars": 0
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: package.json",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -1747,17 +1860,7 @@
     {
       "url": "https://github.com/chrismarchant/SaaS-Cloner",
       "title": "chrismarchant/SaaS-Cloner",
-      "author": "chrismarchant",
-      "date": "2026-10-12",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 0,
-      "pop": {
-        "stars": 0
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: package.json",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -1776,7 +1879,13 @@
         "views": 391
       },
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://juejin.cn/post/7695618100750123049",
@@ -1791,7 +1900,17 @@
         "views": 33
       },
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "title_zh": "掘金評論：REA 爆紅是智能體商品化的必然，並提醒法律風險",
+      "summary": "作者評論 REA 一週暴漲至 12.6 萬星，認為這是智能體善用命令列工具的必然結果，並討論能力限制、淨室開發與法律風險。文中作者拆解百度網盤是在 REA 出現之前，也沒有使用 REA。",
+      "target": "REA 現象與逆向工程的法律風險",
+      "metric": "REA 一週內從不到一萬星漲到 12.6 萬星",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-10-13",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://juejin.cn/post/7695594714359562255",
@@ -1806,7 +1925,13 @@
         "views": 8
       },
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "shipped",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://www.reddit.com/r/bioinformatics/comments/1x452rw/has_anyone_tried_rea_reverse_engineer_anything_on/",
@@ -1821,7 +1946,13 @@
         "comments": 15
       },
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://openaimaster.ai/rea-mcp-reverse-engineer-claude-code-guide/",
@@ -1831,7 +1962,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://saignals.buzz/articles/how-to-use-rea-reverse-engineering-claude-code-codex",
@@ -1841,7 +1978,17 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "title_zh": "以 Notes 範例示範用 REA 搭配 Claude Code 與 Codex 檢查並驗證 CSV 匯出",
+      "summary": "作者寫了一篇使用指南,以官方的六檔案 Notes Electron 範例為目標,示範追蹤匯出功能並確認 CSV 行為。作者實際跑過 npm 6.4.0 的靜態 JavaScript 分析,並另外用 Node.js 檢查格式化器,但明說未測試實際的 Claude Code 或 Codex MCP 連線、原生反編譯與完整移植。",
+      "target": "REA 官方 Notes 範例(Electron)",
+      "metric": "實際跑過 6.4.0 靜態分析,MCP 連線與原生反編譯未測試",
+      "category": "教學",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-13",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://wallabytoken.com/blog/p/rea-kimi-k3-claude-code",
@@ -1851,7 +1998,17 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "title_zh": "教學:讓 Claude Code 搭配 Kimi K3 使用 REA,並以本機冒煙測試驗證",
+      "summary": "文章說明如何用 Wallaby 的 Anthropic 相容端點把 Claude Code 指向 Kimi K3,再註冊 REA。作者對一個三模組的小型範例應用跑了 REA 6.4.0 的 JavaScript 分析,得到目標 SHA-256、模組圖與帶來源範圍的語意圖。文中揭露 Wallaby 販售 kimi-k3 的 API,屬於帶有商業立場的教學。",
+      "target": "三模組 JavaScript 範例應用",
+      "metric": "REA 6.4.0 的冒煙測試回傳 SHA-256 摘要、模組圖與語意圖",
+      "category": "教學",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-13",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://www.aitntnews.com/newDetail.html?newId=30163",
@@ -1861,7 +2018,17 @@
       "source": "Web",
       "kind": "文章",
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "title_zh": "用 REA 讓 AI 逆向並重建出介面近乎像素級還原的原生 Microsoft Word",
+      "summary": "作者用 REA 搭配 Codex 與 Hopper,在沒有原始碼的情況下重建 Microsoft Word,自述只用一句提示詞加兩到三輪迭代。成品具備排序、標題、粗體、批註、圖片對齊、插入表格與專注模式等基本功能,並附有與原版的功能對照表。作者也坦承許多細節粗糙,例如選取區域重疊,仍有不少功能未完整復刻。",
+      "target": "Microsoft Word(原生桌面應用)",
+      "metric": "耗用約 20–30% 的 Pro 會員額度,復刻出界面近乎像素級還原、核心功能基本一致的 Word",
+      "category": "Native",
+      "status": "reported",
+      "wow": 4,
+      "scored": "2026-10-13",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://joelin.cc/p/9900",
@@ -1871,7 +2038,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://www.aiposthub.com/rea-reverse-engineering-agent-evidence-workflow/",
@@ -1881,7 +2054,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "shipped",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://juejin.cn/post/7695618100749811753",
@@ -1891,7 +2070,17 @@
       "source": "Web",
       "kind": "文章",
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "title_zh": "掘金實操教程:用 REA 拆解 Notes 範例與 207MB 的 Xmind Electron 應用",
+      "summary": "作者在 Windows 上示範安裝 REA,先分析官方六檔案 Notes 範例的 IPC,再解包 Xmind 的 app.asar 做靜態分析,每步附截圖。範例輸出顯示 1 條明文通道、1 次發送與 1 次接收,並附帶限制聲明;文中也引述社群案例,但那些屬轉述。文章明說不做完整復刻,重點在教人看懂輸出。",
+      "target": "官方 Notes 範例與 Xmind(Electron)",
+      "metric": "Notes 範例 IPC:1 條明文通道、1 次發送、1 次接收,並對 207MB 的 Xmind app.asar 做了分析",
+      "category": "教學",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-13",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://cloud.tencent.com/developer/article/2759427",
@@ -1901,7 +2090,17 @@
       "source": "Web",
       "kind": "文章",
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "title_zh": "教學:在騰訊雲 CVM 上部署 REA 作為雲端逆向分析環境",
+      "summary": "文章說明如何選配 Linux 實例、安裝 Node.js 與 JDK,並用 npx rea-agents setup 初始化 REA,最後以 JavaScript 分析命令驗證環境。文中未對任何具體目標做出分析成果,也註明遠端供本地助手使用需自行搭建,並帶有雲端產品推廣性質。",
+      "target": "騰訊雲 CVM 上的 REA 部署環境",
+      "metric": "提供從實例選配到 analyze-javascript-application 驗證的完整部署流程",
+      "category": "教學",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-13",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://blackhatnews.tokyo/archives/148402",
@@ -1911,7 +2110,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "ja",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://www.techno-edge.net/article/2026/10/12/5574.html",
@@ -1921,7 +2126,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "ja",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://ai-tools-db.com/ai-trends/what-is-rea/",
@@ -1931,7 +2142,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "ja",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://x.com/cudanexus/status/2109767640868929810",
@@ -1946,7 +2163,17 @@
         "views": 17
       },
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "title_zh": "AI 代理用 REA 拆開兩個安裝程式,Windows 版因 .NET Framework 與驅動而走不通",
+      "summary": "內容節錄只剩推文的片段,顯示 AI 自行用 REA 拆開兩個安裝程式,Windows 版因 .NET Framework 與驅動而碰壁。看不出具體目標、最終成果或證據,只能判斷有實際使用 REA 做初步嘗試。",
+      "target": "兩個安裝程式(Windows 版與另一平台,詳情不明)",
+      "metric": "Windows 版安裝程式為死路(.NET Framework 加驅動)",
+      "category": "工具鏈",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-13",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://github.com/oiiiwjh/rea-exploration-notes",
@@ -1993,16 +2220,7 @@
     {
       "url": "https://x.com/Babyyan67/status/2109366429455708303",
       "title": "我用它逆向了微信，发现好多隐私功能，特别是macos上的微信，一天会截你的mac屏幕500多次。但是都没有上传，放到缓存里就结束了，暂时还没找到分析的地方。不过还是很担心。",
-      "author": "@Babyyan67",
-      "date": "2026-10-11",
       "source": "X",
-      "kind": "貼文",
-      "score": 8,
-      "pop": {
-        "likes": 8,
-        "views": 2022
-      },
-      "lang": "zh",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -2010,18 +2228,8 @@
     },
     {
       "url": "https://github.com/ahmadhammoud56/MOAA",
-      "title": "ahmadhammoud56/MOAA: MOAA: Mother of All Agents. One-command install of a full Claude Code setup: plugins, Specialist Council, Agent Arena with forging, War Room parallel teams with a live app, skills, MCP servers",
-      "author": "ahmadhammoud56",
-      "date": "2026-10-11",
+      "title": "ahmadhammoud56/MOAA: MOAA: Mother of All Agents. One-command install of a full Claude Code setup: plugins, Specialist Co",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 1,
-      "pop": {
-        "stars": 1
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: skills/reverse-engineer-anything/SKILL.md",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -2030,17 +2238,7 @@
     {
       "url": "https://github.com/Rib4ko/EXCELL-7ASSIBA",
       "title": "Rib4ko/EXCELL-7ASSIBA: REA PROJECT REPLICATING M EXCEL",
-      "author": "Rib4ko",
-      "date": "2026-10-11",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 0,
-      "pop": {
-        "stars": 0
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: rea/package.json",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -2049,17 +2247,7 @@
     {
       "url": "https://github.com/ishaangupta-YB/test-rea",
       "title": "ishaangupta-YB/test-rea: test-rea",
-      "author": "ishaangupta-YB",
-      "date": "2026-10-11",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 0,
-      "pop": {
-        "stars": 0
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: rea/package.json",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -2078,7 +2266,13 @@
         "views": 23
       },
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://livvux.dev/blog/rea-reverse-engineer-anything",
@@ -2088,7 +2282,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "shipped",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://www.ai.joaoqueiros.com/blog/rea-reverse-engineer-anything-agent-binary-analysis",
@@ -2098,7 +2298,17 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "title_zh": "評測 Rob Shocks 以 REA 對去符號 Mac App 推出解鎖碼規則",
+      "summary": "文章評述 Rob Shocks 的實測：他用自寫並去除符號的小型 Mac App 交給 agent，agent 從無名函式推斷隱藏的解鎖規則並產生可用的碼，再與保留的原始碼比對。作者強調這只證明受控目標上的調查效率，並非還原原始碼，也不代表通用成功率。文中另提及 DX-Ball 音效平衡函式重建案例。",
+      "target": "Rob Shocks 自製的去符號 Mac App",
+      "metric": "agent 推斷出隱藏解鎖規則並產生 App 接受的碼，與原始碼比對相符",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-13",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://helloaitech.com/blog/rea-reverse-engineer-anything/",
@@ -2108,7 +2318,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://www.mindstudio.ai/blog/reverse-engineer-anything-mcp",
@@ -2118,7 +2334,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://www.openagentskill.com/blog/rea-reverse-engineering-skill-guide",
@@ -2128,7 +2350,17 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "title_zh": "REA 的 Skill、MCP 設定與第一個調查流程指南",
+      "summary": "說明如何在 Codex、Claude Code、Cursor 中設定 REA 6.4.0，並區分 Skill、MCP server 與 CLI 各自的作用。指南建議先選定目標產物與單一行為，再依目標選擇分析引擎，並要求取得可檢驗的證據。內容為教學與設定說明，沒有對具體目標的分析成果。",
+      "target": "REA 的 Skill、MCP 與 CLI 設定流程",
+      "metric": "提供 REA 6.4.0 在三種 agent 上的設定與首次調查流程",
+      "category": "教學",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-10-13",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://fanweibin.cn/posts/2026-10-11-rea-agent-reverse-engineering-evidence",
@@ -2138,7 +2370,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://aiwebcool.com/zh/posts/rea-reverse-engineer-agent-resource",
@@ -2148,7 +2386,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://data-litmus.com/articles/software/2026-10-12-rea-ai-reverse-engineering/",
@@ -2158,7 +2402,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "ja",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://visionhub.jp/presentations/day_slides/day_slide_2026_10_12.html",
@@ -2168,7 +2418,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "ja",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://x.com/AIWarper/status/2109075374189781238",
@@ -2183,22 +2439,22 @@
         "views": 39304
       },
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "title_zh": "用 REA 辨識遊戲所用的 Unity 版本",
+      "summary": "作者實測 REA，稱它成功辨識出某款遊戲建構所用的 Unity 版本，並評價效果極佳。內容節錄只有開頭一句，沒有提供其他證據或細節。",
+      "target": "某款 Unity 遊戲",
+      "metric": "辨識出遊戲使用的 Unity 版本",
+      "category": "Native / 遊戲",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-13",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://github.com/anuzdhk/Limestone",
       "title": "anuzdhk/Limestone: a Image Enhancement Tool",
-      "author": "anuzdhk",
-      "date": "2026-10-10",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 1,
-      "pop": {
-        "stars": 1
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: .agents/skills/reverse-engineer-anything/SKILL.md",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -2218,22 +2474,22 @@
       "needsRepoKind": true,
       "evidence": "Files that mention REA: plugins/rea/skills/reverse-engineer-anything/SKILL.md, plugins/rea/plugin.json, plugins/rea/.codex-plugin/plugin.json, plugins/rea/mcp.json",
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "title_zh": "為 Codex 打包 REA 的獨立外掛市集",
+      "summary": "dazeb 建立獨立的 Codex 外掛市集，內含調查用 skill 與固定版本 rea-agents@6.3.0 的本機 MCP 連線。它是整合包裝，不是 REA 分析引擎的分支，也非官方發行版，並附安裝步驟與需求說明。",
+      "target": "Codex 與 REA（rea-agents 6.3.0）的整合",
+      "metric": "外掛 0.1.0，固定 rea-agents@6.3.0 的 MCP 伺服器",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-10-13",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://github.com/akinDenken/rea-personal",
       "title": "akinDenken/rea-personal",
-      "author": "akinDenken",
-      "date": "2026-10-10",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 0,
-      "pop": {
-        "stars": 0
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: .agents/skills/reverse-engineer-anything/SKILL.md, package.json",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -2252,7 +2508,13 @@
         "views": 51
       },
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://andrew.ooo/posts/rea-review-reverse-engineer-anything-ai-agents-mcp/",
@@ -2262,7 +2524,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://capitalandcompute.net/blog/what-is-rea-reverse-engineer-anything/",
@@ -2272,7 +2540,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://zeli.app/ja/story/50028275",
@@ -2282,17 +2556,18 @@
       "source": "Web",
       "kind": "文章",
       "lang": "ja",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://github.com/morluto/awesome-reverse-engineering",
-      "title": "morluto/awesome-reverse-engineering: Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
-      "author": "morluto",
-      "date": "2026-10-09",
+      "title": "morluto/awesome-reverse-engineering: Curated reverse-engineering tools and learning resources for binaries, apps, firmwa",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 319,
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -2301,17 +2576,7 @@
     {
       "url": "https://github.com/science-prince/rea",
       "title": "science-prince/rea: Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "author": "science-prince",
-      "date": "2026-10-09",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 0,
-      "pop": {
-        "stars": 0
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: skill-src/reverse-engineer-anything/SKILL.md, package.json",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -2372,17 +2637,7 @@
     {
       "url": "https://github.com/Wjb20043/rea",
       "title": "Wjb20043/rea",
-      "author": "Wjb20043",
-      "date": "2026-10-09",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 0,
-      "pop": {
-        "stars": 0
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: package.json",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -2401,7 +2656,13 @@
         "views": 1344
       },
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://explainx.ai/blog/rea-reverse-engineering-as-a-prompt-dx-ball-notion-th04-case-studies-2026",
@@ -2411,7 +2672,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://aifrontierpost.com/articles/rea-reverse-engineer-anything-tutorial/",
@@ -2421,7 +2688,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://blog.mushroom.cv/blog/rea-reverse-engineering-mcp-server-ai-agents-binary-analysis/",
@@ -2431,7 +2704,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "工具鏈",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://wangruofeng007.com/blog/2026-10/rea-reverse-engineering-deep-dive/",
@@ -2441,7 +2720,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://github.com/NabilRFG12/Reverse-Engineer-anything",
@@ -2472,17 +2757,7 @@
     {
       "url": "https://github.com/THEjacob1000/dotfiles",
       "title": "THEjacob1000/dotfiles",
-      "author": "THEjacob1000",
-      "date": "2026-10-08",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 0,
-      "pop": {
-        "stars": 0
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: .agents/skills/reverse-engineer-anything/SKILL.md, .claude/skills/reverse-engineer-anything/SKILL.md",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -2490,18 +2765,8 @@
     },
     {
       "url": "https://github.com/bioassembly/antigravity-sage",
-      "title": "bioassembly/antigravity-sage: Antigravity SAGE (State-of-the-Art Agentic Genomics & Engineering Harness): A reproducible, high-performance configuration harness for Google Antigravity CLI (agy) and Antigravity 2.0, engineered to match and exceed the capabilities of modern agentic coding and bioinformatics harnesses.",
-      "author": "bioassembly",
-      "date": "2026-10-08",
+      "title": "bioassembly/antigravity-sage: Antigravity SAGE (State-of-the-Art Agentic Genomics & Engineering Harness): A reproducible",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 0,
-      "pop": {
-        "stars": 0
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: skills/reverse-engineer-anything/SKILL.md",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -2515,7 +2780,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://www.devpik.com/open-source/rea",
@@ -2525,7 +2796,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "工具鏈",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://alishangtian.com/article/user-4a0058d3c3",
@@ -2535,48 +2812,27 @@
       "source": "Web",
       "kind": "文章",
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://github.com/Maftuuh1922/neovrach_Agent",
-      "title": "Maftuuh1922/neovrach_Agent: AI agent by NeovarchLabs that runs on your own PC (Windows, Linux) and is controlled from your Android phone. Works with any OpenAI-compatible model.",
-      "author": "Maftuuh1922",
-      "date": "2026-10-07",
+      "title": "Maftuuh1922/neovrach_Agent: AI agent by NeovarchLabs that runs on your own PC (Windows, Linux) and is controlled from yo",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 1,
-      "pop": {
-        "stars": 1
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: core/neovarch/skillpack/investigasi/SKILL.md, core/neovarch/skillpack/investigasi/upstream/SKILL.md",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
-      "title_zh": "Neovarch Agent：可從 Android 遙控的本機 AI 代理",
-      "summary": "這是在自己電腦上執行、由手機遙控的通用 AI 代理，支援任何 OpenAI 相容模型。內容與 REA 逆向工具無關。",
-      "target": "Neovarch Agent",
-      "metric": "無逆向相關成果",
-      "category": "工具鏈",
-      "status": "shipped",
-      "wow": 1,
       "scored": "2026-10-13",
       "scored_by": "sonnet"
     },
     {
       "url": "https://github.com/Lin6932271/ai-skill-library",
       "title": "Lin6932271/ai-skill-library: AI 开发的 Windows 桌面技能管理工具：技能安装、切换、导入、备份与撤销。",
-      "author": "Lin6932271",
-      "date": "2026-10-07",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 1,
-      "pop": {
-        "stars": 1
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: skills/shared/reverse-engineer-anything/SKILL.md",
-      "lang": "zh",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -2590,22 +2846,18 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://github.com/irfanfaraaz/claude-kit",
       "title": "irfanfaraaz/claude-kit: My Claude Code setup: mods, skills and plugins",
-      "author": "irfanfaraaz",
-      "date": "2026-10-05",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 0,
-      "pop": {
-        "stars": 0
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: skills/reverse-engineer-anything/SKILL.md",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -2613,18 +2865,8 @@
     },
     {
       "url": "https://github.com/JYeswak/omp-kit-companion",
-      "title": "JYeswak/omp-kit-companion: Opt-in local-first companion for oh-my-pi: tested rules, a versioned CLI, and native-certified releases.",
-      "author": "JYeswak",
-      "date": "2026-09-29",
+      "title": "JYeswak/omp-kit-companion: Opt-in local-first companion for oh-my-pi: tested rules, a versioned CLI, and native-certifie",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 0,
-      "pop": {
-        "stars": 0
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: skills/fleet-restart/SKILL.md",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -2632,18 +2874,8 @@
     },
     {
       "url": "https://github.com/Osama-Alzahrani-UQU/OmniAgentic",
-      "title": "Osama-Alzahrani-UQU/OmniAgentic: 🚀 Enterprise Multi-Agent Operating Framework: 404 curated production skills & 120 specialized subagents for Antigravity, Claude, and Codex with 70% token compression.",
-      "author": "Osama-Alzahrani-UQU",
-      "date": "2026-09-27",
+      "title": "Osama-Alzahrani-UQU/OmniAgentic: 🚀 Enterprise Multi-Agent Operating Framework: 404 curated production skills & 120 spec",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 2,
-      "pop": {
-        "stars": 2
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: skills/reverse-engineer-anything/SKILL.md",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -2651,18 +2883,8 @@
     },
     {
       "url": "https://github.com/ussmarines/.chf-editor",
-      "title": "ussmarines/.chf-editor: Star Citizen CHF v7/v8 character preset inspector/editor — Python GUI + CLI for DNA, ItemPorts, materials, diffing and controlled variants.",
-      "author": "ussmarines",
-      "date": "2026-09-27",
+      "title": "ussmarines/.chf-editor: Star Citizen CHF v7/v8 character preset inspector/editor — Python GUI + CLI for DNA, ItemPorts, ",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 1,
-      "pop": {
-        "stars": 1
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: .agents/skills/reverse-engineer-anything/SKILL.md",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -2697,17 +2919,7 @@
     {
       "url": "https://github.com/Mina-kk/yuedu-MCP",
       "title": "Mina-kk/yuedu-MCP",
-      "author": "Mina-kk",
-      "date": "2026-09-05",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 21,
-      "pop": {
-        "stars": 21
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: app/src/main/assets/skills/reverse-engineering/references/reverse-engineer-anything__SKILL.md",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -2716,17 +2928,7 @@
     {
       "url": "https://github.com/supplefrog/agent-sync",
       "title": "supplefrog/agent-sync: Syncs behaviors across your AI agents.",
-      "author": "supplefrog",
-      "date": "2026-08-28",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 1,
-      "pop": {
-        "stars": 1
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: skills/reverse-engineer-anything/SKILL.md",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -2761,17 +2963,7 @@
     {
       "url": "https://github.com/nafeeur/MaskShift",
       "title": "nafeeur/MaskShift: Maximalist harness ",
-      "author": "nafeeur",
-      "date": "2026-08-20",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 2,
-      "pop": {
-        "stars": 2
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: skills/reverse-engineering/SKILL.md",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -2779,18 +2971,8 @@
     },
     {
       "url": "https://github.com/Leostruka/devin-bundle",
-      "title": "Leostruka/devin-bundle: Devin CLI bundle: 54 skills, 13 rules, 5 subagent profiles, 4 hooks, cross-platform installer. Adapts 9/9 PrimeAgent/RLM features with verified evidence.",
-      "author": "Leostruka",
-      "date": "2026-08-11",
+      "title": "Leostruka/devin-bundle: Devin CLI bundle: 54 skills, 13 rules, 5 subagent profiles, 4 hooks, cross-platform installer. A",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 0,
-      "pop": {
-        "stars": 0
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: skills/re-binary/SKILL.md, .devin/ledgers/red-team-skill.md",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -2798,18 +2980,8 @@
     },
     {
       "url": "https://github.com/Who-Visions/NouGenShards",
-      "title": "Who-Visions/NouGenShards: Local-first AI memory for coding agents. NouGenShards stores reusable \"shards\" in a local SQLite + FTS5 database with outcome-weighted retrieval, so agents recall what worked instead of re-prompting.  Your agents have prompts — mine have shards.",
-      "author": "Who-Visions",
-      "date": "2026-06-09",
+      "title": "Who-Visions/NouGenShards: Local-first AI memory for coding agents. NouGenShards stores reusable \"shards\" in a local SQLi",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 6,
-      "pop": {
-        "stars": 6
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: skills/ghidra/SKILL.md",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -2817,18 +2989,8 @@
     },
     {
       "url": "https://github.com/niki914/zafiro",
-      "title": "niki914/zafiro: Open-source BYOK AI agent for Android. Full phone control, native Shell & Python 3, with Skills and MCP support. Built with Material 3 Expressive. Works via Shizuku (root optional). Bring any provider: OpenRouter, Ollma, and more.",
-      "author": "niki914",
-      "date": "2026-06-05",
+      "title": "niki914/zafiro: Open-source BYOK AI agent for Android. Full phone control, native Shell & Python 3, with Skills and MCP ",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 248,
-      "pop": {
-        "stars": 248
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: .agents/skills/assistant-add-support/SKILL.md",
-      "lang": "zh",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -2836,18 +2998,8 @@
     },
     {
       "url": "https://github.com/lennoxsaint/Threadify-workflows",
-      "title": "lennoxsaint/Threadify-workflows: Local-first buyer-conversation workflows for AI agents: clarify your offer, prepare useful replies, and review every next step.",
-      "author": "lennoxsaint",
-      "date": "2026-06-05",
+      "title": "lennoxsaint/Threadify-workflows: Local-first buyer-conversation workflows for AI agents: clarify your offer, prepare use",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 4,
-      "pop": {
-        "stars": 4
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: skills/threadify-reverse-engineer-my-app/SKILL.md, plugins/claude/skills/threadify-reverse-engineer-my-app/SKILL.md, plugins/openai/skills/threadify-reverse-engineer-my-app/SKILL.md, plugins/threadify/skills/threadify-reverse-engineer-my-app/SKILL.md",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -2856,17 +3008,7 @@
     {
       "url": "https://github.com/jacobsanto/toolbox",
       "title": "jacobsanto/toolbox",
-      "author": "jacobsanto",
-      "date": "2026-06-03",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 1,
-      "pop": {
-        "stars": 1
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: .claude/skills/reverse-engineer-anything/SKILL.md, .mcp.json",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -2875,43 +3017,16 @@
     {
       "url": "https://github.com/SummerSec/DeepSonar",
       "title": "SummerSec/DeepSonar: DeepSonar 深流循迹 · 让复杂执行持续收敛 ",
-      "author": "SummerSec",
-      "date": "2026-05-18",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 8,
-      "pop": {
-        "stars": 8
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: skills/deepsonar-rea-cli/SKILL.md",
-      "lang": "zh",
       "found": "2026-10-13",
       "relevant": false,
-      "title_zh": "DeepSonar 安全研究 AI 執行平台",
-      "summary": "DeepSonar 是以沙箱、Canvas 與 Capability Pack 構成的 AI 原生執行平台，用於安全研究與工程任務。節錄內容完全沒有提到 REA 或其逆向工具的使用。",
-      "target": "DeepSonar 執行平台",
-      "metric": "節錄中未提及 REA",
-      "category": "工具鏈",
-      "status": "shipped",
-      "wow": 1,
       "scored": "2026-10-13",
       "scored_by": "sonnet"
     },
     {
       "url": "https://github.com/s0613/S-skills",
       "title": "s0613/S-skills",
-      "author": "s0613",
-      "date": "2026-05-12",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 1,
-      "pop": {
-        "stars": 1
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: skills/sj-rea/SKILL.md, CLAUDE.md",
-      "lang": "ko",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -2920,17 +3035,7 @@
     {
       "url": "https://github.com/svssdeva/agentic-skills",
       "title": "svssdeva/agentic-skills: Skills",
-      "author": "svssdeva",
-      "date": "2026-04-20",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 1,
-      "pop": {
-        "stars": 1
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: engineering/reverse-engineer-anything/SKILL.md",
-      "lang": "en",
       "found": "2026-10-13",
       "relevant": false,
       "scored": "2026-10-13",
@@ -2944,7 +3049,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://www.eigent.ai/zh-CN/blog/rea-reverse-engineer-anything",
@@ -2954,7 +3065,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://youtu.be/tdIPXwXfusc",
@@ -3206,7 +3323,13 @@
       "kind": "影片",
       "score": 147,
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://youtu.be/_dGuqmSuer0",
@@ -3217,7 +3340,13 @@
       "kind": "影片",
       "score": 4598,
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://youtu.be/H4Rc_joGGuw",
@@ -3228,7 +3357,13 @@
       "kind": "影片",
       "score": 1,
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://youtu.be/6cDzLcfOjoo",
@@ -3239,7 +3374,13 @@
       "kind": "影片",
       "score": 833,
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://ai-muninn.com/en/blog/reverse-engineer-own-ios-app-rea-ghidra",
@@ -3249,7 +3390,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://ai.thesatyajit.com/articles/rea-reverse-engineer-anything",
@@ -3259,7 +3406,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "工具鏈",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://cldnavi.com/en/blog/rea-reverse-engineer-anything-2026/",
@@ -3269,7 +3422,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://reverseengineeranything.app/get-started/",
@@ -3279,7 +3438,17 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "title_zh": "REA 官方安裝與 coding agent 設定頁",
+      "summary": "這是 REA 官網的入門頁面，用於安裝 REA 並設定 coding agent。節錄沒有提供實際內容，也沒有任何對具體目標的分析成果。",
+      "target": "REA 安裝與 coding agent 設定",
+      "metric": "無具體成果，僅為安裝入口頁",
+      "category": "教學",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-10-13",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://reverseengineeranything.app/",
@@ -3289,7 +3458,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://followagents.com/en/agents/rea",
@@ -3299,7 +3474,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://ai-tldr.dev/tools/rea/",
@@ -3309,7 +3490,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://octohz.com/p/2324",
@@ -3319,7 +3506,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "zh",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://reverseengineeranything.app/ja/",
@@ -3329,7 +3522,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "ja",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "工具鏈",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://reverseengineeranything.app/ja/first-investigation/",
@@ -3339,7 +3538,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "ja",
-      "found": "2026-10-13"
+      "found": "2026-10-13",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-13",
+      "scored_by": "jev"
     },
     {
       "url": "https://github.com/SilenWang/rea-pixi-env",
@@ -3945,21 +4150,9 @@
     {
       "url": "https://bsky.app/profile/kmi-ne.bsky.social/post/3mxo2orxlyc2p",
       "title": "了解",
-      "author": "kmi-ne.bsky.social",
-      "date": "2026-10-12",
       "source": "Bluesky",
-      "kind": "貼文",
-      "score": 0,
-      "lang": "ja",
       "found": "2026-10-12",
       "relevant": false,
-      "title_zh": "內容無法取得的 Bluesky 貼文",
-      "summary": "此貼文需登入才能檢視，擷取內容只有 Bluesky 的登入提示與熱門話題清單，沒有任何與 REA 相關的資訊。無法判斷作者做了什麼。",
-      "target": "無",
-      "metric": "無可判斷內容",
-      "category": "報導 / 評論",
-      "status": "reported",
-      "wow": 1,
       "scored": "2026-10-12",
       "scored_by": "sonnet"
     },
@@ -4410,17 +4603,8 @@
     },
     {
       "url": "https://x.com/sawzhang_/status/2109578895569846376",
-      "title": "开源了 REA 学习项目：中文源码笔记 + 可运行实验。第二轮跑通 JavaScript 版本比较，重点理解实体身份、证据校验与覆盖边界：静态图的增删不能直接当作业务功能变化。https://github.com/sawzhang/rea-learning",
-      "author": "@sawzhang_",
-      "date": "2026-10-12",
+      "title": "开源了 REA 学习项目：中文源码笔记 + 可运行实验。第二轮跑通 JavaScript 版本比较，重点理解实体身份、证据校验与覆盖边界：静态图的增删不能直接当作业务功能变化。https://github.com/sawzhang/rea-",
       "source": "X",
-      "kind": "貼文",
-      "score": 0,
-      "pop": {
-        "likes": 0,
-        "views": 3
-      },
-      "lang": "zh",
       "found": "2026-10-12",
       "relevant": false,
       "scored": "2026-10-12",
@@ -4811,21 +4995,9 @@
     {
       "url": "https://bsky.app/profile/hatena-bookmark.bsky.social/post/3mxl34i5jvi22",
       "title": "#🔖テクノロジー",
-      "author": "hatena-bookmark.bsky.social",
-      "date": "2026-10-11",
       "source": "Bluesky",
-      "kind": "貼文",
-      "score": 0,
-      "lang": "ja",
       "found": "2026-10-12",
       "relevant": false,
-      "title_zh": "Hatena 書籤科技分類貼文，內容無法檢視",
-      "summary": "這是 Hatena 書籤在 Bluesky 的科技分類貼文，作者設定為登入後才能檢視。節錄只看得到 Bluesky 的熱門話題列表，沒有任何和 REA 相關的內容。",
-      "target": "無",
-      "metric": "內容與 REA 無關或無法檢視",
-      "category": "報導 / 評論",
-      "status": "reported",
-      "wow": 1,
       "scored": "2026-10-12",
       "scored_by": "claude"
     },
@@ -4895,42 +5067,18 @@
     {
       "url": "https://bsky.app/profile/ghtrend.newsmast.social.ap.brid.gy/post/3mxmjbejk7vp2",
       "title": "📈 Today's GitHub Trending:",
-      "author": "ghtrend.newsmast.social.ap.brid.gy",
-      "date": "2026-10-11",
       "source": "Bluesky",
-      "kind": "貼文",
-      "score": 0,
-      "lang": "en",
       "found": "2026-10-12",
       "relevant": false,
-      "title_zh": "GitHub Trending 每日榜單貼文，未提供內容",
-      "summary": "貼文標題僅為「今日 GitHub Trending」，內容節錄為空。沒有任何關於 REA 的使用或成果描述，無法判斷與 REA 逆向工具相關。",
-      "target": "無",
-      "metric": "無實質內容",
-      "category": "報導 / 評論",
-      "status": "reported",
-      "wow": 1,
       "scored": "2026-10-12",
       "scored_by": "sonnet"
     },
     {
       "url": "https://bsky.app/profile/strictlychristo.bsky.social/post/3mxl2dmfnj22a",
       "title": "When the government finally gets around to regulating AI, this will probably be the first thing they outlaw.",
-      "author": "strictlychristo.bsky.social",
-      "date": "2026-10-11",
       "source": "Bluesky",
-      "kind": "貼文",
-      "score": 25,
-      "lang": "en",
       "found": "2026-10-12",
       "relevant": false,
-      "title_zh": "評論 AI 被監管時可能首先被禁止的事物",
-      "summary": "貼文是對 AI 監管的評論，內容節錄為空，未提及 REA 或任何逆向工程的實際使用。無法確認與 REA 工具有關。",
-      "target": "無",
-      "metric": "無實質內容",
-      "category": "報導 / 評論",
-      "status": "reported",
-      "wow": 1,
       "scored": "2026-10-12",
       "scored_by": "sonnet"
     },
@@ -5300,22 +5448,10 @@
     },
     {
       "url": "https://github.com/ReverseEngineerAnything/REA",
-      "title": "ReverseEngineerAnything/REA: REA Reverse Engineer Anything 6.3.0 is the agent RE desk: github rea, rea github, rea reverse engineer, reverse engineer anything, rea mcp. Oct 10 2026. Windows 10/11 x64. Official free download. Local zip. Download:🡇",
-      "author": "ReverseEngineerAnything",
-      "date": "2026-10-11",
+      "title": "ReverseEngineerAnything/REA: REA Reverse Engineer Anything 6.3.0 is the agent RE desk: github rea, rea github, rea rever",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 10,
-      "lang": "en",
       "found": "2026-10-12",
       "relevant": false,
-      "title_zh": "冒用 REA 名義的 Windows 下載頁（疑似 SEO 垃圾倉庫）",
-      "summary": "此倉庫以關鍵字堆砌的標題與 Windows zip 下載宣傳，內容僅是功能清單與安裝步驟。未呈現任何實際逆向分析成果，並非官方專案，疑似垃圾或惡意下載頁。",
-      "target": "無（非 REA 的實際使用）",
-      "metric": "無實際分析成果",
-      "category": "報導 / 評論",
-      "status": "reported",
-      "wow": 1,
       "scored": "2026-10-12",
       "scored_by": "sonnet"
     },
@@ -6336,21 +6472,9 @@
     {
       "url": "https://bsky.app/profile/oludai.bsky.social/post/3mxiffzaup22s",
       "title": "📡 Detected by our signals today: rea",
-      "author": "oludai.bsky.social",
-      "date": "2026-10-10",
       "source": "Bluesky",
-      "kind": "貼文",
-      "score": 1,
-      "lang": "en",
       "found": "2026-10-12",
       "relevant": false,
-      "title_zh": "訊號偵測機器人提到關鍵字 rea",
-      "summary": "貼文只是自動訊號偵測的通知，關鍵字為 rea，內容節錄為空。無法確認與 REA 逆向工具有關。",
-      "target": "無",
-      "metric": "無",
-      "category": "報導 / 評論",
-      "status": "reported",
-      "wow": 1,
       "scored": "2026-10-12",
       "scored_by": "sonnet"
     },
@@ -6767,25 +6891,9 @@
     {
       "url": "https://www.reddit.com/r/futurepredicted/comments/1x2ksw9/github_morlutorea_reverse_engineer_anything_with/",
       "title": "GitHub - morluto/rea: Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "author": "AdhesivenessLatter57",
-      "date": "2026-10-10",
       "source": "Reddit r/futurepredicted",
-      "kind": "討論",
-      "score": 1,
-      "pop": {
-        "upvotes": 1,
-        "comments": 0
-      },
-      "lang": "en",
       "found": "2026-10-12",
       "relevant": false,
-      "title_zh": "論述 AI 直接產生二進位碼取代高階語言的未來觀點",
-      "summary": "貼文是一篇關於 AI 將繞過編譯器、直接生成機器碼的未來展望，標題帶有 REA 的 GitHub 連結但內文完全沒有提到或使用 REA。內容屬於推測性評論，沒有實際逆向成果。",
-      "target": "無（未來展望文章）",
-      "metric": "無具體成果，純觀點",
-      "category": "報導 / 評論",
-      "status": "reported",
-      "wow": 1,
       "scored": "2026-10-12",
       "scored_by": "sonnet"
     },
@@ -6913,21 +7021,9 @@
     {
       "url": "https://bsky.app/profile/kerry.bsky.social/post/3mxhugpoyec23",
       "title": "I suppose this was inevitable...",
-      "author": "kerry.bsky.social",
-      "date": "2026-10-09",
       "source": "Bluesky",
-      "kind": "貼文",
-      "score": 0,
-      "lang": "en",
       "found": "2026-10-12",
       "relevant": false,
-      "title_zh": "Bluesky 貼文：「我想這是遲早的事⋯」",
-      "summary": "貼文只有一句感嘆，內容中沒有提到 REA 或任何逆向工程的實際使用。無法確認與 REA 相關。",
-      "target": "無",
-      "metric": "無具體內容",
-      "category": "報導 / 評論",
-      "status": "reported",
-      "wow": 1,
       "scored": "2026-10-12",
       "scored_by": "sonnet"
     },
@@ -6955,42 +7051,18 @@
     {
       "url": "https://bsky.app/profile/ghtrend.newsmast.social.ap.brid.gy/post/3mxhkgvolgs52",
       "title": "📈 Today's GitHub Trending:",
-      "author": "ghtrend.newsmast.social.ap.brid.gy",
-      "date": "2026-10-09",
       "source": "Bluesky",
-      "kind": "貼文",
-      "score": 1,
-      "lang": "en",
       "found": "2026-10-12",
       "relevant": false,
-      "title_zh": "GitHub 每日趨勢貼文，內容為空",
-      "summary": "這是一則 Bluesky 機器人發布的「今日 GitHub Trending」貼文，沒有提供任何內容節錄。無法判斷與 REA 的關聯，也沒有任何實際使用 REA 的成果。",
-      "target": "無",
-      "metric": "無內容可評估",
-      "category": "報導 / 評論",
-      "status": "reported",
-      "wow": 1,
       "scored": "2026-10-12",
       "scored_by": "sonnet"
     },
     {
       "url": "https://bsky.app/profile/affreuxjojo.bsky.social/post/3mxhj2d6rxk2g",
-      "title": "clairement. Si Gougoule s'associe avec Unity dans ce qui ressemble a du Robblox-IA  avec \"PLayground\"(qu'est-ce-qui pourrait mal se passer ?",
-      "author": "affreuxjojo.bsky.social",
-      "date": "2026-10-09",
+      "title": "clairement. Si Gougoule s'associe avec Unity dans ce qui ressemble a du Robblox-IA  avec \"PLayground\"(qu'est-ce-qui pour",
       "source": "Bluesky",
-      "kind": "貼文",
-      "score": 0,
-      "lang": "fr",
       "found": "2026-10-12",
       "relevant": false,
-      "title_zh": "評論 Google 與 Unity 合作推出 AI 遊戲平台",
-      "summary": "作者以法文評論 Google 與 Unity 合作的「Playground」，類比為 AI 版 Roblox。內容與 REA 逆向工程工具無關。",
-      "target": "Google × Unity Playground",
-      "metric": "與 REA 無關",
-      "category": "報導 / 評論",
-      "status": "reported",
-      "wow": 1,
       "scored": "2026-10-12",
       "scored_by": "sonnet"
     },
@@ -7060,21 +7132,9 @@
     {
       "url": "https://bsky.app/profile/oludai.bsky.social/post/3mxfyamlg7m2p",
       "title": "📡 Detected by our signals today: rea",
-      "author": "oludai.bsky.social",
-      "date": "2026-10-09",
       "source": "Bluesky",
-      "kind": "貼文",
-      "score": 1,
-      "lang": "en",
       "found": "2026-10-12",
       "relevant": false,
-      "title_zh": "訊號偵測機器人貼文，僅出現關鍵字 rea",
-      "summary": "內容為空，只有自動偵測訊號的標題。無法確認與 REA 逆向工具有關，也沒有任何實際使用或成果。",
-      "target": "無",
-      "metric": "無實質內容",
-      "category": "報導 / 評論",
-      "status": "reported",
-      "wow": 1,
       "scored": "2026-10-12",
       "scored_by": "sonnet"
     },
@@ -7377,143 +7437,55 @@
     },
     {
       "url": "https://github.com/decentespresso/streamline-setting",
-      "title": "decentespresso/streamline-setting: Streamline's settings page as a standalone REA/Decaid plugin — use it with any skin. Ported from decentespresso/streamline-js releases.",
-      "author": "decentespresso",
-      "date": "2026-09-11",
+      "title": "decentespresso/streamline-setting: Streamline's settings page as a standalone REA/Decaid plugin — use it with any skin. ",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 0,
-      "lang": "en",
       "found": "2026-10-12",
       "relevant": false,
-      "title_zh": "Decent Espresso 的 Streamline 設定頁 Decaid 外掛",
-      "summary": "此專案把 Streamline 的咖啡機設定頁移植為獨立的 Decaid 外掛，可搭配任何 skin 使用。這裡的 REA 指 Decent Espresso 的外掛格式（.reaplugin），與逆向工程工具 REA 無關。",
-      "target": "Decent Espresso 咖啡機設定頁外掛",
-      "metric": "以 Decaid 外掛 API 安裝並開啟設定頁",
-      "category": "工具鏈",
-      "status": "shipped",
-      "wow": 1,
       "scored": "2026-10-12",
       "scored_by": "sonnet"
     },
     {
       "url": "https://www.reddit.com/r/shitrentals/comments/1vrcx9t/broke_my_nsw_lease_after_9_days_over_rea_not/",
-      "title": "Broke my NSW lease after ~9 days over REA not cleaning and maintaining the place, agent is taking me to NCAT for the break fee. Do I have a case?",
-      "author": "Realistic-Ad8393",
-      "date": "2026-08-18",
+      "title": "Broke my NSW lease after ~9 days over REA not cleaning and maintaining the place, agent is taking me to NCAT for the bre",
       "source": "Reddit r/shitrentals",
-      "kind": "討論",
-      "score": 0,
-      "pop": {
-        "upvotes": 0,
-        "comments": 39
-      },
-      "lang": "en",
       "found": "2026-10-12",
       "relevant": false,
-      "title_zh": "NSW 租客因房仲 REA 未清潔房屋而提前解約並遭告上 NCAT",
-      "summary": "這是澳洲 NSW 租屋糾紛，REA 在此指房地產仲介，與逆向工程工具 REA 無關。",
-      "target": "無",
-      "metric": "無",
-      "category": "報導 / 評論",
-      "status": "reported",
-      "wow": 1,
       "scored": "2026-10-12",
       "scored_by": "sonnet"
     },
     {
       "url": "https://qiita.com/soyaoki/items/f292db7c6d82f7764b26",
       "title": "AIエージェント × 交通事故統計で見えた「データ分析エージェント」の可能性と限界",
-      "author": "soyaoki",
-      "date": "2026-05-05",
       "source": "Qiita",
-      "kind": "文章",
-      "score": 1,
-      "lang": "ja",
       "found": "2026-10-12",
       "relevant": false,
-      "title_zh": "用 AI 代理分析交通事故統計資料",
-      "summary": "文章以 OpenAI Agents SDK 搭配 6 層脈絡設計，分析警察廳交通事故統計。其中提到的 REA 是 Meta 的 Ranking Engineer Agent，與逆向工程工具 REA 無關。",
-      "target": "日本交通事故統計（約 60 萬件）",
-      "metric": "與 REA 逆向工具無關",
-      "category": "報導 / 評論",
-      "status": "reported",
-      "wow": 1,
       "scored": "2026-10-12",
       "scored_by": "sonnet"
     },
     {
       "url": "https://www.reddit.com/r/shitrentals/comments/1ppk9oq/reposting_from_perths_community_subreddit_a/",
-      "title": "Reposting from Perth's community sub-reddit. A redditor spotted a flyer advertising a Yodelling competition. The usual prank... call the number, the winner gets $200. Turns out the number is for a REA agent.",
-      "author": "Interesting_Ad_1465",
-      "date": "2025-12-18",
+      "title": "Reposting from Perth's community sub-reddit. A redditor spotted a flyer advertising a Yodelling competition. The usual p",
       "source": "Reddit r/shitrentals",
-      "kind": "討論",
-      "score": 603,
-      "pop": {
-        "upvotes": 603,
-        "comments": 13
-      },
-      "lang": "en",
       "found": "2026-10-12",
       "relevant": false,
-      "title_zh": "Reddit 貼文提到 REA 房仲電話惡作劇，與逆向工具無關",
-      "summary": "貼文內容是珀斯社群的唱約德爾歌比賽傳單惡作劇，電話號碼其實是房地產 REA 的仲介。與 morluto/rea 逆向工程工具完全無關。",
-      "target": "無",
-      "metric": "同名縮寫（房地產 REA）",
-      "category": "報導 / 評論",
-      "status": "reported",
-      "wow": 1,
       "scored": "2026-10-12",
       "scored_by": "sonnet"
     },
     {
       "url": "https://www.reddit.com/r/AusFinance/comments/132lv1n/agent_is_pissing_me_off_by_constantly_trying_to/",
-      "title": "Agent is pissing me off by constantly trying to get me to jack up rent \"to current market conditions\". Is there anything to restrict me from offering a private arrangement to my (currently REA-managed) tenants at the end of this lease?",
-      "author": "Ozzzie_Mandrill",
-      "date": "2023-04-29",
+      "title": "Agent is pissing me off by constantly trying to get me to jack up rent \"to current market conditions\". Is there anything",
       "source": "Reddit r/AusFinance",
-      "kind": "討論",
-      "score": 450,
-      "pop": {
-        "upvotes": 450,
-        "comments": 231
-      },
-      "lang": "en",
       "found": "2026-10-12",
       "relevant": false,
-      "title_zh": "澳洲房東詢問能否繞過 REA 房仲與租客私下續約",
-      "summary": "這是澳洲房地產仲介（REA）管理租約的租屋討論，與逆向工程工具 REA 無關。",
-      "target": "無",
-      "metric": "無",
-      "category": "報導 / 評論",
-      "status": "reported",
-      "wow": 1,
       "scored": "2026-10-12",
       "scored_by": "sonnet"
     },
     {
       "url": "https://www.reddit.com/r/newzealand/comments/jnsebg/apparently_you_can_leak_private_medical/",
-      "title": "Apparently you can leak private medical information to the press for personal gain and still meet the fit and proper person, and honesty requirements to be registered as a real estate agent by the REA",
-      "author": "ExpensiveCancel6",
-      "date": "2020-11-04",
+      "title": "Apparently you can leak private medical information to the press for personal gain and still meet the fit and proper per",
       "source": "Reddit r/newzealand",
-      "kind": "討論",
-      "score": 810,
-      "pop": {
-        "upvotes": 810,
-        "comments": 112
-      },
-      "lang": "en",
       "found": "2026-10-12",
       "relevant": false,
-      "title_zh": "紐西蘭房地產仲介監管機構 REA 註冊資格爭議",
-      "summary": "這是紐西蘭房地產仲介監管機構（Real Estate Authority）的新聞討論，與逆向工程工具 REA 無關。",
-      "target": "無",
-      "metric": "無",
-      "category": "報導 / 評論",
-      "status": "reported",
-      "wow": 1,
       "scored": "2026-10-12",
       "scored_by": "sonnet"
     },
@@ -8421,12 +8393,12 @@
         "x": 25
       },
       "scoring": {
-        "scored": 18,
+        "scored": 23,
         "jev": {
-          "low": 8,
-          "irrelevant": 33,
+          "low": 58,
+          "irrelevant": 1,
           "errors": 0,
-          "toClaude": 19
+          "toClaude": 23
         }
       }
     },

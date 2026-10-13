@@ -2595,18 +2595,18 @@
     }
   },
   "d-c12d5f21df": {
-    "hash": "ede79263d664",
+    "hash": "dda5b6f3c1ad",
     "en": {
-      "title": "Damn, REA really gets things done. I used it to take apart Screen Studio, then had Claude Code rebuild one following the rules. Half an hour to a finished video, and the demo in the article was record",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "Using REA to take apart Screen Studio, then having Claude Code rebuild it in half an hour",
+      "summary": "The target is Screen Studio, a well-known screen recording app. The author used REA to take it apart and distilled the findings into rules, then had Claude Code follow them to build a clone in about half an hour. The demo video in the article was recorded with the clone itself. The write-up is public, but the excerpt includes no code or comparison tests.",
+      "target": "Screen Studio",
+      "metric": "Rebuilt in half an hour and used to record its own demo video"
     },
     "zh-CN": {
-      "title": "卧槽，REA 是真能干活  我直接拿它拆了 Screen Studio，照着规则让 claude code 复刻了一个，半小时出片，文章里那段演示都是它自己录的 https://x.com/i/article/2109834677343432704",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "用 REA 拆解 Screen Studio，让 Claude Code 半小时复刻出片",
+      "summary": "目标是知名录屏软件 Screen Studio。作者用 REA 拆解后整理出规则，让 Claude Code 照着复刻了一个，约半小时完成，文章里的演示视频也由复刻品自己录制。成果有公开文章，但节选中没有代码或对照测试。",
+      "target": "Screen Studio",
+      "metric": "半小时复刻并自行录出演示视频"
     }
   },
   "d-c7df969fb6": {
@@ -2700,33 +2700,33 @@
     }
   },
   "d-4bc9fbfd08": {
-    "hash": "09ad90f3d3ff",
+    "hash": "4f4d377e9ca0",
     "en": {
-      "title": "100% real. It’s actually extremely good at least in this one test I did.  It was able to identify the Unity version the game was built on as",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "Using REA to identify the Unity version a game was built with",
+      "summary": "The author tried REA and says it successfully identified the Unity version used to build a certain game, rating the result excellent. The excerpt is only the opening sentence, with no other evidence or details.",
+      "target": "A Unity game",
+      "metric": "Identified the Unity version the game uses"
     },
     "zh-CN": {
-      "title": "百分之百真实。至少在我做的这次测试里，它确实非常出色。它能识别出游戏所用的 Unity 版本，并且",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "用 REA 识别游戏所用的 Unity 版本",
+      "summary": "作者实测 REA，称它成功识别出某款游戏构建所用的 Unity 版本，并评价效果极佳。内容节选只有开头一句，没有提供其他证据或细节。",
+      "target": "某款 Unity 游戏",
+      "metric": "识别出游戏使用的 Unity 版本"
     }
   },
   "d-72281941df": {
-    "hash": "a94f5e3b846e",
+    "hash": "b3507af9d360",
     "en": {
-      "title": "I reverse engineered my TV using rea ( https://github.com/morluto/rea ). Main features: - app/input switching - vo",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "Reverse-engineering my own TV with REA to get app/input switching and more",
+      "summary": "The author reverse-engineered their own TV using REA. Going by the title, they documented the main functions, including switching apps and inputs and controlling volume. The excerpt provides no test results or code as evidence.",
+      "target": "TV (smart TV)",
+      "metric": "Documented control functions such as app/input switching and volume"
     },
     "zh-CN": {
-      "title": "我对自己的电视做了逆向工程，用的是 rea（ https://github.com/morluto/rea ）。主要功能： - 切换应用/输入源 - 音",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "用 REA 逆向自家电视,实现切换 App／输入源等功能",
+      "summary": "作者对自己的电视做逆向工程并使用 REA。从标题可知整理出了切换 App 与输入源、音量等主要功能。节选中没有提供测试或代码证据。",
+      "target": "电视(智能电视)",
+      "metric": "整理出切换 App／输入源、音量等控制功能"
     }
   },
   "d-ab91cf2a47": {
@@ -2820,33 +2820,33 @@
     }
   },
   "d-78c096101a": {
-    "hash": "ff67dc2d12d9",
+    "hash": "9bf6f6e57716",
     "en": {
-      "title": "A key detail from hands-on testing: when dissecting a hardware protocol, use mitmproxy + Frida first to bypass the app's SSL pinning during capture. Many vendor apps use certificate pinning, so captur",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "Addendum: bypass SSL pinning with mitmproxy plus Frida, then use REA to dissect a proprietary protocol",
+      "summary": "This is a hands-on addendum on reversing hardware protocols. The author advises first bypassing the app's SSL pinning with mitmproxy plus Frida, since otherwise captures are mostly empty. REA can delineate field boundaries in proprietary binary protocols (such as an air conditioner's custom frame header plus CRC), but the excerpt names no specific target or result.",
+      "target": "Vendor apps and proprietary binary protocols (e.g., air conditioners)",
+      "metric": "REA can delineate field boundaries of protocols with a custom frame header plus CRC"
     },
     "zh-CN": {
-      "title": "实测补充一个关键细节：拆硬件协议时，抓包环节建议先用 mitmproxy + Frida 绕过 App 的 SSL pinning，不少厂商 App 都上了证书 pinning，直接抓大概率是空包。REA 对私有二进制协议（比如空调常用的自定义帧头 + CRC 校验）的字段边界划",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "补充：用 mitmproxy 加 Frida 绕过 SSL pinning，再用 REA 拆私有协议",
+      "summary": "这是拆硬件协议的实测补充。作者建议先用 mitmproxy 加 Frida 绕过 App 的 SSL pinning，否则抓包多半是空的。REA 能划分私有二进制协议（如空调的自定义帧头加 CRC）的字段边界，但节选中没有具体目标与结果。",
+      "target": "厂商 App 与私有二进制协议（如空调）",
+      "metric": "REA 可划分自定义帧头加 CRC 协议的字段边界"
     }
   },
   "d-8aa113d77d": {
-    "hash": "351b45995ac5",
+    "hash": "74ae2b8bd65e",
     "en": {
-      "title": "We recreated the Grok Bot source code using REA (Reverse Engineer Anything) purely for research & educational purposes.  https://anonymous.4",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "Rebuilding the Grok Bot source code with REA for research and education",
+      "summary": "The author states the work is for research and educational purposes, and used REA to rebuild the Grok Bot source code, publishing the result through an anonymous link. The excerpt gives no details on testing or verification.",
+      "target": "Grok Bot",
+      "metric": "Rebuilt the Grok Bot source code and published a link"
     },
     "zh-CN": {
-      "title": "我们仅出于研究和教育目的，使用 REA（Reverse Engineer Anything）重建了 Grok Bot 的源代码。  https://anonymous.4",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "用 REA 为研究与教育目的重建 Grok Bot 源代码",
+      "summary": "作者声明以研究与教育为目的,用 REA 重建了 Grok Bot 的源代码,并附上匿名链接公开成果。节选中没有测试或验证的细节。",
+      "target": "Grok Bot",
+      "metric": "重建 Grok Bot 源代码并公开链接"
     }
   },
   "d-69d3362977": {
@@ -2865,18 +2865,18 @@
     }
   },
   "d-9185a20b03": {
-    "hash": "96e777411657",
+    "hash": "d1d19c6ea838",
     "en": {
-      "title": "Hands-on with REA (130k stars): I used it to decompile a commercial Unity game (IL2CPP). The AI followed the control flow, refactored the semantics automatically, and restored the core algorithms and ",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "Decompiling a commercial Unity IL2CPP game with REA and refactoring it into clean C#",
+      "summary": "The author claims to have decompiled a commercial Unity IL2CPP game with REA, having the AI refactor semantically along the control flow to restore the core algorithms and feel-related parameters as clean C#. The post links a long column article and a 5-step tutorial, but the excerpt contains no verifiable code or tests, only the author's own account.",
+      "target": "Commercial Unity IL2CPP game",
+      "metric": "Core algorithms and feel parameters restored as clean C# (author's claim)"
     },
     "zh-CN": {
-      "title": "实测 13 万星 REA：我拿它反编译 Unity 商业游戏（IL2CPP），AI 顺着控制流自动做语义重构，把核心算法与手感参数全还原成干净 C#！保姆级 5 步跟练长文与架构图已备齐，全文请见专栏👇 https://x.com/i/article/21098631057",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "用 REA 反编译 Unity IL2CPP 商业游戏并重构为干净的 C#",
+      "summary": "作者声称用 REA 反编译 Unity IL2CPP 商业游戏,让 AI 沿控制流做语义重构,将核心算法与手感参数还原为干净的 C#。帖子附有专栏长文与 5 步教程,但节选中没有可验证的代码或测试,仅为作者自述。",
+      "target": "Unity IL2CPP 商业游戏",
+      "metric": "核心算法与手感参数还原为干净的 C#(作者自述)"
     }
   },
   "d-9cf47d90e7": {
@@ -2895,63 +2895,63 @@
     }
   },
   "d-0027bf84f0": {
-    "hash": "073d19602302",
+    "hash": "d750fe49f950",
     "en": {
-      "title": "I ran the open-source reverse-engineering tool REA for 193 seconds: Obsidian desktop turned out to have 42 IPC channels, plus a built-in ad blocker hidden inside! For safety I installed rea-agents in ",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "Analyzing the Obsidian desktop app with REA in 193 seconds: 42 IPC channels and a built-in ad blocker",
+      "summary": "The author installed rea-agents in an isolated directory with --ignore-scripts, which took about 9 seconds. They then copied the 23MB obsidian.asar for analysis and, within 193 seconds, found 42 IPC channels and discovered a built-in ad blocker. The post gives concrete numbers, but the excerpt includes no evidence files.",
+      "target": "Obsidian desktop app (Electron)",
+      "metric": "42 IPC channels and a built-in ad blocker found in 193 seconds"
     },
     "zh-CN": {
-      "title": "用开源逆向工具 REA 跑了 193 秒，Obsidian 桌面版被扒出 42 个 IPC 通道，还藏着内置广告拦截！安全起见我在隔离目录装 rea-agents，加 --ignore-scripts 跳过安装脚本 9 秒搞定。复制一份 23MB 的 obsidian.as",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "用 REA 193 秒分析 Obsidian 桌面版,找出 42 个 IPC 通道与内置广告拦截",
+      "summary": "作者在隔离目录安装 rea-agents 并加 --ignore-scripts,约 9 秒完成。接着复制 23MB 的 obsidian.asar 进行分析,193 秒内找出 42 个 IPC 通道,并发现内置广告拦截。内容有具体数字,但节选中没有附证据文件。",
+      "target": "Obsidian 桌面版(Electron)",
+      "metric": "193 秒找出 42 个 IPC 通道与内置广告拦截"
     }
   },
   "d-27154f0faa": {
-    "hash": "3224bab44438",
+    "hash": "99825a8e598a",
     "en": {
-      "title": "My AI bots reverse engineered a feature from a real app and rebuilt it.  Target: MarkText's HTML export. They traced it from the built app w",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "Reverse-engineering MarkText's built app with REA and rebuilding its HTML export",
+      "summary": "The author's AI bot used REA to trace the built MarkText app, reverse-engineered its HTML export feature, and then rebuilt it. The target is clear, but the excerpt includes no code or test evidence.",
+      "target": "MarkText's HTML export feature",
+      "metric": "Reverse-engineered and rebuilt the HTML export feature from a built app"
     },
     "zh-CN": {
-      "title": "我的 AI 机器人逆向了一个真实应用的功能并将其重建。目标：MarkText 的 HTML 导出。它们从已构建的应用中追踪该功能 w",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "用 REA 从 MarkText 成品逆向并重建 HTML 导出功能",
+      "summary": "作者的 AI 机器人用 REA 追踪已构建的 MarkText 应用，逆向其 HTML 导出功能后自行重建。目标明确，但节选中没有附上代码或测试证据。",
+      "target": "MarkText 的 HTML 导出功能",
+      "metric": "从已构建的应用逆向并重建 HTML 导出功能"
     }
   },
   "d-0af2e7691a": {
-    "hash": "599b5d555606",
+    "hash": "f8ec1f14c99b",
     "en": {
-      "title": "Gave an AI only the compiled binary of my own iOS app. No source.  With free REA + Ghidra it rebuilt my P&L formula exactly in 16 minutes, a",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "From a compiled iOS app alone, REA + Ghidra rebuild the P&L formula in 16 minutes",
+      "summary": "The author handed the AI only the compiled binary of their own iOS app (no source code), along with the free REA and Ghidra. The AI exactly reconstructed the profit-and-loss (P&L) formula in 16 minutes.",
+      "target": "The author's own iOS app (P&L calculation formula)",
+      "metric": "P&L formula reconstructed exactly in 16 minutes"
     },
     "zh-CN": {
-      "title": "只把我自己 iOS 应用的编译后二进制交给 AI，没有源码。借助免费的 REA + Ghidra，它在 16 分钟内精确重建了我的 P&L 公式，a",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "只给编译后的 iOS App，用 REA＋Ghidra 16 分钟重建损益公式",
+      "summary": "作者只把自己 iOS App 的编译文件（无源代码）交给 AI，搭配免费的 REA 与 Ghidra。AI 在 16 分钟内精确重建出损益（P&L）计算公式。",
+      "target": "作者自己的 iOS App（损益计算公式）",
+      "metric": "16 分钟内精确重建 P&L 公式"
     }
   },
   "d-b3508599f9": {
-    "hash": "50c6e6bdbe2c",
+    "hash": "b95165aef500",
     "en": {
-      "title": "What it did on its own:  - Cracked open both installers with REA (reverse-engineering tools) - Windows build: dead end (.NET Framework + dri",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "AI agent tears apart two installers with REA; the Windows build is a dead end due to .NET Framework and drivers",
+      "summary": "The excerpt is only a fragment of a tweet, showing that an AI agent used REA on its own to take apart two installers, and that the Windows one hit a wall because of .NET Framework and drivers. The specific target, final result and evidence are unclear; all that can be judged is that REA was actually used for a preliminary attempt.",
+      "target": "Two installers (a Windows build and one for another platform; details unclear)",
+      "metric": "Windows installer is a dead end (.NET Framework plus driver)"
     },
     "zh-CN": {
-      "title": "它自主完成的事：- 用 REA（逆向工程工具）拆开了两个安装包 - Windows 版本：走进死胡同（.NET Framework + dri",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "AI 代理用 REA 拆开两个安装程序,Windows 版因 .NET Framework 与驱动而走不通",
+      "summary": "内容节选只剩推文的片段,显示 AI 自行用 REA 拆开两个安装程序,Windows 版因 .NET Framework 与驱动而碰壁。看不出具体目标、最终成果或证据,只能判断确实使用了 REA 做初步尝试。",
+      "target": "两个安装程序(Windows 版与另一平台,详情不明)",
+      "metric": "Windows 版安装程序为死路(.NET Framework 加驱动)"
     }
   },
   "d-620d41dc61": {
@@ -3135,18 +3135,18 @@
     }
   },
   "d-406e661ae1": {
-    "hash": "4b747036625c",
+    "hash": "d8414bb08ae5",
     "en": {
-      "title": "Opus 5.5 with Reverse Engineer Anything took about 5 minutes, using hopper, to tell me how the cheats in 3D Pinball for Windows work. Then i",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "REA + Hopper explain the 3D Pinball cheat codes in five minutes, then Ghidra describes the ball physics",
+      "summary": "The target is the 3D Pinball bundled with Windows. The author had Opus 5.5 work with REA and Hopper, and it explained how the cheat codes work in about 5 minutes. After switching to Ghidra, it described the complete ball physics from scratch in about 2 minutes. The account comes from the author alone, with no code or comparison tests attached.",
+      "target": "3D Pinball for Windows",
+      "metric": "Cheat code mechanism worked out in about 5 minutes; ball physics described in about 2 minutes"
     },
     "zh-CN": {
-      "title": "Opus 5.5 配合 Reverse Engineer Anything，借助 hopper 只用了约 5 分钟，就告诉我 3D Pinball for Windows 里的作弊码是如何运作的。然后我",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "用 REA 加 Hopper 五分钟解析 3D Pinball 作弊码原理，再用 Ghidra 描述球体物理",
+      "summary": "目标是 Windows 内置的 3D Pinball。作者让 Opus 5.5 搭配 REA 与 Hopper，约 5 分钟就说明了作弊码的运作方式，之后改用 Ghidra，从头约 2 分钟描述完整的球体物理。内容仅为作者自述，没有附代码或对照测试。",
+      "target": "3D Pinball for Windows",
+      "metric": "约 5 分钟解出作弊码运作，约 2 分钟描述球体物理"
     }
   },
   "d-af6f212321": {
@@ -3180,18 +3180,18 @@
     }
   },
   "d-f89356bcea": {
-    "hash": "16c8d07fa7d7",
+    "hash": "684319587797",
     "en": {
-      "title": "Paid desktop accounting, rebuilt in the open. Project #000001 is live.  REA helped us investigate QuickBooks Desktop for Mac. We independent",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "Researching QuickBooks Desktop for Mac with REA: an open-source rebuild project goes live",
+      "summary": "The team used REA to investigate QuickBooks Desktop for Mac and is rebuilding this kind of paid desktop accounting software in the open. Project #000001 is already live.",
+      "target": "QuickBooks Desktop for Mac",
+      "metric": "Rebuild project #000001 is publicly live"
     },
     "zh-CN": {
-      "title": "付费桌面会计软件，公开重建。项目 #000001 已上线。REA 帮助我们研究了 QuickBooks Desktop for Mac。我们独立",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "用 REA 研究 QuickBooks Desktop for Mac，开源重建项目上线",
+      "summary": "团队用 REA 调查 QuickBooks Desktop for Mac，并以公开方式重建这类付费桌面会计软件。项目编号 #000001 已经上线。",
+      "target": "QuickBooks Desktop for Mac",
+      "metric": "重建项目 #000001 已公开上线"
     }
   },
   "d-a86c78ee1d": {
@@ -3315,18 +3315,18 @@
     }
   },
   "d-2be83fcb81": {
-    "hash": "9330c928fef0",
+    "hash": "d01fc2d93732",
     "en": {
-      "title": "REA Reverse Engineering with Claude Code and Codex | sAIgnals",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "Using the Notes example to show how to inspect and verify a CSV export with REA, Claude Code and Codex",
+      "summary": "The author wrote a usage guide that targets the official six-file Notes Electron example, showing how to trace the export feature and confirm the CSV behavior. The author actually ran the npm 6.4.0 static JavaScript analysis and separately checked the formatter with Node.js, but states plainly that the real Claude Code or Codex MCP connections, native decompilation and a full port were not tested.",
+      "target": "REA's official Notes example (Electron)",
+      "metric": "6.4.0 static analysis run for real; MCP connections and native decompilation untested"
     },
     "zh-CN": {
-      "title": "REA Reverse Engineering with Claude Code and Codex | sAIgnals",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "以 Notes 示例演示用 REA 搭配 Claude Code 与 Codex 检查并验证 CSV 导出",
+      "summary": "作者写了一篇使用指南,以官方的六文件 Notes Electron 示例为目标,演示追踪导出功能并确认 CSV 行为。作者实际跑过 npm 6.4.0 的静态 JavaScript 分析,并另外用 Node.js 检查格式化器,但明确说明未测试实际的 Claude Code 或 Codex MCP 连接、原生反编译与完整移植。",
+      "target": "REA 官方 Notes 示例(Electron)",
+      "metric": "实际跑过 6.4.0 静态分析,MCP 连接与原生反编译未测试"
     }
   },
   "d-46ba92caba": {
@@ -3390,33 +3390,33 @@
     }
   },
   "d-1010f4606a": {
-    "hash": "da707a0093cf",
+    "hash": "7fa687ef855b",
     "en": {
-      "title": "REA (Reverse Engineer Anything) on Kimi K3: a verified Claude Code setup — Wallaby",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "Tutorial: using REA with Claude Code and Kimi K3, verified with a local smoke test",
+      "summary": "The article explains how to point Claude Code at Kimi K3 through Wallaby's Anthropic-compatible endpoint, then register REA. The author ran REA 6.4.0's JavaScript analysis on a small three-module example app and got the target SHA-256, a module graph and a semantic graph with source ranges. The article discloses that Wallaby sells a kimi-k3 API, so this is a tutorial with a commercial stake.",
+      "target": "A three-module JavaScript example app",
+      "metric": "REA 6.4.0 smoke test returned a SHA-256 digest, module graph and semantic graph"
     },
     "zh-CN": {
-      "title": "在 Kimi K3 上运行 REA (Reverse Engineer Anything)：一套经过验证的 Claude Code 配置 — Wallaby",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "教程:让 Claude Code 搭配 Kimi K3 使用 REA,并以本地冒烟测试验证",
+      "summary": "文章说明如何用 Wallaby 的 Anthropic 兼容端点把 Claude Code 指向 Kimi K3,再注册 REA。作者对一个三模块的小型示例应用跑了 REA 6.4.0 的 JavaScript 分析,得到目标 SHA-256、模块图与带源码范围的语义图。文中披露 Wallaby 出售 kimi-k3 的 API,属于带有商业立场的教程。",
+      "target": "三模块 JavaScript 示例应用",
+      "metric": "REA 6.4.0 的冒烟测试返回了 SHA-256 摘要、模块图与语义图"
     }
   },
   "d-44b05a613b": {
-    "hash": "a90965a1ca00",
+    "hash": "35f9d943ca32",
     "en": {
-      "title": "I Used the Viral GitHub Project REA to Reverse Engineer Microsoft Word",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "Having AI reverse-engineer and rebuild a native Microsoft Word with a near pixel-perfect UI, using REA",
+      "summary": "Using REA together with Codex and Hopper, the author rebuilt Microsoft Word without access to the source code, claiming it took just one prompt and two to three rounds of iteration. The result covers basics such as sorting, headings, bold, comments, image alignment, table insertion and focus mode, and comes with a feature comparison against the original. The author also admits that many details are rough, such as overlapping selection areas, and that many features are still not fully replicated.",
+      "target": "Microsoft Word (native desktop app)",
+      "metric": "Used roughly 20–30% of a Pro plan quota to build a Word clone with a near pixel-perfect UI and largely matching core features"
     },
     "zh-CN": {
-      "title": "我居然用 GitHub 现象级项目 REA，逆向了 Microsoft Word",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "用 REA 让 AI 逆向并重建出界面近乎像素级还原的原生 Microsoft Word",
+      "summary": "作者用 REA 搭配 Codex 与 Hopper，在没有源代码的情况下重建 Microsoft Word，自述只用一句提示词加两到三轮迭代。成品具备排序、标题、粗体、批注、图片对齐、插入表格与专注模式等基本功能，并附有与原版的功能对照表。作者也坦承许多细节粗糙，例如选区重叠，仍有不少功能未完整复刻。",
+      "target": "Microsoft Word（原生桌面应用）",
+      "metric": "耗用约 20–30% 的 Pro 会员额度，复刻出界面近乎像素级还原、核心功能基本一致的 Word"
     }
   },
   "d-e45469a856": {
@@ -3450,33 +3450,33 @@
     }
   },
   "d-fdeb455dba": {
-    "hash": "2d907d2505de",
+    "hash": "12c9507116f3",
     "en": {
-      "title": "GitHub 110K Stars: A Hands-On Guide to the AI Software-Dismantling Tool — Equip Your AI Coding Assistant with Professional Reverse Engineering Tools So It Can Really \"Take Things Apart\" - Juejin",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "Juejin hands-on tutorial: using REA to take apart the Notes sample and the 207MB Xmind Electron app",
+      "summary": "The author walks through installing REA on Windows, first analyzing the IPC of the official six-file Notes sample, then unpacking Xmind's app.asar for static analysis, with a screenshot at every step. The sample output shows 1 plaintext channel, 1 send and 1 receive, along with a limitations notice. The article also cites community cases, but those are secondhand. It states outright that it does not attempt a full reimplementation; the focus is on teaching readers to understand the output.",
+      "target": "The official Notes sample and Xmind (Electron)",
+      "metric": "Notes sample IPC: 1 plaintext channel, 1 send, 1 receive; the 207MB Xmind app.asar was also analyzed"
     },
     "zh-CN": {
-      "title": "GitHub 11万star：AI拆软件神器保姆级实操教程 给你的 AI 编程助手装上一套专业逆向工具，让它真的去“拆开” - 掘金",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "掘金实操教程:用 REA 拆解 Notes 示例与 207MB 的 Xmind Electron 应用",
+      "summary": "作者在 Windows 上演示安装 REA,先分析官方六文件 Notes 示例的 IPC,再解包 Xmind 的 app.asar 做静态分析,每一步都附有截图。示例输出显示 1 条明文通道、1 次发送和 1 次接收,并附带限制声明;文中也引述了社区案例,但那些属于转述。文章明确说明不做完整复刻,重点是教人看懂输出。",
+      "target": "官方 Notes 示例与 Xmind(Electron)",
+      "metric": "Notes 示例 IPC:1 条明文通道、1 次发送、1 次接收,并对 207MB 的 Xmind app.asar 做了分析"
     }
   },
   "d-e32d307219": {
-    "hash": "102cf3c2b20c",
+    "hash": "b39357321f21",
     "en": {
-      "title": "Deploying REA in the Cloud: Building an AI Reverse Engineering Environment on Tencent Cloud CVM - Tencent Cloud Developer Community - Tencent Cloud",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "Tutorial: deploying REA on Tencent Cloud CVM as a cloud reverse-engineering environment",
+      "summary": "The article explains how to choose a Linux instance, install Node.js and the JDK, initialize REA with npx rea-agents setup, and finally verify the environment with a JavaScript analysis command. It reports no analysis results against any specific target, notes that exposing a remote setup to a local assistant must be built separately, and has the flavor of a cloud-product promotion.",
+      "target": "The REA deployment environment on Tencent Cloud CVM",
+      "metric": "Provides a complete deployment flow, from instance selection to verification with analyze-javascript-application"
     },
     "zh-CN": {
-      "title": "云端部署 REA：在腾讯云 CVM 搭建 AI 逆向分析环境 - 腾讯云开发者社区 - 腾讯云",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "教程:在腾讯云 CVM 上部署 REA 作为云端逆向分析环境",
+      "summary": "文章说明如何选配 Linux 实例、安装 Node.js 与 JDK,并用 npx rea-agents setup 初始化 REA,最后以 JavaScript 分析命令验证环境。文中未对任何具体目标给出分析成果,也注明远程供本地助手使用需自行搭建,并带有云产品推广性质。",
+      "target": "腾讯云 CVM 上的 REA 部署环境",
+      "metric": "提供从实例选配到 analyze-javascript-application 验证的完整部署流程"
     }
   },
   "d-404e0c1828": {
@@ -3600,18 +3600,18 @@
     }
   },
   "d-8e51c88ae7": {
-    "hash": "43f93be13434",
+    "hash": "d294d2012d4b",
     "en": {
-      "title": "REA: What Agent-Led Reverse Engineering Actually Proves",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "Review: Rob Shocks using REA to derive unlock-code rules for a stripped Mac app",
+      "summary": "The article reviews Rob Shocks's experiment: he handed an agent a small Mac app he wrote himself and stripped of symbols, and the agent inferred the hidden unlock rule from unnamed functions and produced working codes, which were then checked against the retained source. The author stresses this only demonstrates investigation efficiency on a controlled target, not source recovery, and says nothing about general success rates. The article also mentions a case of rebuilding DX-Ball's sound-balancing function.",
+      "target": "A stripped Mac app built by Rob Shocks",
+      "metric": "The agent inferred the hidden unlock rule and generated codes the app accepted, matching the original source"
     },
     "zh-CN": {
-      "title": "REA:由 Agent 主导的逆向工程究竟证明了什么",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "评测 Rob Shocks 用 REA 为去符号 Mac App 推出解锁码规则",
+      "summary": "文章评述 Rob Shocks 的实测:他把自己编写并去除符号的小型 Mac App 交给 agent,agent 从无名函数推断出隐藏的解锁规则并生成可用的码,再与保留的源码比对。作者强调这只证明了受控目标上的调查效率,并非还原源码,也不代表通用成功率。文中另提到 DX-Ball 音效平衡函数重建案例。",
+      "target": "Rob Shocks 自制的去符号 Mac App",
+      "metric": "agent 推断出隐藏解锁规则并生成 App 接受的码,与源码比对相符"
     }
   },
   "d-89ffedd389": {
@@ -3660,18 +3660,18 @@
     }
   },
   "d-d12a05914d": {
-    "hash": "818a5f8dbd86",
+    "hash": "27cc7ad648f3",
     "en": {
-      "title": "dazeb/rea-codex-plugin: Standalone Codex plugin marketplace for REA by morluto, with pinned MCP server and investigation skills.",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "A standalone plugin marketplace packaging REA for Codex",
+      "summary": "dazeb built a standalone Codex plugin marketplace that includes investigation skills and a local MCP connection pinned to rea-agents@6.3.0. It is an integration wrapper, not a fork of the REA analysis engine and not an official release, and it comes with installation steps and requirements.",
+      "target": "Integration of Codex with REA (rea-agents 6.3.0)",
+      "metric": "Plugin 0.1.0, MCP server pinned to rea-agents@6.3.0"
     },
     "zh-CN": {
-      "title": "dazeb/rea-codex-plugin:morluto 开发的 REA 的独立 Codex 插件市场,附带固定版本的 MCP server 与调查技能。",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "为 Codex 打包 REA 的独立插件市场",
+      "summary": "dazeb 建立了独立的 Codex 插件市场,内含调查用 skill 与固定版本 rea-agents@6.3.0 的本地 MCP 连接。它是集成封装,不是 REA 分析引擎的分支,也不是官方发行版,并附有安装步骤和需求说明。",
+      "target": "Codex 与 REA(rea-agents 6.3.0)的集成",
+      "metric": "插件 0.1.0,固定 rea-agents@6.3.0 的 MCP 服务器"
     }
   },
   "d-54626c89da": {

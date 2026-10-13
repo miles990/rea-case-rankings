@@ -911,6 +911,13 @@ function renderAll() {
 
 // Second batch: everything else, fetched after first paint. Relations, search text and
 // layouts are rebuilt from the full set; a deep link to an older entry opens once it lands.
+// A shared link must open the entry it names, even when the default filters
+// (score 2+, today) would hide it: widen just the score floor and the time range.
+function ensureVisible(id) {
+  const r = byId.get(id); if (!r) return;
+  if (r.wow != null && r.wow < state.min) state.min = r.wow;
+  if (!state.day && state.period !== "all" && seenDay(r) < periodStart(+state.period)) state.period = PERIODS.find((k) => k === "all" || seenDay(r) >= periodStart(+k));
+}
 function loadFull() {
   if (!DATA.partial || !DATA.full) return;
   fetch(DATA.full, { credentials: "omit" }).then((r) => (r.ok ? r.json() : Promise.reject(r.status))).then((j) => {
@@ -922,12 +929,13 @@ function loadFull() {
     haystack.clear(); layoutCache.clear(); dayCache = [null, new Set()];
     const want = wantedId;
     update(); renderDays(); mastCanvas.redraw?.();
-    if (want && byId.has(want)) select(want, false);
+    if (want && byId.has(want)) { ensureVisible(want); update(); select(want, false); }
     document.documentElement.dataset.full = "1";
   }).catch(() => { DATA.partial = false; DATA.total = records.length; update(); document.documentElement.dataset.full = "0"; });
 }
 readURL();
 const wantedId = state.id && !byId.has(state.id) ? state.id : null;
+if (state.id && byId.has(state.id) && location.hash) ensureVisible(state.id);
 renderAll();
 mastCanvas();
 if (DATA.partial) (window.requestIdleCallback || setTimeout)(loadFull, { timeout: 800 }); else document.documentElement.dataset.full = "1";

@@ -152,6 +152,8 @@ jobs:
 
   deploy:
     needs: publish
+    # Without this, a skipped enrich job (skip_collect) silently skips the deploy too.
+    if: ${{ !cancelled() && needs.publish.result == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:

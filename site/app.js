@@ -49,7 +49,8 @@ const latestDay = records.reduce((m, r) => ((r.added || "") > m ? r.added : m), 
 const PERIODS = ["1", "7", "30", "all"];
 const seenDay = (r) => ((r.date || "") > (r.added || "") ? r.date : r.added) || "";
 const periodStart = (n) => { const d = new Date(latestDay + "T00:00:00Z"); d.setUTCDate(d.getUTCDate() - (n - 1)); return d.toISOString().slice(0, 10); };
-const TYPE_COLOR = { case: "var(--s1)", app: "var(--s2)", learn: "var(--s3)", news: "var(--s3)" };
+const TYPE_COLOR = { case: "var(--s1)", app: "var(--s2)", learn: "var(--s3)", news: "var(--s4)" };
+const TYPE_HUE = { case: 218, app: 18, learn: 158, news: 262 };
 
 // Two entries are related when they share an author, a GitHub owner, or a named
 // target (product words like "Wispr Flow" or "Obsidian" in the target field).
@@ -79,16 +80,40 @@ const relatedOf = (r) => {
   return [...near.slice(0, 4), ...fill].slice(0, 4).map((x) => ({ r: x, why: ADJ.get(r.id).get(x.id) }));
 };
 
-// ---------- Thumbnails ----------
+// ---------- Thumbnails and generated covers ----------
+// Entries without a usable image get a cover built from their own data: the target
+// name, the platform, and a fake hex dump seeded by the id, so no two look alike.
 const thumbSrc = (r) => (DATA.thumbs?.[r.id] ? DATA.thumbBase + DATA.thumbs[r.id] : null);
-const phHTML = (r) => `<span class="thumb ph" aria-hidden="true"><span class="pt"><b>${esc(host(r.links[0].url).split(".").slice(-2, -1)[0] || "REA")}</b>${esc(catName(r.category))}</span></span>`;
-const thumbHTML = (r, eager = false) => {
+const VIA_ICON = {
+  X: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.8 2h3.4l-7.4 8.5L22.5 22h-6.8l-5.3-7-6.1 7H.9l7.9-9L.5 2h7l4.8 6.4L17.8 2Zm-1.2 18h1.9L6.5 3.9h-2L16.6 20Z"/></svg>',
+  GitHub: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>',
+  YouTube: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12 31 31 0 0 0 1 16.8a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1c.4-1.6.5-3.2.5-4.8s-.1-3.2-.5-4.8ZM9.7 15.1V8.9l5.8 3.1-5.8 3.1Z"/></svg>',
+  Bluesky: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M5.2 3.3C7.9 5.4 10.9 9.5 12 11.8c1.1-2.3 4.1-6.4 6.8-8.5 2-1.5 5.2-2.6 5.2 1 0 .7-.4 6-.7 6.9-.9 3.1-4.1 3.9-6.9 3.4 4.9.8 6.2 3.6 3.5 6.4-5.1 5.2-7.3-1.3-7.9-3l-.1-.3-.1.3c-.6 1.7-2.8 8.2-7.9 3-2.7-2.8-1.4-5.6 3.5-6.4-2.8.5-6-.3-6.9-3.4C.4 10.3 0 5 0 4.3c0-3.6 3.2-2.5 5.2-1Z"/></svg>',
+  Reddit: '<svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="14" r="7.5"/><circle cx="18.5" cy="6" r="2" /><path d="M12 6.5 13.5 2l4.5 1" stroke="currentColor" fill="none" stroke-width="1.5"/></svg>',
+};
+const viaKey = (v) => (/^Reddit/.test(v || "") ? "Reddit" : v);
+const coverWord = (r) => {
+  const t = (tx(r, "target") || "").split(/[、,，;；/|（(]/)[0].trim();
+  return (t && t.length <= 28 ? t : t.slice(0, 26) + (t ? "…" : "")) || (r.via === "人工整理" ? "REA" : r.via);
+};
+const hexOf = (id, lines = 9) => {
+  let h = 2166136261; for (const c of id) h = Math.imul(h ^ c.charCodeAt(0), 16777619);
+  const rnd = () => ((h = Math.imul(h ^ (h >>> 15), 2246822507) ^ Math.imul(h ^ (h >>> 13), 3266489909)) >>> 0) / 4294967296;
+  let out = "";
+  for (let l = 0; l < lines; l++) { out += (0x401000 + l * 16 + Math.floor(rnd() * 4096) * 16).toString(16).toUpperCase().padStart(8, "0") + "  "; for (let b = 0; b < 12; b++) out += Math.floor(rnd() * 256).toString(16).toUpperCase().padStart(2, "0") + " "; out += "\n"; }
+  return out;
+};
+const coverHTML = (r, mini = false) => {
+  const v = viaKey(r.via), icon = VIA_ICON[v];
+  return `<span class="thumb cover${mini ? " mini-cover" : ""}" style="--h:${TYPE_HUE[r.type] ?? 220}" aria-hidden="true">${mini ? "" : `<span class="cv-hex">${hexOf(r.id)}</span>`}<span class="cv-scan"></span>${mini ? "" : `<span class="cv-v" title="${esc(r.via)}">${icon || esc((v || "?").slice(0, 1))}</span>`}<span class="cv-t">${esc(coverWord(r))}</span>${mini ? "" : `<span class="cv-c">${esc(catName(r.category))}</span>`}</span>`;
+};
+const thumbHTML = (r, eager = false, mini = false) => {
   const src = thumbSrc(r);
-  return src ? `<span class="thumb" data-ph="${esc(r.id)}"><img src="${esc(src)}" alt="" loading="${eager ? "eager" : "lazy"}" decoding="async"></span>` : phHTML(r);
+  return src ? `<span class="thumb" data-ph="${esc(r.id)}"${mini ? ' data-mini="1"' : ""}><img src="${esc(src)}" alt="" loading="${eager ? "eager" : "lazy"}" decoding="async"></span>` : coverHTML(r, mini);
 };
 document.addEventListener("error", (e) => {
   const box = e.target.tagName === "IMG" && e.target.closest("[data-ph]");
-  if (box) box.outerHTML = phHTML(byId.get(box.dataset.ph));
+  if (box) box.outerHTML = coverHTML(byId.get(box.dataset.ph), !!box.dataset.mini);
 }, true);
 
 // ---------- State (mirrored to the URL on GitHub Pages) ----------
@@ -99,7 +124,8 @@ const FIELD = { cat: "category", via: "via", lang: "lang", status: "status", sou
 const DAYS = (DATA.history?.days || []).filter((d) => d.new?.length || d.text);
 const dayIds = (date) => new Set(DAYS.find((d) => d.date === date)?.new || []);
 const state = { day: null, period: "1", type: "all", q: "", sort: "rank", view: store.get("rea-view") || "list", id: null, tsort: null, min: 2, cat: null, via: null, lang: null, status: null, source: null };
-if (!["list", "grid", "table", "timeline", "graph"].includes(state.view)) state.view = "list";
+const VIEWS = ["list", "grid", "table", "timeline", "graph", "space"];
+if (!VIEWS.includes(state.view)) state.view = "list";
 function readURL() {
   const p = new URLSearchParams(isPages ? location.search : "");
   for (const k of ["type", "q", "sort", "view", ...FACETS]) if (p.get(k)) state[k] = p.get(k);
@@ -155,40 +181,20 @@ function filtered() {
 
 // ---------- Small renderers ----------
 const wowBar = (w) => (w == null ? `<span class="tag">${esc(t("row.unscored"))}</span>`
-  : `<span class="wow" title="${esc(t("score"))} ${w}/5" aria-label="${esc(t("score"))} ${w}/5">${[1, 2, 3, 4, 5].map((i) => `<i class="${i <= w ? "f" : ""}"></i>`).join("")}<span>${w}/5</span></span>`);
+  : `<span class="wow${w === 5 ? " w5" : ""}" title="${esc(t("score"))} ${w}/5" aria-label="${esc(t("score"))} ${w}/5">${[1, 2, 3, 4, 5].map((i) => `<i class="${i <= w ? "f" : ""}"></i>`).join("")}<span>${w}/5</span></span>`);
 const heatBar = (h) => `<span class="heat" title="${esc(t("heat.label"))} ${h}/100" aria-label="${esc(t("heat.label"))} ${h}/100"><span class="ht"><span class="hf" style="width:${h}%"></span></span>${h}</span>`;
 const pill = (s) => (s ? `<span class="pill ${esc(s)}">${esc(t("status." + s))}</span>` : "");
 const isNew = (r) => r.added === latestDay && r.source === "auto";
 
-// ---------- Hero ----------
-const ASM = [
-  ["00401A30", "55", "push", "ebp", "", 0], ["00401A31", "8B EC", "mov", "ebp, esp", "", 0],
-  ["00401A33", "8B 45 08", "mov", "eax, [ebp+8]", "; x", 2], ["00401A36", "69 C0 C8 00 00 00", "imul", "eax, eax, 200", "", 2],
-  ["00401A3C", "99", "cdq", "", "", 2], ["00401A3D", "B9 7F 02 00 00", "mov", "ecx, 639", "", 2],
-  ["00401A42", "F7 F9", "idiv", "ecx", "", 2], ["00401A44", "83 E8 64", "sub", "eax, 100", "", 2],
-  ["00401A47", "5D", "pop", "ebp", "", 3], ["00401A48", "C3", "ret", "", "", 3],
-];
-$("#asm").innerHTML = ASM.map(([a, b, o, r, c]) => `<div><span class="a">${a}</span>  <span class="b">${b.padEnd(18)}</span><span class="o">${o.padEnd(6)}</span>${r.padEnd(14)}<span class="c">${c}</span></div>`).join("");
-$("#csrc").innerHTML = [
-  `<span class="k">int</span> pan_from_x(<span class="k">int</span> x)   <span class="c">// x: 0‥639</span>`, `{`,
-  `    <span class="k">return</span> x * <span class="n">200</span> / <span class="n">639</span> - <span class="n">100</span>;  <span class="c">// -100‥100</span>`, `}`,
-].map((l) => `<div>${l}</div>`).join("");
-if (!reduceMotion) {
-  const a = [...$("#asm").children], c = [...$("#csrc").children];
-  let i = 0;
-  setInterval(() => {
-    if (document.hidden) return;
-    a.forEach((el, j) => el.classList.toggle("on", j === i));
-    c.forEach((el, j) => el.classList.toggle("on", j === ASM[i][5]));
-    i = (i + 1) % ASM.length;
-  }, 900);
-}
-
 // ---------- Facets (rail) ----------
+// Each facet is a collapsible group; the open/closed choice survives re-renders.
 const expanded = new Set();
+const openFacets = new Set((store.get("rea-facets") || "min,cat").split(",").filter(Boolean));
+const CAT_TYPE = { 工具鏈: "app", 教學: "learn", "報導 / 評論": "news" };
+const facetBox = (key, label, cur, body) => `<details class="facet" data-f="${key}"${openFacets.has(key) || cur ? " open" : ""}><summary><span>${esc(label)}</span>${cur ? `<span class="cur">${esc(cur)}</span>` : ""}</summary>${body}</details>`;
 function renderMin() {
   const n = (k) => records.filter((r) => matches(r, "min") && (r.wow == null || r.wow >= k)).length;
-  return `<div class="facet"><h3><span>${esc(t("f.min"))}</span></h3><div class="minseg" role="group">${[1, 2, 3, 4, 5].map((k) => `<button type="button" data-min="${k}" aria-pressed="${state.min === k}" title="${n(k)}">${k}${k < 5 ? "+" : ""}<small>${n(k)}</small></button>`).join("")}</div></div>`;
+  return facetBox("min", t("f.min"), state.min !== 2 ? `≥ ${state.min}` : "", `<div class="minseg" role="group">${[1, 2, 3, 4, 5].map((k) => `<button type="button" data-min="${k}" aria-pressed="${state.min === k}" title="${n(k)}">${k}${k < 5 ? "+" : ""}<small>${n(k)}</small></button>`).join("")}</div><p class="minhint">${esc(t("f.minhint"))}</p>`);
 }
 function renderFacets() {
   const groups = [["cat", "f.cat", catName], ["via", "f.via", (v) => v], ["lang", "f.lang", langName], ["status", "f.status", (v) => t("status." + v)], ["source", "f.src", (v) => t("src." + v)]];
@@ -201,12 +207,18 @@ function renderFacets() {
     const limit = expanded.has(key) ? 99 : 6;
     const shown = entries.slice(0, limit);
     if (state[key] && !shown.some(([v]) => v === state[key])) shown.push(entries.find(([v]) => v === state[key]));
-    return `<div class="facet"><h3><span>${esc(t(label))}</span>${state[key] ? `<button type="button" data-clear="${key}">${esc(t("f.all"))}</button>` : ""}</h3>
+    return facetBox(key, t(label), state[key] ? name(state[key]) : "", `
       ${shown.map(([v, n]) => `<button class="fopt${n ? "" : " zero"}" type="button" data-k="${key}" data-v="${esc(v)}" aria-pressed="${state[key] === v}">
-        <span class="fl">${key === "cat" ? `<span class="dot-type" style="background:${TYPE_COLOR[({ 工具鏈: "app", 教學: "learn", "報導 / 評論": "news" })[v] || "case"]}"></span>` : ""}${esc(name(v))}</span><span class="fn">${n}</span><span class="fb"><i style="width:${(n / max) * 100}%"></i></span></button>`).join("")}
-      ${entries.length > 6 ? `<button class="fmore" type="button" data-more="${key}">${esc(t(expanded.has(key) ? "f.less" : "f.more"))}</button>` : ""}</div>`;
+        <span class="fl">${key === "cat" ? `<span class="dot-type" style="background:${TYPE_COLOR[CAT_TYPE[v] || "case"]}"></span>` : ""}${esc(name(v))}</span><span class="fn">${n}</span><span class="fb"><i style="width:${(n / max) * 100}%"></i></span></button>`).join("")}
+      ${state[key] ? `<button class="fmore" type="button" data-clear="${key}">${esc(t("f.all"))}</button>` : ""}
+      ${entries.length > 6 ? `<button class="fmore" type="button" data-more="${key}">${esc(t(expanded.has(key) ? "f.less" : "f.more"))}</button>` : ""}`);
   }).join("");
 }
+$("#facets").addEventListener("toggle", (e) => {
+  const d = e.target.closest?.("details[data-f]"); if (!d) return;
+  d.open ? openFacets.add(d.dataset.f) : openFacets.delete(d.dataset.f);
+  store.set("rea-facets", [...openFacets].join(","));
+}, true);
 $("#facets").addEventListener("click", (e) => {
   const mn = e.target.closest("[data-min]");
   if (mn) { state.min = +mn.dataset.min; update(); return; }
@@ -237,6 +249,7 @@ function renderActive() {
   for (const f of FACETS) if (state[f]) chips.push([f, names[f](state[f])]);
   if (state.min !== 2) chips.push(["min", `${t("score")} ≥ ${state.min}`]);
   if (state.day) chips.push(["day", state.day]);
+  const nb = $("#nfilters"); nb.hidden = !chips.length; nb.textContent = chips.length;
   $("#active").innerHTML = chips.length ? chips.map(([k, v]) => `<button class="afchip" type="button" data-rm="${k}">${esc(v)}<span aria-hidden="true">×</span></button>`).join("") + `<button class="afclear" type="button" data-rm="all">${esc(t("f.clear"))}</button>` : "";
 }
 $("#active").addEventListener("click", (e) => {
@@ -253,10 +266,16 @@ $("#active").addEventListener("click", (e) => {
 let current = [];
 function renderResults() {
   current = filtered();
+  $("#res-h").textContent = state.day ? t("res.day").replace("{d}", state.day) : t("res." + state.period);
   $("#count").innerHTML = `<bdi dir="ltr">${current.length} / ${records.length}</bdi>`;
   $$("#views button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.view === state.view)));
   const box = $("#results");
-  if (!current.length) { box.innerHTML = `<p class="empty">${esc(t("empty"))}</p>`; return; }
+  if (state.view !== "space") disposeSpace();
+  if (!current.length) {
+    const wider = !state.day && state.period !== "all" ? PERIODS[PERIODS.indexOf(state.period) + 1] : null;
+    box.innerHTML = `<div class="empty"><b>${esc(t("empty.h"))}</b>${esc(t("empty"))}<br>${wider ? `<button class="btn" type="button" data-widen="${wider}">${esc(t("empty.widen").replace("{r}", t("range." + wider)))}</button>` : ""}</div>`;
+    return;
+  }
   if (state.view === "grid") box.innerHTML = `<div class="gallery">${current.map((r) => `<button class="gcard" type="button" data-row="${esc(r.id)}" aria-current="${state.id === r.id}">
       ${thumbHTML(r)}<span class="gb"><span class="gm"><span class="grk">#${r.rank}</span>${wowBar(r.wow)}</span>
       <h3>${esc(tx(r, "title"))}</h3>
@@ -269,6 +288,7 @@ function renderResults() {
       </tbody></table></div>`;
   } else if (state.view === "timeline") renderTimeline(box);
   else if (state.view === "graph") renderGraph(box);
+  else if (state.view === "space") renderSpace(box);
   else box.innerHTML = `<ol class="rows">${current.map((r) => {
     const main = r.links[0], metric = tx(r, "metric"), summary = tx(r, "summary");
     return `<li class="row" data-row="${esc(r.id)}" aria-current="${state.id === r.id}">
@@ -283,17 +303,16 @@ function renderResults() {
   }).join("")}</ol>`;
 }
 $("#results").addEventListener("click", (e) => {
+  const w = e.target.closest("[data-widen]");
+  if (w) { state.period = w.dataset.widen; update(); return; }
   const s = e.target.closest("[data-sort]");
   if (s) { const k = s.dataset.sort; state.tsort = state.tsort?.[0] === k ? [k, -state.tsort[1]] : [k, 1]; renderResults(); return; }
   if (e.target.closest("a")) return;
   const row = e.target.closest("[data-row]");
   if (row) select(row.dataset.row, true);
 });
-$("#views").addEventListener("click", (e) => {
-  const b = e.target.closest("[data-view]"); if (!b) return;
-  state.view = b.dataset.view; store.set("rea-view", state.view);
-  renderResults(); writeURL();
-});
+function setView(v) { if (!VIEWS.includes(v)) return; state.view = v; store.set("rea-view", v); renderResults(); markCurrent(); writeURL(); }
+$("#views").addEventListener("click", (e) => { const b = e.target.closest("[data-view]"); if (b) setView(b.dataset.view); });
 $("#sort").addEventListener("change", (e) => { state.sort = e.target.value; state.tsort = null; renderResults(); writeURL(); });
 let qTimer;
 $("#q").addEventListener("input", (e) => { clearTimeout(qTimer); qTimer = setTimeout(() => { state.q = e.target.value; update(); }, 90); });
@@ -303,7 +322,7 @@ const svgEl = (w, h) => `<svg viewBox="0 0 ${w} ${h}" height="${h}" role="img">`
 const hash01 = (s) => { let h = 2166136261; for (const c of s) h = Math.imul(h ^ c.charCodeAt(0), 16777619); return ((h >>> 0) % 1000) / 1000; };
 const R = (h) => 4 + Math.sqrt(h || 0) * 1.05;
 function vizHead(title, extra = "") {
-  return `<div class="viz-head"><b style="color:var(--ink)">${esc(title)}</b><div class="legend-row">${["case", "app"].map((k) => `<span><i class="dot-type" style="background:${TYPE_COLOR[k]}"></i>${esc(typeName(k))}</span>`).join("")}<span><i class="dot-type" style="background:var(--s3)"></i>${esc(typeName("learn"))} / ${esc(typeName("news"))}</span><span>${esc(t("viz.size"))}</span>${extra}</div></div>`;
+  return `<div class="viz-head"><b style="color:var(--ink)">${esc(title)}</b><div class="legend-row">${["case", "app", "learn", "news"].map((k) => `<span><i class="dot-type" style="background:${TYPE_COLOR[k]}"></i>${esc(typeName(k))}</span>`).join("")}<span>${esc(t("viz.size"))}</span>${extra}</div></div>`;
 }
 function renderTimeline(box) {
   const W = Math.max(320, box.clientWidth - 26), H = W < 560 ? 320 : 440, m = { l: 30, r: 12, t: 12, b: 26 };
@@ -328,8 +347,21 @@ function renderTimeline(box) {
 // ---------- Node graph (d3-force) ----------
 const layoutCache = new Map();
 let zoomBehavior = null;
+// Libraries for the node graph and 3D space load only when those views open.
+const scripts = new Map();
+const loadScript = (src) => {
+  if (!scripts.has(src)) scripts.set(src, new Promise((ok, no) => { const el = document.createElement("script"); el.src = src; el.async = true; el.crossOrigin = "anonymous"; el.onload = ok; el.onerror = () => { scripts.delete(src); no(new Error(src)); }; document.head.append(el); }));
+  return scripts.get(src);
+};
+const D3 = "https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js";
+const FG3D = "https://cdn.jsdelivr.net/npm/3d-force-graph@1.80.1/dist/3d-force-graph.min.js";
+const vizLoading = (box) => { box.innerHTML = `<div class="viz"><p class="empty">${esc(t("viz.loading"))}</p></div>`; };
 function renderGraph(box) {
-  if (!window.d3) { box.innerHTML = `<p class="empty">${esc(t("viz.nod3"))}</p>`; return; }
+  if (!window.d3) {
+    vizLoading(box);
+    loadScript(D3).then(() => { if (state.view === "graph") renderResults(); }).catch(() => { if (state.view === "graph") box.innerHTML = `<p class="empty">${esc(t("viz.nod3"))}</p>`; });
+    return;
+  }
   const W = Math.max(320, box.clientWidth - 26), H = W < 560 ? 480 : 640;
   const ids = new Set(current.map((r) => r.id));
   const cats = [...new Set(current.map((r) => r.category))];
@@ -387,6 +419,79 @@ function focusNeighbors(id) {
   $$("line.e", g).forEach((el) => { const on = el.dataset.a === id || el.dataset.b === id; el.classList.toggle("hot", on); el.classList.toggle("dim", !on); });
 }
 
+
+// ---------- 3D space (3d-force-graph, loaded on demand) ----------
+// Same nodes and links as the 2D graph, in a slowly turning 3D field. Category hubs
+// and the top entries carry HTML labels that follow the camera.
+let space = null;
+const SPACE_COLOR = { case: "#5b93ff", app: "#ff7d45", learn: "#2fd096", news: "#a98bff" };
+function disposeSpace() {
+  if (!space) return;
+  cancelAnimationFrame(space.raf); space.ro.disconnect();
+  try { space.g.pauseAnimation(); space.g._destructor?.(); } catch {}
+  space = null;
+}
+const hasWebGL = () => { try { const c = document.createElement("canvas"); return !!(c.getContext("webgl2") || c.getContext("webgl")); } catch { return false; } };
+function renderSpace(box) {
+  if (!hasWebGL()) { box.innerHTML = `<p class="empty">${esc(t("viz.nowebgl"))}</p>`; return; }
+  if (!window.ForceGraph3D) {
+    vizLoading(box);
+    loadScript(FG3D).then(() => { if (state.view === "space") renderResults(); }).catch(() => { if (state.view === "space") box.innerHTML = `<p class="empty">${esc(t("viz.nod3"))}</p>`; });
+    return;
+  }
+  const key = current.map((r) => r.id).join(",");
+  if (space && space.key === key && box.contains(space.el)) { space.focus(state.id, false); return; }
+  disposeSpace();
+  const cats = [...new Set(current.map((r) => r.category))];
+  const nodes = [...cats.map((c) => ({ id: "hub:" + c, hub: true, label: c })), ...current.map((r) => ({ id: r.id, type: r.type, heat: r.heat || 0, wow: r.wow || 1 }))];
+  const ids = new Set(current.map((r) => r.id)), seen = new Set();
+  const links = current.map((r) => ({ source: r.id, target: "hub:" + r.category, kind: "hub" }));
+  for (const r of current) for (const [o] of ADJ.get(r.id)) { if (!ids.has(o)) continue; const k = [r.id, o].sort().join("|"); if (!seen.has(k)) { seen.add(k); links.push({ source: r.id, target: o, kind: "rel" }); } }
+  box.innerHTML = `<div class="viz space" id="space">${vizHead(t("viz.space"))}<div class="space-wrap"><div class="space-stage" id="space-stage"></div><div class="space-labels" id="space-labels"></div></div>
+    <div class="viz-foot"><span>${esc(t("viz.spaceHint"))}</span><span class="zoom"><button type="button" data-z="spin" aria-label="Rotate" aria-pressed="true">⟳</button><button type="button" data-z="fit" aria-label="Fit">⤢</button></span></div></div>`;
+  const stage = $("#space-stage"), labelBox = $("#space-labels");
+  const named = new Set(current.slice(0, 5).map((r) => r.id));
+  const g = ForceGraph3D({ controlType: "orbit" })(stage)
+    .width(stage.clientWidth).height(stage.clientHeight)
+    .backgroundColor("rgba(0,0,0,0)").showNavInfo(false)
+    .graphData({ nodes, links })
+    .nodeVal((d) => (d.hub ? 9 : 0.6 + d.wow * 0.9 + d.heat / 14))
+    .nodeColor((d) => (d.hub ? "#e9edf5" : d.id === state.id ? "#ffe08a" : SPACE_COLOR[d.type]))
+    .nodeOpacity(0.95).nodeResolution(18)
+    .nodeLabel((d) => { if (d.hub) return `<div class="scene-tip"><b>${esc(catName(d.label))}</b></div>`; const r = byId.get(d.id); return `<div class="scene-tip"><b>#${r.rank} · ${esc(tx(r, "title"))}</b><small>${esc(t("score"))} ${r.wow ?? "—"}/5 · ${esc(t("heat.label"))} ${r.heat || 0} · ${esc(r.via)}</small></div>`; })
+    .linkColor((l) => (l.kind === "rel" ? "rgba(255,138,80,0.85)" : "rgba(150,170,215,0.16)"))
+    .linkWidth((l) => (l.kind === "rel" ? 0.7 : 0))
+    .linkDirectionalParticles((l) => (l.kind === "rel" ? 2 : 0)).linkDirectionalParticleWidth(1.4).linkDirectionalParticleSpeed(0.005)
+    .enableNodeDrag(false).cooldownTicks(140)
+    .onNodeClick((d) => { if (d.hub) { state.cat = d.label; update(); return; } select(d.id, true); })
+    .onEngineStop(() => { if (!space?.fitted) { space.fitted = true; g.zoomToFit(700, 70); } });
+  const ctrl = g.controls(); ctrl.autoRotate = !reduceMotion; ctrl.autoRotateSpeed = 0.55;
+  const stop = () => { ctrl.autoRotate = false; $("#space [data-z=spin]")?.setAttribute("aria-pressed", "false"); };
+  stage.addEventListener("pointerdown", stop);
+  stage.addEventListener("wheel", stop, { passive: true });
+  const labelled = nodes.filter((n) => n.hub || named.has(n.id));
+  labelBox.innerHTML = labelled.map((n) => `<span class="sl ${n.hub ? "sl-hub" : "sl-node"}" data-l="${esc(n.id)}">${esc(n.hub ? catName(n.label) : tx(byId.get(n.id), "title").slice(0, 18) + (tx(byId.get(n.id), "title").length > 18 ? "…" : ""))}</span>`).join("");
+  const els = new Map($$("[data-l]", labelBox).map((el) => [el.dataset.l, el]));
+  const tick = () => {
+    for (const n of labelled) { const el = els.get(n.id); if (n.x == null) continue; const p = g.graph2ScreenCoords(n.x, n.y, n.z); el.style.transform = `translate(${p.x.toFixed(1)}px, ${p.y.toFixed(1)}px)`; }
+    space.raf = requestAnimationFrame(tick);
+  };
+  const ro = new ResizeObserver(() => g.width(stage.clientWidth).height(stage.clientHeight));
+  ro.observe(stage);
+  space = { g, key, el: box.firstElementChild, ro, raf: 0, fitted: false,
+    focus(id, fly) {
+      g.nodeColor(g.nodeColor());
+      const n = nodes.find((x) => x.id === id);
+      if (fly && n && n.x != null) { stop(); const k = 1 + 70 / Math.max(1, Math.hypot(n.x, n.y, n.z)); g.cameraPosition({ x: n.x * k, y: n.y * k, z: n.z * k }, n, 1100); }
+    } };
+  space.raf = requestAnimationFrame(tick);
+  $("#space .zoom").onclick = (e) => {
+    const z = e.target.closest("[data-z]")?.dataset.z;
+    if (z === "fit") g.zoomToFit(700, 30);
+    if (z === "spin") { ctrl.autoRotate = !ctrl.autoRotate; e.target.setAttribute("aria-pressed", String(ctrl.autoRotate)); }
+  };
+}
+
 // Hover tooltips for both visualizations.
 const tip = $("#tip");
 function showTip(r, x, y) {
@@ -413,6 +518,24 @@ new ResizeObserver(() => { clearTimeout(rz); rz = setTimeout(() => { if (state.v
 const narrow = () => matchMedia("(max-width: 1100px)").matches;
 function popText(pop = {}) {
   return Object.entries(pop).filter(([, n]) => n).map(([k, n]) => t("pop." + k).replace("{n}", fmt(n))).join(" · ") || "—";
+}
+// A small node view of one entry and its neighbours (same author, owner or target),
+// filled up with same-category entries. Click a node to move the detail pane there.
+function egoSVG(r) {
+  const near = [...ADJ.get(r.id)].map(([id, why]) => ({ x: byId.get(id), why })).sort((a, b) => a.x.rank - b.x.rank).slice(0, 7);
+  const fill = records.filter((x) => x.id !== r.id && x.category === r.category && !ADJ.get(r.id).has(x.id)).slice(0, Math.max(0, 5 - near.length)).map((x) => ({ x, why: null }));
+  const ns = [...near, ...fill];
+  if (!ns.length) return "";
+  const W = 396, H = 236, cx = W / 2, cy = H / 2 + 4, rad = Math.min(96, 54 + ns.length * 7);
+  const pos = ns.map((n, i) => { const a = -Math.PI / 2 + (i / ns.length) * Math.PI * 2; return { ...n, px: cx + Math.cos(a) * rad * 1.45, py: cy + Math.sin(a) * rad * 0.82 }; });
+  const rr = (x) => 5 + Math.sqrt(x.heat || 0) * 0.75;
+  const short = (x, n) => { const s = tx(x, "title"); return s.length > n ? s.slice(0, n) + "…" : s; };
+  return `<div class="ego"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(t("d.graph"))}">
+    ${pos.map((n) => `<line class="${n.why ? "why" : ""}" x1="${cx}" y1="${cy}" x2="${n.px.toFixed(1)}" y2="${n.py.toFixed(1)}"/>`).join("")}
+    ${pos.filter((n) => n.why).map((n) => `<text class="lbl" x="${((cx + n.px) / 2).toFixed(1)}" y="${((cy + n.py) / 2 - 3).toFixed(1)}" text-anchor="middle">${esc(n.why.slice(0, 16))}</text>`).join("")}
+    ${pos.map((n) => `<g class="n" data-go="${esc(n.x.id)}" tabindex="0" role="button" aria-label="${esc(tx(n.x, "title"))}"><circle cx="${n.px.toFixed(1)}" cy="${n.py.toFixed(1)}" r="${rr(n.x).toFixed(1)}" fill="${TYPE_COLOR[n.x.type]}" stroke="var(--panel)" stroke-width="1.5"/><text x="${n.px.toFixed(1)}" y="${(n.py + rr(n.x) + 12).toFixed(1)}" text-anchor="middle">${esc(short(n.x, 11))}</text></g>`).join("")}
+    <g class="c"><circle cx="${cx}" cy="${cy}" r="${(rr(r) + 5).toFixed(1)}" fill="${TYPE_COLOR[r.type]}" stroke="var(--ink)" stroke-width="2.5"/><text x="${cx}" y="${(cy + rr(r) + 19).toFixed(1)}" text-anchor="middle">${esc(short(r, 14))}</text></g>
+  </svg></div>`;
 }
 function renderDetail() {
   const r = byId.get(state.id) || current[0];
@@ -441,7 +564,9 @@ function renderDetail() {
       <div><span class="k">${esc(t("d.pop"))}</span><span class="v">${esc(popText(r.pop))}</span></div>
       <div><span class="k">${esc(t("f.src"))}</span><span class="v">${esc(t("src." + r.source))} · ${esc(r.via)} · ${esc(langName(r.lang))}</span></div>
     </div>
-    <div class="dt-sec"><h4>${esc(t("d.related"))}</h4><div class="related">${relatedOf(r).map(({ r: x, why }) => `<button type="button" data-go="${esc(x.id)}">${thumbHTML(x)}<span><b>${esc(tx(x, "title"))}</b><small>#${x.rank}${why ? " · " + esc(why) : " · " + esc(catName(x.category))}</small></span></button>`).join("")}</div></div>`;
+    <div class="dt-acts"><button class="ibtn" type="button" data-copy>${esc(t("d.copy"))}</button>${isPages ? "" : ""}<button class="ibtn" type="button" data-similar>${esc(t("d.similar"))}</button></div>
+    ${egoSVG(r) ? `<div class="dt-sec"><h4><span>${esc(t("d.graph"))}</span><span>${esc(t("d.graphKey"))}</span></h4>${egoSVG(r)}</div>` : ""}
+    <div class="dt-sec"><h4>${esc(t("d.related"))}</h4><div class="related">${relatedOf(r).map(({ r: x, why }) => `<button type="button" data-go="${esc(x.id)}">${thumbHTML(x, false, true)}<span><b>${esc(tx(x, "title"))}</b><small>#${x.rank}${why ? " · " + esc(why) : " · " + esc(catName(x.category))}</small></span></button>`).join("")}</div></div>`;
   $("#detail-wrap").scrollTop = 0;
 }
 $("#detail").addEventListener("click", (e) => {
@@ -449,7 +574,12 @@ $("#detail").addEventListener("click", (e) => {
   if (s) move(+s.dataset.step);
   if (g) select(g.dataset.go, true);
   if (e.target.closest("[data-close]")) closeDrawer();
+  if (e.target.closest("[data-copy]")) { const u = location.href; (navigator.clipboard?.writeText(u) || Promise.reject()).then(() => toast(t("d.copied")), () => toast(u)); }
+  if (e.target.closest("[data-similar]")) { const r = byId.get(state.id); if (r) { for (const f of FACETS) state[f] = null; state.q = ""; state.cat = r.category; state.period = "all"; state.day = null; $("#q").value = ""; update(); toast(catName(r.category)); } }
 });
+$("#detail").addEventListener("keydown", (e) => { const g = e.target.closest("[data-go]"); if (g && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); select(g.dataset.go, true); } });
+let toastT;
+function toast(msg) { const el = $("#toast"); el.textContent = msg; el.classList.add("on"); clearTimeout(toastT); toastT = setTimeout(() => el.classList.remove("on"), 1800); }
 function markCurrent() {
   $$("[data-row]").forEach((el) => {
     const on = el.dataset.row === state.id;
@@ -460,6 +590,7 @@ function select(id, fromUser) {
   if (!byId.has(id)) return;
   state.id = id;
   renderDetail(); markCurrent(); writeURL();
+  if (state.view === "space" && space) space.focus(id, fromUser);
   if (fromUser && narrow()) openDrawer();
   if (fromUser) {
     const el = $(`.row[data-row="${CSS.escape(id)}"], .gcard[data-row="${CSS.escape(id)}"], tr[data-row="${CSS.escape(id)}"]`);
@@ -488,7 +619,7 @@ function renderPal() {
   const q = $("#pal-q").value.trim().toLowerCase();
   palItems = (q ? records.filter((r) => q.split(/\s+/).every((w) => hay(r).includes(w))) : records).slice(0, 9);
   palSel = Math.min(palSel, Math.max(0, palItems.length - 1));
-  $("#pal-list").innerHTML = palItems.map((r, i) => `<li role="option" data-i="${i}" aria-selected="${i === palSel}">${thumbHTML(r)}<span style="min-width:0"><b>${esc(tx(r, "title"))}</b><small>${esc(r.author || r.via)} · ${esc(catName(r.category))}</small></span><span class="pr">#${r.rank}</span></li>`).join("") || `<li style="display:block;color:var(--muted)">${esc(t("empty"))}</li>`;
+  $("#pal-list").innerHTML = palItems.map((r, i) => `<li role="option" data-i="${i}" aria-selected="${i === palSel}">${thumbHTML(r, false, true)}<span style="min-width:0"><b>${esc(tx(r, "title"))}</b><small>${esc(r.author || r.via)} · ${esc(catName(r.category))}</small></span><span class="pr">#${r.rank}</span></li>`).join("") || `<li style="display:block;color:var(--muted)">${esc(t("empty"))}</li>`;
 }
 const palGo = (r, openSource) => { closePal(); if (openSource) window.open(safe(r.links[0].url), "_blank", "noopener"); else { reveal(r.id); } };
 function reveal(id) {
@@ -514,33 +645,115 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "j") { e.preventDefault(); move(1); }
   if (e.key === "k") { e.preventDefault(); move(-1); }
   if (e.key === "o" && state.id) window.open(safe(byId.get(state.id).links[0].url), "_blank", "noopener");
-  const v = { 1: "list", 2: "grid", 3: "table", 4: "timeline", 5: "graph" }[e.key];
-  if (v) { state.view = v; store.set("rea-view", v); renderResults(); writeURL(); }
+  const v = VIEWS[+e.key - 1];
+  if (v && /^[1-6]$/.test(e.key)) setView(v);
 });
 
 // ---------- Highlights, latest, about ----------
+// ---------- Masthead: today first ----------
+const fmtK = (n) => (n >= 1000 ? (n / 1000).toFixed(n >= 1e5 ? 0 : 1).replace(/\.0$/, "") + "k" : String(n));
+const inPeriod = (r, k) => (k === "all" || seenDay(r) >= periodStart(+k)) && (r.wow == null || r.wow >= 2);
+function countUp(el, to, fmtFn = fmt) {
+  if (reduceMotion || !Number.isFinite(to)) { el.textContent = fmtFn(to); return; }
+  const t0 = performance.now(), d = 900;
+  const step = (now) => { const p = Math.min(1, (now - t0) / d), e = 1 - Math.pow(1 - p, 3); el.textContent = fmtFn(Math.round(to * e)); if (p < 1) requestAnimationFrame(step); };
+  requestAnimationFrame(step);
+}
+function sparkPath(vals, w = 64, h = 22) {
+  if (vals.length < 2) return "";
+  const max = Math.max(...vals), min = Math.min(...vals);
+  const pts = vals.map((v, i) => `${((i / (vals.length - 1)) * w).toFixed(1)},${(h - 2 - ((v - min) / Math.max(1, max - min)) * (h - 4)).toFixed(1)}`);
+  return `<svg viewBox="0 0 ${w} ${h}" aria-hidden="true"><polyline points="${pts.join(" ")}" fill="none" stroke="var(--ok)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>`;
+}
+function renderMast() {
+  const last = DAYS.at(-1), txt = last ? dayText(last) : null;
+  let wd = ""; try { wd = new Date(latestDay + "T00:00:00Z").toLocaleDateString(UI[lang]._html, { weekday: "short", timeZone: "UTC" }); } catch {}
+  $("#mast-date").textContent = `${latestDay} ${wd}`;
+  $("#mast-h").textContent = txt?.headline || t("title");
+  const sum = $("#mast-sum"); sum.textContent = txt?.summary || ""; sum.classList.remove("open");
+  sum.nextElementSibling?.classList.contains("more") && sum.nextElementSibling.remove();
+  requestAnimationFrame(() => { if (sum.scrollHeight > sum.clientHeight + 4) sum.insertAdjacentHTML("afterend", `<button class="more" type="button" id="sum-more">${esc(t("mast.more"))}</button>`); });
+  $("#mast-sigs").innerHTML = (last?.signals || []).map((k) => `<span class="sigtag" title="${esc(tm("sig")[k] || k)}"><b>${esc(k)}</b>${esc(tm("sig")[k] || k)}</span>`).join("");
+  const today = records.filter((r) => inPeriod(r, "1")), week = records.filter((r) => inPeriod(r, "7"));
+  const allToday = records.filter((r) => seenDay(r) >= latestDay).length;
+  const stars = DATA.repo?.stars, starDays = DAYS.filter((d) => d.stars).map((d) => d.stars);
+  const kp = [
+    ["1", today.length, t("kpi.today"), t("kpi.todayD").replace("{n}", allToday), ""],
+    ["7", week.length, t("kpi.week"), t("kpi.weekD"), ""],
+    ["all", records.length, t("kpi.total"), t("kpi.totalD").replace("{n}", records.filter((r) => r.wow === 5).length), ""],
+    [null, stars || 0, t("kpi.stars"), last?.stars_delta ? `+${fmtK(last.stars_delta)} ${t("kpi.starsD")}` : "", sparkPath(starDays.slice(-10))],
+  ];
+  $("#kpis").innerHTML = kp.map(([p, , l, d, svg], i) => `<li>${p ? `<button type="button" data-kp="${p}" aria-label="${esc(l)}"></button>` : ""}<span class="l">${esc(l)}</span><span class="n" data-n="${i}">0</span><span class="d${d && !d.startsWith("+") ? " muted" : ""}">${esc(d)}</span>${svg}</li>`).join("");
+  kp.forEach(([, n], i) => countUp($(`#kpis [data-n="${i}"]`), n, i === 3 ? fmtK : fmt));
+  let focus = today.slice(0, 3);
+  if (focus.length < 3) focus = [...focus, ...week.filter((r) => !focus.includes(r)).slice(0, 3 - focus.length)];
+  $("#focus-n").textContent = today.length ? `${today.length} · ${t("range.1")}` : t("range.7");
+  $("#focus").innerHTML = focus.map((r) => `<button class="fcard" type="button" data-go="${esc(r.id)}"><span class="rkb">#${r.rank}</span>${thumbHTML(r, true)}
+    <span class="fb"><span class="fm"><span class="dot-type" style="background:${TYPE_COLOR[r.type]}"></span>${esc(catName(r.category))}${isNew(r) ? `<span class="new">${esc(t("new.badge"))}</span>` : ""}</span><h3>${esc(tx(r, "title"))}</h3>${tx(r, "metric") ? `<span class="metric"><span class="sel">${esc(tx(r, "metric"))}</span></span>` : ""}<span class="fm">${wowBar(r.wow)}${heatBar(r.heat || 0)}</span></span></button>`).join("") || `<div class="focus-empty">${esc(t("empty"))}</div>`;
+}
+document.addEventListener("click", (e) => {
+  const k = e.target.closest("[data-kp]");
+  if (k) { state.period = k.dataset.kp; state.day = null; update(); $("#explore").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" }); return; }
+  if (e.target.id === "sum-more") { const s = $("#mast-sum"); s.classList.toggle("open"); e.target.textContent = t(s.classList.contains("open") ? "mast.less" : "mast.more"); }
+});
+
+// Background of the masthead: every entry as a star, placed by date (x) and score (y),
+// sized by heat and linked to its relatives. Today's entries glow. Drawn on a canvas,
+// paused when off screen, still when the visitor prefers less motion.
+const cssVar = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+function mastCanvas() {
+  const c = $("#mast-canvas"); if (!c?.getContext) return;
+  const ctx = c.getContext("2d");
+  let W = 0, H = 0, pts = [], edges = [], col = {}, raf = 0, on = true, last = 0;
+  const days = records.map(seenDay).filter(Boolean).sort();
+  const d0 = Date.parse(days[0] || latestDay), d1 = Date.parse(days.at(-1) || latestDay);
+  const layout = () => {
+    const b = c.getBoundingClientRect(), dpr = Math.min(2, devicePixelRatio || 1);
+    W = b.width; H = b.height; c.width = Math.round(W * dpr); c.height = Math.round(H * dpr); ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    col = { case: cssVar("--s1"), app: cssVar("--s2"), learn: cssVar("--s3"), news: cssVar("--s4"), line: cssVar("--axis"), glow: cssVar("--select") };
+    const idx = new Map();
+    pts = records.map((r, i) => {
+      const tt = (Date.parse(seenDay(r) || latestDay) - d0) / Math.max(1, d1 - d0);
+      idx.set(r.id, i);
+      return { r, x: W * 0.03 + tt * W * 0.94 + (hash01(r.id + "x") - 0.5) * W * 0.06, y: H * 0.08 + (1 - ((r.wow ?? 1) - 1) / 4) * H * 0.62 + (hash01(r.id) - 0.5) * H * 0.14, ph: hash01(r.id + "p") * 6.283, s: 0.9 + Math.sqrt(r.heat || 0) * 0.3, today: seenDay(r) >= latestDay };
+    });
+    edges = [];
+    for (const [a, m] of ADJ) for (const b of m.keys()) if (a < b && idx.has(a) && idx.has(b)) edges.push([idx.get(a), idx.get(b)]);
+  };
+  const draw = (time) => {
+    ctx.clearRect(0, 0, W, H);
+    const y = (p) => p.y + Math.sin(time * 0.00035 + p.ph) * 4;
+    ctx.globalAlpha = 0.22; ctx.strokeStyle = col.line; ctx.lineWidth = 0.7; ctx.beginPath();
+    for (const [a, b] of edges) { ctx.moveTo(pts[a].x, y(pts[a])); ctx.lineTo(pts[b].x, y(pts[b])); }
+    ctx.stroke();
+    for (const p of pts) {
+      ctx.globalAlpha = p.today ? 0.9 : 0.35;
+      if (p.today) { ctx.fillStyle = col.glow; ctx.beginPath(); ctx.arc(p.x, y(p), p.s + 4 + Math.sin(time * 0.002 + p.ph) * 1.5, 0, 6.283); ctx.globalAlpha = 0.18; ctx.fill(); ctx.globalAlpha = 0.95; }
+      ctx.fillStyle = col[p.r.type] || col.case; ctx.beginPath(); ctx.arc(p.x, y(p), p.s, 0, 6.283); ctx.fill();
+    }
+    ctx.globalAlpha = 1;
+  };
+  const loop = (time) => { raf = requestAnimationFrame(loop); if (!on || document.hidden || time - last < 33) return; last = time; draw(time); };
+  layout(); draw(0);
+  if (!reduceMotion) raf = requestAnimationFrame(loop);
+  new IntersectionObserver(([e]) => { on = e.isIntersecting; }).observe(c);
+  let rt; new ResizeObserver(() => { clearTimeout(rt); rt = setTimeout(() => { layout(); draw(performance.now()); }, 120); }).observe(c);
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { layout(); draw(performance.now()); });
+  mastCanvas.redraw = () => { layout(); draw(performance.now()); };
+}
+
 function renderStatic() {
-  const stars = DATA.repo?.stars;
-  $("#stats").innerHTML = [
-    [records.length, t("stat.ranked")],
-    [records.filter((r) => r.wow === 5).length, t("stat.top")],
-    [records.filter((r) => r.type === "app").length, t("stat.apps")],
-    [new Set(records.map((r) => r.lang)).size, t("stat.langs")],
-    [stars ? Math.round(stars / 1000) + "k" : "—", t("stat.stars")],
-  ].map(([n, l]) => `<li><span class="n">${n}</span><span class="l">${esc(l)}</span></li>`).join("");
-  $("#highlights").innerHTML = records.filter((r) => r.wow === 5).slice(0, 6).map((r, i) => `<button class="hcard" type="button" data-go="${esc(r.id)}">
-    <span class="rkb">#${r.rank}</span>${thumbHTML(r, i < 3)}
-    <span class="hb"><span class="eyebrow">${esc(catName(r.category))}</span><h3>${esc(tx(r, "title"))}</h3><span class="metric"><span class="sel">${esc(tx(r, "metric"))}</span></span></span></button>`).join("");
+  renderMast();
   renderDays();
   $("#scan").textContent = t("new.scan").replace("{d}", DATA.scanned || DATA.updated);
   $("#rubric").innerHTML = [5, 4, 3, 2, 1].map((n) => `<li>${wowBar(n)}<span>${esc(t("rubric." + n))}</span></li>`).join("");
   const base = DATA.site?.url || "https://miles990.github.io/rea-awesome/";
-  $("#agent-code").textContent = `GET ${base}api/records.json\nGET ${base}llms.txt\nGET ${base}feed.xml\n${base}?q=firmware&type=case&view=graph#r-zwo-asiair`;
+  $("#agent-code").textContent = `GET ${base}api/records.json\nGET ${base}api/daily.json\nGET ${base}llms.txt\nGET ${base}feed.xml\n${base}?range=7&q=firmware&type=case&view=graph#r-zwo-asiair`;
   $("#updated").textContent = DATA.updated;
   // On GitHub Pages the site root is wherever the Traditional Chinese page lives.
   $("#api-link").href = (isPages ? DATA.pages["zh-TW"] : base) + "api/records.json";
 }
-document.addEventListener("click", (e) => { const g = e.target.closest(".hcard[data-go], .lcard[data-go], .day-hl [data-go]"); if (g) reveal(g.dataset.go); });
+document.addEventListener("click", (e) => { const g = e.target.closest(".fcard[data-go], .day-hl [data-go]"); if (g) reveal(g.dataset.go); });
 
 // ---------- Daily context ----------
 let daysShown = 7;
@@ -599,7 +812,7 @@ function renderDays() {
         <h3>${esc(tx_?.headline || t("day.noBrief"))}</h3>
         ${tx_?.summary ? `<p>${esc(tx_.summary)}</p>` : ""}
         ${d.signals?.length ? `<div class="sigs">${d.signals.map((k) => `<span class="sigtag" title="${esc(tm("sig")[k] || k)}"><b>${esc(k)}</b>${esc(tm("sig")[k] || k)}</span>`).join("")}</div>` : ""}
-        ${hl.length ? `<div class="day-hl">${hl.map((r) => `<button type="button" data-go="${esc(r.id)}">${thumbHTML(r)}<b>${esc(tx(r, "title"))}</b></button>`).join("")}</div>` : ""}
+        ${hl.length ? `<div class="day-hl">${hl.map((r) => `<button type="button" data-go="${esc(r.id)}">${thumbHTML(r, false, true)}<b>${esc(tx(r, "title"))}</b></button>`).join("")}</div>` : ""}
         ${d.new.length ? `<div class="day-act"><button type="button" data-day="${d.date}">${esc(t("day.showAll").replace("{n}", d.new.length))} →</button></div>` : ""}
       </div></li>`;
   }).join("") || `<li class="empty">${esc(t("empty"))}</li>`;
@@ -620,6 +833,7 @@ function applyTheme(mode) {
   if (mode === "light" || mode === "dark") document.documentElement.dataset.theme = mode; else delete document.documentElement.dataset.theme;
   $("#theme").textContent = { light: "☀", dark: "☾", system: "◐" }[mode] || "◐";
   $("#theme").title = t("theme." + mode);
+  mastCanvas.redraw?.();
 }
 if (isPages) {
   $("#theme").hidden = false;
@@ -644,7 +858,6 @@ function renderAll() {
   $$("[data-i18n]").forEach((el) => { el.textContent = t(el.dataset.i18n); });
   $$("[data-i18n-html]").forEach((el) => { el.innerHTML = t(el.dataset.i18nHtml); });
   $$("[data-i18n-ph]").forEach((el) => { el.placeholder = t(el.dataset.i18nPh); });
-  $("#h1br").hidden = !t("hero.h1b");
   $("#lang").innerHTML = LANGS.map((l) => `<option value="${l}"${l === lang ? " selected" : ""}>${esc(UI[l]._name)}</option>`).join("");
   $("#sort").value = state.sort;
   $("#q").value = state.q;
@@ -655,4 +868,7 @@ function renderAll() {
 
 readURL();
 renderAll();
+mastCanvas();
+// Sticky panes sit under the command bar, whose height changes when it wraps.
+new ResizeObserver(([e]) => document.documentElement.style.setProperty("--cmd-h", getComputedStyle($("#cmd")).position === "sticky" ? Math.round(e.borderBoxSize?.[0]?.blockSize || $("#cmd").offsetHeight) + "px" : "0px")).observe($("#cmd"));
 if (state.id && byId.has(state.id) && location.hash) setTimeout(() => select(state.id, false), 0);

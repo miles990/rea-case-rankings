@@ -13,7 +13,7 @@ const SHOTS = process.argv.includes("--shots");
 const problems = [];
 const fail = (m) => problems.push(m);
 
-const browser = await chromium.launch();
+const browser = await chromium.launch({ args: ["--use-angle=swiftshader", "--enable-unsafe-swiftshader"] });
 const runs = [
   { name: "zh-desktop-light", url: page("index.html"), width: 1440, height: 900, scheme: "light", full: true },
   { name: "zh-desktop-dark", url: page("index.html"), width: 1440, height: 900, scheme: "dark" },
@@ -46,21 +46,35 @@ for (const run of runs) {
   if (info.rawKeys.length) fail(`${tag} untranslated keys on page: ${info.rawKeys.join(", ")}`);
   if (!info.rows) fail(`${tag} no result rows rendered`);
   if (info.hasHistory && !info.days) fail(`${tag} daily timeline rendered nothing`);
+  // Masthead: today's headline, four numbers and at least one focus card.
+  const mast = await p.evaluate(() => ({ h: document.querySelector("#mast-h")?.textContent.trim(), kpis: document.querySelectorAll("#kpis li").length, focus: document.querySelectorAll("#focus .fcard").length, covers: document.querySelectorAll(".cover").length }));
+  if (!mast.h) fail(`${tag} masthead has no headline`);
+  if (mast.kpis !== 4) fail(`${tag} masthead shows ${mast.kpis} numbers, expected 4`);
+  if (!mast.focus) fail(`${tag} no focus cards`);
+  if (!mast.covers) fail(`${tag} no generated covers rendered`);
+  // Time ranges: counts never shrink as the range widens, and the default is today.
+  const ranges = await p.evaluate(() => [...document.querySelectorAll("#periods [data-p]")].map((b) => [b.dataset.p, b.getAttribute("aria-pressed"), +b.querySelector(".k").textContent]));
+  if (ranges.length !== 4 || ranges[0][1] !== "true") fail(`${tag} time ranges missing or today not default: ${JSON.stringify(ranges)}`);
+  for (let i = 1; i < ranges.length; i++) if (ranges[i][2] < ranges[i - 1][2]) fail(`${tag} range ${ranges[i][0]} has fewer entries than ${ranges[i - 1][0]}`);
+  await p.locator('[data-p="all"]').click();
+  await p.waitForTimeout(150);
 
   // Interaction smoke test: every view renders, selection opens details, palette opens.
-  for (const v of ["grid", "table", "timeline", "graph", "list"]) {
+  for (const v of ["grid", "table", "timeline", "graph", "space", "list"]) {
     const btn = p.locator(`[data-view="${v}"]`).first();
     if (!(await btn.count())) { fail(`${tag} missing view button ${v}`); continue; }
     await btn.click();
-    await p.waitForTimeout(v === "graph" ? 900 : 150);
+    if (v === "graph") await p.waitForSelector("#graph .node", { timeout: 15000 }).catch(() => {});
+    if (v === "space") await p.waitForSelector("#space canvas, .empty", { timeout: 20000 }).catch(() => {});
+    await p.waitForTimeout(150);
     const ok = await p.evaluate((v) => {
-      const sel = { grid: ".gcard", table: ".dtable tbody tr", timeline: "#timeline .dot", graph: "#graph .node", list: ".row" }[v];
+      const sel = { grid: ".gcard", table: ".dtable tbody tr", timeline: "#timeline .dot", graph: "#graph .node", space: "#space canvas", list: ".row" }[v];
       return document.querySelectorAll(sel).length;
     }, v);
     if (!ok) fail(`${tag} view "${v}" rendered nothing`);
     if (SHOTS && v !== "list" && run.name === "zh-desktop-light") await p.screenshot({ path: new URL(`${run.name}-${v}.png`, OUT).pathname });
   }
-  await p.locator("[data-row]").nth(2).click();
+  await p.locator(".row").nth(2).click();
   await p.waitForTimeout(250);
   const detail = await p.evaluate(() => document.querySelector("#detail h2")?.textContent || "");
   if (!detail) fail(`${tag} selecting a row showed no details`);

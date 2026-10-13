@@ -106,7 +106,8 @@ await writeFile(out("pages/llms.txt"), `# REA case rankings
 - [RSS feed of the newest entries](${SITE_URL}feed.xml)
 
 ## Page URLs carry state
-- ${SITE_URL}?q=<text>&type=case|app|learn|news&cat=<category>&via=<platform>&lang=<code>&status=tested|shipped|reported&sort=rank|heat|new&view=list|grid|table|timeline|graph
+- ${SITE_URL}?range=1|7|30|all&q=<text>&type=case|app|learn|news&cat=<category>&via=<platform>&lang=<code>&status=tested|shipped|reported&min=1..5&sort=rank|heat|new&view=list|grid|table|timeline|graph|space
+- range defaults to 1 (the latest update day); min defaults to 2
 - Select an entry with #r-<id>, e.g. ${SITE_URL}#r-zwo-asiair
 - Languages: ${Object.entries(PATHS).map(([l, p]) => `${l} → ${SITE_URL}${p}`).join(", ")}
 

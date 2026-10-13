@@ -1,59 +1,76 @@
 <title>REA 案例排行榜</title>
 <meta name="description" content="People reverse engineering real software with REA (morluto/rea): every case, app and write-up, scored, ranked and updated daily.">
+<meta name="theme-color" content="#f7f7f5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#07080b" media="(prefers-color-scheme: dark)">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=JetBrains+Mono:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700;900&display=swap">
 <style>/*__CSS__*/</style>
 <!--__HEAD_EXTRA__-->
 <!--SPLIT-->
+<a class="skip" href="#explore" data-i18n="nav.skip"></a>
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="#top" id="top"><span class="brand-mark">REA</span><span class="brand-name" data-i18n="title"></span></a>
+    <a class="brand" href="#today" id="top"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7l4 5-4 5"/><path d="M11 17h9"/></svg></span><span class="brand-name" data-i18n="title"></span></a>
     <nav aria-label="Sections">
+      <a href="#today" data-i18n="nav.today"></a>
       <a href="#explore" data-i18n="nav.explore"></a>
       <a href="#latest" data-i18n="nav.new"></a>
       <a href="#about" data-i18n="nav.about"></a>
     </nav>
     <div class="top-right">
       <button class="ctl" id="open-pal" type="button" aria-keyshortcuts="Meta+K Control+K"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg><span class="kl" data-i18n="k.palette"></span><kbd>⌘K</kbd></button>
-      <button class="ctl" id="theme" type="button" hidden aria-label="Theme"></button>
+      <button class="ctl icon" id="theme" type="button" hidden aria-label="Theme"></button>
       <select class="ctl" id="lang" aria-label="Language"></select>
     </div>
   </div>
 </header>
 
 <main>
-<section class="hero">
-  <div class="wrap">
-    <div>
-      <div class="eyebrow" data-i18n="hero.eyebrow"></div>
-      <h1><span data-i18n="hero.h1a"></span> <span class="rea">REA</span><br id="h1br"><span data-i18n="hero.h1b"></span><span class="cursor" aria-hidden="true"></span></h1>
-      <p class="lede" data-i18n-html="hero.lede"></p>
-      <ul class="stats" id="stats"></ul>
-      <div class="hero-cta">
-        <a class="btn primary" href="#explore" data-i18n="hero.cta"></a>
-        <a class="btn" href="https://github.com/morluto/rea" target="_blank" rel="noopener noreferrer">morluto/rea ↗</a>
+<section class="mast" id="today" aria-labelledby="mast-h">
+  <div class="mast-bg" aria-hidden="true"><canvas id="mast-canvas"></canvas></div>
+  <div class="wrap mast-grid">
+    <div class="mast-main">
+      <div class="kicker"><span class="live"><i></i><span data-i18n="mast.live"></span></span><span id="mast-date" class="mono"></span><span class="sep">·</span><span data-i18n="mast.kicker"></span></div>
+      <h1 id="mast-h"></h1>
+      <p class="mast-sum" id="mast-sum"></p>
+      <div class="sigs" id="mast-sigs"></div>
+      <ul class="kpis" id="kpis"></ul>
+      <div class="mast-cta">
+        <a class="btn primary" href="#explore" id="mast-go"><span data-i18n="mast.cta"></span><span aria-hidden="true">→</span></a>
+        <a class="btn ghost" href="https://github.com/morluto/rea" target="_blank" rel="noopener noreferrer"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>morluto/rea</a>
       </div>
+      <p class="mast-about" data-i18n-html="hero.lede"></p>
     </div>
-    <figure class="listing" aria-hidden="true">
-      <div class="listing-head"><span><b>DXBALL.EXE</b> · .text</span><span data-i18n="panel.head"></span></div>
-      <div class="asm" id="asm"></div>
-      <div class="csrc" id="csrc"></div>
-      <div class="listing-foot"><span data-i18n="panel.caption"></span><span class="pass">✓ 3,205 / 3,205</span></div>
-    </figure>
-  </div>
-</section>
-
-<section class="hl" aria-labelledby="hl-h">
-  <div class="wrap">
-    <div class="hl-head"><h2 id="hl-h" data-i18n="feat.h2"></h2><p data-i18n="feat.p"></p></div>
-    <div class="hl-row" id="highlights"></div>
+    <div class="mast-side">
+      <div class="side-head"><span class="eyebrow" data-i18n="mast.focus"></span><span class="eyebrow" id="focus-n"></span></div>
+      <div class="focus" id="focus"></div>
+    </div>
   </div>
 </section>
 
 <section class="explorer" id="explore" aria-label="Explorer">
+  <div class="cmd" id="cmd">
+    <div class="wrap cmd-row">
+      <button class="ctl only-mobile" id="open-rail" type="button"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 6h18M6 12h12M10 18h4"></path></svg><span data-i18n="ex.filters"></span><span class="badge" id="nfilters" hidden></span></button>
+      <div class="seg periods" id="periods" role="group" aria-label="Time range"></div>
+      <div class="seg tabs" id="tabs" role="tablist" aria-label="Type"></div>
+      <span class="grow"></span>
+      <div class="seg views" id="views" role="group" aria-label="View">
+        <button type="button" data-view="list" aria-pressed="true" title="1"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="7" height="6" rx="1"></rect><path d="M13 6h8M13 9h5"></path><rect x="3" y="14" width="7" height="6" rx="1"></rect><path d="M13 16h8M13 19h5"></path></svg><span class="vl" data-i18n="view.list"></span></button>
+        <button type="button" data-view="grid" aria-pressed="false" title="2"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="8" height="8" rx="1"></rect><rect x="13" y="3" width="8" height="8" rx="1"></rect><rect x="3" y="13" width="8" height="8" rx="1"></rect><rect x="13" y="13" width="8" height="8" rx="1"></rect></svg><span class="vl" data-i18n="view.grid"></span></button>
+        <button type="button" data-view="table" aria-pressed="false" title="3"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 5h18M3 10h18M3 15h18M3 20h18M9 5v15"></path></svg><span class="vl" data-i18n="view.table"></span></button>
+        <button type="button" data-view="timeline" aria-pressed="false" title="4"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="6" cy="15" r="2.5"></circle><circle cx="12" cy="8" r="3.5"></circle><circle cx="18" cy="14" r="2"></circle><path d="M3 21h18"></path></svg><span class="vl" data-i18n="view.timeline"></span></button>
+        <button type="button" data-view="graph" aria-pressed="false" title="5"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="5" r="2.5"></circle><circle cx="5" cy="18" r="2.5"></circle><circle cx="19" cy="18" r="2.5"></circle><path d="M11 7.5 6.5 16M13 7.5l4.5 8.5M7.5 18h9"></path></svg><span class="vl" data-i18n="view.graph"></span></button>
+        <button type="button" data-view="space" aria-pressed="false" title="6"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2 3 7v10l9 5 9-5V7z"></path><path d="m3 7 9 5 9-5M12 12v10"></path></svg><span class="vl" data-i18n="view.space"></span></button>
+      </div>
+      <select class="ctl" id="sort" aria-label="Sort"><option value="rank" data-i18n="sort.rank"></option><option value="heat" data-i18n="sort.heat"></option><option value="new" data-i18n="sort.new"></option></select>
+    </div>
+  </div>
+
   <div class="wrap ex-grid">
     <aside class="rail" id="rail" aria-label="Filters">
+      <div class="sheet-grip only-mobile" aria-hidden="true"></div>
       <label class="search" for="q">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
         <span class="vh" data-i18n="k.search"></span>
@@ -65,25 +82,14 @@
         <a href="#about" data-i18n="ex.howScored"></a>
         <a id="api-link" href="api/records.json" data-i18n="ex.api"></a>
       </div>
-      <button class="btn only-mobile" id="rail-done" type="button" style="margin-top:16px;width:100%;justify-content:center" data-i18n="ex.done"></button>
+      <button class="btn primary only-mobile" id="rail-done" type="button" data-i18n="ex.done"></button>
     </aside>
 
     <div class="center">
-      <div class="ex-top">
-        <button class="ctl only-mobile" id="open-rail" type="button"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 6h18M6 12h12M10 18h4"></path></svg><span data-i18n="ex.filters"></span></button>
-        <div class="tabs periods" id="periods" role="group" aria-label="Time range"></div>
-        <div class="tabs" id="tabs" role="tablist" aria-label="Type"></div>
-        <div class="views" id="views" role="group" aria-label="View">
-          <button type="button" data-view="list" aria-pressed="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="7" height="6" rx="1"></rect><path d="M13 6h8M13 9h5"></path><rect x="3" y="14" width="7" height="6" rx="1"></rect><path d="M13 16h8M13 19h5"></path></svg><span class="vl" data-i18n="view.list"></span></button>
-          <button type="button" data-view="grid" aria-pressed="false"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="8" height="8" rx="1"></rect><rect x="13" y="3" width="8" height="8" rx="1"></rect><rect x="3" y="13" width="8" height="8" rx="1"></rect><rect x="13" y="13" width="8" height="8" rx="1"></rect></svg><span class="vl" data-i18n="view.grid"></span></button>
-          <button type="button" data-view="table" aria-pressed="false"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 5h18M3 10h18M3 15h18M3 20h18M9 5v15"></path></svg><span class="vl" data-i18n="view.table"></span></button>
-          <button type="button" data-view="timeline" aria-pressed="false"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="6" cy="15" r="2.5"></circle><circle cx="12" cy="8" r="3.5"></circle><circle cx="18" cy="14" r="2"></circle><path d="M3 21h18"></path></svg><span class="vl" data-i18n="view.timeline"></span></button>
-          <button type="button" data-view="graph" aria-pressed="false"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="5" r="2.5"></circle><circle cx="5" cy="18" r="2.5"></circle><circle cx="19" cy="18" r="2.5"></circle><path d="M11 7.5 6.5 16M13 7.5l4.5 8.5M7.5 18h9"></path></svg><span class="vl" data-i18n="view.graph"></span></button>
-        </div>
-        <select id="sort" aria-label="Sort"><option value="rank" data-i18n="sort.rank"></option><option value="heat" data-i18n="sort.heat"></option><option value="new" data-i18n="sort.new"></option></select>
-        <span class="count" id="count" aria-live="polite"></span>
+      <div class="res-head">
+        <div class="res-title"><h2 id="res-h"></h2><span class="count" id="count" aria-live="polite"></span></div>
+        <div class="active-filters" id="active"></div>
       </div>
-      <div class="active-filters" id="active"></div>
       <div id="results"></div>
     </div>
 
@@ -106,11 +112,11 @@
         <p id="trend-s"></p>
         <p class="trend-watch"><b data-i18n="trend.watch"></b> <span id="trend-w"></span></p>
       </div>
-      <figure class="heat-grid" data-scroll-x><figcaption data-i18n="trend.heat"></figcaption><div id="sig-grid"></div></figure>
-    </div>
-    <div class="day-charts">
-      <figure class="mini"><figcaption data-i18n="day.stars"></figcaption><svg id="spark-stars" role="img"></svg></figure>
-      <figure class="mini"><figcaption data-i18n="day.newPerDay"></figcaption><svg id="spark-new" role="img"></svg></figure>
+      <div class="trend-side">
+        <figure class="mini"><figcaption data-i18n="day.stars"></figcaption><svg id="spark-stars" role="img"></svg></figure>
+        <figure class="mini"><figcaption data-i18n="day.newPerDay"></figcaption><svg id="spark-new" role="img"></svg></figure>
+        <figure class="heat-grid" data-scroll-x><figcaption data-i18n="trend.heat"></figcaption><div id="sig-grid"></div></figure>
+      </div>
     </div>
     <ol class="days" id="days"></ol>
     <button class="fmore" id="days-more" type="button" hidden></button>
@@ -139,13 +145,13 @@
 
 <div class="scrim" id="scrim"></div>
 <div class="pal" id="pal" role="dialog" aria-modal="true" aria-label="Jump">
-  <input id="pal-q" type="text" autocomplete="off" data-i18n-ph="pal.ph" role="combobox" aria-controls="pal-list" aria-expanded="true">
+  <div class="pal-in"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg><input id="pal-q" type="text" autocomplete="off" data-i18n-ph="pal.ph" role="combobox" aria-controls="pal-list" aria-expanded="true"><kbd>Esc</kbd></div>
   <ul id="pal-list" role="listbox"></ul>
   <div class="pal-foot" data-i18n="pal.hint"></div>
 </div>
 <div class="tip" id="tip" aria-hidden="true"></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script>
 const DATA = /*__DATA__*/null;
 const UI = /*__UI__*/null;

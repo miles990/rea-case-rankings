@@ -1,7 +1,7 @@
 # REA Case Rankings · REA 案例排行榜
 
-**See what people around the world took apart with [REA](https://github.com/morluto/rea), ranked and updated daily.**
-**一頁看懂全世界的人用 [REA](https://github.com/morluto/rea) 拆開了什麼，每天更新。**
+**See what people around the world do with [REA](https://github.com/morluto/rea), ranked and updated daily.**
+**一頁看懂全世界的人用 [REA](https://github.com/morluto/rea) 做了什麼，每天更新。**
 
 ### → [miles990.github.io/rea-awesome](https://miles990.github.io/rea-awesome/)
 

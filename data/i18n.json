@@ -3688,5 +3688,185 @@
       "target": "",
       "metric": ""
     }
+  },
+  "d-f31886c168": {
+    "hash": "11d52d923c22",
+    "en": {
+      "title": "REA (morluto/rea): Turning \"Reverse Engineering\" into an MCP Tool Surface for Agents — 134 Tools, 24 Providers, No Silent Fallbacks - AI News - 智码视界",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA（morluto/rea）：把“逆向工程”做成智能体的一个 MCP 工具面——134 工具、24 Provider、无静默回退的工程拆解 - AI 资讯 - 智码视界",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-6e728ed250": {
+    "hash": "b043890b2a6d",
+    "en": {
+      "title": "REA (Reverse Engineer Anything): Autonomous Binary Decompilation and Clean-Room Engineering with AI Agents | Fouad Salkini",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA (Reverse Engineer Anything)：借助 AI 智能体实现自主二进制反编译与洁净室工程 | Fouad Salkini",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-3db45b5ca0": {
+    "hash": "d9cb24f3226b",
+    "en": {
+      "title": "REA: Reverse Engineer Anything With AI Agents",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA：用 AI 智能体逆向工程任意应用",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-9c31b3d5b4": {
+    "hash": "a9cf44a06dec",
+    "en": {
+      "title": "REA: Reverse Engineering Any App with AI Agents",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA：用 AI 智能体逆向工程任意应用",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-2f09a54a93": {
+    "hash": "c4a910a02aea",
+    "en": {
+      "title": "What Is REA? Reverse Engineer Apps With AI Agents",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "What Is REA? Reverse Engineer Apps With AI Agents",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-0e690962d0": {
+    "hash": "15270d7d3587",
+    "en": {
+      "title": "REA turns coding agents into your reverse-engineering partner — REA Reverse – Engineer Anything | Zeli",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA 让编程智能体成为你的逆向工程搭档 — REA Reverse – Engineer Anything | Zeli",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-dcc5b9347b": {
+    "hash": "33271c941848",
+    "en": {
+      "title": "REA Reverse Engineering: 3,205 Tests, 33k Stars Explained | explainx.ai Blog | explainx.ai",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA Reverse Engineering: 3,205 Tests, 33k Stars Explained | explainx.ai Blog | explainx.ai",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-4e2c1b1867": {
+    "hash": "be50226bbe82",
+    "en": {
+      "title": "See how any app really works: reverse-engineer it with an AI agent — hands-on with REA | AI Frontier Post",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "看清任何 App 的真实运作:用 AI 智能体逆向它——REA 实测 | AI Frontier Post",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-09e59503be": {
+    "hash": "9e0d4ae01230",
+    "en": {
+      "title": "rea: An MCP Server That Lets AI Agents Do Reverse Engineering",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "rea：让 AI Agent 做逆向工程的 MCP 服务器",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-7c709db925": {
+    "hash": "7ec3a6781a06",
+    "en": {
+      "title": "rea Teardown: A Reverse Engineering MCP That Turns \"Don't Let the Model Make Things Up\" into a Schema",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "rea 拆解：把“模型别瞎编”做成 schema 的逆向工程 MCP",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-ee18e04ffd": {
+    "hash": "aa671f2c7a31",
+    "en": {
+      "title": "REA: Reverse Engineer Anything with AI Agents & MCP - HoangYell",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA：借助 AI Agent 与 MCP 逆向一切 - HoangYell",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-e2d1926900": {
+    "hash": "69f7131988e2",
+    "en": {
+      "title": "REA: AI Reverse Engineering MCP for Ghidra, IDA and Hopper",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA：面向 Ghidra、IDA 和 Hopper 的 AI 逆向工程 MCP",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
   }
 }

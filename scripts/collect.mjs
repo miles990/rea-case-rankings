@@ -468,7 +468,9 @@ async function save(discovered) {
   discovered.items = [...byUrl.values()];
   for (const it of discovered.items) delete it.text;
   discovered.items.sort((a, b) => (b.found + (b.date || "")).localeCompare(a.found + (a.date || "")));
-  discovered.items = discovered.items.slice(0, 300);
+  // No cap: a scored entry must never fall off the list because newer finds arrived.
+  // Off-topic finds keep only what stops them being collected and judged again.
+  discovered.items = discovered.items.map((it) => (it.relevant === false ? { url: it.url, title: String(it.title || "").slice(0, 120), source: it.source, found: it.found, relevant: false, scored: it.scored, scored_by: it.scored_by } : it));
   await writeFile(DISCOVERED, JSON.stringify(discovered, null, 2) + "\n");
 }
 

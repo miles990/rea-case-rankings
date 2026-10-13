@@ -1,7 +1,7 @@
 # REA Case Rankings · REA 案例排行榜
 
-**See what people around the world took apart with [REA](https://github.com/morluto/rea), ranked and updated twice a day.**
-**一頁看懂全世界的人用 [REA](https://github.com/morluto/rea) 拆開了什麼，每天更新兩次。**
+**See what people around the world took apart with [REA](https://github.com/morluto/rea), ranked and updated daily.**
+**一頁看懂全世界的人用 [REA](https://github.com/morluto/rea) 拆開了什麼，每天更新。**
 
 ### → [miles990.github.io/rea-awesome](https://miles990.github.io/rea-awesome/)
 
@@ -23,7 +23,7 @@ REA (Reverse Engineer Anything) lets coding agents such as Claude Code and Codex
 
 ### How entries are collected
 
-Twice a day (08:18 and 12:30 Taipei time) the collector searches public sources in many languages: GitHub, Hacker News, X, Reddit, YouTube, Bluesky, Mastodon, DEV, Qiita and V2EX. Mirrors, list repos and duplicates are dropped. A small judgment model filters out posts that are off-topic before anything is scored.
+The collector searches public sources in many languages: GitHub, Hacker News, X, Reddit, YouTube, Bluesky, Mastodon, DEV, Qiita and V2EX. Mirrors, list repos and duplicates are dropped. A small judgment model filters out posts that are off-topic before anything is scored.
 
 ### How entries are scored
 
@@ -53,7 +53,7 @@ REA（Reverse Engineer Anything）讓 Claude Code、Codex 這類 coding agent �
 
 ### 如何收錄
 
-每天 08:18 與 12:30（台灣時間）搜尋多種語言的公開來源：GitHub、Hacker News、X、Reddit、YouTube、Bluesky、Mastodon、DEV、Qiita、V2EX。去除鏡像、清單型 repo 與重複項目後，先由小型判讀模型濾掉離題內容，再進入評分。
+每天搜尋多種語言的公開來源：GitHub、Hacker News、X、Reddit、YouTube、Bluesky、Mastodon、DEV、Qiita、V2EX。去除鏡像、清單型 repo 與重複項目後，先由小型判讀模型濾掉離題內容，再進入評分。
 
 ### 如何評分
 

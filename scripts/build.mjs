@@ -31,7 +31,25 @@ for (const r of records) {
 const i18n = {};
 for (const r of records) if (i18nAll[r.id]) { const { hash, ...rest } = i18nAll[r.id]; i18n[r.id] = rest; }
 const updated = [cases.updated, discovered.updated].filter(Boolean).sort().pop();
-const base = { updated, scanned: discovered.updated, repo: cases.repo, site: { repo: REPO_URL, url: SITE_URL }, records, thumbs };
+// Pages load in two batches. The HTML carries what the first screen needs: the top
+// entries, the last week and two weeks of briefs. The rest arrives as <lang>/data.json
+// right after first paint, so the page stays small however long the history grows.
+const INLINE_TOP = +process.env.INLINE_TOP || 100, INLINE_DAYS = +process.env.INLINE_DAYS || 7, INLINE_BRIEFS = +process.env.INLINE_BRIEFS || 14;
+const FIELDS = ["id", "title", "summary", "target", "metric", "wow", "heat", "status", "type", "category", "lang", "author", "author_url", "date", "added", "via", "source", "pop", "links", "original_title"];
+const latest = records.reduce((m, r) => ((r.added || "") > m ? r.added : m), "");
+// Yesterday's rank for each entry, from the last ranking snapshot before the latest day.
+// Before the first snapshot exists, today's order without today's additions stands in.
+const prevSnap = historyAll.days.filter((d) => d.rank?.length && d.date < latest).at(-1);
+const prevOrder = prevSnap ? prevSnap.rank : records.filter((r) => r.added !== latest).map((r) => r.id);
+const prevRank = new Map(prevOrder.map((id, i) => [id, i + 1]));
+const slim = (r, i) => { const o = { rank: i + 1 }; for (const k of FIELDS) if (r[k] != null && r[k] !== "") o[k] = r[k]; if (prevRank.has(r.id)) o.prev = prevRank.get(r.id); return o; };
+const slimRecords = records.map(slim);
+const weekStart = new Date(Date.parse(latest + "T00:00:00Z") - (INLINE_DAYS - 1) * 864e5).toISOString().slice(0, 10);
+const seen = (r) => ((r.date || "") > (r.added || "") ? r.date : r.added) || "";
+const inlineRecords = slimRecords.filter((r) => r.rank <= INLINE_TOP || seen(r) >= weekStart);
+const pick = (ids, o) => Object.fromEntries(Object.entries(o).filter(([id]) => ids.has(id)));
+const base = { updated, scanned: discovered.updated, repo: cases.repo, site: { repo: REPO_URL, url: SITE_URL }, total: records.length };
+const dataVersion = `${updated}-${records.length}-${Date.now().toString(36)}`;
 
 // JSON inside <script>: escape "<" and line separators so no string can end the tag.
 const js_ = (v) => JSON.stringify(v).replace(/</g, "\\u003c").replace(/[\u2028\u2029]/g, (c) => "\\u" + c.charCodeAt(0).toString(16));
@@ -66,9 +84,15 @@ ${Object.entries(PATHS).map(([l, p]) => `<link rel="alternate" hreflang="${ui[l]
 <meta property="og:type" content="website"><meta property="og:title" content="${esc(t("title"))}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${SITE_URL}${path}">
 <meta name="twitter:card" content="summary">
 <script type="application/ld+json">${js_(jsonld)}</script>`;
-  const pick = (o) => (o?.text ? { ...o, text: { [lang]: o.text[lang] || o.text["zh-TW"] } } : o);
-  const history = { days: historyAll.days.map(pick), trend: pick(historyAll.trend) };
-  const page = assemble({ ...base, i18n: own, pages, thumbBase: up + "thumbs/", history }, lang, head);
+  const one = (o) => { if (!o) return o; const { rank, ...rest } = o; return rest.text ? { ...rest, text: { [lang]: rest.text[lang] || rest.text["zh-TW"] } } : rest; };
+  const history = { days: historyAll.days.map(one), trend: one(historyAll.trend), prevDate: prevSnap?.date || null };
+  const full = { records: slimRecords, i18n: own, thumbs, history };
+  await mkdir(out(`pages/${path}`), { recursive: true });
+  await writeFile(out(`pages/${path}data.json`), JSON.stringify(full));
+  const ids = new Set(inlineRecords.map((r) => r.id));
+  const first = { records: inlineRecords, i18n: pick(ids, own), thumbs: pick(ids, thumbs), history: { ...history, days: history.days.slice(-INLINE_BRIEFS) } };
+  const partial = inlineRecords.length < records.length || history.days.length > INLINE_BRIEFS;
+  const page = assemble({ ...base, ...first, partial, full: partial ? `data.json?v=${dataVersion}` : null, pages, thumbBase: up + "thumbs/" }, lang, head);
   const [h, b] = split(page);
   const doc = `<!doctype html>
 <html lang="${ui[lang]._html}" dir="${ui[lang]._dir || "ltr"}">
@@ -81,7 +105,6 @@ ${h.replace(/<title>[^<]*<\/title>/, `<title>${esc(t("title"))}</title>`).replac
 <body>${b}</body>
 </html>
 `;
-  await mkdir(out(`pages/${path}`), { recursive: true });
   await writeFile(out(`pages/${path}index.html`), doc);
 }
 
@@ -90,11 +113,11 @@ const api = {
   name: "REA case rankings", description: "What people built, rebuilt and found with REA (github.com/morluto/rea), scored 1–5 and ranked.",
   updated, site: SITE_URL, source: REPO_URL, languages: Object.keys(ui),
   ranking: "score desc, heat desc, evidence (tested > shipped > reported), date desc",
-  fields: { rank: "1 = best", wow: "score 1–5 (null = not scored yet)", heat: "popularity 0–100, log-scaled engagement", status: "tested | shipped | reported", type: "case | app | learn | news", source: "curated (human-scored) | auto (AI-scored)", i18n: "translations of title/summary/target/metric by language" },
-  records: records.map((r, i) => ({ rank: i + 1, id: r.id, title: r.title, summary: r.summary, target: r.target, metric: r.metric, wow: r.wow, heat: r.heat, status: r.status, type: r.type, category: r.category, lang: r.lang, author: r.author, author_url: r.author_url || null, date: r.date || null, added: r.added || null, via: r.via, source: r.source, pop: r.pop || {}, links: r.links, thumbnail: thumbs[r.id] ? SITE_URL + "thumbs/" + thumbs[r.id] : null, page: `${SITE_URL}#r-${r.id}`, i18n: i18n[r.id] || {} })),
+  fields: { rank: "1 = best", rank_previous: "rank on the previous day (null = new)", wow: "score 1–5 (null = not scored yet)", heat: "popularity 0–100, log-scaled engagement", status: "tested | shipped | reported", type: "case | app | learn | news", source: "curated (human-scored) | auto (AI-scored)", i18n: "translations of title/summary/target/metric by language" },
+  records: records.map((r, i) => ({ rank: i + 1, id: r.id, title: r.title, summary: r.summary, target: r.target, metric: r.metric, wow: r.wow, heat: r.heat, status: r.status, rank_previous: prevRank.get(r.id) ?? null, type: r.type, category: r.category, lang: r.lang, author: r.author, author_url: r.author_url || null, date: r.date || null, added: r.added || null, via: r.via, source: r.source, pop: r.pop || {}, links: r.links, thumbnail: thumbs[r.id] ? SITE_URL + "thumbs/" + thumbs[r.id] : null, page: `${SITE_URL}#r-${r.id}`, i18n: i18n[r.id] || {} })),
 };
 await writeFile(out("pages/api/records.json"), JSON.stringify(api));
-await writeFile(out("pages/api/daily.json"), JSON.stringify({ description: "One entry per day: REA stars, entries added (ids into records.json), and a short brief in zh-TW/en/zh-CN naming which long-term signals the day supports.", signals: historyAll.signals || {}, days: historyAll.days }));
+await writeFile(out("pages/api/daily.json"), JSON.stringify({ description: "One entry per day: REA stars, entries added (ids into records.json), and a short brief in zh-TW/en/zh-CN naming which long-term signals the day supports. rank_previous in records.json is each entry's rank on the previous day.", signals: historyAll.signals || {}, days: historyAll.days.map(({ rank, ...d }) => d) }));
 
 await writeFile(out("pages/llms.txt"), `# REA case rankings
 
@@ -138,4 +161,4 @@ ${Object.values(PATHS).map((p) => `<url><loc>${SITE_URL}${p}</loc><lastmod>${upd
 `);
 await writeFile(out("pages/robots.txt"), `User-agent: *\nAllow: /\nSitemap: ${SITE_URL}sitemap.xml\n`);
 await writeFile(out("pages/.nojekyll"), "");
-console.log(`built ${records.length} records · ${Object.keys(PATHS).length} language pages · ${Object.keys(thumbs).length} thumbnails`);
+console.log(`built ${records.length} records (${inlineRecords.length} inline) · ${Object.keys(PATHS).length} language pages · ${Object.keys(thumbs).length} thumbnails`);

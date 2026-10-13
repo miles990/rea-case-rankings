@@ -227,7 +227,14 @@
     "d.similar": "看同類別",
     "d.graph": "關聯網路",
     "d.graphKey": "虛線＝同作者／目標／repo",
-    "f.minhint": "預設 2 分以上，隱藏只是轉貼或提及的項目。"
+    "f.minhint": "預設 2 分以上，隱藏只是轉貼或提及的項目。",
+    "mv.up": "比前一天上升 {n} 名",
+    "mv.down": "比前一天下降 {n} 名",
+    "mv.flat": "名次持平",
+    "mv.newT": "新進榜",
+    "mv.col": "變化",
+    "rank.overall": "在全部排行中的名次",
+    "rank.overallShort": "總"
   },
   "zh-CN": {
     "_name": "简体中文",
@@ -473,7 +480,14 @@
     "d.similar": "看同类别",
     "d.graph": "关联网络",
     "d.graphKey": "虚线＝同作者／目标／repo",
-    "f.minhint": "默认 2 分以上，隐藏只是转贴或提及的项目。"
+    "f.minhint": "默认 2 分以上，隐藏只是转贴或提及的项目。",
+    "mv.up": "比前一天上升 {n} 名",
+    "mv.down": "比前一天下降 {n} 名",
+    "mv.flat": "名次持平",
+    "mv.newT": "新进榜",
+    "mv.col": "变化",
+    "rank.overall": "在全部排行中的名次",
+    "rank.overallShort": "总"
   },
   "en": {
     "_name": "English",
@@ -719,6 +733,13 @@
     "d.similar": "More like this",
     "d.graph": "Connections",
     "d.graphKey": "dashed = same author, target or repo",
-    "f.minhint": "Default 2+ hides reposts and passing mentions."
+    "f.minhint": "Default 2+ hides reposts and passing mentions.",
+    "mv.up": "Up {n} since yesterday",
+    "mv.down": "Down {n} since yesterday",
+    "mv.flat": "No change",
+    "mv.newT": "New in this ranking",
+    "mv.col": "Move",
+    "rank.overall": "Rank across all entries",
+    "rank.overallShort": "All"
   }
 }

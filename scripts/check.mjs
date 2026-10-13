@@ -2,13 +2,24 @@
 // script errors, horizontal overflow, raw i18n keys, broken views or controls.
 // Screenshots land in dist/shots/ for a quick visual review.
 import { chromium } from "playwright";
-import { mkdir } from "node:fs/promises";
-import { pathToFileURL } from "node:url";
+import { mkdir, readFile } from "node:fs/promises";
+import { createServer } from "node:http";
+import { extname, normalize } from "node:path";
 
 const ROOT = new URL("..", import.meta.url);
 const OUT = new URL("dist/shots/", ROOT);
 await mkdir(OUT, { recursive: true });
-const page = (p) => pathToFileURL(new URL(`dist/pages/${p}`, ROOT).pathname).href;
+// Served over HTTP like GitHub Pages, so the second data batch (data.json) really loads.
+const DIST = new URL("dist/pages/", ROOT).pathname;
+const MIME = { ".html": "text/html; charset=utf-8", ".json": "application/json", ".js": "text/javascript", ".css": "text/css", ".png": "image/png", ".jpg": "image/jpeg", ".webp": "image/webp", ".svg": "image/svg+xml", ".xml": "application/xml", ".txt": "text/plain" };
+const server = createServer(async (req, res) => {
+  let p = normalize(decodeURIComponent(new URL(req.url, "http://x").pathname)).replace(/^(\.\.[/\\])+/, "");
+  if (p.endsWith("/")) p += "index.html";
+  try { const body = await readFile(DIST + p.replace(/^\//, "")); res.writeHead(200, { "content-type": MIME[extname(p)] || "application/octet-stream" }); res.end(body); }
+  catch { res.writeHead(404); res.end(); }
+}).listen(0, "127.0.0.1");
+await new Promise((r) => server.once("listening", r));
+const page = (p) => `http://127.0.0.1:${server.address().port}/${p.replace(/index\.html$/, "")}`;
 const SHOTS = process.argv.includes("--shots");
 const problems = [];
 const fail = (m) => problems.push(m);
@@ -31,6 +42,11 @@ for (const run of runs) {
   await p.goto(run.url, { waitUntil: "load" });
   await p.waitForTimeout(700);
 
+  // The second batch must arrive and replace the first.
+  await p.waitForFunction(() => document.documentElement.dataset.full, null, { timeout: 15000 }).catch(() => {});
+  const full = await p.evaluate(() => ({ flag: document.documentElement.dataset.full, n: records.length, total: DATA.total }));
+  if (full.flag !== "1") fail(`${tag} full data did not load (flag ${full.flag})`);
+  else if (full.n !== full.total) fail(`${tag} loaded ${full.n} of ${full.total} entries`);
   const info = await p.evaluate(() => {
     const w = document.documentElement.clientWidth;
     const over = [...document.querySelectorAll("body *")].filter((e) => {
@@ -56,8 +72,13 @@ for (const run of runs) {
   const ranges = await p.evaluate(() => [...document.querySelectorAll("#periods [data-p]")].map((b) => [b.dataset.p, b.getAttribute("aria-pressed"), +b.querySelector(".k").textContent]));
   if (ranges.length !== 4 || ranges[0][1] !== "true") fail(`${tag} time ranges missing or today not default: ${JSON.stringify(ranges)}`);
   for (let i = 1; i < ranges.length; i++) if (ranges[i][2] < ranges[i - 1][2]) fail(`${tag} range ${ranges[i][0]} has fewer entries than ${ranges[i - 1][0]}`);
-  await p.locator('[data-p="all"]').click();
-  await p.waitForTimeout(150);
+  // Every range is its own ranking: the first row is #1.
+  for (const k of ["1", "7", "all"]) {
+    await p.locator(`[data-p="${k}"]`).click();
+    await p.waitForTimeout(120);
+    const first = await p.evaluate(() => { const r = current[0]; return r ? POS.get(r.id) : null; });
+    if (first !== null && first !== 1) fail(`${tag} range ${k} starts at #${first}, expected #1`);
+  }
 
   // Interaction smoke test: every view renders, selection opens details, palette opens.
   for (const v of ["grid", "table", "timeline", "graph", "space", "list"]) {
@@ -87,7 +108,21 @@ for (const run of runs) {
   if (!(await p.locator("#pal.on").count())) fail(`${tag} ⌘K palette did not open`);
   await ctx.close();
 }
+// A deep link to an entry outside the first batch must open once the rest arrives.
+{
+  const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 } });
+  const p = await ctx.newPage();
+  await p.goto(page("index.html"));
+  const target = await p.evaluate(() => { const first = new Set(DATA.records.map((r) => r.id)); return fetch(DATA.full || "data.json").then((r) => r.json()).then((j) => (j.records.find((r) => !first.has(r.id)) || j.records.at(-1)).id); });
+  await p.goto(page("index.html") + "?range=all#r-" + target);
+  await p.waitForFunction(() => document.documentElement.dataset.full === "1", null, { timeout: 15000 }).catch(() => {});
+  await p.waitForTimeout(300);
+  const shown = await p.evaluate(() => state.id);
+  if (shown !== target) fail(`[deep-link] #r-${target} opened ${shown}`);
+  await ctx.close();
+}
 await browser.close();
+server.close();
 
 for (const m of problems) console.log(`FAIL ${m}`);
 console.log(`check: ${runs.length} page runs, ${problems.length} problems${SHOTS ? ", screenshots in dist/shots/" : ""}`);

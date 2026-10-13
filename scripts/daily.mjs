@@ -122,6 +122,8 @@ async function main() {
     byDate.set(date, entry);
     console.log(`${date}: ${items.length} entries${entry.text ? " · " + entry.text["zh-TW"].headline : ""}`);
   }
+  // The day's full ranking order, so tomorrow's pages can show each entry's movement.
+  if (!backfill && byDate.has(TODAY)) byDate.get(TODAY).rank = records.map((r) => r.id);
   history.days = [...byDate.values()].sort((a, b) => a.date.localeCompare(b.date));
   history.signals = SIGNALS;
   if (useClaude) {

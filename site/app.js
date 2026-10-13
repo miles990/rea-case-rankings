@@ -40,15 +40,18 @@ const linkLabel = (l) => tm("link")[l] || l;
 const fmt = (n) => { try { return Number(n).toLocaleString(UI[lang]._html); } catch { return String(n); } };
 
 // ---------- Records & relations ----------
-const records = DATA.records.map((r, i) => ({ ...r, rank: i + 1 }));
-const byId = new Map(records.map((r) => [r.id, r]));
+// The page starts with the first batch (top entries and the last week) and swaps in
+// the full set from data.json once it arrives; see loadFull().
+let records = DATA.records.map((r, i) => ({ ...r, rank: r.rank ?? i + 1 }));
+let byId = new Map(records.map((r) => [r.id, r]));
+const total = () => (DATA.partial ? DATA.total : records.length);
 const latestDay = records.reduce((m, r) => ((r.added || "") > m ? r.added : m), "");
 // Time ranges count back from the latest update day, not the viewer's clock, so
 // "today" is never empty before the morning run. An entry's day is the later of
 // when it was published and when the site found it.
 const PERIODS = ["1", "7", "30", "all"];
 const seenDay = (r) => ((r.date || "") > (r.added || "") ? r.date : r.added) || "";
-const periodStart = (n) => { const d = new Date(latestDay + "T00:00:00Z"); d.setUTCDate(d.getUTCDate() - (n - 1)); return d.toISOString().slice(0, 10); };
+const periodStart = (n, back = 0) => { const d = new Date(latestDay + "T00:00:00Z"); d.setUTCDate(d.getUTCDate() - (n - 1) - back); return d.toISOString().slice(0, 10); };
 const TYPE_COLOR = { case: "var(--s1)", app: "var(--s2)", learn: "var(--s3)", news: "var(--s4)" };
 const TYPE_HUE = { case: 218, app: 18, learn: 158, news: 262 };
 
@@ -73,7 +76,7 @@ function relations() {
   }
   return adj;
 }
-const ADJ = relations();
+let ADJ = relations();
 const relatedOf = (r) => {
   const near = [...ADJ.get(r.id).keys()].map((id) => byId.get(id)).sort((a, b) => a.rank - b.rank);
   const fill = records.filter((x) => x.id !== r.id && x.category === r.category && !ADJ.get(r.id).has(x.id)).slice(0, 4 - Math.min(4, near.length));
@@ -121,7 +124,7 @@ const FACETS = ["cat", "via", "lang", "status", "source"];
 const FIELD = { cat: "category", via: "via", lang: "lang", status: "status", source: "source" };
 // min: lowest score shown. Default 2 hides one-line link shares and news;
 // entries not scored yet always stay visible.
-const DAYS = (DATA.history?.days || []).filter((d) => d.new?.length || d.text);
+let DAYS = (DATA.history?.days || []).filter((d) => d.new?.length || d.text);
 const dayIds = (date) => new Set(DAYS.find((d) => d.date === date)?.new || []);
 const state = { day: null, period: "1", type: "all", q: "", sort: "rank", view: store.get("rea-view") || "list", id: null, tsort: null, min: 2, cat: null, via: null, lang: null, status: null, source: null };
 const VIEWS = ["list", "grid", "table", "timeline", "graph", "space"];
@@ -157,9 +160,10 @@ const hay = (r) => {
   return haystack.get(k);
 };
 let dayCache = [null, new Set()];
-function matches(r, skip) {
+function matches(r, skip, yesterday = false) {
+  if (yesterday && (r.prev == null || (!state.day && state.period !== "all" && seenDay(r) < periodStart(+state.period, 1)))) return false;
   if (state.day) { if (dayCache[0] !== state.day) dayCache = [state.day, dayIds(state.day)]; if (!dayCache[1].has(r.id)) return false; }
-  if (!state.day && skip !== "period" && state.period !== "all" && seenDay(r) < periodStart(+state.period)) return false;
+  if (!yesterday && !state.day && skip !== "period" && state.period !== "all" && seenDay(r) < periodStart(+state.period)) return false;
   if (skip !== "min" && r.wow != null && r.wow < state.min) return false;
   if (skip !== "type" && state.type !== "all" && r.type !== state.type) return false;
   for (const f of FACETS) if (skip !== f && state[f] && r[FIELD[f]] !== state[f]) return false;
@@ -173,11 +177,33 @@ function filtered() {
   if (by === "heat") list.sort((a, b) => (b.heat || 0) - (a.heat || 0) || a.rank - b.rank);
   if (state.view === "table" && state.tsort) {
     const [col, dir] = state.tsort;
-    const val = { rank: (r) => r.rank, wow: (r) => -(r.wow ?? 0), heat: (r) => -(r.heat || 0), title: (r) => tx(r, "title"), type: (r) => typeName(r.type), via: (r) => r.via, lang: (r) => r.lang, date: (r) => r.date || r.added || "" }[col];
+    const mv = (r) => (PREV.has(r.id) ? PREV.get(r.id) - posOf(r) : 1e6);
+    const val = { rank: (r) => r.rank, overall: (r) => r.rank, move: (r) => -mv(r), wow: (r) => -(r.wow ?? 0), heat: (r) => -(r.heat || 0), title: (r) => tx(r, "title"), type: (r) => typeName(r.type), via: (r) => r.via, lang: (r) => r.lang, date: (r) => r.date || r.added || "" }[col];
     list.sort((a, b) => { const x = val(a), y = val(b); return (x > y ? 1 : x < y ? -1 : a.rank - b.rank) * dir; });
   }
   return list;
 }
+
+// ---------- Positions within the current ranking ----------
+// Every range is its own ranking that starts at 1. Movement compares an entry's place
+// with its place in the same ranking yesterday (same filters, window one day earlier).
+let POS = new Map(), PREV = new Map();
+function computePositions(list) {
+  POS = new Map([...list].sort((a, b) => a.rank - b.rank).map((r, i) => [r.id, i + 1]));
+  PREV = new Map();
+  if (state.day) return;
+  records.filter((r) => matches(r, null, true)).sort((a, b) => a.prev - b.prev).forEach((r, i) => PREV.set(r.id, i + 1));
+}
+const posOf = (r) => POS.get(r.id) ?? r.rank;
+function moveHTML(r) {
+  if (state.day || !POS.has(r.id)) return "";
+  const was = PREV.get(r.id), now = POS.get(r.id);
+  if (was == null) return `<span class="new" title="${esc(t("mv.newT"))}">${esc(t("new.badge"))}</span>`;
+  const d = was - now;
+  if (!d) return `<span class="mv flat" title="${esc(t("mv.flat"))}">—</span>`;
+  return `<span class="mv ${d > 0 ? "up" : "down"}" title="${esc(t(d > 0 ? "mv.up" : "mv.down").replace("{n}", Math.abs(d)))}">${d > 0 ? "▲" : "▼"}${Math.abs(d)}</span>`;
+}
+const overall = (r) => (POS.has(r.id) && POS.get(r.id) !== r.rank ? `<span class="gr" title="${esc(t("rank.overall"))}">${esc(t("rank.overallShort"))} #${r.rank}</span>` : "");
 
 // ---------- Small renderers ----------
 const wowBar = (w) => (w == null ? `<span class="tag">${esc(t("row.unscored"))}</span>`
@@ -230,7 +256,8 @@ $("#facets").addEventListener("click", (e) => {
 
 function renderPeriods() {
   const n = (k) => records.filter((r) => matches(r, "period") && (k === "all" || seenDay(r) >= periodStart(+k))).length;
-  $("#periods").innerHTML = PERIODS.map((k) => `<button class="tab" type="button" data-p="${k}" aria-pressed="${!state.day && state.period === k}" title="${k === "all" ? "" : esc(periodStart(+k) + " – " + latestDay)}">${esc(t("range." + k))}<span class="k">${n(k)}</span></button>`).join("");
+  const pending = (k) => DATA.partial && (k === "30" || k === "all");
+  $("#periods").innerHTML = PERIODS.map((k) => `<button class="tab" type="button" data-p="${k}" aria-pressed="${!state.day && state.period === k}" title="${k === "all" ? "" : esc(periodStart(+k) + " – " + latestDay)}">${esc(t("range." + k))}<span class="k">${pending(k) ? "…" : n(k)}</span></button>`).join("");
 }
 $("#periods").addEventListener("click", (e) => { const b = e.target.closest("[data-p]"); if (b) { state.period = b.dataset.p; state.day = null; update(); } });
 
@@ -266,8 +293,9 @@ $("#active").addEventListener("click", (e) => {
 let current = [];
 function renderResults() {
   current = filtered();
+  computePositions(current);
   $("#res-h").textContent = state.day ? t("res.day").replace("{d}", state.day) : t("res." + state.period);
-  $("#count").innerHTML = `<bdi dir="ltr">${current.length} / ${records.length}</bdi>`;
+  $("#count").innerHTML = `<bdi dir="ltr">${current.length} / ${total()}</bdi>${DATA.partial ? ` <span class="loading-dot" title="${esc(t("viz.loading"))}"></span>` : ""}`;
   $$("#views button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.view === state.view)));
   const box = $("#results");
   if (state.view !== "space") disposeSpace();
@@ -277,14 +305,14 @@ function renderResults() {
     return;
   }
   if (state.view === "grid") box.innerHTML = `<div class="gallery">${current.map((r) => `<button class="gcard" type="button" data-row="${esc(r.id)}" aria-current="${state.id === r.id}">
-      ${thumbHTML(r)}<span class="gb"><span class="gm"><span class="grk">#${r.rank}</span>${wowBar(r.wow)}</span>
+      ${thumbHTML(r)}<span class="gb"><span class="gm"><span class="grk">#${posOf(r)} ${moveHTML(r)}</span>${wowBar(r.wow)}</span>
       <h3>${esc(tx(r, "title"))}</h3>
       <span class="gm"><span class="tags"><span class="dot-type" style="background:${TYPE_COLOR[r.type]}"></span><span class="tag">${esc(catName(r.category))}</span></span>${heatBar(r.heat || 0)}</span></span></button>`).join("")}</div>`;
   else if (state.view === "table") {
-    const cols = [["rank", "#"], ["wow", t("score")], ["heat", t("heat.label")], ["title", t("new.th.title")], ["type", t("f.type")], ["via", t("f.via")], ["lang", t("f.lang")], ["date", t("d.date")]];
+    const cols = [["rank", "#"], ["move", t("mv.col")], ["overall", t("rank.overallShort")], ["wow", t("score")], ["heat", t("heat.label")], ["title", t("new.th.title")], ["type", t("f.type")], ["via", t("f.via")], ["lang", t("f.lang")], ["date", t("d.date")]];
     const [sc, sd] = state.tsort || [];
     box.innerHTML = `<div class="dtable-wrap" data-scroll-x><table class="dtable"><thead><tr>${cols.map(([k, l]) => `<th${sc === k ? ` aria-sort="${sd > 0 ? "ascending" : "descending"}"` : ""}><button type="button" data-sort="${k}">${esc(l)}${sc === k ? (sd > 0 ? " ↑" : " ↓") : ""}</button></th>`).join("")}</tr></thead><tbody>
-      ${current.map((r) => `<tr data-row="${esc(r.id)}" aria-current="${state.id === r.id}"><td class="n">${r.rank}</td><td class="n">${r.wow ?? "—"}</td><td class="n">${r.heat || 0}</td><td class="ti">${esc(tx(r, "title"))}${isNew(r) ? ` <span class="new">${esc(t("new.badge"))}</span>` : ""}</td><td class="n"><span class="dot-type" style="background:${TYPE_COLOR[r.type]}"></span> ${esc(typeName(r.type))}</td><td class="n">${esc(r.via)}</td><td class="n">${esc(r.lang)}</td><td class="n">${esc(r.date || r.added || "")}</td></tr>`).join("")}
+      ${current.map((r) => `<tr data-row="${esc(r.id)}" aria-current="${state.id === r.id}"><td class="n">${posOf(r)}</td><td class="n">${moveHTML(r)}</td><td class="n">${r.rank}</td><td class="n">${r.wow ?? "—"}</td><td class="n">${r.heat || 0}</td><td class="ti">${esc(tx(r, "title"))}</td><td class="n"><span class="dot-type" style="background:${TYPE_COLOR[r.type]}"></span> ${esc(typeName(r.type))}</td><td class="n">${esc(r.via)}</td><td class="n">${esc(r.lang)}</td><td class="n">${esc(r.date || r.added || "")}</td></tr>`).join("")}
       </tbody></table></div>`;
   } else if (state.view === "timeline") renderTimeline(box);
   else if (state.view === "graph") renderGraph(box);
@@ -292,13 +320,13 @@ function renderResults() {
   else box.innerHTML = `<ol class="rows">${current.map((r) => {
     const main = r.links[0], metric = tx(r, "metric"), summary = tx(r, "summary");
     return `<li class="row" data-row="${esc(r.id)}" aria-current="${state.id === r.id}">
-      <div class="rk${r.rank <= 3 ? " top3" : ""}">${r.rank}${isNew(r) ? `<small><span class="new">${esc(t("new.badge"))}</span></small>` : ""}</div>
+      <div class="rk${posOf(r) <= 3 ? " top3" : ""}">${posOf(r)}<small>${moveHTML(r)}</small></div>
       ${thumbHTML(r)}
       <div class="main">
-        <h3><span class="rkm mono">#${r.rank} · </span><a href="${esc(safe(main.url))}" target="_blank" rel="noopener noreferrer">${esc(tx(r, "title"))}</a> <span class="ext">${esc(host(main.url))} ↗</span></h3>
+        <h3><span class="rkm mono">#${posOf(r)} ${moveHTML(r)} · </span><a href="${esc(safe(main.url))}" target="_blank" rel="noopener noreferrer">${esc(tx(r, "title"))}</a> <span class="ext">${esc(host(main.url))} ↗</span></h3>
         ${metric ? `<div class="metric"><span class="sel">${esc(metric)}</span></div>` : ""}
         ${summary ? `<p class="sum">${esc(summary)}</p>` : ""}
-        <div class="meta">${r.author ? `<span class="who">${esc(r.author)}</span>` : ""}${wowBar(r.wow)}${heatBar(r.heat || 0)}${pill(r.status)}<span class="tags"><span class="dot-type" style="background:${TYPE_COLOR[r.type]}"></span><span class="tag">${esc(catName(r.category))}</span><span class="tag lang">${esc(r.lang)}</span></span></div>
+        <div class="meta">${overall(r)}${r.author ? `<span class="who">${esc(r.author)}</span>` : ""}${wowBar(r.wow)}${heatBar(r.heat || 0)}${pill(r.status)}<span class="tags"><span class="dot-type" style="background:${TYPE_COLOR[r.type]}"></span><span class="tag">${esc(catName(r.category))}</span><span class="tag lang">${esc(r.lang)}</span></span></div>
       </div></li>`;
   }).join("")}</ol>`;
 }
@@ -495,7 +523,7 @@ function renderSpace(box) {
 // Hover tooltips for both visualizations.
 const tip = $("#tip");
 function showTip(r, x, y) {
-  tip.innerHTML = `${thumbHTML(r, true)}<div class="tb"><b>#${r.rank} · ${esc(tx(r, "title"))}</b><span class="tm">${esc(t("score"))} ${r.wow ?? "—"}/5 · ${esc(t("heat.label"))} ${r.heat || 0} · ${esc(r.via)}</span><span class="tm">${esc(r.author || "")}</span></div>`;
+  tip.innerHTML = `${thumbHTML(r, true)}<div class="tb"><b>#${posOf(r)} · ${esc(tx(r, "title"))}</b><span class="tm">${esc(t("score"))} ${r.wow ?? "—"}/5 · ${esc(t("heat.label"))} ${r.heat || 0} · ${esc(r.via)}</span><span class="tm">${esc(r.author || "")}</span></div>`;
   const w = 270, h = tip.offsetHeight || 220;
   tip.style.left = Math.min(innerWidth - w - 12, Math.max(12, x + 16)) + "px";
   tip.style.top = (y + h + 24 > innerHeight ? Math.max(12, y - h - 12) : y + 16) + "px";
@@ -550,7 +578,7 @@ function renderDetail() {
       <button class="ibtn only-drawer" type="button" data-close aria-label="${esc(t("d.close"))}">✕</button>
     </div>
     ${thumbHTML(r, true)}
-    <div class="dt-rank"><span class="big">#${r.rank}</span>${wowBar(r.wow)}${heatBar(r.heat || 0)}${pill(r.status)}</div>
+    <div class="dt-rank"><span class="big">#${posOf(r)}</span>${moveHTML(r)}${overall(r)}${wowBar(r.wow)}${heatBar(r.heat || 0)}${pill(r.status)}</div>
     <h2>${esc(tx(r, "title"))}</h2>
     ${r.original_title && r.original_title !== r.title ? `<div class="orig">${esc(t("row.orig"))}: ${esc(r.original_title)}</div>` : ""}
     <div class="dt-links">${r.links.map((l, i) => `<a href="${esc(safe(l.url))}" target="_blank" rel="noopener noreferrer">${esc(i === 0 ? t("d.open") + " · " + linkLabel(l.label) : linkLabel(l.label))} ↗<span>${esc(host(l.url))}</span></a>`).join("")}</div>
@@ -680,7 +708,7 @@ function renderMast() {
   const kp = [
     ["1", today.length, t("kpi.today"), t("kpi.todayD").replace("{n}", allToday), ""],
     ["7", week.length, t("kpi.week"), t("kpi.weekD"), ""],
-    ["all", records.length, t("kpi.total"), t("kpi.totalD").replace("{n}", records.filter((r) => r.wow === 5).length), ""],
+    ["all", total(), t("kpi.total"), t("kpi.totalD").replace("{n}", records.filter((r) => r.wow === 5).length), ""],
     [null, stars || 0, t("kpi.stars"), last?.stars_delta ? `+${fmtK(last.stars_delta)} ${t("kpi.starsD")}` : "", sparkPath(starDays.slice(-10))],
   ];
   $("#kpis").innerHTML = kp.map(([p, , l, d, svg], i) => `<li>${p ? `<button type="button" data-kp="${p}" aria-label="${esc(l)}"></button>` : ""}<span class="l">${esc(l)}</span><span class="n" data-n="${i}">0</span><span class="d${d && !d.startsWith("+") ? " muted" : ""}">${esc(d)}</span>${svg}</li>`).join("");
@@ -688,7 +716,7 @@ function renderMast() {
   let focus = today.slice(0, 3);
   if (focus.length < 3) focus = [...focus, ...week.filter((r) => !focus.includes(r)).slice(0, 3 - focus.length)];
   $("#focus-n").textContent = today.length ? `${today.length} · ${t("range.1")}` : t("range.7");
-  $("#focus").innerHTML = focus.map((r) => `<button class="fcard" type="button" data-go="${esc(r.id)}"><span class="rkb">#${r.rank}</span>${thumbHTML(r, true)}
+  $("#focus").innerHTML = focus.map((r) => `<button class="fcard" type="button" data-go="${esc(r.id)}"><span class="rkb">#${today.includes(r) ? today.indexOf(r) + 1 : r.rank}</span>${thumbHTML(r, true)}
     <span class="fb"><span class="fm"><span class="dot-type" style="background:${TYPE_COLOR[r.type]}"></span>${esc(catName(r.category))}${isNew(r) ? `<span class="new">${esc(t("new.badge"))}</span>` : ""}</span><h3>${esc(tx(r, "title"))}</h3>${tx(r, "metric") ? `<span class="metric"><span class="sel">${esc(tx(r, "metric"))}</span></span>` : ""}<span class="fm">${wowBar(r.wow)}${heatBar(r.heat || 0)}</span></span></button>`).join("") || `<div class="focus-empty">${esc(t("empty"))}</div>`;
 }
 document.addEventListener("click", (e) => {
@@ -866,9 +894,28 @@ function renderAll() {
   renderStatic(); update();
 }
 
+// Second batch: everything else, fetched after first paint. Relations, search text and
+// layouts are rebuilt from the full set; a deep link to an older entry opens once it lands.
+function loadFull() {
+  if (!DATA.partial || !DATA.full) return;
+  fetch(DATA.full, { credentials: "omit" }).then((r) => (r.ok ? r.json() : Promise.reject(r.status))).then((j) => {
+    Object.assign(DATA, { i18n: j.i18n, thumbs: j.thumbs, history: j.history, partial: false });
+    records = j.records.map((r, i) => ({ ...r, rank: r.rank ?? i + 1 }));
+    byId = new Map(records.map((r) => [r.id, r]));
+    ADJ = relations();
+    DAYS = (DATA.history?.days || []).filter((d) => d.new?.length || d.text);
+    haystack.clear(); layoutCache.clear(); dayCache = [null, new Set()];
+    const want = wantedId;
+    update(); renderDays(); mastCanvas.redraw?.();
+    if (want && byId.has(want)) select(want, false);
+    document.documentElement.dataset.full = "1";
+  }).catch(() => { DATA.partial = false; DATA.total = records.length; update(); document.documentElement.dataset.full = "0"; });
+}
 readURL();
+const wantedId = state.id && !byId.has(state.id) ? state.id : null;
 renderAll();
 mastCanvas();
+if (DATA.partial) (window.requestIdleCallback || setTimeout)(loadFull, { timeout: 800 }); else document.documentElement.dataset.full = "1";
 // Sticky panes sit under the command bar, whose height changes when it wraps.
 new ResizeObserver(([e]) => document.documentElement.style.setProperty("--cmd-h", getComputedStyle($("#cmd")).position === "sticky" ? Math.round(e.borderBoxSize?.[0]?.blockSize || $("#cmd").offsetHeight) + "px" : "0px")).observe($("#cmd"));
 if (state.id && byId.has(state.id) && location.hash) setTimeout(() => select(state.id, false), 0);

@@ -553,3 +553,12 @@ footer .wrap { padding-block: 24px 44px; display: flex; gap: 16px; justify-conte
   .cover .cv-v, .cover .cv-c { display: none; }
   .cover .cv-t { bottom: 9cqi; font-size: clamp(10px, 13cqi, 18px); }
 }
+.loading-dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--link); vertical-align: 1px; animation: pulse 1.4s infinite; }
+.mv { font-family: var(--f-mono); font-size: 10px; font-weight: 700; padding: 1px 4px; border-radius: 3px; white-space: nowrap; vertical-align: 2px; }
+.mv.up { color: var(--ok); background: var(--ok-soft); }
+.mv.down { color: #c2410c; background: color-mix(in srgb, #f97316 14%, transparent); }
+.mv.flat { color: var(--faint); }
+.gr { font-family: var(--f-mono); font-size: 10.5px; color: var(--faint); white-space: nowrap; }
+.dt-rank .gr { font-size: 11.5px; }
+.rk small .mv, .rk small .new { font-size: 9px; }
+.grk .mv, .grk .new { font-size: 9px; vertical-align: 2px; }

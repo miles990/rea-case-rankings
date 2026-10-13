@@ -24,7 +24,7 @@ const UA = "rea-awesome-collector/1.0 (+https://github.com)";
 const MENTION = /\bREA\b|morluto|rea-agents|rea\.tools|Reverse Engineer Anything/;
 const SKIP_URL = /github\.com\/morluto\/rea(\/|$)|rea\.tools|npmjs\.com\/package\/rea-agents/;
 // Mirrors, forks and trending-ranking digests mention REA without using it.
-const NOISE = /mirror|archival copy|backup|鏡像|镜像|GitHub日報|トレンド|ランキング|trending (daily|weekly)|daily ranking/i;
+const NOISE = /mirror|archival copy|backup|鏡像|镜像|GitHub日報|今日热榜|热榜|日榜|トレンド|ランキング|trending (daily|weekly)|daily ranking/i;
 
 function detectLang(text) {
   if (/[぀-ヿ]/.test(text)) return "ja";
@@ -201,6 +201,98 @@ function youtube() {
     for (const line of raw.split("\n").filter(Boolean)) {
       const v = JSON.parse(line);
       out.push({ url: `https://youtu.be/${v.id}`, title: v.title, author: v.channel, date: null, source: "YouTube", kind: "影片", score: v.view_count, text: v.description });
+    }
+  }
+  return out;
+}
+
+
+// Projects that put REA to work: code search finds repos whose skills, plugin
+// manifests or package files reference REA. Most hits are trending archives,
+// awesome lists and copies of REA's own skill, so Jev sorts them (repo_kind)
+// before anything is scored. Code search allows 10 requests a minute.
+const CODE_FILES = ["filename:SKILL.md", "filename:package.json", "filename:plugin.json", "filename:marketplace.json", "filename:pyproject.toml", "filename:AGENTS.md", "filename:CLAUDE.md", "filename:mcp.json"];
+const ARCHIVE = /trend|awesome|hot[_-]?search|archive|stars?$|best-skills|skills-collection|mirror|dsh-|yarb/i;
+async function githubCode() {
+  if (!TOKEN) return [];
+  const hits = new Map();
+  for (const f of CODE_FILES) {
+    for (const term of ['"morluto/rea"', '"rea-agents"']) {
+      const d = await gh(`/search/code?q=${encodeURIComponent(`${term} -user:morluto ${f}`)}&per_page=50`, { headers: { accept: "application/vnd.github.text-match+json" } }).catch(() => ({ items: [] }));
+      for (const it of d.items || []) {
+        const r = it.repository;
+        if (r.fork || ARCHIVE.test(r.full_name)) continue;
+        const h = hits.get(r.full_name) || { repo: r.full_name, paths: new Set(), snippets: [] };
+        h.paths.add(it.path);
+        for (const m of it.text_matches || []) if (h.snippets.length < 3) h.snippets.push(m.fragment.replace(/\s+/g, " ").slice(0, 300));
+        hits.set(r.full_name, h);
+      }
+      await new Promise((r) => setTimeout(r, 6500));
+    }
+  }
+  const out = [];
+  for (const h of [...hits.values()].slice(0, 60)) {
+    const r = await gh(`/repos/${h.repo}`).catch(() => null);
+    if (!r || r.fork || r.created_at < "2026-04-14") continue;
+    out.push({
+      url: r.html_url,
+      title: `${r.full_name}${r.description ? ": " + r.description : ""}`,
+      author: r.owner?.login,
+      date: r.created_at.slice(0, 10),
+      source: "GitHub",
+      kind: "專案",
+      score: r.stargazers_count,
+      pop: { stars: r.stargazers_count },
+      needsRepoKind: true,
+      evidence: `Files that mention REA: ${[...h.paths].slice(0, 6).join(", ")}`.slice(0, 400),
+      text: `Repository: ${r.full_name}\nDescription: ${r.description || ""}\nTopics: ${(r.topics || []).join(", ")}\nFiles that mention REA: ${[...h.paths].join(", ")}\nMatched text: ${h.snippets.join(" … ")}`,
+    });
+  }
+  return out;
+}
+
+// Juejin (稀土掘金): the largest Chinese developer blog platform; its search API
+// needs no account.
+async function juejin() {
+  const out = [];
+  for (const q of ["REA 逆向", "morluto rea", "rea-agents", "Reverse Engineer Anything"]) {
+    const d = await getJSON("https://api.juejin.cn/search_api/v1/search?spider=0", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ key_word: q, id_type: 0, cursor: "0", limit: 20, search_type: 2, sort_type: 2 }) });
+    for (const x of d.data || []) {
+      const a = x.result_model?.article_info, u = x.result_model?.author_user_info;
+      if (!a?.article_id) continue;
+      out.push({ url: `https://juejin.cn/post/${a.article_id}`, title: a.title, author: u?.user_name, date: a.ctime ? new Date(+a.ctime * 1000).toISOString().slice(0, 10) : null, source: "掘金", kind: "文章", score: a.digg_count || 0, pop: { likes: a.digg_count || 0, views: a.view_count || 0 }, text: a.brief_content });
+    }
+  }
+  return out;
+}
+
+// Exa: one semantic web search that reaches blogs, newsletters, Medium, Substack,
+// Zenn, note, CSDN and news sites in any language. Runs where mcporter is set up
+// (the maintainer's Mac); elsewhere it is skipped. Directory and listing pages
+// about REA itself are dropped.
+const LISTING = /github\.com\/morluto|morluto\.github\.io|mcprepository|mcp\.market|glama\.ai|shadowgraph|awesomeskills|libraries\.io|cheatcodehq|npmjs\.com|smithery|mcpservers|lobehub|pulsemcp|skills\.sh/;
+function exaWeb() {
+  const queries = [
+    ["blog post or article where someone used REA (Reverse Engineer Anything, morluto/rea) with an AI coding agent to reverse engineer a specific app, game, binary or firmware, and reports what they found or rebuilt", "Rank first-hand write-ups of hands-on use of REA on a named target. Exclude the REA repository, MCP directories, skill marketplaces and package pages."],
+    ["tutorial or guide on using REA Reverse Engineer Anything with Claude Code, Codex, Ghidra or IDA", "Rank step-by-step guides by people who used it. Exclude directory listings."],
+    ["使用 REA（Reverse Engineer Anything）逆向分析软件、游戏或固件的实战文章", "优先第一手实战记录，排除目录站和转载新闻。"],
+    ["REA（Reverse Engineer Anything）でアプリやゲームを解析した記事", "実際に使った記事を優先し、ディレクトリサイトは除外。"],
+  ];
+  const out = [];
+  for (const [query, objective] of queries) {
+    let raw;
+    try { raw = execFileSync("mcporter", ["call", "exa.web_search_exa", "--args", JSON.stringify({ query, numResults: 15, objective }), "--output", "json"], { encoding: "utf8", timeout: 120000, maxBuffer: 16 << 20, stdio: ["ignore", "pipe", "ignore"] }); }
+    catch { continue; }
+    const text = (JSON.parse(raw).content || []).map((c) => c.text || "").join("\n");
+    for (const block of ("\n" + text).split(/\nTitle: /).slice(1)) {
+      const url = block.match(/^URL: (\S+)/m)?.[1];
+      if (!url || LISTING.test(url)) continue;
+      const title = block.split("\n")[0].trim();
+      const date = block.match(/^Published: (\d{4}-\d{2}-\d{2})/m)?.[1] || null;
+      const author = block.match(/^Author: (.+)$/m)?.[1];
+      const body = block.split(/^Highlights:\s*$/m)[1] || block;
+      let host = ""; try { host = new URL(url).hostname.replace(/^www\./, ""); } catch {}
+      out.push({ url, title, author: author && author !== "N/A" ? author : host, date, source: "Web", kind: "文章", text: body.slice(0, 2000) });
     }
   }
   return out;
@@ -386,7 +478,7 @@ async function collect(discovered) {
   for (const c of cases.cases) for (const l of c.links) known.add(normalize(l.url));
   for (const u of cases.ignore || []) known.add(normalize(u));
 
-  const all = { githubShowAndTell, githubRepos, hackerNews, qiita, devto, reddit, v2ex, youtube, bluesky, mastodon, x: xViaGrok };
+  const all = { githubShowAndTell, githubRepos, githubCode, hackerNews, qiita, devto, juejin, reddit, v2ex, youtube, bluesky, mastodon, exaWeb, x: xViaGrok };
   const sources = MODE === "x" ? { x: xViaGrok } : all;
   const stats = {};
   let added = 0;
@@ -459,4 +551,5 @@ async function main() {
 }
 
 // Run only when executed directly, not when imported.
+export { githubCode, juejin, exaWeb };
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) main();

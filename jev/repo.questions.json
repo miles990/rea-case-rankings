@@ -1,0 +1,15 @@
+{
+  "questions": {
+    "repo_kind": {
+      "type": "choice",
+      "instructions": "This GitHub repository mentions REA (Reverse Engineer Anything, github.com/morluto/rea, npm rea-agents), a tool that gives AI coding agents reverse-engineering abilities. `title` is the repo name and description, `evidence` lists the files that mention REA, `text` is the start of its README. What is the repository's relation to REA? If the README is REA's own README (same tagline, same language links) under another owner, it is a copy. built_on: REA is what the repo is about (a plugin, port or wrapper for REA, or a project the README says was made or analyzed with REA). integrates: the repo is its own product in reverse engineering, security or agent tooling, and ships REA as one of its built-in capabilities (a plugin, bundled skill or backend). bundle: a personal skill collection, dotfiles, agent setup, awesome list, or a project in an unrelated domain that simply has REA's skill installed.",
+      "criteria": {
+        "built_on": "REA is what the repo is about: a plugin, port or wrapper for REA, or a project made or analyzed with REA",
+        "integrates": "its own reverse-engineering, security or agent product that ships REA as one built-in capability",
+        "copy": "a copy, mirror, backup, re-upload or renamed fork of REA itself or of REA's skill",
+        "bundle": "a skill collection, dotfiles, agent setup, awesome list, or an unrelated project that just has REA's skill installed",
+        "other": "none of the above"
+      }
+    }
+  }
+}

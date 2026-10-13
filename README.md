@@ -23,7 +23,7 @@ REA (Reverse Engineer Anything) lets coding agents such as Claude Code and Codex
 
 ### How entries are collected
 
-The collector searches public sources in many languages: GitHub, Hacker News, X, Reddit, YouTube, Bluesky, Mastodon, DEV, Qiita and V2EX. Mirrors, list repos and duplicates are dropped. A small judgment model filters out posts that are off-topic before anything is scored.
+The collector searches public sources in many languages: GitHub (repos and the code of projects that build on REA), Hacker News, X, Reddit, YouTube, Bluesky, Mastodon, DEV, Qiita, Juejin, V2EX, and a semantic web search that reaches blogs and news sites in any language. Duplicates are dropped, and a small judgment model filters out off-topic posts, mirrors of REA and skill bundles before anything is scored.
 
 ### How entries are scored
 
@@ -53,7 +53,7 @@ REA（Reverse Engineer Anything）讓 Claude Code、Codex 這類 coding agent �
 
 ### 如何收錄
 
-每天搜尋多種語言的公開來源：GitHub、Hacker News、X、Reddit、YouTube、Bluesky、Mastodon、DEV、Qiita、V2EX。去除鏡像、清單型 repo 與重複項目後，先由小型判讀模型濾掉離題內容，再進入評分。
+每天搜尋多種語言的公開來源：GitHub（repo，以及以 REA 為基礎的專案程式碼）、Hacker News、X、Reddit、YouTube、Bluesky、Mastodon、DEV、Qiita、掘金、V2EX，以及能涵蓋各語言部落格與新聞網站的語意網頁搜尋。去除重複後，先由小型判讀模型濾掉離題內容、REA 的鏡像與技能合集，再進入評分。
 
 ### 如何評分
 

@@ -43,6 +43,12 @@ const fmt = (n) => { try { return Number(n).toLocaleString(UI[lang]._html); } ca
 const records = DATA.records.map((r, i) => ({ ...r, rank: i + 1 }));
 const byId = new Map(records.map((r) => [r.id, r]));
 const latestDay = records.reduce((m, r) => ((r.added || "") > m ? r.added : m), "");
+// Time ranges count back from the latest update day, not the viewer's clock, so
+// "today" is never empty before the morning run. An entry's day is the later of
+// when it was published and when the site found it.
+const PERIODS = ["1", "7", "30", "all"];
+const seenDay = (r) => ((r.date || "") > (r.added || "") ? r.date : r.added) || "";
+const periodStart = (n) => { const d = new Date(latestDay + "T00:00:00Z"); d.setUTCDate(d.getUTCDate() - (n - 1)); return d.toISOString().slice(0, 10); };
 const TYPE_COLOR = { case: "var(--s1)", app: "var(--s2)", learn: "var(--s3)", news: "var(--s3)" };
 
 // Two entries are related when they share an author, a GitHub owner, or a named
@@ -92,13 +98,14 @@ const FIELD = { cat: "category", via: "via", lang: "lang", status: "status", sou
 // entries not scored yet always stay visible.
 const DAYS = (DATA.history?.days || []).filter((d) => d.new?.length || d.text);
 const dayIds = (date) => new Set(DAYS.find((d) => d.date === date)?.new || []);
-const state = { day: null, type: "all", q: "", sort: "rank", view: store.get("rea-view") || "list", id: null, tsort: null, min: 2, cat: null, via: null, lang: null, status: null, source: null };
+const state = { day: null, period: "1", type: "all", q: "", sort: "rank", view: store.get("rea-view") || "list", id: null, tsort: null, min: 2, cat: null, via: null, lang: null, status: null, source: null };
 if (!["list", "grid", "table", "timeline", "graph"].includes(state.view)) state.view = "list";
 function readURL() {
   const p = new URLSearchParams(isPages ? location.search : "");
   for (const k of ["type", "q", "sort", "view", ...FACETS]) if (p.get(k)) state[k] = p.get(k);
   if (/^[1-5]$/.test(p.get("min") || "")) state.min = +p.get("min");
   if (/^\d{4}-\d{2}-\d{2}$/.test(p.get("day") || "")) state.day = p.get("day");
+  if (PERIODS.includes(p.get("range"))) state.period = p.get("range");
   const h = location.hash.match(/^#r-([\w-]+)$/);
   state.id = (h && h[1]) || p.get("id") || null;
 }
@@ -112,6 +119,7 @@ function writeURL() {
   }
   if (state.min !== 2) p.set("min", state.min);
   if (state.day) p.set("day", state.day);
+  if (state.period !== "1") p.set("range", state.period);
   const qs = p.toString();
   history.replaceState(null, "", location.pathname + (qs ? "?" + qs : "") + hash);
 }
@@ -125,6 +133,7 @@ const hay = (r) => {
 let dayCache = [null, new Set()];
 function matches(r, skip) {
   if (state.day) { if (dayCache[0] !== state.day) dayCache = [state.day, dayIds(state.day)]; if (!dayCache[1].has(r.id)) return false; }
+  if (!state.day && skip !== "period" && state.period !== "all" && seenDay(r) < periodStart(+state.period)) return false;
   if (skip !== "min" && r.wow != null && r.wow < state.min) return false;
   if (skip !== "type" && state.type !== "all" && r.type !== state.type) return false;
   for (const f of FACETS) if (skip !== f && state[f] && r[FIELD[f]] !== state[f]) return false;
@@ -206,6 +215,12 @@ $("#facets").addEventListener("click", (e) => {
   if (c) { state[c.dataset.clear] = null; update(); }
   if (m) { expanded.has(m.dataset.more) ? expanded.delete(m.dataset.more) : expanded.add(m.dataset.more); renderFacets(); }
 });
+
+function renderPeriods() {
+  const n = (k) => records.filter((r) => matches(r, "period") && (k === "all" || seenDay(r) >= periodStart(+k))).length;
+  $("#periods").innerHTML = PERIODS.map((k) => `<button class="tab" type="button" data-p="${k}" aria-pressed="${!state.day && state.period === k}" title="${k === "all" ? "" : esc(periodStart(+k) + " – " + latestDay)}">${esc(t("range." + k))}<span class="k">${n(k)}</span></button>`).join("");
+}
+$("#periods").addEventListener("click", (e) => { const b = e.target.closest("[data-p]"); if (b) { state.period = b.dataset.p; state.day = null; update(); } });
 
 function renderTabs() {
   const counts = { all: 0 };
@@ -621,7 +636,7 @@ $("#lang").addEventListener("change", (e) => {
   lang = l; langNamer = null; renderAll();
 });
 
-function update() { renderTabs(); renderFacets(); renderActive(); renderResults(); if (!state.id || !current.some((r) => r.id === state.id)) state.id = current[0]?.id || state.id; renderDetail(); markCurrent(); writeURL(); }
+function update() { renderPeriods(); renderTabs(); renderFacets(); renderActive(); renderResults(); if (!state.id || !current.some((r) => r.id === state.id)) state.id = current[0]?.id || state.id; renderDetail(); markCurrent(); writeURL(); }
 function renderAll() {
   document.documentElement.lang = UI[lang]._html;
   document.documentElement.dir = UI[lang]._dir || "ltr";

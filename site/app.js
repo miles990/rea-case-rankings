@@ -679,6 +679,18 @@ document.addEventListener("keydown", (e) => {
 
 // ---------- Highlights, latest, about ----------
 // ---------- Masthead: today first ----------
+// When the data was last collected, in the visitor's own time zone, plus "3 hours ago".
+function updatedText() {
+  const at = DATA.updatedAt ? new Date(DATA.updatedAt) : null;
+  if (!at || isNaN(at)) return { abs: DATA.updated || latestDay, rel: "" };
+  let abs = DATA.updated, rel = "";
+  try { abs = at.toLocaleString(UI[lang]._html, { year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false, timeZoneName: "short" }).replace(/[[\]]/g, ""); } catch {}
+  try {
+    const mins = Math.round((Date.now() - at) / 6e4), rtf = new Intl.RelativeTimeFormat(UI[lang]._html, { numeric: "auto" });
+    rel = mins < 60 ? rtf.format(-Math.max(1, mins), "minute") : mins < 2880 ? rtf.format(-Math.round(mins / 60), "hour") : rtf.format(-Math.round(mins / 1440), "day");
+  } catch {}
+  return { abs, rel };
+}
 const fmtK = (n) => (n >= 1000 ? (n / 1000).toFixed(n >= 1e5 ? 0 : 1).replace(/\.0$/, "") + "k" : String(n));
 const inPeriod = (r, k) => (k === "all" || seenDay(r) >= periodStart(+k)) && (r.wow == null || r.wow >= 2);
 function countUp(el, to, fmtFn = fmt) {
@@ -696,7 +708,9 @@ function sparkPath(vals, w = 64, h = 22) {
 function renderMast() {
   const last = DAYS.at(-1), txt = last ? dayText(last) : null;
   let wd = ""; try { wd = new Date(latestDay + "T00:00:00Z").toLocaleDateString(UI[lang]._html, { weekday: "short", timeZone: "UTC" }); } catch {}
-  $("#mast-date").textContent = `${latestDay} ${wd}`;
+  const upd = updatedText();
+  $("#mast-upd").innerHTML = `${esc(t("upd.label"))} <time datetime="${esc(DATA.updatedAt || latestDay)}" class="mono">${esc(upd.abs)}</time>${upd.rel ? ` <span class="rel">· ${esc(upd.rel)}</span>` : ""}`;
+  $("#mast-upd").title = `${latestDay} ${wd}`;
   $("#mast-h").textContent = txt?.headline || t("title");
   const sum = $("#mast-sum"); sum.textContent = txt?.summary || ""; sum.classList.remove("open");
   sum.nextElementSibling?.classList.contains("more") && sum.nextElementSibling.remove();
@@ -777,7 +791,8 @@ function renderStatic() {
   $("#rubric").innerHTML = [5, 4, 3, 2, 1].map((n) => `<li>${wowBar(n)}<span>${esc(t("rubric." + n))}</span></li>`).join("");
   const base = DATA.site?.url || "https://miles990.github.io/rea-awesome/";
   $("#agent-code").textContent = `GET ${base}api/records.json\nGET ${base}api/daily.json\nGET ${base}llms.txt\nGET ${base}feed.xml\n${base}?range=7&q=firmware&type=case&view=graph#r-zwo-asiair`;
-  $("#updated").textContent = DATA.updated;
+  const u = updatedText();
+  $("#updated").textContent = u.abs; $("#updated").dateTime = DATA.updatedAt || DATA.updated;
   // On GitHub Pages the site root is wherever the Traditional Chinese page lives.
   $("#api-link").href = (isPages ? DATA.pages["zh-TW"] : base) + "api/records.json";
 }

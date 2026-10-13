@@ -413,6 +413,7 @@ async function collect(discovered) {
 
   if (MODE === "x") {
     discovered.updated = TODAY;
+    discovered.updatedAt = new Date().toISOString();
     return { added, stats };
   }
   // Keep GitHub star counts of curated cases current (popularity signal).
@@ -432,6 +433,7 @@ async function collect(discovered) {
   } catch {}
 
   discovered.updated = TODAY;
+  discovered.updatedAt = new Date().toISOString();
   discovered.runs = [{ date: TODAY, added, stats }, ...(discovered.runs || [])].slice(0, 30);
   return { added, stats };
 }

@@ -48,7 +48,7 @@ const weekStart = new Date(Date.parse(latest + "T00:00:00Z") - (INLINE_DAYS - 1)
 const seen = (r) => ((r.date || "") > (r.added || "") ? r.date : r.added) || "";
 const inlineRecords = slimRecords.filter((r) => r.rank <= INLINE_TOP || seen(r) >= weekStart);
 const pick = (ids, o) => Object.fromEntries(Object.entries(o).filter(([id]) => ids.has(id)));
-const base = { updated, scanned: discovered.updated, repo: cases.repo, site: { repo: REPO_URL, url: SITE_URL }, total: records.length };
+const base = { updated, updatedAt: discovered.updatedAt || null, scanned: discovered.updated, repo: cases.repo, site: { repo: REPO_URL, url: SITE_URL }, total: records.length };
 const dataVersion = `${updated}-${records.length}-${Date.now().toString(36)}`;
 
 // JSON inside <script>: escape "<" and line separators so no string can end the tag.
@@ -111,7 +111,7 @@ ${h.replace(/<title>[^<]*<\/title>/, `<title>${esc(t("title"))}</title>`).replac
 // ---- Machine-readable outputs for agents and feed readers.
 const api = {
   name: "REA case rankings", description: "What people built, rebuilt and found with REA (github.com/morluto/rea), scored 1–5 and ranked.",
-  updated, site: SITE_URL, source: REPO_URL, languages: Object.keys(ui),
+  updated, updated_at: discovered.updatedAt || null, site: SITE_URL, source: REPO_URL, languages: Object.keys(ui),
   ranking: "score desc, heat desc, evidence (tested > shipped > reported), date desc",
   fields: { rank: "1 = best", rank_previous: "rank on the previous day (null = new)", wow: "score 1–5 (null = not scored yet)", heat: "popularity 0–100, log-scaled engagement", status: "tested | shipped | reported", type: "case | app | learn | news", source: "curated (human-scored) | auto (AI-scored)", i18n: "translations of title/summary/target/metric by language" },
   records: records.map((r, i) => ({ rank: i + 1, id: r.id, title: r.title, summary: r.summary, target: r.target, metric: r.metric, wow: r.wow, heat: r.heat, status: r.status, rank_previous: prevRank.get(r.id) ?? null, type: r.type, category: r.category, lang: r.lang, author: r.author, author_url: r.author_url || null, date: r.date || null, added: r.added || null, via: r.via, source: r.source, pop: r.pop || {}, links: r.links, thumbnail: thumbs[r.id] ? SITE_URL + "thumbs/" + thumbs[r.id] : null, page: `${SITE_URL}#r-${r.id}`, i18n: i18n[r.id] || {} })),

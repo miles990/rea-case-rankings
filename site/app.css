@@ -562,3 +562,6 @@ footer .wrap { padding-block: 24px 44px; display: flex; gap: 16px; justify-conte
 .dt-rank .gr { font-size: 11.5px; }
 .rk small .mv, .rk small .new { font-size: 9px; }
 .grk .mv, .grk .new { font-size: 9px; vertical-align: 2px; }
+.upd { color: var(--muted); }
+.upd time { color: var(--ink-2); font-size: 12px; }
+.upd .rel { color: var(--faint); }

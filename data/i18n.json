@@ -2053,5 +2053,500 @@
       "target": "Chrome 恐龙小游戏",
       "metric": "原版、官方案例版、本机复刻版三者对比视频"
     }
+  },
+  "d-9bf3ce4cb1": {
+    "hash": "63cca0c0e28b",
+    "en": {
+      "title": "Reverse engineering the Vanguard server with Claude and REA, and implementing login",
+      "summary": "The author wanted to rebuild the server for the old MMO Vanguard: Saga of Heroes, and had Claude work with REA to analyze the client protocol. Within a day, the game client could log in to a local Python server, and the emulator repository has been made public. The long-term goal is an open-source server and a level editor.",
+      "target": "Vanguard: Saga of Heroes client and server protocol",
+      "metric": "Got the client login screen connected to a local Python server within one day"
+    },
+    "zh-CN": {
+      "title": "用 Claude 与 REA 逆向 Vanguard 服务器并实现登录",
+      "summary": "作者想为老牌 MMO Vanguard: Saga of Heroes 重做服务器，让 Claude 搭配 REA 分析客户端协议。一天之内，游戏客户端已能登录本地 Python 服务器，并公开了模拟器仓库，长期目标是开源服务器与关卡编辑器。",
+      "target": "Vanguard: Saga of Heroes 客户端与服务器协议",
+      "metric": "一天内让客户端登录界面连上本地 Python 服务器"
+    }
+  },
+  "d-ee78e9d70f": {
+    "hash": "bf1bab6ee0a9",
+    "en": {
+      "title": "Studying Apple's Passwords app with REA, producing 17 rules backed by evidence",
+      "summary": "Before writing any code, the author had an AI study Apple's Passwords app using REA. The result was 17 rules, each backed by evidence, which serve as the basis for rebuilding a similar app later.",
+      "target": "Apple Passwords app",
+      "metric": "17 rules, each backed by evidence"
+    },
+    "zh-CN": {
+      "title": "用 REA 研究 Apple 密码 App，产出 17 条附证据的规则",
+      "summary": "作者在动手写代码之前，先让 AI 用 REA 研究 Apple 的 Passwords 应用。结果整理出 17 条规则，每条都附有证据，作为之后重建类似应用的依据。",
+      "target": "Apple Passwords 应用",
+      "metric": "17 条规则，每条附证据"
+    }
+  },
+  "d-0eaa14a486": {
+    "hash": "6f573c5803e2",
+    "en": {
+      "title": "Analyzing Muse's APK with REA reveals it sends a lot of information to a server",
+      "summary": "The author tested REA on Muse's APK, hoping to see how its features were implemented. The analysis showed that the app sends a considerable amount of information to a server. No specific details or evidence were provided.",
+      "target": "Muse Android APK",
+      "metric": "Found the app sending a large amount of information to a server"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析 Muse 的 APK，发现它会向服务器发送大量信息",
+      "summary": "作者拿 Muse 的 APK 测试 REA，想参考其功能的实现方式。分析结果显示该 App 会把相当多的信息发送到服务器。内容没有附上具体细节或证据。",
+      "target": "Muse Android APK",
+      "metric": "发现 App 向服务器发送大量信息"
+    }
+  },
+  "d-27b0054d80": {
+    "hash": "959169614dbc",
+    "en": {
+      "title": "Studying CleanMyMac with Codex and REA to build ClearSpace, a native macOS cleaner app",
+      "summary": "The author used CleanMyMac as the study subject and built ClearSpace. Its features include cache cleaning, app management, large and duplicate file detection, and storage visualization. The content is the author's own account only, with no code or screenshots attached.",
+      "target": "CleanMyMac / ClearSpace",
+      "metric": "Completed a macOS app with cache cleaning, duplicate file detection, and storage visualization"
+    },
+    "zh-CN": {
+      "title": "用 Codex 加 REA 研究 CleanMyMac，做出原生 macOS 清理 App ClearSpace",
+      "summary": "作者以 CleanMyMac 为研究对象，做出了 ClearSpace。功能包括缓存清理、App 管理、大文件与重复文件检测，以及存储空间可视化。内容仅为作者自述，未附代码或截图。",
+      "target": "CleanMyMac／ClearSpace",
+      "metric": "完成含缓存清理、重复文件检测与存储可视化的 macOS App"
+    }
+  },
+  "d-6840ab3975": {
+    "hash": "22afeeacccb1",
+    "en": {
+      "title": "Give an AI two installers and, in about 2 hours, a Windows-and-Mac-only app runs on Linux",
+      "summary": "The author gave an AI just two installers (Windows and Mac builds, no source code) and, after one prompt, had it reverse-engineer them. About 2 hours later the app ran on a Linux PC. The excerpt doesn't name the app and includes no code or evidence; the result is the author's own claim.",
+      "target": "An unnamed app that supports only Windows and Mac",
+      "metric": "Running on Linux in about 2 hours"
+    },
+    "zh-CN": {
+      "title": "给 AI 两个安装包,约 2 小时把仅限 Windows 和 Mac 的应用在 Linux 上跑起来",
+      "summary": "作者只给了 AI 两个安装包(Windows 和 Mac 版,无源代码),一个提示后让它做逆向分析,约 2 小时后应用就能在 Linux PC 上运行。节选中没有指明是哪个应用,也没有附代码或证据,成果仅为作者自述。",
+      "target": "仅支持 Windows 和 Mac 的未具名应用",
+      "metric": "约 2 小时在 Linux 上跑起来"
+    }
+  },
+  "d-1584370128": {
+    "hash": "1b1002e7579c",
+    "en": {
+      "title": "Using REA to build a LightBurn alternative tailored to their own laser in 16 minutes",
+      "summary": "The author used REA for reverse engineering and, within 16 minutes, built LightBurn-style software made specifically for their own laser machine, with a link to the REA repo. The excerpt has no code, screenshots, or tests; the result is the author's own claim.",
+      "target": "LightBurn and the author's laser machine",
+      "metric": "A custom LightBurn replacement for their laser in 16 minutes"
+    },
+    "zh-CN": {
+      "title": "用 REA 在 16 分钟内做出适配自家激光机的 LightBurn 替代软件",
+      "summary": "作者用 REA 做逆向,在 16 分钟内做出专为自己那台激光机打造的类 LightBurn 软件,并附上 REA 的 repo 链接。节选中没有代码、截图或测试,成果仅为作者自述。",
+      "target": "LightBurn 与作者的激光机",
+      "metric": "16 分钟做出专属激光机的 LightBurn 替代品"
+    }
+  },
+  "d-057bb02105": {
+    "hash": "0bfd683baa22",
+    "en": {
+      "title": "Testing REA: agents with and without it analyze a self-built macOS app with no source code",
+      "summary": "The author gave their own macOS app, without source code, to two coding agents, one connected to REA and one not, and compared them on the same task. The excerpt is only an introduction and lists no specific findings or numbers.",
+      "target": "The author's own macOS app",
+      "metric": "Agents with vs. without REA on the same task (results not shown)"
+    },
+    "zh-CN": {
+      "title": "实测 REA:让有无 REA 的代理分析无源代码的自制 macOS App",
+      "summary": "作者把自己开发的 macOS 应用在不附源代码的情况下交给两个编码代理,一个接入 REA、一个没有,并以同一任务做对比。节选只有简介,没有列出具体发现或数据。",
+      "target": "作者自制的 macOS App",
+      "metric": "有/无 REA 的代理以同一任务对照(结果未见)"
+    }
+  },
+  "d-24e9fa56e9": {
+    "hash": "de0b1a2319d9",
+    "en": {
+      "title": "Tutorial: install REA and clone OBS in two minutes",
+      "summary": "The video explains what REA is, how to install it into Claude Code, and demonstrates cloning the recording software OBS. The author says it took under two minutes; the excerpt gives no verification or details of the result.",
+      "target": "OBS",
+      "metric": "OBS cloned in under 2 minutes (author's claim)"
+    },
+    "zh-CN": {
+      "title": "教程:安装 REA 并在两分钟内复刻 OBS",
+      "summary": "视频介绍 REA 是什么、如何安装到 Claude Code,并通过实测复刻录制软件 OBS。作者自述不到两分钟完成,节选没有提供验证或成果内容。",
+      "target": "OBS",
+      "metric": "不到 2 分钟复刻 OBS(作者自述)"
+    }
+  },
+  "d-d1d24cba8d": {
+    "hash": "066af12b1cd4",
+    "en": {
+      "title": "Cloning an installed app in 20 minutes with REA",
+      "summary": "The video explores how much an AI agent can understand when given only an installed app and no source code, and demonstrates cloning an app with REA. The excerpt does not state what was cloned or how the result was verified.",
+      "target": "An installed app (unnamed)",
+      "metric": "App cloned in 20 minutes (author's claim)"
+    },
+    "zh-CN": {
+      "title": "用 REA 在 20 分钟内复制一款已安装的应用",
+      "summary": "视频探讨在只有一个已安装应用、没有源代码的情况下，AI 代理能理解到什么程度，并演示用 REA 复制应用。节选没有说明复制的目标与验证方式。",
+      "target": "已安装的应用（未具名）",
+      "metric": "20 分钟完成应用复制（作者自述）"
+    }
+  },
+  "d-2020210c4f": {
+    "hash": "4955346e849d",
+    "en": {
+      "title": "Plan to decompile the 1992 game Spelljammer with REA and port it to three.js",
+      "summary": "At a Claude game hackathon, the author plans to reverse-engineer the 1992 game Spelljammer, fix a fatal bug in the final map, and port it to three.js. This is only a plan; no results have been shown yet.",
+      "target": "Spelljammer (1992 game)",
+      "metric": "Plans to decompile and port to three.js; no results yet"
+    },
+    "zh-CN": {
+      "title": "打算用 REA 反编译 1992 年游戏 Spelljammer 并移植到 three.js",
+      "summary": "作者在 Claude 游戏黑客松上，计划逆向 1992 年游戏 Spelljammer，修复最终地图的致命错误，并移植到 three.js。目前只是计划，尚未提供成果。",
+      "target": "Spelljammer（1992 年游戏）",
+      "metric": "计划反编译并移植到 three.js，尚无成果"
+    }
+  },
+  "d-15c389453c": {
+    "hash": "e54920475547",
+    "en": {
+      "title": "Adapter plugin connecting REA's MCP service to DeepSeek Harness",
+      "summary": "A third-party plugin that registers the local rea mcp as DeepSeek Harness's mcp__rea__* tools and can scope engine environment variables to that child process. It does no reverse-engineering analysis itself; the author verified it works on REA 6.4.0, DSH 0.2.0-rc.2, and Ghidra 12.1.4.",
+      "target": "DeepSeek Harness and REA MCP integration",
+      "metric": "Verified on REA 6.4.0 + DSH 0.2.0-rc.2 + Ghidra 12.1.4"
+    },
+    "zh-CN": {
+      "title": "把 REA 的 MCP 服务接入 DeepSeek Harness 的适配插件",
+      "summary": "第三方插件，将本机 rea mcp 注册为 DeepSeek Harness 的 mcp__rea__* 工具，并可把引擎环境变量限定在该子进程。本身不做逆向分析，作者在 REA 6.4.0、DSH 0.2.0-rc.2、Ghidra 12.1.4 上验证可用。",
+      "target": "DeepSeek Harness 与 REA MCP 集成",
+      "metric": "验证于 REA 6.4.0 + DSH 0.2.0-rc.2 + Ghidra 12.1.4"
+    }
+  },
+  "d-b5c104566c": {
+    "hash": "71fc6683e89b",
+    "en": {
+      "title": "Building a DeepSeek Harness plugin that exposes REA's 170 MCP tools",
+      "summary": "A config-only bundle that connects REA's stdio MCP server to DeepSeek Harness through dsh-mcp-client. The author tested the install on Windows and confirmed that 170 tools are registered after the handshake.",
+      "target": "DeepSeek Harness (DSH) and REA integration",
+      "metric": "170 mcp__rea__ tools registered in testing"
+    },
+    "zh-CN": {
+      "title": "制作 DeepSeek Harness 插件，接入 REA 的 170 个 MCP 工具",
+      "summary": "以纯配置的 bundle 通过 dsh-mcp-client 将 REA 的 stdio MCP 服务器接入 DeepSeek Harness。作者在 Windows 上实测安装成功，并确认握手后注册 170 个工具。",
+      "target": "DeepSeek Harness（DSH）与 REA 集成",
+      "metric": "实测注册 170 个 mcp__rea__ 工具"
+    }
+  },
+  "d-84a98e5541": {
+    "hash": "64410b867dba",
+    "en": {
+      "title": "Reverse-Engineering CapCut with REA: Building a Custom Video Editor in 30 Minutes",
+      "summary": "The author had Claude Code use REA to take CapCut apart, explain how its features work, and then rebuild them. The result includes auto captions, transitions, animations, and text, with a demo video.",
+      "target": "CapCut",
+      "metric": "Rebuilt auto captions, transitions, animations, and text features in 30 minutes"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向 CapCut，30 分钟做出自制视频剪辑软件",
+      "summary": "作者让 Claude Code 用 REA 拆解 CapCut 并说明功能运作原理，再重建这些功能。成果包含自动字幕、转场、动画与文字，并附有演示视频。",
+      "target": "CapCut",
+      "metric": "30 分钟重建自动字幕、转场、动画与文字功能"
+    }
+  },
+  "d-5725375ff2": {
+    "hash": "e451d628b609",
+    "en": {
+      "title": "Using REA to Find Tampered Differences in DOOM's RNG Code Without Source and Rewrite It in Python",
+      "summary": "The author compiled two versions of DOOM's random number code, secretly altering one, and gave only the binaries to the agent. The agent located the changes and rewrote both versions in Python, and both passed all tests.",
+      "target": "DOOM random number generator code",
+      "metric": "Python rewrites of both versions passed all tests"
+    },
+    "zh-CN": {
+      "title": "用 REA 在无源代码下找出 DOOM 随机数程序被偷改的差异并以 Python 重写",
+      "summary": "作者编译了两个版本的 DOOM 随机数代码，其中一版被暗中改动，只把二进制文件交给代理。代理找出了改动处，并用 Python 重写两个版本，两者都通过了全部测试。",
+      "target": "DOOM 随机数生成器代码",
+      "metric": "两个版本的 Python 重写均通过所有测试"
+    }
+  },
+  "d-45164a9283": {
+    "hash": "7376b3bd13d9",
+    "en": {
+      "title": "Independent Reconstruction and Record-by-Record Comparison of Ten Released Software Components Using REA",
+      "summary": "For released components such as Monaco, Grafana, n8n, Excalidraw, Joplin, and Node-RED, REA was used to gather evidence, rebuild each one independently, and run differential tests against the originals, with a research report attached. Ten local apps were also built; the author states plainly that no complete replacement meets the bar yet, and the latest milestone has 686 passing tests.",
+      "target": "Monaco, Grafana, n8n, Excalidraw, Joplin, Node-RED, KeePass, and other components",
+      "metric": "20,720 result objects compared for Grafana; 40,611 method results compared for n8n"
+    },
+    "zh-CN": {
+      "title": "用 REA 对十个发行软件组件做独立重建与逐条比对研究",
+      "summary": "针对 Monaco、Grafana、n8n、Excalidraw、Joplin、Node-RED 等发行组件，用 REA 取得证据、独立重建并与原版做差异测试，附研究报告。另开发了十个本地应用，作者明确表示尚无完整替代品达标，最新里程碑有 686 项通过的测试。",
+      "target": "Monaco、Grafana、n8n、Excalidraw、Joplin、Node-RED、KeePass 等组件",
+      "metric": "Grafana 比对 20,720 个结果对象；n8n 比对 40,611 条方法结果"
+    }
+  },
+  "d-f0ba2f76ab": {
+    "hash": "e28471882ab8",
+    "en": {
+      "title": "Recovering Playable Source of the Chrome Dino Game with REA and Wakaru",
+      "summary": "For the game script on chromedino.com, a 75632-byte game.js was captured via CDP, then decompiled with Wakaru into 1880 lines of readable JS. The public repo includes a minimal runtime shell and sprite sheet, so the game can be played directly from a static server, and it documents the acceleration rule (speed rising from 6 to 13).",
+      "target": "Chrome offline dino game (chromedino.com)",
+      "metric": "75632-byte minified file restored to 1880 lines of readable, playable JS"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Wakaru 还原 Chrome 恐龙游戏可玩源代码",
+      "summary": "针对 chromedino.com 的游戏脚本，通过 CDP 抓取 75632 字节的 game.js，再经 Wakaru 反编译成 1880 行可读 JS。公开仓库附有最小运行壳与精灵图，可用静态服务器直接游玩，并指出了加速规则（速度从 6 升至 13）。",
+      "target": "Chrome 离线恐龙游戏（chromedino.com）",
+      "metric": "75632 字节的压缩文件还原为 1880 行可读且可玩的 JS"
+    }
+  },
+  "d-e3f085652a": {
+    "hash": "98a174a6000e",
+    "en": {
+      "title": "I wasn't joking when I said I'd use REA to strip JianYing down to its bones😅 I ran a pile of Claude + Codex windows in parallel and burned through several $200 weekly limits a day, and what came out ",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "我说用 REA 把剪映底裤扒了，真不是开玩笑的😅 我用 Claude + Codex 一堆窗口并行，一天烧好几个 200 刀周限额，做出来的太逆天了。。。等我完善一下，开源出来～ 1、实时编辑和刷新：你在 Codex 里对话，剪映播放器画面自然刷新。2、剪映内部 200 多条原",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-ec0218b130": {
+    "hash": "4d0f44748c2b",
+    "en": {
+      "title": "Getting a bit out of hand: in just over an hour, I reverse-engineered and rebuilt a menu-bar app that manages every device in my home. 🙀🙀🙀",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "越来越离谱了，1 个多小时，逆向并复刻了状态栏小应用，管理家里所有设备。🙀🙀🙀",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-e5cb2a85b7": {
+    "hash": "20de95f7cf0c",
+    "en": {
+      "title": "I used it to reverse-engineer WeChat and found a lot of privacy features. Especially WeChat on macOS, which takes 500+ screenshots of your Mac screen a day. None of them are uploaded; they just sit in",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "我用它逆向了微信，发现好多隐私功能，特别是 macOS 上的微信，一天会截你的 Mac 屏幕 500 多次。但是都没有上传，放到缓存里就结束了，暂时还没找到分析的地方。不过还是很担心。",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-b4b9c4170b": {
+    "hash": "cd004e050f87",
+    "en": {
+      "title": "1) download legacy game from GoG 2) run REA on it 3) feed the AI some walkthrough guides to help it with the reverse engineering 4) port to",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "1）从 GoG 下载老游戏 2）对它运行 REA 3）给 AI 喂一些攻略指南，帮助它做逆向工程 4）移植到",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-e5515b0c5a": {
+    "hash": "72617e50b778",
+    "en": {
+      "title": "Testing REA in practice: same model with and without REA, answers checked against the real source code",
+      "summary": "The author tested REA on a real application, running the same model (Claude Opus 5.5) twice with web search disabled, once with REA and once without, then checked each answer against the app's actual source code. The excerpt contains only the setup description; the actual comparison results and figures are not shown.",
+      "target": "A real application (unnamed)",
+      "metric": "With/without REA comparison, verified against the real source code (results not shown)"
+    },
+    "zh-CN": {
+      "title": "实测 REA:同模型有无 REA 对照,并以真实源代码核对答案",
+      "summary": "作者在一款真实应用上测试 REA,使用同一模型(Claude Opus 5.5)、关闭联网搜索,分别运行有无 REA 两次,再拿应用的真实源代码逐题核对答案。节选只有说明文字,看不到对照的实际结果与数据。",
+      "target": "某真实应用(未具名)",
+      "metric": "有/无 REA 对照,并以真实源代码核对(结果未见)"
+    }
+  },
+  "d-885d463fa0": {
+    "hash": "6c54614eeeff",
+    "en": {
+      "title": "Using REA to connect to a fridge over Bluetooth and play music when the timer goes off",
+      "summary": "The author used REA to connect to their own fridge over Bluetooth, making it play music when the timer runs out. By their own account, they forgot to turn off looped playback, and Claude had still not finished the follow-up changes. The content is the author's account only, with no code or evidence.",
+      "target": "Smart fridge (Bluetooth)",
+      "metric": "Fridge plays music when the timer ends (author's own account)"
+    },
+    "zh-CN": {
+      "title": "用 REA 连上冰箱蓝牙,设置计时器响起时播放音乐",
+      "summary": "作者用 REA 连接自家冰箱的蓝牙,让冰箱在计时器时间到时播放音乐。作者自述忘了关闭循环播放,且 Claude 仍未完成后续修改。内容仅为作者自述,没有代码或证据。",
+      "target": "智能冰箱(蓝牙)",
+      "metric": "冰箱计时器到时可播放音乐(作者自述)"
+    }
+  },
+  "d-fa40d24345": {
+    "hash": "df5866c74b03",
+    "en": {
+      "title": "Reverse engineering the Elgato 4K X capture card with REA, aiming for better performance and lower latency",
+      "summary": "The author is using REA in the evening to reverse engineer the Elgato 4K X capture card, hoping to get better performance and lower latency. The post only describes the plan; there are no results or evidence yet.",
+      "target": "Elgato 4K X capture card",
+      "metric": "In progress, no results yet"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向 Elgato 4K X 采集卡,目标是提升性能并降低延迟",
+      "summary": "作者晚上用 REA 逆向 Elgato 4K X 采集卡,希望获得更好的性能与更低的延迟。帖子只说明了计划,还没有任何结果或证据。",
+      "target": "Elgato 4K X 采集卡",
+      "metric": "进行中,尚无成果"
+    }
+  },
+  "d-6ff161d3f6": {
+    "hash": "07366ee4e381",
+    "en": {
+      "title": "Sample code for a Korean hands-on REA book, with multiple rebuild-vs-original comparison tests",
+      "summary": "Companion to the Wikidocs book 《REA 따라하기》, providing analysis prompts and working examples for targets such as Electron, Web, .NET, Android, and C. Some chapters include comparison results between the rebuilt version and the original (14/14, 93/93, 75/75, 351/351).",
+      "target": "Tutorial examples: Electron, .NET DLL, C executable, Android, etc.",
+      "metric": "Chapter 10 automated tests: 351/351 passed"
+    },
+    "zh-CN": {
+      "title": "为 REA 编写的韩文实操教程书配套示例代码,含多组重建比对测试",
+      "summary": "配合 Wikidocs《REA 따라하기》一书,提供 Electron、Web、.NET、Android、C 等目标的分析提示词与实操示例。部分章节附有重建版与原版的比对结果(14/14、93/93、75/75、351/351)。",
+      "target": "Electron、.NET DLL、C 可执行文件、Android 等教程示例",
+      "metric": "第 10 章自动测试 351/351 通过"
+    }
+  },
+  "d-0697816d39": {
+    "hash": "8bd1934b82aa",
+    "en": {
+      "title": "Sorry, brb, I'm going to keep cloning the world with this: (closed-source software is dead) https://github.com/morluto/rea",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "抱歉，我先走一步，我要用这个继续克隆世界了：（闭源软件已死）https://github.com/morluto/rea",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-ca0152a539": {
+    "hash": "001597a49026",
+    "en": {
+      "title": "I’ve been playing around with REA to see how many subscriptions I can cancel 🤣 it built me a clean voice to text transcription tool. I also",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "我一直在拿 REA 折腾，看看能取消多少订阅 🤣 它给我做了一个简洁的语音转文字工具。我还",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-9e851834fe": {
+    "hash": "51df8144a33f",
+    "en": {
+      "title": "I got Codex to install rea and it quickly reverse-engineered everything connected to the network at home, then I built a desktop app that can control the devices",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "我试了下让 Codex 安装了 rea，很快把家里联网的都逆向了，做了个电脑软件可以控制设备了",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-5d43a12d64": {
+    "hash": "de1a6cd677d0",
+    "en": {
+      "title": "Asked REA to change an APK's app-clone count limit... 6 hours in and still not solved",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "让 REA 改个 APK 分身数量限制……6 小时了还没搞定",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-982924949f": {
+    "hash": "fe39f119ad92",
+    "en": {
+      "title": "Launching a paid Chinese-localization pack for REA, billed per use at ¥1.9",
+      "summary": "Adds Chinese-English bilingual docs, call contracts, Chinese error messages and a China-region install channel to REA's 170 MCP tools, plus a paywall and signature verification. It is an adaptation layer and commercial packaging, with no reverse-engineering results against a specific target.",
+      "target": "Chinese-localization adaptation layer for REA's 170 MCP tools",
+      "metric": "170 tools with bilingual Chinese-English docs; ¥1.9 buys 24 hours of access"
+    },
+    "zh-CN": {
+      "title": "推出 REA 中文适配付费包,按次收费 ¥1.9",
+      "summary": "为 REA 的 170 个 MCP 工具加上中英对照、调用契约、中文错误说明与国内安装通道,并加入付费闸与签章验证。内容是适配层与商业包装,没有针对具体目标的逆向成果。",
+      "target": "REA 170 个 MCP 工具的中文化适配层",
+      "metric": "170 个工具中英对照,¥1.9 可用 24 小时"
+    }
+  },
+  "d-4fdf2b299b": {
+    "hash": "e8ad449865bd",
+    "en": {
+      "title": "Testing the REA reverse-engineering workflow on GitHub's free runners with synthetic samples",
+      "summary": "Sets up a public repo that runs a qualification test of rea-agents 6.4.0 on GitHub Actions' free isolated runners, using only synthetic fixtures. It produces files such as evidence.json, but the author states it does not represent forensic accuracy and that billing issues may block the run. No actual results have been seen yet.",
+      "target": "rea-agents 6.4.0 (synthetic fixtures)",
+      "metric": "4 JSON evidence files produced via workflow_dispatch"
+    },
+    "zh-CN": {
+      "title": "在 GitHub 免费 runner 上用合成样本测试 REA 逆向流程",
+      "summary": "建立公开仓库,在 GitHub Actions 免费隔离 runner 上,仅用合成 fixtures 对 rea-agents 6.4.0 做资格测试。产出 evidence.json 等文件,但作者自述不代表取证精度,且可能被账单问题阻挡,尚未见到实际结果。",
+      "target": "rea-agents 6.4.0(合成 fixtures)",
+      "metric": "通过 workflow_dispatch 产出 4 份 JSON 证据文件"
+    }
+  },
+  "d-b4539e2522": {
+    "hash": "ab055d9be6bc",
+    "en": {
+      "title": "A trilingual guide to rebuilding apps with a local open-source model, dsh and REA",
+      "summary": "Explains how to combine a local uncensored Ollama model, the dsh harness and REA (Ghidra) to rebuild an application. The guide lists models and steps, but the author admits the models were not actually downloaded or benchmarked, and the effectiveness figure comes from a reference video.",
+      "target": "Workflow for rebuilding a desktop app with dsh, Ollama and REA",
+      "metric": "Reference video claims about 80% done in a single request (not tested locally)"
+    },
+    "zh-CN": {
+      "title": "撰写以本地开源模型加 dsh 与 REA 重建应用的三语指南",
+      "summary": "说明如何结合本地 Ollama 无拒绝模型、dsh harness 与 REA(Ghidra)来重建应用程序。指南列出模型与步骤,但作者坦言模型未实际下载或测量,效果数字来自参考视频。",
+      "target": "以 dsh、Ollama 与 REA 重建桌面应用的流程",
+      "metric": "参考视频称一次请求完成约 80%(本机未实测)"
+    }
+  },
+  "d-88c14d016a": {
+    "hash": "f8e93defb100",
+    "en": {
+      "title": "REA going viral is no exaggeration. I tried it on Jianying (CapCut) and a few other projects, and it really did strip them bare... How to put it, some things get you a lawyer's letter if you release t",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA 火成这样真不是吹的,我拿剪映和几个项目试了试,确实底裤都没了。。。 怎么说呢,有些东西放出来是要收律师函的😅 关于它到底能干嘛,很多人可能不理解,它给 Claude、Codex 接了一整套逆向工具。 简单讲,比如没有源码的软件丢给 AI,AI 能拆开告诉你某个功能到底是",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-2f41ea2e75": {
+    "hash": "1ca95d155678",
+    "en": {
+      "title": "A sincere warning: don't use Codex for reverse engineering. The pit is too deep! I just wanted to follow the trend and try the popular Rea project on GitHub, running a reverse-engineering test with Co",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "真心劝大家一句，千万别拿 Codex 去搞逆向，这坑太深了！ 我本来只是想跟风试试 GitHub 上那个很火的 Rea 项目，拿 Codex 做个逆向测试。结果代码还没跑通，OpenAI 直接反手就把我的号给封了。 最崩溃的是，这可是我今年注册的土耳其半价传家宝账号，说没就没，心",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
   }
 }

@@ -2295,33 +2295,33 @@
     }
   },
   "d-e3f085652a": {
-    "hash": "98a174a6000e",
+    "hash": "d14d89e8ed9b",
     "en": {
-      "title": "I wasn't joking when I said I'd use REA to strip JianYing down to its bones😅 I ran a pile of Claude + Codex windows in parallel and burned through several $200 weekly limits a day, and what came out ",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "Reverse-engineering 剪映 with REA to build a control tool with live editing and refresh",
+      "summary": "The author ran Claude and Codex in parallel across multiple windows to reverse-engineer 剪映 and found more than 200 internal native commands. The result lets you edit live from a Codex conversation while the 剪映 player view refreshes seamlessly. The author says it will be open-sourced once polished.",
+      "target": "剪映 (CapCut China edition)",
+      "metric": "200+ internal native commands in 剪映, supporting live editing and player refresh"
     },
     "zh-CN": {
-      "title": "我说用 REA 把剪映底裤扒了，真不是开玩笑的😅 我用 Claude + Codex 一堆窗口并行，一天烧好几个 200 刀周限额，做出来的太逆天了。。。等我完善一下，开源出来～ 1、实时编辑和刷新：你在 Codex 里对话，剪映播放器画面自然刷新。2、剪映内部 200 多条原",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "用 REA 逆向剪映并做出可实时编辑刷新的控制工具",
+      "summary": "作者用 Claude 与 Codex 多窗口并行，对剪映进行逆向，找出其内部两百多条原生指令。成果可在 Codex 对话中实时编辑，并让剪映播放器画面自然刷新，作者表示完善后将开源。",
+      "target": "剪映（CapCut 中国版）",
+      "metric": "剪映内部 200 多条原生指令，可实时编辑并刷新播放器"
     }
   },
   "d-ec0218b130": {
-    "hash": "4d0f44748c2b",
+    "hash": "d82f668d01c9",
     "en": {
-      "title": "Getting a bit out of hand: in just over an hour, I reverse-engineered and rebuilt a menu-bar app that manages every device in my home. 🙀🙀🙀",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "Reverse-engineering and cloning a home-device control menu bar app in just over an hour",
+      "summary": "The author used REA to reverse-engineer a menu bar app that controls home devices and cloned it in about an hour. The content is the author's own account only; no code or evidence is provided.",
+      "target": "Smart-home menu bar app",
+      "metric": "Reverse engineering and clone done in about 1 hour"
     },
     "zh-CN": {
-      "title": "越来越离谱了，1 个多小时，逆向并复刻了状态栏小应用，管理家里所有设备。🙀🙀🙀",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "一个多小时逆向并复刻管理家中设备的状态栏小应用",
+      "summary": "作者用 REA 在约一个多小时内逆向一款控制家中设备的状态栏小应用，并自行复刻出来。内容仅有作者自述，未提供代码或证据。",
+      "target": "智能家居状态栏小应用",
+      "metric": "约 1 小时完成逆向与复刻"
     }
   },
   "d-e5cb2a85b7": {
@@ -2430,33 +2430,33 @@
     }
   },
   "d-ca0152a539": {
-    "hash": "001597a49026",
+    "hash": "6c96041a4c17",
     "en": {
-      "title": "I’ve been playing around with REA to see how many subscriptions I can cancel 🤣 it built me a clean voice to text transcription tool. I also",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "Building a speech-to-text tool with REA to replace a paid subscription",
+      "summary": "The author tried REA to see how many subscriptions they could cancel, and had it build a clean speech-to-text tool. The content is the author's own account only; it names no specific reverse-engineering target and offers no evidence.",
+      "target": "Paid speech-to-text subscription services",
+      "metric": "Built a speech-to-text tool"
     },
     "zh-CN": {
-      "title": "我一直在拿 REA 折腾，看看能取消多少订阅 🤣 它给我做了一个简洁的语音转文字工具。我还",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "用 REA 做出语音转文字工具以取代付费订阅",
+      "summary": "作者试用 REA,想看看能取消多少订阅服务,并让它做出一个简洁的语音转文字工具。内容只有作者自述,没有说明逆向的具体目标或证据。",
+      "target": "付费语音转文字订阅服务",
+      "metric": "做出一个语音转文字工具"
     }
   },
   "d-9e851834fe": {
-    "hash": "51df8144a33f",
+    "hash": "1a3a87349c2e",
     "en": {
-      "title": "I got Codex to install rea and it quickly reverse-engineered everything connected to the network at home, then I built a desktop app that can control the devices",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "Having Codex install REA to reverse-engineer home connected devices and build control software",
+      "summary": "The author had Codex install REA, reverse-engineer the connected devices in their home, and build software that controls those devices from a computer. This is the author's own account only, with no code or evidence.",
+      "target": "Connected smart devices at home",
+      "metric": "Built software that controls the devices from a computer"
     },
     "zh-CN": {
-      "title": "我试了下让 Codex 安装了 rea，很快把家里联网的都逆向了，做了个电脑软件可以控制设备了",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "让 Codex 安装 REA 逆向家中联网设备并做出控制软件",
+      "summary": "作者让 Codex 安装 REA,对家中的联网设备进行逆向,并做出可在电脑上控制这些设备的软件。仅有作者自述,没有代码或证据。",
+      "target": "家中联网智能设备",
+      "metric": "做出可在电脑控制设备的软件"
     }
   },
   "d-5d43a12d64": {
@@ -2544,6 +2544,1146 @@
     },
     "zh-CN": {
       "title": "真心劝大家一句，千万别拿 Codex 去搞逆向，这坑太深了！ 我本来只是想跟风试试 GitHub 上那个很火的 Rea 项目，拿 Codex 做个逆向测试。结果代码还没跑通，OpenAI 直接反手就把我的号给封了。 最崩溃的是，这可是我今年注册的土耳其半价传家宝账号，说没就没，心",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-23f7d20139": {
+    "hash": "b643d5f846a7",
+    "en": {
+      "title": "Has anyone tried REA (Reverse Engineer Anything) on bioinformatics GUI software?",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "有人在生物信息学 GUI 软件上试过 REA（Reverse Engineer Anything）吗？",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-fbe1318da1": {
+    "hash": "d3e4aa704b11",
+    "en": {
+      "title": "Reverse engineering is this easy now? Open-source tool REA lets anyone do it, and even Call of Duty got cloned by AI",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "逆向这么简单了？开源工具 REA 让人人都能逆向，连《使命召唤》都被 AI 复刻",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-2635007574": {
+    "hash": "299bfd34ea54",
+    "en": {
+      "title": "It wasn't really reverse engineering, honestly. I found the TV's IP on the network and its model, paired with it, and used the local webOS API to contr",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "其实并不是真正的逆向工程。我在网络里找到了电视的 IP 和型号，完成配对，再用 webOS 的本地 API 去控",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-c12d5f21df": {
+    "hash": "ede79263d664",
+    "en": {
+      "title": "Damn, REA really gets things done. I used it to take apart Screen Studio, then had Claude Code rebuild one following the rules. Half an hour to a finished video, and the demo in the article was record",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "卧槽，REA 是真能干活  我直接拿它拆了 Screen Studio，照着规则让 claude code 复刻了一个，半小时出片，文章里那段演示都是它自己录的 https://x.com/i/article/2109834677343432704",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-c7df969fb6": {
+    "hash": "688853be10f1",
+    "en": {
+      "title": "Rebuilding the Yaku desktop app with REA as a Hermes infinite-canvas plugin",
+      "summary": "Uses REA to recreate the Yaku desktop app from getyaku.com and rebuild its scraping flow as a Hermes Desktop plugin: an infinite canvas for content research, where source cards linked to a chat node produce answers with citations. The repo ships a Python agent side and desktop-side JS and can be installed and used, but no comparison tests are included.",
+      "target": "Yaku desktop app (getyaku.com)",
+      "metric": "Fully rebuilt as an installable Hermes Desktop plugin (agent side + desktop side)"
+    },
+    "zh-CN": {
+      "title": "用 REA 重建 Yaku 桌面应用并做成 Hermes 无限画布插件",
+      "summary": "以 REA 还原 getyaku.com 的 Yaku 桌面应用，重建其抓取流程，做成 Hermes Desktop 插件：内容研究使用无限画布，来源卡片连接到聊天节点后生成带引用的回答。repo 附有 Python 代理端与桌面端 JS，可安装使用，但未见对照测试。",
+      "target": "Yaku 桌面应用（getyaku.com）",
+      "metric": "完整重建为可安装的 Hermes Desktop 插件（代理端＋桌面端）"
+    }
+  },
+  "d-fe1e18573c": {
+    "hash": "82f00fb1e1fa",
+    "en": {
+      "title": "Integrating a REA reverse-engineering plugin into the RedTrace security research Agent",
+      "summary": "RedTrace is a local multi-Worker Agent system for authorized security research. It adds a task-level plugin, redtrace-reverse, which loads the official REA Skill and native MCP only when a Step declares it. Admins can disable it and clean up analysis processes while keeping collected evidence, and a REA integration doc is included. The excerpt shows no reverse-engineering results against a specific target.",
+      "target": "RedTrace local security research Agent system",
+      "metric": "Task-level redtrace-reverse plugin; REA Skill and MCP load only when a Step declares them"
+    },
+    "zh-CN": {
+      "title": "在 RedTrace 安全研究 Agent 中集成 REA 逆向插件",
+      "summary": "RedTrace 是面向授权安全研究的本地多 Worker Agent 系统，新增任务级插件 redtrace-reverse，仅在 Step 声明时才加载 REA 官方 Skill 与原生 MCP。管理员可停用并清理分析进程，保留已存证据，并附 REA 集成说明文档。节选未呈现对特定目标的逆向成果。",
+      "target": "RedTrace 本地安全研究 Agent 系统",
+      "metric": "任务级 redtrace-reverse 插件，按 Step 声明才加载 REA Skill 与 MCP"
+    }
+  },
+  "d-db76f53aba": {
+    "hash": "f3d530722c9b",
+    "en": {
+      "title": "A plugin collection for gajae-code with REA integration",
+      "summary": "The goal is to give the gjc coding agent independently installable plugins. The rea plugin provides an offline readiness report, rea_readiness, and workflow skills pinned to rea-agents 6.4.0. The integration runs the pinned CLI version through npx, with an optional gjc mcp add registration. The content shows no results against a specific reverse-engineering target.",
+      "target": "gajae-code (gjc) plugin ecosystem and REA integration",
+      "metric": "7 independently installable plugins; the rea plugin is pinned to rea-agents 6.4.0"
+    },
+    "zh-CN": {
+      "title": "为 gajae-code 做出含 REA 集成的插件集合",
+      "summary": "目标是为 gjc 编码代理提供可独立安装的插件,其中 rea 插件提供离线就绪报告 rea_readiness 和固定版本 rea-agents 6.4.0 的工作流技能。集成通过 npx 运行指定版本的 CLI,并附有可选的 gjc mcp add 注册方式。内容未显示针对具体逆向目标的成果。",
+      "target": "gajae-code (gjc) 插件生态与 REA 集成",
+      "metric": "7 个可独立安装的插件,其中 rea 插件固定 rea-agents 6.4.0"
+    }
+  },
+  "d-c882d312a2": {
+    "hash": "71a2164992cf",
+    "en": {
+      "title": "A reverse-engineering mode preset for DeepSeek Harness that mounts REA",
+      "summary": "Built on dsh-rea, this is an agent preset that mounts the REA MCP bridge only in \"reverse-engineering mode\" sessions. It includes a minimal MCP stdio client and a post-install environment self-check (doctor). It comes with a full repo and documentation, and is tool integration rather than a reverse-engineering result against a specific target.",
+      "target": "DeepSeek Harness integration with REA",
+      "metric": "Removes about 27,000 tokens of always-loaded tool schemas, with zero runtime dependencies"
+    },
+    "zh-CN": {
+      "title": "为 DeepSeek Harness 打造挂载 REA 的逆向模式预设",
+      "summary": "基于 dsh-rea 二次开发,做成只在“逆向模式”会话挂载 REA MCP 桥接的 agent preset,内置极简 MCP stdio 客户端和安装后环境自检(doctor)。有完整 repo 和文档,属于工具集成而非针对特定目标的逆向成果。",
+      "target": "DeepSeek Harness 集成 REA",
+      "metric": "免去约 2.7 万 token 的工具 schema 常驻加载,且零运行时依赖"
+    }
+  },
+  "d-b739aae656": {
+    "hash": "9f1c687fb46b",
+    "en": {
+      "title": "Unofficial REA install guide and comparison with similar tools",
+      "summary": "Covers REA installation, common issues, and a comparison with GhidraMCP, ida-pro-mcp, and radare2-mcp, citing accuracy and token-usage figures from third-party benchmarks. This is a tutorial document with no reverse-engineering results on a specific target.",
+      "target": "REA tutorial and comparison (reatool.dev)",
+      "metric": "Cited third-party benchmark: median native-session token usage is about 2.5x that of shell tools"
+    },
+    "zh-CN": {
+      "title": "整理 REA 非官方安装教程与同类工具对比",
+      "summary": "提供 REA 的安装、常见问题，以及与 GhidraMCP、ida-pro-mcp、radare2-mcp 的对比，并引用第三方评测的准确度与 token 用量数据。属于教程文档，没有针对具体目标的逆向成果。",
+      "target": "REA 教程与对比（reatool.dev）",
+      "metric": "引用第三方评测：原生会话的 token 中位数约为 shell 工具的 2.5 倍"
+    }
+  },
+  "d-d79fa65f04": {
+    "hash": "424bc3b9d580",
+    "en": {
+      "title": "Arsenal: a security and reverse-engineering toolkit that integrates MCPs like REA into Oh My Pi",
+      "summary": "An offensive/defensive and reverse-engineering framework built for Oh My Pi, with 5 specialist agents, 1,647 skill playbooks, and a hash-chained evidence ledger. REA is just one of 6 optional MCP bridges; the excerpt contains no results on a specific target.",
+      "target": "Oh My Pi (OMP) security and reverse-engineering workflows",
+      "metric": "1,647 standard skill playbooks, 5 specialist agents, 6 MCP bridges"
+    },
+    "zh-CN": {
+      "title": "Arsenal：把 REA 等 MCP 整合进 Oh My Pi 的安全与逆向工具集",
+      "summary": "为 Oh My Pi 打造的攻防与逆向框架，内含 5 个专业代理、1,647 份技能手册，以及哈希链证据账本。REA 只是 6 个可选 MCP 桥接之一，节选内容没有针对具体目标的成果。",
+      "target": "Oh My Pi（OMP）安全与逆向工作流",
+      "metric": "1,647 份标准技能手册、5 个专业代理、6 个 MCP 桥接"
+    }
+  },
+  "d-4bc9fbfd08": {
+    "hash": "09ad90f3d3ff",
+    "en": {
+      "title": "100% real. It’s actually extremely good at least in this one test I did.  It was able to identify the Unity version the game was built on as",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "百分之百真实。至少在我做的这次测试里，它确实非常出色。它能识别出游戏所用的 Unity 版本，并且",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-72281941df": {
+    "hash": "a94f5e3b846e",
+    "en": {
+      "title": "I reverse engineered my TV using rea ( https://github.com/morluto/rea ). Main features: - app/input switching - vo",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "我对自己的电视做了逆向工程，用的是 rea（ https://github.com/morluto/rea ）。主要功能： - 切换应用/输入源 - 音",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-ab91cf2a47": {
+    "hash": "e20576d373fa",
+    "en": {
+      "title": "Breakdown of the Viral REA Reverse-Engineering Open-Source Project - CSDN Blog",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA 逆向工程开源项目爆火解读-CSDN博客",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-7ca3e1dbdd": {
+    "hash": "3b5a158ed66f",
+    "en": {
+      "title": "REA, the Open-Source Project That Hit 110K Stars in Three Days: Reverse-Engineer Anything, Drop the Barrier to Software Development to Zero. Why Aren't Big Tech Companies the Ones Who Should Worry Mos",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "三天11万星的逆天开源REA，逆向分析一切，软件开发的门槛被打到了零，最该慌的为什么不是大厂？",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-0a88eb5d17": {
+    "hash": "2e7dba852cf4",
+    "en": {
+      "title": "How to CLONE any APP in minutes with REA!",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "How to CLONE any APP in minutes with REA!",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-4c4a11f1d0": {
+    "hash": "4314bd24c21f",
+    "en": {
+      "title": "Ghidra and REA are great for reverse engineering. Lately, though, we’ve been using them to safety check new tools and repos for malware bef",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "Ghidra 和 REA 非常适合做逆向工程，不过最近我们也用它们在使用前对新工具和代码仓库做恶意软件安全检查。",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-15fbb16b78": {
+    "hash": "7a5a5c9b4fb1",
+    "en": {
+      "title": "Official REA case: Notion's clipboard works too. When copying a group of content in Notion, how are text, formatting and block structure preserved so the paste can restore it exactly? For example, cop",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "Rea 官方案例：Notion 粘贴板也跑起来了。Notion 复制一组内容时，怎样保留文字、格式和“块”的结构，粘贴后还能恢复原样。比如复制一个标题、一段加粗文字和两项列表。剪贴板里需要保存的不只是这些字，还要让接收方知道：哪个是标题、哪里加粗、哪些属于列表。案例主要",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-15f3d8a28c": {
+    "hash": "5867f0704979",
+    "en": {
+      "title": "How to Use REA to Reverse Engineer Any App in Minutes",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "如何用 REA 在几分钟内逆向任意 App",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-78c096101a": {
+    "hash": "ff67dc2d12d9",
+    "en": {
+      "title": "A key detail from hands-on testing: when dissecting a hardware protocol, use mitmproxy + Frida first to bypass the app's SSL pinning during capture. Many vendor apps use certificate pinning, so captur",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "实测补充一个关键细节：拆硬件协议时，抓包环节建议先用 mitmproxy + Frida 绕过 App 的 SSL pinning，不少厂商 App 都上了证书 pinning，直接抓大概率是空包。REA 对私有二进制协议（比如空调常用的自定义帧头 + CRC 校验）的字段边界划",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-8aa113d77d": {
+    "hash": "351b45995ac5",
+    "en": {
+      "title": "We recreated the Grok Bot source code using REA (Reverse Engineer Anything) purely for research & educational purposes.  https://anonymous.4",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "我们仅出于研究和教育目的，使用 REA（Reverse Engineer Anything）重建了 Grok Bot 的源代码。  https://anonymous.4",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-69d3362977": {
+    "hash": "6ed4601ad6c3",
+    "en": {
+      "title": "REA: Have the Agent hand over its reverse-engineering conclusions together with the evidence",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA：让 Agent 把逆向结论连同证据一起交出来",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-9185a20b03": {
+    "hash": "96e777411657",
+    "en": {
+      "title": "Hands-on with REA (130k stars): I used it to decompile a commercial Unity game (IL2CPP). The AI followed the control flow, refactored the semantics automatically, and restored the core algorithms and ",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "实测 13 万星 REA：我拿它反编译 Unity 商业游戏（IL2CPP），AI 顺着控制流自动做语义重构，把核心算法与手感参数全还原成干净 C#！保姆级 5 步跟练长文与架构图已备齐，全文请见专栏👇 https://x.com/i/article/21098631057",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-9cf47d90e7": {
+    "hash": "52f778ec11ad",
+    "en": {
+      "title": "REA got 120k stars in a week, but I finished taking apart Baidu Netdisk last month",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA 一周 12 万星，但我上个月就拆完百度网盘了",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-0027bf84f0": {
+    "hash": "073d19602302",
+    "en": {
+      "title": "I ran the open-source reverse-engineering tool REA for 193 seconds: Obsidian desktop turned out to have 42 IPC channels, plus a built-in ad blocker hidden inside! For safety I installed rea-agents in ",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "用开源逆向工具 REA 跑了 193 秒，Obsidian 桌面版被扒出 42 个 IPC 通道，还藏着内置广告拦截！安全起见我在隔离目录装 rea-agents，加 --ignore-scripts 跳过安装脚本 9 秒搞定。复制一份 23MB 的 obsidian.as",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-27154f0faa": {
+    "hash": "3224bab44438",
+    "en": {
+      "title": "My AI bots reverse engineered a feature from a real app and rebuilt it.  Target: MarkText's HTML export. They traced it from the built app w",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "我的 AI 机器人逆向了一个真实应用的功能并将其重建。目标：MarkText 的 HTML 导出。它们从已构建的应用中追踪该功能 w",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-0af2e7691a": {
+    "hash": "599b5d555606",
+    "en": {
+      "title": "Gave an AI only the compiled binary of my own iOS app. No source.  With free REA + Ghidra it rebuilt my P&L formula exactly in 16 minutes, a",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "只把我自己 iOS 应用的编译后二进制交给 AI，没有源码。借助免费的 REA + Ghidra，它在 16 分钟内精确重建了我的 P&L 公式，a",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-b3508599f9": {
+    "hash": "50c6e6bdbe2c",
+    "en": {
+      "title": "What it did on its own:  - Cracked open both installers with REA (reverse-engineering tools) - Windows build: dead end (.NET Framework + dri",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "它自主完成的事：- 用 REA（逆向工程工具）拆开了两个安装包 - Windows 版本：走进死胡同（.NET Framework + dri",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-620d41dc61": {
+    "hash": "1348c3a10853",
+    "en": {
+      "title": "REA Hits 80K Stars in Six Days: What It Can Do, What It Can't, and Whether It's Legal",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA 六天涨到 8 万星：能做什么，做不到什么，违不违法",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-aefcaff5ff": {
+    "hash": "9fdb7880e051",
+    "en": {
+      "title": "What Is REA, the 120K-Star Reverse Engineer Anything: How One MCP Lets AI Agents Understand Apps and Binaries",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "12 万星的 REA 逆向一切是什么：一个 MCP 如何让 AI Agent 看懂应用与二进制",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-6e8a84307f": {
+    "hash": "1bdcb6ed261a",
+    "en": {
+      "title": "What Is REA (Reverse Engineer Anything)? The MCP Server That Grabbed 115K GitHub Stars in One Week",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA (Reverse Engineer Anything) 是什么？一周狂揽 115K GitHub 星标的 MCP Server",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-11e651d19e": {
+    "hash": "e0527b641812",
+    "en": {
+      "title": "What Is REA (Reverse Engineer Anything)? The MCP Server That Hit 115,000 GitHub Stars in a Week",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA (Reverse Engineer Anything) 是什么？一周内获得 115,000 个 GitHub 星标的 MCP Server",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-6c3061f2e0": {
+    "hash": "4c821b269fc9",
+    "en": {
+      "title": "What Is REA (Reverse Engineer Anything)? The MCP Server That Reached 115,000 GitHub Stars in a Week",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA (Reverse Engineer Anything) 是什么？一周内斩获 115,000 个 GitHub 星标的 MCP Server",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-fe272d7559": {
+    "hash": "d142f7410b8f",
+    "en": {
+      "title": "Open-source tool REA (Reverse Engineer Anything) lets AI agents dissect apps, enabling GTA V on iPhone and free Adobe alternatives",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "开源工具 REA（Reverse Engineer Anything）让 AI agent 拆解应用，催生 iPhone 版 GTA V 与免费的 Adobe 替代品",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-1cf9677623": {
+    "hash": "c3149450095c",
+    "en": {
+      "title": "github.com/morluto/rea",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "github.com/morluto/rea",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-1c5baab920": {
+    "hash": "6c30b642c668",
+    "en": {
+      "title": "this is obviously a huge deal. agents are very good at this and REA is an empowering interface. everything is open source now, at least kind",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "这显然是件大事。agent 非常擅长这类工作，而 REA 是一个赋能的界面。如今一切都开源了，至少算是某种程度上",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-6d3498ff4c": {
+    "hash": "f80073a9f55b",
+    "en": {
+      "title": "REA, a free toolkit that hands AI agents the keys to reverse engineering, crossed 100,000 GitHub stars in a week as AI-decompiled game mods,",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA 是一套免费工具包，把逆向工程的钥匙交给 AI agent，一周内 GitHub star 数突破 100,000，同时 AI 反编译的游戏 mod、",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-666637fd4c": {
+    "hash": "224b8af4def3",
+    "en": {
+      "title": "Why highly reliable Agents need a layer of \"evidence governance\": a look at REA's Evidence Ledger",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "从 REA 的 Evidence Ledger，看高可靠 Agent 为什么需要一层「证据治理」",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-1745288196": {
+    "hash": "6b384fe1da94",
+    "en": {
+      "title": "Attack and Defense for Software in the AI Era",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "AI 时代软件的攻与防",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-bbf05f3f6a": {
+    "hash": "e0d0d74bc660",
+    "en": {
+      "title": "Feels like R&D has to proactively take over other roles' work, day after day,",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "感觉研发得主动抢其他岗位的活了，这一天天的，",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-406e661ae1": {
+    "hash": "4b747036625c",
+    "en": {
+      "title": "Opus 5.5 with Reverse Engineer Anything took about 5 minutes, using hopper, to tell me how the cheats in 3D Pinball for Windows work. Then i",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "Opus 5.5 配合 Reverse Engineer Anything，借助 hopper 只用了约 5 分钟，就告诉我 3D Pinball for Windows 里的作弊码是如何运作的。然后我",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-af6f212321": {
+    "hash": "f6a84010ad29",
+    "en": {
+      "title": "REA (Reverse Engineer Anything) Explained: An MCP That Lets AI Agents Look Inside Programs | Bucom Blog",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA（Reverse Engineer Anything）详解：让 AI 智能体看透程序内部的 MCP | Bucom Blog",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-d79392eb06": {
+    "hash": "b2c0bb549d1a",
+    "en": {
+      "title": "What Is REA (Reverse Engineer Anything)? How to Use the MCP Tool to Analyze Binaries and Apps with Coding Agents, and Legal Considerations",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA（Reverse Engineer Anything）是什么——用编码智能体分析二进制文件和应用的 MCP 工具用法与法律注意事项",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-f89356bcea": {
+    "hash": "16c8d07fa7d7",
+    "en": {
+      "title": "Paid desktop accounting, rebuilt in the open. Project #000001 is live.  REA helped us investigate QuickBooks Desktop for Mac. We independent",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "付费桌面会计软件，公开重建。项目 #000001 已上线。REA 帮助我们研究了 QuickBooks Desktop for Mac。我们独立",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-a86c78ee1d": {
+    "hash": "ba1092586d83",
+    "en": {
+      "title": "Is Software Dead? REA Uses AI to Reverse Engineer Anything. Is Software Dead? REA Uses AI to Reverse Engineer Anything #AI #LLM #ReverseEngineering #rea #姜学长",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "软件已死？REA用AI逆向任何东西 软件已死？REA用AI逆向任何东西 #人工智能 #大模型 #逆向工程 #rea #姜学长",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-f4a48ade91": {
+    "hash": "2436867cf01f",
+    "en": {
+      "title": "[Dev Workflow] I Had an AI Reverse-Engineer My Own iOS App With Free Tools (REA + Ghidra)",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "[开发工作流] 我让 AI 用免费工具逆向了自己的 iOS App(REA + Ghidra)",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-37ca3f9165": {
+    "hash": "4e31121c2f5a",
+    "en": {
+      "title": "REA, Reverse Engineer Anything: 139 MCP tools between your agent and a decompiler, each with a receipt",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA, Reverse Engineer Anything:在你的 agent 与反编译器之间提供 139 个 MCP 工具,每个都附带凭据",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-1b27795f63": {
+    "hash": "8e801290cde0",
+    "en": {
+      "title": "What Is REA (Reverse Engineer Anything)? Giving AI Agents Reverse Engineering Tools Over MCP",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "什么是 REA(Reverse Engineer Anything)?通过 MCP 为 AI agent 提供逆向工程工具",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-471f6bacad": {
+    "hash": "800ccc6e87ca",
+    "en": {
+      "title": "Install REA and Set Up Your Coding Agent",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "安装 REA 并配置你的 coding agent",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-71728ca771": {
+    "hash": "26b82689ea0c",
+    "en": {
+      "title": "REA - Reverse Engineering a Coding Agent",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA-逆向工程编码智能体",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-4fd198eb29": {
+    "hash": "c684f4589b02",
+    "en": {
+      "title": "Your First Reverse Engineering Investigation - REA",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "你的第一次逆向工程调查-REA",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-8ca66e2867": {
+    "hash": "626891cf35f2",
+    "en": {
+      "title": "REA: Turn Claude Code Into a Reverse Engineer (MCP Guide)",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA: Turn Claude Code Into a Reverse Engineer (MCP Guide)",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-2be83fcb81": {
+    "hash": "9330c928fef0",
+    "en": {
+      "title": "REA Reverse Engineering with Claude Code and Codex | sAIgnals",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA Reverse Engineering with Claude Code and Codex | sAIgnals",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-46ba92caba": {
+    "hash": "a012f7e5d59e",
+    "en": {
+      "title": "Reverse Engineer Anything — REA Guides & Interactive Examples",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "Reverse Engineer Anything — REA 指南与交互式示例",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-675c5a7d94": {
+    "hash": "4388511574e3",
+    "en": {
+      "title": "REA: Reverse Engineer Anything with Agents — FollowAgents",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA：用 Agent 逆向一切 — FollowAgents",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-2291c6c825": {
+    "hash": "90221890b2af",
+    "en": {
+      "title": "REA - Agent Reverse Engineering via CLI and MCP | AI/TLDR",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA - 通过 CLI 与 MCP 实现 Agent 逆向工程 | AI/TLDR",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-6a65fa1327": {
+    "hash": "85b75ba2fe62",
+    "en": {
+      "title": "REA - Let AI Agents Reverse Engineer Everything (From App Behavior to Native Binaries) - OCTOHZ",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA - 让AI Agent给你逆向一切（从App行为到原生二进制） - OCTOHZ",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-1010f4606a": {
+    "hash": "da707a0093cf",
+    "en": {
+      "title": "REA (Reverse Engineer Anything) on Kimi K3: a verified Claude Code setup — Wallaby",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "在 Kimi K3 上运行 REA (Reverse Engineer Anything)：一套经过验证的 Claude Code 配置 — Wallaby",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-44b05a613b": {
+    "hash": "a90965a1ca00",
+    "en": {
+      "title": "I Used the Viral GitHub Project REA to Reverse Engineer Microsoft Word",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "我居然用 GitHub 现象级项目 REA，逆向了 Microsoft Word",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-e45469a856": {
+    "hash": "fb8816c06850",
+    "en": {
+      "title": "Can AI Reverse Engineer and Rebuild Software? REA's Real Cases, Tools and Maturity - 老喬報®",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "AI 能把软件逆向重做吗？REA 的实际案例、工具与成熟度 - 老喬報®",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-1ffcb52302": {
+    "hash": "611a7d7f3230",
+    "en": {
+      "title": "REA Reverse Engineering Tutorial: Claude Code, MCP, Analysis Workflow and Limitations",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA 逆向工程教程：Claude Code、MCP、分析流程与使用限制",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-fdeb455dba": {
+    "hash": "2d907d2505de",
+    "en": {
+      "title": "GitHub 110K Stars: A Hands-On Guide to the AI Software-Dismantling Tool — Equip Your AI Coding Assistant with Professional Reverse Engineering Tools So It Can Really \"Take Things Apart\" - Juejin",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "GitHub 11万star：AI拆软件神器保姆级实操教程 给你的 AI 编程助手装上一套专业逆向工具，让它真的去“拆开” - 掘金",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-e32d307219": {
+    "hash": "102cf3c2b20c",
+    "en": {
+      "title": "Deploying REA in the Cloud: Building an AI Reverse Engineering Environment on Tencent Cloud CVM - Tencent Cloud Developer Community - Tencent Cloud",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "云端部署 REA：在腾讯云 CVM 搭建 AI 逆向分析环境 - 腾讯云开发者社区 - 腾讯云",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-404e0c1828": {
+    "hash": "857e99af167e",
+    "en": {
+      "title": "REA: A New AI-Powered Reverse Engineering Tool Supporting Ghidra, Hopper, and Claude Code – TokyoBlackHatNews",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA：支持 Ghidra、Hopper 和 Claude Code 的全新 AI 逆向工程工具 – TokyoBlackHatNews",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-fcc621e9d7": {
+    "hash": "1e179c2b90ef",
+    "en": {
+      "title": "Reverse Engineer Anything: Open-Source Tool \"REA\" Has AI Analyze Closed-Source Apps and Build Similar Features (Generative AI Close-Up) | TechnoEdge",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "万物皆可逆向：让 AI 分析闭源应用并复刻类似功能的开源工具“REA”（生成式 AI 特写）| TechnoEdge",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-6a6fb96060": {
+    "hash": "b8713f405344",
+    "en": {
+      "title": "Reverse Engineer Anything: What the Viral REA MCP Actually Does | MindStudio",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "万物皆可逆向:爆火的 REA MCP 到底做了什么 | MindStudio",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-6f5f2fc36f": {
+    "hash": "fcce1dcabc02",
+    "en": {
+      "title": "REA reverse engineering: Skill, MCP setup and first workflow | OpenAgentSkill",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA 逆向工程:Skill、MCP 配置与第一个工作流 | OpenAgentSkill",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-b3e4da14e1": {
+    "hash": "2b81d5476ad3",
+    "en": {
+      "title": "REA 6.3: Handing Reverse Engineering to an AI Agent — The Key Is Not Decompiling but the Evidence Chain | Fan Weibin · Writing Space",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA 6.3:把逆向工程交给 AI Agent,关键不是会反编译,而是证据链 | 范伟彬 · 写作空间",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-aa23b51dae": {
+    "hash": "628b5ee644d9",
+    "en": {
+      "title": "Stop Guessing at Someone Else's Feature: the 84k-Star REA Lets an Agent Take It Apart · AI CAKE",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "看上别人的功能别猜了:84k 星 REA 让 agent 拆开看 · AI CAKE",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-4475a48e41": {
+    "hash": "ce1466938e2e",
+    "en": {
+      "title": "What Is REA? How to Use the Open-Source Tool That Has AI Investigate How Software Works, and How It Works",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "什么是 REA?让 AI 调查软件运作原理的开源工具:用法与原理详解",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-91b00146fb": {
+    "hash": "a2eaae1e3ab4",
+    "en": {
+      "title": "REA: Reverse Engineer Anything with Claude Code and Codex | Lucas Kleipoedszus",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA:用 Claude Code 和 Codex 逆向一切 | Lucas Kleipoedszus",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-8e51c88ae7": {
+    "hash": "43f93be13434",
+    "en": {
+      "title": "REA: What Agent-Led Reverse Engineering Actually Proves",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA:由 Agent 主导的逆向工程究竟证明了什么",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-89ffedd389": {
+    "hash": "70f5af6be844",
+    "en": {
+      "title": "REA (Reverse Engineer Anything): the viral GitHub repo explained | HelloAITech",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA(Reverse Engineer Anything):爆红的 GitHub 仓库详解 | HelloAITech",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-2b554b0b47": {
+    "hash": "235afa01181c",
+    "en": {
+      "title": "REA, an analysis tool for AI agents, reconstructs the danmaku calculations of Touhou Gensokyo | Litmus",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "面向 AI 智能体的分析工具 REA,还原东方幻想乡的弹幕计算 | Litmus",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-7042dae30b": {
+    "hash": "fde55a1921fc",
+    "en": {
+      "title": "No source code needed: AI investigates how it works. How far can REA reproduce it? | 2026-10-12",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "没有源代码,AI 也能研究其工作原理。REA 能还原到什么程度?| 2026-10-12",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-d12a05914d": {
+    "hash": "818a5f8dbd86",
+    "en": {
+      "title": "dazeb/rea-codex-plugin: Standalone Codex plugin marketplace for REA by morluto, with pinned MCP server and investigation skills.",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "dazeb/rea-codex-plugin:morluto 开发的 REA 的独立 Codex 插件市场,附带固定版本的 MCP server 与调查技能。",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-54626c89da": {
+    "hash": "0e8e51cd5b83",
+    "en": {
+      "title": "REA Review: Reverse Engineer Any App With AI Agents — andrew.ooo",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "REA 评测:用 AI 智能体逆向任何应用 — andrew.ooo",
       "summary": "",
       "target": "",
       "metric": ""

@@ -3,7 +3,7 @@
 **See what people around the world do with [REA](https://github.com/morluto/rea), ranked and updated daily.**
 **一頁看懂全世界的人用 [REA](https://github.com/morluto/rea) 做了什麼，每天更新。**
 
-### → [miles990.github.io/rea-awesome](https://miles990.github.io/rea-awesome/)
+### → [miles990.github.io/rea-case-rankings](https://miles990.github.io/rea-case-rankings/)
 
 ![Today page](docs/today.jpg)
 
@@ -19,7 +19,7 @@ REA (Reverse Engineer Anything) lets coding agents such as Claude Code and Codex
 - **Today / 7 days / 30 days / all time**, filters by category, platform, language and evidence
 - **Six views**: list, cards, table, timeline, relation graph and a 3D map of how cases connect
 - **Daily context**: what each day added and which long-term trends it supports
-- **For AI agents**: [JSON](https://miles990.github.io/rea-awesome/api/records.json), [daily JSON](https://miles990.github.io/rea-awesome/api/daily.json), [llms.txt](https://miles990.github.io/rea-awesome/llms.txt), [RSS](https://miles990.github.io/rea-awesome/feed.xml); every filter lives in the URL
+- **For AI agents**: [JSON](https://miles990.github.io/rea-case-rankings/api/records.json), [daily JSON](https://miles990.github.io/rea-case-rankings/api/daily.json), [llms.txt](https://miles990.github.io/rea-case-rankings/llms.txt), [RSS](https://miles990.github.io/rea-case-rankings/feed.xml); every filter lives in the URL
 
 ### How entries are collected
 
@@ -49,7 +49,7 @@ REA（Reverse Engineer Anything）讓 Claude Code、Codex 這類 coding agent �
 - **今天／7 天內／30 天內／全部**，再依類別、平台、語言、驗證程度篩選
 - **六種檢視**：清單、卡片、表格、時間圖、關係節點圖，以及看案例如何相連的 3D 星系
 - **每日脈絡**：每天新增了什麼、支持哪些長期趨勢
-- **給 AI agent**：[JSON](https://miles990.github.io/rea-awesome/api/records.json)、[每日 JSON](https://miles990.github.io/rea-awesome/api/daily.json)、[llms.txt](https://miles990.github.io/rea-awesome/llms.txt)、[RSS](https://miles990.github.io/rea-awesome/feed.xml)；所有篩選都寫在網址裡
+- **給 AI agent**：[JSON](https://miles990.github.io/rea-case-rankings/api/records.json)、[每日 JSON](https://miles990.github.io/rea-case-rankings/api/daily.json)、[llms.txt](https://miles990.github.io/rea-case-rankings/llms.txt)、[RSS](https://miles990.github.io/rea-case-rankings/feed.xml)；所有篩選都寫在網址裡
 
 ### 如何收錄
 

@@ -789,7 +789,7 @@ function renderStatic() {
   renderDays();
   $("#scan").textContent = t("new.scan").replace("{d}", DATA.scanned || DATA.updated);
   $("#rubric").innerHTML = [5, 4, 3, 2, 1].map((n) => `<li>${wowBar(n)}<span>${esc(t("rubric." + n))}</span></li>`).join("");
-  const base = DATA.site?.url || "https://miles990.github.io/rea-awesome/";
+  const base = DATA.site?.url || "https://miles990.github.io/rea-case-rankings/";
   $("#agent-code").textContent = `GET ${base}api/records.json\nGET ${base}api/daily.json\nGET ${base}llms.txt\nGET ${base}feed.xml\n${base}?range=7&q=firmware&type=case&view=graph#r-zwo-asiair`;
   const u = updatedText();
   $("#updated").textContent = u.abs; $("#updated").dateTime = DATA.updatedAt || DATA.updated;

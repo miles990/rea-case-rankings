@@ -13,7 +13,7 @@ import { allRecords } from "./records.mjs";
 const ROOT = new URL("..", import.meta.url);
 const MANIFEST = new URL("data/thumbs.json", ROOT);
 const DIR = new URL("site/thumbs/", ROOT);
-const UA = "Mozilla/5.0 (compatible; rea-awesome-thumbs/1.0)";
+const UA = "Mozilla/5.0 (compatible; rea-case-rankings-thumbs/1.0)";
 const TODAY = new Date().toISOString().slice(0, 10);
 const MAX_BYTES = 5 << 20;
 const RETRY_DAYS = 7;

@@ -9,8 +9,8 @@ import { allRecords } from "./records.mjs";
 const ROOT = new URL("..", import.meta.url);
 const read = (p) => readFile(new URL(p, ROOT), "utf8");
 const out = (p) => new URL(`dist/${p}`, ROOT);
-const SITE_URL = (process.env.SITE_URL || "https://miles990.github.io/rea-awesome/").replace(/\/?$/, "/");
-const REPO_URL = process.env.REPO_URL || "https://github.com/miles990/rea-awesome";
+const SITE_URL = (process.env.SITE_URL || "https://miles990.github.io/rea-case-rankings/").replace(/\/?$/, "/");
+const REPO_URL = process.env.REPO_URL || "https://github.com/miles990/rea-case-rankings";
 
 const [html, css, js] = await Promise.all([read("site/index.html"), read("site/app.css"), read("site/app.js")]);
 const ui = JSON.parse(await read("site/ui.json"));

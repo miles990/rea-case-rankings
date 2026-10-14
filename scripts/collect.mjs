@@ -18,7 +18,7 @@ const CONTEXTS = new URL("data/.pending-context.json", ROOT);
 const MODE = process.argv[2] || "all"; // collect | score | all
 const TOKEN = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || "";
 const TODAY = new Date().toISOString().slice(0, 10);
-const UA = "rea-awesome-collector/1.0 (+https://github.com)";
+const UA = "rea-case-rankings-collector/1.0 (+https://github.com)";
 
 // A find must mention REA itself, not just the letters "rea".
 const MENTION = /\bREA\b|morluto|rea-agents|rea\.tools|Reverse Engineer Anything/;

@@ -4618,5 +4618,230 @@
       "target": "DX-Ball(1996 年 Windows i386 游戏)",
       "metric": "砖块命中函数还原出屏幕坐标公式 20 + 30 × tile_x"
     }
+  },
+  "d-c908404803": {
+    "hash": "9a7e80c93503",
+    "en": {
+      "title": "Tutorial: Statically Analyzing an Electron App's ASAR, preload and IPC with REA",
+      "summary": "Using the open-source note-taking app Joplin as the target, this article shows how to extract app.asar, build an application graph, inspect modules and imports, handle source maps, and locate the preload bridge and IPC channels. It also explains that REA never executes the target's code, so anything it cannot resolve is marked as unknown.",
+      "target": "Joplin (Electron note-taking app)",
+      "metric": "A complete Electron static analysis workflow of seven or more steps, covering ASAR, preload and IPC"
+    },
+    "zh-CN": {
+      "title": "教程:用 REA 静态分析 Electron 应用的 ASAR、preload 与 IPC",
+      "summary": "以开源笔记应用 Joplin 为演示目标,讲解如何解出 app.asar、构建应用图、查看模块与 import、处理 source map,并找出 preload 桥接与 IPC 通道。文章还说明 REA 不会执行目标程序的代码,无法解析的部分会标记为 unknown。",
+      "target": "Joplin(Electron 笔记应用)",
+      "metric": "完整的七步以上 Electron 静态分析流程,涵盖 ASAR、preload 与 IPC"
+    }
+  },
+  "d-226c1e5112": {
+    "hash": "6844d1baf5cc",
+    "en": {
+      "title": "Installing the Reverse-Engineering Skill for Claude Code and Codex with REA",
+      "summary": "This article explains what the REA 6.4.0 setup writes for Claude Code: the MCP registration and the reverse-engineer-anything skill, plus how each client's skill directory differs. It also covers how to write prompts and how to confirm that the agent really calls REA.",
+      "target": "REA reverse-engineering workflow for Claude Code and Codex",
+      "metric": "REA 6.4.0 setup writes the MCP registration and a skill with 6 reference documents"
+    },
+    "zh-CN": {
+      "title": "介绍用 REA 为 Claude Code 与 Codex 安装逆向 skill 的流程",
+      "summary": "文章说明 REA 6.4.0 的 setup 会为 Claude Code 写入 MCP 注册与 reverse-engineer-anything skill,以及各客户端 skill 目录的差异。同时给出提示词的写法,以及确认 agent 确实调用了 REA 的方法。",
+      "target": "Claude Code、Codex 的 REA 逆向工作流",
+      "metric": "REA 6.4.0 setup 写入 MCP 注册与含 6 篇参考文档的 skill"
+    }
+  },
+  "d-9c53a231ad": {
+    "hash": "f0a9aa12014b",
+    "en": {
+      "title": "Solving a Custom crackme with REA and an AI Agent, and Verifying the Flag",
+      "summary": "Using a self-compiled xor_gate crackme, this tutorial shows an agent following a string through cross-references to the checking function, then writing a solver script. The answer is finally verified with an Evidence ID and a process capture of the original program, so the agent cannot hand back a wrong flag.",
+      "target": "Custom crackme xor_gate",
+      "metric": "A complete workflow that verifies the answer with an Evidence ID and process capture"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 AI agent 解自制 crackme 并验证 flag 的教程",
+      "summary": "以自己编译的 xor_gate crackme 为例,演示 agent 从字符串经交叉引用找到校验函数,再编写求解脚本。最后通过 Evidence ID 和原程序的进程捕获验证答案,避免 agent 给出错误的 flag。",
+      "target": "自制 crackme xor_gate",
+      "metric": "以 Evidence ID 与进程捕获验证答案的完整工作流"
+    }
+  },
+  "d-914bdf6de7": {
+    "hash": "1a5ae6e23c16",
+    "en": {
+      "title": "REE: an evidence-centered local investigation workbench built on the REA engine",
+      "summary": "Built on the REA analysis engine, it adds a beginner CLI, a macOS launcher and an interactive tutorial, and offers a static-analysis workflow for the user's own samples and authorized targets. The content focuses on workflow and onboarding; it contains no reverse-engineering results for any specific third-party target.",
+      "target": "REA analysis engine (local investigation workbench and beginner CLI)",
+      "metric": "Provides CLI flows such as doctor, lab, demo and analyze, with evidence report output"
+    },
+    "zh-CN": {
+      "title": "在 REA 引擎上构建以证据为核心的本地调查工作台 REE",
+      "summary": "以 REA 分析引擎为底座,加入 beginner CLI、macOS 启动器与交互式教程,并提供针对自有样例与授权目标的静态分析流程。内容偏重工作流程与入门导览,没有针对具体第三方目标的逆向成果。",
+      "target": "REA 分析引擎(本地调查工作台与入门 CLI)",
+      "metric": "提供 doctor、lab、demo、analyze 等 CLI 流程及证据报告输出"
+    }
+  },
+  "d-900880ce35": {
+    "hash": "4889cf30a915",
+    "en": {
+      "title": "Antigravity reverse-engineering and Rust rebuild suite extending REA with 7 new tools",
+      "summary": "Based on morluto/rea, it keeps the original 187 tools and adds 7 more, including batch decompilation of subgraphs and export of 4 kinds of recon bundles, integrating Google Antigravity 2.0 and MCP. The README claims verification by 10,000-vector differential comparison, but the excerpt shows no measured results or concrete reverse-engineering target.",
+      "target": "REA itself (extended into an Antigravity plugin / MCP server)",
+      "metric": "194 MCP tools (original 187 + 7 new)"
+    },
+    "zh-CN": {
+      "title": "基于 REA 扩展出含 7 个新工具的 Antigravity 逆向与 Rust 重建套件",
+      "summary": "以 morluto/rea 为基础,保留原有 187 个工具,并新增子图批量反编译、4 类侦察套件导出等 7 个工具,集成 Google Antigravity 2.0 与 MCP。README 宣称经过 10,000 向量差分比对验证,但节选中看不到实测结果或具体逆向目标。",
+      "target": "REA 本身(扩展为 Antigravity 插件/MCP 服务器)",
+      "metric": "194 个 MCP 工具(原 187 个＋新增 7 个)"
+    }
+  },
+  "d-fb5083c2b9": {
+    "hash": "c812736f4783",
+    "en": {
+      "title": "Video walkthrough: reverse-engineering Apple's website with REA and attempting a 1:1 recreation",
+      "summary": "A YouTube video uses three projects to show how to get started with reverse engineering via REA, including recreating Apple's website. The excerpt only says AI can study software without source code and reimplement its features; it gives no concrete results or verification evidence.",
+      "target": "Apple's website",
+      "metric": "Three beginner projects (no concrete verification data in the excerpt)"
+    },
+    "zh-CN": {
+      "title": "视频介绍用 REA 逆向分析并尝试 1 比 1 复刻苹果官网",
+      "summary": "YouTube 视频通过三个项目演示如何用 REA 入门逆向工程,其中包括复刻苹果官网。节选内容只说明 AI 能研究没有源代码的软件并重新实现其功能,没有提供具体成果或验证证据。",
+      "target": "苹果官网",
+      "metric": "三个入门项目(节选中无具体验证数据)"
+    }
+  },
+  "d-d7e149d4b2": {
+    "hash": "ec3dc8fec4a9",
+    "en": {
+      "title": "REA user guide: setup, Ubuntu hands-on test, and the Notion clipboard bridge case",
+      "summary": "Explains how REA lets an AI assistant do reverse analysis in natural language, covering setup and integration and an Ubuntu hands-on workflow, with an in-depth look at the official Notion clipboard bridge case. It is a tutorial and overview, not the author's own reverse-engineering work.",
+      "target": "The REA tool itself (including the official Notion case walkthrough)",
+      "metric": "Mentions an MCP reverse-engineering toolkit with 130k stars and an Ubuntu hands-on workflow"
+    },
+    "zh-CN": {
+      "title": "REA 使用指南:接入配置、Ubuntu 实测与 Notion 剪贴板桥案例",
+      "summary": "介绍 REA 如何让 AI 助手用自然语言做逆向分析,涵盖接入配置与 Ubuntu 实测流程,并深入讲解官方的 Notion 剪贴板桥案例。内容为教程导览,不是作者自己的逆向成果。",
+      "target": "REA 工具本身(含官方 Notion 案例讲解)",
+      "metric": "提及 13 万 star 的 MCP 逆向工具包与 Ubuntu 实测流程"
+    }
+  },
+  "d-f9a82b24e1": {
+    "hash": "02d2bfc83edc",
+    "en": {
+      "title": "Tutorial: Use REA to understand a single feature, write a spec, and rebuild it in your own stack",
+      "summary": "An Apidog article uses Claude Code or Codex with REA in six steps: capture a feature's behavior, write a spec, rebuild it, and verify with tests and Apidog. The example uses REA's bundled Notes sample, tracing notes.exportCsv() through preload and the main process to the notes.csv write, with file and line numbers at every step.",
+      "target": "REA's bundled Notes Electron sample",
+      "metric": "Traced the export feature's IPC call chain to file and line numbers and wrote notes.csv"
+    },
+    "zh-CN": {
+      "title": "教程:用 REA 理解单一功能、编写规格并在自己的技术栈重建",
+      "summary": "Apidog 文章使用 Claude Code 或 Codex 搭配 REA,分六步完成提取功能行为、编写规格、重建,并以测试和 Apidog 验证。示例使用 REA 自带的 Notes 示例,追踪 notes.exportCsv() 经 preload、主进程直至写出 notes.csv,每步附文件与行号。",
+      "target": "REA 内置的 Notes Electron 示例",
+      "metric": "追踪导出功能的 IPC 调用链至文件与行号,并写出 notes.csv"
+    }
+  },
+  "d-40c0474406": {
+    "hash": "d1d2bb679e52",
+    "en": {
+      "title": "Tutorial and citation: REA analyzes an Electron sample, and the rebuilt formatter passes 14 tests",
+      "summary": "The article walks through using REA to inspect a desktop app, trace the export feature to file and line numbers, and compare the rebuild against the original. It cites Curtis Pyke, who on October 8, 2026 analyzed a six-file Electron sample with REA 6.0.0, getting 21 findings and 1 IPC channel in about 1.3 seconds; the rebuilt formatter matched the original on all 14 declared test cases.",
+      "target": "REA's six-file Electron sample",
+      "metric": "Rebuilt formatter matched the original on all 14 declared test cases"
+    },
+    "zh-CN": {
+      "title": "教程并引述:REA 分析 Electron 示例,重建的格式化器通过 14 项测试",
+      "summary": "文章分步骤说明如何用 REA 检查桌面应用,追踪导出功能到文件与行号,并对照重建结果与原版。文中引述 Curtis Pyke 于 2026 年 10 月 8 日使用 REA 6.0.0 分析六文件 Electron 示例,约 1.3 秒得到 21 项发现与 1 个 IPC 通道,重建的格式化器与原版在 14 个声明的测试用例上完全一致。",
+      "target": "REA 的六文件 Electron 示例",
+      "metric": "重建的格式化器与原版在 14 个声明的测试用例上完全一致"
+    }
+  },
+  "d-176e6b49a0": {
+    "hash": "dba8d9cd8fa1",
+    "en": {
+      "title": "Using AI to break down the architecture of REA and context-mode, with Chinese-language notes",
+      "summary": "A read-only analysis of the morluto/rea and context-mode repositories, producing module notes, open questions, evidence sources, and an offline HTML architecture document. Conclusions are labeled fact, inference, or unknown. This is a reading and write-up of REA's source code, not reverse engineering done with REA.",
+      "target": "morluto/rea source code (and context-mode)",
+      "metric": "Complete architecture notes and a single-file offline HTML document, with conclusions labeled fact / inference / unknown"
+    },
+    "zh-CN": {
+      "title": "用 AI 对 REA 与 context-mode 做架构全解并产出中文笔记",
+      "summary": "以只读方式分析 morluto/rea 与 context-mode 两个仓库,产出模块笔记、未解问题、证据出处和离线 HTML 架构文档。结论按事实、推断、未知三类标注,属于对 REA 源码的阅读整理,而非用 REA 做逆向。",
+      "target": "morluto/rea 源码(及 context-mode)",
+      "metric": "完整架构笔记与单文件离线 HTML 文档,结论以事实/推断/未知标注"
+    }
+  },
+  "d-269ae047fe": {
+    "hash": "c3ec6e2f2c31",
+    "en": {
+      "title": "Analyzing REA's source and architecture: how the agent connects decompilers and static analysis",
+      "summary": "The article reads a pinned version of REA's source and maps each target type to its implementation and boundaries, such as Hopper/Ghidra/IDA, Babel AST, CDP, and JADX. It concludes that REA only provides tools and Evidence, and that within the scope reviewed it found no built-in model calls or autonomous agent loop.",
+      "target": "REA source code and architecture",
+      "metric": "No built-in model calls or autonomous agent loop found within the scope reviewed"
+    },
+    "zh-CN": {
+      "title": "分析 REA 源码与架构:agent 如何串接反编译器与静态分析",
+      "summary": "文章阅读固定版本的 REA 源码,梳理各类目标对应的实现与边界,如 Hopper/Ghidra/IDA、Babel AST、CDP 与 JADX。结论是 REA 只提供工具与 Evidence,在审阅范围内未发现内置模型调用或自主 agent loop。",
+      "target": "REA 源码与架构",
+      "metric": "在审阅范围内未发现内置模型调用或自主 agent loop"
+    }
+  },
+  "d-7c91ed16e0": {
+    "hash": "ff7165315119",
+    "en": {
+      "title": "Reverse-Engineering Obsidian with REA: A Clean-Room, 74KB Open-Source Alternative",
+      "summary": "After using REA to analyze Obsidian's functional behavior, the author built a clean-room, browser-based, local-first Markdown knowledge base with bidirectional links, backlinks, a graph view, search, and a plugin API. The repo is public, reports 116 passing tests and about 74KB gzipped, and candidly lists the feature gaps compared with the original.",
+      "target": "Obsidian (clean-room functional rebuild)",
+      "metric": "116 tests passing, about 74 KB gzipped, only 2 runtime dependencies"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向分析 Obsidian,净室重做出 74KB 的开源替代品",
+      "summary": "以 REA 分析 Obsidian 的功能行为后,净室实现出浏览器端的本地优先 Markdown 知识库,具备双向链接、反向链接、关系图、搜索与插件 API。项目公开 repo,标示 116 个测试通过、gzip 后约 74KB,并如实列出与原版的功能差距。",
+      "target": "Obsidian(功能净室重建)",
+      "metric": "116 个测试通过,gzip 后约 74 KB,仅 2 个运行时依赖"
+    }
+  },
+  "d-97bd3f54b9": {
+    "hash": "a2ab422a615c",
+    "en": {
+      "title": "Analyzing VS Code with REA and Rebuilding an Electron Editor Clone",
+      "summary": "The author used REA to analyze VS Code 1.139.1, tallying architecture data such as files, modules, Context Bridge, and IPC channels, then built a runnable clone from Electron, Monaco, and xterm.js. The repo is public, but the clone is assembled from off-the-shelf components and has no comparison tests against the original.",
+      "target": "Visual Studio Code 1.139.1 (Electron app)",
+      "metric": "Analyzed 5,966 files, 2,071 modules, 29 IPC operations"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析 VS Code 并重建 Electron 版编辑器复刻",
+      "summary": "以 REA 分析 VS Code 1.139.1,统计出文件、模块、Context Bridge 与 IPC 通道等架构数据,据此做出以 Electron、Monaco 与 xterm.js 组成的可运行复刻。repo 已公开,但复刻靠现成组件拼成,与原版没有对照测试。",
+      "target": "Visual Studio Code 1.139.1(Electron 应用)",
+      "metric": "分析 5,966 个文件、2,071 个模块、29 个 IPC 操作"
+    }
+  },
+  "d-b6c3fa8751": {
+    "hash": "31dabbb4ad23",
+    "en": {
+      "title": "Connecting REA in an Isolated Environment and Running A/B Static-Analysis Tests on Real Tasks",
+      "summary": "In an isolated environment, the author connected REA 6.4.0 to Claude Code and ran A/B trials on two tasks: a rendering problem in the Electron terminal Orca, and HAR file analysis. All four trials were answered correctly, but using REA took up to 2.00x as long and cost up to 1.67x as much in API fees.",
+      "target": "Electron app Orca and HAR traffic logs",
+      "metric": "All 4 trials correct, but up to 2.00x the time and 1.67x the cost"
+    },
+    "zh-CN": {
+      "title": "隔离环境接入 REA 并以实际课题做 A/B 静态分析测试",
+      "summary": "作者在隔离环境将 REA 6.4.0 接入 Claude Code,并用 Electron 终端 Orca 的绘制问题与 HAR 文件分析各做 A/B 试验。四次均答对,但使用 REA 时耗时最多 2.00 倍、API 费用最多 1.67 倍。",
+      "target": "Electron 应用 Orca 与 HAR 通信记录",
+      "metric": "4 次试验均答对,但耗时最多 2.00 倍、费用最多 1.67 倍"
+    }
+  },
+  "d-6902990197": {
+    "hash": "4eec1ccfdeb4",
+    "en": {
+      "title": "Video Demo: Installing and Using REA to Generate App Blueprints in Reverse",
+      "summary": "A YouTube video shows how REA lets AI analyze finished software and generate a blueprint in reverse, walking through installation and usage. The excerpt does not say what specific target was analyzed or what came out of it.",
+      "target": "The REA tool itself (no specific analysis target given)",
+      "metric": "Demonstrates the full installation and usage workflow"
+    },
+    "zh-CN": {
+      "title": "视频演示安装并使用 REA 反向生成应用程序蓝图",
+      "summary": "YouTube 视频介绍 REA 如何让 AI 分析已完成的程序并反向生成蓝图,并演示安装与使用流程。节选内容没有说明具体分析的目标或成果。",
+      "target": "REA 工具本身(未指明具体分析目标)",
+      "metric": "演示完整安装与使用流程"
+    }
   }
 }

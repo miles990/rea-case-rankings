@@ -20,7 +20,7 @@ git diff --cached --quiet || { git commit -q -m "data: local daily run $(date +%
 gh workflow run daily.yml -R miles990/rea-case-rankings -f skip_collect=true
 # Personal radar (private repo next to this one): once a day, on the first run
 # that day (normally 08:18; later only if the Mac slept through the morning).
-stamp="$HOME/.cache/rea-awesome/radar-last-run"
+stamp="$HOME/.cache/rea-case-rankings/radar-last-run"
 if [ "$(cat "$stamp" 2>/dev/null)" = "$(date +%F)" ]; then
   echo "radar already ran today"
 elif [ -x ../radar/scripts/daily.sh ] && ../radar/scripts/daily.sh; then

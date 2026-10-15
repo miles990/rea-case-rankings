@@ -5683,5 +5683,65 @@
       "target": "REA 教程(Hopper/Ghidra/IDA 工作流程)",
       "metric": "11 步课程,涵盖 rea-agents 安装与 MCP 工具"
     }
+  },
+  "d-1b047e8703": {
+    "hash": "31a334f15e6d",
+    "en": {
+      "title": "Chaining REA, Gemini and Vercel to turn a binary into a deployable Expo app",
+      "summary": "appbeam is a pipeline that uses REA (CLI or MCP) to analyze an uploaded binary or URL, has Gemini rewrite the result as Expo components, then deploys to Vercel and displays it in a device frame. The README documents the flow and a mock mode, but shows no actual reconstruction of any concrete target.",
+      "target": "Generic binaries/apps (pipeline integration)",
+      "metric": "Four-stage pipeline (intake, inference, injection, deploy) with a Next.js dashboard"
+    },
+    "zh-CN": {
+      "title": "串联 REA、Gemini 与 Vercel,将二进制文件转成可部署的 Expo 应用",
+      "summary": "appbeam 是一条流水线:用 REA(CLI 或 MCP)分析上传的二进制文件或网址,再由 Gemini 改写为 Expo 组件,最后部署到 Vercel 并在设备框中显示。README 说明了流程与 mock 模式,但没有展示对任何具体目标的实际重建成果。",
+      "target": "通用二进制文件/App(流水线集成)",
+      "metric": "四阶段流水线(intake、inference、injection、deploy)与 Next.js 仪表盘"
+    }
+  },
+  "d-c1192aff5f": {
+    "hash": "6edf844ab03c",
+    "en": {
+      "title": "An SEO ranking breakdown skill and CLI inspired by REA's architecture",
+      "summary": "seo-rea is an agent skill plus a small CLI, inspired by REA, that produces SEO breakdown reports with evidence IDs for a given keyword and target domain. It only borrows REA's workflow pattern; it does not use REA to reverse engineer software, and its content is SEO analysis rather than binary reverse engineering.",
+      "target": "SEO ranking analysis (not reverse engineering)",
+      "metric": "Includes offline unit tests and a real cardlab sample report, but has no direct connection to REA reverse engineering"
+    },
+    "zh-CN": {
+      "title": "借鉴 REA 架构思路的 SEO 排名拆解技能与 CLI",
+      "summary": "seo-rea 是受 REA 启发的 agent skill 加小型 CLI,针对关键词与目标域名生成附证据编号的 SEO 拆解报告。它只沿用 REA 的工作流模式,并非用 REA 逆向软件,内容是 SEO 分析而非二进制逆向。",
+      "target": "SEO 排名分析(非逆向工程)",
+      "metric": "提供离线单元测试与 cardlab 真实示例报告,但与 REA 逆向无直接关系"
+    }
+  },
+  "d-d72fa55f15": {
+    "hash": "f48e242f35ca",
+    "en": {
+      "title": "Setting up an REA MCP bridge server on GitHub Codespaces for Gemini",
+      "summary": "This repo provides a startup script that runs REA's MCP server on Codespaces and connects Gemini to it through an /sse URL. It contains only deployment and connection steps, with no reverse engineering analysis of any target.",
+      "target": "Connection environment between the REA MCP server and Gemini",
+      "metric": "Starts with a single bash start.sh, exposing port 8000 and attaching to /sse"
+    },
+    "zh-CN": {
+      "title": "在 GitHub Codespaces 搭建 REA MCP 桥接服务器供 Gemini 连接",
+      "summary": "此 repo 提供启动脚本,让 REA 的 MCP 服务器运行在 Codespaces 上,并通过 /sse 网址连接 Gemini。内容只是部署与连接步骤,没有对任何目标做逆向分析。",
+      "target": "REA MCP 服务器与 Gemini 的连接环境",
+      "metric": "一行 bash start.sh 启动,开放 8000 端口并接入 /sse"
+    }
+  },
+  "d-cb8aad625f": {
+    "hash": "3ac1efdde9e3",
+    "en": {
+      "title": "A casebook of 11 real-world REA reverse engineering cases",
+      "summary": "rea-casebook collects cases built with REA, covering apps, games, algorithms and hardware, and labels each with its evidence and stage, such as Ledger Reborn, ReaCut, zee-rp and DX-Ball. It is a curated index, not reverse engineering work of its own.",
+      "target": "REA community cases (Notion, QuickBooks, CapCut, Axure, DX-Ball, etc.)",
+      "metric": "11 cases in 4 categories, last reviewed 2026-10-14"
+    },
+    "zh-CN": {
+      "title": "汇总 11 个 REA 实际逆向案例的案例集",
+      "summary": "rea-casebook 收集用 REA 做出的案例,涵盖应用、游戏、算法与硬件,并标注证据与阶段,例如 Ledger Reborn、ReaCut、zee-rp、DX-Ball。它本身是整理与索引,不是自己做的逆向成果。",
+      "target": "REA 社区案例(Notion、QuickBooks、CapCut、Axure、DX-Ball 等)",
+      "metric": "收录 11 个案例、4 个分类,最后审阅日 2026-10-14"
+    }
   }
 }

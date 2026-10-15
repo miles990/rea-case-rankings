@@ -1688,8 +1688,8 @@
     },
     {
       "date": "2026-10-15",
-      "stars": 241530,
-      "stars_delta": 26977,
+      "stars": 248239,
+      "stars_delta": 33686,
       "new": [
         "d-cfdb480bdf",
         "d-96f008b892",
@@ -1711,11 +1711,15 @@
         "d-aa18c5208e",
         "d-17de8d6954",
         "d-95915c11e6",
+        "d-0bddbf7d64",
+        "d-95812085d2",
         "d-db5ea31b01",
         "d-4306768540",
         "d-6a36c6eafb",
         "d-583253f057",
+        "d-d9e9150ad1",
         "d-c7e8d8a6fa",
+        "d-005e2b7890",
         "d-3add300150",
         "d-2005076b4f",
         "d-ce76f95f75",
@@ -1733,59 +1737,67 @@
         "d-7f62f78215",
         "d-77da22fa73",
         "d-e6e37a0afc",
+        "d-1b047e8703",
+        "d-c1192aff5f",
+        "d-d72fa55f15",
         "d-da8e33d1b5",
+        "d-cb8aad625f",
         "d-0c2d1d1da6",
+        "d-98635e3ba9",
         "d-b8d6bd24fe",
         "d-7656edb5da",
         "d-f8eb56b16f",
         "d-e6b18668e1",
         "d-9819f5a4b0",
         "d-fd57fa39c0",
+        "d-ee310c0e1a",
+        "d-241650fba4",
         "d-56859266c6",
         "d-a5261129ea",
         "d-78644bee75",
         "d-6a70d444e4",
         "d-65ed77180d",
-        "d-5dd099466b"
+        "d-5dd099466b",
+        "d-61c3f4b954"
       ],
       "stats": {
-        "count": 56,
+        "count": 68,
         "wow": {
-          "2": 31,
-          "3": 15,
+          "2": 40,
+          "3": 18,
           "4": 9,
           "5": 1
         },
         "type": {
-          "case": 28,
-          "app": 9,
-          "learn": 16,
-          "news": 3
+          "case": 31,
+          "app": 13,
+          "learn": 20,
+          "news": 4
         },
         "status": {
-          "tested": 15,
-          "shipped": 9,
-          "reported": 32
+          "tested": 17,
+          "shipped": 14,
+          "reported": 37
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "DX-Ball 聲像還原通過逐位元組驗證，星數再創新高",
-          "summary": "REA 的 GitHub 星數來到 241,530，比前一個紀錄 214,553 多了 26,977。排名最前面的是 DX-Ball 聲像公式還原：用 3,205 筆輸入比對原始 x86 函式，並重現 63 個編譯位元組，官方指南與多篇文章也圍繞同一案例。另一類是硬體與協定逆向，包括小米電視 MiLink 遙控、HP OMEN 控制中心與 PLC 啟停客戶端，其中部分有實機或模擬環境測試。同時也出現不少只有作者自述、沒有程式碼或測試的成果，例如 0.63 美元重建備忘錄與計算機，可見有驗證證據的案例和單純宣稱之間的落差仍然明顯。"
+          "headline": "REA 星數暴增逾三萬三，DX-Ball 聲像還原成最紮實案例",
+          "summary": "REA GitHub 星數從 214553 升到 248239，一天增加 33686。排名最前的是 DX-Ball 左右聲像公式還原：以 3,205 個輸入對照原始 x86 函式，並重現 63 個編譯位元組，官方案例集與指南也同日收錄。社群案例更廣，涵蓋 Claude Desktop 手感手冊、PLC 協定、小米電視 MiLink 與 HP OMEN 控制中心，但不少 X 貼文只有自述，沒附程式碼或測試。可驗證的案例與只憑自述的案例差距明顯，這是目前最值得留意的地方。"
         },
         "en": {
-          "headline": "DX-Ball pan recovery passes byte-level checks as stars hit a record",
-          "summary": "REA's GitHub stars reached 241,530, up 26,977 from the previous record of 214,553. The top-ranked item is the DX-Ball pan formula recovery, checked against the original x86 function on 3,205 inputs with 63 compiled bytes reproduced, and the official guide and several write-ups cover the same case. A second cluster is hardware and protocol reverse engineering, including a Xiaomi TV MiLink remote, an HP OMEN control center and a PLC start/stop client, some tested on real devices or in simulated environments. Many other results are the author's own claims with no code or tests, such as rebuilding Notes and Calculator for $0.63, so the gap between verified cases and bare claims is still wide."
+          "headline": "REA stars jump over 33,000; DX-Ball pan recovery is the most rigorous case",
+          "summary": "REA's GitHub stars rose from 214,553 to 248,239, a gain of 33,686 in one day. The top item recovers DX-Ball's stereo pan formula, checked against the original x86 function on 3,205 inputs and reproducing 63 compiled bytes. The official case collection and guide cover it too. Community work is broad, from a Claude Desktop feel manual to a PLC protocol, Xiaomi TV MiLink and an HP OMEN control center. Many X posts are self-reported with no code or tests, so the gap between verified and unverified cases is the thing to watch."
         },
         "zh-CN": {
-          "headline": "DX-Ball 声像还原通过逐字节验证，星数再创新高",
-          "summary": "REA 的 GitHub 星数达到 241,530，比之前的纪录 214,553 多了 26,977。排名最靠前的是 DX-Ball 声像公式还原：用 3,205 组输入比对原始 x86 函数，并复现 63 个编译字节，官方指南和多篇文章也围绕同一案例。另一类是硬件与协议逆向，包括小米电视 MiLink 遥控、HP OMEN 控制中心和 PLC 启停客户端，其中部分有实机或模拟环境测试。同时也出现不少只有作者自述、没有代码或测试的成果，例如 0.63 美元重建备忘录和计算器，可见有验证证据的案例与单纯宣称之间的落差依然明显。"
+          "headline": "REA 星数暴增逾三万三，DX-Ball 声像还原成最扎实案例",
+          "summary": "REA GitHub 星数从 214553 升到 248239，一天增加 33686。排名最前的是 DX-Ball 左右声像公式还原：以 3,205 个输入对照原始 x86 函数，并重现 63 个编译字节，官方案例集与指南也同日收录。社区案例更广，涵盖 Claude Desktop 手感手册、PLC 协议、小米电视 MiLink 与 HP OMEN 控制中心，但不少 X 帖子只有自述，没附代码或测试。可验证的案例与只凭自述的案例差距明显，这是目前最值得留意的地方。"
         }
       },
       "signals": [
         "B",
         "D",
-        "A"
+        "G"
       ],
       "highlights": [
         "d-cfdb480bdf",
@@ -1888,6 +1900,7 @@
         "d-aa18c5208e",
         "d-17de8d6954",
         "d-95915c11e6",
+        "d-0bddbf7d64",
         "d-b6c3fa8751",
         "notion-clipboard",
         "aegis-totp",
@@ -1898,11 +1911,13 @@
         "d-62e2adfb7e",
         "d-87ce73d9b4",
         "zenn-electron-known-answer",
+        "d-95812085d2",
         "kingy-notes-exporter",
         "d-db5ea31b01",
         "d-4306768540",
         "d-6a36c6eafb",
         "d-583253f057",
+        "d-d9e9150ad1",
         "d-406e661ae1",
         "d-c7e8d8a6fa",
         "d-ecbb34ba3f",
@@ -1912,6 +1927,7 @@
         "d-5a8e8882b7",
         "d-057bb02105",
         "d-0d8d4a01cd",
+        "d-005e2b7890",
         "d-24e9fa56e9",
         "d-ec0218b130",
         "d-1ea735e339",
@@ -1999,7 +2015,11 @@
         "d-40c0474406",
         "d-49c3fe3859",
         "heartland-side-effects",
+        "d-1b047e8703",
+        "d-c1192aff5f",
+        "d-d72fa55f15",
         "d-da8e33d1b5",
+        "d-cb8aad625f",
         "d-176e6b49a0",
         "d-e5b8f0b612",
         "d-db5f72c3cf",
@@ -2038,12 +2058,15 @@
         "d-d79fa65f04",
         "d-0c2d1d1da6",
         "rea-jev",
+        "d-98635e3ba9",
         "d-b8d6bd24fe",
         "d-7656edb5da",
         "d-f8eb56b16f",
         "d-e6b18668e1",
         "d-9819f5a4b0",
         "d-fd57fa39c0",
+        "d-ee310c0e1a",
+        "d-241650fba4",
         "d-56859266c6",
         "d-a5261129ea",
         "d-43170c8eca",
@@ -2060,6 +2083,7 @@
         "d-226c1e5112",
         "d-9c53a231ad",
         "d-5dd099466b",
+        "d-61c3f4b954",
         "d-33a1b1d512",
         "d-b4539e2522",
         "d-2be83fcb81",
@@ -2104,6 +2128,7 @@
         "d-ec4123031f",
         "d-1db90967d1",
         "d-f9f5841bd6",
+        "d-90751796c2",
         "d-f6e26027a8",
         "d-9b672fd678",
         "d-0d55526a45",
@@ -2132,6 +2157,7 @@
         "d-1f1a970fbf",
         "d-b10de99152",
         "d-f5431e337a",
+        "d-5b8830f8f1",
         "d-be34e5d7ca",
         "d-fe5e277ca1",
         "d-972fc7b6da",
@@ -2144,6 +2170,7 @@
         "d-7ca3e1dbdd",
         "d-9135d9263f",
         "d-e329aa2f14",
+        "d-d0c85690b4",
         "d-0a88eb5d17",
         "d-311b3a008f",
         "d-5590acd0a2",
@@ -2193,6 +2220,7 @@
         "d-9c91146c62",
         "d-278ef82903",
         "d-49f94bbe64",
+        "d-05a046f832",
         "d-d4b04c6096",
         "d-2af60f6bab",
         "d-e67147166b",
@@ -2223,12 +2251,14 @@
         "d-4c321e76e5",
         "d-08eac9fefb",
         "d-4b386c0db7",
+        "d-059fa8d3c0",
         "d-d3a9e10411",
         "d-8b20fa2707",
         "d-44fa7dafa7",
         "d-81fd52627f",
         "d-365e525168",
         "d-94ff18a36c",
+        "d-2f4886fa58",
         "d-69d3362977",
         "d-f570638a60",
         "d-61a9583843",
@@ -2238,11 +2268,15 @@
         "d-029306b97f",
         "d-2e3ebaa6de",
         "d-aeedf9cffd",
+        "d-1b547650cd",
         "d-632869b2f2",
         "d-2f41ea2e75",
         "d-9cf47d90e7",
+        "d-45518a1b3f",
         "d-182c75956c",
         "d-29753603bc",
+        "d-deb32e8120",
+        "d-a422f6b780",
         "d-620d41dc61",
         "d-fae9d57e5b",
         "d-aefcaff5ff",
@@ -2261,6 +2295,8 @@
         "d-cbe8f38835",
         "d-adfbebad69",
         "d-caf0a43b8b",
+        "d-866d973de1",
+        "d-569595e846",
         "d-a99a7dbce2",
         "d-839ec4dd92",
         "d-3eb92bfcb5",
@@ -2308,6 +2344,8 @@
         "d-bbf28df912",
         "d-0f8fe1a24d",
         "d-724886fe6e",
+        "d-d16d23a5d5",
+        "d-04a7456d8d",
         "d-91dc3cc041",
         "d-7c502818ee",
         "d-480f93eba9",
@@ -2479,35 +2517,38 @@
     "to": "2026-10-15",
     "text": {
       "zh-TW": {
-        "headline": "REA 從展示走向驗證，逆向對象由遊戲擴及應用與硬體",
-        "summary": "本週前半仍以兩個人工整理的案例為主，重點是結論要附證據、可驗證，之後星數從 58461 一路升到 241530。案例也從東方 Project、DOS 遊戲等老遊戲，擴及 ZWO ASIAIR 韌體、智慧馬桶藍牙協定、小米電視遙控與 PLC 客戶端等硬體和協定。10 月 13 日起，Screen Studio、CapCut、Word、VS Code 等商用桌面與前端軟體被快速重建，客戶端程式碼不再是護城河。同時，對照原版、逐筆比對（如 DX-Ball 的 3,205 筆輸入）成為較可信案例的共同做法，只有自述、沒有程式碼或測試的成果仍很多。另有實測指出 REA 在 A/B 試驗中耗時最多 2.00 倍、費用最多 1.67 倍。",
-        "watch": "接下來幾天可留意能附上測試、規格或差異清單的逆向案例，驗證工具（例如檢查證據是否存在的腳本）與評分流程是較明確的機會。硬體與協定逆向（韌體、藍牙、遙控）本週持續出現，值得追蹤哪些有實機測試。也要留意成本與效率的討論，因為模型平台限制（E）與成本（F）這週雖未被列入簡報訊號，但費用實測已經出現。"
+        "headline": "REA 熱度暴增，焦點從「能逆向」轉向「結論能驗證」",
+        "summary": "本週 REA 星數從 10 月 10 日的 58461 一路升到 10 月 15 日的 248239，關注度急遽放大。案例題材從老遊戲（東方 Project、DOS 遊戲）延伸到韌體與硬體（ZWO ASIAIR、智慧馬桶藍牙），再到商用軟體與日常工具（Screen Studio、CapCut、Word、VS Code、Typeless），客戶端功能被快速複刻。同時，驗證成為七天都出現的主軸：差異測試、逐筆比對、「已證實／推論／未知」標示，以及用腳本檢查證據是否存在。可驗證的案例（如 DX-Ball 以 3,205 個輸入比對）與只憑自述的貼文差距愈來愈明顯，另有 A/B 實測指出 REA 耗時最多 2.00 倍、費用最多 1.67 倍，成本與優勢仍有爭議。",
+        "watch": "接下來幾天可留意「附測試、規格與證據」的案例是否持續領先排名，以及硬體與舊系統（PLC 協定、電視、韌體）能否成為下一批可驗證的題材。想把握機會的人，可以做證據檢查、差異測試或誠實評分這類驗證工具；引用高熱度貼文時，也要先分辨是否附有程式碼或測試。"
       },
       "en": {
-        "headline": "REA shifts from showcasing to verifying, expanding from games to apps and hardware",
-        "summary": "Early in the week the focus was two hand-curated cases stressing that conclusions must come with checkable evidence, and stars then climbed from 58,461 to 241,530. Cases widened from old games such as Touhou and DOS titles to ZWO ASIAIR firmware, a smart toilet's Bluetooth protocol, Xiaomi TV remote control and a PLC client. From Oct 13, commercial desktop and front-end software such as Screen Studio, CapCut, Word and VS Code was rebuilt quickly, so client-side code is no longer a moat. Comparing against the original and checking item by item (such as DX-Ball's 3,205 inputs) became the common trait of the more credible cases, while many results still rest on the author's word with no code or tests. One trial also measured REA taking up to 2.00x the time and 1.67x the cost in A/B comparisons.",
-        "watch": "Over the next few days, look for reverse-engineering cases that ship tests, specs or gap lists; verification tooling (such as scripts that check cited evidence exists) and grading workflows are a clear opportunity. Hardware and protocol work (firmware, Bluetooth, remotes) kept appearing all week, so track which ones have real-device tests. Also watch cost and efficiency: model-platform limits (E) and cost (F) were not flagged as signals this week, but the cost measurements have now surfaced."
+        "headline": "REA interest surges as the focus shifts from 'can reverse' to 'can verify'",
+        "summary": "REA's GitHub stars climbed from 58,461 on Oct 10 to 248,239 on Oct 15, a sharp rise in attention. Cases widened from old games (Touhou Project, DOS titles) to firmware and hardware (ZWO ASIAIR, a smart toilet's Bluetooth protocol), then to commercial software and everyday tools (Screen Studio, CapCut, Word, VS Code, Typeless), so client-side features are being cloned quickly. Verification appeared on all seven days: differential tests, item-by-item comparison, 'confirmed / inferred / unknown' labels, and scripts that check whether cited evidence exists. The gap between verifiable cases (such as DX-Ball, checked against 3,205 inputs) and self-reported posts keeps growing. An A/B test also found REA took up to 2.00x the time and 1.67x the cost, so its advantage is still disputed.",
+        "watch": "Over the next few days, watch whether cases with tests, specs and evidence keep leading the rankings, and whether hardware and legacy systems (PLC protocols, TVs, firmware) become the next verifiable topics. Anyone looking for an opening could build verification tools such as evidence checkers, differential testing or honest grading. When citing high-traffic posts, first check whether they come with code or tests."
       },
       "zh-CN": {
-        "headline": "REA 从展示走向验证，逆向对象由游戏扩及应用与硬件",
-        "summary": "本周前半仍以两个人工整理的案例为主，重点是结论要附证据、可验证，之后星数从 58461 一路升到 241530。案例也从东方 Project、DOS 游戏等老游戏，扩及 ZWO ASIAIR 固件、智能马桶蓝牙协议、小米电视遥控与 PLC 客户端等硬件和协议。10 月 13 日起，Screen Studio、CapCut、Word、VS Code 等商用桌面与前端软件被快速重建，客户端代码不再是护城河。同时，对照原版、逐笔比对（如 DX-Ball 的 3,205 笔输入）成为较可信案例的共同做法，只有自述、没有代码或测试的成果仍很多。另有实测指出 REA 在 A/B 试验中耗时最多 2.00 倍、费用最多 1.67 倍。",
-        "watch": "接下来几天可留意能附上测试、规格或差异清单的逆向案例，验证工具（例如检查证据是否存在的脚本）与评分流程是较明确的机会。硬件与协议逆向（固件、蓝牙、遥控）本周持续出现，值得追踪哪些有实机测试。也要留意成本与效率的讨论，因为模型平台限制（E）与成本（F）这周虽未被列入简报信号，但费用实测已经出现。"
+        "headline": "REA 热度暴增，焦点从“能逆向”转向“结论能验证”",
+        "summary": "本周 REA 星数从 10 月 10 日的 58461 一路升到 10 月 15 日的 248239，关注度急剧放大。案例题材从老游戏（东方 Project、DOS 游戏）延伸到固件与硬件（ZWO ASIAIR、智能马桶蓝牙），再到商用软件与日常工具（Screen Studio、CapCut、Word、VS Code、Typeless），客户端功能被快速复刻。同时，验证成为七天都出现的主轴：差异测试、逐项比对、“已证实／推论／未知”标注，以及用脚本检查证据是否存在。可验证的案例（如 DX-Ball 以 3,205 个输入比对）与只凭自述的帖子差距越来越明显，另有 A/B 实测指出 REA 耗时最多 2.00 倍、费用最多 1.67 倍，成本与优势仍有争议。",
+        "watch": "接下来几天可留意“附测试、规格与证据”的案例是否持续领先排名，以及硬件与旧系统（PLC 协议、电视、固件）能否成为下一批可验证的题材。想把握机会的人，可以做证据检查、差异测试或诚实评分这类验证工具；引用高热度帖子时，也要先分辨是否附有代码或测试。"
       }
     },
     "rising": [
       "B",
-      "A",
+      "C",
       "D"
     ],
-    "fading": [],
+    "fading": [
+      "E",
+      "F"
+    ],
     "tally": {
-      "A": 4,
+      "A": 3,
       "B": 7,
       "C": 4,
       "D": 3,
       "E": 0,
       "F": 0,
-      "G": 1
+      "G": 2
     }
   }
 }

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 64" role="img" aria-labelledby="title">
+  <title id="title">Mushimu</title>
+  <path d="M6 35c6-9 13 8 20 0 4-5 8-6 13-4" fill="none" stroke="#F47A60" stroke-width="8" stroke-linecap="round"/>
+  <path d="M42 50V23l9-10 8 10c3-2 7-2 10 0l8-10 9 10v27H75V32c0-4-6-4-6 0v18H59V32c0-4-6-4-6 0v18H42Z" fill="#F4F7FA"/>
+</svg>

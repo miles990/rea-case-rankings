@@ -4843,5 +4843,845 @@
       "target": "REA 工具本身(未指明具体分析目标)",
       "metric": "演示完整安装与使用流程"
     }
+  },
+  "d-8f2bebd111": {
+    "hash": "8bbb54f447af",
+    "en": {
+      "title": "Decompiling and rebuilding macOS Notes and Calculator with REA",
+      "summary": "The author used REA to decompile and rebuild the built-in macOS Notes and Calculator apps. The whole process took 19 minutes 10 seconds and cost US$0.63, but no finished product or verification evidence was provided.",
+      "target": "macOS Notes and Calculator apps",
+      "metric": "Cost US$0.63, took 19 min 10 s"
+    },
+    "zh-CN": {
+      "title": "用 REA 反编译并重建 macOS 备忘录与计算器",
+      "summary": "作者使用 REA 对 macOS 内置的备忘录与计算器做反编译并重建。整个过程耗时 19 分 10 秒、花费 0.63 美元,但内容未附成品或验证证据。",
+      "target": "macOS 备忘录与计算器 App",
+      "metric": "成本 0.63 美元、耗时 19 分 10 秒"
+    }
+  },
+  "d-bd50d92a60": {
+    "hash": "20e6d9695bb3",
+    "en": {
+      "title": "Self-reported: cloning a US$15/month Mac app with REA in one hour",
+      "summary": "After installing REA, the author asked it to clone a paid Mac app they were using. It was working within an hour, with a few more hours of polish left. The author plans to cancel the subscription, but did not name the app or publish any code or evidence.",
+      "target": "A paid Mac app (unnamed)",
+      "metric": "Working clone in about 1 hour"
+    },
+    "zh-CN": {
+      "title": "自述用 REA 一小时复制出每月 15 美元的 Mac 应用",
+      "summary": "作者安装 REA 后,要求它复制自己在 Mac 上付费使用的应用,一小时内即可运行,剩余为数小时的打磨。作者打算取消订阅,但未说明是哪个应用,也没有公开代码或证据。",
+      "target": "某付费 Mac 应用(未具名)",
+      "metric": "约 1 小时完成可运行的复制品"
+    }
+  },
+  "d-335ee37084": {
+    "hash": "0bf891b98fbe",
+    "en": {
+      "title": "Capturing a web page with REA and rebuilding it as an editable copy, with fidelity measured",
+      "summary": "REA captures a real page's DOM, accessibility tree and response content, then rebuilds it as editable design and content layers that can be customized without a model. The author measured the customized copy at 92.2% similarity to the original page, versus 10.6% for a version generated from scratch by a model. The tool also explicitly flags information it could not obtain.",
+      "target": "Public web pages (capture, rebuild and customization)",
+      "metric": "Customized copy 92.2% identical to the original; model from-scratch generation only 10.6%"
+    },
+    "zh-CN": {
+      "title": "用 REA 抓取网页并重建为可编辑副本,附保真度测量",
+      "summary": "以 REA 抓取真实网页的 DOM、无障碍树与响应内容,重建成可编辑的设计与内容图层,无需模型即可定制。作者测得定制后的副本与原页相似度为 92.2%,而模型从零生成的版本只有 10.6%。工具也会明确标出无法获取的信息。",
+      "target": "公开网页(抓取、重建与定制)",
+      "metric": "定制副本与原页 92.2% 相同,模型从零生成仅 10.6%"
+    }
+  },
+  "d-ec49bf6b05": {
+    "hash": "69526ce776af",
+    "en": {
+      "title": "Taking apart Obsidian's JS layer with REA; native binary analysis fails",
+      "summary": "The author tried REA on Obsidian first and hit a native-binary hash integrity check. After bypassing it with a flag, REA surfaced the JS layer's file-read and system-interface calls within seconds. Analyzing the native binary failed with an error because ghidra, hopper and ida were not configured, and only static analysis is supported.",
+      "target": "Obsidian (Electron app)",
+      "metric": "JS layer dissected in seconds; native binary failed for lack of a decompiler"
+    },
+    "zh-CN": {
+      "title": "用 REA 拆解 Obsidian 的 JS 层,原生二进制分析失败",
+      "summary": "作者先拿 Obsidian 试用,遇到原生二进制哈希完整性校验拦截,加参数绕过后数秒内翻出 JS 层的文件读取与系统接口调用。拆原生二进制时因未配置 ghidra、hopper、ida 而报错,且仅支持静态分析。",
+      "target": "Obsidian(Electron 应用)",
+      "metric": "数秒内完成 JS 层拆解,原生二进制因缺少反编译器失败"
+    }
+  },
+  "d-cfdb480bdf": {
+    "hash": "125de1d38b23",
+    "en": {
+      "title": "Reconstructing DX-Ball's stereo pan calculation and verifying it against 3,205 inputs",
+      "summary": "For the function at 0x00406400 in DX-Ball 1.07, REA was used to pull the instructions, callers, and constant bytes, recovering the formula pan = (x×1.5625−500)×scale. An independent check compared it against the original x86 function on 3,205 inputs, and reproduced all 63 compiled bytes of the full function.",
+      "target": "DX-Ball 1.07 (Windows, 1996) pan calculation function",
+      "metric": "Matches the original function on 3,205 inputs; all 63 compiled bytes reproduced exactly"
+    },
+    "zh-CN": {
+      "title": "还原 DX-Ball 左右声像计算并以 3,205 条输入验证",
+      "summary": "针对 DX-Ball 1.07 的 0x00406400 函数，用 REA 获取指令、调用者与常量字节，还原出 pan = (x×1.5625−500)×scale 的公式。独立检查以 3,205 个输入与原始 x86 函数比对，并复现了完整函数的 63 个编译字节。",
+      "target": "DX-Ball 1.07（Windows 1996）声像计算函数",
+      "metric": "3,205 个输入与原函数一致，63 个编译字节完全复现"
+    }
+  },
+  "d-96f008b892": {
+    "hash": "664fe5544a77",
+    "en": {
+      "title": "Reverse-engineering Claude Desktop and open-sourcing a 3,000-line interaction-feel handbook",
+      "summary": "The author used REA to reverse-engineer Claude Desktop and compiled a handbook of over 3,000 lines with algorithm implementations, all open source. It covers seven-stop nonlinear scroll fade, a voice 8% noise gate with 0.7-power compression, assorted animation time constants, and 30 React components.",
+      "target": "Claude Desktop (Electron app)",
+      "metric": "3,000+ line handbook covering 30 React components"
+    },
+    "zh-CN": {
+      "title": "逆向 Claude Desktop 并公开 3000 行交互手感手册",
+      "summary": "作者用 REA 逆向 Claude Desktop，整理出 3000 多行的逆向手册并附算法实现，全部开源。内容涵盖七档非线性滚动渐隐、语音 8% 噪声门加 0.7 次方压缩、各类动画时间常数，以及 30 个 React 组件。",
+      "target": "Claude Desktop（Electron 应用）",
+      "metric": "3000 多行手册，含 30 个 React 组件"
+    }
+  },
+  "d-18f015fdd5": {
+    "hash": "d61c131ee313",
+    "en": {
+      "title": "Tracing the export button across four files and rebuilding the CSV formatter, passing 12/12 comparisons",
+      "summary": "The target is the official six-file Notes practice app. The trace ran from the renderer through the preload bridge and IPC handler to the code that writes notes.csv, and the CSV formatter was then rebuilt. Twelve test cases cover commas, embedded quotes, newlines, Unicode, and empty input, and every output matches byte for byte.",
+      "target": "CSV export feature of the official Notes practice app (Electron)",
+      "metric": "12/12 test cases produce output byte-identical to the original"
+    },
+    "zh-CN": {
+      "title": "追踪导出按钮贯穿四个文件，重建 CSV 格式化器并通过 12/12 比对",
+      "summary": "目标是官方六文件的 Notes 练习应用。从 renderer、preload bridge、IPC handler 一路追到写出 notes.csv 的代码，并重建 CSV 格式化器。12 个测试用例涵盖逗号、内嵌引号、换行、Unicode 与空输入，输出字节全部一致。",
+      "target": "官方 Notes 练习应用（Electron）的 CSV 导出功能",
+      "metric": "12/12 测试用例输出字节与原版一致"
+    }
+  },
+  "d-08cd0115cf": {
+    "hash": "c832110c0a68",
+    "en": {
+      "title": "Reverse-engineering Realme Link with Claude Code and REA to rebuild earbud controls on Windows",
+      "summary": "The target is the Realme Link earbuds app. The author used Claude Code and REA to reverse-engineer its protocol and reimplemented noise cancellation, transparency mode, battery display, and custom equalizer presets on Windows. The content is the author's own account only, with no code or tests provided.",
+      "target": "Realme Link earbuds app",
+      "metric": "Noise cancellation, transparency mode, battery, and custom EQ controls implemented on Windows"
+    },
+    "zh-CN": {
+      "title": "用 Claude Code 搭配 REA 逆向 Realme Link 并在 Windows 重做耳机控制",
+      "summary": "目标是 Realme Link 耳机 App。作者用 Claude Code 与 REA 逆向其协议，在 Windows 上重新实现降噪、通透模式、电量显示与自定义均衡器预设。内容只有作者自述，没有附代码或测试。",
+      "target": "Realme Link 耳机 App",
+      "metric": "在 Windows 上实现降噪、通透模式、电量与自定义 EQ 控制"
+    }
+  },
+  "d-216f1ab614": {
+    "hash": "930ba1d0265c",
+    "en": {
+      "title": "Reverse-engineering Xiaomi's MiLink protocol from TV firmware with REA to build remote apps for three platforms",
+      "summary": "The target is MiLink, the undocumented remote-control service built into Xiaomi TVs (TCP 6091). The author used REA to reverse the protocol from the TV firmware and implemented remote apps for macOS, Android and iOS, covering the full key set, press-and-hold repeat, text input and auto-discovery. The macOS app has been tested on a MiTV-AXSO0; the mobile apps have so far only been tested against a simulated TV.",
+      "target": "Xiaomi TV MiLink remote service protocol",
+      "metric": "Reversed the MiLink protocol and built apps for 3 platforms; macOS version tested on a real TV"
+    },
+    "zh-CN": {
+      "title": "用 REA 从电视固件逆向小米 MiLink 协议，做出三平台遥控 App",
+      "summary": "目标是小米电视内置、未公开文档的 MiLink 遥控服务（TCP 6091）。作者用 REA 从电视固件逆向出协议，并实现了 macOS、Android、iOS 三个遥控 App，功能涵盖完整按键、长按连发、文字输入与自动发现。macOS 版已在 MiTV-AXSO0 上实测，移动版目前只在模拟电视上测试过。",
+      "target": "小米电视 MiLink 远程服务协议",
+      "metric": "逆向出 MiLink 协议并做出 3 平台 App，macOS 版在真实电视上实测"
+    }
+  },
+  "d-73285cffab": {
+    "hash": "454ff466fa70",
+    "en": {
+      "title": "Rebuilding abandoned games as open-source, browser-playable versions with REA and AI agents",
+      "summary": "A community project in which contributors use AI agents and REA to analyze the behavior of abandoned games, write it up as specification documents, and then rebuild browser-playable versions in plain HTML/CSS/JS from those specs. The project has CI checks, a project template and contribution rules (no original game files and no decompiled code may be submitted), and runs a public website.",
+      "target": "Abandonware / old games",
+      "metric": "Public website and multi-game project structure, with behavior specs and browser rebuilds"
+    },
+    "zh-CN": {
+      "title": "以 REA 与 AI 代理将废弃游戏重建为可在浏览器运行的开源版本",
+      "summary": "社区项目，贡献者用 AI 代理与 REA 分析废弃游戏的行为，写成规格文档，再依据规格以纯 HTML/CSS/JS 重建可在浏览器中游玩的版本。项目有 CI 检查、项目模板和贡献守则（不提交原始游戏文件、不提交反编译代码），并设有公开网站。",
+      "target": "废弃软件 / 老游戏（abandonware）",
+      "metric": "公开网站与多游戏项目架构，附行为规格与浏览器重建"
+    }
+  },
+  "d-e6843fca3d": {
+    "hash": "7d0004df22b7",
+    "en": {
+      "title": "Analyzing the design details of Claude's frontend interface with REA",
+      "summary": "The author used REA to dig into Claude's web frontend and cataloged details such as auto-follow scrolling, four layers of background tone replacing black borders, a faint inner highlight line in dark mode, and 0.5px divider lines on high-resolution displays. The analysis report is still being refined, and no finished product or code has been released.",
+      "target": "Claude frontend interface",
+      "metric": "Found design details including 4 background layers and 0.5px dividers"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析 Claude 前端界面的设计细节",
+      "summary": "作者用 REA 挖掘 Claude 网页前端，整理出自动跟随滚动、以四层底色取代黑色边框、深色模式内侧淡亮线、高分辨率屏幕 0.5px 分隔线等细节。分析报告仍在完善，尚未公开成品或代码。",
+      "target": "Claude 前端界面",
+      "metric": "找出 4 层底色分层与 0.5px 分隔线等设计细节"
+    }
+  },
+  "d-45721974f1": {
+    "hash": "8aa9c0ec23eb",
+    "en": {
+      "title": "Reverse-engineering a paid AI trading bot: seeing through it as simple rules in 6 minutes and rebuilding it",
+      "summary": "The author ran REA on a trading bot that costs $199 per month and mapped out the whole thing in 6 minutes: a free Binance endpoint, an RSI crossover and a Telegram webhook. They then rebuilt it with Opus 5.5 in an hour and ran it for free on a laptop, but there is no public code or side-by-side testing.",
+      "target": "Paid AI trading bot ($199/month)",
+      "metric": "Reconstructed in 6 minutes: Binance endpoint + RSI crossover + Telegram webhook"
+    },
+    "zh-CN": {
+      "title": "逆向付费 AI 交易机器人，6 分钟看穿其只是简单规则并自行重建",
+      "summary": "对一个每月 199 美元的交易机器人使用 REA，6 分钟内摸清整体：一个免费的 Binance 端点、RSI 交叉与 Telegram webhook。作者再用 Opus 5.5 在一小时内重建，并在笔记本电脑上免费运行，但没有公开代码或对照测试。",
+      "target": "付费 AI 交易机器人（月费 199 美元）",
+      "metric": "6 分钟内还原：Binance 端点 + RSI 交叉 + Telegram webhook"
+    }
+  },
+  "d-0a6ed6f8cf": {
+    "hash": "ce0d2c58ef63",
+    "en": {
+      "title": "Building rea-engine on top of REA and rebuilding Windows Tic-Tac-Toe from the binary alone",
+      "summary": "The author added a tooling layer on top of the stock REA MCP, bundling ILSpy and Ghidra 12.1.2, and installed Frida, Z3, LIEF and Capstone with hash verification. It runs a loop of static analysis plus Frida runtime evidence, rebuild, test and fix. Windows Tic-Tac-Toe was rebuilt from the binary alone and checked against it with board-state tests.",
+      "target": "Windows Tic-Tac-Toe game and the REA toolchain",
+      "metric": "All 19,683 / 19,683 board-state tests passed"
+    },
+    "zh-CN": {
+      "title": "在 REA 之上打造 rea-engine,并仅凭二进制重建 Windows 井字棋",
+      "summary": "作者在原版 REA 的 MCP 上加入工具层,内含 ILSpy、Ghidra 12.1.2,并以哈希校验安装 Frida、Z3、LIEF、Capstone,跑静态加 Frida 运行时证据、重建、测试、修复的循环。仅凭二进制重建了 Windows 井字棋,并以棋盘状态测试对照。",
+      "target": "Windows 井字棋游戏与 REA 工具链",
+      "metric": "19,683/19,683 棋盘状态测试全部通过"
+    }
+  },
+  "d-1ce469d776": {
+    "hash": "802fa6dcf9b4",
+    "en": {
+      "title": "Official REA case collection: Aegis verification codes, CTF, DX-Ball and TH04 bullet patterns",
+      "summary": "The official site compiles four cases: recovering the six-digit verification code algorithm from the Aegis APK, analyzing a DownUnderCTF checker, reconstructing DX-Ball's stereo panning calculation, and the angle helper for TH04's ring bullet patterns. Each case includes verification against the original behavior, such as a 63-byte compiled match for DX-Ball.",
+      "target": "Aegis APK, DownUnderCTF challenge, DX-Ball, TH04",
+      "metric": "DX-Ball function matches the original in 63 compiled bytes"
+    },
+    "zh-CN": {
+      "title": "REA 官方案例集:Aegis 验证码、CTF、DX-Ball 与 TH04 弹幕",
+      "summary": "官网汇总四个案例:从 Aegis APK 还原六位数验证码算法、分析 DownUnderCTF 检查器、还原 DX-Ball 声像计算,以及 TH04 环形弹幕的角度助手。各案例附有对照原始行为的验证,例如 DX-Ball 的 63 个编译字节比对。",
+      "target": "Aegis APK、DownUnderCTF 题目、DX-Ball、TH04",
+      "metric": "DX-Ball 函数 63 个编译字节与原版一致"
+    }
+  },
+  "d-41d5981e42": {
+    "hash": "d9956c1b2a9d",
+    "en": {
+      "title": "Reverse engineering a Sichuan-made PLC's proprietary protocol with REA and writing a pure-Python start/stop client",
+      "summary": "Using REA to analyze the PLC host-software PE, the author identified the protocol stack, recovered the four-layer packet format and LEB128 encoding, swept out 34 sendRequest command codes, and located the CRC32 position. The findings were verified with packet captures and by actually pressing Stop/Start in the configuration software. A start/stop client was then written with only the standard library and confirmed working in an authorized simulated environment.",
+      "target": "A Sichuan-made PLC's proprietary protocol and its host configuration software",
+      "metric": "34 sendRequest call sites; cmd=0x11 stop / 0x10 start; Python client confirmed working"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向某川 PLC 私有协议并写出纯 Python 启停客户端",
+      "summary": "以 REA 分析 PLC 上位机 PE,识别协议栈、还原四层报文格式与 LEB128 编码、扫出 34 个 sendRequest 命令字,并定位 CRC32 位置。结论经抓包与组态软件实际按下停止/启动验证,最后用标准库写出启停客户端,在授权模拟环境实测生效。",
+      "target": "某川 PLC 私有协议与上位机组态软件",
+      "metric": "34 个 sendRequest 调用点;cmd=0x11 停止/0x10 启动,Python 客户端实测生效"
+    }
+  },
+  "d-d89623bce1": {
+    "hash": "5a4d64aed5a9",
+    "en": {
+      "title": "Reverse engineering OMEN Gaming Hub with REA to build a Rust control center for HP laptops",
+      "summary": "The targets are the BIOS WMI interface and USB keyboard controller of HP OMEN laptops. The author implemented an open-source alternative in Rust, supporting performance modes, auto mode, fan curves, RGB keyboard and sensor monitoring, with an installer and CLI. Developed and tested on a real OMEN 17-cm2xxx.",
+      "target": "HP OMEN Gaming Hub, BIOS WMI and RGB keyboard controller",
+      "metric": "Fan, performance mode and RGB keyboard control working on an OMEN 17, with an installer released"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向 OMEN Gaming Hub,做出 Rust 版 HP 笔记本控制中心",
+      "summary": "目标是 HP OMEN 笔记本的 BIOS WMI 接口与 USB 键盘控制器。作者用 Rust 实现开源替代品,支持性能模式、自动模式、风扇曲线、RGB 键盘与传感器监控,并提供安装程序与 CLI。已在 OMEN 17-cm2xxx 真机上开发测试。",
+      "target": "HP OMEN Gaming Hub、BIOS WMI 与 RGB 键盘控制器",
+      "metric": "在 OMEN 17 真机上实现风扇、性能模式、RGB 键盘控制并发布安装程序"
+    }
+  },
+  "d-c7e8d8a6fa": {
+    "hash": "540bc9214d74",
+    "en": {
+      "title": "Tracing the Formula Behind DX-Ball's Left/Right Sound Panning with REA",
+      "summary": "Targeting the 1996 Windows game DX-Ball 1.07, this case traces the stereo positioning of the sound played when a brick is hit. From the caller, the brick position works out to 20+30×tile_x; reading the bytes as floats yields 1.5625, 500.0 and 1.0, which recovers the pan formula. The article also explains that REA cannot recover the full original source code.",
+      "target": "DX-Ball 1.07 (Windows game)",
+      "metric": "Recovered pan=(x×1.5625−500)×scale; screen x of 0/320/640 maps to −500/0/500"
+    },
+    "zh-CN": {
+      "title": "用 REA 追出 DX-Ball 音效左右声道的计算公式",
+      "summary": "以 1996 年的 Windows 游戏 DX-Ball 1.07 为目标,追踪砖块被击中时音效的左右定位。从调用方算出砖块位置为 20+30×tile_x,再把字节读成浮点数 1.5625、500.0、1.0,还原出 pan 公式。文章同时说明 REA 无法还原完整源代码。",
+      "target": "DX-Ball 1.07(Windows 游戏)",
+      "metric": "还原 pan=(x×1.5625−500)×scale,屏幕 0/320/640 对应 −500/0/500"
+    }
+  },
+  "d-3add300150": {
+    "hash": "605bdf3ab704",
+    "en": {
+      "title": "Dissecting How Cursor's Agent Works with REA and Rebuilding It on a Local Model",
+      "summary": "Using REA to analyze the JavaScript modules and dependencies of the Electron version of Cursor, this case traces what happens after Enter is pressed: the agent reading files, choosing tools and so on. The author claims to have rebuilt a similar coding agent on a local model based on this, but the excerpt provides no code or test evidence.",
+      "target": "Agent architecture of Cursor (Electron app)",
+      "metric": "Claims to have rebuilt a Cursor-level coding agent on a local model"
+    },
+    "zh-CN": {
+      "title": "用 REA 拆解 Cursor 的 agent 运作方式并在本地模型上重建",
+      "summary": "以 REA 分析 Electron 版 Cursor 的 JavaScript 模块与依赖关系,追踪按下 Enter 后 agent 读文件、选工具等流程。作者自称据此用本地模型重建出类似的 coding agent,但节选中没有提供代码或测试证据。",
+      "target": "Cursor(Electron 应用)的 agent 架构",
+      "metric": "自称以本地模型重建出 Cursor 级别的 coding agent"
+    }
+  },
+  "d-2005076b4f": {
+    "hash": "98df286a4503",
+    "en": {
+      "title": "YouTube Tutorial: A Hands-On Local Demo of REA",
+      "summary": "A video by Fahd Mirza that introduces, through a hands-on local demo, how REA lets an agent reverse-engineer from application behavior down to the native level. The excerpt contains only a brief introduction, with no specific reverse-engineering target or result.",
+      "target": "The REA tool itself (tutorial demo)",
+      "metric": "Hands-on local demo video"
+    },
+    "zh-CN": {
+      "title": "YouTube 教程:REA 本机实操演示",
+      "summary": "Fahd Mirza 的视频,以本机动手演示介绍 REA 如何让 agent 从应用行为逆向到原生层级。内容节选仅有简短介绍,未见具体逆向目标或成果。",
+      "target": "REA 工具本身(教程演示)",
+      "metric": "本机动手演示视频"
+    }
+  },
+  "d-ce76f95f75": {
+    "hash": "a9bdd17198f9",
+    "en": {
+      "title": "Testing the Strengths and Weaknesses of REA Static Analysis on a 100 MB Electron App",
+      "summary": "HackerNoon used REA to analyze a 100 MB Electron app, noting that static analysis shines in some places and fails in others. The excerpt gives only an overview, with no specific findings or evidence.",
+      "target": "A 100 MB Electron app (unnamed)",
+      "metric": "Hands-on static analysis test of a 100 MB Electron app"
+    },
+    "zh-CN": {
+      "title": "在 100 MB Electron 应用上测试 REA 静态分析的优缺点",
+      "summary": "HackerNoon 用 REA 分析一个 100 MB 的 Electron 应用,内容指出静态分析有亮眼之处,也有失败之处。节选只有概述,没有具体发现或证据。",
+      "target": "某 100 MB Electron 应用(未具名)",
+      "metric": "100 MB Electron 应用的静态分析实测"
+    }
+  },
+  "d-94f24dd97b": {
+    "hash": "5d863ddd790b",
+    "en": {
+      "title": "Claims to have reverse-engineered NFT tools and marketplaces with REA, plans an agent-native Solana marketplace",
+      "summary": "The author says that after getting REA they reverse-engineered the Hashlips art engine, Magic Eden, Metaplex and OpenSea, and plans to launch an NFT marketplace built for AI agents on the Solana ecosystem. The post offers no reverse-engineering findings, code or verifiable results.",
+      "target": "Hashlips, Magic Eden, Metaplex, OpenSea",
+      "metric": "Self-reported reverse engineering of four NFT targets; no results published yet"
+    },
+    "zh-CN": {
+      "title": "自述用 REA 逆向 NFT 工具与市集，打算推出代理原生 Solana 市集",
+      "summary": "作者表示拿到 REA 后逆向了 Hashlips art engine、Magic Eden、Metaplex 与 OpenSea，并计划推出为 AI 代理打造、建于 Solana 生态的 NFT 市集。内容没有提供逆向发现、代码或可验证成果。",
+      "target": "Hashlips、Magic Eden、Metaplex、OpenSea",
+      "metric": "自述逆向四个 NFT 目标，尚未公开成果"
+    }
+  },
+  "d-1d2779bfba": {
+    "hash": "2d579e017f04",
+    "en": {
+      "title": "Open-source preview of Tax Reborn tax software, with REA used for research",
+      "summary": "Following Ledger Reborn, the team has released Tax Reborn, offering local 2025 US federal tax calculation, W-2 review, saved returns and IRS draft PDFs. REA was used only for research; the calculation engine was written from scratch following IRS rules. It is currently a downloadable open-source preview with no e-filing.",
+      "target": "Tax Reborn tax software",
+      "metric": "Project #000002 is downloadable, with local federal tax calculation and IRS draft PDFs"
+    },
+    "zh-CN": {
+      "title": "以 REA 做研究，开源预览版 Tax Reborn 税务软件",
+      "summary": "团队在 Ledger Reborn 之后推出 Tax Reborn，提供本机 2025 美国联邦税计算、W-2 审阅、已存报税表与 IRS 草稿 PDF。REA 只用于研究，计算引擎依 IRS 规则自行编写，目前为可下载的开源预览，尚无电子申报。",
+      "target": "Tax Reborn 税务软件",
+      "metric": "项目 #000002 已可下载，含本机联邦税计算与 IRS 草稿 PDF"
+    }
+  },
+  "d-20a3f03ca3": {
+    "hash": "3d3e6cc5f7df",
+    "en": {
+      "title": "Using REA to reverse an old peripheral's driver for a web driver; some features still have no packets found",
+      "summary": "The author is trying to use REA to reverse the driver of an old peripheral in order to build a web-based driver. For some features they still cannot find the corresponding data packets, and nothing is finished yet.",
+      "target": "Driver for an old peripheral",
+      "metric": "Data packets still not found for some features (in progress)"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向旧外设驱动制作 Web 驱动，部分功能找不到数据包",
+      "summary": "作者尝试用 REA 逆向旧外设的驱动，以做成 Web 版驱动。目前部分功能始终找不到对应的数据包，尚无完成的成果。",
+      "target": "旧外设的驱动程序",
+      "metric": "部分功能仍找不到数据包（进行中）"
+    }
+  },
+  "d-7f458ab283": {
+    "hash": "6d5e58055a86",
+    "en": {
+      "title": "Rebuilding the Apple Weather app with REA, 95% similarity",
+      "summary": "The author used REA to rebuild the Apple Weather app and compared it with an earlier version they had Claude copy directly. The REA version scored 95% against 90% for the baseline, but the scoring method is not explained and no finished product is attached.",
+      "target": "Apple Weather app",
+      "metric": "Similarity score of 95% (baseline: 90%)"
+    },
+    "zh-CN": {
+      "title": "用 REA 重建 Apple 天气 App，相似度 95%",
+      "summary": "作者用 REA 重建 Apple 天气 App，并与自己先前让 Claude 直接复制的版本比较。REA 版本得分 95%，对照版本为 90%，但未说明评分方式，也未附成品。",
+      "target": "Apple 天气 App",
+      "metric": "相似度评分 95%（对照组 90%）"
+    }
+  },
+  "d-ecace49741": {
+    "hash": "e85e3cf8d7c4",
+    "en": {
+      "title": "Keygen, patching and feature reconstruction with REA test keys: keygen passes all 479 names",
+      "summary": "The author used Claude Code with REA and Ghidra to run four tests on a self-made crackme and a small utility: keygen, patch, feature reconstruction and cheat codes. The agent wrote a Python keygen in 2 minutes that passed all 479 random names; for the patch, it placed the new instructions in a zero-filled region and rewrote three original instructions. The targets are the author's own programs, not real products.",
+      "target": "Self-made crackme \"PixelNote Pro\" and a text statistics utility (Apple Silicon)",
+      "metric": "Keygen accepted for all 479 random names; API cost about US$0.5"
+    },
+    "zh-CN": {
+      "title": "用 REA 测试密钥生成、补丁与功能重建，keygen 通过 479 组姓名",
+      "summary": "作者用 Claude Code 搭配 REA 与 Ghidra，在自制的 crackme 和小工具上做了四项测试：keygen、patch、功能重建、作弊码。agent 在 2 分钟内写出 Python keygen，对 479 组随机姓名全部通过；patch 则把指令放进零填充区，并改写了三条原指令。目标是作者自制的程序，不是真实产品。",
+      "target": "自制 crackme「PixelNote Pro」与文本统计小工具（Apple Silicon）",
+      "metric": "keygen 对 479 组随机姓名全部被接受，API 成本约 0.5 美元"
+    }
+  },
+  "d-aa18c5208e": {
+    "hash": "7e922408354d",
+    "en": {
+      "title": "REA native program analysis guide: recovering DX-Ball's audio panning function",
+      "summary": "The official guide uses DX-Ball as an example to show how to set up Hopper, Ghidra or IDA and ask the agent questions. The example recovers the pan calculation from assembly and data bytes, writes it as a C function, and compares it against the original x86 function.",
+      "target": "DX-Ball 1.07 audio panning function",
+      "metric": "Compared against the original function on 3,205 inputs, and reproduced all 63 compiled bytes of the full function"
+    },
+    "zh-CN": {
+      "title": "REA 原生程序分析指南：用 DX-Ball 还原音效定位函数",
+      "summary": "官方指南以 DX-Ball 为例，说明如何配置 Hopper、Ghidra 或 IDA 并向 agent 提问。示例从汇编和数据字节还原 pan 计算，写成 C 函数，并与原始 x86 函数比对。",
+      "target": "DX-Ball 1.07 音效定位函数",
+      "metric": "用 3,205 个输入与原函数比对，并重现完整函数的 63 个编译字节"
+    }
+  },
+  "d-17de8d6954": {
+    "hash": "962debe4c7de",
+    "en": {
+      "title": "Recovering DX-Ball's left-right stereo panning calculation with REA",
+      "summary": "The target is the stereo left-right panning in DX-Ball, a 1996 Windows game. Using REA to pull out the instructions, callers and constant bytes, the author derived the formula pan = (x × 1.5625 − 500.0) × scale and reconstructed it as C code. The original instruction snippets and caller addresses are included so the tracing steps can be reproduced.",
+      "target": "DX-Ball 1.07 (Windows game)",
+      "metric": "Recovered function 0x00406400, formula pan = (x×1.5625−500.0)×scale"
+    },
+    "zh-CN": {
+      "title": "用 REA 还原 DX-Ball 左右声道定位的计算",
+      "summary": "目标是 1996 年 Windows 游戏 DX-Ball 的立体声左右定位。通过 REA 获取指令、调用者与常量字节，推出 pan = (x × 1.5625 − 500.0) × scale 的公式，并还原成 C 代码。附有原始指令片段与调用者地址，可重现追踪步骤。",
+      "target": "DX-Ball 1.07（Windows 游戏）",
+      "metric": "还原函数 0x00406400，公式 pan = (x×1.5625−500.0)×scale"
+    }
+  },
+  "d-95915c11e6": {
+    "hash": "c29fd778245d",
+    "en": {
+      "title": "Four reverse-engineering tasks tested with REA and Ghidra",
+      "summary": "The author used Claude Code with REA 6.4.0 and Ghidra to test four tasks: a keygen for a self-made crackme, a binary patch, replicating Amphetamine's keep-awake feature, and finding the cheat keys in Wolfenstein 3D. The keygen passed all 479 random names, the Wolfenstein 3D findings matched the source code released later, and the control group could also finish without REA.",
+      "target": "Self-made crackme, Amphetamine, Wolfenstein 3D",
+      "metric": "Keygen accepted for all 479 random names"
+    },
+    "zh-CN": {
+      "title": "实测 REA 搭配 Ghidra 完成四项逆向任务",
+      "summary": "作者用 Claude Code 加 REA 6.4.0 与 Ghidra 测试四项任务：自制 crackme 的密钥生成器、二进制补丁、复制 Amphetamine 的防休眠功能，以及找出 Wolfenstein 3D 的作弊键。密钥生成器对 479 个随机名称全部通过，Wolfenstein 3D 的发现与后来公开的源代码一致，对照组不用 REA 也能完成。",
+      "target": "自制 crackme、Amphetamine、Wolfenstein 3D",
+      "metric": "密钥生成器对 479 个随机名称全部被接受"
+    }
+  },
+  "d-db5ea31b01": {
+    "hash": "a278d59f3c81",
+    "en": {
+      "title": "REA Case Wall: TV Remote, Bluetooth Body-Fat Scale, a Web Rebuild of Contra, and a Touhou Rebuild",
+      "summary": "A roundup page of several user projects: reverse-engineering their own TV to build a remote and Mac mirroring, a Bluetooth dashboard for the Xiaomi body-fat scale (miscale-dashboard, open source), a WeChat mini program that controls a Bluetooth toilet, a web rewrite of roughly one third of Contra's first level (about 80% of the core feel), plus NixOS packaging and an Evidence control plane for a Touhou rebuild. Most entries link to a repo, but the evidence for each is only briefly described.",
+      "target": "Own TV, Xiaomi body-fat scale, WeChat mini program, Contra, Touhou rebuild",
+      "metric": "About 20 minutes to rewrite the first third of Contra's first level (about 80% of the core)"
+    },
+    "zh-CN": {
+      "title": "REA 案例墙:电视遥控、蓝牙体脂秤、魂斗罗网页重建与东方重建",
+      "summary": "案例汇总页,列出多个用户作品:逆向自家电视并做出遥控与 Mac 镜像、小米体脂秤蓝牙看板(miscale-dashboard 开源)、微信小程序蓝牙马桶遥控、魂斗罗第一关约三分之一的网页重写(核心手感约 80%),以及 NixOS 打包和东方重建 Evidence 控制面。多数附有仓库链接,但各项证据只有简述。",
+      "target": "自家电视、小米体脂秤、微信小程序、魂斗罗、东方重建",
+      "metric": "约 20 分钟重写魂斗罗第一关前三分之一(核心约 80%)"
+    }
+  },
+  "d-4306768540": {
+    "hash": "6ee7a2ab7b16",
+    "en": {
+      "title": "One Prompt to Have an Agent Reverse-Engineer a Water-Tracking App and Build Your Own macOS Version",
+      "summary": "After finding a water-tracking app they liked, the author used REA to have an agent reverse-engineer it and rebuild their own version, SipZen, a menu-bar water tracker with quick add, reminders, and streak counting. The author published a GitHub repo but included no comparison tests.",
+      "target": "A water-tracking macOS app (SipZen is the rebuilt version)",
+      "metric": "A single prompt produced a complete macOS menu-bar app and a public GitHub repo"
+    },
+    "zh-CN": {
+      "title": "用一个提示让 agent 逆向喝水追踪 app 并做出自己的 macOS 版本",
+      "summary": "看到喜欢的喝水追踪 app 后,用 REA 让 agent 逆向并重建出自己的版本 SipZen,这是一款菜单栏喝水追踪器,支持快速添加、提醒和连续天数功能。作者公开了 GitHub repo,但没有附对照测试。",
+      "target": "某款喝水追踪 macOS app(SipZen 为重建版)",
+      "metric": "单个提示产出完整的 macOS 菜单栏 app 并公开 GitHub repo"
+    }
+  },
+  "d-6a36c6eafb": {
+    "hash": "bd6a7ffbdf96",
+    "en": {
+      "title": "REA in Practice: Air Conditioners, Game Mods, CapCut, MW2, and More",
+      "summary": "A case index page listing community projects that use REA and AI for reverse engineering, such as moving an air-conditioner remote into the Mac menu bar, decompiling Modern Warfare 2 with multiple agents and comparing it byte by byte, an Obsidian ASAR fix, and conversational control of CapCut. The excerpts contain only brief descriptions and like counts; the details of each result were not verified on this page.",
+      "target": "Multiple targets (AC app, MW2, Obsidian, CapCut, MarkText, etc.)",
+      "metric": "The MW2 decompilation took about three months, with the compiled output compared byte by byte"
+    },
+    "zh-CN": {
+      "title": "REA 实战案例汇总:空调、游戏模组、CapCut、MW2 等",
+      "summary": "这是一个案例索引页,列出社区用 REA 与 AI 逆向的项目,如把空调遥控搬到 Mac 菜单栏、用多个 agent 反编译《现代战争 2》并逐字节比对、Obsidian ASAR 修复、CapCut 对话操作等。摘录只有简述和点赞数,各项成果的细节未在此页验证。",
+      "target": "多个目标(空调 App、MW2、Obsidian、CapCut、MarkText 等)",
+      "metric": "MW2 反编译历时约三个月,并逐字节比对编译结果"
+    }
+  },
+  "d-583253f057": {
+    "hash": "703ec9cfb27f",
+    "en": {
+      "title": "REA Decompiles and Rebuilds macOS Notes and Calculator for $0.63",
+      "summary": "The author says they used REA to decompile and rebuild the built-in macOS Notes and Calculator apps, taking 19 minutes 10 seconds and costing $0.63. It is a single self-reported post, with no code, tests, or screenshots as supporting evidence.",
+      "target": "macOS Notes app, Calculator app",
+      "metric": "Rebuilt in 19 minutes 10 seconds for $0.63 (self-reported)"
+    },
+    "zh-CN": {
+      "title": "REA 反编译并重建 macOS 备忘录与计算器,花费 0.63 美元",
+      "summary": "作者自述用 REA 对 macOS 内置的备忘录和计算器做反编译并重建,耗时 19 分 10 秒,成本 0.63 美元。仅有一条帖子自述,没有提供代码、测试或截图作为佐证。",
+      "target": "macOS 备忘录 App、计算器 App",
+      "metric": "19 分 10 秒、0.63 美元完成重建(自述)"
+    }
+  },
+  "d-54e393b9fe": {
+    "hash": "c61bef57a4b0",
+    "en": {
+      "title": "Tutorial video: using REA and Claude Code to analyze software without source code and build a fast-forward player",
+      "summary": "A Chinese-language tutorial by 极客解说 showing how to have Claude Code analyze source-less software through REA and then build a fast-forward player from the findings, with an accompanying blog guide. The excerpt lists no concrete verification or test evidence.",
+      "target": "Software without source code (a player)",
+      "metric": "Tutorial workflow for building a fast-forward player"
+    },
+    "zh-CN": {
+      "title": "教学视频:用 REA 与 Claude Code 分析无源代码软件并做出快进播放器",
+      "summary": "极客解说的中文教程,演示让 Claude Code 通过 REA 分析没有源代码的软件,并据此做出快进播放器,附配套博客手册。节选中未列出具体验证或测试证据。",
+      "target": "无源代码的软件(播放器)",
+      "metric": "做出快进播放器的教学流程"
+    }
+  },
+  "d-3060fb6422": {
+    "hash": "1721442a5335",
+    "en": {
+      "title": "Restoring a function-name-stripped program with Ghidra, then having a local GLM identify the algorithms",
+      "summary": "The target is a test program the author wrote themselves and stripped of function names. They recovered it with Ghidra, then asked a local GLM to determine what it does. Within 20 seconds it correctly identified FNV-1a, ROT13 and vowel counting, and got only the hash value wrong. This is a small experiment on a self-made sample.",
+      "target": "Self-made stripped test program",
+      "metric": "Correctly identified 3 algorithms within 20 seconds; hash value wrong"
+    },
+    "zh-CN": {
+      "title": "用 Ghidra 还原去除函数名的程序,再让本地 GLM 识别出算法",
+      "summary": "目标是作者自写并删除了函数名的测试程序。先用 Ghidra 还原,再请本地 GLM 判断功能,结果在 20 秒内答对 FNV-1a、ROT13 与元音计数,只有哈希值算错。这是自制样本的小型实验。",
+      "target": "自制去符号测试程序",
+      "metric": "20 秒内答对 3 种算法,哈希值答错"
+    }
+  },
+  "d-44975ac71e": {
+    "hash": "b3c50e17dc5b",
+    "en": {
+      "title": "Spanish-language video: AI reverse engineering with REA, no coding skills needed",
+      "summary": "Hernan Correa tries REA without a programming background and explains how the agent takes apart an application when no source code is available. The content only mentions that the REA repository has over 200,000 stars; no concrete reverse-engineering results are shown.",
+      "target": "The REA tool itself (hands-on impressions)",
+      "metric": "REA repository has over 200,000 stars (stated in the video)"
+    },
+    "zh-CN": {
+      "title": "西语视频:不会编程也能用 REA 做 AI 逆向工程",
+      "summary": "Hernan Correa 以非编程背景试用 REA,说明代理如何在没有源代码的情况下拆解应用。内容仅提到 REA 仓库星标数超过 20 万,未见具体逆向成果。",
+      "target": "REA 工具本身(试用心得)",
+      "metric": "REA 仓库星标数超过 20 万(视频自述)"
+    }
+  },
+  "d-d18904f735": {
+    "hash": "63719ef0adff",
+    "en": {
+      "title": "Reverse engineering Obsidian (with bidirectional links) and a Copilot in 15 rounds of conversation, then packaging an exe",
+      "summary": "The author used GPT 5.6 with REA to reverse engineer Obsidian, with its basic bidirectional-link features, plus a Copilot, and packaged the result as an exe delivered to a client. It took only 15 rounds of conversation. The content is the author's own account, with no code or test evidence.",
+      "target": "Obsidian (with bidirectional links) and a Copilot plugin",
+      "metric": "Reverse engineering completed and exe delivered to a client in 15 rounds of conversation"
+    },
+    "zh-CN": {
+      "title": "用 15 轮对话逆向含双链功能的 Obsidian 与 Copilot 并打包 exe",
+      "summary": "作者使用 GPT 5.6 搭配 REA,逆向具双向链接基础功能的 Obsidian 加上一个 Copilot,并打包成 exe 交付客户。全程仅 15 轮对话,内容只有作者自述,没有代码或测试证据。",
+      "target": "Obsidian(含双链功能)与 Copilot 插件",
+      "metric": "15 轮对话完成逆向并打包 exe 交付客户"
+    }
+  },
+  "d-a6449e19eb": {
+    "hash": "e1237f3b7ac1",
+    "en": {
+      "title": "Analyzing the TCL Home APK with REA, and reusing the protocol the open-source TCLimate project had already reverse-engineered",
+      "summary": "TCL has no official API. The author used REA to analyze the TCL Home APK and found along the way that the open-source project TCLimate had already mapped the login, AWS cloud, and control command protocols. The author reused that work with attribution, concluding that you should check whether someone has already done the reversing before starting.",
+      "target": "TCL Home APK (TCL smart appliances)",
+      "metric": "Found that TCLimate had already mapped the login, AWS cloud, and command protocols"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析 TCL Home APK,并沿用开源项目 TCLimate 已逆向的协议",
+      "summary": "TCL 没有官方 API,作者用 REA 分析 TCL Home 的 APK,途中发现开源项目 TCLimate 已经梳理出登录、AWS 云端与控制指令的协议。作者直接沿用并标注出处,结论是逆向之前先看看有没有人做过。",
+      "target": "TCL Home APK(TCL 智能家电)",
+      "metric": "发现 TCLimate 已梳理出登录、AWS 云端与指令协议"
+    }
+  },
+  "d-58aedf4bc2": {
+    "hash": "8b87abd5cce6",
+    "en": {
+      "title": "Tracing where a small Electron app writes its exported notes with REA",
+      "summary": "A beginner tutorial using a six-file sample Electron app. It traces the Export notes button through preload to the IPC handler in main.js. The result shows that notes.csv is written to the Downloads folder with id and title columns, and Node.js is used to verify the escaping of commas and quotes in the output.",
+      "target": "Sample Electron notes app (notes-example)",
+      "metric": "Located main.js lines 8–12; CSV output verified with Node.js"
+    },
+    "zh-CN": {
+      "title": "用 REA 追踪小型 Electron 应用导出笔记的写入位置",
+      "summary": "入门教程,用六个文件的示例 Electron 应用,追踪 Export notes 按钮经 preload 到 main.js 的 IPC 处理函数。结果指出 notes.csv 写入下载文件夹,字段为 id 和 title,并用 Node.js 验证了逗号与引号的转义输出。",
+      "target": "示例 Electron 笔记应用(notes-example)",
+      "metric": "定位到 main.js 第 8–12 行,CSV 输出经 Node.js 验证"
+    }
+  },
+  "d-add5c2ca8f": {
+    "hash": "9b9ab63739c8",
+    "en": {
+      "title": "REA case collection: Aegis, CTF, DX-Ball, TH04 and other reverse-engineering cases",
+      "summary": "The official case page gathers several reversing results, including the 6-digit verification codes in the Aegis APK, a CTF flag checker, locating sound effects in DX-Ball, and bullet-pattern aiming in TH04. The C function recovered for DX-Ball was compared byte by byte against all 63 compiled bytes of the original.",
+      "target": "Aegis APK, DX-Ball, TH04, CTF challenges",
+      "metric": "Recovered DX-Ball function matches all 63 compiled bytes of the original"
+    },
+    "zh-CN": {
+      "title": "REA 案例集:Aegis、CTF、DX-Ball、TH04 等逆向案例",
+      "summary": "官方案例页汇总了多个逆向成果,包括 Aegis APK 的 6 位数验证码、CTF 旗标检查器、DX-Ball 音效定位与 TH04 弹幕瞄准。其中 DX-Ball 还原出的 C 函数与原版 63 个编译字节逐一比对。",
+      "target": "Aegis APK、DX-Ball、TH04、CTF 题目",
+      "metric": "DX-Ball 还原函数与原版全部 63 个编译字节一致"
+    }
+  },
+  "d-7f62f78215": {
+    "hash": "67fa5f608e29",
+    "en": {
+      "title": "One-click deployment of REA + Ghidra on a cloud machine, with tested verification",
+      "summary": "Provides install and verification scripts and skill files for Linux, macOS, and Windows, setting up JDK21, Ghidra 12.1.4, and Node in one step. Testing on Ubuntu 22.04 passed 9 end-to-end checks and successfully decompiled a custom ELF sample to recover its password-check logic. The sample is the author's own demo program, not an external target.",
+      "target": "Custom ELF sample program and the deployment environment",
+      "metric": "9 end-to-end checks passed; decompilation recovered the secret_check logic"
+    },
+    "zh-CN": {
+      "title": "云电脑一键部署 REA + Ghidra 并附实测验证",
+      "summary": "提供 Linux、macOS、Windows 的安装、验证脚本与技能文件,一键装好 JDK21、Ghidra 12.1.4 与 Node。实测在 Ubuntu 22.04 上通过 9 项端到端验证,并成功反编译自制的 ELF 示例,还原出密码检查逻辑。示例是作者自己的演示程序,不是外部目标。",
+      "target": "自制 ELF 示例程序与部署环境",
+      "metric": "9 项端到端验证通过,反编译还原 secret_check 逻辑"
+    }
+  },
+  "d-77da22fa73": {
+    "hash": "ff0b8dd283b3",
+    "en": {
+      "title": "A proxy that compresses REA's 170 MCP tools into 4 meta-tools",
+      "summary": "REA's 170 tools consumed too much context, so this is a zero-dependency MCP stdio proxy that exposes only 4 meta-tools by default and can hot-switch feature families on demand. In measurements, tool context dropped from about 70k tokens to 411 tokens, with every tool still callable.",
+      "target": "REA MCP tool list and DSH integration",
+      "metric": "Tool context cut from about 70k tokens to 411 tokens (99.4% saved)"
+    },
+    "zh-CN": {
+      "title": "把 REA 170 个 MCP 工具压成 4 个元工具的代理",
+      "summary": "针对 REA 的 170 个工具占用过多上下文,做出零依赖的 MCP stdio 代理,默认只暴露 4 个元工具,并可按需热切换功能族。实测工具上下文由约 70k token 降到 411 token,所有工具仍可调用。",
+      "target": "REA MCP 工具清单与 DSH 集成",
+      "metric": "工具上下文由约 70k token 降至 411 token(省 99.4%)"
+    }
+  },
+  "d-e6e37a0afc": {
+    "hash": "d7def466215f",
+    "en": {
+      "title": "Step-by-step tutorial: driving Ghidra with REA to analyze a self-built native program",
+      "summary": "This tutorial shows how to drive Ghidra headlessly with REA against a small C program you compile yourself, working through analysis, string search, decompilation, cross-references, and tracing in order. Each step gives both the CLI command and the prompt to ask an AI agent, and it explains how to verify the Ghidra environment with rea doctor.",
+      "target": "REA with Ghidra headless and a self-built C sample program",
+      "metric": "Full workflow: analyze, search, decompile, xrefs, trace"
+    },
+    "zh-CN": {
+      "title": "以 REA 驱动 Ghidra 分析自编原生程序的分步教程",
+      "summary": "教程演示如何用 REA 以 headless 方式驱动 Ghidra,对自己编译的小型 C 程序依次做分析、字符串搜索、反编译、交叉引用与追踪。每一步同时给出 CLI 命令和对 AI 代理的提问,并说明如何用 rea doctor 验证 Ghidra 环境。",
+      "target": "REA 搭配 Ghidra headless 与自编 C 示例程序",
+      "metric": "完整流程:analyze、search、decompile、xrefs、trace"
+    }
+  },
+  "d-da8e33d1b5": {
+    "hash": "bbc2bd4fceea",
+    "en": {
+      "title": "One-click local website reversing tool that turns REA evidence into a development spec",
+      "summary": "This is an extended REA workflow that opens a browser over CDP to observe the target page, saves REA evidence, and outputs a JSON analysis. It then generates a development spec through Ollama, LM Studio, or an OpenAI-compatible endpoint, and produces a fallback spec when no model is available. The excerpt contains no results for any specific website.",
+      "target": "Public websites (generic workflow)",
+      "metric": "One click produces a JSON analysis and a development spec document"
+    },
+    "zh-CN": {
+      "title": "一键本地网站逆向工具,把 REA 证据转成开发规格",
+      "summary": "这是 REA 的扩展工作流,通过 CDP 打开浏览器观察目标网页、保存 REA 证据并输出 JSON 分析。再借助 Ollama、LM Studio 或 OpenAI 兼容端点生成开发规格,没有模型时也会产出备用规格。节选内容没有针对具体网站的成果。",
+      "target": "公开网站(通用工作流)",
+      "metric": "一键产出 JSON 分析与开发规格文档"
+    }
+  },
+  "d-0c2d1d1da6": {
+    "hash": "7d59fd5f4e07",
+    "en": {
+      "title": "Adding a REA-derived reverse-engineering skill to an AI office agent framework",
+      "summary": "War Room Protocol is a multi-agent automated software office project, and one of its skills, reverse-engineer, is adapted from REA's methodology, covering evidence verification and reconstruction workflows. If rea-agents is installed, its MCP/CLI can be used instead. REA is just one skill among many, and no actual reverse-engineering results are shown.",
+      "target": "No specific target (generic skill document)",
+      "metric": "One SKILL.md adapted from REA's methodology"
+    },
+    "zh-CN": {
+      "title": "在 AI 办公室代理框架中加入源自 REA 的逆向工程技能",
+      "summary": "War Room Protocol 是多代理的自动化软件办公室项目,其中一个 reverse-engineer 技能改写自 REA 的方法,涵盖证据验证与重建流程。若安装 rea-agents,则可改用其 MCP/CLI。REA 只是其中一项技能,未见实际逆向成果。",
+      "target": "无特定目标(通用技能文档)",
+      "metric": "一份改写自 REA 方法的 SKILL.md"
+    }
+  },
+  "d-b8d6bd24fe": {
+    "hash": "b63243f40495",
+    "en": {
+      "title": "reatool.dev offers a REA tutorial and case showcase site",
+      "summary": "An unofficial tutorial site that provides a one-click prompt for having an AI agent install REA, along with entry points to several community cases, such as air conditioner control, Universal Modder, converting a Steam game to Unity C#, and rewriting a DOS game in Rust. These cases are only links and the authors' own descriptions; the page itself gives no verifiable details of the results.",
+      "target": "REA tutorials and community case roundup",
+      "metric": "Compiles multiple cases, the top one with 22,475 likes (air conditioner control from the Mac menu bar)"
+    },
+    "zh-CN": {
+      "title": "reatool.dev 提供 REA 教程与案例导览站",
+      "summary": "非官方教程站，提供一键让 AI 代理安装 REA 的提示词，并列出多个社区案例入口，例如空调控制、Universal Modder、Steam 游戏转 Unity C#、DOS 游戏改写 Rust。这些案例仅是链接与作者自述，页面本身没有提供可验证的成果细节。",
+      "target": "REA 教程与社区案例汇总",
+      "metric": "汇总多个案例，其中最高 22,475 个赞（空调 Mac 菜单栏控制）"
+    }
+  },
+  "d-7656edb5da": {
+    "hash": "4de1354254e2",
+    "en": {
+      "title": "rea-reverse offers step-by-step REA tutorials covering Ghidra, IDA, and JADX",
+      "summary": "The tutorial site walks through installing REA and connecting it to Claude Code, Cursor, and Codex, plus setup for the Ghidra, IDA Pro, and JADX backends and a comparison with other reverse-engineering MCPs. The content is setup and workflow instruction, with no reverse-engineering findings on any specific target.",
+      "target": "REA MCP and the Ghidra / IDA / JADX backends",
+      "metric": "Multiple tutorials covering REA 6.4.0 and jadx-headless-mcp 0.7.1"
+    },
+    "zh-CN": {
+      "title": "rea-reverse 提供 REA 分步教程，涵盖 Ghidra、IDA、JADX",
+      "summary": "教程站提供 REA 安装并接入 Claude Code、Cursor、Codex 的步骤，以及 Ghidra、IDA Pro、JADX 后端的配置，并与其他逆向 MCP 做了对比。内容为配置与流程教程，没有针对特定目标的逆向发现。",
+      "target": "REA MCP 与 Ghidra / IDA / JADX 后端",
+      "metric": "多篇教程，涵盖 REA 6.4.0 与 jadx-headless-mcp 0.7.1"
+    }
+  },
+  "d-f8eb56b16f": {
+    "hash": "4001d36fdf17",
+    "en": {
+      "title": "REAdirectory compiles reverse-engineering tutorial guides for REA and AI agents",
+      "summary": "readirectory.app offers hands-on guides for rea-agents 6.4.0, covering installing the REA MCP in Claude Code, verifying the connection with rea doctor, and comparing REA with GhidraMCP. The content is tutorials and navigation, with no reverse-engineering results on a specific target.",
+      "target": "REA / rea-agents 6.4.0",
+      "metric": "2 guides (Claude Code installation, REA vs. GhidraMCP comparison)"
+    },
+    "zh-CN": {
+      "title": "REAdirectory 整理 REA 与 AI agent 的逆向工程教程指南",
+      "summary": "readirectory.app 提供针对 rea-agents 6.4.0 的实操指南，涵盖在 Claude Code 中安装 REA MCP、用 rea doctor 验证连接，以及 REA 与 GhidraMCP 的对比。内容为教程与导览，没有针对具体目标的逆向成果。",
+      "target": "REA / rea-agents 6.4.0",
+      "metric": "2 篇指南（Claude Code 安装、REA 与 GhidraMCP 对比）"
+    }
+  },
+  "d-e6b18668e1": {
+    "hash": "f125d83c63d6",
+    "en": {
+      "title": "Official REA guide: recovering audio pan calculation and tracing CSV export",
+      "summary": "An official guide page listing two demos: recovering the audio pan calculation from a Windows game executable, and tracing the CSV export flow in an Electron note-taking app. Each comes with prompts, code, and results, plus an extended case on a Notion clipboard bridge. The excerpt only lists outlines and does not show the actual results.",
+      "target": "A Windows game executable and an Electron note-taking app",
+      "metric": "Two tutorial demos: command → caller → constant → C function; button → preload → IPC → CSV file"
+    },
+    "zh-CN": {
+      "title": "官方 REA 指南：还原音效声像计算与追踪 CSV 导出",
+      "summary": "官方指南页，列出两个演示：从 Windows 游戏可执行文件还原音效声像（pan）计算，以及在 Electron 笔记应用中追踪 CSV 导出流程。各附提示词、代码与结果，另有 Notion 剪贴板桥接的扩展案例。节选只列出大纲，没有展示具体成果内容。",
+      "target": "Windows 游戏可执行文件、Electron 笔记应用",
+      "metric": "两个教程演示：指令→调用者→常量→C 函数；按钮→preload→IPC→CSV 文件"
+    }
+  },
+  "d-9819f5a4b0": {
+    "hash": "a86f38a6cd23",
+    "en": {
+      "title": "REA Native Binary Reverse Engineering Tutorial Series: Ghidra, IDA, macOS, and Hardening Checks",
+      "summary": "The native-binary section of the tutorial site uses self-compiled programs to demonstrate the Ghidra headless backend, decompilation, and cross-references. It also covers Windows EXE/DLL, macOS Mach-O, IDA Pro MCP integration, and hardening-option checks. Each article states the REA version it was verified against (6.4.0). The content is a tutorial catalog and contains no reverse-engineering results for any specific target.",
+      "target": "Self-compiled ELF/PE/Mach-O binaries",
+      "metric": "Multiple tutorials, all based on REA npm 6.4.0"
+    },
+    "zh-CN": {
+      "title": "REA 原生二进制逆向教程系列:Ghidra、IDA、macOS 与加固检查",
+      "summary": "教程站的原生二进制专区,用自行编译的程序演示 Ghidra 无头后端、反编译与交叉引用,并涵盖 Windows EXE/DLL、macOS Mach-O、IDA Pro MCP 接入与加固选项检查。每篇都标明核对时使用的 REA 版本(6.4.0)。内容是教程目录,没有针对具体目标的逆向成果。",
+      "target": "自编译的 ELF/PE/Mach-O 二进制文件",
+      "metric": "多篇教程,均以 REA npm 6.4.0 为准"
+    }
+  },
+  "d-fd57fa39c0": {
+    "hash": "79dafe82e243",
+    "en": {
+      "title": "REA Tutorial and Interactive Examples Landing Page",
+      "summary": "Explains how REA lets a coding agent trace the behavior of apps, binaries, and websites through MCP. The page lists guided examples such as tuning the speed in a dinosaur game, aiming at bullet-hell projectiles, and generating authentication codes, and stresses that results must be verified.",
+      "target": "REA tutorial examples (APK, games, web pages)",
+      "metric": "Several interactive examples, each verifiable against a known answer"
+    },
+    "zh-CN": {
+      "title": "REA 使用教程与交互实例入口页",
+      "summary": "介绍 REA 如何让编码代理通过 MCP 追踪应用、二进制文件与网站的行为。页面列出恐龙游戏调速、弹幕瞄准、认证码生成等引导式示例,强调需验证结果。",
+      "target": "REA 教程示例(APK、游戏、网页)",
+      "metric": "提供多个可交互并以已知答案验证的教程示例"
+    }
+  },
+  "d-56859266c6": {
+    "hash": "b808cf2cb5b4",
+    "en": {
+      "title": "Testing the Strengths and Weaknesses of REA Static Analysis on a 100 MB Electron App",
+      "summary": "The author ran REA's static analysis on an Electron app of about 100 MB and wrote up the results. The excerpt contains only a title and a link, with no specific functions, findings, or evidence. All it shows is that there were both strengths and failures in the analysis.",
+      "target": "A 100 MB Electron app",
+      "metric": "Hands-on test on an Electron app of about 100 MB"
+    },
+    "zh-CN": {
+      "title": "以 100 MB Electron 应用实测 REA 静态分析的优缺点",
+      "summary": "作者拿 REA 对一个约 100 MB 的 Electron 应用做静态分析实测,并写成文章。节选只有标题与链接,没有具体的函数、发现或证据,只能看出分析既有强项也有失败之处。",
+      "target": "100 MB Electron 应用",
+      "metric": "约 100 MB 的 Electron 应用实测"
+    }
+  },
+  "d-a5261129ea": {
+    "hash": "228fd8588ada",
+    "en": {
+      "title": "Introducing the REA Architecture and Dissecting Obsidian's Auto-Update Mechanism",
+      "summary": "The author installed REA and read through its code and documentation, describing it as both an MCP server and a CLI that integrates tools such as Hopper, Ghidra, IDA, and JADX. The article promises a full teardown of Obsidian's auto-update as an example, but the excerpt is only an introduction and shows no actual findings.",
+      "target": "The REA tool itself and Obsidian's update mechanism",
+      "metric": "REA reached 210,777 stars within half a year of its creation"
+    },
+    "zh-CN": {
+      "title": "介绍 REA 架构并拆解 Obsidian 自动更新机制",
+      "summary": "作者安装 REA、阅读代码与文档,说明它既是 MCP 服务器又是 CLI,并集成了 Hopper、Ghidra、IDA、JADX 等工具。文章承诺以 Obsidian 的自动更新为例做完整拆解,但节选只有介绍,看不到实际发现。",
+      "target": "REA 工具本身与 Obsidian 更新机制",
+      "metric": "REA 创建半年即达 210,777 颗星"
+    }
+  },
+  "d-78644bee75": {
+    "hash": "0ab6fa171cce",
+    "en": {
+      "title": "How REA connects to IDA Pro MCP, and the compatibility limits",
+      "summary": "A tutorial explaining how REA 6.4.0 uses ida-pro-mcp to drive IDA Pro as a native analysis engine and returns results in Evidence format. It lists the tools required for the attached and headless modes, and notes that the ida-pro-mcp 2.0.0 GUI plugin is currently incompatible (#2301).",
+      "target": "REA 6.4.0 and ida-pro-mcp (IDA Pro 8.3+)",
+      "metric": "Attached mode supports only ida-pro-mcp 1.4.0; 2.0.0 is incompatible (#2301)"
+    },
+    "zh-CN": {
+      "title": "说明 REA 如何对接 IDA Pro MCP 并列出兼容限制",
+      "summary": "教程说明 REA 6.4.0 通过 ida-pro-mcp 把 IDA Pro 作为原生分析引擎,并以 Evidence 格式返回结果。文中列出 attached 与 headless 两种模式所需的工具,并指出 ida-pro-mcp 2.0.0 GUI 插件目前不兼容(#2301)。",
+      "target": "REA 6.4.0 与 ida-pro-mcp(IDA Pro 8.3+)",
+      "metric": "attached 模式仅支持 ida-pro-mcp 1.4.0,2.0.0 不兼容(#2301)"
+    }
+  },
+  "d-6a70d444e4": {
+    "hash": "14cb75d48229",
+    "en": {
+      "title": "How REA unpacks firmware with Binwalk/Unblob before handing it to Ghidra",
+      "summary": "A how-to guide showing REA calling the existing Binwalk and Unblob tools to output region offsets, file paths and SHA-256 as evidence, then passing the ELF to Ghidra. It lists limits such as validation only on Linux x64 and limited MIPS support, and reports no findings on any specific real-world firmware.",
+      "target": "OpenWrt x86/64 firmware image (workflow demo)",
+      "metric": "Validated formats limited to gzip, USTAR, ext4; Linux x64 only"
+    },
+    "zh-CN": {
+      "title": "说明 REA 用 Binwalk/Unblob 解包固件再交给 Ghidra 的流程",
+      "summary": "这是一篇操作教程,说明 REA 调用现有的 Binwalk 与 Unblob,输出区域偏移、文件路径和 SHA-256 等证据,再把 ELF 交给 Ghidra。内容列出仅在 Linux x64 上验证、MIPS 支持有限等限制,没有针对特定真实固件的发现。",
+      "target": "OpenWrt x86/64 固件镜像(流程演示)",
+      "metric": "验证格式限 gzip、USTAR、ext4,仅 Linux x64"
+    }
+  },
+  "d-65ed77180d": {
+    "hash": "8f59cb6f2f2e",
+    "en": {
+      "title": "Taking apart a paid app with REA and rebuilding it in one night",
+      "summary": "The author claims to have used REA to have an AI take apart a paid app they use, then rebuilt it in a single night. The post doesn't say which app, and includes no code or evidence; it mostly marvels at how the way software is sold is changing.",
+      "target": "An unnamed paid app",
+      "metric": "Claims the rebuild was done in one night"
+    },
+    "zh-CN": {
+      "title": "用 REA 拆解一款付费 App 并一晚重做",
+      "summary": "作者声称用 REA 让 AI 拆解自己使用的一款付费 App,并在一晚内重新做了出来。帖子没有说明是哪款 App,也没有附代码或证据,主要在感叹软件销售模式的变化。",
+      "target": "某款未具名的付费 App",
+      "metric": "自称一晚内完成重建"
+    }
+  },
+  "d-5dd099466b": {
+    "hash": "4dc76c004a0c",
+    "en": {
+      "title": "An 11-step complete tutorial on reverse engineering with Opus 5.5 and REA",
+      "summary": "A tutorial article explaining how an agent connects to Hopper, Ghidra or IDA through REA to read binaries. It covers installing rea-agents, registering the MCP, and basic commands. It contains no analysis results for any specific target.",
+      "target": "REA tutorial (Hopper/Ghidra/IDA workflow)",
+      "metric": "11-step course covering rea-agents installation and MCP tools"
+    },
+    "zh-CN": {
+      "title": "以 Opus 5.5 搭配 REA 做逆向工程的 11 步完整教程",
+      "summary": "这是一篇教程文章,说明 agent 如何通过 REA 连接 Hopper、Ghidra 或 IDA 读取二进制文件。内容涵盖安装 rea-agents、注册 MCP 与基本命令。没有针对具体目标的分析成果。",
+      "target": "REA 教程(Hopper/Ghidra/IDA 工作流程)",
+      "metric": "11 步课程,涵盖 rea-agents 安装与 MCP 工具"
+    }
   }
 }

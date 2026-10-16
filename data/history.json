@@ -2503,8 +2503,8 @@
     },
     {
       "date": "2026-10-16",
-      "stars": 269787,
-      "stars_delta": 21548,
+      "stars": 275074,
+      "stars_delta": 26835,
       "new": [
         "d-0e97307937",
         "d-1699b856e8",
@@ -2515,6 +2515,8 @@
         "d-692e4961f4",
         "d-b02b8f77eb",
         "d-1554b3f66e",
+        "d-bd6821f294",
+        "d-878c627d8d",
         "d-de9583d742",
         "d-53c9e64a7c",
         "d-503e0a74d8",
@@ -2530,6 +2532,7 @@
         "d-b06e136c1f",
         "d-7dc975affa",
         "d-211278f991",
+        "d-b3cfebb4ca",
         "d-78d804834b",
         "d-01656141db",
         "d-b5b43768ad",
@@ -2557,49 +2560,52 @@
         "d-dd8733edf1",
         "d-2bd3c660f0",
         "d-fa5c4281f6",
+        "d-e595d7a957",
         "d-51fab00f4c",
         "d-63da6a482f",
+        "d-cb7cce2f6a",
         "d-ed99de8e6e",
         "d-ff8e699129",
         "d-e024b9cae3",
         "d-bbb4684e6a",
         "d-fc0b602317",
         "d-e042abe941",
+        "d-48bae55f69",
         "d-40d07b20d2",
         "d-c61e14bff3"
       ],
       "stats": {
-        "count": 61,
+        "count": 67,
         "wow": {
-          "2": 36,
-          "3": 14,
-          "4": 8,
+          "2": 39,
+          "3": 15,
+          "4": 10,
           "5": 3
         },
         "type": {
-          "case": 34,
-          "app": 19,
+          "case": 37,
+          "app": 21,
           "news": 2,
-          "learn": 6
+          "learn": 7
         },
         "status": {
-          "tested": 9,
-          "shipped": 20,
-          "reported": 32
+          "tested": 10,
+          "shipped": 23,
+          "reported": 34
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 星數破 26 萬，遊戲移植與裝置協定逆向成果集中出現",
-          "summary": "REA 的 GitHub 星數升到 269,787，比前一個紀錄 248,239 多了 21,548。當天排名最前的幾項都附有驗證：東方 TH08、TH095 逐函式比對重建，Ultima VI 移植成可在瀏覽器玩的 Rust/wasm 版，以及心跳元力2 藍牙杯與三星電視、Hisense 冷氣的協定逆向。另一方面，不少熱度較高的貼文（如魂斗羅、Notion 復刻）只有作者自述，沒有附程式碼或測試，可見討論熱度與可驗證程度並不一致。這顯示 REA 的用途正從展示復刻，轉向有證據的移植、保存與裝置控制。"
+          "headline": "REA 星數破 27.5 萬,實作與驗證型案例佔上風",
+          "summary": "REA GitHub 星數來到 275,074,比前一個紀錄多了 26,835。排名最前面的是帶驗證的案例:東方 TH08、TH095 以 oracle 逐函式比對重建,心跳元力2 藍牙杯協定在實體硬體上驗證每個封包,Ultima VI 則移植成可在瀏覽器玩的 Rust/wasm 版。熱度高的 X 貼文多為作者自述,沒有 repo 或測試佐證,另有專案坦承防破解目標未達成。這顯示可驗證的成果比單純的復刻宣稱更值得關注。"
         },
         "en": {
-          "headline": "REA passes 260k stars as game ports and device-protocol teardowns lead",
-          "summary": "REA's GitHub stars rose to 269,787, up 21,548 from the previous record of 248,239. The top-ranked items carry verification: Touhou TH08 and TH095 rebuilt with function-by-function oracle comparison, Ultima VI ported to a browser-playable Rust/wasm build, and protocol reverse-engineering of a BLE cup, a Samsung TV and a Hisense air conditioner. Several of the hotter posts, such as the Contra and Notion clones, are author claims only, with no code or tests attached, so attention and verifiability do not line up. The mix suggests REA use is moving from flashy clones toward evidence-backed ports, preservation and control of one's own devices."
+          "headline": "REA passes 275K stars as verified builds outrank hype",
+          "summary": "REA's GitHub stars reached 275,074, up 26,835 from the previous record. The top-ranked items are backed by verification: Touhou TH08 and TH095 rebuilt with function-by-function oracle comparison, a BLE cup protocol checked packet by packet on real hardware, and Ultima VI ported to a browser-playable Rust/wasm build. The hottest X posts are mostly self-reported with no repo or tests, and one project openly admits its anti-cracking goal was not met. Evidence-backed results stand out more than bare clone claims."
         },
         "zh-CN": {
-          "headline": "REA 星数破 26 万，游戏移植与设备协议逆向成果集中出现",
-          "summary": "REA 的 GitHub 星数升到 269,787，比前一个记录 248,239 多了 21,548。当天排名最靠前的几项都附有验证：东方 TH08、TH095 逐函数比对重建，Ultima VI 移植成可在浏览器玩的 Rust/wasm 版，以及心跳元力2 蓝牙杯与三星电视、Hisense 空调的协议逆向。另一方面，不少热度较高的帖子（如魂斗罗、Notion 复刻）只有作者自述，没有附代码或测试，可见讨论热度与可验证程度并不一致。这显示 REA 的用途正从展示复刻，转向有证据的移植、保存与设备控制。"
+          "headline": "REA 星数破 27.5 万,实现与验证型案例占上风",
+          "summary": "REA GitHub 星数达到 275,074,比前一个记录多了 26,835。排名最靠前的是带验证的案例:东方 TH08、TH095 以 oracle 逐函数比对重建,心跳元力2 蓝牙杯协议在实体硬件上验证每个数据包,Ultima VI 则移植成可在浏览器玩的 Rust/wasm 版。热度高的 X 帖子多为作者自述,没有 repo 或测试佐证,另有项目坦承防破解目标未达成。这表明可验证的成果比单纯的复刻宣称更值得关注。"
         }
       },
       "signals": [
@@ -2609,8 +2615,8 @@
       ],
       "highlights": [
         "d-0e97307937",
-        "d-e8f555dca5",
-        "d-1699b856e8"
+        "d-1699b856e8",
+        "d-e8f555dca5"
       ],
       "rank": [
         "touhou-factory",
@@ -2660,6 +2666,8 @@
         "d-45164a9283",
         "d-831a3c86b4",
         "d-6417fa2b6c",
+        "d-bd6821f294",
+        "d-878c627d8d",
         "d-de9583d742",
         "d-53c9e64a7c",
         "d-d89623bce1",
@@ -2739,6 +2747,7 @@
         "downunderctf",
         "pi-desktop-electron",
         "windows-calc-percent",
+        "d-b3cfebb4ca",
         "d-d60bf70266",
         "d-62e2adfb7e",
         "d-87ce73d9b4",
@@ -2820,6 +2829,7 @@
         "rea-investigate",
         "d-7b1ef2129b",
         "d-fc29eb6876",
+        "rea-jev",
         "d-fe2acc8797",
         "d-db76f53aba",
         "d-69c54848b7",
@@ -2874,6 +2884,7 @@
         "d-dd8733edf1",
         "d-2bd3c660f0",
         "d-fa5c4281f6",
+        "d-e595d7a957",
         "d-1b047e8703",
         "d-c1192aff5f",
         "d-d72fa55f15",
@@ -2918,13 +2929,14 @@
         "d-63da6a482f",
         "d-d79fa65f04",
         "d-0c2d1d1da6",
-        "rea-jev",
+        "d-cb7cce2f6a",
         "d-ed99de8e6e",
         "d-ff8e699129",
         "d-e024b9cae3",
         "d-bbb4684e6a",
         "d-fc0b602317",
         "d-e042abe941",
+        "d-48bae55f69",
         "d-40d07b20d2",
         "d-98635e3ba9",
         "d-b8d6bd24fe",
@@ -2976,7 +2988,9 @@
         "d-97c8a77cab",
         "d-8b1041307d",
         "d-5938860a9b",
+        "d-4603e22458",
         "d-3fed5ef749",
+        "d-eec436d695",
         "d-9eb6f0fe93",
         "d-6aa6de6f50",
         "d-549e5f22f1",
@@ -2987,6 +3001,7 @@
         "d-d81465dfaf",
         "d-745bc996c3",
         "d-bdbc3e04d9",
+        "d-fbb225ca8e",
         "d-5b053df591",
         "d-a20c63ec85",
         "d-6275775e67",
@@ -3009,6 +3024,7 @@
         "d-2ceba23e2d",
         "d-5864709cbd",
         "d-6f8af58586",
+        "d-dc6406d1d8",
         "d-fb5170f222",
         "d-8a3810818f",
         "d-40b50bd678",
@@ -3016,6 +3032,7 @@
         "d-a2d8b22562",
         "d-118ae879d0",
         "d-2825a73f70",
+        "d-5eea7c70bc",
         "d-a099b3f4a3",
         "d-fce779a1e3",
         "d-23f7d20139",
@@ -3102,6 +3119,7 @@
         "d-58858cc113",
         "d-278ef82903",
         "d-49f94bbe64",
+        "d-d174ef7da4",
         "d-631dc0510e",
         "d-4bcd24720d",
         "d-05a046f832",
@@ -3183,6 +3201,7 @@
         "d-c8a7dbc8ed",
         "d-cbe8f38835",
         "d-adfbebad69",
+        "d-46c1f8b3f0",
         "d-2c0cc7ec2f",
         "d-d6aa4f5065",
         "d-0c1ae0dd05",
@@ -3237,6 +3256,8 @@
         "d-e776c1c4c1",
         "d-2761852b3d",
         "d-2f09a54a93",
+        "d-e777c7ae49",
+        "d-1d453fee3f",
         "d-2ad7695485",
         "d-29b566886b",
         "d-65550d8e80",
@@ -3430,28 +3451,28 @@
     "to": "2026-10-16",
     "text": {
       "zh-TW": {
-        "headline": "REA 從展示復刻走向有證據的移植、保存與裝置控制",
-        "summary": "週初的焦點是東方 Project 逐函式重建，星數從 5.8 萬一路升到 26.9 萬。10 月 11 日起，案例擴及 ZWO ASIAIR 韌體、智慧馬桶藍牙協定與 arm64 核心，從遊戲延伸到硬體。10 月 13、14 日的主角變成 Word、CapCut、VS Code 等商用與桌面軟體被快速復刻，客戶端程式碼不再是護城河。同時，排名前段的案例開始附上逐筆比對（如 Untangle 54 項中 52 項、DX-Ball 3,205 個輸入），只憑自述的熱門貼文則被標註；10 月 14 日也有實測指出 REA 耗時最多 2.00 倍、費用最多 1.67 倍。",
-        "watch": "優先關注附有測試或對照原版的案例，如 Ultima VI 瀏覽器移植、DX-Ball 聲像還原，並把只有自述的熱門貼文視為待驗證。裝置協定逆向（電視、冷氣、藍牙杯）與老遊戲保存是目前最紮實的方向，可以從中找可行動的題目；若要採用，也要先把成本與耗時納入評估。"
+        "headline": "REA 熱潮從展示復刻轉向可驗證的逆向成果",
+        "summary": "本週 REA 星數從 58,461 升到 275,074，案例從東方 Project 等老遊戲，擴及 Obsidian、Word、CapCut 等商用軟體，再到 ZWO ASIAIR 韌體、智慧馬桶與藍牙杯的硬體協定。10/12 到 10/14 的「客戶端程式碼不再是護城河」訊號最強，因為功能被快速複製。10/15 起這個訊號消退，焦點轉到驗證：DX-Ball 以 3,205 個輸入對照原函式，TH08、TH095 用 oracle 逐函式比對，藍牙杯協定在實體硬體上驗證每個封包。「驗證是瓶頸」七天全部出現，高熱度但只有自述、沒有 repo 或測試的貼文則一再被點出。10/14 的 A/B 實測也提醒，REA 最多耗時 2.00 倍、費用最多 1.67 倍，優勢仍有爭議。",
+        "watch": "接下來幾天可以看哪些案例附上對照測試、「已證實／推論／未知」標示和誠實的差距清單，這類成果比單純的復刻宣稱更可信。硬體協定與韌體的逆向（BLE、PLC、IoT）持續出現，且能用實體裝置驗證，是較具體的切入點。另外要留意成本與效率的實測數據，這部分本週還沒有成為獨立訊號。"
       },
       "en": {
-        "headline": "REA is shifting from showy clones to evidence-backed porting, preservation and device control",
-        "summary": "The week opened with function-by-function Touhou rebuilds, and stars climbed from 58k to 270k. From Oct 11, cases spread from games to ZWO ASIAIR firmware, a smart-toilet Bluetooth protocol and an arm64 kernel. On Oct 13–14 the lead cases were commercial and desktop software such as Word, CapCut and VS Code being cloned quickly, which shows client-side code is no longer a moat. Meanwhile, top cases began to carry item-by-item checks (Untangle 52 of 54 claims, DX-Ball 3,205 inputs), while popular posts with only self-reports were flagged. On Oct 14 a measured A/B test also found REA taking up to 2.00x the time and 1.67x the cost.",
-        "watch": "Focus on cases that ship tests or compare against the original, such as the Ultima VI browser port and the DX-Ball panning recovery, and treat popular self-report-only posts as unverified. Device protocol reverse engineering (TVs, air conditioners, Bluetooth cups) and old-game preservation look the most solid, so look there for actionable topics. If you plan to adopt REA, factor in its cost and time first."
+        "headline": "REA's buzz is shifting from flashy clones to verifiable reverse engineering",
+        "summary": "This week REA's GitHub stars rose from 58,461 to 275,074. Cases spread from old games like Touhou to commercial software (Obsidian, Word, CapCut), then to hardware protocols (ZWO ASIAIR firmware, a smart toilet, a Bluetooth cup). The signal that client-side code is no longer a moat peaked from 10/12 to 10/14, as features were cloned quickly. It faded from 10/15, when the focus moved to verification. DX-Ball was checked against the original function on 3,205 inputs, TH08 and TH095 were rebuilt function by function against an oracle, and every packet of the Bluetooth cup protocol was validated on real hardware. The verification bottleneck appeared on all seven days, and high-engagement posts with only self-reports, no repo and no tests, were flagged repeatedly. A 10/14 A/B test also found REA took up to 2.00x the time and up to 1.67x the cost, so its advantage is still disputed.",
+        "watch": "In the coming days, watch for cases that ship comparison tests, confirmed/inferred/unknown labels and an honest list of gaps. Those are more credible than bare clone claims. Firmware and protocol work (BLE, PLC, IoT) keeps appearing and can be checked on physical devices, which makes it a concrete place to start. Also track measured cost and efficiency data, which has not yet become a signal of its own this week."
       },
       "zh-CN": {
-        "headline": "REA 从展示复刻走向有证据的移植、保存与设备控制",
-        "summary": "周初的焦点是东方 Project 逐函数重建，星数从 5.8 万一路升到 26.9 万。10 月 11 日起，案例扩及 ZWO ASIAIR 固件、智能马桶蓝牙协议与 arm64 内核，从游戏延伸到硬件。10 月 13、14 日的主角变成 Word、CapCut、VS Code 等商用与桌面软件被快速复刻，客户端代码不再是护城河。同时，排名靠前的案例开始附上逐项比对（如 Untangle 54 项中 52 项、DX-Ball 3,205 个输入），只凭自述的热门帖子则被标注；10 月 14 日也有实测指出 REA 耗时最多 2.00 倍、费用最多 1.67 倍。",
-        "watch": "优先关注附有测试或对照原版的案例，如 Ultima VI 浏览器移植、DX-Ball 声像还原，并把只有自述的热门帖子视为待验证。设备协议逆向（电视、空调、蓝牙杯）与老游戏保存是目前最扎实的方向，可以从中找可行动的题目；若要采用，也要先把成本与耗时纳入评估。"
+        "headline": "REA 热潮从展示复刻转向可验证的逆向成果",
+        "summary": "本周 REA 星数从 58,461 升到 275,074，案例从东方 Project 等老游戏，扩展到 Obsidian、Word、CapCut 等商用软件，再到 ZWO ASIAIR 固件、智能马桶与蓝牙杯的硬件协议。10/12 到 10/14 的“客户端代码不再是护城河”信号最强，因为功能被快速复制。10/15 起这个信号消退，焦点转到验证：DX-Ball 以 3,205 个输入对照原函数，TH08、TH095 用 oracle 逐函数比对，蓝牙杯协议在实体硬件上验证每个数据包。“验证是瓶颈”七天全部出现，高热度但只有自述、没有 repo 或测试的帖子则一再被点出。10/14 的 A/B 实测也提醒，REA 最多耗时 2.00 倍、费用最多 1.67 倍，优势仍有争议。",
+        "watch": "接下来几天可以看哪些案例附上对照测试、“已证实／推论／未知”标注和诚实的差距清单，这类成果比单纯的复刻宣称更可信。硬件协议与固件的逆向（BLE、PLC、IoT）持续出现，且能用实体设备验证，是较具体的切入点。另外要留意成本与效率的实测数据，这部分本周还没有成为独立信号。"
       }
     },
     "rising": [
       "B",
-      "C",
       "D"
     ],
     "fading": [
-      "A"
+      "A",
+      "G"
     ],
     "tally": {
       "A": 3,

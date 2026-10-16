@@ -6778,5 +6778,95 @@
       "target": "REA 安装与使用流程",
       "metric": "提供 Electron 与 .NET 静态分析的 CLI 操作步骤,未附实测结果"
     }
+  },
+  "d-cb7cce2f6a": {
+    "hash": "ceb5c8efc031",
+    "en": {
+      "title": "Planning a Local Software Archaeology Workbench Centered on REA (Design Documents Only)",
+      "summary": "Built on REA 6.4.0 as the baseline, this workbench is designed to chain controlled capture, evidence analysis, behavior contracts, SDK generation, and sample diffing. So far there are only five design documents, which state explicitly that nothing is implemented yet, with no code or measured results.",
+      "target": "Web/HAR/ASAR analysis workflows (design stage)",
+      "metric": "Only 5 design documents; V0.1 not yet implemented"
+    },
+    "zh-CN": {
+      "title": "规划以 REA 为核心的本地软件考古工作台（仅设计文档）",
+      "summary": "以 REA 6.4.0 为基线，设计串联受控采集、证据分析、行为契约、SDK 生成与样本差分的工作台。目前只有五份设计文档，明确写明尚未实现，没有代码或实测成果。",
+      "target": "Web／HAR／ASAR 的分析工作流（设计阶段）",
+      "metric": "仅 5 份设计文档，V0.1 尚未实现"
+    }
+  },
+  "d-48bae55f69": {
+    "hash": "da3fb89ed6fc",
+    "en": {
+      "title": "Getting Started with Reverse Engineering Your Own Programs Using REA and Ghidra",
+      "summary": "The tutorial starts from a program you compile yourself, showing how to use REA with Ghidra to read file headers, locate functions, inspect pseudocode, and interpret Evidence records. It also covers verifying reconstructed functions with input grids and byte-level comparison, and driving REA through MCP.",
+      "target": "The author's self-compiled sample program, ledger.c",
+      "metric": "Tutorial covers input-grid and byte-comparison verification of reconstructed functions"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Ghidra 逆向自编程序的入门教程",
+      "summary": "教程从自己编译的程序出发，演示用 REA 搭配 Ghidra 读取文件头、查找函数、查看伪代码，并解读 Evidence 记录。内容还涵盖以输入网格与字节比对验证重建函数，以及通过 MCP 驱动 REA。",
+      "target": "作者自行编译的 ledger.c 示例程序",
+      "metric": "教程涵盖重建函数的输入网格与字节比对验证"
+    }
+  },
+  "d-bd6821f294": {
+    "hash": "62e7ea0fefae",
+    "en": {
+      "title": "Using REA to Dissect a 3D Website and Rebuild Its Scroll-Through Photorealistic Room in Blender",
+      "summary": "The goal was to reverse-engineer finely-crafted.com with REA to find what makes it look realistic (baked lightmaps, a reflective floor, a 1.5 m eye height, and more), then rebuild the room with Blender Cycles and Poly Haven. The result is the Hollow Oak Lounge demo site, deployed on Vercel (287 frames at 1600x900, 3 hotspots), with measured data including render times, a drag p95 of 17ms, and brightness flicker under 0.1.",
+      "target": "finely-crafted.com (3D website)",
+      "metric": "287 frames rendered in Cycles; drag p95 of 17 ms/frame, with 0 stutters over 50 ms"
+    },
+    "zh-CN": {
+      "title": "用 REA 拆解 3D 网站，并以 Blender 重建可滚动漫游的写实房间",
+      "summary": "目标是用 REA 逆向 finely-crafted.com，找出写实感的成因（烘焙光照贴图、反射地板、1.5 米视角等），再用 Blender Cycles 与 Poly Haven 重建房间。成果是已部署到 Vercel 的 Hollow Oak Lounge 演示站（287 帧 1600x900、3 个热点），并附有渲染时间、拖拽 p95 17ms、亮度跳动低于 0.1 等实测数据。",
+      "target": "finely-crafted.com（3D 网站）",
+      "metric": "287 帧 Cycles 渲染，拖拽 p95 17 ms/帧、0 次超过 50 ms 的卡顿"
+    }
+  },
+  "d-878c627d8d": {
+    "hash": "c8c488eac1cd",
+    "en": {
+      "title": "Analyzing Pokémon Emerald for GBA with REA and Ghidra, and Porting Symbols",
+      "summary": "Uses REA with Ghidra headless mode to analyze the Spanish edition of Pokémon Emerald for GBA, and compares it against the pret/pokeemerald decompilation project. Symbols are ported through byte matching, with an REA patch for Thumb seed addresses and a symbol-porting script provided.",
+      "target": "Pokémon Emerald (Spanish edition) GBA ROM",
+      "metric": "81% of functions named via byte matching"
+    },
+    "zh-CN": {
+      "title": "用 REA＋Ghidra 分析 GBA 宝可梦绿宝石并移植符号",
+      "summary": "用 REA 搭配 Ghidra 无头模式分析 GBA 版宝可梦绿宝石（西语版），并与 pret/pokeemerald 反编译项目比对。通过字节比对移植符号，并提供 Thumb 种子地址的 REA 补丁与符号移植脚本。",
+      "target": "宝可梦绿宝石（西语版）GBA ROM",
+      "metric": "通过字节比对命名 81% 的函数"
+    }
+  },
+  "d-b3cfebb4ca": {
+    "hash": "9f0a135a5c40",
+    "en": {
+      "title": "rea-playbook: Analyzing a Minimal Electron App with REA and Validating the Rebuild Workflow",
+      "summary": "For an 8-file minimal Electron app, this turns the 1.8 MB Evidence JSON produced by REA into a readable report with file:line references, and provides an MCP handshake probe and a rebuild example. No native reverse-engineering engine needs to be installed, and tests confirm that REA does not pair IPC channels by textual similarity.",
+      "target": "Minimal Electron sample app and the REA MCP server",
+      "metric": "1.8 MB of Evidence compressed to 4.21% (about 75 KB); rebuild example passes 10/10 assertions"
+    },
+    "zh-CN": {
+      "title": "rea-playbook：用 REA 分析最小 Electron 应用并验证重建流程",
+      "summary": "针对 8 个文件的最小 Electron 应用，将 REA 产出的 1.8 MB Evidence JSON 转成带 file:line 的可读报告，并提供 MCP 握手探测与重建示例。无需安装原生逆向引擎，并通过测试确认 REA 不会凭文字相似度配对 IPC 通道。",
+      "target": "最小化 Electron 示例应用与 REA MCP 服务器",
+      "metric": "1.8 MB Evidence 压缩为 4.21%（约 75 KB），重建示例 10/10 断言通过"
+    }
+  },
+  "d-e595d7a957": {
+    "hash": "6ba9e859f50c",
+    "en": {
+      "title": "Static Triage of APK, JS and WASM at the Edge with a Cloudflare Worker",
+      "summary": "The goal is fast static triage of competitors' APKs, JS bundles, WASM, ELF and PE files at the edge. The approach covers magic-byte detection, per-1KB entropy, string extraction and real-estate keyword classification, and publishes a rea.analysis.completed event to the bus. The author states plainly that it is not a full decompiler; deep analysis is still left to local REA.",
+      "target": "Competitor APKs, JS bundles, WASM, ELF and PE files",
+      "metric": "Supports files up to 50MB, outputting an evidence chain with offsets and confidence scores"
+    },
+    "zh-CN": {
+      "title": "以 Cloudflare Worker 在边缘对 APK／JS／WASM 做静态初筛",
+      "summary": "目标是在边缘端对竞品 APK、JS 包、WASM、ELF、PE 做快速静态初筛。做法包括魔术字节检测、每 1KB 熵值、字符串提取和房地产关键词分类，并把 rea.analysis.completed 事件发布到总线；作者明确说明它不是完整的反编译器，深度分析仍留给本地 REA。",
+      "target": "竞品 APK、JS 包、WASM、ELF、PE 文件",
+      "metric": "支持 50MB 以内文件，输出附偏移量与置信度的证据链"
+    }
   }
 }

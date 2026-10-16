@@ -404,7 +404,8 @@
   "d-8291995c5c": {
     "tried": "2026-10-12",
     "file": "d-8291995c5c.jpg",
-    "src": "https://i.ytimg.com/vi/nL9MmtrdcC8/hqdefault.jpg"
+    "src": "https://i.ytimg.com/vi/nL9MmtrdcC8/hqdefault.jpg",
+    "generic": true
   },
   "d-e2517fca1f": {
     "tried": "2026-10-12",
@@ -953,14 +954,14 @@
     "tried": "2026-10-12"
   },
   "d-ac3d0bc9f7": {
-    "tried": "2026-10-15",
-    "file": "d-ac3d0bc9f7.jpg",
-    "src": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fassets.apidog.com%2Fblog-next%2F2026%2F10%2Fheader-32.png"
+    "tried": "2026-10-16",
+    "file": "d-ac3d0bc9f7.svg",
+    "src": "https://assets.dev.to/assets/heart-plus-active-9ea3b22f2bc311281db911d416166c5f430636e76b15cd5df6b3b841d830eefa.svg"
   },
   "d-c2c3b8a811": {
-    "tried": "2026-10-15",
-    "file": "d-c2c3b8a811.jpg",
-    "src": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fassets.apidog.com%2Fblog-next%2F2026%2F10%2Fheader-32.png"
+    "tried": "2026-10-16",
+    "file": "d-c2c3b8a811.svg",
+    "src": "https://assets.dev.to/assets/heart-plus-active-9ea3b22f2bc311281db911d416166c5f430636e76b15cd5df6b3b841d830eefa.svg"
   },
   "d-2200028a0b": {
     "tried": "2026-10-12"
@@ -1276,9 +1277,9 @@
     "src": "https://opengraph.githubassets.com/1/NabilRFG12/Reverse-Engineer-anything"
   },
   "d-183af3550c": {
-    "tried": "2026-10-15",
-    "file": "d-183af3550c.jpg",
-    "src": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fassets.apidog.com%2Fblog-next%2F2026%2F10%2Fheader-32.png"
+    "tried": "2026-10-16",
+    "file": "d-183af3550c.svg",
+    "src": "https://assets.dev.to/assets/heart-plus-active-9ea3b22f2bc311281db911d416166c5f430636e76b15cd5df6b3b841d830eefa.svg"
   },
   "d-1fa2baaa08": {
     "tried": "2026-10-13",
@@ -1296,19 +1297,19 @@
     "src": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGODgzMTYlMkZwcm9maWxlLWltYWdlcyUyRjE3MDgwODAxMjM_aXhsaWI9cmItNC4xLjEmYXI9MSUzQTEmZml0PWNyb3AmbWFzaz1lbGxpcHNlJmJnPUZGRkZGRiZmbT1wbmczMiZzPTdlYWZmOGJmYjU1NzNlNDAzOGMxMjM3ZWUzMjQ4MWNl%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D21470933a45a0ec36724c827775f7517?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9MSUyMCVFOSU4MCVCMSVFOSU5NiU5MyVFMyU4MSVBNyUyMDE1JTIwJUU0JUI4JTg3JUUzJTgyJUI5JUUzJTgyJUJGJUUzJTgzJUJDJUUzJTgwJTgxQUklMjAlRTMlODElQUIlRTMlODMlQUElRTMlODMlOTAlRTMlODMlQkMlRTMlODIlQjklRTMlODIlQTglRTMlODMlQjMlRTMlODIlQjglRTMlODMlOEIlRTMlODIlQTIlRTMlODMlQUElRTMlODMlQjMlRTMlODIlQjAlRTMlODElOTUlRTMlODElOUIlRTMlODIlOEIlMjBSRUElMjAlRTMlODIlOTIlRTglQUElQkYlRTMlODElQjklRTMlODElQTYlRTMlODElQkYlRTMlODElOUYmdHh0LWFsaWduPWxlZnQlMkN0b3AmdHh0LWNvbG9yPSUyMzFFMjEyMSZ0eHQtZm9udD1IaXJhZ2lubyUyMFNhbnMlMjBXNiZ0eHQtc2l6ZT01NiZ0eHQtcGFkPTAmcz04ZWU4NjFlNWFkOWY1ZjI4NWRkY2M5MmZkN2RjZDY0NA&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBoaXNhc2hpLWl0byZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTM2JnR4dC1wYWQ9MCZzPTU4ZmY0ZGQwMDRlY2ZjMDkxZGM3Y2ZkZWFhMWRlMTU5&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=a014be8dfa18c7ba8c9aa69671774dd5"
   },
   "d-bd963fa35c": {
-    "tried": "2026-10-15",
-    "file": "d-bd963fa35c.jpg",
-    "src": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fassets.apidog.com%2Fblog-next%2F2026%2F10%2Fheader-32.png"
+    "tried": "2026-10-16",
+    "file": "d-bd963fa35c.svg",
+    "src": "https://assets.dev.to/assets/heart-plus-active-9ea3b22f2bc311281db911d416166c5f430636e76b15cd5df6b3b841d830eefa.svg"
   },
   "d-faf264da8a": {
-    "tried": "2026-10-15",
-    "file": "d-faf264da8a.jpg",
-    "src": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fassets.apidog.com%2Fblog-next%2F2026%2F10%2Fheader-32.png"
+    "tried": "2026-10-16",
+    "file": "d-faf264da8a.svg",
+    "src": "https://assets.dev.to/assets/heart-plus-active-9ea3b22f2bc311281db911d416166c5f430636e76b15cd5df6b3b841d830eefa.svg"
   },
   "d-5b91868a4e": {
-    "tried": "2026-10-15",
-    "file": "d-5b91868a4e.jpg",
-    "src": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fassets.apidog.com%2Fblog-next%2F2026%2F10%2Fheader-32.png"
+    "tried": "2026-10-16",
+    "file": "d-5b91868a4e.svg",
+    "src": "https://assets.dev.to/assets/heart-plus-active-9ea3b22f2bc311281db911d416166c5f430636e76b15cd5df6b3b841d830eefa.svg"
   },
   "d-3c6a478af7": {
     "tried": "2026-10-13",
@@ -1386,19 +1387,19 @@
     "tried": "2026-10-13"
   },
   "d-6e8a84307f": {
-    "tried": "2026-10-15",
-    "file": "d-6e8a84307f.jpg",
-    "src": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fassets.apidog.com%2Fblog-next%2F2026%2F10%2Fheader-32.png"
+    "tried": "2026-10-16",
+    "file": "d-6e8a84307f.svg",
+    "src": "https://assets.dev.to/assets/heart-plus-active-9ea3b22f2bc311281db911d416166c5f430636e76b15cd5df6b3b841d830eefa.svg"
   },
   "d-11e651d19e": {
-    "tried": "2026-10-15",
-    "file": "d-11e651d19e.jpg",
-    "src": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fassets.apidog.com%2Fblog-next%2F2026%2F10%2Fheader-32.png"
+    "tried": "2026-10-16",
+    "file": "d-11e651d19e.svg",
+    "src": "https://assets.dev.to/assets/heart-plus-active-9ea3b22f2bc311281db911d416166c5f430636e76b15cd5df6b3b841d830eefa.svg"
   },
   "d-6c3061f2e0": {
-    "tried": "2026-10-15",
-    "file": "d-6c3061f2e0.jpg",
-    "src": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fassets.apidog.com%2Fblog-next%2F2026%2F10%2Fheader-32.png"
+    "tried": "2026-10-16",
+    "file": "d-6c3061f2e0.svg",
+    "src": "https://assets.dev.to/assets/heart-plus-active-9ea3b22f2bc311281db911d416166c5f430636e76b15cd5df6b3b841d830eefa.svg"
   },
   "d-666637fd4c": {
     "tried": "2026-10-13"
@@ -1754,9 +1755,9 @@
     "src": "https://opengraph.githubassets.com/1/alexmi256/rea-agent-docker"
   },
   "d-fb3bce1426": {
-    "tried": "2026-10-15",
-    "file": "d-fb3bce1426.jpg",
-    "src": "https://reatool.dev/og.png"
+    "tried": "2026-10-16",
+    "file": "d-fb3bce1426.svg",
+    "src": "https://reatool.dev/rea-mark.svg"
   },
   "d-e5b8f0b612": {
     "tried": "2026-10-14"
@@ -2144,7 +2145,8 @@
   "d-d7e149d4b2": {
     "tried": "2026-10-15",
     "file": "d-d7e149d4b2.svg",
-    "src": "https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/6c61ae65d1c41ae8221a670fa32d05aa.svg"
+    "src": "https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/6c61ae65d1c41ae8221a670fa32d05aa.svg",
+    "generic": true
   },
   "d-f9a82b24e1": {
     "tried": "2026-10-14",
@@ -2185,22 +2187,25 @@
   "d-bd4f93aa34": {
     "tried": "2026-10-15",
     "file": "d-bd4f93aa34.svg",
-    "src": "https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/6c61ae65d1c41ae8221a670fa32d05aa.svg"
+    "src": "https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/6c61ae65d1c41ae8221a670fa32d05aa.svg",
+    "generic": true
   },
   "d-23cd3d152a": {
-    "tried": "2026-10-15",
-    "file": "d-23cd3d152a.svg",
-    "src": "https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/6c61ae65d1c41ae8221a670fa32d05aa.svg"
+    "tried": "2026-10-16",
+    "file": "d-23cd3d152a.jpg",
+    "src": "https://image.kjdaohang.com/img/20261013093701056.png"
   },
   "d-b2c45fd830": {
     "tried": "2026-10-15",
     "file": "d-b2c45fd830.svg",
-    "src": "https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/6c61ae65d1c41ae8221a670fa32d05aa.svg"
+    "src": "https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/6c61ae65d1c41ae8221a670fa32d05aa.svg",
+    "generic": true
   },
   "d-9c91146c62": {
     "tried": "2026-10-15",
     "file": "d-9c91146c62.svg",
-    "src": "https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/6c61ae65d1c41ae8221a670fa32d05aa.svg"
+    "src": "https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/6c61ae65d1c41ae8221a670fa32d05aa.svg",
+    "generic": true
   },
   "d-f6b38251c9": {
     "tried": "2026-10-14"
@@ -2214,7 +2219,8 @@
   "d-632869b2f2": {
     "tried": "2026-10-15",
     "file": "d-632869b2f2.svg",
-    "src": "https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/6c61ae65d1c41ae8221a670fa32d05aa.svg"
+    "src": "https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/6c61ae65d1c41ae8221a670fa32d05aa.svg",
+    "generic": true
   },
   "d-97d3e8dc55": {
     "tried": "2026-10-15",
@@ -2337,9 +2343,9 @@
     "tried": "2026-10-15"
   },
   "d-6a36c6eafb": {
-    "tried": "2026-10-15",
-    "file": "d-6a36c6eafb.jpg",
-    "src": "https://reatool.dev/og.png"
+    "tried": "2026-10-16",
+    "file": "d-6a36c6eafb.svg",
+    "src": "https://reatool.dev/rea-mark.svg"
   },
   "d-583253f057": {
     "tried": "2026-10-15"
@@ -2429,9 +2435,9 @@
     "src": "https://opengraph.githubassets.com/1/nx9161/war-room-protocol"
   },
   "d-b8d6bd24fe": {
-    "tried": "2026-10-15",
-    "file": "d-b8d6bd24fe.jpg",
-    "src": "https://reatool.dev/og.png"
+    "tried": "2026-10-16",
+    "file": "d-b8d6bd24fe.svg",
+    "src": "https://reatool.dev/rea-mark.svg"
   },
   "d-7656edb5da": {
     "tried": "2026-10-15",
@@ -2453,9 +2459,9 @@
     "src": "https://rea-reverse.com/og/zh/index.png"
   },
   "d-fd57fa39c0": {
-    "tried": "2026-10-15",
-    "file": "d-fd57fa39c0.jpg",
-    "src": "https://reatool.dev/og.png"
+    "tried": "2026-10-16",
+    "file": "d-fd57fa39c0.svg",
+    "src": "https://reatool.dev/rea-mark.svg"
   },
   "d-56859266c6": {
     "tried": "2026-10-15"
@@ -2572,7 +2578,8 @@
   "d-5ea2f6b36f": {
     "tried": "2026-10-15",
     "file": "d-5ea2f6b36f.svg",
-    "src": "https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/6c61ae65d1c41ae8221a670fa32d05aa.svg"
+    "src": "https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/6c61ae65d1c41ae8221a670fa32d05aa.svg",
+    "generic": true
   },
   "d-5e0bc0c982": {
     "tried": "2026-10-15"
@@ -2606,22 +2613,22 @@
     "src": "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=1200&h=630&fit=crop"
   },
   "d-28c1abb79e": {
-    "tried": "2026-10-15",
-    "file": "d-28c1abb79e.jpg",
-    "src": "https://reatool.dev/og.png"
+    "tried": "2026-10-16",
+    "file": "d-28c1abb79e.svg",
+    "src": "https://reatool.dev/rea-mark.svg"
   },
   "d-bbf28df912": {
-    "tried": "2026-10-15",
-    "file": "d-bbf28df912.jpg",
-    "src": "https://reatool.dev/og.png"
+    "tried": "2026-10-16",
+    "file": "d-bbf28df912.svg",
+    "src": "https://reatool.dev/rea-mark.svg"
   },
   "d-0f8fe1a24d": {
     "tried": "2026-10-15"
   },
   "d-724886fe6e": {
-    "tried": "2026-10-15",
-    "file": "d-724886fe6e.jpg",
-    "src": "https://reatool.dev/og.png"
+    "tried": "2026-10-16",
+    "file": "d-724886fe6e.svg",
+    "src": "https://reatool.dev/rea-mark.svg"
   },
   "d-91dc3cc041": {
     "tried": "2026-10-15",
@@ -2709,7 +2716,8 @@
   "d-ee310c0e1a": {
     "tried": "2026-10-15",
     "file": "d-ee310c0e1a.jpg",
-    "src": "https://reamcp.dev/opengraph-image"
+    "src": "https://reamcp.dev/opengraph-image",
+    "generic": true
   },
   "d-241650fba4": {
     "tried": "2026-10-15"
@@ -2717,7 +2725,8 @@
   "d-61c3f4b954": {
     "tried": "2026-10-15",
     "file": "d-61c3f4b954.jpg",
-    "src": "https://i.ytimg.com/vi/nL9MmtrdcC8/hqdefault.jpg"
+    "src": "https://i.ytimg.com/vi/nL9MmtrdcC8/hqdefault.jpg",
+    "generic": true
   },
   "d-90751796c2": {
     "tried": "2026-10-15",
@@ -2745,7 +2754,8 @@
   "d-2f4886fa58": {
     "tried": "2026-10-15",
     "file": "d-2f4886fa58.svg",
-    "src": "https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/6c61ae65d1c41ae8221a670fa32d05aa.svg"
+    "src": "https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/6c61ae65d1c41ae8221a670fa32d05aa.svg",
+    "generic": true
   },
   "d-1b547650cd": {
     "tried": "2026-10-15",
@@ -2780,8 +2790,439 @@
     "src": "https://i.ytimg.com/vi/m4D0wr01DbA/hqdefault.jpg"
   },
   "d-04a7456d8d": {
-    "tried": "2026-10-15",
+    "tried": "2026-10-16",
     "file": "d-04a7456d8d.jpg",
-    "src": "https://reamcp.dev/opengraph-image"
+    "src": "https://reamcp.dev/media/9c07df51b5cbc3bb18a3b71d.jpeg"
+  },
+  "d-0e97307937": {
+    "tried": "2026-10-16",
+    "file": "d-0e97307937.jpg",
+    "src": "https://reverseengineeranything.app/assets/social-card.png",
+    "generic": true
+  },
+  "d-1699b856e8": {
+    "tried": "2026-10-16",
+    "file": "d-1699b856e8.jpg",
+    "src": "https://opengraph.githubassets.com/1/VergiliusLAM/OpenDoki-Meta2"
+  },
+  "d-e8f555dca5": {
+    "tried": "2026-10-16",
+    "file": "d-e8f555dca5.jpg",
+    "src": "https://opengraph.githubassets.com/1/2lab-ai/ultima6"
+  },
+  "d-f1b6d58e3e": {
+    "tried": "2026-10-16"
+  },
+  "d-216841154b": {
+    "tried": "2026-10-16",
+    "file": "d-216841154b.jpg",
+    "src": "https://opengraph.githubassets.com/1/hudsonbrendon/castmenu"
+  },
+  "d-db6b6eae3f": {
+    "tried": "2026-10-16"
+  },
+  "d-692e4961f4": {
+    "tried": "2026-10-16"
+  },
+  "d-b02b8f77eb": {
+    "tried": "2026-10-16",
+    "file": "d-b02b8f77eb.jpg",
+    "src": "https://opengraph.githubassets.com/1/majbal87/rea-addons"
+  },
+  "d-1554b3f66e": {
+    "tried": "2026-10-16",
+    "file": "d-1554b3f66e.jpg",
+    "src": "https://opengraph.githubassets.com/1/ighoshsubho/m4-air-inventory"
+  },
+  "d-de9583d742": {
+    "tried": "2026-10-16",
+    "file": "d-de9583d742.jpg",
+    "src": "https://opengraph.githubassets.com/1/Duyfrom/samsung-tv-remote"
+  },
+  "d-53c9e64a7c": {
+    "tried": "2026-10-16",
+    "file": "d-53c9e64a7c.jpg",
+    "src": "https://opengraph.githubassets.com/1/LuisMFG/hisense-menubar"
+  },
+  "d-503e0a74d8": {
+    "tried": "2026-10-16"
+  },
+  "d-4a71013380": {
+    "tried": "2026-10-16",
+    "file": "d-4a71013380.jpg",
+    "src": "https://i.ytimg.com/vi/sUfPTpsQbnM/hqdefault.jpg"
+  },
+  "d-fadb448c34": {
+    "tried": "2026-10-16"
+  },
+  "d-5302fb22b6": {
+    "tried": "2026-10-16"
+  },
+  "d-43ba2a9c24": {
+    "tried": "2026-10-16"
+  },
+  "d-d4ac31aaf8": {
+    "tried": "2026-10-16"
+  },
+  "d-a14d950389": {
+    "tried": "2026-10-16"
+  },
+  "d-69a33ebe95": {
+    "tried": "2026-10-16"
+  },
+  "d-8bc3a71e22": {
+    "tried": "2026-10-16"
+  },
+  "d-5138ef5a9e": {
+    "tried": "2026-10-16",
+    "file": "d-5138ef5a9e.jpg",
+    "src": "https://opengraph.githubassets.com/1/Afloat16/anti-rea-forge"
+  },
+  "d-b06e136c1f": {
+    "tried": "2026-10-16",
+    "file": "d-b06e136c1f.jpg",
+    "src": "https://opengraph.githubassets.com/1/sulaimwn/REA-For-Web"
+  },
+  "d-7dc975affa": {
+    "tried": "2026-10-16"
+  },
+  "d-211278f991": {
+    "tried": "2026-10-16",
+    "file": "d-211278f991.svg",
+    "src": "https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/e08da34488b114bd4c665ba2fa520a31.svg",
+    "generic": true
+  },
+  "d-78d804834b": {
+    "tried": "2026-10-16"
+  },
+  "d-01656141db": {
+    "tried": "2026-10-16"
+  },
+  "d-b5b43768ad": {
+    "tried": "2026-10-16"
+  },
+  "d-9b0798b548": {
+    "tried": "2026-10-16",
+    "file": "d-9b0798b548.jpg",
+    "src": "https://opengraph.githubassets.com/1/ShadowSwaps/REA-Reconstruction-Companion"
+  },
+  "d-4a697a1df0": {
+    "tried": "2026-10-16",
+    "file": "d-4a697a1df0.jpg",
+    "src": "https://i.ytimg.com/vi/JZ7IPKAseYE/hqdefault.jpg"
+  },
+  "d-82e04f7b00": {
+    "tried": "2026-10-16"
+  },
+  "d-f5e1706815": {
+    "tried": "2026-10-16"
+  },
+  "d-2a88659ee2": {
+    "tried": "2026-10-16"
+  },
+  "d-105efaffea": {
+    "tried": "2026-10-16"
+  },
+  "d-fe2acc8797": {
+    "tried": "2026-10-16"
+  },
+  "d-69c54848b7": {
+    "tried": "2026-10-16",
+    "file": "d-69c54848b7.jpg",
+    "src": "https://opengraph.githubassets.com/1/Garioli-Labs/claude-hadouken"
+  },
+  "d-54e897d371": {
+    "tried": "2026-10-16"
+  },
+  "d-afe19240dd": {
+    "tried": "2026-10-16"
+  },
+  "d-6ac3fbc992": {
+    "tried": "2026-10-16"
+  },
+  "d-5c06e83b50": {
+    "tried": "2026-10-16"
+  },
+  "d-31fe1a2351": {
+    "tried": "2026-10-16"
+  },
+  "d-71e5e56548": {
+    "tried": "2026-10-16",
+    "file": "d-71e5e56548.jpg",
+    "src": "https://opengraph.githubassets.com/1/scottkw/rea-installer"
+  },
+  "d-5fd2aabc94": {
+    "tried": "2026-10-16",
+    "file": "d-5fd2aabc94.jpg",
+    "src": "https://opengraph.githubassets.com/1/0xfroOty/rea"
+  },
+  "d-5f2eb446dc": {
+    "tried": "2026-10-16",
+    "file": "d-5f2eb446dc.jpg",
+    "src": "https://reamcp.dev/og/hands-on-analysing-your-own-apps-with-rea-ghidra-and-claude--bfd07f.png?l=en"
+  },
+  "d-a52560aa18": {
+    "tried": "2026-10-16",
+    "file": "d-a52560aa18.jpg",
+    "src": "https://opengraph.githubassets.com/1/crentefiel/coreldraw-rea"
+  },
+  "d-e762720e52": {
+    "tried": "2026-10-16",
+    "file": "d-e762720e52.jpg",
+    "src": "https://opengraph.githubassets.com/1/nawmee02/REA-Studio"
+  },
+  "d-8ed51ceb0b": {
+    "tried": "2026-10-16",
+    "file": "d-8ed51ceb0b.jpg",
+    "src": "https://opengraph.githubassets.com/1/wyfirstname/rea-ui"
+  },
+  "d-f084dd8d29": {
+    "tried": "2026-10-16",
+    "file": "d-f084dd8d29.jpg",
+    "src": "https://opengraph.githubassets.com/1/ycgiio/rea-workbench"
+  },
+  "d-2ad96b221b": {
+    "tried": "2026-10-16",
+    "file": "d-2ad96b221b.jpg",
+    "src": "https://opengraph.githubassets.com/1/bingxijun/reverse-engineering-workbench"
+  },
+  "d-dd8733edf1": {
+    "tried": "2026-10-16",
+    "file": "d-dd8733edf1.jpg",
+    "src": "https://opengraph.githubassets.com/1/infero-ai/ai-skills-prompts"
+  },
+  "d-2bd3c660f0": {
+    "tried": "2026-10-16",
+    "file": "d-2bd3c660f0.jpg",
+    "src": "https://opengraph.githubassets.com/1/peige-guo/CLI-anything"
+  },
+  "d-fa5c4281f6": {
+    "tried": "2026-10-16"
+  },
+  "d-51fab00f4c": {
+    "tried": "2026-10-16"
+  },
+  "d-63da6a482f": {
+    "tried": "2026-10-16",
+    "file": "d-63da6a482f.jpg",
+    "src": "https://opengraph.githubassets.com/1/VoIPMundoTelecom/claude-plugins"
+  },
+  "d-ed99de8e6e": {
+    "tried": "2026-10-16",
+    "file": "d-ed99de8e6e.jpg",
+    "src": "https://reverseengineeranything.tools/og.png"
+  },
+  "d-ff8e699129": {
+    "tried": "2026-10-16"
+  },
+  "d-e024b9cae3": {
+    "tried": "2026-10-16",
+    "file": "d-e024b9cae3.jpg",
+    "src": "https://pbs.twimg.com/profile_images/561086911561736192/6_g58vEs_normal.jpeg"
+  },
+  "d-bbb4684e6a": {
+    "tried": "2026-10-16",
+    "file": "d-bbb4684e6a.jpg",
+    "src": "https://d2sofvawe08yqg.cloudfront.net/practical-agentic-reverse-engineering/s_hero2x?1791818827&1791818827"
+  },
+  "d-fc0b602317": {
+    "tried": "2026-10-16",
+    "file": "d-fc0b602317.jpg",
+    "src": "https://reamcp.dev/media/9c07df51b5cbc3bb18a3b71d.jpeg"
+  },
+  "d-e042abe941": {
+    "tried": "2026-10-16",
+    "file": "d-e042abe941.svg",
+    "src": "https://reatool.dev/rea-mark.svg"
+  },
+  "d-40d07b20d2": {
+    "tried": "2026-10-16",
+    "file": "d-40d07b20d2.jpg",
+    "src": "https://opengraph.githubassets.com/1/JAMESBROUSE/reggie-v3.6-production"
+  },
+  "d-c61e14bff3": {
+    "tried": "2026-10-16",
+    "file": "d-c61e14bff3.svg",
+    "src": "https://blog.vastnext.com/img/ahhfs.svg"
+  },
+  "d-e5f39ca9e9": {
+    "tried": "2026-10-16"
+  },
+  "d-9fce6a5c0e": {
+    "tried": "2026-10-16",
+    "file": "d-9fce6a5c0e.jpg",
+    "src": "https://i.ytimg.com/vi/r1jHxwwg5tk/hqdefault.jpg"
+  },
+  "d-745bc996c3": {
+    "tried": "2026-10-16",
+    "file": "d-745bc996c3.jpg",
+    "src": "https://i.ytimg.com/vi/PseF3LyXQ04/hqdefault.jpg"
+  },
+  "d-299f26e646": {
+    "tried": "2026-10-16",
+    "file": "d-299f26e646.jpg",
+    "src": "https://i.ytimg.com/vi/4NH9mpw_CdA/hqdefault.jpg"
+  },
+  "d-2ceba23e2d": {
+    "tried": "2026-10-16",
+    "file": "d-2ceba23e2d.jpg",
+    "src": "https://i.ytimg.com/vi/2eyz3-1o7vE/hqdefault.jpg"
+  },
+  "d-cd44754d72": {
+    "tried": "2026-10-16",
+    "file": "d-cd44754d72.jpg",
+    "src": "https://i.ytimg.com/vi/PxvpxO6p-hg/hqdefault.jpg"
+  },
+  "d-ff3c04dc6d": {
+    "tried": "2026-10-16"
+  },
+  "d-db0aa10277": {
+    "tried": "2026-10-16",
+    "file": "d-db0aa10277.jpg",
+    "src": "https://i.ytimg.com/vi/HvfmnI6wl5c/hqdefault.jpg"
+  },
+  "d-e4223f76b7": {
+    "tried": "2026-10-16",
+    "file": "d-e4223f76b7.jpg",
+    "src": "https://i.ytimg.com/vi/lRVIQW2WbCI/hqdefault.jpg"
+  },
+  "d-f69c515bc8": {
+    "tried": "2026-10-16"
+  },
+  "d-09a64339d4": {
+    "tried": "2026-10-16"
+  },
+  "d-e217fc93dd": {
+    "tried": "2026-10-16"
+  },
+  "d-58858cc113": {
+    "tried": "2026-10-16",
+    "file": "d-58858cc113.jpg",
+    "src": "https://i.ytimg.com/vi/qOwxpV_SN4I/hqdefault.jpg"
+  },
+  "d-631dc0510e": {
+    "tried": "2026-10-16",
+    "file": "d-631dc0510e.jpg",
+    "src": "https://opengraph.githubassets.com/1/awesomerea/awesome-rea"
+  },
+  "d-4bcd24720d": {
+    "tried": "2026-10-16"
+  },
+  "d-bdb3bb40fa": {
+    "tried": "2026-10-16",
+    "file": "d-bdb3bb40fa.jpg",
+    "src": "https://i.ytimg.com/vi/VXi9UG4s8LM/hqdefault.jpg"
+  },
+  "d-f4af2f46c2": {
+    "tried": "2026-10-16"
+  },
+  "d-3fdebb0776": {
+    "tried": "2026-10-16"
+  },
+  "d-ded7b817e8": {
+    "tried": "2026-10-16",
+    "file": "d-ded7b817e8.jpg",
+    "src": "https://i.ytimg.com/vi/EcXHVVamAqI/hqdefault.jpg"
+  },
+  "d-de0086b6ba": {
+    "tried": "2026-10-16",
+    "file": "d-de0086b6ba.jpg",
+    "src": "https://i.ytimg.com/vi/z0eaMMOVD8U/hqdefault.jpg"
+  },
+  "d-2c0cc7ec2f": {
+    "tried": "2026-10-16",
+    "file": "d-2c0cc7ec2f.jpg",
+    "src": "https://skillsllm.com/skill/rea/opengraph-image?7080a1eb6b3d7a1f"
+  },
+  "d-d6aa4f5065": {
+    "tried": "2026-10-16"
+  },
+  "d-0c1ae0dd05": {
+    "tried": "2026-10-16"
+  },
+  "d-a2c60bc7d4": {
+    "tried": "2026-10-16"
+  },
+  "d-0d88e68a75": {
+    "tried": "2026-10-16"
+  },
+  "d-26735fdaa0": {
+    "tried": "2026-10-16"
+  },
+  "d-e776c1c4c1": {
+    "tried": "2026-10-16",
+    "file": "d-e776c1c4c1.jpg",
+    "src": "https://claudecodereview.ai/og/5a9c2cc0a4ffdc33d9cde156.png"
+  },
+  "d-2761852b3d": {
+    "tried": "2026-10-16",
+    "file": "d-2761852b3d.jpg",
+    "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgV6gnnoUv51prFToEde7whnNlE7KvdYOQ7tM7B2feys3ruxk_dExMCOp1ZYo2aT9TFfPlRAvDO5oTvg7AVMaIjnWyKep396exe2Ap8vvDFq8i2hAdFfjm_O9Lqszr48DlYkE4QJ7owyIXvGqt8lbw5lkTiPb_NPYurq7NLKXGPqE8g3_MIwC-WJb1S4P1n/s1600/Reverse%20Engineer%20Anything1.webp"
+  },
+  "d-2ad7695485": {
+    "tried": "2026-10-16",
+    "file": "d-2ad7695485.jpg",
+    "src": "https://i.ytimg.com/vi/wIqDk30cnmA/hqdefault.jpg"
+  },
+  "d-29b566886b": {
+    "tried": "2026-10-16",
+    "file": "d-29b566886b.jpg",
+    "src": "https://reamcp.dev/og/reverse-engineer-anything-rea-explained-b3b7fe.png?l=en"
+  },
+  "d-65550d8e80": {
+    "tried": "2026-10-16"
+  },
+  "d-d87fc586f9": {
+    "tried": "2026-10-16"
+  },
+  "d-135572c44d": {
+    "tried": "2026-10-16",
+    "file": "d-135572c44d.jpg",
+    "src": "https://opengraph.githubassets.com/1/Iodine-53/rea"
+  },
+  "d-528ad1ddbc": {
+    "tried": "2026-10-16",
+    "file": "d-528ad1ddbc.jpg",
+    "src": "https://opengraph.githubassets.com/1/zheedevVn/Rea-Unlock"
+  },
+  "d-74e2e094e1": {
+    "tried": "2026-10-16",
+    "file": "d-74e2e094e1.jpg",
+    "src": "https://opengraph.githubassets.com/1/jukeyman/jukeyman-unleashed"
+  },
+  "d-0780a29775": {
+    "tried": "2026-10-16",
+    "file": "d-0780a29775.jpg",
+    "src": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fagentconn.com%2Fblog%2Frea-reverse-engineering-agent-hero.jpg"
+  },
+  "d-e47fe9cded": {
+    "tried": "2026-10-16"
+  },
+  "d-3f9c987cce": {
+    "tried": "2026-10-16"
+  },
+  "d-0e5e18fc06": {
+    "tried": "2026-10-16"
+  },
+  "d-03a7313819": {
+    "tried": "2026-10-16"
+  },
+  "d-70a125c0ec": {
+    "tried": "2026-10-16",
+    "file": "d-70a125c0ec.jpg",
+    "src": "https://imgs.nere9.help/accounts/avatars/000/053/405/original/1c05730c2fa16c87.png"
+  },
+  "d-429b08766f": {
+    "tried": "2026-10-16"
+  },
+  "d-5fd892b841": {
+    "tried": "2026-10-16",
+    "file": "d-5fd892b841.jpg",
+    "src": "https://image.kjdaohang.com/img/20261013093701056.png"
+  },
+  "d-5142b9628c": {
+    "tried": "2026-10-16",
+    "file": "d-5142b9628c.jpg",
+    "src": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,quality=80,width=1200,onerror=redirect/uploads/publication/logo/3991a497-fc56-4e1c-84e3-436c04d679e7/111.png"
   }
 }

@@ -7498,5 +7498,320 @@
       "target": "AudioPen/Wispr Flow 类应用与 Higgsfield API(自述)",
       "metric": "自述 7 项测试通过(3.45 秒)"
     }
+  },
+  "d-b000aba7f6": {
+    "hash": "af381fcf86c6",
+    "en": {
+      "title": "Using REA to reverse-engineer IGI 2 and make the player character invisible",
+      "summary": "The author says they reverse-engineered the game IGI 2 with REA and made their own character invisible. The account is the author's own; no code, screenshots, or specific method are provided.",
+      "target": "IGI 2 (game)",
+      "metric": "Character made invisible (author's claim)"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向 IGI 2,让角色隐形",
+      "summary": "作者用 REA 逆向游戏 IGI 2,成功让自己的角色变成隐形。内容仅有作者自述,没有附代码、截图或具体做法。",
+      "target": "IGI 2(游戏)",
+      "metric": "角色隐形(作者自述)"
+    }
+  },
+  "d-f62f5599a7": {
+    "hash": "162b233857b0",
+    "en": {
+      "title": "Using REA to study Bloomberg Terminal function codes and panel communication, then building a replacement",
+      "summary": "The author claims to have spent a weekend having REA study, from the outside, how the Bloomberg Terminal chains function codes and how Launchpad panels communicate, then built a replacement based on that. The excerpt includes no code, screenshots, or tests; the results are the author's own claim.",
+      "target": "Bloomberg Terminal",
+      "metric": "Replacement built in one weekend (author's claim)"
+    },
+    "zh-CN": {
+      "title": "用 REA 研究 Bloomberg 终端的功能码与面板通信,自制替代品",
+      "summary": "作者声称花一个周末,让 REA 从外部研究 Bloomberg 终端的功能码串接方式和 Launchpad 面板之间的通信,据此自建替代品。节选没有提供代码、截图或测试,成果只有作者自述。",
+      "target": "Bloomberg 终端",
+      "metric": "一个周末自建替代品(作者自述)"
+    }
+  },
+  "d-1310b174b3": {
+    "hash": "62cb79d3ca85",
+    "en": {
+      "title": "Analyzing Apple Metal AIR with REA MCP and the hermes skill",
+      "summary": "The author says REA MCP and the hermes skill can be used to reverse-engineer AIR (the Metal intermediate representation), and that they have saved an AIR snapshot from M4 silicon. The goal is to inject performance hints directly into the AIR that Metal produces. The content describes a direction and an idea, with no actual results or evidence.",
+      "target": "Apple Metal AIR (M4 silicon)",
+      "metric": "AIR snapshot from M4 saved; no results demonstrated yet"
+    },
+    "zh-CN": {
+      "title": "用 REA MCP 搭配 hermes skill 分析 Apple Metal AIR",
+      "summary": "作者表示可用 REA MCP 与 hermes skill 逆向 AIR(Metal 中间表示),并保存了 M4 silicon 的 AIR 快照。目标是把性能提示直接注入 Metal 产出的 AIR。内容是方向与构想,没有实际成果或证据。",
+      "target": "Apple Metal AIR(M4 silicon)",
+      "metric": "已有 M4 的 AIR 快照,尚未展示实际成果"
+    }
+  },
+  "d-a8ca00f73c": {
+    "hash": "1603336fa16c",
+    "en": {
+      "title": "Building my own Kindle and Audible replacement with REA in one night",
+      "summary": "The author says they used REA to build their own ebook and audiobook app in a single night, replacing Kindle and Audible. The post is mostly impressions and reflections, with no technical details, repo, or evidence.",
+      "target": "Kindle / Audible",
+      "metric": "Replacement app built in one night (self-reported)"
+    },
+    "zh-CN": {
+      "title": "用 REA 一晚做出自己的 Kindle 与 Audible 替代品",
+      "summary": "作者说用 REA 在一晚内做出自己的电子书与有声书 app,取代 Kindle 和 Audible。内容偏心得与感想,没有提供技术细节、repo 或证据。",
+      "target": "Kindle / Audible",
+      "metric": "一晚完成替代 app(自述)"
+    }
+  },
+  "d-c281873d17": {
+    "hash": "a377da766ba3",
+    "en": {
+      "title": "Rebuilding a Scrivener-style writing app in 24 hours with Claude Code and REA",
+      "summary": "The goal was to rebuild Scrivener, the macOS writing software. The author had Claude Code use REA to build an app called Folio, with a working binder, corkboard, outliner and inspector. The account is the author's own; no repo or test evidence is provided.",
+      "target": "Scrivener (macOS writing software)",
+      "metric": "Folio completed in 24 hours, with four main panels working"
+    },
+    "zh-CN": {
+      "title": "用 Claude Code 搭配 REA 在 24 小时内重建 Scrivener 风格写作 App",
+      "summary": "目标是重建 macOS 写作软件 Scrivener。作者让 Claude Code 搭配 REA 做出名为 Folio 的 App,binder、corkboard、outliner 与 inspector 均可运作。内容为作者自述,未附 repo 或测试证据。",
+      "target": "Scrivener(macOS 写作软件)",
+      "metric": "24 小时内完成 Folio,四个主要面板可运作"
+    }
+  },
+  "d-c16354dfc9": {
+    "hash": "546583b54283",
+    "en": {
+      "title": "REA traces an app's \"Export Notes\" button and finds a three-file call chain",
+      "summary": "The author watched an AI agent use REA to take apart an app in two minutes, following the path from the button through a bridge layer to the handler that writes notes.csv, across three files. Each step comes with a file and line number, but the target app is unnamed and no public results are provided.",
+      "target": "The \"Export Notes\" feature of an unnamed app",
+      "metric": "Three-file call chain (button, bridge, notes.csv write) traced in two minutes"
+    },
+    "zh-CN": {
+      "title": "REA 追踪应用程序“导出笔记”按钮,找到三个文件的调用链",
+      "summary": "作者观察 AI 代理用 REA 在两分钟内拆解一个应用程序,从按钮经过桥接层到写出 notes.csv 的处理函数,共追踪三个文件。每一步都附文件与行号,不过目标应用程序未具名,也没有提供公开成果。",
+      "target": "未具名应用程序的“导出笔记”功能",
+      "metric": "两分钟追踪出按钮、桥接、写入 notes.csv 的三文件调用链"
+    }
+  },
+  "d-b02f560b5a": {
+    "hash": "b7a6eed0448a",
+    "en": {
+      "title": "Using AI and REA to rebuild Sony's discontinued headphone app",
+      "summary": "The author used AI together with REA to rebuild the companion app for Sony headphones that Sony no longer supports, bringing headphones that had sat idle for years back into use. This is the author's own account only; no repo, screenshots or protocol details are provided.",
+      "target": "Sony headphone companion app",
+      "metric": "Rebuilt a discontinued Sony headphone app (self-reported)"
+    },
+    "zh-CN": {
+      "title": "用 AI 加 REA 重做被索尼停掉的耳机 app",
+      "summary": "作者用 AI 搭配 REA,自己重做了索尼已停止支持的耳机配套 app,让闲置多年的索尼耳机重新可用。内容只有作者自述,没有提供 repo、截图或协议细节。",
+      "target": "索尼耳机配套 app",
+      "metric": "重建已停产的索尼耳机 app(自述)"
+    }
+  },
+  "d-9fa69c73f3": {
+    "hash": "93ff0ee0d52f",
+    "en": {
+      "title": "Given only an archive, AI uses REA to clone a breakout game with 8 hidden rules",
+      "summary": "The author hid the 8 rules of their own breakout game, packed it into an archive, and gave it only to an AI to reverse-engineer through REA. The excerpted title says the whole game was cloned, but the content lists no rule-by-rule comparison or test evidence.",
+      "target": "Self-made breakout game (8 hidden rules)",
+      "metric": "Title claims the game was fully cloned; the excerpt lists no verification data"
+    },
+    "zh-CN": {
+      "title": "只给压缩包,让 AI 以 REA 复制出隐藏 8 条规则的打砖块游戏",
+      "summary": "作者把自制打砖块游戏的 8 条规则隐藏后压缩成文件,只交给 AI,让它通过 REA 逆向分析。节选标题称游戏被整个复制出来,但内容没有列出逐条规则比对或测试证据。",
+      "target": "自制打砖块游戏(隐藏 8 条规则)",
+      "metric": "标题称游戏被整个复制,节选未列验证数据"
+    }
+  },
+  "d-39ce0d017b": {
+    "hash": "0d280c5f37af",
+    "en": {
+      "title": "Using REA to reverse-engineer the Claude client and analyze the environment parameters its risk control uploads",
+      "summary": "The author reverse-engineered the Claude desktop client to examine the parameters its risk control uploads, including whether it runs under ARM translation, total and available memory, and whether the session is remote or over SSH, in order to infer whether the user is on a VPS. The write-up is a brief conclusion with no supporting evidence.",
+      "target": "Claude desktop client",
+      "metric": "Identified the parameters risk control reports: ARM translation, memory, remote/SSH, and more"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向 Claude 客户端，分析风控上传的环境参数",
+      "summary": "作者逆向 Claude 桌面客户端，分析其风控上传的参数，包括是否以 ARM 转译运行、内存总量与剩余量、是否为远程或 SSH 连接，以此判断用户是否在 VPS 上。内容只有简短结论，没有附证据。",
+      "target": "Claude 桌面客户端",
+      "metric": "找出风控上报的 ARM 转译、内存、远程/SSH 等判断参数"
+    }
+  },
+  "d-39d1b0e38f": {
+    "hash": "99543104b6b7",
+    "en": {
+      "title": "Using REA to statically read a web page's scripts and infer its frontend framework and APIs",
+      "summary": "The goal was to analyze a web page's frontend scripts. Without executing them, REA read 20 scripts, all of which parsed successfully, and identified Next.js with high confidence and React with medium confidence. It also found 2 routes and 2 actual API calls (newsletter subscription and analytics).",
+      "target": "A website's frontend scripts",
+      "metric": "20 scripts with 0 parse failures; found 2 routes and 2 API calls"
+    },
+    "zh-CN": {
+      "title": "用 REA 静态读取网页脚本并推测前端框架与 API",
+      "summary": "目标是分析一个网页的前端脚本。REA 在不执行的情况下读取了 20 个脚本且全部解析成功，以高置信度判断为 Next.js、中置信度判断为 React。同时找出 2 条路由与 2 个实际 API 调用（邮件订阅与分析）。",
+      "target": "某网站前端脚本",
+      "metric": "20 个脚本 0 解析失败，找出 2 条路由与 2 个 API 调用"
+    }
+  },
+  "d-1b348510f5": {
+    "hash": "4e3720366dda",
+    "en": {
+      "title": "Cloning Figma with REA MCP, with support for local ollama models",
+      "summary": "The author claims to have cloned Figma using REA MCP, with support for local ollama models, no paywall, unlimited files, and working features such as Make and agents. Only a link to the official REA repo is provided, with no repo of their own and no evidence.",
+      "target": "Figma",
+      "metric": "Claims all Figma features, including Make and agents, work"
+    },
+    "zh-CN": {
+      "title": "用 REA MCP 复刻 Figma 并支持 ollama 本地模型",
+      "summary": "作者声称用 REA MCP 复刻了 Figma，可接入 ollama 本地模型，无付费墙、文件数不限，且 Make、agents 等功能均正常。仅附 REA 官方 repo 链接，没有自己的成果 repo 或证据。",
+      "target": "Figma",
+      "metric": "自称 Figma 全部功能（含 Make、agents）可运行"
+    }
+  },
+  "d-c0ee6a17ba": {
+    "hash": "6fe8b7bf2954",
+    "en": {
+      "title": "FEA: a verified reconstruction framework with REA as its reading end",
+      "summary": "FEA uses REA as its analysis front end and builds a reconstruction pipeline of behavior capture, spec generation, clean-room synthesis, and diff-based verification. It provides an MCP server and a CLI, and can output verifiable evidence bundles with hash-chain records. Currently at v0.6.",
+      "target": "Behavior reconstruction of CLIs and HTTP APIs",
+      "metric": "14 MCP tools; diff-parity verification and hash-chained evidence bundles"
+    },
+    "zh-CN": {
+      "title": "以 REA 为读取端的验证式重建框架 FEA",
+      "summary": "FEA 把 REA 作为分析读取端，建立捕获行为、生成规格、无尘室合成、差异比对验证的重建流程。提供 MCP server 与 CLI，并能输出可验证的证据包与哈希链记录。目前为 v0.6 版本。",
+      "target": "CLI 与 HTTP API 的行为重建",
+      "metric": "14 个 MCP 工具，差异平价验证与哈希链证据包"
+    }
+  },
+  "d-ecc8500670": {
+    "hash": "4225139be86c",
+    "en": {
+      "title": "Analyzing and rewriting a $49/month Electron app with REA",
+      "summary": "The author had REA take on an Electron app: locate app.asar, trace the \"Export\" button from click to file write, list every function with line numbers, and write a SPEC.md without copying any code. They then built their own version, which passed its own tests. The whole process took about 41 minutes, and the conclusions were split into CONFIRMED and INFERRED.",
+      "target": "A $49/month Electron app",
+      "metric": "41 minutes to complete the app.asar analysis, SPEC.md, and a rewrite that passes its tests"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析月费 49 美元的 Electron app 并重写",
+      "summary": "作者让 REA 处理一个 Electron app:找到 app.asar,追踪“Export”按钮从点击到写文件的流程,列出所有函数与行号,写出 SPEC.md(不复制代码)。接着做出自己的版本并通过自带测试,整个过程约 41 分钟,结论分为 CONFIRMED 与 INFERRED。",
+      "target": "月费 49 美元的 Electron app",
+      "metric": "41 分钟完成 app.asar 分析、SPEC.md 与可通过测试的重写版本"
+    }
+  },
+  "d-1ef689aac2": {
+    "hash": "9b46b94ba1bc",
+    "en": {
+      "title": "Reproducing an Excalidraw geometry function with REA, passing 528 cases",
+      "summary": "Aecon used REA to analyze the open-source drawing tool Excalidraw and reproduce one of its geometry functions. Across 528 selected cases, every result fell within tolerance. The case is used to discuss the commercial risk of software IP being cloned so easily.",
+      "target": "An Excalidraw geometry function",
+      "metric": "528 cases matching the original within tolerance"
+    },
+    "zh-CN": {
+      "title": "用 REA 对 Excalidraw 复现一个几何函数并通过 528 个案例",
+      "summary": "Aecon 用 REA 分析开源绘图工具 Excalidraw,复现其中一个几何函数。在 528 个选定案例中结果均落在容差内,并以此讨论软件 IP 被轻易复刻的商业风险。",
+      "target": "Excalidraw 几何函数",
+      "metric": "528 个案例在容差内与原版一致"
+    }
+  },
+  "d-39eff642f0": {
+    "hash": "13236d9e5461",
+    "en": {
+      "title": "Reverse-engineering the Android game Naruto Shippuden with REA: adding Might Guy and verifying in an emulator",
+      "summary": "The targets were the offline Android game Naruto Shippuden and a Flutter learning app. Through REA, the AI took apart the cocos2d-x native library and three proprietary asset formats, worked out how characters are registered, and added Might Guy. In a standalone emulator it confirmed that character selection, health bars, and skill icons all work. The learning app got static analysis only, identifying Flutter 3.27, libapp.so, and the extent of the 360 packer protection.",
+      "target": "Android game Naruto Shippuden and a Flutter learning app",
+      "metric": "Added Might Guy; character selection, entering battle, health bar, and skill icons all work in the emulator"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向安卓游戏《火影战记》,新增角色迈特凯并在模拟器验证",
+      "summary": "目标是单机安卓游戏《火影战记》与一款 Flutter 学习 App。AI 通过 REA 拆解 cocos2d-x 原生库与三种私有资源格式,摸清角色注册流程后加入迈特凯,并在独立模拟器中确认选人、血条、技能图标正常;学习 App 则只做了静态分析,识别出 Flutter 3.27、libapp.so 与 360 加固范围。",
+      "target": "安卓游戏《火影战记》与 Flutter 学习 App",
+      "metric": "新增迈特凯角色,在模拟器中选人进场、血条与技能图标均正常"
+    }
+  },
+  "d-1717937cb1": {
+    "hash": "4b3f9195034a",
+    "en": {
+      "title": "Replacing REA with a single 8KB skill, with benchmarks",
+      "summary": "The goal was to replace REA's MCP layer with plain CLI tools and a single SKILL.md. Benchmarks covered 4 reverse-engineering tasks in 3 groups with 3 repetitions each, checked against hand-written answers. The result: 38% less time and 35% lower cost than REA, with similar accuracy (74/75 vs. 75/75).",
+      "target": "REA (replaced by CLI tools and a skill)",
+      "metric": "38% less time, 35% lower cost than REA, 74/75 accuracy"
+    },
+    "zh-CN": {
+      "title": "用单个 8KB skill 取代 REA,附基准测试",
+      "summary": "目标是以纯 CLI 工具加一份 SKILL.md 取代 REA 的 MCP 层。对 4 个逆向任务、3 组、各 3 次重复做基准测试,并与手工答案比对。结果比 REA 少 38% 时间、省 35% 成本,准确度相近(74/75 对 75/75)。",
+      "target": "REA(以 CLI 工具与 skill 取代)",
+      "metric": "相比 REA 时间少 38%、成本低 35%、准确度 74/75"
+    }
+  },
+  "d-e0d23decc4": {
+    "hash": "a9deb4815214",
+    "en": {
+      "title": "Short-form video highlight editing workflow with a REA evidence-analysis skill",
+      "summary": "A Codex/Claude workflow for cutting short-form video highlights, paired with a local Windows editor. It ships with a goni-rea skill that runs REA evidence analysis before an independent reimplementation. REA is only a side workflow here; no reverse-engineering results against a specific target are demonstrated.",
+      "target": "Short-form video highlight editing tool (with a REA workflow skill)",
+      "metric": "11 templates, 1080×1920 MP4 output"
+    },
+    "zh-CN": {
+      "title": "短视频剪辑工作流搭配 REA 证据分析 skill",
+      "summary": "这是 Codex/Claude 的短视频精华剪辑工作流，并配有 Windows 本地编辑器。其中附带 goni-rea skill，用于先做 REA 证据分析，再独立实现。REA 只是附带流程，并未展示针对具体目标的逆向成果。",
+      "target": "短视频精华剪辑工具（附 REA 工作流 skill）",
+      "metric": "11 种模板、输出 1080×1920 MP4"
+    }
+  },
+  "d-90882be382": {
+    "hash": "ce0d3c4da26c",
+    "en": {
+      "title": "Porting REA to Python as rea-mcp",
+      "summary": "To allow native integration with Python-based AI agent products, REA was ported to a Python CLI and MCP server. It supports static analysis of many target types, including ELF/PE/Mach-O, APK, WASM and Electron, and keeps the Evidence model. Currently alpha 0.1.1.",
+      "target": "REA (Python port)",
+      "metric": "Static analysis of 20+ target types, alpha 0.1.1"
+    },
+    "zh-CN": {
+      "title": "将 REA 移植成 Python 版 rea-mcp",
+      "summary": "为了让 Python 的 AI agent 产品能原生集成,将 REA 移植为 Python 的 CLI 与 MCP server。支持 ELF/PE/Mach-O、APK、WASM、Electron 等多种目标的静态分析,并保留 Evidence 模型。目前为 alpha 0.1.1。",
+      "target": "REA(Python 移植版)",
+      "metric": "支持 20 多种目标类型的静态分析,alpha 0.1.1"
+    }
+  },
+  "d-d2f726a986": {
+    "hash": "81573288de09",
+    "en": {
+      "title": "REA quickly finds the IPC bridge in a toy app",
+      "summary": "The author tried REA on a toy app and said it found the IPC bridge quickly. The post is a single-sentence impression, with no details about the target and no evidence.",
+      "target": "IPC bridge of a toy app",
+      "metric": "Found the IPC bridge quickly"
+    },
+    "zh-CN": {
+      "title": "用 REA 快速找到 toy app 的 IPC bridge",
+      "summary": "作者在一个 toy app 上试用 REA,表示它很快就找到了 IPC bridge。内容只有一句心得,没有说明目标细节或证据。",
+      "target": "toy app 的 IPC bridge",
+      "metric": "很快找到 IPC bridge"
+    }
+  },
+  "d-1d8733458f": {
+    "hash": "824954a02871",
+    "en": {
+      "title": "Code-first motion design studio with REA capabilities",
+      "summary": "A code-first motion design workflow for Codex and ChatGPT that renders MP4 locally with Playwright and FFmpeg. REA appears only in the capability comparison and review sources and is not core to the project. The sample video is 8 seconds, 1920×1080, 30 fps.",
+      "target": "Motion design and video rendering tool",
+      "metric": "8-second 1920×1080 30fps sample video"
+    },
+    "zh-CN": {
+      "title": "代码优先的动态设计工作室,纳入 REA 能力",
+      "summary": "这是供 Codex 与 ChatGPT 使用的代码优先动态设计工作流,通过 Playwright 与 FFmpeg 在本机渲染 MP4。REA 只出现在能力对照与审核来源中,并非项目核心。示例视频为 8 秒、1920×1080、30 fps。",
+      "target": "动态设计与视频渲染工具",
+      "metric": "8 秒 1920×1080 30fps 示例视频"
+    }
+  },
+  "d-101de8870f": {
+    "hash": "62874b50fe2a",
+    "en": {
+      "title": "Six-layer hardening skill against AI reverse-engineering tools like REA",
+      "summary": "A defensive skill aimed at AI reverse-engineering tools such as REA, reverse-skill and PentAGI. It provides six layers of protection and two scanning scripts, covering client-side hardening, moving architecture to the cloud, RASP, server-side defense and legal forensics. It is a defender-side tool and documentation set.",
+      "target": "Software hardening to prevent cloning by AI reverse-engineering tools",
+      "metric": "Six protection layers plus two scanning scripts"
+    },
+    "zh-CN": {
+      "title": "防 REA 等 AI 逆向工具的六层加固 skill",
+      "summary": "这是针对 REA、reverse-skill、PentAGI 等 AI 逆向工具的防守 skill,提供六层防护与两支扫描脚本。内容涵盖客户端加固、架构上云、RASP、服务器防御与法律取证。属于防守方的工具与文档。",
+      "target": "防止被 AI 逆向工具复刻的软件加固",
+      "metric": "六层防护加两支扫描脚本"
+    }
   }
 }

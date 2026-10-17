@@ -3437,45 +3437,66 @@
     },
     {
       "date": "2026-10-17",
-      "stars": 290952,
-      "stars_delta": 15878,
+      "stars": 293428,
+      "stars_delta": 18354,
       "new": [
         "d-d155fe3d33",
         "d-46649d8806",
+        "d-ecc8500670",
         "d-76338eba8f",
+        "d-1ef689aac2",
         "d-61e1713171",
         "d-1c121df3a0",
+        "d-39eff642f0",
         "d-316875b0e6",
         "d-81aad91a9f",
         "d-88289c1390",
         "d-1e9e8acd10",
         "d-e8b828d168",
+        "d-1717937cb1",
+        "d-c281873d17",
+        "d-c16354dfc9",
+        "d-b02f560b5a",
+        "d-9fa69c73f3",
         "d-91be7dbaf1",
+        "d-39ce0d017b",
+        "d-39d1b0e38f",
+        "d-1b348510f5",
         "d-57b32b5b62",
+        "d-c0ee6a17ba",
+        "d-b000aba7f6",
         "d-83149ecf4d",
         "d-5c9e5f401a",
         "d-37b4f9d895",
         "d-5183d4a118",
         "d-daa98ecb15",
         "d-41621c1d12",
+        "d-f62f5599a7",
         "d-ab974e67fb",
+        "d-1310b174b3",
         "d-0814eda0e3",
         "d-ba6c5711e3",
         "d-29f3025565",
         "d-927facadb3",
+        "d-a8ca00f73c",
         "d-999b38dba5",
         "d-d3c3a5e30d",
+        "d-90882be382",
         "d-52e38ca09d",
         "d-bdc5acff96",
         "d-d89c1fe0dd",
         "d-2ae836da21",
         "d-813fd27b2a",
+        "d-d2f726a986",
         "d-ebdd652231",
         "d-5954cb58dc",
+        "d-1d8733458f",
+        "d-101de8870f",
         "d-336d476845",
         "d-67e0cb3f9e",
         "d-44c630cc64",
         "d-d9a7da6dad",
+        "d-e0d23decc4",
         "d-2a61630be1",
         "d-f08a0462b9",
         "d-58896144b7",
@@ -3484,48 +3505,48 @@
         "d-d820939611"
       ],
       "stats": {
-        "count": 42,
+        "count": 63,
         "wow": {
-          "2": 30,
-          "3": 7,
-          "4": 3,
+          "2": 38,
+          "3": 17,
+          "4": 6,
           "5": 2
         },
         "type": {
-          "case": 15,
-          "app": 22,
+          "case": 28,
+          "app": 28,
           "learn": 4,
-          "news": 1
+          "news": 3
         },
         "status": {
-          "tested": 7,
-          "shipped": 15,
-          "reported": 20
+          "tested": 9,
+          "shipped": 21,
+          "reported": 33
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 星數破 29 萬,重建成果開始接受驗證",
-          "summary": "星數升到 290952,比前一個紀錄多 15878。最受關注的是 rea-engine:作者聲稱驗證 19,683 種棋盤狀態、像素渲染 SHA-256 一致並以 Z3 證明,還把重建的 Windows 執行檔移植到 macOS。另有案例審計 REA 重建的遊戲函式,發現測試顯示相符,卻藏有常數錯誤(原版加 32.0f、重建版加 1.0f)。同日不少付費 App 復刻(Photoshop、AE 面板、TradingView)多為作者自述、缺少證據,顯示復刻很快,真正的瓶頸是驗證。"
+          "headline": "REA 星數破 29 萬,重建從功能復刻走向可驗證",
+          "summary": "REA GitHub 星數升至 293428,比前一個紀錄多 18354。當天最受矚目的是 rea-engine:作者宣稱驗證了 19,683 種棋盤狀態、像素渲染 SHA-256 一致並以 Z3 證明,還把重建的執行檔移植到 macOS;同時也有人審計 REA 重建的遊戲函式,發現測試顯示相符、實際常數卻錯(原版加 32.0f、重建版加 1.0f)。多數熱門貼文仍是付費 App 被拆解重建(Electron、Photoshop、AE 面板、Calendly 等),但多為作者自述;真正附 repo 或證據的案例,以及指出測試可被矇騙的審計,讓「怎麼證明重建是對的」成為重點。"
         },
         "en": {
-          "headline": "REA passes 290K stars as rebuilds face real verification",
-          "summary": "Stars rose to 290,952, up 15,878 from the previous record. The standout is rea-engine, whose author claims 19,683 verified board states, matching SHA-256 pixel renders and Z3 proofs, plus a port of the rebuilt Windows executable to macOS. Another post audited REA-rebuilt game functions and found tests that passed while a constant was wrong (the original adds 32.0f, the rebuild adds 1.0f). Many paid-app clones the same day (Photoshop, an AE panel, TradingView) are self-reported with no evidence, so cloning is fast but verification is the bottleneck."
+          "headline": "REA passes 290K stars as rebuilds shift toward provable fidelity",
+          "summary": "REA's GitHub stars rose to 293,428, up 18,354 from the previous record. The top item is rea-engine, whose author claims 19,683 board states verified, pixel-render SHA-256 matches and Z3 proofs, plus a port of the rebuilt executable to macOS. Another post audited REA-rebuilt game functions and found tests that passed while a constant was wrong (original adds 32.0f, rebuild adds 1.0f). Most high-heat posts are still paid apps being cloned (Electron, Photoshop, an AE panel, Calendly), mostly self-reported; the cases with repos or evidence, and the audit showing tests can be fooled, put the question of how to prove a rebuild is correct front and center."
         },
         "zh-CN": {
-          "headline": "REA 星数破 29 万,重建成果开始接受验证",
-          "summary": "星数升到 290952,比前一个纪录多 15878。最受关注的是 rea-engine:作者声称验证 19,683 种棋盘状态、像素渲染 SHA-256 一致并用 Z3 证明,还把重建的 Windows 可执行文件移植到 macOS。另有案例审计 REA 重建的游戏函数,发现测试显示相符,却藏有常数错误(原版加 32.0f、重建版加 1.0f)。同日不少付费 App 复刻(Photoshop、AE 面板、TradingView)多为作者自述、缺少证据,显示复刻很快,真正的瓶颈是验证。"
+          "headline": "REA 星数破 29 万,重建从功能复刻走向可验证",
+          "summary": "REA GitHub 星数升至 293428,比前一个纪录多 18354。当天最受关注的是 rea-engine:作者宣称验证了 19,683 种棋盘状态、像素渲染 SHA-256 一致并用 Z3 证明,还把重建的可执行文件移植到 macOS;同时也有人审计 REA 重建的游戏函数,发现测试显示相符、实际常数却错(原版加 32.0f、重建版加 1.0f)。多数热门帖子仍是付费 App 被拆解重建(Electron、Photoshop、AE 面板、Calendly 等),但多为作者自述;真正附 repo 或证据的案例,以及指出测试可被蒙骗的审计,让「如何证明重建是对的」成为重点。"
         }
       },
       "signals": [
         "A",
         "B",
-        "G"
+        "C"
       ],
       "highlights": [
         "d-d155fe3d33",
         "d-e8b828d168",
-        "d-76338eba8f"
+        "d-ecc8500670"
       ],
       "rank": [
         "touhou-factory",
@@ -3548,6 +3569,7 @@
         "d-96f008b892",
         "codex-browser-annotation",
         "d-fab901f33e",
+        "d-ecc8500670",
         "d-76338eba8f",
         "d-c6fbea64b5",
         "th04-bullet-ring",
@@ -3564,6 +3586,7 @@
         "d-5725375ff2",
         "wispr-flow-az9713",
         "d-216841154b",
+        "d-1ef689aac2",
         "d-11f7715188",
         "d-27154f0faa",
         "d-db6b6eae3f",
@@ -3580,6 +3603,7 @@
         "d-6417fa2b6c",
         "d-61e1713171",
         "d-1c121df3a0",
+        "d-39eff642f0",
         "d-bd6821f294",
         "d-878c627d8d",
         "d-de9583d742",
@@ -3629,11 +3653,15 @@
         "d-1e9e8acd10",
         "d-629ff0ee37",
         "d-e8b828d168",
+        "d-1717937cb1",
         "netcat-audit",
         "d-27b0054d80",
         "d-a14d950389",
+        "d-c281873d17",
         "gunzrs",
+        "d-c16354dfc9",
         "d-bd50d92a60",
+        "d-b02f560b5a",
         "d-69a33ebe95",
         "d-8bc3a71e22",
         "d-f40052c423",
@@ -3644,12 +3672,16 @@
         "d-9409d062f4",
         "d-8aa113d77d",
         "d-ec49bf6b05",
+        "d-9fa69c73f3",
         "d-7dc975affa",
         "d-211278f991",
         "d-4ce8ff9e86",
         "d-9185a20b03",
         "d-bfaf7bdd8b",
         "d-91be7dbaf1",
+        "d-39ce0d017b",
+        "d-39d1b0e38f",
+        "d-1b348510f5",
         "d-0027bf84f0",
         "d-0af2e7691a",
         "d-a080ed3b32",
@@ -3675,8 +3707,10 @@
         "zenn-electron-known-answer",
         "d-95812085d2",
         "kingy-notes-exporter",
+        "d-c0ee6a17ba",
         "d-db5ea31b01",
         "d-4306768540",
+        "d-b000aba7f6",
         "d-6a36c6eafb",
         "d-78d804834b",
         "d-583253f057",
@@ -3710,10 +3744,12 @@
         "d-2005076b4f",
         "d-6902990197",
         "d-41621c1d12",
+        "d-f62f5599a7",
         "d-ab974e67fb",
         "d-1d3d058162",
         "d-4a697a1df0",
         "d-21657b277b",
+        "d-1310b174b3",
         "d-82e04f7b00",
         "d-638114ac0d",
         "d-b50fa3ab1c",
@@ -3741,6 +3777,7 @@
         "d-fbb1b433ec",
         "d-29f3025565",
         "d-927facadb3",
+        "d-a8ca00f73c",
         "d-20a3f03ca3",
         "d-2a88659ee2",
         "d-999b38dba5",
@@ -3758,6 +3795,7 @@
         "d-7f458ab283",
         "d-d3c3a5e30d",
         "d-58c16f12d8",
+        "d-90882be382",
         "d-52e38ca09d",
         "d-bdc5acff96",
         "d-d89c1fe0dd",
@@ -3791,6 +3829,7 @@
         "d-b3508599f9",
         "d-c4120d6952",
         "d-813fd27b2a",
+        "d-d2f726a986",
         "d-6ac3fbc992",
         "d-5c06e83b50",
         "d-43adb7dd57",
@@ -3815,10 +3854,13 @@
         "d-40c0474406",
         "d-49c3fe3859",
         "heartland-side-effects",
+        "d-1d8733458f",
+        "d-101de8870f",
         "d-336d476845",
         "d-67e0cb3f9e",
         "d-44c630cc64",
         "d-d9a7da6dad",
+        "d-e0d23decc4",
         "d-5fd2aabc94",
         "d-5f2eb446dc",
         "d-a52560aa18",
@@ -3934,6 +3976,7 @@
         "d-c07b0d5133",
         "d-7a9699b1ba",
         "d-8b4dbb7e3d",
+        "d-9794be65db",
         "d-e5f39ca9e9",
         "d-b28477222a",
         "d-97c8a77cab",
@@ -3992,6 +4035,7 @@
         "d-a099b3f4a3",
         "d-fce779a1e3",
         "d-23f7d20139",
+        "d-01a41a92e8",
         "d-fbe1318da1",
         "d-b459ed93cc",
         "d-e90ed175c1",
@@ -4082,6 +4126,7 @@
         "d-b2c45fd830",
         "d-2ca956289c",
         "d-d12a2a782b",
+        "d-afa59998e8",
         "d-9c91146c62",
         "d-58858cc113",
         "d-278ef82903",
@@ -4156,6 +4201,8 @@
         "d-620d41dc61",
         "d-fae9d57e5b",
         "d-aefcaff5ff",
+        "d-3b075fdffd",
+        "d-a042831c60",
         "d-de0086b6ba",
         "d-5ea2f6b36f",
         "d-5e0bc0c982",
@@ -4230,6 +4277,9 @@
         "d-e776c1c4c1",
         "d-2761852b3d",
         "d-2f09a54a93",
+        "d-24fdbcbaa7",
+        "d-eb6ff08726",
+        "d-1e76e6af45",
         "d-6fae20f0fd",
         "d-92a7d64d5d",
         "d-db6d64bf5e",
@@ -4428,36 +4478,36 @@
     "to": "2026-10-17",
     "text": {
       "zh-TW": {
-        "headline": "復刻已很容易，真正稀缺的是可驗證的證據",
-        "summary": "本週 REA 星數從 7.7 萬一路升到 29 萬，題材從遊戲延伸到 Obsidian、Word、CapCut 等商用軟體，再到韌體、藍牙與核心。10 月 13 日起，「客戶端功能被快速複製」與「驗證才是瓶頸」同時成為主旋律。後段出現逐函式 oracle 比對、實體硬體封包驗證、Z3 證明等較紮實的做法，也出現測試通過卻藏有常數錯誤的審計案例。同時，只靠作者自述、沒有 repo 或測試的貼文始終占熱度高位，另有實測指出 REA 耗時最多 2.00 倍、費用最多 1.67 倍。",
-        "watch": "接下來幾天可留意是否有更多案例附上差異測試、「已證實／推論／未知」分級，或對重建結果做獨立審計；這類驗證工具與方法有機會成為機會點。硬體與老舊軟體的保存、移植（如 Ultima VI 的 wasm 版、macOS 移植）也持續有新案例，值得追蹤。成本與耗時的實測資料目前仍少，補上這塊同樣有空間。"
+        "headline": "REA 熱度飆升,重點從複刻展示轉向可驗證的重建",
+        "summary": "本週 REA 星數從 10/11 的 76,998 一路升到 10/17 的 293,428,案例也從老遊戲擴及商用軟體、韌體與藍牙協定。早期簡報多是展示:Obsidian 排序演算法、Untangle 重建、ASIAIR 韌體分析。10/13 起大量商用軟體(Screen Studio、CapCut、Word)被拆解重建,10/14 更有實測指出 REA 耗時最多 2.00 倍、費用最多 1.67 倍。後半週焦點轉向驗證:DX-Ball 以 3,205 個輸入逐一對照、TH08/TH095 以 oracle 逐函式比對、rea-engine 以 Z3 證明,10/17 還出現審計發現測試相符但常數其實錯誤。「驗證是瓶頸」七天全部出現,是本週最穩定的主題。",
+        "watch": "留意附 repo、測試與 oracle 比對的案例,以及指出測試會被矇騙的審計,這類可驗證的做法與工具有機會成為下一個需求。只有作者自述、沒附證據的熱門貼文,可以先當線索,不要直接採信。硬體協定(BLE、PLC、電視、韌體)與舊軟體移植也持續出現,值得追蹤。"
       },
       "en": {
-        "headline": "Cloning is now easy; verifiable evidence is the scarce part",
-        "summary": "This week REA stars climbed from about 77k to 291k, and the subject matter spread from games to commercial software such as Obsidian, Word and CapCut, then to firmware, Bluetooth protocols and kernels. From Oct 13, 'client-side features get cloned fast' and 'verification is the bottleneck' ran side by side. Later days brought stronger practices: per-function oracle comparison, packet-level checks on real hardware and Z3 proofs, plus an audit that found a constant error hidden behind passing tests. Meanwhile, self-reported posts with no repo or tests kept ranking high, and one A/B measurement found REA taking up to 2.00x the time and 1.67x the cost.",
-        "watch": "Over the next few days, watch for more cases that ship differential tests, 'confirmed / inferred / unknown' grading, or independent audits of reconstructions; tooling and methods for verification look like the opening. Preservation and porting of legacy and hardware targets (the Ultima VI wasm port, the macOS port) keep producing new cases and are worth tracking. Hard data on cost and time is still thin, which leaves room there too."
+        "headline": "REA hype soars, shifting from showy clones to verifiable rebuilds",
+        "summary": "REA's GitHub stars rose from 76,998 on 10/11 to 293,428 on 10/17, and cases spread from old games to commercial apps, firmware and Bluetooth protocols. Early briefs were mostly showcases: the Obsidian ranking algorithm, the Untangle rebuild and ASIAIR firmware analysis. From 10/13, many commercial apps (Screen Studio, CapCut, Word) were taken apart and rebuilt, and on 10/14 a test reported REA taking up to 2.00x the time and 1.67x the cost. The second half of the week turned to verification: DX-Ball checked against 3,205 inputs, TH08/TH095 compared function by function with an oracle, rea-engine backed by Z3 proofs, and on 10/17 an audit found tests passing while a constant was actually wrong. 'Verification is the bottleneck' appeared on all seven days, the steadiest theme of the week.",
+        "watch": "Watch for cases that ship a repo, tests and oracle comparisons, and for audits showing that tests can be fooled. Tools and practices for verifying a rebuild look like the next area of demand. Treat popular posts with only the author's claim and no evidence as leads, not facts. Hardware protocol work (BLE, PLC, TVs, firmware) and legacy software ports keep showing up and are worth tracking."
       },
       "zh-CN": {
-        "headline": "复刻已经很容易，真正稀缺的是可验证的证据",
-        "summary": "本周 REA 星数从 7.7 万一路升到 29 万，题材从游戏延伸到 Obsidian、Word、CapCut 等商用软件，再到固件、蓝牙与内核。10 月 13 日起，“客户端功能被快速复制”与“验证才是瓶颈”同时成为主旋律。后段出现逐函数 oracle 比对、实体硬件数据包验证、Z3 证明等更扎实的做法，也出现测试通过却藏有常数错误的审计案例。同时，只靠作者自述、没有 repo 或测试的帖子始终占据高热度，另有实测指出 REA 耗时最多 2.00 倍、费用最多 1.67 倍。",
-        "watch": "接下来几天可留意是否有更多案例附上差异测试、“已证实／推论／未知”分级，或对重建结果做独立审计；这类验证工具与方法有机会成为切入点。硬件与老旧软件的保存、移植（如 Ultima VI 的 wasm 版、macOS 移植）也持续有新案例，值得跟踪。成本与耗时的实测数据目前仍少，补上这块同样有空间。"
+        "headline": "REA 热度飙升,重点从复刻展示转向可验证的重建",
+        "summary": "本周 REA 星数从 10/11 的 76,998 一路升到 10/17 的 293,428,案例也从老游戏扩展到商用软件、固件与蓝牙协议。早期简报多是展示:Obsidian 排序算法、Untangle 重建、ASIAIR 固件分析。10/13 起大量商用软件(Screen Studio、CapCut、Word)被拆解重建,10/14 更有实测指出 REA 耗时最多 2.00 倍、费用最多 1.67 倍。后半周焦点转向验证:DX-Ball 以 3,205 个输入逐一对照、TH08/TH095 以 oracle 逐函数比对、rea-engine 以 Z3 证明,10/17 还出现审计发现测试相符但常数其实错误。「验证是瓶颈」七天全部出现,是本周最稳定的主题。",
+        "watch": "留意附 repo、测试与 oracle 比对的案例,以及指出测试会被蒙骗的审计,这类可验证的做法与工具有机会成为下一个需求。只有作者自述、没附证据的热门帖子,可以先当线索,不要直接采信。硬件协议(BLE、PLC、电视、固件)与旧软件移植也持续出现,值得跟踪。"
       }
     },
     "rising": [
       "B",
-      "G"
+      "C"
     ],
     "fading": [
-      "A"
+      "G"
     ],
     "tally": {
       "A": 4,
       "B": 7,
-      "C": 4,
+      "C": 5,
       "D": 4,
       "E": 0,
       "F": 0,
-      "G": 2
+      "G": 1
     }
   }
 }

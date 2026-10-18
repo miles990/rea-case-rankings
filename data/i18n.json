@@ -7813,5 +7813,620 @@
       "target": "防止被 AI 逆向工具复刻的软件加固",
       "metric": "六层防护加两支扫描脚本"
     }
+  },
+  "d-4cbb1312dc": {
+    "hash": "0b33980568ad",
+    "en": {
+      "title": "Inspecting the Claude Code homepage with REA and open-sourcing its background animation",
+      "summary": "The author used REA to inspect the Claude Code homepage, and the agent recreated its background animation in a single pass, which was then published as a repo. The calm animation can be used in apps and websites.",
+      "target": "Claude Code homepage background animation",
+      "metric": "Agent completed it in one pass and published the repo"
+    },
+    "zh-CN": {
+      "title": "用 REA 检视 Claude Code 首页并开源其背景动画",
+      "summary": "作者用 REA 检视 Claude Code 的首页，让 agent 一次就复现了其背景动画，并公开为 repo。这个宁静的动画可用于 App 和网站。",
+      "target": "Claude Code 首页背景动画",
+      "metric": "agent 一次完成并公开 repo"
+    }
+  },
+  "d-a8f3fa7f6a": {
+    "hash": "5ad7d3a9c204",
+    "en": {
+      "title": "Studying Discord's browser behavior with REA to build the open-source Open Lite Discord",
+      "summary": "The author used REA to analyze how Discord behaves in the browser, then built a homemade version with real-time messaging, channels, and permissions. They tested it with two accounts and released the project as open source.",
+      "target": "Discord web client behavior",
+      "metric": "Implemented real-time messaging, channels, and permissions, tested with two accounts"
+    },
+    "zh-CN": {
+      "title": "用 REA 研究 Discord 浏览器行为并做出开源的 Open Lite Discord",
+      "summary": "作者用 REA 分析 Discord 在浏览器端的行为，并做出具备即时消息、频道与权限的自制版本。他们用两个账号测试，并公开了开源项目。",
+      "target": "Discord 网页版行为",
+      "metric": "完成即时消息、频道与权限功能，并以两个账号测试"
+    }
+  },
+  "d-77593de27f": {
+    "hash": "0be60f834870",
+    "en": {
+      "title": "Statically analyzing a Windows loader malware with REA, Ghidra, and Codex",
+      "summary": "The goal was to analyze a Windows loader without executing the malware. The author combined REA, Ghidra, and Codex for static analysis, uncovering a hardcoded server address and in-memory payload loading behavior, and wrote up the findings in a blog post.",
+      "target": "Windows malware loader",
+      "metric": "Identified the hardcoded server and the in-memory payload loading mechanism"
+    },
+    "zh-CN": {
+      "title": "用 REA、Ghidra 与 Codex 静态分析 Windows 加载器恶意程序",
+      "summary": "目标是在不执行恶意程序的情况下，分析一个 Windows loader。作者结合 REA、Ghidra 与 Codex 做静态分析，找出写死的服务器地址以及在内存中加载 payload 的行为，并写成博客文章。",
+      "target": "Windows 恶意程序加载器",
+      "metric": "找出硬编码服务器与内存内 payload 加载机制"
+    }
+  },
+  "d-0a26cf014b": {
+    "hash": "e7d7579c9bc5",
+    "en": {
+      "title": "Reverse-engineering pexo.ai with REA and rebuilding the AI video agent clean-room style",
+      "summary": "Using REA, the author passively observed pexo.ai's public site and post-login interface, distilled a behavioral spec, and rewrote it from scratch in Next.js. The clone includes a complete agent state machine (from requirements through rendering and delivery), a credit ledger, and playable MP4 output. The excerpt does not show details of testing or comparison-based verification.",
+      "target": "pexo.ai (conversational AI video agent)",
+      "metric": "Reproduced a 7-stage agent state machine and 7 page routes"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向 pexo.ai 并以洁净室方式重做 AI 视频代理",
+      "summary": "以 REA 被动观察 pexo.ai 的公开网站与登录后界面，整理出行为规格，再用 Next.js 原创重写。复制品包含完整的代理状态机（从需求到渲染、交付）、点数账本，以及可播放的 MP4 产出。节选未显示测试或对照验证的细节。",
+      "target": "pexo.ai（对话式 AI 视频代理）",
+      "metric": "重现 7 阶段代理状态机与 7 个页面路由"
+    }
+  },
+  "d-4f1399acfd": {
+    "hash": "81249de59587",
+    "en": {
+      "title": "Rebuilding the 1996 Game DX-Ball in C, Function by Function, with REA",
+      "summary": "Using only DX-Ball's .exe and REA, the author recovered one function at a time and rebuilt the game as a clean C version. Take the stereo-panning function for the brick-break sound: it was checked against the original x86 code with 3,205 test cases, and recompiled with the period-correct compiler, it matched byte for byte across all 63 bytes.",
+      "target": "DX-Ball (1996 Windows game)",
+      "metric": "55 functions rewritten, 45,380 comparison checks, 33 functions byte-identical"
+    },
+    "zh-CN": {
+      "title": "用 REA 逐函数重建 1996 年游戏 DX-Ball 的 C 版本",
+      "summary": "作者仅凭 DX-Ball 的 .exe 与 REA，一次还原一个函数，重建出干净的 C 版本。以砖块破裂音效的声道平移函数为例，用 3,205 组测试对照原始 x86 程序，并以当年的编译器重新编译后，63 字节完全一致。",
+      "target": "DX-Ball（1996 年 Windows 游戏）",
+      "metric": "已重写 55 个函数、45,380 项对照检查、33 个函数字节完全一致"
+    }
+  },
+  "d-c4d6e29d0f": {
+    "hash": "d83c999c6477",
+    "en": {
+      "title": "Reverse-Engineering the Hitachi Android App with REA to Control an Oven Directly",
+      "summary": "The author originally operated the oven through Hitachi's iPhone app, then switched to reverse-engineering with REA, debugging the Android app live on an Android emulator. After that, the oven itself could be controlled directly, and the whole process took under 5 minutes.",
+      "target": "Hitachi smart oven and its Android app",
+      "metric": "Done in under 5 minutes, with direct control of the oven"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向日立 Android App 直接操控烤箱",
+      "summary": "原本通过 iPhone 版日立 App 操作，后来改用 REA 逆向，在安卓模拟器上联调安卓版 App。之后便能直接操作烤箱本身，整个过程不到 5 分钟。",
+      "target": "日立智能烤箱及其 Android App",
+      "metric": "不到 5 分钟完成并能直接操控烤箱"
+    }
+  },
+  "d-50f5e59d27": {
+    "hash": "5e8e44526b6d",
+    "en": {
+      "title": "Reverse-Engineering a Game with REA and Opus 5.5 and Rebuilding It as a Playable Version",
+      "summary": "The author used REA with Opus 5.5 to scan a game binary, identifying functions, strings, and references, then traced call relationships to recover the mechanics logic. Based on the logic found, they built a playable reconstruction, stressing that it was verified through testing.",
+      "target": "A game",
+      "metric": "Produced a playable reconstruction of the game"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Opus 5.5 逆向游戏并重建为可玩版本",
+      "summary": "作者借助 REA 搭配 Opus 5.5 扫描游戏二进制文件，识别函数、字符串与引用，再追踪调用关系以还原机制逻辑。依据找到的逻辑做出可玩的重建版本，并强调经过测试验证。",
+      "target": "某款游戏",
+      "metric": "产出可玩的游戏重建版"
+    }
+  },
+  "d-04c8d6cd92": {
+    "hash": "17e628cbb538",
+    "en": {
+      "title": "Analyzing the hyper3d.ai Site with REA and Building a Working 3D Generation Clone",
+      "summary": "The author analyzed hyper3d.ai's website bundle with REA, then built an educational clone with Next.js and three.js based on the API contract captured after login. The result generates real 3D geometry from images or text and exports GLB, GLTF, OBJ, STL, and USDZ. The project ships with 67 tests across 8 vitest suites.",
+      "target": "hyper3d.ai (Hyper3D Rodin) website",
+      "metric": "REA analyzed 21 JS files, 378,403 AST nodes, 758 findings; 67 tests"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析 hyper3d.ai 网站并做出可运行的 3D 生成复刻版",
+      "summary": "用 REA 分析 hyper3d.ai 的网站 bundle，再依据登录后抓取的 API 契约，用 Next.js 与 three.js 做出教学用复刻版。成品能由图片或文字生成真实 3D 几何，并导出 GLB、GLTF、OBJ、STL、USDZ。项目附带 8 组 vitest 共 67 个测试。",
+      "target": "hyper3d.ai（Hyper3D Rodin）网站",
+      "metric": "REA 分析 21 个 JS 文件、378,403 个 AST 节点、758 项发现；67 个测试"
+    }
+  },
+  "d-585e9194da": {
+    "hash": "bfb6fd6dd63a",
+    "en": {
+      "title": "Reverse-engineering Blender 5.2.2 with REA to build an MCP-free Python Agent SDK",
+      "summary": "Used REA (Ghidra provider) to analyze the Blender 5.2.2 binary, then designed the BlenderSession SDK on top of it: a Unix socket bridge exposing tools for observation, operator search, and operations. It outputs OpenAI and Anthropic function-calling schemas, with a complete agent loop example and reverse-engineering evidence docs. Tested on Linux x64 only.",
+      "target": "Blender 5.2.2 (Linux x64)",
+      "metric": "2,498 searchable operators, with tool schemas for both APIs"
+    },
+    "zh-CN": {
+      "title": "以 REA 逆向 Blender 5.2.2 后,做出免 MCP 的 Python Agent SDK",
+      "summary": "用 REA(Ghidra provider)分析 Blender 5.2.2 二进制文件,据此设计 BlenderSession SDK:通过 Unix socket 桥接,提供观察、搜索运算符与操作等工具。输出 OpenAI 与 Anthropic 函数调用 schema,并附完整的 agent loop 示例与逆向证据文档,仅在 Linux x64 上测试。",
+      "target": "Blender 5.2.2(Linux x64)",
+      "metric": "可搜索 2,498 个运算符,并提供双 API 工具 schema"
+    }
+  },
+  "d-b3a7a923a0": {
+    "hash": "a9401a4ee9fc",
+    "en": {
+      "title": "Reverse-engineering SteerMouse with REA to map its input pipeline and rule out a Razer driver conflict",
+      "summary": "The goal was to understand the architecture of the macOS mouse utility SteerMouse, in order to support the Razer Naga Pro's 12 buttons and share profiles across connection types. The first problem identified was a conflicting Razer HID driver; after reversibly disabling it, SteerMouse showed the Bluetooth Naga as available. Physical button tests and cross-connection sharing are still unverified. Research notes and an unactivated SwiftUI starter project are included.",
+      "target": "SteerMouse (macOS mouse configuration software)",
+      "metric": "Found the conflicting Razer HID driver; after disabling it, the Bluetooth Naga became available"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向 SteerMouse,厘清输入管线并排除 Razer 驱动冲突",
+      "summary": "目标是理解 macOS 鼠标软件 SteerMouse 的架构,以支持 Razer Naga Pro 的 12 个按键,并在不同连接方式间共用配置文件。已确认首个问题是冲突的 Razer HID 驱动,可逆地停用后 SteerMouse 显示蓝牙 Naga 可用。实体按键测试与跨连接共用仍待验证,并附研究记录与未启用的 SwiftUI 起始项目。",
+      "target": "SteerMouse(macOS 鼠标设置软件)",
+      "metric": "找出冲突的 Razer HID 驱动,停用后蓝牙 Naga 变为可用"
+    }
+  },
+  "d-764778ad5c": {
+    "hash": "7dc89ee3c6d0",
+    "en": {
+      "title": "Studying Notion with REA and Claude Code to rebuild a local-first Notion-like workspace",
+      "summary": "After studying how Notion works with REA, Claude Code, and Claude in Chrome, the author rebuilt from scratch a block editor, page tree, search, trash, and bring-your-own AI provider support. A built-in Claude assistant can read and write pages. Due to copyright reservations and missing core modules, the repository is for showcase only and cannot be built.",
+      "target": "Notion (web-based note-taking product)",
+      "metric": "Rebuilt block editing, page tree, search, and a workspace with a selectable AI provider"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Claude Code 研究 Notion 并重建本地优先的类 Notion 工作区",
+      "summary": "以 REA、Claude Code 与 Claude in Chrome 研究 Notion 的运作方式后,从零重建块编辑器、页面树、搜索、回收站与自带 AI 供应商功能。内置 Claude 助手可读写页面。因版权保留与缺少核心模块,仓库仅供展示,无法构建。",
+      "target": "Notion(网页笔记产品)",
+      "metric": "重建块编辑、页面树、搜索与可自选 AI 供应商的工作区"
+    }
+  },
+  "d-b534d6bcfb": {
+    "hash": "97c0f0c5f112",
+    "en": {
+      "title": "Analyzing OBS with Claude Code and REA to produce a Python app",
+      "summary": "Without access to the source code, the author used Claude Code with REA to analyze a locally installed OBS, and produced a Python app from that analysis. The excerpt provides no code, tests, or feature comparison, so the quality of the result cannot be verified.",
+      "target": "OBS (locally installed version)",
+      "metric": "Produced a Python app from analysis of an installed OBS"
+    },
+    "zh-CN": {
+      "title": "用 Claude Code 与 REA 分析 OBS 并产出 Python 应用",
+      "summary": "作者在没有源代码的情况下,用 Claude Code 搭配 REA 分析本机安装的 OBS,并据此产出一个 Python 应用。节选未提供代码、测试或功能对比,成果程度无从验证。",
+      "target": "OBS(本机安装版)",
+      "metric": "从已安装的 OBS 分析后产出 Python 应用"
+    }
+  },
+  "d-e2356eb09a": {
+    "hash": "861ef20a9422",
+    "en": {
+      "title": "Reverse engineering Golden Sun with REA and Ghidra, with pixel-by-pixel verification of sprite rendering",
+      "summary": "Analyzes the Golden Sun (US) GBA ROM, recovering Thumb/ARM functions in Ghidra and resolving aliases and indirect calls. It then works out how SPR_000 sprites are decoded, uploaded to VRAM/palette/OAM, and mirrored, and verifies the result pixel by pixel in mGBA's PPU. Every step comes with commands and SHA256 hashes so it can be reproduced, and no ROM contents are published.",
+      "target": "Golden Sun (GBA, US) ROM",
+      "metric": "Ghidra function recovery coverage of 98.67%; sprite rendering verified pixel by pixel in mGBA"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Ghidra 逆向 Golden Sun,并逐像素验证精灵渲染",
+      "summary": "分析 GBA 游戏 Golden Sun(美版)ROM,在 Ghidra 中恢复 Thumb/ARM 函数,并解析别名与间接调用。进而弄清 SPR_000 精灵的解码、VRAM/调色板/OAM 上传与镜像,在 mGBA 的 PPU 中逐像素验证。每个步骤都附命令与 SHA256 可复现,且不公开 ROM 内容。",
+      "target": "Golden Sun(GBA,美版)ROM",
+      "metric": "Ghidra 函数恢复覆盖率 98.67%,精灵渲染经 mGBA 逐像素验证"
+    }
+  },
+  "d-d584c6e6fc": {
+    "hash": "e0c5999d4f3e",
+    "en": {
+      "title": "Rebuilding the 2002 Dino Island in Three.js, with REA/Ghidra research into the original formats",
+      "summary": "The goal is to rebuild Monte Cristo's Dino Island in a macOS browser, while using REA/Ghidra for static analysis of the original executable and file formats. It can already load the original island terrain, 1,536 plants, and the original meshes and animations of four dinosaur species, plus a playable park prototype. The author says it is not a complete port and has not established behavioral equivalence with the original.",
+      "target": "Dino Island (2002)",
+      "metric": "Loads original terrain, 1,536 plants, and original models and animations of 4 dinosaur species"
+    },
+    "zh-CN": {
+      "title": "用 Three.js 重建 2002 年《恐龙岛》,并以 REA/Ghidra 研究原版格式",
+      "summary": "目标是在 macOS 浏览器上重建 Monte Cristo 的《Dino Island》,同时用 REA/Ghidra 静态分析原版可执行文件与文件格式。已能加载原版岛屿地形、1,536 个植被、四种恐龙的原始网格与动画,并有可玩的公园原型。作者自述尚非完整移植,也未确立与原版行为等价。",
+      "target": "Dino Island(2002)",
+      "metric": "加载原版地形、1,536 个植被与 4 种恐龙的原始模型与动画"
+    }
+  },
+  "d-79d8ecbdf5": {
+    "hash": "7a6f24286aaa",
+    "en": {
+      "title": "Reverse engineering Sense 3D with REA and Ghidra to rebuild a Linux scanning suite",
+      "summary": "The target is 3D Systems' Sense 3D scanning software, reimplemented because no Linux version exists. The author used REA and Ghidra to analyze UnityADP.dll, Geomagic_Api_V3, and memory offsets, wrote up a reverse engineering report, and built a native app supporting Sense 1/2 hardware, TSDF fusion, and a PyQt6 interface. The excerpt shows no comparison testing against the original.",
+      "target": "Sense 3D scanning software (3D Systems)",
+      "metric": "Supports both Sense 1/2 hardware generations, with TSDF fusion and STL/OBJ/PLY export"
+    },
+    "zh-CN": {
+      "title": "以 REA 与 Ghidra 逆向 Sense 3D 并重建 Linux 版扫描套件",
+      "summary": "目标是 3D Systems 的 Sense 3D 扫描软件,因缺少 Linux 版而重新实现。作者以 REA 与 Ghidra 分析 UnityADP.dll、Geomagic_Api_V3 与内存偏移,写成逆向报告,并做出支持 Sense 1/2 硬件、TSDF 融合与 PyQt6 界面的原生应用。节选未显示与原版的对照测试。",
+      "target": "Sense 3D 扫描软件(3D Systems)",
+      "metric": "支持 Sense 1/2 两代硬件,含 TSDF 融合与 STL/OBJ/PLY 导出"
+    }
+  },
+  "d-febc968287": {
+    "hash": "c7dc871d77b7",
+    "en": {
+      "title": "coop-anything, modeled on REA, claims to add online co-op to several classic games",
+      "summary": "The author created a repo that uses tools such as REA and Ghidra to reverse engineer games, then builds co-op modes in the manner of Skyrim Together. They say Deus Ex, Dungeon Keeper, and S.T.A.L.K.E.R.: SoC are done, while The Legend of Zelda: Ocarina of Time and Fallout: New Vegas are still in progress. The post contains only the author's own claims and a repo link; the excerpt includes no tests or screenshots.",
+      "target": "Games including Deus Ex, Dungeon Keeper, and STALKER SoC",
+      "metric": "Self-reported: 3 games done, 2 in progress"
+    },
+    "zh-CN": {
+      "title": "仿 REA 做 coop-anything,宣称为多款经典游戏加上联机合作模式",
+      "summary": "作者创建 repo,用 REA 与 Ghidra 等工具逆向游戏,再仿 Skyrim Together 的方式做合作模式。自述已完成《Deus Ex》、《Dungeon Keeper》、《S.T.A.L.K.E.R.: SoC》,《塞尔达传说:时之笛》与《辐射:新维加斯》仍在进行。文中只有作者自述与 repo 链接,节选内没有测试或截图。",
+      "target": "Deus Ex、Dungeon Keeper、STALKER SoC 等游戏",
+      "metric": "自述 3 款游戏完成、2 款进行中"
+    }
+  },
+  "d-bbf6930865": {
+    "hash": "650d85ada850",
+    "en": {
+      "title": "Using REA to have a Hermes agent analyze a calendar app and rebuild a simpler version",
+      "summary": "The author installed REA inside a Hermes agent and asked it to reverse engineer a calendar app, then rebuild a simpler, better-looking version. The agent studied the app, broke down how it works, and rebuilt it with a clean interface, but the excerpt is the author's own account only, with no repo or tests.",
+      "target": "A calendar app (unnamed)",
+      "metric": "A single prompt got the agent to analyze the app and rebuild a simplified calendar"
+    },
+    "zh-CN": {
+      "title": "用 REA 让 Hermes agent 分析日历应用并重做简化版",
+      "summary": "作者在 Hermes agent 内安装 REA,要求它逆向一个日历应用,再重建更简单美观的版本。agent 研究该应用、拆解其运作规则并重建成界面干净的版本,但节选只有作者自述,没有 repo 或测试。",
+      "target": "某日历应用(未具名)",
+      "metric": "以单一提示让 agent 完成分析并重建简化版日历"
+    }
+  },
+  "d-51f61bd749": {
+    "hash": "86c25d0ee255",
+    "en": {
+      "title": "Nine nights of reverse engineering 6 apps with REA and Opus 5.5, plus a clean-room workflow",
+      "summary": "The author points out that REA is an MCP server, not an agent, and ships without a clean-room setup, so they built a two-room workflow themselves. Room A used REA 6.5.0 to analyze 6 apps, recording 299 claims, each labeled as observed, derived, or inferred.",
+      "target": "6 apps",
+      "metric": "299 claims recorded, labeled observed / derived / inferred"
+    },
+    "zh-CN": {
+      "title": "以 REA 与 Opus 5.5 对 6 个 App 做九晚逆向并建立洁净室流程",
+      "summary": "作者指出 REA 是 MCP server 而非 agent,且不附洁净室,因此自建双房间流程。房间 A 用 REA 6.5.0 对 6 个 App 进行分析,记录 299 条主张,并标注为观察、推导或推论。",
+      "target": "6 个 App",
+      "metric": "记录 299 条主张并标注观察/推导/推论"
+    }
+  },
+  "d-932e59dbf2": {
+    "hash": "86df1dd5cbb8",
+    "en": {
+      "title": "Reverse engineering an Android app and rewriting it as a permission-free web app",
+      "summary": "The author reverse engineered an Android app and converted it into a web app, dropping the large set of permissions the APK required. Black-and-white mode already works, the next step is red-black-white mode, and a link to the REA repo is included.",
+      "target": "An Android app",
+      "metric": "Black-and-white mode works, and the APK's excess permissions are removed"
+    },
+    "zh-CN": {
+      "title": "逆向 Android App 并改写成免权限的网页版",
+      "summary": "作者逆向一个 Android App,把它转成网页应用,去除 APK 要求的大量权限。目前黑白模式已可运行,下一步是红黑白模式,并附上 REA 的 repo 链接。",
+      "target": "某 Android App",
+      "metric": "黑白模式已可运行,并移除 APK 的多余权限"
+    }
+  },
+  "d-55f46d060d": {
+    "hash": "9c690cbf102c",
+    "en": {
+      "title": "Video introducing REA, with a local DeepSeek deployment tested on Windows Calculator",
+      "summary": "The video covers what REA is for and how to deploy it, then demonstrates it on Windows Calculator. The excerpt contains only chapter timestamps, so no specific findings or conclusions are visible.",
+      "target": "Windows Calculator",
+      "metric": "Deployment and hands-on test demonstrated on Windows Calculator"
+    },
+    "zh-CN": {
+      "title": "视频介绍 REA,并以 DeepSeek 本地部署实测 Windows 计算器",
+      "summary": "视频介绍 REA 的用途与部署方式,并拿 Windows 计算器做演示实测。节选只有章节时间戳,看不出具体发现或结论。",
+      "target": "Windows 计算器",
+      "metric": "以 Windows 计算器做部署与实测演示"
+    }
+  },
+  "d-457c3333a1": {
+    "hash": "4543f86ab75c",
+    "en": {
+      "title": "Building an AI-assisted reverse engineering toolkit integrating REA, Ghidra, and rizin (eng)",
+      "summary": "The goal is to let AI agents decompile, analyze, and reconstruct software and games. The author built a modular CLI (eng) with an isolated workspace per target, integrating REA, Ghidra 12.1, decomp.wtf, rizin, and install scripts. The write-up focuses on tool integration and workflow; it shows no results from a concrete reverse engineering target.",
+      "target": "General reverse engineering workflows (native binaries, games, APKs, firmware)",
+      "metric": "Integrates four engines (REA, Ghidra, decomp.wtf, rizin) in a CLI with 12 subcommands"
+    },
+    "zh-CN": {
+      "title": "打造整合 REA、Ghidra、rizin 的 AI 辅助逆向工程工具包 eng",
+      "summary": "目标是让 AI agent 对软件与游戏进行反编译、分析与重建。作者做出模块化 CLI（eng）、每个目标独立的 workspace，并整合 REA、Ghidra 12.1、decomp.wtf、rizin 与安装脚本。内容以工具整合与流程说明为主，未展示具体逆向目标的成果。",
+      "target": "通用逆向工程工作流程（原生程序、游戏、APK、固件）",
+      "metric": "整合 REA、Ghidra、decomp.wtf、rizin 四种引擎，提供 12 个子命令的 CLI"
+    }
+  },
+  "d-ca348ed2e1": {
+    "hash": "96b04ad5bae9",
+    "en": {
+      "title": "Building a REA desktop client that turns 207 reverse engineering tools into a visual workspace",
+      "summary": "The goal is to let people unfamiliar with the command line use REA's reverse engineering capabilities. REA is wrapped in Electron, with a capability center, an evidence panel, drag-and-drop recognition of 38 formats, task persistence to disk with history recovery, and a built-in Node runtime. The README includes real execution screenshots, and the analysis target is open-source software.",
+      "target": "REA itself (desktop client)",
+      "metric": "Supports 38 input formats and integrates 207 MCP tools"
+    },
+    "zh-CN": {
+      "title": "打造 REA 桌面客户端，把 207 个逆向工具做成可视化工作区",
+      "summary": "目标是让不熟悉命令行的人也能使用 REA 的逆向能力。以 Electron 封装 REA，加入能力中心、证据面板、拖入即识别 38 种格式、任务落盘与历史恢复，并内置 Node 运行环境。README 附真实运行截图，分析对象为开源软件。",
+      "target": "REA 本身（桌面客户端）",
+      "metric": "支持 38 种输入格式、整合 207 个 MCP 工具"
+    }
+  },
+  "d-ed02f05ae4": {
+    "hash": "265da0c62ad1",
+    "en": {
+      "title": "Reverse engineering an internal IM with REA: progress is slow, still setting breakpoints to find the communication functions",
+      "summary": "The author is trying to reverse engineer an internal instant messaging application with REA, but progress has been slow. They are still using breakpoints to locate communication-related functions and have no conclusions yet.",
+      "target": "Internal IM application",
+      "metric": "Still tracing communication functions with breakpoints; no results yet"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向内部 IM，进度不顺仍在下断点找通信函数",
+      "summary": "作者尝试用 REA 逆向内部即时通信软件，目前进展不顺。仍在以断点寻找通信相关函数，尚无结论。",
+      "target": "内部 IM 通信软件",
+      "metric": "仍在断点跟踪通信函数，尚无成果"
+    }
+  },
+  "d-16900b79c4": {
+    "hash": "49847039a7ad",
+    "en": {
+      "title": "Claims to have reverse engineered another company's embedded product with REA",
+      "summary": "The author says they have used REA to reverse engineer another company's embedded product. They do not say which product or how, and provide no evidence or results.",
+      "target": "Unnamed embedded product",
+      "metric": "Self-reported success only; no details"
+    },
+    "zh-CN": {
+      "title": "自称用 REA 逆向出别家的嵌入式产品",
+      "summary": "作者表示已用 REA 逆向出其他公司的嵌入式产品。未说明是哪个产品、怎么做，也没有提供证据或成果。",
+      "target": "未具名的嵌入式产品",
+      "metric": "仅自述已逆向成功，无细节"
+    }
+  },
+  "d-18c83a81c6": {
+    "hash": "3b93f52de305",
+    "en": {
+      "title": "Building an Isolated Linux Environment So Codex Can Safely Use REA, Ghidra and JADX",
+      "summary": "Worried about AI tools having free access to their own computer, the author built an isolated Linux machine where Codex can use REA, Ghidra and JADX. The environment has no network access and no way to reach private files.",
+      "target": "Sandbox environment for Codex with REA, Ghidra and JADX",
+      "metric": "Isolated Linux machine with no network and no access to private files (under construction)"
+    },
+    "zh-CN": {
+      "title": "搭建隔离的 Linux 环境，让 Codex 安全使用 REA、Ghidra 与 JADX",
+      "summary": "作者担心 AI 工具可以自由访问自己的电脑，因此搭建了一台隔离的 Linux 机器，让 Codex 在其中使用 REA、Ghidra 与 JADX。该环境没有网络，也无法访问私人文件。",
+      "target": "Codex 搭配 REA、Ghidra、JADX 的沙箱环境",
+      "metric": "无网络、无法访问私人文件的隔离 Linux 机器（搭建中）"
+    }
+  },
+  "d-e8ddfd6636": {
+    "hash": "4b35f992ba07",
+    "en": {
+      "title": "Building rea-workbench, a Workbench for Connecting Workflows and Managing Results in REA",
+      "summary": "The author is building rea-workbench to connect analysis workflows and manage results on top of REA, lowering the barrier to entry. The project is still in early development, with features being added gradually.",
+      "target": "REA analysis workflow workbench (rea-workbench)",
+      "metric": "Public GitHub repo, early development stage"
+    },
+    "zh-CN": {
+      "title": "开发 rea-workbench，为 REA 提供流程衔接与结果管理的工作台",
+      "summary": "作者开发 rea-workbench，希望在 REA 之上做好分析流程的衔接与结果管理，降低使用门槛。项目仍处于早期开发阶段，功能正在逐步实现。",
+      "target": "REA 分析流程工作台（rea-workbench）",
+      "metric": "GitHub 公开 repo，早期开发阶段"
+    }
+  },
+  "d-4ab2a37f6e": {
+    "hash": "b3e21756c94e",
+    "en": {
+      "title": "A Version-Pinned REA Plugin for DeepSeek Harness",
+      "summary": "The goal is to prevent silent REA upgrades from making results incomparable across sessions. The plugin installs rea-agents at a pinned version, launches the MCP service from a local copy, and upgrades only when \"Update\" is clicked. It comes with a card screenshot, version detection and a changelog.",
+      "target": "DeepSeek Harness and rea-agents integration",
+      "metric": "Pinned-version install; upgrades only on manual Update"
+    },
+    "zh-CN": {
+      "title": "为 DeepSeek Harness 做固定版本的 REA 插件",
+      "summary": "目标是避免 REA 静默升级导致跨会话结果无法对比。插件把 rea-agents 安装为固定版本，从本机副本启动 MCP 服务，只有点击“更新”才会升级版本。附有卡片截图、版本检测与更新日志。",
+      "target": "DeepSeek Harness 与 rea-agents 集成",
+      "metric": "固定版本安装，仅手动点击更新才升级版本"
+    }
+  },
+  "d-c830cb6a4e": {
+    "hash": "dda75dde2305",
+    "en": {
+      "title": "Bringing Minecraft's Wither Storm into GTA 5 with REA and Opus 5.5",
+      "summary": "Starting from an existing Minecraft Wither Storm mod, the author used REA to study the game and its mechanics, and claims to have put Minecraft into GTA 5 without modifying any original game files. The excerpt is the author's own account only, with no code, tests or screenshots to back it up.",
+      "target": "Minecraft Wither Storm mod and GTA 5",
+      "metric": "Self-reported: runs Minecraft inside GTA 5 without altering any original GTA 5 files"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Opus 5.5 把 Minecraft 的 Wither Storm 带进 GTA 5",
+      "summary": "作者以现有的 Minecraft Wither Storm mod 为起点，用 REA 研究游戏及其机制，声称在不修改任何原版游戏文件的情况下，把 Minecraft 放进了 GTA 5。节选只有作者自述，没有代码、测试或截图等佐证。",
+      "target": "Minecraft Wither Storm mod 与 GTA 5",
+      "metric": "自述不改动任何原版 GTA 5 文件即可在 GTA 5 中运行 Minecraft"
+    }
+  },
+  "d-471feb7d3d": {
+    "hash": "72d00f039c70",
+    "en": {
+      "title": "A free bilingual guide to reverse engineering with VS Code, Cline and REA on a low-spec machine",
+      "summary": "A tutorial on installing VS Code, Cline and rea-agents on a 4 GB RAM Debian machine, paired with the free Gemini Flash API. It provides step-by-step commands, expected output and fixes for common errors, all verified on real hardware. The focus is on teaching and environment setup; no specific target is analyzed.",
+      "target": "Low-resource setup for the REA MCP server (207 tools)",
+      "metric": "Runs the full stack on the free tier on Debian 13 with 4 GB RAM (about 1.1 GB of disk)"
+    },
+    "zh-CN": {
+      "title": "撰写在低配电脑上用 VS Code、Cline 与 REA 做逆向的免费双语指南",
+      "summary": "教程说明如何在 4 GB RAM 的 Debian 上安装 VS Code、Cline 与 rea-agents,并搭配免费的 Gemini Flash API。内容提供分步指令、预期输出与常见错误处理,并在实机上验证过。重点在教学与环境配置,没有分析具体目标。",
+      "target": "REA MCP 服务器(207 个工具)的低资源安装环境",
+      "metric": "在 4 GB RAM 的 Debian 13 上用免费方案跑通整套(约 1.1 GB 磁盘)"
+    }
+  },
+  "d-d6de680e81": {
+    "hash": "bd5cfbca380c",
+    "en": {
+      "title": "A web interface that analyzes web pages with REA from just a URL",
+      "summary": "The author built a frontend-plus-backend site: enter a public URL, it opens the page in a headless browser, then calls REA to inspect the page structure, scripts, network requests, console and storage. Every finding carries an REA evidence ID, and the site includes SSRF protection and an analysis history. It is a wrapper around REA and does not analyze a specific target.",
+      "target": "Any public website (a general-purpose REA web analysis frontend)",
+      "metric": "Every finding carries an REA evidence ID, with SSRF protection"
+    },
+    "zh-CN": {
+      "title": "做出输入网址即可用 REA 分析网页的 Web 界面",
+      "summary": "作者做了前端加后端的网站,输入公开网址后用无头浏览器打开,再调用 REA 检查页面结构、脚本、网络请求、控制台与存储。每项发现都附 REA 证据编号,并含 SSRF 防护与分析历史记录。属于 REA 的封装工具,没有分析特定目标。",
+      "target": "任意公开网站(通用 REA 网页分析前端)",
+      "metric": "每项发现附 REA 证据编号,并有 SSRF 防护"
+    }
+  },
+  "d-fd4308e914": {
+    "hash": "3f3ad4708bff",
+    "en": {
+      "title": "An evidence-first REA reverse engineering workspace template for Claude Code and Codex",
+      "summary": "For targets such as APKs, native binaries, Electron apps and source code, it offers a one-workspace-per-target template with REA MCP configuration, analysis prompts, note templates and data-protection scripts. The approach is to keep the original untouched, analyze a copy and back every conclusion with evidence, with failure-path tests included. It is a tooling and workflow template and presents no analysis results for a specific target.",
+      "target": "REA reverse engineering workflow (APK / binary / source code)",
+      "metric": "Seven task prompts, with data protection and failure-path tests"
+    },
+    "zh-CN": {
+      "title": "推出以证据为先、支持 Claude Code 与 Codex 的 REA 逆向工作区模板",
+      "summary": "针对 APK、原生二进制、Electron、源代码等目标,提供一个目标一个工作区的模板,含 REA MCP 配置、分析提示词、笔记模板与数据保护脚本。做法是保留原件、在副本上分析并以证据支撑结论,另附失败路径测试。内容为工具与流程模板,未呈现对具体目标的分析成果。",
+      "target": "REA 逆向分析工作流程(APK/二进制/源代码)",
+      "metric": "七套任务提示词,配套数据保护与失败路径测试"
+    }
+  },
+  "d-17193485f2": {
+    "hash": "a367355c0cc5",
+    "en": {
+      "title": "An MSX ROM/disk reverse engineering toolkit with a CLI, MCP and Agent Skill",
+      "summary": "Modeled on REA, it builds a triage pipeline for MSX ROM and disk images that outputs Evidence JSON and reports, covering the AB header, mapper heuristics and the FAT12 directory. It supports MCP and skill registration for multiple LLM clients, and includes openMSX dynamic probing scripts. It is a tool, not an analysis of any specific game.",
+      "target": "MSX ROM / disk images",
+      "metric": "One CLI + MCP + Skill suite, with registration for 11 LLM clients"
+    },
+    "zh-CN": {
+      "title": "打造 MSX ROM/磁盘逆向工具包,提供 CLI、MCP 与 Agent Skill",
+      "summary": "仿 REA 风格,为 MSX 的 ROM 与磁盘映像建立分诊流程,输出 Evidence JSON 与报告,含 AB 头、mapper 启发式判断与 FAT12 目录。支持多家 LLM 客户端的 MCP 与 skill 注册,并提供 openMSX 动态探测脚本。内容为工具而非对具体游戏的分析成果。",
+      "target": "MSX ROM/磁盘映像",
+      "metric": "一套 CLI+MCP+Skill,支持 11 种 LLM 客户端注册"
+    }
+  },
+  "d-59fbedf7a5": {
+    "hash": "c284e53c0dad",
+    "en": {
+      "title": "Getting Started with REA: Installation, Evidence Verification, and Your First Electron Task",
+      "summary": "This tutorial covers installing REA, running doctor to check your setup, and completing an engine-free analysis task on an authorized Electron/JS application. It also explains what each tier can do, its limits, and the compliance boundaries.",
+      "target": "Electron/JavaScript application (tutorial demo)",
+      "metric": "Complete onboarding flow for finishing a first Electron analysis task without an engine"
+    },
+    "zh-CN": {
+      "title": "REA 入门教程:安装、Evidence 验证与第一个 Electron 任务",
+      "summary": "教程说明如何安装 REA、用 doctor 检查,并在已授权的 Electron/JS 应用上跑通免引擎的分析任务。同时介绍各档次能力、限制与合规边界。",
+      "target": "Electron/JavaScript 应用(教程演示)",
+      "metric": "免引擎完成首个 Electron 分析任务的完整上手流程"
+    }
+  },
+  "d-6b25cfd62a": {
+    "hash": "96302caf4a86",
+    "en": {
+      "title": "Configuration bundle for connecting REA's MCP service to DeepSeek Harness",
+      "summary": "The goal is to let DeepSeek Harness models call mcp__rea__* tools. REA's stdio MCP server is added purely through configuration files, with notes on engine environment variables and override pitfalls. No analysis logic is included.",
+      "target": "Integration of DeepSeek Harness with REA",
+      "metric": "A single config file connects the REA MCP tools"
+    },
+    "zh-CN": {
+      "title": "将 REA 的 MCP 服务接入 DeepSeek Harness 的配置包",
+      "summary": "目标是让 DeepSeek Harness 的模型能够调用 mcp__rea__* 工具。以纯配置文件的方式加入 REA 的 stdio MCP 服务器,并说明引擎环境变量与覆盖配置的陷阱。不含任何分析逻辑。",
+      "target": "DeepSeek Harness 与 REA 的集成",
+      "metric": "一份配置文件即可连接 REA MCP 工具"
+    }
+  },
+  "d-f9d5f86ae4": {
+    "hash": "77f4b042ba2a",
+    "en": {
+      "title": "Wrapping the rea-agents CLI with FastMCP to generate MCP tools dynamically",
+      "summary": "Each command of the rea CLI is converted into an MCP tool dynamically via --llms and --schema, so new tools appear after a REA upgrade without code changes. Supports stdio and HTTP, and resolves the CLI path through an ordered lookup. It is an integration tool with no results against a specific reverse-engineering target.",
+      "target": "rea-agents CLI",
+      "metric": "Dynamically exposes 145+ rea commands as MCP tools"
+    },
+    "zh-CN": {
+      "title": "用 FastMCP 封装 rea-agents CLI,动态生成 MCP 工具",
+      "summary": "将 rea CLI 的每个命令依据 --llms 与 --schema 动态转换为 MCP 工具,REA 升级后无需改代码即可新增工具。支持 stdio 与 HTTP,并可按顺序解析 CLI 路径。属于集成工具,没有针对具体逆向目标的成果。",
+      "target": "rea-agents CLI",
+      "metric": "动态暴露 145 个以上 rea 命令为 MCP 工具"
+    }
+  },
+  "d-8501538b42": {
+    "hash": "fed87392aa85",
+    "en": {
+      "title": "Chinese-language REA Agent Skill with a 155-command index and self-check script",
+      "summary": "Fully localizes REA's methodology and documentation into Chinese, adding installation and setup, engine configuration, a command index, an MCP tool index, and an environment health-check script. The content is documentation and tool packaging; it does not include REA itself or any actual reverse-engineering target.",
+      "target": "REA skill packaging (Chinese localization)",
+      "metric": "Chinese index of 155 commands, index of 207 MCP tools"
+    },
+    "zh-CN": {
+      "title": "推出 REA 中文版 Agent Skill,含 155 条命令索引与自检脚本",
+      "summary": "将 REA 的方法论与文档完整汉化,并补上安装接入、引擎配置、命令索引、MCP 工具索引与环境体检脚本。内容是说明书与工具封装,不含 REA 本体或实际逆向目标。",
+      "target": "REA 技能封装(中文化)",
+      "metric": "155 条命令中文索引、207 个 MCP 工具索引"
+    }
+  },
+  "d-9afb6a432a": {
+    "hash": "047c89c86453",
+    "en": {
+      "title": "A REA getting-started site and a CSV export investigation checklist",
+      "summary": "An English getting-started site covering installation, MCP setup and troubleshooting, plus a CSV export investigation checklist and a Python script that generates 36 test combinations. The author states explicitly that this is only a reference CSV dialect, not the result of testing any commercial application, and that it contains no actual reverse-engineering results from REA.",
+      "target": "REA onboarding tutorial and CSV export checklist",
+      "metric": "Script generates 36 combinations of commas, quotes, newlines and Unicode"
+    },
+    "zh-CN": {
+      "title": "制作 REA 入门指南站与 CSV 导出调查检查表",
+      "summary": "整理安装、MCP 接入与排错的英文入门站,并提供 CSV 导出调查检查表与可生成 36 组测试组合的 Python 脚本。作者明确说明这只是参考 CSV 方言,不是任何商业应用的实测结果,也没有 REA 的实际逆向成果。",
+      "target": "REA 入门教程与 CSV 导出检查表",
+      "metric": "脚本生成 36 组逗号、引号、换行与 Unicode 组合"
+    }
+  },
+  "d-fb1446d690": {
+    "hash": "3e1e181e5398",
+    "en": {
+      "title": "Reverse-Engineering Project to Decompile the DMC3 Vergil Model and Port It to GoW3 Remastered",
+      "summary": "The goal is to extract Vergil's model from the Devil May Cry 3 HD Collection, export it to a common format, and eventually port it to God of War III Remastered. The author drew inspiration from REA's evidence-first methodology and ties each format conclusion to byte-level observations. The excerpt shows only the plan, references and objectives; no completed results are visible.",
+      "target": "Vergil model from Devil May Cry 3 HD Collection and God of War III Remastered",
+      "metric": "Every format conclusion in the documentation maps to byte-level observations of actual files (evidence IDs such as E-007 and E-011)"
+    },
+    "zh-CN": {
+      "title": "反编译 DMC3 Vergil 模型并移植到 GoW3 Remastered 的逆向项目",
+      "summary": "目标是从《Devil May Cry 3》HD 合集中提取 Vergil 的模型，导出为通用格式，最终移植到《God of War III Remastered》。作者以 REA 的证据优先方法论为灵感，并把格式结论对应到字节层面的观察。节选只展示了计划、参考资料与目标，未见已完成的成果。",
+      "target": "Devil May Cry 3 HD Collection 的 Vergil 模型与 God of War III Remastered",
+      "metric": "文档中的格式结论均对应到实际文件的字节观察（E-007、E-011 等证据编号）"
+    }
+  },
+  "d-ce2c552c69": {
+    "hash": "7e9f0ec26d60",
+    "en": {
+      "title": "Playbook for Multi-Agent Clean-Room Reconstruction and Legacy System Modernization Built Around REA",
+      "summary": "Proposes a multi-agent architecture with roles named after Homeric epic characters, paired with REA's 207 tools, for clean-room reconstruction and legacy system modernization. The content centers on methodology, legal basis and workflow; the excerpt contains no analysis results for any specific target.",
+      "target": "General workflow for restoring legacy firmware and software",
+      "metric": "Defines multi-agent division of labor and a clean-room process; no results for a specific target"
+    },
+    "zh-CN": {
+      "title": "以 REA 为核心的多代理净室重建与老旧系统现代化手册",
+      "summary": "提出以荷马史诗角色命名的多代理架构，搭配 REA 的 207 个工具，用于净室重建与遗留系统现代化。内容以方法论、法规依据与流程为主，节选中没有针对具体目标的分析成果。",
+      "target": "通用的老旧固件与软件修复流程",
+      "metric": "定义多代理分工与净室流程，无具体目标成果"
+    }
+  },
+  "d-eb3773e62b": {
+    "hash": "1929fb1c4bcb",
+    "en": {
+      "title": "Post Promoting REA Inside Hermes Agent: Rebuild a Calendar App with One Prompt",
+      "summary": "The post presents REA plugging into Hermes Agent, reverse-engineering a calendar app and rebuilding a simplified version from a single prompt, and claims the agent, plugin and model are all free. It is promotional, with no links to evidence or results.",
+      "target": "Calendar app (unnamed)",
+      "metric": "Rebuilds a simplified calendar app from one prompt (author's claim)"
+    },
+    "zh-CN": {
+      "title": "宣传 REA 可在 Hermes Agent 内使用，一句提示重建日历 App",
+      "summary": "帖子介绍 REA 能接入 Hermes Agent，用一句提示逆向日历应用并重建简化版，并称代理、插件与模型都可免费使用。内容为宣传性质，没有证据或成果链接。",
+      "target": "日历应用（未具名）",
+      "metric": "一句提示重建简化版日历 App（作者自述）"
+    }
+  },
+  "d-f3b80f345b": {
+    "hash": "2a0564b5ba68",
+    "en": {
+      "title": "Community Guide on Using REA with Claude Code",
+      "summary": "Describes how REA and Claude Code split the work: the user asks questions, REA supplies inspectable evidence, and Claude explains it. Also covers the MCP connection and the analysis route for desktop apps. It is a conceptual tutorial with no measured results on a specific target.",
+      "target": "Desktop apps (general, no specific target)",
+      "metric": "No concrete results; a walkthrough of the usage workflow"
+    },
+    "zh-CN": {
+      "title": "社区指南：如何搭配 Claude Code 使用 REA",
+      "summary": "介绍 REA 与 Claude Code 的分工：用户提问、REA 提供可查验的证据、Claude 负责解释，并说明 MCP 连接和桌面应用的分析路线。属于概念性教程，没有针对具体目标的实测结果。",
+      "target": "桌面应用（泛指，无具体目标）",
+      "metric": "无具体成果，为使用流程说明"
+    }
   }
 }

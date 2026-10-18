@@ -4464,38 +4464,56 @@
     },
     {
       "date": "2026-10-18",
-      "stars": 307626,
-      "stars_delta": 14198,
+      "stars": 309972,
+      "stars_delta": 16544,
       "new": [
+        "d-fe71147f43",
+        "d-ff5c356cfe",
         "d-4f1399acfd",
         "d-c4d6e29d0f",
         "d-50f5e59d27",
         "d-04c8d6cd92",
         "d-e2356eb09a",
+        "d-cb2f824f5c",
+        "d-c3b88e2559",
         "d-d584c6e6fc",
         "d-79d8ecbdf5",
         "d-febc968287",
+        "d-842a8eadf1",
         "d-4cbb1312dc",
+        "d-78eae178fd",
+        "d-9c9b054962",
+        "d-e2c199a635",
         "d-a8f3fa7f6a",
         "d-77593de27f",
+        "d-a2e226d153",
+        "d-4ec7494c18",
+        "d-5f615eee8e",
         "d-0a26cf014b",
         "d-585e9194da",
         "d-b3a7a923a0",
         "d-764778ad5c",
         "d-b534d6bcfb",
         "d-bbf6930865",
+        "d-0c5e9755e3",
+        "d-4991122854",
         "d-51f61bd749",
         "d-932e59dbf2",
+        "d-dfd0acf51f",
         "d-55f46d060d",
         "d-18c83a81c6",
         "d-e8ddfd6636",
+        "d-4b2e646a25",
         "d-4ab2a37f6e",
         "d-c830cb6a4e",
+        "d-cb5ec336d9",
         "d-457c3333a1",
         "d-ca348ed2e1",
+        "d-34723e27d2",
         "d-ed02f05ae4",
         "d-16900b79c4",
         "d-471feb7d3d",
+        "d-5e7647fe7b",
         "d-d6de680e81",
         "d-fd4308e914",
         "d-17193485f2",
@@ -4503,6 +4521,7 @@
         "d-f9d5f86ae4",
         "d-8501538b42",
         "d-9afb6a432a",
+        "d-0359d0edb4",
         "d-fb1446d690",
         "d-ce2c552c69",
         "d-eb3773e62b",
@@ -4510,56 +4529,58 @@
         "d-59fbedf7a5"
       ],
       "stats": {
-        "count": 41,
+        "count": 60,
         "wow": {
-          "2": 26,
-          "3": 8,
-          "4": 6,
-          "5": 1
+          "2": 34,
+          "3": 15,
+          "4": 8,
+          "5": 3
         },
         "type": {
-          "case": 19,
-          "app": 16,
-          "learn": 6
+          "case": 31,
+          "learn": 7,
+          "app": 22
         },
         "status": {
-          "tested": 4,
-          "reported": 19,
-          "shipped": 18
+          "tested": 6,
+          "reported": 29,
+          "shipped": 25
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 單日星數暴增逾萬，逆向成果從遊戲擴及硬體與網站",
-          "summary": "REA 的 GitHub 星數升至 307,626，比前一個紀錄增加 14,198。當天最具份量的是 DX-Ball 逐函式重建案例：以 3,205 組測試對照原始程式，並以當年編譯器重編後 63 位元組完全一致。Golden Sun 精靈渲染也做了逐像素驗證。另有以 REA 逆向日立 App 操控烤箱、仿製 hyper3d.ai 與 pexo.ai 等網站的案例。其中不少項目只有作者自述，缺少測試或對照，顯示驗證仍是主要瓶頸。"
+          "headline": "REA 星數破 30 萬,逆向案例從遊戲擴及硬體與網站",
+          "summary": "REA GitHub 星數達 309,972,比前一個紀錄 293,428 多了 16,544。當天榜首案例是分叉出 rea-engine,從二進位重建 Windows 井字棋,並在 19,683 個盤面狀態上與原版全部一致;另有 DX-Ball 逐函式重建(3,205 組測試、63 位元組比對一致)、Golden Sun 精靈逐像素驗證。這些高分案例都附帶可重現的比對或測試,顯示重點正從「能做出來」轉向「能證明一樣」。同時也有日立烤箱、藍牙耳機、三星電視等操控自家裝置的案例,以及一篇指出 REA 的 207 個工具讓上下文暴增的負面檢討。"
         },
         "en": {
-          "headline": "REA stars jump by over 14,000 as reverse-engineering spans games, devices and sites",
-          "summary": "REA's GitHub stars rose to 307,626, up 14,198 from the previous record. The strongest item was a function-by-function DX-Ball rebuild, checked with 3,205 test cases against the original and a 63-byte exact match after recompiling with the period compiler. Golden Sun sprite rendering was also verified pixel by pixel. Other cases include reversing a Hitachi app to control an oven and cloning sites such as hyper3d.ai and pexo.ai. Many entries rest on the author's own claims without tests or comparisons, so verification remains the bottleneck."
+          "headline": "REA passes 300K stars; reverse-engineering spreads from games to devices and sites",
+          "summary": "REA's GitHub stars reached 309,972, up 16,544 from the previous record of 293,428. The top case forked REA into rea-engine and rebuilt a Windows tic-tac-toe from its binary, matching the original on all 19,683 board states. Others include a function-by-function DX-Ball rebuild (3,205 tests, a 63-byte match after recompiling with the period compiler) and pixel-level verification of Golden Sun sprites. The strongest cases ship reproducible comparisons or tests, so the emphasis is shifting from \"it works\" to \"it provably matches\". There were also cases of controlling one's own devices (a Hitachi oven, Bluetooth earbuds, a Samsung TV), plus one post-mortem saying REA's 207 tools overloaded an agent's context."
         },
         "zh-CN": {
-          "headline": "REA 单日星数暴增逾万，逆向成果从游戏扩及硬件与网站",
-          "summary": "REA 的 GitHub 星数升至 307,626，比之前的记录增加 14,198。当天最有分量的是 DX-Ball 逐函数重建案例：以 3,205 组测试对照原始程序，并用当年编译器重编后 63 字节完全一致。Golden Sun 精灵渲染也做了逐像素验证。另有用 REA 逆向日立 App 操控烤箱、仿制 hyper3d.ai 与 pexo.ai 等网站的案例。其中不少项目只有作者自述，缺少测试或对照，说明验证仍是主要瓶颈。"
+          "headline": "REA 星数破 30 万,逆向案例从游戏扩及硬件与网站",
+          "summary": "REA GitHub 星数达 309,972,比前一个纪录 293,428 多了 16,544。当天榜首案例是分叉出 rea-engine,从二进制重建 Windows 井字棋,并在 19,683 个盘面状态上与原版全部一致;另有 DX-Ball 逐函数重建(3,205 组测试、63 字节比对一致)、Golden Sun 精灵逐像素验证。这些高分案例都附带可复现的比对或测试,显示重点正从“能做出来”转向“能证明一样”。同时也有日立烤箱、蓝牙耳机、三星电视等操控自家设备的案例,以及一篇指出 REA 的 207 个工具让上下文暴增的负面复盘。"
         }
       },
       "signals": [
-        "A",
         "B",
-        "C"
+        "C",
+        "D"
       ],
       "highlights": [
+        "d-fe71147f43",
         "d-4f1399acfd",
-        "d-e2356eb09a",
-        "d-c4d6e29d0f"
+        "d-e2356eb09a"
       ],
       "rank": [
         "touhou-factory",
         "obsidian-quick-switcher",
         "dotey-claude-slides",
         "dx-ball-sound-pan",
+        "d-fe71147f43",
         "d-d155fe3d33",
         "ski-or-die",
         "d-46649d8806",
+        "d-ff5c356cfe",
         "d-0e97307937",
         "d-1699b856e8",
         "d-cfdb480bdf",
@@ -4610,6 +4631,8 @@
         "d-45164a9283",
         "d-831a3c86b4",
         "d-6417fa2b6c",
+        "d-cb2f824f5c",
+        "d-c3b88e2559",
         "d-d584c6e6fc",
         "d-79d8ecbdf5",
         "d-61e1713171",
@@ -4653,17 +4676,21 @@
         "d-ee78e9d70f",
         "d-b92f31e9f9",
         "d-88289c1390",
+        "d-842a8eadf1",
         "d-0eaa14a486",
         "d-45721974f1",
         "d-4cbb1312dc",
+        "d-78eae178fd",
         "vsl-dsp",
         "d-77400f1907",
         "d-18f8fa48a9",
+        "d-9c9b054962",
         "d-43ba2a9c24",
         "d-8f2bebd111",
         "netcat-audit",
         "d-d4ac31aaf8",
         "d-733ba71db9",
+        "d-e2c199a635",
         "d-1e9e8acd10",
         "d-629ff0ee37",
         "d-e8b828d168",
@@ -4688,11 +4715,13 @@
         "d-ec49bf6b05",
         "d-77593de27f",
         "d-9fa69c73f3",
+        "d-a2e226d153",
         "d-7dc975affa",
         "d-211278f991",
         "d-4ce8ff9e86",
         "d-9185a20b03",
         "d-bfaf7bdd8b",
+        "d-4ec7494c18",
         "d-91be7dbaf1",
         "d-39ce0d017b",
         "d-39d1b0e38f",
@@ -4722,6 +4751,7 @@
         "zenn-electron-known-answer",
         "d-95812085d2",
         "kingy-notes-exporter",
+        "d-5f615eee8e",
         "d-0a26cf014b",
         "d-585e9194da",
         "d-c0ee6a17ba",
@@ -4769,6 +4799,8 @@
         "d-1d3d058162",
         "d-bbf6930865",
         "d-4a697a1df0",
+        "d-0c5e9755e3",
+        "d-4991122854",
         "d-21657b277b",
         "d-51f61bd749",
         "d-932e59dbf2",
@@ -4789,6 +4821,7 @@
         "d-94f24dd97b",
         "d-d2c64cc5c2",
         "d-d150fc5a4f",
+        "d-dfd0acf51f",
         "d-64a9dbf845",
         "d-f5e1706815",
         "d-55f46d060d",
@@ -4802,6 +4835,7 @@
         "d-fbb1b433ec",
         "d-29f3025565",
         "d-e8ddfd6636",
+        "d-4b2e646a25",
         "d-927facadb3",
         "d-a8ca00f73c",
         "d-20a3f03ca3",
@@ -4818,6 +4852,7 @@
         "d-c830cb6a4e",
         "d-105efaffea",
         "d-135476cbb2",
+        "d-cb5ec336d9",
         "d-6cf5b70293",
         "d-78c096101a",
         "d-e5515b0c5a",
@@ -4852,6 +4887,7 @@
         "d-2f7fe8060f",
         "d-9e851834fe",
         "d-e1728ce0c0",
+        "d-34723e27d2",
         "d-fa40d24345",
         "d-5df65cb299",
         "d-ed02f05ae4",
@@ -4887,6 +4923,7 @@
         "d-40c0474406",
         "d-49c3fe3859",
         "heartland-side-effects",
+        "d-5e7647fe7b",
         "d-d6de680e81",
         "d-fd4308e914",
         "d-17193485f2",
@@ -4894,6 +4931,7 @@
         "d-f9d5f86ae4",
         "d-8501538b42",
         "d-9afb6a432a",
+        "d-0359d0edb4",
         "d-1d8733458f",
         "d-101de8870f",
         "d-336d476845",
@@ -5041,6 +5079,7 @@
         "d-d81465dfaf",
         "d-745bc996c3",
         "d-bdbc3e04d9",
+        "d-0f3c368a40",
         "d-fbb225ca8e",
         "d-7e1f5b5198",
         "d-5b053df591",
@@ -5163,6 +5202,7 @@
         "d-f69c515bc8",
         "d-b794d99cce",
         "d-1681bfccd2",
+        "d-572ec13c44",
         "d-e46843369b",
         "d-2a7034b862",
         "d-09a64339d4",
@@ -5189,6 +5229,7 @@
         "d-58858cc113",
         "d-278ef82903",
         "d-49f94bbe64",
+        "d-89a62f3c1f",
         "d-d174ef7da4",
         "d-631dc0510e",
         "d-4bcd24720d",
@@ -5201,6 +5242,7 @@
         "d-1d5883af5b",
         "d-1480a7cf0c",
         "d-a3ba1f1bee",
+        "d-efdabdf2d8",
         "d-bdb3bb40fa",
         "d-f4af2f46c2",
         "d-3fdebb0776",
@@ -5252,6 +5294,7 @@
         "d-9cf47d90e7",
         "d-45518a1b3f",
         "d-182c75956c",
+        "d-a37a488d06",
         "d-f2f1a5a948",
         "d-0d53a898d4",
         "d-ded7b817e8",
@@ -5275,6 +5318,7 @@
         "d-c7d3cefac8",
         "d-413b965ecf",
         "d-6fa6be8566",
+        "d-d822cafab7",
         "d-c8a7dbc8ed",
         "d-cbe8f38835",
         "d-adfbebad69",
@@ -5341,7 +5385,10 @@
         "d-e776c1c4c1",
         "d-2761852b3d",
         "d-2f09a54a93",
+        "d-7dc0195824",
+        "d-72a34d9de5",
         "d-556934923d",
+        "d-556f8112d2",
         "d-f936593cc9",
         "d-eb50a549ad",
         "d-137641070d",
@@ -5554,33 +5601,33 @@
     "to": "2026-10-18",
     "text": {
       "zh-TW": {
-        "headline": "REA 從復刻展示轉向可驗證重建，驗證成為關鍵",
-        "summary": "本週星數從 12.9 萬一路升到 30.7 萬，案例從東方 Project、DX-Ball 等遊戲，擴及 Screen Studio、CapCut、Word 等商用軟體，再延伸到 ZWO ASIAIR 韌體、智慧馬桶與藍牙杯協定、日立烤箱 App 等硬體。許多熱門貼文只有作者自述，沒附 repo 或測試，功能復刻的門檻明顯降低。真正受關注的是附證據的案例：Untangle 由獨立 agent 評分、DX-Ball 以 3,205 組輸入對照並重現 63 位元組、藍牙杯在實體硬體上逐封包驗證。10 月 17 日出現審計案例，發現測試通過但常數實際不同（原版加 32.0f、重建版加 1.0f），讓「怎麼證明重建是對的」更受重視。另有實測指出 REA 在 A/B 試驗中耗時最多 2.00 倍、費用最多 1.67 倍。",
-        "watch": "接下來幾天，可留意附 oracle 對照、逐像素或逐位元組比對、形式證明（如 Z3）的案例，以及像上述審計那樣能抓出「測試通過但實際有誤」的做法，這類驗證工具與評分方法可能是機會。硬體與韌體互通（BLE、IoT、家電 App）和老軟體保存／移植（如 Ultima VI 移植成瀏覽器可玩版）也值得持續追蹤。"
+        "headline": "重建熱潮從展示走向驗證:能證明一樣,才是真價值",
+        "summary": "本週 REA 星數從約 13 萬一路升到逾 30 萬,逆向案例從東方 Project 等老遊戲,擴及 Screen Studio、Word、Photoshop 等商用軟體,再延伸到韌體、藍牙協定與家電等硬體。「驗證是瓶頸」(B)七天都出現,是本週最穩定的主線。高分案例開始附上可重現的證據,例如 DX-Ball 的 3,205 組輸入比對、井字棋 19,683 個盤面全部一致;但也有審計發現測試顯示相符、實際常數卻錯,而許多熱門貼文只有作者自述。同時,A/B 實測指出 REA 耗時最多 2.00 倍、費用最多 1.67 倍,且 207 個工具讓上下文暴增,成本問題開始浮現。",
+        "watch": "留意能把「怎麼證明重建是對的」做成工具或流程的專案,例如差異測試、oracle 比對與測試審計。也可觀察操控自家裝置(藍牙、電視、烤箱)的案例是否持續增加,以及成本與工具數量的批評是否催生更精簡的做法。這兩項本週都只有零星出現,是否成為趨勢仍待觀察。"
       },
       "en": {
-        "headline": "REA shifts from flashy clones to verifiable reconstruction; verification is the bottleneck",
-        "summary": "Over the week, REA's GitHub stars rose from 129,748 to 307,626, and cases widened from games like Touhou Project and DX-Ball to commercial software such as Screen Studio, CapCut and Word, then to hardware: ZWO ASIAIR firmware, a smart toilet and a Bluetooth cup protocol, and a Hitachi oven app. Many popular posts were author claims with no repo or tests, which shows how low the bar for cloning features has become. The cases that drew real attention came with evidence: Untangle graded by an independent agent, DX-Ball checked against 3,205 inputs with 63 bytes reproduced, and a Bluetooth cup verified packet by packet on real hardware. On Oct 17 an audit found tests passing while a constant was actually wrong (original adds 32.0f, reconstruction adds 1.0f), which put the question of how to prove a reconstruction correct at the center. One A/B measurement also found REA taking up to 2.00x the time and 1.67x the cost.",
-        "watch": "In the coming days, watch for cases that use oracle comparison, pixel- or byte-level matching, or formal proof (e.g. Z3), and for audits like the one above that catch results that pass tests but are wrong; verification tooling and grading methods look like an opportunity. Hardware and firmware interop (BLE, IoT, appliance apps) and legacy software preservation or porting, such as Ultima VI running in a browser, are also worth tracking."
+        "headline": "Reverse-engineered rebuilds shift from demos to proof of equivalence",
+        "summary": "This week REA's GitHub stars climbed from about 130k to over 300k, and cases widened from old games like Touhou to commercial software such as Screen Studio, Word and Photoshop, then to firmware, Bluetooth protocols and appliances. 'Verification is the bottleneck' (B) appeared all seven days, making it the steadiest thread. Top cases began to ship reproducible evidence, such as DX-Ball's 3,205 matched inputs and tic-tac-toe matching on all 19,683 board states. Yet an audit found tests passing while the real constant was wrong, and many popular posts were still self-reported. Costs also surfaced: an A/B test found REA taking up to 2.00x the time and 1.67x the cost, and its 207 tools were criticised for bloating context.",
+        "watch": "Watch for projects that turn 'how do we prove a rebuild is correct' into tooling or process, such as differential testing, oracle comparison and test audits. Also check whether cases about controlling one's own devices (Bluetooth, TVs, ovens) keep growing, and whether the cost and tool-count criticism leads to leaner approaches. Both appeared only sporadically this week, so neither is a confirmed trend yet."
       },
       "zh-CN": {
-        "headline": "REA 从复刻展示转向可验证重建，验证成为关键",
-        "summary": "本周星数从 12.9 万一路升到 30.7 万，案例从东方 Project、DX-Ball 等游戏，扩展到 Screen Studio、CapCut、Word 等商用软件，再延伸到 ZWO ASIAIR 固件、智能马桶与蓝牙杯协议、日立烤箱 App 等硬件。许多热门帖子只有作者自述，没附 repo 或测试，功能复刻的门槛明显降低。真正受关注的是附证据的案例：Untangle 由独立 agent 评分、DX-Ball 以 3,205 组输入对照并复现 63 字节、蓝牙杯在实体硬件上逐包验证。10 月 17 日出现审计案例，发现测试通过但常量实际不同（原版加 32.0f、重建版加 1.0f），让“如何证明重建是对的”更受重视。另有实测指出 REA 在 A/B 试验中耗时最多 2.00 倍、费用最多 1.67 倍。",
-        "watch": "接下来几天，可留意附 oracle 对照、逐像素或逐字节比对、形式证明（如 Z3）的案例，以及像上述审计那样能抓出“测试通过但实际有误”的做法，这类验证工具与评分方法可能是机会。硬件与固件互通（BLE、IoT、家电 App）和老软件保存／移植（如 Ultima VI 移植成浏览器可玩版）也值得持续跟踪。"
+        "headline": "重建热潮从展示走向验证:能证明一样,才是真价值",
+        "summary": "本周 REA 星数从约 13 万一路升到逾 30 万,逆向案例从东方 Project 等老游戏,扩及 Screen Studio、Word、Photoshop 等商用软件,再延伸到固件、蓝牙协议与家电等硬件。“验证是瓶颈”(B)七天都出现,是本周最稳定的主线。高分案例开始附上可复现的证据,例如 DX-Ball 的 3,205 组输入比对、井字棋 19,683 个盘面全部一致;但也有审计发现测试显示相符、实际常数却错,而许多热门帖子只有作者自述。同时,A/B 实测指出 REA 耗时最多 2.00 倍、费用最多 1.67 倍,且 207 个工具让上下文暴增,成本问题开始浮现。",
+        "watch": "留意能把“如何证明重建是对的”做成工具或流程的项目,例如差异测试、oracle 比对与测试审计。也可观察操控自家设备(蓝牙、电视、烤箱)的案例是否持续增加,以及成本与工具数量的批评是否催生更精简的做法。这两项本周都只有零星出现,是否成为趋势仍待观察。"
       }
     },
     "rising": [
       "B",
-      "D"
+      "C"
     ],
     "fading": [
       "A"
     ],
     "tally": {
-      "A": 5,
+      "A": 4,
       "B": 7,
       "C": 5,
-      "D": 3,
+      "D": 4,
       "E": 0,
       "F": 0,
       "G": 1

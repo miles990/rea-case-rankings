@@ -8428,5 +8428,290 @@
       "target": "桌面应用（泛指，无具体目标）",
       "metric": "无具体成果，为使用流程说明"
     }
+  },
+  "d-842a8eadf1": {
+    "hash": "9dfa18778068",
+    "en": {
+      "title": "Partially reverse-engineering ChatGPT's smart UI generation flow with REA, and generating a similar UI mapper",
+      "summary": "The author used REA to analyze ChatGPT's genui smart-interface generation flow and found that the model only makes decisions; the real key is the genui package bundled with ChatGPT. REA then produced a similar UI mapper, with gemma handling routing. These are preliminary results reported by the author, with no evidence attached.",
+      "target": "ChatGPT's smart UI (genui) generation flow",
+      "metric": "Found that the genui package is the core, with the model only making decisions (partial reverse engineering, author-reported)"
+    },
+    "zh-CN": {
+      "title": "用 REA 部分逆向 ChatGPT 的智能 UI 生成流程，并生成类似的 UI 映射器",
+      "summary": "作者用 REA 分析 ChatGPT 的 genui 智能界面生成流程，发现模型只负责决策，真正关键的是随 ChatGPT 打包的 genui 包。REA 随后生成了类似的 UI mapper，并由 gemma 负责路由。这只是作者自述的初步成果，未附证据。",
+      "target": "ChatGPT 的智能 UI（genui）生成流程",
+      "metric": "发现 genui 包才是核心，模型仅做决策（部分逆向，作者自述）"
+    }
+  },
+  "d-78eae178fd": {
+    "hash": "1c7c281fce82",
+    "en": {
+      "title": "Using REA to have an AI study an app and rebuild Wordle",
+      "summary": "The author describes using Claude Code or Codex together with REA to study how an app works and build their own version. The example is a rebuild of Wordle. The post is self-reported, with no concrete evidence.",
+      "target": "Wordle",
+      "metric": "Rebuilt Wordle with REA"
+    },
+    "zh-CN": {
+      "title": "用 REA 让 AI 研究应用并重建 Wordle",
+      "summary": "作者介绍了用 Claude Code 或 Codex 搭配 REA 研究应用的运作方式，并自己重做一个版本。实例是重建 Wordle，帖子仅为自述，未见具体证据。",
+      "target": "Wordle",
+      "metric": "用 REA 重建 Wordle"
+    }
+  },
+  "d-9c9b054962": {
+    "hash": "dd59dc05a111",
+    "en": {
+      "title": "Using REA to read the code and find why Windows Calculator shows 220 for 200+10%",
+      "summary": "The author used REA to read the Windows Calculator code directly and explain why 200 plus 10% gives 220. The conclusion: after the plus key is pressed, the percent key takes a percentage of the first number, so 10% becomes 20 and the result is 200+20.",
+      "target": "Percentage calculation logic in Windows Calculator",
+      "metric": "Confirmed that 200+10% is computed as 200+20, giving 220"
+    },
+    "zh-CN": {
+      "title": "用 REA 读代码找出 Windows 计算器 200+10% 显示 220 的原因",
+      "summary": "作者用 REA 直接阅读 Windows 计算器的代码，解释为什么 200 加 10% 会得到 220。结论是按下加号后，百分比键取的是第一个数字的比例，10% 即 20，所以结果是 200+20。",
+      "target": "Windows 计算器的百分比运算逻辑",
+      "metric": "确认 200+10% 按 200+20 计算得 220"
+    }
+  },
+  "d-e2c199a635": {
+    "hash": "0bf90eb1b690",
+    "en": {
+      "title": "Reverse-engineering Samsung TV's protocol with REA and building a web remote",
+      "summary": "The author used Claude with the REA skill to reverse-engineer Samsung TV's control protocol, then built their own web remote. By their account it can control volume, channels, and apps; no code or test evidence is attached.",
+      "target": "Samsung TV control protocol",
+      "metric": "Web remote can control volume, channels, and apps"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向三星电视协议并做出网页遥控器",
+      "summary": "作者用 Claude 搭配 REA skill 逆向三星电视的控制协议，再做出自己的网页遥控器。据其自述可控制音量、频道和应用，未附代码或测试证据。",
+      "target": "三星电视控制协议",
+      "metric": "网页遥控器可操作音量、频道、App"
+    }
+  },
+  "d-4991122854": {
+    "hash": "b18d4815273c",
+    "en": {
+      "title": "Reverse-engineering my own air conditioner's control with REA",
+      "summary": "The author praises REA and says they recently used it to reverse-engineer their own air conditioner's controls. The post gives no method, findings, or results.",
+      "target": "Air conditioner control",
+      "metric": "Only a self-reported claim of reversing AC control; no details"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向自家空调的控制方式",
+      "summary": "作者称赞 REA,并表示最近用它逆向了自己的空调控制。帖子没有交代做法、发现或成果。",
+      "target": "空调控制",
+      "metric": "仅自述逆向空调控制,无细节"
+    }
+  },
+  "d-dfd0acf51f": {
+    "hash": "aaec59a248de",
+    "en": {
+      "title": "Integrating REA into the AI pentest system ARTEX with a new reverse-analysis page",
+      "summary": "The goal was to add reverse-engineering capability to ARTEX. The author wired REA in as an MCP tool server and added sample upload, a read-only analysis task page, and an engine status card. The installer now bundles Node and the REA runtime. This is an integration feature with screenshots and integration notes; it contains no findings about a specific target.",
+      "target": "ARTEX penetration testing system",
+      "metric": "New reverse-analysis page; installer bundles the REA runtime"
+    },
+    "zh-CN": {
+      "title": "将 REA 集成进 AI 渗透测试系统 ARTEX 并新增逆向分析页",
+      "summary": "目标是在 ARTEX 中加入逆向分析能力。作者把 REA 接成 MCP 工具服务器,新增样本上传、只读分析任务页和引擎状态卡,并让安装包内置 Node 与 REA 运行环境。这是集成功能,附截图和集成说明,没有针对特定目标的逆向发现。",
+      "target": "ARTEX 渗透测试系统",
+      "metric": "新增逆向分析页,安装包内置 REA 运行环境"
+    }
+  },
+  "d-4b2e646a25": {
+    "hash": "a0bc47feceea",
+    "en": {
+      "title": "Hands-on test: strengths and weaknesses of REA static analysis on a 100 MB Electron app",
+      "summary": "A HackerNoon article uses REA to analyze a real Electron app of about 100 MB, discussing where its static analysis performs well and where it fails. The excerpt contains only the tweet's description; specific findings require the full article.",
+      "target": "Electron app of about 100 MB",
+      "metric": "Hands-on review of a 100 MB Electron app"
+    },
+    "zh-CN": {
+      "title": "实测 REA 静态分析 100 MB Electron 应用的优缺点",
+      "summary": "HackerNoon 文章用 REA 分析一个约 100 MB 的真实 Electron 应用,讨论静态分析表现出色和失败的地方。节选内容只有推文说明,具体发现需看全文。",
+      "target": "约 100 MB 的 Electron 应用",
+      "metric": "100 MB Electron 应用的实测评论"
+    }
+  },
+  "d-cb5ec336d9": {
+    "hash": "e61fba76496e",
+    "en": {
+      "title": "Building REA Analysis Studio, combining REA with decompilers",
+      "summary": "The author built an application that integrates REA with several decompilers, supporting APK, EXE, DLL, and ASAR. The aim is a general-purpose tool for extracting source code and assets. The content is only a brief self-description, with no evidence shown.",
+      "target": "Application files such as APK, EXE, DLL, and ASAR",
+      "metric": "Integrates REA with decompilers; supports 4 file formats"
+    },
+    "zh-CN": {
+      "title": "打造集成 REA 与反编译器的 REA Analysis Studio",
+      "summary": "作者做了一个把 REA 与多种反编译器集成在一起的应用程序,支持 APK、EXE、DLL、ASAR。目标是做成通用的源代码与资源提取工具,内容只有简短自述,未见证据。",
+      "target": "APK、EXE、DLL、ASAR 等应用程序文件",
+      "metric": "集成 REA 与反编译器,支持 4 种文件格式"
+    }
+  },
+  "d-a2e226d153": {
+    "hash": "9ecc6b11535a",
+    "en": {
+      "title": "Forking RE-Agent to Do Evidence-Backed Analysis of IGI 2's 2003 GConv/QVM Compiler",
+      "summary": "The author forked REA into RE-Agent, focused on legitimate legacy-software maintenance and game preservation. The first real case is the 2003 GConv/QVM compiler from Project IGI 2, with every conclusion claimed to come with evidence. The excerpt gives no concrete results or public link.",
+      "target": "The GConv/QVM compiler in Project IGI 2",
+      "metric": "First case: IGI 2 GConv/QVM compiler, every conclusion backed by evidence (self-reported)"
+    },
+    "zh-CN": {
+      "title": "派生 RE-Agent，对 IGI 2 的 2003 年 GConv/QVM 编译器做有证据的分析",
+      "summary": "作者把 REA 分叉成 RE-Agent，专注于合法的旧软件维护与游戏保存。第一个实际案例是《Project IGI 2》2003 年的 GConv/QVM 编译器，声称每项结论都附有证据。节选中未提供具体成果内容或公开链接。",
+      "target": "Project IGI 2 的 GConv/QVM 编译器",
+      "metric": "首个案例：IGI 2 GConv/QVM 编译器，结论均附证据（作者自述）"
+    }
+  },
+  "d-4ec7494c18": {
+    "hash": "9f792dce5eea",
+    "en": {
+      "title": "Using REA with DeepSeek to Decrypt a Swoole Compiler–Encrypted License Module",
+      "summary": "The e-commerce system license module the author purchased is encrypted with Swoole Compiler, relies on Swoole_loader to decrypt at runtime, and is bound to a single domain. They tried decrypting it using REA with a DeepSeek model in WorkBuddy and say it worked, but provide no evidence or code.",
+      "target": "E-commerce system license module encrypted with Swoole Compiler",
+      "metric": "Self-reported successful decryption of the Swoole-encrypted license module"
+    },
+    "zh-CN": {
+      "title": "用 REA 搭配 DeepSeek 解开 Swoole Compiler 加密的授权模块",
+      "summary": "作者购买的电商系统授权模块以 Swoole Compiler 加密，运行时依赖 Swoole_loader 解密，并绑定单一域名。他用 REA 搭配 WorkBuddy 中的 DeepSeek 模型尝试解密，自述成功解出，但未提供证据或代码。",
+      "target": "以 Swoole Compiler 加密的电商系统授权模块",
+      "metric": "自述成功解出 Swoole 加密的授权模块"
+    }
+  },
+  "d-5f615eee8e": {
+    "hash": "004a3823034f",
+    "en": {
+      "title": "Tracing How REA's 207 Tools Overflowed a Local AI Agent's Context, and the Fix",
+      "summary": "The goal was to find why a local agent kept crashing with over-long prompts. The author measured that the REA MCP server adds a fixed ~198,500 tokens of tool schemas to every request, identified four root causes, wrote a guarded compression engine as a fix, and finally removed the REA mount. This is a postmortem of negative experience with REA, not a reverse-engineering result.",
+      "target": "REA MCP server (rea-agents v6.5.0) and a local AI agent",
+      "metric": "Tool catalog cut from 233 tools (~205,317 tokens) to 26 tools (~6,766 tokens)"
+    },
+    "zh-CN": {
+      "title": "追查 REA 的 207 个工具撑爆本地 AI agent 上下文并修复",
+      "summary": "目标是找出为何本地 agent 反复崩溃、提示过长。作者测量发现 REA MCP server 每次请求固定增加约 198,500 token 的工具 schema，并归纳四个根因，写出带保护的压缩引擎修复，最后移除 REA 挂载。这是对 REA 的负面使用事后检讨，不是逆向成果。",
+      "target": "REA MCP server（rea-agents v6.5.0）与本地 AI agent",
+      "metric": "工具目录由 233 个、约 205,317 token 降到 26 个、约 6,766 token"
+    }
+  },
+  "d-0c5e9755e3": {
+    "hash": "fcd79b5198e8",
+    "en": {
+      "title": "Forking RE-Agent: Adding Repair and Verify Loops on Top of MCP Tools for Legacy Software and Old Games",
+      "summary": "The author forked REA into RE-Agent, aimed at legacy software and old games, adding repair and verify loops on top of the existing MCP tools. A public GitHub repo is linked, but the excerpt contains no concrete reverse-engineering results.",
+      "target": "Legacy software and old games (RE-Agent, an REA derivative)",
+      "metric": "Public repo heaven-hm/re-agent, adds repair and verify loops"
+    },
+    "zh-CN": {
+      "title": "派生 RE-Agent，在 MCP 工具上加入修复与验证循环，用于旧软件与老游戏",
+      "summary": "作者将 REA 分叉成 RE-Agent，面向旧软件与老游戏，在原有 MCP 工具之上加入修复（repair）与验证（verify）循环。附有公开 GitHub repo，但节选中没有具体的逆向成果。",
+      "target": "旧软件与老游戏（REA 衍生工具 RE-Agent）",
+      "metric": "公开 repo heaven-hm/re-agent，新增 repair 与 verify 循环"
+    }
+  },
+  "d-fe71147f43": {
+    "hash": "2aa0c5475676",
+    "en": {
+      "title": "Forking REA into rea-engine to rebuild a Windows Tic-Tac-Toe game from its binary, matching all 19,683 board states",
+      "summary": "The author forked REA into rea-engine, adding a build, test and repair loop combined with Frida runtime tracing and Z3 checks. They used it to rebuild a Windows Tic-Tac-Toe game from its binary, with a public GitHub repo. The rebuilt version produces identical results to the original across all 19,683 board states.",
+      "target": "Windows Tic-Tac-Toe game (TicTacToe)",
+      "metric": "19,683/19,683 board states match the original"
+    },
+    "zh-CN": {
+      "title": "派生 rea-engine,从二进制重建 Windows 井字棋,19,683 个盘面状态全部吻合",
+      "summary": "作者将 REA 分叉成 rea-engine,加入构建、测试、修复循环,并结合 Frida 运行时追踪与 Z3 检查。用它从二进制重建了一款 Windows 井字棋游戏,并附公开 GitHub repo。重建版与原版在全部 19,683 个盘面状态上结果一致。",
+      "target": "Windows 井字棋游戏(TicTacToe)",
+      "metric": "19,683/19,683 个盘面状态与原版吻合"
+    }
+  },
+  "d-ff5c356cfe": {
+    "hash": "7cf4e3ea473a",
+    "en": {
+      "title": "Decompiling Elgato Wave Link with REA and rebuilding a full version for Linux",
+      "summary": "The goal was to make Wave Link 3.4, which only supports Windows and macOS, work with the Wave:3 microphone on Linux. Using REA and Claude to analyze the decompiled original, the author rebuilt the mixer, Wave:3 USB control, audio processing and Qt interface, and published protocol documentation, analysis scripts and tests.",
+      "target": "Elgato Wave Link 3.4 and the Wave:3 microphone",
+      "metric": "Rebuilt mixer, Wave:3 USB control and audio, with PROTOCOL.md and tests"
+    },
+    "zh-CN": {
+      "title": "用 REA 反编译 Elgato Wave Link,在 Linux 重建完整版",
+      "summary": "目标是让只支持 Windows 和 macOS 的 Wave Link 3.4 能在 Linux 上配合 Wave:3 麦克风使用。作者用 REA 与 Claude 分析反编译的原版,重建出混音器、Wave:3 USB 控制、音效处理与 Qt 界面,并附协议文档、分析脚本与测试。",
+      "target": "Elgato Wave Link 3.4 与 Wave:3 麦克风",
+      "metric": "重建混音器、Wave:3 USB 控制与音效,附 PROTOCOL.md 与测试"
+    }
+  },
+  "d-cb2f824f5c": {
+    "hash": "1f4530127fce",
+    "en": {
+      "title": "Rebuilding and publishing decompiled source for Android adb with REA and Ghidra",
+      "summary": "For the Linux and Windows builds of adb in Android platform-tools r37.0.1, REA was used with Ghidra 12.1.4 and objdump to produce decompiled C code, full disassembly and evidence files. The repo publishes lists of functions, strings and imports, and documents the statically linked BoringSSL and the security protections.",
+      "target": "Android Debug Bridge (adb) executables",
+      "metric": "11,003 functions in total, 2,184 of them decompiled to C pseudocode"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Ghidra 重建 Android adb 的反编译源代码并公开",
+      "summary": "针对 Android platform-tools r37.0.1 的 Linux 与 Windows 版 adb,以 REA 搭配 Ghidra 12.1.4 与 objdump 产出反编译 C 代码、完整反汇编与证据文件。repo 公开了函数、字符串与导入表清单,并记录静态链接的 BoringSSL 与安全防护机制。",
+      "target": "Android Debug Bridge (adb) 可执行文件",
+      "metric": "共 11,003 个函数,其中 2,184 个已反编译为 C 伪代码"
+    }
+  },
+  "d-c3b88e2559": {
+    "hash": "dda724928c0e",
+    "en": {
+      "title": "Analyzing a Bluetooth earbuds app with REA and building a POC for earbud and charging case battery levels",
+      "summary": "The author gave a Bluetooth earbuds app to REA for analysis, then combined it with packet analysis on a real device to build a POC that shows the battery levels of the left and right earbuds and the charging case separately. The result is published as a GitHub repo.",
+      "target": "OpenFit Air Bluetooth earbuds app and its Bluetooth protocol",
+      "metric": "POC that reads earbud and charging case battery levels separately"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析蓝牙耳机 App,做出耳机与充电盒电量 POC",
+      "summary": "作者把蓝牙耳机的 App 交给 REA 分析,再结合实机抓包分析,做出可分别查看左右耳机与充电盒电量的 POC。成果以 GitHub repo 公开。",
+      "target": "OpenFit Air 蓝牙耳机 App 与其蓝牙协议",
+      "metric": "可分别读取耳机与充电盒电量的 POC"
+    }
+  },
+  "d-34723e27d2": {
+    "hash": "b10eacd65d39",
+    "en": {
+      "title": "Building REA Analysis Studio, an app that combines REA with a decompiler",
+      "summary": "The author built an app that pairs REA with a decompiler and can analyze APKs, EXEs, DLLs, ASARs, or entire application folders. It extracts code and assets and exports them as a ZIP. These details are the author's own account, with no supporting evidence provided.",
+      "target": "APKs, EXEs, DLLs, ASARs, and application folders",
+      "metric": "Analyzes 4 file formats and exports to ZIP"
+    },
+    "zh-CN": {
+      "title": "打造整合 REA 与反编译器的 REA Analysis Studio",
+      "summary": "作者做了一个把 REA 与反编译器结合的应用程序,可分析 APK、EXE、DLL、ASAR 或整个应用程序文件夹。能提取代码与资源并导出 ZIP,内容为作者自述,未附证据。",
+      "target": "APK、EXE、DLL、ASAR 与应用程序文件夹",
+      "metric": "可分析 4 种文件格式并导出 ZIP"
+    }
+  },
+  "d-5e7647fe7b": {
+    "hash": "2b2c3acdc392",
+    "en": {
+      "title": "A one-click installer bundling REA, Ghidra, and trigger rules",
+      "summary": "The goal is to make REA usable out of the box in any agent harness. The installer sets up the REA CLI, Ghidra, and skill files in one go, writes plain-language trigger rules into the agent's instruction file, and handles the problem of non-login shells not seeing environment variables. This is an integration and installation tool, with no reverse-engineering results for a specific target.",
+      "target": "Various agent harnesses (Claude, Cursor, Codex, openclaw, etc.)",
+      "metric": "Supports 5 harnesses, installed with a single command"
+    },
+    "zh-CN": {
+      "title": "打包 REA、Ghidra 与触发规则的一键安装器",
+      "summary": "目标是让各种 agent harness 都能直接使用 REA。安装器一并装好 REA CLI、Ghidra、技能文件,并把白话触发规则写入 agent 指令文件,同时处理非登录 shell 看不到环境变量的问题。这是安装集成工具,没有针对特定目标的逆向成果。",
+      "target": "各种 agent harness(Claude、Cursor、Codex、openclaw 等)",
+      "metric": "支持 5 种 harness,一条命令完成安装"
+    }
+  },
+  "d-0359d0edb4": {
+    "hash": "4d8bb617b682",
+    "en": {
+      "title": "A one-command tool built on REA for analyzing desktop app architecture",
+      "summary": "The goal is to reconstruct a desktop app's architecture from its shipped binary, without access to source code. The project, Murti, is a local voice dictation tool for macOS, and its Inspect feature is powered by REA. The excerpt mainly covers the dictation feature and does not describe any concrete results from Inspect.",
+      "target": "Desktop application architecture analysis (Murti Inspect)",
+      "metric": "No concrete Inspect results shown in the excerpt"
+    },
+    "zh-CN": {
+      "title": "用 REA 做出一行命令分析桌面应用架构的工具",
+      "summary": "目标是不靠源代码,从已发布的二进制文件还原桌面应用架构。项目 Murti 是 macOS 本地语音听写工具,其中的 Inspect 功能由 REA 驱动。节选主要介绍听写功能,Inspect 的具体成果没有说明。",
+      "target": "桌面应用程序的架构分析(Murti Inspect)",
+      "metric": "节选中未见 Inspect 的具体成果"
+    }
   }
 }

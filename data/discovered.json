@@ -2,6 +2,172 @@
   "updated": "2026-10-19",
   "items": [
     {
+      "url": "https://github.com/techdeveloper-org/rea-security-threat-monograph",
+      "title": "techdeveloper-org/rea-security-threat-monograph: Comprehensive multi-agent mathematical security audit and threat monograph exposing the host execution risks, indirect prompt injection, and legal liabilities of viral reverse-engineering tools (morluto/rea).",
+      "author": "techdeveloper-org",
+      "date": "2026-10-19",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-19"
+    },
+    {
+      "url": "https://github.com/beanzcraftz/Jarvis",
+      "title": "beanzcraftz/Jarvis: J.A.R.V.I.S. Iron Man Holographic HUD, Audio-Reactive Three.js Arc Reactor & REA Reverse Engineering Orchestrator",
+      "author": "beanzcraftz",
+      "date": "2026-10-19",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 1,
+      "lang": "en",
+      "found": "2026-10-19"
+    },
+    {
+      "url": "https://github.com/CAUCOLabs/rea-vscode",
+      "title": "CAUCOLabs/rea-vscode: A Visual Studio Code extension integrating the REA reverse engineering engine through MCP, bringing inspection, analysis, and automation tools directly into the editor.",
+      "author": "CAUCOLabs",
+      "date": "2026-10-19",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-19"
+    },
+    {
+      "url": "https://github.com/ukratatata/doritos-crash-course-go",
+      "title": "ukratatata/doritos-crash-course-go: Recreation of Doritos Crash Course Go! in Godot 4.8 based on REA reverse-engineered teardown data.",
+      "author": "ukratatata",
+      "date": "2026-10-19",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-19"
+    },
+    {
+      "url": "https://github.com/harkiventures/rea-muestra-gratuita",
+      "title": "harkiventures/rea-muestra-gratuita: Muestra gratuita en español: ingeniería inversa asistida por IA con REA y Ghidra. Caso completo de laboratorio con paquete de práctica.",
+      "author": "harkiventures",
+      "date": "2026-10-19",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "es",
+      "found": "2026-10-19"
+    },
+    {
+      "url": "https://qiita.com/shuichi-takatsu/items/9aa2e5e14a3acd926d93",
+      "title": "AIでリバースエンジニアリング？「REA（Reverse Engineer Anything）」を調べてみた",
+      "author": "shuichi-takatsu",
+      "date": "2026-10-19",
+      "source": "Qiita",
+      "kind": "文章",
+      "score": 0,
+      "lang": "ja",
+      "found": "2026-10-19",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "scored": "2026-10-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://bsky.app/profile/chestertsai1023.bsky.social/post/3my7ad5jxjs2j",
+      "title": "[談談AI寫程式]",
+      "author": "chestertsai1023.bsky.social",
+      "date": "2026-10-19",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 0,
+      "lang": "zh",
+      "found": "2026-10-19",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://bsky.app/profile/oludai.bsky.social/post/3my74vgwd6n2q",
+      "title": "\"morluto/rea just pulled off the biggest 24h star gain in open-source AI: +14,624 stars (total 321.3k",
+      "author": "oludai.bsky.social",
+      "date": "2026-10-19",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 2,
+      "lang": "en",
+      "found": "2026-10-19",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://bsky.app/profile/juliangoldie.bsky.social/post/3my74he35sd2x",
+      "title": "I messaged my AI agent at 10:38, and by 10:44 it had built the whole app 🤯",
+      "author": "juliangoldie.bsky.social",
+      "date": "2026-10-19",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 1,
+      "lang": "en",
+      "found": "2026-10-19"
+    },
+    {
+      "url": "https://bsky.app/profile/yogsec.bsky.social/post/3my6ygbshyc2l",
+      "title": "morluto/rea is an agent-driven reverse engineering tool that starts from observable app behavior and works down to native binaries.",
+      "author": "yogsec.bsky.social",
+      "date": "2026-10-19",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-19",
+      "relevant": true,
+      "wow": 1,
+      "category": "工具鏈",
+      "status": "shipped",
+      "scored": "2026-10-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://bsky.app/profile/chestertsai1023.bsky.social/post/3my7ad5kdas2j",
+      "title": "有個軟體叫NightLight，主要是用來裝DBD的圖示包的一個軟體，背後的個人開發者，Boop，花費了十分多的精力在這上面。",
+      "author": "chestertsai1023.bsky.social",
+      "date": "2026-10-19",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 0,
+      "lang": "zh",
+      "found": "2026-10-19",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/sudo_trader/status/2111972438871269548",
+      "title": "I ran the old tastytrade desktop app through REA (I don't like the new 2.0 wrapper app), then had Deepseek 4.1 Flash one-shot a replacement ",
+      "author": "@sudo_trader",
+      "date": "2026-10-19",
+      "source": "X",
+      "kind": "貼文",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 50
+      },
+      "lang": "en",
+      "found": "2026-10-19"
+    },
+    {
       "url": "https://github.com/tdk-landscape/awesome-rea-tdk-cases",
       "title": "tdk-landscape/awesome-rea-tdk-cases: Awesome list: reverse-engineering apps with REA and rebuilding them with TDK CLI",
       "author": "tdk-landscape",
@@ -15,15 +181,6 @@
       "wow": 1,
       "category": "報導 / 評論",
       "status": "reported",
-      "scored": "2026-10-19",
-      "scored_by": "jev"
-    },
-    {
-      "url": "https://github.com/martinlofranodeoliveira/opensource-rea-lab",
-      "title": "martinlofranodeoliveira/opensource-rea-lab: Offline npm package auditing and reproducible REA analyses of published open",
-      "source": "GitHub",
-      "found": "2026-10-19",
-      "relevant": false,
       "scored": "2026-10-19",
       "scored_by": "jev"
     },
@@ -147,15 +304,6 @@
       "score": 0,
       "lang": "en",
       "found": "2026-10-19"
-    },
-    {
-      "url": "https://github.com/swright7001/shawns-rea",
-      "title": "swright7001/shawns-rea: Shawn's REA: a Codex skill and reusable template for building original content creation tools fr",
-      "source": "GitHub",
-      "found": "2026-10-19",
-      "relevant": false,
-      "scored": "2026-10-19",
-      "scored_by": "jev"
     },
     {
       "url": "https://github.com/michaelsbookie762-star/unified-re",
@@ -754,11 +902,113 @@
       "found": "2026-10-19"
     },
     {
-      "url": "https://github.com/pratik-saptarshi/autonomous-engineering-platform",
-      "title": "pratik-saptarshi/autonomous-engineering-platform: Reference architecture and runbook for an autonomous engineering envir",
+      "url": "https://x.com/iamthehimansh_/status/2111961681668743373",
+      "title": "I reverse-engineered parts of MuMuPlayer Pro using https://Cana.build Desktop’s REA mod, then built Kestrel(https://github.com/iamthehimansh",
+      "author": "@iamthehimansh_",
+      "date": "2026-10-18",
+      "source": "X",
+      "kind": "貼文",
+      "score": 3,
+      "pop": {
+        "likes": 3,
+        "views": 135
+      },
+      "lang": "en",
+      "found": "2026-10-19"
+    },
+    {
+      "url": "https://x.com/Orion84x/status/2111821068918767788",
+      "title": "So for Sunday I used the REA repo against an app installed on PS5's to download games. Then used REA to get the sources of a pirate movie an",
+      "author": "@Orion84x",
+      "date": "2026-10-18",
+      "source": "X",
+      "kind": "貼文",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 75
+      },
+      "lang": "en",
+      "found": "2026-10-19"
+    },
+    {
+      "url": "https://x.com/assumebreach/status/2111807786850119809",
+      "title": "Topic: How I use REA to see how software works behind the scenes https://github.com/morluto/rea 1/ Reverse engineering is my new favorite AI",
+      "author": "@assumebreach",
+      "date": "2026-10-18",
+      "source": "X",
+      "kind": "貼文",
+      "score": 3,
+      "pop": {
+        "likes": 3,
+        "views": 191
+      },
+      "lang": "en",
+      "found": "2026-10-19",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "scored": "2026-10-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/xulijian1994/status/2111748065749307658",
+      "title": "REA 最近挺火的，但我一直没想到什么特别实用的场景。今天突然想到一个：能不能直接让 AI 逆向 APK，把 App 里的广告干掉？拿虎扑和酷安试着研究了一下，发现这事还真有搞头。整个思路就是 REA Skill + AI Agent + JADX + Ghidra，让 AI 自",
+      "author": "@xulijian1994",
+      "date": "2026-10-18",
+      "source": "X",
+      "kind": "貼文",
+      "score": 113,
+      "pop": {
+        "likes": 113,
+        "views": 20316
+      },
+      "lang": "zh",
+      "found": "2026-10-19"
+    },
+    {
+      "url": "https://x.com/DevDzair60882/status/2111715042043339046",
+      "title": "i didn't use your method i used chatgpt to asset claude sonnet 5 extra thinking with prompts that let him not to go off the track and using ",
+      "author": "@DevDzair60882",
+      "date": "2026-10-18",
+      "source": "X",
+      "kind": "貼文",
+      "score": 2,
+      "pop": {
+        "likes": 2,
+        "views": 631
+      },
+      "lang": "en",
+      "found": "2026-10-19"
+    },
+    {
+      "url": "https://github.com/ledokter/REA",
+      "title": "ledokter/REA",
       "source": "GitHub",
       "found": "2026-10-19",
       "relevant": false,
+      "scored": "2026-10-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://juejin.cn/post/7697168479082512411",
+      "title": "REA 安全吗？如何确认装的是真正的 Reverse Engineer Anything",
+      "author": "xiangzhihong",
+      "date": "2026-10-17",
+      "source": "掘金",
+      "kind": "文章",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 9
+      },
+      "lang": "zh",
+      "found": "2026-10-19",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
       "scored": "2026-10-19",
       "scored_by": "jev"
     },
@@ -771,6 +1021,87 @@
       "kind": "文章",
       "lang": "en",
       "found": "2026-10-19"
+    },
+    {
+      "url": "https://juejin.cn/post/7696894428150300682",
+      "title": "我用 REA 逆向了付费颜色 APP，结果很意外！",
+      "author": "程序员鱼皮",
+      "date": "2026-10-16",
+      "source": "掘金",
+      "kind": "文章",
+      "score": 22,
+      "pop": {
+        "likes": 22,
+        "views": 1351
+      },
+      "lang": "zh",
+      "found": "2026-10-19"
+    },
+    {
+      "url": "https://juejin.cn/post/7696822189492895782",
+      "title": "一周涨 24 万星的 REA，新手和逆向老手为什么评价相反",
+      "author": "ZzT",
+      "date": "2026-10-16",
+      "source": "掘金",
+      "kind": "文章",
+      "score": 2,
+      "pop": {
+        "likes": 2,
+        "views": 182
+      },
+      "lang": "zh",
+      "found": "2026-10-19"
+    },
+    {
+      "url": "https://juejin.cn/post/7697024318929043496",
+      "title": "REA 火了：一个 Electron 按钮的调用链，它能追到哪一步？",
+      "author": "日耗10亿Token被老板赶出门",
+      "date": "2026-10-16",
+      "source": "掘金",
+      "kind": "文章",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 77
+      },
+      "lang": "zh",
+      "found": "2026-10-19"
+    },
+    {
+      "url": "https://x.com/AskPerplexity/status/2111120738078044244",
+      "title": "2) LibreOffice Calc: Edit cells, write formulas, and watch charts update as your numbers change. Try it: https://spreads",
+      "source": "X",
+      "found": "2026-10-19",
+      "relevant": false,
+      "scored": "2026-10-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/AskPerplexity/status/2111120790683050106",
+      "title": "3) Photopea: Layer-based photo editing with masks, color adjustments, and editable text. Try it: https://photo-editor.pp",
+      "source": "X",
+      "found": "2026-10-19",
+      "relevant": false,
+      "scored": "2026-10-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/AskPerplexity/status/2111120848186982838",
+      "title": "4) Harvey: Search contracts, compare versions, and flag clauses against your rules, with source citations. Try it: https",
+      "source": "X",
+      "found": "2026-10-19",
+      "relevant": false,
+      "scored": "2026-10-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/AskPerplexity/status/2111120943540289627",
+      "title": "5) Audacity: Trim and mix audio tracks, adjust volume, add fades, and export a WAV. Try it: https://audio-editor.pplx.ap",
+      "source": "X",
+      "found": "2026-10-19",
+      "relevant": false,
+      "scored": "2026-10-19",
+      "scored_by": "jev"
     },
     {
       "url": "https://x.com/karabolamani/status/2110731193528234292",
@@ -854,6 +1185,72 @@
       "found": "2026-10-19"
     },
     {
+      "url": "https://x.com/zhugehyuk/status/2110750302232260980",
+      "title": "I ported the Amiga version of Ultima VI, the 1990 game, to Rust. It runs in the browser.",
+      "source": "X",
+      "found": "2026-10-19",
+      "relevant": false,
+      "scored": "2026-10-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/zhugehyuk/status/2110750304027508975",
+      "title": "I opened the original executable (built for the 68000 CPU) with REA. REA is an MCP server that packages reverse-engineering tools such as de",
+      "author": "@zhugehyuk",
+      "date": "2026-10-15",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 15
+      },
+      "lang": "en",
+      "found": "2026-10-19"
+    },
+    {
+      "url": "https://x.com/zhugehyuk/status/2110750305801658698",
+      "title": "One Rust function per original function. Each one keeps the original address in a comment. From the first commit (2026-1",
+      "source": "X",
+      "found": "2026-10-19",
+      "relevant": false,
+      "scored": "2026-10-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/zhugehyuk/status/2110750307529654604",
+      "title": "Porting is not translation. It is comparison. I run the original in an Amiga emulator and measure the same scene in scre",
+      "source": "X",
+      "found": "2026-10-19",
+      "relevant": false,
+      "scored": "2026-10-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/zhugehyuk/status/2110750309140332910",
+      "title": "What I saw: in porting an old game, the expensive part is not the code. It is this comparison rig. If you can run the or",
+      "source": "X",
+      "found": "2026-10-19",
+      "relevant": false,
+      "scored": "2026-10-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/HaseebMir91/status/2110603660098969732",
+      "title": "Software isn't done yet lol. REA is the MCP layer, the real decompiling still happens in Ghidra, IDA or Hopper you bring yourself, and nothi",
+      "author": "@HaseebMir91",
+      "date": "2026-10-15",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 28
+      },
+      "lang": "en",
+      "found": "2026-10-19"
+    },
+    {
       "url": "https://reamcp.dev/zh-cn/cases/this-is-the-most-dangerous-thing-on-internet-today-rea-rever-6a3d22",
       "title": "这是当今互联网上最危险的东西…… REA（反向工程任何东西） — REA 使用案例｜工具与集成 · REA MCP",
       "author": "Deni",
@@ -892,6 +1289,49 @@
       },
       "lang": "en",
       "found": "2026-10-19"
+    },
+    {
+      "url": "https://reamcp.dev/en/cases/rea-reverse-engineer-anything-18k-stars-what-it-does-all-tex-8b988e",
+      "title": "REA: Reverse Engineer Anything (18k stars) What it does All text below is quoted — REA use case｜App feature recreation · REA MCP",
+      "author": "Claudia Galeán (💫,💫",
+      "date": "2026-10-13",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-10-19",
+      "relevant": true,
+      "wow": 1,
+      "category": "工具鏈",
+      "status": "reported",
+      "scored": "2026-10-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/martinlofranodeoliveira/opensource-rea-lab",
+      "title": "martinlofranodeoliveira/opensource-rea-lab: Offline npm package auditing and reproducible REA analyses of published open",
+      "source": "GitHub",
+      "found": "2026-10-19",
+      "relevant": false,
+      "scored": "2026-10-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/swright7001/shawns-rea",
+      "title": "swright7001/shawns-rea: Shawn's REA: a Codex skill and reusable template for building original content creation tools fr",
+      "source": "GitHub",
+      "found": "2026-10-19",
+      "relevant": false,
+      "scored": "2026-10-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/pratik-saptarshi/autonomous-engineering-platform",
+      "title": "pratik-saptarshi/autonomous-engineering-platform: Reference architecture and runbook for an autonomous engineering envir",
+      "source": "GitHub",
+      "found": "2026-10-19",
+      "relevant": false,
+      "scored": "2026-10-19",
+      "scored_by": "jev"
     },
     {
       "url": "https://github.com/Pothome/morluto-rea",
@@ -1050,6 +1490,175 @@
       "date": null,
       "source": "Web",
       "kind": "文章",
+      "lang": "en",
+      "found": "2026-10-19",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://youtu.be/HzhiOPfL4Ro",
+      "title": "Reverse Engineer Anything (REA) + Claude Code Tutorial [Full Build]",
+      "author": "Rakhul Karthick",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 3098,
+      "lang": "en",
+      "found": "2026-10-19"
+    },
+    {
+      "url": "https://youtu.be/woxNeO8yDAY",
+      "title": "爆発的に話題の無料AIツール「REA」— その理由を解説",
+      "author": "Nick Ponte",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 1143,
+      "lang": "ja",
+      "found": "2026-10-19",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://youtu.be/QhkJmaTRexg",
+      "title": "AIがアプリを解析・コピーする？REAとリバースエンジニアリングを解説【ずんだもん】",
+      "author": "AIはじめました",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 36,
+      "lang": "ja",
+      "found": "2026-10-19",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://youtu.be/fsVJqAcBPdo",
+      "title": "用 REA + AI 复刻手机 App，还能随意修改功能！",
+      "author": "袁宇在思考",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 18,
+      "lang": "zh",
+      "found": "2026-10-19",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://youtu.be/wTDAbOa7BHU",
+      "title": "An Era Where AI Is Good at Reverse Engineering! Should I Study Security Again?",
+      "author": "널널한 개발자 TV",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 10503,
+      "lang": "en",
+      "found": "2026-10-19",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "scored": "2026-10-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://youtu.be/Fd8XVsCZSjs",
+      "title": "The End of the Software Era!? An Easy Guide to REA",
+      "author": "코드깎는노인",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 20757,
+      "lang": "en",
+      "found": "2026-10-19",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://youtu.be/R8m_DfHESIw",
+      "title": "Why AI keeps getting it wrong when you tell it to \"make it like this app\"",
+      "author": "제로원 바이브코딩",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 696,
+      "lang": "en",
+      "found": "2026-10-19",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://youtu.be/Qy_2a8-lUhE",
+      "title": "소프트웨어는 진짜 끝났습니다… REA로 노션을 통째로 복사해봤습니다",
+      "author": "AI 시스메이커",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 23752,
+      "lang": "ko",
+      "found": "2026-10-19"
+    },
+    {
+      "url": "https://youtu.be/161vD1MUD_8",
+      "title": "소스 없이 앱을 읽는다.  REA 설치부터 실전까지",
+      "author": "알쓸신잡 AI 이야기",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 12,
+      "lang": "ko",
+      "found": "2026-10-19",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://youtu.be/qDULOXcn8l8",
+      "title": "1시간 안에 리버스 엔지니어링으로 게임 리마스터가 될까?",
+      "author": "미드나잇 로그",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 350,
+      "lang": "ko",
+      "found": "2026-10-19"
+    },
+    {
+      "url": "https://youtu.be/L7J-QZs8owk",
+      "title": "REA, la IA que desmonta programas: la ingeniería inversa explicada desde cero | EugenIA News 1",
+      "author": "EugenIA News",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 24,
       "lang": "en",
       "found": "2026-10-19",
       "relevant": true,
@@ -22138,6 +22747,37 @@
   "runs": [
     {
       "date": "2026-10-19",
+      "added": 44,
+      "stats": {
+        "githubShowAndTell": 13,
+        "githubRepos": 229,
+        "githubCode": 41,
+        "hackerNews": 18,
+        "qiita": 36,
+        "devto": 150,
+        "juejin": 24,
+        "reddit": 60,
+        "v2ex": 9,
+        "youtube": 90,
+        "bluesky": 159,
+        "mastodon": 160,
+        "exaWeb": 57,
+        "x": 25
+      },
+      "scoring": {
+        "scored": 0,
+        "jev": {
+          "low": 16,
+          "irrelevant": 9,
+          "errors": 0,
+          "toClaude": 63
+        },
+        "failed": 63,
+        "error": "Command failed: claude -p --output-format json --max-turns 1 --tools  --model sonnet\n"
+      }
+    },
+    {
+      "date": "2026-10-19",
       "added": 76,
       "stats": {
         "githubShowAndTell": 12,
@@ -22745,5 +23385,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-19T00:26:28.882Z"
+  "updatedAt": "2026-10-19T04:40:40.322Z"
 }

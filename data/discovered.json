@@ -13,6 +13,152 @@
       "found": "2026-10-20"
     },
     {
+      "url": "https://github.com/sqhc/dsh-rea",
+      "title": "sqhc/dsh-rea: Unofficial DeepSeek Harness bundle that connects the REA reverse-engineering MCP server.",
+      "author": "sqhc",
+      "date": "2026-10-20",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-20"
+    },
+    {
+      "url": "https://github.com/jonsoku-dev/agentic-sdd",
+      "title": "jonsoku-dev/agentic-sdd: Spec Kit delivery with pstack execution, seven harness layers, and REA closeout for Claude Code, Codex, Cursor, Grok Build",
+      "author": "jonsoku-dev",
+      "date": "2026-10-20",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-20"
+    },
+    {
+      "url": "https://bsky.app/profile/oludai.bsky.social/post/3mybjyw6gge2y",
+      "title": "🚀 Blowing up right now:",
+      "author": "oludai.bsky.social",
+      "date": "2026-10-20",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 2,
+      "lang": "en",
+      "found": "2026-10-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "scored": "2026-10-20",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://bsky.app/profile/miguelalonsojr.bsky.social/post/3mybhwzylhk2m",
+      "title": "I don't know what y'all are using agents + REA for... but these are tokens well spent. Reviving old school screen savers (sound on).",
+      "author": "miguelalonsojr.bsky.social",
+      "date": "2026-10-20",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-20",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/Devcop101/status/2112390862676148495",
+      "title": "Used the popular GitHub repo REA (Reverse Engineer Anything) to sideload APKs onto webOS and remove all factory bloatware. My TV is finally ",
+      "author": "@Devcop101",
+      "date": "2026-10-20",
+      "source": "X",
+      "kind": "貼文",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 17
+      },
+      "lang": "en",
+      "found": "2026-10-20"
+    },
+    {
+      "url": "https://x.com/OlocoDisabled/status/2112369944507658256",
+      "title": "O segredo é nunca começar direto no prompt, parece que por algum motivo os maiores safeguards ficam no inicio, começa pedindo pra ele verifi",
+      "author": "@OlocoDisabled",
+      "date": "2026-10-20",
+      "source": "X",
+      "kind": "貼文",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 32
+      },
+      "lang": "fr",
+      "found": "2026-10-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-20",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/liaoblove520/status/2112364878539473162",
+      "title": "看完 TermiX 新上的逆向 Agent REA，我去对了一遍官方演示的答案。  它拆的是 PancakeSwap 的 Router。这个例子有个好处：源码公开，自带标准答案。  按官方介绍，给 REA 一个合约地址，它不依赖源码，直接从链上字节码里识别函数、推断参数类型，以及",
+      "author": "@liaoblove520",
+      "date": "2026-10-20",
+      "source": "X",
+      "kind": "貼文",
+      "score": 54,
+      "pop": {
+        "likes": 54,
+        "views": 2135
+      },
+      "lang": "zh",
+      "found": "2026-10-20"
+    },
+    {
+      "url": "https://x.com/huntsyea/status/2112351552350323124",
+      "title": "Yes currently it is temporary which limits ability. You can install apps, edit config, and remap things but cannot unloc",
+      "source": "X",
+      "found": "2026-10-20",
+      "relevant": false,
+      "scored": "2026-10-20",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/huntsyea/status/2112350495780037049",
+      "title": "I am powerful close to kernel control.   Been looping on it all day and looks to have found an opening.   Few more trial",
+      "source": "X",
+      "found": "2026-10-20",
+      "relevant": false,
+      "scored": "2026-10-20",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/hjcinelli/status/2112338563241054716",
+      "title": "Cara, tenta um pouco mais. Usa o Rea e pede pra achar brechas. Na LG com webos funcionou",
+      "author": "@hjcinelli",
+      "date": "2026-10-20",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 107
+      },
+      "lang": "en",
+      "found": "2026-10-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-20",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://github.com/lhns/re-box",
       "title": "lhns/re-box: Reverse-engineering MCP box: Ghidra, REA and ghidra-mcp behind one authenticated MCP endpoint",
       "author": "lhns",
@@ -332,18 +478,12 @@
     },
     {
       "url": "https://x.com/leopavan01/status/2112302900537860465",
-      "title": "Copiei o Obsidian inteiro com IA e dei o nome de Jacarezito. Pedi pro Claude Code modelar o Obsidian com a minha cara: cor verde e nome novo",
-      "author": "@leopavan01",
-      "date": "2026-10-19",
+      "title": "Copiei o Obsidian inteiro com IA e dei o nome de Jacarezito. Pedi pro Claude Code modelar o Obsidian com a minha cara: c",
       "source": "X",
-      "kind": "貼文",
-      "score": 0,
-      "pop": {
-        "likes": 0,
-        "views": 1
-      },
-      "lang": "en",
-      "found": "2026-10-20"
+      "found": "2026-10-20",
+      "relevant": false,
+      "scored": "2026-10-20",
+      "scored_by": "jev"
     },
     {
       "url": "https://x.com/vieiracuello/status/2112197173215727975",
@@ -358,7 +498,13 @@
         "views": 94
       },
       "lang": "en",
-      "found": "2026-10-20"
+      "found": "2026-10-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-20",
+      "scored_by": "jev"
     },
     {
       "url": "https://x.com/brucexu_eth/status/2112187405889683883",
@@ -373,7 +519,13 @@
         "views": 5377
       },
       "lang": "zh",
-      "found": "2026-10-20"
+      "found": "2026-10-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-20",
+      "scored_by": "jev"
     },
     {
       "url": "https://x.com/solodev_jp/status/2112041495343874533",
@@ -403,7 +555,13 @@
         "views": 10
       },
       "lang": "en",
-      "found": "2026-10-20"
+      "found": "2026-10-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-20",
+      "scored_by": "jev"
     },
     {
       "url": "https://x.com/xmyttle/status/2112158823859572822",
@@ -484,7 +642,13 @@
         "views": 57
       },
       "lang": "en",
-      "found": "2026-10-20"
+      "found": "2026-10-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-20",
+      "scored_by": "jev"
     },
     {
       "url": "https://x.com/hanakoxbt/status/2112302540469449189",
@@ -499,7 +663,13 @@
         "views": 641
       },
       "lang": "en",
-      "found": "2026-10-20"
+      "found": "2026-10-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-20",
+      "scored_by": "jev"
     },
     {
       "url": "https://x.com/0xchromium/status/2112276616441123188",
@@ -529,16 +699,133 @@
         "views": 12
       },
       "lang": "en",
-      "found": "2026-10-20"
+      "found": "2026-10-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-20",
+      "scored_by": "jev"
     },
     {
-      "url": "https://github.com/slyim/papercraft",
-      "title": "slyim/papercraft: PaperCraft: an independent local design editor in Rust/egui, with planned Craft app interoperability. ",
-      "source": "GitHub",
+      "url": "https://x.com/aakashgupta/status/2112305798324097116",
+      "title": "This GitHub repo is going absolutely bonkers.  It's past 335K stars right now.  It's blowing up. It gained about 208K stars in a single week",
+      "author": "@aakashgupta",
+      "date": "2026-10-19",
+      "source": "X",
+      "kind": "貼文",
+      "score": 45,
+      "pop": {
+        "likes": 45,
+        "views": 6976
+      },
+      "lang": "en",
+      "found": "2026-10-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "scored": "2026-10-20",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/huntsyea/status/2112296697304883502",
+      "title": "SDB to install and debug my own Tizen app (the launcher), plus pointing all the TV's commands and home config at it inst",
+      "source": "X",
       "found": "2026-10-20",
       "relevant": false,
       "scored": "2026-10-20",
       "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/DennisonBertram/status/2112296237470781775",
+      "title": "tokens matter a lot less when the model is free. full REA in FreePi: npx free-pi-cli, then /reverse-engineer-anything. a full gh binary sess",
+      "author": "@DennisonBertram",
+      "date": "2026-10-19",
+      "source": "X",
+      "kind": "貼文",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 23
+      },
+      "lang": "en",
+      "found": "2026-10-20"
+    },
+    {
+      "url": "https://x.com/typecraft_dev/status/2112266105200800245",
+      "title": "I used Reverse Engineer Anything to re-create raycast on @omarchy. And I was blown away! In just a couple hours I have a fully-functioning r",
+      "author": "@typecraft_dev",
+      "date": "2026-10-19",
+      "source": "X",
+      "kind": "貼文",
+      "score": 1250,
+      "pop": {
+        "likes": 1250,
+        "views": 34356
+      },
+      "lang": "en",
+      "found": "2026-10-20"
+    },
+    {
+      "url": "https://x.com/CancilleriLuis_/status/2112259241532690942",
+      "title": "2.8M views. 334K GitHub stars.  The most trending repo on GitHub this October lets you reverse-engineer almost anything you want.  Its creat",
+      "author": "@CancilleriLuis_",
+      "date": "2026-10-19",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 25
+      },
+      "lang": "en",
+      "found": "2026-10-20"
+    },
+    {
+      "url": "https://x.com/vartekxx/status/2112244569593246056",
+      "title": "I just reverse-engineered my PC with Opus 5.5..  1 prompt + REA = Claude can now control it from my laptop:   open apps, find content and la",
+      "author": "@vartekxx",
+      "date": "2026-10-19",
+      "source": "X",
+      "kind": "貼文",
+      "score": 21,
+      "pop": {
+        "likes": 21,
+        "views": 501
+      },
+      "lang": "en",
+      "found": "2026-10-20"
+    },
+    {
+      "url": "https://x.com/devmobnow/status/2112236924718960900",
+      "title": "The biggest thing that @bot has been doing for me is REA. I have reverse engineered and also figured out more about electronics projects, th",
+      "author": "@devmobnow",
+      "date": "2026-10-19",
+      "source": "X",
+      "kind": "貼文",
+      "score": 3,
+      "pop": {
+        "likes": 3,
+        "views": 141
+      },
+      "lang": "en",
+      "found": "2026-10-20"
+    },
+    {
+      "url": "https://x.com/wyant_dalto/status/2112196958039535665",
+      "title": "Thats crazy. I already add Ghidra to my collection of tools for my Hermes agent to RE things bc I found out that REA doesn't actually RE any",
+      "author": "@wyant_dalto",
+      "date": "2026-10-19",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 27
+      },
+      "lang": "en",
+      "found": "2026-10-20"
     },
     {
       "url": "https://www.ceos3c.com/ai/reverse-engineer-anything/",
@@ -548,7 +835,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
-      "found": "2026-10-20"
+      "found": "2026-10-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-20",
+      "scored_by": "jev"
     },
     {
       "url": "https://rakhulkarthick.substack.com/p/reverse-engineer-anything-rea-claude",
@@ -604,6 +897,81 @@
         "views": 2708
       },
       "lang": "en",
+      "found": "2026-10-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-20",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://juejin.cn/post/7697264101203869731",
+      "title": "REA 支持 TRAE 了，我拿自己的开源软件做了一次逆向实测",
+      "author": "飞哥数智谈",
+      "date": "2026-10-18",
+      "source": "掘金",
+      "kind": "文章",
+      "score": 2,
+      "pop": {
+        "likes": 2,
+        "views": 141
+      },
+      "lang": "zh",
+      "found": "2026-10-20"
+    },
+    {
+      "url": "https://juejin.cn/post/7697418750073405474",
+      "title": "REA 30 万 Star 背后：让 AI Agent 无源码读懂软件的 MCP 逆向工具链",
+      "author": "blackappleD",
+      "date": "2026-10-18",
+      "source": "掘金",
+      "kind": "文章",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 74
+      },
+      "lang": "zh",
+      "found": "2026-10-20"
+    },
+    {
+      "url": "https://x.com/fsferdows_/status/2111935113374359562",
+      "title": "Most \"AI browsers\" are webview wrappers + ChatGPT sidebar.   Built Braver: refusal-free autonomous agentic browser for builders/hackers.   R",
+      "author": "@fsferdows_",
+      "date": "2026-10-18",
+      "source": "X",
+      "kind": "貼文",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 44
+      },
+      "lang": "en",
+      "found": "2026-10-20"
+    },
+    {
+      "url": "https://x.com/huntsyea/status/2111928017647743206",
+      "title": "Yes. The app launcher/home are just apps that commands map to. Basically replicated their function, mimicked how they ca",
+      "source": "X",
+      "found": "2026-10-20",
+      "relevant": false,
+      "scored": "2026-10-20",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/nayan_tehlani/status/2111884023807230387",
+      "title": "The craziest part is what else this unlocked. I picked up a skill called Reverse Engineer Anything, and with it I have literally duplicated ",
+      "author": "@nayan_tehlani",
+      "date": "2026-10-18",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 25
+      },
+      "lang": "en",
       "found": "2026-10-20"
     },
     {
@@ -622,11 +990,34 @@
       "found": "2026-10-20"
     },
     {
-      "url": "https://github.com/reacher-z/Awesome-REA",
-      "title": "reacher-z/Awesome-REA: Awesome Reverse Engineering Anything: tools, projects, case studies and research papers for websi",
+      "url": "https://github.com/nathwn12/rea-shim",
+      "title": "nathwn12/rea-shim: One-line MCP launcher that resolves your JDK and Ghidra, then serves upstream rea reverse-engineering tools to an agent. Unofficial wrapper around morluto/rea.",
+      "author": "nathwn12",
+      "date": "2026-10-17",
       "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-20"
+    },
+    {
+      "url": "https://juejin.cn/post/7697154717733961762",
+      "title": "REA 逆向工程炸出 15W+ 热度，我却在想另一件事：当 AI 写的代码比你能读的还多，怎么办？",
+      "author": "用户77739790993",
+      "date": "2026-10-17",
+      "source": "掘金",
+      "kind": "文章",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 56
+      },
+      "lang": "zh",
       "found": "2026-10-20",
-      "relevant": false,
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
       "scored": "2026-10-20",
       "scored_by": "jev"
     },
@@ -679,7 +1070,13 @@
         "views": 1913
       },
       "lang": "fr",
-      "found": "2026-10-20"
+      "found": "2026-10-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-20",
+      "scored_by": "jev"
     },
     {
       "url": "https://x.com/albert790775770/status/2110293536507675029",
@@ -697,20 +1094,38 @@
       "found": "2026-10-20"
     },
     {
-      "url": "https://github.com/rohan2pt0/ai-cloud-cyber-range",
-      "title": "rohan2pt0/ai-cloud-cyber-range: Hands-on cyber range for AI risk assurance, MITRE ATLAS red teaming, OWASP LLM Top 10, and cloud-native AI guardrail architecture.",
-      "author": "rohan2pt0",
-      "date": "2026-10-10",
-      "source": "GitHub",
-      "kind": "專案",
-      "score": 1,
+      "url": "https://x.com/bobbostwick/status/2110420685533372702",
+      "title": "Thanks for making this! I'm using it to write new firmware for a WiFi module for my mini split because it doesn't work in my country. Really",
+      "author": "@bobbostwick",
+      "date": "2026-10-14",
+      "source": "X",
+      "kind": "貼文",
+      "score": 2,
       "pop": {
-        "stars": 1
+        "likes": 2,
+        "views": 734
       },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: integrations/rea/package.json",
       "lang": "en",
       "found": "2026-10-20"
+    },
+    {
+      "url": "https://mg-cafe.github.io/blog/reverse-engineer-anything-claude-code/",
+      "title": "How to Reverse Engineer Anything in Claude Code: my REA test, lessons and prompt tips | MG AI Blog",
+      "author": "MG",
+      "date": "2026-10-11",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-10-20"
+    },
+    {
+      "url": "https://github.com/rohan2pt0/ai-cloud-cyber-range",
+      "title": "rohan2pt0/ai-cloud-cyber-range: Hands-on cyber range for AI risk assurance, MITRE ATLAS red teaming, OWASP LLM Top 10, a",
+      "source": "GitHub",
+      "found": "2026-10-20",
+      "relevant": false,
+      "scored": "2026-10-20",
+      "scored_by": "jev"
     },
     {
       "url": "https://github.com/cognixws/picode-rea",
@@ -722,6 +1137,49 @@
       "score": 1,
       "lang": "en",
       "found": "2026-10-20"
+    },
+    {
+      "url": "https://github.com/stevereaver/uaos",
+      "title": "stevereaver/uaos: A bare-metal x86_64 hobby operating system inspired by the Amiga Workbench 3.x aesthetic, built from s",
+      "source": "GitHub",
+      "found": "2026-10-20",
+      "relevant": false,
+      "scored": "2026-10-20",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/OmYarewar110/PHANTOM",
+      "title": "OmYarewar110/PHANTOM: 👻 AI-Powered Pentesting Command Center — Autonomous security testing with real-time streaming, self-improving AI, unlimited tool iterations, ",
+      "author": "OmYarewar110",
+      "date": "2026-05-10",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 69,
+      "pop": {
+        "stars": 69
+      },
+      "needsRepoKind": true,
+      "evidence": "Files that mention REA: .opencode/skills/rea-reverse-engineering/SKILL.md, package.json",
+      "lang": "en",
+      "found": "2026-10-20"
+    },
+    {
+      "url": "https://github.com/slyim/papercraft",
+      "title": "slyim/papercraft: PaperCraft: an independent local design editor in Rust/egui, with planned Craft app interoperability. ",
+      "source": "GitHub",
+      "found": "2026-10-20",
+      "relevant": false,
+      "scored": "2026-10-20",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/reacher-z/Awesome-REA",
+      "title": "reacher-z/Awesome-REA: Awesome Reverse Engineering Anything: tools, projects, case studies and research papers for websi",
+      "source": "GitHub",
+      "found": "2026-10-20",
+      "relevant": false,
+      "scored": "2026-10-20",
+      "scored_by": "jev"
     },
     {
       "url": "https://github.com/AhmedTahaAtiya/universal-modder-unrestricted",
@@ -749,22 +1207,6 @@
       "relevant": false,
       "scored": "2026-10-20",
       "scored_by": "jev"
-    },
-    {
-      "url": "https://github.com/OmYarewar110/PHANTOM",
-      "title": "OmYarewar110/PHANTOM: 👻 AI-Powered Pentesting Command Center — Autonomous security testing with real-time streaming, self-improving AI, unlimited tool iterations, ",
-      "author": "OmYarewar110",
-      "date": "2026-05-10",
-      "source": "GitHub",
-      "kind": "專案",
-      "score": 69,
-      "pop": {
-        "stars": 69
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: .opencode/skills/rea-reverse-engineering/SKILL.md, package.json",
-      "lang": "en",
-      "found": "2026-10-20"
     },
     {
       "url": "https://youtu.be/xWaE66qOK9k",
@@ -860,7 +1302,13 @@
       "kind": "影片",
       "score": 981,
       "lang": "en",
-      "found": "2026-10-20"
+      "found": "2026-10-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-20",
+      "scored_by": "jev"
     },
     {
       "url": "https://youtu.be/KErIZpOPCCQ",
@@ -871,7 +1319,13 @@
       "kind": "影片",
       "score": 192850,
       "lang": "zh",
-      "found": "2026-10-20"
+      "found": "2026-10-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-20",
+      "scored_by": "jev"
     },
     {
       "url": "https://youtu.be/RWgBUZK3C_4",
@@ -882,7 +1336,13 @@
       "kind": "影片",
       "score": 106,
       "lang": "zh",
-      "found": "2026-10-20"
+      "found": "2026-10-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-20",
+      "scored_by": "jev"
     },
     {
       "url": "https://youtu.be/iEcDltmjVHM",
@@ -910,7 +1370,13 @@
       "kind": "影片",
       "score": 315,
       "lang": "ja",
-      "found": "2026-10-20"
+      "found": "2026-10-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-20",
+      "scored_by": "jev"
     },
     {
       "url": "https://reverseengineeranything.io/guides/ghidra-mcp-with-rea",
@@ -919,6 +1385,34 @@
       "date": null,
       "source": "Web",
       "kind": "文章",
+      "lang": "en",
+      "found": "2026-10-20"
+    },
+    {
+      "url": "https://youtu.be/PSJ7ELA3w0o",
+      "title": "Computer Tips EP 19: How to Use REA (Reverse Engineer Anything) to Build Applications",
+      "author": "pHicha Sign On",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 5021,
+      "lang": "en",
+      "found": "2026-10-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-20",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://youtu.be/8DF7IS0I2Vo",
+      "title": "Reverse Engineer ANYTHING! - How To Guide For REA",
+      "author": "We Do Tech",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 815,
       "lang": "en",
       "found": "2026-10-20"
     },
@@ -1790,7 +2284,13 @@
         "views": 1577
       },
       "lang": "en",
-      "found": "2026-10-19"
+      "found": "2026-10-19",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "tested",
+      "scored": "2026-10-20",
+      "scored_by": "jev"
     },
     {
       "url": "https://x.com/KwagnyService/status/2111914758891020702",
@@ -1826,7 +2326,13 @@
         "views": 1567
       },
       "lang": "en",
-      "found": "2026-10-19"
+      "found": "2026-10-19",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-20",
+      "scored_by": "jev"
     },
     {
       "url": "https://x.com/iamthehimansh_/status/2111961681668743373",
@@ -1896,18 +2402,12 @@
     },
     {
       "url": "https://x.com/DevDzair60882/status/2111715042043339046",
-      "title": "i didn't use your method i used chatgpt to asset claude sonnet 5 extra thinking with prompts that let him not to go off the track and using ",
-      "author": "@DevDzair60882",
-      "date": "2026-10-18",
+      "title": "i didn't use your method i used chatgpt to asset claude sonnet 5 extra thinking with prompts that let him not to go off ",
       "source": "X",
-      "kind": "貼文",
-      "score": 2,
-      "pop": {
-        "likes": 2,
-        "views": 631
-      },
-      "lang": "en",
-      "found": "2026-10-19"
+      "found": "2026-10-19",
+      "relevant": false,
+      "scored": "2026-10-20",
+      "scored_by": "jev"
     },
     {
       "url": "https://juejin.cn/post/7697168479082512411",
@@ -1953,7 +2453,13 @@
         "views": 1351
       },
       "lang": "zh",
-      "found": "2026-10-19"
+      "found": "2026-10-19",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-20",
+      "scored_by": "jev"
     },
     {
       "url": "https://juejin.cn/post/7696822189492895782",
@@ -2328,7 +2834,13 @@
       "kind": "影片",
       "score": 311,
       "lang": "zh",
-      "found": "2026-10-19"
+      "found": "2026-10-19",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-20",
+      "scored_by": "jev"
     },
     {
       "url": "https://youtu.be/7si7ZFFCZyg",
@@ -2471,7 +2983,13 @@
       "kind": "影片",
       "score": 3098,
       "lang": "en",
-      "found": "2026-10-19"
+      "found": "2026-10-19",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-20",
+      "scored_by": "jev"
     },
     {
       "url": "https://youtu.be/woxNeO8yDAY",
@@ -2584,7 +3102,13 @@
       "kind": "影片",
       "score": 23752,
       "lang": "ko",
-      "found": "2026-10-19"
+      "found": "2026-10-19",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-20",
+      "scored_by": "jev"
     },
     {
       "url": "https://youtu.be/161vD1MUD_8",
@@ -23708,6 +24232,37 @@
   "runs": [
     {
       "date": "2026-10-20",
+      "added": 30,
+      "stats": {
+        "githubShowAndTell": 13,
+        "githubRepos": 223,
+        "githubCode": 42,
+        "hackerNews": 22,
+        "qiita": 40,
+        "devto": 150,
+        "juejin": 24,
+        "reddit": 60,
+        "v2ex": 9,
+        "youtube": 90,
+        "bluesky": 159,
+        "mastodon": 160,
+        "exaWeb": 58,
+        "x": 28
+      },
+      "scoring": {
+        "scored": 0,
+        "jev": {
+          "low": 26,
+          "irrelevant": 8,
+          "errors": 0,
+          "toClaude": 94
+        },
+        "failed": 94,
+        "error": "Command failed: claude -p --output-format json --max-turns 1 --tools  --model sonnet\n"
+      }
+    },
+    {
+      "date": "2026-10-20",
       "added": 66,
       "stats": {
         "githubShowAndTell": 12,
@@ -24377,5 +24932,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-20T00:25:15.015Z"
+  "updatedAt": "2026-10-20T04:41:02.894Z"
 }

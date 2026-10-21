@@ -34,6 +34,159 @@
       "found": "2026-10-21"
     },
     {
+      "url": "https://github.com/hugolopezferrer/muse-rea-log",
+      "title": "hugolopezferrer/muse-rea-log: Security log of the REA (Reverse Engineer Anything) integration in Muse: chronological steps, SHA-256 verification, evidence and reproducible scripts.",
+      "author": "hugolopezferrer",
+      "date": "2026-10-21",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-21"
+    },
+    {
+      "url": "https://github.com/jivaklong/REA-Prompts-CN",
+      "title": "jivaklong/REA-Prompts-CN: REAP — 配套提示词集，赋能 REA「万物逆向引擎」，深挖能力上限，拆解、复刻任意程序",
+      "author": "jivaklong",
+      "date": "2026-10-21",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 1,
+      "lang": "zh",
+      "found": "2026-10-21"
+    },
+    {
+      "url": "https://github.com/the033003/AirGremlin",
+      "title": "the033003/AirGremlin: AirLLM-powered Gremlin agent with swappable Hugging Face models, local inference, and REA MCP integration for binary analysis.",
+      "author": "the033003",
+      "date": "2026-10-21",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-21"
+    },
+    {
+      "url": "https://github.com/zipitang/rea-worker",
+      "title": "zipitang/rea-worker: REA 逆向工程辅助工作区（文档与技能）",
+      "author": "zipitang",
+      "date": "2026-10-21",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "zh",
+      "found": "2026-10-21"
+    },
+    {
+      "url": "https://github.com/hugolopezferrer/muse-rea-guide",
+      "title": "hugolopezferrer/muse-rea-guide: Step-by-step guide to install REA in your Muse account: three phases, copy-paste prompts and evidence-based verification.",
+      "author": "hugolopezferrer",
+      "date": "2026-10-21",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-21"
+    },
+    {
+      "url": "https://github.com/nagstaku/lg-c4-demoscene",
+      "title": "nagstaku/lg-c4-demoscene: LG C4 graphics experiments: native 4K video-plane rendering, small demos, and REA/Ghidra research findings.",
+      "author": "nagstaku",
+      "date": "2026-10-21",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-21",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "tested",
+      "scored": "2026-10-21",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://bsky.app/profile/hasamba72.bsky.social/post/3myebincm5r2g",
+      "title": "REA (MIT) is an MCP server connecting AI agents to local reverse engineering tools: native binaries, Electron/.NET apps, websites. Analysis ",
+      "author": "hasamba72.bsky.social",
+      "date": "2026-10-21",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 1,
+      "lang": "en",
+      "found": "2026-10-21",
+      "relevant": true,
+      "wow": 1,
+      "category": "工具鏈",
+      "status": "shipped",
+      "scored": "2026-10-21",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://bsky.app/profile/coyoteden.bsky.social/post/3mydxvfmkq226",
+      "title": "The TV thing didn’t even use REA, it’s just a Claude prompt. ",
+      "author": "coyoteden.bsky.social",
+      "date": "2026-10-21",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-21",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-21",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://infosec.exchange/@hasamba/117476921000554676",
+      "title": "---------------- 🛠️ Tool: REA (Reverse Engineer Anything) =================== Overview REA is an MIT-licensed MCP server, distributed as th",
+      "author": "hasamba@infosec.exchange",
+      "date": "2026-10-21",
+      "source": "Mastodon",
+      "kind": "貼文",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-21",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "scored": "2026-10-21",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/wquguru/status/2112747723078422809",
+      "title": "用 REA 分析完 Claude Code（含Mac CLI、Mac App、Android App），这应该是全网最全的代理规则了，先说几个点：1. 安卓端：检测最强，通过 Sift 进行反欺诈检测，检测 SIM 卡所在国家，收集的硬件设备ID（ANDROID_ID + Pla",
+      "author": "@wquguru",
+      "date": "2026-10-21",
+      "source": "X",
+      "kind": "貼文",
+      "score": 8,
+      "pop": {
+        "likes": 8,
+        "views": 1257
+      },
+      "lang": "zh",
+      "found": "2026-10-21"
+    },
+    {
+      "url": "https://x.com/milumondev/status/2112708202018353294",
+      "title": "Thanks to Codex and REA, I was able to reverse engineer parts of #R2Beat and build a local server to play my favorite childhood game again, ",
+      "author": "@milumondev",
+      "date": "2026-10-21",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 8
+      },
+      "lang": "en",
+      "found": "2026-10-21"
+    },
+    {
       "url": "https://github.com/mateusrezendeps19/open-nivora",
       "title": "mateusrezendeps19/open-nivora: An offline desktop kanban board. Its Electron shell was rebuilt from a reverse engineering analysis of the official Trello desktop app with REA; the board interface is original work. Electron + React + TypeScript, no account and no server.",
       "author": "mateusrezendeps19",
@@ -202,7 +355,13 @@
       "kind": "專案",
       "score": 0,
       "lang": "en",
-      "found": "2026-10-21"
+      "found": "2026-10-21",
+      "relevant": true,
+      "wow": 1,
+      "category": "工具鏈",
+      "status": "reported",
+      "scored": "2026-10-21",
+      "scored_by": "jev"
     },
     {
       "url": "https://dev.to/thecodestreet/rea-github-tutorial-reverse-engineer-anything-with-claude-code-full-setup-fixes-1g89",
@@ -281,17 +440,11 @@
     {
       "url": "https://www.reddit.com/r/NoMansSkyTheGame/comments/1xb01as/i_added_true_lava_to_nms/",
       "title": "I added true Lava to NMS",
-      "author": "Friendly_Sorbet_8341",
-      "date": "2026-10-20",
       "source": "Reddit r/NoMansSkyTheGame",
-      "kind": "討論",
-      "score": 1847,
-      "pop": {
-        "upvotes": 1847,
-        "comments": 210
-      },
-      "lang": "en",
-      "found": "2026-10-21"
+      "found": "2026-10-21",
+      "relevant": false,
+      "scored": "2026-10-21",
+      "scored_by": "jev"
     },
     {
       "url": "https://bsky.app/profile/nokillswit.ch/post/3mydmrhpg6d26",
@@ -777,6 +930,98 @@
       "found": "2026-10-21"
     },
     {
+      "url": "https://github.com/huapohen/doubao_input",
+      "title": "huapohen/doubao_input: 豆包输入法 1.5.2 REA 逆向分析与 Flutter/Android/iOS 净室复刻",
+      "author": "huapohen",
+      "date": "2026-10-20",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "zh",
+      "found": "2026-10-21"
+    },
+    {
+      "url": "https://x.com/DanKornas/status/2112680017599553991",
+      "title": "Rebuilding software is easier when your evidence becomes a plan. REA Reconstruction Companion is an open-source, model-independent agent ski",
+      "author": "@DanKornas",
+      "date": "2026-10-20",
+      "source": "X",
+      "kind": "貼文",
+      "score": 11,
+      "pop": {
+        "likes": 11,
+        "views": 930
+      },
+      "lang": "en",
+      "found": "2026-10-21"
+    },
+    {
+      "url": "https://x.com/rlawo001/status/2112663184024932723",
+      "title": "[깃허브 ★ 25만] REA 로 주식사이트를 훔쳐보았습니다 https://www.youtube.com/watch?v=vE3oIAG0VdE",
+      "author": "@rlawo001",
+      "date": "2026-10-20",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 27
+      },
+      "lang": "ko",
+      "found": "2026-10-21",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "scored": "2026-10-21",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/0xCodila/status/2112646579517857949",
+      "title": "my router has no public API or docs for it, so Claude reverse-engnieered its web panel using REA repo to see how it works behind the scenes,",
+      "author": "@0xCodila",
+      "date": "2026-10-20",
+      "source": "X",
+      "kind": "貼文",
+      "score": 2,
+      "pop": {
+        "likes": 2,
+        "views": 944
+      },
+      "lang": "en",
+      "found": "2026-10-21"
+    },
+    {
+      "url": "https://x.com/codingthirty/status/2112625659000635802",
+      "title": "For educational purposes, I had it reverse engineer The Elder Scrolls IV: Oblivion, decompiling the game with REA and taking detailed notes.",
+      "author": "@codingthirty",
+      "date": "2026-10-20",
+      "source": "X",
+      "kind": "貼文",
+      "score": 7,
+      "pop": {
+        "likes": 7,
+        "views": 305
+      },
+      "lang": "en",
+      "found": "2026-10-21"
+    },
+    {
+      "url": "https://x.com/subhraneeltwt/status/2112591177568670200",
+      "title": "i reverse-engineered Discord chat with my own desktop AI Agent. no source code. just pointed dummy at it and watched it reconstruct the stru",
+      "author": "@subhraneeltwt",
+      "date": "2026-10-20",
+      "source": "X",
+      "kind": "貼文",
+      "score": 2,
+      "pop": {
+        "likes": 2,
+        "views": 93
+      },
+      "lang": "en",
+      "found": "2026-10-21"
+    },
+    {
       "url": "https://github.com/giveen/decomp.anything",
       "title": "giveen/decomp.anything: decomp.wtf fork: Windows PE matching, MinGW/clang-cl toolchains, and an optional REA MCP bridge",
       "author": "giveen",
@@ -806,16 +1051,43 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
+      "found": "2026-10-21",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-21",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/rae1101x/status/2112301243335147779",
+      "title": "free and open source, built on @morluto's REA: https://github.com/mingleiw/crashlens",
+      "author": "@rae1101x",
+      "date": "2026-10-19",
+      "source": "X",
+      "kind": "貼文",
+      "score": 2,
+      "pop": {
+        "likes": 2,
+        "views": 111
+      },
+      "lang": "en",
       "found": "2026-10-21"
     },
     {
-      "url": "https://x.com/zaahm14/status/2111837843681161450",
-      "title": "Absolutely amazing, I managed to reverse engineer Maono Link and translate into OpenRGB so i can control the rgb led of ",
+      "url": "https://x.com/vdecrypto/status/2112192188780032476",
+      "title": "This is what I found when testing with a Samsung, I wrote REA to the firmware file but since it was encrypted it told me it couldn't do anyt",
+      "author": "@vdecrypto",
+      "date": "2026-10-19",
       "source": "X",
-      "found": "2026-10-21",
-      "relevant": false,
-      "scored": "2026-10-21",
-      "scored_by": "jev"
+      "kind": "貼文",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 352
+      },
+      "lang": "en",
+      "found": "2026-10-21"
     },
     {
       "url": "https://github.com/samuelnyamukapa/complete-migration-toolkit",
@@ -892,6 +1164,27 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
+      "found": "2026-10-21",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "scored": "2026-10-21",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://juejin.cn/post/7696387828728774697",
+      "title": "用 REA 把本机逆向工具接入 Agent：能力边界与安全检查",
+      "author": "程序员刚子",
+      "date": "2026-10-14",
+      "source": "掘金",
+      "kind": "文章",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 27
+      },
+      "lang": "zh",
       "found": "2026-10-21"
     },
     {
@@ -946,6 +1239,15 @@
       "evidence": "Files that mention REA: bench/skills/reverse-engineer-anything-improved/SKILL.md, package.json, AGENTS.md",
       "lang": "en",
       "found": "2026-10-21"
+    },
+    {
+      "url": "https://x.com/zaahm14/status/2111837843681161450",
+      "title": "Absolutely amazing, I managed to reverse engineer Maono Link and translate into OpenRGB so i can control the rgb led of ",
+      "source": "X",
+      "found": "2026-10-21",
+      "relevant": false,
+      "scored": "2026-10-21",
+      "scored_by": "jev"
     },
     {
       "url": "https://youtu.be/wpV92IBwG88",
@@ -1013,6 +1315,50 @@
       "status": "reported",
       "scored": "2026-10-21",
       "scored_by": "jev"
+    },
+    {
+      "url": "https://youtu.be/hbVLlKmmiJQ",
+      "title": "緊急解説｜話題のREA（Reverse Engineer Anything）とは？AIでソフトを読み解く時代に、何が変わるのか",
+      "author": "arearun apps",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 25,
+      "lang": "ja",
+      "found": "2026-10-21",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-21",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://youtu.be/trqsejal9jQ",
+      "title": "\"남의 프로그램 소스코드가 3초 만에 털린다? 개발자 99%가 충격받은 AI 역설계(REA)의 실체 [27분 완벽 해설]\"리버스엔지니어링, ReverseEngineering,REA",
+      "author": "Dangmokdamgeul",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 56,
+      "lang": "ko",
+      "found": "2026-10-21",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-21",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://reverseengineeranything.co/wiki/",
+      "title": "REA Wiki: All 64 Reverse Engineer Anything Guides, Grouped by Task",
+      "author": "Reverse Engineer Anything fan site",
+      "date": null,
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-10-21"
     },
     {
       "url": "https://github.com/nicolvus/a6000-fw-decomp",
@@ -1763,7 +2109,13 @@
         "views": 25
       },
       "lang": "en",
-      "found": "2026-10-20"
+      "found": "2026-10-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-21",
+      "scored_by": "jev"
     },
     {
       "url": "https://x.com/vartekxx/status/2112244569593246056",
@@ -1793,7 +2145,13 @@
         "views": 141
       },
       "lang": "en",
-      "found": "2026-10-20"
+      "found": "2026-10-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-21",
+      "scored_by": "jev"
     },
     {
       "url": "https://x.com/wyant_dalto/status/2112196958039535665",
@@ -1808,7 +2166,13 @@
         "views": 27
       },
       "lang": "en",
-      "found": "2026-10-20"
+      "found": "2026-10-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-21",
+      "scored_by": "jev"
     },
     {
       "url": "https://www.ceos3c.com/ai/reverse-engineer-anything/",
@@ -1834,7 +2198,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
-      "found": "2026-10-20"
+      "found": "2026-10-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-21",
+      "scored_by": "jev"
     },
     {
       "url": "https://www.terapep.com/blog/rea-reverse-engineering-toolkit-roundup-ghidra-ida-frida-guide-2026/",
@@ -1926,18 +2296,12 @@
     },
     {
       "url": "https://x.com/fsferdows_/status/2111935113374359562",
-      "title": "Most \"AI browsers\" are webview wrappers + ChatGPT sidebar.   Built Braver: refusal-free autonomous agentic browser for builders/hackers.   R",
-      "author": "@fsferdows_",
-      "date": "2026-10-18",
+      "title": "Most \"AI browsers\" are webview wrappers + ChatGPT sidebar.   Built Braver: refusal-free autonomous agentic browser for b",
       "source": "X",
-      "kind": "貼文",
-      "score": 1,
-      "pop": {
-        "likes": 1,
-        "views": 44
-      },
-      "lang": "en",
-      "found": "2026-10-20"
+      "found": "2026-10-20",
+      "relevant": false,
+      "scored": "2026-10-21",
+      "scored_by": "jev"
     },
     {
       "url": "https://x.com/nayan_tehlani/status/2111884023807230387",
@@ -1952,7 +2316,13 @@
         "views": 25
       },
       "lang": "en",
-      "found": "2026-10-20"
+      "found": "2026-10-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-21",
+      "scored_by": "jev"
     },
     {
       "url": "https://x.com/Damir_Akaza/status/2111463856060891461",
@@ -2417,7 +2787,13 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
-      "found": "2026-10-20"
+      "found": "2026-10-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-21",
+      "scored_by": "jev"
     },
     {
       "url": "https://youtu.be/PSJ7ELA3w0o",
@@ -2557,15 +2933,6 @@
       "category": "報導 / 評論",
       "status": "reported",
       "scored": "2026-10-19",
-      "scored_by": "jev"
-    },
-    {
-      "url": "https://bsky.app/profile/juliangoldie.bsky.social/post/3my74he35sd2x",
-      "title": "I messaged my AI agent at 10:38, and by 10:44 it had built the whole app 🤯",
-      "source": "Bluesky",
-      "found": "2026-10-19",
-      "relevant": false,
-      "scored": "2026-10-21",
       "scored_by": "jev"
     },
     {
@@ -3463,15 +3830,6 @@
       "scored_by": "jev"
     },
     {
-      "url": "https://ercanataycom.medium.com/setting-up-rea-with-claude-code-teaching-ai-to-read-binaries-with-ghidra-with-codex-opencode-57a84b5c38f5",
-      "title": "Medium",
-      "source": "Web",
-      "found": "2026-10-19",
-      "relevant": false,
-      "scored": "2026-10-21",
-      "scored_by": "jev"
-    },
-    {
       "url": "https://juejin.cn/post/7696894428150300682",
       "title": "我用 REA 逆向了付费颜色 APP，结果很意外！",
       "author": "程序员鱼皮",
@@ -3717,6 +4075,24 @@
       "category": "工具鏈",
       "status": "reported",
       "scored": "2026-10-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://bsky.app/profile/juliangoldie.bsky.social/post/3my74he35sd2x",
+      "title": "I messaged my AI agent at 10:38, and by 10:44 it had built the whole app 🤯",
+      "source": "Bluesky",
+      "found": "2026-10-19",
+      "relevant": false,
+      "scored": "2026-10-21",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://ercanataycom.medium.com/setting-up-rea-with-claude-code-teaching-ai-to-read-binaries-with-ghidra-with-codex-opencode-57a84b5c38f5",
+      "title": "Medium",
+      "source": "Web",
+      "found": "2026-10-19",
+      "relevant": false,
+      "scored": "2026-10-21",
       "scored_by": "jev"
     },
     {
@@ -25278,6 +25654,37 @@
   "runs": [
     {
       "date": "2026-10-21",
+      "added": 23,
+      "stats": {
+        "githubShowAndTell": 13,
+        "githubRepos": 221,
+        "githubCode": 43,
+        "hackerNews": 19,
+        "qiita": 42,
+        "devto": 150,
+        "juejin": 25,
+        "reddit": 60,
+        "v2ex": 9,
+        "youtube": 90,
+        "bluesky": 160,
+        "mastodon": 160,
+        "exaWeb": 57,
+        "x": 26
+      },
+      "scoring": {
+        "scored": 0,
+        "jev": {
+          "low": 16,
+          "irrelevant": 2,
+          "errors": 0,
+          "toClaude": 136
+        },
+        "failed": 136,
+        "error": "Command failed: claude -p --output-format json --max-turns 1 --tools  --model sonnet\n"
+      }
+    },
+    {
+      "date": "2026-10-21",
       "added": 69,
       "stats": {
         "githubShowAndTell": 13,
@@ -26009,5 +26416,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-21T00:25:51.671Z"
+  "updatedAt": "2026-10-21T04:37:37.261Z"
 }

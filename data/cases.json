@@ -1,8 +1,8 @@
 {
   "updated": "2026-10-12",
   "repo": {
-    "stars": 338787,
-    "forks": 85521
+    "stars": 347884,
+    "forks": 87516
   },
   "log": [
     {
@@ -99,7 +99,7 @@
       "lang": "en",
       "status": "tested",
       "pop": {
-        "stars": 67
+        "stars": 73
       }
     },
     {
@@ -128,7 +128,7 @@
       "lang": "en",
       "status": "tested",
       "pop": {
-        "stars": 35
+        "stars": 38
       }
     },
     {
@@ -524,7 +524,7 @@
         }
       ],
       "pop": {
-        "stars": 0
+        "stars": 1
       }
     },
     {

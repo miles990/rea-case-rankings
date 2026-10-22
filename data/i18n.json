@@ -11098,5 +11098,245 @@
       "target": "electron/electron-quick-start-typescript（CC0 示例应用）",
       "metric": "固定 commit 与软件包哈希的一次性静态验证流程（无公开结果）"
     }
+  },
+  "d-46116c05cf": {
+    "hash": "77fa62ea6c38",
+    "en": {
+      "title": "Testing REA on an open-source app: it can read the internals but cannot rebuild a working app",
+      "summary": "The author ran REA against an app with public source code to test the claim that it can \"take apart and replicate someone else's app.\" The results show REA can read the app's internal structure but cannot produce a working app.",
+      "target": "An open-source app",
+      "metric": "Can read the app's internals, but cannot produce a working app"
+    },
+    "zh-CN": {
+      "title": "实测 REA 分析开源应用:能读懂内部但无法重建可执行的应用",
+      "summary": "作者以一个源码公开的应用为对象,实际跑了 REA 来测试“拆解并复制别人应用”的宣称。结果显示 REA 能读取应用内部结构,但做不出能运行的应用。",
+      "target": "某开源应用",
+      "metric": "可读取应用内部,但无法产出可运行的应用"
+    }
+  },
+  "d-21c5b8df65": {
+    "hash": "139c4051975c",
+    "en": {
+      "title": "An agent skill packaging the REA methodology, including a clean-room reverse-engineering workflow",
+      "summary": "The goal is to let agents such as Claude Code, Codex, and Cursor follow the REA process for non-invasive feature reverse engineering. The author lays out a Look→Understand→Plan→Build→Iterate workflow, CONFIRMED/INFERRED/UNKNOWN evidence labels, and an agent group made up of Scout, Spec Writer, Builder, and Tester. The repo contains SKILL.md, subagent definitions, and prompt templates, but no reverse-engineering results for any specific target.",
+      "target": "REA reverse-engineering workflow (agent skill)",
+      "metric": "A complete skill package: SKILL.md plus agents/, prompts/, and rules.md"
+    },
+    "zh-CN": {
+      "title": "打包 REA 方法论的 agent skill,含 clean-room 逆向工作流",
+      "summary": "目标是让 Claude Code、Codex、Cursor 等 agent 按照 REA 流程做无侵入式的功能逆向。作者整理出 Look→Understand→Plan→Build→Iterate 流程、CONFIRMED/INFERRED/UNKNOWN 证据标记,以及 Scout、Spec Writer、Builder、Tester 的 agent 群。repo 内有 SKILL.md、subagent 定义与提示模板,没有针对具体目标的逆向成果。",
+      "target": "REA 逆向工作流(agent skill)",
+      "metric": "SKILL.md 加 agents/、prompts/、rules.md 的完整技能包"
+    }
+  },
+  "d-f1e3353cf3": {
+    "hash": "a9b5e1725132",
+    "en": {
+      "title": "A tutorial on using REA to analyze game code, with tool setup",
+      "summary": "This wiki article introduces REA's CLI and MCP usage, covering static analysis, tracing, and evidence chains, and lists starting steps by target type (native, Electron, JS, APK, website). The content is a general workflow with no actual analysis results for any specific game.",
+      "target": "Game clients and game logic (general tutorial)",
+      "metric": "Starting steps by target type, plus evidence-chain principles"
+    },
+    "zh-CN": {
+      "title": "整理 REA 分析游戏代码的流程与工具配置教程",
+      "summary": "Wiki 文章介绍 REA 的 CLI 与 MCP 用法,涵盖静态分析、追踪与证据链,并按目标类型(原生、Electron、JS、APK、网站)列出起手步骤。内容是通用流程,没有针对特定游戏的实际分析成果。",
+      "target": "游戏客户端与游戏逻辑(通用教程)",
+      "metric": "按目标类型列出分析起手式与证据链原则"
+    }
+  },
+  "d-3ed7703caf": {
+    "hash": "360f71bd4cf6",
+    "en": {
+      "title": "Explaining six app features from tool output alone: five correct, one wrong",
+      "summary": "The author explained six features of an app based only on tool output; five were correct and one was wrong. Of the five correct ones, two were actually shared components the app references rather than code written by its developers. The excerpt is too short to tell whether REA was used, and it gives no specific target or evidence.",
+      "target": "Unnamed app",
+      "metric": "5 of 6 features correct, 1 wrong"
+    },
+    "zh-CN": {
+      "title": "仅凭工具结果解说六个 App 功能,五个正确、一个有误",
+      "summary": "作者只看工具输出就解说某 App 的六项功能,结果五项正确、一项错误。正确的五项中有两项其实是 App 引用的共用组件,并非开发者自行编写。内容节选过短,看不出是否使用 REA,也没有具体目标与证据。",
+      "target": "未具名 App",
+      "metric": "6 项功能中 5 项正确、1 项错误"
+    }
+  },
+  "d-99e21aca4d": {
+    "hash": "7749a3e13056",
+    "en": {
+      "title": "Using REA to tear down a Naruto-style mobile game APK: private asset formats and the character registration flow",
+      "summary": "The author used REA to unpack the APK and confirmed the engine is a native cocos2d-x library. They decoded three private asset formats: gzip scripts with a modified header, atlas textures with a modified header, and an animation index containing frame-name hashes and crop data. The key finding is the character registration flow: because the roster is hardcoded in the native library, that is where a new character has to be added for it to show up on the character select screen.",
+      "target": "cocos2d-x mobile game APK",
+      "metric": "Decoded 3 private asset formats and worked out the character registration flow hardcoded in the native library"
+    },
+    "zh-CN": {
+      "title": "用 REA 拆解火影类手游安装包，摸清私有资源格式与角色注册流程",
+      "summary": "作者用 REA 拆开安装包，确认引擎是 cocos2d-x 原生库，并解出三种私有资源格式：改头的 gzip 脚本、改头的图集贴图、含帧名哈希与裁切信息的动画索引。最关键的是弄清角色注册流程，因为角色名单写死在原生库中，才能让新角色出现在选人界面。",
+      "target": "cocos2d-x 手游安装包",
+      "metric": "解出 3 种私有资源格式并摸清写死在原生库的角色注册流程"
+    }
+  },
+  "d-28bf3b43e2": {
+    "hash": "788fc7aea16d",
+    "en": {
+      "title": "Reverse-engineering two paid apps with REA, ready to use after a local build",
+      "summary": "The author says they used REA to reverse-engineer two paid apps priced at 130 and 78. The code produced by the reverse engineering was usable as-is once built locally. The content is the author's own account only, with no code, screenshots, or test results to back it up.",
+      "target": "Two paid apps (priced at 130 and 78)",
+      "metric": "2 paid apps reverse-engineered and usable after a local build"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向两套收费软件并在本地构建后直接可用",
+      "summary": "作者自述使用 REA 逆向了两款分别售价 130 与 78 的收费软件。逆向产出的代码在本地构建完成后即可直接使用。内容仅有作者自述，未附代码、截图或测试佐证。",
+      "target": "两款收费软件（售价 130 与 78）",
+      "metric": "2 款收费软件逆向后本地构建即可用"
+    }
+  },
+  "d-fbf2de7668": {
+    "hash": "8c551eb54e34",
+    "en": {
+      "title": "Using REA to dissect account identification and risk-control signals in the local Claude Code 2.1.306",
+      "summary": "The author used REA to analyze the locally installed Claude Code 2.1.306 and found fields such as the install ID, account UUID, session, environment profile, and repository hash, pointing to the specific code paths involved. The fields come from the code itself, while the risk-control priority ranking is the author's own judgment.",
+      "target": "Claude Code 2.1.306",
+      "metric": "Identified fields including install ID, account UUID, session, environment profile, and repository hash, along with their code paths"
+    },
+    "zh-CN": {
+      "title": "用 REA 拆解本机 Claude Code 2.1.306 的账号识别与风控信号",
+      "summary": "作者以 REA 分析本机安装的 Claude Code 2.1.306，找出安装 ID、账号 UUID、Session、环境画像与仓库哈希等字段，并指出对应的具体代码路径。字段来自代码，风控优先级则是作者自己的研判。",
+      "target": "Claude Code 2.1.306",
+      "metric": "找出安装 ID、账号 UUID、Session、环境画像、仓库哈希等字段及代码路径"
+    }
+  },
+  "d-2bafea56f0": {
+    "hash": "489e07c82390",
+    "en": {
+      "title": "Reverse-engineering a calendar app with REA and rebuilding a working scheduler",
+      "summary": "The author had REA analyze a calendar app, then asked an AI to write a simpler version and ran it locally. They say the resulting scheduler has a day view, filtering, and the ability to add appointments.",
+      "target": "Calendar / appointment app",
+      "metric": "Rebuilt a scheduler with day view, filtering, and appointment creation"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向日历应用并重建出可用的排程器",
+      "summary": "作者让 REA 分析一个日历应用，再请 AI 写出更简单的版本并在本机运行。自述做出的排程器有日视图、筛选与新增预约功能。",
+      "target": "日历／预约应用",
+      "metric": "重建出含日视图、筛选、新增预约的排程器"
+    }
+  },
+  "d-a19f97b515": {
+    "hash": "894dbbd705b7",
+    "en": {
+      "title": "Analyzing a booking calendar page from the frontend alone and rebuilding the whole feature",
+      "summary": "The author gave Claude a GitHub link and their own booking calendar page, with no backend access, only the frontend to work from. The AI identified slot length and spacing, working hours and booking windows, the sales team calendars and the API behind them, then rebuilt the entire feature.",
+      "target": "Booking calendar page (frontend)",
+      "metric": "Identified slots, business hours, booking windows, team calendars and the API from the frontend alone"
+    },
+    "zh-CN": {
+      "title": "仅凭前端分析预约日历页并重建整套功能",
+      "summary": "作者给 Claude 一个 GitHub 链接和自己的预约日历页，在没有后端权限的情况下只看前端。AI 找出了时段长度与间隔、上班时间与预约窗口、销售团队日历以及背后的 API，然后重建了整个功能。",
+      "target": "预约日历页面（前端）",
+      "metric": "仅从前端找出时段、营业时间、预约窗口、团队日历与 API"
+    }
+  },
+  "d-159d81dd6a": {
+    "hash": "8c6f477872a1",
+    "en": {
+      "title": "Claimed structural engineering suite built with REA and Claude, covering Revit-like features",
+      "summary": "The author claims to have built a structural engineering suite inside their own CoLateral ADE, letting agents design, analyze and draft automatically, aimed at Revit, ETABS, SAP2000 and similar tools. It rests on a single self-reported tweet, with no repo, screenshots or tests, and does not say what REA actually analyzed.",
+      "target": "Revit, ETABS, SAP2000, SAFE and Bluebeam-class features",
+      "metric": "Self-claimed value of over $10,000; no verifiable evidence"
+    },
+    "zh-CN": {
+      "title": "自称用 REA 与 Claude 打造结构工程套件，涵盖 Revit 类功能",
+      "summary": "作者声称在自己的 CoLateral ADE 内构建了结构工程套件，供 agent 自动设计、分析与制图，对标 Revit、ETABS、SAP2000 等。只有一条推文自述，没有 repo、截图或测试，也没说 REA 具体分析了什么。",
+      "target": "Revit、ETABS、SAP2000、SAFE、Bluebeam 类功能",
+      "metric": "自称价值超过 1 万美元，无可验证证据"
+    }
+  },
+  "d-5b9d4af9f3": {
+    "hash": "229b0f7f81e6",
+    "en": {
+      "title": "Reverse engineering an unauthorized streaming platform with REA and Gemini to obtain an API key",
+      "summary": "The author claims to have used Gemini and REA prompts to reverse engineer an unauthorized streaming platform, obtaining an API key and watching Champions League matches for free. This is self-reported, written in a boastful tone, involves unauthorized access, and comes with no verifiable evidence.",
+      "target": "Unauthorized sports streaming platform",
+      "metric": "Claims to have obtained an API key and watched the Champions League for free"
+    },
+    "zh-CN": {
+      "title": "用 REA 搭配 Gemini 逆向未授权流媒体平台并获取 API 密钥",
+      "summary": "作者声称用 Gemini 与 REA 提示词逆向了未授权的流媒体平台，获取 API 密钥并免费观看欧冠赛事。内容为作者自述，语气夸张，且涉及未经授权的访问，没有可验证的证据。",
+      "target": "未授权的体育流媒体平台",
+      "metric": "自称获取 API 密钥并免费观看欧冠"
+    }
+  },
+  "d-c546783bd3": {
+    "hash": "7b11204c431d",
+    "en": {
+      "title": "RE-Agent, a fork of REA for repairing abandoned legacy software and games",
+      "summary": "The goal is to make unsupported old software and games repairable through reverse engineering. Forked from REA, it connects Ghidra, IDA or Hopper and Frida runtime tracing via MCP, and repairs in a separate workspace without touching the original files. The first case is the 2003 GConv/QVM tools for Project I.G.I. 2. Self-reported only.",
+      "target": "GConv/QVM tools for Project I.G.I. 2 and other unsupported legacy software",
+      "metric": "MIT-licensed open-source fork of REA; first case is the GConv/QVM tools for I.G.I. 2"
+    },
+    "zh-CN": {
+      "title": "以 REA 分支打造 RE-Agent，协助修复停止支持的老软件与游戏",
+      "summary": "目标是让停止维护的旧软件与游戏能够通过逆向修复。作者以 REA 为基础创建分支，通过 MCP 对接 Ghidra、IDA 或 Hopper 与 Frida 运行时追踪，在独立工作区修复而不改动原文件。首个案例为 Project I.G.I. 2 的 2003 年 GConv/QVM 工具，内容仅为作者自述。",
+      "target": "Project I.G.I. 2 的 GConv/QVM 工具与停止支持的老软件",
+      "metric": "以 REA 为基础的 MIT 开源分支，首个案例为 I.G.I. 2 的 GConv/QVM 工具"
+    }
+  },
+  "d-37a7619097": {
+    "hash": "d89744189d23",
+    "en": {
+      "title": "Reverse-engineering Jianying with REA: nearly every feature callable directly by AI",
+      "summary": "The author spent considerable resources using REA to reverse-engineer Jianying, and nearly every feature can now be called through AI, as shown in images. Citing a rumored legal letter from ByteDance, the author is reluctant to publish, and did not bypass paywalls or restricted features. The results rest solely on the author's own account and screenshots.",
+      "target": "Jianying (the China edition of CapCut)",
+      "metric": "Nearly every feature callable directly through AI"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向剪映，几乎所有功能可由 AI 直接调用",
+      "summary": "作者花费大量资源用 REA 逆向剪映，几乎所有功能都能通过 AI 调用，并以图片展示。因收到字节跳动律师函的传闻而不敢公开，也未绕过付费与限制功能。成果仅有作者自述与截图。",
+      "target": "剪映（CapCut 中国版）",
+      "metric": "几乎所有功能可直接通过 AI 调用"
+    }
+  },
+  "d-3a608e4d3d": {
+    "hash": "aa30a9606805",
+    "en": {
+      "title": "Reverse-engineering Mitsubishi AC communication with REA: an MCP and menu-bar app that checks power usage",
+      "summary": "The author used REA to analyze the Mitsubishi air conditioner app and found it connects through melcloud. Based on this, they built an MCP and a macOS menu-bar app that talk directly to the AC and read the set temperature, power draw in watts, and operating status. The account is the author's own; no code or screenshots are provided.",
+      "target": "Mitsubishi air conditioner (MELCloud and its adapter)",
+      "metric": "Reads temperature, wattage, and operating status, and estimates kWh consumption"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向三菱空调通讯，做出可查耗电的 MCP 与菜单栏 App",
+      "summary": "作者以 REA 分析三菱空调 App，发现其经由 melcloud 连接。据此做出 MCP 与 macOS 菜单栏 App，可直接与空调通信，读取设定温度、耗电瓦数与运行状态。内容为作者自述，未附代码或截图。",
+      "target": "三菱空调（MELCloud 及其接入适配器）",
+      "metric": "可读取温度、瓦数与运行状态，并估算 kWh 用电量"
+    }
+  },
+  "d-0965a60e10": {
+    "hash": "45d15ace5347",
+    "en": {
+      "title": "Dissecting an old game's graphics engine DLL with REA: recovering animation and rendering rules",
+      "summary": "The target is GfxLib_x.dll, the closed-source graphics library of the 2016 turn-based game 《回合制Ⅱ》, studied to recreate its battle system. Using analyze, search, and decompile, the author recovered the animation system (unified frame rate, atlas UVs, playback-mode bits), used search-bytes to prove that a certain field is written but never read within the module, and cross-validated direction conventions with a self-written decoder. The heavily packed main executable could not be handled, and the post openly acknowledges REA's limitations.",
+      "target": "《回合制Ⅱ》GfxLib_x.dll, XYRes.dll",
+      "metric": "A full search-bytes scan returned zero hits, proving the blend-mode field is write-only; 2773 functions analyzed in XYRes.dll"
+    },
+    "zh-CN": {
+      "title": "用 REA 拆解老游戏图形引擎 DLL，还原动画与渲染规则",
+      "summary": "目标是 2016 年回合制游戏《回合制Ⅱ》的闭源图形库 GfxLib_x.dll，用于复刻其战斗系统。作者以 analyze、search、decompile 还原动画系统（统一帧率、图集 UV、播放模式位），用 search-bytes 证明某字段在模块内只写不读，并以自写解码器交叉验证方向约定。强壳主程序无法处理，文中也坦承 REA 的局限。",
+      "target": "《回合制Ⅱ》GfxLib_x.dll、XYRes.dll",
+      "metric": "search-bytes 完整扫描零命中，证明混合模式字段只写不读；XYRes.dll 分析 2773 个函数"
+    }
+  },
+  "d-a9cd831b8c": {
+    "hash": "85a650da31a8",
+    "en": {
+      "title": "Analyzing a Flutter expense-tracking app with REA and rebuilding it as an offline Android app, Cofrinho",
+      "summary": "The target is the Android expense-tracking app \"Money Tracker – Expense Budget\" (built with Flutter). The author used REA to identify the Flutter build, read the Dart snapshot, the DB schema, and the built-in help, compiled them into a spec, and rewrote the app from scratch, producing an APK and a PWA. The repo includes a reverse-engineering report, screenshots, and a test-verification section.",
+      "target": "Money Tracker – Expense Budget (com.freeman.moneymanager 1.1.147)",
+      "metric": "Recovered 15 tables and 26 help articles; produced the Cofrinho 5.5.0 APK"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析 Flutter 记账 App，重建为离线 Android 版 Cofrinho",
+      "summary": "目标是 Android 记账 App「Money Tracker – Expense Budget」（Flutter 制）。作者用 REA 识别 Flutter 构建、读取 Dart snapshot、DB 结构与内置说明，整理成规格后从零重写，产出 APK 与 PWA。repo 附逆向分析报告、截图与测试验证章节。",
+      "target": "Money Tracker – Expense Budget（com.freeman.moneymanager 1.1.147）",
+      "metric": "还原 15 张数据表、26 篇说明文章，产出 Cofrinho 5.5.0 APK"
+    }
   }
 }

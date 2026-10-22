@@ -9490,37 +9490,51 @@
     },
     {
       "date": "2026-10-22",
-      "stars": 357717,
-      "stars_delta": 7934,
+      "stars": 359255,
+      "stars_delta": 9472,
       "new": [
         "d-4886163c28",
         "d-4e14365345",
+        "d-37a7619097",
+        "d-3a608e4d3d",
         "d-52a1af340c",
         "d-4ce5af42e5",
         "d-fc43bdd6d9",
         "d-66fc566b8b",
         "d-c4a1cc7da0",
+        "d-0965a60e10",
         "d-646e3d013c",
         "d-2639a29274",
         "d-8239c1873c",
         "d-95b0c69270",
         "d-d7668349bc",
+        "d-a9cd831b8c",
+        "d-99e21aca4d",
         "d-ca86da6f22",
         "d-8ef8562c15",
         "d-0ec7d0be4e",
+        "d-28bf3b43e2",
+        "d-fbf2de7668",
         "d-5042b7f466",
         "d-a62efe5ad8",
+        "d-2bafea56f0",
+        "d-a19f97b515",
+        "d-159d81dd6a",
         "d-feb4210df1",
         "d-48a0f992c2",
         "d-15f581dbc8",
         "d-4ec539a084",
+        "d-5b9d4af9f3",
         "d-d3aa397b09",
         "d-1a855cde2c",
         "d-e93df57abd",
         "d-0e28cbe791",
         "d-7827628d1c",
+        "d-c546783bd3",
         "d-cbd7643320",
         "d-7684a4fc63",
+        "d-46116c05cf",
+        "d-21c5b8df65",
         "d-73a04f91ef",
         "d-ed899f98bf",
         "d-cbf28e3d70",
@@ -9528,50 +9542,53 @@
         "d-46ef6f7b90",
         "d-4feaa4b2cb",
         "d-d6940fc914",
-        "d-0449afba5d"
+        "d-f1e3353cf3",
+        "d-0449afba5d",
+        "d-3ed7703caf"
       ],
       "stats": {
-        "count": 36,
+        "count": 52,
         "wow": {
-          "2": 20,
-          "3": 4,
-          "4": 10,
+          "2": 29,
+          "3": 7,
+          "4": 14,
           "5": 2
         },
         "type": {
-          "app": 11,
-          "case": 22,
-          "learn": 3
+          "app": 13,
+          "case": 32,
+          "news": 3,
+          "learn": 4
         },
         "status": {
-          "tested": 4,
-          "shipped": 17,
-          "reported": 15
+          "tested": 5,
+          "shipped": 19,
+          "reported": 28
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 星數破 35.7 萬,逆向成果轉向可驗證的重建",
-          "summary": "REA 星數增至 357717,比前一個紀錄多 7934。最受矚目的是以原版對照測試驗證的 TypeScript 重建、Commander Keen 1 的 SDL2 與 WebAssembly 移植,以及 Discord、CapCut 等附證據編號的完整分析。同時出現 ANTI-REA、antirea 這類專門防範 REA 分析的工具,另有大量只有自述、沒有 repo 或證據的 X 貼文,可信度差異明顯。"
+          "headline": "REA 星數破 35.9 萬，五個重建與 Keen 移植讓產出可驗證",
+          "summary": "REA 星數來到 359255，比前一個紀錄多 9472。當天最受矚目的是附 oracle 測試的五個 TypeScript 重建，以及用 REA 與 Ghidra 重建的 Commander Keen 1 原生版與網頁版。逆向對象從老遊戲、剪映與 CapCut 擴及冷氣、耳機和 Motorola 手機連動。不過不少 X 貼文仍只有作者自述，沒有 repo 或測試佐證，證據品質兩極。"
         },
         "en": {
-          "headline": "REA passes 357k stars as reverse engineering turns to verifiable rebuilds",
-          "summary": "REA's GitHub stars reached 357717, up 7934 from the previous record. The top items were a TypeScript rebuild checked against originals with oracle tests, a Commander Keen 1 port to SDL2 and WebAssembly, and full analyses of Discord and CapCut with evidence IDs. Tools built to block REA analysis, ANTI-REA and antirea, also appeared. Many X posts are self-reported with no repo or evidence, so reliability varies widely."
+          "headline": "REA passes 359K stars as five tested rebuilds and a Keen port show verifiable output",
+          "summary": "REA's GitHub stars reached 359,255, up 9,472 from the previous record. The most notable items were five TypeScript rebuilds checked by oracle tests against the originals, and a Commander Keen 1 native and web port built with REA and Ghidra. Targets ranged from old games and CapCut to an air conditioner, earbuds and Motorola phone linking. Many X posts still rest on the author's word alone, with no repo or tests, so evidence quality remains uneven."
         },
         "zh-CN": {
-          "headline": "REA 星数破 35.7 万,逆向成果转向可验证的重建",
-          "summary": "REA 星数增至 357717,比前一个纪录多 7934。最受关注的是以原版对照测试验证的 TypeScript 重建、Commander Keen 1 的 SDL2 与 WebAssembly 移植,以及 Discord、CapCut 等附证据编号的完整分析。同时出现 ANTI-REA、antirea 这类专门防范 REA 分析的工具,另有大量只有自述、没有 repo 或证据的 X 帖子,可信度差异明显。"
+          "headline": "REA 星数破 35.9 万，五个重建与 Keen 移植让产出可验证",
+          "summary": "REA 星数来到 359255，比前一个纪录多 9472。当天最受瞩目的是附 oracle 测试的五个 TypeScript 重建，以及用 REA 与 Ghidra 重建的 Commander Keen 1 原生版与网页版。逆向对象从老游戏、剪映与 CapCut 扩及空调、耳机和 Motorola 手机联动。不过不少 X 帖子仍只有作者自述，没有 repo 或测试佐证，证据质量两极。"
         }
       },
       "signals": [
         "B",
         "C",
-        "A"
+        "D"
       ],
       "highlights": [
         "d-4886163c28",
         "d-4e14365345",
-        "d-2639a29274"
+        "d-d7668349bc"
       ],
       "rank": [
         "touhou-factory",
@@ -9601,6 +9618,7 @@
         "wispr-flow-eric",
         "d-7831c21eb3",
         "d-96f008b892",
+        "d-37a7619097",
         "codex-browser-annotation",
         "d-fab901f33e",
         "d-ecc8500670",
@@ -9617,6 +9635,7 @@
         "d-6afc193e32",
         "d-18f015fdd5",
         "d-84a98e5541",
+        "d-3a608e4d3d",
         "nextjs-stripe-leak-check",
         "d-186b520152",
         "d-2273e31b28",
@@ -9642,6 +9661,7 @@
         "d-db6b6eae3f",
         "d-66dda1761e",
         "d-692e4961f4",
+        "d-0965a60e10",
         "d-646e3d013c",
         "d-2639a29274",
         "d-2ce6a65733",
@@ -9662,6 +9682,7 @@
         "d-8239c1873c",
         "d-95b0c69270",
         "d-d7668349bc",
+        "d-a9cd831b8c",
         "d-1a73fbb339",
         "d-171cd9fa51",
         "d-dc61d2dc51",
@@ -9703,6 +9724,7 @@
         "d-4f0117e09e",
         "d-a100e0cc96",
         "d-503e0a74d8",
+        "d-99e21aca4d",
         "d-c5de955d0e",
         "d-72281941df",
         "d-4a71013380",
@@ -9790,6 +9812,8 @@
         "d-a080ed3b32",
         "d-4037cb4975",
         "d-0ec7d0be4e",
+        "d-28bf3b43e2",
+        "d-fbf2de7668",
         "d-4a254f2c80",
         "d-1aef615126",
         "d-6c0afd5e75",
@@ -9877,6 +9901,7 @@
         "d-41621c1d12",
         "d-f62f5599a7",
         "d-a6d91c0f62",
+        "d-2bafea56f0",
         "d-ee865bf8b8",
         "d-ab974e67fb",
         "d-1d3d058162",
@@ -9887,11 +9912,13 @@
         "d-21657b277b",
         "d-51f61bd749",
         "d-932e59dbf2",
+        "d-a19f97b515",
         "d-1310b174b3",
         "d-82e04f7b00",
         "d-638114ac0d",
         "d-b50fa3ab1c",
         "d-b048366e81",
+        "d-159d81dd6a",
         "d-916c1bc5aa",
         "d-ae0f47d6be",
         "d-7b67dfdd18",
@@ -9931,6 +9958,7 @@
         "d-fbb1b433ec",
         "d-29f3025565",
         "d-e8ddfd6636",
+        "d-5b9d4af9f3",
         "d-4b2e646a25",
         "d-927facadb3",
         "d-a8ca00f73c",
@@ -9995,6 +10023,7 @@
         "d-643f986b06",
         "d-7827628d1c",
         "d-ae0b4010f4",
+        "d-c546783bd3",
         "d-fb5083c2b9",
         "d-2f7fe8060f",
         "d-9e851834fe",
@@ -10014,6 +10043,7 @@
         "d-c4120d6952",
         "d-712c5535cc",
         "d-7684a4fc63",
+        "d-46116c05cf",
         "d-bff380c2b5",
         "d-16900b79c4",
         "d-813fd27b2a",
@@ -10051,6 +10081,7 @@
         "d-40c0474406",
         "d-49c3fe3859",
         "heartland-side-effects",
+        "d-21c5b8df65",
         "d-73a04f91ef",
         "d-ed899f98bf",
         "d-cbf28e3d70",
@@ -10151,8 +10182,10 @@
         "d-63da6a482f",
         "d-d79fa65f04",
         "d-0c2d1d1da6",
+        "d-f1e3353cf3",
         "d-0449afba5d",
         "d-0ba406f633",
+        "d-3ed7703caf",
         "d-5d7d0b5bdc",
         "d-f935cbd343",
         "d-1da7f7ce22",
@@ -10229,6 +10262,7 @@
         "d-97c8a77cab",
         "d-8b1041307d",
         "d-5938860a9b",
+        "d-600f57bc54",
         "d-d75d5d37b4",
         "d-4603e22458",
         "d-d69332d078",
@@ -10252,6 +10286,7 @@
         "d-7e1f5b5198",
         "d-5b053df591",
         "d-a20c63ec85",
+        "d-f5b7d364ce",
         "d-aa1d4757f6",
         "d-6275775e67",
         "d-f191e8edbd",
@@ -10417,6 +10452,7 @@
         "d-b794d99cce",
         "d-1681bfccd2",
         "d-a879c36685",
+        "d-b9fb5153c7",
         "d-68edb4df43",
         "d-4e8bbf6ed2",
         "d-c953cc0f60",
@@ -10434,6 +10470,7 @@
         "d-eba5d51a83",
         "d-56c7d044e5",
         "d-004e59a738",
+        "d-3dc22031b1",
         "d-ac693a182d",
         "d-5ef21e106f",
         "d-8267ec6ffc",
@@ -10442,6 +10479,7 @@
         "d-caaf3079da",
         "d-15f3d8a28c",
         "d-d99b98a7ca",
+        "d-3727d73291",
         "d-d6c25c367d",
         "d-f741b5fa57",
         "d-19ee459b92",
@@ -10542,6 +10580,7 @@
         "d-2e3ebaa6de",
         "d-aeedf9cffd",
         "d-0c184ab02d",
+        "d-353242ab58",
         "d-634b93acbd",
         "d-eb410225e8",
         "d-4c420a8015",
@@ -10561,6 +10600,7 @@
         "d-9cf47d90e7",
         "d-45518a1b3f",
         "d-182c75956c",
+        "d-7ca8fbbcb8",
         "d-4e66ccdec4",
         "d-a3d1efefab",
         "d-a37a488d06",
@@ -10600,6 +10640,7 @@
         "d-c8a7dbc8ed",
         "d-cbe8f38835",
         "d-adfbebad69",
+        "d-cb4ab0e58c",
         "d-1b62a0e0d8",
         "d-a68387ca4c",
         "d-29d56797c1",
@@ -10683,6 +10724,7 @@
         "d-e776c1c4c1",
         "d-2761852b3d",
         "d-2f09a54a93",
+        "d-0e137345d2",
         "d-6ed80fa37b",
         "d-558020388b",
         "d-bbb4c40396",
@@ -10697,6 +10739,7 @@
         "d-19bd5f87dd",
         "d-d788d0d92a",
         "d-001e3d7729",
+        "d-7d955fa9fa",
         "d-f1b32dfe8c",
         "d-e12b3edbc8",
         "d-a6f196bbc8",
@@ -10938,34 +10981,34 @@
     "to": "2026-10-22",
     "text": {
       "zh-TW": {
-        "headline": "REA 熱度續漲，重點從「做得出來」轉向「證明一樣」",
-        "summary": "星數一週內從 27.5 萬升到 35.7 萬，但單日增幅由約 2.7 萬收斂到 7,934。內容從遊戲復刻（東方、DX-Ball、Space Cadet、Commander Keen）擴及烤箱、耳機、電視、相機韌體與 Echo Dot 等硬體，再到 Discord、CapCut 等現代 App。「驗證是瓶頸」七天全數出現：逐函式比對、19,683 個盤面狀態一致、Z3 證明都是高分案例的共同點。也有審計指出測試相符但常數其實錯誤，同時 X 上大量只有作者自述的貼文。10 月 19 日起出現 ANTI-REA、antirea 等反逆向工具，攻防兩端開始成形。",
-        "watch": "接下來幾天可留意 ANTI-REA 類工具是否有人公開驗證其效果，以及重建案例是否開始附上對照測試之外的獨立審計。想找機會的人，可以優先做「重建正確性驗證」或「自家裝置控制」這兩塊，並用原版對照測試、證據編號當作可信度的標準。"
+        "headline": "重建成果從「做得出來」轉向「證明一模一樣」",
+        "summary": "本週驗證訊號 B 七天全數出現，重心從單純復刻轉到可驗證：10/16 起有逐函式 oracle 比對與實體硬體封包驗證，10/17 出現審計揭露「測試相符但常數其實錯」，10/18 之後高分案例大多附 19,683 個盤面比對、3,205 組測試或像素級驗證。對象也從老遊戲（TH08、Ultima VI、Space Cadet、Commander Keen）擴及電視、相機韌體、冷氣、耳機與 HomeKit 等自家裝置，並延伸到 Linux 微信與剪映等現代 App。10/19 出現對抗 REA 的反逆向加固工具，攻防兩端開始成形。另一方面，X 上大量貼文仍只有作者自述，沒有 repo 或測試，證據品質兩極。",
+        "watch": "接下來可留意哪些案例附上 oracle 測試、可重現的比對，並關注針對「測試被矇騙」的審計方法；這類驗證工具與流程本身就是機會。硬體與舊軟體的自家裝置控制案例持續增加，也可觀察反逆向加固是否有更多實證，以及 REA 工具過多造成上下文膨脹的批評是否促成精簡方案。"
       },
       "en": {
-        "headline": "REA keeps growing, but the focus shifts from building clones to proving them",
-        "summary": "Stars rose from 275K to 357K over the week, while the daily gain narrowed from about 27K to 7,934. Cases widened from game rebuilds (Touhou, DX-Ball, Space Cadet, Commander Keen) to hardware (oven, earbuds, TVs, Sony camera firmware, Echo Dot) and modern apps such as Discord and CapCut. Verification appeared on all seven days: per-function oracle comparison, 19,683 board states matching, and Z3 proofs marked the top cases. An audit found tests passing while an underlying constant was wrong, and many X posts remain author claims with no repo or evidence. From Oct 19, anti-REA hardening tools (ANTI-REA, antirea) appeared, so attack and defense are both taking shape.",
-        "watch": "In the next few days, watch whether anyone publicly verifies the claims of ANTI-REA-style tools, and whether rebuilds start to come with independent audits beyond their own comparison tests. For opportunities, rebuild-correctness verification and control of one's own devices look most promising. Use original-binary comparison tests and evidence IDs as the credibility bar."
+        "headline": "Reverse engineering shifts from \"it works\" to \"prove it's identical\"",
+        "summary": "Signal B (verification) appeared all seven days, and the focus moved from plain cloning to verifiable results. From 10/16 there were per-function oracle comparisons and packet-level checks on real hardware; on 10/17 an audit showed tests passing while a constant was actually wrong; from 10/18 the top cases mostly came with 19,683-state comparisons, 3,205 tests or pixel-level checks. Targets widened from old games (TH08, Ultima VI, Space Cadet, Commander Keen) to TVs, camera firmware, air conditioners, earbuds and HomeKit devices, plus modern apps such as Linux WeChat and CapCut. On 10/19 an anti-reverse-engineering hardening tool aimed at REA appeared, so both attack and defense are taking shape. Meanwhile many X posts are still author claims with no repo or tests, so evidence quality is split.",
+        "watch": "Watch which cases ship oracle tests and reproducible comparisons, and follow audit methods that expose tests being fooled; verification tooling and workflows are themselves an opportunity. Cases of controlling one's own devices and legacy software keep growing, so also see whether hardening gets more evidence and whether the criticism that REA's 207 tools bloat context leads to leaner setups."
       },
       "zh-CN": {
-        "headline": "REA 热度续涨，重点从“做得出来”转向“证明一样”",
-        "summary": "星数一周内从 27.5 万升到 35.7 万，但单日增幅由约 2.7 万收敛到 7,934。内容从游戏复刻（东方、DX-Ball、Space Cadet、Commander Keen）扩及烤箱、耳机、电视、相机固件与 Echo Dot 等硬件，再到 Discord、CapCut 等现代 App。“验证是瓶颈”七天全部出现：逐函数比对、19,683 个棋盘状态一致、Z3 证明都是高分案例的共同点。也有审计指出测试相符但常量其实错误，同时 X 上大量只有作者自述的帖子。10 月 19 日起出现 ANTI-REA、antirea 等反逆向工具，攻防两端开始成形。",
-        "watch": "接下来几天可留意 ANTI-REA 类工具是否有人公开验证其效果，以及重建案例是否开始附上对照测试之外的独立审计。想找机会的人，可以优先做“重建正确性验证”或“自家设备控制”这两块，并用原版对照测试、证据编号作为可信度的标准。"
+        "headline": "重建成果从“做得出来”转向“证明一模一样”",
+        "summary": "本周验证信号 B 七天全部出现，重心从单纯复刻转到可验证：10/16 起有逐函数 oracle 比对与真实硬件封包验证，10/17 出现审计揭露“测试相符但常数其实错”，10/18 之后高分案例大多附 19,683 个棋盘状态比对、3,205 组测试或像素级验证。对象也从老游戏（TH08、Ultima VI、Space Cadet、Commander Keen）扩及电视、相机固件、空调、耳机与 HomeKit 等自家设备，并延伸到 Linux 微信与剪映等现代 App。10/19 出现对抗 REA 的反逆向加固工具，攻防两端开始成形。另一方面，X 上大量帖子仍只有作者自述，没有 repo 或测试，证据质量两极。",
+        "watch": "接下来可留意哪些案例附上 oracle 测试、可复现的比对，并关注针对“测试被蒙骗”的审计方法；这类验证工具与流程本身就是机会。硬件与旧软件的自家设备控制案例持续增加，也可观察反逆向加固是否有更多实证，以及 REA 工具过多造成上下文膨胀的批评是否促成精简方案。"
       }
     },
     "rising": [
       "B",
-      "C"
+      "C",
+      "D"
     ],
     "fading": [
-      "E",
-      "F"
+      "A"
     ],
     "tally": {
-      "A": 4,
+      "A": 3,
       "B": 7,
       "C": 5,
-      "D": 3,
+      "D": 4,
       "E": 0,
       "F": 0,
       "G": 2

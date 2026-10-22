@@ -19,6 +19,194 @@
       "scored_by": "jev"
     },
     {
+      "url": "https://github.com/thisisntartificial/rea-agent-skill",
+      "title": "thisisntartificial/rea-agent-skill: Agent skill / plugin implementing the REA (Reverse Engineer Anything) workflow from Miles Deutscher's guide and detailed reverse-engineering processes. Clean-room, evidence-based feature reverse engineering with AI agents.",
+      "author": "thisisntartificial",
+      "date": "2026-10-22",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-22",
+      "relevant": true,
+      "title_zh": "打包 REA 方法論的 agent skill，含 clean-room 逆向工作流",
+      "summary": "目標是讓 Claude Code、Codex、Cursor 等 agent 照 REA 流程做無侵入式的功能逆向。作者整理出 Look→Understand→Plan→Build→Iterate 流程、CONFIRMED/INFERRED/UNKNOWN 證據標記與 Scout、Spec Writer、Builder、Tester 的 agent 群。repo 內有 SKILL.md、subagent 定義與提示範本，沒有對具體目標的逆向成果。",
+      "target": "REA 逆向工作流（agent skill）",
+      "metric": "SKILL.md 加 agents/、prompts/、rules.md 的完整技能包",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-10-22",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://bsky.app/profile/k1imber.bsky.social/post/3mygrl26d6o24",
+      "title": "💫 На GitHub за две недели взлетел проект, который учит ИИ-агента делать реверс-инжиниринг чужих программ. Называется REA, Reverse Engineer ",
+      "author": "k1imber.bsky.social",
+      "date": "2026-10-22",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 0,
+      "lang": "ru",
+      "found": "2026-10-22",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "scored": "2026-10-22",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://bsky.app/profile/jacky.wtf/post/3myghr7pmnc27",
+      "title": "Gotta keep github.com/morluto/rea on my machine lol",
+      "author": "jacky.wtf",
+      "date": "2026-10-22",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 2,
+      "lang": "en",
+      "found": "2026-10-22",
+      "relevant": true,
+      "wow": 1,
+      "category": "工具鏈",
+      "status": "reported",
+      "scored": "2026-10-22",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://bsky.app/profile/billmaggs.bsky.social/post/3mygidw2jss2p",
+      "title": " Am I the only sub-superintelligence who thinks that the only barrier to rogue agents sharding and embedding in all our consumer devices is ",
+      "author": "billmaggs.bsky.social",
+      "date": "2026-10-22",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-22",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-22",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://www.cnblogs.com/wyang/p/23395208",
+      "title": "用 REA 拆了一个老游戏的图形引擎：真实感受、能与不能、以及我希望它改进的地方 - 又过二十 - 博客园",
+      "author": "cnblogs.com",
+      "date": "2026-10-22",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "zh",
+      "found": "2026-10-22",
+      "relevant": true,
+      "title_zh": "用 REA 拆解老遊戲圖形引擎 DLL，還原動畫與渲染規則",
+      "summary": "目標是 2016 年回合制遊戲《回合制Ⅱ》的閉源圖形庫 GfxLib_x.dll，用於復刻其戰鬥系統。作者以 analyze、search、decompile 還原動畫系統（統一幀率、圖集 UV、播放模式位），用 search-bytes 證明某欄位在模組內只寫不讀，並以自寫解碼器交叉驗證方向約定。強殼主程式無法處理，文中也坦承 REA 的限制。",
+      "target": "《回合制Ⅱ》GfxLib_x.dll、XYRes.dll",
+      "metric": "search-bytes 完整掃描零命中，證明混合模式欄位只寫不讀；XYRes.dll 分析 2773 個函式",
+      "category": "Native / 遊戲",
+      "status": "tested",
+      "wow": 4,
+      "scored": "2026-10-22",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/nvandewetering/status/2113093595280392265",
+      "title": "Claude Opus 5.5 built an entire Revit clone. In fact, I built an entire structural engineering suite inside my CoLateral ADE for my agents t",
+      "author": "@nvandewetering",
+      "date": "2026-10-22",
+      "source": "X",
+      "kind": "貼文",
+      "score": 8,
+      "pop": {
+        "likes": 8,
+        "views": 449
+      },
+      "lang": "en",
+      "found": "2026-10-22",
+      "relevant": true,
+      "title_zh": "自稱用 REA 與 Claude 打造結構工程套件，涵蓋 Revit 類功能",
+      "summary": "作者聲稱在自己的 CoLateral ADE 內建出結構工程套件，供 agent 自動設計、分析與製圖，對標 Revit、ETABS、SAP2000 等。只有一則推文自述，沒有 repo、截圖或測試，也沒說 REA 具體分析了什麼。",
+      "target": "Revit、ETABS、SAP2000、SAFE、Bluebeam 類功能",
+      "metric": "自稱價值超過 1 萬美元，無可驗證證據",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-22",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/woshipm/status/2113084057927971326",
+      "title": "我用 REA 实拆了腾讯 WorkBuddy：生产级 Agent 的底牌，全在这些细节里 https://www.woshipm.com/ai/6481849.html",
+      "author": "@woshipm",
+      "date": "2026-10-22",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 17
+      },
+      "lang": "zh",
+      "found": "2026-10-22",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-22",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/jannotjohnn/status/2113106845753856331",
+      "title": "with REA i am able to create an MCP and menubar app for my Mitsubishi A/C it can check how many KwH it consumes. I never knew my Mitsubishi ",
+      "author": "@jannotjohnn",
+      "date": "2026-10-22",
+      "source": "X",
+      "kind": "貼文",
+      "score": 3,
+      "pop": {
+        "likes": 3,
+        "views": 8
+      },
+      "lang": "en",
+      "found": "2026-10-22",
+      "relevant": true,
+      "title_zh": "用 REA 逆向三菱冷氣通訊,做出可查耗電的 MCP 與選單列 App",
+      "summary": "作者以 REA 分析三菱冷氣 App,發現其經由 melcloud 連線。據此做出 MCP 與 macOS 選單列 App,可直接與冷氣通訊,讀取設定溫度、耗電瓦數與運轉狀態。內容為作者自述,未附程式碼或截圖。",
+      "target": "三菱冷氣(MELCloud 與其介接器)",
+      "metric": "可讀取溫度、瓦數與運轉狀態,並估算 kWh 用電量",
+      "category": "IoT / 藍牙",
+      "status": "reported",
+      "wow": 4,
+      "scored": "2026-10-22",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/xuesong49458777/status/2113121516250669151",
+      "title": "我用 rea 已经逆向了两个收费软件，一个 130，一个 78，现在逆向出来的，本地构建完直接就能用",
+      "author": "@xuesong49458777",
+      "date": "2026-10-22",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 5
+      },
+      "lang": "zh",
+      "found": "2026-10-22",
+      "relevant": true,
+      "title_zh": "用 REA 逆向兩套收費軟體並在本地建置後直接可用",
+      "summary": "作者自述使用 REA 逆向了兩款分別售價 130 與 78 的收費軟體。逆向產出的程式碼在本地建置完成後即可直接使用。內容僅有作者自述,未附程式碼、截圖或測試佐證。",
+      "target": "兩款收費軟體(售價 130 與 78)",
+      "metric": "2 款收費軟體逆向後本地建置即可用",
+      "category": "Native",
+      "status": "reported",
+      "wow": 3,
+      "scored": "2026-10-22",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/kimlherme/rea-codex-cloud",
       "title": "kimlherme/rea-codex-cloud: REA pro codex cloud setup",
       "author": "kimlherme",
@@ -267,15 +455,6 @@
       "category": "Electron",
       "status": "tested",
       "wow": 4,
-      "scored": "2026-10-22",
-      "scored_by": "sonnet"
-    },
-    {
-      "url": "https://github.com/ReverseEngineer-Anything/REA-Github",
-      "title": "ReverseEngineer-Anything/REA-Github: REA Reverse Engineer Anything 6.3.0 hooks Hopper, Ghidra and IDA over MCP. rea gith",
-      "source": "GitHub",
-      "found": "2026-10-22",
-      "relevant": false,
       "scored": "2026-10-22",
       "scored_by": "sonnet"
     },
@@ -601,15 +780,6 @@
       "wow": 1,
       "category": "報導 / 評論",
       "status": "reported",
-      "scored": "2026-10-22",
-      "scored_by": "jev"
-    },
-    {
-      "url": "https://x.com/typecraft_dev/status/2113012726494838999",
-      "title": "oma-cast has already received dozens of PRs! My favorite by @tcballard was just merged. Now you can ask your default age",
-      "source": "X",
-      "found": "2026-10-22",
-      "relevant": false,
       "scored": "2026-10-22",
       "scored_by": "jev"
     },
@@ -1052,6 +1222,106 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://x.com/gkxspace/status/2112858574091378773",
+      "title": "刚才我在打包花很多钱用 REA 逆向的剪映，打算脱敏后发出来……几乎所有功能全都可以直接直接通过 AI 调用，如图。此时，坐在我旁边的逸晨 @gengdaJ 和我说他收到字节律师函了……有点恐怖了。而且，也还没有绕过剪映的付费和明确限制的功能。其实，目前这些东西都没什么壁垒，就算",
+      "author": "@gkxspace",
+      "date": "2026-10-21",
+      "source": "X",
+      "kind": "貼文",
+      "score": 170,
+      "pop": {
+        "likes": 170,
+        "views": 44164
+      },
+      "lang": "zh",
+      "found": "2026-10-22",
+      "relevant": true,
+      "title_zh": "用 REA 逆向剪映,幾乎所有功能可由 AI 直接呼叫",
+      "summary": "作者花費大量資源用 REA 逆向剪映,幾乎所有功能都能透過 AI 呼叫,並以圖片展示。因收到位元組跳動律師函的傳聞而不敢公開,也未繞過付費與限制功能。成果僅有作者自述與截圖。",
+      "target": "剪映(CapCut 中國版)",
+      "metric": "幾乎所有功能可直接透過 AI 呼叫",
+      "category": "Native",
+      "status": "reported",
+      "wow": 4,
+      "scored": "2026-10-22",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/zetabyte__/status/2113007252835848665",
+      "title": "Breaking: Gemini 3.8 flash in antigravity just reverse engineered unauthorized streaming platforms, featuring multiple big brand sports chan",
+      "author": "@zetabyte__",
+      "date": "2026-10-21",
+      "source": "X",
+      "kind": "貼文",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 132
+      },
+      "lang": "en",
+      "found": "2026-10-22",
+      "relevant": true,
+      "title_zh": "用 REA 搭配 Gemini 逆向未授權串流平台並取得 API 金鑰",
+      "summary": "作者聲稱用 Gemini 與 REA 提示詞逆向了未授權的串流平台,取得 API 金鑰並免費觀看歐冠賽事。內容為作者自述,語氣誇張,且涉及未經授權的存取,沒有可驗證的證據。",
+      "target": "未授權的體育串流平台",
+      "metric": "自稱取得 API 金鑰並免費觀看歐冠",
+      "category": "Web / 資安",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-22",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/eun77young/status/2112829161328849260",
+      "title": "试了试最近爆火的REA。只能做出来前端看着有模有样的。后端完全逆向不出来。逆向出来的方法也很笨。我已力竭了",
+      "author": "@eun77young",
+      "date": "2026-10-21",
+      "source": "X",
+      "kind": "貼文",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 71
+      },
+      "lang": "zh",
+      "found": "2026-10-22",
+      "relevant": true,
+      "title_zh": "試用 REA 只能還原前端,後端完全逆向不出來",
+      "summary": "作者試用 REA 後表示只能做出外觀像樣的前端,後端完全無法逆向,所用方法也很笨拙。這是一則負面使用心得,沒有具體目標與證據。",
+      "target": "未具名應用程式",
+      "metric": "前端可還原、後端無法逆向",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-10-22",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/zheng_qili666/status/2112909482091257957",
+      "title": "用 REA 拆了本机 Claude Code 2.1.306：安装 ID、账号 UUID、Session、环境画像、仓库哈希，都有具体代码路径。聊账号关联与封号，先看这组信号。字段来自代码；风控优先级是我的研判。内容安全机制：https://safeguards.anthropi",
+      "author": "@zheng_qili666",
+      "date": "2026-10-21",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 8
+      },
+      "lang": "zh",
+      "found": "2026-10-22",
+      "relevant": true,
+      "title_zh": "用 REA 拆解本機 Claude Code 2.1.306 的帳號識別與風控訊號",
+      "summary": "作者以 REA 分析本機安裝的 Claude Code 2.1.306，找出安裝 ID、帳號 UUID、Session、環境畫像與倉庫雜湊等欄位，並指出對應的具體程式碼路徑。欄位來自程式碼，風控優先級則是作者自己的研判。",
+      "target": "Claude Code 2.1.306",
+      "metric": "找出安裝 ID、帳號 UUID、Session、環境畫像、倉庫雜湊等欄位及程式碼路徑",
+      "category": "Native / 資安",
+      "status": "reported",
+      "wow": 3,
+      "scored": "2026-10-22",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/mateusrezendeps19/taskly",
       "title": "mateusrezendeps19/taskly: An offline desktop kanban board. Its Electron shell was rebuilt from a reverse engineering analysis of the official Trello desktop app with REA; the board interface is original work. Electron + React + TypeScript, no account and no server.",
       "author": "mateusrezendeps19",
@@ -1092,6 +1362,27 @@
       "status": "reported",
       "scored": "2026-10-22",
       "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/Saiipe/Cofrinho",
+      "title": "Saiipe/Cofrinho: REA/money tracker-expense & budget",
+      "author": "Saiipe",
+      "date": "2026-10-20",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-22",
+      "relevant": true,
+      "title_zh": "用 REA 分析 Flutter 記帳 App，重建成離線 Android 版 Cofrinho",
+      "summary": "目標是 Android 記帳 App「Money Tracker – Expense Budget」（Flutter 製）。作者用 REA 辨識 Flutter 建置、讀取 Dart snapshot、DB 結構與內建說明，整理成規格後從零重寫，產出 APK 與 PWA。repo 附逆向分析報告、截圖與測試驗證章節。",
+      "target": "Money Tracker – Expense Budget（com.freeman.moneymanager 1.1.147）",
+      "metric": "還原 15 張資料表、26 篇說明文章，產出 Cofrinho 5.5.0 APK",
+      "category": "Android",
+      "status": "shipped",
+      "wow": 4,
+      "scored": "2026-10-22",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://github.com/chldbwnstm/ANTI-REA",
@@ -1136,15 +1427,6 @@
       "scored_by": "sonnet"
     },
     {
-      "url": "https://x.com/typecraft_dev/status/2112278452350951870",
-      "title": "Added the calculator function to my ray-cast clone on @omarchy ! Thanks for feedback, I guess you can fix anything... (@",
-      "source": "X",
-      "found": "2026-10-22",
-      "relevant": false,
-      "scored": "2026-10-22",
-      "scored_by": "jev"
-    },
-    {
       "url": "https://x.com/typecraft_dev/status/2112229260878336131",
       "title": "currently using REA to build raycast for linux. Good or idea or no? I think it could be a nice suppliment to @omarchy launcher!",
       "author": "@typecraft_dev",
@@ -1166,6 +1448,90 @@
       "category": "Native",
       "status": "reported",
       "wow": 2,
+      "scored": "2026-10-22",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/ainote_mag/status/2112023155254653357",
+      "title": "AI가 남의 앱을 뜯어서 똑같이 만들어 준다는 도구 REA를 직접 돌려 봤다. 소스가 공개된 앱 하나가 대상이다. 결과는 앱 안을 읽는 건 되는데, 작동하는 앱은 못 만든다였다.",
+      "author": "@ainote_mag",
+      "date": "2026-10-19",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 5
+      },
+      "lang": "ko",
+      "found": "2026-10-22",
+      "relevant": true,
+      "title_zh": "實測 REA 分析開源應用：能讀懂內部但無法重建可執行的應用",
+      "summary": "作者以一個原始碼公開的應用為對象，實際跑了 REA 來測試「拆解並複製別人應用」的宣稱。結果顯示 REA 能讀取應用內部結構，但做不出能運作的應用。",
+      "target": "某開源應用",
+      "metric": "可讀取應用內部，但無法產出可運作的應用",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-22",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/ainote_mag/status/2112023156743704909",
+      "title": "1/4 도구 결과만 보고 앱 기능 여섯 개를 설명했다. 다섯 개는 맞고 하나는 틀렸다. 맞은 다섯 중 둘은 앱 제작자가 짠 게 아니라 가져다 쓴 공용 부품이었다.",
+      "author": "@ainote_mag",
+      "date": "2026-10-19",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 4
+      },
+      "lang": "ko",
+      "found": "2026-10-22",
+      "relevant": true,
+      "title_zh": "僅憑工具結果解說六個 App 功能,五個正確、一個有誤",
+      "summary": "作者只看工具輸出就解說某 App 的六項功能,結果五項正確、一項錯誤。正確的五項中有兩項其實是 App 引用的共用元件,並非開發者自行撰寫。內容節錄過短,看不出是否使用 REA,也沒有具體目標與證據。",
+      "target": "未具名 App",
+      "metric": "6 項功能中 5 項正確、1 項錯誤",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-22",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/ainote_mag/status/2112023158182293553",
+      "title": "2/4 그 결과로 앱을 다시 만들자 네 군데서 막혔다. 앱 안 두 부분이 처음 연결될 때 주고받는 신호와 통로 이름 규칙을 도구가 알려 주지 않았다. 설계도는 있는데 배관과 전기 연결이 빠진 셈이다.",
+      "source": "X",
+      "found": "2026-10-22",
+      "relevant": false,
+      "scored": "2026-10-22",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/ainote_mag/status/2112023159734194251",
+      "title": "3/4 걸린 시간은 약 20분, 비용은 0원이었다. 도구는 확실하지 않은 부분을 후보라고 표시했고 못 본 부분은 한계로 남겼다. 복제라는 말을 믿기엔 부족하고, 분석 도구로는 쓸 만하다.",
+      "author": "@ainote_mag",
+      "date": "2026-10-19",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 2
+      },
+      "lang": "ko",
+      "found": "2026-10-22",
+      "relevant": true,
+      "title_zh": "REA 分析測試心得：約 20 分鐘、零成本，適合分析但不足以稱複製",
+      "summary": "這是前述測試的結論串。作者說整個過程約 20 分鐘、費用為 0，工具會把不確定處標為候選、沒看到的部分列為限制。他認為「複製」的說法不可信，但當作分析工具堪用。",
+      "target": "某開源應用（REA 實測）",
+      "metric": "耗時約 20 分鐘、成本 0 元",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
       "scored": "2026-10-22",
       "scored_by": "sonnet"
     },
@@ -1262,6 +1628,31 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://x.com/JulianGoldieSEO/status/2111768333662208041",
+      "title": "Say “use REA to reverse engineer this calendar app. Rebuild a simpler, more beautiful version.” It figures out the rules. It writes the code",
+      "author": "@JulianGoldieSEO",
+      "date": "2026-10-18",
+      "source": "X",
+      "kind": "貼文",
+      "score": 4,
+      "pop": {
+        "likes": 4,
+        "views": 1804
+      },
+      "lang": "en",
+      "found": "2026-10-22",
+      "relevant": true,
+      "title_zh": "用 REA 逆向行事曆應用並重建出可用的排程器",
+      "summary": "作者讓 REA 分析一個行事曆應用，再請 AI 寫出更簡單的版本並在本機執行。自述做出的排程器有日檢視、篩選與新增預約功能。",
+      "target": "行事曆／預約應用",
+      "metric": "重建出含日檢視、篩選、新增預約的排程器",
+      "category": "Web / JS",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-22",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://x.com/khaled_cli/status/2111214346428686478",
       "title": "تبي تعرف شلون فعلا تستفيد من ريبو REA ؟ هذا مثال انا اليوم طبقته قاعد اشتغل على تطبيق ماك ( مونتاج فيديو بالـ ai ) كل شي كان تمام الا مرحله ",
       "author": "@khaled_cli",
@@ -1283,6 +1674,56 @@
       "category": "Native / macOS",
       "status": "reported",
       "wow": 3,
+      "scored": "2026-10-22",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/yupi996/status/2110942429813809176",
+      "title": "它随后调用 REA 把安装包整个拆开，摸清了游戏引擎（一个 cocos2d-x 写的原生库）和三种私有资源格式：角色脚本是改了头的 gzip，贴图是改了头的图集，动画索引里存着帧名哈希和裁切信息。其中最关键的是摸透角色的注册流程。因为光把迈特凯的素材塞进游戏，他是不会出现在选人界",
+      "author": "@yupi996",
+      "date": "2026-10-16",
+      "source": "X",
+      "kind": "貼文",
+      "score": 73,
+      "pop": {
+        "likes": 73,
+        "views": 15322
+      },
+      "lang": "zh",
+      "found": "2026-10-22",
+      "relevant": true,
+      "title_zh": "用 REA 拆解火影類手遊安裝包，摸清私有資源格式與角色註冊流程",
+      "summary": "作者用 REA 拆開安裝包，確認引擎是 cocos2d-x 原生庫，並解出三種私有資源格式：改頭的 gzip 腳本、改頭的圖集貼圖、含幀名雜湊與裁切資訊的動畫索引。最關鍵是弄清角色註冊流程，因為角色名單寫死在原生庫中，才能讓新角色出現在選人介面。",
+      "target": "cocos2d-x 手遊安裝包",
+      "metric": "解出 3 種私有資源格式並摸清寫死在原生庫的角色註冊流程",
+      "category": "Native / 遊戲",
+      "status": "reported",
+      "wow": 3,
+      "scored": "2026-10-22",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/JulianGoldieSEO/status/2111113386826359217",
+      "title": "Here's what I did. I gave Claude the GitHub link. Then a link to my booking calendar page. I said: \"Build me my own version of this.\" I gave",
+      "author": "@JulianGoldieSEO",
+      "date": "2026-10-16",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 1455
+      },
+      "lang": "en",
+      "found": "2026-10-22",
+      "relevant": true,
+      "title_zh": "僅憑前端分析預約日曆頁並重建整套功能",
+      "summary": "作者給 Claude 一個 GitHub 連結與自己的預約日曆頁，在沒有後端權限下只看前端。AI 找出時段長度與間隔、上班時間與預約窗口、銷售團隊日曆和背後的 API，然後重建整個功能。",
+      "target": "預約日曆頁面（前端）",
+      "metric": "僅從前端找出時段、營業時間、預約窗口、團隊日曆與 API",
+      "category": "Web / JS",
+      "status": "reported",
+      "wow": 2,
       "scored": "2026-10-22",
       "scored_by": "sonnet"
     },
@@ -1310,6 +1751,67 @@
       "wow": 2,
       "scored": "2026-10-22",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/HaseebMir91/status/2110744399567073616",
+      "title": "So I built something for that (in plain English): RE-Agent, a reverse engineering agent for legacy software and games that lost support. Con",
+      "author": "@HaseebMir91",
+      "date": "2026-10-15",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 46
+      },
+      "lang": "en",
+      "found": "2026-10-22",
+      "relevant": true,
+      "title_zh": "以 REA 分支打造 RE-Agent，協助修復停止支援的老軟體與遊戲",
+      "summary": "目標是讓停止維護的舊軟體與遊戲能被逆向修復。作者以 REA 為基礎分支，透過 MCP 串接 Ghidra、IDA 或 Hopper 與 Frida 執行期追蹤，在獨立工作區修復而不動原檔。首個案例為 Project I.G.I. 2 的 2003 年 GConv/QVM 工具，內容僅為作者自述。",
+      "target": "Project I.G.I. 2 的 GConv/QVM 工具與停止支援的老軟體",
+      "metric": "以 REA 為基礎的 MIT 開源分支，首個案例為 I.G.I. 2 的 GConv/QVM 工具",
+      "category": "工具鏈",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-22",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/jhy0285/monofield",
+      "title": "jhy0285/monofield: MonoField (모노필드) — local-first AI workbench for code, builds, browser verification, design, and docum",
+      "source": "GitHub",
+      "found": "2026-10-22",
+      "relevant": false,
+      "scored": "2026-10-22",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/ReverseEngineer-Anything/REA-Github",
+      "title": "ReverseEngineer-Anything/REA-Github: REA Reverse Engineer Anything 6.3.0 hooks Hopper, Ghidra and IDA over MCP. rea gith",
+      "source": "GitHub",
+      "found": "2026-10-22",
+      "relevant": false,
+      "scored": "2026-10-22",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/typecraft_dev/status/2113012726494838999",
+      "title": "oma-cast has already received dozens of PRs! My favorite by @tcballard was just merged. Now you can ask your default age",
+      "source": "X",
+      "found": "2026-10-22",
+      "relevant": false,
+      "scored": "2026-10-22",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/typecraft_dev/status/2112278452350951870",
+      "title": "Added the calculator function to my ray-cast clone on @omarchy ! Thanks for feedback, I guess you can fix anything... (@",
+      "source": "X",
+      "found": "2026-10-22",
+      "relevant": false,
+      "scored": "2026-10-22",
+      "scored_by": "jev"
     },
     {
       "url": "https://github.com/codetesla51/skills",
@@ -1392,6 +1894,103 @@
       "metric": "68 個 MCP 工具、5 stars、8 forks",
       "category": "工具鏈",
       "status": "shipped",
+      "wow": 2,
+      "scored": "2026-10-22",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://youtu.be/lC-gFAFJUJY",
+      "title": "KASMI LIVE 17/10/2026 - REA Reverse Engineer Anything with Claude Opus 5.5",
+      "author": "Youness Kasmi",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 23589,
+      "lang": "en",
+      "found": "2026-10-22",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-22",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://youtu.be/_NIfQl-WYOE",
+      "title": "Can AI Now Reverse Engineer Any Program? Meet the Viral REA GitHub Repo",
+      "author": "CodeKub",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 85143,
+      "lang": "en",
+      "found": "2026-10-22",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "scored": "2026-10-22",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://youtu.be/RXnKXKVzoeQ",
+      "title": "REA도 역공학도 안 쓰고 노션을 복제했더니?",
+      "author": "바이브랩스",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 28,
+      "lang": "ko",
+      "found": "2026-10-22",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-22",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://youtu.be/x7zMtLX8V-A",
+      "title": "20분 만에 유료 웹앱 통째 복제? 29만 스타 리버스 엔지니어링 AI 'REA' 사용법과 실전 3단계 공식",
+      "author": "Daniel Vision School Korea",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 130,
+      "lang": "ko",
+      "found": "2026-10-22",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "shipped",
+      "scored": "2026-10-22",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://youtu.be/YpKpragPGyk",
+      "title": "I cloned Obsidian and it changed how I work. REA?",
+      "source": "YouTube",
+      "found": "2026-10-22",
+      "relevant": false,
+      "scored": "2026-10-22",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://www.reverseengineeranything.wiki/games/reverse-engineer-anything-game-code",
+      "title": "Reverse Engineer Anything Game Code: Workflow & Tool Setup - Reverse Engineer Anything Wiki",
+      "author": "Reverse Engineer Anything Wiki Team",
+      "date": null,
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-10-22",
+      "relevant": true,
+      "title_zh": "整理 REA 分析遊戲程式碼的流程與工具設定教學",
+      "summary": "Wiki 文章介紹 REA 的 CLI 與 MCP 用法，涵蓋靜態分析、追蹤與證據鏈，並依目標類型（原生、Electron、JS、APK、網站）列出起手步驟。內容是通用流程，沒有針對特定遊戲的實際分析成果。",
+      "target": "遊戲用戶端與遊戲邏輯（通用教學）",
+      "metric": "依目標類型列出分析起手式與證據鏈原則",
+      "category": "教學",
+      "status": "reported",
       "wow": 2,
       "scored": "2026-10-22",
       "scored_by": "sonnet"
@@ -1723,15 +2322,6 @@
       "wow": 3,
       "scored": "2026-10-22",
       "scored_by": "sonnet"
-    },
-    {
-      "url": "https://github.com/lucasgabrieldevgg/reversing",
-      "title": "lucasgabrieldevgg/reversing: reversing — the REA (reverse engineering) big skill for AI agents: triage, deep-dive, solve",
-      "source": "GitHub",
-      "found": "2026-10-21",
-      "relevant": false,
-      "scored": "2026-10-22",
-      "scored_by": "jev"
     },
     {
       "url": "https://github.com/Insider77Circle/NEON-FORGE",
@@ -2992,15 +3582,6 @@
       "scored_by": "jev"
     },
     {
-      "url": "https://x.com/xmyttle/status/2110736923626979677",
-      "title": "Today i built a note-taking app. Five files, 35 lines. Then i hid a secret door inside it: type the word turtle and the ",
-      "source": "X",
-      "found": "2026-10-21",
-      "relevant": false,
-      "scored": "2026-10-22",
-      "scored_by": "jev"
-    },
-    {
       "url": "https://www.developersdigest.tech/blog/reverse-engineer-anything-rea-mcp-agents-guide-2026",
       "title": "Reverse Engineer Anything (REA): What the MCP Server ...",
       "author": "developersdigest.tech",
@@ -3115,6 +3696,24 @@
       "wow": 3,
       "scored": "2026-10-22",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/lucasgabrieldevgg/reversing",
+      "title": "lucasgabrieldevgg/reversing: reversing — the REA (reverse engineering) big skill for AI agents: triage, deep-dive, solve",
+      "source": "GitHub",
+      "found": "2026-10-21",
+      "relevant": false,
+      "scored": "2026-10-22",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/xmyttle/status/2110736923626979677",
+      "title": "Today i built a note-taking app. Five files, 35 lines. Then i hid a secret door inside it: type the word turtle and the ",
+      "source": "X",
+      "found": "2026-10-21",
+      "relevant": false,
+      "scored": "2026-10-22",
+      "scored_by": "jev"
     },
     {
       "url": "https://www.reddit.com/r/NoMansSkyTheGame/comments/1xb01as/i_added_true_lava_to_nms/",
@@ -28361,6 +28960,35 @@
   "runs": [
     {
       "date": "2026-10-22",
+      "added": 29,
+      "stats": {
+        "githubShowAndTell": 10,
+        "githubRepos": 241,
+        "githubCode": 44,
+        "hackerNews": 19,
+        "qiita": 42,
+        "devto": 150,
+        "juejin": 2,
+        "reddit": 60,
+        "v2ex": 10,
+        "youtube": 90,
+        "bluesky": 160,
+        "mastodon": 160,
+        "exaWeb": 56,
+        "x": 25
+      },
+      "scoring": {
+        "scored": 19,
+        "jev": {
+          "low": 8,
+          "irrelevant": 2,
+          "errors": 0,
+          "toClaude": 19
+        }
+      }
+    },
+    {
+      "date": "2026-10-22",
       "added": 68,
       "stats": {
         "githubShowAndTell": 11,
@@ -29118,25 +29746,7 @@
         "v2ex": 1,
         "youtube": 0
       }
-    },
-    {
-      "date": "2026-10-12",
-      "added": 1,
-      "scoring": {
-        "scored": 0,
-        "error": "Unexpected token 'O', \"OK\r\n\" is not valid JSON"
-      },
-      "stats": {
-        "githubShowAndTell": 6,
-        "githubRepos": 64,
-        "hackerNews": 17,
-        "qiita": 20,
-        "devto": 150,
-        "reddit": "error: 403 https://www.reddit.com/search.json?q=%22morluto%2Frea%22&sort=new&limit=25",
-        "v2ex": 1,
-        "youtube": 0
-      }
     }
   ],
-  "updatedAt": "2026-10-22T00:25:12.742Z"
+  "updatedAt": "2026-10-22T04:40:34.930Z"
 }

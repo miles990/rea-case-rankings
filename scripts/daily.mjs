@@ -3,6 +3,7 @@
 // (A–G, see SIGNALS) the day's evidence supports. Stored in data/history.json.
 //   node scripts/daily.mjs             snapshot + brief for today (UTC)
 //   node scripts/daily.mjs --backfill  rebuild past days from publication dates
+//   node scripts/daily.mjs --fill      write missing briefs for past days from their stored entries
 import { readFile, writeFile } from "node:fs/promises";
 import { pathToFileURL } from "node:url";
 import { allRecords } from "./records.mjs";
@@ -88,9 +89,25 @@ ${recent.map((d) => `[${d.date}] 星數 ${d.stars ?? "?"}，新增 ${d.new.lengt
   return { updated: TODAY, from: recent[0]?.date, to: recent.at(-1)?.date, text, rising: ok(out.rising), fading: ok(out.fading), tally };
 }
 
+// Days whose brief failed keep their snapshot; this writes only the missing text.
+async function fill(history, records) {
+  const byId = new Map(records.map((r) => [r.id, r]));
+  for (const d of history.days) {
+    if (d.text || !d.new.length) continue;
+    const items = d.new.map((id) => byId.get(id)).filter(Boolean);
+    const prev = history.days.filter((x) => x.date < d.date && x.stars).at(-1)?.stars;
+    try { Object.assign(d, await brief(d.date, items, d.stars, prev)); console.log(`${d.date}: ${d.text["zh-TW"].headline}`); }
+    catch (e) { console.error(`${d.date}: brief failed: ${e.message.slice(0, 120)}`); }
+  }
+  history.trend = await weekTrend(history.days);
+  console.log(`trend: ${history.trend.text["zh-TW"].headline}`);
+  await writeFile(HISTORY, JSON.stringify(history, null, 2) + "\n");
+}
+
 async function main() {
   const history = await load();
   const records = (await allRecords()).map((r, i) => ({ ...r, rank: i + 1 }));
+  if (process.argv.includes("--fill")) return fill(history, records);
   const cases = JSON.parse(await readFile(new URL("data/cases.json", ROOT), "utf8"));
   const byDate = new Map(history.days.map((d) => [d.date, d]));
   const backfill = process.argv.includes("--backfill");

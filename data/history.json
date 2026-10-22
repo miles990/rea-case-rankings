@@ -6784,6 +6784,30 @@
         "d-4566f77345",
         "d-2359fef424",
         "d-015dfe09de"
+      ],
+      "text": {
+        "zh-TW": {
+          "headline": "REA 星數單日增 1.5 萬，逆向成果從複製擴及加固防禦",
+          "summary": "REA GitHub 星數升至 325,024，較前一個紀錄增加 15,052。榜首是用 REA 逆向 Linux 微信、封裝成 32 個 MCP 工具與 5 個 Skill，並稱已在真實客戶端驗證；另有把單次瀏覽器錄製轉成 44 個 RL 環境的專案。值得注意的是出現對抗 REA 的反逆向加固工具，作者稱加固後原本能還原的端點與 IPC 都還原不出，顯示攻防兩端開始成形。X 上不少仿製 App 的說法（如 9 分鐘復刻 Flighty）只有作者自述，缺乏 repo 或對照證據。"
+        },
+        "en": {
+          "headline": "REA stars jump 15K in a day; reverse engineering extends to hardening",
+          "summary": "REA's GitHub stars reached 325,024, up 15,052 from the previous record. The top item reverse-engineers Linux WeChat into 32 MCP tools and 5 Skills, which the author says were verified on a real client. Another project turns a single browser recording into 44 RL environments. Notably, a hardening tool built to resist REA appeared; its author says endpoints and IPC that were recoverable from the original could not be recovered after hardening, so attack and defense are both taking shape. Many X posts about cloning apps (such as copying Flighty in 9 minutes) are self-reported, with no repo or comparison evidence."
+        },
+        "zh-CN": {
+          "headline": "REA 星数单日增 1.5 万,逆向成果从复刻扩及加固防御",
+          "summary": "REA GitHub 星数升至 325,024,较前一个记录增加 15,052。榜首是用 REA 逆向 Linux 微信、封装成 32 个 MCP 工具与 5 个 Skill,并称已在真实客户端验证;另有把单次浏览器录制转成 44 个 RL 环境的项目。值得注意的是出现对抗 REA 的反逆向加固工具,作者称加固后原本能还原的端点与 IPC 都还原不出,显示攻防两端开始成形。X 上不少仿制 App 的说法(如 9 分钟复刻 Flighty)只有作者自述,缺乏 repo 或对照证据。"
+        }
+      },
+      "signals": [
+        "A",
+        "B",
+        "G"
+      ],
+      "highlights": [
+        "d-186b520152",
+        "d-69c807bd6b",
+        "d-79ada06595"
       ]
     },
     {
@@ -8050,6 +8074,30 @@
         "d-07a53bc987",
         "d-2359fef424",
         "d-f7e5bcc85a"
+      ],
+      "text": {
+        "zh-TW": {
+          "headline": "REA 星數破 33.8 萬，案例橫跨電視、相機與遊戲",
+          "summary": "REA 的 GitHub 星數來到 338787，比前一個紀錄多了 13763。當天最亮眼的是一批把 REA 用在自家裝置與舊軟體的案例：有人在 Omarchy 上重建 Raycast，有人逆向三星 Tizen 電視、webOS 電視與冷氣 WiFi 模組。較有實證的是 GitHub 上的三個專案：Rollcage 資料解析器與軌道檢視器、Sony A6000 韌體靜態逆向（附 54 個里程碑與測試）、以及 Cuphead 第一個 Boss 的 HTML5 重建（附自動測試與數值來源文件）。不過 X 上的多數案例只有作者自述，沒有程式碼或可重現步驟；另一方面，PiCode 擴充、DeepSeek Harness 套件和規格驅動開發流程等整合，也顯示要求「執行期證據」的做法正在擴散。"
+        },
+        "en": {
+          "headline": "REA passes 338K stars; cases span TVs, cameras and games",
+          "summary": "REA's GitHub stars reached 338,787, up 13,763 from the previous record. The most eye-catching posts apply REA to people's own devices and old software: a Raycast rebuild on Omarchy, plus reverse engineering of Samsung Tizen and webOS TVs and an air-conditioner WiFi module. The better-evidenced items are three GitHub projects: a Rollcage data parser and track viewer, a static reverse of Sony A6000 firmware (54 milestones with tests), and an HTML5 rebuild of Cuphead's first boss (with bot tests and documented value sources). Most X cases, however, are author claims with no code or reproducible steps. Meanwhile integrations such as the PiCode extension, the DeepSeek Harness package and a spec-driven workflow that requires runtime evidence show that evidence-first practice is spreading."
+        },
+        "zh-CN": {
+          "headline": "REA 星数破 33.8 万，案例横跨电视、相机与游戏",
+          "summary": "REA 的 GitHub 星数达到 338787，比前一个纪录多了 13763。当天最亮眼的是一批把 REA 用在自家设备与旧软件的案例：有人在 Omarchy 上重建 Raycast，有人逆向三星 Tizen 电视、webOS 电视与空调 WiFi 模块。较有实证的是 GitHub 上的三个项目：Rollcage 数据解析器与赛道查看器、Sony A6000 固件静态逆向（附 54 个里程碑与测试）、以及 Cuphead 第一个 Boss 的 HTML5 重建（附自动测试与数值来源文档）。不过 X 上的多数案例只有作者自述，没有代码或可复现步骤；另一方面，PiCode 扩展、DeepSeek Harness 套件和规格驱动开发流程等集成，也显示要求「运行期证据」的做法正在扩散。"
+        }
+      },
+      "signals": [
+        "B",
+        "D",
+        "G"
+      ],
+      "highlights": [
+        "d-2f14c41c3b",
+        "d-fa27f622e7",
+        "d-241f00f30e"
       ]
     },
     {
@@ -9414,6 +9462,30 @@
         "d-07a53bc987",
         "d-09e2e5b21d",
         "d-a473dd5942"
+      ],
+      "text": {
+        "zh-TW": {
+          "headline": "REA 星數單日增近一萬一，逆向復刻案例從遊戲擴及各類 App",
+          "summary": "REA 的 GitHub 星數升至 349,783，比前一個紀錄 338,787 增加 10,996。排名最前的案例是用 REA 搭配 Ghidra 重建 1995 年的 Space Cadet 彈珠台與 1997 年的 Dark Colony，兩者都附測試或以原版檔案驗證；同時出現豆包輸入法、Trello、Apple Calendar 等現代 App 的重建，以及 Echo Dot 2 韌體與 B-hyve 灑水系統接入 HomeKit 等硬體案例。值得注意的是，不少 X 上的案例（如 Oblivion、Pokémon Brilliant Diamond）只有作者自述與影片，沒有公開 repo 或測試，可信度仍待驗證。"
+        },
+        "en": {
+          "headline": "REA stars jump nearly 11,000 in a day as clone cases spread from games to apps",
+          "summary": "REA's GitHub stars rose to 349,783, up 10,996 from the previous record of 338,787. The top-ranked cases use REA with Ghidra to rebuild the 1995 Space Cadet pinball and the 1997 game Dark Colony, both backed by tests or validation against original files. Reconstructions of modern apps (Doubao IME, Trello, Apple Calendar) and hardware cases (Echo Dot 2 firmware, B-hyve sprinklers into HomeKit) also appeared. Note that several X posts, such as Oblivion and Pokémon Brilliant Diamond, offer only the author's claims and videos with no public repo or tests, so they remain unverified."
+        },
+        "zh-CN": {
+          "headline": "REA 星数单日增近一万一，逆向复刻案例从游戏扩及各类 App",
+          "summary": "REA 的 GitHub 星数升至 349,783，比前一个纪录 338,787 增加 10,996。排名最靠前的案例是用 REA 搭配 Ghidra 重建 1995 年的 Space Cadet 弹珠台与 1997 年的 Dark Colony，两者都附测试或以原版文件验证；同时出现豆包输入法、Trello、Apple Calendar 等现代 App 的重建，以及 Echo Dot 2 固件与 B-hyve 洒水系统接入 HomeKit 等硬件案例。值得注意的是，不少 X 上的案例（如 Oblivion、Pokémon Brilliant Diamond）只有作者自述与视频，没有公开 repo 或测试，可信度仍待验证。"
+        }
+      },
+      "signals": [
+        "A",
+        "B",
+        "C"
+      ],
+      "highlights": [
+        "d-b658a61d29",
+        "d-c7c9852d5a",
+        "d-7016df08dc"
       ]
     },
     {
@@ -10862,23 +10934,23 @@
   },
   "trend": {
     "updated": "2026-10-22",
-    "from": "2026-10-13",
+    "from": "2026-10-16",
     "to": "2026-10-22",
     "text": {
       "zh-TW": {
-        "headline": "REA 逆向熱潮從展示走向驗證,證明一致成為關鍵",
-        "summary": "本週 REA 星數從 16.8 萬一路升到 35.7 萬,每日新增案例約 36 至 68 項。初期以商用軟體被快速重建為主(Screen Studio、CapCut、Word 等),功能複製門檻明顯降低。10 月 15 日起重心轉向可驗證的案例:DX-Ball 以 3,205 組輸入對照原始函式、TH08 以 oracle 逐函式比對、rea-engine 在 19,683 個盤面狀態上全部一致。範圍同時從遊戲擴及藍牙杯、烤箱、電視等自家硬體,並出現審計指出「測試相符但常數實際錯誤」,以及專門防範 REA 的 ANTI-REA 工具。多數熱門 X 貼文仍只有自述,沒附程式碼或測試,另有實測顯示成本偏高(耗時最多 2.00 倍、費用最多 1.67 倍)。",
-        "watch": "接下來幾天可留意 ANTI-REA、antirea 這類防分析工具是否擴散,以及審計測試可信度的方法能否成為標準做法。想找機會的人可以從驗證下手,例如差異測試、證據編號與誠實評分,並關注老舊軟體搬到 WebAssembly 或瀏覽器的遷移需求。星數增幅已從單日 4 萬多降到 7,934,後續成長是否持續放緩也值得追蹤。"
+        "headline": "REA 熱度續漲，重點從「做得出來」轉向「證明一樣」",
+        "summary": "星數一週內從 27.5 萬升到 35.7 萬，但單日增幅由約 2.7 萬收斂到 7,934。內容從遊戲復刻（東方、DX-Ball、Space Cadet、Commander Keen）擴及烤箱、耳機、電視、相機韌體與 Echo Dot 等硬體，再到 Discord、CapCut 等現代 App。「驗證是瓶頸」七天全數出現：逐函式比對、19,683 個盤面狀態一致、Z3 證明都是高分案例的共同點。也有審計指出測試相符但常數其實錯誤，同時 X 上大量只有作者自述的貼文。10 月 19 日起出現 ANTI-REA、antirea 等反逆向工具，攻防兩端開始成形。",
+        "watch": "接下來幾天可留意 ANTI-REA 類工具是否有人公開驗證其效果，以及重建案例是否開始附上對照測試之外的獨立審計。想找機會的人，可以優先做「重建正確性驗證」或「自家裝置控制」這兩塊，並用原版對照測試、證據編號當作可信度的標準。"
       },
       "en": {
-        "headline": "REA reverse engineering shifts from showing off clones to proving them equivalent",
-        "summary": "REA stars rose from 168K to 357K this week, with 36 to 68 new items a day. Early days were dominated by fast rebuilds of commercial software (Screen Studio, CapCut, Word), showing that client-side features are cheap to copy. From Oct 15 the focus moved to verifiable work: DX-Ball checked against the original function on 3,205 inputs, TH08 compared function by function with an oracle, and rea-engine matching on all 19,683 board states. Scope also widened from games to hardware such as a Bluetooth cup, an oven and TVs. An audit found tests that passed while a constant was actually wrong, and ANTI-REA tools aimed at blocking REA analysis appeared. Most popular X posts remain self-reported with no repo or tests, and one trial measured up to 2.00x time and 1.67x cost.",
-        "watch": "Watch whether ANTI-REA and antirea style tools spread, and whether auditing the trustworthiness of tests becomes standard practice. For opportunities, start with verification: differential tests, evidence IDs and honest grading, plus demand for moving legacy software to WebAssembly or the browser. Daily star gains have slowed from over 46K to 7,934, so check whether growth keeps cooling."
+        "headline": "REA keeps growing, but the focus shifts from building clones to proving them",
+        "summary": "Stars rose from 275K to 357K over the week, while the daily gain narrowed from about 27K to 7,934. Cases widened from game rebuilds (Touhou, DX-Ball, Space Cadet, Commander Keen) to hardware (oven, earbuds, TVs, Sony camera firmware, Echo Dot) and modern apps such as Discord and CapCut. Verification appeared on all seven days: per-function oracle comparison, 19,683 board states matching, and Z3 proofs marked the top cases. An audit found tests passing while an underlying constant was wrong, and many X posts remain author claims with no repo or evidence. From Oct 19, anti-REA hardening tools (ANTI-REA, antirea) appeared, so attack and defense are both taking shape.",
+        "watch": "In the next few days, watch whether anyone publicly verifies the claims of ANTI-REA-style tools, and whether rebuilds start to come with independent audits beyond their own comparison tests. For opportunities, rebuild-correctness verification and control of one's own devices look most promising. Use original-binary comparison tests and evidence IDs as the credibility bar."
       },
       "zh-CN": {
-        "headline": "REA 逆向热潮从展示走向验证,证明一致成为关键",
-        "summary": "本周 REA 星数从 16.8 万一路升到 35.7 万,每日新增案例约 36 至 68 项。初期以商用软件被快速重建为主(Screen Studio、CapCut、Word 等),功能复制门槛明显降低。10 月 15 日起重心转向可验证的案例:DX-Ball 以 3,205 组输入对照原始函数、TH08 以 oracle 逐函数比对、rea-engine 在 19,683 个棋盘状态上全部一致。范围同时从游戏扩及蓝牙杯、烤箱、电视等自家硬件,并出现审计指出“测试相符但常数实际错误”,以及专门防范 REA 的 ANTI-REA 工具。多数热门 X 帖子仍只有自述,没附代码或测试,另有实测显示成本偏高(耗时最多 2.00 倍、费用最多 1.67 倍)。",
-        "watch": "接下来几天可留意 ANTI-REA、antirea 这类防分析工具是否扩散,以及审计测试可信度的方法能否成为标准做法。想找机会的人可以从验证入手,例如差异测试、证据编号与诚实评分,并关注老旧软件迁移到 WebAssembly 或浏览器的需求。星数增幅已从单日 4 万多降到 7,934,后续增长是否持续放缓也值得跟踪。"
+        "headline": "REA 热度续涨，重点从“做得出来”转向“证明一样”",
+        "summary": "星数一周内从 27.5 万升到 35.7 万，但单日增幅由约 2.7 万收敛到 7,934。内容从游戏复刻（东方、DX-Ball、Space Cadet、Commander Keen）扩及烤箱、耳机、电视、相机固件与 Echo Dot 等硬件，再到 Discord、CapCut 等现代 App。“验证是瓶颈”七天全部出现：逐函数比对、19,683 个棋盘状态一致、Z3 证明都是高分案例的共同点。也有审计指出测试相符但常量其实错误，同时 X 上大量只有作者自述的帖子。10 月 19 日起出现 ANTI-REA、antirea 等反逆向工具，攻防两端开始成形。",
+        "watch": "接下来几天可留意 ANTI-REA 类工具是否有人公开验证其效果，以及重建案例是否开始附上对照测试之外的独立审计。想找机会的人，可以优先做“重建正确性验证”或“自家设备控制”这两块，并用原版对照测试、证据编号作为可信度的标准。"
       }
     },
     "rising": [
@@ -10886,16 +10958,17 @@
       "C"
     ],
     "fading": [
-      "A"
+      "E",
+      "F"
     ],
     "tally": {
       "A": 4,
       "B": 7,
-      "C": 6,
+      "C": 5,
       "D": 3,
       "E": 0,
       "F": 0,
-      "G": 1
+      "G": 2
     }
   }
 }

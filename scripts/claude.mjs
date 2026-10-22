@@ -13,6 +13,22 @@ export function claudeAvailable() {
   }
 }
 
+// The first complete JSON object in the reply. The model sometimes adds a note or
+// a second object after the answer, which a first-"{"-to-last-"}" slice can't parse.
+export function firstJSON(text) {
+  const start = text.indexOf("{");
+  if (start < 0) throw new Error("no JSON object in reply");
+  let depth = 0, str = false, esc = false;
+  for (let i = start; i < text.length; i++) {
+    const c = text[i];
+    if (str) { if (esc) esc = false; else if (c === "\\") esc = true; else if (c === '"') str = false; continue; }
+    if (c === '"') str = true;
+    else if (c === "{") depth++;
+    else if (c === "}" && --depth === 0) return JSON.parse(text.slice(start, i + 1));
+  }
+  throw new Error("unterminated JSON object in reply");
+}
+
 export function askClaudeJSON(prompt) {
   const args = ["-p", "--output-format", "json", "--max-turns", "1", "--tools", ""];
   if (process.env.CLAUDE_MODEL) args.push("--model", process.env.CLAUDE_MODEL);
@@ -23,8 +39,7 @@ export function askClaudeJSON(prompt) {
     maxBuffer: 16 << 20,
     stdio: ["pipe", "pipe", "pipe"],
   });
-  const text = JSON.parse(raw).result || "";
-  return JSON.parse(text.slice(text.indexOf("{"), text.lastIndexOf("}") + 1));
+  return firstJSON(JSON.parse(raw).result || "");
 }
 
 export function askClaudeJSONAsync(prompt) {
@@ -34,8 +49,7 @@ export function askClaudeJSONAsync(prompt) {
     const child = execFile("claude", args, { encoding: "utf8", timeout: 300000, maxBuffer: 16 << 20 }, (err, stdout) => {
       if (err) return reject(err);
       try {
-        const text = JSON.parse(stdout).result || "";
-        resolve(JSON.parse(text.slice(text.indexOf("{"), text.lastIndexOf("}") + 1)));
+        resolve(firstJSON(JSON.parse(stdout).result || ""));
       } catch (e) { reject(e); }
     });
     child.stdin.end(prompt);

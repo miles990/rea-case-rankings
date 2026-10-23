@@ -10967,8 +10967,8 @@
     },
     {
       "date": "2026-10-23",
-      "stars": 366191,
-      "stars_delta": 6936,
+      "stars": 367482,
+      "stars_delta": 8227,
       "new": [
         "d-dba1d07ace",
         "d-b8cf7cf16c",
@@ -10978,7 +10978,10 @@
         "d-a0f8a6e08b",
         "d-c69b6ce2d4",
         "d-d092818a1a",
+        "d-69fd798811",
         "d-b3c93269c4",
+        "d-7f67fbf8a7",
+        "d-1b405cd680",
         "d-14f0c75b41",
         "d-54364f0845",
         "d-d0fdcb1272",
@@ -10990,9 +10993,15 @@
         "d-4a07cc04d7",
         "d-adae0e9707",
         "d-819c076dd6",
+        "d-db1317f4ac",
+        "d-29a0d8b441",
         "d-3d833c8bde",
         "d-491195bc3d",
         "d-77c880cd1b",
+        "d-c5c2ce03c0",
+        "d-88cdc0d74f",
+        "d-628e2cb7b8",
+        "d-af78088488",
         "d-42e56a0631",
         "d-f3b5a689bc",
         "d-592cfe3433",
@@ -11005,38 +11014,39 @@
         "d-beb2070b7b",
         "d-1fc64e0369",
         "d-5817b33335",
-        "d-c750f6ac0f"
+        "d-c750f6ac0f",
+        "d-ae82d24494"
       ],
       "stats": {
-        "count": 36,
+        "count": 46,
         "wow": {
-          "2": 16,
-          "3": 12,
+          "2": 22,
+          "3": 16,
           "4": 8
         },
         "type": {
-          "case": 20,
-          "app": 11,
-          "learn": 5
+          "case": 26,
+          "app": 13,
+          "learn": 7
         },
         "status": {
-          "tested": 4,
+          "tested": 5,
           "shipped": 16,
-          "reported": 16
+          "reported": 25
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 星數破 36.6 萬，靜態分析與移植案例成熟",
-          "summary": "REA 星數增至 366191（較前一紀錄增加 6936）。榜首是以 REA 搭配 Codex 靜態分析 Windows 惡意程式的案例，附完整環境教學，並以獨立 Python 實作驗證去混淆結果。此外有 Flash/exe 小遊戲移植 HTML5、Bonkheads 重製成 Mac 版、Paste 與 Chrome 恐龍遊戲還原等案例，以及 Windows UIA provider、Electron 分析流程等生態工具。不過不少高熱度影片與貼文只有作者自述，沒附證據，可驗證的成果與口碑之間仍有落差。"
+          "headline": "REA 星數破 36.7 萬，乾淨室重建與驗證成焦點",
+          "summary": "REA 的 GitHub 星數來到 367,482，比前一個紀錄 359,255 增加 8,227。當天排名靠前的項目從單純展示逆向，轉向附證據的流程：有人用 REA 搭配 Codex 在隔離 Docker 環境靜態分析惡意程式，並以獨立 Python 實作比對解密結果；也有人用 4 個代理做乾淨室重建，18 個案例的相符率從 64% 修正到 100%。另一個變化是 REA 往 Windows 擴展，出現 UIA 原生 UI provider，還有 Bonkheads、Paste 等舊軟體與遊戲的重製。社群動態裡仍有不少只有作者自述、沒附證據的貼文，例如氣炸鍋與 Mac 應用授權移除，讀者宜保留判斷。"
         },
         "en": {
-          "headline": "REA passes 366K stars as static-analysis and porting cases mature",
-          "summary": "REA's GitHub stars rose to 366,191 (up 6,936 from the previous record). The top item is a case using REA with Codex for static analysis of Windows malware, with a full environment guide and a standalone Python reimplementation to verify the deobfuscated decryption. Other cases include porting Flash/exe mini-games to HTML5, remaking Bonkheads as a Mac game, decompiling Paste, and recovering Chrome's dino game source, plus ecosystem tools such as a Windows UIA provider and an Electron analysis pipeline. Several of the hottest videos and posts, though, are self-reported with no evidence, so verifiable results still lag behind the buzz."
+          "headline": "REA stars pass 367K as clean-room rebuilds and verification take focus",
+          "summary": "REA's GitHub stars reached 367,482, up 8,227 from the previous record of 359,255. The top-ranked items moved from simply showing off reverse engineering toward workflows backed by evidence. One author used REA with Codex to statically analyze Windows malware in an isolated Docker environment and cross-checked the decrypted output with an independent Python implementation. Another had four agents do a clean-room rebuild, with match rate rising from 64% to 100% across 18 cases. REA is also spreading to Windows, with a UIA native-UI provider, and to legacy software and game remakes such as Bonkheads and Paste. Many posts remain self-reported with no evidence, such as the air fryer and the Mac app license removal, so treat those with caution."
         },
         "zh-CN": {
-          "headline": "REA 星数破 36.6 万，静态分析与移植案例成熟",
-          "summary": "REA 星数增至 366191（较前一纪录增加 6936）。榜首是以 REA 搭配 Codex 静态分析 Windows 恶意程序的案例，附完整环境教程，并以独立 Python 实现验证去混淆结果。此外有 Flash/exe 小游戏移植 HTML5、Bonkheads 重制成 Mac 版、Paste 与 Chrome 恐龙游戏还原等案例，以及 Windows UIA provider、Electron 分析流程等生态工具。不过不少高热度视频与帖子只有作者自述，没附证据，可验证的成果与口碑之间仍有落差。"
+          "headline": "REA 星数破 36.7 万，无尘室重建与验证成焦点",
+          "summary": "REA 的 GitHub 星数达到 367,482，比之前的纪录 359,255 增加 8,227。当天排名靠前的项目从单纯展示逆向，转向附带证据的流程：有人用 REA 搭配 Codex 在隔离的 Docker 环境静态分析恶意程序，并用独立的 Python 实现比对解密结果；也有人用 4 个代理做洁净室重建，18 个用例的相符率从 64% 修正到 100%。另一个变化是 REA 向 Windows 扩展，出现了 UIA 原生 UI provider，还有 Bonkheads、Paste 等旧软件与游戏的重制。社区动态中仍有不少只有作者自述、没有附证据的帖子，例如空气炸锅与 Mac 应用授权移除，读者宜保留判断。"
         }
       },
       "signals": [
@@ -11046,8 +11056,8 @@
       ],
       "highlights": [
         "d-dba1d07ace",
-        "d-b8cf7cf16c",
-        "d-a0f8a6e08b"
+        "d-1b405cd680",
+        "d-c4d36e0bc9"
       ],
       "rank": [
         "touhou-factory",
@@ -11195,15 +11205,18 @@
         "d-c5de955d0e",
         "d-72281941df",
         "d-4a71013380",
+        "d-69fd798811",
         "d-9eddeb3161",
         "d-04c6b16c3b",
         "d-cad67e4e11",
         "openbattlefield2",
         "d-b3c93269c4",
+        "d-7f67fbf8a7",
         "d-ca86da6f22",
         "d-9bf3ce4cb1",
         "d-fadb448c34",
         "d-36eef39e98",
+        "d-1b405cd680",
         "d-a446272be9",
         "d-81aad91a9f",
         "d-5302fb22b6",
@@ -11331,6 +11344,7 @@
         "d-db5ea31b01",
         "d-4306768540",
         "d-b3a7a923a0",
+        "d-db1317f4ac",
         "d-99460965ac",
         "d-764778ad5c",
         "d-b000aba7f6",
@@ -11341,6 +11355,7 @@
         "d-406e661ae1",
         "d-c7e8d8a6fa",
         "d-83149ecf4d",
+        "d-29a0d8b441",
         "d-ecbb34ba3f",
         "d-b739f9456f",
         "d-3cacad9892",
@@ -11385,6 +11400,7 @@
         "d-a6d91c0f62",
         "d-2bafea56f0",
         "d-ee865bf8b8",
+        "d-c5c2ce03c0",
         "d-ab974e67fb",
         "d-1d3d058162",
         "d-bbf6930865",
@@ -11414,6 +11430,7 @@
         "psp-mips-lab",
         "d-48a0f992c2",
         "d-48e797d2e8",
+        "d-88cdc0d74f",
         "d-a82ddff1d7",
         "d-94f24dd97b",
         "d-d2c64cc5c2",
@@ -11440,6 +11457,7 @@
         "d-fbb1b433ec",
         "d-29f3025565",
         "d-e8ddfd6636",
+        "d-628e2cb7b8",
         "d-5b9d4af9f3",
         "d-4b2e646a25",
         "d-927facadb3",
@@ -11453,6 +11471,7 @@
         "d-b5c104566c",
         "d-f5aadf840e",
         "d-fe1e18573c",
+        "d-af78088488",
         "d-c830cb6a4e",
         "d-105efaffea",
         "d-88e3eb4684",
@@ -11702,6 +11721,7 @@
         "d-fc0b602317",
         "d-e042abe941",
         "d-48bae55f69",
+        "d-ae82d24494",
         "d-40d07b20d2",
         "d-98635e3ba9",
         "d-b8d6bd24fe",
@@ -12153,6 +12173,7 @@
         "d-c8a7dbc8ed",
         "d-cbe8f38835",
         "d-adfbebad69",
+        "d-1d87327f53",
         "d-c2bfe0bbc8",
         "d-cb4ab0e58c",
         "d-1b62a0e0d8",
@@ -12268,6 +12289,7 @@
         "d-1b8f85ff9a",
         "d-10f53d8787",
         "d-5e39b4b560",
+        "d-5ba5858696",
         "d-ebcf1c876f",
         "d-2890a54847",
         "d-ef151a3329",
@@ -12338,6 +12360,7 @@
         "d-b399483926",
         "d-a954f169cc",
         "d-d92d6ec2a2",
+        "d-141fa803c3",
         "d-015dfe09de",
         "d-02cb647eac",
         "d-37fdc3d9e7",
@@ -12499,19 +12522,19 @@
     "to": "2026-10-23",
     "text": {
       "zh-TW": {
-        "headline": "重建重心從「做得出來」轉向「證明一樣」,並擴及硬體",
-        "summary": "本週 REA 星數從 29.3 萬升到 36.6 萬,但單日增幅由 1.8 萬逐步縮到 6,936,熱度趨緩。脈絡上,10/17 先出現 19,683 種盤面全部一致的井字棋重建,以及揭露測試相符、實際常數卻錯的審計,「驗證」連續七天都是主軸。對象從遊戲(DX-Ball、Space Cadet、Commander Keen)延伸到企業與應用軟體,再到烤箱、電視、耳機、Echo Dot 等自家裝置,10/19 還出現對抗 REA 的反逆向加固工具。同時,X 上許多案例只有作者自述,沒有 repo 或測試,證據品質兩極。",
-        "watch": "可優先關注附 oracle 測試、逐位元組或逐像素比對的專案,以及能自動產生差分測試的工具,這是目前最缺的環節。硬體與韌體(BLE、IoT、電視)案例每天都有新增,可嘗試做為切入點。另可留意反逆向加固與 REA 的攻防是否持續成形,以及 207 個工具造成上下文暴增的問題,是否出現精簡工具集的做法。"
+        "headline": "REA 重建從展示轉向可驗證,並擴及硬體與 Windows",
+        "summary": "本週 REA 星數從 29.3 萬升到 36.7 萬,但單日增幅由 1.8 萬逐步降到 8 千多。訊號 B(驗證是瓶頸)七天全數出現:從 19,683 個盤面狀態的一致性比對、審計發現測試相符但常數其實錯,到 oracle 測試與乾淨室重建把相符率從 64% 修正為 100%。逆向對象從老遊戲擴展到日立烤箱、電視、相機韌體、耳機、冷氣等自家裝置,也出現 Windows UIA 與惡意程式分析等新用法。另一方面,X 上不少案例只有作者自述,證據品質兩極,也出現對抗 REA 的反逆向加固工具。",
+        "watch": "可優先留意「附 oracle 測試或差異比對」的重建流程與工具,以及能審計測試是否被矇騙的方法,這是目前最稀缺的環節。硬體裝置的互通與控制、Windows 平台整合也持續有新案例,可觀察是否出現可重用的工具。閱讀 X 貼文時,請以是否附 repo 或可重現證據來判斷可信度。"
       },
       "en": {
-        "headline": "Reverse engineering shifts from 'it works' to 'prove it matches', and spreads to hardware",
-        "summary": "REA stars rose from 293K to 366K this week, but the daily gain shrank from about 18K to 6,936, so momentum is cooling. On 10/17 a tic-tac-toe rebuild matched the original on all 19,683 board states, and an audit showed tests passing while an actual constant was wrong, which made verification the theme on all seven days. Targets widened from games (DX-Ball, Space Cadet, Commander Keen) to apps and then to the user's own devices such as ovens, TVs, headphones and the Echo Dot. On 10/19 an anti-reverse-engineering hardening tool appeared. Many X posts are still author claims with no repo or tests, so evidence quality is uneven.",
-        "watch": "Look first at projects that ship oracle tests or byte-level and pixel-level comparisons, and at tools that generate differential tests automatically, since this is the scarcest piece. Hardware and firmware cases (BLE, IoT, TVs) appear daily and are a workable entry point. Also watch whether the hardening-versus-REA contest keeps developing, and whether anyone trims the 207-tool surface that bloats context."
+        "headline": "REA rebuilds shift from demos to verifiable proof, expanding into hardware and Windows",
+        "summary": "This week REA's GitHub stars rose from 293k to 367k, though daily gains slowed from about 18k to about 8k. Signal B (verification is the bottleneck) appeared all seven days: from matching 19,683 board states, to an audit finding tests passed while a constant was actually wrong, to oracle tests and clean-room rebuilds that corrected a 64% match rate to 100%. Targets widened from old games to ovens, TVs, camera firmware, earbuds and air conditioners, with new uses such as a Windows UIA provider and malware analysis. Many X posts remain author-claimed only, so evidence quality is uneven, and anti-reverse-engineering hardening aimed at REA has appeared.",
+        "watch": "Watch for rebuild workflows and tools that ship oracle tests or differential comparisons, and for methods that audit whether tests can be fooled; this is the scarcest piece right now. Hardware interop and Windows integration keep producing new cases, so see whether reusable tooling emerges. When reading X posts, judge credibility by whether a repo or reproducible evidence is attached."
       },
       "zh-CN": {
-        "headline": "重建重心从“做得出来”转向“证明一样”,并扩及硬件",
-        "summary": "本周 REA 星数从 29.3 万升到 36.6 万,但单日增幅由约 1.8 万逐步缩到 6,936,热度趋缓。脉络上,10/17 先出现 19,683 种盘面全部一致的井字棋重建,以及揭露测试相符、实际常数却错的审计,“验证”连续七天都是主轴。对象从游戏(DX-Ball、Space Cadet、Commander Keen)延伸到应用软件,再到烤箱、电视、耳机、Echo Dot 等自家设备,10/19 还出现对抗 REA 的反逆向加固工具。同时,X 上许多案例只有作者自述,没有 repo 或测试,证据质量两极。",
-        "watch": "可优先关注附 oracle 测试、逐字节或逐像素比对的项目,以及能自动生成差分测试的工具,这是目前最缺的环节。硬件与固件(BLE、IoT、电视)案例每天都有新增,可尝试作为切入点。另可留意反逆向加固与 REA 的攻防是否持续成形,以及 207 个工具造成上下文暴增的问题,是否出现精简工具集的做法。"
+        "headline": "REA 重建从展示转向可验证,并扩及硬件与 Windows",
+        "summary": "本周 REA 星数从 29.3 万升到 36.7 万,但单日增幅由约 1.8 万逐步降到 8 千多。信号 B(验证是瓶颈)七天全部出现:从 19,683 个棋盘状态的一致性比对、审计发现测试相符但常量其实错误,到 oracle 测试与洁净室重建把相符率从 64% 修正为 100%。逆向对象从老游戏扩展到日立烤箱、电视、相机固件、耳机、空调等自有设备,也出现 Windows UIA 与恶意软件分析等新用法。另一方面,X 上不少案例只有作者自述,证据质量两极,也出现针对 REA 的反逆向加固工具。",
+        "watch": "可优先关注「附 oracle 测试或差异比对」的重建流程与工具,以及能审计测试是否被蒙骗的方法,这是目前最稀缺的环节。硬件设备的互通与控制、Windows 平台集成也持续有新案例,可观察是否出现可复用的工具。阅读 X 帖子时,请以是否附 repo 或可复现证据来判断可信度。"
       }
     },
     "rising": [

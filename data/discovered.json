@@ -23,6 +23,102 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://github.com/CyberpunkPsychosis/REA",
+      "title": "CyberpunkPsychosis/REA: REA",
+      "author": "CyberpunkPsychosis",
+      "date": "2026-10-23",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-23",
+      "relevant": true,
+      "title_zh": "REA 倉庫副本的 README：單一 MCP 逆向二進位檔、應用程式與執行期行為",
+      "summary": "此為 CyberpunkPsychosis 帳號下的 REA 倉庫，內容主要是 REA 的 README，並聲明官方來源為 morluto/rea、rea.tools 與 npm 套件 rea-agents。README 介紹可分析原生二進位檔、JavaScript/Electron、.NET 與網站，未顯示此帳號自己的逆向成果。",
+      "target": "REA 專案本身（README 副本）",
+      "metric": "支援 20 種語言 README，並提供 npx rea-agents setup 安裝",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 1,
+      "scored": "2026-10-23",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/DebdeepSen7/status/2113472951626645772",
+      "title": "Don't worry guys. I have recreated Arc using REA and Claude in a hour. Kind of insane. I will open source it after a bit of polishing.",
+      "author": "@DebdeepSen7",
+      "date": "2026-10-23",
+      "source": "X",
+      "kind": "貼文",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 111
+      },
+      "lang": "en",
+      "found": "2026-10-23",
+      "relevant": true,
+      "title_zh": "自稱用 REA 與 Claude 在一小時內重建 Arc 瀏覽器",
+      "summary": "作者在 X 上宣稱以 REA 搭配 Claude 於一小時內重建知名瀏覽器 Arc，並表示稍後整理完會開源。貼文未附程式碼、截圖或測試，成果僅為作者自述。",
+      "target": "Arc 瀏覽器",
+      "metric": "自稱一小時內完成重建（尚未開源）",
+      "category": "Electron",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-23",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/Hislordship_9/status/2113468853972074924",
+      "title": "The decompiler's first answer was wrong. It said the function took no input at all. But the raw instructions REA also returned showed the fu",
+      "author": "@Hislordship_9",
+      "date": "2026-10-23",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 2
+      },
+      "lang": "en",
+      "found": "2026-10-23",
+      "relevant": true,
+      "title_zh": "記錄反編譯器輸出錯誤，REA 的原始指令揭露函式實際讀取堆疊輸入",
+      "summary": "作者描述一次分析中，反編譯器初步判斷函式沒有輸入，但 REA 同時回傳的原始指令顯示函式從堆疊讀取一個數字。兩者不一致促使 agent 繼續深入而不輕信第一個結果。未指明具體目標程式。",
+      "target": "未指明的原生函式",
+      "metric": "反編譯結果與原始指令不一致，揭露函式實際讀取堆疊上的數字輸入",
+      "category": "Native",
+      "status": "reported",
+      "wow": 3,
+      "scored": "2026-10-23",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/jeff8709/status/2113432232807284950",
+      "title": "Pretty much only use whispr flow now on PC and lol I had Hermes REA it to work on Linux",
+      "author": "@jeff8709",
+      "date": "2026-10-23",
+      "source": "X",
+      "kind": "貼文",
+      "score": 2,
+      "pop": {
+        "likes": 2,
+        "views": 43
+      },
+      "lang": "en",
+      "found": "2026-10-23",
+      "relevant": true,
+      "title_zh": "請 Hermes 用 REA 讓 Whispr Flow 在 Linux 上運作",
+      "summary": "作者僅一句話提到讓 Hermes 以 REA 把 Whispr Flow 弄到 Linux 上可用。沒有說明做法、證據或成果細節。",
+      "target": "Whispr Flow（Linux 移植）",
+      "metric": "自述在 Linux 上可運作，無細節",
+      "category": "Native",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-23",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/ebirn/rea-container",
       "title": "ebirn/rea-container: Hardened rootless Podman container for the REA reverse-engineering MCP server",
       "author": "ebirn",
@@ -507,15 +603,6 @@
       "scored_by": "sonnet"
     },
     {
-      "url": "https://x.com/0xAPTX/status/2113139234601304257",
-      "title": "结合@wquguru的思路，我对IOS的Claude Code 进行了逆向分析。  先说结论： 1、除了sentry 和 datadog 采集遥感数据、Sift 进行反欺诈检测之外，IOS端还有更多的检测手段。 2、大家最关心的sim检测，",
-      "source": "X",
-      "found": "2026-10-23",
-      "relevant": false,
-      "scored": "2026-10-23",
-      "scored_by": "jev"
-    },
-    {
       "url": "https://x.com/manov_ik/status/2113177362468852072",
       "title": "First, I decompiled the original APK using REA to inspect its code.  It figured out how the app communicates with the bike over Bluetooth Lo",
       "author": "@manov_ik",
@@ -912,6 +999,106 @@
       "scored_by": "jev"
     },
     {
+      "url": "https://x.com/vartekxx/status/2113368716297511327",
+      "title": "Holy sh*t, I just reverse-engineered my air fryer with Opus 5.5. 1 sentence out loud = 190°C for 30 minutes. No buttons. No app. No touching",
+      "author": "@vartekxx",
+      "date": "2026-10-22",
+      "source": "X",
+      "kind": "貼文",
+      "score": 24,
+      "pop": {
+        "likes": 24,
+        "views": 1671
+      },
+      "lang": "en",
+      "found": "2026-10-23",
+      "relevant": true,
+      "title_zh": "自稱用 REA 與 Opus 5.5 逆向自家氣炸鍋並做出語音控制連接器",
+      "summary": "作者宣稱用 REA 檢視自家氣炸鍋的軟體與控制邏輯，由 Opus 5.5 整理可用指令、狀態與安全限制，再做出小型連接器，以一句語音設定 190°C、30 分鐘。貼文為作者自述，未附證據。",
+      "target": "氣炸鍋（作者自有裝置）的軟體與控制邏輯",
+      "metric": "一句語音指令即設定 190°C 烹調 30 分鐘",
+      "category": "韌體 / 硬體",
+      "status": "reported",
+      "wow": 3,
+      "scored": "2026-10-23",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/maixbt/status/2113357473801244831",
+      "title": "so i tried something smaller - one search bar. 4 claude code agents rebuilt it in 4:52 without seeing a line of the original. scout opens th",
+      "author": "@maixbt",
+      "date": "2026-10-22",
+      "source": "X",
+      "kind": "貼文",
+      "score": 15,
+      "pop": {
+        "likes": 15,
+        "views": 380
+      },
+      "lang": "en",
+      "found": "2026-10-23",
+      "relevant": true,
+      "title_zh": "4 個 Claude Code 代理在 4 分 52 秒內乾淨室重建一個搜尋列功能",
+      "summary": "作者以搜尋列為目標，讓偵察、規格撰寫、建置、測試 4 個代理分工，建置者看不到原始應用程式。偵察標出 24 項附證據的發現，並以 18 個案例並排比對，相符率從 64% 經兩次邊界修正後達到 100%。",
+      "target": "單一搜尋列功能的乾淨室重建",
+      "metric": "18 個案例相符率從 64% 提升到 100%，耗時 4:52",
+      "category": "工具鏈",
+      "status": "tested",
+      "wow": 3,
+      "scored": "2026-10-23",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/Klonzu/status/2113343961716895958",
+      "title": "your agent rebuilds a binary and tells you \"I think it matches\". that's not evidence. this Opus 5.5 board is at 408 of 480 tests, diff 0, an",
+      "author": "@Klonzu",
+      "date": "2026-10-22",
+      "source": "X",
+      "kind": "貼文",
+      "score": 108,
+      "pop": {
+        "likes": 108,
+        "views": 4521
+      },
+      "lang": "en",
+      "found": "2026-10-23",
+      "relevant": true,
+      "title_zh": "以 REA 做乾淨室重建流程，Opus 5.5 通過 408/480 項測試且差異為 0",
+      "summary": "作者展示一套「觀察、規格、建置、驗證」的乾淨室重建流程：一側讀取二進位檔，另一側只依規格撰寫新程式碼。看板顯示 Opus 5.5 在 480 項測試中通過 408 項、diff 為 0，日誌標示未複製任何程式碼，並提供 rea-agents 安裝指令。",
+      "target": "二進位檔乾淨室重建流程（rea-agents）",
+      "metric": "480 項測試通過 408 項，diff 0",
+      "category": "工具鏈",
+      "status": "reported",
+      "wow": 3,
+      "scored": "2026-10-23",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/Sayan__Genri/status/2113230438785601655",
+      "title": "saw a repo with 319k stars and a trending topic, so thought give it a try. picked a popular tool https://excalidraw.com and asked claude cod",
+      "author": "@Sayan__Genri",
+      "date": "2026-10-22",
+      "source": "X",
+      "kind": "貼文",
+      "score": 4,
+      "pop": {
+        "likes": 4,
+        "views": 117
+      },
+      "lang": "en",
+      "found": "2026-10-23",
+      "relevant": true,
+      "title_zh": "用 Claude Code 搭配 REA 逆向 Excalidraw 並重建自己的版本",
+      "summary": "作者挑選熱門工具 Excalidraw，用兩個提示請 Claude Code 搭配 REA 逆向並重建。作者強調 REA 會實際檢查應用程式與底層結構，且全程在本機執行，但內容未提供成果證據或測試數據。",
+      "target": "Excalidraw（網頁應用）",
+      "metric": "僅兩個提示完成重建（作者自述）",
+      "category": "Web / JS",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-23",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://juejin.cn/post/7698799059633143862",
       "title": "基于REA逆向PCL的下载限制",
       "author": "SoFarAway",
@@ -958,15 +1145,6 @@
       "scored_by": "jev"
     },
     {
-      "url": "https://x.com/wquguru/status/2112759397554561295",
-      "title": "静态逆了一遍 Claude，发现100台Mac Mini都救不了的八大天坑：  1. 手机插国区 SIM 卡：Sift 会记录下来，和出口 IP 国家对不上，直接完蛋  2. 清 App 数据换新号：基本没用，Sift 的 installa",
-      "source": "X",
-      "found": "2026-10-23",
-      "relevant": false,
-      "scored": "2026-10-23",
-      "scored_by": "jev"
-    },
-    {
       "url": "https://x.com/AiTobox/status/2112789282876444858",
       "title": "AI逆向小游戏真是绝了；最近玩了一下REA，基本上小游戏压缩包给他，90%能逆向出来，直接变成网页版开玩；什么祖玛，贪吃鱼，割绳子，连连看，各类塔防。。。为了愉快的玩耍，我构建了一个skill: 安装这个skill；随便下载一个小游戏，exe还是flash都可以；然后告诉你的ag",
       "author": "@AiTobox",
@@ -988,6 +1166,31 @@
       "category": "Native / 遊戲",
       "status": "shipped",
       "wow": 4,
+      "scored": "2026-10-23",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/buildwithsid/status/2112835105668698483",
+      "title": "it's soo fucking over for paid software. cracked the paid plans of 4 mac apps today, using the REA library which lets you reverse engineer a",
+      "author": "@buildwithsid",
+      "date": "2026-10-21",
+      "source": "X",
+      "kind": "貼文",
+      "score": 2297,
+      "pop": {
+        "likes": 2297,
+        "views": 126390
+      },
+      "lang": "en",
+      "found": "2026-10-23",
+      "relevant": true,
+      "title_zh": "用 REA 讓 Codex 移除 4 款 Mac 應用程式的授權檢查",
+      "summary": "作者聲稱一天內以 REA 函式庫讓 Codex 對 4 款 Mac 付費應用程式找出付費驗證處並移除授權檢查，產生免費版。內容只有作者自述，未列出應用程式名稱、程式碼或證據；此做法屬繞過軟體授權。",
+      "target": "4 款 Mac 付費應用程式的授權檢查",
+      "metric": "自述一天內破解 4 款 Mac 應用程式",
+      "category": "Native / macOS",
+      "status": "reported",
+      "wow": 2,
       "scored": "2026-10-23",
       "scored_by": "sonnet"
     },
@@ -1088,6 +1291,58 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://www.analyticsvidhya.com/blog/2026/10/rea-ai-agent-reverse-engineer-anything/",
+      "title": "Can AI Agents Reverse Engineer Apps? REA Tool Tested",
+      "author": "analyticsvidhya.com",
+      "date": "2026-10-18",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-10-23",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-23",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://dev.to/axo4321/learning-how-ai-can-reverse-engineer-software-184c",
+      "title": "Learning How AI Can Reverse Engineer Software - DEV Community",
+      "author": "Axo",
+      "date": "2026-10-15",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-10-23",
+      "relevant": true,
+      "title_zh": "DEV 文章介紹 REA 的安裝設定並說明 AI 如何逆向軟體",
+      "summary": "Axo 在 DEV Community 記錄學習 AI 逆向軟體的過程，節錄內容描述 `agents setup` 會詢問使用的代理、顯示變更並備份既有設定後加入 REA MCP server。重啟代理後即可使用新工具，未見具體逆向目標或成果。",
+      "target": "REA 安裝與 MCP 設定流程",
+      "metric": "setup 會先備份既有設定再加入 REA MCP server",
+      "category": "教學",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-23",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://reamcp.dev/en/cases/rea-gems-a-daily-updated-gallery-of-rea-cases-727ba4",
+      "title": "REA Gems: a daily-updated gallery of REA cases — REA use case｜Tools & integrations · REA MCP",
+      "author": "morluto @ morluto",
+      "date": "2026-10-13",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-10-23",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-23",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://www.sitepoint.com/reverse-engineering-with-ai-rea-electron-tracing/",
       "title": "Reverse Engineering with AI: Trace Electron and Native Apps",
       "author": "Matt",
@@ -1153,6 +1408,24 @@
       "wow": 2,
       "scored": "2026-10-23",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/0xAPTX/status/2113139234601304257",
+      "title": "结合@wquguru的思路，我对IOS的Claude Code 进行了逆向分析。  先说结论： 1、除了sentry 和 datadog 采集遥感数据、Sift 进行反欺诈检测之外，IOS端还有更多的检测手段。 2、大家最关心的sim检测，",
+      "source": "X",
+      "found": "2026-10-23",
+      "relevant": false,
+      "scored": "2026-10-23",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/wquguru/status/2112759397554561295",
+      "title": "静态逆了一遍 Claude，发现100台Mac Mini都救不了的八大天坑：  1. 手机插国区 SIM 卡：Sift 会记录下来，和出口 IP 国家对不上，直接完蛋  2. 清 App 数据换新号：基本没用，Sift 的 installa",
+      "source": "X",
+      "found": "2026-10-23",
+      "relevant": false,
+      "scored": "2026-10-23",
+      "scored_by": "jev"
     },
     {
       "url": "https://youtu.be/6MpHBHw30OE",
@@ -1301,6 +1574,27 @@
       "metric": "多篇教程，對應 REA 6.7.0",
       "category": "教學",
       "status": "shipped",
+      "wow": 2,
+      "scored": "2026-10-23",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://youtu.be/c_wfpBJ8ULI",
+      "title": "Reverse Engineer Anything with AI Agents | REA + MCP Tutorial (Practical Demo)",
+      "author": "Code With Aarohi",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 1964,
+      "lang": "en",
+      "found": "2026-10-23",
+      "relevant": true,
+      "title_zh": "YouTube 教學示範如何用 REA 搭配 MCP 讓 AI 代理逆向應用程式",
+      "summary": "Code With Aarohi 的影片教學，說明如何用 REA 與 MCP 讓 AI coding agent 理解既有應用程式的運作並嘗試做出類似產品。節錄內容僅有簡介，未呈現具體分析目標或成果。",
+      "target": "REA + MCP 工具（教學示範）",
+      "metric": "實作示範影片教學",
+      "category": "教學",
+      "status": "reported",
       "wow": 2,
       "scored": "2026-10-23",
       "scored_by": "sonnet"
@@ -30264,6 +30558,35 @@
   "runs": [
     {
       "date": "2026-10-23",
+      "added": 13,
+      "stats": {
+        "githubShowAndTell": 10,
+        "githubRepos": 231,
+        "githubCode": 42,
+        "hackerNews": 18,
+        "qiita": 43,
+        "devto": 150,
+        "juejin": 16,
+        "reddit": 60,
+        "v2ex": 10,
+        "youtube": 90,
+        "bluesky": 160,
+        "mastodon": 160,
+        "exaWeb": 57,
+        "x": 25
+      },
+      "scoring": {
+        "scored": 11,
+        "jev": {
+          "low": 2,
+          "irrelevant": 0,
+          "errors": 0,
+          "toClaude": 11
+        }
+      }
+    },
+    {
+      "date": "2026-10-23",
       "added": 61,
       "stats": {
         "githubShowAndTell": 10,
@@ -31045,24 +31368,7 @@
       "scoring": {
         "scored": 31
       }
-    },
-    {
-      "date": "2026-10-12",
-      "added": 0,
-      "stats": {
-        "githubShowAndTell": 6,
-        "githubRepos": 63,
-        "hackerNews": 17,
-        "qiita": 20,
-        "devto": 150,
-        "reddit": "error: 403 https://www.reddit.com/search.json?q=%22morluto%2Frea%22&sort=new&limit=25",
-        "v2ex": 1,
-        "youtube": 0
-      },
-      "scoring": {
-        "scored": 0
-      }
     }
   ],
-  "updatedAt": "2026-10-23T00:26:18.946Z"
+  "updatedAt": "2026-10-23T04:42:19.353Z"
 }

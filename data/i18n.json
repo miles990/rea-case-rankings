@@ -11878,5 +11878,155 @@
       "target": "REA 官方示例 notes-example",
       "metric": "用单条命令分析示例 JS 应用并输出 JSON"
     }
+  },
+  "d-af78088488": {
+    "hash": "5250c10dee2f",
+    "en": {
+      "title": "Claimed rebuild of the Arc browser with REA and Claude in one hour",
+      "summary": "On X, the author claims to have rebuilt the well-known Arc browser in under an hour using REA with Claude, and says it will be open-sourced once cleaned up. The post includes no code, screenshots, or tests; the result rests solely on the author's own word.",
+      "target": "Arc browser",
+      "metric": "Claimed rebuild completed in one hour (not yet open-sourced)"
+    },
+    "zh-CN": {
+      "title": "自称用 REA 与 Claude 在一小时内重建 Arc 浏览器",
+      "summary": "作者在 X 上宣称使用 REA 搭配 Claude 在一小时内重建了知名浏览器 Arc,并表示整理完成后会开源。帖子未附代码、截图或测试,成果仅为作者自述。",
+      "target": "Arc 浏览器",
+      "metric": "自称一小时内完成重建(尚未开源)"
+    }
+  },
+  "d-ae82d24494": {
+    "hash": "4adea56868ea",
+    "en": {
+      "title": "DEV article covers REA installation and setup, explaining how AI reverse-engineers software",
+      "summary": "On DEV Community, Axo documents their process of learning how AI reverse-engineers software. The excerpt describes how `agents setup` asks which agent you use, shows the changes, backs up your existing config, and then adds the REA MCP server. After restarting the agent, the new tools are available. No concrete reverse-engineering target or result is shown.",
+      "target": "REA installation and MCP setup flow",
+      "metric": "Setup backs up the existing config before adding the REA MCP server"
+    },
+    "zh-CN": {
+      "title": "DEV 文章介绍 REA 的安装设置并说明 AI 如何逆向软件",
+      "summary": "Axo 在 DEV Community 记录了学习 AI 逆向软件的过程。节选内容描述 `agents setup` 会询问所使用的代理、显示变更,并在备份现有配置后加入 REA MCP server。重启代理后即可使用新工具,文中未见具体的逆向目标或成果。",
+      "target": "REA 安装与 MCP 配置流程",
+      "metric": "setup 会先备份现有配置,再加入 REA MCP server"
+    }
+  },
+  "d-29a0d8b441": {
+    "hash": "1889467063ad",
+    "en": {
+      "title": "Using REA to Have Codex Strip License Checks from 4 Mac Apps",
+      "summary": "The author claims that in a single day they used the REA library to have Codex locate the paid-verification logic in 4 paid Mac apps and remove the license checks, producing free versions. The post is the author's own account only; it names no apps and offers no code or evidence. The approach amounts to bypassing software licensing.",
+      "target": "License checks in 4 paid Mac apps",
+      "metric": "Claims to have cracked 4 Mac apps in one day"
+    },
+    "zh-CN": {
+      "title": "用 REA 让 Codex 移除 4 款 Mac 应用的授权检查",
+      "summary": "作者声称一天内用 REA 库让 Codex 在 4 款 Mac 付费应用中找出付费验证处并移除授权检查,生成免费版。内容仅为作者自述,未列出应用名称、代码或证据;此做法属于绕过软件授权。",
+      "target": "4 款 Mac 付费应用的授权检查",
+      "metric": "自述一天内破解 4 款 Mac 应用"
+    }
+  },
+  "d-c5c2ce03c0": {
+    "hash": "fac7e793c126",
+    "en": {
+      "title": "YouTube Tutorial: Using REA with MCP to Have an AI Agent Reverse Engineer Apps",
+      "summary": "A video tutorial by Code With Aarohi showing how to use REA and MCP so an AI coding agent can understand how an existing app works and try to build a similar product. The excerpt contains only an introduction and shows no concrete analysis target or results.",
+      "target": "REA + MCP tooling (tutorial demo)",
+      "metric": "Hands-on video tutorial"
+    },
+    "zh-CN": {
+      "title": "YouTube 教程演示如何用 REA 搭配 MCP 让 AI 代理逆向应用",
+      "summary": "Code With Aarohi 的视频教程,介绍如何用 REA 与 MCP 让 AI coding agent 理解现有应用的运作方式,并尝试做出类似产品。节选内容仅有简介,未展示具体分析目标或成果。",
+      "target": "REA + MCP 工具(教程演示)",
+      "metric": "动手实操视频教程"
+    }
+  },
+  "d-88cdc0d74f": {
+    "hash": "3b031ee93887",
+    "en": {
+      "title": "Reverse Engineering Excalidraw with Claude Code and REA to Rebuild Your Own Version",
+      "summary": "The author picked the popular tool Excalidraw and, with two prompts, asked Claude Code plus REA to reverse engineer and rebuild it. The author stresses that REA actually inspects the app and its underlying structure, and that everything runs locally, but the post offers no evidence of the result or test data.",
+      "target": "Excalidraw (web app)",
+      "metric": "Rebuilt with just two prompts (author's claim)"
+    },
+    "zh-CN": {
+      "title": "用 Claude Code 搭配 REA 逆向 Excalidraw 并重建自己的版本",
+      "summary": "作者选了热门工具 Excalidraw,用两条提示词让 Claude Code 搭配 REA 进行逆向并重建。作者强调 REA 会实际检查应用及其底层结构,且全程在本地运行,但内容未提供成果证据或测试数据。",
+      "target": "Excalidraw(网页应用)",
+      "metric": "仅两条提示词完成重建(作者自述)"
+    }
+  },
+  "d-628e2cb7b8": {
+    "hash": "03859859307c",
+    "en": {
+      "title": "Asking Hermes to Use REA to Get Whispr Flow Running on Linux",
+      "summary": "In a single sentence, the author mentions having Hermes use REA to get Whispr Flow working on Linux. No method, evidence, or result details are given.",
+      "target": "Whispr Flow (Linux port)",
+      "metric": "Claims it works on Linux; no details"
+    },
+    "zh-CN": {
+      "title": "让 Hermes 用 REA 使 Whispr Flow 在 Linux 上运行",
+      "summary": "作者仅用一句话提到让 Hermes 通过 REA 把 Whispr Flow 弄到 Linux 上可用。没有说明做法、证据或成果细节。",
+      "target": "Whispr Flow(Linux 移植)",
+      "metric": "自述可在 Linux 上运行,无细节"
+    }
+  },
+  "d-69fd798811": {
+    "hash": "d66898e217ab",
+    "en": {
+      "title": "Clean-room rebuild workflow with REA: Opus 5.5 passes 408 of 480 tests with 0 diff",
+      "summary": "The author demonstrates an \"observe, spec, build, verify\" clean-room rebuild workflow: one side reads the binary, while the other writes new code strictly from the spec. The dashboard shows Opus 5.5 passing 408 of 480 tests with a diff of 0, the log states no code was copied, and rea-agents install commands are provided.",
+      "target": "Clean-room rebuild workflow for binaries (rea-agents)",
+      "metric": "408 of 480 tests passed, diff 0"
+    },
+    "zh-CN": {
+      "title": "用 REA 做洁净室重建流程,Opus 5.5 通过 408/480 项测试且差异为 0",
+      "summary": "作者展示了一套“观察、规格、构建、验证”的洁净室重建流程:一侧读取二进制文件,另一侧只依据规格编写新代码。看板显示 Opus 5.5 在 480 项测试中通过 408 项、diff 为 0,日志标明未复制任何代码,并提供了 rea-agents 的安装命令。",
+      "target": "二进制文件洁净室重建流程(rea-agents)",
+      "metric": "480 项测试通过 408 项,diff 0"
+    }
+  },
+  "d-7f67fbf8a7": {
+    "hash": "680bd999bd15",
+    "en": {
+      "title": "Author claims to have reverse-engineered their own air fryer with REA and Opus 5.5 and built a voice-control connector",
+      "summary": "The author claims to have used REA to inspect their own air fryer's software and control logic, with Opus 5.5 compiling the available commands, states, and safety limits, then built a small connector that sets 190°C for 30 minutes from a single spoken sentence. The post is self-reported and includes no evidence.",
+      "target": "Software and control logic of an air fryer (the author's own device)",
+      "metric": "A single voice command sets 190°C for 30 minutes of cooking"
+    },
+    "zh-CN": {
+      "title": "自称用 REA 与 Opus 5.5 逆向自家空气炸锅并做出语音控制连接器",
+      "summary": "作者声称用 REA 检视自家空气炸锅的软件与控制逻辑,由 Opus 5.5 整理可用指令、状态与安全限制,再做出小型连接器,以一句语音设定 190°C、30 分钟。帖子为作者自述,未附证据。",
+      "target": "空气炸锅(作者自有设备)的软件与控制逻辑",
+      "metric": "一句语音指令即设定 190°C 烹饪 30 分钟"
+    }
+  },
+  "d-1b405cd680": {
+    "hash": "35287b9f1e37",
+    "en": {
+      "title": "4 Claude Code agents clean-room rebuild a search bar feature in 4 min 52 s",
+      "summary": "Targeting a search bar, the author split the work among 4 agents (recon, spec writing, build, testing), with the builder never seeing the original application. Recon flagged 24 findings backed by evidence, and a side-by-side comparison of 18 cases raised the match rate from 64% to 100% after two boundary fixes.",
+      "target": "Clean-room rebuild of a single search bar feature",
+      "metric": "Match rate across 18 cases rose from 64% to 100%, taking 4:52"
+    },
+    "zh-CN": {
+      "title": "4 个 Claude Code 代理在 4 分 52 秒内洁净室重建一个搜索栏功能",
+      "summary": "作者以搜索栏为目标,让侦察、规格撰写、构建、测试 4 个代理分工,构建者看不到原始应用。侦察标出 24 项附证据的发现,并以 18 个用例并排比对,匹配率经两次边界修正从 64% 提升到 100%。",
+      "target": "单一搜索栏功能的洁净室重建",
+      "metric": "18 个用例匹配率从 64% 提升到 100%,耗时 4:52"
+    }
+  },
+  "d-db1317f4ac": {
+    "hash": "ba0e902be530",
+    "en": {
+      "title": "Documenting a decompiler output error: REA's raw instructions reveal the function actually reads stack input",
+      "summary": "The author describes an analysis in which the decompiler initially concluded the function had no inputs, but the raw instructions REA returned alongside it showed the function reading a number from the stack. The mismatch pushed the agent to dig deeper instead of trusting the first result. The specific target program is not identified.",
+      "target": "Unspecified native function",
+      "metric": "Decompiler output disagreed with raw instructions, revealing the function actually reads a numeric input from the stack"
+    },
+    "zh-CN": {
+      "title": "记录反编译器输出错误,REA 的原始指令揭示函数实际读取栈输入",
+      "summary": "作者描述了一次分析:反编译器初步判断函数没有输入,但 REA 同时返回的原始指令显示函数从栈中读取一个数字。两者不一致促使 agent 继续深入,而不轻信第一个结果。未指明具体目标程序。",
+      "target": "未指明的原生函数",
+      "metric": "反编译结果与原始指令不一致,揭示函数实际读取栈上的数字输入"
+    }
   }
 }

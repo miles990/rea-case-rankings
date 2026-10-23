@@ -11338,5 +11338,545 @@
       "target": "Money Tracker – Expense Budget（com.freeman.moneymanager 1.1.147）",
       "metric": "还原 15 张数据表、26 篇说明文章，产出 Cofrinho 5.5.0 APK"
     }
+  },
+  "d-4dac4bce53": {
+    "hash": "3ffb5f3cb812",
+    "en": {
+      "title": "Hand-reversing an H5 mobile game APK: nearly 2,000 plaintext protocol fields dug out of 5.9MB of minified code",
+      "summary": "After REA went viral, the author reverse-engineered an H5 mobile game APK entirely by hand. From roughly 5.9MB of minified code, they extracted nearly 2,000 plaintext protocol fields (including protocol IDs and field names) and wrote it up as an illustrated long-form post. The excerpt provides no code, tests, or reproducible evidence; the results are self-reported by the author.",
+      "target": "H5 mobile game APK",
+      "metric": "Nearly 2,000 plaintext protocol fields"
+    },
+    "zh-CN": {
+      "title": "手工逆向一款 H5 手游 APK，从 5.9MB 的 minify 代码中挖出近两千条明文协议字段",
+      "summary": "作者在 REA 爆红后，以纯手工方式逆向一款 H5 手游的 APK。从约 5.9MB 的 minify 代码中翻出近两千条明文协议字段（含协议号与字段名），并写成图文长文分享。节选未提供代码、测试或可复现证据，成果为作者自述。",
+      "target": "H5 手游 APK",
+      "metric": "近两千条明文协议字段"
+    }
+  },
+  "d-919d5eb8a2": {
+    "hash": "2f58d43c8c47",
+    "en": {
+      "title": "Hands-on with REA: Electron static analysis, request capture, and Go dependency enumeration",
+      "summary": "The author ran REA in practice, performing static analysis on an Electron app in about 2 seconds to locate the renderer→preload→IPC handler path and its positions. They also recorded the requests sent during clicks along with the JSON structure of the responses, and listed 165 embedded dependencies from a Go binary. Every result comes with a list of unknowns.",
+      "target": "Electron app and Go binary",
+      "metric": "165 embedded dependencies in the Go binary; Electron static analysis in 2 seconds"
+    },
+    "zh-CN": {
+      "title": "实测 REA：Electron 静态分析、请求捕获与 Go 依赖枚举",
+      "summary": "作者实际运行 REA，对 Electron 应用做静态分析约 2 秒，找出 renderer→preload→IPC handler 的路径与位置。另记录点击期间发出的请求与响应 JSON 结构，并从 Go 二进制文件中列出 165 个内嵌依赖。每项结果都附有“未知事项”清单。",
+      "target": "Electron 应用与 Go 二进制文件",
+      "metric": "Go 二进制文件内嵌 165 个依赖，Electron 静态分析 2 秒"
+    }
+  },
+  "d-5ba7189b71": {
+    "hash": "9d9824ee4e4a",
+    "en": {
+      "title": "Reversing PCL with AI and REA to bypass Minecraft download restrictions",
+      "summary": "The problem: the PCL launcher could no longer download Minecraft for certain reasons. The author used AI together with the REA reverse-engineering tool to bypass the restriction, restoring downloads of vanilla survival and modpacks, and shares their reasoning and process. The excerpt is only an overview, with no specific functions or evidence details.",
+      "target": "PCL (Minecraft launcher)",
+      "metric": "Restored downloads of vanilla survival and modpacks"
+    },
+    "zh-CN": {
+      "title": "用 AI 与 REA 逆向 PCL，绕过 Minecraft 下载限制",
+      "summary": "目标是 PCL 启动器因故无法下载 Minecraft。作者通过 AI 配合 REA 逆向工具绕过限制，恢复下载原版生存与整合包，并分享逆向思路与过程。节选只有概述，没有具体函数或证据细节。",
+      "target": "PCL（Minecraft 启动器）",
+      "metric": "恢复下载原版生存与整合包"
+    }
+  },
+  "d-99559e0e70": {
+    "hash": "b9bdb925dfa1",
+    "en": {
+      "title": "Open-sourcing a general workflow that uses REA to turn app analysis evidence into verifiable CLIs",
+      "summary": "The goal is to turn analysis evidence from macOS apps into CLIs that an Agent can call and whose results can be verified. The repo provides a Skill workflow, an adapter contract, an app manifest, and REA evidence summaries, along with 156 offline tests and trial logs for multiple apps. App-specific adapters and raw evidence are not public, and several failures were kept in the blind tests.",
+      "target": "macOS apps (Hydrogen Music, Folo, and others)",
+      "metric": "156 regression tests (48 Python, 108 Node)"
+    },
+    "zh-CN": {
+      "title": "开源以 REA 辅助将应用分析证据转为可验证 CLI 的通用工作流",
+      "summary": "目标是把 macOS 应用的分析证据转成 Agent 可调用、结果可验证的 CLI。仓库提供 Skill 工作流、适配器契约、应用清单与 REA 证据摘要等工具，并附 156 项离线测试与多款应用的试验记录。应用专用适配器与原始证据不公开，且盲测中保留了多次失败。",
+      "target": "macOS 应用（Hydrogen Music、Folo 等多款）",
+      "metric": "156 项回归测试（48 项 Python、108 项 Node）"
+    }
+  },
+  "d-dba1d07ace": {
+    "hash": "f2afac9c1cd5",
+    "en": {
+      "title": "Static analysis of Windows malware with REA and Codex, with a full environment setup guide",
+      "summary": "This public case starts with a preliminary triage of a Windows executable, then extracts and analyzes the embedded JavaScript. Every communication destination and file path is backed by code evidence, and the work runs in an isolated Docker environment. The deobfuscated decryption output is checked against an independent Python implementation. The case also includes steps for installing REA, Ghidra, Codex, and Docker on macOS (Apple silicon).",
+      "target": "Windows malware (embedded JavaScript)",
+      "metric": "Deobfuscated decryption output verified against an independent Python implementation"
+    },
+    "zh-CN": {
+      "title": "用 REA 搭配 Codex 静态分析 Windows 恶意程序，并附完整环境教程",
+      "summary": "这个公开案例先对 Windows 可执行文件做初步调查，再提取内嵌的 JavaScript 进行分析，通信目的地与文件路径均附有代码依据，整个过程在隔离的 Docker 环境中进行。去混淆后的解密结果用独立的 Python 实现比对验证。另附在 macOS（Apple silicon）上安装 REA、Ghidra、Codex 与 Docker 的步骤。",
+      "target": "Windows 恶意程序（内嵌 JavaScript）",
+      "metric": "去混淆解密结果已用独立的 Python 实现比对验证"
+    }
+  },
+  "d-b8cf7cf16c": {
+    "hash": "471a5e953d7d",
+    "en": {
+      "title": "Porting Flash/exe mini-games to HTML5 web versions with REA and a custom skill",
+      "summary": "The author claims that when they hand a mini-game archive to REA, about 90% can be reverse-engineered and converted into a web version, covering Zuma, Cut the Rope, Kingdom Rush, and more. They also built an atb-game-porting skill and produced three demos: zuma, cutrope, and KingDomRush.",
+      "target": "Flash / exe mini-games (Zuma, Cut the Rope, Kingdom Rush)",
+      "metric": "Three demos; self-reported ~90% of mini-games can be reverse-engineered into web versions"
+    },
+    "zh-CN": {
+      "title": "用 REA 与自制 skill 把 Flash/exe 小游戏移植成 HTML5 网页版",
+      "summary": "作者声称把小游戏压缩包交给 REA，约九成能逆向并改成网页版，涵盖祖玛、割绳子、王国保卫战等。他另外建立了 atb-game-porting skill，并做出 zuma、cutrope、KingDomRush 三个 Demo。",
+      "target": "Flash / exe 小游戏（祖玛、割绳子、王国保卫战）",
+      "metric": "三个 Demo，自述约 90% 的小游戏可逆向成网页版"
+    }
+  },
+  "d-d2698bcb79": {
+    "hash": "5b469f51bb72",
+    "en": {
+      "title": "Reverse-engineering Chrome's offline dinosaur game with REA and recovering 1,880 lines of runnable source",
+      "summary": "Starting from 75KB of minified JS, the work uses debug-port packet capture, SHA-256 fingerprinting, and wakaru decompilation to recover complete source code that can be re-run locally. The write-up also documents how the author fixed REA's Windows platform gating issue.",
+      "target": "Chrome offline dinosaur game",
+      "metric": "75KB of minified JS restored to 1,880 lines of runnable source"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向 Chrome 断网恐龙游戏，还原 1880 行可运行源码",
+      "summary": "从 75KB 压缩 JS 出发，通过调试端口抓包、SHA-256 指纹、wakaru 反编译，还原出可在本地重新运行的完整源码。文中也记录了修复 REA 在 Windows 平台门禁问题的过程。",
+      "target": "Chrome 断网小恐龙游戏",
+      "metric": "75KB 压缩 JS 还原为可运行的 1880 行源码"
+    }
+  },
+  "d-c4d36e0bc9": {
+    "hash": "892b91989bd6",
+    "en": {
+      "title": "Adding a Windows UIA native UI observation and control provider to REA",
+      "summary": "REA's native UI features only supported macOS. This project adds Windows support, using UI Automation to capture the window tree and run steps such as click and key-entry. Verified with the real REA CLI on Windows 11 Notepad, it captured 51 nodes and a PNG hash, and ships with 16 Python unit tests. It also documents the design constraints of REA providers.",
+      "target": "REA project and Windows 11 Notepad",
+      "metric": "51 nodes captured on Notepad, 16 unit tests"
+    },
+    "zh-CN": {
+      "title": "为 REA 加入 Windows UIA 原生 UI 观察与操作 provider",
+      "summary": "REA 的原生 UI 功能只支持 macOS，此项目补上了 Windows，通过 UI Automation 获取窗口树并执行 click、key-entry 等步骤。在 Windows 11 Notepad 上用真实的 REA CLI 验证，取得 51 个节点与 PNG 哈希，并附 16 个 Python 单元测试。另整理出 REA provider 的设计限制。",
+      "target": "REA 项目与 Windows 11 Notepad",
+      "metric": "Notepad 实测获取 51 个节点，16 个单元测试"
+    }
+  },
+  "d-b3c93269c4": {
+    "hash": "f6d66a77b474",
+    "en": {
+      "title": "Dissecting and recreating the interfaces of Obsidian, Notion, and Raycast with Claude Code and REA",
+      "summary": "A Korean video shows how a working developer uses REA. They connect REA to Claude Code to take apart the Obsidian graph view, the Notion editor, and the Raycast landing page, then try to recreate them. The excerpt does not list any verification details for the results.",
+      "target": "Obsidian graph view, Notion editor, Raycast landing page",
+      "metric": "Recreated interface features of three well-known products"
+    },
+    "zh-CN": {
+      "title": "用 Claude Code 搭配 REA 拆解并重现 Obsidian、Notion、Raycast 的界面",
+      "summary": "一段韩文视频介绍在职开发者如何使用 REA。做法是把 REA 接入 Claude Code,直接拆解 Obsidian 图谱、Notion 编辑器与 Raycast 落地页并尝试重现。节选中没有列出成果的验证细节。",
+      "target": "Obsidian 图谱、Notion 编辑器、Raycast 落地页",
+      "metric": "重现三个知名产品的界面功能"
+    }
+  },
+  "d-14f0c75b41": {
+    "hash": "9ab025d235fa",
+    "en": {
+      "title": "Using REA to dissect Tencent's WorkBuddy client and reveal its System Prompt structure",
+      "summary": "Someone used REA to dissect Tencent's WorkBuddy client and found that the System Prompt is a 378-line skeleton with dynamic slots, into which user profile, business state, and safety rules are injected as variables. The three modes use different templates (Craft at 378 lines, read-only Ask at 153 lines), and dynamic state is inserted into the message stream as system-reminder. Locally, ~/.workbuddy/ also holds SOUL.md, USER.md, and BOOTSTRAP.md. The author is relaying someone else's findings.",
+      "target": "Tencent WorkBuddy client",
+      "metric": "System Prompt with a 378-line skeleton, trimmed to 153 lines in Ask mode"
+    },
+    "zh-CN": {
+      "title": "用 REA 拆解腾讯 WorkBuddy 客户端,看清 System Prompt 结构",
+      "summary": "有人用 REA 拆解腾讯 WorkBuddy 客户端,发现 System Prompt 是 378 行骨架加动态插槽,用户档案、业务状态与安全规则以变量注入。三种模式使用不同模板(Craft 378 行、Ask 只读 153 行),动态状态以 system-reminder 塞进消息流,本机 ~/.workbuddy/ 下另有 SOUL.md、USER.md、BOOTSTRAP.md。作者是转述他人的成果。",
+      "target": "腾讯 WorkBuddy 客户端",
+      "metric": "System Prompt 378 行骨架,Ask 模式裁到 153 行"
+    }
+  },
+  "d-54364f0845": {
+    "hash": "471ef2df436c",
+    "en": {
+      "title": "Using REA to dissect how the Indeed App ranks job applications",
+      "summary": "The author opened the Indeed App with REA to observe how it ranks job applications. They found that answering \"No\" to a must-have screening question gets the application flagged red before a human ever looks at it. The result is shown in a video; the excerpt includes no code or reproducible steps.",
+      "target": "Indeed App",
+      "metric": "Found that answering \"No\" to a must-have screening question gets an application flagged red"
+    },
+    "zh-CN": {
+      "title": "用 REA 拆解 Indeed App 的求职申请排序机制",
+      "summary": "作者用 REA 打开 Indeed App,观察应用如何对求职申请排序。发现必备条件筛选题只要回答“否”,申请就会在真人查看前被标为红色。成果以视频呈现,节选中未附代码或可复现步骤。",
+      "target": "Indeed App",
+      "metric": "发现必备筛选题答“否”会让申请被标红"
+    }
+  },
+  "d-d0fdcb1272": {
+    "hash": "1120ea1b5d10",
+    "en": {
+      "title": "Decompiling a motorcycle's official APK with REA to work out its Bluetooth BLE navigation protocol",
+      "summary": "The author decompiled the official Bajaj app's APK and used REA to work out how the app talks to the motorcycle over BLE and how it sends navigation data to the instrument cluster. The goal is a custom navigation app that shows Google Maps on the Pulsar NS200 cluster. The excerpt contains only the author's own account, with no code or test evidence.",
+      "target": "Bajaj Pulsar NS200 official app and instrument cluster",
+      "metric": "Worked out the BLE navigation data transmission protocol (author's claim)"
+    },
+    "zh-CN": {
+      "title": "用 REA 反编译摩托车官方 APK,解出蓝牙 BLE 导航通信方式",
+      "summary": "作者反编译 Bajaj 官方 App 的 APK,借助 REA 弄清 App 如何通过 BLE 与摩托车通信,以及如何把导航数据发送到仪表盘。目的是自制能在 Pulsar NS200 仪表盘显示 Google Maps 的导航 App。节选只有作者自述,未附代码或实测证据。",
+      "target": "Bajaj Pulsar NS200 官方 App 与仪表盘",
+      "metric": "解出 BLE 导航数据传输协议(作者自述)"
+    }
+  },
+  "d-2395434e0e": {
+    "hash": "6f83eef6b3d4",
+    "en": {
+      "title": "Rebuilding a Manus-like general-purpose Agent platform based on REA reverse-engineering analysis",
+      "summary": "The goal is to implement, clean-room style and following the Manus architecture, an Agent platform that can autonomously plan, browse, write code and deliver files inside an isolated sandbox. The author used REA/CDP to measure the layout, design variables and interactions of the Manus 2.0 web client, and provides a full backend, frontend, Docker sandbox and end-to-end tests. The README lists 31 tools and several features, but the REA reverse-engineering evidence is mostly documented in a separate file.",
+      "target": "Manus general-purpose Agent platform (web client)",
+      "metric": "31 tools, including sandbox, VNC takeover, Wide Research and scheduled tasks"
+    },
+    "zh-CN": {
+      "title": "以 REA 逆向分析为依据,重建类 Manus 通用 Agent 平台",
+      "summary": "目标是参照 Manus 架构,以 clean-room 方式实现可在独立沙箱中自主规划、浏览、编写代码并交付文件的 Agent 平台。作者用 REA/CDP 实测 Manus 2.0 网页端的布局、设计变量与交互,并提供完整的后端、前端、Docker 沙箱与端到端测试。README 列出 31 个工具与多项功能,但 REA 的逆向证据主要写在另一份文档中。",
+      "target": "Manus 通用 Agent 平台(网页端)",
+      "metric": "31 个工具,含沙箱、VNC 接管、Wide Research 与定时任务"
+    }
+  },
+  "d-a0f8a6e08b": {
+    "hash": "58d9296f6790",
+    "en": {
+      "title": "Static analysis of Bonkheads with REA and Ghidra, remade as a native Mac game",
+      "summary": "The target is the 2003 game Bonkheads demo. Without running the original program, the author used REA plus Ghidra to recover the physics, pest AI, controls and level format, recording notes and function addresses in docs/findings.md. Based on this, a playable Apple Silicon version was rewritten in Swift and SpriteKit, using original assets and JSON levels. No tests comparing it entry by entry against the original are provided.",
+      "target": "Bonkheads 2003 demo v1.2.0 (Windows game)",
+      "metric": "A compilable, playable Swift remake with 3 sample levels and a JSON level format"
+    },
+    "zh-CN": {
+      "title": "以 REA 与 Ghidra 静态分析 Bonkheads,重制成原生 Mac 游戏",
+      "summary": "目标是 2003 年游戏 Bonkheads 试玩版,作者在不运行原程序的情况下,用 REA 加 Ghidra 还原物理、害虫 AI、操作与关卡格式,并把笔记与函数地址记录在 docs/findings.md。据此以 Swift 与 SpriteKit 重写了可玩的 Apple Silicon 版本,使用自制素材与 JSON 关卡。未提供与原版逐项比对的测试。",
+      "target": "Bonkheads 2003 试玩版 v1.2.0(Windows 游戏)",
+      "metric": "可编译运行的 Swift 重制版,含 3 个示例关卡与 JSON 关卡格式"
+    }
+  },
+  "d-c69b6ce2d4": {
+    "hash": "c61644fb0a25",
+    "en": {
+      "title": "Static decompilation of Paste 6.6.6 with REA/Ghidra, with pseudocode and coverage report published",
+      "summary": "The target is the arm64 binary of Paste 6.6.6, a macOS clipboard manager, batch-decompiled across three targets using REA 6.7.0 with Ghidra 12.1.4. The repository includes pseudocode, a function index, coverage data and reproducible scripts, plus a runnable native Swift re-implementation written from the research. The author also states plainly that the re-implementation has not yet passed full-feature, one-to-one acceptance.",
+      "target": "Paste 6.6.6 (macOS clipboard manager)",
+      "metric": "81,132 of 81,134 functions decompiled successfully, 2 failed"
+    },
+    "zh-CN": {
+      "title": "以 REA/Ghidra 静态反编译 Paste 6.6.6 并公开伪代码与覆盖率报告",
+      "summary": "目标是 macOS 剪贴板管理器 Paste 6.6.6 的 arm64 二进制,用 REA 6.7.0 搭配 Ghidra 12.1.4 批量反编译三个目标。仓库附伪代码、函数索引、覆盖率与可复现脚本,并含依据研究写成的可运行 Swift 原生复刻。作者也明确说明复刻尚未达到全功能一比一验收。",
+      "target": "Paste 6.6.6(macOS 剪贴板管理器)",
+      "metric": "81,134 个函数中成功反编译 81,132 个,失败 2 个"
+    }
+  },
+  "d-d092818a1a": {
+    "hash": "2c04f4ae750a",
+    "en": {
+      "title": "Modernizing CPU-Z into HW Intel with REA, Ghidra and Antigravity",
+      "summary": "The goal is to rebuild a hardware-detection tool like CPU-Z as a modern application. With REA acting as an MCP bridge to Ghidra, an AI coding agent decompiles and reconstructs it, producing HW Intel with a FastAPI backend and a web interface, along with the full prompts.",
+      "target": "CPU-Z (hardware diagnostic tool)",
+      "metric": "Produced a working HW Intel application (backend + web interface), with the full prompt.md published"
+    },
+    "zh-CN": {
+      "title": "用 REA、Ghidra 与 Antigravity 将 CPU-Z 现代化重制为 HW Intel",
+      "summary": "目标是把 CPU-Z 这类硬件检测工具重新打造成现代化应用。通过 REA 作为 MCP 桥接 Ghidra,让 AI 编码代理反编译并重建,产出含 FastAPI 后端与网页界面的 HW Intel,并附上完整提示词。",
+      "target": "CPU-Z(硬件诊断工具)",
+      "metric": "产出可运行的 HW Intel 应用(后端 + 网页界面),并公开完整提示词 prompt.md"
+    }
+  },
+  "d-29a0f7ce64": {
+    "hash": "52bf2c792a5d",
+    "en": {
+      "title": "electron-recon: a three-layer analysis workflow for Electron apps covering asar, V8 bytecode, and native modules",
+      "summary": "Probes first, then analyzes: unpacks the asar, restores .jsc files with jscd, and produces a native module inventory and call sequences for use with REA/Ghidra. In testing, it found no .jsc files in bilibili and automatically skipped that layer, while all 40 .jsc files in another app were decoded.",
+      "target": "Electron apps (bilibili, 閒AI 3.5.7)",
+      "metric": "All 40 .jsc files decoded in 閒AI; bilibili: 7809 files, 15 native modules"
+    },
+    "zh-CN": {
+      "title": "electron-recon：Electron 应用的 asar、V8 字节码、原生三层分析流程",
+      "summary": "先探测再分析，将 asar 解包、用 jscd 还原 .jsc，并产出供 REA/Ghidra 使用的原生模块清单与调用序列。实测中 bilibili 没有 .jsc，因此自动跳过该层；另一个应用的 40 个 .jsc 全部解出。",
+      "target": "Electron 应用（bilibili、閒AI 3.5.7）",
+      "metric": "閒AI 40/40 个 .jsc 全部解出；bilibili 7809 个文件、15 个原生模块"
+    }
+  },
+  "d-4a07cc04d7": {
+    "hash": "40ca7340f3dc",
+    "en": {
+      "title": "Using REA to port the Stremio Android TV experience to a native Flatpak on Bazzite",
+      "summary": "The goal is to bring Stremio Android TV's living-room 10-foot interface to Bazzite/SteamOS without an emulator. The approach is a Rust + GTK4 shell with WebKitGTK and native libmpv (VAAPI/Vulkan), plus an injected bridge script for gamepad spatial navigation, with a one-click build-and-install script. The result is an installable Flatpak and a Steam shortcut, but the excerpt contains no evidence of testing or reverse-engineering findings.",
+      "target": "Stremio (Bazzite/SteamOS Flatpak)",
+      "metric": "Provides a Flatpak with a one-click build that registers into Steam Game Mode"
+    },
+    "zh-CN": {
+      "title": "用 REA 把 Stremio Android TV 体验移植成 Bazzite 原生 Flatpak",
+      "summary": "目标是把 Stremio Android TV 的客厅 10 英尺界面带到 Bazzite/SteamOS，不依赖模拟器。做法是用 Rust + GTK4 外壳搭配 WebKitGTK 与原生 libmpv（VAAPI/Vulkan），并注入手柄空间导航桥接脚本，附一键构建安装脚本。成果是可安装的 Flatpak 与 Steam 快捷方式，但节选内容中没有测试或逆向发现的证据。",
+      "target": "Stremio（Bazzite/SteamOS Flatpak）",
+      "metric": "提供一键构建并注册到 Steam Game Mode 的 Flatpak"
+    }
+  },
+  "d-adae0e9707": {
+    "hash": "fe616de8e6d9",
+    "en": {
+      "title": "Auto-CLI: using REA to recon software and auto-generate agent-native CLIs",
+      "summary": "The goal is to turn REA's recon results into a CLI-Anything harness. The pipeline is recon, classify, scaffold, verify, with support for live verification and Windows UIA driving. It includes a demo video of a Notepad test in which the generated CLI writes text and reads it back, though the demo is an edited version.",
+      "target": "Any software (Windows Notepad as the demo)",
+      "metric": "The generated CLI wrote the release notes into a real Notepad and read them back"
+    },
+    "zh-CN": {
+      "title": "Auto-CLI：用 REA 侦察软件并自动生成 agent 原生 CLI",
+      "summary": "目标是把 REA 的侦察结果转成 CLI-Anything 的 harness。流程为侦察、分类、scaffold、验证，并支持实时验证与 Windows UIA 驱动。附 Notepad 实测演示视频，由生成的 CLI 写入并读回文本，但演示为剪辑后的版本。",
+      "target": "任意软件（以 Windows Notepad 为演示）",
+      "metric": "生成的 CLI 在真实 Notepad 中写入并读回发布说明"
+    }
+  },
+  "d-819c076dd6": {
+    "hash": "9c0ceb6b8ed4",
+    "en": {
+      "title": "sitejack: an agent skill that copies a website's frontend byte for byte and deploys it in one click",
+      "summary": "Positioned as a companion to REA (which reverse-engineers apps) with sitejack cloning websites, it offers recon, full mirroring, secret scanning, and GitHub Pages deployment. It mirrored a 203-file SvelteKit app and put it live, intercepting an embedded Mapbox token along the way.",
+      "target": "Frontend of the SvelteKit site skynetchat.net",
+      "metric": "Mirrored 203 files (15 routes), each verified by SHA-1"
+    },
+    "zh-CN": {
+      "title": "sitejack：可逐字节复制网站前端并一键部署的代理技能",
+      "summary": "定位为 REA 逆向 App、sitejack 复制网站的搭配工具，提供侦察、完整镜像、机密扫描与 GitHub Pages 部署。实际镜像了含 203 个文件的 SvelteKit 应用并上线，过程中拦截到内嵌的 Mapbox token。",
+      "target": "SvelteKit 网站 skynetchat.net 前端",
+      "metric": "镜像 203 个文件（15 条路由），每个文件均以 SHA-1 验证"
+    }
+  },
+  "d-3d833c8bde": {
+    "hash": "32c8611e9bf2",
+    "en": {
+      "title": "Video demo: building a 3D platformer with REA and Claude Code",
+      "summary": "In a YouTube video, the author shows a 3D platformer built with Reverse Engineer Anything and Claude Opus 5.5, saying the result beat expectations. The excerpt doesn't state what was reverse-engineered and offers no code or test evidence.",
+      "target": "3D platformer (self-made)",
+      "metric": "Built a 3D platformer"
+    },
+    "zh-CN": {
+      "title": "用 REA 搭配 Claude Code 制作 3D 平台游戏的视频演示",
+      "summary": "作者在 YouTube 上展示了用 Reverse Engineer Anything 加上 Claude Opus 5.5 做出的一款 3D 平台游戏，并称结果优于预期。节选没有说明逆向的具体目标，也没有提供代码或测试证据。",
+      "target": "3D 平台游戏（自制）",
+      "metric": "做出一款 3D 平台游戏"
+    }
+  },
+  "d-491195bc3d": {
+    "hash": "3d0ce239949e",
+    "en": {
+      "title": "Downloading WeChat Channels videos with WorkBuddy, REA and DeepSeek",
+      "summary": "The author combines WorkBuddy, REA and DeepSeek-V4.1-Flash-1017 and claims to have downloaded videos from WeChat Channels (视频号), mentioning the free quota on the international version and the risk of account violations. The content is the author's own account only, with no code, steps or evidence.",
+      "target": "WeChat Channels video download",
+      "metric": "Claims to have downloaded WeChat Channels videos (self-reported)"
+    },
+    "zh-CN": {
+      "title": "用 WorkBuddy、REA 与 DeepSeek 完成微信视频号视频下载",
+      "summary": "作者结合 WorkBuddy、REA 与 DeepSeek-V4.1-Flash-1017，声称完成了微信视频号的视频下载，并提到海外版免费额度与账号违规风险。内容仅为作者自述，没有代码、步骤或证据。",
+      "target": "微信视频号视频下载",
+      "metric": "自述完成微信视频号视频下载"
+    }
+  },
+  "d-77c880cd1b": {
+    "hash": "1366d9b69f3a",
+    "en": {
+      "title": "Building an Ultron-style AI assistant that controls PC and phone with the REA project",
+      "summary": "In a YouTube video, the author explains how they built an Ultron-like AI assistant that can control a computer and a phone, using the Reverse Engineer Anything GitHub project. The excerpt doesn't reveal what was reverse-engineered and gives no evidence; it reads more like an integration demo.",
+      "target": "Personal AI assistant (PC and phone control)",
+      "metric": "AI assistant can control a PC and a phone"
+    },
+    "zh-CN": {
+      "title": "用 REA 项目打造能控制电脑与手机的 Ultron 式 AI 助理",
+      "summary": "作者在 YouTube 视频中介绍，用 Reverse Engineer Anything 的 GitHub 项目做出了类似 Ultron 的 AI 助理，可控制电脑与手机。节选看不出逆向了什么目标，也没有证据，偏向集成型演示。",
+      "target": "个人 AI 助理（电脑与手机控制）",
+      "metric": "AI 助理可控制 PC 与手机"
+    }
+  },
+  "d-42e56a0631": {
+    "hash": "750f9fa26da2",
+    "en": {
+      "title": "Reverse-engineering the official app with AI to bring Google Maps navigation to the Pulsar dashboard",
+      "summary": "The author wants to use Google Maps on the Pulsar NS200 instrument cluster because the official Bajaj app's navigation isn't practical. They asked OpenCode to help reverse-engineer the official app and build a standalone solution. This is the first post in a series and doesn't mention REA or concrete results.",
+      "target": "Bajaj Pulsar NS200 dashboard navigation",
+      "metric": "Idea for a custom navigation app (author's claim)"
+    },
+    "zh-CN": {
+      "title": "用 AI 逆向官方 App，自制 Pulsar 仪表盘 Google Maps 导航",
+      "summary": "作者想在 Pulsar NS200 仪表盘上使用 Google Maps，因为官方 Bajaj App 的导航不好用。他请 OpenCode 协助逆向官方 App 并做出独立方案。这是系列帖子的开头，没有提到 REA 或具体成果细节。",
+      "target": "Bajaj Pulsar NS200 仪表盘导航",
+      "metric": "自制导航 App 构想（作者自述）"
+    }
+  },
+  "d-f3b5a689bc": {
+    "hash": "a4fe9caf3ac7",
+    "en": {
+      "title": "One-Click Installer for REA, Ghidra, JADX and JDK on Google Antigravity",
+      "summary": "Upstream REA does not install the underlying analysis engines, so users on Windows and Antigravity have to set them up by hand. This repo uses a single command to download and configure Ghidra, JADX, OpenJDK 21, environment variables and MCP settings, and ships with skill documentation.",
+      "target": "REA setup on Google Antigravity",
+      "metric": "One command installs and registers the REA MCP server with 207 tools"
+    },
+    "zh-CN": {
+      "title": "为 Google Antigravity 提供 REA、Ghidra、JADX 与 JDK 一键安装器",
+      "summary": "上游 REA 不会安装底层分析引擎,用户在 Windows 与 Antigravity 上需手动配置。此 repo 以单一命令自动下载并配置 Ghidra、JADX、OpenJDK 21、环境变量与 MCP 配置,并附带技能文档。",
+      "target": "REA 在 Google Antigravity 的安装环境",
+      "metric": "一行命令安装并注册 207 个工具的 REA MCP 服务器"
+    }
+  },
+  "d-592cfe3433": {
+    "hash": "acc32c396e6c",
+    "en": {
+      "title": "Porting an Old PC Game to macOS with REA, Argon and DeepSeek Flash",
+      "summary": "The author used Argon with DeepSeek Flash and REA to port an old PC game to macOS. It has been running continuously for nearly 3 hours and has used only 14% of the 5-hour quota. The post names neither the game nor a final result.",
+      "target": "Old PC game (being ported to macOS)",
+      "metric": "Nearly 3 hours of continuous running, only 14% usage"
+    },
+    "zh-CN": {
+      "title": "用 REA 搭配 Argon 与 DeepSeek Flash 把老 PC 游戏移植到 macOS",
+      "summary": "作者让 Argon 搭配 DeepSeek Flash 使用 REA,把一款老 PC 游戏移植到 macOS。已连续运行近 3 小时,只用掉 5 小时额度的 14%。内容没有交代游戏名称,也没有最终成果。",
+      "target": "老 PC 游戏(移植到 macOS)",
+      "metric": "连续运行近 3 小时,用量仅 14%"
+    }
+  },
+  "d-2666f1f539": {
+    "hash": "5870ef95b89b",
+    "en": {
+      "title": "REA Chinese Tutorial Site: A Hands-On Guide from Firmware Unpacking to Ghidra Analysis",
+      "summary": "rea-reverse.com offers Chinese tutorials for REA, with commands matching the official docs. It covers unpacking SquashFS with Binwalk 3 and Unblob, tests on an official OpenWrt image, and then hands the extracted ELF to Ghidra for analysis. It is tutorial material and reports no new reverse engineering findings.",
+      "target": "OpenWrt firmware image (tutorial example)",
+      "metric": "Multiple tutorials, matching REA 6.7.0"
+    },
+    "zh-CN": {
+      "title": "REA 中文教程站:固件解包到 Ghidra 分析的实操指南",
+      "summary": "rea-reverse.com 提供 REA 的中文教程,命令与官方文档一致。内容包括用 Binwalk 3、Unblob 解包 SquashFS,并以 OpenWrt 官方镜像实测,再把提取的 ELF 交给 Ghidra 分析。属于教程文章,没有新的逆向发现。",
+      "target": "OpenWrt 固件镜像(教程示例)",
+      "metric": "多篇教程,对应 REA 6.7.0"
+    }
+  },
+  "d-c84c6a5916": {
+    "hash": "c0b3e07824a0",
+    "en": {
+      "title": "A Hardened Rootless Podman Container for REA with Multiple Reverse Engineering Tools",
+      "summary": "The goal is to run the REA MCP in an isolated environment containing licence-free tools such as Ghidra, Rizin, JADX, Binwalk and mitmproxy, supporting amd64 and arm64 and installing with pinned checksums. It is hardened with --network=none, read-only mounts and similar measures, and CI runs rea mcp doctor on every push and weekly. This is environment packaging, with no target-specific analysis results.",
+      "target": "Sandbox environment for the REA MCP server",
+      "metric": "Bundles 20+ reverse engineering tools; CI runs rea mcp doctor"
+    },
+    "zh-CN": {
+      "title": "为 REA 制作加固的 rootless Podman 容器并整合多种逆向工具",
+      "summary": "目标是在隔离环境运行 REA MCP,内含 Ghidra、Rizin、JADX、Binwalk、mitmproxy 等免授权工具,支持 amd64 与 arm64,并以固定 checksum 安装。以 --network=none、只读等方式加固,CI 每次推送与每周运行 rea mcp doctor。这是环境封装,没有针对具体目标的分析成果。",
+      "target": "REA MCP 服务器的沙箱环境",
+      "metric": "整合 20 多种逆向工具,CI 运行 rea mcp doctor"
+    }
+  },
+  "d-3bc81a466a": {
+    "hash": "310a2a5f5cdf",
+    "en": {
+      "title": "A CLI agent that uses REA to analyze APKs and rebuild Android apps in Termux",
+      "summary": "The goal is to analyze an APK inside Termux on a phone, capture screens to produce UI wireframes and design documents, then reimplement the features in Flutter, Compose or React. It keeps per-project memory and resumable conversations. The excerpt only describes features, with no specific target app or verified results.",
+      "target": "Any Android app (Termux environment)",
+      "metric": "Full pipeline from APK analysis to UI capture to code generation"
+    },
+    "zh-CN": {
+      "title": "在 Termux 上用 REA 分析 APK 并重建 Android app 的 CLI agent",
+      "summary": "目标是在手机 Termux 中分析 APK,截取画面生成 UI 线框与设计文档,再用 Flutter、Compose 或 React 重新实现功能。具备项目记忆与可延续的对话。节选只有功能说明,没有具体目标 app 或成果验证。",
+      "target": "任意 Android app(Termux 环境)",
+      "metric": "从 APK 分析到 UI 截取再到代码生成的完整流程"
+    }
+  },
+  "d-c6d91dcb0a": {
+    "hash": "854373d1abf1",
+    "en": {
+      "title": "A Windows tool built with REA and AI that maps keyboard input to a virtual Xbox controller",
+      "summary": "The goal is to turn a keyboard into a virtual Xbox 360 controller via ViGEmBus, with per-game profiles and a visual configurator. It ships a downloadable portable build and an installer, and notes that the configurator's source was recovered by decompilation. REA is mentioned in only one sentence, so its reverse-engineering contribution is unclear.",
+      "target": "A JoyToKey-style keyboard-to-gamepad tool (Windows)",
+      "metric": "Released 1.0.0 portable build and installer"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 AI 开发的键盘转 Xbox 虚拟手柄 Windows 工具",
+      "summary": "目标是让键盘通过 ViGEmBus 变成虚拟 Xbox 360 手柄,支持每款游戏的配置文件与可视化配置器。附可下载的免安装版与安装程序,并说明配置器源码是反编译还原。REA 的使用只在一句话中提及,逆向贡献不明。",
+      "target": "JoyToKey 类键盘转手柄工具(Windows)",
+      "metric": "发布 1.0.0 免安装版与安装程序"
+    }
+  },
+  "d-ad90a74a0a": {
+    "hash": "b458c05c2ca5",
+    "en": {
+      "title": "A CLI and MCP server named after REA, bridging Ghidra, Frida, Hopper and more",
+      "summary": "The goal is to let AI agents drive reverse-engineering tools such as Ghidra, Frida, Hopper, binwalk and jadx through a single CLI and MCP server, analyzing native binaries, Electron, .NET and websites. The excerpt covers only installation and feature overview, with no specific reverse-engineering target or verifiable results.",
+      "target": "General-purpose RE toolchain (native, Electron, .NET, websites)",
+      "metric": "Ships an npm package and multilingual READMEs; no concrete analysis results shown"
+    },
+    "zh-CN": {
+      "title": "以 REA 为名的 CLI 与 MCP 服务器,对接 Ghidra、Frida、Hopper 等工具",
+      "summary": "目标是让 AI Agent 通过单一 CLI 与 MCP 服务器对接 Ghidra、Frida、Hopper、binwalk、jadx 等逆向工具,分析原生程序、Electron、.NET 与网站。节选内容只有安装与功能介绍,没有具体逆向目标或可验证成果。",
+      "target": "通用逆向工具链(原生、Electron、.NET、网站)",
+      "metric": "提供 npm 包与多语言 README,未见具体分析成果"
+    }
+  },
+  "d-17c68c8774": {
+    "hash": "17ee87fa834e",
+    "en": {
+      "title": "Tutorial: tracing features in Electron and native apps with REA",
+      "summary": "A SitePoint article shows readers how to install REA and, for an Electron app they are authorized to analyze, trace from a renderer button through the IPC channel to the main-process handler, and into a native addon when needed. It stresses that every result is recorded as Evidence v2, and dynamic or ambiguous IPC channels are marked unresolved. The content is a general workflow tutorial, with no results for a specific target in the excerpt.",
+      "target": "Electron app (tutorial example)",
+      "metric": "Every result comes with an Evidence v2 record"
+    },
+    "zh-CN": {
+      "title": "教程:用 REA 追踪 Electron 与原生 App 的功能",
+      "summary": "SitePoint 文章教读者安装 REA,对有权分析的 Electron 应用,从渲染层按钮经 IPC 通道追到主进程处理函数,必要时进入原生插件。强调每个结果都以 Evidence v2 记录,动态或模糊的 IPC 通道标为未解析。内容为通用流程教程,节选中没有特定目标的成果。",
+      "target": "Electron 应用(教程示例)",
+      "metric": "每个结果附 Evidence v2 证据记录"
+    }
+  },
+  "d-beb2070b7b": {
+    "hash": "06a3bd3ac10d",
+    "en": {
+      "title": "Jarvis Control Center: Integrating Claude Code, Grok, and Codex with a Built-in MCP Server",
+      "summary": "A desktop app that runs multiple CLI agents locally, from a GitHub repository, or over SSH. Its sidebar includes a REA tab, and a built-in MCP server lets Jarvis manage windows and sessions. The excerpt only says that REA reverse-engineers code in its own workspace, with no specific target or result. The focus is tool integration rather than reverse-engineering outcomes.",
+      "target": "Jarvis Control Center (Windows desktop app)",
+      "metric": "Built-in MCP server exposes 88 tools"
+    },
+    "zh-CN": {
+      "title": "Jarvis 控制中心:整合 Claude Code、Grok、Codex 并内置 MCP 服务器",
+      "summary": "这是一个可在本机、GitHub 仓库或 SSH 上运行多个 CLI 代理的桌面应用,侧边栏含 REA 标签页,内置 MCP 服务器供 Jarvis 管理窗口与会话。节选内容只说明 REA 在自己的工作区中逆向代码,没有具体逆向目标或成果。重点在于整合工具而非逆向成果。",
+      "target": "Jarvis Control Center(Windows 桌面应用)",
+      "metric": "内置 MCP 服务器提供 88 个工具"
+    }
+  },
+  "d-1fc64e0369": {
+    "hash": "5fd094c6e1c6",
+    "en": {
+      "title": "Analyzing Obsidian with Claude Code and REA, No Ghidra Needed",
+      "summary": "The author pointed Claude Code with REA at Obsidian and says it figured out everything on its own. Because Obsidian is an Electron app, Ghidra isn't needed. The author says this would once have taken over a decade of manual work, but lists no specific findings.",
+      "target": "Obsidian (Electron app)",
+      "metric": "Self-reported: analysis completed automatically without Ghidra"
+    },
+    "zh-CN": {
+      "title": "用 Claude Code 搭配 REA 分析 Obsidian,无需 Ghidra",
+      "summary": "作者把 Obsidian 交给 Claude Code 加 REA,称它自行找出了所有内容。因为 Obsidian 是 Electron 应用,所以不需要 Ghidra。作者表示这原本要花十多年手工完成,但没有列出具体发现。",
+      "target": "Obsidian(Electron 应用)",
+      "metric": "自述无需 Ghidra 即可自动完成分析"
+    }
+  },
+  "d-5817b33335": {
+    "hash": "f918154dcf28",
+    "en": {
+      "title": "The Shortest REA Setup Path for Beginners: Upgrade Node and Connect an Agent",
+      "summary": "The author lays out REA's getting-started steps for newcomers: Node must be 22.19+/24.11+/26+. With the original Node 20, the doctor check was red, and it turned green only after upgrading to 24.22.1. Next, run npx rea-agents@latest setup, choose a client, approve the plan, and restart. This is an installation tutorial and involves no reverse engineering of any target.",
+      "target": "REA installation and setup flow",
+      "metric": "Doctor check turned green after upgrading from Node 20 to 24.22.1"
+    },
+    "zh-CN": {
+      "title": "整理 REA 新手最短安装路径:升级 Node 并接入 Agent",
+      "summary": "作者为新手整理了 REA 的上手步骤:Node 需 22.19+/24.11+/26+,原本 Node 20 时 doctor 检查为红灯,升级到 24.22.1 后才转绿。接着用 npx rea-agents@latest setup 选择客户端、批准计划并重启。内容为安装教程,没有对任何目标做逆向。",
+      "target": "REA 安装与设置流程",
+      "metric": "Node 20 升级到 24.22.1 后 doctor 检查转绿"
+    }
+  },
+  "d-c750f6ac0f": {
+    "hash": "423a66b4655d",
+    "en": {
+      "title": "Tutorial: Download the notes-example Sample and Analyze a JS App with REA",
+      "summary": "The author demonstrates step three: download notes-example.zip from rea.tools, unzip it, and analyze it with rea-agents' analyze-javascript-application command plus --json. The content covers the steps for the official sample and shows no analysis results.",
+      "target": "REA official sample notes-example",
+      "metric": "A single command analyzes the sample JS app and outputs JSON"
+    },
+    "zh-CN": {
+      "title": "教程:下载示例 notes-example 并用 REA 分析 JS 应用",
+      "summary": "作者演示第三步:下载 rea.tools 提供的 notes-example.zip,解压后用 rea-agents 的 analyze-javascript-application 命令加 --json 进行分析。内容是官方示例的操作步骤,没有展示分析结果。",
+      "target": "REA 官方示例 notes-example",
+      "metric": "用单条命令分析示例 JS 应用并输出 JSON"
+    }
   }
 }

@@ -12028,5 +12028,500 @@
       "target": "未指明的原生函数",
       "metric": "反编译结果与原始指令不一致,揭示函数实际读取栈上的数字输入"
     }
+  },
+  "d-5777bfc7ed": {
+    "hash": "24721df76690",
+    "en": {
+      "title": "Using REA to take apart GuitarTuna and rebuild a tuner with custom tunings",
+      "summary": "The author used REA to analyze how GuitarTuna works, then rebuilt a guitar tuner on their own that supports alternate and fully custom tunings. Along the way they learned pitch detection, frequency-to-cents conversion, and AudioWorklet, but no code or test evidence is provided.",
+      "target": "GuitarTuna guitar tuner",
+      "metric": "Rebuilt a tuner that supports custom tunings"
+    },
+    "zh-CN": {
+      "title": "用 REA 拆解 GuitarTuna 原理并重建支持自定义调弦的调音器",
+      "summary": "作者用 REA 分析 GuitarTuna 的工作方式,再自行重建出支持替代调弦与完全自定义调弦的吉他调音器。过程中学到音高检测、频率转音分与 AudioWorklet,但未附代码或测试证据。",
+      "target": "GuitarTuna 吉他调音器",
+      "metric": "重建支持自定义调弦的调音器"
+    }
+  },
+  "d-23bb627776": {
+    "hash": "99f757d51ada",
+    "en": {
+      "title": "Readwell: an Apple Books–style browser reader built with REA and Claude Code",
+      "summary": "The author wanted an Apple Books–like reading experience in the browser, so they built Readwell with REA and Claude Code and deployed it to Vercel. The post offers only a link and a brief description, and doesn't say where REA was actually used.",
+      "target": "Apple Books (features recreated as a web reader)",
+      "metric": "Readwell deployed live on Vercel"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Claude Code 做出浏览器版 Apple Books 风格阅读器 Readwell",
+      "summary": "作者想在浏览器中使用类似 Apple Books 的阅读体验,用 REA 搭配 Claude Code 做出 Readwell 并部署到 Vercel。内容仅附链接与简短说明,未说明 REA 具体用在哪里。",
+      "target": "Apple Books(功能复刻为网页阅读器)",
+      "metric": "已部署 Vercel 在线版 Readwell"
+    }
+  },
+  "d-b48bd9e7da": {
+    "hash": "1b701e35e91f",
+    "en": {
+      "title": "Decompiling three peripheral vendors' software with REA into a single control app",
+      "summary": "The author owns a headset, mouse, and keyboard from different brands. They used REA to decompile all three vendors' official software and built one integrated app that controls all three devices. The post is the author's own account only, with no code or demo.",
+      "target": "Official control software for three brands: headset, mouse, and keyboard",
+      "metric": "Three peripherals from different brands unified in one app"
+    },
+    "zh-CN": {
+      "title": "用 REA 反编译三家外设软件并整合成单一控制程序",
+      "summary": "作者拥有不同品牌的耳机、鼠标与键盘,用 REA 反编译三者的原厂软件,并做出一个整合软件,可用单一程序控制三种设备。内容只有作者自述,没有代码或演示。",
+      "target": "耳机、鼠标、键盘三个品牌的原厂控制软件",
+      "metric": "三款不同品牌外设整合进单一程序"
+    }
+  },
+  "d-88735422c0": {
+    "hash": "4ef12aa2af0e",
+    "en": {
+      "title": "Static reverse engineering of Daikin's official Android app to build a menu-bar controller",
+      "summary": "The author opened the Daikin Smart AC Brasil APK (v1.1.73) with the REA toolkit and decompiled the DEX with jadx. They found the Cognito config and endpoints hidden behind JNI getters, that the app itself is a shell around IOTA Labs/AWS SDKs, and identified three communication channels.",
+      "target": "Daikin Smart AC Brasil Android app",
+      "metric": "Identified three channels: local HTTP:15914 AES, SoftAP, and AWS IoT MQTT"
+    },
+    "zh-CN": {
+      "title": "静态逆向 Daikin 官方 Android App 以制作菜单栏控制工具",
+      "summary": "作者用 REA toolkit 打开 Daikin Smart AC Brasil APK(v1.1.73),以 jadx 反编译 DEX。发现 Cognito 与端点藏在 JNI getter 后,App 本体是 IOTA Labs/AWS SDK 的外壳,并找出三种通信通道。",
+      "target": "Daikin Smart AC Brasil Android App",
+      "metric": "找出本地 HTTP:15914 AES、SoftAP、AWS IoT MQTT 三种通道"
+    }
+  },
+  "d-20dc2e5d41": {
+    "hash": "a26a95978272",
+    "en": {
+      "title": "Deconstructing and faithfully recreating the Claude desktop UI with REA, including 30 React components",
+      "summary": "The open-claude-ui project uses REA to deeply deconstruct the official Claude desktop client, recreating 30 standalone React components and their interaction physics algorithms, along with a reverse-engineering handbook of more than 3,000 lines. The results are public on GitHub, making it a feature-for-feature clone of a well-known product.",
+      "target": "Official Claude desktop UI (Electron)",
+      "metric": "30 React components and a 3,000+ line reverse-engineering handbook"
+    },
+    "zh-CN": {
+      "title": "以 REA 拆解并高保真还原 Claude 桌面版 UI，含 30 个 React 组件",
+      "summary": "open-claude-ui 项目以 REA 深度拆解 Claude 官方桌面端，还原 30 个独立 React 组件与交互物理算法，并附上 3000 多行逆向分析手册。成果已公开于 GitHub，属于知名产品的功能复刻。",
+      "target": "Claude 官方桌面端 UI（Electron）",
+      "metric": "30 个 React 组件与 3000+ 行逆向分析手册"
+    }
+  },
+  "d-e6f2eff6ed": {
+    "hash": "83fbdaced8e2",
+    "en": {
+      "title": "Reverse-engineering the Spotify web player and building a clone",
+      "summary": "The author used REA to reverse-engineer the Spotify web player and built a clone from it, with GitHub links to both the REA tool and their own code. A public repo exists, but the excerpt says nothing about testing or how faithful the recreation is.",
+      "target": "Spotify web player",
+      "metric": "Public GitHub repo of a Spotify player clone"
+    },
+    "zh-CN": {
+      "title": "逆向 Spotify 网页播放器并做出复刻版",
+      "summary": "作者使用 REA 逆向 Spotify 网页播放器，并据此做出复刻版，同时附上 REA 工具和自己代码的 GitHub 链接。有公开 repo，但节选中没有测试或还原程度的说明。",
+      "target": "Spotify 网页播放器",
+      "metric": "公开 GitHub repo 的 Spotify 播放器复刻版"
+    }
+  },
+  "d-1a95aa94f5": {
+    "hash": "ca320b035f99",
+    "en": {
+      "title": "Reverse-engineering the Yeelight Station Windows installer and rebuilding it as a Mac app in Swift",
+      "summary": "Yeelight Station only ships for Windows, so the author used REA to reverse-engineer its installer and rebuilt a native Mac version in Swift. It includes menu bar control, screen sync and music sync, and the GitHub repo is public as open source and signed.",
+      "target": "Yeelight Station (Windows app)",
+      "metric": "Public GitHub repo with menu bar control, screen sync and music sync"
+    },
+    "zh-CN": {
+      "title": "逆向 Yeelight Station Windows 安装程序并用 Swift 重建 Mac 版",
+      "summary": "Yeelight Station 只有 Windows 版，作者用 REA 逆向其安装程序，以 Swift 原生重建 Mac 版。包含菜单栏控制、屏幕同步与音乐同步，并以开源、已签名的方式公开 GitHub repo。",
+      "target": "Yeelight Station（Windows 应用）",
+      "metric": "公开 GitHub repo，具备菜单栏控制、屏幕同步、音乐同步功能"
+    }
+  },
+  "d-89f5bae7e1": {
+    "hash": "cec638984407",
+    "en": {
+      "title": "Reverse-engineering TikTok Studio to build a Linux terminal tool for streaming to TikTok LIVE",
+      "summary": "The author used REA to reverse-engineer TikTok Studio and published a GitHub repo that lets users stream video files to TikTok LIVE from a Linux terminal. The content is only a short post and a repo link, with no testing or evidence details.",
+      "target": "TikTok Studio / TikTok LIVE streaming",
+      "metric": "Public repo: tiktok-live-linux"
+    },
+    "zh-CN": {
+      "title": "逆向 TikTok Studio，做出 Linux 终端推流到 TikTok LIVE 的工具",
+      "summary": "作者用 REA 逆向 TikTok Studio，并公开 GitHub repo，让用户能从 Linux 终端把视频文件推流到 TikTok LIVE。内容只有简短帖子和 repo 链接，未提供测试或证据细节。",
+      "target": "TikTok Studio / TikTok LIVE 推流",
+      "metric": "公开 repo：tiktok-live-linux"
+    }
+  },
+  "d-f0f6905464": {
+    "hash": "2007968ea8d2",
+    "en": {
+      "title": "Decompiling the Claude desktop app with REA and restoring it as an open-source React component library",
+      "summary": "The open-claude-ui project uses REA to decompile the Claude desktop app and restore its interface as an open-source component library, along with a standalone design-token layer. It is released under the MIT license, and the post claims 1357 stars.",
+      "target": "Claude desktop app UI",
+      "metric": "30 React components, 183 design tokens, 1357 stars"
+    },
+    "zh-CN": {
+      "title": "用 REA 反编译 Claude 桌面端并还原成开源 React 组件库",
+      "summary": "open-claude-ui 项目借助 REA 反编译 Claude 桌面端，把界面还原为开源组件库，并提供可单独使用的设计令牌层。项目以 MIT 许可公开，帖子称已有 1357 颗星。",
+      "target": "Claude 桌面端 UI",
+      "metric": "30 个 React 组件、183 个设计令牌、1357 星"
+    }
+  },
+  "d-301760cfa8": {
+    "hash": "36622d1a367e",
+    "en": {
+      "title": "Reverse-engineering Tesla CarPlay box firmware with Claude+Codex+REA and patching its bottleneck",
+      "summary": "The author had never touched this box's firmware. They let an AI agent working with REA take it apart, find the performance bottleneck, and patch it directly. The display went from blurry 30fps JPEG to HEVC streamed straight from the phone, at full resolution, about 60fps, with 2ms decode time. The author claims it is fully open source.",
+      "target": "Tesla CarPlay box firmware",
+      "metric": "JPEG 30fps replaced by HEVC at about 60fps, 2ms decode"
+    },
+    "zh-CN": {
+      "title": "用 Claude+Codex+REA 逆向 Tesla CarPlay 盒子固件并修补瓶颈",
+      "summary": "作者从未接触过该盒子的固件，让 AI agent 搭配 REA 拆解并找出性能瓶颈后直接修补。画面从模糊的 30fps JPEG 改为手机直出 HEVC，全分辨率、约 60fps、解码 2ms，并宣称完整开源。",
+      "target": "Tesla CarPlay 盒子固件",
+      "metric": "JPEG 30fps 改为 HEVC 约 60fps、解码 2ms"
+    }
+  },
+  "d-c2133517a2": {
+    "hash": "6b3c27da946d",
+    "en": {
+      "title": "Observing Arc browser behavior with REA to build Radian, an open-source macOS replica",
+      "summary": "After Arc announced it would stop service, the goal was to provide an open-source alternative browser that recreates the sidebar, Spaces, command bar, and shortcuts. Built with Electron, its behavior comes from observing how Arc runs and measuring it frame by frame, not from reading its code. There is an MIT-licensed repo, a downloadable DMG release, and a test workflow.",
+      "target": "Arc browser (macOS)",
+      "metric": "Public macOS arm64 DMG release, open source under MIT"
+    },
+    "zh-CN": {
+      "title": "用 REA 观察 Arc 浏览器行为，复刻开源 macOS 版 Radian",
+      "summary": "目标是在 Arc 宣布停止服务后，提供开源的替代浏览器，重现侧边栏、Spaces、命令栏与快捷键。以 Electron 实现，行为靠观察 Arc 运行并逐帧测量，而非读取其代码。已有 MIT 许可的 repo、可下载的 DMG 发行版与测试流程。",
+      "target": "Arc 浏览器（macOS）",
+      "metric": "公开发布 macOS arm64 DMG，MIT 许可开源"
+    }
+  },
+  "d-363095fea2": {
+    "hash": "5a6abb50d162",
+    "en": {
+      "title": "Analyzing six minified browser games with REA and building three playable mashups from the results",
+      "summary": "The targets were six MIT-licensed open-source browser games, first minified into their shipped form and then statically analyzed with REA. REA recovered function counts, property names, timers, and event listeners almost completely, with exact file:line:column positions inside the minified bundles. From this the author wrote three playable mashups, Snake 2048, Tetris Invaders, and Lunar Asteroids, with pure-function rules, tests, and an assisted-player simulation.",
+      "target": "Six open-source browser games (Asteroids, Lunar Lander, Snake, Space Invaders, 2048, Tetris)",
+      "metric": "Checked against the original source: 100% function recovery per game (e.g. 97/97 for 2048); the mashups' assisted player won 155 of 200 seeded test runs"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析六款压缩后的浏览器游戏，并据此拼出三款可玩的混搭游戏",
+      "summary": "目标是六款 MIT 许可的开源浏览器游戏，先压缩成实际发行的形式，再用 REA 静态分析。REA 几乎完整还原函数数量、属性名称、计时器与事件监听，并附上压缩文件内精确的 file:line:column；作者据此写出 Snake 2048、Tetris Invaders、Lunar Asteroids 三款可玩混搭，规则为纯函数并有测试与辅助玩家模拟。",
+      "target": "六款开源浏览器游戏（Asteroids、Lunar Lander、Snake、Space Invaders、2048、Tetris）",
+      "metric": "与源代码对照：各游戏函数 100% 还原（如 2048 为 97/97）；混搭辅助玩家在 200 次种子测试中赢 155 次"
+    }
+  },
+  "d-ac20b90913": {
+    "hash": "174a37728e1b",
+    "en": {
+      "title": "Rewriting REA in Rust with a native Ghidra worker, with major memory and speed gains",
+      "summary": "REA was rebuilt in Rust, keeping the tool contract and Evidence model, and now ships as a single native binary with no Node or JVM required. On an ELF with 50,000 packages it runs about 5.9x faster and uses 8.5x less memory; the native Ghidra worker also handled decompilation of UnityPlayer.dylib (170,000 functions) and the entire Unity.app.",
+      "target": "REA itself (CLI/MCP tools and the Ghidra provider)",
+      "metric": "ELF with 50,000 packages: time down from 1.01 s to 0.17 s, memory down from 500 MiB to 59 MiB; 195 of 209 MCP tools now have native handlers"
+    },
+    "zh-CN": {
+      "title": "用 Rust 重写 REA 并附原生 Ghidra worker,内存与速度大幅改善",
+      "summary": "用 Rust 重建 REA,保留工具契约与 Evidence 模型,改为无需 Node 和 JVM 的单一原生可执行文件。实测 5 万个软件包的 ELF,速度约快 5.9 倍、内存少 8.5 倍;原生 Ghidra worker 还处理了 17 万个函数的 UnityPlayer.dylib 以及整个 Unity.app 的反编译。",
+      "target": "REA 本身(CLI/MCP 工具与 Ghidra 提供者)",
+      "metric": "5 万个软件包的 ELF:耗时从 1.01 秒降到 0.17 秒,内存从 500 MiB 降到 59 MiB;195/209 个 MCP 工具已有原生处理器"
+    }
+  },
+  "d-c1e58248af": {
+    "hash": "2407307af1aa",
+    "en": {
+      "title": "Passive reverse-engineering of the BTC Pulse single-page app on Base44, with security findings",
+      "summary": "Using passive observation via the Chrome DevTools Protocol, static analysis of an 835 KB minified bundle, and read-only probing of public endpoints only, the author mapped the routes, APIs, authentication, and third-party integrations. Nine findings are listed, such as a JWT kept in localStorage, no CSP, and market data sent to a third-party LLM, along with evidence files and probe scripts. The post-login area was not observed, so the conclusions are static inference only.",
+      "target": "The BTC Pulse single-page app at bitcoinorenai.base44.app",
+      "metric": "9 security and privacy findings, with 8 evidence JSON files and a CDP probe script"
+    },
+    "zh-CN": {
+      "title": "被动逆向分析 Base44 平台上的 BTC Pulse 单页应用并整理安全发现",
+      "summary": "通过 Chrome DevTools Protocol 被动观察、静态分析 835 KB 压缩 bundle,并仅对公开端点做只读探测,整理出路由、API、认证与第三方集成。列出 9 项发现,如 JWT 存放在 localStorage、缺少 CSP、将行情发送给第三方 LLM,并附证据文件和探测脚本;登录后区域未观察,结论仅属静态推断。",
+      "target": "bitcoinorenai.base44.app 上的 BTC Pulse 单页应用",
+      "metric": "9 项安全与隐私发现,附 8 份证据 JSON 与 CDP 探测脚本"
+    }
+  },
+  "d-b912e082d8": {
+    "hash": "682c17568eff",
+    "en": {
+      "title": "Measuring Mario 64 run and jump parameters with REA to build an original 3D platformer",
+      "summary": "The author used REA with Claude to extract the numeric run and jump parameters from Super Mario 64, checking each one twice. Claude Code then built an original-asset 3D platformer from those parameters, and the author published a video and the workflow. A game demo is shown, but the account is the author's own and there is no comparative testing.",
+      "target": "Super Mario 64 movement parameters",
+      "metric": "Run and jump parameters extracted and cross-verified, used to build a playable original game"
+    },
+    "zh-CN": {
+      "title": "用 REA 测量 Mario 64 跑跳参数并做出原创 3D 平台游戏",
+      "summary": "作者用 REA 搭配 Claude 从 Super Mario 64 中提取跑步与跳跃的数值参数,每项都检查两次。随后让 Claude Code 依据这些参数,用原创素材做出 3D 平台游戏,并公开了视频和工作流程。成果有游戏演示,但内容为作者自述,没有对照测试。",
+      "target": "Super Mario 64 移动参数",
+      "metric": "提取并交叉验证跑与跳的数值参数,据此做出可玩的原创游戏"
+    }
+  },
+  "d-4ea99847bd": {
+    "hash": "6967593a6f63",
+    "en": {
+      "title": "Extracting run and jump values from a 3D platformer with REA to build a new game",
+      "summary": "The author used REA to extract run and jump parameters from a well-known 3D platformer and handed them to Claude Code as target specs for a new game. The post is the author's own account only, with no concrete values, code, or links to results.",
+      "target": "Movement parameters of a well-known 3D platformer",
+      "metric": "Run and jump values extracted as targets for a new game"
+    },
+    "zh-CN": {
+      "title": "用 REA 提取 3D 平台游戏的跑跳数值并据以制作新游戏",
+      "summary": "作者用 REA 从一款知名 3D 平台游戏中提取跑步与跳跃参数,交给 Claude Code 作为新游戏的目标规格。帖子只有作者自述,未附具体数值、代码或成果链接。",
+      "target": "知名 3D 平台游戏的移动参数",
+      "metric": "提取跑步与跳跃数值作为新游戏的目标"
+    }
+  },
+  "d-9fd5cd3600": {
+    "hash": "c69f4e1991f6",
+    "en": {
+      "title": "Analyzing http-server 14.1.1 with REA and verifying with real requests",
+      "summary": "The author took apart the public npm release of http-server 14.1.1, used the local REA MCP to call analyze_javascript_application on 12 JS files, then checked the findings with real requests. They found that disabling directory listing (-d false) is not the same as restricting file access: /notes.txt and /.env still return 200.",
+      "target": "npm package http-server 14.1.1",
+      "metric": "After -d false, /notes.txt and /.env still return 200"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析 http-server 14.1.1 并以真实请求验证",
+      "summary": "作者拆开公开的 npm 发布包 http-server 14.1.1,通过本机 REA MCP 调用 analyze_javascript_application 解析 12 个 JS 文件,再用真实请求核对。发现关闭目录列表(-d false)与限制文件访问是两回事,/notes.txt 和 /.env 仍返回 200。",
+      "target": "npm 包 http-server 14.1.1",
+      "metric": "-d false 后 /notes.txt 与 /.env 仍返回 200"
+    }
+  },
+  "d-f936743c8b": {
+    "hash": "a3d7a7df1e66",
+    "en": {
+      "title": "Rebuilding a backend from client code recovered with REA and REPLICA, and auditing the API contract with scripts",
+      "summary": "The goal is to rebuild a backend from the client code extracted by REA when the original server is gone. The author distilled 18 deterministic rules and provides a static audit script that compares the frontend and backend API contracts and SQL schema. The document mentions real case studies and claims 100% contract consistency, but the excerpt contains no concrete target or verifiable data.",
+      "target": "Backends inferred from client code (Electron, SPA, mobile apps)",
+      "metric": "18 rules; audit script claims 100% contract consistency"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 REPLICA 还原的客户端代码重建后端,并以脚本审计 API 契约",
+      "summary": "目标是在原服务器消失时,依据 REA 提取的客户端代码重建后端。作者整理出 18 条确定性规则,并提供静态审计脚本,对比前端与后端的 API 契约及 SQL 结构。文档提到真实案例研究,也宣称达到 100% 契约一致,但节选中没有具体目标和可验证的数据。",
+      "target": "由客户端代码反推后端(Electron、SPA、移动应用)",
+      "metric": "18 条规则,审计脚本声称 100% 契约一致"
+    }
+  },
+  "d-42650167a1": {
+    "hash": "414645b3f6ba",
+    "en": {
+      "title": "Reverse engineering a PS1 game with REA and releasing the result on itch.io",
+      "summary": "The author used REA to reverse engineer a PS1 game, labeled it as being for learning purposes, and attached a link to an itch.io page. The post mentions a Castlevania tag but does not say what was done or found.",
+      "target": "PS1 game (tag mentions Castlevania)",
+      "metric": "Published itch.io page \"Da Cruz à Glória\""
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向 PS1 游戏并在 itch.io 发布成果",
+      "summary": "作者用 REA 对一款 PS1 游戏做逆向工程,标注为学习用途,并附上 itch.io 页面链接。帖子提到 Castlevania 标签,但没有说明具体做了什么或发现了什么。",
+      "target": "PS1 游戏(标签提及 Castlevania)",
+      "metric": "发布 itch.io 页面《Da Cruz à Glória》"
+    }
+  },
+  "d-ebd32f9e34": {
+    "hash": "b41184a88a4f",
+    "en": {
+      "title": "Building OpenStreetChaves with REA, with Linux and macOS builds planned",
+      "summary": "The author says they are building OpenStreetChaves with REA and that Linux and macOS builds will finally be available. The post does not describe the original target or any actual results, only the author's teaser.",
+      "target": "OpenStreetChaves",
+      "metric": "Linux and macOS builds planned"
+    },
+    "zh-CN": {
+      "title": "用 REA 制作 OpenStreetChaves,计划提供 Linux 与 macOS 版本",
+      "summary": "作者表示正在用 REA 构建 OpenStreetChaves,并说终于会有 Linux 和 macOS 的构建版本。内容没有说明原始目标或实际成果,只有作者的预告。",
+      "target": "OpenStreetChaves",
+      "metric": "计划提供 Linux 与 macOS 构建版本"
+    }
+  },
+  "d-fcf1d62762": {
+    "hash": "4192fbbd1fcf",
+    "en": {
+      "title": "Reverse-engineered a well-known German automaker's software and made it AI-native",
+      "summary": "The author claims to have reverse-engineered software from a well-known German automaker and turned it AI-native. The post doesn't say which software it is or what features were built, and offers no evidence.",
+      "target": "Software from a German automaker (unnamed)",
+      "metric": "Self-reported reverse engineering and AI-fication of a German automaker's software; no details"
+    },
+    "zh-CN": {
+      "title": "逆向德国知名车厂软件并改造成 AI 原生",
+      "summary": "作者自称逆向了一家知名德国车厂的软件，并让它变成 AI 原生。内容未说明是哪款软件、实现了什么功能，也没有提供证据。",
+      "target": "某德国车厂的软件（未具名）",
+      "metric": "自述完成德国车厂软件逆向并 AI 化，无细节"
+    }
+  },
+  "d-308da2cd9e": {
+    "hash": "36e97f68870e",
+    "en": {
+      "title": "Studied the mechanics of Redline '80 and built a top-down racing game from the notes",
+      "summary": "The author used REA with an AI agent to study the mechanics of the racing game Redline '80, then built a top-down racing game from their own notes, with all-new code and art. This is the author's own account only; no repo, screenshots, or tests are provided.",
+      "target": "Redline '80 (top-down racing game)",
+      "metric": "Remade an original top-down racing game based on analysis notes"
+    },
+    "zh-CN": {
+      "title": "研究 Redline '80 的玩法机制并依笔记自制俯视赛车游戏",
+      "summary": "作者用 REA 搭配 AI agent 研究赛车游戏 Redline '80 的机制，再根据自己的笔记，用全新的代码与美术做出俯视角赛车游戏。内容仅为作者自述，未附 repo、截图或测试。",
+      "target": "Redline '80（俯视赛车游戏）",
+      "metric": "依分析笔记重新制作一款原创俯视赛车游戏"
+    }
+  },
+  "d-35d1869227": {
+    "hash": "46e9ad04472f",
+    "en": {
+      "title": "Used REA to have an agent walk through an insurance startup's quote flow and built two working versions",
+      "summary": "Running REA on Grok Bot, the author had an agent walk through an insurance startup's quote flow in about an hour, producing a clone and a corrected version. This is the author's own account; no repo or evidence is provided.",
+      "target": "An insurance startup's quote flow (user flow)",
+      "metric": "2 working versions (a clone and a corrected version) in about 1 hour"
+    },
+    "zh-CN": {
+      "title": "用 REA 让 agent 走访保险初创公司的报价流程并做出两个可用版本",
+      "summary": "作者在 Grok Bot 上运行 REA，约一小时内让 agent 走完某保险初创公司的报价流程，产出一个复制版和一个修正版。内容为作者自述，未提供 repo 或证据。",
+      "target": "保险初创公司的报价流程（用户流程）",
+      "metric": "约 1 小时产出复制版与修正版共 2 个可运行版本"
+    }
+  },
+  "d-ac304de208": {
+    "hash": "8939734e615b",
+    "en": {
+      "title": "Got part of a game working with REA, but it was slow and token-hungry",
+      "summary": "The author tried reverse-engineering a game with REA and got some features working. The process was slow and consumed a lot of tokens, and the author thinks ultrafast mode would suit it better.",
+      "target": "A game (unnamed)",
+      "metric": "Some game features are now working"
+    },
+    "zh-CN": {
+      "title": "用 REA 让某款游戏部分可运行，但耗时又耗 token",
+      "summary": "作者尝试用 REA 对一款游戏做逆向，已让部分功能可以运行。但过程很慢，且消耗大量 token，认为更适合改用 ultrafast 模式处理。",
+      "target": "某款游戏（未具名）",
+      "metric": "部分游戏功能已可运行"
+    }
+  },
+  "d-95e26eefc9": {
+    "hash": "8681ce84548b",
+    "en": {
+      "title": "YouTube Tutorial: Reverse Engineer Anything with REA in Claude Code",
+      "summary": "A video by Outskill introduces the REA GitHub project and claims to have tested it getting an AI to rebuild an app without access to the source code. The excerpt contains only a brief description and promotion, with no concrete target or result.",
+      "target": "REA tool usage tutorial",
+      "metric": "No concrete results; demo and introduction video only"
+    },
+    "zh-CN": {
+      "title": "YouTube 教程:在 Claude Code 中使用 REA 逆向任何东西",
+      "summary": "Outskill 的视频介绍了 REA 这个 GitHub 项目,并声称测试过它能在没有源代码的情况下让 AI 重建应用。节选内容只有简短描述和推广,没有具体目标或成果。",
+      "target": "REA 工具使用教程",
+      "metric": "无具体成果,仅为演示与介绍视频"
+    }
+  },
+  "d-d344b5b6e5": {
+    "hash": "7eb2687ba883",
+    "en": {
+      "title": "Cloning an Entire Program Automatically with DeepSeek, OpenCode, ponytail and REA",
+      "summary": "The author had DeepSeek reverse engineer and clone a program through REA. When the context grew to about 175K tokens, ponytail compressed it to about 7K so work could continue. The author claims it carried on until the program was finished, but the post provides no target program, code, or evidence of results.",
+      "target": "An unnamed program (reverse engineered with REA, then cloned)",
+      "metric": "Context compressed from ~175K tokens to ~7K tokens, then work continued"
+    },
+    "zh-CN": {
+      "title": "用 DeepSeek 搭配 OpenCode、ponytail 与 REA 自动复制整个程序",
+      "summary": "作者让 DeepSeek 通过 REA 逆向并复制一个程序,上下文累积到约 17.5 万 token 时用 ponytail 压缩到约 7 千再继续。作者自称能一路做到程序完成,但内容未提供目标程序、代码或成果证据。",
+      "target": "未具名的程序(以 REA 逆向后复制)",
+      "metric": "上下文由约 17.5 万 token 压缩至约 7 千 token 后继续"
+    }
+  },
+  "d-ea18e4b3ce": {
+    "hash": "14598dd8ec96",
+    "en": {
+      "title": "Running REA Reverse Engineering on a Google A100 Machine via Cloudflare Tunnel with Two Models",
+      "summary": "The author used a Google A100 machine as compute through a Cloudflare tunnel, pairing the GLM5.3-Flash and Qwen3-Coder 30B-A3B models with REA for reverse engineering, and says it ran smoothly. The post does not say what was reverse engineered and gives no concrete results.",
+      "target": "Unnamed reverse engineering target (A100 + dual-model setup)",
+      "metric": "GLM5.3-Flash and Qwen3-Coder 30B-A3B running together with REA"
+    },
+    "zh-CN": {
+      "title": "用 Google A100 机器经 Cloudflare 隧道搭配双模型跑 REA 逆向",
+      "summary": "作者把 Google A100 机器通过 Cloudflare 隧道当作算力资源,用 GLM5.3-Flash 与 Qwen3-Coder 30B-A3B 两个模型配合 REA 做逆向工程,并表示运行顺利。未说明逆向对象,也没有具体成果。",
+      "target": "未具名的逆向目标(A100 + 双模型环境)",
+      "metric": "GLM5.3-Flash 与 Qwen3-Coder 30B-A3B 双模型搭配 REA 运行"
+    }
+  },
+  "d-474313631a": {
+    "hash": "c88aec77f427",
+    "en": {
+      "title": "A Configuration Plugin Connecting REA's MCP Server to DeepSeek Harness",
+      "summary": "The goal is to give DeepSeek Harness access to all of REA's reverse engineering tools. Instead of writing plugin code, it uses only config files to mount REA over stdio through an MCP client, with both Windows and POSIX configurations provided. The author verified on Windows that the handshake succeeds and 170 tools are registered; macOS and Linux have not been verified end to end.",
+      "target": "DeepSeek Harness and REA MCP integration",
+      "metric": "170 mcp__rea__ tools registered in testing (Windows)"
+    },
+    "zh-CN": {
+      "title": "把 REA 的 MCP 服务器接入 DeepSeek Harness 的配置插件",
+      "summary": "目标是让 DeepSeek Harness 能使用 REA 的全部逆向工具。做法是不写插件代码,只用配置文件通过 MCP client 以 stdio 挂载 REA,并提供 Windows 与 POSIX 两种配置。作者在 Windows 实测握手成功并注册 170 个工具,macOS 与 Linux 尚未端到端验证。",
+      "target": "DeepSeek Harness 与 REA MCP 集成",
+      "metric": "实测注册 170 个 mcp__rea__ 工具(Windows)"
+    }
+  },
+  "d-a72da557c1": {
+    "hash": "1b607a319916",
+    "en": {
+      "title": "Extending REA to analyze Motorola 6809 and Zilog Z80 raw binaries with Ghidra",
+      "summary": "This fork builds on REA 6.7.0 and adds static analysis for raw 6809 and Z80 binaries, while keeping existing architecture support such as 6502. The documentation covers usage, configuration, and verification, but the excerpt contains no concrete analysis results or test data.",
+      "target": "Motorola 6809 / Zilog Z80 / MOS 6502 retro CPU binaries",
+      "metric": "Added Ghidra analysis support for two CPU architectures: 6809 and Z80"
+    },
+    "zh-CN": {
+      "title": "扩展 REA，用 Ghidra 分析 Motorola 6809 与 Zilog Z80 原始二进制",
+      "summary": "该衍生版本以 REA 6.7.0 为基础，加入对 6809 和 Z80 裸二进制的静态分析，并保留 6502 等既有架构支持。文档说明了用法、配置与验证方式，但节选内容中没有具体的分析成果或测试数据。",
+      "target": "Motorola 6809 / Zilog Z80 / MOS 6502 复古 CPU 二进制",
+      "metric": "新增 6809 与 Z80 两种 CPU 架构的 Ghidra 分析支持"
+    }
+  },
+  "d-65db871ca5": {
+    "hash": "69c23fa09040",
+    "en": {
+      "title": "Five Claude skills for game and app modding, including a REA reverse-engineering workflow",
+      "summary": "The goal is to let Claude help mod games and apps the user owns, through five skills covering recon, reverse engineering, build, art, and release. It includes playbooks for 15 engines, a REA tool mapping, and a `uh` command-line tool, and integrates REA for reversing .NET, IL2CPP, native code, and pak AES keys. A public repo and plugin installation are available, but no reverse-engineering results for specific target games are shown.",
+      "target": "Game and app modding (15 engines)",
+      "metric": "15 engine playbooks, 120+ field notes, 5 skills"
+    },
+    "zh-CN": {
+      "title": "为游戏与应用改装打造五个 Claude 技能，含 REA 逆向流程",
+      "summary": "目标是让 Claude 协助改装用户自己拥有的游戏与应用，涵盖侦察、逆向、构建、美术与发布五个技能。内含 15 种引擎的作业手册、REA 工具对照和 `uh` 命令行工具，并集成 REA 进行 .NET、IL2CPP、原生及 pak AES 密钥等逆向。有公开 repo 和插件安装方式，但未见针对具体目标游戏的逆向成果。",
+      "target": "游戏与应用改装（15 种引擎）",
+      "metric": "15 种引擎作业手册、120+ 条现场笔记、5 个技能"
+    }
+  },
+  "d-5e410e93c0": {
+    "hash": "7641b43c857d",
+    "en": {
+      "title": "Nodes for REA launched: a visual workspace for REA investigations",
+      "summary": "This desktop app works alongside REA and AI agents, offering persistent mind maps, savable investigation documents, and findings backed by evidence. A Windows preview build is available for download, and investigation directions can be planned through Agent Control. The content only describes features and reports no reverse-engineering results on specific targets.",
+      "target": "REA investigation workflow (visual tool)",
+      "metric": "Windows preview, supports .reanodes investigation documents"
+    },
+    "zh-CN": {
+      "title": "推出 Nodes for REA，为 REA 调查提供可视化工作区",
+      "summary": "这是配合 REA 与 AI agent 使用的桌面应用，提供持久化思维导图、可保存的调查文档以及附带证据的发现。目前提供 Windows 预览版下载，并可通过 Agent Control 规划调查方向。内容仅介绍功能，没有针对具体目标的逆向成果。",
+      "target": "REA 调查工作流程（可视化工具）",
+      "metric": "Windows 预览版，支持 .reanodes 调查文档"
+    }
+  },
+  "d-827bdbc894": {
+    "hash": "578ceb47694b",
+    "en": {
+      "title": "FinQuest, a homemade finance tracking app, as a test target for REA",
+      "summary": "The author built a full-stack asset management app specifically to test whether REA can analyze its features, API, authentication, and data model. The excerpt mainly introduces the app itself and does not show what REA actually found.",
+      "target": "Homemade full-stack app FinQuest (Next.js)",
+      "metric": "No REA analysis results provided; only the test app itself"
+    },
+    "zh-CN": {
+      "title": "自制记账应用 FinQuest 作为 REA 的测试目标",
+      "summary": "作者写了一个全栈资产管理应用，专门用来测试 REA 能否分析功能、API、认证与数据模型。节选内容主要是该应用本身的介绍，没有呈现 REA 实际分析出了什么结果。",
+      "target": "自制全栈应用 FinQuest（Next.js）",
+      "metric": "未提供 REA 的分析结果，仅有测试用应用本身"
+    }
+  },
+  "d-67eee41b7b": {
+    "hash": "92fa3efd1379",
+    "en": {
+      "title": "Using REA to study how a paid X growth tool works and build a homemade alternative",
+      "summary": "The author wanted an X growth tool that costs $9 a month, so they used REA to study how it works, planning to build their own. This is only an in-progress write-up, with no concrete findings or results yet.",
+      "target": "X growth tool (paid service)",
+      "metric": "No concrete results yet; still at the research stage"
+    },
+    "zh-CN": {
+      "title": "用 REA 研究付费 X 增长工具的运作并自制替代品",
+      "summary": "作者想要每月 9 美元的 X 增长工具，于是用 REA 研究其运作方式，打算自己做一个。目前只是进行中的自述，没有具体发现或成果。",
+      "target": "X 增长工具（付费服务）",
+      "metric": "尚无具体成果，仅为研究阶段"
+    }
   }
 }

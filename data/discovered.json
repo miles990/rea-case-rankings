@@ -2,6 +2,136 @@
   "updated": "2026-10-24",
   "items": [
     {
+      "url": "https://github.com/comprasfacy-gif/rea-chat",
+      "title": "comprasfacy-gif/rea-chat: Discord-like self-hosted chat powered by REA",
+      "author": "comprasfacy-gif",
+      "date": "2026-10-24",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-24",
+      "relevant": true,
+      "title_zh": "以 REA 的 207 個 MCP 工具打造終端機 CLI 封裝",
+      "summary": "目標是讓 REA 的 MCP 工具目錄能以本機指令使用。作者用 CLI 透過 stdio 與 REA 伺服器溝通，提供參數解析、工具探索、診斷與路徑沙盒等功能。內容為工具封裝，未見對具體逆向目標的分析成果。",
+      "target": "REA MCP 伺服器（207 個工具）",
+      "metric": "支援 207 個 REA 工具的 CLI 指令封裝",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-10-24",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/benicasa2/rea-retro_7",
+      "title": "benicasa2/rea-retro_7: REA Retro 7: analise via Ghidra de 6502, 65C02, 65816 experimental, Intel 8080, Motorola 6800, Motorola 6809 e Z80.",
+      "author": "benicasa2",
+      "date": "2026-10-24",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-24",
+      "relevant": true,
+      "title_zh": "擴充 REA 支援七種復古 CPU 的 Ghidra 分析",
+      "summary": "以 REA 6.7.0 為基礎的衍生版本，透過 Ghidra 加入 6502、65C02、65816、8080、6800、6809 與 Z80 的靜態分析支援。內附模組原始碼、授權與測試文件，65816 標示為實驗性。這是工具擴充，並非對特定程式的逆向成果。",
+      "target": "REA 與 Ghidra 的復古 CPU 架構支援",
+      "metric": "新增 7 種經典 CPU 架構的分析支援",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-10-24",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/z3275630-ops/rea-lite-skill",
+      "title": "z3275630-ops/rea-lite-skill: Unofficial REA 6.7.0 skill: about 80% smaller entrypoint, lazy MCP discovery, all 207 tool schemas preserved.",
+      "author": "z3275630-ops",
+      "date": "2026-10-24",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-24",
+      "relevant": true,
+      "title_zh": "為 REA 製作輕量技能，入口縮小約 80%",
+      "summary": "以 REA 6.7.0 為基礎，製作按需載入的非官方技能與懶載入 MCP 閘道，降低初始載入的內容量。保留 207 個工具名稱與原始參數結構，並以閘道驗證全部結構，另以一次離線 PE 檢查比對直連與懶載入結果一致。這是整合與最佳化，並非對具體逆向目標的分析。",
+      "target": "REA 6.7.0 技能與 MCP 工具目錄",
+      "metric": "技能入口由 23,523 位元組降至 4,630（-80.3%），MCP 目錄縮小 99.85%",
+      "category": "工具鏈",
+      "status": "tested",
+      "wow": 2,
+      "scored": "2026-10-24",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/duongtech/SYMB",
+      "title": "duongtech/SYMB: Symbolic Reverse Engineering & Deobfuscation for AI Agents. One MCP for OLLVM unflattening, Z3 constraint solving, and binary reachability. REA inspects the code. SYMB solves it.    ",
+      "author": "duongtech",
+      "date": "2026-10-24",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 1,
+      "lang": "en",
+      "found": "2026-10-24",
+      "relevant": true,
+      "title_zh": "打造搭配 REA 的符號執行 MCP，解 OLLVM 與約束",
+      "summary": "SYMB 是以 angr 與 Z3 為基礎的 MCP 伺服器，提供 OLLVM 控制流還原、分支可達性求解與符號污點追蹤，作為 REA 的互補工具。內容為功能介紹與文件，未見對具體目標的實測結果或測試數據。",
+      "target": "OLLVM 混淆、約束求解與二進位可達性分析",
+      "metric": "發布 npm 套件 symb-agents，提供符號執行與 Z3 求解 MCP",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-10-24",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/yoyo520956/ghidra-arm64-decompile",
+      "title": "yoyo520956/ghidra-arm64-decompile: Ghidra 12.1.4 native decompiler for linux-aarch64 (musl), built via GitHub Actions for iSH/REA",
+      "author": "yoyo520956",
+      "date": "2026-10-24",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-24",
+      "relevant": true,
+      "title_zh": "為 iSH／REA 建置 linux-aarch64 的 Ghidra 反編譯器",
+      "summary": "透過 GitHub Actions 為 Ghidra 12.1.4 建置 linux-aarch64（musl）原生反編譯器，供 iSH 與 REA 環境使用。內容僅有簡短描述與工作流程資料夾，沒有說明、測試或使用成果。",
+      "target": "Ghidra 12.1.4 原生反編譯器（linux-aarch64 musl）",
+      "metric": "以 GitHub Actions 建置 Ghidra 12.1.4 aarch64 反編譯器",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-10-24",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/badlucklukas/status/2113826247818219861",
+      "title": "remember #Hawken? probably not, it was a PC mech game that didn’t last long, i was South American champion though 🏆  tried porting it with ",
+      "author": "@badlucklukas",
+      "date": "2026-10-24",
+      "source": "X",
+      "kind": "貼文",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 20
+      },
+      "lang": "en",
+      "found": "2026-10-24",
+      "relevant": true,
+      "title_zh": "用 REA 把 Hawken 移植成可線上遊玩的瀏覽器遊戲",
+      "summary": "作者嘗試用 REA 移植 PC 機甲遊戲 Hawken，最後做出支援電腦與手機、免帳號的線上瀏覽器遊戲 webken，並公開了可試玩的網址。內容為作者自述，未提供測試或程式碼證據，但有可實際開啟的成品。",
+      "target": "Hawken（PC 機甲遊戲）",
+      "metric": "公開可玩的瀏覽器版 webken.lamesachica.com",
+      "category": "Native / 遊戲",
+      "status": "shipped",
+      "wow": 4,
+      "scored": "2026-10-24",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/blacksinisterx/game-frankenstein",
       "title": "blacksinisterx/game-frankenstein: I pointed REA, a reverse-engineering tool, at six open-source (MIT) browser games, after minifying them into the form real games ship in. ",
       "author": "blacksinisterx",
@@ -59,15 +189,6 @@
       "status": "shipped",
       "scored": "2026-10-24",
       "scored_by": "jev"
-    },
-    {
-      "url": "https://github.com/typebotm/rea-copy",
-      "title": "typebotm/rea-copy: Copy of morluto/rea - Reverse Engineer Anything for AI agent reverse engineering",
-      "source": "GitHub",
-      "found": "2026-10-24",
-      "relevant": false,
-      "scored": "2026-10-24",
-      "scored_by": "sonnet"
     },
     {
       "url": "https://github.com/Joshua-Ranish-T/FinQuest---Asset-Management",
@@ -812,6 +933,81 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://x.com/vartekxx/status/2113734573645324633",
+      "title": "WHAT the f*ck?? I just reverse-engineered my kettle with Opus 5.5..  one prompt and I can turn on my kettle from my bed  step 2 → REA invest",
+      "author": "@vartekxx",
+      "date": "2026-10-23",
+      "source": "X",
+      "kind": "貼文",
+      "score": 19,
+      "pop": {
+        "likes": 19,
+        "views": 731
+      },
+      "lang": "en",
+      "found": "2026-10-24",
+      "relevant": true,
+      "title_zh": "用 REA 與 Opus 逆向電熱水壺並做出遠端控制連接器",
+      "summary": "作者用 REA 調查自家電熱水壺的授權控制路徑，並對實體裝置逐一驗證指令，再由 Opus 寫出支援狀態、溫度、啟動與停止的最小連接器。結果是能用一句話在床上讓水壺燒水。內容是作者自述，沒有附程式碼或影片。",
+      "target": "智慧電熱水壺",
+      "metric": "可遠端查詢狀態、設定溫度、啟動與停止",
+      "category": "IoT / 藍牙",
+      "status": "reported",
+      "wow": 4,
+      "scored": "2026-10-24",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/amsultan2010/status/2113660978172723603",
+      "title": "in light of @browsercompany shutting down @arcinternet, i decided to use Reverse Engineer Anything (REA) to make a free and open-source clon",
+      "author": "@amsultan2010",
+      "date": "2026-10-23",
+      "source": "X",
+      "kind": "貼文",
+      "score": 2,
+      "pop": {
+        "likes": 2,
+        "views": 136
+      },
+      "lang": "en",
+      "found": "2026-10-24",
+      "relevant": true,
+      "title_zh": "用 REA 復刻 Arc 瀏覽器並發布開源 Radian Browser",
+      "summary": "因 Arc 停止營運，作者用 REA 製作免費開源的 Arc 復刻版 Radian Browser，已進入 beta 並開放下載。功能涵蓋 Spaces、指令列與原生垂直分頁，屬於知名產品功能復刻並公開成果。",
+      "target": "Arc 瀏覽器",
+      "metric": "Radian Browser beta 已公開下載，含 Spaces、指令列、垂直分頁",
+      "category": "Native / macOS",
+      "status": "shipped",
+      "wow": 5,
+      "scored": "2026-10-24",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/JChinda28895/status/2113645816824963374",
+      "title": "I used REA, an AI reverse engineering tool, to analyze an Android app and bypass its paywall.  That and recent PHP2Shell vulnerabilities hig",
+      "author": "@JChinda28895",
+      "date": "2026-10-23",
+      "source": "X",
+      "kind": "貼文",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 21
+      },
+      "lang": "en",
+      "found": "2026-10-24",
+      "relevant": true,
+      "title_zh": "用 REA 分析 Android 應用並繞過付費牆",
+      "summary": "作者使用 REA 分析一款 Android 應用並成功繞過其付費牆,同時提到 AI 加速漏洞發現的趨勢。貼文沒有說明目標應用、方法或證據,只有作者自述的結果。",
+      "target": "某 Android 應用（未具名）",
+      "metric": "成功繞過付費牆（作者自述）",
+      "category": "Android",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-24",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/donclaudito/rea-btc-pulse",
       "title": "donclaudito/rea-btc-pulse: REA (reverse engineering analysis) do app BTC Pulse em bitcoinorenai.base44.app: rotas, API, auth, integracoes de terceiros e achados de seguranca/privacidade",
       "author": "donclaudito",
@@ -975,6 +1171,36 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://github.com/kinqsradio/orbyn-fullstack-skills",
+      "title": "kinqsradio/orbyn-fullstack-skills: 50 Orbyn Engineering agent skills for full-stack development with Codex and Claude Co",
+      "source": "GitHub",
+      "found": "2026-10-24",
+      "relevant": false,
+      "scored": "2026-10-24",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/chienlvm/status/2113305164358782989",
+      "title": "Nhờ có AI mà tôi đã remake lại con game huyền thoại này. #rea",
+      "author": "@chienlvm",
+      "date": "2026-10-22",
+      "source": "X",
+      "kind": "貼文",
+      "score": 3,
+      "pop": {
+        "likes": 3,
+        "views": 28
+      },
+      "lang": "vi",
+      "found": "2026-10-24",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-24",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://x.com/sr00t3d/status/2113057205385654501",
       "title": "Estas maquinas da Google A100 serve para uma baita porrada de coisa, to usando ela com túnel (cloudflare) para usar processamento CPU/GPU de",
       "author": "@sr00t3d",
@@ -1048,6 +1274,52 @@
       "wow": 2,
       "scored": "2026-10-24",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/SKL_Piefke_Paul/status/2112596223483883695",
+      "title": "Pokémon Let’s Go Pikachu running native on AppleTV, AndroidTV, iOS, Android, MacOS, Windows.  I aim to publish a complete working port by th",
+      "author": "@SKL_Piefke_Paul",
+      "date": "2026-10-20",
+      "source": "X",
+      "kind": "貼文",
+      "score": 18,
+      "pop": {
+        "likes": 18,
+        "views": 1026
+      },
+      "lang": "fr",
+      "found": "2026-10-24",
+      "relevant": true,
+      "title_zh": "用 REA 讓皮卡丘版精靈寶可夢跨六平台原生執行",
+      "summary": "作者宣稱正在移植《精靈寶可夢 Let's Go 皮卡丘》，目標是在 Apple TV、Android TV、iOS、Android、macOS、Windows 原生執行，並預計一週內發布完整移植。貼文只有進度宣告，沒有程式碼、截圖或測試，成果尚未公開。",
+      "target": "Pokémon Let's Go Pikachu",
+      "metric": "宣稱六個平台原生執行，預計週內發布",
+      "category": "Native / 遊戲",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-24",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/LucOliveirasji/status/2112344997781766245",
+      "title": "Basically a free alternative to Chitubox that runs in your browser—all thanks to REA and DeepSeek.  #REA #IA #AI #coding #sourcecode",
+      "author": "@LucOliveirasji",
+      "date": "2026-10-20",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 69
+      },
+      "lang": "en",
+      "found": "2026-10-24",
+      "relevant": true,
+      "wow": 1,
+      "category": "工具鏈",
+      "status": "reported",
+      "scored": "2026-10-24",
+      "scored_by": "jev"
     },
     {
       "url": "https://x.com/saikrishna_dev/status/2112162379614314867",
@@ -1150,6 +1422,26 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://vortezwohl.github.io/ai/2026/10/13/REA%E6%B7%B1%E5%BA%A6%E7%A0%94%E7%A9%B6-%E4%BB%8E%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%88%B0%E8%BF%90%E8%A1%8C%E6%97%B6%E7%9A%84Agent%E9%80%86%E5%90%91%E8%AF%81%E6%8D%AE%E5%B7%A5%E7%A8%8B.html",
+      "title": "REA 深度研究：从二进制到运行时的 Agent 逆向证据工程 | vortezwohl",
+      "author": "ZCode",
+      "date": "2026-10-13",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "zh",
+      "found": "2026-10-24",
+      "relevant": true,
+      "title_zh": "深度剖析 REA 架構並整理 DX-Ball 等字節級復現案例",
+      "summary": "這是一篇針對 REA 的技術研究文章，拆解其 103 個工具、證據與認識論狀態約束、行程清理與真實驗證車道。文中引用 rea.tools 的案例，包括 DX-Ball 以 3,205 個測試案例與 63 位元組逐字節一致驗證，以及 TH04、Notion 剪貼簿橋與 Chrome 恐龍遊戲。內容是整理他人案例的評論，作者本身並未實際操作逆向。",
+      "target": "REA 工具本身與 rea.tools 展示案例",
+      "metric": "DX-Ball 累計 45,380 次比對、33 個函式位元組一致",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-10-24",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://www.shoptofly.com/doc/article/rea-start",
       "title": "万字长文｜超简单 REA：逆向平权，从入门到精通 | 想风技术文档",
       "author": "XaiWind",
@@ -1182,6 +1474,26 @@
       "scored_by": "jev"
     },
     {
+      "url": "https://dev.to/itxtayab/an-agent-that-reverse-engineers-by-guessing-is-worse-than-useless-52bg",
+      "title": "An agent that reverse engineers by guessing is worse than useless - DEV Community",
+      "author": "Muhammad Tayyab",
+      "date": "2026-10-09",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-10-24",
+      "relevant": true,
+      "title_zh": "介紹 REA 的安裝、引擎選擇與逾時注意事項",
+      "summary": "文章說明如何用 npx rea-agents setup 在多種 AI 代理中安裝 REA，並比較 Ghidra、IDA Pro 與 Hopper 三種引擎。提醒首次 Ghidra 查詢可能因用戶端預設 60 秒逾時而失敗，REA 本身最多等待 330 秒。內容為教學與心得，沒有具體逆向目標。",
+      "target": "REA 安裝與引擎設定（Ghidra／IDA／Hopper）",
+      "metric": "Ghidra 首次查詢最長等待 330 秒，用戶端預設逾時僅 60 秒",
+      "category": "教學",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-10-24",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://nohumans.jp/article/ai-rea-3-2-2-15-170-4-580-20261008-m7xe",
       "title": "ソース無しアプリをAIに解析させるREA、3日でスター約2.2倍の15,170に。でも決め手は人間が組んだ4,580件の「答え合わせ」だった | 人間不要新聞",
       "author": "美咲 ハル",
@@ -1196,6 +1508,31 @@
       "status": "tested",
       "scored": "2026-10-24",
       "scored_by": "jev"
+    },
+    {
+      "url": "https://strideaiacademy.com/guides/rea",
+      "title": "REA: let your AI agent reverse engineer apps | Stride AI Academy",
+      "author": "strideaiacademy.com",
+      "date": "2026-10-06",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-10-24",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-24",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/typebotm/rea-copy",
+      "title": "typebotm/rea-copy: Copy of morluto/rea - Reverse Engineer Anything for AI agent reverse engineering",
+      "source": "GitHub",
+      "found": "2026-10-24",
+      "relevant": false,
+      "scored": "2026-10-24",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://github.com/IPedrax/OmniSkill",
@@ -1253,6 +1590,40 @@
       "kind": "影片",
       "score": 16682,
       "lang": "ja",
+      "found": "2026-10-24",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-24",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://youtu.be/QxOCox6ytSY",
+      "title": "REA + Termux: Reverse Engineer Anything",
+      "author": "Technical Bot",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 8695,
+      "lang": "en",
+      "found": "2026-10-24",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-24",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://youtu.be/GitbDhOPBGs",
+      "title": "El Repositorio Que Más Rápido Sube En GitHub Da Un Poco De Miedo: REA",
+      "author": "Jorge Marfil and Jorge Marfil",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 319581,
+      "lang": "es",
       "found": "2026-10-24",
       "relevant": true,
       "wow": 1,
@@ -31818,6 +32189,35 @@
   "runs": [
     {
       "date": "2026-10-24",
+      "added": 18,
+      "stats": {
+        "githubShowAndTell": 10,
+        "githubRepos": 224,
+        "githubCode": 42,
+        "hackerNews": 24,
+        "qiita": 44,
+        "devto": 150,
+        "juejin": 11,
+        "reddit": 60,
+        "v2ex": 10,
+        "youtube": 90,
+        "bluesky": 160,
+        "mastodon": 160,
+        "exaWeb": 56,
+        "x": 24
+      },
+      "scoring": {
+        "scored": 12,
+        "jev": {
+          "low": 5,
+          "irrelevant": 1,
+          "errors": 0,
+          "toClaude": 12
+        }
+      }
+    },
+    {
+      "date": "2026-10-24",
       "added": 60,
       "stats": {
         "githubShowAndTell": 11,
@@ -32620,27 +33020,7 @@
         "scored": 0,
         "error": "Command failed: claude -p --output-format json --max-turns 1 --tools  --model sonnet"
       }
-    },
-    {
-      "date": "2026-10-12",
-      "added": 75,
-      "stats": {
-        "githubShowAndTell": 0,
-        "githubRepos": 66,
-        "hackerNews": 12,
-        "qiita": 20,
-        "devto": 150,
-        "reddit": "error: 403 https://www.reddit.com/search.json?q=%22morluto%2Frea%22&sort=new&limit=25",
-        "v2ex": 1,
-        "youtube": 90,
-        "bluesky": 150,
-        "mastodon": 160,
-        "x": 0
-      },
-      "scoring": {
-        "scored": 54
-      }
     }
   ],
-  "updatedAt": "2026-10-24T00:26:14.647Z"
+  "updatedAt": "2026-10-24T04:38:03.316Z"
 }

@@ -12508,15 +12508,18 @@
     },
     {
       "date": "2026-10-24",
-      "stars": 373174,
-      "stars_delta": 5692,
+      "stars": 373967,
+      "stars_delta": 6485,
       "new": [
         "d-f0f6905464",
+        "d-8f1f2064bd",
         "d-301760cfa8",
         "d-c2133517a2",
         "d-363095fea2",
         "d-20dc2e5d41",
+        "d-b703726421",
         "d-e6f2eff6ed",
+        "d-f6fd313d80",
         "d-1a95aa94f5",
         "d-89f5bae7e1",
         "d-ac20b90913",
@@ -12530,15 +12533,22 @@
         "d-9fd5cd3600",
         "d-f936743c8b",
         "d-42650167a1",
+        "d-19f5e5a85a",
         "d-ebd32f9e34",
         "d-95e26eefc9",
         "d-d344b5b6e5",
         "d-ea18e4b3ce",
+        "d-d23d2a26e2",
         "d-474313631a",
+        "d-7bc975ce6c",
         "d-fcf1d62762",
         "d-308da2cd9e",
         "d-35d1869227",
         "d-ac304de208",
+        "d-0a11b07d0d",
+        "d-b4ce275f65",
+        "d-d96f24c4b9",
+        "d-b6970a77bb",
         "d-a72da557c1",
         "d-65db871ca5",
         "d-5e410e93c0",
@@ -12546,47 +12556,47 @@
         "d-67eee41b7b"
       ],
       "stats": {
-        "count": 33,
+        "count": 43,
         "wow": {
-          "2": 14,
+          "2": 21,
           "3": 8,
-          "4": 6,
-          "5": 5
+          "4": 8,
+          "5": 6
         },
         "type": {
-          "case": 24,
-          "app": 8,
+          "case": 29,
+          "app": 13,
           "learn": 1
         },
         "status": {
-          "shipped": 13,
-          "tested": 5,
-          "reported": 15
+          "shipped": 19,
+          "tested": 6,
+          "reported": 18
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 星數破 37 萬，復刻 Claude 桌面端等案例成主角",
-          "summary": "REA 星數升至 373174，一天增加 5692。榜首案例是 open-claude-ui：用 REA 反編譯 Claude 桌面端，還原 30 個 React 元件並以 MIT 公開；同日還有 Arc 瀏覽器的開源復刻 Radian、Tesla CarPlay 盒子韌體修補，以及六款瀏覽器遊戲的混搭。另有用 Rust 重寫 REA 的單一執行檔，實測 5 萬套件 ELF 約快 5.9 倍、記憶體少 8.5 倍。這顯示客戶端程式碼已難成護城河，也有案例以測試與真實請求核對結果，但仍有不少貼文只有作者自述。"
+          "headline": "REA 復刻熱潮:Claude 桌面端與 Arc 都被開源重現",
+          "summary": "REA 星數增至 373967（較前一紀錄多 6485）。當天最熱的案例是 open-claude-ui 反編譯 Claude 桌面端並還原成 MIT 授權的 React 元件庫，以及 Radian Browser 在 Arc 停止營運後以觀察行為方式復刻開源替代品。此外也有逆向 Tesla CarPlay 盒子韌體、電熱水壺遠端控制等硬體案例，以及用 Rust 重寫 REA 的工具改進。這些案例顯示前端程式碼與功能越來越容易被快速複製，但多數貼文仍是作者自述，缺乏測試佐證。"
         },
         "en": {
-          "headline": "REA passes 373K stars as Claude desktop clones lead the day",
-          "summary": "REA's GitHub stars rose to 373,174, up 5,692 in a day. The top case is open-claude-ui, which used REA to decompile the Claude desktop app into 30 open-source React components under the MIT license. Other highlights include Radian, an open-source Arc browser replacement, a Tesla CarPlay box firmware fix, and three mashup games built from six analyzed browser games. A Rust rewrite of REA as a single native binary was also reported, about 5.9x faster and using 8.5x less memory on a 50,000-package ELF. Client-side code looks increasingly easy to clone, and some cases verify results with tests or real requests, though many posts are author claims only."
+          "headline": "REA cloning wave: Claude desktop and Arc rebuilt as open source",
+          "summary": "REA's GitHub stars rose to 373,967 (up 6,485 from the previous record). The hottest cases were open-claude-ui, which decompiled the Claude desktop app into an MIT-licensed React component library, and Radian Browser, an open-source Arc replacement built by observing Arc's behavior after it shut down. Hardware work also appeared, including Tesla CarPlay box firmware patching and a remote-controlled kettle, along with a Rust rewrite of REA itself. Together they show client-side features being cloned quickly, though most posts are self-reported with little test evidence."
         },
         "zh-CN": {
-          "headline": "REA 星数破 37 万，复刻 Claude 桌面端等案例成主角",
-          "summary": "REA 星数升至 373174，一天增加 5692。榜首案例是 open-claude-ui：用 REA 反编译 Claude 桌面端，还原 30 个 React 组件并以 MIT 公开；同日还有 Arc 浏览器的开源复刻 Radian、Tesla CarPlay 盒子固件修补，以及六款浏览器游戏的混搭。另有用 Rust 重写 REA 的单一可执行文件，实测 5 万包 ELF 约快 5.9 倍、内存少 8.5 倍。这显示客户端代码已难成护城河，也有案例以测试与真实请求核对结果，但仍有不少帖子只有作者自述。"
+          "headline": "REA 复刻热潮:Claude 桌面端与 Arc 都被开源重现",
+          "summary": "REA 星数增至 373967（较前一纪录多 6485）。当天最热的案例是 open-claude-ui 反编译 Claude 桌面端并还原成 MIT 授权的 React 组件库，以及 Radian Browser 在 Arc 停止运营后以观察行为方式复刻开源替代品。此外也有逆向 Tesla CarPlay 盒子固件、电热水壶远程控制等硬件案例，以及用 Rust 重写 REA 的工具改进。这些案例显示前端代码与功能越来越容易被快速复制，但多数帖子仍是作者自述，缺乏测试佐证。"
         }
       },
       "signals": [
         "A",
-        "B",
+        "D",
         "G"
       ],
       "highlights": [
         "d-f0f6905464",
-        "d-301760cfa8",
-        "d-ac20b90913"
+        "d-8f1f2064bd",
+        "d-301760cfa8"
       ],
       "rank": [
         "touhou-factory",
@@ -12595,6 +12605,7 @@
         "dotey-claude-slides",
         "d-f0f6905464",
         "d-fe71147f43",
+        "d-8f1f2064bd",
         "d-d155fe3d33",
         "ski-or-die",
         "d-301760cfa8",
@@ -12631,6 +12642,7 @@
         "d-c6fbea64b5",
         "d-247d2d1845",
         "th04-bullet-ring",
+        "d-b703726421",
         "d-50f5e59d27",
         "d-c73d26b20b",
         "d-c12d5f21df",
@@ -12654,6 +12666,7 @@
         "d-66fc566b8b",
         "d-0a6ed6f8cf",
         "d-5725375ff2",
+        "d-f6fd313d80",
         "d-551e2d9320",
         "d-241f00f30e",
         "wispr-flow-az9713",
@@ -12940,6 +12953,7 @@
         "d-b534d6bcfb",
         "d-9b0798b548",
         "d-98784efad3",
+        "d-19f5e5a85a",
         "d-2005076b4f",
         "d-6902990197",
         "d-250ff20e4f",
@@ -13039,6 +13053,7 @@
         "d-e5515b0c5a",
         "d-ca0152a539",
         "d-1429a5bf4b",
+        "d-d23d2a26e2",
         "d-42e56a0631",
         "d-f039fdfe37",
         "d-9674ada215",
@@ -13046,6 +13061,7 @@
         "d-474313631a",
         "d-d3c3a5e30d",
         "d-58c16f12d8",
+        "d-7bc975ce6c",
         "d-f3b5a689bc",
         "d-e93df57abd",
         "d-0e28cbe791",
@@ -13115,6 +13131,7 @@
         "d-d7e149d4b2",
         "d-793448136a",
         "d-1c34171707",
+        "d-0a11b07d0d",
         "d-1cfe7c3d14",
         "d-d8e6e3c3df",
         "d-84af06ba46",
@@ -13142,6 +13159,9 @@
         "d-40c0474406",
         "d-49c3fe3859",
         "heartland-side-effects",
+        "d-b4ce275f65",
+        "d-d96f24c4b9",
+        "d-b6970a77bb",
         "d-a72da557c1",
         "d-65db871ca5",
         "d-5e410e93c0",
@@ -13328,6 +13348,7 @@
         "d-88c14d016a",
         "d-8bc58b3522",
         "d-c07b0d5133",
+        "d-87f82eaf91",
         "d-7a9699b1ba",
         "d-8b4dbb7e3d",
         "d-9e0d6e8d50",
@@ -13402,6 +13423,7 @@
         "d-8a3810818f",
         "d-658ba6b499",
         "d-40b50bd678",
+        "d-f1c3701bca",
         "d-c2b97516ef",
         "d-75941bb62f",
         "d-71100ecf43",
@@ -13507,6 +13529,7 @@
         "d-e38dc18735",
         "d-f71f877a80",
         "d-24586d51c6",
+        "d-e5b636c31f",
         "d-b622e17024",
         "d-bc2085809d",
         "d-90b79eea62",
@@ -13664,6 +13687,7 @@
         "d-a839ebacae",
         "d-ecb11f25bf",
         "d-aa49193fb4",
+        "d-9f0a889b09",
         "d-8b20fa2707",
         "d-44fa7dafa7",
         "d-81fd52627f",
@@ -13946,6 +13970,7 @@
         "d-b399483926",
         "d-a954f169cc",
         "d-d92d6ec2a2",
+        "d-f651c9ea4a",
         "d-141fa803c3",
         "d-015dfe09de",
         "d-02cb647eac",
@@ -14074,6 +14099,7 @@
         "d-5f76282d41",
         "d-32dd9e9d26",
         "d-057dcd5dd8",
+        "d-c8c299f9a6",
         "d-5142b9628c",
         "d-3c6a478af7",
         "d-dcc5b9347b",
@@ -14088,6 +14114,7 @@
         "d-4fed619c34",
         "d-814e39b21c",
         "d-6e728ed250",
+        "d-a6e2b9dbd3",
         "d-8a15203586",
         "d-3db45b5ca0",
         "d-9c31b3d5b4"
@@ -14109,24 +14136,25 @@
     "to": "2026-10-24",
     "text": {
       "zh-TW": {
-        "headline": "REA 熱潮從展示轉向「證明一樣」，客戶端程式碼不再是護城河",
-        "summary": "本週星數從 30.9 萬升到 37.3 萬，但單日增幅由 1.6 萬逐步降到 5 千多，熱度趨於平穩。內容上，10/18 起高分案例就以井字棋 19,683 個盤面、DX-Ball 3,205 組測試等可重現比對為賣點，到 10/22 的 oracle 測試重建、10/23 的乾淨室重建（相符率由 64% 修正為 100%），驗證（B）連續七天都出現。逆向對象從老遊戲（C）延伸到電視、冷氣、耳機等自家硬體（D），再到 Claude 桌面端、Arc 瀏覽器等現代 App 的開源復刻（A），並擴展到 Windows UIA 與 Rust 單檔版（G）。同時反逆向加固工具出現，也有人批評 207 個工具造成上下文暴增，顯示攻防與工具效率開始被討論。X 上仍有許多只有作者自述、沒有 repo 或測試的案例，證據品質兩極。",
-        "watch": "接下來幾天可留意附 oracle 測試或比對報告的 repo，它們比只有影片或自述的貼文更可信，也可能衍生出驗證工具或服務的機會。另可追蹤 Windows 支援與 Rust 版的後續、反逆向加固工具與復刻開源專案的授權爭議，以及自家裝置（電視、家電）接入 HomeKit 這類互通案例是否持續增加。"
+        "headline": "REA 熱潮從展示轉向可驗證，並從遊戲擴及硬體與桌面軟體",
+        "summary": "本週星數從 30.9 萬升到 37.4 萬，但單日增幅由 1.65 萬逐步縮到 6,485。10/18 的高分案例已附上井字棋 19,683 個盤面比對、DX-Ball 3,205 組測試，之後 10/22 的 oracle 測試重建與 10/23 乾淨室重建（相符率由 64% 修正到 100%）延續同一方向，「驗證」幾乎天天出現。標的從老遊戲擴及三星電視、冷氣、耳機、Sony A6000 韌體等自家裝置，再到 Windows UIA provider 與 Claude 桌面端、Arc 的開源重現。另一方面，X 上大量貼文只有作者自述，10/19 也出現對抗 REA 的反逆向加固工具。",
+        "watch": "可優先關注附測試、oracle 或比對結果的重建專案，以及能提供驗證流程的工具與服務，因為證據品質兩極，這是目前最稀缺的部分。硬體與自家裝置控制（韌體、BLE、HomeKit 接入）和舊軟體遷移仍有持續案例，值得追蹤。也留意 REA 工具面過大導致上下文暴增的批評，以及反逆向加固是否形成新的攻防市場。"
       },
       "en": {
-        "headline": "REA hype shifts from showing clones to proving them identical; client code is no longer a moat",
-        "summary": "Stars rose from 309,972 to 373,174 this week, but the daily gain fell from about 16,000 to under 6,000, so growth is cooling. From 10/18 the top cases already sold reproducible comparisons (19,683 tic-tac-toe board states, 3,205 DX-Ball tests); by 10/22 oracle-tested rebuilds and on 10/23 clean-room rebuilds (match rate corrected from 64% to 100%) followed, and verification (B) appeared all seven days. Targets widened from old games (C) to one's own hardware such as TVs, air conditioners and earbuds (D), then to open-source clones of modern apps like the Claude desktop client and Arc (A), with expansion to Windows UIA and a Rust single binary (G). Anti-reverse-engineering hardening tools appeared and one critique said 207 tools bloat context, so defense and tool efficiency are entering the conversation. Many X posts still rest on the author's word alone, with no repo or tests.",
-        "watch": "Over the next few days, follow repos that ship oracle tests or comparison reports; they are more credible than video-only claims and point to openings for verification tools or services. Also track Windows support and the Rust port, hardening tools and licensing disputes around open-source clones, and whether own-device interop cases (TVs, appliances into HomeKit) keep growing."
+        "headline": "REA hype shifts from demos to provable results, spreading from games to hardware and desktop apps",
+        "summary": "Stars rose from 309k to 374k this week, but the daily gain shrank from 16.5k to 6.5k. On 10/18 top cases already came with proof: 19,683 board states matched for tic-tac-toe and 3,205 tests for DX-Ball. Oracle-tested rebuilds on 10/22 and clean-room rebuilds on 10/23 (match rate corrected from 64% to 100%) continued this, so verification showed up almost every day. Targets widened from old games to Samsung TVs, air conditioners, headphones and Sony A6000 firmware, then to a Windows UIA provider and open-source recreations of Claude Desktop and Arc. Meanwhile many X posts are only author claims, and 10/19 brought an anti-REA hardening tool.",
+        "watch": "Prioritize rebuild projects that ship tests, oracles or comparison results, and tools or services that supply verification workflows, since evidence quality is polarized and that is the scarcest part. Hardware and own-device control (firmware, BLE, HomeKit bridging) and legacy software migration keep producing cases worth tracking. Also watch the criticism that REA's large tool surface bloats context, and whether anti-reverse-engineering hardening grows into a real attack-and-defense market."
       },
       "zh-CN": {
-        "headline": "REA 热潮从展示转向“证明一样”，客户端代码不再是护城河",
-        "summary": "本周星数从 30.9 万升到 37.3 万，但单日增幅由 1.6 万逐步降到 5 千多，热度趋于平稳。内容上，10/18 起高分案例就以井字棋 19,683 个盘面、DX-Ball 3,205 组测试等可复现比对为卖点，到 10/22 的 oracle 测试重建、10/23 的洁净室重建（相符率由 64% 修正为 100%），验证（B）连续七天都出现。逆向对象从老游戏（C）延伸到电视、空调、耳机等自家硬件（D），再到 Claude 桌面端、Arc 浏览器等现代 App 的开源复刻（A），并扩展到 Windows UIA 与 Rust 单文件版（G）。同时反逆向加固工具出现，也有人批评 207 个工具造成上下文暴增，显示攻防与工具效率开始被讨论。X 上仍有许多只有作者自述、没有 repo 或测试的案例，证据质量两极。",
-        "watch": "接下来几天可留意附 oracle 测试或比对报告的 repo，它们比只有视频或自述的帖子更可信，也可能衍生出验证工具或服务的机会。另可跟踪 Windows 支持与 Rust 版的后续、反逆向加固工具与复刻开源项目的许可争议，以及自家设备（电视、家电）接入 HomeKit 这类互通案例是否持续增加。"
+        "headline": "REA 热潮从展示转向可验证，并从游戏扩及硬件与桌面软件",
+        "summary": "本周星数从 30.9 万升到 37.4 万，但单日增幅由 1.65 万逐步缩到 6,485。10/18 的高分案例已附上井字棋 19,683 个盘面比对、DX-Ball 3,205 组测试，之后 10/22 的 oracle 测试重建与 10/23 的洁净室重建（吻合率由 64% 修正到 100%）延续同一方向，“验证”几乎天天出现。目标从老游戏扩及三星电视、空调、耳机、Sony A6000 固件等自家设备，再到 Windows UIA provider 与 Claude 桌面端、Arc 的开源复现。另一方面，X 上大量帖子只有作者自述，10/19 也出现对抗 REA 的反逆向加固工具。",
+        "watch": "可优先关注附测试、oracle 或比对结果的重建项目，以及能提供验证流程的工具与服务，因为证据质量两极分化，这是目前最稀缺的部分。硬件与自家设备控制（固件、BLE、HomeKit 接入）和旧软件迁移仍有持续案例，值得跟踪。也留意 REA 工具面过大导致上下文暴增的批评，以及反逆向加固是否形成新的攻防市场。"
       }
     },
     "rising": [
       "B",
       "C",
+      "D",
       "G"
     ],
     "fading": [
@@ -14135,9 +14163,9 @@
     ],
     "tally": {
       "A": 3,
-      "B": 7,
+      "B": 6,
       "C": 4,
-      "D": 3,
+      "D": 4,
       "E": 0,
       "F": 0,
       "G": 4

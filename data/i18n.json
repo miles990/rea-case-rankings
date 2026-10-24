@@ -12523,5 +12523,155 @@
       "target": "X 增长工具（付费服务）",
       "metric": "尚无具体成果，仅为研究阶段"
     }
+  },
+  "d-d96f24c4b9": {
+    "hash": "ce589cc4a812",
+    "en": {
+      "title": "Extending REA with Ghidra Analysis for Seven Retro CPUs",
+      "summary": "A fork based on REA 6.7.0 that adds static analysis support through Ghidra for the 6502, 65C02, 65816, 8080, 6800, 6809, and Z80. It ships with module source code, licensing, and test documentation; 65816 support is marked experimental. This is a tooling extension, not a reverse-engineering result for any specific program.",
+      "target": "Retro CPU architecture support in REA and Ghidra",
+      "metric": "Adds analysis support for 7 classic CPU architectures"
+    },
+    "zh-CN": {
+      "title": "扩展 REA，支持七种复古 CPU 的 Ghidra 分析",
+      "summary": "基于 REA 6.7.0 的衍生版本，通过 Ghidra 加入对 6502、65C02、65816、8080、6800、6809 与 Z80 的静态分析支持。附带模块源代码、许可与测试文档，65816 标注为实验性。这是工具扩展，并非针对特定程序的逆向成果。",
+      "target": "REA 与 Ghidra 的复古 CPU 架构支持",
+      "metric": "新增 7 种经典 CPU 架构的分析支持"
+    }
+  },
+  "d-b6970a77bb": {
+    "hash": "d266cba4ff72",
+    "en": {
+      "title": "Building a linux-aarch64 Ghidra Decompiler for iSH/REA",
+      "summary": "Uses GitHub Actions to build a native linux-aarch64 (musl) decompiler for Ghidra 12.1.4, for use in iSH and REA environments. The repository contains only a short description and a workflows folder, with no documentation, tests, or usage results.",
+      "target": "Ghidra 12.1.4 native decompiler (linux-aarch64 musl)",
+      "metric": "Builds the Ghidra 12.1.4 aarch64 decompiler via GitHub Actions"
+    },
+    "zh-CN": {
+      "title": "为 iSH/REA 构建 linux-aarch64 的 Ghidra 反编译器",
+      "summary": "通过 GitHub Actions 为 Ghidra 12.1.4 构建 linux-aarch64（musl）原生反编译器，供 iSH 与 REA 环境使用。内容仅有简短描述和工作流文件夹，没有说明、测试或使用成果。",
+      "target": "Ghidra 12.1.4 原生反编译器（linux-aarch64 musl）",
+      "metric": "通过 GitHub Actions 构建 Ghidra 12.1.4 aarch64 反编译器"
+    }
+  },
+  "d-8f1f2064bd": {
+    "hash": "5f251cdeec85",
+    "en": {
+      "title": "Cloning the Arc browser with REA and releasing the open-source Radian Browser",
+      "summary": "After Arc was discontinued, the author used REA to build Radian Browser, a free, open-source Arc clone. It is now in beta and available for download, with Spaces, a command bar, and native vertical tabs. It is a recreation of a well-known product's features, published publicly.",
+      "target": "Arc browser",
+      "metric": "Radian Browser beta publicly available, with Spaces, command bar, and vertical tabs"
+    },
+    "zh-CN": {
+      "title": "用 REA 复刻 Arc 浏览器并发布开源 Radian Browser",
+      "summary": "因 Arc 停止运营,作者用 REA 制作了免费开源的 Arc 复刻版 Radian Browser,目前已进入 beta 并开放下载。功能涵盖 Spaces、命令栏与原生垂直标签页,属于知名产品功能复刻并公开成果。",
+      "target": "Arc 浏览器",
+      "metric": "Radian Browser beta 已公开下载,含 Spaces、命令栏、垂直标签页"
+    }
+  },
+  "d-b703726421": {
+    "hash": "4c75a8b6dbf5",
+    "en": {
+      "title": "Reverse-engineering an electric kettle with REA and Opus to build a remote-control connector",
+      "summary": "The author used REA to investigate the authorized control path of their own electric kettle and verified each command against the physical device. Opus then wrote a minimal connector supporting status, temperature, start, and stop. The result: boiling water with a single sentence from bed. This is the author's own account, with no code or video attached.",
+      "target": "Smart electric kettle",
+      "metric": "Remotely query status, set temperature, start, and stop"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Opus 逆向电热水壶并做出远程控制连接器",
+      "summary": "作者用 REA 调查自家电热水壶的授权控制路径,并在实体设备上逐一验证指令,再由 Opus 写出支持状态、温度、启动与停止的最小连接器。结果是躺在床上一句话就能让水壶烧水。内容为作者自述,没有附代码或视频。",
+      "target": "智能电热水壶",
+      "metric": "可远程查询状态、设置温度、启动与停止"
+    }
+  },
+  "d-f6fd313d80": {
+    "hash": "484229ed5c74",
+    "en": {
+      "title": "Porting Hawken to a playable online browser game with REA",
+      "summary": "The author tried using REA to port the PC mech game Hawken, and ended up with webken, an account-free online browser game that supports both desktop and mobile, with a public playable URL. This is the author's own account with no tests or code provided, but a working build can actually be opened.",
+      "target": "Hawken (PC mech game)",
+      "metric": "Publicly playable browser version at webken.lamesachica.com"
+    },
+    "zh-CN": {
+      "title": "用 REA 把 Hawken 移植成可在线游玩的浏览器游戏",
+      "summary": "作者尝试用 REA 移植 PC 机甲游戏 Hawken,最终做出支持电脑与手机、无需账号的在线浏览器游戏 webken,并公开了可试玩的网址。内容为作者自述,未提供测试或代码证据,但有可实际打开的成品。",
+      "target": "Hawken(PC 机甲游戏)",
+      "metric": "公开可玩的浏览器版 webken.lamesachica.com"
+    }
+  },
+  "d-19f5e5a85a": {
+    "hash": "b82b37d78e2a",
+    "en": {
+      "title": "Running Pokémon Let's Go Pikachu natively on six platforms with REA",
+      "summary": "The author claims to be porting Pokémon Let's Go, Pikachu!, aiming to run it natively on Apple TV, Android TV, iOS, Android, macOS, and Windows, with a full port expected within a week. The post is only a progress announcement, with no code, screenshots, or tests, and nothing has been released yet.",
+      "target": "Pokémon Let's Go Pikachu",
+      "metric": "Claims native execution on six platforms, release expected within a week"
+    },
+    "zh-CN": {
+      "title": "用 REA 让皮卡丘版精灵宝可梦跨六平台原生运行",
+      "summary": "作者宣称正在移植《精灵宝可梦 Let's Go 皮卡丘》,目标是在 Apple TV、Android TV、iOS、Android、macOS、Windows 原生运行,并预计一周内发布完整移植。帖子只有进度宣告,没有代码、截图或测试,成果尚未公开。",
+      "target": "Pokémon Let's Go Pikachu",
+      "metric": "宣称六个平台原生运行,预计一周内发布"
+    }
+  },
+  "d-d23d2a26e2": {
+    "hash": "aca30e9e07ae",
+    "en": {
+      "title": "Using REA to analyze an Android app and bypass its paywall",
+      "summary": "The author used REA to analyze an Android app and bypass its paywall, and also mentions the trend of AI accelerating vulnerability discovery. The post names no target app, method, or evidence; the result is self-reported.",
+      "target": "An unnamed Android app",
+      "metric": "Paywall bypassed (self-reported)"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析 Android 应用并绕过付费墙",
+      "summary": "作者使用 REA 分析一款 Android 应用并成功绕过其付费墙,同时提到 AI 加速漏洞发现的趋势。帖子没有说明目标应用、方法或证据,只有作者自述的结果。",
+      "target": "某 Android 应用（未具名）",
+      "metric": "成功绕过付费墙（作者自述）"
+    }
+  },
+  "d-7bc975ce6c": {
+    "hash": "d8e44d5e64c5",
+    "en": {
+      "title": "A symbolic execution MCP for REA that handles OLLVM and constraints",
+      "summary": "SYMB is an MCP server built on angr and Z3. It offers OLLVM control-flow recovery, branch reachability solving, and symbolic taint tracking, as a complement to REA. The content is a feature overview and documentation; no results or test data on specific targets are shown.",
+      "target": "OLLVM obfuscation, constraint solving, and binary reachability analysis",
+      "metric": "Published the npm package symb-agents, providing a symbolic execution and Z3 solving MCP"
+    },
+    "zh-CN": {
+      "title": "打造搭配 REA 的符号执行 MCP，解 OLLVM 与约束",
+      "summary": "SYMB 是基于 angr 与 Z3 的 MCP 服务器，提供 OLLVM 控制流还原、分支可达性求解与符号污点追踪，作为 REA 的互补工具。内容为功能介绍与文档，未见针对具体目标的实测结果或测试数据。",
+      "target": "OLLVM 混淆、约束求解与二进制可达性分析",
+      "metric": "发布 npm 包 symb-agents，提供符号执行与 Z3 求解 MCP"
+    }
+  },
+  "d-0a11b07d0d": {
+    "hash": "9d41ae4c60a8",
+    "en": {
+      "title": "A lightweight skill for REA that cuts the entry point by about 80%",
+      "summary": "Built on REA 6.7.0, this is an unofficial on-demand skill with a lazy-loading MCP gateway that reduces the amount of content loaded up front. It keeps all 207 tool names and the original parameter schemas, validates every schema through the gateway, and uses one offline PE check to confirm that direct and lazy-loaded results match. This is integration and optimization work, not analysis of a specific reverse-engineering target.",
+      "target": "REA 6.7.0 skill and MCP tool catalog",
+      "metric": "Skill entry point cut from 23,523 bytes to 4,630 (-80.3%); MCP catalog shrunk by 99.85%"
+    },
+    "zh-CN": {
+      "title": "为 REA 制作轻量技能，入口缩小约 80%",
+      "summary": "基于 REA 6.7.0，制作按需加载的非官方技能与懒加载 MCP 网关，降低初始加载的内容量。保留 207 个工具名称与原始参数结构，并通过网关验证全部结构，另以一次离线 PE 检查比对直连与懒加载结果一致。这是集成与优化工作，并非对具体逆向目标的分析。",
+      "target": "REA 6.7.0 技能与 MCP 工具目录",
+      "metric": "技能入口由 23,523 字节降至 4,630（-80.3%），MCP 目录缩小 99.85%"
+    }
+  },
+  "d-b4ce275f65": {
+    "hash": "2703204c577b",
+    "en": {
+      "title": "A terminal CLI wrapper around REA's 207 MCP tools",
+      "summary": "The goal is to make REA's MCP tool catalog usable as local commands. The author's CLI talks to the REA server over stdio and provides argument parsing, tool discovery, diagnostics, and path sandboxing. The content is a tool wrapper; no analysis results on specific reverse-engineering targets are shown.",
+      "target": "REA MCP server (207 tools)",
+      "metric": "CLI command wrapper supporting 207 REA tools"
+    },
+    "zh-CN": {
+      "title": "以 REA 的 207 个 MCP 工具打造终端 CLI 封装",
+      "summary": "目标是让 REA 的 MCP 工具目录能以本地命令使用。作者用 CLI 通过 stdio 与 REA 服务器通信，提供参数解析、工具发现、诊断与路径沙箱等功能。内容为工具封装，未见针对具体逆向目标的分析成果。",
+      "target": "REA MCP 服务器（207 个工具）",
+      "metric": "支持 207 个 REA 工具的 CLI 命令封装"
+    }
   }
 }

@@ -12673,5 +12673,440 @@
       "target": "REA MCP 服务器（207 个工具）",
       "metric": "支持 207 个 REA 工具的 CLI 命令封装"
     }
+  },
+  "d-26825ae621": {
+    "hash": "34d128e86eb8",
+    "en": {
+      "title": "Reverse-engineering T3 Code to build a mini desktop chat app that drives Codex over JSON-RPC",
+      "summary": "After reverse-engineering T3 Code with REA, the author built Mini T3, which drives codex app-server over WebSocket and JSON-RPC and supports streaming replies and abort. There is also an Electron desktop build with a sandbox, token authentication and IPC origin checks. The excerpt does not show any findings from reversing T3 Code itself.",
+      "target": "T3 Code (desktop AI coding assistant)",
+      "metric": "Working Electron desktop app that streams replies and runs Codex in a read-only sandbox"
+    },
+    "zh-CN": {
+      "title": "逆向 T3 Code 后做出以 JSON-RPC 驱动 Codex 的迷你桌面聊天 App",
+      "summary": "在用 REA 逆向 T3 Code 之后,做出 Mini T3,通过 WebSocket 与 JSON-RPC 驱动 codex app-server,支持流式回复与中止。另有 Electron 桌面版,包含沙箱、token 验证与 IPC 来源检查。节选中未呈现逆向 T3 Code 本身的发现。",
+      "target": "T3 Code(桌面 AI 编程助手)",
+      "metric": "可运行的 Electron 桌面版,流式回复并以只读沙箱运行 Codex"
+    }
+  },
+  "d-31ef070551": {
+    "hash": "367182dd0c11",
+    "en": {
+      "title": "Reverse-engineering Obsidian's graph view with REA and rebuilding a working clone",
+      "summary": "Using REA with an AI coding agent, the author analyzed the Electron asar bundle of Obsidian 1.13.7 and identified its PixiJS rendering, WASM/D3 physics engine and CSS theme bridge, then rebuilt it clean-room. The result includes a runnable interactive demo, a technical teardown report and a public repo.",
+      "target": "Obsidian graph view (Electron asar bundle)",
+      "metric": "Rebuilt a runnable graph demo driven by PixiJS and WASM/D3 physics"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向 Obsidian 图谱视图并重建可运行的复刻版",
+      "summary": "用 REA 搭配 AI coding agent 分析 Obsidian 1.13.7 的 Electron asar 包,找出 PixiJS 渲染、WASM/D3 物理引擎与 CSS 主题桥接等机制,并以净室方式重建。成果包含可运行的交互演示、技术拆解报告与公开 repo。",
+      "target": "Obsidian 图谱视图(Electron asar 包)",
+      "metric": "重建出由 PixiJS 与 WASM/D3 物理驱动的可运行图谱演示"
+    }
+  },
+  "d-ac572876fe": {
+    "hash": "9182b44be72f",
+    "en": {
+      "title": "Analyzing a real Samsung Tizen device with REA and multiple agents, yielding about 44 feature analyses",
+      "summary": "The author posts live on X about findings from analyzing a Samsung (Tizen) device, keeping agents running continuously. So far about 44 per-feature analysis documents have been compiled, which the author calls the most complete write-up of security concerns on a real Tizen device they have seen, with release expected within days. The post gives no concrete findings, and the results are not yet public.",
+      "target": "Samsung Tizen real device",
+      "metric": "About 44 per-feature analysis documents"
+    },
+    "zh-CN": {
+      "title": "用 REA 与多个 agent 分析 Samsung Tizen 实机,产出约 44 篇功能分析",
+      "summary": "作者在 X 上实时发帖分析 Samsung(Tizen)设备的发现,并让 agent 持续运行。目前汇总出约 44 篇单项功能的分析文档,作者称这是他见过最完整的 Tizen 实机安全隐患整理,预计数日内发布。文中未提供具体发现内容,成果尚未公开。",
+      "target": "Samsung Tizen 实机",
+      "metric": "约 44 篇单项功能分析文档"
+    }
+  },
+  "d-327fc3431f": {
+    "hash": "132a8bc384cf",
+    "en": {
+      "title": "Dismantling cleaner programs with REA to find 5 unencrypted iPhone backups left behind",
+      "summary": "The author wanted to recover iPhone photos they believed were permanently deleted. They had Claude Code with REA dismantle 5 PC cleaner programs and found 5 old unencrypted backups in the AppData MobileSync directory. One of the cleaners walks the entire AppData, including MobileSync, on every launch.",
+      "target": "iPhone backups (MobileSync) and PC cleaner programs",
+      "metric": "5 unencrypted backups, 183,406 files in total"
+    },
+    "zh-CN": {
+      "title": "用 REA 拆解清理程序,找出 iPhone 残留的 5 份未加密备份",
+      "summary": "作者想找回自认已永久删除的 iPhone 照片。让 Claude Code 搭配 REA 拆解 5 个 PC 清理程序,并发现 AppData 的 MobileSync 目录内有 5 份未加密的旧备份。其中一个清理程序每次启动都会遍历整个 AppData,包含 MobileSync。",
+      "target": "iPhone 备份(MobileSync)与 PC 清理程序",
+      "metric": "5 份未加密备份、共 183,406 个文件"
+    }
+  },
+  "d-ab1d7273ce": {
+    "hash": "7679f6c57819",
+    "en": {
+      "title": "Modding a Hisense Vidda TV with REA: ad removal, one-tap Switch input, custom screensaver",
+      "summary": "The author says they used REA to modify their own Hisense Vidda TV: several kinds of ads removed, a one-tap switch to a Switch console for gaming, and a built-in screensaver. They also installed 影视仓 and, with a configuration link, watch 4K video. This is the author's own account only, with no code or steps to back it up.",
+      "target": "Hisense Vidda TV",
+      "metric": "Ads removed and one-tap Switch input added"
+    },
+    "zh-CN": {
+      "title": "用 REA 改造海信 Vidda 电视：去广告、切换 Switch、换屏保",
+      "summary": "作者自述用 REA 改造自家海信 Vidda 电视，移除多种广告，可一键切换到 Switch 玩游戏，并内置屏幕保护程序。还安装了影视仓，配合配置链接观看 4K 视频。仅为作者自述，没有代码或步骤佐证。",
+      "target": "海信 Vidda 电视",
+      "metric": "去除广告并新增一键切换 Switch"
+    }
+  },
+  "d-54cb14178c": {
+    "hash": "c9f5af12bf22",
+    "en": {
+      "title": "Modding the Battlefield 4 Metro map with REA to rebuild BF2 co-op",
+      "summary": "The author used REA to mod the Metro map in Battlefield 4, together with Astra, aiming to rebuild the co-op mode from BF2. Bots now spawn successfully, but the work has not yet gone deeper with Opus 5.5. This is an ongoing experiment, backed only by the author's own account.",
+      "target": "Battlefield 4 (Metro map)",
+      "metric": "Bots can now spawn in game"
+    },
+    "zh-CN": {
+      "title": "用 REA 对 Battlefield 4 做 Metro 地图改造，尝试重建 BF2 合作模式",
+      "summary": "作者以 REA 对《战地风云 4》进行 Metro 地图 modding，并搭配 Astra，目标是重建 BF2 的合作模式。目前已成功生成 bot，但尚未用 Opus 5.5 深入处理。属于进行中的实验，只有作者自述。",
+      "target": "Battlefield 4（Metro 地图）",
+      "metric": "已能在游戏中生成 bot"
+    }
+  },
+  "d-83be21fe6e": {
+    "hash": "1e9c6a34c8b1",
+    "en": {
+      "title": "Rebuilding a 5-cylinder engine from the REA guide: a re-audit catches 12 wrong floats",
+      "summary": "Starting from a rarely mentioned error in the REA guide, where a constant 128.0 was mistakenly replaced with 0.0, the author turned it into an engine teardown case and took apart the parts of an RS-like 5-cylinder engine one by one. After re-auditing 1,548 floats, they found 12 more wrong values in 5 functions that had already passed acceptance.",
+      "target": "5-cylinder engine rebuild (reverse-engineered functions and float constants)",
+      "metric": "Re-audited 1,548 floats; found 12 errors in 5 already-accepted functions"
+    },
+    "zh-CN": {
+      "title": "依 REA 指南拆解 5 缸引擎重建，重新审计抓出 12 个错误浮点数",
+      "summary": "作者从 REA 指南中少有人提及的一个错误出发，把常数误用 0.0 取代 128.0 的问题做成引擎拆解案例，逐一拆解类似 RS 的 5 缸引擎零件。重新审计 1,548 个浮点数后，在 5 个已通过验收的函数中又找到 12 个错误值。",
+      "target": "5 缸引擎重建（逆向还原的函数与浮点常数）",
+      "metric": "重新审计 1,548 个浮点数，于 5 个已验收函数中找出 12 个错误"
+    }
+  },
+  "d-43ed858149": {
+    "hash": "03771e609ba1",
+    "en": {
+      "title": "A Linux desktop automation and reverse-engineering toolkit combining AT-SPI and REA, with performance tuning of the game BLACK as an example",
+      "summary": "Combines AT-SPI 2.0 desktop UI automation with REA-style inspection of ELF/PE binaries, processes, and config files, and ships an MCP server. In the worked example, it inspects BLACK, a native Linux port of the game, and finds 3x supersampling and missing vsync in black.ini. After tuning, it claims a stable 60 FPS. The results are the author's own claims, and the excerpt shows no comparison tests.",
+      "target": "Linux desktop apps and the game BLACK (Vulkan + SDL3 port)",
+      "metric": "Found the scale=3.000 supersampling setting; claims a stable 60 FPS after tuning"
+    },
+    "zh-CN": {
+      "title": "整合 AT-SPI 与 REA 的 Linux 桌面自动化与逆向引擎，并以游戏 BLACK 性能调优为例",
+      "summary": "结合 AT-SPI 2.0 桌面界面自动化与 REA 式的 ELF/PE、进程与配置文件检视，并提供 MCP 服务器。实例中检查 Linux 原生移植的游戏 BLACK，找出 black.ini 的 3 倍超采样与缺少垂直同步，调整后号称稳定 60 FPS。成果为作者自述，节选中未见对照测试。",
+      "target": "Linux 桌面应用与游戏 BLACK（Vulkan + SDL3 移植版）",
+      "metric": "找出 scale=3.000 超采样设置，调整后自述稳定 60 FPS"
+    }
+  },
+  "d-e6dcdca699": {
+    "hash": "68b12ee91fde",
+    "en": {
+      "title": "Deriving REA into a Ghidra static-analysis build supporting nine retro CPUs",
+      "summary": "A derivative of REA 6.7.0 that adds Ghidra static-analysis support for the 6502, 6510, 8500, 65C02, 65816 (experimental), 8080, 6800, 6809 and Z80. It ships with setup, module and test documentation and keeps the original project's license. It is static analysis only: it does not emulate computers or automatically convert games.",
+      "target": "Ghidra static analysis of retro CPUs (nine, including 6502/Z80)",
+      "metric": "Adds support for 9 classic CPU architectures"
+    },
+    "zh-CN": {
+      "title": "将 REA 衍生为支持九种复古 CPU 的 Ghidra 静态分析版本",
+      "summary": "基于 REA 6.7.0 派生的版本,通过 Ghidra 加入对 6502、6510、8500、65C02、65816(实验性)、8080、6800、6809 和 Z80 的静态分析支持。附有配置、模块和测试文档,并保留原项目许可证;但仅做静态分析,不模拟计算机,也不自动转换游戏。",
+      "target": "复古 CPU(6502/Z80 等九种)的 Ghidra 静态分析",
+      "metric": "新增支持 9 种经典 CPU 架构"
+    }
+  },
+  "d-ec76ad754e": {
+    "hash": "75820dd82b1d",
+    "en": {
+      "title": "An architecture teardown report of the macOS Spotify desktop app using REA",
+      "summary": "The target is Spotify desktop 1.3.6.1921, examined with REA and native macOS tools. The report lays out a hybrid architecture of a Mach-O arm64 main executable plus CEF, along with code-signing entitlements, linked frameworks, the bundled spotify_cli and Web Gateway endpoints. It relies mainly on static inspection; the excerpts include no reproduction or comparison tests.",
+      "target": "Spotify for macOS desktop 1.3.6.1921",
+      "metric": "Confirmed a native C++ core plus CEF architecture and identified the full command set of the bundled spotify_cli"
+    },
+    "zh-CN": {
+      "title": "用 REA 对 macOS 版 Spotify 桌面程序做架构拆解报告",
+      "summary": "目标是 Spotify 桌面版 1.3.6.1921,使用 REA 与 macOS 原生工具进行检查。报告梳理出 Mach-O arm64 主程序加 CEF 的混合架构、签名权限、链接框架、随附的 spotify_cli 以及 Web Gateway 端点。内容以静态检查为主,节选中没有复现或对照测试。",
+      "target": "Spotify macOS 桌面版 1.3.6.1921",
+      "metric": "确认原生 C++ 核心加 CEF 的架构,并找出随附 spotify_cli 的完整命令集"
+    }
+  },
+  "d-efe8bf52bf": {
+    "hash": "f9bfb3bf6017",
+    "en": {
+      "title": "A rundown of the six little-used prompts built into the REA MCP server",
+      "summary": "The author found that REA's founder built six prompts into the MCP server, including tracing a single behavior to its functions, diffing two versions, and verifying a reconstruction item by item. The piece only introduces what these prompts do and shows no results from actually using them.",
+      "target": "Built-in prompts of the REA MCP server",
+      "metric": "Lists 6 built-in prompts (e.g. investigate_feature, verify_reconstruction)"
+    },
+    "zh-CN": {
+      "title": "整理 REA MCP 服务器内置的六个少人使用的提示",
+      "summary": "作者发现 REA 创始人在 MCP 服务器中内置了六个提示,包括追踪单一行为对应的函数、对比两个版本的差异、逐项验证重建结果等。内容只是介绍这些提示的功能,并未展示实际使用成果。",
+      "target": "REA MCP 服务器内置提示",
+      "metric": "列出 6 个内置提示(如 investigate_feature、verify_reconstruction)"
+    }
+  },
+  "d-401348f3a4": {
+    "hash": "ca52eb8dca5a",
+    "en": {
+      "title": "A hands-on REA tutorial: studying Apple Notes and building a personal note tool",
+      "summary": "Using Apple Notes as the example, the author has an AI study its local note features and then builds a personal version with a topic-selection template, spoken-delivery duration estimates and a full-screen teleprompter. The tutorial covers installing REA, scoping the task, reading the research report and implementing step by step, with an accompanying video.",
+      "target": "Apple Notes",
+      "metric": "Completed a personal note tool with a teleprompter, plus a tutorial video"
+    },
+    "zh-CN": {
+      "title": "REA 实操教程:研究苹果备忘录并做出自用笔记工具",
+      "summary": "作者以苹果备忘录为例,让 AI 研究其本地笔记功能,再做出自用版本,加入选题模板、口播时长估算和全屏提词器。教程涵盖 REA 安装、任务范围设定、调研报告阅读与逐步实现,并配有视频。",
+      "target": "苹果备忘录(Apple Notes)",
+      "metric": "完成含提词器的自用笔记工具与教学视频"
+    }
+  },
+  "d-c24d05d4a2": {
+    "hash": "2d5fa5692f30",
+    "en": {
+      "title": "Reverse-engineering and rewriting the G*Power one-way ANOVA engine with REA and Ghidra",
+      "summary": "The target is the power calculation for one-way ANOVA in G*Power 3.1.9.7. It was reverse-engineered with REA and Ghidra, then rewritten clean-room in Python, with a CLI and an MCP server. Against 56 vectors measured from the G*Power interface and 5 public vectors, 245/245 fields match. Tests, a comparison report and a demo video are included. The AI agent layer never actually ran an LLM, and the author flags the delivery as incomplete.",
+      "target": "G*Power 3.1.9.7 one-way ANOVA engine",
+      "metric": "245/245 fields match across 61 vectors; a-priori n_total matches exactly in 17/17 cases"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Ghidra 逆向并重写 G*Power 单因素 ANOVA 引擎",
+      "summary": "目标是 G*Power 3.1.9.7 的单因素 ANOVA 检验力计算,用 REA 搭配 Ghidra 逆向后,以 Python 净室重写,并提供 CLI 与 MCP 服务器。对照 56 组 G*Power 界面实测向量与 5 组公开向量,245/245 个字段吻合,并附测试、对照报告与演示视频。AI 代理层并未实际运行 LLM,作者自己注明为不完整交付。",
+      "target": "G*Power 3.1.9.7 单因素 ANOVA 引擎",
+      "metric": "61 组向量 245/245 个字段吻合,a-priori n_total 17/17 完全一致"
+    }
+  },
+  "d-9ce58c2176": {
+    "hash": "4299a3f99ea6",
+    "en": {
+      "title": "Recovering the Clamp clipper DSP with REA and Ghidra and porting it to macOS VST3/AU",
+      "summary": "Outobugi's Clamp VST3 is Windows-only. The DSP was recovered with REA and Ghidra and rebuilt with iPlug2 as universal macOS VST3 and AU plugins. The project ships installers, reverse-engineering notes, a tool that runs the original DLL in an x86-64 emulator and compares its output with the port, and tests against the recovered formulas.",
+      "target": "Outobugi Clamp clipper plugin (Windows VST3)",
+      "metric": "Universal Apple Silicon/Intel VST3 and AU installers released; original DSP compared via emulator"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Ghidra 还原 Clamp 削波器 DSP,移植为 macOS VST3/AU",
+      "summary": "Outobugi 的 Clamp VST3 仅有 Windows 版。项目用 REA 与 Ghidra 还原其 DSP,并以 iPlug2 重建为 macOS 通用版 VST3 与 AU 插件。项目附安装包、逆向文档、在 x86-64 模拟器中运行原 DLL 并与移植版比对的工具,以及对照还原公式的测试。",
+      "target": "Outobugi Clamp 削波器插件(Windows VST3)",
+      "metric": "发布 Apple Silicon/Intel 通用版 VST3 与 AU 安装包,并以模拟器比对原版 DSP"
+    }
+  },
+  "d-cd0456f031": {
+    "hash": "9d3a9e15cd55",
+    "en": {
+      "title": "A non-programmer reverse-engineers a guitar effects editor with REA to build a native Linux version",
+      "summary": "The editor for the M-VAVE Cube Baby AC guitar effects unit only exists for Windows. The author, who is not a programmer, had Claude reverse-engineer the editor with REA and rebuild it as a native Linux app. This is the author's own account only; no repo or screenshots are provided.",
+      "target": "M-VAVE Cube Baby AC effects editor",
+      "metric": "Windows-only editor rebuilt as a native Linux app"
+    },
+    "zh-CN": {
+      "title": "非程序员用 REA 逆向吉他效果器编辑器,做出 Linux 原生版",
+      "summary": "M-VAVE Cube Baby AC 吉他效果器的编辑器只有 Windows 版。作者不是程序员,请 Claude 搭配 REA 逆向该编辑器,重建为 Linux 原生应用。内容仅为作者自述,未附 repo 或截图。",
+      "target": "M-VAVE Cube Baby AC 效果器编辑器",
+      "metric": "Windows 专用编辑器重建为 Linux 原生应用"
+    }
+  },
+  "d-e75ab2a79b": {
+    "hash": "ad737d9ee103",
+    "en": {
+      "title": "Teardown of the UIs of two AI role-play apps, Zeta and SynClub: 93 screenshots and a rebuild blueprint",
+      "summary": "Built from the public web version and App Store assets, this collects 93 screenshots, design tokens, a route and component catalog, a tech stack analysis, and a rebuild blueprint. Scope is limited to public screens reachable without logging in, with an evidence index and a document of method limitations.",
+      "target": "UI of Zeta and SynClub (Japanese AI role-play apps)",
+      "metric": "93 screenshots and a 27-item feature comparison matrix, with evidence index and rebuild blueprint"
+    },
+    "zh-CN": {
+      "title": "拆解 Zeta 与 SynClub 两款 AI 角色扮演 App 的 UI,产出 93 张截图与重建蓝图",
+      "summary": "针对公开网页版与 App Store 素材,整理出 93 张截图、设计 token、路由与组件目录、技术栈分析,以及重建蓝图。范围限于未登录可达的公开界面,并附证据索引与方法限制文档。",
+      "target": "Zeta 与 SynClub(日本 AI 角色扮演 App)的 UI",
+      "metric": "93 张截图与 27 项功能对比矩阵,附证据索引与重建蓝图"
+    }
+  },
+  "d-79ac239323": {
+    "hash": "d5bb3ccd7e5d",
+    "en": {
+      "title": "Indonesian-language REA hands-on tutorial: installing it and using AI to help take apps apart",
+      "summary": "An Indonesian-language tutorial on DEV Community showing how to install REA via npx and use it with an AI coding assistant. It covers analysis targets such as Electron, executables, APKs and network packet captures (HAR/SAF). It is a getting-started guide and does not test REA against any specific target.",
+      "target": "The REA tool itself (tutorial)",
+      "metric": "Installs via npx in under 2 minutes"
+    },
+    "zh-CN": {
+      "title": "印尼文 REA 实操教程：如何安装并用 AI 辅助拆解应用程序",
+      "summary": "DEV Community 上的印尼文教程,介绍如何用 npx 安装 REA 并搭配 AI coding assistant 使用。内容涵盖 Electron、可执行文件、APK 与网络数据包记录（HAR/SAF）等分析对象,属于上手指南,没有对具体目标做实测。",
+      "target": "REA 工具本身（教程）",
+      "metric": "2 分钟内通过 npx 完成安装"
+    }
+  },
+  "d-9744c0ebe9": {
+    "hash": "25ea0ead53ce",
+    "en": {
+      "title": "A Fully Chinese REA Reverse-Engineering Workbench Plugin for DeepSeek Harness",
+      "summary": "Wraps REA's 220 tools into a plugin with an all-Chinese interface, including call statistics, error translation, offline docs, and Agent skills, plus one-click installation of the analysis engine. This is tool integration; it has no results against a specific reverse-engineering target.",
+      "target": "The REA plugin interface of DeepSeek Harness",
+      "metric": "220 tools, 72 offline docs, 4 Agent skills"
+    },
+    "zh-CN": {
+      "title": "为 DeepSeek Harness 打造 REA 全中文逆向工作台插件",
+      "summary": "将 REA 的 220 个工具打包成纯中文界面插件,包含调用统计、错误翻译、离线文档与 Agent 技能,并可一键安装分析引擎。属于工具集成,没有针对具体逆向目标的成果。",
+      "target": "DeepSeek Harness 的 REA 插件界面",
+      "metric": "220 个工具、72 篇离线文档、4 个 Agent 技能"
+    }
+  },
+  "d-e166572be7": {
+    "hash": "2768cb860871",
+    "en": {
+      "title": "Recovering an Architecture from a Linux Install Script with REA and DeepSeek, Then Handing It to Claude to Implement",
+      "summary": "Starting from a Linux install script, the author used REA and DeepSeek to work out the architecture, then handed it to Claude for execution. The write-up is brief and does not say which product was targeted or what was achieved.",
+      "target": "A Linux install script (product not named)",
+      "metric": "Architecture recovered from the install script"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 DeepSeek 从 Linux 安装脚本还原架构再交给 Claude 实现",
+      "summary": "作者从 Linux 安装脚本出发,用 REA 与 DeepSeek 梳理出架构,再交给 Claude 执行。内容简短,未说明目标产品与成果。",
+      "target": "Linux 安装脚本(未具名产品)",
+      "metric": "从安装脚本还原出架构"
+    }
+  },
+  "d-6ad3b48a4f": {
+    "hash": "9648cfa2910d",
+    "en": {
+      "title": "Rebuilding an Old Xbox Game with REA and Building a Home Network Management System",
+      "summary": "The author works with Claude Code alongside firstmate, using REA to rebuild an old Xbox game that friends used to play, and building a home network management system that optimizes WiFi. The post is a general self-description with no specific game name, results, or evidence.",
+      "target": "An old Xbox game, a home network",
+      "metric": "Self-reported rebuild of one old Xbox game"
+    },
+    "zh-CN": {
+      "title": "用 REA 重建旧 Xbox 游戏并打造家用网络管理系统",
+      "summary": "作者以 Claude Code 搭配 firstmate 协作,其中用 REA 重建朋友们玩过的旧 Xbox 游戏,并做出优化 WiFi 的家用网络管理系统。内容为概括性自述,没有具体游戏名称、成果或证据。",
+      "target": "旧 Xbox 游戏、家用网络",
+      "metric": "自述重建一款旧 Xbox 游戏"
+    }
+  },
+  "d-d2871dcf9f": {
+    "hash": "5f3734b5c0aa",
+    "en": {
+      "title": "Taking Apart and Rebuilding a TV with a Local-Model-Driven Hermes Bot, with a Car Head Unit Next",
+      "summary": "On an Alienware machine, the author runs a Hermes bot with an uncensored Qwen model, planning to take apart and rebuild a TV, and mentions being unhappy that REA's Git history was trimmed. The TV is the first project; the head unit of an old car is planned next. This is a plan and work in progress, with no concrete results yet.",
+      "target": "A TV, an old car's head unit",
+      "metric": "In progress: TV first, car head unit next"
+    },
+    "zh-CN": {
+      "title": "用本地模型驱动的 Hermes bot 拆解并重建电视,下一个目标是车用主机",
+      "summary": "作者在 Alienware 上用 Hermes bot 搭配去除限制的 Qwen 模型,打算拆解并重建电视,并提到不满 REA 的 Git 被删减。电视是第一个项目,下一个计划处理旧车的车机。内容是计划与进行中的状态,尚无具体成果。",
+      "target": "电视、旧车车机",
+      "metric": "进行中:第一个项目为电视,下一个为车机"
+    }
+  },
+  "d-b33d63c181": {
+    "hash": "7fd8a3f1a111",
+    "en": {
+      "title": "Building MathSheets, a Google Sheets clone, with REA assistance, plus a tutorial video",
+      "summary": "A dependency-free spreadsheet built in plain HTML/CSS/JS, with a formula engine and 13 built-in functions, accompanied by a video walkthrough and a REA installation guide. REA plays a supporting role in research and teaching; no specific reverse-engineering findings about Google Sheets are documented.",
+      "target": "Google Sheets (feature clone) and REA installation tutorial",
+      "metric": "A working spreadsheet clone supporting 13 built-in functions, with a video tutorial"
+    },
+    "zh-CN": {
+      "title": "用 REA 辅助制作 Google Sheets 复刻品 MathSheets 并附教学视频",
+      "summary": "以纯 HTML/CSS/JS 做出无依赖的电子表格，含公式引擎与 13 个内置函数，另附视频导览与 REA 安装指南。REA 在其中是辅助研究与教学的角色，没有记载对 Google Sheets 的具体逆向发现。",
+      "target": "Google Sheets（功能复刻）与 REA 安装教程",
+      "metric": "支持 13 个内置函数的可运行电子表格复刻，附视频教程"
+    }
+  },
+  "d-0a0465906b": {
+    "hash": "22e41e59c32f",
+    "en": {
+      "title": "Setting up a Linux REA development environment integrating Ubuntu and Ghidra",
+      "summary": "The goal is to make REA usable on Linux, integrating Ubuntu, Ghidra, and an automated reverse-engineering workflow. The excerpt is mostly a copy of the official REA README, with no concrete analysis target or result visible.",
+      "target": "Linux development environment for REA (Ubuntu + Ghidra)",
+      "metric": "No concrete analysis results; only a description of the environment integration"
+    },
+    "zh-CN": {
+      "title": "搭建整合 Ubuntu 与 Ghidra 的 Linux 版 REA 开发环境",
+      "summary": "目标是让 REA 在 Linux 上可用，整合 Ubuntu、Ghidra 与自动化逆向流程。节选内容多为 REA 官方 README 的副本，没有看到具体的分析目标或成果。",
+      "target": "REA 的 Linux 开发环境（Ubuntu + Ghidra）",
+      "metric": "未见具体分析成果，仅有环境整合描述"
+    }
+  },
+  "d-4c507c939a": {
+    "hash": "d8f6eb28e133",
+    "en": {
+      "title": "A skill for calling the REA CLI on demand, avoiding an always-on 207-tool MCP",
+      "summary": "A SKILL.md skill that lets an agent invoke the REA CLI via npx only when needed, enforcing an isolated directory, checking the support matrix first, refusing execution-type tools, and treating content as untrusted. It records facts verified on 6.7.0 and a warning about the fake rea-tools trojan, but it is just a skill document.",
+      "target": "Agent usage of the REA CLI (as a skill)",
+      "metric": "Saves about 48k tokens of MCP tool-definition overhead"
+    },
+    "zh-CN": {
+      "title": "制作按需调用 REA CLI 的 Agent 技能，避免常驻 207 工具 MCP",
+      "summary": "编写 SKILL.md 技能，让 agent 需要时才通过 npx 调用 REA CLI，并规定使用隔离目录、先查支持矩阵、拒用执行类工具、视内容为不可信。记录了 6.7.0 实测事实与仿冒 rea-tools 木马提醒，但本身只是技能文档。",
+      "target": "REA CLI 的 agent 使用方式（技能）",
+      "metric": "节省约 48k token 的 MCP 工具定义开销"
+    }
+  },
+  "d-dc171195f3": {
+    "hash": "2610986a5197",
+    "en": {
+      "title": "Using REA to reverse-engineer Claude Code, Codex, and other AI tools into a single local framework",
+      "summary": "The author plans to use REA to reverse-engineer Claude Code, Codex, Hermes Agent, and OpenCode, and fold what they learn into one locally run AI harness. Still in development, with no concrete results or evidence provided.",
+      "target": "Claude Code, Codex, Hermes Agent, OpenCode",
+      "metric": "Plans to reverse-engineer 4 AI coding tools (in progress, no results)"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向 Claude Code、Codex 等 AI 工具以整合成单一本地框架",
+      "summary": "作者打算用 REA 逆向 Claude Code、Codex、Hermes Agent 与 OpenCode，把学到的设计整合到一个本地运行的 AI harness。目前仍在开发中，未提供具体成果或证据。",
+      "target": "Claude Code、Codex、Hermes Agent、OpenCode",
+      "metric": "计划逆向 4 个 AI coding 工具（进行中，无成果）"
+    }
+  },
+  "d-20692ddeab": {
+    "hash": "3b2258bb2a34",
+    "en": {
+      "title": "Having a bot reverse-engineer an LG air conditioner for fully local control with no app login",
+      "summary": "Building on Home Assistant, the author had a bot reverse-engineer the communication of an LG air conditioner. The existing integration already works, but they want it fully local, with no need for the vendor app even for the first login. This is the author's own account only; no public code or tests are provided.",
+      "target": "LG air conditioner (Home Assistant integration)",
+      "metric": "Goal: fully local control, with no vendor app needed even for the first login"
+    },
+    "zh-CN": {
+      "title": "让 bot 逆向 LG 空调，改成完全本地控制、无需 App 登录",
+      "summary": "作者以 Home Assistant 为基础，让 bot 逆向 LG 空调的通信。原有的集成已可运行，但他想做到完全本地化，首次登录也不必通过原厂 App。仅为作者自述，没有公开代码或测试。",
+      "target": "LG 空调（Home Assistant 集成）",
+      "metric": "目标为首次登录也无需原厂 App 的完全本地控制"
+    }
+  },
+  "d-d37b0a1de8": {
+    "hash": "bd5f46883862",
+    "en": {
+      "title": "Packaging a REA reverse-engineering preset bundle for DeepSeek Harness",
+      "summary": "The goal is to let DeepSeek Harness mount about 139 REA tools, a reverse-engineer persona, and an evidence-first analysis workflow in one step, installable across four interfaces: desktop, web, headless, and TUI. It ships one-click install, uninstall, and offline verification scripts, plus CI. This is integration tooling; the excerpt contains no analysis results for any specific target.",
+      "target": "REA preset bundle for DeepSeek Harness",
+      "metric": "One bundle covering about 139 REA tools and four interfaces"
+    },
+    "zh-CN": {
+      "title": "为 DeepSeek Harness 打包 REA 逆向预设组合",
+      "summary": "目标是让 DeepSeek Harness 一键挂载约 139 个 REA 工具、逆向工程师角色与证据优先的分析流程，可装进桌面、网页、无头与 TUI 四种界面。提供一键安装、卸载与离线验证脚本，并有 CI。这是集成工具，节选中没有针对具体目标的分析成果。",
+      "target": "DeepSeek Harness 的 REA 预设套件",
+      "metric": "一个套件涵盖约 139 个 REA 工具、四种界面"
+    }
+  },
+  "d-25d7415e14": {
+    "hash": "a5410464bae1",
+    "en": {
+      "title": "A Nix package and skill pack for REA",
+      "summary": "The goal is to build a pinned version of REA from source with a Nix flake, and to package its agent skills separately. It tracks new upstream releases daily and gates them with smoke tests, and also offers a Cachix binary cache. This is packaging tooling with no reverse-engineering results.",
+      "target": "Nix packaging for REA",
+      "metric": "Daily automatic upstream tracking, gated by nix flake check smoke tests"
+    },
+    "zh-CN": {
+      "title": "为 REA 制作 Nix 包与技能包",
+      "summary": "目标是用 Nix flake 从源码构建固定版本的 REA，并单独打包其代理技能。含每日自动跟踪上游新版本，并以冒烟测试把关，另有 Cachix 二进制缓存。属于打包工具，没有逆向成果。",
+      "target": "REA 的 Nix 打包",
+      "metric": "每日自动跟进上游版本，并以 nix flake check 冒烟测试把关"
+    }
+  },
+  "d-deaeaf18c3": {
+    "hash": "5c749f0ee077",
+    "en": {
+      "title": "Building a local lab for reverse-engineering practice with REA and Ghidra",
+      "summary": "The goal is to set up a reverse-engineering environment with Claude Code, REA MCP, and Ghidra, with three practice targets (a crackme, XOR strings, and structs) and a game console BIOS analysis script. The excerpt lists only the environment setup, scripts, and exercises; it reports no actual analysis results.",
+      "target": "Self-written crackme practice samples and a game console BIOS",
+      "metric": "Three practice targets and a BIOS analysis script; no analysis results listed"
+    },
+    "zh-CN": {
+      "title": "搭建以 REA 加 Ghidra 做逆向练习的本地实验室",
+      "summary": "目标是搭建 Claude Code、REA MCP 与 Ghidra 的逆向环境，并备有 crackme、XOR 字符串、结构体三个练习目标与游戏机 BIOS 分析脚本。节选只列出环境配置、脚本与练习题，没有写出实际分析成果。",
+      "target": "自编 crackme 练习样本与游戏机 BIOS",
+      "metric": "三个练习目标与 BIOS 分析脚本，未列出分析结果"
+    }
   }
 }

@@ -14122,8 +14122,8 @@
     },
     {
       "date": "2026-10-25",
-      "stars": 378723,
-      "stars_delta": 4756,
+      "stars": 379823,
+      "stars_delta": 5856,
       "new": [
         "d-c24d05d4a2",
         "d-9ce58c2176",
@@ -14176,16 +14176,16 @@
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 星數破 37.8 萬，GitHub 淨室重寫案例集中登場",
-          "summary": "REA 星數增至 378723，單日增加 4756。排名最前的是 GitHub 上附對照測試的成果：以 REA 與 Ghidra 逆向 G*Power 單因子 ANOVA 並淨室重寫（245/245 欄位吻合），以及把僅有 Windows 版的 Clamp VST3 移植成 macOS VST3/AU。X 上多為作者自述，如吉他效果器編輯器 Linux 版、電視改造，大多沒有程式碼或證據。同時出現 Obsidian 圖譜複刻、DeepSeek Harness 整合與 Nix 打包，顯示可驗證的成果與工具生態一起擴張。"
+          "headline": "REA 星數增5856,逆向案例擴及軟體、音訊與家電",
+          "summary": "今天 REA 的 GitHub 星數來到 379823,比前一紀錄多 5856。最有分量的案例是 G*Power 單因子 ANOVA 引擎的淨室重寫(245/245 欄位吻合),以及把 Windows 限定的 Clamp 削波器外掛移植成 macOS VST3/AU 並附比對工具。其他如吉他效果器編輯器、海信電視、LG 冷氣等多為作者自述、缺少佐證。此外,DeepSeek Harness 整合、Nix 套件與復古 CPU 派生版等生態工具也持續增加,顯示 REA 的使用面在擴大,但可驗證的成果仍集中在少數附測試的專案。"
         },
         "en": {
-          "headline": "REA passes 378K stars as clean-room rewrites lead GitHub cases",
-          "summary": "REA stars rose to 378,723, up 4,756 in a day. The top items are GitHub projects with comparison tests: a clean-room Python rewrite of G*Power's one-way ANOVA engine, reversed with REA and Ghidra (245/245 fields matching), and a macOS VST3/AU port of the Windows-only Clamp plugin. Most X posts, such as a Linux port of a guitar-pedal editor and a TV mod, are author claims without code or evidence. An Obsidian graph clone, DeepSeek Harness integrations and Nix packaging also appeared, so verifiable results and tooling are growing together."
+          "headline": "REA stars up 5,856; reverse-engineering cases span software, audio and appliances",
+          "summary": "REA's GitHub stars reached 379,823 today, up 5,856 from the previous record. The strongest cases are a clean-room Python rewrite of G*Power's one-way ANOVA engine (245/245 fields matched) and a macOS VST3/AU port of the Windows-only Clamp clipper plugin, with tooling to compare it against the original. Others, such as the guitar pedal editor, Hisense TV and LG air conditioner, are mostly self-reports without evidence. Ecosystem tools also kept appearing, including DeepSeek Harness bundles, a Nix package and a retro-CPU fork. REA's reach is widening, but verifiable results remain concentrated in a few projects that ship tests."
         },
         "zh-CN": {
-          "headline": "REA 星数破 37.8 万,GitHub 净室重写案例集中登场",
-          "summary": "REA 星数增至 378723,单日增加 4756。排名最前的是 GitHub 上附对照测试的成果:以 REA 与 Ghidra 逆向 G*Power 单因子 ANOVA 并净室重写(245/245 字段吻合),以及把仅有 Windows 版的 Clamp VST3 移植成 macOS VST3/AU。X 上多为作者自述,如吉他效果器编辑器 Linux 版、电视改造,大多没有代码或证据。同时出现 Obsidian 图谱复刻、DeepSeek Harness 整合与 Nix 打包,显示可验证的成果与工具生态一起扩张。"
+          "headline": "REA 星数增5856,逆向案例扩及软件、音频与家电",
+          "summary": "今天 REA 的 GitHub 星数达到 379823,比前一纪录多 5856。最有分量的案例是 G*Power 单因子 ANOVA 引擎的净室重写(245/245 字段吻合),以及把仅限 Windows 的 Clamp 削波器插件移植成 macOS VST3/AU 并附比对工具。其他如吉他效果器编辑器、海信电视、LG 空调等多为作者自述、缺少佐证。此外,DeepSeek Harness 集成、Nix 包与复古 CPU 派生版等生态工具也持续增加,显示 REA 的使用面在扩大,但可验证的成果仍集中在少数附测试的项目。"
         }
       },
       "signals": [
@@ -14196,7 +14196,7 @@
       "highlights": [
         "d-c24d05d4a2",
         "d-9ce58c2176",
-        "d-31ef070551"
+        "d-83be21fe6e"
       ],
       "rank": [
         "dx-ball-sound-pan",
@@ -15781,19 +15781,19 @@
     "to": "2026-10-25",
     "text": {
       "zh-TW": {
-        "headline": "REA 從展示逆向走向附證據的重建,擴及硬體與 Windows",
-        "summary": "本週星數從 32.5 萬升至 37.8 萬,但單日增幅逐日縮小,從 1.5 萬降到 4756,熱度在放緩。內容從週初的 Linux 微信、Tizen 電視等自述型案例,轉向附測試的老遊戲重建(Space Cadet、Commander Keen),再到週後段的 oracle 測試、乾淨室重建(18 個案例相符率從 64% 修正到 100%)與 G*Power 245/245 欄位吻合。逆向對象也從老遊戲擴及冷氣、相機韌體、Tesla CarPlay 盒子等硬體,以及 Windows UIA、Nix 打包等生態延伸。同時出現反逆向加固工具,以及 Claude 桌面端、Arc 被開源重現的案例,顯示前端程式碼越來越難當護城河。X 上多數貼文仍只有作者自述,證據品質兩極。",
-        "watch": "接下來幾天可留意附對照測試的乾淨室重建是否繼續增加,以及反逆向加固與逆向工具的攻防是否有更多實證。想找機會的人可從「已停止營運或僅限單一平台的軟體」與「自家硬體的控制介面」切入,並把驗證流程(對照測試、數值來源文件)當作產出的一部分。"
+        "headline": "REA 熱潮從展示復刻轉向附證據驗證，並向硬體與舊軟體擴張",
+        "summary": "本週 REA 星數從 325,024 升至 379,823，但單日增幅從 1.5 萬逐步降到約 5,900，熱度趨於穩定。內容從一開始的微信 MCP 封裝與仿製 App 自述，逐步轉向附 oracle 測試、原檔比對與淨室重寫的成果，例如 18 個案例相符率從 64% 修正到 100%、G*Power 引擎 245/245 欄位吻合。對象由老遊戲（Space Cadet、Commander Keen、Cuphead）擴及電視、冷氣、相機韌體與音訊外掛，也延伸到 Windows UIA 等新平台。同時出現反逆向加固工具，以及 Claude 桌面端、Arc 被開源重現的案例，顯示前端程式碼已不再是護城河。X 上多數貼文仍只有作者自述，證據品質兩極。",
+        "watch": "驗證仍是瓶頸，可優先找或做能附差異測試、原版檔案比對與誠實評分的重建流程。硬體與舊軟體（遊戲之外的企業軟體）遷移尚在早期，值得追蹤是否出現可重現的案例。也留意攻防兩端是否持續成形，例如反逆向加固是否被實際突破。"
       },
       "en": {
-        "headline": "REA shifts from showy reverse engineering to evidence-backed rebuilds, now reaching hardware and Windows",
-        "summary": "Stars rose from 325K to 378K over the week, but daily gains shrank from 15K to 4.7K, so momentum is slowing. Content moved from self-reported cases early in the week (Linux WeChat, Tizen TVs) to old-game rebuilds with tests (Space Cadet, Commander Keen), and then to oracle tests and clean-room rebuilds (18 cases corrected from 64% to 100% match) and G*Power at 245/245 fields. Targets also widened from old games to hardware such as air conditioners, camera firmware and a Tesla CarPlay box, plus ecosystem extensions like Windows UIA and Nix packaging. A hardening tool aimed at defeating REA appeared, and Claude Desktop and Arc were reproduced as open source, showing that client-side code is a weakening moat. Most X posts are still author claims only, so evidence quality is uneven.",
-        "watch": "Over the next few days, watch whether clean-room rebuilds with differential tests keep growing and whether the attack-and-defense between hardening tools and REA gets more evidence. For opportunities, look at discontinued or single-platform software and the control interfaces of devices people already own, and treat the verification trail (differential tests, documented value sources) as part of the deliverable."
+        "headline": "REA shifts from showy clones to evidence-backed verification, expanding into hardware and legacy software",
+        "summary": "Over the week REA's GitHub stars rose from 325,024 to 379,823, but the daily gain fell from about 15,000 to about 5,900, so the surge is leveling off. Content moved from a Linux WeChat MCP wrapper and self-reported app clones toward results with oracle tests, original-file comparison and clean-room rewrites, such as a match rate corrected from 64% to 100% across 18 cases and 245/245 fields matching in a G*Power engine. Targets widened from old games (Space Cadet, Commander Keen, Cuphead) to TVs, air conditioners, camera firmware and audio plugins, and to new platforms such as Windows UIA. An anti-reverse-engineering hardening tool appeared, and the Claude desktop app and Arc were reproduced as open source, which shows client-side code is no longer a moat. Most posts on X are still author self-reports, so evidence quality is polarized.",
+        "watch": "Verification remains the bottleneck, so the best opportunity is to find or build reconstruction workflows that ship differential tests, original-file comparison and honest grading. Hardware control and legacy migration beyond games (enterprise software) are still early, so watch for reproducible cases. Also watch whether the offense and defense sides keep developing, for example whether the hardening tool is actually broken."
       },
       "zh-CN": {
-        "headline": "REA 从展示逆向走向带证据的重建,扩及硬件与 Windows",
-        "summary": "本周星数从 32.5 万升至 37.8 万,但单日增幅逐日缩小,从 1.5 万降到 4756,热度在放缓。内容从周初的 Linux 微信、Tizen 电视等自述型案例,转向附测试的老游戏重建(Space Cadet、Commander Keen),再到周后段的 oracle 测试、净室重建(18 个案例相符率从 64% 修正到 100%)与 G*Power 245/245 字段吻合。逆向对象也从老游戏扩及空调、相机固件、Tesla CarPlay 盒子等硬件,以及 Windows UIA、Nix 打包等生态延伸。同时出现反逆向加固工具,以及 Claude 桌面端、Arc 被开源重现的案例,显示前端代码越来越难当护城河。X 上多数帖子仍只有作者自述,证据质量两极。",
-        "watch": "接下来几天可留意附对照测试的净室重建是否继续增加,以及反逆向加固与逆向工具的攻防是否有更多实证。想找机会的人可从“已停止运营或仅限单一平台的软件”与“自家硬件的控制接口”切入,并把验证流程(对照测试、数值来源文档)当作产出的一部分。"
+        "headline": "REA 热潮从展示复刻转向附证据验证,并向硬件与旧软件扩张",
+        "summary": "本周 REA 星数从 325,024 升至 379,823,但单日增幅从 1.5 万逐步降到约 5,900,热度趋于稳定。内容从一开始的微信 MCP 封装和仿制 App 自述,逐步转向附 oracle 测试、原文件比对与净室重写的成果,例如 18 个案例的相符率从 64% 修正到 100%、G*Power 引擎 245/245 字段吻合。对象由老游戏(Space Cadet、Commander Keen、Cuphead)扩及电视、空调、相机固件和音频插件,也延伸到 Windows UIA 等新平台。同时出现反逆向加固工具,以及 Claude 桌面端、Arc 被开源重现的案例,说明前端代码已不再是护城河。X 上多数帖子仍只有作者自述,证据质量两极。",
+        "watch": "验证仍是瓶颈,可优先寻找或构建能附差异测试、原版文件比对与诚实评分的重建流程。硬件与旧软件(游戏之外的企业软件)迁移尚在早期,值得追踪是否出现可复现的案例。也留意攻防两端是否持续成形,例如反逆向加固是否被实际攻破。"
       }
     },
     "rising": [
@@ -15801,10 +15801,7 @@
       "C",
       "G"
     ],
-    "fading": [
-      "E",
-      "F"
-    ],
+    "fading": [],
     "tally": {
       "A": 3,
       "B": 6,

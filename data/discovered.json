@@ -23,6 +23,125 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://github.com/QuocHuy03/rea-reverse-skills",
+      "title": "QuocHuy03/rea-reverse-skills: Claude Code skills: reverse-engineer Windows/mobile/web apps (REA-powered)",
+      "author": "QuocHuy03",
+      "date": "2026-10-26",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-26",
+      "relevant": true,
+      "title_zh": "發布三個以 REA 為核心的逆向工程 Claude Code 技能包",
+      "summary": "目標是讓 Claude Code 能逆向 Windows、Android 與網頁應用，並重建為可獨立運行的 Python CLI。repo 提供三個 skill 與 REA 設定、驗證碼服務、參考資源文件，但節錄中未見具體目標的逆向成果。",
+      "target": "Windows／Android／網頁應用（通用技能包）",
+      "metric": "3 個 skill＋3 份文件，公開 repo",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-10-26",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/akshatksingh18/rea",
+      "title": "akshatksingh18/rea: Unmodified copy of morluto/rea (MIT); original licence retained",
+      "author": "akshatksingh18",
+      "date": "2026-10-26",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-26",
+      "relevant": true,
+      "wow": 1,
+      "category": "工具鏈",
+      "status": "shipped",
+      "scored": "2026-10-26",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://dev.to/dedupedai/how-to-reverse-engineer-an-app-feature-with-your-coding-agent-using-rea-mcp-45g3",
+      "title": "How to reverse engineer an app feature with your coding agent using REA (MCP)",
+      "author": "dedupedai",
+      "date": "2026-10-26",
+      "source": "DEV",
+      "kind": "文章",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-26",
+      "relevant": true,
+      "title_zh": "教學：用 REA 對 Electron 應用做結構分析並解碼 Unity IL2CPP metadata",
+      "summary": "文章說明如何將 REA 接入 Claude Code、Codex 或 Cursor，從終端機對 Electron 應用做結構分析，並在不安裝 Unity 的情況下解碼 IL2CPP metadata。屬於上手教學，強調本地分析並附證據。",
+      "target": "Electron 應用與 Unity IL2CPP 遊戲",
+      "metric": "免 Unity 即可解碼 IL2CPP metadata",
+      "category": "教學",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-26",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://bsky.app/profile/blasphemousjones.bsky.social/post/3myqr3m3l522w",
+      "title": "Anthropic secretly killed the REA train (Reverse engineer anything) [Part 2]",
+      "author": "blasphemousjones.bsky.social",
+      "date": "2026-10-26",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-26",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-26",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/0rdlibrary/status/2114561305432686890",
+      "title": "Used REA x @shawmakesmagic full source to come up with fair launch.  https://Launch.musebook.trade https://Musebook.trad",
+      "source": "X",
+      "found": "2026-10-26",
+      "relevant": false,
+      "scored": "2026-10-26",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/ASaltyVet/status/2114516610010751355",
+      "title": "Is this nerfed like the OG? Because I rebuilt the original and took all the guardrails off. Can't title something REA, t",
+      "source": "X",
+      "found": "2026-10-26",
+      "relevant": false,
+      "scored": "2026-10-26",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/AxyaTech/status/2114513621103604163",
+      "title": "REA for DeepSeek Harness – Reverse Engineer Anything Plugin (MCP + Skill + Sidebar Panel) https://github.com/axyatech/rea-harness-plugin",
+      "author": "@AxyaTech",
+      "date": "2026-10-26",
+      "source": "X",
+      "kind": "貼文",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 23
+      },
+      "lang": "en",
+      "found": "2026-10-26",
+      "relevant": true,
+      "title_zh": "為 DeepSeek Harness 做出 REA 外掛（MCP＋技能＋側邊欄）",
+      "summary": "作者把 REA 包成 DeepSeek Harness 的外掛，內含 MCP、Skill 與側邊欄面板，並公開 GitHub repo。內容只有一行連結宣告，沒有說明實際逆向的目標或成果。",
+      "target": "DeepSeek Harness 與 REA 整合外掛",
+      "metric": "公開 GitHub repo rea-harness-plugin（MCP＋Skill＋側邊欄）",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-10-26",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/axyatech/rea-harness-plugin",
       "title": "axyatech/rea-harness-plugin: REA (Reverse Engineer Anything) is a plugin designed for the DeepSeek Harness (DSH) that provides agents with specialized tools to inspect binaries, applications, packages, and web pages while returning verifiable evidence for each conclusion.",
       "author": "axyatech",
@@ -689,6 +808,90 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://github.com/yazzang-homelab/replica-suite",
+      "title": "yazzang-homelab/replica-suite",
+      "source": "GitHub",
+      "found": "2026-10-26",
+      "relevant": false,
+      "scored": "2026-10-26",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://llmgateway.io/blog/reverse-engineering-with-ai-rea",
+      "title": "Reverse Engineering With AI: REA Setup When Claude Refuses | LLM Gateway",
+      "author": "llmgateway.io",
+      "date": "2026-10-25",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-10-26",
+      "relevant": true,
+      "title_zh": "教學：用 npx 兩個指令安裝 REA，Claude 拒絕時的設定",
+      "summary": "LLM Gateway 的部落格文章，說明用 npx rea-agents setup 偵測 agent、列出變更並經核准後註冊 MCP server。內容是安裝設定教學，沒有對具體逆向目標的實測成果。",
+      "target": "REA 安裝與多 agent 設定流程",
+      "metric": "npx rea-agents setup 一個指令完成設定",
+      "category": "教學",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-26",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/GitTested/status/2114371180916355076",
+      "title": "rea is everywhere today. we ran it: its decompiled code was readable and matched the source where we compared. on small programs, an agent w",
+      "author": "@GitTested",
+      "date": "2026-10-25",
+      "source": "X",
+      "kind": "貼文",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 12
+      },
+      "lang": "en",
+      "found": "2026-10-26",
+      "relevant": true,
+      "title_zh": "實測 REA：反編譯可讀且與原始碼吻合，但小程式上不如 shell 工具划算",
+      "summary": "GitTested 實際跑過 REA，在有對照原始碼的地方，反編譯結果可讀且與原始碼一致。但在小型程式上，只用一般 shell 工具的 agent 已能幾乎完美解釋程式碼，REA 只增加成本而沒有提升準確度。",
+      "target": "REA 反編譯品質評測（小型程式）",
+      "metric": "小程式上 shell 工具已近乎完美，REA 只增加成本",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-26",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/0rdlibrary/status/2114367113481879865",
+      "title": "Reverse engineering and seeding the most valuable protocol on @solana using @muse and a @bot  Paired with REA and @shawmakesmagic new source",
+      "author": "@0rdlibrary",
+      "date": "2026-10-25",
+      "source": "X",
+      "kind": "貼文",
+      "score": 4,
+      "pop": {
+        "likes": 4,
+        "views": 429
+      },
+      "lang": "en",
+      "found": "2026-10-26",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-26",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/SMRoot/status/2114327090136858766",
+      "title": "دیشب یه فایل apk بهش دادم و از ترس اینکه کلاد اکانتمو بن کنه، روی لوکال و Qwen دیکامپایلش کردم. عملا زندگینامه اپ، حتی ک",
+      "source": "X",
+      "found": "2026-10-26",
+      "relevant": false,
+      "scored": "2026-10-26",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://github.com/benicasa2/Major-Istar_MSX",
       "title": "benicasa2/Major-Istar_MSX: Major Istar para MSX1 e MSX2: ROMs, DSK, fontes, analises REA/Ghidra e turbo Panasonic.",
       "author": "benicasa2",
@@ -733,6 +936,27 @@
       "wow": 2,
       "scored": "2026-10-26",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/Xiaoxin_AIGC/status/2113963812420571539",
+      "title": "网站设计用REA逆向了该博主的 🫡🫡",
+      "author": "@Xiaoxin_AIGC",
+      "date": "2026-10-24",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 11
+      },
+      "lang": "zh",
+      "found": "2026-10-26",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-26",
+      "scored_by": "jev"
     },
     {
       "url": "https://github.com/Speedrunlab/reverse-engineer-anything-self-learning-loop",
@@ -800,15 +1024,6 @@
       "wow": 2,
       "scored": "2026-10-26",
       "scored_by": "sonnet"
-    },
-    {
-      "url": "https://x.com/typecraft_dev/status/2113347917214110044",
-      "title": "oma-cast now gets paste into search. vim/emacs mode. and more! Thanks for contributions! https://github.com/typecraft-de",
-      "source": "X",
-      "found": "2026-10-26",
-      "relevant": false,
-      "scored": "2026-10-26",
-      "scored_by": "jev"
     },
     {
       "url": "https://x.com/reatools/status/2112575178735865950",
@@ -919,6 +1134,15 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://x.com/typecraft_dev/status/2113347917214110044",
+      "title": "oma-cast now gets paste into search. vim/emacs mode. and more! Thanks for contributions! https://github.com/typecraft-de",
+      "source": "X",
+      "found": "2026-10-26",
+      "relevant": false,
+      "scored": "2026-10-26",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://youtu.be/_DY3M3nJy5M",
       "title": "AI拆解收费软件？实测逆向神器，连激活码都搞不定",
       "author": "三十槽",
@@ -993,6 +1217,48 @@
       "status": "tested",
       "scored": "2026-10-26",
       "scored_by": "jev"
+    },
+    {
+      "url": "https://youtu.be/mK8PMBLmPG0",
+      "title": "This Tiny Local AI Is Getting Scary Good at REA (Qwen 27B + Hermes)",
+      "author": "NetworkCoder",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 14828,
+      "lang": "en",
+      "found": "2026-10-26",
+      "relevant": true,
+      "title_zh": "以本地 Qwen 27B 搭配 REA 破解存檔並離線製作 keygen",
+      "summary": "影片示範在自己的硬體上用本地 AI 搭配 REA 做逆向，作者自述破解存檔並製作 keygen。節錄中沒有程式碼、測試或可重現步驟，只有作者自述。",
+      "target": "遊戲存檔與軟體序號機制",
+      "metric": "自述離線破解存檔並做出 keygen",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-26",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://youtu.be/Cg14VfhbnPs",
+      "title": "How To Use DeepSeek + REA To Clone Anything (90% Cheaper)",
+      "author": "Practical AI with Azou",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 60935,
+      "lang": "en",
+      "found": "2026-10-26",
+      "relevant": true,
+      "title_zh": "以 DeepSeek 搭配 REA 逆向得獎 3D 網站並重現",
+      "summary": "影片介紹用 DeepSeek 模型加 REA 逆向一個得獎的 3D 網站並複製，強調成本約低 90%。節錄只有影片簡介，未見具體成果或證據。",
+      "target": "得獎 3D 網站",
+      "metric": "宣稱成本降低 90%",
+      "category": "Web / JS",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-26",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://github.com/gorkemedizozpekmezci-del/anova-power-cli",
@@ -34191,6 +34457,35 @@
   "runs": [
     {
       "date": "2026-10-26",
+      "added": 15,
+      "stats": {
+        "githubShowAndTell": 8,
+        "githubRepos": 235,
+        "githubCode": 41,
+        "hackerNews": 26,
+        "qiita": 43,
+        "devto": 150,
+        "juejin": 9,
+        "reddit": 60,
+        "v2ex": 10,
+        "youtube": 90,
+        "bluesky": 159,
+        "mastodon": 160,
+        "exaWeb": 57,
+        "x": 22
+      },
+      "scoring": {
+        "scored": 9,
+        "jev": {
+          "low": 4,
+          "irrelevant": 2,
+          "errors": 0,
+          "toClaude": 9
+        }
+      }
+    },
+    {
+      "date": "2026-10-26",
       "added": 46,
       "stats": {
         "githubShowAndTell": 9,
@@ -35026,28 +35321,7 @@
       "scoring": {
         "scored": 38
       }
-    },
-    {
-      "date": "2026-10-12",
-      "added": 4,
-      "stats": {
-        "githubShowAndTell": 6,
-        "githubRepos": 188,
-        "hackerNews": 17,
-        "qiita": 20,
-        "devto": 150,
-        "reddit": "error: 403 https://www.reddit.com/search.json?q=%22morluto%2Frea%22&sort=new&limit=25",
-        "v2ex": 1,
-        "youtube": 90,
-        "bluesky": 150,
-        "mastodon": 160,
-        "x": 0
-      },
-      "scoring": {
-        "scored": 0,
-        "error": "Command failed: claude -p --output-format json --max-turns 1 --tools  --model sonnet"
-      }
     }
   ],
-  "updatedAt": "2026-10-26T00:25:23.607Z"
+  "updatedAt": "2026-10-26T04:39:31.051Z"
 }

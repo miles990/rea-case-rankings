@@ -15767,8 +15767,8 @@
     },
     {
       "date": "2026-10-26",
-      "stars": 384600,
-      "stars_delta": 4777,
+      "stars": 385751,
+      "stars_delta": 5928,
       "new": [
         "d-a895219c2a",
         "d-2124fc6f4b",
@@ -15782,6 +15782,8 @@
         "d-16b3d6f526",
         "d-80ebded891",
         "d-dd06678520",
+        "d-fa1bdc5f28",
+        "d-41e56f0fde",
         "d-0f8dcc7223",
         "d-9d04d66cbf",
         "d-1ec10ecd88",
@@ -15789,12 +15791,15 @@
         "d-c24bdf17a4",
         "d-e8bb9b5c5c",
         "d-5c97b6f52b",
+        "d-2b5bd74e79",
+        "d-0a17e5586d",
         "d-3daea34ec3",
         "d-c4a8e916d4",
         "d-ed7464a557",
         "d-710f7a6b5a",
         "d-5a8a11888a",
         "d-9cf716ea07",
+        "d-cc35379a42",
         "d-272531eb67",
         "d-e93a72e08d",
         "d-f474af0a97",
@@ -15803,51 +15808,54 @@
         "d-43efe1e932",
         "d-82045673ec",
         "d-ae0d7e5517",
+        "d-9e6cff7ecc",
         "d-4cf3f01560",
+        "d-68be2ed36d",
         "d-f5aa9129b9"
       ],
       "stats": {
-        "count": 35,
+        "count": 42,
         "wow": {
-          "2": 24,
+          "2": 31,
           "3": 7,
           "4": 3,
           "5": 1
         },
         "type": {
-          "case": 15,
-          "app": 16,
-          "learn": 4
+          "case": 16,
+          "app": 18,
+          "news": 2,
+          "learn": 6
         },
         "status": {
           "tested": 3,
-          "shipped": 21,
-          "reported": 11
+          "shipped": 23,
+          "reported": 16
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 突破 38 萬星，v6.8 上線，復刻案例擴及舊遊戲與桌面軟體",
-          "summary": "REA GitHub 星數升至 384,600，單日增加 4,777，v6.8 同日發布，新增讓 agent 訓練本地模型的 environments。案例端以老遊戲移植最紮實：Major Istar 以 Z80 原生重寫，並在 openMSX 逐位元組比對 207 個命令點，另有 DS 反編譯工廠與 Atari ST demo 分析。同時出現不少只有一句自述、缺乏驗證的復刻（如 Mini Militia、Tangerine），也有人開始做防 AI 逆向的產物防護工具，顯示驗證與證據仍是瓶頸。"
+          "headline": "REA 星數破 38.5 萬,v6.8 上線,復刻案例遍及老遊戲與 App",
+          "summary": "REA 的 GitHub 星數升至 385751,比前一個紀錄增加 5928,作者同時宣布 v6.8,新增可讓 agent 建立環境來訓練本地模型的 REA environments。當天案例涵蓋把 CoCo 遊戲《Major Istar》以原生 Z80 移植到 MSX(在 openMSX 五種設定通關,207 個命令點逐位元組一致)、重寫 BreezySRPG95 客戶端、復刻 Bear 與 Tangerine 等 macOS App,以及公開 MoCut 剪口播工具。值得注意的是,實測回報指出在小型程式上 REA 只增加成本、準確度沒有提升,另有專門對抗 AI 逆向的防護工具出現,顯示驗證與成本正成為重點;不少項目仍只有作者自述,缺少測試佐證。"
         },
         "en": {
-          "headline": "REA passes 384K stars with v6.8; clones span retro games to desktop apps",
-          "summary": "REA's GitHub stars rose to 384,600, up 4,777 in a day, and v6.8 shipped with environments that let agents train local models. The strongest cases are retro-game work: Major Istar was rewritten in native Z80 and checked byte for byte at 207 command points in openMSX, alongside a Nintendo DS decompilation factory and an Atari ST demo analysis. Many other posts are one-line clone claims with no verification (Mini Militia, Tangerine), and one project now aims to harden builds against AI reverse engineering, which shows verification and evidence remain the bottleneck."
+          "headline": "REA passes 385K stars with v6.8 as clones span retro games and apps",
+          "summary": "REA's GitHub stars rose to 385,751, up 5,928 from the previous record, and the author announced v6.8, which adds REA environments so agents can build environments to train local models. Cases that day included a native Z80 port of the CoCo game Major Istar to MSX (cleared in five openMSX configurations, with 207 command points matching byte for byte), a rewritten BreezySRPG95 client, clones of macOS apps Bear and Tangerine, and the MoCut voice-over editing tool. A hands-on test reported that on small programs REA adds cost without improving accuracy, and a protection tool aimed at defeating AI reverse engineering appeared, which points to verification and cost as the live concerns. Many entries are still author claims with no tests behind them."
         },
         "zh-CN": {
-          "headline": "REA 突破 38 万星，v6.8 上线，复刻案例扩及旧游戏与桌面软件",
-          "summary": "REA GitHub 星数升至 384,600，单日增加 4,777，v6.8 同日发布，新增让 agent 训练本地模型的 environments。案例端以老游戏移植最扎实：Major Istar 以 Z80 原生重写，并在 openMSX 中逐字节比对 207 个命令点，另有 DS 反编译工厂与 Atari ST demo 分析。同时出现不少只有一句自述、缺乏验证的复刻（如 Mini Militia、Tangerine），也有人开始做防 AI 逆向的产物防护工具，说明验证与证据仍是瓶颈。"
+          "headline": "REA 星数破 38.5 万,v6.8 上线,复刻案例遍及老游戏与 App",
+          "summary": "REA 的 GitHub 星数升至 385751,比前一个记录增加 5928,作者同时宣布 v6.8,新增可让 agent 创建环境来训练本地模型的 REA environments。当天案例涵盖把 CoCo 游戏《Major Istar》以原生 Z80 移植到 MSX(在 openMSX 五种设置通关,207 个命令点逐字节一致)、重写 BreezySRPG95 客户端、复刻 Bear 与 Tangerine 等 macOS App,以及公开 MoCut 剪口播工具。值得注意的是,实测反馈指出在小型程序上 REA 只增加成本、准确度没有提升,另有专门对抗 AI 逆向的防护工具出现,显示验证与成本正成为重点;不少条目仍只有作者自述,缺少测试佐证。"
         }
       },
       "signals": [
+        "A",
         "B",
-        "C",
-        "A"
+        "C"
       ],
       "highlights": [
         "d-a895219c2a",
-        "d-dd06678520",
-        "d-16b3d6f526"
+        "d-2124fc6f4b",
+        "d-0a17e5586d"
       ],
       "rank": [
         "dx-ball-sound-pan",
@@ -16057,13 +16065,13 @@
         "d-8ae18ae6d6",
         "d-77400f1907",
         "d-18f8fa48a9",
+        "netcat-audit",
         "d-7fd75f2c1d",
         "d-10433767e8",
         "d-608fc20764",
         "d-9c9b054962",
         "d-43ba2a9c24",
         "d-8f2bebd111",
-        "netcat-audit",
         "d-d4ac31aaf8",
         "d-733ba71db9",
         "d-661e831152",
@@ -16198,6 +16206,7 @@
         "d-b739f9456f",
         "d-3cacad9892",
         "d-5c9e5f401a",
+        "d-fa1bdc5f28",
         "d-d6b62142a5",
         "d-4bc9fbfd08",
         "d-da82faf2bd",
@@ -16215,6 +16224,7 @@
         "d-ec0218b130",
         "d-1ea735e339",
         "d-b5b43768ad",
+        "d-41e56f0fde",
         "d-679e91d8c3",
         "d-9aea516faa",
         "d-37b4f9d895",
@@ -16339,7 +16349,9 @@
         "d-78c096101a",
         "d-e5515b0c5a",
         "d-ca0152a539",
+        "d-2b5bd74e79",
         "d-1429a5bf4b",
+        "d-0a17e5586d",
         "d-3daea34ec3",
         "d-d23d2a26e2",
         "d-42e56a0631",
@@ -16456,6 +16468,7 @@
         "d-49c3fe3859",
         "heartland-side-effects",
         "d-9cf716ea07",
+        "d-cc35379a42",
         "d-272531eb67",
         "d-e93a72e08d",
         "d-f474af0a97",
@@ -16582,7 +16595,9 @@
         "d-d79fa65f04",
         "d-0c2d1d1da6",
         "d-beb2070b7b",
+        "d-9e6cff7ecc",
         "d-4cf3f01560",
+        "d-68be2ed36d",
         "d-0a0465906b",
         "d-4c507c939a",
         "d-dc171195f3",
@@ -16816,6 +16831,7 @@
         "d-9135d9263f",
         "d-e329aa2f14",
         "d-e4223f76b7",
+        "d-c8f3bd6496",
         "d-c79eca28ce",
         "d-d0c85690b4",
         "d-0a88eb5d17",
@@ -17075,6 +17091,7 @@
         "d-fae9d57e5b",
         "d-aefcaff5ff",
         "d-5ff4cf066c",
+        "d-87ab4eaf29",
         "d-6a71cbe15b",
         "d-e3e6f2430d",
         "d-b9d7ec1c99",
@@ -17107,6 +17124,7 @@
         "d-adfbebad69",
         "d-23b709a338",
         "d-b7d24e5410",
+        "d-771b613bf1",
         "d-8b05d61087",
         "d-07ecb5a75e",
         "d-1d87327f53",
@@ -17195,6 +17213,7 @@
         "d-e776c1c4c1",
         "d-2761852b3d",
         "d-2f09a54a93",
+        "d-a1e2ef476d",
         "d-5599ffea1a",
         "d-2811c015d4",
         "d-3d3e0a80de",
@@ -17477,19 +17496,19 @@
     "to": "2026-10-26",
     "text": {
       "zh-TW": {
-        "headline": "REA 從展示逆向轉向附證據的乾淨室重建，驗證成為關鍵",
-        "summary": "本週星數由 33.8 萬升至 38.5 萬，但單日增幅從近 1.1 萬逐步降到約 4,800。內容重心從 10/20 的電視、相機與遊戲自述案例，轉向 10/22 起附 oracle 測試的重建，並在 10/23 出現相符率從 64% 修正到 100% 的乾淨室流程。之後的 G*Power 引擎 245/245 欄位吻合、Major Istar 在 openMSX 逐位元組比對 207 個命令點，都是以比對結果取信。逆向對象也從老遊戲擴及桌面軟體、音訊外掛、家電與 Windows UIA，而 10/24 Claude 桌面端與 Arc 被開源重現，顯示前端功能很容易被複製。同時，X 上仍有許多只有作者自述的貼文，證據品質兩極。",
-        "watch": "接下來可留意 v6.8 新增的本地模型訓練 environments 是否帶出可驗證的案例，以及防 AI 逆向的產物防護工具是否增加。想行動的人，可以把差異測試、oracle 比對和數值來源文件做成可重複使用的流程，並優先挑老遊戲與舊桌面軟體這類容易驗證的對象。"
+        "headline": "REA 從展示逆向轉向以證據驗證的乾淨室重建",
+        "summary": "本週 REA 星數從 33.8 萬升至 38.5 萬，但單日增幅由約 1.1 萬降到約 5,900，熱度趨緩。案例先以電視、相機、冷氣等自家裝置與老遊戲開場，中段轉向附 oracle 測試、相符率 64% 修正到 100%、逐位元組一致的乾淨室重建。驗證訊號（B）本週出現 6 天，舊軟體保存與遷移（C）出現 5 天，範圍從遊戲擴及 App、音訊外掛與統計軟體。10 月 24 日 Claude 桌面端與 Arc 被開源重現，顯示客戶端程式碼已不再是護城河。同時多數 X 貼文仍只有作者自述，且 10 月 26 日有實測指出小型程式上 REA 只增加成本。",
+        "watch": "優先關注附測試、oracle 或逐位元組比對的專案，並把自述案例視為待驗證。v6.8 的 REA environments（讓 agent 建立環境訓練本地模型）值得試用，同時留意成本與準確度的實測回報，以及專門對抗 AI 逆向的防護工具。可行動的機會包括為舊軟體與遊戲做可驗證的遷移與移植，以及提供差異測試與證據評分的驗證工具。"
       },
       "en": {
-        "headline": "REA moves from showcasing to evidence-backed clean-room rebuilds; verification is the key",
-        "summary": "Stars rose from 338K to 385K this week, but the daily gain fell from nearly 11K to about 4.8K. The focus shifted from self-reported TV, camera and game cases on 10/20 to rebuilds with oracle tests from 10/22, and on 10/23 a clean-room workflow corrected its match rate from 64% to 100%. Later cases earned trust through comparison results: the G*Power engine matched 245/245 fields, and Major Istar was compared byte by byte against openMSX at 207 command points. Targets also widened from old games to desktop software, audio plugins, appliances and Windows UIA, and on 10/24 the Claude desktop app and Arc were reproduced as open source, showing how easily front-end features get copied. Meanwhile many X posts remain self-reported only, so evidence quality is uneven.",
-        "watch": "Watch whether the local-model training environments in v6.8 produce verifiable cases, and whether tools that protect artifacts against AI reverse engineering become more common. If you want to act, turn differential tests, oracle comparison and value-source documentation into a reusable workflow, and start with easy-to-verify targets such as old games and legacy desktop software."
+        "headline": "REA shifts from showing reverse engineering to evidence-backed clean-room rebuilds",
+        "summary": "REA's GitHub stars rose from 338k to 385k this week, but the daily gain fell from about 11,000 to about 5,900, so growth is cooling. Cases opened with own devices (TVs, cameras, AC units) and old games, then moved to clean-room rebuilds with oracle tests, a match rate corrected from 64% to 100%, and byte-for-byte identical output. Verification (B) appeared on 6 days and legacy software preservation and migration (C) on 5, with scope widening from games to apps, audio plugins and statistics software. On Oct 24, Claude's desktop app and Arc were reproduced as open source, showing client-side code is no longer a moat. Still, most X posts are author claims only, and on Oct 26 a field report said REA only added cost on small programs.",
+        "watch": "Prioritize projects that ship tests, oracles or byte-level comparisons, and treat self-reported cases as unverified. v6.8's REA environments (agents building environments to train local models) is worth trying, as are the cost and accuracy field reports and the new anti-AI-reverse-engineering protection tools. Actionable opportunities include verifiable migration and porting of legacy software and games, and verification tooling for differential testing and evidence-based grading."
       },
       "zh-CN": {
-        "headline": "REA 从展示逆向转向附证据的净室重建,验证成关键",
-        "summary": "本周星数由 33.8 万升至 38.5 万,但单日增幅从近 1.1 万逐步降到约 4,800。内容重心从 10/20 的电视、相机与游戏自述案例,转向 10/22 起附 oracle 测试的重建,并在 10/23 出现相符率从 64% 修正到 100% 的净室流程。之后的 G*Power 引擎 245/245 字段吻合、Major Istar 在 openMSX 逐字节比对 207 个命令点,都是以比对结果取信。逆向对象也从老游戏扩及桌面软件、音频插件、家电与 Windows UIA,而 10/24 Claude 桌面端与 Arc 被开源重现,说明前端功能很容易被复制。同时,X 上仍有许多只有作者自述的帖子,证据质量两极。",
-        "watch": "接下来可留意 v6.8 新增的本地模型训练 environments 是否带出可验证的案例,以及防 AI 逆向的产物防护工具是否增加。想行动的人,可以把差异测试、oracle 比对和数值来源文档做成可重复使用的流程,并优先挑老游戏与旧桌面软件这类容易验证的对象。"
+        "headline": "REA 从展示逆向转向以证据验证的净室重建",
+        "summary": "本周 REA 星数从 33.8 万升至 38.5 万，但单日增幅由约 1.1 万降到约 5,900，热度趋缓。案例先以电视、相机、空调等自家设备和老游戏开场，中段转向附 oracle 测试、相符率 64% 修正到 100%、逐字节一致的净室重建。验证信号（B）本周出现 6 天，旧软件保存与迁移（C）出现 5 天，范围从游戏扩及应用、音频插件和统计软件。10 月 24 日 Claude 桌面端与 Arc 被开源重现，说明客户端代码已不再是护城河。同时多数 X 帖子仍只有作者自述，且 10 月 26 日有实测指出小型程序上 REA 只增加成本。",
+        "watch": "优先关注附测试、oracle 或逐字节比对的项目，并把自述案例视为待验证。v6.8 的 REA environments（让 agent 建立环境训练本地模型）值得试用，同时留意成本与准确度的实测反馈，以及专门对抗 AI 逆向的防护工具。可行动的机会包括为旧软件和游戏做可验证的迁移与移植，以及提供差分测试与证据评分的验证工具。"
       }
     },
     "rising": [
@@ -17498,6 +17517,7 @@
       "G"
     ],
     "fading": [
+      "A",
       "D"
     ],
     "tally": {

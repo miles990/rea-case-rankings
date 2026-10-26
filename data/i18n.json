@@ -13633,5 +13633,110 @@
       "target": "REA 的反汇编后端（Ghidra / Hopper / IDA）",
       "metric": "比较三种后端，Ghidra 验证版本为 12.1.4"
     }
+  },
+  "d-cc35379a42": {
+    "hash": "70cede0321d7",
+    "en": {
+      "title": "Released three REA-centered reverse-engineering skill packs for Claude Code",
+      "summary": "The goal is to let Claude Code reverse-engineer Windows, Android and web apps and rebuild them as standalone Python CLIs. The repo provides three skills plus REA configuration, a CAPTCHA service and reference documents, but the excerpt shows no reverse-engineering results for any specific target.",
+      "target": "Windows / Android / web apps (general-purpose skill packs)",
+      "metric": "3 skills + 3 documents, public repo"
+    },
+    "zh-CN": {
+      "title": "发布三个以 REA 为核心的逆向工程 Claude Code 技能包",
+      "summary": "目标是让 Claude Code 能逆向 Windows、Android 与网页应用,并重建为可独立运行的 Python CLI。repo 提供三个 skill 与 REA 配置、验证码服务、参考资料文档,但节选中未见具体目标的逆向成果。",
+      "target": "Windows／Android／网页应用（通用技能包）",
+      "metric": "3 个 skill＋3 份文档，公开 repo"
+    }
+  },
+  "d-9e6cff7ecc": {
+    "hash": "40cedf074b7d",
+    "en": {
+      "title": "Tutorial: Using REA to analyze Electron app structure and decode Unity IL2CPP metadata",
+      "summary": "The article explains how to connect REA to Claude Code, Codex or Cursor, analyze an Electron app's structure from the terminal, and decode IL2CPP metadata without installing Unity. It is a getting-started tutorial that stresses local analysis with supporting evidence.",
+      "target": "Electron apps and Unity IL2CPP games",
+      "metric": "Decodes IL2CPP metadata without Unity"
+    },
+    "zh-CN": {
+      "title": "教程:用 REA 对 Electron 应用做结构分析并解码 Unity IL2CPP metadata",
+      "summary": "文章介绍如何将 REA 接入 Claude Code、Codex 或 Cursor,在终端中对 Electron 应用做结构分析,并在不安装 Unity 的情况下解码 IL2CPP metadata。属于上手教程,强调本地分析并附证据。",
+      "target": "Electron 应用与 Unity IL2CPP 游戏",
+      "metric": "无需 Unity 即可解码 IL2CPP metadata"
+    }
+  },
+  "d-68be2ed36d": {
+    "hash": "d007d781c4bd",
+    "en": {
+      "title": "Tutorial: Installing REA with two npx commands, and what to set up when Claude refuses",
+      "summary": "A blog post from LLM Gateway explaining how npx rea-agents setup detects agents, lists the changes, and registers the MCP server after approval. It is an installation and configuration guide, with no hands-on results against a specific reverse-engineering target.",
+      "target": "REA installation and multi-agent setup flow",
+      "metric": "Setup completed with a single npx rea-agents setup command"
+    },
+    "zh-CN": {
+      "title": "教程:用 npx 两条命令安装 REA,Claude 拒绝时的设置",
+      "summary": "LLM Gateway 的博客文章,介绍用 npx rea-agents setup 检测 agent、列出变更并经批准后注册 MCP server。内容是安装配置教程,没有针对具体逆向目标的实测成果。",
+      "target": "REA 安装与多 agent 配置流程",
+      "metric": "npx rea-agents setup 一条命令完成配置"
+    }
+  },
+  "d-fa1bdc5f28": {
+    "hash": "ac57747811d2",
+    "en": {
+      "title": "Reverse-engineering and recreating an award-winning 3D website with DeepSeek and REA",
+      "summary": "The video shows how to use a DeepSeek model with REA to reverse-engineer an award-winning 3D website and replicate it, highlighting roughly 90% lower cost. Only the video description is available; no concrete results or evidence are shown.",
+      "target": "Award-winning 3D website",
+      "metric": "Claims 90% cost reduction"
+    },
+    "zh-CN": {
+      "title": "用 DeepSeek 搭配 REA 逆向获奖 3D 网站并复现",
+      "summary": "视频介绍用 DeepSeek 模型加 REA 逆向一个获奖的 3D 网站并复制，强调成本约低 90%。节选只有视频简介，未见具体成果或证据。",
+      "target": "获奖 3D 网站",
+      "metric": "宣称成本降低 90%"
+    }
+  },
+  "d-41e56f0fde": {
+    "hash": "eb8732061f70",
+    "en": {
+      "title": "Cracking save files and building an offline keygen with local Qwen 27B and REA",
+      "summary": "The video demonstrates reverse engineering on the author's own hardware using a local AI model with REA; the author says they cracked a save file and built a keygen. The excerpt has no code, tests, or reproducible steps, only the author's own claims.",
+      "target": "Game save files and software serial-number mechanism",
+      "metric": "Self-reported offline save cracking and keygen"
+    },
+    "zh-CN": {
+      "title": "用本地 Qwen 27B 搭配 REA 破解存档并离线制作 keygen",
+      "summary": "视频演示在自己的硬件上用本地 AI 搭配 REA 做逆向，作者自述破解存档并制作 keygen。节选中没有代码、测试或可复现步骤，只有作者自述。",
+      "target": "游戏存档与软件序列号机制",
+      "metric": "自述离线破解存档并做出 keygen"
+    }
+  },
+  "d-2b5bd74e79": {
+    "hash": "ef83e91b30a2",
+    "en": {
+      "title": "A REA plugin for DeepSeek Harness (MCP + Skill + sidebar)",
+      "summary": "The author packaged REA as a DeepSeek Harness plugin containing an MCP server, a Skill, and a sidebar panel, and published the GitHub repo. The content is just a one-line link announcement, with no description of the actual reverse-engineering target or results.",
+      "target": "DeepSeek Harness and REA integration plugin",
+      "metric": "Public GitHub repo rea-harness-plugin (MCP + Skill + sidebar)"
+    },
+    "zh-CN": {
+      "title": "为 DeepSeek Harness 做出 REA 插件（MCP＋技能＋侧边栏）",
+      "summary": "作者把 REA 封装成 DeepSeek Harness 的插件，内含 MCP、Skill 与侧边栏面板，并公开 GitHub repo。内容只有一行链接声明，没有说明实际逆向的目标或成果。",
+      "target": "DeepSeek Harness 与 REA 集成插件",
+      "metric": "公开 GitHub repo rea-harness-plugin（MCP＋Skill＋侧边栏）"
+    }
+  },
+  "d-0a17e5586d": {
+    "hash": "49870d82f569",
+    "en": {
+      "title": "REA tested: decompilation is readable and matches the source, but not worth the cost on small programs versus shell tools",
+      "summary": "GitTested ran REA in practice. Where source code was available for comparison, the decompiled output was readable and consistent with it. On small programs, however, an agent using only ordinary shell tools could already explain the code almost perfectly, so REA added cost without improving accuracy.",
+      "target": "REA decompilation quality evaluation (small programs)",
+      "metric": "On small programs shell tools are already near-perfect; REA only adds cost"
+    },
+    "zh-CN": {
+      "title": "实测 REA：反编译可读且与源码吻合，但小程序上不如 shell 工具划算",
+      "summary": "GitTested 实际跑过 REA，在有对照源码的地方，反编译结果可读且与源码一致。但在小型程序上，只用普通 shell 工具的 agent 已能几乎完美地解释代码，REA 只增加成本而没有提升准确度。",
+      "target": "REA 反编译质量评测（小型程序）",
+      "metric": "小程序上 shell 工具已近乎完美，REA 只增加成本"
+    }
   }
 }

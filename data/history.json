@@ -17482,14 +17482,17 @@
     },
     {
       "date": "2026-10-27",
-      "stars": 391574,
-      "stars_delta": 5823,
+      "stars": 392673,
+      "stars_delta": 6922,
       "new": [
         "d-a516080378",
         "d-ec86d8603b",
+        "d-ba44215d32",
         "d-51d1f36544",
+        "d-37871a6a5a",
         "d-16a16d354b",
         "d-794e99b791",
+        "d-b4e6c3f5c4",
         "d-780a398c4a",
         "d-02fbc46d5c",
         "d-467f111f7c",
@@ -17498,13 +17501,19 @@
         "d-655bd26d99",
         "d-f6267da5e6",
         "d-009200c732",
+        "d-6be9bab64b",
         "d-debf990ea9",
+        "d-bbb03904da",
         "d-7c99ecd3c0",
         "d-64891f9c87",
         "d-909f3248e6",
         "d-1123456fff",
+        "d-4f16c2dd77",
         "d-a3538e19d1",
+        "d-e21e791e9c",
+        "d-e606df7ed0",
         "d-8a99ccf565",
+        "d-ba65da3a39",
         "d-61265635ac",
         "d-15a6c82309",
         "d-6c74472c83",
@@ -17518,47 +17527,47 @@
         "d-c15193e05a"
       ],
       "stats": {
-        "count": 31,
+        "count": 40,
         "wow": {
-          "2": 24,
-          "3": 4,
-          "4": 3
+          "2": 30,
+          "3": 6,
+          "4": 4
         },
         "type": {
-          "case": 13,
-          "app": 12,
+          "case": 20,
+          "app": 14,
           "news": 1,
           "learn": 5
         },
         "status": {
-          "shipped": 11,
+          "shipped": 13,
           "tested": 2,
-          "reported": 18
+          "reported": 25
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 星數破 39 萬，案例從逆向走向重建與改造",
-          "summary": "REA GitHub 星數來到 391574，比前一個紀錄 385751 多了 5823。最受關注的是 DX-Ball 音效函數逆向還原（3205 個測試全過、63 位元組逐位元組一致），以及用 REA 逆向 JTrac 2.3.3 並以現代技術棧重建 3.0.0 的專案，兩者都有可驗證的結果。另有不少高熱度貼文，如 GTA 5 與 Minecraft 合併、無人機改裝安防，多為作者自述、缺乏程式碼或實測證據；工具類專案也在討論如何降低 REA 的 token 成本（213 個 schema 約 38 萬 token）。"
+          "headline": "REA 星數破 39 萬,逆向案例從遊戲擴及無人機與燈泡",
+          "summary": "REA 的 GitHub 星數來到 392673,比前一個紀錄 385751 多了 6922。當天最紮實的案例是用 REA 逐位元組還原 DX-Ball 音效函數(3205 個測試全過、63 位元組一致)、逆向 Yeelight 燈泡 NVRAM 接上 Home Assistant,以及重建 JTrac 並發布 3.0.0。熱度最高的幾則(安防無人機、GTA 5 合併 Minecraft、反編譯整款遊戲)多半只有作者自述、沒有程式碼或實測,可信度落差明顯。另有作者用 REA 逆向 gh cli,結論是分析很強,但約 90% 以上之後仍要大量人工重建與驗證。"
         },
         "en": {
-          "headline": "REA passes 390K stars; cases shift from reversing to rebuilding",
-          "summary": "REA's GitHub stars reached 391,574, up 5,823 from the previous record of 385,751. The most notable items are the DX-Ball sound-function recovery (3,205 tests passing, 63 bytes matching byte-for-byte) and the JTrac 2.3.3 reverse-engineering that was rebuilt on a modern stack and released as 3.0.0, both with verifiable results. Several high-heat posts, such as merging GTA 5 with Minecraft and turning a drone into a security device, are self-reported with no code or test evidence. Tooling projects are also tackling REA's token cost, with one claiming the full 213 MCP schemas take about 380K tokens."
+          "headline": "REA passes 390k stars; reverse-engineering spans games, drones and light bulbs",
+          "summary": "REA's GitHub stars reached 392,673, up 6,922 from the previous record of 385,751. The best-evidenced cases were a byte-for-byte recovery of DX-Ball's sound function (3,205 tests passing, 63 bytes identical), a Yeelight bulb NVRAM reverse that brings discontinued bulbs into Home Assistant, and a rebuilt JTrac released as 3.0.0. The hottest posts (a home-security drone, merging GTA 5 with Minecraft, decompiling a whole game) are mostly self-reported with no code or tests, so the gap in credibility is wide. One author who reverse-engineered gh cli found REA strong at analysis, but the last stretch beyond roughly 90% still takes heavy manual rebuilding and testing."
         },
         "zh-CN": {
-          "headline": "REA 星数破 39 万，案例从逆向走向重建与改造",
-          "summary": "REA GitHub 星数达到 391574，比前一个纪录 385751 多了 5823。最受关注的是 DX-Ball 音效函数逆向还原（3205 个测试全过、63 字节逐字节一致），以及用 REA 逆向 JTrac 2.3.3 并以现代技术栈重建 3.0.0 的项目，两者都有可验证的结果。另有不少高热度帖子，如 GTA 5 与 Minecraft 合并、无人机改装安防，多为作者自述、缺乏代码或实测证据；工具类项目也在讨论如何降低 REA 的 token 成本（213 个 schema 约 38 万 token）。"
+          "headline": "REA 星数破 39 万,逆向案例从游戏扩及无人机与灯泡",
+          "summary": "REA 的 GitHub 星数达到 392673,比之前的纪录 385751 多了 6922。当天最扎实的案例是用 REA 逐字节还原 DX-Ball 音效函数(3205 个测试全过、63 字节一致)、逆向 Yeelight 灯泡 NVRAM 接入 Home Assistant,以及重建 JTrac 并发布 3.0.0。热度最高的几条(安防无人机、GTA 5 合并 Minecraft、反编译整款游戏)大多只有作者自述、没有代码或实测,可信度落差明显。另有作者用 REA 逆向 gh cli,结论是分析很强,但 90% 以上之后仍需大量人工重建与验证。"
         }
       },
       "signals": [
         "B",
         "C",
-        "F"
+        "D"
       ],
       "highlights": [
         "d-ec86d8603b",
-        "d-51d1f36544",
-        "d-61265635ac"
+        "d-ba44215d32",
+        "d-51d1f36544"
       ],
       "rank": [
         "dx-ball-sound-pan",
@@ -17644,6 +17653,7 @@
         "d-7016df08dc",
         "d-b8cf7cf16c",
         "d-1ef689aac2",
+        "d-ba44215d32",
         "d-11f7715188",
         "d-cd0456f031",
         "d-27154f0faa",
@@ -17732,6 +17742,7 @@
         "d-503e0a74d8",
         "d-99e21aca4d",
         "d-c5de955d0e",
+        "d-37871a6a5a",
         "d-4ea99847bd",
         "d-72281941df",
         "d-4a71013380",
@@ -17841,6 +17852,7 @@
         "d-4037cb4975",
         "d-0ec7d0be4e",
         "d-e47190a16c",
+        "d-b4e6c3f5c4",
         "d-4dac4bce53",
         "d-919d5eb8a2",
         "d-28bf3b43e2",
@@ -17985,6 +17997,7 @@
         "d-638114ac0d",
         "d-b50fa3ab1c",
         "d-b048366e81",
+        "d-6be9bab64b",
         "d-159d81dd6a",
         "d-916c1bc5aa",
         "d-ae0f47d6be",
@@ -18002,6 +18015,7 @@
         "d-48a0f992c2",
         "d-b476482170",
         "d-48e797d2e8",
+        "d-bbb03904da",
         "d-88cdc0d74f",
         "d-a82ddff1d7",
         "d-94f24dd97b",
@@ -18072,6 +18086,7 @@
         "d-ca0152a539",
         "d-2b5bd74e79",
         "d-1429a5bf4b",
+        "d-4f16c2dd77",
         "d-0a17e5586d",
         "d-3daea34ec3",
         "d-d23d2a26e2",
@@ -18119,6 +18134,7 @@
         "d-d18904f735",
         "d-885d463fa0",
         "d-643f986b06",
+        "d-e21e791e9c",
         "d-6ad3b48a4f",
         "d-710f7a6b5a",
         "d-7827628d1c",
@@ -18127,6 +18143,7 @@
         "d-fb5083c2b9",
         "d-2f7fe8060f",
         "d-9e851834fe",
+        "d-e606df7ed0",
         "d-e1728ce0c0",
         "d-5a8a11888a",
         "d-fcf1d62762",
@@ -18149,6 +18166,7 @@
         "d-b3508599f9",
         "d-c4120d6952",
         "d-712c5535cc",
+        "d-ba65da3a39",
         "d-ac304de208",
         "d-7684a4fc63",
         "d-46116c05cf",
@@ -18446,6 +18464,7 @@
         "d-385912fa03",
         "d-c3b1001a8a",
         "d-d81465dfaf",
+        "d-684148dd07",
         "d-745bc996c3",
         "d-bdbc3e04d9",
         "d-3d22cecd49",
@@ -18481,6 +18500,7 @@
         "d-9b672fd678",
         "d-0d55526a45",
         "d-9fbe3f22eb",
+        "d-4fb735b4e9",
         "d-e2d58a1041",
         "d-1e468f16a2",
         "d-2ceba23e2d",
@@ -18637,6 +18657,7 @@
         "d-541d86fb17",
         "d-bd4f93aa34",
         "d-0cf41ba371",
+        "d-55d530634d",
         "d-84fba3f60a",
         "d-2ec5c86f82",
         "d-4b10679090",
@@ -18697,6 +18718,7 @@
         "d-d12a2a782b",
         "d-afa59998e8",
         "d-9c91146c62",
+        "d-d56184292c",
         "d-b1f62c1dac",
         "d-d548a99701",
         "d-383f674a47",
@@ -18966,7 +18988,9 @@
         "d-e776c1c4c1",
         "d-2761852b3d",
         "d-2f09a54a93",
+        "d-73f0fec70a",
         "d-5068b26371",
+        "d-7c700287e3",
         "d-1423928eb9",
         "d-b462b1c3e6",
         "d-8f4721df42",
@@ -19253,19 +19277,19 @@
     "to": "2026-10-27",
     "text": {
       "zh-TW": {
-        "headline": "REA 熱潮從展示復刻轉向可驗證的重建，成本成新焦點",
-        "summary": "本週 REA 星數從約 35 萬一路升到 39 萬，每天仍增約六千至一萬，熱度未減。內容從 10/21 的老遊戲與現代 App 復刻，逐步轉向附 oracle 測試、乾淨室重建與逐位元組比對的成果，如 10/23 的 18 個案例相符率修正到 100%、10/25 的 245/245 欄位吻合、10/27 的 3205 個測試全過。逆向對象也從遊戲擴及 App、音訊外掛、家電與車用韌體，並延伸到 Windows UIA provider、Nix 套件等生態。但許多 X 貼文仍只有作者自述，證據品質兩極；10/26 起出現小型程式上 REA 只增加成本的實測，以及對抗 AI 逆向的防護工具，10/27 更出現 token 成本討論。",
-        "watch": "留意附測試或逐位元組比對的案例能否持續成為排名主力，以及降低 token 成本（如 213 個 schema 約 38 萬 token）的作法是否有人落地。想找機會的人可從「舊軟體移植或重建並附驗證工具」下手，也可關注反逆向防護這類新需求。對只有自述、無 repo 的貼文，仍宜保留判斷。"
+        "headline": "REA 熱度續攀,重心從展示轉向可驗證的重建與硬體",
+        "summary": "本週 REA 星數從 34.9 萬升至 39.3 萬,每日新增項目由 57 項降到 40 項。案例從老遊戲復刻擴及現代 App、音訊外掛、Windows 與 macOS 軟體,也延伸到冷氣、燈泡、無人機等硬體。最紮實的成果多附證據,例如 oracle 測試、逐位元組比對(DX-Ball 的 3205 個測試全過)、245/245 欄位吻合,以及相符率從 64% 修正到 100% 的乾淨室重建。同時,只有作者自述、沒有 repo 或測試的貼文每天都有,可信度落差明顯;還有實測指出小型程式上 REA 只增加成本,也出現專門對抗 AI 逆向的防護工具。",
+        "watch": "接下來幾天可優先追蹤附測試、比對工具或公開 repo 的案例,並把只有影片或自述的貼文視為待驗證。想找機會的人可留意老軟體移植與重建,以及 Home Assistant、HomeKit 這類裝置整合,同時觀察 v6.8 的 REA environments 與防逆向工具的後續。"
       },
       "en": {
-        "headline": "REA hype shifts from flashy clones to verifiable rebuilds, with cost now in focus",
-        "summary": "REA stars climbed from about 350k to 390k this week, still adding roughly 6k–11k a day. Coverage moved from old-game and modern-app clones on 10/21 toward results backed by oracle tests, clean-room rebuilds and byte-for-byte comparison: 18 cases corrected to 100% match on 10/23, 245/245 fields matching on 10/25, and 3,205 passing tests on 10/27. Targets widened from games to apps, audio plugins, appliances and car firmware, and the ecosystem grew with a Windows UIA provider and Nix packaging. Evidence quality remains uneven, though, as many X posts are self-reported only. From 10/26, a report that REA just adds cost on small programs, a tool built to defend against AI reverse engineering, and token-cost discussion on 10/27 signal a new concern.",
-        "watch": "Watch whether cases with tests or byte-level comparison keep dominating the rankings, and whether anyone ships ways to cut token cost (e.g. 213 schemas ≈ 380k tokens). For opportunities, consider porting or rebuilding legacy software together with a verification tool, and the emerging demand for anti-reverse-engineering protection. Keep treating self-reported posts without a repo with caution."
+        "headline": "REA keeps climbing, shifting from demos to verifiable rebuilds and hardware",
+        "summary": "This week REA's GitHub stars rose from 349K to 393K, while daily new items eased from 57 to 40. Cases widened from retro game ports to modern apps, audio plugins, Windows and macOS software, and on to hardware such as air conditioners, light bulbs and drones. The strongest results come with evidence: oracle tests, byte-for-byte comparisons (DX-Ball's 3,205 tests all passing), 245/245 matching fields, and a clean-room rebuild whose agreement rate was corrected from 64% to 100%. Meanwhile, posts with only the author's claims and no repo or tests appear every day, so credibility varies widely. One field report found REA only added cost on small programs, and tools built to resist AI reverse engineering have appeared.",
+        "watch": "In the coming days, prioritize cases that ship tests, comparison tooling or a public repo, and treat video-only or self-reported posts as unverified. For opportunities, look at retro software ports and rebuilds and at device integrations like Home Assistant and HomeKit. Also follow what comes of v6.8's REA environments and the anti-reverse-engineering tools."
       },
       "zh-CN": {
-        "headline": "REA 热潮从展示复刻转向可验证的重建，成本成新焦点",
-        "summary": "本周 REA 星数从约 35 万一路升到 39 万，每天仍增约六千至一万，热度未减。内容从 10/21 的老游戏与现代 App 复刻，逐步转向附 oracle 测试、洁净室重建与逐字节比对的成果，如 10/23 的 18 个案例相符率修正到 100%、10/25 的 245/245 字段吻合、10/27 的 3205 个测试全过。逆向对象也从游戏扩及 App、音频插件、家电与车用固件，并延伸到 Windows UIA provider、Nix 包等生态。但许多 X 帖子仍只有作者自述，证据质量两极；10/26 起出现小型程序上 REA 只增加成本的实测，以及对抗 AI 逆向的防护工具，10/27 更出现 token 成本讨论。",
-        "watch": "留意附测试或逐字节比对的案例能否持续成为排名主力，以及降低 token 成本（如 213 个 schema 约 38 万 token）的做法是否有人落地。想找机会的人可从“旧软件移植或重建并附验证工具”入手，也可关注反逆向防护这类新需求。对只有自述、无 repo 的帖子，仍宜保留判断。"
+        "headline": "REA 热度续攀,重心从展示转向可验证的重建与硬件",
+        "summary": "本周 REA 星数从 34.9 万升至 39.3 万,每日新增项目由 57 项降到 40 项。案例从老游戏复刻扩及现代 App、音频插件、Windows 与 macOS 软件,也延伸到空调、灯泡、无人机等硬件。最扎实的成果多附证据,例如 oracle 测试、逐字节比对(DX-Ball 的 3205 个测试全过)、245/245 字段吻合,以及吻合率从 64% 修正到 100% 的净室重建。同时,只有作者自述、没有 repo 或测试的帖子每天都有,可信度落差明显;还有实测指出小型程序上 REA 只增加成本,也出现专门对抗 AI 逆向的防护工具。",
+        "watch": "接下来几天可优先跟踪附测试、比对工具或公开 repo 的案例,并把只有视频或自述的帖子视为待验证。想找机会的人可留意老软件移植与重建,以及 Home Assistant、HomeKit 这类设备集成,同时观察 v6.8 的 REA environments 与防逆向工具的后续。"
       }
     },
     "rising": [
@@ -19279,9 +19303,9 @@
       "A": 3,
       "B": 6,
       "C": 6,
-      "D": 2,
+      "D": 3,
       "E": 0,
-      "F": 1,
+      "F": 0,
       "G": 3
     }
   }

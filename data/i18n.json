@@ -14203,5 +14203,140 @@
       "target": "REA／Pi 代理工具链",
       "metric": "集成 207 个 MCP 工具与 153 个 CLI 命令，并附三桶证据账本"
     }
+  },
+  "d-ba65da3a39": {
+    "hash": "754de466e72d",
+    "en": {
+      "title": "Controlled Experiment: Two Claudes Rebuild the Same Website, With and Without REA",
+      "summary": "The author had two Claudes rebuild their website from identical instructions, one using REA and one without. The Claude without REA finished first, providing a control showing that REA did not speed up this task.",
+      "target": "The author's own website",
+      "metric": "The Claude without REA finished the rebuild first"
+    },
+    "zh-CN": {
+      "title": "对照实验：有无 REA 的两个 Claude 重建同一网站",
+      "summary": "作者让两个 Claude 以相同指令重建自己的网站，一个使用 REA，另一个不用。结果没用 REA 的那个先完成，等于提供了 REA 在此任务上没有加速的对照。",
+      "target": "作者自己的网站",
+      "metric": "未使用 REA 的 Claude 先完成重建"
+    }
+  },
+  "d-bbb03904da": {
+    "hash": "db8b55faaa9f",
+    "en": {
+      "title": "Testing REA on my own website: 46 JS files read in 26 seconds",
+      "summary": "The author ran REA on their own website and had it read through 46 JavaScript files in 26 seconds. Their takeaway is that REA isn't meant for replicating an entire app, but works as a map pointing to where to start looking. The account is self-reported, with no comparison tests or public results.",
+      "target": "The author's own website (JavaScript front end)",
+      "metric": "46 JavaScript files read in 26 seconds"
+    },
+    "zh-CN": {
+      "title": "用 REA 实测自己的网站，26 秒读完 46 个 JS 文件",
+      "summary": "作者将 REA 实际用在自己的网站上，在 26 秒内读完 46 个 JavaScript 文件。作者的结论是，REA 不是用来复制整个 App，而是一张指出“该从哪里开始看”的地图。内容为作者自述，未附对照测试或公开成果。",
+      "target": "作者自己的网站（JavaScript 前端）",
+      "metric": "26 秒读完 46 个 JavaScript 文件"
+    }
+  },
+  "d-4f16c2dd77": {
+    "hash": "1714fc89b25c",
+    "en": {
+      "title": "Cracking a JS-based target in about ten minutes with REA",
+      "summary": "The author claims a target written in JavaScript was cracked in roughly ten-plus minutes using REA. The specific target, method, and what was cracked are not described, and there is no evidence to verify the claim.",
+      "target": "A program written in JavaScript (unspecified)",
+      "metric": "Cracked in about ten-plus minutes (self-reported)"
+    },
+    "zh-CN": {
+      "title": "用 REA 十多分钟破解一个 JS 编写的目标",
+      "summary": "作者自述一个以 JavaScript 编写的目标，用 REA 大约十几分钟就被破解。未说明具体目标、方法与破解内容，也没有证据可供验证。",
+      "target": "某个以 JavaScript 编写的程序（未说明）",
+      "metric": "约十几分钟完成破解（作者自述）"
+    }
+  },
+  "d-e21e791e9c": {
+    "hash": "952556efbac5",
+    "en": {
+      "title": "Zero-background user has an LLM tear down a Go-built Agent desktop app and turn it into a plugin",
+      "summary": "The author knows no assembly and has never installed IDA. They simply instructed an LLM to turn an Agent platform's model capabilities into a plugin that connects to DSH. The model handled the teardown and integration through REA, but the excerpt provides no code, tests, or verifiable results.",
+      "target": "Agent desktop platform (written in Go)",
+      "metric": "Self-reported zero background; the LLM handled teardown and plugin integration"
+    },
+    "zh-CN": {
+      "title": "零基础让大模型拆解 Go 编写的 Agent 桌面端并做成插件",
+      "summary": "作者不懂汇编、没装过 IDA，只下指令要大模型把某 Agent 平台的模型能力做成插件接入 DSH。通过 REA 让模型完成拆解与集成，但节选内容没有提供代码、测试或可验证的成果。",
+      "target": "Agent 桌面端平台（Go 编写）",
+      "metric": "作者自述零基础，由大模型完成拆解与插件集成"
+    }
+  },
+  "d-e606df7ed0": {
+    "hash": "de7e042ab239",
+    "en": {
+      "title": "Introducing REO: a reverse-engineering orchestrator integrating Ghidra, GhidraMCP, and REA",
+      "summary": "The author releases an open-source project called REO, which combines Ghidra, GhidraMCP, REA, and ECC into a single automated AI reverse-engineering MCP. A GitHub repo link is included, but the excerpt contains only promotional text and no actual reverse-engineering results.",
+      "target": "REO reverse-engineering orchestrator (integrating Ghidra / GhidraMCP / REA / ECC)",
+      "metric": "4 tools integrated into a single automated MCP"
+    },
+    "zh-CN": {
+      "title": "发布 REO：整合 Ghidra、GhidraMCP、REA 的逆向编排器",
+      "summary": "作者发布名为 REO 的开源项目，把 Ghidra、GhidraMCP、REA 与 ECC 整合成单一的自动化 AI 逆向 MCP。内容附有 GitHub repo 链接，但节选只有宣传文字，未见实际逆向成果。",
+      "target": "REO 逆向工程编排器（整合 Ghidra / GhidraMCP / REA / ECC）",
+      "metric": "整合 4 个工具为单一自动化 MCP"
+    }
+  },
+  "d-ba44215d32": {
+    "hash": "daefcde7d3d5",
+    "en": {
+      "title": "Reverse-engineering the Yeelight bulb's NVRAM to bring discontinued bulbs back to Home Assistant",
+      "summary": "After Yeelight ended support and pulled its app, the author reverse-engineered the bulb's NVRAM to reconnect it to Home Assistant. The result is published as the open-source repo Yeelight_Liberator.",
+      "target": "Yeelight smart bulbs (NVRAM / Home Assistant)",
+      "metric": "Public GitHub repo Yeelight_Liberator that makes discontinued bulbs usable again"
+    },
+    "zh-CN": {
+      "title": "逆向 Yeelight 灯泡 NVRAM,让停止支持的灯泡接入 Home Assistant",
+      "summary": "Yeelight 停止支持并下架 app 后,作者对灯泡的 NVRAM 做逆向工程,让灯泡重新接入 Home Assistant。成果以 Yeelight_Liberator 开源 repo 公开。",
+      "target": "Yeelight 智能灯泡(NVRAM / Home Assistant)",
+      "metric": "公开 GitHub repo Yeelight_Liberator,让停产灯泡恢复使用"
+    }
+  },
+  "d-37871a6a5a": {
+    "hash": "56d1e998c2bd",
+    "en": {
+      "title": "Reverse-engineering Claude Desktop to build an open-source alternative that works with any model",
+      "summary": "The author used REA to reverse-engineer Claude Desktop and built an open-source alternative that can connect to any model, local or cloud. The excerpt is a single self-description, with no repo link or testing to back it up.",
+      "target": "Claude Desktop (Electron desktop app)",
+      "metric": "Self-reported open-source alternative supporting any local or cloud model"
+    },
+    "zh-CN": {
+      "title": "逆向 Claude Desktop,做出可用任意模型的开源替代品",
+      "summary": "作者用 REA 逆向 Claude Desktop,据此做出能接任何模型(本地或云端)的开源替代品。节选只有一句自述,没有 repo 链接或测试佐证。",
+      "target": "Claude Desktop(Electron 桌面应用)",
+      "metric": "自述产出支持任意本地或云端模型的开源替代品"
+    }
+  },
+  "d-b4e6c3f5c4": {
+    "hash": "f6b246590488",
+    "en": {
+      "title": "Extracting Doubao's internal skill using DeepSeek with REA",
+      "summary": "The author used DeepSeek together with REA to extract one of Doubao's internal skills. Doubao itself replied that this was internal configuration and could not be exported, yet the author still obtained the content. So far this is only the author's own claim, with no extracted content or steps attached.",
+      "target": "Internal skill configuration of Doubao (ByteDance's AI assistant)",
+      "metric": "Extracted an internal skill that Doubao claimed could not be exported"
+    },
+    "zh-CN": {
+      "title": "用 DeepSeek 搭配 REA 取出豆包的内部 skill",
+      "summary": "作者用 DeepSeek 加 REA,把豆包内部的一个 skill 取了出来。豆包自己回答说这是内部配置无法导出,作者仍成功获取了内容。目前只有作者自述,没有附上获取的内容或步骤。",
+      "target": "豆包(字节跳动 AI 助手)的内部 skill 配置",
+      "metric": "取出豆包自称无法导出的内部 skill"
+    }
+  },
+  "d-6be9bab64b": {
+    "hash": "6b56e88703b8",
+    "en": {
+      "title": "Using REA to capture X and Facebook unofficial APIs for a social media management tool",
+      "summary": "The author used REA to capture the unofficial APIs of X and Facebook, and built a social media management tool that works with Claude Code like a virtual assistant to operate their own accounts. The author says it will be open-sourced within a few days, but so far there is only the self-report, with no repo or evidence.",
+      "target": "X (Twitter) and Facebook unofficial APIs",
+      "metric": "Self-reported outreach performance at p99; open-source release promised within days"
+    },
+    "zh-CN": {
+      "title": "用 REA 抓取 X 与 Facebook 非官方 API,做社交媒体管理工具",
+      "summary": "作者以 REA 抓取 X 与 Facebook 的非官方 API,做出可像虚拟助理一样搭配 Claude Code 操作自己账号的社交媒体管理工具。作者表示几天内会开源,但目前只有自述,没有 repo 或证据。",
+      "target": "X(Twitter)与 Facebook 非官方 API",
+      "metric": "自述外发效果达 p99,预告几天内开源"
+    }
   }
 }

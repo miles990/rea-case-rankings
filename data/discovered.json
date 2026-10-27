@@ -2,6 +2,73 @@
   "updated": "2026-10-27",
   "items": [
     {
+      "url": "https://bsky.app/profile/ylove.bsky.social/post/3myt6645k3s24",
+      "title": "REA (reverse engineer anything) is the new Napster.",
+      "author": "ylove.bsky.social",
+      "date": "2026-10-27",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-27",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-27",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/anbulang/status/2114935390520131700",
+      "title": "0 基础，用 REA 把一个 Agent 桌面端拆了。  我不会汇编，IDA 没装过，Go 机器码一行读不懂。  我做的事只有一件：跟大模型说「把这个 Agent 平台的模型能力做成插件，接进 DSH」。  然后看它把活干完。",
+      "author": "@anbulang",
+      "date": "2026-10-27",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 41
+      },
+      "lang": "zh",
+      "found": "2026-10-27",
+      "relevant": true,
+      "title_zh": "零基礎讓大模型拆解 Go 寫的 Agent 桌面端並做成插件",
+      "summary": "作者不懂組語、沒裝過 IDA，只下指令要大模型把某 Agent 平台的模型能力做成插件接進 DSH。透過 REA 讓模型完成拆解與整合，但節錄內容沒有提供程式碼、測試或可驗證的成果。",
+      "target": "Agent 桌面端平台（Go 編寫）",
+      "metric": "作者自述零基礎，由大模型完成拆解與插件整合",
+      "category": "Native",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-27",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/QuixiAI/status/2114886957603991752",
+      "title": "I reverse engineered Claude Desktop using @morluto's Reverse Engineer Anything.  Now, we have an open source alternative to Claude Desktop t",
+      "author": "@QuixiAI",
+      "date": "2026-10-27",
+      "source": "X",
+      "kind": "貼文",
+      "score": 151,
+      "pop": {
+        "likes": 151,
+        "views": 5143
+      },
+      "lang": "en",
+      "found": "2026-10-27",
+      "relevant": true,
+      "title_zh": "逆向 Claude Desktop 做出可用任意模型的開源替代品",
+      "summary": "作者用 REA 逆向 Claude Desktop，據此做出能接任何模型（本地或雲端）的開源替代品。節錄只有一句自述，沒有 repo 連結或測試佐證。",
+      "target": "Claude Desktop（Electron 桌面應用）",
+      "metric": "自述產出支援任意本地或雲端模型的開源替代品",
+      "category": "Electron",
+      "status": "reported",
+      "wow": 3,
+      "scored": "2026-10-27",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/Jerophin123/JTrac",
       "title": "Jerophin123/JTrac: An unofficial reimagining of the JTrac issue tracker for the modern era: self-hosted, reverse-engineered with REA MCP and rebuilt on Java 25, Spring Boot 4, React 19 and PostgreSQL 18. Not affiliated with the original JTrac project.",
       "author": "Jerophin123",
@@ -765,6 +832,190 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://x.com/gerickt/status/2114796020991197592",
+      "title": "Yeelight dejó obsoletos mis focos sin soporte ni app para seguir usándolos. Un poco de ingeniería inversa en la NVRAM y ahora vuelven a la v",
+      "author": "@gerickt",
+      "date": "2026-10-26",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 28
+      },
+      "lang": "en",
+      "found": "2026-10-27",
+      "relevant": true,
+      "title_zh": "逆向 Yeelight 燈泡 NVRAM，讓停止支援的燈泡接上 Home Assistant",
+      "summary": "Yeelight 停止支援並下架 app 後，作者對燈泡的 NVRAM 做逆向工程，讓燈泡重新接入 Home Assistant。成果以 Yeelight_Liberator 開源 repo 公開。",
+      "target": "Yeelight 智慧燈泡（NVRAM / Home Assistant）",
+      "metric": "公開 GitHub repo Yeelight_Liberator，讓停產燈泡恢復使用",
+      "category": "IoT / 藍牙",
+      "status": "shipped",
+      "wow": 4,
+      "scored": "2026-10-27",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/ninodirector/status/2114726585559359588",
+      "title": "Puse a dos Claude a reconstruir mi propia web con la misma orden.  Uno con REA, el repo viral de ingeniería inversa. El otro sin nada.  Term",
+      "author": "@ninodirector",
+      "date": "2026-10-26",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 12
+      },
+      "lang": "en",
+      "found": "2026-10-27",
+      "relevant": true,
+      "title_zh": "對照實驗：有無 REA 的兩個 Claude 重建同一網站",
+      "summary": "作者讓兩個 Claude 以相同指令重建自己的網站，一個使用 REA，另一個不用。結果沒用 REA 的那個先完成，等於提供了 REA 在此任務上沒有加速的對照。",
+      "target": "作者自己的網站",
+      "metric": "未使用 REA 的 Claude 先完成重建",
+      "category": "工具鏈",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-27",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/rolandchia65/status/2114707745727488372",
+      "title": "Signed, notarized, MIT, no vendor code shipped. Runs on the AKP153 and the MiraBox 293S. Built with @reatools, Hermes (@",
+      "source": "X",
+      "found": "2026-10-27",
+      "relevant": false,
+      "scored": "2026-10-27",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/matthewsoldit/status/2114641236300874036",
+      "title": "i achieved p99 on outbound on X and Facebook today completely with unofficial apis extracted with REA.  i have genuinelly made the most usef",
+      "author": "@matthewsoldit",
+      "date": "2026-10-26",
+      "source": "X",
+      "kind": "貼文",
+      "score": 8,
+      "pop": {
+        "likes": 8,
+        "views": 520
+      },
+      "lang": "en",
+      "found": "2026-10-27",
+      "relevant": true,
+      "title_zh": "用 REA 擷取 X 與 Facebook 非官方 API 做社群管理工具",
+      "summary": "作者以 REA 擷取 X 與 Facebook 的非官方 API，做出可像虛擬助理般搭配 Claude Code 操作自己帳號的社群管理工具。作者表示幾天內會開源，但目前只有自述，沒有 repo 或證據。",
+      "target": "X（Twitter）與 Facebook 非官方 API",
+      "metric": "自述外發成效達 p99，預告幾天內開源",
+      "category": "Web / 資安",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-27",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/Praveens649/status/2114615570373189946",
+      "title": "Found this thing called REA MCP and thought… “Can I reverse-engineer a random portfolio from the internet and rebuild the whole experience w",
+      "author": "@Praveens649",
+      "date": "2026-10-26",
+      "source": "X",
+      "kind": "貼文",
+      "score": 2,
+      "pop": {
+        "likes": 2,
+        "views": 33
+      },
+      "lang": "en",
+      "found": "2026-10-27",
+      "relevant": true,
+      "title_zh": "嘗試用 REA 逆向 Spider-Verse 風格作品集網站並重建",
+      "summary": "作者想用 REA MCP 逆向網路上一個 Spider-Verse 風格的作品集網站，再用 AI 重建整個體驗。目前只做到逆向階段的一半，尚無成果。",
+      "target": "Spider-Verse 風格作品集網站",
+      "metric": "進行中，逆向階段完成約一半",
+      "category": "Web / JS",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-10-27",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/p2ecoin91/status/2114615095422767403",
+      "title": "AI가 노션·그림판까지 뜯었습니다. REA를 제 사이트에 직접 돌려 보니 자바스크립트 46개를 26초에 읽었습니다. 앱 복사기가 아니라 '어디를 열어 볼지' 알려 주는 지도였습니다. https://x.com/i/article/21146139963264",
+      "author": "@p2ecoin91",
+      "date": "2026-10-26",
+      "source": "X",
+      "kind": "貼文",
+      "score": 3,
+      "pop": {
+        "likes": 3,
+        "views": 187
+      },
+      "lang": "ko",
+      "found": "2026-10-27",
+      "relevant": true,
+      "title_zh": "用 REA 實測自己的網站，26 秒讀完 46 個 JS 檔",
+      "summary": "作者將 REA 實際用在自己的網站上，在 26 秒內讀完 46 個 JavaScript 檔案。作者的結論是 REA 不是用來複製整個 App，而是一張指出「該從哪裡開始看」的地圖。內容為作者自述，未附對照測試或公開成果。",
+      "target": "作者自己的網站（JavaScript 前端）",
+      "metric": "26 秒讀完 46 個 JavaScript 檔",
+      "category": "Web / JS",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-27",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/zhimin_zhang/status/2114610883888545945",
+      "title": "js写的，用rea十几分钟就破解了😂",
+      "author": "@zhimin_zhang",
+      "date": "2026-10-26",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 120
+      },
+      "lang": "zh",
+      "found": "2026-10-27",
+      "relevant": true,
+      "title_zh": "用 REA 十多分鐘破解一個 JS 寫的目標",
+      "summary": "作者自述一個以 JavaScript 寫成的目標，用 REA 約十幾分鐘就被破解。未說明具體目標、方法與破解內容，也沒有證據可驗證。",
+      "target": "某個以 JavaScript 撰寫的程式（未說明）",
+      "metric": "約十幾分鐘完成破解（作者自述）",
+      "category": "Web / JS",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-27",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/Prayag12B/status/2114564988644008049",
+      "title": "Yes. I am trying to clone the stella  app using REA skills. And InfiBis.",
+      "author": "@Prayag12B",
+      "date": "2026-10-26",
+      "source": "X",
+      "kind": "貼文",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 12
+      },
+      "lang": "en",
+      "found": "2026-10-27",
+      "relevant": true,
+      "title_zh": "嘗試用 REA 技能複製 Stella App 與 InfiBis",
+      "summary": "作者表示正在用 REA 技能嘗試複製 Stella App 和 InfiBis。內容只有一句進行中的意圖，沒有提供任何成果、程式碼或證據。",
+      "target": "Stella App、InfiBis",
+      "metric": "尚無成果，僅表示正在嘗試",
+      "category": "Native",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-10-27",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://x.com/mouse_soft_y/status/2114199601553326524",
       "title": "museはgptに頼むとある程度脱獄できる！！ デコンパイルをopencode+reaでやってくれてる。",
       "author": "@mouse_soft_y",
@@ -807,6 +1058,56 @@
       "category": "Native / 遊戲",
       "status": "reported",
       "wow": 2,
+      "scored": "2026-10-27",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/milleniumgenerl/status/2114346213948772549",
+      "title": "Introducing REO (https://github.com/abeeropu/REO ⚡ — The Reverse Engineering Orchestrator that unifies @NSAGov 's Ghidra, @lauriewired 's Gh",
+      "author": "@milleniumgenerl",
+      "date": "2026-10-25",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 24
+      },
+      "lang": "en",
+      "found": "2026-10-27",
+      "relevant": true,
+      "title_zh": "發表 REO：整合 Ghidra、GhidraMCP、REA 的逆向編排器",
+      "summary": "作者發表名為 REO 的開源專案，把 Ghidra、GhidraMCP、REA 與 ECC 整合成單一的自動化 AI 逆向 MCP。內容有 GitHub repo 連結，但節錄只有宣傳文字，未見實際逆向成果。",
+      "target": "REO 逆向工程編排器（整合 Ghidra / GhidraMCP / REA / ECC）",
+      "metric": "整合 4 個工具為單一自動化 MCP",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-10-27",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/qianshuikun/status/2114293896457200101",
+      "title": "不得不提今天我用ds+rea把豆包的一个内部skill扒下来了  我问豆包能不能导出，她说这是内部配置不能导出  然后我就用dsh扒出来了",
+      "author": "@qianshuikun",
+      "date": "2026-10-25",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 8
+      },
+      "lang": "zh",
+      "found": "2026-10-27",
+      "relevant": true,
+      "title_zh": "用 DeepSeek 搭配 REA 取出豆包的內部 skill",
+      "summary": "作者用 DeepSeek 加 REA，把豆包內部的一個 skill 取了出來。豆包自己回答說這是內部設定無法匯出，作者仍成功取得內容。目前只有作者自述，沒有附上取得的內容或步驟。",
+      "target": "豆包（字節跳動 AI 助理）的內部 skill 設定",
+      "metric": "取出豆包自稱無法匯出的內部 skill",
+      "category": "Web / JS",
+      "status": "reported",
+      "wow": 3,
       "scored": "2026-10-27",
       "scored_by": "sonnet"
     },
@@ -877,6 +1178,15 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://x.com/charliejhills/status/2112854345616404846",
+      "title": "Claude Code is bad at design (until you do this).  10 steps to an Apple-style website that ranks:  Every prompt is in he",
+      "source": "X",
+      "found": "2026-10-27",
+      "relevant": false,
+      "scored": "2026-10-27",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/flisk-sh/awesome-rea-flisk-cases",
       "title": "flisk-sh/awesome-rea-flisk-cases: Awesome list: reverse-engineering apps with REA and rebuilding them with Flisk CLI",
       "author": "flisk-sh",
@@ -890,6 +1200,24 @@
       "wow": 1,
       "category": "報導 / 評論",
       "status": "reported",
+      "scored": "2026-10-27",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/iamDevRajput/ReverseEngineering",
+      "title": "iamDevRajput/ReverseEngineering",
+      "source": "GitHub",
+      "found": "2026-10-27",
+      "relevant": false,
+      "scored": "2026-10-27",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/zephyr4123/speakmore",
+      "title": "zephyr4123/speakmore: SpeakMore：口述成文，划词即译。开源、免费的语音输入与翻译工具，支持 Mac 与 Windows：语音输入、语音翻译、划词翻译。兼容 Gemini、OpenAI、通义千问、DeepSeek",
+      "source": "GitHub",
+      "found": "2026-10-27",
+      "relevant": false,
       "scored": "2026-10-27",
       "scored_by": "jev"
     },
@@ -1138,6 +1466,56 @@
       "wow": 2,
       "scored": "2026-10-27",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://youtu.be/sgPnBZE7wFI",
+      "title": "Claude Won't Reverse Engineer It. Use This Instead",
+      "author": "Devsplainers",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 30272,
+      "lang": "en",
+      "found": "2026-10-27",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-27",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://youtu.be/iDBDZoEBofQ",
+      "title": "AI Is Starting to Reverse-Engineer Everything! 210,000 Stars, REA Hands-On: Is the Software Moat ...",
+      "author": "wow",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 13397,
+      "lang": "en",
+      "found": "2026-10-27",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-27",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://madewithrea.com/landscape",
+      "title": "AI reverse-engineering tools compared · Made with REA",
+      "author": "madewithrea.com",
+      "date": null,
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-10-27",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-10-27",
+      "scored_by": "jev"
     },
     {
       "url": "https://github.com/gjaekz/rea-websites",
@@ -35595,6 +35973,35 @@
   "runs": [
     {
       "date": "2026-10-27",
+      "added": 19,
+      "stats": {
+        "githubShowAndTell": 10,
+        "githubRepos": 229,
+        "githubCode": 44,
+        "hackerNews": 23,
+        "qiita": 43,
+        "devto": 150,
+        "juejin": 9,
+        "reddit": "error: 429 reddit rss",
+        "v2ex": 10,
+        "youtube": 90,
+        "bluesky": 159,
+        "mastodon": 160,
+        "exaWeb": 57,
+        "x": 27
+      },
+      "scoring": {
+        "scored": 12,
+        "jev": {
+          "low": 4,
+          "irrelevant": 3,
+          "errors": 0,
+          "toClaude": 12
+        }
+      }
+    },
+    {
+      "date": "2026-10-27",
       "added": 54,
       "stats": {
         "githubShowAndTell": 10,
@@ -36442,33 +36849,7 @@
           "toClaude": 27
         }
       }
-    },
-    {
-      "date": "2026-10-12",
-      "added": 26,
-      "stats": {
-        "githubShowAndTell": 6,
-        "githubRepos": 183,
-        "hackerNews": 17,
-        "qiita": 20,
-        "devto": 150,
-        "reddit": 60,
-        "v2ex": 1,
-        "youtube": 90,
-        "bluesky": 151,
-        "mastodon": 160,
-        "x": 19
-      },
-      "scoring": {
-        "scored": 15,
-        "jev": {
-          "low": 10,
-          "irrelevant": 1,
-          "errors": 0,
-          "toClaude": 15
-        }
-      }
     }
   ],
-  "updatedAt": "2026-10-27T00:26:04.838Z"
+  "updatedAt": "2026-10-27T04:38:24.214Z"
 }

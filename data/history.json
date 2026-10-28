@@ -19263,24 +19263,31 @@
     },
     {
       "date": "2026-10-28",
-      "stars": 397326,
-      "stars_delta": 4653,
+      "stars": 398205,
+      "stars_delta": 5532,
       "new": [
         "d-b23d75a817",
         "d-982bd02734",
         "d-4520ccec27",
+        "d-a42d638ebb",
         "d-7196b2d73c",
+        "d-257955c1d5",
         "d-90d7e2a44b",
         "d-c465baeafb",
+        "d-555678b885",
         "d-2c8726f374",
         "d-2c74b73a87",
         "d-ac9c9079d1",
         "d-d3bf4424bf",
         "d-4958308adc",
+        "d-1287548f31",
         "d-18ccf089b0",
         "d-419e7ca79f",
         "d-7c92733452",
         "d-cb85245ebc",
+        "d-e02463c065",
+        "d-840b44c204",
+        "d-67fcbe36bf",
         "d-6f0dc93296",
         "d-a75b8e0605",
         "d-6392980f8f",
@@ -19289,39 +19296,40 @@
         "d-58b78578d1",
         "d-a4531c634e",
         "d-c0396d9eed",
+        "d-d2c229d478",
         "d-00d06e7161"
       ],
       "stats": {
-        "count": 24,
+        "count": 32,
         "wow": {
-          "2": 18,
-          "3": 4,
+          "2": 23,
+          "3": 7,
           "4": 2
         },
         "type": {
-          "case": 9,
-          "app": 10,
-          "learn": 4,
+          "case": 14,
+          "app": 12,
+          "learn": 5,
           "news": 1
         },
         "status": {
-          "tested": 2,
-          "shipped": 8,
-          "reported": 14
+          "tested": 3,
+          "shipped": 10,
+          "reported": 19
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 星數增 4653 達 39.7 萬,GitHub 上多款工具成形",
-          "summary": "REA GitHub 星數升至 397326,比前一個紀錄多 4653。當天最具體的成果是兩個 GitHub 案例:一個分析 OpenCode Desktop 的 sidecar 啟動流程並以 8 項測試驗證重寫,另一個拆解 QuillBot 並重做開源替代品 OpenQuill。同時出現多個圍繞 REA 的工作區、Ghidra 整合與防禦端 Anti-REA 工具,顯示生態從單次逆向轉向工具化與對抗。X 上的貼文熱度較高,但多數只有自述、沒有可驗證的證據。"
+          "headline": "REA 星數破 39.8 萬，從 App 逆向到重建驗證成主軸",
+          "summary": "REA 星數升至 398205，比前一個紀錄多 5532。當天最有料的兩則 GitHub 案例都把逆向結果落成可驗證的重寫：一個分析 OpenCode Desktop 的 sidecar 啟動流程，並對照上游原始碼逐項驗證、寫出通過 8 項測試的函式庫；另一個用 REA 與 CDP 分析 QuillBot 前端，再乾淨室重做出 OpenQuill。另有生態整合類工具（離線客戶端引擎、Windows 引擎打包、Ghidra 工作區）持續出現，不過 X 上多數貼文只是自述、缺乏證據，可信度有限。"
         },
         "en": {
-          "headline": "REA stars rise 4,653 to 397K as GitHub tooling takes shape",
-          "summary": "REA's GitHub stars reached 397,326, up 4,653 from the previous record. The most concrete work came from two GitHub cases: one analyzed OpenCode Desktop's sidecar startup and rewrote it with 8 passing tests, and the other dissected QuillBot to build an open-source alternative, OpenQuill. Several REA-based workspaces, Ghidra integrations and a defensive tool, Anti-REA, also appeared, which suggests the ecosystem is moving from one-off reversing toward tooling and countermeasures. X posts drew more heat, but most are self-reports with no verifiable evidence."
+          "headline": "REA passes 398K stars as reverse engineering turns into verified rebuilds",
+          "summary": "REA's GitHub stars rose to 398,205, up 5,532 from the previous record. The two strongest GitHub cases both turn reverse-engineering findings into verifiable rewrites: one analyzes OpenCode Desktop's sidecar startup, checks it against upstream source and ships a library passing 8 tests; the other uses REA and CDP on QuillBot's frontend to build a clean-room OpenQuill. Ecosystem tooling (an offline client engine, Windows engine packaging, a Ghidra workspace) keeps appearing, while most X posts are self-reports without evidence, so their reliability is limited."
         },
         "zh-CN": {
-          "headline": "REA 星数增 4653 达 39.7 万,GitHub 上多款工具成形",
-          "summary": "REA GitHub 星数升至 397326,比前一个纪录多 4653。当天最具体的成果是两个 GitHub 案例:一个分析 OpenCode Desktop 的 sidecar 启动流程并以 8 项测试验证重写,另一个拆解 QuillBot 并重做开源替代品 OpenQuill。同时出现多个围绕 REA 的工作区、Ghidra 集成与防御端 Anti-REA 工具,显示生态从单次逆向转向工具化与对抗。X 上的帖子热度较高,但多数只有自述、没有可验证的证据。"
+          "headline": "REA 星数破 39.8 万，从 App 逆向到重建验证成主轴",
+          "summary": "REA 星数升至 398205，比之前的纪录多 5532。当天最有料的两则 GitHub 案例都把逆向结果落成可验证的重写：一个分析 OpenCode Desktop 的 sidecar 启动流程，并对照上游源码逐项验证、写出通过 8 项测试的库；另一个用 REA 与 CDP 分析 QuillBot 前端，再净室重做出 OpenQuill。另有生态集成类工具（离线客户端引擎、Windows 引擎打包、Ghidra 工作区）持续出现，不过 X 上多数帖子只是自述、缺乏证据，可信度有限。"
         }
       },
       "signals": [
@@ -19332,7 +19340,7 @@
       "highlights": [
         "d-b23d75a817",
         "d-982bd02734",
-        "d-e21fee2839"
+        "d-257955c1d5"
       ],
       "rank": [
         "dx-ball-sound-pan",
@@ -19597,6 +19605,7 @@
         "d-174bb50dcb",
         "d-ec49bf6b05",
         "d-3f323fbc13",
+        "d-a42d638ebb",
         "d-77593de27f",
         "d-9fa69c73f3",
         "d-a2e226d153",
@@ -19632,6 +19641,7 @@
         "d-6c0afd5e75",
         "d-6840ab3975",
         "d-1584370128",
+        "d-257955c1d5",
         "d-90d7e2a44b",
         "d-16b3d6f526",
         "d-9fd5cd3600",
@@ -19679,6 +19689,7 @@
         "d-db5ea31b01",
         "d-4306768540",
         "d-b3a7a923a0",
+        "d-555678b885",
         "d-780a398c4a",
         "d-ec76ad754e",
         "d-db1317f4ac",
@@ -19842,6 +19853,7 @@
         "d-b5c104566c",
         "d-f5aadf840e",
         "d-fe1e18573c",
+        "d-1287548f31",
         "d-5c97b6f52b",
         "d-af78088488",
         "d-c830cb6a4e",
@@ -19933,6 +19945,8 @@
         "d-cbd7643320",
         "d-fa40d24345",
         "d-5df65cb299",
+        "d-e02463c065",
+        "d-840b44c204",
         "d-8a99ccf565",
         "d-d2871dcf9f",
         "d-732fa9867b",
@@ -19989,6 +20003,7 @@
         "d-40c0474406",
         "d-49c3fe3859",
         "heartland-side-effects",
+        "d-67fcbe36bf",
         "d-6f0dc93296",
         "d-a75b8e0605",
         "d-6392980f8f",
@@ -20132,6 +20147,7 @@
         "d-beb2070b7b",
         "d-a4531c634e",
         "d-c0396d9eed",
+        "d-d2c229d478",
         "d-00d06e7161",
         "d-ab7fbddb4e",
         "d-ca29d89a0e",
@@ -20395,6 +20411,7 @@
         "d-9ae63a8a9f",
         "d-9a259253e0",
         "d-b193bb71cf",
+        "d-56366d4b2c",
         "d-a5ff1e0b69",
         "d-c5a1d95239",
         "d-d9e014279e",
@@ -20449,6 +20466,7 @@
         "d-541d86fb17",
         "d-bd4f93aa34",
         "d-0cf41ba371",
+        "d-ee23efd1d0",
         "d-55d530634d",
         "d-84fba3f60a",
         "d-2ec5c86f82",
@@ -20785,6 +20803,7 @@
         "d-2761852b3d",
         "d-2f09a54a93",
         "d-12bbd6aa45",
+        "d-28d0cc40a0",
         "d-aeb10c4db6",
         "d-73f0fec70a",
         "d-5068b26371",
@@ -21076,19 +21095,19 @@
     "to": "2026-10-28",
     "text": {
       "zh-TW": {
-        "headline": "REA 從展示逆向轉向附證據的驗證與工具化",
-        "summary": "本週星數從 35.9 萬升到 39.7 萬,但每日增幅由 9472 降到 4653。10/22 起的案例就強調附 oracle 測試,10/23 的乾淨室重建把相符率從 64% 修正到 100%,10/25 有 245/245 欄位吻合,10/27 有 3205 個測試全過、63 位元組一致,驗證在 7 天中有 6 天成為訊號。逆向對象從老遊戲(Commander Keen、MSX 移植、DX-Ball)擴到冷氣、耳機、無人機、Yeelight 燈泡等硬體。10/24 起 Claude 桌面端與 Arc 被開源重現,顯示前端功能容易被複製。到 10/28,重點轉成 OpenCode Desktop、OpenQuill、Ghidra 整合與防禦端 Anti-REA 等工具與對抗。多數熱門 X 貼文仍只有作者自述,缺少 repo 或測試佐證。",
-        "watch": "接下來幾天可留意附測試與逐位元組比對的案例,這類成果比自述貼文可信,也較容易複用。另可觀察 Anti-REA 這類防護工具是否增加,以及 10/26 實測指出小型程式上 REA 只增加成本的說法是否有更多人回報。若要找機會,可考慮做驗證工具、硬體互通整合或舊軟體遷移服務。"
+        "headline": "REA 熱潮從展示逆向，轉向附測試與證據的重建",
+        "summary": "本週 REA 星數從 35.9 萬升到 39.8 萬，每天約增加 5 千到 9 千。早期焦點是各種逆向展示，後段則換成附 oracle 測試、逐位元組比對、18 個案例相符率修正到 100% 這類可驗證的乾淨室重建。逆向對象從老遊戲（Commander Keen、DX-Ball、MSX 移植）延伸到 macOS 與桌面 App（Arc、Claude 桌面端、OpenCode、QuillBot），也包含冷氣、燈泡、無人機等硬體。生態工具（Windows UIA、Nix、REA v6.8 的 environments）持續增加，但每天仍有不少只有作者自述的貼文，另有實測指出在小型程式上 REA 只增加成本、沒有提升準確度。",
+        "watch": "優先關注附測試、比對工具或 oracle 的專案，例如逐位元組一致或欄位全數吻合的重建，這類成果最能轉化為可重複的流程或服務。也可留意驗證工具、舊軟體遷移與 REA environments 的後續進展；只有自述、沒有 repo 或測試的熱門貼文，先保留判斷。"
       },
       "en": {
-        "headline": "REA shifts from showing off reverse engineering to verified, tool-based work",
-        "summary": "Stars rose from 359K to 397K this week, but the daily gain fell from 9,472 to 4,653. From 10/22, cases stressed oracle tests; on 10/23 a clean-room rebuild lifted its match rate from 64% to 100%, on 10/25 a rewrite matched 245/245 fields, and on 10/27 a DX-Ball rebuild passed 3,205 tests with 63 bytes identical. Verification was a signal on 6 of 7 days. Targets widened from old games (Commander Keen, an MSX port, DX-Ball) to hardware such as air conditioners, earbuds, drones and Yeelight bulbs. From 10/24, open-source recreations of the Claude desktop app and Arc showed how easily client-side features get cloned. By 10/28 the focus was tooling and counter-measures: OpenCode Desktop, OpenQuill, Ghidra integrations and the defensive Anti-REA. Most popular X posts still rest on the author's word, with no repo or tests.",
-        "watch": "Over the next few days, watch for cases with tests and byte-level comparisons. They are more credible and easier to reuse than self-reported posts. Also watch whether more protection tools like Anti-REA appear, and whether more people confirm the 10/26 report that REA only adds cost on small programs. For opportunities, consider verification tooling, hardware interop integrations, or legacy-software migration services."
+        "headline": "REA hype is shifting from reverse-engineering demos to tested, evidence-backed rebuilds",
+        "summary": "REA's GitHub stars rose from 359K to 398K this week, adding roughly 5K–9K per day. Early coverage centered on showcase reverse-engineering, while later days highlighted verifiable clean-room rebuilds: oracle tests, byte-for-byte matches, and a 18-case match rate corrected from 64% to 100%. Targets widened from old games (Commander Keen, DX-Ball, an MSX port) to macOS and desktop apps (Arc, Claude desktop, OpenCode, QuillBot), plus hardware such as air conditioners, smart bulbs and drones. Ecosystem tooling (Windows UIA provider, Nix packages, REA v6.8 environments) kept growing, yet many daily posts remained author claims only, and one field report said REA added cost without better accuracy on small programs.",
+        "watch": "Prioritize projects that ship tests, comparison tools or oracles, such as byte-identical or fully field-matched rebuilds, since these are the easiest to turn into repeatable workflows or services. Also follow verification tooling, legacy-software migration and REA environments; treat popular posts with no repo or tests with caution."
       },
       "zh-CN": {
-        "headline": "REA 从展示逆向转向附证据的验证与工具化",
-        "summary": "本周星数从 35.9 万升到 39.7 万,但每日增幅由 9472 降到 4653。10/22 起的案例就强调附 oracle 测试,10/23 的洁净室重建把吻合率从 64% 修正到 100%,10/25 有 245/245 字段吻合,10/27 有 3205 个测试全过、63 字节一致,验证在 7 天中有 6 天成为信号。逆向对象从老游戏(Commander Keen、MSX 移植、DX-Ball)扩到空调、耳机、无人机、Yeelight 灯泡等硬件。10/24 起 Claude 桌面端与 Arc 被开源重现,说明前端功能很容易被复制。到 10/28,重点转为 OpenCode Desktop、OpenQuill、Ghidra 集成与防御端 Anti-REA 等工具与对抗。多数热门 X 帖子仍只有作者自述,缺少 repo 或测试佐证。",
-        "watch": "接下来几天可留意附测试与逐字节比对的案例,这类成果比自述帖子更可信,也更容易复用。另可观察 Anti-REA 这类防护工具是否增多,以及 10/26 实测指出小型程序上 REA 只增加成本的说法是否有更多人反馈。若要找机会,可考虑做验证工具、硬件互通集成或旧软件迁移服务。"
+        "headline": "REA 热潮从展示逆向，转向附测试与证据的重建",
+        "summary": "本周 REA 星数从 35.9 万升到 39.8 万，每天约增加 5 千到 9 千。早期焦点是各种逆向展示，后段则换成附 oracle 测试、逐字节比对、18 个案例相符率修正到 100% 这类可验证的洁净室重建。逆向对象从老游戏（Commander Keen、DX-Ball、MSX 移植）延伸到 macOS 与桌面 App（Arc、Claude 桌面端、OpenCode、QuillBot），也包含空调、灯泡、无人机等硬件。生态工具（Windows UIA、Nix、REA v6.8 的 environments）持续增加，但每天仍有不少只有作者自述的帖子，另有实测指出在小型程序上 REA 只增加成本、没有提升准确度。",
+        "watch": "优先关注附测试、比对工具或 oracle 的项目，例如逐字节一致或字段全部吻合的重建，这类成果最容易转化为可重复的流程或服务。也可留意验证工具、旧软件迁移与 REA environments 的后续进展；只有自述、没有 repo 或测试的热门帖子，先保留判断。"
       }
     },
     "rising": [
@@ -21096,9 +21115,7 @@
       "C",
       "G"
     ],
-    "fading": [
-      "A"
-    ],
+    "fading": [],
     "tally": {
       "A": 3,
       "B": 6,

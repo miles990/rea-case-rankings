@@ -14698,5 +14698,125 @@
       "target": "通用文件分析平台（自建 REA 应用）",
       "metric": "宣称 12 个专门 AI 代理、五阶段流程，无实测证据"
     }
+  },
+  "d-e02463c065": {
+    "hash": "4a8e593b044c",
+    "en": {
+      "title": "Reverse engineering an OTT set-top box with REA to watch IPTV freely",
+      "summary": "The author combines REA with reverse engineering of an OTT set-top box, aiming to let the device watch IPTV freely. The content is the author's own account only, with no code, screenshots, or reproducible steps, so the specific findings are unclear.",
+      "target": "OTT set-top box",
+      "metric": "Claims IPTV freedom achieved (no concrete evidence)"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向 OTT 电视盒子，实现 IPTV 自由观看",
+      "summary": "作者结合 REA 对 OTT 电视盒子进行逆向，目标是让设备可自由观看 IPTV。内容仅有作者自述，未附代码、截图或可复现步骤，具体发现不明。",
+      "target": "OTT 电视盒子",
+      "metric": "自述达成 IPTV 自由（无具体证据）"
+    }
+  },
+  "d-840b44c204": {
+    "hash": "fb7056c12494",
+    "en": {
+      "title": "Running REA static analysis on a hand-written mini program: two JS files parsed successfully",
+      "summary": "The author tested REA's static analysis with a small self-written program. Both JavaScript files were parsed successfully, and the import relationships between them were recorded. The author notes that only a simple program was verified, and the video is an animation built from the results rather than a live recording.",
+      "target": "Simple JavaScript sample program",
+      "metric": "2 JS files parsed, import relationships recorded"
+    },
+    "zh-CN": {
+      "title": "用自制小程序跑 REA 静态分析，成功解析两个 JS 文件",
+      "summary": "作者以自写小程序测试 REA 的静态分析，两个 JavaScript 文件均解析成功，并记录了文件间的导入关系。作者自行说明只验证了简单程序，视频是依据结果制作的动画而非实录。",
+      "target": "简单 JavaScript 示例程序",
+      "metric": "2 个 JS 文件解析成功并记录 import 关系"
+    }
+  },
+  "d-67fcbe36bf": {
+    "hash": "0d474ad08d88",
+    "en": {
+      "title": "Packaging REA as a read-only GBT capability bridge",
+      "summary": "Wraps REA as the rea_reverse capability for GBT V8, offering operations such as status, knowledge, commands, plan, cli, and where. The default backend is a stub that does not execute anything: it only lists 129 command names and copyable command lines, and deliberately leaves the execution surface unconnected.",
+      "target": "REA (rea-agents 6.4.0) integration wrapper",
+      "metric": "129 REA command names parsed; default is a non-executing stub backend"
+    },
+    "zh-CN": {
+      "title": "把 REA 封装成只读的 GBT 能力桥接套件",
+      "summary": "将 REA 封装为 GBT V8 的 rea_reverse 能力，提供 status、knowledge、commands、plan、cli、where 等操作。默认后端是桩（stub）、不执行，只列出 129 条命令名与可复制的命令行，并刻意不接入执行面。",
+      "target": "REA（rea-agents 6.4.0）集成封装",
+      "metric": "解析出 129 条 REA 命令名，默认为不执行的 stub 后端"
+    }
+  },
+  "d-d2c229d478": {
+    "hash": "aeb7d7f007e2",
+    "en": {
+      "title": "Tutorial: using REA to trace where an Electron app writes its exported notes",
+      "summary": "An official-style beginner tutorial that uses a six-file Electron sample app to show how to have an AI assistant trace the Export notes button with REA. Following the IPC handlers from the renderer through preload to the main process, it finds where notes.csv is written to the Downloads folder and which fields it contains, with file and line references.",
+      "target": "Electron sample app notes-example",
+      "metric": "Traced the notes:export IPC flow and the CSV write at main.js lines 8–12"
+    },
+    "zh-CN": {
+      "title": "教程：用 REA 追踪 Electron 应用导出笔记的文件写入位置",
+      "summary": "官方风格的新手教程，以六个文件的 Electron 示例应用为对象，演示让 AI 助手用 REA 追踪 Export notes 按钮。从 renderer、preload 到 main 进程的 IPC 处理函数，找出 notes.csv 写入下载文件夹及其字段，并附文件和行号。",
+      "target": "Electron 示例应用 notes-example",
+      "metric": "追踪出 notes:export 的 IPC 流程与 main.js 第 8–12 行的 CSV 写入"
+    }
+  },
+  "d-a42d638ebb": {
+    "hash": "3dc60c28d9e2",
+    "en": {
+      "title": "Building Kestrel K3, a browser 3D vehicle that drives on the ground and takes off, with REA",
+      "summary": "Inspired by someone else's 3D work, the author used REA with Three.js and Vite to build a vehicle called Kestrel K3 that drives on the ground and then takes off to fly. The result is deployed on Vercel and can be played in the browser with no installation.",
+      "target": "Kestrel K3 browser 3D vehicle",
+      "metric": "Playable live demo deployed on Vercel"
+    },
+    "zh-CN": {
+      "title": "用 REA 做出浏览器 3D 载具 Kestrel K3,可地面驾驶与起飞",
+      "summary": "作者受他人 3D 作品启发,以 REA 搭配 Three.js 与 Vite 制作名为 Kestrel K3 的载具,可在地面行驶后起飞飞行。成品部署于 Vercel,无需安装即可在浏览器试玩。",
+      "target": "Kestrel K3 浏览器 3D 载具",
+      "metric": "已部署 Vercel 的可玩在线 demo"
+    }
+  },
+  "d-257955c1d5": {
+    "hash": "65cd934030b9",
+    "en": {
+      "title": "An offline desktop client engine for REA with local LLMs",
+      "summary": "An orchestration engine for an air-gapped REA desktop client, covering the MCP handshake, dynamic tool discovery, a ReAct loop for local LLMs, and projecting Evidence results into a form a 14B model can read. Integration tests ran against a real rea-agents 6.8.0 server (229 tools), and tool names in the original blueprint that did not exist were corrected. Coverage is about 88%.",
+      "target": "REA (rea-agents 6.8.0) MCP desktop client",
+      "metric": "229 tools verified against a real REA server; 88% test statement coverage"
+    },
+    "zh-CN": {
+      "title": "为本地 LLM 打造 REA 的离线桌面客户端引擎",
+      "summary": "针对 REA 打造 air-gapped 桌面客户端的协调引擎,涵盖 MCP 握手、工具动态探索、本地 LLM 的 ReAct 循环,以及把 Evidence 结果投影成 14B 模型读得懂的形式。对真实的 rea-agents 6.8.0 服务器做集成测试(229 个工具),并修正原蓝图中不存在的工具名称,覆盖率约 88%。",
+      "target": "REA(rea-agents 6.8.0)MCP 桌面客户端",
+      "metric": "对真实 REA 服务器验证 229 个工具,测试语句覆盖率 88%"
+    }
+  },
+  "d-555678b885": {
+    "hash": "682cdc80bbe4",
+    "en": {
+      "title": "Rebuilding an app and making a native Raspberry Pi game with REA and Codex",
+      "summary": "The author handed an EXE to Codex, analyzed it with REA, and asked for a rebuild with equivalent functionality. After more than five hours they had a runnable version that looks close to the original app on the tested paths, and they extended it into a native Raspberry Pi game. The results are the author's observations on their own machine and are explicitly not an independent benchmark.",
+      "target": "Windows application EXE and a Raspberry Pi game",
+      "metric": "Runnable equivalent rebuild produced in about 5 hours"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Codex 重建应用并制作树莓派原生游戏",
+      "summary": "作者把一个 EXE 交给 Codex,并以 REA 分析后要求以等效功能重建。五个多小时后得到可运行的版本,在测试路径上外观与原应用相近,并延伸到树莓派原生游戏。成果为作者在自己机器上的观察,并声明不是独立基准测试。",
+      "target": "Windows 应用程序 EXE 与树莓派游戏",
+      "metric": "约 5 小时产出可运行的等效重建版本"
+    }
+  },
+  "d-1287548f31": {
+    "hash": "32b2b211aa60",
+    "en": {
+      "title": "Completing a rebuild with REA and the 1987 original, upload coming later",
+      "summary": "The author says they finished something using REA and the 1987 original program, and will upload it later. The post gives no specific target, method, or result, and includes no repo or evidence.",
+      "target": "The 1987 original program (not specified in the post)",
+      "metric": "Self-reported as done; not yet publicly uploaded"
+    },
+    "zh-CN": {
+      "title": "以 REA 搭配 1987 年原版完成重建,预告稍后上传",
+      "summary": "作者表示使用 REA 与 1987 年的原版程序完成了某项成果,并说明之后会上传。内文未说明具体目标、方法或成果,也没有 repo 或证据。",
+      "target": "1987 年的原版程序(内容未明说)",
+      "metric": "自述已完成,尚未公开上传"
+    }
   }
 }

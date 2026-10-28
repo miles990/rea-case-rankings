@@ -19,6 +19,123 @@
       "scored_by": "jev"
     },
     {
+      "url": "https://github.com/SeanShaffer88/rea-client",
+      "title": "SeanShaffer88/rea-client: Air-gapped desktop client engine for REA (Reverse Engineering Assistant): MCP orchestration, local-LLM agent loop, and evidence projection.",
+      "author": "SeanShaffer88",
+      "date": "2026-10-28",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-28",
+      "relevant": true,
+      "title_zh": "為本地 LLM 打造 REA 的離線桌面客戶端引擎",
+      "summary": "針對 REA 打造 air-gapped 桌面客戶端的協調引擎，涵蓋 MCP 握手、工具動態探索、本地 LLM 的 ReAct 迴圈，以及把 Evidence 結果投影成 14B 模型讀得懂的形式。對真實的 rea-agents 6.8.0 伺服器做整合測試（229 個工具），並修正原藍圖中不存在的工具名稱，覆蓋率約 88%。",
+      "target": "REA（rea-agents 6.8.0）MCP 桌面客戶端",
+      "metric": "對真實 REA 伺服器驗證 229 個工具，測試語句覆蓋率 88%",
+      "category": "工具鏈",
+      "status": "tested",
+      "wow": 3,
+      "scored": "2026-10-28",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/gbtweilai-star/gbt-rea-reverse",
+      "title": "gbtweilai-star/gbt-rea-reverse: GBT V8 capability #199/341 · rea_reverse (recon) — REA 桥 —— 吞天吞进来的第一件「能装能跑」的外部能力（主人 2026-10-11 图片 ⇒ devour_github 真吞成胶囊 devoured_morluto_rea；上游 https://rea.tools/ · morluto/rea · npm rea-agents 6.4.0 · MIT）。给编码助手装上「逆向 / 反编译 / 无源码看懂程序」的取证面：Ghidra/IDA/Hopper 与 JS-Electron / .NET / APK / 网页 / 抓包，每条结论带证据与局限。**本位只读、零作用域、执行面故意没接**：status 现读本机 P",
+      "author": "gbtweilai-star",
+      "date": "2026-10-28",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "zh",
+      "found": "2026-10-28",
+      "relevant": true,
+      "title_zh": "把 REA 包成唯讀的 GBT 能力橋接套件",
+      "summary": "將 REA 包裝成 GBT V8 的 rea_reverse 能力，提供 status、knowledge、commands、plan、cli、where 等操作。預設後端是樁（stub）、不執行，只列出 129 條命令名與可複製的命令列，並刻意不接執行面。",
+      "target": "REA（rea-agents 6.4.0）整合封裝",
+      "metric": "解析出 129 條 REA 命令名，預設為未執行的 stub 後端",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-10-28",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/xuzhican/status/2115292728284377554",
+      "title": "结合REA逆向了OTT电视盒子，实现IPTV自由。虽然现在电视也没啥可看的了",
+      "author": "@xuzhican",
+      "date": "2026-10-28",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 17
+      },
+      "lang": "zh",
+      "found": "2026-10-28",
+      "relevant": true,
+      "title_zh": "用 REA 逆向 OTT 電視盒子，實現 IPTV 自由觀看",
+      "summary": "作者結合 REA 對 OTT 電視盒子進行逆向，目標是讓裝置可自由觀看 IPTV。內容僅有作者自述，未附程式碼、截圖或可重現步驟，具體發現不明。",
+      "target": "OTT 電視盒子",
+      "metric": "自述達成 IPTV 自由（無具體證據）",
+      "category": "韌體 / 硬體",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-28",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/Horin22841043/status/2115240593790234971",
+      "title": "我还用自己写的一个小程序跑了 REA 的静态分析：两个 JavaScript 文件都解析成功，它也记录了文件之间的导入关系。 但要注意：这次测试只验证了简单程序的静态分析。它能帮助你调查软件，不代表点一下就能自动复刻任何应用。 视频是根据这次结果制作的工作台动画，不是实时录屏。",
+      "author": "@Horin22841043",
+      "date": "2026-10-28",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 17
+      },
+      "lang": "zh",
+      "found": "2026-10-28",
+      "relevant": true,
+      "title_zh": "用自製小程式跑 REA 靜態分析，成功解析兩個 JS 檔",
+      "summary": "作者以自寫小程式測試 REA 的靜態分析，兩個 JavaScript 檔案皆解析成功，並記錄檔案間的匯入關係。作者自行說明只驗證了簡單程式，影片是依結果製作的動畫而非實錄。",
+      "target": "簡單 JavaScript 範例程式",
+      "metric": "2 個 JS 檔解析成功並記錄 import 關係",
+      "category": "Web / JS",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-28",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/bitslix/status/2115238407836160248",
+      "title": "I have it done, used REA and the original from 1987, i will upload it soon.",
+      "author": "@bitslix",
+      "date": "2026-10-28",
+      "source": "X",
+      "kind": "貼文",
+      "score": 2,
+      "pop": {
+        "likes": 2,
+        "views": 11
+      },
+      "lang": "en",
+      "found": "2026-10-28",
+      "relevant": true,
+      "title_zh": "以 REA 搭配 1987 年原版完成重建，預告稍後上傳",
+      "summary": "作者表示使用 REA 與 1987 年的原版程式完成了某項成果，並說明之後會上傳。內文未說明具體目標、方法或成果，也沒有 repo 或證據。",
+      "target": "1987 年的原版程式（內容未明說）",
+      "metric": "自述已完成，尚未公開上傳",
+      "category": "Native / 遊戲",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-28",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/Srinivasa-ks/Rea",
       "title": "Srinivasa-ks/Rea: REA App is an offline desktop app where AI agents investigate software for you. Drop in an app or binary, ask “How does search work?”, and get a plain-English answer with evidence, screenshots, and a guide to recreate the feature. It asks approval before risky steps, keeps a searchable history, and everything stays on your machine.",
       "author": "Srinivasa-ks",
@@ -187,24 +304,6 @@
       "scored_by": "sonnet"
     },
     {
-      "url": "https://github.com/reagithu/REA-Github",
-      "title": "reagithu/REA-Github: REA Reverse Engineer Anything 6.3.0 links hopper, ghidra and ida over rea mcp. morluto tree, json l",
-      "source": "GitHub",
-      "found": "2026-10-28",
-      "relevant": false,
-      "scored": "2026-10-28",
-      "scored_by": "sonnet"
-    },
-    {
-      "url": "https://github.com/stohirov/anydec",
-      "title": "stohirov/anydec: Similar tool to REA but without AI agents",
-      "source": "GitHub",
-      "found": "2026-10-28",
-      "relevant": false,
-      "scored": "2026-10-28",
-      "scored_by": "sonnet"
-    },
-    {
       "url": "https://github.com/rajanworld/rea-sidecar-demo",
       "title": "rajanworld/rea-sidecar-demo: REA + Claude Code demo: how OpenCode Desktop launches its local AI agent server, verified against source, plus an original sidecar-supervisor library",
       "author": "rajanworld",
@@ -260,15 +359,6 @@
       "scored_by": "jev"
     },
     {
-      "url": "https://bsky.app/profile/sonofsuntzu.bsky.social/post/3myudthxhcc2f",
-      "title": "This is well thought through on what \"Reverse Engineer Anything\" might mean for game design ( TL;DR is increasing defens",
-      "source": "Bluesky",
-      "found": "2026-10-28",
-      "relevant": false,
-      "scored": "2026-10-28",
-      "scored_by": "jev"
-    },
-    {
       "url": "https://bsky.app/profile/aadzenomad.bsky.social/post/3myucpw3xdc2b",
       "title": "I don't usually follow any trend, but this Reverse Engineer Anything (REA) caught my eye recently.",
       "author": "aadzenomad.bsky.social",
@@ -299,15 +389,6 @@
       "wow": 1,
       "category": "報導 / 評論",
       "status": "reported",
-      "scored": "2026-10-28",
-      "scored_by": "jev"
-    },
-    {
-      "url": "https://x.com/anbulang/status/2114937295711420447",
-      "title": "顺手的发现：源码没抄，契约全抄。搜 opencode 源码路径，一条没有。但 OPENCODE_SERVER_USERNAME、OPENCODE_CONFIG_CONTENT、X-Opencode-Directory（名字都没改）、http",
-      "source": "X",
-      "found": "2026-10-28",
-      "relevant": false,
       "scored": "2026-10-28",
       "scored_by": "jev"
     },
@@ -408,15 +489,6 @@
       "category": "Web / JS",
       "status": "reported",
       "wow": 2,
-      "scored": "2026-10-28",
-      "scored_by": "sonnet"
-    },
-    {
-      "url": "https://x.com/zack0x01_/status/2115110586925068608",
-      "title": "I reverse engineered a ransomware with REA, the Reverse Engineer Anything GitHub repo everyone is sharing. Then I had a ",
-      "source": "X",
-      "found": "2026-10-28",
-      "relevant": false,
       "scored": "2026-10-28",
       "scored_by": "sonnet"
     },
@@ -542,6 +614,76 @@
       "category": "工具鏈",
       "status": "reported",
       "wow": 2,
+      "scored": "2026-10-28",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://louisplanquart.fr/en/blog/rea-ai-reverse-engineering-native-games-raspberry-pi/",
+      "title": "REA and Codex: AI Reverse Engineering and Native Raspberry Pi Games",
+      "author": "louisplanquart.fr",
+      "date": "2026-10-27",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-10-28",
+      "relevant": true,
+      "title_zh": "用 REA 與 Codex 重建應用並製作樹莓派原生遊戲",
+      "summary": "作者把一個 EXE 交給 Codex，並以 REA 分析後要求以等效功能重建。五個多小時後得到可執行的版本，在測試路徑上外觀與原應用相近，並延伸到樹莓派原生遊戲。成果為作者在自己機器上的觀察，並聲明不是獨立基準測試。",
+      "target": "Windows 應用程式 EXE 與樹莓派遊戲",
+      "metric": "約 5 小時產出可執行的等效重建版本",
+      "category": "Native / 遊戲",
+      "status": "reported",
+      "wow": 3,
+      "scored": "2026-10-28",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/0rdlibrary/status/2115148008782286987",
+      "title": "Want proof that you can do anything?  2 years ago, I didn't even know how to use @github  I was found by @solana because I used @replit  Tod",
+      "author": "@0rdlibrary",
+      "date": "2026-10-27",
+      "source": "X",
+      "kind": "貼文",
+      "score": 3,
+      "pop": {
+        "likes": 3,
+        "views": 298
+      },
+      "lang": "en",
+      "found": "2026-10-28",
+      "relevant": true,
+      "title_zh": "自述用自製反編譯器與 REA 逆向 Solana 智能合約協議",
+      "summary": "一則 X 貼文，作者自稱使用自己的反編譯技術與 REA 逆向分析 Solana 智能合約協議。貼文沒有提供具體目標、發現或證據，屬於心得性質。",
+      "target": "Solana 智能合約協議",
+      "metric": "無具體成果，僅作者自述",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-10-28",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/mafuzurrahman01/status/2114949098126327911",
+      "title": "saw @thebuggeddev's 3D work and couldn't stop thinking about it  so I built that one named Kestrel K3 with (REA) 🚀  → drive it on the groun",
+      "author": "@mafuzurrahman01",
+      "date": "2026-10-27",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 39
+      },
+      "lang": "en",
+      "found": "2026-10-28",
+      "relevant": true,
+      "title_zh": "用 REA 做出瀏覽器 3D 載具 Kestrel K3，可地面駕駛與起飛",
+      "summary": "作者受他人 3D 作品啟發，以 REA 搭配 Three.js 與 Vite 製作名為 Kestrel K3 的載具，可在地面行駛後起飛飛行。成品部署於 Vercel，免安裝即可在瀏覽器試玩。",
+      "target": "Kestrel K3 瀏覽器 3D 載具",
+      "metric": "已部署 Vercel 的可玩線上 demo",
+      "category": "Web / JS",
+      "status": "shipped",
+      "wow": 3,
       "scored": "2026-10-28",
       "scored_by": "sonnet"
     },
@@ -683,6 +825,51 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://github.com/reagithu/REA-Github",
+      "title": "reagithu/REA-Github: REA Reverse Engineer Anything 6.3.0 links hopper, ghidra and ida over rea mcp. morluto tree, json l",
+      "source": "GitHub",
+      "found": "2026-10-28",
+      "relevant": false,
+      "scored": "2026-10-28",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/stohirov/anydec",
+      "title": "stohirov/anydec: Similar tool to REA but without AI agents",
+      "source": "GitHub",
+      "found": "2026-10-28",
+      "relevant": false,
+      "scored": "2026-10-28",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://bsky.app/profile/sonofsuntzu.bsky.social/post/3myudthxhcc2f",
+      "title": "This is well thought through on what \"Reverse Engineer Anything\" might mean for game design ( TL;DR is increasing defens",
+      "source": "Bluesky",
+      "found": "2026-10-28",
+      "relevant": false,
+      "scored": "2026-10-28",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/anbulang/status/2114937295711420447",
+      "title": "顺手的发现：源码没抄，契约全抄。搜 opencode 源码路径，一条没有。但 OPENCODE_SERVER_USERNAME、OPENCODE_CONFIG_CONTENT、X-Opencode-Directory（名字都没改）、http",
+      "source": "X",
+      "found": "2026-10-28",
+      "relevant": false,
+      "scored": "2026-10-28",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/zack0x01_/status/2115110586925068608",
+      "title": "I reverse engineered a ransomware with REA, the Reverse Engineer Anything GitHub repo everyone is sharing. Then I had a ",
+      "source": "X",
+      "found": "2026-10-28",
+      "relevant": false,
+      "scored": "2026-10-28",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/khamis1992/loam",
       "title": "khamis1992/loam: Loam — local workspaces for research, writing, coding, analysis and design",
       "source": "GitHub",
@@ -795,6 +982,63 @@
       "category": "Native / 遊戲",
       "status": "shipped",
       "wow": 3,
+      "scored": "2026-10-28",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://youtu.be/dz82hMFTmz0",
+      "title": "What is REA (Reverse Engineer Anything) and why is your app in DANGER?",
+      "author": "Сухов:Live | AI и автоматизация бизнеса",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 221,
+      "lang": "en",
+      "found": "2026-10-28",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-10-28",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://reversingtools.com/reverse-engineer-anything",
+      "title": "Reverse Engineer Anything with REA: The Complete Guide",
+      "author": "reversingtools.com",
+      "date": null,
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-10-28",
+      "relevant": true,
+      "title_zh": "REA 完整使用指南：安裝並向 AI 提問逆向目標",
+      "summary": "一篇介紹如何使用 REA 的指南，內容節錄僅示範在 agent 工作階段提問，以及可從終端機使用同樣工具的 CLI。沒有提供具體分析目標或成果。",
+      "target": "REA 使用方式（無具體目標）",
+      "metric": "無具體成果，僅示範提問範例",
+      "category": "教學",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-10-28",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://reverseengineeranything.app/zh-CN/first-investigation/",
+      "title": "你的第一次逆向工程调查-REA",
+      "author": "reverseengineeranything.app",
+      "date": null,
+      "source": "Web",
+      "kind": "文章",
+      "lang": "zh",
+      "found": "2026-10-28",
+      "relevant": true,
+      "title_zh": "教學：用 REA 追蹤 Electron 應用匯出筆記的檔案寫入位置",
+      "summary": "官方風格的新手教學，以六個檔案的 Electron 範例應用為對象，示範讓 AI 助手用 REA 追蹤 Export notes 按鈕。從 renderer、preload 到 main 行程的 IPC 處理函式，找出 notes.csv 寫入下載資料夾與欄位，並附檔案與行號。",
+      "target": "Electron 範例應用 notes-example",
+      "metric": "追蹤出 notes:export 的 IPC 流程與 main.js 第 8–12 行的 CSV 寫入",
+      "category": "教學",
+      "status": "reported",
+      "wow": 2,
       "scored": "2026-10-28",
       "scored_by": "sonnet"
     },
@@ -36770,6 +37014,35 @@
   "runs": [
     {
       "date": "2026-10-28",
+      "added": 11,
+      "stats": {
+        "githubShowAndTell": 10,
+        "githubRepos": 232,
+        "githubCode": 45,
+        "hackerNews": 24,
+        "qiita": 43,
+        "devto": 150,
+        "juejin": 0,
+        "reddit": "error: 429 reddit rss",
+        "v2ex": 10,
+        "youtube": 90,
+        "bluesky": 159,
+        "mastodon": 160,
+        "exaWeb": 56,
+        "x": 26
+      },
+      "scoring": {
+        "scored": 10,
+        "jev": {
+          "low": 1,
+          "irrelevant": 0,
+          "errors": 0,
+          "toClaude": 10
+        }
+      }
+    },
+    {
+      "date": "2026-10-28",
       "added": 41,
       "stats": {
         "githubShowAndTell": 10,
@@ -37620,36 +37893,7 @@
           "toClaude": 72
         }
       }
-    },
-    {
-      "date": "2026-10-13",
-      "added": 131,
-      "stats": {
-        "githubShowAndTell": 8,
-        "githubRepos": 184,
-        "githubCode": 42,
-        "hackerNews": 23,
-        "qiita": 25,
-        "devto": 150,
-        "juejin": 13,
-        "reddit": 60,
-        "v2ex": 3,
-        "youtube": 90,
-        "bluesky": 151,
-        "mastodon": 160,
-        "exaWeb": 55,
-        "x": 25
-      },
-      "scoring": {
-        "scored": 23,
-        "jev": {
-          "low": 58,
-          "irrelevant": 1,
-          "errors": 0,
-          "toClaude": 23
-        }
-      }
     }
   ],
-  "updatedAt": "2026-10-28T00:25:11.789Z"
+  "updatedAt": "2026-10-28T04:37:44.666Z"
 }

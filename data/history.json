@@ -21081,71 +21081,86 @@
     },
     {
       "date": "2026-10-29",
-      "stars": 402489,
-      "stars_delta": 4284,
+      "stars": 407679,
+      "stars_delta": 9474,
       "new": [
         "d-509795de4d",
+        "d-20c545be3d",
+        "d-384788e06c",
         "d-6e7727b744",
+        "d-54b8c9231a",
+        "d-6e7942a070",
         "d-812da61aa7",
         "d-15f3577a29",
         "d-11d3620216",
         "d-404af97bf0",
         "d-e5dc370d87",
         "d-2525e68576",
+        "d-61acf3d4f9",
+        "d-4b543f1953",
         "d-e5dfa9e14e",
+        "d-145b0e69d3",
         "d-cb635f0f62",
         "d-3c89fc3673",
         "d-4d35917a24",
         "d-13e7fa95e1",
+        "d-1352aaa281",
+        "d-c215f73362",
         "d-d1250f1045",
         "d-d2077e5514",
+        "d-cd9b53964f",
+        "d-512cbe4f2b",
+        "d-a6a41f7d34",
+        "d-4938762776",
+        "d-785b185c49",
         "d-3d73fe86ca",
         "d-ebbe23fdc4",
         "d-c62e5de3c4",
+        "d-a1446880a2",
         "d-0eeb1d9606",
         "d-78fdc14174"
       ],
       "stats": {
-        "count": 20,
+        "count": 35,
         "wow": {
-          "2": 12,
-          "3": 6,
-          "4": 2
+          "2": 22,
+          "3": 8,
+          "4": 5
         },
         "type": {
-          "case": 10,
-          "app": 6,
+          "case": 16,
+          "app": 15,
           "learn": 4
         },
         "status": {
-          "tested": 3,
-          "reported": 11,
-          "shipped": 6
+          "tested": 6,
+          "shipped": 16,
+          "reported": 13
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 星數破 40 萬，但對照實驗未見準確度優勢",
-          "summary": "REA 的 GitHub 星數升到 402489，一天增加 4284。熱度最高的仍是各種「用 REA 逆向並重建」的案例：Cluely 無塵室重建有 CI 與逆向文件，是少數可驗證的成果；小米機器人藍牙、印表機解鎖、APK 轉 TypeScript 等多是作者自述，沒附 repo 或證據。同日出現的獨立對照實驗，在 20 個程式上沒偵測到 REA 帶來準確度優勢，代理也不會主動選用 REA，被要求使用時反而更耗時，並附原始紀錄與評分腳本。這顯示聲量與可驗證的效果之間仍有落差，驗證正成為瓶頸。"
+          "headline": "REA 星數破 40 萬，但獨立實驗未見準確度優勢",
+          "summary": "REA 的 GitHub 星數升至 407679，單日增加 9474，社群案例也從勒索軟體解密、Electron 應用分析到遊戲移植除錯都有。不過同日一項獨立對照實驗在 20 個程式上未偵測到加入 REA 後的準確度優勢，且代理不會主動選用 REA，被要求使用時耗時與步驟增加。這提醒讀者：聲量成長很快，但可驗證的證據仍是最大瓶頸，許多 X 貼文只有作者自述。"
         },
         "en": {
-          "headline": "REA passes 400K stars, but a controlled test finds no accuracy gain",
-          "summary": "REA's GitHub stars rose to 402,489, up 4,284 in a day. The hottest items are still 'reverse it with REA and rebuild it' cases. The Cluely clean-room rebuild has CI and analysis docs, so it is one of the few checkable results. The Xiaomi robot Bluetooth client, printer unlock and APK-to-TypeScript posts are mostly self-reported, with no repo or evidence. An independent controlled experiment on 20 programs detected no accuracy advantage from REA. Agents did not pick REA on their own, and when told to use it they took longer and more steps. Raw logs and scoring scripts are published. Popularity and verifiable benefit remain far apart, which makes verification the bottleneck."
+          "headline": "REA passes 400k stars, but an independent test finds no accuracy edge",
+          "summary": "REA's GitHub stars rose to 407,679, up 9,474 in a day, and community cases ranged from ransomware key recovery and Electron app analysis to game-port debugging. Yet an independent controlled experiment on 20 programs detected no accuracy advantage from using REA; agents did not choose it on their own, and when required to use it they took more time and steps. Attention is growing fast, but verifiable evidence remains the bottleneck, since many X posts are self-reports only."
         },
         "zh-CN": {
-          "headline": "REA 星数破 40 万，但对照实验未见准确度优势",
-          "summary": "REA 的 GitHub 星数升到 402489，一天增加 4284。热度最高的仍是各种“用 REA 逆向并重建”的案例：Cluely 无尘室重建有 CI 与逆向文档，是少数可验证的成果；小米机器人蓝牙、打印机解锁、APK 转 TypeScript 等多是作者自述，没附 repo 或证据。同日出现的独立对照实验，在 20 个程序上没检测到 REA 带来准确度优势，代理也不会主动选用 REA，被要求使用时反而更耗时，并附原始记录与评分脚本。这说明声量与可验证的效果之间仍有落差，验证正成为瓶颈。"
+          "headline": "REA 星数破 40 万，但独立实验未见准确度优势",
+          "summary": "REA 的 GitHub 星数升至 407679，单日增加 9474，社区案例也从勒索软件解密、Electron 应用分析到游戏移植调试都有。不过同日一项独立对照实验在 20 个程序上未检测到加入 REA 后的准确度优势，且代理不会主动选用 REA，被要求使用时耗时与步骤增加。这提醒读者：声量增长很快，但可验证的证据仍是最大瓶颈，许多 X 帖子只有作者自述。"
         }
       },
       "signals": [
-        "A",
         "B",
-        "D"
+        "G",
+        "C"
       ],
       "highlights": [
+        "d-6e7942a070",
         "d-6e7727b744",
-        "d-509795de4d",
-        "d-11d3620216"
+        "d-384788e06c"
       ],
       "rank": [
         "dx-ball-sound-pan",
@@ -21155,8 +21170,8 @@
         "d-f0f6905464",
         "d-fe71147f43",
         "d-8f1f2064bd",
-        "d-d155fe3d33",
         "ski-or-die",
+        "d-d155fe3d33",
         "d-301760cfa8",
         "zwo-asiair",
         "d-c2133517a2",
@@ -21243,6 +21258,8 @@
         "d-66dda1761e",
         "d-d2698bcb79",
         "d-692e4961f4",
+        "d-20c545be3d",
+        "d-384788e06c",
         "d-b23d75a817",
         "d-ac20b90913",
         "d-c1e58248af",
@@ -21266,6 +21283,7 @@
         "d-45164a9283",
         "d-831a3c86b4",
         "d-6417fa2b6c",
+        "d-54b8c9231a",
         "d-982bd02734",
         "d-51d1f36544",
         "d-e75ab2a79b",
@@ -21343,6 +21361,7 @@
         "d-16a16d354b",
         "d-36eef39e98",
         "d-1b405cd680",
+        "d-6e7942a070",
         "d-a446272be9",
         "d-81aad91a9f",
         "d-5302fb22b6",
@@ -21481,6 +21500,7 @@
         "zenn-electron-known-answer",
         "d-95812085d2",
         "kingy-notes-exporter",
+        "d-61acf3d4f9",
         "d-c465baeafb",
         "d-80ebded891",
         "d-43ed858149",
@@ -21556,6 +21576,7 @@
         "d-daa98ecb15",
         "d-2731867e4e",
         "d-19ff7d8929",
+        "d-4b543f1953",
         "d-0867acc2f2",
         "d-0f8dcc7223",
         "d-b534d6bcfb",
@@ -21572,6 +21593,7 @@
         "d-655bd26d99",
         "d-f62f5599a7",
         "d-9d04d66cbf",
+        "d-145b0e69d3",
         "d-f6267da5e6",
         "d-a6d91c0f62",
         "d-2bafea56f0",
@@ -21705,6 +21727,8 @@
         "d-474313631a",
         "d-d3c3a5e30d",
         "d-58c16f12d8",
+        "d-1352aaa281",
+        "d-c215f73362",
         "d-a3538e19d1",
         "d-c4a8e916d4",
         "d-7bc975ce6c",
@@ -21794,6 +21818,7 @@
         "d-d7e149d4b2",
         "d-793448136a",
         "d-1c34171707",
+        "d-cd9b53964f",
         "d-61265635ac",
         "d-0a11b07d0d",
         "d-1cfe7c3d14",
@@ -21823,6 +21848,10 @@
         "d-40c0474406",
         "d-49c3fe3859",
         "heartland-side-effects",
+        "d-512cbe4f2b",
+        "d-a6a41f7d34",
+        "d-4938762776",
+        "d-785b185c49",
         "d-3d73fe86ca",
         "d-67fcbe36bf",
         "d-6f0dc93296",
@@ -21968,6 +21997,7 @@
         "d-d79fa65f04",
         "d-0c2d1d1da6",
         "d-beb2070b7b",
+        "d-a1446880a2",
         "d-0eeb1d9606",
         "d-78fdc14174",
         "d-a4531c634e",
@@ -22209,6 +22239,7 @@
         "d-ab91cf2a47",
         "d-abd3cdda58",
         "d-46454c1b46",
+        "d-96b39eade3",
         "d-15a2262824",
         "d-9416f4712a",
         "d-af3396f8f6",
@@ -22314,6 +22345,7 @@
         "d-b794d99cce",
         "d-1681bfccd2",
         "d-3214ed5411",
+        "d-7c74f55b43",
         "d-c2aa214ca6",
         "d-c4618f94d8",
         "d-3b4e93edb4",
@@ -22396,6 +22428,9 @@
         "d-15493ac0e3",
         "d-1d5883af5b",
         "d-1480a7cf0c",
+        "d-ae381cc147",
+        "d-e362e9ce32",
+        "d-af60c6cd69",
         "d-1f71b63824",
         "d-a0e30d8e1c",
         "d-f51f2406ba",
@@ -22641,6 +22676,11 @@
         "d-2761852b3d",
         "d-2f09a54a93",
         "d-536e9132e0",
+        "d-5acdd96006",
+        "d-c6feecd868",
+        "d-2ab0e436a1",
+        "d-dbda24dd4f",
+        "d-3ca04234f9",
         "d-f37bca49aa",
         "d-298e170326",
         "d-fd9c290209",
@@ -22937,36 +22977,38 @@
     "to": "2026-10-29",
     "text": {
       "zh-TW": {
-        "headline": "REA 聲量衝破 40 萬星，但驗證與實證成為真正的關卡",
-        "summary": "本週 REA 星數從 36.7 萬一路升到 40.2 萬，每天約增 4 千到 8 千，但新增項目從 46 項降到 20 項。脈絡從 10/23 的「附證據的乾淨室重建」（相符率從 64% 修正到 100%），經過 10/25 到 10/27 的逐位元組比對（245/245 欄位、207 個命令點、3205 個測試），擴及老遊戲移植、音訊外掛、Yeelight 燈泡與 Tesla CarPlay 盒子等硬體案例。同時，Claude 桌面端與 Arc 被開源復刻，顯示前端功能很容易被快速複製。後半週風向轉變：10/26 有實測指出小型程式上 REA 只增加成本，10/29 的 20 個程式對照實驗更沒偵測到準確度優勢，代理也不主動選用 REA。多數熱門貼文仍只有作者自述，可驗證的成果集中在少數附測試的專案。",
-        "watch": "接下來幾天可留意那個對照實驗是否被複現或反駁，以及有沒有人針對大型、複雜目標提出能顯示優勢的證據。想找機會的人，可往「附差分測試與評分腳本的驗證工具」、老遊戲與舊軟體遷移，以及韌體、BLE 等裝置自主控制的案例切入。參考貼文時，優先看附 repo、CI 或測試的項目，不要被只有自述的熱門貼文帶著走。"
+        "headline": "REA 聲量衝破 40 萬星，但驗證與證據仍是最大瓶頸",
+        "summary": "本週 REA 星數從 36.7 萬一路升到 40.7 萬，每日新增約 5,500 至 9,500。內容從單純展示逆向，轉向附測試與比對的乾淨室重建，例如 245/245 欄位吻合、3205 個測試全過、逐位元組一致的 MSX 移植。案例範圍從老遊戲與舊軟體擴及桌面 App、音訊外掛、燈泡與家電等硬體，也出現 Windows、Nix、Ghidra 等生態整合。前端程式碼易被快速複製（Claude 桌面端、Arc、QuillBot 被重現）。但本週末出現冷水：獨立實驗在 20 個程式上未見 REA 的準確度優勢，小程式上只增加成本，許多貼文仍只有作者自述。",
+        "watch": "留意是否有更多附對照組與差異測試的獨立評測，以及 REA 在哪類任務（大型、混淆、二進位）才真正有優勢。機會在驗證工具、差異測試框架，以及能讓代理穩定自動選用 REA 的流程。硬體互通與舊軟體保存仍是可驗證成果最集中的方向，值得優先追蹤。"
       },
       "en": {
-        "headline": "REA passes 400k stars, but verification and proof are now the real gate",
-        "summary": "This week REA's GitHub stars rose from 367k to 402k, adding roughly 4k to 8k per day, while new items per day fell from 46 to 20. The story began on 10/23 with evidence-backed clean-room rebuilds (a match rate corrected from 64% to 100%). From 10/25 to 10/27 it moved to byte-level checks (245/245 fields, 207 command points, 3,205 tests) and spread from retro-game ports and audio plugins to hardware such as a Yeelight bulb and a Tesla CarPlay box. Open-source clones of the Claude desktop app and Arc also showed how quickly client-side features get copied. The mood shifted late in the week: on 10/26 a field report said REA only added cost on small programs, and on 10/29 a 20-program controlled comparison found no accuracy advantage, with agents not choosing REA on their own. Most popular posts remain self-reported, and verifiable results cluster in a few projects with tests.",
-        "watch": "Over the next few days, watch whether that controlled comparison is reproduced or rebutted, and whether anyone shows an advantage on large, complex targets. For opportunities, look at verification tooling built on differential tests and scoring scripts, at legacy game and software migration, and at device-control work on firmware and BLE. When reading posts, favor those with a repo, CI or tests over popular ones that are only self-reported."
+        "headline": "REA passes 400K stars, but verification and evidence remain the bottleneck",
+        "summary": "This week REA's stars climbed from 367K to 407K, adding roughly 5,500 to 9,500 per day. The content shifted from pure reverse-engineering demos to clean-room rebuilds backed by tests and comparisons, such as 245/245 field matches, 3,205 passing tests, and a byte-identical MSX port. Cases broadened from old games and legacy software to desktop apps, audio plugins, and hardware like light bulbs and appliances, alongside ecosystem integrations for Windows, Nix, and Ghidra. Client-side code proved easy to clone fast (Claude desktop, Arc, and QuillBot were all recreated). Late in the week came a cold shower: an independent experiment across 20 programs found no accuracy advantage from REA, and on small programs it only added cost, while many posts remain author claims without evidence.",
+        "watch": "Watch for more independent evaluations with control groups and differential tests, and for which task types (large, obfuscated, binary) actually benefit from REA. The opportunities lie in verification tooling, differential-testing frameworks, and workflows that get agents to use REA reliably on their own. Hardware interop and legacy software preservation are where verifiable results cluster, so they merit priority tracking."
       },
       "zh-CN": {
-        "headline": "REA 声量破 40 万星，但验证与实证成为真正的关卡",
-        "summary": "本周 REA 星数从 36.7 万一路升到 40.2 万，每天约增 4 千到 8 千，但新增项目从 46 项降到 20 项。脉络从 10/23 的“附证据的洁净室重建”（吻合率从 64% 修正到 100%），经过 10/25 到 10/27 的逐字节比对（245/245 字段、207 个命令点、3205 个测试），扩展到老游戏移植、音频插件、Yeelight 灯泡与 Tesla CarPlay 盒子等硬件案例。同时，Claude 桌面端与 Arc 被开源复刻，说明前端功能很容易被快速复制。后半周风向转变：10/26 有实测指出小型程序上 REA 只增加成本，10/29 的 20 个程序对照实验更没检测到准确度优势，代理也不主动选用 REA。多数热门帖子仍只有作者自述，可验证的成果集中在少数附测试的项目。",
-        "watch": "接下来几天可留意那个对照实验是否被复现或反驳，以及有没有人针对大型、复杂目标提出能显示优势的证据。想找机会的人，可从“附差分测试与评分脚本的验证工具”、老游戏与旧软件迁移，以及固件、BLE 等设备自主控制的案例切入。参考帖子时，优先看附 repo、CI 或测试的项目，不要被只有自述的热门帖子带着走。"
+        "headline": "REA 星数突破 40 万，但验证与证据仍是最大瓶颈",
+        "summary": "本周 REA 星数从 36.7 万一路升到 40.7 万，每日新增约 5,500 至 9,500。内容从单纯展示逆向，转向附测试与比对的洁净室重建，例如 245/245 字段吻合、3205 个测试全过、逐字节一致的 MSX 移植。案例范围从老游戏与旧软件扩展到桌面 App、音频插件、灯泡与家电等硬件，也出现 Windows、Nix、Ghidra 等生态集成。前端代码易被快速复制（Claude 桌面端、Arc、QuillBot 被重现）。但本周末出现冷水：独立实验在 20 个程序上未见 REA 的准确度优势，小程序上只增加成本，许多帖子仍只有作者自述。",
+        "watch": "留意是否有更多附对照组与差异测试的独立评测，以及 REA 在哪类任务（大型、混淆、二进制）才真正有优势。机会在验证工具、差异测试框架，以及能让代理稳定自动选用 REA 的流程。硬件互通与旧软件保存仍是可验证成果最集中的方向，值得优先跟踪。"
       }
     },
     "rising": [
       "B",
+      "C",
       "G"
     ],
     "fading": [
-      "A"
+      "E",
+      "F"
     ],
     "tally": {
-      "A": 4,
+      "A": 3,
       "B": 6,
-      "C": 4,
-      "D": 3,
+      "C": 5,
+      "D": 2,
       "E": 0,
       "F": 0,
-      "G": 4
+      "G": 5
     }
   }
 }

@@ -15118,5 +15118,230 @@
       "target": "游戏代码逆向工作流程",
       "metric": "无具体成果，为流程指南"
     }
+  },
+  "d-4938762776": {
+    "hash": "aea1cbc6d151",
+    "en": {
+      "title": "Deploying the REA MCP Server on Render with a Scheduled Ping to Prevent Sleep",
+      "summary": "The goal is to host the REA MCP server on Render and connect it to Perplexity as a custom connector. The project provides Docker deployment steps and a GitHub Actions keep-alive workflow that pings the server every 5 minutes. It covers deployment configuration only and demonstrates no reverse engineering results.",
+      "target": "REA MCP server (hosted on Render)",
+      "metric": "GitHub Actions keep-alive ping every 5 minutes"
+    },
+    "zh-CN": {
+      "title": "将 REA MCP 服务器部署到 Render 并通过定时 ping 防止休眠",
+      "summary": "目标是将 REA MCP 服务器托管在 Render 上,并可作为自定义连接器接入 Perplexity。做法是提供 Docker 部署步骤,以及每 5 分钟 ping 一次的 GitHub Actions 保活工作流。内容仅涉及部署配置,没有展示任何逆向成果。",
+      "target": "REA MCP 服务器(Render 托管)",
+      "metric": "GitHub Actions 每 5 分钟 ping 一次保活"
+    }
+  },
+  "d-785b185c49": {
+    "hash": "c72cc1ce262d",
+    "en": {
+      "title": "A Toolkit for One-Step Installation of REA and Antigravity CLI on Android Termux",
+      "summary": "The goal is to turn an Android phone (ARM64 Termux) into an AI reverse engineering workstation. install.sh automatically installs packages such as nodejs, rizin, apktool and adb along with rea-agents, and sets up a slimmed-down MCP config file and built-in skills. It includes compatibility notes and sample prompts, but no reverse engineering results for any specific target.",
+      "target": "REA environment on Android Termux (ARM64)",
+      "metric": "One-step install that mounts 229 tool definitions"
+    },
+    "zh-CN": {
+      "title": "在 Android Termux 上一键安装 REA 与 Antigravity CLI 的工具包",
+      "summary": "目标是让 Android 手机(ARM64 Termux)变成 AI 逆向工程工作站。做法是通过 install.sh 自动安装 nodejs、rizin、apktool、adb 等软件包与 rea-agents,并配置精简版 MCP 配置文件和内置技能。内容包含兼容性说明与示例提示词,但没有针对具体目标的逆向成果。",
+      "target": "Android Termux(ARM64)上的 REA 环境",
+      "metric": "一键安装并挂载 229 个工具定义"
+    }
+  },
+  "d-a1446880a2": {
+    "hash": "22d193e00637",
+    "en": {
+      "title": "Using REA to Reverse Engineer the Bluetooth Protocols of a Toothbrush and a Heating Station, and Discussing the REA Ban",
+      "summary": "The author relays the news that REA has been banned and says they are using REA to reverse engineer the Bluetooth protocols of a toothbrush and a heating station, planning to reimplement them so they no longer depend on the vendors' apps. The post offers no concrete results or evidence; it is mostly personal impressions and commentary.",
+      "target": "Bluetooth protocols of a toothbrush and a heating station",
+      "metric": "Bluetooth protocol reverse engineering in progress, no concrete results yet"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向牙刷与加热台的蓝牙协议并讨论 REA 被封禁",
+      "summary": "作者转述 REA 被封禁的消息,并表示自己正用 REA 逆向牙刷和加热台的蓝牙协议,打算自行复刻,以免依赖厂商 App。帖子没有提供具体成果或证据,主要是心得与评论。",
+      "target": "牙刷与加热台的蓝牙协议",
+      "metric": "蓝牙协议逆向进行中,尚无具体成果"
+    }
+  },
+  "d-c215f73362": {
+    "hash": "89fd4b7b865d",
+    "en": {
+      "title": "Building a Lightweight MCP Server That Turns Binaries into C Source with Headless Ghidra",
+      "summary": "Inspired by morluto/rea, this is a lightweight MCP tool that does one thing: give an LLM direct access to decompiled C code. setup.py auto-detects Ghidra and registers the server with Claude Desktop and Cursor, while main.py uses headless Ghidra to export the entire C file and return it. The content is the tool itself; there are no analysis results for a specific target.",
+      "target": "Native binary decompilation (headless Ghidra)",
+      "metric": "Just two files (setup.py, main.py) cover the whole decompilation workflow"
+    },
+    "zh-CN": {
+      "title": "打造轻量 MCP 服务器，用 headless Ghidra 把二进制转成 C 源代码",
+      "summary": "受 morluto/rea 启发,这是一个只做一件事的轻量 MCP 工具,让 LLM 直接获取反编译后的 C 代码。setup.py 会自动检测 Ghidra 并注册到 Claude Desktop 和 Cursor,main.py 则通过 headless Ghidra 导出完整的 C 文件并返回。内容为工具本身,不含针对具体目标的分析结果。",
+      "target": "原生二进制反编译(headless Ghidra)",
+      "metric": "仅两个文件(setup.py、main.py)即可完成反编译流程"
+    }
+  },
+  "d-cd9b53964f": {
+    "hash": "060f5d43754b",
+    "en": {
+      "title": "A DeepSeek Plugin That Condenses REA's 207 Tools into 3 Entry Points",
+      "summary": "A dispatch plugin for DeepSeek Harness that folds REA's 207 MCP tools into three on-demand entry points, rea_tools, rea_help and rea_call, reducing always-loaded context. It includes a script for calculating size, and describes the supported scope and REA-side limitations. This is an integration tool, not a reverse-engineering result for a specific target.",
+      "target": "REA MCP tools and DeepSeek Harness",
+      "metric": "Tool definitions in context reduced from 775,016 B to 1,044 B"
+    },
+    "zh-CN": {
+      "title": "把 REA 的 207 个工具压缩为 3 个入口的 DeepSeek 插件",
+      "summary": "为 DeepSeek Harness 编写的调度插件,将 REA 的 207 个 MCP 工具折叠为 rea_tools、rea_help、rea_call 三个按需入口,降低常驻上下文。附有体积计算脚本,并说明适用范围与 REA 侧的限制。属于集成工具,并非针对特定目标的逆向成果。",
+      "target": "REA MCP 工具与 DeepSeek Harness",
+      "metric": "工具定义进入上下文的体积由 775,016 B 降至 1,044 B"
+    }
+  },
+  "d-512cbe4f2b": {
+    "hash": "4073a4f70e76",
+    "en": {
+      "title": "A REA-Driven Agent Workflow for Game Asset Extraction and Classification",
+      "summary": "For a given game or project, the /asset-extraction command lets a coding agent extract and classify assets within a defined scope and produce visual specs. Each target gets its own isolated workspace, with an accompanying tools and cache directory layout. The content covers only the workflow description and directory structure; no results or tests for specific targets are shown.",
+      "target": "Game assets (scope specified by the user)",
+      "metric": "Provides the /asset-extraction command and an isolated-workspace workflow"
+    },
+    "zh-CN": {
+      "title": "以 REA 驱动的游戏素材提取与分类代理流程",
+      "summary": "针对游戏或项目,通过 /asset-extraction 命令让编码代理在限定范围内提取、分类素材并产出视觉规格。每个目标有独立的工作区,附有工具与缓存目录结构。内容只有流程说明与目录布局,未见具体目标的成果或测试。",
+      "target": "游戏素材(按用户指定范围)",
+      "metric": "提供 /asset-extraction 命令与隔离式工作区流程"
+    }
+  },
+  "d-a6a41f7d34": {
+    "hash": "f396348670a7",
+    "en": {
+      "title": "A Plugin Combining REA and Replica for Post-Reverse-Engineering Reconstruction",
+      "summary": "Merges REA's reverse-engineering skills and Replica's 11 reconstruction skills into a single Claude Code plugin, with 6 Python tools and templates. The goal is to turn reverse-engineering findings into a clean-room reconstruction workflow. The content is plugin packaging and workflow documentation; no hands-on results for a specific product are shown.",
+      "target": "Plugin integrating REA and Replica skills",
+      "metric": "11 Replica skills + 6 Python tools combined in one plugin"
+    },
+    "zh-CN": {
+      "title": "整合 REA 与 Replica 的逆向后重建插件",
+      "summary": "将 REA 逆向技能与 Replica 的 11 个重建技能合并为单个 Claude Code 插件,并附 6 个 Python 工具与模板。目标是把逆向所得转化为净室重建流程。内容是插件打包与流程说明,未见针对特定产品的实测成果。",
+      "target": "REA 与 Replica 技能整合插件",
+      "metric": "11 个 Replica 技能 + 6 个 Python 工具整合于一个插件"
+    }
+  },
+  "d-61acf3d4f9": {
+    "hash": "730f8f2ba695",
+    "en": {
+      "title": "Testing and debugging FGDK game ports by comparing against retail executables with REA",
+      "summary": "The goal is to test and debug ports of two Frontier games, V2000 and Infestation (such as OpenV2K). An agent repeatedly runs the ports headlessly and scans every world for regressions, while REA's Ghidra analysis of the retail executables is used to compare against the ports' behavior. FGDK strings and offsets from the original build paths are also cataloged. The tool itself contains no game code or decompiled output. OpenV2K is public; the Infestation port is not yet public.",
+      "target": "Retail executables of V2000 (1998) and Infestation (2000), and their ports",
+      "metric": "Comparing against retail executables with REA: first analysis after broker startup takes about 40 s, and later queries respond within seconds"
+    },
+    "zh-CN": {
+      "title": "用 REA 对照零售版可执行文件，测试与调试 FGDK 游戏移植版",
+      "summary": "目标是测试并调试 Frontier 的 V2000 与 Infestation 两款游戏的移植版（如 OpenV2K）。做法是让 agent 以 headless 方式反复运行移植版、扫描所有世界以查找回归问题，并用 REA 的 Ghidra 分析零售版可执行文件，与移植版行为进行比对；同时整理原始构建路径中的 FGDK 字符串与偏移。该工具本身不包含游戏代码或反编译输出。OpenV2K 已公开，Infestation 移植版尚未公开。",
+      "target": "V2000（1998）与 Infestation（2000）零售版可执行文件及其移植版",
+      "metric": "以 REA 对照零售版可执行文件，broker 启动后首次分析约 40 秒，之后查询数秒内响应"
+    }
+  },
+  "d-4b543f1953": {
+    "hash": "dc45de146e88",
+    "en": {
+      "title": "Prompt and skill installer for 15 AI coding tools, bundling REA skills",
+      "summary": "UaStation is a single-exe, one-click installer that sets up prompts and skills for 15 AI coding tools. Its resource directory includes REA's reverse-engineer-anything and changelog-update skill files. It is an integration and distribution project and produces no analysis results for any specific reverse engineering target.",
+      "target": "Prompt and skill installation for AI coding tools (including REA skills)",
+      "metric": "Supports 15 AI coding tools; single exe with zero dependencies"
+    },
+    "zh-CN": {
+      "title": "打包 15 种 AI 编程工具的提示词与技能安装器，内含 REA 技能",
+      "summary": "UaStation 是单一 exe 的一键安装器，用于为 15 种 AI 编程工具安装提示词与技能。其资源目录收录了 REA 的 reverse-engineer-anything 与 changelog-update 技能文件。这属于集成与分发，没有针对具体逆向目标产出分析成果。",
+      "target": "AI 编程工具的提示词与技能安装（含 REA 技能）",
+      "metric": "支持 15 种 AI 编程工具，单一 exe、零依赖"
+    }
+  },
+  "d-145b0e69d3": {
+    "hash": "eeac558939c0",
+    "en": {
+      "title": "Tracking and syncing upstream REA skills in the Antigravity engineering framework",
+      "summary": "antigravity-harness is an engineering-standards and subagent framework for Google Antigravity. Its upstream-auditor skill lists morluto/rea as a tracked source and compares changes in the upstream reverse-engineer-anything skill and the rea-agents MCP server. REA is just one of the upstreams being synced; there are no actual reverse engineering results.",
+      "target": "Upstream skill sync mechanism for Google Antigravity",
+      "metric": "Tracks morluto/rea upstream on a release track"
+    },
+    "zh-CN": {
+      "title": "在 Antigravity 工程框架中跟踪并同步 REA 上游技能",
+      "summary": "antigravity-harness 是面向 Google Antigravity 的工程规范与子代理框架。其 upstream-auditor 技能将 morluto/rea 列为跟踪对象，会比对上游 reverse-engineer-anything 技能与 rea-agents MCP 服务器的变更。REA 只是被同步的上游之一，没有实际的逆向成果。",
+      "target": "Google Antigravity 的上游技能同步机制",
+      "metric": "将 morluto/rea 以 release 轨道纳入上游跟踪"
+    }
+  },
+  "d-1352aaa281": {
+    "hash": "4c68cd515a8f",
+    "en": {
+      "title": "REA-driven reverse engineering agent skill covering multiple target types",
+      "summary": "The goal is to let an agent use REA to reverse engineer compiled artifacts such as native binaries, Electron apps, .NET, APKs, firmware, and WASM, and to produce verifiable conclusions. It provides a skill package with SKILL.md, references, and scripts, supporting agents such as DSH, Codex, and Claude Code. The content is the skill and installation instructions; it contains no results for any specific reverse engineering target.",
+      "target": "Agent skill (general reverse engineering workflow)",
+      "metric": "Skill v1.2.0, supports DSH, Codex, WorkBuddy, Claude Code"
+    },
+    "zh-CN": {
+      "title": "打包以 REA 驱动的逆向工程 Agent 技能，涵盖多种目标类型",
+      "summary": "目标是让 agent 能用 REA 对原生二进制、Electron、.NET、APK、固件、WASM 等编译产物做逆向，并给出可核查的结论。做法是提供含 SKILL.md、references 与 scripts 的技能包，支持 DSH、Codex、Claude Code 等多种 agent。内容为技能与安装说明，没有具体逆向目标的成果。",
+      "target": "Agent 技能（通用逆向工程流程）",
+      "metric": "技能 v1.2.0，支持 DSH、Codex、WorkBuddy、Claude Code"
+    }
+  },
+  "d-20c545be3d": {
+    "hash": "f25b967782a4",
+    "en": {
+      "title": "Studying Screen Studio with REA and verifying recording and export",
+      "summary": "For Screen Studio 3.7.3-4540 on Apple Silicon, this examines the Electron and native recording architecture and provides read-only tools to tally project events and verify exported video. In testing, the record, reopen, edit and export flow passed, but network license activation failed, and the private recording data is not public, so outsiders cannot reproduce the results.",
+      "target": "Screen Studio 3.7.3-4540 (macOS Apple Silicon)",
+      "metric": "Exported H.264 1104×720, 60fps video passed full decoding of all 3,337 frames"
+    },
+    "zh-CN": {
+      "title": "用 REA 研究 Screen Studio 并验证录制与导出",
+      "summary": "针对 Apple Silicon 上的 Screen Studio 3.7.3-4540,检查 Electron 与原生录制架构,并提供只读工具统计项目事件、验证导出视频。实验中录制、重新打开、编辑、导出流程均通过,但网络授权失败,且私有录制数据未公开,外部无法复现。",
+      "target": "Screen Studio 3.7.3-4540(macOS Apple Silicon)",
+      "metric": "导出 H.264 1104×720、60fps、3,337 帧完整解码通过"
+    }
+  },
+  "d-384788e06c": {
+    "hash": "073413087dd7",
+    "en": {
+      "title": "Reversing C3RB3R ransomware with REA/Ghidra and recovering keys from memory to decrypt files",
+      "summary": "After a victim's Synology DSM was hit by C3RB3R ransomware, REA and Ghidra were used to analyze the unpacked sample libgld.bin, confirming that data is encrypted with ChaCha8 and the per-file key records are encrypted with AES-256-CBC. A 16 GiB memory dump was then taken from the PVE virtual machine, usable keys were recovered, and verified files were successfully decrypted. The post includes SHA-256 hashes of the sample and memory image plus a recovery repo, but full-disk decryption is not yet complete.",
+      "target": "C3RB3R ransomware sample libgld.bin and its encrypted files",
+      "metric": "Keys recovered from 16 GiB of memory; verified files successfully decrypted"
+    },
+    "zh-CN": {
+      "title": "用 REA/Ghidra 逆向 C3RB3R 勒索软件并从内存还原密钥解密文件",
+      "summary": "受害者的群晖 DSM 遭 C3RB3R 勒索后,使用 REA 与 Ghidra 分析脱壳样本 libgld.bin,确认数据加密算法为 ChaCha8,文件密钥记录使用 AES-256-CBC 加密。随后从 PVE 虚拟机获取 16 GiB 内存副本,还原出可用密钥,并成功解密已验证的文件。帖子附有样本与内存镜像的 SHA-256 以及救灾 repo,但尚未完成全盘解密。",
+      "target": "C3RB3R 勒索软件样本 libgld.bin 及其加密文件",
+      "metric": "从 16 GiB 内存中还原密钥,成功解密已验证文件"
+    }
+  },
+  "d-54b8c9231a": {
+    "hash": "86dc6767bb85",
+    "en": {
+      "title": "Decompiling the PSP game Digimon Adventure with REA and Ghidra to build a knowledge base",
+      "summary": "The goal is to decompile EBOOT.BIN from the PSP game Digimon Adventure and unpack FILEDATA.CPK, as a knowledge base for an Agent developing Digimon 02. The work produced 15 decompiled C modules, several TSV data tables, HUD layout JSON, and notes on 196 3D character models along with their skeletons and animation states. The results are published as an Obsidian Vault versioned with Git LFS, but the excerpt shows no entry-by-entry comparison tests against the original game.",
+      "target": "PSP Digimon Adventure (NPJH50686) EBOOT.BIN",
+      "metric": "15 decompiled C modules, 196 3D models, 523-row speaker table"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Ghidra 反编译 PSP《数码宝贝大冒险》并建立知识库",
+      "summary": "目标是反编译 PSP 版《Digimon Adventure》的 EBOOT.BIN 并解开 FILEDATA.CPK,作为开发《Digimon 02》的 Agent 知识库。成果包括 15 个反编译 C 模块、多份 TSV 数据表、HUD 布局 JSON,以及 196 个 3D 角色模型与骨架、动画状态的整理。成果以 Obsidian Vault 形式公开并通过 Git LFS 进行版本管理,但节选中未见与原版逐条对照的测试。",
+      "target": "PSP《数码宝贝大冒险》(NPJH50686)EBOOT.BIN",
+      "metric": "15 个反编译 C 模块、196 个 3D 模型、523 行说话者表"
+    }
+  },
+  "d-6e7942a070": {
+    "hash": "76c5775c11b5",
+    "en": {
+      "title": "Reversing TikTok app signatures with Hermes, REA and GLM 5.3 to fetch video metadata",
+      "summary": "The author used Hermes Agent with REA and GLM 5.3, plus Frida and mitmproxy, to reverse the request signing of TikTok's mobile API, aiming to fetch video metadata headlessly. The post explains how REA drives tools such as Ghidra, jadx and adb, at a total cost under 20 USD. The excerpt is only the opening of a paywalled article, so the full results and verification details are not visible.",
+      "target": "TikTok mobile app's private API signature and video metadata",
+      "metric": "Total cost under 20 USD, with GLM 5.3 doing most of the reverse engineering"
+    },
+    "zh-CN": {
+      "title": "用 Hermes、REA 与 GLM 5.3 逆向 TikTok App 签名以抓取视频元数据",
+      "summary": "作者使用 Hermes Agent 搭配 REA 与 GLM 5.3,另加 Frida 和 mitmproxy,逆向 TikTok 移动 API 的请求签名,目的是无头抓取视频元数据。文中说明了 REA 如何驱动 Ghidra、jadx、adb 等工具,整体成本不到 20 美元。节选内容仅为付费文章的开头部分,完整成果与验证细节无法看到。",
+      "target": "TikTok 移动 App 的私有 API 签名与视频元数据",
+      "metric": "整体花费不到 20 美元,由 GLM 5.3 完成大部分逆向工作"
+    }
   }
 }

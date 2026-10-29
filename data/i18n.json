@@ -14818,5 +14818,305 @@
       "target": "1987 年的原版程序(内容未明说)",
       "metric": "自述已完成,尚未公开上传"
     }
+  },
+  "d-e5dfa9e14e": {
+    "hash": "7206a247123c",
+    "en": {
+      "title": "Reverse-engineering Apple's website with REA and Antigravity, then rebuilding it locally",
+      "summary": "The author used REA together with Google Antigravity to reverse-engineer Apple's official website and host the rebuilt version locally. They claim the result looks almost identical to the original, but provide no code, screenshot links, or reproducible steps.",
+      "target": "Apple's official website",
+      "metric": "Self-reported: the rebuilt site looks almost identical to Apple's"
+    },
+    "zh-CN": {
+      "title": "用 REA 搭配 Antigravity 逆向苹果官网并在本机重做",
+      "summary": "作者使用 REA 配合 Google Antigravity,逆向苹果官方网站并把重做的网站放在本机。作者自述成果与原站几乎一模一样,但未附代码、截图链接或可复现步骤。",
+      "target": "苹果官方网站",
+      "metric": "自述重做的网站外观与苹果官网几乎一模一样"
+    }
+  },
+  "d-cb635f0f62": {
+    "hash": "7ac70762fb30",
+    "en": {
+      "title": "How to install REA with npx rea-agents setup and let AI take apart an app",
+      "summary": "Writing in Indonesian, the author says REA is easy to pick up: you need an AI harness such as Claude Code or Kiro, run npx rea-agents setup and choose the agent you use, then tell it where the app files are and give your instructions. The post is about installation and usage; it names no actual reverse-engineering target or result.",
+      "target": "REA installation and AI agent setup flow",
+      "metric": "A single command, npx rea-agents setup, completes the MCP installation"
+    },
+    "zh-CN": {
+      "title": "说明如何用 npx rea-agents setup 安装 REA 并让 AI 拆解 App",
+      "summary": "作者以印尼文简述 REA 不难上手:需要 Claude Code、Kiro 等 AI harness,执行 npx rea-agents setup 选择所用的 agent,再告知 App 文件位置并下指令即可。内容是安装与使用心得,没有实际逆向的目标或结果。",
+      "target": "REA 安装与 AI agent 设置流程",
+      "metric": "一行命令 npx rea-agents setup 完成 MCP 安装"
+    }
+  },
+  "d-3c89fc3673": {
+    "hash": "f2d85d69c550",
+    "en": {
+      "title": "Using REA to help build Rayon, a Windows alternative to Raycast",
+      "summary": "The author built a Windows launcher called Rayon, offering a Raycast-like command palette with built-in AI and widgets. REA was used to take apart the reference app, but the post does not say what was analyzed and gives no repo or evidence of the result.",
+      "target": "Raycast (Windows remake)",
+      "metric": "Rayon launcher (command palette + built-in AI), no public evidence"
+    },
+    "zh-CN": {
+      "title": "用 REA 辅助开发 Windows 版 Raycast 替代品 Rayon",
+      "summary": "作者做了名为 Rayon 的 Windows 启动器,提供类似 Raycast 的命令面板与内置 AI 及小组件。REA 被用来拆解参考应用,但帖子没有说明具体分析了什么,也没有提供 repo 或成果证据。",
+      "target": "Raycast(Windows 版重制)",
+      "metric": "Rayon 启动器(命令面板+内置 AI),无公开证据"
+    }
+  },
+  "d-4d35917a24": {
+    "hash": "60aeb6c15fb0",
+    "en": {
+      "title": "Loading REA into a custom app to visualize its code structure",
+      "summary": "Wanting to see REA's own internals, the author opened it in an app they built, showing the agents, workflows, analysis tools, and how they connect. This is an exploration and visualization demo of REA itself, not a case of using REA to reverse-engineer a specific target.",
+      "target": "The REA project's own code structure",
+      "metric": "Agents, workflows, analysis tools, and their links rendered in a custom app"
+    },
+    "zh-CN": {
+      "title": "把 REA 载入自制 App 以可视化探索其代码结构",
+      "summary": "作者想看 REA 本身的内部结构,因此在自己开发的 App 中打开它,呈现 agents、workflows、分析工具及其连接。这是对 REA 的探索与可视化工具展示,并非用 REA 逆向特定目标。",
+      "target": "REA 项目本身的代码结构",
+      "metric": "在自制 App 中呈现 agents、workflows、分析工具与连接关系"
+    }
+  },
+  "d-13e7fa95e1": {
+    "hash": "3821940eeecd",
+    "en": {
+      "title": "Reverse-engineering an entire Google Play app with Command Code and REA",
+      "summary": "The author says that yesterday they used Command Code together with the REA GitHub repo to reverse-engineer a complete app from Google Play, and calls the process easy. The app is not named, and no evidence or details of the results are provided.",
+      "target": "An unnamed Android app on Google Play",
+      "metric": "Claims to have reverse-engineered the whole app with little effort"
+    },
+    "zh-CN": {
+      "title": "用 Command Code 与 REA 逆向 Google Play 上的整个应用",
+      "summary": "作者自述昨天用 Command Code 搭配 REA GitHub repo,逆向了一款来自 Google Play 的完整 App,并表示过程很容易。未指明是哪个 App,也没有提供证据或结果细节。",
+      "target": "Google Play 上的某款 Android 应用(未具名)",
+      "metric": "自述逆向整个 App,过程很容易"
+    }
+  },
+  "d-d1250f1045": {
+    "hash": "9bb55bf50c43",
+    "en": {
+      "title": "Claimed packet-capture reverse engineering and clone of a platform that earns over a million a month",
+      "summary": "The author claims to have spent two weeks capturing traffic from, reverse-engineering and cloning a friend's comic-drama generation platform, producing their own version with identical output at a much lower cost. This is self-reported only: no code, screenshots or verifiable evidence are provided, and the post does not explicitly mention using REA.",
+      "target": "A comic-drama generation platform (a commercial service run by a friend)",
+      "metric": "Claims a two-week clone with costs cut to a fraction"
+    },
+    "zh-CN": {
+      "title": "自述抓包逆向并复刻月入百万的漫剧生成平台",
+      "summary": "作者声称花两周对朋友的漫剧生成平台进行抓包、逆向与复刻,做出成片相同但成本大幅降低的自有版本。内容只有自述,没有提供代码、截图或可验证的证据,也未明确提到使用 REA 这个工具。",
+      "target": "漫剧生成平台(朋友经营的商业服务)",
+      "metric": "自称两周复刻并把成本砍到极低"
+    }
+  },
+  "d-d2077e5514": {
+    "hash": "1c9168cf2bcc",
+    "en": {
+      "title": "A recursive self-learning reverse-engineering skill inspired by REA",
+      "summary": "Inspired by REA, the author rebuilt an REA skill with recursive self-learning that keeps building until the task is complete. A public GitHub repo is linked, but the excerpt does not describe any concrete reverse-engineering results.",
+      "target": "REA self-learning loop skill (reverse-engineer-anything-self-learning-loop)",
+      "metric": "Public GitHub repo: Speedrunlab/reverse-engineer-anything-self-learning-loop"
+    },
+    "zh-CN": {
+      "title": "受 REA 启发打造具递归自我学习的逆向工程 skill",
+      "summary": "作者受 REA 启发,重新制作一个具递归自我学习能力的 REA skill,让它持续构建直到任务完成。附有公开 GitHub repo,但内容节选未说明具体逆向成果。",
+      "target": "REA 自我学习循环 skill(reverse-engineer-anything-self-learning-loop)",
+      "metric": "公开 GitHub repo:Speedrunlab/reverse-engineer-anything-self-learning-loop"
+    }
+  },
+  "d-3d73fe86ca": {
+    "hash": "bf9aec86fc7d",
+    "en": {
+      "title": "Packaging REA and BAMA skills as a DeepSeek Harness plugin",
+      "summary": "Combines the REA workflow skills and BAMA (a macOS app development workflow) into a single plugin with 23 skills, with an optional REA MCP server. Comes with an npm package and a recorded live-conversation demo. This is integration and packaging work; it produces no reverse-engineering results against a specific target.",
+      "target": "DeepSeek Harness plugin (REA 6.8.0 and BAMA 1.0.0)",
+      "metric": "23 skills; optional REA MCP provides 229 analysis tools"
+    },
+    "zh-CN": {
+      "title": "把 REA 与 BAMA 技能打包成 DeepSeek Harness 插件",
+      "summary": "将 REA 工作流技能与 BAMA(macOS 应用开发流程)合并成单一插件,共 23 个技能,并可选择挂载 REA MCP 服务器。附 npm 包和实际对话演示录像。属于集成与封装,没有针对具体目标的逆向成果。",
+      "target": "DeepSeek Harness 插件(REA 6.8.0 与 BAMA 1.0.0)",
+      "metric": "23 个技能,可选 REA MCP 提供 229 个分析工具"
+    }
+  },
+  "d-509795de4d": {
+    "hash": "286c754035af",
+    "en": {
+      "title": "Analyzing Cluely with REA and Rebuilding a Windows Desktop AI Assistant",
+      "summary": "Evidence-driven analysis of Cluely with REA, followed by a clean-room rebuild in TypeScript, Electron, and React. It features dual-channel speech recognition, screen understanding, a floating overlay window, and screenshot protection. The repo includes CI, test result documentation, and reverse-engineering analysis documents.",
+      "target": "Cluely (desktop AI assistant)",
+      "metric": "62/62 automated tests passing, with reverse-engineering analysis documents included"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析 Cluely 并重建 Windows 桌面 AI 助理",
+      "summary": "以 REA 对 Cluely 做证据导向分析,再用 TypeScript、Electron、React 以无尘室方式重建,具备双路音频识别、屏幕理解、浮动覆盖窗口与防截图功能。仓库有 CI 与测试结果文档,并附逆向分析文档。",
+      "target": "Cluely(桌面 AI 助理)",
+      "metric": "62/62 项自动化测试通过,并附逆向分析文档"
+    }
+  },
+  "d-6e7727b744": {
+    "hash": "31bb19868c35",
+    "en": {
+      "title": "Independent Controlled Experiment: Does REA Improve AI Accuracy in Explaining Programs Without Source Code?",
+      "summary": "Using 20 small and medium-sized programs, this experiment compares the correctness of an AI agent's explanations with and without REA, and whether the agent honestly admits uncertainty when it cannot be sure. No accuracy advantage was detected on these programs: 45/45, 44/45, 45/45 on the development set and 5, 6, 6/6 on the holdout set. The agent does not choose REA on its own, and when told to use it, time and step counts increase. The repo includes raw run logs, scoring scripts, 72 tests, and answer-key hashes.",
+      "target": "20 custom-built test programs (including Go programs) and REA 6.7.0",
+      "metric": "Development set 45, 44, 45/45; holdout set 5, 6, 6/6; no accuracy improvement detected"
+    },
+    "zh-CN": {
+      "title": "独立对照实验:REA 是否提升 AI 对无源码程序的解释正确度",
+      "summary": "以 20 个小型与中型程序,比较有无 REA 时 AI 代理的解释正确性,以及无法确定时是否诚实说明。结果在这些程序上未检测到准确度优势,开发集 45/45、44/45、45/45,保留集 5、6、6/6。代理不会主动选用 REA,被要求使用时耗时与步骤增加。仓库附原始运行记录、评分脚本、72 个测试与答案密钥哈希。",
+      "target": "20 个自制测试程序(含 Go 程序)与 REA 6.7.0",
+      "metric": "开发集 45、44、45/45;保留集 5、6、6/6;未检测到准确度提升"
+    }
+  },
+  "d-812da61aa7": {
+    "hash": "6fb244b3c9e4",
+    "en": {
+      "title": "Analyzing Bluetooth Traffic Between the Xiaomi App and the Brick Robot, and Writing a Basic Client in Rust",
+      "summary": "The author used REA with Claude to analyze Bluetooth traffic between the Xiaomi app and its Brick robot. Based on the captured commands and packets, they wrote a basic Rust client that works without the official app. The content is the author's own account; no repo or evidence is attached.",
+      "target": "Bluetooth communication between the Xiaomi app and the Brick robot",
+      "metric": "Basic Rust client written from captured packets, independent of the official app"
+    },
+    "zh-CN": {
+      "title": "分析小米 App 与机器人 Brick 的蓝牙流量并以 Rust 写出基本客户端",
+      "summary": "作者以 REA 搭配 Claude 分析小米 App 与其机器人 Brick 之间的蓝牙流量。依据捕获到的指令与数据包,写出不依赖官方 App 的基本 Rust 客户端。内容为作者自述,未附仓库或证据。",
+      "target": "小米 App 与机器人 Brick 的蓝牙通信",
+      "metric": "依据捕获的数据包写出基本 Rust 客户端,脱离官方 App"
+    }
+  },
+  "d-15f3577a29": {
+    "hash": "7d4d8972fc8d",
+    "en": {
+      "title": "Unlocking a Printer with REA to Bypass Toner Restrictions and Connect It to a Home Server",
+      "summary": "The author used REA to unlock their own printer, getting around the costly OEM toner restriction, and connected it to a home server so family members can print over the network. The content is the author's own account only; it does not describe the specific unlocking method and includes no evidence.",
+      "target": "Consumer printer (toner restriction)",
+      "metric": "Printer unlocked and able to print over the home network (author's claim)"
+    },
+    "zh-CN": {
+      "title": "用 REA 解锁打印机以绕过碳粉限制并接入家用服务器",
+      "summary": "作者用 REA 解锁自己的打印机,避开昂贵的原厂碳粉限制,并将其连上家用服务器,让家人可在网络上打印。内容只有作者自述,没有说明具体的解锁方法,也没有附证据。",
+      "target": "消费型打印机(碳粉限制)",
+      "metric": "打印机解锁成功并可经家用网络打印(作者自述)"
+    }
+  },
+  "d-11d3620216": {
+    "hash": "9e2cced584b9",
+    "en": {
+      "title": "Analyzing the YouTube player with REA and cross-checking against DevTools",
+      "summary": "The author set up REA in Claude Code and asked three questions about the YouTube player: what it loads, what it sends during playback, and how it picks video quality. REA's network list matched the author's own DevTools log entry by entry and added call stacks, but it did not find where the quality decision is made.",
+      "target": "YouTube web player",
+      "metric": "Network request list matches DevTools entry by entry, but the quality-decision logic was not located"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析 YouTube 播放器并与 DevTools 比对",
+      "summary": "作者在 Claude Code 中配置 REA,针对 YouTube 播放器提出三个问题:加载了什么、播放时发送了什么、如何选择画质。REA 的网络请求列表与作者自己的 DevTools 记录逐条吻合,还多了调用堆栈,但没有找到决定画质的位置。",
+      "target": "YouTube 网页播放器",
+      "metric": "网络请求列表与 DevTools 逐条吻合,但未找到画质决策处"
+    }
+  },
+  "d-404af97bf0": {
+    "hash": "00563bb6cb51",
+    "en": {
+      "title": "Turning an Android APK into a TypeScript client library in 5 minutes with REA",
+      "summary": "The author had spent years reverse-engineering a certain web API by hand. This time REA analyzed its Android APK directly and produced a TypeScript client library. The account comes from the author alone: it doesn't name the target app and includes no code or tests.",
+      "target": "Web API of an Android app",
+      "metric": "TypeScript client library generated from the APK in 5 minutes"
+    },
+    "zh-CN": {
+      "title": "用 REA 在 5 分钟内将 Android APK 转成 TypeScript 客户端库",
+      "summary": "作者多年来一直手动逆向某个 Web API,这次由 REA 直接分析其 Android APK,并输出 TypeScript 客户端库。内容仅为作者自述,没有指明目标应用,也没有附上代码或测试。",
+      "target": "某 Android 应用的 Web API",
+      "metric": "5 分钟内由 APK 生成 TypeScript 客户端库"
+    }
+  },
+  "d-e5dc370d87": {
+    "hash": "3b3b033a55e8",
+    "en": {
+      "title": "Studying the Grok Bot desktop assistant and rebuilding a local version that runs on your own model account",
+      "summary": "The author used REA to study the Grok Bot desktop assistant, aiming to break free of lock-in to a single model provider. The approach was to rebuild a local version that runs on the author's own model account, and the repo (wisp) is public.",
+      "target": "Grok Bot desktop assistant",
+      "metric": "Public wisp repo, runs on your own model account"
+    },
+    "zh-CN": {
+      "title": "研究 Grok Bot 桌面助手并重建可使用自有模型账号的本地版本",
+      "summary": "作者用 REA 研究 Grok Bot 桌面助手,目标是摆脱对单一模型供应商的绑定。做法是重建一个可在自己的模型账号上运行的本地版本,并公开了 repo(wisp)。",
+      "target": "Grok Bot 桌面助手",
+      "metric": "公开 wisp repo,可使用自有模型账号运行"
+    }
+  },
+  "d-2525e68576": {
+    "hash": "5b2cf0ae35c9",
+    "en": {
+      "title": "Reverse-engineering QuillBot into a free, open-source tool: openquill",
+      "summary": "The author used REA to reverse-engineer QuillBot and reimplemented the algorithm behind its plagiarism detection as an open-source project. By the author's own account, some features don't work properly yet and need fixes from others.",
+      "target": "QuillBot",
+      "metric": "Public openquill repo, but some features don't work yet"
+    },
+    "zh-CN": {
+      "title": "逆向 QuillBot 并做成免费开源软件 openquill",
+      "summary": "作者用 REA 逆向 QuillBot,把抄袭检测背后的算法重新实现为开源项目。作者自述部分功能尚未正常运行,需要他人修复。",
+      "target": "QuillBot",
+      "metric": "公开 openquill repo,但部分功能尚无法正常运行"
+    }
+  },
+  "d-ebbe23fdc4": {
+    "hash": "214f88997f70",
+    "en": {
+      "title": "Forking REA into Khaos, adding website crawling and HAR-to-API-spec tools",
+      "summary": "A fork of REA focused on reverse engineering websites and APIs. It adds crawl_web_site, which crawls pages, forms and endpoint candidates from the outside, and map_api, which converts HAR, mitmproxy or Fiddler recordings into OpenAPI 3.1 and a TypeScript client. The excerpt only describes the features; no results against a specific target are shown.",
+      "target": "Websites and Web APIs (REA fork)",
+      "metric": "Adds two MCP tools, crawl_web_site and map_api, that produce an OpenAPI 3.1 document and a TypeScript client"
+    },
+    "zh-CN": {
+      "title": "将 REA 分支为 Khaos，新增网站爬取与 HAR 转 API 规格工具",
+      "summary": "基于 REA 的分支，聚焦网站与 API 逆向。新增 crawl_web_site 从外部爬取页面、表单与端点候选，以及 map_api 把 HAR、mitmproxy 或 Fiddler 录制文件转成 OpenAPI 3.1 与 TypeScript 客户端。节选内容仅有功能说明，未见针对具体目标的实测成果。",
+      "target": "网站与 Web API（REA 分支工具）",
+      "metric": "新增 crawl_web_site 与 map_api 两个 MCP 工具，可产出 OpenAPI 3.1 文档与 TypeScript 客户端"
+    }
+  },
+  "d-c62e5de3c4": {
+    "hash": "0431d2c550ab",
+    "en": {
+      "title": "Tutorial: connecting Claude Code and Codex to IDA Pro through REA",
+      "summary": "Explains how REA 6.7.0 uses ida-pro-mcp to run IDA Pro as a native analysis engine, covering the registry file, environment variable setup and supported operations. It notes that the default legacy protocol works only with ida-pro-mcp 1.4.0, and that IDA Free requires the native protocol. A small self-compiled C program serves as the demo target.",
+      "target": "IDA Pro and ida-pro-mcp integration",
+      "metric": "Requires IDA Pro 8.3+, ida-pro-mcp 1.4.0, REA 6.7.0"
+    },
+    "zh-CN": {
+      "title": "教程：让 Claude Code 与 Codex 通过 REA 连接 IDA Pro",
+      "summary": "说明 REA 6.7.0 如何通过 ida-pro-mcp 把 IDA Pro 用作原生分析引擎，涵盖注册文件、环境变量配置与支持的操作。并指出默认的 legacy 协议仅兼容 ida-pro-mcp 1.4.0，而 IDA Free 需使用 native 协议。以自行编译的小型 C 程序作为演示目标。",
+      "target": "IDA Pro 与 ida-pro-mcp 集成",
+      "metric": "需 IDA Pro 8.3+、ida-pro-mcp 1.4.0、REA 6.7.0"
+    }
+  },
+  "d-0eeb1d9606": {
+    "hash": "9b6f26dfc6b8",
+    "en": {
+      "title": "REA MCP setup guide: connecting reverse-engineering providers to AI agents",
+      "summary": "Introduces the native analysis providers REA supports, such as a local Ghidra, and notes that large binaries need a longer provider startup timeout. This is configuration guidance with no actual analysis target.",
+      "target": "REA MCP and Ghidra provider setup",
+      "metric": "Large binaries need a longer provider startup timeout"
+    },
+    "zh-CN": {
+      "title": "REA MCP 配置教程：将逆向分析 provider 连接到 AI 代理",
+      "summary": "介绍 REA 支持的多种原生分析 provider，例如本机 Ghidra，并提到大型二进制文件需调高 provider 启动超时。内容为配置指引，没有实际分析目标。",
+      "target": "REA MCP 与 Ghidra provider 配置",
+      "metric": "大型二进制文件需调高 provider 启动超时"
+    }
+  },
+  "d-78fdc14174": {
+    "hash": "445a04e93777",
+    "en": {
+      "title": "Wiki guide: analyzing game code with REA's CLI and MCP",
+      "summary": "Walks through a workflow for reverse engineering game code with REA's CLI and MCP, including static analysis, tracing and evidence chains, and lists starting steps for each kind of target. It is a general workflow description with no analysis results for a specific game.",
+      "target": "Game code reverse engineering workflow",
+      "metric": "No concrete results; a workflow guide"
+    },
+    "zh-CN": {
+      "title": "Wiki 指南：用 REA 的 CLI 与 MCP 分析游戏代码",
+      "summary": "介绍用 REA 的 CLI 与 MCP 做游戏代码逆向的流程，包含静态分析、追踪与证据链，并列出各类目标的起手步骤。内容为通用工作流程说明，没有具体游戏的分析成果。",
+      "target": "游戏代码逆向工作流程",
+      "metric": "无具体成果，为流程指南"
+    }
   }
 }

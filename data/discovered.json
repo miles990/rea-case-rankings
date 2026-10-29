@@ -504,6 +504,26 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://www.it-connect.tech/rea-and-claude-code-i-tested-ai-powered-reverse-engineering/",
+      "title": "REA Reverse Engineering with Claude Code and Ghidra",
+      "author": "Florian Burnel",
+      "date": "2026-10-29",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-10-29",
+      "relevant": true,
+      "title_zh": "以 Claude Code 搭配 Ghidra 與 REA 實測 AI 輔助逆向工程的安裝流程",
+      "summary": "作者介紹 REA 如何呼叫本機已安裝的分析引擎（Ghidra、IDA、Hopper），並以免費的 Ghidra 示範。內容說明用 npx rea-agents@latest setup 將 MCP 伺服器註冊到 Claude Code，並安裝 reverse-engineer-anything 技能與環境變數設定。節錄內容僅涵蓋安裝設定，未呈現對具體目標的分析結果。",
+      "target": "REA 安裝與 Claude Code／Ghidra 整合",
+      "metric": "一行指令 npx rea-agents@latest setup 完成 MCP 與技能設定",
+      "category": "教學",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-29",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/MokuLakshithReddy/Cluely-AI-Desktop-Assistant",
       "title": "MokuLakshithReddy/Cluely-AI-Desktop-Assistant: Evidence-driven personal desktop AI copilot reverse-engineered from Cluely using REA with real-time screen understanding, dual-stream conversation audio intelligence, frameless floating overlay, and anti-capture stealth.",
       "author": "MokuLakshithReddy",
@@ -38429,6 +38449,35 @@
         "hackerNews": 26,
         "qiita": 43,
         "devto": 150,
+        "juejin": 1,
+        "reddit": "error: 429 reddit rss",
+        "v2ex": 12,
+        "youtube": 90,
+        "bluesky": 162,
+        "mastodon": 160,
+        "exaWeb": 57,
+        "x": 0
+      },
+      "scoring": {
+        "scored": 1,
+        "jev": {
+          "low": 0,
+          "irrelevant": 0,
+          "errors": 0,
+          "toClaude": 1
+        }
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "added": 1,
+      "stats": {
+        "githubShowAndTell": 15,
+        "githubRepos": 234,
+        "githubCode": 46,
+        "hackerNews": 26,
+        "qiita": 43,
+        "devto": 150,
         "juejin": 0,
         "reddit": "error: 429 reddit rss",
         "v2ex": 12,
@@ -39271,36 +39320,7 @@
           "toClaude": 69
         }
       }
-    },
-    {
-      "date": "2026-10-15",
-      "added": 29,
-      "stats": {
-        "githubShowAndTell": 13,
-        "githubRepos": 221,
-        "githubCode": 46,
-        "hackerNews": 19,
-        "qiita": 30,
-        "devto": 150,
-        "juejin": 22,
-        "reddit": 60,
-        "v2ex": 4,
-        "youtube": 90,
-        "bluesky": 152,
-        "mastodon": 160,
-        "exaWeb": 56,
-        "x": "error: spawnSync grok ETIMEDOUT"
-      },
-      "scoring": {
-        "scored": 14,
-        "jev": {
-          "low": 12,
-          "irrelevant": 3,
-          "errors": 0,
-          "toClaude": 14
-        }
-      }
     }
   ],
-  "updatedAt": "2026-10-29T23:50:35.931Z"
+  "updatedAt": "2026-10-29T23:58:37.541Z"
 }

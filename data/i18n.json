@@ -15343,5 +15343,20 @@
       "target": "TikTok 移动 App 的私有 API 签名与视频元数据",
       "metric": "整体花费不到 20 美元,由 GLM 5.3 完成大部分逆向工作"
     }
+  },
+  "d-9daf5b57af": {
+    "hash": "b6747e945ffc",
+    "en": {
+      "title": "Trying Out AI-Assisted Reverse Engineering: Setting Up Claude Code with Ghidra and REA",
+      "summary": "The author explains how REA calls analysis engines already installed on the local machine (Ghidra, IDA, Hopper), demonstrating with the free Ghidra. The post covers using npx rea-agents@latest setup to register the MCP server with Claude Code, install the reverse-engineer-anything skill, and configure environment variables. The excerpt covers installation and setup only, with no analysis results for a specific target.",
+      "target": "REA installation and Claude Code/Ghidra integration",
+      "metric": "A single command, npx rea-agents@latest setup, completes the MCP and skill setup"
+    },
+    "zh-CN": {
+      "title": "以 Claude Code 搭配 Ghidra 与 REA 实测 AI 辅助逆向工程的安装流程",
+      "summary": "作者介绍了 REA 如何调用本机已安装的分析引擎(Ghidra、IDA、Hopper),并以免费的 Ghidra 进行演示。内容说明了如何通过 npx rea-agents@latest setup 将 MCP 服务器注册到 Claude Code,并安装 reverse-engineer-anything 技能及配置环境变量。节选内容仅涵盖安装设置,未展示针对具体目标的分析结果。",
+      "target": "REA 安装与 Claude Code/Ghidra 集成",
+      "metric": "一行命令 npx rea-agents@latest setup 即可完成 MCP 与技能配置"
+    }
   }
 }

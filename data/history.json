@@ -21081,8 +21081,8 @@
     },
     {
       "date": "2026-10-29",
-      "stars": 407702,
-      "stars_delta": 9497,
+      "stars": 407729,
+      "stars_delta": 9524,
       "new": [
         "d-509795de4d",
         "d-20c545be3d",
@@ -21117,49 +21117,51 @@
         "d-ebbe23fdc4",
         "d-c62e5de3c4",
         "d-a1446880a2",
+        "d-9daf5b57af",
         "d-0eeb1d9606",
         "d-78fdc14174"
       ],
       "stats": {
-        "count": 35,
+        "count": 36,
         "wow": {
-          "2": 22,
+          "2": 23,
           "3": 8,
           "4": 5
         },
         "type": {
           "case": 16,
           "app": 15,
-          "learn": 4
+          "learn": 5
         },
         "status": {
           "tested": 6,
           "shipped": 16,
-          "reported": 13
+          "reported": 14
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 星數破 40 萬，獨立對照實驗卻未測出準確度優勢",
-          "summary": "REA GitHub 星數升至 407,702，比前一個紀錄 398,205 多 9,497，社群案例也從遊戲移植、勒索軟體到桌面 AI 助理都有。最值得注意的是一項獨立對照實驗：在 20 個程式上，有無 REA 的 AI 解釋正確度未見差異，代理也不會主動選用 REA，且使用後耗時與步驟增加。同日 C3RB3R 勒索軟體案例附有雜湊與救災 repo，證據相對完整，但尚未完成全盤解密；也有不少僅憑自述、缺乏證據的貼文。這顯示熱度之外，驗證與誠實評分才是目前的瓶頸。"
+          "headline": "REA 星數破 40 萬，驗證與實測成為焦點",
+          "summary": "REA 的 GitHub 星數來到 407729，比前一個紀錄 398205 多了 9524。當天最扎實的項目是附有證據的案例：用 REA 與 Ghidra 逆向 C3RB3R 勒索軟體並從記憶體還原金鑰解密檔案、重建 Cluely 桌面助理，以及一份獨立對照實驗，在 20 個程式上未偵測到 REA 帶來準確度優勢。許多 X 上的貼文只有作者自述，缺乏證據，顯示熱度與可驗證性之間仍有落差；同時也出現把 REA 的 207 個工具壓縮成 3 個入口的外掛，反映對成本與工具負擔的關注。"
         },
         "en": {
-          "headline": "REA passes 400k stars, but a controlled test finds no accuracy gain",
-          "summary": "REA's GitHub stars rose to 407,702, up 9,497 from the previous record of 398,205, and community cases ranged from game ports and ransomware to desktop AI assistants. The most notable item is an independent controlled experiment: across 20 programs, AI explanation accuracy showed no detectable difference with or without REA, agents did not choose to use it on their own, and using it added time and steps. The C3RB3R ransomware case came with hashes and a recovery repo, making its evidence comparatively strong, though full-disk decryption is not finished; many other posts were self-reported with no evidence. Beyond the hype, verification and honest grading remain the bottleneck."
+          "headline": "REA passes 400K stars as verification takes center stage",
+          "summary": "REA's GitHub stars reached 407,729, up 9,524 from the previous record of 398,205. The most substantial items were evidence-backed: reversing the C3RB3R ransomware with REA and Ghidra and recovering keys from memory to decrypt files, rebuilding the Cluely desktop assistant, and an independent controlled experiment that detected no accuracy advantage from REA across 20 programs. Many X posts were self-reported with no evidence, showing a gap between buzz and verifiability, while a plugin folding REA's 207 tools into 3 entry points reflects growing concern over cost and tool overhead."
         },
         "zh-CN": {
-          "headline": "REA 星数破 40 万，独立对照实验却未测出准确度优势",
-          "summary": "REA GitHub 星数升至 407,702，比之前的纪录 398,205 多 9,497，社区案例也从游戏移植、勒索软件到桌面 AI 助理都有。最值得注意的是一项独立对照实验：在 20 个程序上，有无 REA 的 AI 解释正确度未见差异，代理也不会主动选用 REA，且使用后耗时与步骤增加。同日 C3RB3R 勒索软件案例附有哈希与救灾 repo，证据相对完整，但尚未完成全盘解密；也有不少仅凭自述、缺乏证据的帖子。这说明在热度之外，验证与诚实评分才是目前的瓶颈。"
+          "headline": "REA 星数破 40 万，验证与实测成为焦点",
+          "summary": "REA 的 GitHub 星数达到 407729，比之前的纪录 398205 多了 9524。当天最扎实的项目是附有证据的案例：用 REA 与 Ghidra 逆向 C3RB3R 勒索软件并从内存还原密钥解密文件、重建 Cluely 桌面助理，以及一份独立对照实验，在 20 个程序上未检测到 REA 带来准确度优势。许多 X 上的帖子只有作者自述，缺乏证据，说明热度与可验证性之间仍有落差；同时也出现把 REA 的 207 个工具压缩成 3 个入口的插件，反映对成本与工具负担的关注。"
         }
       },
       "signals": [
         "B",
-        "C",
+        "F",
         "G"
       ],
       "highlights": [
+        "d-384788e06c",
         "d-6e7727b744",
-        "d-384788e06c"
+        "d-509795de4d"
       ],
       "rank": [
         "dx-ball-sound-pan",
@@ -21997,6 +21999,7 @@
         "d-0c2d1d1da6",
         "d-beb2070b7b",
         "d-a1446880a2",
+        "d-9daf5b57af",
         "d-0eeb1d9606",
         "d-78fdc14174",
         "d-a4531c634e",
@@ -22977,36 +22980,36 @@
     "to": "2026-10-29",
     "text": {
       "zh-TW": {
-        "headline": "REA 星數破 40 萬，焦點從展示轉向可驗證的重建",
-        "summary": "本週 REA 星數從 36.7 萬升到 40.8 萬，驗證訊號 B 七天出現六天，是最穩定的主軸。案例從早期的惡意程式分析、乾淨室重建，延伸到有測試佐證的移植與重寫，例如 MSX 移植 207 個命令點逐位元組一致、DX-Ball 3205 個測試全過。題材上以老遊戲與舊軟體保存為主（C 出現五天），並逐步擴及 Windows、macOS 移植以及無人機、燈泡、家電等硬體。但 10/26 與 10/29 的實測與對照實驗指出，REA 在小型程式或 20 個程式上未帶來準確度優勢，反而增加耗時與步驟，熱度與實際效益出現落差。多數高人氣貼文仍只有作者自述、缺乏證據。",
-        "watch": "接下來可留意 C3RB3R 勒索軟體案例能否完成全盤解密，以及是否有更多獨立對照實驗檢驗 REA 的實際效益。有機會的方向是為逆向成果提供差異測試、證據整理與誠實評分的工具，或針對舊軟體與硬體做附測試的移植與重建。同時留意 v6.8 的 REA environments 是否帶動本地模型訓練的應用。"
+        "headline": "REA 從展示逆向轉向可驗證的乾淨室重建，驗證成為本週主軸",
+        "summary": "本週 REA 星數由 367,482 升至 407,729，突破 40 萬。驗證（B）幾乎天天出現，案例從單純展示轉為附證據的流程，例如 18 個案例相符率從 64% 修正到 100%、245/245 欄位吻合、3205 個測試全過，以及逐位元組一致的 MSX 移植。題材從老遊戲與桌面 App 擴及無人機、燈泡、CarPlay 盒子等硬體，也延伸到 Windows 與惡意程式分析。後半週出現對成本與效益的冷靜檢視：小型程式上 REA 只增加成本，兩份對照實驗在 20 個程式上未測出準確度優勢，同時有人把 207 個工具壓成 3 個入口。另一方面，大量熱門貼文仍只有作者自述，缺乏程式碼或測試佐證。",
+        "watch": "留意更多附獨立對照實驗、成本數據與測試的案例，以及能降低工具負擔的外掛，這類成果比單純展示更可信。想找機會的人可聚焦兩處：為逆向與重建結果提供差異測試與誠實評分的驗證工具，以及老遊戲、桌面 App 與硬體的乾淨室重建服務。同時對只有作者自述的貼文保持保留。"
       },
       "en": {
-        "headline": "REA passes 400K stars as focus shifts from demos to verifiable rebuilds",
-        "summary": "REA's GitHub stars rose from 367K to 408K this week, and the verification signal (B) appeared on six of seven days, making it the steadiest theme. Cases moved from malware analysis and clean-room rebuilds to ports and rewrites backed by tests, such as an MSX port with 207 command points matching byte for byte and a DX-Ball sound function passing 3,205 tests. Subject matter centered on preserving old games and software (C, five days), spreading to Windows and macOS ports and to hardware such as drones, light bulbs and appliances. However, a small-program report on 10/26 and a 20-program controlled experiment on 10/29 found no accuracy gain from REA and extra time and steps, so popularity and measured benefit diverge. Most of the hottest posts remain author claims without evidence.",
-        "watch": "Watch whether the C3RB3R ransomware case reaches full decryption, and whether more independent controlled experiments test REA's real benefit. Opportunities lie in tooling for differential tests, evidence packaging and honest grading of reverse-engineering results, or in tested ports and rebuilds of legacy software and hardware. Also see whether the v6.8 REA environments feature spurs local-model training use cases."
+        "headline": "REA shifts from showing off reverse engineering to verifiable clean-room rebuilds, with verification the week's theme",
+        "summary": "REA's GitHub stars rose from 367,482 to 407,729 this week, passing 400k. Verification (B) appeared on six of seven days, and cases moved from demos to evidence-backed workflows: match rates on 18 cases corrected from 64% to 100%, 245/245 fields matching, 3,205 tests passing, and a byte-for-byte MSX port. Subjects widened from old games and desktop apps to drones, smart bulbs and a CarPlay box, plus Windows support and malware analysis. Late in the week the community took a cooler look at cost and benefit: REA only added cost on small programs, a controlled comparison across 20 programs found no accuracy advantage, and a plugin collapsed 207 tools into 3 entry points. Many of the hottest posts still rested on author claims with no code or tests.",
+        "watch": "Watch for more cases that come with independent comparison experiments, cost figures and tests, and for plugins that cut tool overhead; these are more credible than demos. For opportunities, look at two areas: verification tooling (differential tests and honest grading) for reverse-engineering and rebuild output, and clean-room rebuild services for old games, desktop apps and hardware. Stay skeptical of posts that offer only author claims."
       },
       "zh-CN": {
-        "headline": "REA 星数破 40 万，焦点从展示转向可验证的重建",
-        "summary": "本周 REA 星数从 36.7 万升到 40.8 万，验证信号 B 七天出现六天，是最稳定的主轴。案例从早期的恶意软件分析、净室重建，延伸到有测试佐证的移植与重写，例如 MSX 移植 207 个命令点逐字节一致、DX-Ball 3205 个测试全过。题材上以老游戏与旧软件保存为主（C 出现五天），并逐步扩及 Windows、macOS 移植以及无人机、灯泡、家电等硬件。但 10/26 与 10/29 的实测和对照实验指出，REA 在小型程序或 20 个程序上未带来准确度优势，反而增加耗时与步骤，热度与实际效益出现落差。多数高人气帖子仍只有作者自述、缺乏证据。",
-        "watch": "接下来可留意 C3RB3R 勒索软件案例能否完成全盘解密，以及是否有更多独立对照实验检验 REA 的实际效益。有机会的方向是为逆向成果提供差异测试、证据整理与诚实评分的工具，或针对旧软件与硬件做附测试的移植与重建。同时留意 v6.8 的 REA environments 是否带动本地模型训练的应用。"
+        "headline": "REA 从展示逆向转向可验证的净室重建，验证成为本周主轴",
+        "summary": "本周 REA 星数由 367,482 升至 407,729，突破 40 万。验证（B）几乎天天出现，案例从单纯展示转为附证据的流程，例如 18 个案例相符率从 64% 修正到 100%、245/245 字段吻合、3205 个测试全过，以及逐字节一致的 MSX 移植。题材从老游戏与桌面 App 扩及无人机、灯泡、CarPlay 盒子等硬件，也延伸到 Windows 与恶意软件分析。后半周出现对成本与效益的冷静审视：小型程序上 REA 只增加成本，两份对照实验在 20 个程序上未测出准确度优势，同时有人把 207 个工具压成 3 个入口。另一方面，大量热门帖子仍只有作者自述，缺乏代码或测试佐证。",
+        "watch": "留意更多附独立对照实验、成本数据与测试的案例，以及能降低工具负担的插件，这类成果比单纯展示更可信。想找机会的人可聚焦两处：为逆向与重建结果提供差异测试与诚实评分的验证工具，以及老游戏、桌面 App 与硬件的净室重建服务。同时对只有作者自述的帖子保持保留。"
       }
     },
     "rising": [
       "B",
-      "C"
+      "G"
     ],
     "fading": [
-      "E",
-      "F"
+      "A",
+      "E"
     ],
     "tally": {
       "A": 3,
       "B": 6,
-      "C": 5,
+      "C": 4,
       "D": 2,
       "E": 0,
-      "F": 0,
+      "F": 1,
       "G": 5
     }
   }

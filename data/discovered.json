@@ -128,15 +128,6 @@
       "scored_by": "sonnet"
     },
     {
-      "url": "https://github.com/Aetherx86/rea",
-      "title": "Aetherx86/rea: REA - Reverse Engineer Anything. Local reverse-engineering tool with automated disassembly, multi-engine ",
-      "source": "GitHub",
-      "found": "2026-10-29",
-      "relevant": false,
-      "scored": "2026-10-29",
-      "scored_by": "sonnet"
-    },
-    {
       "url": "https://github.com/Wireshreck/h.e.r.m.e.s",
       "title": "Wireshreck/h.e.r.m.e.s: Rust-based, Git-managed, free-model-only autonomous multi-agent AI system built on Hermes Agent with MCP, REA, CLI, and Windows desktop UI.",
       "author": "Wireshreck",
@@ -1267,6 +1258,15 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://github.com/Aetherx86/rea",
+      "title": "Aetherx86/rea: REA - Reverse Engineer Anything. Local reverse-engineering tool with automated disassembly, multi-engine ",
+      "source": "GitHub",
+      "found": "2026-10-29",
+      "relevant": false,
+      "scored": "2026-10-29",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/arhen/agents",
       "title": "arhen/agents: My virtual Pair Programmer",
       "source": "GitHub",
@@ -1381,6 +1381,27 @@
       "summary": "這支 YouTube 影片討論 Claude 是否封鎖逆向工程用途，並推薦以本地 LLM 作為替代。內容為評論與介紹，沒有對具體目標做實際逆向。",
       "target": "REA 被封鎖的消息與本地 LLM 替代方案",
       "metric": "無具體成果，僅為評論",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-10-29",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://youtu.be/5q3HRCrRcHY",
+      "title": "리버스 엔지니어링이 뭐길래 — REA 의 정체와 활용 사례 (1탄): Ghidra · MCP · 법의 선",
+      "author": "ELD",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 95,
+      "lang": "ko",
+      "found": "2026-10-29",
+      "relevant": true,
+      "title_zh": "YouTube 影片介紹 REA 的定位、Ghidra 與 MCP 整合及法律界線",
+      "summary": "影片為逆向工程系列第一集，介紹 REA（Reverse Engineer Anything）的由來與活用情境，並討論 Ghidra、MCP 與逆向的法律界線。節錄內容僅提到 REA 在 2026 年 10 月 14 日登上 GitHub 日榜第一，未顯示實際逆向成果。",
+      "target": "REA 工具本身（介紹與評論）",
+      "metric": "2026 年 10 月 14 日登上 GitHub 日榜第 1 名",
       "category": "報導 / 評論",
       "status": "reported",
       "wow": 1,
@@ -38400,6 +38421,35 @@
   "runs": [
     {
       "date": "2026-10-29",
+      "added": 1,
+      "stats": {
+        "githubShowAndTell": 15,
+        "githubRepos": 234,
+        "githubCode": 46,
+        "hackerNews": 26,
+        "qiita": 43,
+        "devto": 150,
+        "juejin": 0,
+        "reddit": "error: 429 reddit rss",
+        "v2ex": 12,
+        "youtube": 90,
+        "bluesky": 162,
+        "mastodon": 160,
+        "exaWeb": 0,
+        "x": 0
+      },
+      "scoring": {
+        "scored": 1,
+        "jev": {
+          "low": 0,
+          "irrelevant": 0,
+          "errors": 0,
+          "toClaude": 1
+        }
+      }
+    },
+    {
+      "date": "2026-10-29",
       "added": 26,
       "stats": {
         "githubShowAndTell": 14,
@@ -39250,36 +39300,7 @@
           "toClaude": 14
         }
       }
-    },
-    {
-      "date": "2026-10-15",
-      "added": 111,
-      "stats": {
-        "githubShowAndTell": 12,
-        "githubRepos": 218,
-        "githubCode": 46,
-        "hackerNews": 20,
-        "qiita": 29,
-        "devto": 150,
-        "juejin": 2,
-        "reddit": 60,
-        "v2ex": 4,
-        "youtube": 90,
-        "bluesky": 152,
-        "mastodon": 160,
-        "exaWeb": 55,
-        "x": 30
-      },
-      "scoring": {
-        "scored": 64,
-        "jev": {
-          "low": 40,
-          "irrelevant": 7,
-          "errors": 0,
-          "toClaude": 64
-        }
-      }
     }
   ],
-  "updatedAt": "2026-10-29T23:39:13.827Z"
+  "updatedAt": "2026-10-29T23:50:35.931Z"
 }

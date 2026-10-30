@@ -157,24 +157,32 @@ async function devto() {
   return out;
 }
 
-// Reddit refuses unauthenticated JSON API calls (403) since its 2023 API change.
-// On the Mac, OpenCLI uses the browser's logged-in session and returns scores;
-// anywhere else the public search RSS feed still works without an account.
+// Public Reddit search through Agent Reach (no login). Points and comments are
+// read from the result text, which lists them as "78 points · 9 comments".
+function redditViaReach(q) {
+  const raw = execFileSync("agent-reach", ["reddit", "search", q, "--backend", "public-web"], { encoding: "utf8", timeout: 120000, maxBuffer: 16 << 20, stdio: ["ignore", "pipe", "ignore"] });
+  const data = JSON.parse(raw);
+  if (!data.ok) throw new Error(data.error?.code || "reddit search failed");
+  return data.items.map((p) => {
+    const [, points = 0, comments = 0] = (p.text || "").match(/(\d+) points? · (\d+) comments?/) || [];
+    const sub = p.url.match(/\/r\/([^/]+)/)?.[1] || "";
+    return { url: p.url, title: p.title, author: (p.author || "").replace(/^u\//, ""), date: (p.published_at || "").slice(0, 10), source: `Reddit r/${sub}`, kind: "討論", score: +points, pop: { upvotes: +points, comments: +comments }, text: (p.text || "").slice(0, 2000) };
+  });
+}
+
+// Reddit refuses unauthenticated JSON API calls (403) since its 2023 API change,
+// so use Agent Reach's public-web search first and the public search RSS feed as a fallback.
 async function reddit() {
   const queries = ["\"Reverse Engineer Anything\"", "\"morluto/rea\"", "rea-agents", "REA reverse engineering agent"];
   const out = [];
-  let viaCli = false;
+  let viaReach = false;
   for (const q of queries) {
     try {
-      const [file, pre] = npmCli("opencli", "@jackwener/opencli/dist/src/main.js");
-      const raw = execFileSync(file, [...pre, "reddit", "search", q, "-f", "json"], { encoding: "utf8", timeout: 90000, stdio: ["ignore", "pipe", "ignore"] });
-      for (const p of JSON.parse(raw)) {
-        out.push({ url: p.url.startsWith("http") ? p.url : `https://www.reddit.com${p.permalink || p.url}`, title: p.title, author: p.author, date: new Date((p.created_utc || 0) * 1000).toISOString().slice(0, 10), source: `Reddit ${p.subreddit || ""}`.trim(), kind: "討論", score: p.score || 0, pop: { upvotes: p.score || 0, comments: p.comments || 0 }, text: (p.selftext || "").slice(0, 2000) });
-      }
-      viaCli = true;
+      out.push(...redditViaReach(q));
+      viaReach = true;
     } catch {}
   }
-  if (viaCli) return out;
+  if (viaReach) return out;
   for (const q of queries) {
     const res = await fetch(`https://www.reddit.com/search.rss?q=${encodeURIComponent(q)}&sort=new`, { headers: { "user-agent": UA }, signal: AbortSignal.timeout(30000) });
     if (!res.ok) throw new Error(`${res.status} reddit rss`);

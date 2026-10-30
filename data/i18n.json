@@ -15358,5 +15358,20 @@
       "target": "REA 安装与 Claude Code/Ghidra 集成",
       "metric": "一行命令 npx rea-agents@latest setup 即可完成 MCP 与技能配置"
     }
+  },
+  "d-82106cc30a": {
+    "hash": "24c4f86584cd",
+    "en": {
+      "title": "Designing Three Reverse Engineering Tutorial Workflows with REA and the Valyu Search API",
+      "summary": "The article demonstrates using REA to inspect authorized local targets, then using the Valyu search API to look up public documentation that explains the observed behavior. It covers photo deletion in Fossify Gallery, unsaved documents in VS Code, and data left behind after uninstalling Joplin. The author states clearly that these are how-to tutorials, not reports of completed on-device experiments.",
+      "target": "Fossify Gallery (Android), VS Code, Joplin (macOS)",
+      "metric": "Three reverse engineering tutorial scenarios, no measured results"
+    },
+    "zh-CN": {
+      "title": "用 REA 搭配 Valyu 搜索 API 设计三个逆向教学流程",
+      "summary": "文章演示如何用 REA 检查已获授权的本机目标，再通过 Valyu 搜索 API 查询公开文档来解释其行为，涵盖 Fossify Gallery 删除照片、VS Code 未保存文档，以及 Joplin 卸载后的残留数据。作者明确说明，这些是操作教程，而非已完成的设备实验报告。",
+      "target": "Fossify Gallery（Android）、VS Code、Joplin（macOS）",
+      "metric": "三个逆向教学场景，无实测结果"
+    }
   }
 }

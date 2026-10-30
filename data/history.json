@@ -22966,15 +22966,43 @@
     },
     {
       "date": "2026-10-30",
-      "stars": 407751,
-      "stars_delta": 22,
-      "new": [],
+      "stars": 407772,
+      "stars_delta": 43,
+      "new": [
+        "d-82106cc30a"
+      ],
       "stats": {
-        "count": 0,
-        "wow": {},
-        "type": {},
-        "status": {}
+        "count": 1,
+        "wow": {
+          "2": 1
+        },
+        "type": {
+          "learn": 1
+        },
+        "status": {
+          "reported": 1
+        }
       },
+      "text": {
+        "zh-TW": {
+          "headline": "REA 搭配 Valyu 搜尋 API，出現三套逆向教學流程",
+          "summary": "今天只有一個項目上榜：一篇教學文章示範以 REA 檢視獲授權的本機目標，再用 Valyu 搜尋 API 查公開文件來解釋行為，案例包含 Fossify Gallery 刪除照片、VS Code 未儲存文件與 Joplin 解除安裝後的資料。作者明確表示這些是操作教學，並非已完成的裝置實驗報告。REA 的 GitHub 星數來到 407772，比前一個紀錄 407729 增加 43。這顯示 REA 正與外部搜尋服務結合，生態持續擴展，但該項目熱度為 0，仍屬早期內容。"
+        },
+        "en": {
+          "headline": "REA paired with Valyu search API in three reverse-engineering tutorials",
+          "summary": "Only one item made today's list: a tutorial showing how to inspect authorized local targets with REA, then use the Valyu search API to look up public documentation that explains the observed behavior. The cases are Fossify Gallery photo deletion, VS Code unsaved documents, and Joplin data left after uninstall. The author states these are how-to walkthroughs, not completed device experiment reports. REA's GitHub stars reached 407772, up 43 from the previous record of 407729. It points to REA being combined with external search services as the ecosystem expands, though the item has heat 0 and is still early content."
+        },
+        "zh-CN": {
+          "headline": "REA 搭配 Valyu 搜索 API，出现三套逆向教程",
+          "summary": "今天只有一个项目上榜：一篇教程演示用 REA 检查获授权的本机目标，再用 Valyu 搜索 API 查公开文档来解释行为，案例包括 Fossify Gallery 删除照片、VS Code 未保存文档和 Joplin 卸载后的数据。作者明确表示这些是操作教程，并非已完成的设备实验报告。REA 的 GitHub 星数达到 407772，比之前的记录 407729 增加 43。这显示 REA 正与外部搜索服务结合，生态持续扩展，但该项目热度为 0，仍属早期内容。"
+        }
+      },
+      "signals": [
+        "G"
+      ],
+      "highlights": [
+        "d-82106cc30a"
+      ],
       "rank": [
         "dx-ball-sound-pan",
         "obsidian-quick-switcher",
@@ -23814,6 +23842,7 @@
         "d-9daf5b57af",
         "d-0eeb1d9606",
         "d-78fdc14174",
+        "d-82106cc30a",
         "d-a4531c634e",
         "d-c0396d9eed",
         "d-d2c229d478",
@@ -24364,6 +24393,7 @@
         "d-8029ecf797",
         "d-fae9d57e5b",
         "d-aefcaff5ff",
+        "d-4e7cc2fd8a",
         "d-5ff4cf066c",
         "d-87ab4eaf29",
         "d-6a71cbe15b",
@@ -24788,37 +24818,36 @@
   },
   "trend": {
     "updated": "2026-10-30",
-    "from": "2026-10-23",
-    "to": "2026-10-29",
+    "from": "2026-10-24",
+    "to": "2026-10-30",
     "text": {
       "zh-TW": {
-        "headline": "REA 熱度續漲，重點從展示復刻轉向附證據的驗證",
-        "summary": "本週 REA 星數從 367,482 升到 407,729，並在 10/29 突破 40 萬。案例從單純展示逆向，轉為附帶證據的重建：18 個案例相符率從 64% 修正到 100%、G*Power 引擎 245/245 欄位吻合、DX-Ball 音效 3,205 個測試全過。題材從老遊戲與桌面 App 的復刻（Arc、Claude 桌面端、Cluely、QuillBot），延伸到 Windows 原生 UI、Tesla CarPlay 盒子、電熱水壺與 Yeelight 燈泡等硬體。同時，獨立實測在 20 個程式上沒看到 REA 的準確度優勢，另有回報指出小型程式只增加成本、逆向後仍有約 90% 要人工重建與驗證，多數熱門貼文也只有作者自述。",
-        "watch": "可留意「驗證層」的機會，例如差異測試、證據留存、誠實評分等工具，以及把 REA 的 207 個工具壓縮成 3 個入口這類降低成本與工具負擔的做法。也可觀察舊軟體遷移是否從遊戲延伸到企業場景，以及專門對抗 AI 逆向的防護工具是否增加。評估新案例時，優先看有測試、程式碼或可重現證據的，而不是熱度。"
+        "headline": "REA 從展示轉向驗證，可驗證的重建成為真正價值",
+        "summary": "本週 REA 星數從 373967 升至 407772，突破 40 萬，熱度持續上升。內容從 10/24 的 Claude 桌面端、Arc 開源復刻與硬體案例，逐步轉向附測試的成果：G*Power 淨室重寫 245/245 欄位吻合、DX-Ball 音效 3205 個測試全過、MSX 移植逐位元組一致，以及 OpenCode Desktop 的 8 項測試。案例範圍從老遊戲與桌面 App 擴展到無人機、燈泡、家電等硬體，也出現勒索軟體分析。同時，獨立對照實驗（20 個程式未見準確度優勢）與小型程式只增加成本的回報，加上把 207 個工具壓縮成 3 個入口的外掛，顯示社群開始檢討 REA 的實際效益與成本。多數熱門貼文仍只有作者自述，可信度落差明顯。",
+        "watch": "接下來可留意哪些專案能附上差異測試與證據，這是目前最稀缺、也最容易建立信任的價值；成本與工具精簡（如 3 個入口的外掛）以及與搜尋 API 的整合（如 Valyu）值得追蹤。10/30 當天只新增 1 項、星數僅增 43，需觀察是短暫放緩還是熱度回落。"
       },
       "en": {
-        "headline": "REA keeps growing, shifting from showy clones to evidence-backed verification",
-        "summary": "This week REA's GitHub stars rose from 367,482 to 407,729, passing 400k on 10/29. Cases moved from simply showing off reverse engineering to rebuilds with evidence: a match rate corrected from 64% to 100% across 18 cases, 245/245 fields matching in the G*Power engine, and 3,205 passing tests for DX-Ball's sound functions. Subjects spread from clones of old games and desktop apps (Arc, Claude desktop, Cluely, QuillBot) to Windows native UI and hardware such as a Tesla CarPlay box, an electric kettle and Yeelight bulbs. At the same time, an independent test on 20 programs found no accuracy advantage from REA, another report said it only added cost on small programs and that roughly 90% still needed manual rebuilding and verification, and most viral posts were self-reported only.",
-        "watch": "Watch the verification layer for opportunities: differential testing, evidence capture and honest grading tools, plus cost-cutting approaches like collapsing REA's 207 tools into 3 entry points. Also see whether legacy migration moves from games into enterprise software, and whether tools built to defend against AI reverse engineering multiply. When judging new cases, favor those with tests, code or reproducible evidence over raw popularity."
+        "headline": "REA is shifting from showy demos to verifiable rebuilds",
+        "summary": "REA's GitHub stars climbed from 373,967 to 407,772 this week, passing 400K. Coverage moved from the 10/24 open-source clones of Claude Desktop and Arc plus hardware cases toward results backed by tests: the G*Power clean-room rewrite matching 245/245 fields, the DX-Ball sound routine passing 3,205 tests, the byte-identical MSX port, and OpenCode Desktop's 8 passing tests. Targets widened from old games and desktop apps to drones, light bulbs, appliances and even ransomware analysis. At the same time, an independent comparison found no accuracy advantage across 20 programs, another report said REA only added cost on small programs, and a plugin condensed 207 tools into 3 entry points, signaling that the community is now questioning REA's real benefit and cost. Most of the hottest posts remain author claims without evidence, so the credibility gap is clear.",
+        "watch": "Watch for projects that ship differential tests and evidence, since that is the scarcest and most trust-building value right now. Also track cost and tool-surface reduction (such as the 3-entry-point plugin) and integrations with search APIs like Valyu. On 10/30 only 1 new item appeared and stars rose by just 43, so see whether this is a brief lull or a real cooling."
       },
       "zh-CN": {
-        "headline": "REA 热度持续上涨，重点从展示复刻转向附证据的验证",
-        "summary": "本周 REA 星数从 367,482 升到 407,729，并在 10/29 突破 40 万。案例从单纯展示逆向，转为附带证据的重建：18 个案例相符率从 64% 修正到 100%、G*Power 引擎 245/245 字段吻合、DX-Ball 音效 3,205 个测试全部通过。题材从老游戏与桌面 App 的复刻（Arc、Claude 桌面端、Cluely、QuillBot），延伸到 Windows 原生 UI，以及 Tesla CarPlay 盒子、电热水壶和 Yeelight 灯泡等硬件。同时，独立实测在 20 个程序上没有看到 REA 的准确度优势，另有反馈称小型程序只增加成本、逆向后仍有约 90% 需要人工重建与验证，多数热门帖子也只有作者自述。",
-        "watch": "可关注「验证层」的机会，例如差异测试、证据留存、诚实评分等工具，以及把 REA 的 207 个工具压缩成 3 个入口这类降低成本与工具负担的做法。也可观察旧软件迁移是否从游戏延伸到企业场景，以及专门对抗 AI 逆向的防护工具是否增加。评估新案例时，优先看有测试、代码或可复现证据的，而不是热度。"
+        "headline": "REA 从展示转向验证，可验证的重建成为真正价值",
+        "summary": "本周 REA 星数从 373967 升至 407772，突破 40 万，热度持续上升。内容从 10/24 的 Claude 桌面端、Arc 开源复刻与硬件案例，逐步转向附测试的成果：G*Power 净室重写 245/245 字段吻合、DX-Ball 音效 3205 个测试全过、MSX 移植逐字节一致，以及 OpenCode Desktop 的 8 项测试。案例范围从老游戏与桌面 App 扩展到无人机、灯泡、家电等硬件，也出现勒索软件分析。同时，独立对照实验（20 个程序未见准确度优势）与小型程序只增加成本的反馈，加上把 207 个工具压缩成 3 个入口的插件，表明社区开始审视 REA 的实际效益与成本。多数热门帖子仍只有作者自述，可信度落差明显。",
+        "watch": "接下来可留意哪些项目能附上差异测试与证据，这是目前最稀缺、也最容易建立信任的价值；成本与工具精简（如 3 个入口的插件）以及与搜索 API 的集成（如 Valyu）值得跟踪。10/30 当天只新增 1 项、星数仅增 43，需观察是短暂放缓还是热度回落。"
       }
     },
     "rising": [
       "B",
-      "G",
-      "C"
+      "G"
     ],
     "fading": [
       "E"
     ],
     "tally": {
       "A": 3,
-      "B": 6,
-      "C": 4,
+      "B": 5,
+      "C": 3,
       "D": 2,
       "E": 0,
       "F": 1,

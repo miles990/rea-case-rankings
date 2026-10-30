@@ -1,6 +1,51 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "items": [
+    {
+      "url": "https://juejin.cn/post/7701925000958623787",
+      "title": "🔓 让 AI Agent 直接\"拆\"任何软件的逆向 MCP — REA",
+      "author": "人人都是软件工程师",
+      "date": "2026-10-29",
+      "source": "掘金",
+      "kind": "文章",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 6
+      },
+      "lang": "zh",
+      "found": "2026-10-30",
+      "relevant": true,
+      "title_zh": "介紹 REA 逆向 MCP，讓 AI Agent 拆解任何軟體",
+      "summary": "掘金文章介紹 REA 這個讓 AI Agent 做逆向工程的 MCP，說明傳統逆向工具（IDA、Ghidra、Hopper）門檻高。節錄內容只有概念性介紹，沒有對具體目標的實測或成果。",
+      "target": "REA 工具本身（無具體逆向目標）",
+      "metric": "無具體成果，僅為工具介紹",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-10-30",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://dev.to/valyuai/reverse-engineer-anything-with-rea-and-search-api-1jig",
+      "title": "Reverse Engineer Anything with REA and Search API - DEV Community",
+      "author": "Prosper Otemuyiwa",
+      "date": "2026-10-28",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-10-30",
+      "relevant": true,
+      "title_zh": "以 REA 搭配 Valyu 搜尋 API 設計三個逆向教學流程",
+      "summary": "文章示範用 REA 檢視授權的本機目標，再用 Valyu 搜尋 API 查公開文件來解釋行為，涵蓋 Fossify Gallery 刪除照片、VS Code 未儲存文件、Joplin 解除安裝後的資料。作者明確說明這些是操作教學，不是已完成的裝置實驗報告。",
+      "target": "Fossify Gallery（Android）、VS Code、Joplin（macOS）",
+      "metric": "三個逆向教學情境，無實測結果",
+      "category": "教學",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-30",
+      "scored_by": "sonnet"
+    },
     {
       "url": "https://bsky.app/profile/shepcommandr.bsky.social/post/3myxxtuvmn222",
       "title": "Half baked posts…maybe I’m ai.",
@@ -38440,6 +38485,35 @@
   ],
   "runs": [
     {
+      "date": "2026-10-30",
+      "added": 2,
+      "stats": {
+        "githubShowAndTell": 15,
+        "githubRepos": 235,
+        "githubCode": 46,
+        "hackerNews": 26,
+        "qiita": 43,
+        "devto": 150,
+        "juejin": 5,
+        "reddit": "error: 429 reddit rss",
+        "v2ex": 12,
+        "youtube": 90,
+        "bluesky": 162,
+        "mastodon": 160,
+        "exaWeb": 56,
+        "x": 0
+      },
+      "scoring": {
+        "scored": 2,
+        "jev": {
+          "low": 0,
+          "irrelevant": 0,
+          "errors": 0,
+          "toClaude": 2
+        }
+      }
+    },
+    {
       "date": "2026-10-29",
       "added": 0,
       "stats": {
@@ -39291,36 +39365,7 @@
           "toClaude": 46
         }
       }
-    },
-    {
-      "date": "2026-10-16",
-      "added": 16,
-      "stats": {
-        "githubShowAndTell": 12,
-        "githubRepos": 225,
-        "githubCode": 45,
-        "hackerNews": 18,
-        "qiita": 31,
-        "devto": 150,
-        "juejin": 24,
-        "reddit": 60,
-        "v2ex": 5,
-        "youtube": 90,
-        "bluesky": 152,
-        "mastodon": 160,
-        "exaWeb": 57,
-        "x": "error: Command failed: grok -p Search X for posts from the last 7 days where people sho"
-      },
-      "scoring": {
-        "scored": 7,
-        "jev": {
-          "low": 8,
-          "irrelevant": 1,
-          "errors": 0,
-          "toClaude": 7
-        }
-      }
     }
   ],
-  "updatedAt": "2026-10-30T00:06:21.383Z"
+  "updatedAt": "2026-10-30T00:13:24.561Z"
 }

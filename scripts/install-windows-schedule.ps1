@@ -13,8 +13,9 @@ New-Item -ItemType Directory -Force -Path $logDir | Out-Null
 
 if (-not (Test-Path $BashExe)) { throw "Git Bash not found at $BashExe (pass -BashExe)" }
 
-# Log file per day, appended by the shell so the task itself needs no redirection logic.
-$cmd = "cd '$repo' && ./scripts/local-daily.sh >> '$logDir/daily-`$(date +%F).log' 2>&1"
+# Log file per day. Bash expands $(date) and needs forward slashes in the path.
+$logBash = $logDir -replace '\\', '/'
+$cmd = "cd '$repo' && ./scripts/local-daily.sh >> $logBash/daily-`$(date +%F).log 2>&1"
 $action = New-ScheduledTaskAction -Execute $BashExe -Argument "-lc `"$cmd`""
 
 $triggers = @(

@@ -15613,5 +15613,95 @@
       "target": "ToDesk",
       "metric": "花费约 1.6 元即移除弹窗并保留原签名"
     }
+  },
+  "d-e4a8cb395f": {
+    "hash": "fc689bbd0894",
+    "en": {
+      "title": "Inspired by REA: an REA skill with a recursive self-learning loop",
+      "summary": "Inspired by REA, the author rebuilt an REA skill with recursive self-learning, letting the agent keep building until the task is done. The result is published as a GitHub repo, but the post gives no test results.",
+      "target": "Agent skill for REA reverse-engineering workflows",
+      "metric": "Public GitHub repo: reverse-engineer-anything-self-learning-loop"
+    },
+    "zh-CN": {
+      "title": "受 REA 启发,做出带递归自学习循环的 REA skill",
+      "summary": "作者受 REA 启发,重新打造了一个带有递归自我学习的 REA skill,让代理持续构建直到任务完成。成果以 GitHub repo 公开,但帖子未提供实测结果。",
+      "target": "REA 逆向工作流程的 agent skill",
+      "metric": "公开 GitHub repo:reverse-engineer-anything-self-learning-loop"
+    }
+  },
+  "d-1fd6dd385e": {
+    "hash": "08bae4b8abff",
+    "en": {
+      "title": "AI Rebuilds publishes a guide to studying closed-source software with REA and rebuilding it",
+      "summary": "The guide explains how to use a coding agent with REA to analyze software without source code, document its behavior as a spec, and rebuild a new version from that spec. It lists the matching REA tools and example prompts for each target type: APK, native executable, .NET/Unity, Web/Electron, and unknown files.",
+      "target": "Closed-source software such as old games, abandoned apps, and proprietary file formats",
+      "metric": "Tool mapping table covering 5 target types, plus a spec-writing workflow"
+    },
+    "zh-CN": {
+      "title": "AI Rebuilds 发布用 REA 研究闭源软件并重建的操作指南",
+      "summary": "指南说明如何用 coding agent 搭配 REA 分析没有源代码的软件,将行为写成规格文档,再据此重建新版本。内容按原始目标类型(APK、原生可执行文件、.NET/Unity、Web/Electron、未知文件)列出对应的 REA 工具与提问示例。",
+      "target": "旧游戏、已停止维护的 App、封闭文件格式等闭源软件",
+      "metric": "涵盖 5 类目标的工具对照表与规格撰写流程"
+    }
+  },
+  "d-c00c3fe16d": {
+    "hash": "fcb488950c40",
+    "en": {
+      "title": "Open-sourcing Rustify: rebuilding idiomatic Rust from a stripped binary and verifying it against the original",
+      "summary": "Rustify is a set of agent skills that recover the spec, UX, architecture and tests from a stripped binary, rewrite it in Rust, and then compare the result against the original. The author published the repo and showcased a Rust version of Doom, but the excerpt gives no concrete test data.",
+      "target": "Doom (stripped binary)",
+      "metric": "Public repo and a Rust version of Doom as demo"
+    },
+    "zh-CN": {
+      "title": "开源 Rustify:从去符号二进制重建惯用 Rust 并对照原版",
+      "summary": "Rustify 是一组 agent skills,可从 stripped binary 还原规格、UX、架构与测试,并用 Rust 重写,再与原版比对验证。作者以 Doom 的 Rust 版本作为展示并公开了 repo,但节选中未提供具体测试数据。",
+      "target": "Doom(去符号二进制)",
+      "metric": "公开 repo 并展示 Doom 的 Rust 版本"
+    }
+  },
+  "d-05bb19078f": {
+    "hash": "e8b32b4be1c3",
+    "en": {
+      "title": "Bringing REA/Ghidra into a malware-analysis bot workflow",
+      "summary": "The author built \"Malware Bot\", combining Codex, YARA, capa, REA/Ghidra, Volatility and REMnux into a malware-analysis pipeline. The post only lists the toolset and asks for suggestions; it analyzes no specific sample and reports no results.",
+      "target": "Malware analysis workflow",
+      "metric": "6 categories of tools integrated (Codex, YARA, capa, REA/Ghidra, Volatility, REMnux)"
+    },
+    "zh-CN": {
+      "title": "把 REA/Ghidra 纳入恶意软件分析机器人工作流",
+      "summary": "作者搭建了“Malware Bot”,整合 Codex、YARA、capa、REA/Ghidra、Volatility 与 REMnux 作为恶意软件分析流程。内容只提到工具组合并征求建议,没有分析具体样本或给出结果。",
+      "target": "恶意软件分析工作流",
+      "metric": "整合 6 类工具(Codex、YARA、capa、REA/Ghidra、Volatility、REMnux)"
+    }
+  },
+  "d-4d94219023": {
+    "hash": "2476282b4385",
+    "en": {
+      "title": "Launching the REA Library site with copy-and-paste reverse-engineering prompts",
+      "summary": "The author built a website where users pick a target, copy a prompt and paste it to an agent to start reverse engineering. The site covers 12 target categories (desktop apps, Electron, Android, iOS, routers, protocols, old games, CTFs, etc.) and 18 ready-made prompts.",
+      "target": "Reverse-engineering prompt resource site for REA users",
+      "metric": "12 target categories, 18 copyable prompts"
+    },
+    "zh-CN": {
+      "title": "推出 REA Library 网站,提供复制即用的逆向提示词",
+      "summary": "作者做了一个网站,用户选择目标后复制提示词粘贴给 agent,即可开展逆向工程。网站包含 12 类目标(桌面 App、Electron、Android、iOS、路由器、协议、老游戏、CTF 等)与 18 个现成提示词。",
+      "target": "面向 REA 用户的逆向提示词资源站",
+      "metric": "12 类目标、18 个可复制提示词"
+    }
+  },
+  "d-b627fdca06": {
+    "hash": "28944496a861",
+    "en": {
+      "title": "Building Reall, a REA fork with a simple, explainable reverse-engineering interface",
+      "summary": "The author built Reall, a fork of REA, so users can understand what the AI is doing, what evidence it relies on, and what remains unverified, without staying in the terminal. The engine is still REA; what's new is the user experience. The excerpt reports no results on specific targets.",
+      "target": "A graphical/explainable interface for REA (Reall)",
+      "metric": "Adds an interface on top of REA that shows evidence and supports verification"
+    },
+    "zh-CN": {
+      "title": "打造 REA 的 fork「Reall」,提供简单且可解释的逆向界面",
+      "summary": "作者基于 REA 开发了 fork Reall,目标是让用户不必待在终端,也能看懂 AI 在做什么、依据哪些证据、还有哪些尚未验证。引擎仍是 REA,新增的是使用体验,节选中没有针对具体目标的成果。",
+      "target": "REA 的图形化/可解释界面(Reall)",
+      "metric": "在 REA 之上加入证据可见、可验证的界面"
+    }
   }
 }

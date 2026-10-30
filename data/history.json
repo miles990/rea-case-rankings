@@ -22966,9 +22966,10 @@
     },
     {
       "date": "2026-10-30",
-      "stars": 408304,
-      "stars_delta": 575,
+      "stars": 408640,
+      "stars_delta": 911,
       "new": [
+        "d-c00c3fe16d",
         "d-a30815c202",
         "d-5ad356d565",
         "d-263b0b3ff5",
@@ -22978,55 +22979,60 @@
         "d-840cab72f7",
         "d-fc42f78064",
         "d-b05ceac2f4",
+        "d-05bb19078f",
         "d-ceeeecc928",
+        "d-4d94219023",
+        "d-b627fdca06",
         "d-67b708cf19",
         "d-1da7ff664c",
         "d-a1b2a0e98c",
+        "d-e4a8cb395f",
         "d-bda53da224",
         "d-f1210adf49",
         "d-5c56802593",
+        "d-1fd6dd385e",
         "d-82106cc30a"
       ],
       "stats": {
-        "count": 17,
+        "count": 23,
         "wow": {
-          "2": 9,
+          "2": 14,
           "3": 5,
-          "4": 3
+          "4": 4
         },
         "type": {
-          "case": 12,
-          "app": 2,
-          "learn": 2,
+          "case": 14,
+          "app": 4,
+          "learn": 4,
           "news": 1
         },
         "status": {
+          "shipped": 10,
           "tested": 2,
-          "shipped": 5,
-          "reported": 10
+          "reported": 11
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 衝破 40.8 萬星，實作案例多、但吹噓也多",
-          "summary": "REA 的 GitHub 星數來到 408,304，比前一個紀錄多 575。當天較扎實的案例是用 REA 分析 PowerToys 取色器並對照原始碼驗證後自製 hexgrab、檢視 NTFSTool 做出 Mac 應用 PlainMount，以及從 WinRAR 7.13 取出圖示與介面資訊重建 xRAR。同時也有不少只有一句自述、沒有證據的貼文（如 ToDesk 去彈窗、路由器零日），而 GitTested 的評測指出在小型程式上 REA 與一般 shell 工具的 agent 準確度相當，只增加成本。這顯示重點正從「能不能做」轉向「如何驗證」。"
+          "headline": "REA 從拆解走向重建：多個專案以逆向結果做出可用的新應用",
+          "summary": "今天排名靠前的項目多半不只是分析，而是把逆向結果變成新作品：Rustify 從去符號二進位重寫 Rust 並與原版比對，hexgrab 與 PlainMount 分別源自 PowerToys 取色器與 NTFSTool，xRAR 則以雜湊驗證取出 WinRAR 的圖示與介面資訊。MarkText 的案例中，作者打開檔案確認了呼叫鏈，GitTested 的評測則指出在小型程式上 REA 與一般 shell 工具的準確度相近、只增加成本，顯示驗證仍是關鍵。另有幾則作者自述（如 ToDesk 彈窗、路由器空密碼、28 款應用）缺乏證據，需謹慎看待。GitHub 星數增加 911，達 408640。"
         },
         "en": {
-          "headline": "REA passes 408K stars; many real builds, but also many unverified claims",
-          "summary": "REA's GitHub stars reached 408,304, up 575 from the previous record. The more substantial cases were hexgrab, built after REA's claims about the PowerToys Color Picker were checked against the source; PlainMount, a Mac app built around NTFSTool; and xRAR, rebuilt from icons and UI details extracted from WinRAR 7.13. Many other posts were one-line claims with no evidence (removing ToDesk popups, a router zero-day), and a GitTested benchmark found that on small programs REA matched a plain shell-tool agent in accuracy and only added cost. The focus is shifting from whether it can be done to how it is verified."
+          "headline": "REA moves from teardown to rebuild: projects turn reverse-engineering into working apps",
+          "summary": "Most top items today go beyond analysis and turn findings into new work: Rustify rewrites stripped binaries in Rust and diffs them against the original, hexgrab and PlainMount grew out of the PowerToys color picker and NTFSTool, and xRAR extracted WinRAR icons and UI details with hash verification. In the MarkText case the author opened the named files to confirm the call chain, while GitTested's benchmark found REA matched a plain shell agent on small programs and only added cost, which keeps verification at the center. Several self-reported claims (ToDesk popup removal, an empty-password router, 28 apps in 19 days) come without evidence and should be treated cautiously. GitHub stars rose by 911 to 408,640."
         },
         "zh-CN": {
-          "headline": "REA 突破 40.8 万星，实操案例多、但夸大也多",
-          "summary": "REA 的 GitHub 星数达到 408,304，比之前的纪录多 575。当天较扎实的案例有：用 REA 分析 PowerToys 取色器并对照源码验证后自制 hexgrab、检视 NTFSTool 做出 Mac 应用 PlainMount，以及从 WinRAR 7.13 提取图标和界面信息重建 xRAR。同时也有不少只有一句自述、没有证据的帖子（如 ToDesk 去弹窗、路由器零日），而 GitTested 的评测指出在小型程序上 REA 与普通 shell 工具的 agent 准确度相当，只增加了成本。这说明重点正从“能不能做”转向“如何验证”。"
+          "headline": "REA 从拆解走向重建：多个项目以逆向结果做出可用的新应用",
+          "summary": "今天排名靠前的项目多半不只是分析，而是把逆向结果变成新作品：Rustify 从去符号二进制重写 Rust 并与原版比对，hexgrab 与 PlainMount 分别源自 PowerToys 取色器与 NTFSTool，xRAR 则以哈希验证取出 WinRAR 的图标与界面信息。MarkText 的案例中，作者打开文件确认了调用链，GitTested 的评测则指出在小型程序上 REA 与普通 shell 工具的准确度相近、只增加成本，说明验证仍是关键。另有几条作者自述（如 ToDesk 弹窗、路由器空密码、28 款应用）缺乏证据，需谨慎看待。GitHub 星数增加 911，达到 408640。"
         }
       },
       "signals": [
         "A",
         "B",
-        "F"
+        "G"
       ],
       "highlights": [
-        "d-a30815c202",
+        "d-c00c3fe16d",
         "d-263b0b3ff5",
         "d-f1210adf49"
       ],
@@ -23074,6 +23080,7 @@
         "d-c4d6e29d0f",
         "d-dba1d07ace",
         "d-76338eba8f",
+        "d-c00c3fe16d",
         "d-c6fbea64b5",
         "d-247d2d1845",
         "d-a30815c202",
@@ -23441,6 +23448,7 @@
         "d-b5b43768ad",
         "d-41e56f0fde",
         "d-679e91d8c3",
+        "d-05bb19078f",
         "d-9aea516faa",
         "d-37b4f9d895",
         "d-d1d24cba8d",
@@ -23453,6 +23461,7 @@
         "d-daa98ecb15",
         "d-ceeeecc928",
         "d-2731867e4e",
+        "d-4d94219023",
         "d-19ff7d8929",
         "d-4b543f1953",
         "d-0867acc2f2",
@@ -23461,6 +23470,7 @@
         "d-e5dfa9e14e",
         "d-9b0798b548",
         "d-98784efad3",
+        "d-b627fdca06",
         "d-2c8726f374",
         "d-934d717ddb",
         "d-19f5e5a85a",
@@ -23636,6 +23646,7 @@
         "d-0775009db4",
         "d-2ae836da21",
         "d-bd181ec8c5",
+        "d-e4a8cb395f",
         "d-e166572be7",
         "d-97cc6611d2",
         "d-7c92733452",
@@ -23732,6 +23743,7 @@
         "d-49c3fe3859",
         "heartland-side-effects",
         "d-5c56802593",
+        "d-1fd6dd385e",
         "d-512cbe4f2b",
         "d-a6a41f7d34",
         "d-4938762776",
@@ -24119,6 +24131,7 @@
         "d-5b8830f8f1",
         "d-be34e5d7ca",
         "d-3d59749598",
+        "d-76a7f527dc",
         "d-fd6351c89e",
         "d-fe5e277ca1",
         "d-972fc7b6da",
@@ -24197,6 +24210,7 @@
         "d-35092f264a",
         "d-9a68a35670",
         "d-e41898b49d",
+        "d-8cc344db54",
         "d-6bd032b813",
         "d-58cfd03ea1",
         "d-fae21501b9",
@@ -24566,6 +24580,8 @@
         "d-e776c1c4c1",
         "d-2761852b3d",
         "d-2f09a54a93",
+        "d-4468c7d3f2",
+        "d-648c747036",
         "d-536e9132e0",
         "d-5acdd96006",
         "d-c6feecd868",
@@ -24869,19 +24885,19 @@
     "to": "2026-10-30",
     "text": {
       "zh-TW": {
-        "headline": "REA 熱度續增，焦點從「能複製」轉向「能驗證」",
-        "summary": "本週前段以 Claude 桌面端、Arc 被開源重現為代表，凸顯前端程式碼不再是護城河（A）。中段案例從遊戲（MSX 移植、DX-Ball 音效逐位元組還原）擴及無人機、燈泡與家電等硬體（D）。後段重心轉到驗證：附測試的重寫（OpenCode Desktop 8 項測試、PowerToys 對照原始碼）受重視，而獨立實驗（20 個程式、GitTested）指出 REA 在小型程式上沒有準確度優勢，只增加成本。同時不少熱門貼文只有作者自述，使可信度落差持續存在，星數也在 40 萬後增速明顯放緩（10/30 僅增 575）。",
-        "watch": "接下來幾天可留意 REA 星數增速是否持續低於前幾日，以及是否出現更多附差異測試、逐位元組比對的案例，這類專案最有機會成為可信範本。有機會的方向包括驗證與比對工具、降低工具負擔的整合（如把 207 個工具壓成 3 個入口），以及老軟體與硬體的合法移植或互通。對只有自述、缺證據的熱門貼文應保持保留態度。"
+        "headline": "REA 從展示轉向重建，驗證與實測成為本週主軸",
+        "summary": "週初（10/24）焦點是 Claude 桌面端、Arc 被開源復刻，顯示前端程式碼與功能容易被快速複製。10/25 起，討論轉向可驗證的成果，例如 G*Power 淨室重寫 245/245 欄位吻合，以及 Clamp 外掛移植附比對工具。10/26 至 10/27 案例從老遊戲（MSX 移植、DX-Ball 音效逐位元組一致）延伸到無人機與 Yeelight 燈泡等硬體。10/28 至 10/30 則多為把逆向結果落成可用的新應用（OpenQuill、Cluely 重建、Rustify），同時獨立實驗顯示在小型程式上 REA 未帶來準確度優勢、只增加成本。整週 GitHub 星數從 373967 增至 408640，但不少熱門貼文仍只是作者自述、缺乏證據。",
+        "watch": "後續可留意附測試、雜湊或逐位元組比對的重建專案，這類成果比單純展示更可信。也值得觀察成本與工具負擔的優化（如把 207 個工具壓成 3 個入口），以及 REA 在小型與大型程式上的實際效益差異。若要找機會，可從驗證工具、遺留軟體遷移與硬體互通切入。"
       },
       "en": {
-        "headline": "REA keeps growing, but focus shifts from cloning to verifying",
-        "summary": "Early in the week, open-source recreations of the Claude desktop app and Arc showed that client-side code is no longer a moat (A). Mid-week, cases spread from games (an MSX port, byte-exact DX-Ball sound recovery) to hardware such as drones, light bulbs and appliances (D). Later the emphasis moved to verification: rewrites backed by tests (OpenCode Desktop with 8 tests, PowerToys checked against source) drew attention, while independent experiments (20 programs, GitTested) found no accuracy advantage from REA on small programs, only added cost. Many popular posts remain self-reported without evidence, so a credibility gap persists, and star growth slowed sharply after 400k (only +575 on 10/30).",
-        "watch": "Over the next few days, watch whether star growth stays below earlier daily gains and whether more cases appear with differential tests and byte-level comparisons; these are the likeliest to become credible templates. Opportunities lie in verification and comparison tooling, integrations that cut tool overhead (such as compressing 207 tools into 3 entry points), and legitimate ports or interoperability for legacy software and hardware. Stay skeptical of popular posts that offer only a claim and no evidence."
+        "headline": "REA shifts from showcase to rebuilds, with verification as the week's theme",
+        "summary": "The week opened (10/24) with open-source clones of the Claude desktop app and Arc, showing client-side code and features are cloned quickly. From 10/25 the talk moved to verifiable results, such as a clean-room G*Power rewrite matching 245/245 fields and a Clamp plugin port with comparison tooling. On 10/26–10/27 cases spread from old games (an MSX port, byte-identical DX-Ball audio) to hardware like drones and Yeelight bulbs. From 10/28 to 10/30 most items turned reverse-engineering results into usable new apps (OpenQuill, a Cluely rebuild, Rustify), while independent tests found REA gave no accuracy advantage on small programs and only added cost. GitHub stars rose from 373,967 to 408,640 over the week, yet many popular posts were still unsupported author claims.",
+        "watch": "Watch for rebuild projects backed by tests, hashes or byte-level comparison, which are more credible than demos. Also follow cost and tool-surface reductions (such as collapsing 207 tools into 3 entry points) and how REA's benefit differs between small and large programs. For opportunities, look at verification tooling, legacy software migration and hardware interoperability."
       },
       "zh-CN": {
-        "headline": "REA 热度续增，焦点从“能复制”转向“能验证”",
-        "summary": "本周前段以 Claude 桌面端、Arc 被开源重现为代表，凸显前端代码不再是护城河（A）。中段案例从游戏（MSX 移植、DX-Ball 音效逐字节还原）扩及无人机、灯泡和家电等硬件（D）。后段重心转到验证：附测试的重写（OpenCode Desktop 8 项测试、PowerToys 对照源码）受到重视，而独立实验（20 个程序、GitTested）指出 REA 在小型程序上没有准确度优势，只增加成本。同时不少热门帖子只有作者自述，使可信度落差持续存在，星数在 40 万后增速也明显放缓（10/30 仅增 575）。",
-        "watch": "接下来几天可留意 REA 星数增速是否持续低于前几日，以及是否出现更多附差异测试、逐字节比对的案例，这类项目最有机会成为可信范本。有机会的方向包括验证与比对工具、降低工具负担的集成（如把 207 个工具压成 3 个入口），以及老软件与硬件的合法移植或互通。对只有自述、缺乏证据的热门帖子应保持保留态度。"
+        "headline": "REA 从展示转向重建，验证与实测成为本周主轴",
+        "summary": "周初（10/24）焦点是 Claude 桌面端、Arc 被开源复刻，说明前端代码和功能很容易被快速复制。10/25 起，讨论转向可验证的成果，例如 G*Power 净室重写 245/245 字段吻合，以及 Clamp 插件移植并附比对工具。10/26 至 10/27 案例从老游戏（MSX 移植、DX-Ball 音效逐字节一致）延伸到无人机与 Yeelight 灯泡等硬件。10/28 至 10/30 多为把逆向结果落成可用的新应用（OpenQuill、Cluely 重建、Rustify），同时独立实验显示在小型程序上 REA 没有带来准确度优势、只增加成本。整周 GitHub 星数从 373967 增至 408640，但不少热门帖子仍只是作者自述、缺乏证据。",
+        "watch": "后续可留意附测试、哈希或逐字节比对的重建项目，这类成果比单纯展示更可信。也值得观察成本与工具负担的优化（如把 207 个工具压成 3 个入口），以及 REA 在小型与大型程序上的实际效益差异。若要找机会，可从验证工具、遗留软件迁移与硬件互通切入。"
       }
     },
     "rising": [
@@ -24897,8 +24913,8 @@
       "C": 3,
       "D": 2,
       "E": 0,
-      "F": 2,
-      "G": 4
+      "F": 1,
+      "G": 5
     }
   }
 }

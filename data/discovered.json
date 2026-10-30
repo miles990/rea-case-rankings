@@ -69,6 +69,52 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://bsky.app/profile/tethercat.bsky.social/post/3mz2rkow4gs2p",
+      "title": "I'm looking at that Reverse Engineer Anything thing, wondering if there was a wish list.",
+      "author": "tethercat.bsky.social",
+      "date": "2026-10-30",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-10-30",
+      "relevant": true,
+      "title_zh": "提議用 REA 逆向 Sony ICF-CS15iP 喇叭的官方 App",
+      "summary": "作者看到 REA 後,提出願望清單:Sony ICF-CS15iP 這類附 iPod 接口的喇叭因官方軟體 App 失效而被二手店淘汰。作者建議用 REA 分析該 App 讓喇叭復活,但並未實際執行。",
+      "target": "Sony ICF-CS15iP 喇叭的配套 App",
+      "metric": "僅為願望提案,無實測成果",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-10-30",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/addy_oz/status/2115963250622046487",
+      "title": "Love this build. Inspired by REA, I re-built a REA skill with recursive self learning, so it keeps building till the task is done. Give it a",
+      "author": "@addy_oz",
+      "date": "2026-10-30",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 85
+      },
+      "lang": "en",
+      "found": "2026-10-30",
+      "relevant": true,
+      "title_zh": "受 REA 啟發,做出具遞迴自學迴圈的 REA skill",
+      "summary": "作者受 REA 啟發,重新打造一個帶有遞迴自我學習的 REA skill,讓代理持續建構直到任務完成。成果以 GitHub repo 公開,但貼文未提供實測結果。",
+      "target": "REA 逆向工作流程的 agent skill",
+      "metric": "公開 GitHub repo:reverse-engineer-anything-self-learning-loop",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-10-30",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://juejin.cn/post/7701925000958623787",
       "title": "🔓 让 AI Agent 直接\"拆\"任何软件的逆向 MCP — REA",
       "author": "人人都是软件工程师",
@@ -319,6 +365,156 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://x.com/pluralmite/status/2115938654451544533",
+      "title": "Yes for the Dragons Dogma Mods, I didn’t use REA for the NRS game mods",
+      "author": "@pluralmite",
+      "date": "2026-10-29",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 3
+      },
+      "lang": "en",
+      "found": "2026-10-30",
+      "relevant": true,
+      "title_zh": "說明龍族教義模組使用 REA,NRS 遊戲模組則未使用",
+      "summary": "作者回覆時表示龍族教義(Dragon's Dogma)的模組有用到 REA,而 NRS 遊戲的模組沒有用。貼文未提供具體做法、成果或證據。",
+      "target": "Dragon's Dogma 模組",
+      "metric": "僅自述龍族教義模組使用了 REA,無細節",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-10-30",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/HaozeHe_Hector/status/2115850573610123615",
+      "title": "This could definitely work! Using REA to build a game engine, generate training data, and train better gaming action models is a really prom",
+      "author": "@HaozeHe_Hector",
+      "date": "2026-10-29",
+      "source": "X",
+      "kind": "貼文",
+      "score": 9,
+      "pop": {
+        "likes": 9,
+        "views": 547
+      },
+      "lang": "en",
+      "found": "2026-10-30",
+      "relevant": true,
+      "title_zh": "提出用 REA 建遊戲引擎並產生資料訓練遊戲動作模型",
+      "summary": "作者認為用 REA 建構遊戲引擎、產生訓練資料、再訓練更好的遊戲動作模型是可行路線,並附上展示與專案連結,表示會擴展到更多遊戲。節錄內容未說明實際用 REA 做了什麼,偏向看法與宣傳。",
+      "target": "遊戲引擎與遊戲動作模型訓練資料",
+      "metric": "附 demo 與專案連結,但節錄無具體成果",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-10-30",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/zodchiii/status/2115764150857093155",
+      "title": "STOP WASTING HOURS TRYING TO LEARN REA. I built a site that turns your agent into a complete reverse engineering lab. Pick a target, copy a ",
+      "author": "@zodchiii",
+      "date": "2026-10-29",
+      "source": "X",
+      "kind": "貼文",
+      "score": 30,
+      "pop": {
+        "likes": 30,
+        "views": 1337
+      },
+      "lang": "en",
+      "found": "2026-10-30",
+      "relevant": true,
+      "title_zh": "推出 REA Library 網站,提供複製即用的逆向提示詞",
+      "summary": "作者做了一個網站,讓使用者選擇目標後複製提示詞貼給 agent,即可進行逆向工程。網站包含 12 類目標(桌面 App、Electron、Android、iOS、路由器、協定、老遊戲、CTF 等)與 18 個現成提示詞。",
+      "target": "REA 使用者的逆向提示詞資源站",
+      "metric": "12 類目標、18 個可複製提示詞",
+      "category": "教學",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-10-30",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/runchao_han/status/2115720676934087092",
+      "title": "Credit where it's due 🙏 Rustify was inspired by REA from @reatools and @morluto, and it does all the reverse-engineering heavy lifting unde",
+      "author": "@runchao_han",
+      "date": "2026-10-29",
+      "source": "X",
+      "kind": "貼文",
+      "score": 2,
+      "pop": {
+        "likes": 2,
+        "views": 76
+      },
+      "lang": "en",
+      "found": "2026-10-30",
+      "relevant": true,
+      "title_zh": "Rustify 作者公開致謝，說明其底層逆向由 REA 驅動",
+      "summary": "作者表示 Rustify 受 REA 啟發，並由 REA 負責底層的逆向工程工作。內容僅為致謝與連結，沒有說明具體目標或成果。",
+      "target": "Rustify 專案（底層使用 REA）",
+      "metric": "Rustify 以 REA 作為逆向引擎",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-10-30",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/runchao_han/status/2115711457249911287",
+      "title": "My weekend project, now open source: Rustify 🦀, agent skills that rebuild software from a stripped binary as idiomatic Rust. It recovers sp",
+      "author": "@runchao_han",
+      "date": "2026-10-29",
+      "source": "X",
+      "kind": "貼文",
+      "score": 17,
+      "pop": {
+        "likes": 17,
+        "views": 2844
+      },
+      "lang": "en",
+      "found": "2026-10-30",
+      "relevant": true,
+      "title_zh": "開源 Rustify：從去符號二進位重建慣用 Rust 並對照原版",
+      "summary": "Rustify 是一組 agent skills，可從 stripped binary 還原規格、UX、架構與測試，並以 Rust 重寫，再與原版比對驗證。作者以 Doom 的 Rust 版本作為展示並公開 repo，但節錄中未提供具體測試數據。",
+      "target": "Doom（去符號二進位）",
+      "metric": "公開 repo 並展示 Doom 的 Rust 版本",
+      "category": "Native / 遊戲",
+      "status": "shipped",
+      "wow": 4,
+      "scored": "2026-10-30",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/Conra22a/status/2115647525826793748",
+      "title": "Armé Reall, un fork de REA (Reverse Engineer Anything) que lleva la ingeniería inversa con AI a una interfaz simple y explicable. La idea: q",
+      "author": "@Conra22a",
+      "date": "2026-10-29",
+      "source": "X",
+      "kind": "貼文",
+      "score": 16,
+      "pop": {
+        "likes": 16,
+        "views": 1481
+      },
+      "lang": "fr",
+      "found": "2026-10-30",
+      "relevant": true,
+      "title_zh": "打造 REA 的 fork「Reall」，提供簡單且可解釋的逆向介面",
+      "summary": "作者基於 REA 開發 fork Reall，目標是讓使用者不必待在終端機，也能看懂 AI 在做什麼、依據哪些證據、還有哪些尚未驗證。引擎仍是 REA，新增的是使用體驗，節錄中沒有針對具體目標的成果。",
+      "target": "REA 的圖形化／可解釋介面（Reall）",
+      "metric": "在 REA 之上加入證據可見、可驗證的介面",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-10-30",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://dev.to/valyuai/reverse-engineer-anything-with-rea-and-search-api-1jig",
       "title": "Reverse Engineer Anything with REA and Search API - DEV Community",
       "author": "Prosper Otemuyiwa",
@@ -485,6 +681,31 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://x.com/ShanHolo/status/2114731600864813418",
+      "title": "My malware analysis workflow now has a sidekick: #Malware Bot 🤖 Codex + YARA + capa + REA/Ghidra + Volatility + REMnux. What tool should I ",
+      "author": "@ShanHolo",
+      "date": "2026-10-26",
+      "source": "X",
+      "kind": "貼文",
+      "score": 91,
+      "pop": {
+        "likes": 91,
+        "views": 3438
+      },
+      "lang": "en",
+      "found": "2026-10-30",
+      "relevant": true,
+      "title_zh": "把 REA/Ghidra 納入惡意程式分析機器人工作流程",
+      "summary": "作者建立「Malware Bot」，整合 Codex、YARA、capa、REA/Ghidra、Volatility 與 REMnux 作為惡意程式分析流程。內容只提到工具組合並徵求建議，沒有分析具體樣本或結果。",
+      "target": "惡意程式分析工作流程",
+      "metric": "整合 6 類工具（Codex、YARA、capa、REA/Ghidra、Volatility、REMnux）",
+      "category": "Native / 資安",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-10-30",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/rehan-remade/universal-modder",
       "title": "rehan-remade/universal-modder: Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
       "author": "rehan-remade",
@@ -564,6 +785,26 @@
       "category": "報導 / 評論",
       "status": "reported",
       "wow": 1,
+      "scored": "2026-10-30",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://ai-rebuilds.com/guide/",
+      "title": "Rebuild something with REA · AI Rebuilds",
+      "author": "ai-rebuilds.com",
+      "date": null,
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-10-30",
+      "relevant": true,
+      "title_zh": "AI Rebuilds 發布用 REA 研究閉源軟體並重建的操作指南",
+      "summary": "指南說明如何用 coding agent 搭配 REA 分析沒有原始碼的軟體,將行為寫成規格文件,再依此重建新版本。內容依原始目標類型(APK、原生執行檔、.NET/Unity、Web/Electron、未知檔案)列出對應的 REA 工具與提問範例。",
+      "target": "舊遊戲、已停止維護的 App、封閉檔案格式等閉源軟體",
+      "metric": "涵蓋 5 類目標的工具對照表與規格撰寫流程",
+      "category": "教學",
+      "status": "shipped",
+      "wow": 2,
       "scored": "2026-10-30",
       "scored_by": "sonnet"
     },
@@ -39007,6 +39248,35 @@
   "runs": [
     {
       "date": "2026-10-30",
+      "added": 10,
+      "stats": {
+        "githubShowAndTell": 15,
+        "githubRepos": 231,
+        "githubCode": 46,
+        "hackerNews": 26,
+        "qiita": 43,
+        "devto": 150,
+        "juejin": 1,
+        "reddit": 20,
+        "v2ex": 12,
+        "youtube": 90,
+        "bluesky": 162,
+        "mastodon": 160,
+        "exaWeb": 57,
+        "x": 20
+      },
+      "scoring": {
+        "scored": 10,
+        "jev": {
+          "low": 0,
+          "irrelevant": 0,
+          "errors": 0,
+          "toClaude": 10
+        }
+      }
+    },
+    {
+      "date": "2026-10-30",
       "added": 19,
       "stats": {
         "githubShowAndTell": 15,
@@ -39857,36 +40127,7 @@
         "failed": 44,
         "error": "Command failed: claude -p --output-format json --max-turns 1 --tools  --model sonnet\n"
       }
-    },
-    {
-      "date": "2026-10-18",
-      "added": 32,
-      "stats": {
-        "githubShowAndTell": 12,
-        "githubRepos": 226,
-        "githubCode": 43,
-        "hackerNews": 22,
-        "qiita": 30,
-        "devto": 150,
-        "juejin": 0,
-        "reddit": 60,
-        "v2ex": 9,
-        "youtube": 90,
-        "bluesky": 156,
-        "mastodon": 160,
-        "exaWeb": 58,
-        "x": 25
-      },
-      "scoring": {
-        "scored": 22,
-        "jev": {
-          "low": 6,
-          "irrelevant": 4,
-          "errors": 0,
-          "toClaude": 22
-        }
-      }
     }
   ],
-  "updatedAt": "2026-10-30T02:57:27.912Z"
+  "updatedAt": "2026-10-30T04:39:31.838Z"
 }

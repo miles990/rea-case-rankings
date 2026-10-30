@@ -6,10 +6,17 @@ import { pathToFileURL } from "node:url";
 import { readFile, writeFile } from "node:fs/promises";
 import { readFileSync } from "node:fs";
 import { execFileSync } from "node:child_process";
+import { join } from "node:path";
 import { askClaudeJSONAsync, claudeAvailable, clean } from "./claude.mjs";
 import { judge, jevAvailable } from "./jev.mjs";
 
 const ROOT = new URL("..", import.meta.url);
+// Global npm CLIs are .cmd shims on Windows, which execFileSync cannot start,
+// so there the package entry file runs under node instead.
+function npmCli(cmd, entry) {
+  if (process.platform !== "win32") return [cmd, []];
+  return [process.execPath, [join(process.env.APPDATA, "npm", "node_modules", entry)]];
+}
 const DISCOVERED = new URL("data/discovered.json", ROOT);
 const CASES = new URL("data/cases.json", ROOT);
 // Page excerpts for unscored items, handed from the collect job to the score job.
@@ -159,7 +166,8 @@ async function reddit() {
   let viaCli = false;
   for (const q of queries) {
     try {
-      const raw = execFileSync("opencli", ["reddit", "search", q, "-f", "json"], { encoding: "utf8", timeout: 90000, stdio: ["ignore", "pipe", "ignore"] });
+      const [file, pre] = npmCli("opencli", "@jackwener/opencli/dist/src/main.js");
+      const raw = execFileSync(file, [...pre, "reddit", "search", q, "-f", "json"], { encoding: "utf8", timeout: 90000, stdio: ["ignore", "pipe", "ignore"] });
       for (const p of JSON.parse(raw)) {
         out.push({ url: p.url.startsWith("http") ? p.url : `https://www.reddit.com${p.permalink || p.url}`, title: p.title, author: p.author, date: new Date((p.created_utc || 0) * 1000).toISOString().slice(0, 10), source: `Reddit ${p.subreddit || ""}`.trim(), kind: "討論", score: p.score || 0, pop: { upvotes: p.score || 0, comments: p.comments || 0 }, text: (p.selftext || "").slice(0, 2000) });
       }
@@ -281,7 +289,10 @@ function exaWeb() {
   const out = [];
   for (const [query, objective] of queries) {
     let raw;
-    try { raw = execFileSync("mcporter", ["call", "exa.web_search_exa", "--args", JSON.stringify({ query, numResults: 15, objective }), "--output", "json"], { encoding: "utf8", timeout: 120000, maxBuffer: 16 << 20, stdio: ["ignore", "pipe", "ignore"] }); }
+    try {
+      const [file, pre] = npmCli("mcporter", "mcporter/dist/cli.js");
+      raw = execFileSync(file, [...pre, "call", "exa.web_search_exa", "--args", JSON.stringify({ query, numResults: 15, objective }), "--output", "json"], { encoding: "utf8", timeout: 120000, maxBuffer: 16 << 20, stdio: ["ignore", "pipe", "ignore"] });
+    }
     catch { continue; }
     const text = (JSON.parse(raw).content || []).map((c) => c.text || "").join("\n");
     for (const block of ("\n" + text).split(/\nTitle: /).slice(1)) {

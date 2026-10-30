@@ -19,7 +19,12 @@ node scripts/daily.mjs
 rm -f data/.pending-context.json
 node scripts/validate.mjs
 git add data/
-git diff --cached --quiet || { git commit -q -m "data: local daily run $(date +%F)"; git push -q; }
+# GitHub Actions may have pushed a daily update meanwhile, so rebase before pushing.
+if ! git diff --cached --quiet; then
+  git commit -q -m "data: local daily run $(date +%F)"
+  git pull --rebase --autostash -q
+  git push -q
+fi
 gh workflow run daily.yml -R miles990/rea-case-rankings -f skip_collect=true
 # Personal radar (private repo next to this one): once a day, on the first run
 # that day (normally 08:18; later only if the machine was off in the morning).

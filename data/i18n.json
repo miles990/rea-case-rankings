@@ -15373,5 +15373,245 @@
       "target": "Fossify Gallery（Android）、VS Code、Joplin（macOS）",
       "metric": "三个逆向教学场景，无实测结果"
     }
+  },
+  "d-b05ceac2f4": {
+    "hash": "b0a96e2b010a",
+    "en": {
+      "title": "A general-purpose modder toolkit for Claude Code to modify games, with skills that reference REA",
+      "summary": "This project provides skills and tools that let Claude Code scout, reverse engineer, generate assets for, and test the user's own PC games. Its reverse engineering skill makes REA the preferred tool when connected as an MCP, covering both native binaries and .NET assemblies. No concrete results for any specific game are provided.",
+      "target": "Various PC games (general modding toolkit)",
+      "metric": "3 skill files reference REA as the preferred reverse engineering tool"
+    },
+    "zh-CN": {
+      "title": "让 Claude Code 改造游戏的通用 modder 工具包，技能中引用 REA",
+      "summary": "该项目提供技能与工具，让 Claude Code 对自有 PC 游戏进行侦察、逆向、生成素材与测试。其中逆向技能把 REA 作为已连接 MCP 时的首选工具，涵盖原生二进制文件与 .NET 程序集。内容未提供针对特定游戏的具体成果。",
+      "target": "各类 PC 游戏（通用 modding 工具包）",
+      "metric": "3 个技能文件引用 REA 作为首选逆向工具"
+    }
+  },
+  "d-ceeeecc928": {
+    "hash": "4a6ac5b0c099",
+    "en": {
+      "title": "Decompiling an APK with muse and REA, then turning it into an MCP",
+      "summary": "The author used muse together with REA to decompile an APK and turned the result into an MCP for AI to use. The content is a single brief statement and does not describe the specific target or outcome.",
+      "target": "Android APK (unspecified)",
+      "metric": "APK decompiled and converted into an MCP (no concrete figures)"
+    },
+    "zh-CN": {
+      "title": "用 muse 搭配 REA 反编译 APK 并转成 MCP",
+      "summary": "作者使用 muse 加上 REA 对 APK 进行反编译，并把结果做成 MCP 供 AI 使用。内容只有一句简短自述，未说明具体目标与成果。",
+      "target": "Android APK（未指明）",
+      "metric": "反编译 APK 并转为 MCP（无具体数字）"
+    }
+  },
+  "d-67b708cf19": {
+    "hash": "579b04854ca3",
+    "en": {
+      "title": "Video test of REA: rebuilding MongoDB Compass and comparing Opus 5.5 with Haiku 5.5",
+      "summary": "In this video, the author tests the viral REA repo, explaining how it works and the tools it gives Claude Code, along with the role OpenRouter plays. They then rebuild MongoDB Compass with it and compare the results from Opus 5.5 and Haiku 5.5. The excerpt provides no concrete result data.",
+      "target": "MongoDB Compass",
+      "metric": "Rebuilt MongoDB Compass with REA and compared two models"
+    },
+    "zh-CN": {
+      "title": "视频测试 REA 并用它重建 MongoDB Compass，对比 Opus 5.5 与 Haiku 5.5",
+      "summary": "作者在视频中测试了爆红的 REA repo，讲解其工作原理与提供给 Claude Code 的工具，并说明 OpenRouter 的作用。随后用它重建 MongoDB Compass，并对比 Opus 5.5 与 Haiku 5.5 的结果。节选内容中未提供具体成果数据。",
+      "target": "MongoDB Compass",
+      "metric": "用 REA 重建 MongoDB Compass 并对比两个模型"
+    }
+  },
+  "d-1da7ff664c": {
+    "hash": "583833ba1c35",
+    "en": {
+      "title": "Teardown of a Xiaomi 360 camera, planning to replace the firmware with REA to escape Chinese servers",
+      "summary": "The author opened up a Xiaomi 360 camera and, since the firmware can't be downloaded, plans to analyze and customize it with REA to remove the dependence on Chinese servers. The excerpt only describes the teardown and the goal; no reverse engineering results have appeared yet.",
+      "target": "Xiaomi 360 camera firmware",
+      "metric": "Physical teardown completed (infrared sensor, motors, etc.); firmware not yet obtained"
+    },
+    "zh-CN": {
+      "title": "拆解小米 360 摄像头，打算用 REA 替换固件以摆脱中国服务器",
+      "summary": "作者拆开小米 360 摄像头，由于固件无法下载，打算用 REA 分析并定制固件，摆脱对中国服务器的依赖。目前节选内容仅描述了拆机与目标，尚未看到逆向成果。",
+      "target": "小米 360 摄像头固件",
+      "metric": "已完成实体拆机（红外传感器、电机等），固件尚未获取"
+    }
+  },
+  "d-0f5e1c133f": {
+    "hash": "ecb83c907923",
+    "en": {
+      "title": "Finding a zero-day on a newly bought 5G WiFi router with deepseek and REA",
+      "summary": "The author analyzed a newly bought 5G WiFi router using plain deepseek plus REA and found that ssh accepts users with empty passwords. The author calls it a zero-day and says the process wasn't complicated. The post is the author's own account only, with no evidence or reproducible steps.",
+      "target": "5G WiFi router (model not specified)",
+      "metric": "Found that ssh allows login for users with empty passwords"
+    },
+    "zh-CN": {
+      "title": "用 deepseek 搭配 REA 在新买的 5G WiFi 路由器上发现零日漏洞",
+      "summary": "作者用普通的 deepseek 加 REA 分析新买的 5G WiFi 路由器,发现 ssh 接受空密码的用户。作者称之为零日漏洞,过程并不复杂。内容仅为作者自述,未附证据或可复现步骤。",
+      "target": "5G WiFi 路由器(未指明型号)",
+      "metric": "发现 ssh 允许空密码用户登录"
+    }
+  },
+  "d-5d265b2bef": {
+    "hash": "14854ef2de28",
+    "en": {
+      "title": "Reverse-engineering MarkText's export feature with REA: full call chain recovered in 82 seconds",
+      "summary": "Asked how the export feature of MarkText, an Electron Markdown editor, is implemented, REA scanned 2,477 files and produced a chain running from the file menu through the main-process exportFile/exportPDF and the IPC channel mt::response-export to exportHtml.ts in the renderer process. The author opened the files it named and confirmed the chain is accurate.",
+      "target": "MarkText (Electron Markdown editor)",
+      "metric": "82 seconds, 2,477 files scanned; export chain verified by inspection"
+    },
+    "zh-CN": {
+      "title": "用 REA 反推 MarkText 导出功能,82 秒还原完整调用链",
+      "summary": "针对 Electron Markdown 编辑器 MarkText 提问导出功能如何实现,REA 扫描了 2,477 个文件,给出从文件菜单、主进程 exportFile/exportPDF、IPC 通道 mt::response-export 到渲染进程 exportHtml.ts 的调用链。作者打开所点名的文件,确认该调用链属实。",
+      "target": "MarkText(Electron Markdown 编辑器)",
+      "metric": "82 秒、扫描 2,477 个文件,导出调用链经检查属实"
+    }
+  },
+  "d-840cab72f7": {
+    "hash": "b5bb9e4bd6ec",
+    "en": {
+      "title": "Reverse-engineering Digimon World 1 with REA and replacing its story text",
+      "summary": "The author says they used REA to reverse-engineer Digimon World 1 and changed the story text to their own content. The post is a single sentence, with no code, screenshots, or steps to back it up.",
+      "target": "Digimon World 1",
+      "metric": "Claims to have replaced the game's story text"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向《数码宝贝世界 1》并替换剧情文本",
+      "summary": "作者自述使用 REA 逆向《数码宝贝世界 1》,并把剧情文本改成了自己的内容。帖子只有一句话,没有提供代码、截图或步骤等佐证。",
+      "target": "《数码宝贝世界 1》(Digimon World 1)",
+      "metric": "自述成功替换游戏剧情文本"
+    }
+  },
+  "d-fc42f78064": {
+    "hash": "f6433a72ddb4",
+    "en": {
+      "title": "Cloning the habit tracker EverydayLoop from REA's extracted spec",
+      "summary": "Built from the extraction spec in morluto/rea, this is a habit-tracking app cloned in plain JavaScript. Features include a 90-day heatmap, a streak engine, a stats panel, and a dark UI. The content is only a project description; it doesn't explain the reverse-engineering process or any comparison against the original.",
+      "target": "EverydayLoop habit tracker",
+      "metric": "Implemented a 90-day heatmap and streak engine"
+    },
+    "zh-CN": {
+      "title": "依据 REA 提取规格复刻习惯追踪器 EverydayLoop",
+      "summary": "以 morluto/rea 的提取规格为基础,用纯 JavaScript 复刻出习惯追踪应用。功能包括 90 天热力图、连续天数引擎、统计面板和深色界面。内容仅为项目描述,未说明逆向过程,也没有与原版的对照验证。",
+      "target": "EverydayLoop 习惯追踪器",
+      "metric": "实现 90 天热力图与连续天数引擎"
+    }
+  },
+  "d-a1b2a0e98c": {
+    "hash": "7ce4eb5e0c6d",
+    "en": {
+      "title": "Claimed: reverse-engineering 28 popular messaging, social, payment and media apps with REA in 19 days",
+      "summary": "The author claims to have reverse-engineered 28 apps, from the Photoshop teardown (10/4) to the end of the REA work (10/23), and says it is already on testnet. The post is purely self-reported, with no analysis results for any specific target and no verifiable evidence.",
+      "target": "28 messaging, social, payment and media apps (including Photoshop)",
+      "metric": "Claims 28 apps reverse-engineered in 19 days"
+    },
+    "zh-CN": {
+      "title": "自称用 REA 在 19 天内逆向 28 款热门通讯、社交、支付与媒体应用",
+      "summary": "作者声称从 Photoshop 逆向（10/4）到 REA 工作结束（10/23）共逆向 28 款应用，并称已上 testnet。内容仅为作者自述，没有提供具体目标的分析结果或可验证的证据。",
+      "target": "28 款通讯、社交、支付、媒体应用（含 Photoshop）",
+      "metric": "自称 19 天完成 28 款应用逆向"
+    }
+  },
+  "d-bda53da224": {
+    "hash": "490febe56761",
+    "en": {
+      "title": "Using REA to unpack the latest Claude Code asar and list the differences worth porting",
+      "summary": "The author used REA to unpack the asar bundle of the latest Claude Code and diffed it to find differences worth porting. They argue Claude is adding features Hermes already had. The post is a brief self-report with no concrete diff list or evidence.",
+      "target": "Claude Code (asar bundle)",
+      "metric": "Unpacked the asar and identified portable differences"
+    },
+    "zh-CN": {
+      "title": "用 REA 拆解最新 Claude Code 的 asar 并整理可移植的差异",
+      "summary": "作者用 REA 解开最新版 Claude Code 的 asar 封包，比对出值得移植的差异。作者认为 Claude 正在加入 Hermes 早已具备的功能。内容仅为简短自述，未附具体差异清单或证据。",
+      "target": "Claude Code（asar 封包）",
+      "metric": "解开 asar 并比对出可移植的差异"
+    }
+  },
+  "d-f1210adf49": {
+    "hash": "ab4242906fed",
+    "en": {
+      "title": "Benchmarking REA on small compiled programs: decompiled output matches the source, but no added advantage",
+      "summary": "GitTested used REA to decompile small compiled programs and compared the results against the source code; they matched. However, an agent using only ordinary shell tools could also explain these programs almost completely, so the author concludes REA only adds cost without improving accuracy.",
+      "target": "Small compiled programs (decompilation checked against source)",
+      "metric": "Decompiled output matched the source where compared, but a shell-tool agent already explained the programs almost fully, so REA showed no accuracy gain"
+    },
+    "zh-CN": {
+      "title": "在小型编译程序上评测 REA，反编译结果与源码相符但无额外优势",
+      "summary": "GitTested 用 REA 对小型编译程序做反编译，并与源码比对，结果相符。但只使用普通 shell 工具的 agent 也几乎能完整解释这些程序，因此认为 REA 只增加了成本，并没有提升准确度。",
+      "target": "小型编译程序（反编译结果对照源码）",
+      "metric": "反编译结果与源码在比对处相符，但 shell 工具 agent 已几乎完全解释，REA 无准确度增益"
+    }
+  },
+  "d-5c56802593": {
+    "hash": "4b7195d4d485",
+    "en": {
+      "title": "A reverse-engineering methodology plugin built on REA's ideas, with a five-step loop and toolchain planning",
+      "summary": "This is a methodology and environment-check plugin inspired by REA, not a decompiler. It generates a toolchain plan by target type (apk/native/electron/web/ctf), checks which tools are installed locally, and adds a reminder with a hard authorization gate. It shows no reverse-engineering results against a specific target.",
+      "target": "General reverse-engineering workflow (apk/native/electron/web/ctf)",
+      "metric": "Provides the rea_plan tool and a five-step reverse-engineering loop"
+    },
+    "zh-CN": {
+      "title": "基于 REA 理念的逆向方法论插件，提供五步循环与工具链规划",
+      "summary": "这是受 REA 启发的方法论与环境检查插件，并非反编译器。它按目标类型（apk/native/electron/web/ctf）生成工具链规划并检查本机工具，同时附带授权硬门提醒。内容未展示对具体目标的逆向成果。",
+      "target": "通用逆向流程（apk/native/electron/web/ctf）",
+      "metric": "提供 rea_plan 工具与五步逆向循环"
+    }
+  },
+  "d-a30815c202": {
+    "hash": "65ec897c70ca",
+    "en": {
+      "title": "Analyzing the PowerToys Color Picker with REA, and building hexgrab from it",
+      "summary": "Targeting the open-source Microsoft PowerToys Color Picker, REA made 9 claims about how the feature works, which were then checked against the real source code. The findings were used to build hexgrab, a small color picker of my own, on .NET 10.",
+      "target": "Microsoft PowerToys Color Picker",
+      "metric": "8 of 9 claims fully correct"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析 PowerToys 取色器,并据此自制 hexgrab",
+      "summary": "以开源的 Microsoft PowerToys Color Picker 为目标,让 REA 提出关于功能运作的 9 项判断,并对照真实源代码进行验证。再利用分析结果,基于 .NET 10 做出自己的小型取色器 hexgrab。",
+      "target": "Microsoft PowerToys Color Picker",
+      "metric": "9 项判断中 8 项完全正确"
+    }
+  },
+  "d-5ad356d565": {
+    "hash": "5b635b3fc5cd",
+    "en": {
+      "title": "Inspecting NTFSTool with REA to build and release PlainMount, a native Mac app",
+      "summary": "The agent used REA to inspect NTFSTool and built PlainMount, a native Mac app wrapped around the existing NTFS components. Reading, writing and reconnection have been tested on a real disk. The source code and a downloadable app are both public, and it is free for personal use.",
+      "target": "NTFSTool / macOS NTFS mounting",
+      "metric": "Read, write and reconnect tested on a physical disk; source code and Apple Silicon (macOS 14+) download published"
+    },
+    "zh-CN": {
+      "title": "用 REA 检视 NTFSTool,打造原生 Mac 应用 PlainMount 并公开",
+      "summary": "代理使用 REA 检视 NTFSTool,并围绕现有的 NTFS 组件做出原生 Mac 应用 PlainMount。已在真实磁盘上测试读取、写入和重新连接,源代码与可下载的应用均已公开,个人可免费使用。",
+      "target": "NTFSTool / macOS NTFS 挂载",
+      "metric": "在物理磁盘上测试读、写、重连;公开源代码及 Apple Silicon(macOS 14+)下载"
+    }
+  },
+  "d-263b0b3ff5": {
+    "hash": "01f8c458d7a0",
+    "en": {
+      "title": "Reverse engineering WinRAR 7.13 with REA to rebuild xRAR, a WinRAR-style archiver in C#",
+      "summary": "The target is the WinRAR 7.13 x86_64 executable, analyzed with REA and Ghidra 12.1.4 to examine its resources and strings. 19 toolbar icons were extracted from the binary and verified by hash, and the button order, 10 file-list columns and 24 file extension associations were mapped out. These were then implemented as a working application in C#/WPF with SharpCompress; the compression engine, dialogs and similar parts do not come from the binary.",
+      "target": "WinRAR 7.13 (Windows x86_64 PE)",
+      "metric": "Extracted 19 byte-identical toolbar icons, 10 columns and 24 file extensions"
+    },
+    "zh-CN": {
+      "title": "以 REA 逆向 WinRAR 7.13,重建仿 WinRAR 的 C# 压缩工具 xRAR",
+      "summary": "目标是 WinRAR 7.13 x86_64 可执行文件,借助 REA 与 Ghidra 12.1.4 分析资源和字符串。从二进制文件中通过哈希校验提取出 19 个工具栏图标,并对应出按钮顺序、10 个文件列表列以及 24 种扩展名关联,再用 C#/WPF 搭配 SharpCompress 自行实现为可用的应用程序;压缩引擎和对话框等并非源自该二进制文件。",
+      "target": "WinRAR 7.13(Windows x86_64 PE)",
+      "metric": "提取 19 个字节一致的工具栏图标、10 个列、24 种扩展名"
+    }
+  },
+  "d-ff4d270854": {
+    "hash": "f0ec84233d67",
+    "en": {
+      "title": "Removing ToDesk's pop-ups with deepseek and REA while keeping the original signature and permissions",
+      "summary": "The author reverse engineered ToDesk with deepseek and REA and successfully removed its pop-ups. By the author's own account, the original signature and permissions remain intact after the modification, at a total cost of only 1.6 yuan. The content is the author's claim only, with no evidence or steps provided.",
+      "target": "ToDesk",
+      "metric": "Pop-ups removed with the original signature kept, for about 1.6 yuan"
+    },
+    "zh-CN": {
+      "title": "用 deepseek 搭配 REA 移除 ToDesk 的弹窗并保留原签名与权限",
+      "summary": "作者使用 deepseek 搭配 REA 对 ToDesk 进行逆向,成功移除了其中的弹窗。据作者自述,修改后仍保留原始签名与权限,总花费仅 1.6 元。内容仅为作者自述,未附证据或步骤。",
+      "target": "ToDesk",
+      "metric": "花费约 1.6 元即移除弹窗并保留原签名"
+    }
   }
 }

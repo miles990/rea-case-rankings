@@ -22966,42 +22966,69 @@
     },
     {
       "date": "2026-10-30",
-      "stars": 407878,
-      "stars_delta": 149,
+      "stars": 408304,
+      "stars_delta": 575,
       "new": [
+        "d-a30815c202",
+        "d-5ad356d565",
+        "d-263b0b3ff5",
+        "d-ff4d270854",
+        "d-0f5e1c133f",
+        "d-5d265b2bef",
+        "d-840cab72f7",
+        "d-fc42f78064",
+        "d-b05ceac2f4",
+        "d-ceeeecc928",
+        "d-67b708cf19",
+        "d-1da7ff664c",
+        "d-a1b2a0e98c",
+        "d-bda53da224",
+        "d-f1210adf49",
+        "d-5c56802593",
         "d-82106cc30a"
       ],
       "stats": {
-        "count": 1,
+        "count": 17,
         "wow": {
-          "2": 1
+          "2": 9,
+          "3": 5,
+          "4": 3
         },
         "type": {
-          "learn": 1
+          "case": 12,
+          "app": 2,
+          "learn": 2,
+          "news": 1
         },
         "status": {
-          "reported": 1
+          "tested": 2,
+          "shipped": 5,
+          "reported": 10
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 星數破 40.7 萬,新教學示範搭配 Valyu 搜尋做逆向",
-          "summary": "10 月 30 日 REA 的 GitHub 星數達 407878,比前一個紀錄 407729 增加 149。當天只有一個項目:一篇教學文章示範以 REA 檢視授權的本機目標,再用 Valyu 搜尋 API 查公開文件解釋行為,涵蓋 Fossify Gallery 刪除照片、VS Code 未儲存文件與 Joplin 解除安裝後的資料三個流程。作者明確表示這些是操作教學,不是已完成的裝置實驗報告,因此屬於整合與用法的擴展,而非新的驗證結果。"
+          "headline": "REA 衝破 40.8 萬星，實作案例多、但吹噓也多",
+          "summary": "REA 的 GitHub 星數來到 408,304，比前一個紀錄多 575。當天較扎實的案例是用 REA 分析 PowerToys 取色器並對照原始碼驗證後自製 hexgrab、檢視 NTFSTool 做出 Mac 應用 PlainMount，以及從 WinRAR 7.13 取出圖示與介面資訊重建 xRAR。同時也有不少只有一句自述、沒有證據的貼文（如 ToDesk 去彈窗、路由器零日），而 GitTested 的評測指出在小型程式上 REA 與一般 shell 工具的 agent 準確度相當，只增加成本。這顯示重點正從「能不能做」轉向「如何驗證」。"
         },
         "en": {
-          "headline": "REA passes 407K stars; new tutorial pairs it with Valyu search",
-          "summary": "On October 30, REA's GitHub stars reached 407,878, up 149 from the previous record of 407,729. The day's only item is a tutorial showing how to use REA to inspect an authorized local target and then use the Valyu search API to look up public documentation that explains the observed behavior, across three workflows: Fossify Gallery photo deletion, VS Code unsaved documents, and Joplin data left after uninstall. The author states plainly that these are how-to guides, not completed device experiment reports, so this is an ecosystem and usage expansion rather than a new verified result."
+          "headline": "REA passes 408K stars; many real builds, but also many unverified claims",
+          "summary": "REA's GitHub stars reached 408,304, up 575 from the previous record. The more substantial cases were hexgrab, built after REA's claims about the PowerToys Color Picker were checked against the source; PlainMount, a Mac app built around NTFSTool; and xRAR, rebuilt from icons and UI details extracted from WinRAR 7.13. Many other posts were one-line claims with no evidence (removing ToDesk popups, a router zero-day), and a GitTested benchmark found that on small programs REA matched a plain shell-tool agent in accuracy and only added cost. The focus is shifting from whether it can be done to how it is verified."
         },
         "zh-CN": {
-          "headline": "REA 星数突破 40.7 万,新教程演示搭配 Valyu 搜索做逆向",
-          "summary": "10 月 30 日 REA 的 GitHub 星数达到 407878,比之前的纪录 407729 增加 149。当天只有一个项目:一篇教程文章演示用 REA 检视获授权的本机目标,再用 Valyu 搜索 API 查公开文档来解释行为,涵盖 Fossify Gallery 删除照片、VS Code 未保存文档与 Joplin 卸载后的数据三个流程。作者明确说明这些是操作教程,不是已完成的设备实验报告,因此属于集成与用法的扩展,而非新的验证结果。"
+          "headline": "REA 突破 40.8 万星，实操案例多、但夸大也多",
+          "summary": "REA 的 GitHub 星数达到 408,304，比之前的纪录多 575。当天较扎实的案例有：用 REA 分析 PowerToys 取色器并对照源码验证后自制 hexgrab、检视 NTFSTool 做出 Mac 应用 PlainMount，以及从 WinRAR 7.13 提取图标和界面信息重建 xRAR。同时也有不少只有一句自述、没有证据的帖子（如 ToDesk 去弹窗、路由器零日），而 GitTested 的评测指出在小型程序上 REA 与普通 shell 工具的 agent 准确度相当，只增加了成本。这说明重点正从“能不能做”转向“如何验证”。"
         }
       },
       "signals": [
-        "G"
+        "A",
+        "B",
+        "F"
       ],
       "highlights": [
-        "d-82106cc30a"
+        "d-a30815c202",
+        "d-263b0b3ff5",
+        "d-f1210adf49"
       ],
       "rank": [
         "dx-ball-sound-pan",
@@ -23049,6 +23076,7 @@
         "d-76338eba8f",
         "d-c6fbea64b5",
         "d-247d2d1845",
+        "d-a30815c202",
         "th04-bullet-ring",
         "d-b703726421",
         "d-50f5e59d27",
@@ -23075,6 +23103,7 @@
         "d-f1b6d58e3e",
         "d-08cd0115cf",
         "d-66fc566b8b",
+        "d-5ad356d565",
         "d-0a6ed6f8cf",
         "d-5725375ff2",
         "d-4c582fe204",
@@ -23124,6 +23153,7 @@
         "d-45164a9283",
         "d-831a3c86b4",
         "d-6417fa2b6c",
+        "d-263b0b3ff5",
         "d-54b8c9231a",
         "d-982bd02734",
         "d-51d1f36544",
@@ -23177,9 +23207,11 @@
         "d-e6843fca3d",
         "d-e3f085652a",
         "d-365a6c591d",
+        "d-ff4d270854",
         "d-febc968287",
         "d-4f0117e09e",
         "d-a100e0cc96",
+        "d-0f5e1c133f",
         "d-503e0a74d8",
         "d-99e21aca4d",
         "d-c5de955d0e",
@@ -23251,6 +23283,7 @@
         "d-a14d950389",
         "d-c281873d17",
         "d-11d3620216",
+        "d-5d265b2bef",
         "d-c16354dfc9",
         "d-bd50d92a60",
         "d-23bb627776",
@@ -23290,6 +23323,7 @@
         "d-bfaf7bdd8b",
         "d-e5dc370d87",
         "d-2525e68576",
+        "d-840cab72f7",
         "d-8ef8562c15",
         "d-4ec7494c18",
         "d-91be7dbaf1",
@@ -23343,6 +23377,7 @@
         "kingy-notes-exporter",
         "d-61acf3d4f9",
         "d-c465baeafb",
+        "d-fc42f78064",
         "d-80ebded891",
         "d-43ed858149",
         "d-e6dcdca699",
@@ -23377,6 +23412,7 @@
         "d-d9e9150ad1",
         "d-406e661ae1",
         "d-c7e8d8a6fa",
+        "d-b05ceac2f4",
         "d-83149ecf4d",
         "d-29a0d8b441",
         "d-dd06678520",
@@ -23415,6 +23451,7 @@
         "d-5183d4a118",
         "d-efe8bf52bf",
         "d-daa98ecb15",
+        "d-ceeeecc928",
         "d-2731867e4e",
         "d-19ff7d8929",
         "d-4b543f1953",
@@ -23444,6 +23481,7 @@
         "d-ab974e67fb",
         "d-1d3d058162",
         "d-1ec10ecd88",
+        "d-67b708cf19",
         "d-bbf6930865",
         "d-4a697a1df0",
         "d-0c5e9755e3",
@@ -23533,6 +23571,7 @@
         "d-b5c104566c",
         "d-f5aadf840e",
         "d-fe1e18573c",
+        "d-1da7ff664c",
         "d-1287548f31",
         "d-5c97b6f52b",
         "d-af78088488",
@@ -23546,6 +23585,7 @@
         "d-5d0a9116b5",
         "d-e3123ea2a3",
         "d-b89a174b85",
+        "d-a1b2a0e98c",
         "d-18ccf089b0",
         "d-ea18e4b3ce",
         "d-cb5ec336d9",
@@ -23629,6 +23669,7 @@
         "d-cbd7643320",
         "d-fa40d24345",
         "d-5df65cb299",
+        "d-bda53da224",
         "d-e02463c065",
         "d-840b44c204",
         "d-8a99ccf565",
@@ -23645,6 +23686,7 @@
         "d-c4120d6952",
         "d-d2077e5514",
         "d-712c5535cc",
+        "d-f1210adf49",
         "d-ba65da3a39",
         "d-ac304de208",
         "d-7684a4fc63",
@@ -23689,6 +23731,7 @@
         "d-40c0474406",
         "d-49c3fe3859",
         "heartland-side-effects",
+        "d-5c56802593",
         "d-512cbe4f2b",
         "d-a6a41f7d34",
         "d-4938762776",
@@ -23957,6 +24000,7 @@
         "d-9eb6f0fe93",
         "d-6aa6de6f50",
         "d-549e5f22f1",
+        "d-0d6d178df5",
         "d-62a181eb0f",
         "d-7c6bdd50e8",
         "d-db4f53ee50",
@@ -24216,6 +24260,7 @@
         "d-3dc22031b1",
         "d-ac693a182d",
         "d-5ef21e106f",
+        "d-4f05d118c8",
         "d-3430d1df78",
         "d-8267ec6ffc",
         "d-69dde74acb",
@@ -24527,6 +24572,7 @@
         "d-2ab0e436a1",
         "d-dbda24dd4f",
         "d-3ca04234f9",
+        "d-22ccf86aa0",
         "d-f37bca49aa",
         "d-298e170326",
         "d-fd9c290209",
@@ -24823,38 +24869,36 @@
     "to": "2026-10-30",
     "text": {
       "zh-TW": {
-        "headline": "REA 從展示復刻走向可驗證成果，同時開始檢討成本與實效",
-        "summary": "本週初期（10/24）以 Claude 桌面端、Arc 被開源復刻為主，顯示前端程式碼與功能很容易被快速複製，硬體案例（Tesla CarPlay 盒子、電熱水壺）也同步出現。10/25 起焦點轉向可驗證成果，例如 G*Power 淨室重寫 245/245 欄位吻合、Clamp 外掛移植到 macOS，之後 MSX 移植（207 個命令點逐位元組一致）、DX-Ball 音效還原（3205 個測試全過）、OpenCode Desktop 對照上游驗證等案例接連出現。10/26 至 10/29 另有實測指出在小型程式或 20 個程式上 REA 未帶來準確度優勢，並出現把 207 個工具壓成 3 個入口的外掛，顯示成本與實效開始被檢討。遊戲與舊軟體保存持續出現，並延伸到無人機、燈泡等硬體；10/30 則只剩 1 項教學文章，熱度明顯回落。",
-        "watch": "接下來幾天可留意星數成長是否持續停在 40.7 萬附近，以及是否再出現附測試、逐位元組比對的案例。有機會的方向是驗證工具（差異測試、證據與誠實評分）、老遊戲與舊軟體的移植遷移，以及能降低 token 與工具負擔的整合；僅憑作者自述的貼文可信度仍低，需自行查證。"
+        "headline": "REA 熱度續增，焦點從「能複製」轉向「能驗證」",
+        "summary": "本週前段以 Claude 桌面端、Arc 被開源重現為代表，凸顯前端程式碼不再是護城河（A）。中段案例從遊戲（MSX 移植、DX-Ball 音效逐位元組還原）擴及無人機、燈泡與家電等硬體（D）。後段重心轉到驗證：附測試的重寫（OpenCode Desktop 8 項測試、PowerToys 對照原始碼）受重視，而獨立實驗（20 個程式、GitTested）指出 REA 在小型程式上沒有準確度優勢，只增加成本。同時不少熱門貼文只有作者自述，使可信度落差持續存在，星數也在 40 萬後增速明顯放緩（10/30 僅增 575）。",
+        "watch": "接下來幾天可留意 REA 星數增速是否持續低於前幾日，以及是否出現更多附差異測試、逐位元組比對的案例，這類專案最有機會成為可信範本。有機會的方向包括驗證與比對工具、降低工具負擔的整合（如把 207 個工具壓成 3 個入口），以及老軟體與硬體的合法移植或互通。對只有自述、缺證據的熱門貼文應保持保留態度。"
       },
       "en": {
-        "headline": "REA moves from showy clones to verifiable results, while cost and real benefit get questioned",
-        "summary": "Early in the week (10/24), open-source clones of Claude Desktop and Arc dominated, showing that client-side code and features are cloned quickly, alongside hardware cases like a Tesla CarPlay box and an electric kettle. From 10/25 the focus shifted to verifiable outcomes: a clean-room G*Power rewrite matching 245/245 fields, a Clamp plugin ported to macOS, then an MSX port with 207 command points byte-identical, a DX-Ball sound recovery passing 3,205 tests, and OpenCode Desktop findings checked against upstream. Between 10/26 and 10/29, field reports found no accuracy gain from REA on small programs or across 20 programs, and a plugin appeared that compresses 207 tools into 3 entry points, so cost and real benefit are now being questioned. Game and legacy-software preservation continued and extended to drones and smart bulbs; by 10/30 there was just one tutorial item, a clear cooldown.",
-        "watch": "Over the next few days, watch whether stars stay flat near 407k and whether more cases with tests and byte-level comparisons appear. Opportunities lie in verification tooling (differential tests, evidence, honest grading), porting and migrating old games and legacy software, and integrations that cut token and tool overhead. Posts based only on author claims remain low-credibility and need independent checking."
+        "headline": "REA keeps growing, but focus shifts from cloning to verifying",
+        "summary": "Early in the week, open-source recreations of the Claude desktop app and Arc showed that client-side code is no longer a moat (A). Mid-week, cases spread from games (an MSX port, byte-exact DX-Ball sound recovery) to hardware such as drones, light bulbs and appliances (D). Later the emphasis moved to verification: rewrites backed by tests (OpenCode Desktop with 8 tests, PowerToys checked against source) drew attention, while independent experiments (20 programs, GitTested) found no accuracy advantage from REA on small programs, only added cost. Many popular posts remain self-reported without evidence, so a credibility gap persists, and star growth slowed sharply after 400k (only +575 on 10/30).",
+        "watch": "Over the next few days, watch whether star growth stays below earlier daily gains and whether more cases appear with differential tests and byte-level comparisons; these are the likeliest to become credible templates. Opportunities lie in verification and comparison tooling, integrations that cut tool overhead (such as compressing 207 tools into 3 entry points), and legitimate ports or interoperability for legacy software and hardware. Stay skeptical of popular posts that offer only a claim and no evidence."
       },
       "zh-CN": {
-        "headline": "REA 从展示复刻走向可验证成果，同时开始反思成本与实效",
-        "summary": "本周初期（10/24）以 Claude 桌面端、Arc 被开源复刻为主，说明前端代码和功能很容易被快速复制，硬件案例（Tesla CarPlay 盒子、电热水壶）也同步出现。10/25 起焦点转向可验证成果，例如 G*Power 净室重写 245/245 字段吻合、Clamp 插件移植到 macOS，随后 MSX 移植（207 个命令点逐字节一致）、DX-Ball 音效还原（3205 个测试全过）、OpenCode Desktop 对照上游验证等案例接连出现。10/26 至 10/29 另有实测指出在小型程序或 20 个程序上 REA 未带来准确度优势，并出现把 207 个工具压成 3 个入口的插件，显示成本与实效开始被反思。游戏与旧软件保存持续出现，并延伸到无人机、灯泡等硬件；10/30 只剩 1 项教程文章，热度明显回落。",
-        "watch": "接下来几天可留意星数增长是否持续停在 40.7 万附近，以及是否再出现附测试、逐字节比对的案例。有机会的方向是验证工具（差异测试、证据与诚实评分）、老游戏与旧软件的移植迁移，以及能降低 token 和工具负担的集成；仅凭作者自述的帖子可信度仍低，需自行核实。"
+        "headline": "REA 热度续增，焦点从“能复制”转向“能验证”",
+        "summary": "本周前段以 Claude 桌面端、Arc 被开源重现为代表，凸显前端代码不再是护城河（A）。中段案例从游戏（MSX 移植、DX-Ball 音效逐字节还原）扩及无人机、灯泡和家电等硬件（D）。后段重心转到验证：附测试的重写（OpenCode Desktop 8 项测试、PowerToys 对照源码）受到重视，而独立实验（20 个程序、GitTested）指出 REA 在小型程序上没有准确度优势，只增加成本。同时不少热门帖子只有作者自述，使可信度落差持续存在，星数在 40 万后增速也明显放缓（10/30 仅增 575）。",
+        "watch": "接下来几天可留意 REA 星数增速是否持续低于前几日，以及是否出现更多附差异测试、逐字节比对的案例，这类项目最有机会成为可信范本。有机会的方向包括验证与比对工具、降低工具负担的集成（如把 207 个工具压成 3 个入口），以及老软件与硬件的合法移植或互通。对只有自述、缺乏证据的热门帖子应保持保留态度。"
       }
     },
     "rising": [
       "B",
-      "G",
-      "C"
+      "G"
     ],
     "fading": [
-      "A",
       "E"
     ],
     "tally": {
-      "A": 3,
-      "B": 5,
+      "A": 4,
+      "B": 6,
       "C": 3,
       "D": 2,
       "E": 0,
-      "F": 1,
-      "G": 5
+      "F": 2,
+      "G": 4
     }
   }
 }

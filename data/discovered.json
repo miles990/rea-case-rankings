@@ -38441,6 +38441,35 @@
   "runs": [
     {
       "date": "2026-10-29",
+      "added": 0,
+      "stats": {
+        "githubShowAndTell": 15,
+        "githubRepos": 235,
+        "githubCode": 46,
+        "hackerNews": 24,
+        "qiita": 43,
+        "devto": 150,
+        "juejin": 1,
+        "reddit": "error: 429 reddit rss",
+        "v2ex": 12,
+        "youtube": 90,
+        "bluesky": 162,
+        "mastodon": 160,
+        "exaWeb": 44,
+        "x": 0
+      },
+      "scoring": {
+        "scored": 0,
+        "jev": {
+          "low": 0,
+          "irrelevant": 0,
+          "errors": 0,
+          "toClaude": 0
+        }
+      }
+    },
+    {
+      "date": "2026-10-29",
       "added": 1,
       "stats": {
         "githubShowAndTell": 15,
@@ -39291,36 +39320,7 @@
           "toClaude": 7
         }
       }
-    },
-    {
-      "date": "2026-10-16",
-      "added": 114,
-      "stats": {
-        "githubShowAndTell": 12,
-        "githubRepos": 221,
-        "githubCode": 43,
-        "hackerNews": 23,
-        "qiita": 29,
-        "devto": 150,
-        "juejin": 22,
-        "reddit": 60,
-        "v2ex": 5,
-        "youtube": 90,
-        "bluesky": 152,
-        "mastodon": 160,
-        "exaWeb": 57,
-        "x": 28
-      },
-      "scoring": {
-        "scored": 69,
-        "jev": {
-          "low": 36,
-          "irrelevant": 9,
-          "errors": 0,
-          "toClaude": 69
-        }
-      }
     }
   ],
-  "updatedAt": "2026-10-29T23:58:37.541Z"
+  "updatedAt": "2026-10-30T00:06:21.383Z"
 }

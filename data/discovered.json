@@ -47,6 +47,42 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://www.reddit.com/r/melbourne/comments/1j04ujo/a_question_for_anyone_who_works_at_rea/",
+      "title": "A question for anyone who works at REA : r/melbourne",
+      "source": "Reddit r/melbourne",
+      "found": "2026-10-30",
+      "relevant": false,
+      "scored": "2026-10-30",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://www.reddit.com/r/AusFinance/comments/10i55g0/rea_amateur_hour_tactic/",
+      "title": "REA amateur hour tactic : r/AusFinance",
+      "source": "Reddit r/AusFinance",
+      "found": "2026-10-30",
+      "relevant": false,
+      "scored": "2026-10-30",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://www.reddit.com/r/Digital_Real_Estate/comments/sbr3ot/our_users/",
+      "title": "Our users : r/Digital_Real_Estate",
+      "source": "Reddit r/Digital_Real_Estate",
+      "found": "2026-10-30",
+      "relevant": false,
+      "scored": "2026-10-30",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://www.reddit.com/r/motogp/comments/auhkp2/ot_called_out_rea_for_saying_this_our_bike_is_an/",
+      "title": "[OT] Called out Rea for saying this: \"Our bike is an 18,000 Euro bike from a shop. We need to keep Superbike as simple a",
+      "source": "Reddit r/motogp",
+      "found": "2026-10-30",
+      "relevant": false,
+      "scored": "2026-10-30",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://youtu.be/fn16fFbe-Go",
       "title": "REA는 어떻게 소스 없는 프로그램을 증거로 리버스 엔지니어링하나",
       "author": "아프니까 개발자다",
@@ -38507,6 +38543,35 @@
   "runs": [
     {
       "date": "2026-10-30",
+      "added": 4,
+      "stats": {
+        "githubShowAndTell": 15,
+        "githubRepos": 232,
+        "githubCode": 46,
+        "hackerNews": 21,
+        "qiita": 43,
+        "devto": 150,
+        "juejin": 0,
+        "reddit": 20,
+        "v2ex": 12,
+        "youtube": 90,
+        "bluesky": 162,
+        "mastodon": 160,
+        "exaWeb": 57,
+        "x": 0
+      },
+      "scoring": {
+        "scored": 4,
+        "jev": {
+          "low": 0,
+          "irrelevant": 0,
+          "errors": 0,
+          "toClaude": 4
+        }
+      }
+    },
+    {
+      "date": "2026-10-30",
       "added": 1,
       "stats": {
         "githubShowAndTell": 15,
@@ -39357,36 +39422,7 @@
           "toClaude": 48
         }
       }
-    },
-    {
-      "date": "2026-10-17",
-      "added": 31,
-      "stats": {
-        "githubShowAndTell": 12,
-        "githubRepos": 220,
-        "githubCode": 42,
-        "hackerNews": 19,
-        "qiita": 31,
-        "devto": 150,
-        "juejin": 0,
-        "reddit": "error: 429 reddit rss",
-        "v2ex": 7,
-        "youtube": 90,
-        "bluesky": 157,
-        "mastodon": 160,
-        "exaWeb": 28,
-        "x": 26
-      },
-      "scoring": {
-        "scored": 22,
-        "jev": {
-          "low": 7,
-          "irrelevant": 2,
-          "errors": 0,
-          "toClaude": 22
-        }
-      }
     }
   ],
-  "updatedAt": "2026-10-30T00:24:32.466Z"
+  "updatedAt": "2026-10-30T00:51:39.314Z"
 }

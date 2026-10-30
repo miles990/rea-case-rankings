@@ -47,6 +47,27 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://youtu.be/fn16fFbe-Go",
+      "title": "REA는 어떻게 소스 없는 프로그램을 증거로 리버스 엔지니어링하나",
+      "author": "아프니까 개발자다",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 120,
+      "lang": "ko",
+      "found": "2026-10-30",
+      "relevant": true,
+      "title_zh": "YouTube 影片介紹 REA 如何以證據輔助 AI 逆向無原始碼程式",
+      "summary": "韓文 YouTube 影片，講解 REA 的核心理念：不把 LLM 當成聰明的逆向工程師，而是讓代理附上「證據」來分析沒有原始碼的程式。節錄內容僅有概念性介紹，未顯示針對具體目標的實測或成果。",
+      "target": "REA 的證據式逆向工程方法（無具體目標）",
+      "metric": "無具體成果，僅為概念介紹",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-10-30",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://bsky.app/profile/shepcommandr.bsky.social/post/3myxxtuvmn222",
       "title": "Half baked posts…maybe I’m ai.",
       "author": "shepcommandr.bsky.social",
@@ -38486,6 +38507,35 @@
   "runs": [
     {
       "date": "2026-10-30",
+      "added": 1,
+      "stats": {
+        "githubShowAndTell": 15,
+        "githubRepos": 234,
+        "githubCode": 46,
+        "hackerNews": 26,
+        "qiita": 43,
+        "devto": 150,
+        "juejin": 0,
+        "reddit": "error: 429 reddit rss",
+        "v2ex": 12,
+        "youtube": 90,
+        "bluesky": 162,
+        "mastodon": 160,
+        "exaWeb": 56,
+        "x": 0
+      },
+      "scoring": {
+        "scored": 1,
+        "jev": {
+          "low": 0,
+          "irrelevant": 0,
+          "errors": 0,
+          "toClaude": 1
+        }
+      }
+    },
+    {
+      "date": "2026-10-30",
       "added": 2,
       "stats": {
         "githubShowAndTell": 15,
@@ -39336,36 +39386,7 @@
           "toClaude": 22
         }
       }
-    },
-    {
-      "date": "2026-10-17",
-      "added": 74,
-      "stats": {
-        "githubShowAndTell": 12,
-        "githubRepos": 218,
-        "githubCode": 43,
-        "hackerNews": 23,
-        "qiita": 31,
-        "devto": 150,
-        "juejin": 3,
-        "reddit": 60,
-        "v2ex": 7,
-        "youtube": 90,
-        "bluesky": 156,
-        "mastodon": 160,
-        "exaWeb": 30,
-        "x": 30
-      },
-      "scoring": {
-        "scored": 46,
-        "jev": {
-          "low": 23,
-          "irrelevant": 5,
-          "errors": 0,
-          "toClaude": 46
-        }
-      }
     }
   ],
-  "updatedAt": "2026-10-30T00:13:24.561Z"
+  "updatedAt": "2026-10-30T00:24:32.466Z"
 }

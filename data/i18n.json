@@ -16123,5 +16123,230 @@
       "target": "REA 自我学习 skill(Speedrunlab)",
       "metric": "公开 GitHub repo:reverse-engineer-anything-self-learning-loop"
     }
+  },
+  "d-debe9dcba2": {
+    "hash": "18b20168394a",
+    "en": {
+      "title": "Statically Analyzing My Own Electron App with the REA CLI",
+      "summary": "On their first reverse-engineering attempt, the author unpacked app.asar from their own Electron deadline-management app and ran static analysis with REA. It surfaced the IPC channels, outbound communication and window security settings, with evidence such as line numbers.",
+      "target": "Deadline Detector (Electron app)",
+      "metric": "55 IPC channels, a 338-node/475-edge structure graph, 180 findings, no outbound sends to unknown destinations"
+    },
+    "zh-CN": {
+      "title": "用 REA CLI 静态分析自己售卖的 Electron 应用",
+      "summary": "作者首次尝试逆向，对自家 Electron 截止日期管理应用解包 app.asar，用 REA 做静态分析。得出 IPC 通道、对外通信与窗口安全设置等结构，并附行号等证据。",
+      "target": "Deadline Detector（Electron 应用）",
+      "metric": "55 个 IPC 通道、338 节点 475 边的结构图、180 项检出，无目的地不明的发送"
+    }
+  },
+  "d-88ca7ded7c": {
+    "hash": "631ec6c715c2",
+    "en": {
+      "title": "Building an Evidence Chain for Frontend Acceptance with REA, Raising Detail Experience from 20 to 60",
+      "summary": "The author uses REA as an acceptance tool after AI edits a frontend, checking each item against pre-defined criteria so the AI can't claim completion just because the build passes. They share the overall methodology and say the site's detail experience rose from about 20 to 60.",
+      "target": "Author's own website frontend (acceptance workflow)",
+      "metric": "Self-rated detail experience up from 20 to 60"
+    },
+    "zh-CN": {
+      "title": "用 REA 建立前端网站验收证据链，将细节体验从 20 分提升到 60 分",
+      "summary": "作者以 REA 作为 AI 修改前端后的验收工具，对照事先制定的标准逐项检查，避免 AI 仅凭构建通过就宣称完成。作者分享整体方法论，并自述网站细节体验从约 20 分提升到 60 分。",
+      "target": "自己开发的网站前端（验收流程）",
+      "metric": "网站细节体验自评由 20 分提升到 60 分"
+    }
+  },
+  "d-7215c82111": {
+    "hash": "53e60da20767",
+    "en": {
+      "title": "Reverse-Engineering Dwarf Fortress with REA Plus Agent Elements, First Results Overnight",
+      "summary": "The author set REA to reverse-engineer Dwarf Fortress with Agent elements before going to sleep and had output by morning. They admit it is still a long way from presentable quality, saying only a screen recording could be shown. No concrete evidence or details are provided.",
+      "target": "Dwarf Fortress",
+      "metric": "Preliminary results produced automatically overnight (author says 99% remains before it is presentable)"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向矮人要塞并加入 Agent 元素，一夜产出初步成果",
+      "summary": "作者睡前让 REA 对《矮人要塞》做逆向并引入 Agent 元素，早上就有产出。作者自承距离可展示的质量还有很长的路，仅提到录屏即可展示。内容没有提供具体证据或细节。",
+      "target": "矮人要塞（Dwarf Fortress）",
+      "metric": "一夜自动产出初步成果（作者自述尚需 99% 才达可展示质量）"
+    }
+  },
+  "d-30f89202fa": {
+    "hash": "779ab1c52fbc",
+    "en": {
+      "title": "REA Reverse Engineering Course Reading Slides (Study Notes)",
+      "summary": "A GitHub repo containing only index.html, holding reading slides and study notes for an REA reverse engineering course. The excerpt names no specific reverse-engineering target or result, and the repo has no stars or forks.",
+      "target": "REA reverse engineering course (teaching notes)",
+      "metric": "Single index.html, 4 commits"
+    },
+    "zh-CN": {
+      "title": "REA 逆向课程阅读简报（学习笔记）",
+      "summary": "这是一个只有 index.html 的 GitHub 仓库，内容是 REA 逆向课程的阅读简报与学习笔记。节选中没有具体逆向目标或成果，无 star 与 fork。",
+      "target": "REA 逆向课程（教学笔记）",
+      "metric": "单个 index.html，4 次提交"
+    }
+  },
+  "d-fc17c31b95": {
+    "hash": "cafee3025d99",
+    "en": {
+      "title": "REA From Scratch: Install Tiers and a Roundup of the Three Official Cases",
+      "summary": "A Chinese-language tutorial explaining that REA is an MCP service, with the tools to install split into four tiers by target type. It summarizes the three official cases: DX-Ball sound-panning calculation, the Notion clipboard bridge, and the TH04 bullet-curtain ring. These results are relayed from the official materials, not the author's own testing.",
+      "target": "REA itself and the official cases (DX-Ball, Notion, TH04)",
+      "metric": "Relays that the DX-Ball reconstruction passed 3,205 x86 test cases"
+    },
+    "zh-CN": {
+      "title": "REA 从零开始教程:安装分级与官方三个案例整理",
+      "summary": "这是一篇中文教程,说明 REA 是 MCP 服务,并按目标类型分四档介绍需要安装的工具。文中整理了官方案例:DX-Ball 声像计算、Notion 剪贴板桥、TH04 弹幕环。这些成果转述自官方,并非作者亲自实测。",
+      "target": "REA 工具本身与官方案例(DX-Ball、Notion、TH04)",
+      "metric": "转述 DX-Ball 重建通过 3,205 个 x86 测试用例"
+    }
+  },
+  "d-39f1caea64": {
+    "hash": "a33a837db515",
+    "en": {
+      "title": "Curated Roundup Page of REA Use Case Categories",
+      "summary": "A categorized page collecting multiple REA cases, including Notion Electron clipboard reverse engineering, TCL BrowseHere analysis and a Sofa TV Browser alternative, the untangle reconstruction, the DX-Ball reconstruction, the ZWO ASIAIR firmware investigation, a Bluetooth smart-toilet remote, QShare-linux, and more. It is an index itself, with brief descriptions of each case.",
+      "target": "Multiple targets (Notion, TCL BrowseHere, DX-Ball, ZWO ASIAIR, etc.)",
+      "metric": "Compiles over 10 cases; the DX-Ball reconstruction has original-x86 differential tests and byte-exact comparison"
+    },
+    "zh-CN": {
+      "title": "REA 使用案例分类精选汇总页",
+      "summary": "汇总多个 REA 案例的分类页,包括 Notion Electron 剪贴板逆向、TCL BrowseHere 分析与 Sofa TV Browser 替代品、untangle 重建、DX-Ball 重建、ZWO ASIAIR 固件调查、蓝牙马桶遥控器、QShare-linux 等。页面本身是索引,内容为各案例的简述。",
+      "target": "多个目标(Notion、TCL BrowseHere、DX-Ball、ZWO ASIAIR 等)",
+      "metric": "汇总超过 10 个案例,其中 DX-Ball 重建有 original-x86 差分测试与字节级精确比对"
+    }
+  },
+  "d-d7859fb373": {
+    "hash": "a149fb944eb5",
+    "en": {
+      "title": "Notes on Using REA to Reverse Engineer My Own App and Ship It",
+      "summary": "The author tested REA on their own app and published the result. The excerpt only explains that REA lets a coding agent drive Ghidra and Hopper in natural language, but does not recover source code, and setup takes a single command. There are no concrete reverse engineering results to verify.",
+      "target": "The author's own app",
+      "metric": "REA does not recover source code; one command to set up"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向自己的 App 并上线的使用心得",
+      "summary": "作者拿自己的 App 测试 REA,并把结果发布上线。节选内容只说明 REA 让 coding agent 以自然语言驱动 Ghidra、Hopper,但不会还原源代码,设置只需一条命令。没有可验证的具体逆向成果。",
+      "target": "作者自己的 App",
+      "metric": "REA 不还原源代码,一条命令即可设置"
+    }
+  },
+  "d-ec65415f70": {
+    "hash": "1bb5e6e7d86a",
+    "en": {
+      "title": "Rebuilding DX-Ball function by function with REA and diffing against the original x86",
+      "summary": "Using REA, functions were recovered from the 1996 DX-Ball executable, rewritten one by one in C, and differential-tested against the original x86 code. For example, the audio left/right channel balance function, when recompiled with the period-era compiler, produced byte-for-byte identical output.",
+      "target": "DX-Ball 1.07 (1996 Windows game)",
+      "metric": "55 functions rewritten, 45,380 comparison checks, 33 functions byte-identical"
+    },
+    "zh-CN": {
+      "title": "用 REA 逐函数重建 DX-Ball 并与原版 x86 逐项比对",
+      "summary": "借助 REA 从 1996 年的 DX-Ball 可执行文件中恢复函数,逐一用 C 重写,并与原始 x86 代码做差分测试。以音效左右声道平衡函数为例,用当年的编译器重新编译后,字节完全一致。",
+      "target": "DX-Ball 1.07(1996 年 Windows 游戏)",
+      "metric": "重写 55 个函数、45,380 项对照检查、33 个函数字节级完全一致"
+    }
+  },
+  "d-7f56d47e06": {
+    "hash": "b284d7472062",
+    "en": {
+      "title": "Installing Linux on an old Lenovo Smart Display with REA, then writing a hardware SDK and app",
+      "summary": "The author used REA to get Linux running on a Lenovo Smart Display that had sat idle for nearly 8 years and was slow and unstable. They then wrote a C SDK that controls every hardware component, and, building on the Codex source code, made a C application that uses GPT Live.",
+      "target": "Lenovo Smart Display",
+      "metric": "Linux installed successfully; C SDK controlling all hardware components and an application completed"
+    },
+    "zh-CN": {
+      "title": "用 REA 在旧款 Lenovo Smart Display 上安装 Linux 并编写硬件 SDK 与 App",
+      "summary": "作者借助 REA,让闲置近 8 年、又慢又不稳定的 Lenovo Smart Display 装上了 Linux。随后编写了用 C 控制所有硬件组件的 SDK,并以 Codex 源代码为基础,做出了使用 GPT Live 的 C 语言应用。",
+      "target": "Lenovo Smart Display(智能显示器)",
+      "metric": "成功安装 Linux,并完成控制全部硬件组件的 C SDK 与应用"
+    }
+  },
+  "d-ff45bb6757": {
+    "hash": "7478697b2c15",
+    "en": {
+      "title": "Reverse-engineering pccc24.com with REA and fully migrating it to WordPress",
+      "summary": "The target was pccc24.com, built on CodeIgniter 4 + React. After analyzing it with rea-agents, the author rebuilt it with a custom plugin and theme, and wrote an automated migration script plus Playwright E2E tests. Reconciliation matched 15/15 items, E2E passed 40/40, and a live demo is available.",
+      "target": "pccc24.com (CodeIgniter 4 + React site)",
+      "metric": "Migration reconciliation 15/15 items matched (385 products), E2E 40/40 passed"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向 pccc24.com 并完整迁移到 WordPress",
+      "summary": "目标是基于 CodeIgniter 4 + React 的 pccc24.com 网站。作者用 rea-agents 分析后,以自定义插件和主题重建,并编写了自动迁移脚本与 Playwright E2E 测试。对账 15/15 项一致,E2E 40/40 通过,并提供在线 Demo。",
+      "target": "pccc24.com(CodeIgniter 4 + React 网站)",
+      "metric": "迁移对账 15/15 项一致(385 个产品),E2E 40/40 通过"
+    }
+  },
+  "d-e3b7c4e9cb": {
+    "hash": "b709a74f445c",
+    "en": {
+      "title": "Analyzing \"Ao Oni\" with REA and recreating it in a custom engine",
+      "summary": "REA and Ghidra were used for static analysis of the game executable, an LLM produced a game specification from it, and the game was then recreated in a custom engine, KaniVolcanoEngine. The result is quite close to the original, though it was not compared by running or testing against it.",
+      "target": "Ao Oni (Windows game) and a custom 2D shooter",
+      "metric": "Analysis plus spec about 15 minutes, engine implementation about 1 hour, about 4400 lines of code"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析《青鬼》并以自制引擎重现",
+      "summary": "使用 REA 搭配 Ghidra 对游戏可执行文件做静态分析,让 LLM 产出游戏规格书,再用自制引擎 KaniVolcanoEngine 重现。最终做出的游戏与原版相当接近,但未做运行或实测比对。",
+      "target": "青鬼(Windows 游戏)与自制 2D 射击游戏",
+      "metric": "分析加规格书约 15 分钟、引擎实现约 1 小时、约 4400 行代码"
+    }
+  },
+  "d-2a7bb3f0bd": {
+    "hash": "17b4c1a5955e",
+    "en": {
+      "title": "REA finds an Electron app's hidden network call in 30 seconds",
+      "summary": "The author built a test app with 1 window, 1 preload, 3 bridge functions, 3 private channels, and 1 hidden network call, without telling REA any of the details. REA found the hidden call in about 30 seconds and supplied a proof file; every number matched.",
+      "target": "Author-built Electron test app",
+      "metric": "Hidden network call found in 30 seconds; all numbers and settings matched exactly"
+    },
+    "zh-CN": {
+      "title": "REA 在 30 秒内找出作者暗藏于 Electron 应用中的网络调用",
+      "summary": "作者自制了一个包含 1 个窗口、1 个 preload、3 个 bridge 函数、3 个私有通道和 1 个隐藏网络调用的应用,且未向 REA 透露任何细节。REA 约 30 秒就找出隐藏调用并附上证明文件,所有数字都吻合。",
+      "target": "作者自制的测试用 Electron 应用",
+      "metric": "30 秒找出隐藏网络调用,所有数字与配置完全吻合"
+    }
+  },
+  "d-72effd7e39": {
+    "hash": "4ad9d0306e6c",
+    "en": {
+      "title": "Using REA to rebuild vendor-abandoned software and help a real client",
+      "summary": "The author handed a program its vendor no longer updates to REA for automated teardown and reconstruction, and says the result genuinely helped a client. The post also covers REA's MIT license, 200+ tools, integration with Ghidra/IDA/JADX/Frida, and its conclusions, which come with evidence ranges and stated limitations.",
+      "target": "Vendor-abandoned software (unnamed)",
+      "metric": "Rebuilt abandoned software and delivered it to a client for real use"
+    },
+    "zh-CN": {
+      "title": "用 REA 重构厂商停止更新的软件并切实帮助客户",
+      "summary": "作者将一个厂商不再更新的程序交给 REA 自动拆解重构,并表示成果对客户有实际帮助。内容另介绍了 REA 的 MIT 许可、200 多个工具、与 Ghidra/IDA/JADX/Frida 的集成,以及结论附带证据区间与局限说明的特点。",
+      "target": "厂商不再更新的软件(未具名)",
+      "metric": "重构停更软件并实际交付客户使用"
+    }
+  },
+  "d-3dc971ce2d": {
+    "hash": "63286c933cd8",
+    "en": {
+      "title": "Reverse-engineering an ISP app's API to health-check and auto-reboot an ONT from the router",
+      "summary": "The ONT slows down after running for a long time, and the ISP's app only allows manual reboots, so the author used REA to reverse-engineer the app. What came out is an API pushed down from the ISP's central system, valid only for that subscriber. Based on it, the author built a health check on the router: an AI judges network problems and then calls the API to reboot the ONT automatically.",
+      "target": "ISP-provided ONT management app API",
+      "metric": "Reverse-engineered the ISP API and implemented automatic ONT reboot on the router"
+    },
+    "zh-CN": {
+      "title": "逆向 ISP App 接口,在路由器上做光猫健康检查与自动重启",
+      "summary": "光猫长时间运行会变慢,而 ISP 的 App 只能手动重启,作者因此用 REA 逆向该 App。逆向出的是 ISP 中心下发的接口,只对该用户有效。作者据此在路由器上做了健康度检查,由 AI 判断网络问题后调用接口让光猫自动重启。",
+      "target": "ISP 提供的光猫管理 App 接口",
+      "metric": "逆向出 ISP 接口并实现路由器自动重启光猫"
+    }
+  },
+  "d-657ad1be8c": {
+    "hash": "320c1e918e35",
+    "en": {
+      "title": "Roundup of official REA cases plus an independent test tracing an Electron export feature",
+      "summary": "Collects three official cases (DX-Ball, Notion, TH04) and adds an independent, reproducible test by Kingy AI: static analysis of the CSV export feature in an Electron sample, tracing the full call path. The rebuilt formatter matches the reference implementation byte for byte across 14 declared cases, with a note that results hold at the feature level only.",
+      "target": "DX-Ball, Notion, TH04, and the notes-example Electron sample",
+      "metric": "DX-Ball: 3,205 cases passed with 63 bytes identical; independent test: 14 cases byte-identical, analysis in about 1.3 seconds"
+    },
+    "zh-CN": {
+      "title": "REA 官方案例汇总与独立测试:Electron 导出功能追踪",
+      "summary": "整理了 DX-Ball、Notion、TH04 三个官方案例,并附上 Kingy AI 的独立可复现测试:对 Electron 示例的 CSV 导出功能做静态分析,追出完整调用路径。重建的格式化程序在 14 个声明案例中与参考实现逐字节一致,并注明结果仅限功能层面。",
+      "target": "DX-Ball、Notion、TH04 与 notes-example Electron 示例",
+      "metric": "DX-Ball 3,205 个案例通过且 63 字节一致;独立测试 14 个案例逐字节一致、分析约 1.3 秒"
+    }
   }
 }

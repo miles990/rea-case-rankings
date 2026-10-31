@@ -15703,5 +15703,425 @@
       "target": "REA 的图形化/可解释界面(Reall)",
       "metric": "在 REA 之上加入证据可见、可验证的界面"
     }
+  },
+  "d-474b5abe98": {
+    "hash": "0b60e893ea84",
+    "en": {
+      "title": "Testing REA's Malware Analysis on a Harmless Simulated Ransomware",
+      "summary": "Curious how REA would handle ransomware, the author tested this popular GitHub tool with a harmless simulated sample instead. The takeaway is that AI is rapidly changing how malware analysis is done, but the excerpt lists no specific findings or evidence.",
+      "target": "Harmless simulated ransomware sample",
+      "metric": "Conclusion: AI is rapidly changing malware analysis"
+    },
+    "zh-CN": {
+      "title": "用无害的模拟勒索软件测试 REA 的恶意程序分析能力",
+      "summary": "作者好奇 REA 面对勒索软件时会如何，于是改用无害的模拟样本来测试这个热门 GitHub 工具。结论是 AI 正在快速改变恶意程序分析的方式，但摘录中没有列出具体发现或证据。",
+      "target": "无害的勒索软件模拟样本",
+      "metric": "结论：AI 正在快速改变恶意程序分析"
+    }
+  },
+  "d-12da957145": {
+    "hash": "51d089222135",
+    "en": {
+      "title": "Introducing a Two-Agent Workflow: REA Writes a Behavioral Spec, Another Agent Rebuilds the Software From It",
+      "summary": "The first agent opens the app with REA and writes a behavioral spec with file and function references; the second agent rebuilds from the spec alone, never touching the original code, and the two are then compared side by side. This is a methodology description and names no specific target or results.",
+      "target": "Generic software rebuild workflow (Opus 5.5 + REA)",
+      "metric": "Two-agent isolation: the builder never saw the original"
+    },
+    "zh-CN": {
+      "title": "介绍双代理流程：用 REA 编写行为规格，再由另一个代理按规格重建软件",
+      "summary": "第一个代理用 REA 打开应用，并写出附带文件和函数引用的行为规格；第二个代理只依据规格重建，不接触原始代码，最后并排比较。内容为方法说明，未指明具体目标与成果。",
+      "target": "通用的软件重建流程（Opus 5.5 + REA）",
+      "metric": "双代理隔离：构建者从未见过原版"
+    }
+  },
+  "d-f27838f8ca": {
+    "hash": "a6af07e7b915",
+    "en": {
+      "title": "Reverse Lab: A Token-Saving Reversing Bot That Triages First, Then Escalates to GhidraMCP",
+      "summary": "Reverse Lab starts with a quick triage, routes by target type, and escalates to GhidraMCP only at the end, avoiding a full decompile up front. The approach is adapted from leanrea, and the author has also built a full Clean Room bot for REA. This is only a tool introduction, with no results on a specific target.",
+      "target": "Reverse Lab bot (adapted from leanrea)",
+      "metric": "Method: triage, route, and use GhidraMCP only as a last step"
+    },
+    "zh-CN": {
+      "title": "Reverse Lab：先分流再升级到 GhidraMCP 的省 token 逆向机器人",
+      "summary": "Reverse Lab 先做初步分流，按目标类型路由，最后才升级到 GhidraMCP，避免一开始就全面反编译。该方法改编自 leanrea，作者另外还为 REA 构建了完整的 Clean Room 机器人。内容仅为工具介绍，没有针对具体目标的成果。",
+      "target": "Reverse Lab 机器人（改编自 leanrea）",
+      "metric": "方法：分流、路由、最后才使用 GhidraMCP"
+    }
+  },
+  "d-91542962bc": {
+    "hash": "acd41c06a324",
+    "en": {
+      "title": "Clean Room: Driving REA to Produce a Behavior-Only SPEC.md and Rebuild From It",
+      "summary": "The tool drives REA to trace the real path from user action to outcome, labeling each claim as observed, inferred, or unknown with evidence. It then writes a behavior-only SPEC.md, which a reviewer checks before PROMPT.md is used to rebuild in one pass. The post describes only the process and shows no results on a specific target.",
+      "target": "Clean Room (REA-driven spec and rebuild workflow)",
+      "metric": "SPEC.md workflow with observed/inferred/unknown labels and evidence citations"
+    },
+    "zh-CN": {
+      "title": "Clean Room：驱动 REA 产出仅含行为的 SPEC.md 并据此重建",
+      "summary": "该工具驱动 REA 追踪从用户操作到结果的真实路径，并将每项主张标记为观察、推断或未知，同时附上证据。随后写出只含行为的 SPEC.md，经评审检查后，用 PROMPT.md 一次性重建。帖子只描述了流程，未展示针对具体目标的成果。",
+      "target": "Clean Room（由 REA 驱动的规格与重建流程）",
+      "metric": "带有观察／推断／未知标注及证据引用的 SPEC.md 流程"
+    }
+  },
+  "d-4871f45d26": {
+    "hash": "3910b8f25e3f",
+    "en": {
+      "title": "Reverse-engineering Claude Desktop with the REA method to build an open-source alternative",
+      "summary": "The target is Claude Desktop. The author applied morluto's \"Reverse Engineer Anything\" method and claims to have produced an open-source alternative that works with any local or cloud model, but the excerpt provides no supporting evidence.",
+      "target": "Claude Desktop",
+      "metric": "Open-source alternative supporting any local or cloud model"
+    },
+    "zh-CN": {
+      "title": "用 REA 方法逆向 Claude Desktop，做出开源替代品",
+      "summary": "目标是 Claude Desktop。作者采用 morluto 的“Reverse Engineer Anything”方法进行逆向，并声称产出了可搭配任意本地或云端模型的开源替代品，但节选中未附证据细节。",
+      "target": "Claude Desktop",
+      "metric": "开源替代品，支持任意本地或云端模型"
+    }
+  },
+  "d-c5567e2294": {
+    "hash": "57a531c22a87",
+    "en": {
+      "title": "Rebuilding ReUI, Lighthouse, Context7 and Infimium as MCP servers via REA reverse engineering",
+      "summary": "The targets are four web development platforms: the ReUI component library, Google Lighthouse, Context7 and Infimium. After analyzing them with REA, the author rebuilt each as a self-hostable microservice and MCP server, with a Docker Compose deployment blueprint, plus an SEO agent suite reverse-engineered from claude-seo. The excerpt includes no tests or validation data comparing the rebuilds against the originals.",
+      "target": "ReUI, Google Lighthouse, Context7, Infimium",
+      "metric": "4 platforms rebuilt, with a unified Docker Compose deployment"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向重建 ReUI、Lighthouse、Context7、Infimium 并做成 MCP 服务器",
+      "summary": "目标是四个网页开发平台，包括 ReUI 组件库、Google Lighthouse、Context7 与 Infimium。作者用 REA 分析后，将其重建为可自托管的微服务与 MCP 服务器，并附 Docker Compose 部署蓝图，另有一套逆向自 claude-seo 的 SEO 代理套件。节选中没有与原版对照的测试或验证数据。",
+      "target": "ReUI、Google Lighthouse、Context7、Infimium",
+      "metric": "重建 4 个平台，并提供统一的 Docker Compose 部署"
+    }
+  },
+  "d-d78c76dda9": {
+    "hash": "b7881605bff2",
+    "en": {
+      "title": "Reverse-engineering claude-seo with REA into a three-platform SEO and GEO agent suite",
+      "summary": "The author used REA v6.7.0 to analyze AgriciDaniel/claude-seo and extended it into a suite supporting Antigravity, Codex and Claude Code, with 60+ analysis tools, an MCP server and SQLite drift tracking. The repository has a directory layout and evidence-ledger documents, but the excerpt shows no test results or comparison with the original.",
+      "target": "AgriciDaniel/claude-seo (Claude Code SEO plugin)",
+      "metric": "26 Antigravity skills, 19 Claude Code agent configs, 60+ Python analysis tools"
+    },
+    "zh-CN": {
+      "title": "以 REA 逆向 claude-seo，打造跨三平台的 SEO 与 GEO 代理套件",
+      "summary": "作者用 REA v6.7.0 分析 AgriciDaniel/claude-seo，并扩展为支持 Antigravity、Codex 与 Claude Code 的套件，包含 60 多个分析工具、MCP 服务器与 SQLite 漂移追踪。仓库中有目录结构与证据账本文档，但节选没有测试或与原版的对照结果。",
+      "target": "AgriciDaniel/claude-seo（Claude Code SEO 插件）",
+      "metric": "26 个 Antigravity 技能、19 个 Claude Code 代理配置、60 多个 Python 分析工具"
+    }
+  },
+  "d-f7c0cba113": {
+    "hash": "1ee9ee5971c1",
+    "en": {
+      "title": "Analyzing a stripped binary with 300 parallel agents using REA, with evidence statistics",
+      "summary": "The input is a symbol-stripped binary. REA gathers evidence in a loop of strings, cross-references, decompilation and runtime testing rather than guessing. The author lists 893 string references traced, 711 call-graph edges resolved and 1,548 constants checked. The specific target and any verifiable output are not described.",
+      "target": "Unnamed stripped binary",
+      "metric": "893 string references, 711 call-graph edges, 1,548 constants checked"
+    },
+    "zh-CN": {
+      "title": "以 300 个 agent 并行用 REA 分析 stripped binary，产出证据统计",
+      "summary": "输入为去除符号的二进制文件，REA 通过字符串、交叉引用、反编译、运行时测试的循环收集证据，而非凭空猜测。作者列出追溯 893 个字符串引用、解析 711 条调用图边、核对 1,548 个常量。未说明具体目标与可验证的产出。",
+      "target": "未具名的 stripped binary",
+      "metric": "893 个字符串引用、711 条调用图边、1,548 个常量核对"
+    }
+  },
+  "d-eb4262176c": {
+    "hash": "29f5d4e64201",
+    "en": {
+      "title": "BLA anti-AI reverse-engineering tool targets REA resource limits, triggering capacity errors in testing",
+      "summary": "The author read the resourceLimits in REA's source code and wrote the budget caps into REA_INTERNAL_LIMITS, building defenses based on poisoning, exhaustion, and hallucination. Running the real REA on Node 24 with tshark, Go, Electron, JS, and Safetensors samples all triggered either a capacity error or a budget rejection.",
+      "target": "BLA anti-AI reverse-engineering protection and REA resource limits",
+      "metric": "Go/Electron/JS/Safetensors all triggered capacity error / budget rejected"
+    },
+    "zh-CN": {
+      "title": "BLA 反 AI 逆向工具针对 REA 资源限制设计,实测触发容量错误",
+      "summary": "作者阅读 REA 源码中的 resourceLimits,将预算上限写入 REA_INTERNAL_LIMITS,做出以投毒、耗尽、致幻为思路的防护。在 Node 24 加 tshark 环境中真实运行 REA,Go、Electron、JS、Safetensors 都触发了 capacity error 或 budget rejected。",
+      "target": "BLA 反 AI 逆向防护与 REA 资源限制",
+      "metric": "Go/Electron/JS/Safetensors 均触发 capacity error / budget rejected"
+    }
+  },
+  "d-d2e16da0a8": {
+    "hash": "4b05f8a60538",
+    "en": {
+      "title": "BLA anti-AI hardening tool verified against the real REA, with 14 samples behaving identically",
+      "summary": "BLA plants fake keys, decoy interfaces, and distracting logic in release packages to counter AI-driven reverse engineering. The author tested against the real REA: JS hit the budget cap, Electron ASAR raised a capacity error, and WASM could only be partially read. After hardening, all 14 test samples ran with results identical to the originals.",
+      "target": "BLA-hardened JS, Electron ASAR, and WASM release packages",
+      "metric": "All 14 samples produce results identical to the originals after hardening"
+    },
+    "zh-CN": {
+      "title": "BLA 防 AI 逆向加固工具,经真实 REA 验证且 14 个样本行为一致",
+      "summary": "BLA 在发布包中植入假密钥、诱饵接口和干扰逻辑,以对抗 AI 逆向。作者用真实 REA 测试:JS 触发预算上限,Electron ASAR 报容量错误,WASM 只能读出部分内容。14 个测试样本加固后的运行结果与原版一致。",
+      "target": "BLA 加固后的 JS、Electron ASAR、WASM 发布包",
+      "metric": "14 个样本加固后运行结果与原版完全一致"
+    }
+  },
+  "d-1857cbc37d": {
+    "hash": "a04d843a3305",
+    "en": {
+      "title": "Testing REA on a custom Electron app: hidden network call found in 30 seconds",
+      "summary": "The author built an app with 1 window, 1 preload, 3 bridge functions, 3 private channels, and 1 hidden network call, without telling REA anything about it. REA found the hidden call within 30 seconds and cited supporting files; every number matched.",
+      "target": "Custom-built Electron test app",
+      "metric": "Hidden network call found in 30 seconds; all numbers matched"
+    },
+    "zh-CN": {
+      "title": "用自制 Electron 应用测试 REA,30 秒找出隐藏的网络调用",
+      "summary": "作者自制了一个包含 1 个窗口、1 个 preload、3 个桥接函数、3 个私有通道和 1 个隐藏网络调用的应用,且未向 REA 透露任何信息。REA 在 30 秒内找出隐藏调用并附上佐证文件,所有数字全部吻合。",
+      "target": "自制 Electron 测试应用",
+      "metric": "30 秒找出隐藏网络调用,所有数字吻合"
+    }
+  },
+  "d-9f9d85f267": {
+    "hash": "245db18514c7",
+    "en": {
+      "title": "Ran malware disguised as an activation tool by mistake, then used REA to analyze it",
+      "summary": "The author accidentally ran malware posing as a CxxCxx Pro activator, then used REA with AI to analyze the downloaded files. The post lists two samples (a WebRTC RAT and an Electron dropper) along with their C2 addresses, though the excerpt does not include a full analysis conclusion.",
+      "target": "Malware samples disguised as a CxxCxx Pro activator (WebRTC RAT, Electron Dropper)",
+      "metric": "Identified 2 malicious samples and their C2 servers"
+    },
+    "zh-CN": {
+      "title": "误运行伪装成激活工具的恶意程序后,用 REA 分析其真面目",
+      "summary": "作者误运行了伪装成 CxxCxx Pro 激活器的恶意程序,事后用 REA 搭配 AI 分析下载的文件。文中整理了两个样本(WebRTC RAT 与 Electron 投放器)及其 C2 地址,但节选内容中未见完整的分析结论。",
+      "target": "伪装成 CxxCxx Pro 激活器的恶意程序样本(WebRTC RAT、Electron Dropper)",
+      "metric": "识别出 2 个恶意样本及其 C2 服务器"
+    }
+  },
+  "d-f8bf1e5190": {
+    "hash": "e14ea1ede23c",
+    "en": {
+      "title": "Using REA to analyze a YouFibre router reveals Wi-Fi credentials exposed to unauthenticated LAN users",
+      "summary": "The target is the CommScope ARRIS NVG578LX router. Analyzing it with REA and Codex, the author found that Wi-Fi credentials can be retrieved from the LAN without logging in or presenting a session cookie. The issue has been reported to YouFibre; details are withheld for now.",
+      "target": "CommScope ARRIS NVG578LX router (YouFibre)",
+      "metric": "Unauthenticated LAN users can read Wi-Fi credentials directly"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析 YouFibre 路由器,发现 Wi-Fi 凭证对未认证局域网用户暴露",
+      "summary": "目标是 CommScope ARRIS NVG578LX 路由器。作者使用 REA 搭配 Codex 进行分析,发现无需登录、无需 session cookie,即可从局域网获取 Wi-Fi 凭证,并已通报 YouFibre,细节暂不公开。",
+      "target": "CommScope ARRIS NVG578LX 路由器(YouFibre)",
+      "metric": "未认证的局域网用户可直接读取 Wi-Fi 凭证"
+    }
+  },
+  "d-a682354d62": {
+    "hash": "91bf377eab87",
+    "en": {
+      "title": "Rebuilding golf league software as a modern web app from REA reverse-engineering output",
+      "summary": "The target is GolfSoft Golf League Secretary v9.954 (VB6 with a Jet 3.5 database). Working from files produced by the REA reverse-engineering workspace, the author built a dependency-free web replacement using FastAPI and SQLite, migrating 60 tables and 25 schedule templates and reproducing handicap, Stableford, and match-play scoring. The repo includes pytest and browser smoke-test verification commands.",
+      "target": "GolfSoft Golf League Secretary v9.954 (GLS9)",
+      "metric": "Migrated 60 Jet tables and 25 schedule templates; full rebuild across 6 workspaces"
+    },
+    "zh-CN": {
+      "title": "依据 REA 逆向文件重建高尔夫联赛软件的现代网页版",
+      "summary": "目标是 GolfSoft Golf League Secretary v9.954(VB6 与 Jet 3.5 数据库)。依据 REA 逆向工作室产出的文件,用 FastAPI 和 SQLite 做出无依赖包的网页替代品,迁移 60 张数据表和 25 份赛程模板,并复现差点、Stableford、对抗赛计分。repo 附有 pytest 与浏览器 smoke 测试的验证命令。",
+      "target": "GolfSoft Golf League Secretary v9.954 (GLS9)",
+      "metric": "迁移 60 张 Jet 数据表与 25 份赛程模板,含 6 个工作区的完整重建"
+    }
+  },
+  "d-d5d6d01c3c": {
+    "hash": "8055d95ce19a",
+    "en": {
+      "title": "Reconstructing DX-Ball 1.07's sound panning function with REA and verifying it against the original",
+      "summary": "The goal was to recover, without source code, how DX-Ball 1.07 maps on-screen position to sound panning. The author traced callers and x86 instructions, rebuilt the function in C, and compared its output against the original's. Results matched on all 3,205 inputs, and the recompiled code matched 63 bytes, though this covers only that single function.",
+      "target": "DX-Ball 1.07 sound panning function",
+      "metric": "Matched on 3,205 inputs; 63 bytes identical"
+    },
+    "zh-CN": {
+      "title": "以 REA 重建 DX-Ball 1.07 的音效声像函数并与原版逐项比对",
+      "summary": "目标是在没有源代码的情况下,还原 DX-Ball 1.07 中屏幕位置如何决定音效声像。做法是追踪调用方和 x86 指令,重建 C 程序并与原版运行结果比对。结果 3,205 组输入比对一致,重新编译后 63 个字节吻合,但仅限于该单一函数。",
+      "target": "DX-Ball 1.07 音效声像函数",
+      "metric": "3,205 组输入比对一致、63 字节吻合"
+    }
+  },
+  "d-6be6a140f3": {
+    "hash": "f61b31d28f60",
+    "en": {
+      "title": "Using REA to analyze my own Mac speech app and rebuild its read-aloud feature as a web app",
+      "summary": "The author had REA analyze their own HoverSpeech 0.1.3 in an environment isolated from the source code. After Ghidra timed out twice, the agent switched to labels and type names, identified the Kokoro-82M model, the Heart voice, and the on-demand download mechanism, and Claude then rebuilt the read-aloud feature and deployed it.",
+      "target": "HoverSpeech 0.1.3 (Mac text-to-speech app)",
+      "metric": "Report lists 24 confirmed, 7 inferred, and 7 unverified findings; about 56M tokens, about $28.6"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析自制的 Mac 语音 App,并将朗读功能重建为网页",
+      "summary": "作者让 REA 在与源代码隔离的环境下分析自制的 HoverSpeech 0.1.3。Ghidra 两次超时后,代理改用标签和类型名称,识别出 Kokoro-82M 模型、Heart 语音和按需下载机制,再由 Claude 重建朗读功能并上线。",
+      "target": "HoverSpeech 0.1.3(Mac 文字转语音 App)",
+      "metric": "报告含 24 项已证实、7 项推断、7 项未能确认;约 5600 万 tokens、约 28.6 美元"
+    }
+  },
+  "d-2fd0bed3b0": {
+    "hash": "302458c174e1",
+    "en": {
+      "title": "Building an Email Threat Forensics Lab with an REA Reverse-Engineering Bridge for SMBs",
+      "summary": "The goal is to automatically analyze phishing, BEC, and malware emails for small and medium-sized businesses. The approach is a six-layer architecture covering email parsing, threat intelligence lookups, and an REA bridge that inspects executables for entropy, C2 strings, and dangerous APIs. The excerpt contains only architecture and feature descriptions, with no tests or results from real samples.",
+      "target": "SMB email threats (phishing, BEC, malicious attachments)",
+      "metric": "Six-layer architecture with a static-analysis bridge for entropy and C2/dangerous APIs"
+    },
+    "zh-CN": {
+      "title": "为中小企业打造含 REA 逆向桥接的邮件威胁取证实验室",
+      "summary": "目标是为中小企业自动分析钓鱼、BEC 与恶意程序邮件。做法是六层架构,包含邮件解析、威胁情报查询,以及通过 REA 桥接检查可执行文件的熵值、C2 字符串和危险 API。节选内容只有架构与功能说明,没有测试或真实样本成果。",
+      "target": "中小企业邮件威胁(钓鱼、BEC、恶意附件)",
+      "metric": "六层架构,含熵值与 C2/危险 API 静态分析桥接"
+    }
+  },
+  "d-4dfa068fa1": {
+    "hash": "7fe1e566f7fb",
+    "en": {
+      "title": "Building a Universal MCP Bridge and Skill for Using REA with Any AI Agent",
+      "summary": "The goal is to let REA's MCP server and workflow skill register with any MCP-capable agent. The approach is a zero-dependency setup script covering more than ten clients, including Claude Code, Codex, Cursor, Gemini CLI, and Zed, which backs up existing configs and downgrades unsupported Node versions to a warning. It is an integration tool with no reverse-engineering results.",
+      "target": "MCP registration and skill installation for morluto/rea",
+      "metric": "Zero-dependency bridge supporting 10+ agent clients"
+    },
+    "zh-CN": {
+      "title": "打造让任何 AI 代理使用 REA 的通用 MCP 桥接与技能",
+      "summary": "目标是让 REA 的 MCP 服务器与工作流技能能注册到任何支持 MCP 的代理。做法是零依赖的 setup 脚本,涵盖 Claude Code、Codex、Cursor、Gemini CLI、Zed 等十多种客户端,并备份已有配置;遇到不支持的 Node 版本时改为警告。属于集成工具,没有逆向成果。",
+      "target": "morluto/rea 的 MCP 注册与技能安装",
+      "metric": "支持 10 多种代理客户端的零依赖桥接"
+    }
+  },
+  "d-ffd92b4c3c": {
+    "hash": "cf411f7efef2",
+    "en": {
+      "title": "Porting the REA Self-Learning Loop Skill to a DeepSeek Harness Plugin",
+      "summary": "The goal is to package the upstream \"Reverse Engineer Anything self-learning loop\" skill as a loadable DSH plugin. The content stays byte-for-byte identical to upstream; only the packaging changes. It adds no tools and registers a single skill that requires explicit authorization. The content contains no actual reverse-engineering results.",
+      "target": "DeepSeek Harness skill plugin (upstream Speedrunlab skill)",
+      "metric": "Upstream source preserved byte-for-byte, one skill registered, no dependencies"
+    },
+    "zh-CN": {
+      "title": "将 REA 自学习循环技能移植为 DeepSeek Harness 插件",
+      "summary": "目标是把上游“Reverse Engineer Anything 自学习循环”技能封装成可加载的 DSH 插件。内容与上游逐字节保持一致,只改变封装方式,且不新增工具,只注册一个需明确授权的技能。内容中没有实际逆向成果。",
+      "target": "DeepSeek Harness 技能插件(上游 Speedrunlab 技能)",
+      "metric": "上游源码逐字节保留,仅注册一个技能,无依赖包"
+    }
+  },
+  "d-31c137eac0": {
+    "hash": "6ce33371c86d",
+    "en": {
+      "title": "BLA: Adversarial Defense That Shields Programs from AI Reverse-Engineering Agents Like REA",
+      "summary": "BLA (Blind LLM Agents) is a defensive shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly from analysis by AI reverse-engineering agents such as REA. Its approach is \"poison, exhaust, induce hallucination.\" Only a short introduction is available, with no test results.",
+      "target": "Anti-reverse-engineering defense against AI RE agents such as REA",
+      "metric": "Three-stage defense: poison → exhaust → hallucinate"
+    },
+    "zh-CN": {
+      "title": "BLA:保护程序免受 REA 等 AI 逆向代理分析的对抗式防御",
+      "summary": "BLA(Blind LLM Agents)是一个防御盾,保护二进制文件、Electron、JS bundle、Python 与 WebAssembly 不被 REA 这类 AI 逆向代理分析。手法为“投毒、耗尽、诱发幻觉”。仅有一则简短介绍,未见测试结果。",
+      "target": "针对 REA 等 AI 逆向代理的反逆向防御",
+      "metric": "投毒 → 耗尽 → 幻觉 三段式防御"
+    }
+  },
+  "d-84f72f015d": {
+    "hash": "2e13dc21695a",
+    "en": {
+      "title": "Practical REA Guide and Agent Setup Notes",
+      "summary": "Explains how to set up REA in Claude Code, Codex, or Cursor, how to approve runnable commands, and where logic usually lives plus the first steps for each target type (such as .NET desktop apps). A guide-style page with no results from a specific target.",
+      "target": "How to use REA and getting-started steps for each target type",
+      "metric": "Getting-started reference table organized by target type"
+    },
+    "zh-CN": {
+      "title": "REA 实用指南与代理配置说明",
+      "summary": "整理如何在 Claude Code、Codex 或 Cursor 中配置 REA、批准可执行的命令，并按目标类型（如 .NET 桌面 App）列出逻辑常见的位置与首要步骤。属于指南性质，未见具体目标的成果。",
+      "target": "REA 使用方式与各类目标的入门步骤",
+      "metric": "按目标类型整理的入门对照表"
+    }
+  },
+  "d-fd4c7aff66": {
+    "hash": "a3ec24fcbc27",
+    "en": {
+      "title": "Overview of REA's Eight Reverse-Engineering Categories and Clean-Room Reimplementation Workflows for Apps and Games",
+      "summary": "Breaks down the REA and MCP architecture and surveys eight target categories: Android, Electron, game packages, native binaries, web, WASM, smart contracts, and firmware. Also describes workflows such as unpacking resource containers and AST state-machine analysis. A conceptual and methodological write-up with no measured results on a specific target.",
+      "target": "REA tooling and methodology for each reverse-engineering target category",
+      "metric": "Covers 8 reverse-engineering categories and 4 core workflows"
+    },
+    "zh-CN": {
+      "title": "整理 REA 八大逆向类型与 App、游戏机制的净室模拟流程",
+      "summary": "剖析 REA 与 MCP 架构，盘点 Android、Electron、游戏包、原生二进制、Web、WASM、智能合约与固件八类逆向目标。并说明资源容器解包、AST 状态机分析等流程。属概念与方法论整理，未见具体目标的实测成果。",
+      "target": "REA 工具与各类逆向目标的方法论",
+      "metric": "盘点 8 大逆向类型与 4 条核心流程"
+    }
+  },
+  "d-39f38e6ec6": {
+    "hash": "4f34ccd28ab8",
+    "en": {
+      "title": "REA Use Cases Roundup: netcat Reversing, Electron Inspection, and Ghidra Analysis",
+      "summary": "A page collecting REA cases for CTF and learning, including static analysis of Ubuntu netcat-openbsd 1.234-1 with REA and Ghidra, which confirmed no backdoor. It also covers a local tutorial video, an Electron app inspection playbook, and case studies on Pylance, the Claude Code extension, and notepad.exe. A roundup with limited detail.",
+      "target": "netcat-openbsd 1.234-1, a sample Electron app, the Pylance extension, notepad.exe",
+      "metric": "Confirmed the netcat-openbsd 1.234-1 binary has no backdoor"
+    },
+    "zh-CN": {
+      "title": "REA 使用案例汇总：netcat 逆向、Electron 检查与 Ghidra 分析",
+      "summary": "页面整理 REA 在 CTF 与学习方面的案例，包括用 REA 与 Ghidra 静态分析 Ubuntu netcat-openbsd 1.234-1 并确认无后门。另有本地教学视频、Electron 应用检查手册，以及 Pylance、Claude Code 扩展与 notepad.exe 的案例研究。内容为汇总性质，细节有限。",
+      "target": "netcat-openbsd 1.234-1、Electron 示例应用、Pylance 扩展、notepad.exe",
+      "metric": "确认 netcat-openbsd 1.234-1 二进制文件无后门"
+    }
+  },
+  "d-590869c82f": {
+    "hash": "d040f520c580",
+    "en": {
+      "title": "Claimed Reverse Engineering of Claude Desktop with the REA Method, Releasing an Open-Source Alternative",
+      "summary": "In a post, the author says they reverse-engineered Claude Desktop using the REA method and built an open-source alternative that works with any local or cloud model. The post has no links, code, screenshots, or tests to verify the claim; it is the author's own statement only.",
+      "target": "Claude Desktop",
+      "metric": "Claims a completed open-source Claude Desktop alternative that works with any model (no supporting evidence)"
+    },
+    "zh-CN": {
+      "title": "自称用 REA 方法逆向 Claude Desktop 并推出开源替代品",
+      "summary": "作者在帖子中表示用 REA 方法逆向了 Claude Desktop，并做出支持任何本地或云端模型的开源替代品。帖子没有链接、代码、截图或测试等可验证内容，仅为作者自述。",
+      "target": "Claude Desktop",
+      "metric": "自称完成可搭配任意模型的开源 Claude Desktop 替代品（无佐证）"
+    }
+  },
+  "d-94a05a4cd7": {
+    "hash": "c77ba9592106",
+    "en": {
+      "title": "Comparing REA with Claude Code alone on two apps' reverse-engineering results",
+      "summary": "The author analyzed two apps with REA and with Claude Code alone, then compared the results. REA can trace call relationships inside the program, but it found no new facts that Claude Code couldn't find on its own, and it took roughly twice the time and cost. The author concludes that REA is best used only for the parts that need it.",
+      "target": "Two apps (unnamed)",
+      "metric": "Zero new findings; about 2x the time and cost of Claude Code alone"
+    },
+    "zh-CN": {
+      "title": "用两个应用对比 REA 与单用 Claude Code 的逆向分析差异",
+      "summary": "作者以两个应用为对象,对比了使用 REA 与仅用 Claude Code 的分析结果。REA 能追踪程序内部的调用关系,但没有发现 Claude Code 单独分析找不到的新事实,而且耗时和成本约为两倍。作者的结论是,只在有需要的部分使用 REA 更为合适。",
+      "target": "两个应用(未具名)",
+      "metric": "新发现为零,耗时与成本约为单用 Claude Code 的 2 倍"
+    }
+  },
+  "d-2293bfac65": {
+    "hash": "df82dfac0470",
+    "en": {
+      "title": "Running Claude Code and REA safely in a rootless Podman or microVM sandbox",
+      "summary": "The goal is to keep the MCP server from touching host data while an AI agent analyzes untrusted binaries. The approach uses rootless Podman or one libkrun microVM per command, combined with an egress proxy, mount policies, and a self-test, all under an explicit threat model. No actual reverse-engineering results are provided; the focus is on the isolation tooling.",
+      "target": "Isolated execution environment for the REA MCP server and untrusted binaries",
+      "metric": "Dual-mode sandbox (Podman / libkrun microVM) with egress proxy and selftest"
+    },
+    "zh-CN": {
+      "title": "在无根 Podman 或 microVM 沙箱中安全运行 Claude Code 与 REA",
+      "summary": "目标是让 AI 代理分析不受信任的二进制文件时,MCP 服务器不会接触到主机数据。做法是采用无根 Podman 或每条命令一个 libkrun microVM,配合出口代理、挂载策略和自检,并制定了明确的威胁模型。内容未提供实际的逆向分析成果,重点在于隔离工具。",
+      "target": "REA MCP 服务器与不受信任二进制文件的隔离运行环境",
+      "metric": "Podman/libkrun microVM 双模式沙箱,含出口代理与 selftest"
+    }
+  },
+  "d-314b8e4183": {
+    "hash": "dcd66d1b67c7",
+    "en": {
+      "title": "Building an REA plugin for DeepSeek Harness, integrating MCP, a bridge, and a settings panel",
+      "summary": "The goal is to let DeepSeek Harness use REA's MCP server, a progressive-disclosure bridge, and a settings page after a single install, with all REA configuration kept in one file. The author implemented host and browser halves and three request gates, along with offline, HTTP, browser, and end-to-end self-checks plus CI. The README says 229 REA tools are reachable.",
+      "target": "DeepSeek Harness (DSH) and REA integration",
+      "metric": "29 offline core checks, 19 HTTP, 17 browser, end-to-end self-check 10/10, 229 REA tools reachable"
+    },
+    "zh-CN": {
+      "title": "为 DeepSeek Harness 打造 REA 插件,集成 MCP、桥接与设置面板",
+      "summary": "目标是让 DeepSeek Harness 一次安装即可使用 REA 的 MCP 服务器、渐进式披露桥接和设置页,并将 REA 配置集中到单一文件。作者实现了宿主与浏览器两部分、三道请求闸门,并附有离线、HTTP、浏览器和端到端自检以及 CI。README 称可调用 229 个 REA 工具。",
+      "target": "DeepSeek Harness(DSH)与 REA 集成",
+      "metric": "离线核心 29 项、HTTP 19 项、浏览器 17 项、端到端自检 10/10、229 个 REA 工具可用"
+    }
+  },
+  "d-c09b831bb3": {
+    "hash": "f2c7b59fd453",
+    "en": {
+      "title": "A reverse-engineering skill with recursive self-learning, inspired by REA",
+      "summary": "Inspired by REA, the author rebuilt an REA skill with a recursive self-learning loop that keeps running until the task is complete. The post links to a GitHub repo but doesn't describe results on any specific target.",
+      "target": "REA self-learning skill (Speedrunlab)",
+      "metric": "Public GitHub repo: reverse-engineer-anything-self-learning-loop"
+    },
+    "zh-CN": {
+      "title": "受 REA 启发,打造具备递归自我学习能力的逆向工程 skill",
+      "summary": "作者受 REA 启发,重新构建了一个带有递归自我学习循环的 REA skill,让它持续运行直到任务完成。内容附有 GitHub repo 链接,但推文未说明在任何具体目标上的成果。",
+      "target": "REA 自我学习 skill(Speedrunlab)",
+      "metric": "公开 GitHub repo:reverse-engineer-anything-self-learning-loop"
+    }
   }
 }

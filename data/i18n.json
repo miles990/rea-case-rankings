@@ -16348,5 +16348,365 @@
       "target": "DX-Ball、Notion、TH04 与 notes-example Electron 示例",
       "metric": "DX-Ball 3,205 个案例通过且 63 字节一致;独立测试 14 个案例逐字节一致、分析约 1.3 秒"
     }
+  },
+  "d-28ab8f66ac": {
+    "hash": "8709d7f206ed",
+    "en": {
+      "title": "Combining GhidraMCP and Lean REA into a Reverse Lab bot",
+      "summary": "The author drops GhidraMCP into a Grokbot template and pairs it with Lean REA's CLI reverse-engineering tools to build a reverse lab bot. The approach borrows leanrea's CLI-first triage, running low-cost batch inventories by target type. No test results are provided.",
+      "target": "Grokbot Reverse Lab bot (GhidraMCP + leanrea)",
+      "metric": "CLI-first triage and batch inventory workflow"
+    },
+    "zh-CN": {
+      "title": "整合 GhidraMCP 与 Lean REA 做成 Reverse Lab 机器人",
+      "summary": "作者把 GhidraMCP 放进 Grokbot 模板，并搭配 Lean REA 的 CLI 逆向工具，做成逆向实验室机器人。方法借用 leanrea 的 CLI 优先分流，按目标类型批量做低成本盘点。内容未提供实测成果。",
+      "target": "Grokbot Reverse Lab 机器人（GhidraMCP + leanrea）",
+      "metric": "采用 CLI 优先的分流与批量盘点流程"
+    }
+  },
+  "d-142440e9c1": {
+    "hash": "4c311adcc70b",
+    "en": {
+      "title": "Porting a 2009 RuneScape variant into Unreal with REA and Unreal MCP",
+      "summary": "The author combines Claude Code's Unreal Engine MCP with REA and claims to have ported a 2009 RuneScape variant to Unreal and rebuilt the entire world. This is the author's own account only; no code, screenshots, or verification are provided.",
+      "target": "2009 RuneScape variant",
+      "metric": "Self-reported rebuild of the entire game world in Unreal Engine"
+    },
+    "zh-CN": {
+      "title": "搭配 REA 与 Unreal MCP，把 2009 年 RuneScape 变体移植进 Unreal",
+      "summary": "作者结合 Claude Code 的 Unreal Engine MCP 与 REA，声称将 2009 年的 RuneScape 变体移植到 Unreal 并重建了整个世界。内容仅为作者自述，没有提供代码、截图或验证。",
+      "target": "2009 年 RuneScape 变体",
+      "metric": "自述在 Unreal Engine 中重建整个游戏世界"
+    }
+  },
+  "d-604f2fda5e": {
+    "hash": "76348a36144c",
+    "en": {
+      "title": "Introducing leanrea: an 8KB SKILL.md that replaces REA, with self-tested numbers",
+      "summary": "Introduces aicodeking/leanrea, an 8KB SKILL.md that replaces REA, which requires installing an MCP and adds 207 tools. The author's own tests show time -38%, cost -35%, tokens -60%, and a score of 74/75 versus 75/75. This is a relay and recommendation; the figures come from the original author.",
+      "target": "leanrea (aicodeking/leanrea) vs. REA",
+      "metric": "Tokens -60%, score 74/75 vs. REA's 75/75"
+    },
+    "zh-CN": {
+      "title": "推介 leanrea：8KB SKILL.md 取代 REA 并附自测数据",
+      "summary": "介绍 aicodeking/leanrea，以 8KB 的 SKILL.md 取代需安装 MCP、加入 207 个工具的 REA。作者自测耗时 -38%、成本 -35%、token -60%，得分 74/75 对 75/75。属于转述与推荐，数据来自原作者自述。",
+      "target": "leanrea（aicodeking/leanrea）对比 REA",
+      "metric": "token -60%，得分 74/75 对 REA 的 75/75"
+    }
+  },
+  "d-520786f904": {
+    "hash": "16ec92d833eb",
+    "en": {
+      "title": "AREA: a protection toolkit against AI reverse-engineering agents like REA",
+      "summary": "Lists a matching defense for each of REA's analysis tools, including obfuscation, anti-debugging, anti-Frida, stripping source maps and symbols, and configuring Electron fuses. The goal is to leave AI reverse-engineering agents able to report only unknown rather than reconstruct results; the excerpt shows no empirical validation.",
+      "target": "Software protection using REA as the threat model",
+      "metric": "Quick-reference table mapping REA tools to defenses, covering JS, native, Electron, and browser surfaces"
+    },
+    "zh-CN": {
+      "title": "AREA：对抗 REA 等 AI 逆向代理的防护工具包",
+      "summary": "针对 REA 各项分析工具列出对应防御做法，包括混淆、反调试、反 Frida、移除 source map 与符号、配置 Electron fuses 等。目标是让 AI 逆向代理只能报告 unknown，而非重建结果；节选内容未显示实测验证。",
+      "target": "以 REA 为威胁模型的软件防护",
+      "metric": "REA 工具对应防御的速查表，涵盖 JS、原生、Electron 与浏览器层面"
+    }
+  },
+  "d-d2121f9a00": {
+    "hash": "f2a8927adb43",
+    "en": {
+      "title": "REA tutorial in German: setup and analyzing Spotify, Claude, ChatGPT and other apps",
+      "summary": "A German-language video covering Reverse Engineer Anything setup and usage, with demos analyzing Spotify, the Claude app and the ChatGPT app. The description gives no specific findings.",
+      "target": "Spotify, Claude and ChatGPT desktop apps",
+      "metric": "German tutorial video demoing multiple apps"
+    },
+    "zh-CN": {
+      "title": "德语 REA 教程:配置并用于分析 Spotify、Claude、ChatGPT 等应用",
+      "summary": "视频以德语介绍 Reverse Engineer Anything 的配置与使用,并演示分析 Spotify、Claude 应用和 ChatGPT 应用。简介未给出具体分析结论。",
+      "target": "Spotify、Claude、ChatGPT 桌面应用",
+      "metric": "德语教程视频,演示多款应用"
+    }
+  },
+  "d-2c2989e52b": {
+    "hash": "9a9adab25e6b",
+    "en": {
+      "title": "Scoped game asset extraction with a coding agent and REA",
+      "summary": "The repository title indicates using REA to let a coding agent perform scoped asset extraction from games. The provided content is empty, so the target, method and results cannot be confirmed.",
+      "target": "Game assets (specific target not stated)",
+      "metric": "No concrete results provided"
+    },
+    "zh-CN": {
+      "title": "用 coding agent 搭配 REA 进行限定范围的游戏资源提取",
+      "summary": "仓库标题显示，该项目使用 REA 让 coding agent 对游戏做限定范围的资源提取。但所提供的内容为空，无法确认目标、做法或成果。",
+      "target": "游戏资源(具体目标未说明)",
+      "metric": "未提供具体成果"
+    }
+  },
+  "d-d91a43cc64": {
+    "hash": "db7a0e4ca95b",
+    "en": {
+      "title": "leanrea replaces REA with an 8KB SKILL.md, letting agents use off-the-shelf reverse-engineering CLIs directly",
+      "summary": "It aims to replace REA's MCP and its 207 tools by having the agent call existing CLIs such as asar, otool, jadx and nm directly to reverse engineer apps. The author claims that in benchmarks it took 38% less time and cost 35% less than REA, with the same score. The content is a retelling of a tweet, with no verifiable evidence attached.",
+      "target": "leanrea, an alternative to REA (SKILL.md plus reverse-engineering CLIs)",
+      "metric": "Time -38%, cost -35%, same score as REA"
+    },
+    "zh-CN": {
+      "title": "leanrea 用 8KB 的 SKILL.md 取代 REA，让代理直接使用现成的逆向 CLI",
+      "summary": "目标是取代 REA 的 MCP 及其 207 个工具，改由代理直接调用 asar、otool、jadx、nm 等现成 CLI 来逆向应用程序。作者称在基准测试中比 REA 少用 38% 的时间、便宜 35%，得分相同。内容为推文转述，未附可验证的证据。",
+      "target": "REA 的替代方案 leanrea(SKILL.md 与逆向 CLI)",
+      "metric": "耗时 -38%、成本 -35%，得分与 REA 相同"
+    }
+  },
+  "d-1825b201c5": {
+    "hash": "9ce3644c88cf",
+    "en": {
+      "title": "Rustify uses REA to inspect stripped binaries and rebuild them as maintainable Rust projects",
+      "summary": "Rustify gives an agent a stripped binary, has it inspect the program through REA, recover its behavior and architecture, then rebuild it in idiomatic Rust with tests and an evidence trail. The content is a project introduction that focuses on recording the program's purpose, UI behavior and observed evidence; it lists no concrete results or verification figures.",
+      "target": "Stripped binaries rebuilt as Rust projects (Rustify)",
+      "metric": "Produces an idiomatic Rust rebuild with tests and an evidence trail"
+    },
+    "zh-CN": {
+      "title": "Rustify 借助 REA 检视无符号二进制文件，并重建为可维护的 Rust 项目",
+      "summary": "Rustify 让代理拿到去符号的二进制文件，通过 REA 检查程序、还原行为与架构，再以惯用 Rust 重建，并附带测试和证据轨迹。内容为项目介绍，侧重记录程序用途、UI 行为和观察到的证据，未列出具体成果或验证数据。",
+      "target": "将去符号二进制文件重建为 Rust 项目(Rustify)",
+      "metric": "产出带测试和证据轨迹的惯用 Rust 重建项目"
+    }
+  },
+  "d-4cf507c59c": {
+    "hash": "1a40ef5accd6",
+    "en": {
+      "title": "REA Website Demo: Recovering and Rebuilding the Chrome Dino Game's Acceleration Rules",
+      "summary": "Using the Chrome Dino game as an example, the REA website reads the running index.js and extracts the speed rules: a starting speed of 6, +0.001 per update, capped at 13. A game with adjustable speed was then built from these rules, and the original update function was called in a controlled browser to verify the speed reaches 10.0 after 4,000 updates and 13.0 after 10,000.",
+      "target": "Chrome Dino game (browser version)",
+      "metric": "Speed reaches 13.0 after 10,000 updates, matching the recovered rules"
+    },
+    "zh-CN": {
+      "title": "REA 官网演示：还原小恐龙游戏加速规则并重建",
+      "summary": "官网以 Chrome 小恐龙游戏为例，通过 REA 读取运行中的 index.js，找出起始速度 6、每次更新加 0.001、上限 13 的规则。再据此做出可调速度的小游戏，并在受控浏览器中调用原版更新函数，验证 4,000 次更新后速度为 10.0、10,000 次后为 13.0。",
+      "target": "Chrome 小恐龙游戏（浏览器版）",
+      "metric": "更新 10,000 次后速度达 13.0，与还原规则相符"
+    }
+  },
+  "d-b0cf41d54f": {
+    "hash": "50091342c8ee",
+    "en": {
+      "title": "Rebuilding the CozySpace Design Website in React/TypeScript with REA and Codex",
+      "summary": "Using REA 6.8.0 to inspect cozyspacedesignservices.com, the author rebuilt an editable React/TypeScript site that keeps the original photos, fonts and service content, and adds an image viewer, a contact dialog and a local launcher. The author notes that REA was unavailable during later revisions, so Playwright was used for additional checks; typecheck and build commands are included.",
+      "target": "cozyspacedesignservices.com (design services website)",
+      "metric": "Full site rebuild with 7 room sections, plus build and launch scripts that run locally"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Codex 将 CozySpace 设计网站重建为 React/TypeScript",
+      "summary": "以 REA 6.8.0 检视 cozyspacedesignservices.com，重建出可编辑的 React/TypeScript 网站，保留原站照片、字体与服务内容，并加入图片查看器、联系窗口和本地启动器。作者自述后续改版时 REA 无法使用，改以 Playwright 补充检查，并附有 typecheck 与 build 命令。",
+      "target": "cozyspacedesignservices.com（设计服务网站）",
+      "metric": "7 个房间章节的完整网站重建，附可本地运行的构建与启动脚本"
+    }
+  },
+  "d-84b4a32aa0": {
+    "hash": "0a27fa1fd699",
+    "en": {
+      "title": "EEVblog Tries Reverse Engineering the 121GW Multimeter Firmware with Cursor and REA",
+      "summary": "The video explores whether AI can reverse engineer the firmware of the 121GW multimeter, using Cursor together with REA and Claude. Only a short description is provided; it gives no specific results or findings.",
+      "target": "121GW multimeter firmware",
+      "metric": "The description lists no specific findings"
+    },
+    "zh-CN": {
+      "title": "EEVblog 用 Cursor 与 REA 尝试逆向 121GW 万用表固件",
+      "summary": "视频探讨 AI 能否逆向 121GW 万用表的固件，使用 Cursor 搭配 REA 与 Claude。提供的内容只有简介，没有说明具体结果或发现。",
+      "target": "121GW 万用表固件",
+      "metric": "简介未列出具体发现"
+    }
+  },
+  "d-c358a50d4a": {
+    "hash": "125a4ad93da4",
+    "en": {
+      "title": "leanrea: A Lightweight REA Distilled into a Single 8KB SKILL.md",
+      "summary": "leanrea skips REA's 207 tools and instead tells the agent which real commands to run for each type of application, condensed into a single SKILL.md file. On the same 4 reverse engineering tasks, it claims to be 38% faster, 35% cheaper and use 60% fewer tokens, with the same accuracy. These figures are relayed, not independently verified.",
+      "target": "leanrea skill (compared against REA's 207 tools)",
+      "metric": "4 tasks: 38% faster, 35% lower cost, 60% fewer tokens"
+    },
+    "zh-CN": {
+      "title": "leanrea：把 REA 精简为单个 8KB SKILL.md 的轻量版",
+      "summary": "leanrea 跳过 REA 的 207 个工具，只告诉代理针对各类应用应执行哪些真实命令，浓缩成单个 SKILL.md 文件。在相同的 4 项逆向任务上，宣称速度快 38%、成本低 35%、token 少 60%，准确度相同。此处为转述的数据。",
+      "target": "leanrea 技能（对比 REA 的 207 个工具）",
+      "metric": "4 项任务：快 38%、省 35% 成本、少 60% token"
+    }
+  },
+  "d-a7cd402a86": {
+    "hash": "8ddd1389252c",
+    "en": {
+      "title": "Rebuilding Byte-Identical C/C++ Source from the DX-Ball EXE with REA",
+      "summary": "The author used REA to reconstruct C/C++ source from the original DX-Ball executable, and published a GitHub repo and a video. All 270 functions were rebuilt, with 84,968 bytes matching byte for byte.",
+      "target": "DX-Ball (classic Windows game)",
+      "metric": "270/270 functions, 84,968/84,968 bytes — 100% byte-identical"
+    },
+    "zh-CN": {
+      "title": "用 REA 从 DX-Ball 的 EXE 重建出字节完全一致的 C/C++ 源码",
+      "summary": "作者使用 REA 从原版 DX-Ball 可执行文件重建 C/C++ 源码,并公开了 GitHub 仓库和视频。270 个函数全部重建,84,968 字节逐字节一致。",
+      "target": "DX-Ball(Windows 经典游戏)",
+      "metric": "270/270 个函数、84,968/84,968 字节 100% 字节一致"
+    }
+  },
+  "d-a5a677a279": {
+    "hash": "c484d6d2d0a9",
+    "en": {
+      "title": "A Controlled Experiment: Does REA/Ghidra Help AI Reconstruct a Stripped Native Game?",
+      "summary": "Targeting the stripped Linux AArch64 binary of PvZ Level 4, the experiment used four groups (R/A/B/C) and 12 runs in total, asking the agent to write a frame-exact simulator and a RULES.md. No group beat the documentation-only control, and the author lists limitations of the experimental design, so the result is not treated as a definitive negative verdict on REA. The repo publishes the protocol, harness, scorer, and results.",
+      "target": "PvZ Level 4 stripped cocos2d-x binary",
+      "metric": "Median hidden-scenario scores: R 0.717, A 0.680, B 0.683, C 0.710; the REA group did not come out ahead"
+    },
+    "zh-CN": {
+      "title": "受控实验:REA/Ghidra 是否有助于 AI 重建去符号的原生游戏",
+      "summary": "以 PvZ 第四关的去符号 Linux AArch64 二进制为目标,设计了 R/A/B/C 四组、共 12 次运行的对照实验,要求 agent 写出逐帧一致的模拟器和 RULES.md。结果是没有任何一组胜过仅提供文档的对照组,作者also列出了实验设计的局限,因此不将其视为对 REA 的明确否定。仓库公开了协议、harness、评分器和结果。",
+      "target": "PvZ Level 4 去符号 cocos2d-x 二进制",
+      "metric": "隐藏场景中位数得分:R 0.717、A 0.680、B 0.683、C 0.710,REA 组未胜出"
+    }
+  },
+  "d-00d5ff1999": {
+    "hash": "90bd655a6b8c",
+    "en": {
+      "title": "Reverse-Engineering Claude Desktop's UI Animation and Typography with REA",
+      "summary": "The author used REA to take apart Claude Desktop and compiled its UI design details. These include dark-mode font weights adjusted from 500/600 to 460/560, body text avoiding single-word orphan lines, and answer text appearing with a 90ms blur-to-sharp transition. The content is the author's own account, with no code or supporting evidence attached.",
+      "target": "Claude Desktop UI",
+      "metric": "Dark-mode font weights 500/600 adjusted to 460/560; text fade-in 90ms"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向 Claude Desktop 的 UI 动画与排版细节",
+      "summary": "作者用 REA 拆解 Claude Desktop,整理出 UI 的设计细节,包括暗色模式字重由 500/600 调整为 460/560、正文避免单字孤行、回答文字以 90ms 由模糊转清晰的方式出现。内容仅为作者自述,未附代码或对照证据。",
+      "target": "Claude Desktop UI",
+      "metric": "暗色模式字重 500/600 调整为 460/560;文字淡入 90ms"
+    }
+  },
+  "d-954a038466": {
+    "hash": "85988d1231fb",
+    "en": {
+      "title": "Reverse-Engineering an ISP Optical Modem App's API and Building an Auto-Reboot Health Check",
+      "summary": "The author's optical modem slowed the network after running for long periods, and the ISP's app only offered manual reboot, so they used REA to reverse-engineer the app. They found the API is pushed down from the ISP's central system and only works for the current user, then built a modem health check on the router that calls the API to reboot the modem automatically when AI diagnoses a network problem.",
+      "target": "ISP optical modem management app and its cloud API",
+      "metric": "Found the ISP API that can reboot the modem and implemented an automatic reboot health check"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向 ISP 光猫 App 接口并实现自动重启健康检查",
+      "summary": "作者的光猫长时间运行后网络变慢,而 ISP 的 App 只支持手动重启,于是用 REA 逆向该 App。发现其接口由 ISP 中心下发、仅对当前用户有效,并在路由器上实现了光猫健康度检查,由 AI 判断网络出现问题时调用接口自动重启光猫。",
+      "target": "ISP 光猫管理 App 及其云端接口",
+      "metric": "找出可重启光猫的 ISP 接口,并实现自动重启健康检查"
+    }
+  },
+  "d-fe8874a38c": {
+    "hash": "cf3b251e0c21",
+    "en": {
+      "title": "REE: An agent skill inspired by REA that measures YouTubers' editing styles",
+      "summary": "An independent project inspired by REA that measures the editing of YouTuber videos (cut points, layout, motion, color grading, sound) and distills it into reproducible style packs. Style packs have been produced for Ali Abdaal and Saqlain Khan. It has no direct relationship with the REA reverse-engineering tool itself.",
+      "target": "YouTuber video editing styles (Ali Abdaal, Saqlain Khan)",
+      "metric": "976 + 1,211 cut points measured across the two style packs"
+    },
+    "zh-CN": {
+      "title": "REE：受 REA 启发、量测 YouTuber 剪辑风格的代理技能",
+      "summary": "受 REA 启发的独立项目，把 YouTuber 视频的剪辑（切点、版面、动态、调色、音效）量测后整理成可复制的风格包。已产出 Ali Abdaal 与 Saqlain Khan 两组风格包。与 REA 逆向工具本身无直接使用关系。",
+      "target": "YouTuber 视频剪辑风格（Ali Abdaal、Saqlain Khan）",
+      "metric": "两组风格包共量测 976 + 1,211 个剪辑点"
+    }
+  },
+  "d-0778c468b2": {
+    "hash": "bb0d9afd1f4e",
+    "en": {
+      "title": "A unified coding-agent harness built from the analysis of ten agent codebases",
+      "summary": "Marfim is a clean-room harness rebuilt from an analysis of ten agent projects, including opencode, aider, goose, and Claude Code. REA is just one of the projects analyzed, and it contributes the REA evidence tool family. The content is mostly about the agent framework itself and has no direct connection to using REA to reverse-engineer a specific target.",
+      "target": "Coding-agent harness (including the REA evidence tool family)",
+      "metric": "45 tools, zero runtime dependencies"
+    },
+    "zh-CN": {
+      "title": "以十个 agent 代码库的分析为基础打造统一的 coding-agent harness",
+      "summary": "Marfim 是从 opencode、aider、goose、Claude Code 等十个 agent 项目的分析重建的 clean-room harness，REA 只是被分析的对象之一，并提供 REA 证据工具家族。内容主要是 agent 框架本身，与使用 REA 逆向特定目标无直接关系。",
+      "target": "coding-agent harness（含 REA 证据工具家族）",
+      "metric": "45 个工具、零运行时依赖"
+    }
+  },
+  "d-b6a39a36bb": {
+    "hash": "b689f50f4fa4",
+    "en": {
+      "title": "update-watch: A Claude Code plugin that flags upstream updates for REA and more",
+      "summary": "A Claude Code plugin that checks for new versions of plugins, skills, and REA at session start and when you run /updates, then shows a notice. It only notifies and never installs. For REA, it compares the pinned version against the latest on npm.",
+      "target": "Claude Code plugins, skills, and REA versions",
+      "metric": "Checks at most once every 12 hours; notifies only, never installs"
+    },
+    "zh-CN": {
+      "title": "update-watch：Claude Code 插件提示 REA 等有上游更新",
+      "summary": "Claude Code 插件，在会话开始和执行 /updates 时检查插件、技能与 REA 是否有新版本并显示提示，只通知、不安装。REA 的检查方式是比对已固定版本与 npm 最新版。",
+      "target": "Claude Code 插件、技能与 REA 版本",
+      "metric": "每 12 小时最多检查一次，仅通知不安装"
+    }
+  },
+  "d-e933ed3e43": {
+    "hash": "6640e89ee55c",
+    "en": {
+      "title": "Dissecting how Zapier works from public sources with REA and scripts",
+      "summary": "Uses only Zapier's open-source platform repository, its published npm developer packages, and scripts loaded by public pages, analyzed with REA and ordinary scripts, with no login and no AI model. The excerpt contains no specific findings; it only describes the scope and method of the research.",
+      "target": "Zapier platform (public source code and scripts from public pages)",
+      "metric": "Public-source analysis only; the excerpt lists no specific findings"
+    },
+    "zh-CN": {
+      "title": "用 REA 与脚本从公开来源拆解 Zapier 的运作方式",
+      "summary": "仅使用 Zapier 开源平台仓库、已发布的 npm 开发包与公开页面加载的脚本，搭配 REA 与普通脚本分析，不登录也不使用 AI 模型。节选中没有具体发现，只说明研究范围与方法。",
+      "target": "Zapier 平台（公开源代码与公开页面脚本）",
+      "metric": "纯公开来源分析，节选未列出具体发现"
+    }
+  },
+  "d-aaea2e8725": {
+    "hash": "9f4fe193033c",
+    "en": {
+      "title": "A REA-inspired skill with recursive self-learning",
+      "summary": "Inspired by REA, the author rebuilt a skill with recursive self-learning that keeps iterating until the task is done, and published a GitHub repo. The post doesn't say what was actually reverse engineered or what came of it.",
+      "target": "REA self-learning loop skill",
+      "metric": "Public repo with a recursive self-learning loop"
+    },
+    "zh-CN": {
+      "title": "受 REA 启发做出具递归自我学习的 REA 技能",
+      "summary": "作者以 REA 为灵感,重做了一个带递归自我学习的技能,会持续迭代直到任务完成,并公开了 GitHub repo。内容没有说明实际逆向的目标或成果。",
+      "target": "REA 自我学习循环技能",
+      "metric": "公开 repo,具递归自我学习循环"
+    }
+  },
+  "d-5c45a30253": {
+    "hash": "f1fad9b159da",
+    "en": {
+      "title": "Introducing leanrea: an 8KB skill file replacing REA's 207 MCP tools",
+      "summary": "Points out that REA's MCP server exposes 207 tools that take up about 400k tokens before startup. leanrea replaces them with a single 8KB skill file that lets the agent run CLI tools directly. The author cites their own benchmark: 38% faster, 35% cheaper, same accuracy, with a GitHub link.",
+      "target": "leanrea (aicodeking/leanrea) vs. REA MCP",
+      "metric": "38% faster, 35% cheaper, same accuracy (author's own benchmark)"
+    },
+    "zh-CN": {
+      "title": "介绍 leanrea:以 8KB 技能文件取代 REA 的 207 个 MCP 工具",
+      "summary": "指出 REA 的 MCP 服务器有 207 个工具,启动前约占 400k token,leanrea 改用单个 8KB 技能文件让代理直接运行 CLI 工具。作者引述其自家基准:快 38%、便宜 35%、准确度相同,并附 GitHub 链接。",
+      "target": "leanrea(aicodeking/leanrea)对比 REA MCP",
+      "metric": "快 38%、便宜 35%,准确度相同(自家基准)"
+    }
+  },
+  "d-b5767f98c6": {
+    "hash": "ad7190736ff2",
+    "en": {
+      "title": "A REA wrapper for the DeepSeek Harness cuts tool context from 215k to about 850 tokens",
+      "summary": "The goal is to fix the problem of REA's 207 MCP tool schemas consuming a large amount of context on every request. The wrapper exposes only three tools, rea_tools, rea_tool_info and rea_call, so the agent explores on demand step by step. In testing with REA 6.7.0, the per-request payload dropped from about 215k tokens to about 850 tokens, and a measurement script is included.",
+      "target": "REA MCP integration for the DeepSeek Harness",
+      "metric": "Per-request schema reduced from about 215k tokens to about 850 tokens"
+    },
+    "zh-CN": {
+      "title": "为 DeepSeek Harness 打造 REA 包装器,将工具上下文由 215k 降至约 850 tokens",
+      "summary": "目标是解决 REA 207 个 MCP 工具 schema 每次请求都占用大量上下文的问题。做法是只暴露 rea_tools、rea_tool_info、rea_call 三个工具,让 agent 按需逐步探索。实测 REA 6.7.0 的每次请求负载由约 215k tokens 降到约 850 tokens,并附有测量脚本。",
+      "target": "DeepSeek Harness 的 REA MCP 集成",
+      "metric": "每次请求 schema 由约 215k tokens 降至约 850 tokens"
+    }
+  },
+  "d-7607ee5754": {
+    "hash": "4df5e9a08e6f",
+    "en": {
+      "title": "REA Japanese guides: recovering stereo panning calculations and tracing CSV export",
+      "summary": "This is the table of contents of the Japanese guides on the REA website. It covers setup, the process of recovering stereo panning calculations from a Windows game executable, and tracing the IPC path of CSV export in an Electron note-taking app. It contains only the guide outlines, with no concrete results or figures.",
+      "target": "Official REA tutorial guides (Windows game, Electron note-taking app)",
+      "metric": "Two step-by-step tutorial guides"
+    },
+    "zh-CN": {
+      "title": "REA 日文指南:还原左右声像计算与追踪 CSV 导出",
+      "summary": "这是 REA 官网的日文指南目录,列出设置方式、从 Windows 游戏可执行文件还原左右声像计算的流程,以及在 Electron 笔记 app 中追踪 CSV 导出的 IPC 路径。内容只有指南大纲,没有具体成果数据。",
+      "target": "REA 官方教程指南(Windows 游戏、Electron 笔记 app)",
+      "metric": "提供两份分步教程指南"
+    }
   }
 }

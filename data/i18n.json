@@ -16708,5 +16708,110 @@
       "target": "REA 官方教程指南(Windows 游戏、Electron 笔记 app)",
       "metric": "提供两份分步教程指南"
     }
+  },
+  "d-3e5af8dc22": {
+    "hash": "080692fda771",
+    "en": {
+      "title": "Reverse-engineering aura.build with REA and rebuilding a working AI landing page generator",
+      "summary": "The target is aura.build, an AI landing page builder. The author used REA to recover its architecture from the published frontend (documented in docs/reverse-engineering.md), then independently implemented a working clone covering streaming generation, Design-mode visual editing, code view, version restore, export and publishing, plus template, component, asset and skill pages. The result is public on GitHub and runs on CLI subscription accounts such as Claude Code, Codex, Cursor and OpenCode.",
+      "target": "aura.build (AI landing page builder)",
+      "metric": "Full clone: 8 templates, 60 procedural SVG backgrounds, 4 CLI providers supported"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向 aura.build 并重建可运行的 AI 落地页生成器",
+      "summary": "目标是 aura.build 这个 AI 落地页构建器。作者用 REA 从其已发布的前端还原架构(记录于 docs/reverse-engineering.md),再独立实现出可运行的复刻版,包含流式生成、Design 模式可视化编辑、代码查看、版本还原、导出与发布,以及模板、组件、素材、技能等页面。成果公开于 GitHub repo,并支持由 Claude Code、Codex、Cursor、OpenCode 等 CLI 订阅账号驱动。",
+      "target": "aura.build(AI 落地页构建器)",
+      "metric": "完整复刻版:8 个模板、60 个程序化 SVG 背景、支持 4 种 CLI 供应商"
+    }
+  },
+  "d-3bba75b1fc": {
+    "hash": "4e0d1db1f4b3",
+    "en": {
+      "title": "Analyzing the loader and physics of the Amiga game Stunt Car Racer with REA and Ghidra",
+      "summary": "For the 1989 Amiga game Stunt Car Racer, the author ran into an RNC raw-MFM loader, XOR-$80 code, checksums and a suspicious 68000 TRACE vector. REA was blocked on m68k, so Ghidra decompiled 480 functions and mapped out the fixed-point suspension and physics systems, after which the work was handed to Gemini for further analysis.",
+      "target": "Amiga game Stunt Car Racer (1989)",
+      "metric": "Ghidra decompiled 480 functions and mapped the fixed-point suspension and physics"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Ghidra 分析 Amiga 游戏 Stunt Car Racer 的加载器与物理",
+      "summary": "针对 1989 年的 Amiga 游戏 Stunt Car Racer,作者遇到了 RNC raw-MFM 加载器、XOR-$80 代码、校验码以及可疑的 68000 TRACE 向量。REA 在 m68k 上受阻,改由 Ghidra 反编译出 480 个函数,并梳理出定点数悬挂与物理系统,后续交给 Gemini 继续分析。",
+      "target": "Amiga 游戏 Stunt Car Racer (1989)",
+      "metric": "Ghidra 反编译 480 个函数,并梳理出定点数悬挂与物理"
+    }
+  },
+  "d-ce498e1986": {
+    "hash": "a239d6bf00ad",
+    "en": {
+      "title": "Asking REA to make Clicky run on a custom model router",
+      "summary": "The author likes heyclicky but didn't want to keep paying for a subscription, so they had REA modify it to work with their own cc-switch routing (opencode zen, kimi, etc.). The author says it worked, but provided no code or evidence.",
+      "target": "heyclicky app",
+      "metric": "Modified to run through cc-switch routing (author's claim)"
+    },
+    "zh-CN": {
+      "title": "请 REA 让 Clicky 改用自有模型路由运行",
+      "summary": "作者喜欢 heyclicky,但不想再付订阅费,于是交给 REA 改造,使其能搭配自己的 cc-switch 路由(opencode zen、kimi 等)运行。作者自称成功,但没有提供代码或证据。",
+      "target": "heyclicky 应用",
+      "metric": "改造后可接入 cc-switch 路由运行(作者自述)"
+    }
+  },
+  "d-7770689831": {
+    "hash": "265cf7caffd6",
+    "en": {
+      "title": "Reverse-engineering a 50MB smart scale APK with REA to get rid of an ad-filled app",
+      "summary": "The author's Ant Esports smart scale only works with a Chinese companion app full of ads. Using REA with GLM 5.3, they reverse-engineered the APK and claim to have covered the entire 50MB program. The post gives no concrete results or evidence.",
+      "target": "Ant Esports smart scale companion app APK",
+      "metric": "Roughly 50MB APK reverse-engineered (author's claim)"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向 50MB 智能体重秤 APK 以摆脱广告 App",
+      "summary": "作者的蚂蚁电竞(Ant Esports)智能体重秤只能搭配充满广告的中国配套 App。他用 REA 搭配 GLM 5.3 对该 APK 进行逆向工程,自称已逆向整个 50MB 的程序。帖子未提供具体成果或证据。",
+      "target": "蚂蚁电竞(Ant Esports)智能体重秤配套 App APK",
+      "metric": "逆向约 50MB 的 APK(作者自述)"
+    }
+  },
+  "d-c4da9f6fff": {
+    "hash": "964683bb325e",
+    "en": {
+      "title": "Building a Custom Radio Station Mod for Watch Dogs 1 with REA and Opus 5.5",
+      "summary": "An author with no programming background used REA together with Opus 5.5 to build a custom radio station mod for Watch Dogs 1, and the work is still in progress. The post is the author's own account and includes no concrete evidence.",
+      "target": "Watch Dogs 1 (game)",
+      "metric": "Custom radio station mod in development (WIP)"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Opus 5.5 为 Watch Dogs 1 制作自定义电台 Mod",
+      "summary": "非编程背景的作者使用 REA 搭配 Opus 5.5，为 Watch Dogs 1 开发自定义电台 Mod，目前仍在进行中。帖子只有作者自述，没有附上具体证据。",
+      "target": "Watch Dogs 1 游戏",
+      "metric": "自定义电台 Mod 开发中（WIP）"
+    }
+  },
+  "d-d00af6736b": {
+    "hash": "28678e1426f1",
+    "en": {
+      "title": "Decompiling the Amiga Game Sensible Soccer with REA",
+      "summary": "The author used REA to decompile Sensible Soccer, the classic Amiga football game, and expressed amazement at the result. The post provides no code, tests, or details of concrete results.",
+      "target": "Amiga game Sensible Soccer",
+      "metric": "Decompiled Sensible Soccer (self-reported)"
+    },
+    "zh-CN": {
+      "title": "用 REA 反编译 Amiga 游戏 Sensible Soccer",
+      "summary": "作者使用 REA 对 Amiga 经典足球游戏 Sensible Soccer 进行反编译，并表示惊叹。帖子没有提供代码、测试或具体成果细节。",
+      "target": "Amiga 游戏 Sensible Soccer",
+      "metric": "反编译 Sensible Soccer（作者自述）"
+    }
+  },
+  "d-1e1ec28432": {
+    "hash": "53c6eccf9b6c",
+    "en": {
+      "title": "ECC-Universal: An Agent Operating System Repo Integrating the REA Binary Deconstruction Engine",
+      "summary": "A GitHub repo that claims to include 72 AI agents, 316 skills, and the REA binary deconstruction engine. The excerpt consists mostly of ECC project badges and multilingual links; no reverse-engineering results from applying REA to a specific target are visible.",
+      "target": "ECC-Universal agent toolkit",
+      "metric": "72 agents + 316 skills (project's own claim)"
+    },
+    "zh-CN": {
+      "title": "ECC-Universal：整合 REA 二进制解构引擎的代理操作系统 repo",
+      "summary": "这是一个声称包含 72 个 AI agent、316 个技能与 REA 二进制解构引擎的 GitHub repo。内容节选大多是 ECC 项目的徽章与多语言链接，没有看到使用 REA 对具体目标的逆向成果。",
+      "target": "ECC-Universal 代理工具集",
+      "metric": "72 个 agent + 316 个技能（项目自述）"
+    }
   }
 }

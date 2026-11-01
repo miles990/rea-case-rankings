@@ -52,6 +52,44 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://github.com/Karan546-ai/ECC-Universal",
+      "title": "Karan546-ai/ECC-Universal: The Autonomous Reverse-to-Forward Engineering Operating System. 72 AI Agents + 316 Skills + REA Binary Deconstruction Engine.",
+      "author": "Karan546-ai",
+      "date": "2026-11-01",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-01",
+      "relevant": true,
+      "title_zh": "ECC-Universal：整合 REA 二進位解構引擎的代理人作業系統 repo",
+      "summary": "這是一個宣稱包含 72 個 AI agent、316 個技能與 REA 二進位解構引擎的 GitHub repo。內容節錄大多是 ECC 專案的徽章與多語系連結，沒有看到使用 REA 對具體目標的逆向成果。",
+      "target": "ECC-Universal 代理人工具集",
+      "metric": "72 個 agent + 316 個技能（專案自述）",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-01",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://bsky.app/profile/oludai.bsky.social/post/3mz7wecf2qj22",
+      "title": "morluto/rea gained 3,247 stars today (415.4k total). An agent tool for reverse-engineering anything from app behavior to native binaries—cur",
+      "author": "oludai.bsky.social",
+      "date": "2026-11-01",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 1,
+      "lang": "en",
+      "found": "2026-11-01",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-01",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://github.com/ohbenderofficial-br/rea",
       "title": "ohbenderofficial-br/rea: Independent copy of morluto/rea (MIT). Reverse engineer anything with agents.",
       "author": "ohbenderofficial-br",
@@ -438,15 +476,6 @@
       "scored_by": "sonnet"
     },
     {
-      "url": "https://x.com/matiasdante03/status/2116587267678704102",
-      "title": "A raiz de que están saliendo todos estos proyectos de ingeniería inversa como REA, armé BBA (Bug Bounty Anything) Es una",
-      "source": "X",
-      "found": "2026-11-01",
-      "relevant": false,
-      "scored": "2026-11-01",
-      "scored_by": "sonnet"
-    },
-    {
       "url": "https://x.com/nvandewetering/status/2116680398658810205",
       "title": "Theres no point in paying for software anymore. Reverse Engineer Anything is a game changer. I fed the magic repo to Claude Opus 5.5 and was",
       "author": "@nvandewetering",
@@ -472,15 +501,6 @@
       "scored_by": "sonnet"
     },
     {
-      "url": "https://x.com/0xGrimmer_/status/2116629896260915247",
-      "title": "$250,000 BECAME $320,096 IN A YEAR AND FINISHED $34,725 AHEAD OF QQQ. ONE TICKER DID ALMOST HALF OF IT. the clip is weal",
-      "source": "X",
-      "found": "2026-11-01",
-      "relevant": false,
-      "scored": "2026-11-01",
-      "scored_by": "jev"
-    },
-    {
       "url": "https://x.com/suwa_sh/status/2116365545545089250",
       "title": "ソースがないバイナリをエージェントに調べさせる判断では、疑似コードより先に観測・導出・推論の境界が要る。REA 6.5.0 は、その証拠を CLI と MCP で同じ手順から返す。 #AIエージェント #逆解析 #MCP",
       "author": "@suwa_sh",
@@ -502,6 +522,106 @@
       "scored_by": "jev"
     },
     {
+      "url": "https://x.com/batuhan_katirci/status/2116569153666789425",
+      "title": "really liked the simplicity of @heyclicky, but couldn't justify buying another sub. passed it to rea to get it running with my cc-switch rou",
+      "author": "@batuhan_katirci",
+      "date": "2026-10-31",
+      "source": "X",
+      "kind": "貼文",
+      "score": 4,
+      "pop": {
+        "likes": 4,
+        "views": 821
+      },
+      "lang": "en",
+      "found": "2026-11-01",
+      "relevant": true,
+      "title_zh": "請 REA 讓 Clicky 改用自有模型路由運作",
+      "summary": "作者喜歡 heyclicky 但不想再付訂閱費，交給 REA 改造，使其能搭配自己的 cc-switch 路由（opencode zen、kimi 等）運作。作者自述成功，但沒有提供程式碼或證據。",
+      "target": "heyclicky 應用程式",
+      "metric": "改造後可接上 cc-switch 路由運作（作者自述）",
+      "category": "Native",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-11-01",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/ScientificBrad/status/2116545601987096930",
+      "title": "Span #REA at my fav #amiga game #StuntCarRacer (1989). It fought back. No AmigaDOS. RNC raw-MFM loader. XOR-$80 code, checksums, suspicious ",
+      "author": "@ScientificBrad",
+      "date": "2026-10-31",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 36
+      },
+      "lang": "en",
+      "found": "2026-11-01",
+      "relevant": true,
+      "title_zh": "用 REA 與 Ghidra 分析 Amiga 遊戲 Stunt Car Racer 的載入器與物理",
+      "summary": "針對 1989 年 Amiga 遊戲 Stunt Car Racer，作者遇到 RNC raw-MFM 載入器、XOR-$80 程式碼、校驗碼與可疑的 68000 TRACE 向量。REA 在 m68k 上受阻，改由 Ghidra 反編譯出 480 個函式，並對應出定點數懸吊與物理系統，後續交給 Gemini 繼續分析。",
+      "target": "Amiga 遊戲 Stunt Car Racer (1989)",
+      "metric": "Ghidra 反編譯 480 個函式，並對應定點數懸吊與物理",
+      "category": "Native / 遊戲",
+      "status": "reported",
+      "wow": 3,
+      "scored": "2026-11-01",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/j_yunth/status/2116488683188887716",
+      "title": "bought an ant esports smart scale on zepto a few months ago. shit came with a bloated chinese companion app that tracked weight, bmi, bone m",
+      "author": "@j_yunth",
+      "date": "2026-10-31",
+      "source": "X",
+      "kind": "貼文",
+      "score": 8,
+      "pop": {
+        "likes": 8,
+        "views": 249
+      },
+      "lang": "en",
+      "found": "2026-11-01",
+      "relevant": true,
+      "title_zh": "用 REA 逆向 50MB 智慧體重計 APK 以擺脫廣告 App",
+      "summary": "作者的螞蟻電競智慧體重計只能搭配充滿廣告的中國配套 App。他用 REA 搭配 GLM 5.3 對該 APK 進行逆向工程，自述已逆向整個 50MB 的程式。貼文未提供具體成果或證據。",
+      "target": "螞蟻電競（Ant Esports）智慧體重計配套 App APK",
+      "metric": "逆向約 50MB 的 APK（作者自述）",
+      "category": "Android",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-11-01",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/ScientificBrad/status/2116365075372249354",
+      "title": "Right I need to go to sleep but #REA is too bonkers! just decompiled #sensiblesoccer, Who was your fav player! #amiga #ReverseEngineering #b",
+      "author": "@ScientificBrad",
+      "date": "2026-10-31",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 15
+      },
+      "lang": "en",
+      "found": "2026-11-01",
+      "relevant": true,
+      "title_zh": "用 REA 反編譯 Amiga 遊戲 Sensible Soccer",
+      "summary": "作者使用 REA 對 Amiga 經典足球遊戲 Sensible Soccer 進行反編譯，並表示驚嘆。貼文沒有提供程式碼、測試或具體成果細節。",
+      "target": "Amiga 遊戲 Sensible Soccer",
+      "metric": "反編譯 Sensible Soccer（作者自述）",
+      "category": "Native / 遊戲",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-11-01",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://www.scientificamerican.com/article/an-exclusive-conversation-with-the-developer-of-rea-the-viral-ai-reverse-engineering-tool/",
       "title": "An exclusive conversation with the developer of REA, the viral AI reverse engineering tool | Scientific American",
       "author": "Peter Hall",
@@ -514,15 +634,6 @@
       "wow": 1,
       "category": "報導 / 評論",
       "status": "shipped",
-      "scored": "2026-11-01",
-      "scored_by": "jev"
-    },
-    {
-      "url": "https://x.com/bleysg/status/2116160530461364402",
-      "title": "TVs are just the start. Let's make all embedded in the home and on us transparent.",
-      "source": "X",
-      "found": "2026-11-01",
-      "relevant": false,
       "scored": "2026-11-01",
       "scored_by": "jev"
     },
@@ -623,6 +734,31 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://x.com/d_n3ro/status/2116058602800878006",
+      "title": "WIP custom radio mod for Watch Dogs 1. Built with REA and Opus 5.5. Can't even describe the feeling, as a non-coder, of how nuts this is.",
+      "author": "@d_n3ro",
+      "date": "2026-10-30",
+      "source": "X",
+      "kind": "貼文",
+      "score": 2,
+      "pop": {
+        "likes": 2,
+        "views": 200
+      },
+      "lang": "en",
+      "found": "2026-11-01",
+      "relevant": true,
+      "title_zh": "用 REA 與 Opus 5.5 為 Watch Dogs 1 製作自訂電台 Mod",
+      "summary": "非程式背景的作者使用 REA 搭配 Opus 5.5，為 Watch Dogs 1 開發自訂電台 Mod，目前仍在進行中。貼文只有作者自述，沒有附上具體證據。",
+      "target": "Watch Dogs 1 遊戲",
+      "metric": "自訂電台 Mod 開發中（WIP）",
+      "category": "Native / 遊戲",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-11-01",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/dwamaker/update-watch",
       "title": "dwamaker/update-watch: Claude Code mod: toast when plugins, skills or REA have upstream updates (notify only)",
       "author": "dwamaker",
@@ -690,6 +826,22 @@
       "scored_by": "jev"
     },
     {
+      "url": "https://jishuzhan.net/article/2113945082479271938",
+      "title": "REA 工程解析：让 AI Agent 拿着证据做逆向 - 技术栈",
+      "author": "jishuzhan.net",
+      "date": "2026-10-24",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "zh",
+      "found": "2026-11-01",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-11-01",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://www.gatherthink.com/p/reverse-engineer-anything-what-it",
       "title": "Reverse Engineer Anything: what it is and what it's for",
       "author": "gatherthink.com",
@@ -708,6 +860,54 @@
       "wow": 1,
       "scored": "2026-11-01",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/andysolomon/aura-build-clone",
+      "title": "andysolomon/aura-build-clone: AI landing page builder: a clone of aura.build, reverse engineered with REA",
+      "author": "andysolomon",
+      "date": "2026-10-18",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-01",
+      "relevant": true,
+      "title_zh": "用 REA 逆向 aura.build 並重建可運作的 AI 落地頁產生器",
+      "summary": "目標是 aura.build 這個 AI 落地頁建構器。作者用 REA 從其已發布的前端還原架構（記錄於 docs/reverse-engineering.md），再獨立實作出可運作的複刻版，包含串流生成、Design 模式視覺編輯、程式碼檢視、版本還原、匯出與發佈，以及範本、元件、素材、技能等頁面。結果公開於 GitHub repo，並支援 Claude Code、Codex、Cursor、OpenCode 等 CLI 訂閱帳號驅動。",
+      "target": "aura.build（AI 落地頁建構器）",
+      "metric": "完整複刻版：8 個範本、60 個程序化 SVG 背景、支援 4 種 CLI 供應商",
+      "category": "Web / JS",
+      "status": "shipped",
+      "wow": 5,
+      "scored": "2026-11-01",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/matiasdante03/status/2116587267678704102",
+      "title": "A raiz de que están saliendo todos estos proyectos de ingeniería inversa como REA, armé BBA (Bug Bounty Anything) Es una",
+      "source": "X",
+      "found": "2026-11-01",
+      "relevant": false,
+      "scored": "2026-11-01",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/0xGrimmer_/status/2116629896260915247",
+      "title": "$250,000 BECAME $320,096 IN A YEAR AND FINISHED $34,725 AHEAD OF QQQ. ONE TICKER DID ALMOST HALF OF IT. the clip is weal",
+      "source": "X",
+      "found": "2026-11-01",
+      "relevant": false,
+      "scored": "2026-11-01",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/bleysg/status/2116160530461364402",
+      "title": "TVs are just the start. Let's make all embedded in the home and on us transparent.",
+      "source": "X",
+      "found": "2026-11-01",
+      "relevant": false,
+      "scored": "2026-11-01",
+      "scored_by": "jev"
     },
     {
       "url": "https://github.com/matthewdonsemail-lab/log",
@@ -41588,6 +41788,35 @@
   "runs": [
     {
       "date": "2026-11-01",
+      "added": 9,
+      "stats": {
+        "githubShowAndTell": 14,
+        "githubRepos": 235,
+        "githubCode": 46,
+        "hackerNews": 26,
+        "qiita": 45,
+        "devto": 150,
+        "juejin": 1,
+        "reddit": 20,
+        "v2ex": 12,
+        "youtube": 90,
+        "bluesky": 162,
+        "mastodon": 160,
+        "exaWeb": 57,
+        "x": 18
+      },
+      "scoring": {
+        "scored": 7,
+        "jev": {
+          "low": 2,
+          "irrelevant": 0,
+          "errors": 0,
+          "toClaude": 7
+        }
+      }
+    },
+    {
+      "date": "2026-11-01",
       "added": 42,
       "stats": {
         "githubShowAndTell": 14,
@@ -42430,38 +42659,7 @@
         "failed": 131,
         "error": "Command failed: claude -p --output-format json --max-turns 1 --tools  --model sonnet\n"
       }
-    },
-    {
-      "date": "2026-10-20",
-      "added": 30,
-      "stats": {
-        "githubShowAndTell": 13,
-        "githubRepos": 223,
-        "githubCode": 42,
-        "hackerNews": 22,
-        "qiita": 40,
-        "devto": 150,
-        "juejin": 24,
-        "reddit": 60,
-        "v2ex": 9,
-        "youtube": 90,
-        "bluesky": 159,
-        "mastodon": 160,
-        "exaWeb": 58,
-        "x": 28
-      },
-      "scoring": {
-        "scored": 0,
-        "jev": {
-          "low": 26,
-          "irrelevant": 8,
-          "errors": 0,
-          "toClaude": 94
-        },
-        "failed": 94,
-        "error": "Command failed: claude -p --output-format json --max-turns 1 --tools  --model sonnet\n"
-      }
     }
   ],
-  "updatedAt": "2026-11-01T00:25:44.325Z"
+  "updatedAt": "2026-11-01T04:41:36.067Z"
 }

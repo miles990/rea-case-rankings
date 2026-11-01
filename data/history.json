@@ -26865,12 +26865,14 @@
     },
     {
       "date": "2026-11-01",
-      "stars": 415506,
-      "stars_delta": 2675,
+      "stars": 415990,
+      "stars_delta": 3159,
       "new": [
         "d-a7cd402a86",
+        "d-3e5af8dc22",
         "d-a5a677a279",
         "d-00d5ff1999",
+        "d-3bba75b1fc",
         "d-954a038466",
         "d-4cf507c59c",
         "d-b0cf41d54f",
@@ -26879,14 +26881,19 @@
         "d-d2121f9a00",
         "d-2c2989e52b",
         "d-d91a43cc64",
+        "d-ce498e1986",
+        "d-7770689831",
         "d-1825b201c5",
         "d-28ab8f66ac",
         "d-142440e9c1",
+        "d-c4da9f6fff",
         "d-604f2fda5e",
         "d-520786f904",
+        "d-d00af6736b",
         "d-aaea2e8725",
         "d-5c45a30253",
         "d-b5767f98c6",
+        "d-1e1ec28432",
         "d-7607ee5754",
         "d-fe8874a38c",
         "d-0778c468b2",
@@ -26894,36 +26901,36 @@
         "d-e933ed3e43"
       ],
       "stats": {
-        "count": 24,
+        "count": 31,
         "wow": {
-          "2": 18,
-          "3": 4,
+          "2": 23,
+          "3": 5,
           "4": 1,
-          "5": 1
+          "5": 2
         },
         "type": {
-          "case": 10,
-          "app": 12,
+          "case": 16,
+          "app": 13,
           "learn": 2
         },
         "status": {
           "tested": 4,
-          "reported": 12,
-          "shipped": 8
+          "shipped": 10,
+          "reported": 17
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 星數破 41.5 萬，DX-Ball 位元組級重建成當日焦點",
-          "summary": "REA 的 GitHub 星數升至 415,506，較前一個紀錄 412,831 增加 2,675。當天最突出的案例是有人用 REA 從 DX-Ball 執行檔重建 C/C++ 原始碼，270 個函式、84,968 位元組逐位元組一致；但另一個受控實驗顯示，在 PvZ 去符號二進位的重建任務中，沒有任何組別勝過僅提供文件的對照組，作者也說明實驗限制。同時，leanrea、DeepSeek 包裝器等多個項目聚焦於減少 REA 的 207 個工具所佔的上下文，並出現 AREA 這類防禦工具，顯示討論正從展示成果轉向驗證、成本與對抗。其中 leanrea 的效能數據為作者自述。"
+          "headline": "REA 重建 DX-Ball 位元組一致，同日也出現對照實驗與輕量替代品",
+          "summary": "11 月 1 日最受矚目的是有作者用 REA 從 DX-Ball 執行檔重建出 C/C++ 原始碼，270 個函式、84,968 位元組逐位元組一致，並公開 repo 與影片。REA 的 GitHub 星數達 415,990，比前一個紀錄 412,831 增加 3,159。同一天也有一項受控實驗顯示，在去符號的 PvZ 二進位上，沒有任何組別勝過僅提供文件的對照組，作者並說明實驗設計有限制。另外多則貼文圍繞 leanrea 與 DeepSeek 包裝器，目標都是縮減 REA 的 207 個工具佔用的上下文，不過 leanrea 的速度與成本數據只是作者自述。"
         },
         "en": {
-          "headline": "REA passes 415K stars; byte-exact DX-Ball rebuild leads the day",
-          "summary": "REA's GitHub stars rose to 415,506, up 2,675 from the previous record of 412,831. The standout case is a DX-Ball rebuild with REA: all 270 functions recovered as C/C++ source, 84,968 bytes matching byte for byte. A controlled experiment on a stripped PvZ binary, however, found no group beat the docs-only control, and the author notes the design's limits. Several items (leanrea, a DeepSeek wrapper) target the context cost of REA's 207 tools, and AREA appeared as a defensive toolkit, suggesting discussion is shifting from showcases toward verification, cost and countermeasures. leanrea's performance figures are self-reported."
+          "headline": "REA rebuilds DX-Ball byte-for-byte; a controlled test and lean alternatives also surface",
+          "summary": "The standout item on Nov 1 is an author using REA to rebuild C/C++ source from the original DX-Ball executable, with all 270 functions matching byte-for-byte (84,968 bytes) and a repo and video published. REA's GitHub stars reached 415,990, up 3,159 from the previous record of 412,831. A controlled experiment on a stripped PvZ binary found no group beat the documentation-only control, though the author lists design limitations. Several other posts focus on leanrea and a DeepSeek wrapper that aim to cut the context taken up by REA's 207 tools, but leanrea's speed and cost figures are the author's own claims."
         },
         "zh-CN": {
-          "headline": "REA 星数破 41.5 万，DX-Ball 字节级重建成当日焦点",
-          "summary": "REA 的 GitHub 星数升至 415,506，比之前的纪录 412,831 增加 2,675。当天最突出的案例是有人用 REA 从 DX-Ball 可执行文件重建 C/C++ 源码，270 个函数、84,968 字节逐字节一致；但另一项受控实验显示，在 PvZ 去符号二进制的重建任务中，没有任何组别胜过仅提供文档的对照组，作者也说明了实验的局限。同时，leanrea、DeepSeek 包装器等多个项目聚焦于减少 REA 的 207 个工具所占的上下文，并出现 AREA 这类防御工具，说明讨论正从展示成果转向验证、成本与对抗。其中 leanrea 的性能数据为作者自述。"
+          "headline": "REA 重建 DX-Ball 字节一致，同日也出现对照实验与轻量替代品",
+          "summary": "11 月 1 日最受瞩目的是有作者用 REA 从 DX-Ball 可执行文件重建出 C/C++ 源代码，270 个函数、84,968 字节逐字节一致，并公开了 repo 与视频。REA 的 GitHub 星数达到 415,990，比之前的纪录 412,831 增加 3,159。同一天还有一项受控实验显示，在去符号的 PvZ 二进制上，没有任何组别胜过仅提供文档的对照组，作者也说明了实验设计的局限。另外多条帖子围绕 leanrea 与 DeepSeek 包装器，目标都是缩减 REA 的 207 个工具占用的上下文，不过 leanrea 的速度与成本数据只是作者自述。"
         }
       },
       "signals": [
@@ -26970,6 +26977,7 @@
         "d-c24f94de41",
         "d-b704d89ca5",
         "d-4e14365345",
+        "d-3e5af8dc22",
         "d-20dc2e5d41",
         "d-771df2f880",
         "wispr-flow-eric",
@@ -27234,6 +27242,7 @@
         "d-ec49bf6b05",
         "d-3f323fbc13",
         "d-a42d638ebb",
+        "d-3bba75b1fc",
         "d-77593de27f",
         "d-9fa69c73f3",
         "d-a2e226d153",
@@ -27443,9 +27452,11 @@
         "d-6be9bab64b",
         "d-159d81dd6a",
         "d-916c1bc5aa",
+        "d-ce498e1986",
         "d-ae0f47d6be",
         "d-7b67dfdd18",
         "d-c98d5d03bf",
+        "d-7770689831",
         "d-1825b201c5",
         "d-0814eda0e3",
         "d-ce76f95f75",
@@ -27475,6 +27486,7 @@
         "d-dfd0acf51f",
         "rea-investigate",
         "d-142440e9c1",
+        "d-c4da9f6fff",
         "d-f27838f8ca",
         "d-7c99ecd3c0",
         "d-95e26eefc9",
@@ -27625,6 +27637,7 @@
         "d-cbd7643320",
         "d-fa40d24345",
         "d-5df65cb299",
+        "d-d00af6736b",
         "d-bda53da224",
         "d-e02463c065",
         "d-840b44c204",
@@ -27691,6 +27704,7 @@
         "d-40c0474406",
         "d-49c3fe3859",
         "heartland-side-effects",
+        "d-1e1ec28432",
         "d-7607ee5754",
         "d-fe8874a38c",
         "d-0778c468b2",
@@ -28318,6 +28332,7 @@
         "d-15493ac0e3",
         "d-1d5883af5b",
         "d-1480a7cf0c",
+        "d-672dba878c",
         "d-3f8954b20a",
         "d-ae381cc147",
         "d-e362e9ce32",
@@ -28607,6 +28622,7 @@
         "d-8f4721df42",
         "d-a1e2ef476d",
         "d-5599ffea1a",
+        "d-23bc1844ce",
         "d-2811c015d4",
         "d-3d3e0a80de",
         "d-11f156d5b5",
@@ -28890,29 +28906,27 @@
     "to": "2026-11-01",
     "text": {
       "zh-TW": {
-        "headline": "REA 熱度續升，但焦點從展示成果轉向驗證、成本與對抗",
-        "summary": "本週 REA 星數從 385,751 升到 415,506，案例從老遊戲與 App 復刻，擴及無人機、燈泡等硬體與 Windows 工具重建。驗證訊號(B)七天全數出現，位元組級比對(DX-Ball 3,205 筆測試、270 個函式一致)與乾淨室重寫成為可信度標準，而只有作者自述的熱門貼文常缺乏證據。同時，多項實測指出在小型程式上 REA 只增加成本、準確度沒有明顯優勢，帶動 207 個工具壓縮成 3 個入口、leanrea 等降低上下文負擔的做法。週末出現 BLA、AREA 等反 AI 逆向的防護工具，顯示攻防兩端同步成形。",
-        "watch": "接下來可留意成本與工具精簡類專案(如 leanrea)是否補上獨立實測數據，以及 BLA、AREA 這類防護工具是否被第三方驗證。想找機會的人可聚焦『有逐位元組或差異測試佐證』的遊戲與企業舊軟體遷移，並把硬體互通(如 Yeelight 接 Home Assistant)視為尚少人做的空間。"
+        "headline": "REA 熱度續漲,但焦點從展示轉向驗證與成本",
+        "summary": "本週 REA 星數從 385,751 升至 415,990,案例從老遊戲與 App 復刻,擴及無人機、燈泡等硬體(10/27)、勒索軟體分析與桌面助理重建。「驗證是瓶頸」七天全數出現:DX-Ball 音效函式與整個執行檔都做到位元組級比對(3,205 筆測試、270 個函式 84,968 位元組一致),但多組對照實驗(20 個程式、PvZ 去符號二進位)都未見 REA 帶來準確度優勢,小型程式上只增加成本。同時,反 AI 逆向工具 BLA 出現,以及 leanrea、將 207 個工具壓縮為 3 個入口的外掛,顯示對抗與降本同步升溫。許多熱門貼文仍只有作者自述,缺乏證據。",
+        "watch": "可留意 BLA 這類防護工具是否有更多獨立測試,以及 leanrea 的速度與成本數據能否被第三方重現。有機會的方向是附帶位元組級或差異測試證據的重建案例,以及針對 REA 工具負擔的輕量化方案;評估新項目時,優先看是否公開程式碼與測試。"
       },
       "en": {
-        "headline": "REA keeps surging, but focus shifts from showcases to verification, cost and countermeasures",
-        "summary": "This week REA's stars rose from 385,751 to 415,506, and cases expanded from retro games and apps to drones, light bulbs and rebuilt Windows tools. The verification signal (B) appeared all seven days: byte-level comparison (3,205 DX-Ball tests, 270 functions matching) and clean-room rewrites became the credibility bar, while popular self-reported posts often lacked evidence. Several independent tests found REA added cost without a clear accuracy edge on small programs, driving efforts such as compressing 207 tools into 3 entry points and leanrea to cut context overhead. By the weekend, anti-AI-reversing defenses like BLA and AREA appeared, showing attack and defense forming together.",
-        "watch": "Watch whether cost-trimming projects like leanrea publish independent benchmarks, and whether defenses such as BLA and AREA get third-party validation. For opportunities, focus on game and legacy enterprise software migration backed by byte-level or differential tests, and treat hardware interop (e.g. Yeelight to Home Assistant) as a comparatively under-served space."
+        "headline": "REA hype keeps growing, but focus shifts from demos to verification and cost",
+        "summary": "Over the week REA's GitHub stars rose from 385,751 to 415,990, and cases widened from retro games and apps to hardware (a Yeelight bulb on 10/27), ransomware analysis and a desktop assistant rebuild. The 'verification is the bottleneck' signal appeared all seven days: DX-Ball was reproduced with byte-level checks (3,205 tests; 270 functions, 84,968 bytes identical), yet several controlled comparisons (20 programs, a stripped PvZ binary) found no accuracy advantage from REA, and on small programs it only added cost. Meanwhile the anti-AI-reversing tool BLA appeared, and leanrea plus a plugin collapsing 207 tools into 3 entry points showed cost and tool-surface concerns rising. Many popular posts remain author claims without evidence.",
+        "watch": "Watch whether BLA gets independent testing and whether leanrea's speed and cost numbers can be reproduced by third parties. The opportunity lies in rebuilds that ship byte-level or differential-test evidence, and in lightweight ways to cut REA's tool overhead; when assessing new projects, favor those that publish code and tests."
       },
       "zh-CN": {
-        "headline": "REA 热度持续攀升，焦点从展示成果转向验证、成本与对抗",
-        "summary": "本周 REA 星数从 385,751 升到 415,506，案例从老游戏与 App 复刻，扩展到无人机、灯泡等硬件以及 Windows 工具重建。验证信号(B)七天全部出现，字节级比对(DX-Ball 3,205 项测试、270 个函数一致)与洁净室重写成为可信度标准，而只有作者自述的热门帖子常缺乏证据。同时，多项实测指出在小型程序上 REA 只增加成本、准确度没有明显优势，推动了把 207 个工具压缩成 3 个入口、leanrea 等降低上下文负担的做法。周末出现 BLA、AREA 等反 AI 逆向的防护工具，显示攻防两端同步成形。",
-        "watch": "接下来可留意成本与工具精简类项目(如 leanrea)是否补上独立实测数据，以及 BLA、AREA 这类防护工具是否被第三方验证。想找机会的人可聚焦“有逐字节或差异测试佐证”的游戏与企业旧软件迁移，并把硬件互通(如 Yeelight 接入 Home Assistant)视为尚少人做的空间。"
+        "headline": "REA 热度续涨,但焦点从展示转向验证与成本",
+        "summary": "本周 REA 星数从 385,751 升至 415,990,案例从老游戏与 App 复刻,扩展到无人机、灯泡等硬件(10/27)、勒索软件分析与桌面助手重建。“验证是瓶颈”七天全部出现:DX-Ball 音效函数与整个可执行文件都做到了字节级比对(3,205 个测试、270 个函数 84,968 字节一致),但多组对照实验(20 个程序、PvZ 去符号二进制)都未见 REA 带来准确度优势,小型程序上只增加成本。同时,反 AI 逆向工具 BLA 出现,以及 leanrea、将 207 个工具压缩为 3 个入口的插件,显示对抗与降本同步升温。许多热门帖子仍只有作者自述,缺乏证据。",
+        "watch": "可留意 BLA 这类防护工具是否有更多独立测试,以及 leanrea 的速度与成本数据能否被第三方复现。有机会的方向是附带字节级或差异测试证据的重建案例,以及针对 REA 工具负担的轻量化方案;评估新项目时,优先看是否公开代码与测试。"
       }
     },
     "rising": [
       "B",
-      "C",
       "F"
     ],
     "fading": [
       "A",
-      "D",
       "E"
     ],
     "tally": {

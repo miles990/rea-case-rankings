@@ -30,7 +30,7 @@ export function firstJSON(text) {
 }
 
 export function askClaudeJSON(prompt) {
-  const args = ["-p", "--output-format", "json", "--max-turns", "1", "--tools", ""];
+  const args = ["-p", "--output-format", "json", "--max-turns", "1", "--tools", "", "--no-session-persistence"];
   if (process.env.CLAUDE_MODEL) args.push("--model", process.env.CLAUDE_MODEL);
   const raw = execFileSync("claude", args, {
     input: prompt,
@@ -43,7 +43,7 @@ export function askClaudeJSON(prompt) {
 }
 
 export function askClaudeJSONAsync(prompt) {
-  const args = ["-p", "--output-format", "json", "--max-turns", "1", "--tools", ""];
+  const args = ["-p", "--output-format", "json", "--max-turns", "1", "--tools", "", "--no-session-persistence"];
   if (process.env.CLAUDE_MODEL) args.push("--model", process.env.CLAUDE_MODEL);
   return new Promise((resolve, reject) => {
     const child = execFile("claude", args, { encoding: "utf8", timeout: 300000, maxBuffer: 16 << 20 }, (err, stdout) => {

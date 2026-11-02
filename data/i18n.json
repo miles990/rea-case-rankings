@@ -16813,5 +16813,335 @@
       "target": "ECC-Universal 代理工具集",
       "metric": "72 个 agent + 316 个技能（项目自述）"
     }
+  },
+  "d-ba1bf83321": {
+    "hash": "941edfa49910",
+    "en": {
+      "title": "A recursive self-learning reverse-engineering skill inspired by REA",
+      "summary": "Inspired by REA, the author rewrote an REA skill with recursive self-learning that keeps building until the task is complete. A GitHub repo link is included, but the excerpt contains no test or result data.",
+      "target": "REA skill (self-learning loop)",
+      "metric": "Public GitHub repo: reverse-engineer-anything-self-learning-loop"
+    },
+    "zh-CN": {
+      "title": "受 REA 启发的递归自学习逆向 skill",
+      "summary": "作者受 REA 启发，重写了一个具备递归自学习能力的 REA skill，会持续构建直到任务完成。附有 GitHub repo 链接，但节选中没有任何测试或成果数据。",
+      "target": "REA skill（自学习循环）",
+      "metric": "公开 GitHub repo：reverse-engineer-anything-self-learning-loop"
+    }
+  },
+  "d-d7d043264f": {
+    "hash": "bd27625fd98e",
+    "en": {
+      "title": "Hard fork of REA into an Android-only reverse-engineering MCP toolset",
+      "summary": "Forked from morluto/rea 6.8.0 into an Android-specific edition offering 117 MCP tools covering APK, device state, runtime behavior, resource, and native library analysis, while preserving the evidence chain. The excerpt is mostly installation and usage instructions and shows no analysis results against a concrete target.",
+      "target": "REA tooling itself (Android-only fork)",
+      "metric": "117 Android MCP tools"
+    },
+    "zh-CN": {
+      "title": "将 REA 硬分叉为仅限 Android 的逆向 MCP 工具集",
+      "summary": "基于 morluto/rea 6.8.0 分叉出 Android 专用版本，提供 117 个 MCP 工具，涵盖 APK、设备状态、运行期行为、资源与原生库分析，并保留证据链。节选内容主要是安装与使用说明，未展示针对具体目标的分析成果。",
+      "target": "REA 工具本身（Android 专用分叉）",
+      "metric": "117 个 Android MCP 工具"
+    }
+  },
+  "d-fec5676160": {
+    "hash": "6e8ddc5f9e37",
+    "en": {
+      "title": "Recreating REA's engine-free file inspection with the pure Python standard library",
+      "summary": "GhostRE implements an inspector for GhostIDE that needs no engine such as Ghidra, covering ELF, PE, Mach-O, WASM, DEX, APK, pyc, SQLite, and other formats, and outputs JSON with entropy and strings. It performs bounds checking and reports warnings instead of crashing when parsing fails, but no testing on real targets is shown.",
+      "target": "GhostIDE built-in reverse-engineering inspector (multiple binary formats)",
+      "metric": "Zero-dependency inspector supporting 13 formats"
+    },
+    "zh-CN": {
+      "title": "用纯 Python 标准库重现 REA 免外部引擎的文件检视能力",
+      "summary": "GhostRE 为 GhostIDE 实现了无需 Ghidra 等引擎的检视器，涵盖 ELF、PE、Mach-O、WASM、DEX、APK、pyc、SQLite 等格式，输出包含熵与字符串的 JSON。具备边界检查，解析失败时报告警告而不崩溃，但未见对真实目标的实测。",
+      "target": "GhostIDE 内置逆向检视（多种二进制格式）",
+      "metric": "支持 13 种格式的零依赖检视器"
+    }
+  },
+  "d-5a7c1dac8c": {
+    "hash": "0c1df0f6b059",
+    "en": {
+      "title": "A bridge connecting REA to Maestro/OpenCode for build diagnostics and platform identification",
+      "summary": "For Project-R build diagnostics and platform identification, it links Maestro MCP, OpenCode, and REA (Ghidra binary analysis) with a fallback chain. It is currently Pre-alpha, with architecture and IPC protocol documentation but no tested results.",
+      "target": "Project-R build pipeline (pr-builder / pr-mediad)",
+      "metric": "Three-tier AI backend fallback chain, Pre-alpha stage"
+    },
+    "zh-CN": {
+      "title": "将 REA 接入 Maestro/OpenCode 的构建诊断与平台识别桥接",
+      "summary": "针对 Project-R 的构建诊断与平台识别，串联 Maestro MCP、OpenCode 与 REA（Ghidra 二进制分析）并实现降级链。目前为 Pre-alpha，有架构与 IPC 协议说明，未见实测成果。",
+      "target": "Project-R 构建流程（pr-builder / pr-mediad）",
+      "metric": "三层 AI 后端降级链，Pre-alpha 阶段"
+    }
+  },
+  "d-b0412d355f": {
+    "hash": "76acf2f66f52",
+    "en": {
+      "title": "Building a JS protection tool against REA and testing how well it resists recovery",
+      "summary": "REAShield hardens JS/Electron/Python releases through server-side migration, sealed secrets, and a merged module graph, and ships a test command that runs a before/after comparison against a real REA. The author reports that the number of protected tokens REA could recover dropped from 6 to 0, and webcrack also recovered 0.",
+      "target": "Self-published JavaScript / Electron / Python applications",
+      "metric": "Protected tokens recovered by REA: 6 → 0"
+    },
+    "zh-CN": {
+      "title": "打造对抗 REA 的 JS 防护工具并实测还原结果",
+      "summary": "REAShield 通过服务端迁移、密封机密和合并模块图,加固 JS/Electron/Python 发布程序,并提供用真实 REA 做前后对比的测试命令。作者自述,REA 可还原的受保护 token 由 6 降为 0,webcrack 也为 0。",
+      "target": "自行发布的 JavaScript / Electron / Python 应用",
+      "metric": "REA 还原受保护 token:6 → 0"
+    }
+  },
+  "d-bfb81f15af": {
+    "hash": "ce85362eb76b",
+    "en": {
+      "title": "Building anti-rea: a JS bundle obfuscator aimed at AI reverse-engineering agents like REA",
+      "summary": "The author built an experimental anti-LLM-analysis obfuscator that targets JavaScript bundles. It renames local identifiers and injects inert decoy strings during or after the build. The GitHub repo is public.",
+      "target": "Anti-AI reverse-engineering protection for JavaScript bundles",
+      "metric": "Public GitHub repo: JackJuly/anti-rea"
+    },
+    "zh-CN": {
+      "title": "开发 anti-rea:针对 REA 等 AI 逆向代理的 JS 打包文件混淆工具",
+      "summary": "作者制作了一款实验性的反 LLM 分析混淆器,目标是 JavaScript bundle。它会重命名局部标识符,并在构建期间或之后注入无作用的诱饵字符串,GitHub 仓库已公开。",
+      "target": "JavaScript bundle 的反 AI 逆向防护",
+      "metric": "公开 GitHub 仓库:JackJuly/anti-rea"
+    }
+  },
+  "d-b906095859": {
+    "hash": "1e5530fbdb8d",
+    "en": {
+      "title": "Thai-language video shows REA helping an AI rebuild a Mac Notes-style app",
+      "summary": "The author introduces REA (Reverse Engineer Anything) as a way to help AI explore and understand how an application works, and notes that it is not itself a tool for directly taking apps apart. The video tries to use REA to help build a note-taking app similar to Mac Notes; the excerpt does not show a final result.",
+      "target": "Mac Notes note-taking app",
+      "metric": "Video demonstrates rebuilding a Mac Notes-like app with REA (result not shown in the excerpt)"
+    },
+    "zh-CN": {
+      "title": "泰语视频演示用 REA 让 AI 重建类似 Mac Notes 的笔记应用",
+      "summary": "作者介绍了 REA(Reverse Engineer Anything),它能让 AI 更容易探索并理解应用的工作方式,并说明它本身并不是直接拆解应用的工具。视频尝试用 REA 协助构建类似 Mac Notes 的笔记应用,节选内容中尚未看到最终成果。",
+      "target": "Mac Notes 笔记应用",
+      "metric": "视频演示用 REA 重建类 Mac Notes 应用(节选未呈现结果)"
+    }
+  },
+  "d-75b5f95b90": {
+    "hash": "1e6a82a0f6f0",
+    "en": {
+      "title": "Using REA with AI to fix a pile of bugs in the pilipala project",
+      "summary": "The author says they used REA together with an AI model to fix many earlier bugs in the pilipala project. The post is only a brief self-report, with no specific bugs, code, or evidence provided.",
+      "target": "pilipala project",
+      "metric": "Author reports fixing multiple bugs (no specific numbers)"
+    },
+    "zh-CN": {
+      "title": "用 REA 搭配 AI 修好 pilipala 项目的一堆 bug",
+      "summary": "作者表示使用 REA 并搭配 AI 模型,修复了之前 pilipala 项目中的许多 bug。内容仅为简短自述,没有提供具体 bug、代码或证据。",
+      "target": "pilipala 项目",
+      "metric": "作者自述修好多个 bug(无具体数字)"
+    }
+  },
+  "d-676ebb5248": {
+    "hash": "0377d5d765f3",
+    "en": {
+      "title": "Recovering DX-Ball source from the EXE alone with REA: 270 functions byte-for-byte identical",
+      "summary": "Using the English DX-Ball 1.07 EXE as the reference, REA drives Ghidra from within Codex. Each function's instructions, pseudocode, call relationships and data references are reviewed, then rewritten as typed C/C++. Every function is compiled with Visual C++ 4.0 and compared against the original until it matches exactly. In the end, all 270 of the game's own functions (excluding the runtime library) match.",
+      "target": "DX-Ball 1.07 (a 90s Windows breakout game)",
+      "metric": "270 functions, 84,968 bytes of code byte-for-byte identical to the original"
+    },
+    "zh-CN": {
+      "title": "仅凭 EXE 用 REA 还原 DX-Ball 源码，270 个函数字节级一致",
+      "summary": "以 DX-Ball 1.07 英文版 EXE 为参照，在 Codex 中通过 REA 调用 Ghidra，逐函数查看指令、伪代码、调用关系与数据引用后改写成带类型的 C/C++。每个函数都用 Visual C++ 4.0 编译并与原版比对，直到完全一致，最终游戏自身 270 个函数（不含运行库）全部吻合。",
+      "target": "DX-Ball 1.07（90 年代 Windows 打砖块游戏）",
+      "metric": "270 个函数、84,968 字节代码与原版逐字节一致"
+    }
+  },
+  "d-9b56944c50": {
+    "hash": "9053299eebd2",
+    "en": {
+      "title": "A multi-agent swarm reverse-engineers Excalidraw with REA and synthesizes a TypeScript implementation passing 252 tests",
+      "summary": "The target is excalidraw.com. REA analyzes the production bundle and source map (recovering 908 modules) to extract the coordinate geometry and rendering architecture, and multiple agents then synthesize a Vite + React + TS app. Results: 252/252 tests passing, 100,000 coordinate fuzz runs, and over 60 FPS with 1000 constantly changing elements, backed by adversarial review and a forensic audit.",
+      "target": "Excalidraw (excalidraw.com) web app",
+      "metric": "252/252 tests passing, done in about 55 minutes, 908 modules recovered"
+    },
+    "zh-CN": {
+      "title": "多代理群用 REA 逆向 Excalidraw，并合成通过 252 项测试的 TypeScript 实现",
+      "summary": "目标是 excalidraw.com。通过 REA 分析正式版 bundle 与 source map（还原 908 个模块），获取坐标几何与渲染架构，再由多代理合成 Vite + React + TS 应用。结果为 252/252 测试通过、10 万次坐标模糊测试、1000 个元素持续变动下超过 60 FPS，并经过对抗式审查与取证审计。",
+      "target": "Excalidraw（excalidraw.com）网页版",
+      "metric": "252/252 测试通过，约 55 分钟完成，还原 908 个模块"
+    }
+  },
+  "d-c0e79c81db": {
+    "hash": "f06c90e92110",
+    "en": {
+      "title": "A 4K60 widescreen launcher for Colin McRae Rally 1, with some assets upscaled",
+      "summary": "The author has released a launcher for Colin McRae Rally 1 that supports 4K60 and widescreen, and upscales elements such as menus and backgrounds to 4K. The cars and tracks themselves are not yet upscaled. The work is public on GitHub (the repo name includes rea).",
+      "target": "Colin McRae Rally 1",
+      "metric": "4K60 and widescreen support, with a launcher on GitHub"
+    },
+    "zh-CN": {
+      "title": "为 Colin McRae Rally 1 制作 4K60 宽屏启动器并放大部分素材",
+      "summary": "作者发布了 Colin McRae Rally 1 的启动器，支持 4K60 与宽屏，并把菜单、背景等元素放大到 4K。车辆与赛道本身尚未放大，成果已公开在 GitHub（repo 名称含 rea）。",
+      "target": "Colin McRae Rally 1",
+      "metric": "支持 4K60 与宽屏，并提供 GitHub 启动器"
+    }
+  },
+  "d-285bd9104d": {
+    "hash": "4252db6166a6",
+    "en": {
+      "title": "Decompiling a Colin McRae game with REA and rewriting it in Rust",
+      "summary": "The author used REA to decompile and recompile a Colin McRae game, then rewrote it in Rust, published in a GitHub repo. The project is still experimental, unstable and incomplete, but it already runs far enough to show the game screen.",
+      "target": "A Colin McRae game",
+      "metric": "Rust rewrite runs and displays the game screen (experimental)"
+    },
+    "zh-CN": {
+      "title": "用 REA 反编译 Colin McRae 游戏并以 Rust 重写",
+      "summary": "作者用 REA 对 Colin McRae 游戏进行反编译与重编译，并用 Rust 重写，公开于 GitHub repo。目前项目仍属实验性、不稳定且不完整，但已能运行到可看到游戏画面的程度。",
+      "target": "Colin McRae 游戏",
+      "metric": "Rust 重写版已能运行并显示游戏画面（实验阶段）"
+    }
+  },
+  "d-185e02f5fc": {
+    "hash": "82241c5c26c9",
+    "en": {
+      "title": "Using REA to reverse-engineer Cursor's .ipa into a working Android APK",
+      "summary": "During a FOSS event in Mumbai, the author used REA to reverse-engineer Cursor's iOS .ipa file and build an Android APK. The author describes the UI as rough but functional, and has published a GitHub repo.",
+      "target": "Cursor iOS app (.ipa)",
+      "metric": "Produced a working Android APK and published the repo (theinfinity1410/cursor-apk)"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向 Cursor 的 .ipa,做出可运行的 Android APK",
+      "summary": "作者在 Mumbai FOSS 活动期间,用 REA 逆向 Cursor 的 iOS .ipa 文件,制作出 Android 版 APK。作者自述界面很粗糙但可以运行,并公开了 GitHub repo。",
+      "target": "Cursor iOS 应用(.ipa)",
+      "metric": "产出可运行的 Android APK 并公开 repo(theinfinity1410/cursor-apk)"
+    }
+  },
+  "d-7ab7516c3c": {
+    "hash": "af976566f11b",
+    "en": {
+      "title": "Reverse-engineering the Redmi G 2021 BIOS ACPI WMI protocol and building a hardware control tool with no resident process",
+      "summary": "The targets are GamingBoxHost.exe and the BIOS SSD5/DSDT ACPI tables on the Redmi G 2021 Ryzen edition. The author recovered the 32-byte ASCII command protocol of MICommonInterface/WMAA and the EC register mapping, and provides PowerShell and Python scripts that switch between three performance modes and read dual-fan speeds and temperatures, along with a protocol whitepaper.",
+      "target": "BIOS ACPI WMI and EC firmware interface of the Redmi G 2021 Ryzen edition",
+      "metric": "Recovered the 32-byte WMAA protocol; can switch 3 performance modes and read dual-fan speeds"
+    },
+    "zh-CN": {
+      "title": "逆向 Redmi G 2021 BIOS ACPI WMI 协议,做出无需常驻的硬件控制工具",
+      "summary": "目标是 Redmi G 2021 锐龙版的 GamingBoxHost.exe 与 BIOS 的 SSD5/DSDT ACPI 表。逆向出 MICommonInterface/WMAA 的 32 字节 ASCII 指令协议与 EC 寄存器映射,并提供 PowerShell 和 Python 脚本,可切换三种性能模式、读取双风扇转速与温度,附协议白皮书。",
+      "target": "Redmi G 2021 锐龙版的 BIOS ACPI WMI 与 EC 固件接口",
+      "metric": "还原 WMAA 32 字节协议,可切换 3 种性能模式并读取双风扇转速"
+    }
+  },
+  "d-06cd85c0c1": {
+    "hash": "821ac9edbe60",
+    "en": {
+      "title": "Analyzing the M浏览器 APK with the REA method and rebuilding an open-source Android browser in Kotlin",
+      "summary": "The goal is to replicate the feature set of M浏览器 v2.8.3. The author used Androguard to analyze the APK's manifest, components, native libraries and 89455 DEX strings, compiled a feature comparison table, then rewrote features in Kotlin including multi-tab browsing, ad blocking, WebDAV bookmark sync and DLNA casting. The README marks most features as fully implemented, while RTMP, Baidu Translate and the X5 core only reach the interface or skeleton stage.",
+      "target": "M浏览器 (cn.nr19.mbrowser) v2.8.3 Android browser",
+      "metric": "Analyzed 89455 DEX strings; most of roughly 19 features marked fully implemented"
+    },
+    "zh-CN": {
+      "title": "以 REA 方法分析 M浏览器 APK,并用 Kotlin 重建开源 Android 浏览器",
+      "summary": "目标是复刻 M浏览器 v2.8.3 的功能集合。以 Androguard 分析 APK 的 manifest、组件、原生库与 89455 条 DEX 字符串,整理成功能对照表后,用 Kotlin 重写多标签页、广告拦截、WebDAV 书签同步、DLNA 投屏等功能。README 标示多数功能已完整实现,但 RTMP、百度翻译与 X5 内核只做到接口或骨架。",
+      "target": "M浏览器(cn.nr19.mbrowser)v2.8.3 Android 浏览器",
+      "metric": "分析 89455 条 DEX 字符串,约 19 项功能中大部分标示完整实现"
+    }
+  },
+  "d-09f6591a8e": {
+    "hash": "c9ba0249397d",
+    "en": {
+      "title": "Using REA to trace Wordle's repeated-letter coloring logic and building a local version",
+      "summary": "The author asked how Wordle colors repeated letters and says REA traced the actual logic, after which a local version was built. This is the author's own account, with no code, screenshots or tests attached.",
+      "target": "Wordle",
+      "metric": "Traced the repeated-letter coloring rules and built a local version (author's claim)"
+    },
+    "zh-CN": {
+      "title": "用 REA 追出 Wordle 重复字母上色逻辑,并自建本地版",
+      "summary": "作者询问 Wordle 如何为重复字母上色,称 REA 追踪出真实逻辑后构建了本地版本。内容为作者自述,没有附代码、截图或测试。",
+      "target": "Wordle",
+      "metric": "追出重复字母上色规则并构建出本地版(作者自述)"
+    }
+  },
+  "d-02a8420d50": {
+    "hash": "20d4849410ed",
+    "en": {
+      "title": "A REA Bridge Plugin for DeepSeek Harness",
+      "summary": "Registers three tools, rea_list, rea_cli, and rea_tool, so DSH sessions can discover and call a local REA. Only querying the command catalog has been exercised in isolated testing; the author says cross-platform compatibility has not been independently verified.",
+      "target": "DeepSeek Harness and a local REA",
+      "metric": "3 bridge tools; command catalog queried in isolated testing"
+    },
+    "zh-CN": {
+      "title": "为 DeepSeek Harness 提供 REA 桥接插件",
+      "summary": "注册 rea_list、rea_cli、rea_tool 三个工具，使 DSH 会话可以发现并调用本机 REA。仅在隔离测试中查询了命令目录，作者自述跨平台兼容性尚未经过独立验收。",
+      "target": "DeepSeek Harness 与本机 REA",
+      "metric": "3 个桥接工具，隔离测试中查询命令目录"
+    }
+  },
+  "d-787cd9baf2": {
+    "hash": "a6033570753d",
+    "en": {
+      "title": "Reverse Engineering VLC Player with REA and Antigravity",
+      "summary": "The author uses REA with Antigravity and the Argon 4 model to analyze VLC media player for Apple Silicon. The article explains how REA works (driving tools such as Ghidra via MCP) and documents the experiment step by step, but the excerpt lists no specific findings.",
+      "target": "VLC media player (Apple Silicon build)",
+      "metric": "Complete step-by-step record of the VLC reverse engineering experiment (no specific findings in the excerpt)"
+    },
+    "zh-CN": {
+      "title": "用 REA 搭配 Antigravity 逆向分析 VLC 播放器",
+      "summary": "作者使用 REA 搭配 Antigravity 与 Argon 4 模型，分析 Apple Silicon 版 VLC media player。文章介绍了 REA 的工作流程（通过 MCP 驱动 Ghidra 等工具），并逐步记录了实验过程，但节选中没有列出具体发现。",
+      "target": "VLC media player（Apple Silicon 版）",
+      "metric": "完整的 VLC 逆向实验步骤记录（节选中未见具体发现）"
+    }
+  },
+  "d-caebfa6139": {
+    "hash": "b03b6a226b20",
+    "en": {
+      "title": "Turning dsh-purge red-team prompt injection into REA MCP tools and a subcommand",
+      "summary": "Ports dsh-purge's prompt injection templates into REA, providing four MCP tools and an rea dsh-purge subcommand. GitHub hosts only the integration layer; the full code lives on a Gitee mirror. The content is mostly prompt rendering rather than reverse-engineering results.",
+      "target": "REA MCP service and dsh-purge",
+      "metric": "4 new MCP tools and 1 subcommand"
+    },
+    "zh-CN": {
+      "title": "把 dsh-purge 红队提示注入能力做成 REA 的 MCP 工具与子命令",
+      "summary": "将 dsh-purge 的提示注入模板移植进 REA,提供四个 MCP 工具和 rea dsh-purge 子命令。GitHub 仅放集成层,完整代码在 Gitee 镜像,内容偏提示词渲染而非逆向成果。",
+      "target": "REA MCP 服务与 dsh-purge",
+      "metric": "新增 4 个 MCP 工具与 1 个子命令"
+    }
+  },
+  "d-0a1a2440f4": {
+    "hash": "2b6e0d120b67",
+    "en": {
+      "title": "A /rea slash-command plugin for DeepSeek Harness",
+      "summary": "Registers a /rea command that hands reverse-engineering requests and attachments to the reverse-engineer-anything skill and REA MCP tools. It also ships client menu styling and a host patch. The repository is archived and has moved to dsh-plugins.",
+      "target": "DeepSeek Harness (DSH)",
+      "metric": "/rea command with attachment support and a menu icon patch"
+    },
+    "zh-CN": {
+      "title": "为 DeepSeek Harness 做 /rea 斜杠命令插件",
+      "summary": "注册 /rea 命令,把逆向分析请求和附件交给 reverse-engineer-anything 技能与 REA MCP 工具处理。并附带客户端菜单外观与宿主补丁,仓库已归档并迁移至 dsh-plugins。",
+      "target": "DeepSeek Harness(DSH)",
+      "metric": "/rea 命令,支持附件并含菜单图标补丁"
+    }
+  },
+  "d-49e0035b41": {
+    "hash": "2de2b6b5fe67",
+    "en": {
+      "title": "Self-hosting Hermes Agent on Proxmox with REA for supply-chain risk analysis",
+      "summary": "Deploys Hermes Agent on a Proxmox virtual machine and connects REA to it as an MCP server. The 229 tools are trimmed down to 26 static-analysis tools, and a first SBOM exercise is completed. The content is mostly environment setup and integration notes, with no analysis findings for a specific target.",
+      "target": "Integration environment of Hermes Agent and REA",
+      "metric": "229 tools reduced to 26 static-analysis tools"
+    },
+    "zh-CN": {
+      "title": "在 Proxmox 自建 Hermes Agent 并接入 REA 做供应链风险分析",
+      "summary": "在 Proxmox 虚拟机部署 Hermes Agent,将 REA 作为 MCP 服务器接入。把 229 个工具精简为 26 个静态分析工具,并完成首次 SBOM 练习。内容偏向环境搭建与集成记录,未针对具体目标给出分析发现。",
+      "target": "Hermes Agent 与 REA 的集成环境",
+      "metric": "229 个工具精简为 26 个静态分析工具"
+    }
+  },
+  "d-df62021866": {
+    "hash": "eb9d1e7cda78",
+    "en": {
+      "title": "Reverse-engineering whisper.cpp with REA and Ghidra to study how speech is saved as txt",
+      "summary": "The target is the \"save recognition results as .txt\" feature of whisper-cli.exe. The write-up documents installing REA and Ghidra, version compatibility issues and their fixes, and a prompt that asks the tool to trace strings such as output_txt back to the functions that use them. The excerpt contains no concrete analysis conclusions and reads more like a learning log.",
+      "target": "whisper-cli.exe from whisper.cpp",
+      "metric": "No clear conclusion yet; only the installation and investigation steps are recorded"
+    },
+    "zh-CN": {
+      "title": "用 REA 搭配 Ghidra 逆向 whisper.cpp,研究语音保存为 txt 的机制",
+      "summary": "目标是 whisper-cli.exe 的“将识别结果保存为 .txt”功能。内容记录了 REA 与 Ghidra 的安装、版本兼容问题及修复,并通过提示词要求从 output_txt 等字符串追查使用它们的函数。节选中未见具体分析结论,偏向学习记录。",
+      "target": "whisper.cpp 的 whisper-cli.exe",
+      "metric": "尚无明确结论,仅记录安装与调查流程"
+    }
   }
 }

@@ -28892,8 +28892,8 @@
     },
     {
       "date": "2026-11-02",
-      "stars": 418711,
-      "stars_delta": 2721,
+      "stars": 419489,
+      "stars_delta": 3499,
       "new": [
         "d-676ebb5248",
         "d-9b56944c50",
@@ -28902,57 +28902,71 @@
         "d-185e02f5fc",
         "d-7ab7516c3c",
         "d-06cd85c0c1",
+        "d-5876325bbb",
+        "d-01b866194b",
+        "d-dd0fa2fab4",
         "d-09f6591a8e",
         "d-b0412d355f",
         "d-bfb81f15af",
         "d-b906095859",
         "d-75b5f95b90",
+        "d-23da1c12d6",
+        "d-3e5cba43bc",
         "d-ba1bf83321",
         "d-d7d043264f",
         "d-fec5676160",
         "d-5a7c1dac8c",
         "d-caebfa6139",
         "d-0a1a2440f4",
+        "d-9bccd2be10",
         "d-49e0035b41",
         "d-df62021866",
         "d-02a8420d50",
         "d-787cd9baf2"
       ],
       "stats": {
-        "count": 22,
+        "count": 28,
         "wow": {
-          "2": 13,
-          "3": 2,
+          "2": 16,
+          "3": 5,
           "4": 5,
           "5": 2
         },
         "type": {
-          "case": 9,
-          "app": 10,
-          "learn": 3
+          "case": 12,
+          "app": 12,
+          "learn": 4
         },
         "status": {
-          "tested": 3,
+          "tested": 4,
           "shipped": 12,
-          "reported": 7
+          "reported": 12
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 以位元組級一致還原 DX-Ball，驗證成為重點",
-          "summary": "11 月 2 日 REA 的 GitHub 星數達 418,711，比前一個紀錄 415,990 多了 2,721。當天最受矚目的是 DX-Ball 案例：以 REA 呼叫 Ghidra，將遊戲自身 270 個函數改寫後逐一編譯比對，全部位元組級一致；另有多代理群逆向 Excalidraw，並以 252 項測試驗證。同時，Colin McRae Rally 的 4K60 啟動器與 Rust 重寫、Redmi 硬體控制工具、Android 瀏覽器重建等案例，顯示老軟體保存、硬體掌控與客戶端程式碼被快速複製的趨勢；REAShield、anti-rea 等防護工具也開始出現。這些案例的重點在於用差異測試與證據來驗證成果，而不只是宣稱能還原。"
+          "headline": "REA 逐函數比對還原 DX-Ball，270 個函數位元組級一致",
+          "summary": "今天最亮眼的是 DX-Ball 案例：作者只憑 EXE，透過 REA 呼叫 Ghidra 逐函數改寫，並以 Visual C++ 4.0 編譯比對，遊戲自身 270 個函數全部吻合。Excalidraw 案例也以 252/252 測試通過、10 萬次模糊測試作為驗證。REA GitHub 星數達 419489，比前一個紀錄 415990 多 3499。另外，Colin McRae 啟動器與 Rust 重寫、Redmi G 2021 硬體控制工具等項目，顯示應用範圍從老遊戲延伸到裝置控制；同時出現 REAShield、anti-rea 等對抗 REA 的防護工具。"
         },
         "en": {
-          "headline": "REA rebuilds DX-Ball byte-for-byte, putting verification front and center",
-          "summary": "On Nov 2, REA's GitHub stars reached 418,711, up 2,721 from the previous record of 415,990. The standout case used REA to drive Ghidra and rewrite all 270 of DX-Ball's own functions, each compiled and compared until byte-identical; another had a multi-agent group reverse Excalidraw and validate the result with 252 passing tests. Colin McRae Rally projects (a 4K60 launcher and a Rust rewrite), a Redmi hardware control tool and an Android browser rebuild point to legacy preservation, device control and fast cloning of client-side code, while defensive tools like REAShield and anti-rea are also appearing. What matters is that these results are backed by differential tests and evidence rather than claims alone."
+          "headline": "REA rebuilds DX-Ball from the EXE alone, 270 functions byte-identical",
+          "summary": "The standout today is the DX-Ball case: working only from the EXE, the author used REA to drive Ghidra, rewrote each function, and compiled with Visual C++ 4.0 to compare, with all 270 of the game's own functions matching. The Excalidraw case also leans on verification, reporting 252/252 tests passing and 100,000 fuzz runs. REA's GitHub stars reached 419,489, up 3,499 from the previous record of 415,990. Colin McRae projects (a 4K60 launcher and a Rust rewrite) and a Redmi G 2021 hardware control tool show the reach extending from old games to device control, while REAShield and anti-rea appear as tools built to resist REA."
         },
         "zh-CN": {
-          "headline": "REA 字节级一致还原 DX-Ball，验证成为重点",
-          "summary": "11 月 2 日 REA 的 GitHub 星数达到 418,711，比之前的纪录 415,990 增加了 2,721。当天最受关注的是 DX-Ball 案例：借助 REA 调用 Ghidra，将游戏自身 270 个函数改写后逐一编译比对，全部字节级一致；另有多代理群逆向 Excalidraw，并以 252 项测试验证。同时，Colin McRae Rally 的 4K60 启动器与 Rust 重写、Redmi 硬件控制工具、Android 浏览器重建等案例，显示老软件保存、硬件掌控与客户端代码被快速复制的趋势；REAShield、anti-rea 等防护工具也开始出现。这些案例的重点在于用差异测试与证据来验证成果，而不只是声称能还原。"
+          "headline": "REA 逐函数比对还原 DX-Ball,270 个函数字节级一致",
+          "summary": "今天最亮眼的是 DX-Ball 案例:作者仅凭 EXE,通过 REA 调用 Ghidra 逐函数改写,并用 Visual C++ 4.0 编译比对,游戏自身 270 个函数全部吻合。Excalidraw 案例同样以 252/252 测试通过、10 万次模糊测试作为验证。REA GitHub 星数达 419489,比之前的纪录 415990 多 3499。另外,Colin McRae 启动器与 Rust 重写、Redmi G 2021 硬件控制工具等项目,显示应用范围从老游戏延伸到设备控制;同时出现 REAShield、anti-rea 等对抗 REA 的防护工具。"
         }
       },
-      "signals": [],
-      "highlights": [],
+      "signals": [
+        "B",
+        "C",
+        "D"
+      ],
+      "highlights": [
+        "d-676ebb5248",
+        "d-9b56944c50",
+        "d-7ab7516c3c"
+      ],
       "rank": [
         "dx-ball-sound-pan",
         "obsidian-quick-switcher",
@@ -29152,6 +29166,7 @@
         "d-ff4d270854",
         "d-febc968287",
         "d-4f0117e09e",
+        "d-5876325bbb",
         "d-a100e0cc96",
         "d-eb4262176c",
         "d-0f5e1c133f",
@@ -29174,6 +29189,7 @@
         "d-7f67fbf8a7",
         "d-2a7bb3f0bd",
         "d-ca86da6f22",
+        "d-01b866194b",
         "d-1857cbc37d",
         "d-9bf3ce4cb1",
         "d-00d5ff1999",
@@ -29201,12 +29217,12 @@
         "d-4cbb1312dc",
         "d-78eae178fd",
         "d-20e3df976d",
+        "netcat-audit",
         "vsl-dsp",
         "d-794e99b791",
         "d-8ae18ae6d6",
         "d-77400f1907",
         "d-18f8fa48a9",
-        "netcat-audit",
         "d-7fd75f2c1d",
         "d-10433767e8",
         "d-608fc20764",
@@ -29225,6 +29241,7 @@
         "d-ab1d7273ce",
         "d-1717937cb1",
         "gunzrs",
+        "d-dd0fa2fab4",
         "d-27b0054d80",
         "d-72effd7e39",
         "d-15f3577a29",
@@ -29561,6 +29578,7 @@
         "d-af78088488",
         "d-c830cb6a4e",
         "d-105efaffea",
+        "d-23da1c12d6",
         "d-1123456fff",
         "d-94a05a4cd7",
         "d-88e3eb4684",
@@ -29628,6 +29646,7 @@
         "d-e4a8cb395f",
         "d-e166572be7",
         "d-97cc6611d2",
+        "d-3e5cba43bc",
         "d-7c92733452",
         "d-cb85245ebc",
         "d-592cfe3433",
@@ -29894,6 +29913,7 @@
         "d-d79fa65f04",
         "d-0c2d1d1da6",
         "d-beb2070b7b",
+        "d-9bccd2be10",
         "d-49e0035b41",
         "d-df62021866",
         "d-02a8420d50",
@@ -30339,6 +30359,7 @@
         "d-58858cc113",
         "d-278ef82903",
         "d-49f94bbe64",
+        "d-efdcd7ff28",
         "d-49f001cabc",
         "d-eb3c531680",
         "d-101f091b7e",
@@ -30531,6 +30552,7 @@
         "d-23b709a338",
         "d-b7d24e5410",
         "d-3671b6bf95",
+        "d-5bdf03be73",
         "d-09fb83b804",
         "d-6603fd00ca",
         "d-05f38e9dee",
@@ -30947,35 +30969,35 @@
     "to": "2026-11-02",
     "text": {
       "zh-TW": {
-        "headline": "逆向從展示走向驗證：位元組級一致成新標準",
-        "summary": "本週訊號 B（驗證是瓶頸）出現 6 天，是最穩定的主軸。一開始是遊戲與 IoT 的零星案例（DX-Ball 音效函式、Yeelight 燈泡），中段轉為把逆向結果落成可測試的重寫（OpenCode Desktop、OpenQuill、Rustify），後段則升到 DX-Ball 270 個函式、84,968 位元組逐位元組一致。同時，多項獨立對照實驗（20 個程式、PvZ 去符號二進位）都沒測到 REA 帶來明顯的準確度優勢，只靠作者自述的熱門貼文可信度明顯偏低。生態也在擴張並出現反制：leanrea 等工具為 207 個工具瘦身，BLA、REAShield、anti-rea 等防護工具開始出現。星數從 392,673 升到 418,711，但單日增幅逐步趨緩。",
-        "watch": "接下來可留意兩個空缺：一是可重現的差異測試與證據框架（逐位元組比對、雜湊驗證、測試套件），二是縮減上下文與工具成本的輕量方案，目前 leanrea 的速度與成本數據仍只是自述，需要獨立實測。另外，老軟體保存（如 Colin McRae Rally 的 4K60 啟動器）與硬體掌控（Redmi 控制工具）在週末重新出現，可作為下一批案例的切入點；防逆向工具的實際效果也值得追蹤。"
+        "headline": "REA 從炫技走向驗證：位元組級一致成為可信度門檻",
+        "summary": "本週 REA 星數從 39.2 萬升到 41.9 萬，每天都有「驗證」訊號（B 七天全勤）。早期熱度最高的多是只有作者自述的貼文，後段則由 DX-Ball 270 個函數位元組一致、Excalidraw 252/252 測試與 10 萬次模糊測試等有證據的案例領頭。應用範圍從遊戲（C 出現 4 天）延伸到 Yeelight 燈泡、Redmi G 2021 等硬體控制（D），同時也有獨立對照實驗指出 REA 在小型或去符號程式上未顯出準確度優勢。成本面（F）與反逆向防護（BLA、REAShield、anti-rea）也開始浮現，顯示生態正在擴張並出現對抗。",
+        "watch": "接下來可留意 DX-Ball 式的逐函數比對方法是否被套用到其他老軟體或企業遺留系統，以及硬體裝置（韌體、BLE、IoT）的逆向案例是否持續增加。另外 leanrea 這類縮減 207 個工具佔用的方案目前只有作者自述數據，值得等獨立實測；反 AI 逆向防護工具則是新的觀察與切入點。"
       },
       "en": {
-        "headline": "REA shifts from demos to proof: byte-identical results become the bar",
-        "summary": "Signal B (verification is the bottleneck) appeared on 6 of 7 days and was the steadiest theme. The week began with scattered cases on games and IoT (DX-Ball sound function, Yeelight bulb), moved midweek to reverse-engineering results turned into testable rewrites (OpenCode Desktop, OpenQuill, Rustify), and ended with DX-Ball's 270 functions and 84,968 bytes matching byte for byte. Meanwhile, independent controlled comparisons (20 programs, a stripped PvZ binary) found no clear accuracy advantage from REA, and popular posts relying on author claims alone scored low on credibility. The ecosystem is also expanding and drawing countermeasures: leanrea and similar tools slim down the 207-tool surface, and defenses like BLA, REAShield and anti-rea have appeared. Stars rose from 392,673 to 418,711, though daily gains kept slowing.",
-        "watch": "Two gaps look worth watching: reproducible differential-test and evidence frameworks (byte comparison, hash checks, test suites), and lightweight options that cut context and tool cost, where leanrea's speed and cost figures are still self-reported and need independent testing. Legacy software preservation (the Colin McRae Rally 4K60 launcher) and hardware control (the Redmi tool) resurfaced over the weekend and are good entry points for the next batch of cases. It is also worth tracking how well anti-reverse-engineering tools actually work."
+        "headline": "REA shifts from showmanship to proof: byte-level match is the new bar",
+        "summary": "Over the week REA's stars climbed from about 392K to 419K, and the verification signal (B) appeared all seven days. Early top-buzz posts were mostly author claims without evidence, while later days were led by evidenced cases such as DX-Ball's 270 functions matching byte-for-byte and Excalidraw's 252/252 tests plus 100K fuzz runs. Use cases widened from games (C, 4 days) to hardware control such as the Yeelight bulb and Redmi G 2021 (D), while independent controlled comparisons found no clear accuracy edge for REA on small or stripped programs. Cost concerns (F) and anti-reverse-engineering defenses (BLA, REAShield, anti-rea) also emerged, suggesting the ecosystem is both expanding and drawing countermeasures.",
+        "watch": "Watch whether DX-Ball-style function-by-function matching gets applied to other legacy software or enterprise systems, and whether hardware reverse-engineering cases (firmware, BLE, IoT) keep growing. Token-trimming tools like leanrea currently rest on author-reported numbers, so wait for independent benchmarks; anti-AI-RE protection tools are a new area to monitor and build in."
       },
       "zh-CN": {
-        "headline": "逆向从展示走向验证：字节级一致成新标准",
-        "summary": "本周信号 B（验证是瓶颈）出现 6 天，是最稳定的主线。起初是游戏与 IoT 的零星案例（DX-Ball 音效函数、Yeelight 灯泡），中段转为把逆向结果落成可测试的重写（OpenCode Desktop、OpenQuill、Rustify），后段则升到 DX-Ball 270 个函数、84,968 字节逐字节一致。同时，多项独立对照实验（20 个程序、PvZ 去符号二进制）都没测到 REA 带来明显的准确度优势，只靠作者自述的热门帖子可信度明显偏低。生态也在扩张并出现反制：leanrea 等工具为 207 个工具瘦身，BLA、REAShield、anti-rea 等防护工具开始出现。星数从 392,673 升到 418,711，但单日增幅逐步放缓。",
-        "watch": "接下来可留意两个空缺：一是可复现的差异测试与证据框架（逐字节比对、哈希验证、测试套件），二是缩减上下文与工具成本的轻量方案，目前 leanrea 的速度与成本数据仍只是自述，需要独立实测。另外，老软件保存（如 Colin McRae Rally 的 4K60 启动器）与硬件掌控（Redmi 控制工具）在周末重新出现，可作为下一批案例的切入点；防逆向工具的实际效果也值得跟踪。"
+        "headline": "REA 从炫技走向验证：字节级一致成为可信度门槛",
+        "summary": "本周 REA 星数从约 39.2 万升到 41.9 万，验证信号（B）七天全勤。早期热度最高的多是只有作者自述的帖子，后段则由 DX-Ball 270 个函数字节一致、Excalidraw 252/252 测试与 10 万次模糊测试等有证据的案例领头。应用范围从游戏（C 出现 4 天）延伸到 Yeelight 灯泡、Redmi G 2021 等硬件控制（D），同时也有独立对照实验指出 REA 在小型或去符号程序上未显出准确度优势。成本面（F）与反逆向防护（BLA、REAShield、anti-rea）也开始浮现，说明生态在扩张的同时出现对抗。",
+        "watch": "接下来可留意 DX-Ball 式的逐函数比对方法是否被用到其他老软件或企业遗留系统，以及硬件设备（固件、BLE、IoT）的逆向案例是否持续增加。另外 leanrea 这类缩减 207 个工具占用的方案目前只有作者自述数据，值得等待独立实测；反 AI 逆向防护工具则是新的观察与切入点。"
       }
     },
     "rising": [
       "B",
-      "F",
-      "C"
+      "C",
+      "G"
     ],
     "fading": [
-      "E",
-      "A"
+      "A",
+      "E"
     ],
     "tally": {
       "A": 2,
-      "B": 6,
-      "C": 3,
-      "D": 1,
+      "B": 7,
+      "C": 4,
+      "D": 2,
       "E": 0,
       "F": 2,
       "G": 4

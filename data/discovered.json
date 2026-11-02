@@ -27,6 +27,107 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://bsky.app/profile/chiefgyk3d.com/post/3mzcgdkpifh2r",
+      "title": "Just starred rea. It uses agents to reverse engineer everything from app behavior down to native binaries. It's an interesting way to automa",
+      "author": "chiefgyk3d.com",
+      "date": "2026-11-02",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 1,
+      "lang": "en",
+      "found": "2026-11-02",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "scored": "2026-11-02",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://bsky.app/profile/kryssyskingdom.bsky.social/post/3mzc3scqx2c27",
+      "title": "No, because ArtCraft has created it's own Reverse Engineer Anything called Craft Anything.",
+      "source": "Bluesky",
+      "found": "2026-11-02",
+      "relevant": false,
+      "scored": "2026-11-02",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/wquguru/status/2117070715803640272",
+      "title": "用 REA 把飞书（Lark）桌面端的会议纪要实现拆解了一下，照着里面的工程设计自己写了一个 Mac 版（即将开源）。发现三个很核心的设计：1. 录音转成 16kHz 后每秒切一次，先存本地，排队上传成功才删，万一应用崩了，下次打开会自动补传没传完的切片，确保录音绝对不丢；2. ",
+      "author": "@wquguru",
+      "date": "2026-11-02",
+      "source": "X",
+      "kind": "貼文",
+      "score": 161,
+      "pop": {
+        "likes": 161,
+        "views": 11647
+      },
+      "lang": "zh",
+      "found": "2026-11-02",
+      "relevant": true,
+      "title_zh": "用 REA 拆解飛書會議紀要設計並自製 Mac 版",
+      "summary": "作者用 REA 分析飛書(Lark)桌面端的會議紀要實作,歸納出三個核心設計:錄音切片先存本地、上傳成功才刪並可斷點補傳;AI 紀要拆成多個獨立任務各自計時;圖表僅用魚骨圖且分支綁定原句。並依此自行寫了 Mac 版,預告即將開源。",
+      "target": "飛書(Lark)桌面端會議紀要功能",
+      "metric": "歸納 3 項核心設計並實作 Mac 版(即將開源)",
+      "category": "Electron",
+      "status": "reported",
+      "wow": 3,
+      "scored": "2026-11-02",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/RyvenDriving/status/2117099168594374836",
+      "title": "Man that’s super weird. I had it review firmware for a display tablet from China with REA and it obliged and picked it to pieces.",
+      "author": "@RyvenDriving",
+      "date": "2026-11-02",
+      "source": "X",
+      "kind": "貼文",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 86
+      },
+      "lang": "en",
+      "found": "2026-11-02",
+      "relevant": true,
+      "title_zh": "用 REA 分析中國製顯示平板的韌體",
+      "summary": "作者讓 REA 審查一款中國製顯示平板的韌體,REA 順利配合並將其拆解分析。內容僅有作者自述,沒有提供具體發現或證據。",
+      "target": "中國製顯示平板韌體",
+      "metric": "完成韌體拆解(無具體細節)",
+      "category": "韌體 / 硬體",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-11-02",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/youaremetoo/status/2117064033610477580",
+      "title": "I had Muse install Reverse Engineer Anything on its VM and it even modified it to accept larger files.",
+      "author": "@youaremetoo",
+      "date": "2026-11-02",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 71
+      },
+      "lang": "en",
+      "found": "2026-11-02",
+      "relevant": true,
+      "title_zh": "讓 Muse 在其 VM 安裝 REA 並自行修改以支援更大檔案",
+      "summary": "作者讓名為 Muse 的 AI agent 在自己的 VM 中安裝 Reverse Engineer Anything。Muse 還自行修改工具,使其能接受較大的檔案。內容僅為作者簡短自述,沒有具體逆向目標或證據。",
+      "target": "Muse 的 VM 環境(REA 安裝與改造)",
+      "metric": "Muse 自行修改 REA 以接受更大檔案",
+      "category": "工具鏈",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-11-02",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/ZoKa12739/RedmiG-2021-Ryzen-ACPI-Reverse",
       "title": "ZoKa12739/RedmiG-2021-Ryzen-ACPI-Reverse: Redmi G 2021 锐龙版 (A7 / XMCC1806) BIOS ACPI WMI 逆向成果与硬件控制工具 (Reverse Engineered with REA)",
       "author": "ZoKa12739",
@@ -347,15 +448,6 @@
       "scored_by": "jev"
     },
     {
-      "url": "https://bsky.app/profile/philpax.me/post/3mzbhnmlk3c2n",
-      "title": "I haven't looked at REA! this is a bespoke harness, continually improved by Claude, that uses a scheduler to drive Ghidr",
-      "source": "Bluesky",
-      "found": "2026-11-02",
-      "relevant": false,
-      "scored": "2026-11-02",
-      "scored_by": "sonnet"
-    },
-    {
       "url": "https://bsky.app/profile/plastikelectrik.bsky.social/post/3mza6ecr3b22n",
       "title": "See a feature you like. Understand how it works.  ",
       "author": "plastikelectrik.bsky.social",
@@ -459,15 +551,6 @@
       "wow": 3,
       "scored": "2026-11-02",
       "scored_by": "sonnet"
-    },
-    {
-      "url": "https://x.com/cabbitar/status/2116979948280070166",
-      "title": "this is f*cking insane... Claude Code reverse-engineered a dead budgeting app and pulled 11 years of my transactions out",
-      "source": "X",
-      "found": "2026-11-02",
-      "relevant": false,
-      "scored": "2026-11-02",
-      "scored_by": "jev"
     },
     {
       "url": "https://x.com/Jack_Ju1y/status/2116968500334129501",
@@ -595,6 +678,56 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://x.com/EpicMaan/status/2117034948834296053",
+      "title": "I just used LeanREA + REA to RE skyrimVR. Qwen3.8-FN did it just fine on a 5090. It took Hermes 24hrs. 99.98%",
+      "author": "@EpicMaan",
+      "date": "2026-11-01",
+      "source": "X",
+      "kind": "貼文",
+      "score": 2,
+      "pop": {
+        "likes": 2,
+        "views": 78
+      },
+      "lang": "en",
+      "found": "2026-11-02",
+      "relevant": true,
+      "title_zh": "用 LeanREA 加 REA 逆向 Skyrim VR",
+      "summary": "作者以 LeanREA 搭配 REA,在 5090 顯卡上用 Qwen3.8-FN 本地模型逆向 Skyrim VR,聲稱 Hermes 花了 24 小時完成。僅有作者自述的 99.98% 數字,未說明衡量方式或提供證據。",
+      "target": "Skyrim VR",
+      "metric": "99.98%(作者自述)、耗時 24 小時",
+      "category": "Native / 遊戲",
+      "status": "reported",
+      "wow": 3,
+      "scored": "2026-11-02",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/danikkk_wqs/status/2116966208105041924",
+      "title": "so I tested it the hard way. I built a small app, wrote down everything inside it, and didn’t tell REA a thing. 30 seconds later: every scre",
+      "author": "@danikkk_wqs",
+      "date": "2026-11-01",
+      "source": "X",
+      "kind": "貼文",
+      "score": 21,
+      "pop": {
+        "likes": 21,
+        "views": 780
+      },
+      "lang": "en",
+      "found": "2026-11-02",
+      "relevant": true,
+      "title_zh": "以自建應用盲測 REA,逐項對照答案全數命中",
+      "summary": "作者自建一個小型應用並記下所有內部內容,不給 REA 任何提示進行測試。30 秒內 REA 找出所有畫面、隱藏函式、元件間私有通道及一個對外伺服器呼叫,數字皆與答案對照吻合並附證據檔,並稱在 100MB 的真實應用上進行。",
+      "target": "自建小型應用(約 100MB)",
+      "metric": "30 秒內全部項目與標準答案吻合",
+      "category": "工具鏈",
+      "status": "tested",
+      "wow": 3,
+      "scored": "2026-11-02",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/HMAKT99/reashield",
       "title": "HMAKT99/reashield: A shield against reverse-engineering tactics — including REA — for your own shipped JavaScript. Moves secrets server-side, seals crown jewels, collapses the module graph. Raises cost and defeats most automated attempts; never claims the impossible.",
       "author": "HMAKT99",
@@ -614,6 +747,23 @@
       "wow": 3,
       "scored": "2026-11-02",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/786riyaz/Reverse_Engineer_Anything_Clone___NodeJS",
+      "title": "786riyaz/Reverse_Engineer_Anything_Clone___NodeJS: to store the code of REA repo of Morluto :: https://github.com/morluto/rea",
+      "author": "786riyaz",
+      "date": "2026-10-31",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-02",
+      "relevant": true,
+      "wow": 1,
+      "category": "工具鏈",
+      "status": "shipped",
+      "scored": "2026-11-02",
+      "scored_by": "jev"
     },
     {
       "url": "https://x.com/AkitaOnRails/status/2116216761347428755",
@@ -682,6 +832,24 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://bsky.app/profile/philpax.me/post/3mzbhnmlk3c2n",
+      "title": "I haven't looked at REA! this is a bespoke harness, continually improved by Claude, that uses a scheduler to drive Ghidr",
+      "source": "Bluesky",
+      "found": "2026-11-02",
+      "relevant": false,
+      "scored": "2026-11-02",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/cabbitar/status/2116979948280070166",
+      "title": "this is f*cking insane... Claude Code reverse-engineered a dead budgeting app and pulled 11 years of my transactions out",
+      "source": "X",
+      "found": "2026-11-02",
+      "relevant": false,
+      "scored": "2026-11-02",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://github.com/7akeem0/albw-decomp-ai",
       "title": "7akeem0/albw-decomp-ai: Matching decompilation of The Legend of Zelda: A Link Between Worlds (3DS, USA) - work in progre",
       "source": "GitHub",
@@ -716,6 +884,26 @@
       "relevant": false,
       "scored": "2026-11-02",
       "scored_by": "jev"
+    },
+    {
+      "url": "https://reverseengineeranything.app/zh-TW/guides/",
+      "title": "逆向工程指南-REA",
+      "author": "reverseengineeranything.app",
+      "date": null,
+      "source": "Web",
+      "kind": "文章",
+      "lang": "zh",
+      "found": "2026-11-02",
+      "relevant": true,
+      "title_zh": "REA 官方分析指南:還原聲音定位、追蹤 CSV 匯出",
+      "summary": "官方指南網站,介紹如何設定 REA 並提供數個範例。範例包括從 Windows 遊戲執行檔還原左右聲音定位計算、追蹤小型 Notes 應用的 CSV 匯出,以及觀察網頁匯出請求。",
+      "target": "REA 使用指南與範例(Windows 遊戲、Electron、瀏覽器)",
+      "metric": "3 個分析指南範例",
+      "category": "教學",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-11-02",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://x.com/addy_oz/status/2116682223474950595",
@@ -42504,6 +42692,35 @@
   "runs": [
     {
       "date": "2026-11-02",
+      "added": 9,
+      "stats": {
+        "githubShowAndTell": 14,
+        "githubRepos": 238,
+        "githubCode": 46,
+        "hackerNews": 20,
+        "qiita": 45,
+        "devto": 150,
+        "juejin": 0,
+        "reddit": 20,
+        "v2ex": 13,
+        "youtube": 90,
+        "bluesky": 162,
+        "mastodon": 160,
+        "exaWeb": 57,
+        "x": 14
+      },
+      "scoring": {
+        "scored": 7,
+        "jev": {
+          "low": 2,
+          "irrelevant": 0,
+          "errors": 0,
+          "toClaude": 7
+        }
+      }
+    },
+    {
+      "date": "2026-11-02",
       "added": 37,
       "stats": {
         "githubShowAndTell": 14,
@@ -43342,38 +43559,7 @@
           "toClaude": 174
         }
       }
-    },
-    {
-      "date": "2026-10-21",
-      "added": 23,
-      "stats": {
-        "githubShowAndTell": 13,
-        "githubRepos": 221,
-        "githubCode": 43,
-        "hackerNews": 19,
-        "qiita": 42,
-        "devto": 150,
-        "juejin": 25,
-        "reddit": 60,
-        "v2ex": 9,
-        "youtube": 90,
-        "bluesky": 160,
-        "mastodon": 160,
-        "exaWeb": 57,
-        "x": 26
-      },
-      "scoring": {
-        "scored": 0,
-        "jev": {
-          "low": 16,
-          "irrelevant": 2,
-          "errors": 0,
-          "toClaude": 136
-        },
-        "failed": 136,
-        "error": "Command failed: claude -p --output-format json --max-turns 1 --tools  --model sonnet\n"
-      }
     }
   ],
-  "updatedAt": "2026-11-02T00:26:55.006Z"
+  "updatedAt": "2026-11-02T04:38:35.182Z"
 }

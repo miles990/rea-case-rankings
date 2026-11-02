@@ -17143,5 +17143,95 @@
       "target": "whisper.cpp 的 whisper-cli.exe",
       "metric": "尚无明确结论,仅记录安装与调查流程"
     }
+  },
+  "d-3e5cba43bc": {
+    "hash": "8c681fbf0940",
+    "en": {
+      "title": "Having Muse install REA in its VM and modify it to support larger files",
+      "summary": "The author had an AI agent named Muse install Reverse Engineer Anything in its own VM. Muse also modified the tool on its own so it could accept larger files. The content is only a brief note from the author, with no specific reverse-engineering target or evidence.",
+      "target": "Muse's VM environment (REA installation and modification)",
+      "metric": "Muse modified REA on its own to accept larger files"
+    },
+    "zh-CN": {
+      "title": "让 Muse 在其 VM 中安装 REA 并自行修改以支持更大文件",
+      "summary": "作者让名为 Muse 的 AI agent 在自己的 VM 中安装 Reverse Engineer Anything。Muse 还自行修改了该工具,使其能接受较大的文件。内容仅为作者的简短自述,没有具体的逆向目标或证据。",
+      "target": "Muse 的 VM 环境(REA 安装与改造)",
+      "metric": "Muse 自行修改 REA 以接受更大文件"
+    }
+  },
+  "d-9bccd2be10": {
+    "hash": "e94c563ed9a2",
+    "en": {
+      "title": "Official REA analysis guide: recovering audio panning and tracing CSV export",
+      "summary": "An official guide site that explains how to set up REA and provides several examples. The examples include recovering the left-right audio panning calculation from a Windows game executable, tracing the CSV export of a small Notes app, and observing a web export request.",
+      "target": "REA usage guide and examples (Windows game, Electron, browser)",
+      "metric": "3 analysis guide examples"
+    },
+    "zh-CN": {
+      "title": "REA 官方分析指南:还原声音定位、追踪 CSV 导出",
+      "summary": "官方指南网站,介绍如何配置 REA 并提供多个示例。示例包括从 Windows 游戏可执行文件还原左右声音定位计算、追踪小型 Notes 应用的 CSV 导出,以及观察网页导出请求。",
+      "target": "REA 使用指南与示例(Windows 游戏、Electron、浏览器)",
+      "metric": "3 个分析指南示例"
+    }
+  },
+  "d-5876325bbb": {
+    "hash": "266d52323143",
+    "en": {
+      "title": "Dissecting Lark's Meeting Minutes Design with REA and Building a Mac Version",
+      "summary": "The author used REA to analyze how the Lark desktop client implements meeting minutes and distilled three core design choices: recording chunks are saved locally first and deleted only after a successful upload, with support for resuming interrupted uploads; the AI summary is split into several independent tasks, each timed separately; diagrams use only fishbone charts, with every branch tied to the original sentence. Based on this, the author built their own Mac version and says it will be open-sourced soon.",
+      "target": "Meeting minutes feature in the Lark desktop client",
+      "metric": "3 core design choices identified; Mac version built (open source coming soon)"
+    },
+    "zh-CN": {
+      "title": "用 REA 拆解飞书会议纪要的设计并自制 Mac 版",
+      "summary": "作者用 REA 分析飞书(Lark)桌面端的会议纪要实现,归纳出三个核心设计:录音切片先存本地,上传成功后才删除,并支持断点续传;AI 纪要拆分为多个独立任务,各自计时;图表仅使用鱼骨图,且分支绑定原句。作者据此自行编写了 Mac 版,并预告即将开源。",
+      "target": "飞书(Lark)桌面端会议纪要功能",
+      "metric": "归纳 3 项核心设计并实现 Mac 版(即将开源)"
+    }
+  },
+  "d-01b866194b": {
+    "hash": "e26a37ef23cf",
+    "en": {
+      "title": "Blind-Testing REA on a Self-Built App: Every Item Matches the Answer Key",
+      "summary": "The author built a small app and recorded all of its internals, then tested REA without giving it any hints. Within 30 seconds, REA found every screen, hidden function, private channel between components, and one outbound server call. All figures matched the answer key, with evidence files attached. The author says the test was also run on a real 100MB app.",
+      "target": "Self-built small app (about 100MB)",
+      "metric": "All items matched the ground truth within 30 seconds"
+    },
+    "zh-CN": {
+      "title": "以自建应用盲测 REA,逐项对照答案全部命中",
+      "summary": "作者自建了一个小型应用并记录了所有内部内容,在不给 REA 任何提示的情况下进行测试。30 秒内,REA 找出了所有界面、隐藏函数、组件之间的私有通道以及一个对外服务器调用,数字均与答案吻合并附有证据文件。作者还称已在一个 100MB 的真实应用上进行了测试。",
+      "target": "自建小型应用(约 100MB)",
+      "metric": "30 秒内全部项目与标准答案吻合"
+    }
+  },
+  "d-dd0fa2fab4": {
+    "hash": "708f184ec264",
+    "en": {
+      "title": "Reverse-Engineering Skyrim VR with LeanREA and REA",
+      "summary": "The author paired LeanREA with REA and used the local Qwen3.8-FN model on a 5090 GPU to reverse-engineer Skyrim VR, claiming Hermes finished the job in 24 hours. The only figure is the author's self-reported 99.98%, with no explanation of how it was measured and no supporting evidence.",
+      "target": "Skyrim VR",
+      "metric": "99.98% (self-reported), 24 hours"
+    },
+    "zh-CN": {
+      "title": "用 LeanREA 加 REA 逆向 Skyrim VR",
+      "summary": "作者将 LeanREA 与 REA 搭配,在 5090 显卡上使用 Qwen3.8-FN 本地模型逆向 Skyrim VR,声称 Hermes 花了 24 小时完成。文中只有作者自述的 99.98% 这一数字,未说明衡量方式,也没有提供证据。",
+      "target": "Skyrim VR",
+      "metric": "99.98%(作者自述)、耗时 24 小时"
+    }
+  },
+  "d-23da1c12d6": {
+    "hash": "9172a4639e60",
+    "en": {
+      "title": "Analyzing the Firmware of a Chinese-Made Display Tablet with REA",
+      "summary": "The author had REA review the firmware of a Chinese-made display tablet, and REA complied and took it apart for analysis. The content is entirely the author's own account, with no specific findings or evidence provided.",
+      "target": "Firmware of a Chinese-made display tablet",
+      "metric": "Firmware teardown completed (no details given)"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析中国制造的显示平板固件",
+      "summary": "作者让 REA 审查一款中国制造的显示平板的固件,REA 顺利配合并将其拆解分析。内容仅为作者自述,没有提供具体发现或证据。",
+      "target": "中国制造的显示平板固件",
+      "metric": "完成固件拆解(无具体细节)"
+    }
   }
 }

@@ -30955,20 +30955,26 @@
     },
     {
       "date": "2026-11-03",
-      "stars": 422868,
-      "stars_delta": 3379,
+      "stars": 423619,
+      "stars_delta": 4130,
       "new": [
+        "d-311702c242",
+        "d-f84033b4af",
         "d-cee0e01049",
         "d-4df612de69",
         "d-d5c20d8c33",
+        "d-029391e0a4",
         "d-9be7b965e2",
         "d-6751dc4d9d",
         "d-4e366455f1",
+        "d-441e4300c6",
         "d-742dab5244",
         "d-eabb1daa31",
         "d-24678393d9",
+        "d-632a6bbe82",
         "d-dbe61df529",
         "d-118099f7ed",
+        "d-2a5d5a902a",
         "d-a0693fb036",
         "d-ea57348fa2",
         "d-ba479271dc",
@@ -30979,52 +30985,57 @@
         "d-2303da6bda",
         "d-65bc8e923c",
         "d-bdf585c32f",
+        "d-a4f6371ffb",
         "d-d268ef4e4b",
+        "d-67462c2a3e",
+        "d-3c5188156e",
         "d-03a85dba21",
+        "d-1de930f5b0",
         "d-2b96854c66",
         "d-3120653029"
       ],
       "stats": {
-        "count": 25,
+        "count": 35,
         "wow": {
-          "2": 17,
-          "3": 3,
-          "4": 5
+          "2": 23,
+          "3": 4,
+          "4": 6,
+          "5": 2
         },
         "type": {
-          "case": 8,
-          "app": 11,
+          "case": 11,
+          "app": 18,
           "learn": 4,
           "news": 2
         },
         "status": {
-          "shipped": 11,
-          "reported": 10,
+          "shipped": 20,
+          "reported": 11,
           "tested": 4
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 星數破 42 萬，老遊戲復活與手感重建案例帶動熱度",
-          "summary": "REA 的 GitHub 星數來到 422,868，比前一個紀錄 419,489 多了 3,379。當天熱度最高的是用 REA 修復多款老賽車遊戲的現代 PC 啟動器，以及找出 Brawlhalla 在 M4 Pro 上卡頓、改設 AS3JIT=2 後凍結基本消失的案例。另有從超級瑪利歐 64 二進位擷取手感數值、重建新遊戲的做法，以及 24/25 題正確的預先固定評測，顯示大家愈來愈重視可驗證的結果。不過多數榜單項目仍是外掛、介面與教學等工具擴充，部分案例僅為自述，缺乏證據。"
+          "headline": "REA 星數破 42 萬，逆向拆解與淨室重建案例一天湧現",
+          "summary": "REA 的 GitHub 星數來到 423,619，比前一個紀錄 419,489 增加 4,130。當天排名最前面的是把年費 $144 的語音工具 Typeless 拆解後，重寫成 MIT 授權的免費版 SpeakMore，另有 Mega Drive 排球遊戲重建、老賽車遊戲啟動器等案例。多個案例強調淨室規則、不複製原始碼，並以重複擷取或排名比對來驗證結果，顯示重點正從「能不能複製」轉向「如何證明複製得對」。同時也有人在 Grok Bot 上跑 REA，並抱怨 Claude 加強限制，反映模型平台的限制正在影響工具選擇。"
         },
         "en": {
-          "headline": "REA passes 420K stars as old-game revivals and feel-cloning cases lead",
-          "summary": "REA's GitHub stars reached 422,868, up 3,379 from the previous record of 419,489. The hottest items were a set of modern PC launchers that revive old racing games, and a fix for Brawlhalla stutter on M4 Pro, where setting AS3JIT=2 largely removed the freezes. Also notable were extracting movement values from the Super Mario 64 binary to build a new game, and a pre-fixed 25-item evaluation with 24 correct, which show a growing focus on verifiable results. Most of the list is still plugins, GUIs and tutorials, and several case claims are self-reported without evidence."
+          "headline": "REA passes 420K stars as teardown and clean-room rebuild cases pile up",
+          "summary": "REA's GitHub stars reached 423,619, up 4,130 from the previous record of 419,489. The top item is a teardown of the $144/year voice-input tool Typeless, rewritten as the free MIT-licensed SpeakMore, alongside a rebuilt Mega Drive volleyball game and launchers for old racing games. Several cases stress clean-room rules, no copied source code, and verification through repeated extraction or ranking comparisons, suggesting the focus is shifting from whether something can be cloned to how to prove the clone is correct. Some users are also running REA on Grok Bot and complaining that Claude tightened its restrictions, showing platform limits shaping tool choice."
         },
         "zh-CN": {
-          "headline": "REA 星数破 42 万，老游戏复活与手感重建案例带动热度",
-          "summary": "REA 的 GitHub 星数达到 422,868，比之前的纪录 419,489 多了 3,379。当天热度最高的是用 REA 修复多款老赛车游戏的现代 PC 启动器，以及找出 Brawlhalla 在 M4 Pro 上卡顿、改设 AS3JIT=2 后冻结基本消失的案例。另有从超级马里奥 64 二进制提取手感数值、重建新游戏的做法，以及 24/25 题正确的预先固定评测，显示大家越来越重视可验证的结果。不过多数榜单项目仍是插件、界面与教程等工具扩展，部分案例仅为自述，缺乏证据。"
+          "headline": "REA 星数破 42 万，逆向拆解与净室重建案例一天涌现",
+          "summary": "REA 的 GitHub 星数达到 423,619，比之前的纪录 419,489 增加 4,130。当天排名最靠前的是把年费 $144 的语音输入工具 Typeless 拆解后，重写为 MIT 授权的免费版 SpeakMore，另有 Mega Drive 排球游戏重建、老赛车游戏启动器等案例。多个案例强调净室规则、不复制源代码，并通过重复提取或排名比对来验证结果，显示重点正从“能不能复制”转向“如何证明复制得对”。同时也有人在 Grok Bot 上运行 REA，并抱怨 Claude 加强了限制，反映模型平台的限制正在影响工具选择。"
         }
       },
       "signals": [
+        "A",
         "B",
-        "C",
-        "G"
+        "C"
       ],
       "highlights": [
-        "d-cee0e01049",
-        "d-4df612de69",
+        "d-311702c242",
+        "d-d5c20d8c33",
         "d-6751dc4d9d"
       ],
       "rank": [
@@ -31036,6 +31047,7 @@
         "d-676ebb5248",
         "d-a7cd402a86",
         "d-fe71147f43",
+        "d-311702c242",
         "d-8f1f2064bd",
         "ski-or-die",
         "d-d155fe3d33",
@@ -31062,6 +31074,7 @@
         "d-4e8823e589",
         "d-c24f94de41",
         "d-b704d89ca5",
+        "d-f84033b4af",
         "d-4e14365345",
         "d-3e5af8dc22",
         "d-20dc2e5d41",
@@ -31168,6 +31181,7 @@
         "d-45164a9283",
         "d-831a3c86b4",
         "d-6417fa2b6c",
+        "d-029391e0a4",
         "d-9be7b965e2",
         "d-6751dc4d9d",
         "d-7ab7516c3c",
@@ -31253,6 +31267,7 @@
         "d-4e366455f1",
         "d-b3c93269c4",
         "d-7f67fbf8a7",
+        "d-441e4300c6",
         "d-2a7bb3f0bd",
         "d-742dab5244",
         "d-ca86da6f22",
@@ -31494,6 +31509,7 @@
         "d-05bb19078f",
         "d-f7c0cba113",
         "d-9aea516faa",
+        "d-632a6bbe82",
         "d-37b4f9d895",
         "d-d1d24cba8d",
         "d-b1d53cc24a",
@@ -31565,6 +31581,7 @@
         "d-c98d5d03bf",
         "d-7770689831",
         "d-1825b201c5",
+        "d-2a5d5a902a",
         "d-0814eda0e3",
         "d-a0693fb036",
         "d-ea57348fa2",
@@ -31739,6 +31756,7 @@
         "d-d18904f735",
         "d-885d463fa0",
         "d-643f986b06",
+        "d-a4f6371ffb",
         "d-e21e791e9c",
         "d-6ad3b48a4f",
         "d-710f7a6b5a",
@@ -31828,6 +31846,8 @@
         "d-49c3fe3859",
         "heartland-side-effects",
         "d-d268ef4e4b",
+        "d-67462c2a3e",
+        "d-3c5188156e",
         "d-d7d043264f",
         "d-fec5676160",
         "d-5a7c1dac8c",
@@ -31867,6 +31887,7 @@
         "d-2b652f876e",
         "d-9cf716ea07",
         "d-cc35379a42",
+        "d-1de930f5b0",
         "d-272531eb67",
         "d-e93a72e08d",
         "d-f474af0a97",
@@ -32607,6 +32628,8 @@
         "d-8029ecf797",
         "d-fae9d57e5b",
         "d-aefcaff5ff",
+        "d-a5e22ec2c1",
+        "d-6336651d33",
         "d-d13b057d26",
         "d-93af195493",
         "d-1dd247d598",
@@ -32663,6 +32686,7 @@
         "d-1d87327f53",
         "d-c2bfe0bbc8",
         "d-cb4ab0e58c",
+        "d-74a572076a",
         "d-1b62a0e0d8",
         "d-a68387ca4c",
         "d-29d56797c1",
@@ -32746,6 +32770,7 @@
         "d-e776c1c4c1",
         "d-2761852b3d",
         "d-2f09a54a93",
+        "d-e8b98e6240",
         "d-3a5186319d",
         "d-b6f2bc06ea",
         "d-d3fc308935",
@@ -33070,36 +33095,38 @@
     "to": "2026-11-03",
     "text": {
       "zh-TW": {
-        "headline": "REA 從展示走向可驗證的重建，老遊戲成主戰場",
-        "summary": "本週每天都出現「驗證」訊號（B），主軸從 10 月底的 OpenCode、QuillBot 重寫案例，轉為 DX-Ball 270 個函數位元組級一致、Excalidraw 252/252 測試與 10 萬次模糊測試等硬證據。同時，多個獨立對照實驗（20 個程式、PvZ 二進位）顯示 REA 未必帶來準確度優勢，使社群更看重證據而非作者自述。老軟體保存與重建（C）在 10 月 31 日後轉強，從 DX-Ball 延伸到老賽車遊戲啟動器與超級瑪利歐 64 手感擷取，並開始碰到 Redmi G 2021 這類硬體控制（D）。另一方面，BLA、REAShield、anti-rea 等反 AI 逆向工具出現，顯示攻防兩端都在成形；成本與工具負擔（F）也以 leanrea 等輕量方案呈現。",
-        "watch": "留意有公開 repo、測試數字或逐位元組比對的案例，這些最容易被信任與複用；可關注老遊戲啟動器、手感數值擷取與裝置控制工具的後續。另外值得追蹤反逆向防護與輕量化工具是否出現獨立驗證，以及 REA 對照實驗是否有更大樣本的結果。"
+        "headline": "REA 從展示逆向轉向證明重建正確，驗證成為核心",
+        "summary": "本週 7 天每天都出現「驗證」訊號，成為最穩定的主軸。10 月底案例以通過測試的函式庫與乾淨室重寫為主，隨後 DX-Ball 的 270 個函數、84,968 位元組逐位元組一致，把標準拉高到可重現的比對。應用範圍從 App 與桌面助理，延伸到老遊戲保存、Excalidraw 的模糊測試，以及 Redmi G 硬體控制工具。同時，獨立對照實驗（20 個程式、PvZ、小型程式）都未見 REA 帶來明顯準確度優勢，加上 BLA、REAShield、anti-rea 等反逆向工具出現，顯示熱度與可驗證性之間仍有落差，也出現新的對抗型市場。星數從 398,205 升到 423,619，關注度持續擴大。",
+        "watch": "接下來幾天可留意：附有位元組比對、測試數或雜湊的案例是否持續增加，以及對照實驗是否釐清 REA 在哪些情境真正有價值。降低 207 個工具上下文成本的輕量方案，與反逆向防護工具，都是可以切入的空間；遺留軟體（先遊戲、再企業）的保存與遷移也值得觀察。"
       },
       "en": {
-        "headline": "REA shifts from demos to verifiable rebuilds, with old games leading",
-        "summary": "Verification (B) appeared every day this week. The focus moved from late-October rewrites like OpenCode and QuillBot to hard evidence such as DX-Ball's 270 byte-identical functions and Excalidraw's 252/252 tests plus 100k fuzz runs. Independent comparisons (20 programs, a stripped PvZ binary) found no clear accuracy edge for REA, so the community is weighing evidence over self-reported claims. Legacy preservation (C) strengthened after Oct 31, extending from DX-Ball to racing-game launchers and Super Mario 64 feel extraction, and began touching hardware control (D) with the Redmi G 2021 tool. Anti-AI-reverse-engineering tools (BLA, REAShield, anti-rea) emerged, so both offense and defense are taking shape, while cost concerns (F) showed up as lean wrappers like leanrea.",
-        "watch": "Look for cases with public repos, test counts or byte-level comparisons, since those are the ones most likely to be trusted and reused. Follow old-game launchers, game-feel extraction and device-control tools. Also watch whether the anti-reverse-engineering and lightweight tools get independent verification, and whether larger-sample comparisons of REA appear."
+        "headline": "REA shifts from showing reverse engineering to proving rebuilds are correct",
+        "summary": "Verification appeared in all 7 daily briefings, making it the steadiest theme of the week. Late-October cases centered on test-passing libraries and clean-room rewrites, then DX-Ball (270 functions, 84,968 bytes, byte-identical) raised the bar to reproducible comparison. Scope widened from apps and desktop assistants to legacy game preservation, Excalidraw fuzz testing, and a Redmi G hardware control tool. Meanwhile, independent controlled comparisons (20 programs, PvZ, small programs) found no clear accuracy advantage from REA, and anti-reverse-engineering tools such as BLA, REAShield and anti-rea appeared, showing a gap between hype and verifiability and an emerging adversarial niche. Stars rose from 398,205 to 423,619, so attention keeps growing.",
+        "watch": "Over the next few days, watch whether cases backed by byte comparisons, test counts or hashes keep increasing, and whether comparison experiments clarify where REA genuinely adds value. Lightweight options that cut the context cost of REA's 207 tools, and anti-reverse-engineering defenses, are open areas to build in. Legacy software preservation and migration (games first, then enterprise) is also worth tracking."
       },
       "zh-CN": {
-        "headline": "REA 从展示走向可验证的重建，老游戏成主战场",
-        "summary": "本周每天都出现“验证”信号（B），主轴从 10 月底的 OpenCode、QuillBot 重写案例，转为 DX-Ball 270 个函数字节级一致、Excalidraw 252/252 测试与 10 万次模糊测试等硬证据。同时，多个独立对照实验（20 个程序、PvZ 二进制）显示 REA 未必带来准确度优势，使社区更看重证据而非作者自述。老软件保存与重建（C）在 10 月 31 日后转强，从 DX-Ball 延伸到老赛车游戏启动器与超级马里奥 64 手感提取，并开始触及 Redmi G 2021 这类硬件控制（D）。另一方面，BLA、REAShield、anti-rea 等反 AI 逆向工具出现，说明攻防两端都在成形；成本与工具负担（F）也以 leanrea 等轻量方案呈现。",
-        "watch": "留意有公开 repo、测试数字或逐字节比对的案例，这些最容易被信任与复用；可关注老游戏启动器、手感数值提取与设备控制工具的后续。另外值得跟踪反逆向防护与轻量化工具是否出现独立验证，以及 REA 对照实验是否有更大样本的结果。"
+        "headline": "REA 从展示逆向转向证明重建正确，验证成为核心",
+        "summary": "本周 7 天每天都出现“验证”信号，是最稳定的主轴。10 月底的案例以通过测试的库和净室重写为主，随后 DX-Ball 的 270 个函数、84,968 字节逐字节一致，把标准提高到可复现的比对。应用范围从 App 与桌面助手，延伸到老游戏保存、Excalidraw 的模糊测试，以及 Redmi G 硬件控制工具。同时，独立对照实验（20 个程序、PvZ、小型程序）都未发现 REA 带来明显的准确度优势，加上 BLA、REAShield、anti-rea 等反逆向工具出现，说明热度与可验证性之间仍有落差，也出现了新的对抗型市场。星数从 398,205 升到 423,619，关注度持续扩大。",
+        "watch": "接下来几天可留意：附有字节比对、测试数或哈希的案例是否持续增加，以及对照实验是否厘清 REA 在哪些场景真正有价值。降低 207 个工具上下文成本的轻量方案，以及反逆向防护工具，都是可以切入的空间；遗留软件（先游戏、再企业）的保存与迁移也值得观察。"
       }
     },
     "rising": [
+      "B",
       "C",
-      "D"
+      "G"
     ],
     "fading": [
-      "A"
+      "E",
+      "D"
     ],
     "tally": {
-      "A": 2,
+      "A": 3,
       "B": 7,
       "C": 4,
       "D": 1,
       "E": 0,
       "F": 2,
-      "G": 5
+      "G": 4
     }
   }
 }

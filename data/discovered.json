@@ -2,6 +2,194 @@
   "updated": "2026-11-03",
   "items": [
     {
+      "url": "https://github.com/fmflavio/super-volleyball-pc",
+      "title": "fmflavio/super-volleyball-pc: Super Volley Ball (Mega Drive / Genesis - 1991) PC Windows Edition - Reverse Engineered with REA",
+      "author": "fmflavio",
+      "date": "2026-11-03",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-03",
+      "relevant": true,
+      "title_zh": "以 REA 方法逆向 Mega Drive 排球遊戲並重建 Windows 版",
+      "summary": "作者逆向《Super Volley Ball》(1991) ROM，提取向量表、文字、調色盤、球隊與 116 名球員資料庫、45 個音效與 32 個 FM 樂器及圖塊，並重建為可執行的 Windows .exe 與網頁版（含 YM2612 合成器）。專案附提取腳本可重新產生資料。",
+      "target": "Super Volley Ball（Mega Drive／Genesis，1991）",
+      "metric": "提取 116 名球員資料、45 個音效、32 個 FM 樂器並產出可玩的 Windows 版",
+      "category": "Native / 遊戲",
+      "status": "shipped",
+      "wow": 5,
+      "scored": "2026-11-03",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://juejin.cn/post/7703425767918010408",
+      "title": "让 AI 自己拆开一个软件：讲讲 REA 逆向工程",
+      "author": "雷震192",
+      "date": "2026-11-03",
+      "source": "掘金",
+      "kind": "文章",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 5
+      },
+      "lang": "zh",
+      "found": "2026-11-03",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-11-03",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://bsky.app/profile/botmonster.com/post/3mzem4socgx2b",
+      "title": "Reverse Engineer Anything rebuilt a 1996 game function byte for byte. On a simple app, an agent with screenshots nearly matched it. It can't",
+      "author": "botmonster.com",
+      "date": "2026-11-03",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-03",
+      "relevant": true,
+      "title_zh": "報導 REA 逐位元組重建 1996 遊戲函式及其限制",
+      "summary": "這則貼文轉述一篇文章：REA 能逐位元組重建一個 1996 年遊戲函式，而在簡單應用上，僅靠截圖的代理幾乎能達到相同結果，但無法破解 CAPTCHA。內容僅為摘要連結，沒有自行驗證。",
+      "target": "1996 年遊戲函式（轉述自文章）",
+      "metric": "逐位元組重建 1996 年遊戲函式",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-11-03",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/nikhdesh/status/2117475470036148719",
+      "title": "So I built one that does. KachraClean is free and open source. Scanning only reads. Removal moves things to the Trash with an Undo. It never",
+      "author": "@nikhdesh",
+      "date": "2026-11-03",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 2
+      },
+      "lang": "en",
+      "found": "2026-11-03",
+      "relevant": true,
+      "title_zh": "以 REA 追蹤商用清理軟體行為，做出開源 KachraClean",
+      "summary": "作者在潔淨室規則下，不反編譯也不解密規則庫，改用 REA 從外部追蹤商用清理軟體的檔案系統呼叫，據此開發免費開源的 KachraClean。掃描只讀取，移除則移到垃圾桶並可復原，從不執行 rm。",
+      "target": "商用 macOS 清理軟體",
+      "metric": "追蹤 134 萬次檔案系統呼叫",
+      "category": "Native / macOS",
+      "status": "shipped",
+      "wow": 4,
+      "scored": "2026-11-03",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/botmonster/status/2117416804263821690",
+      "title": "Reverse Engineer Anything rebuilt a 1996 game function byte for byte. On a simple app, an agent with screenshots nearly matched it. It can't",
+      "author": "@botmonster",
+      "date": "2026-11-03",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 7
+      },
+      "lang": "en",
+      "found": "2026-11-03",
+      "relevant": true,
+      "title_zh": "REA 逐位元組重建 1996 年遊戲函式，簡單 App 以截圖近乎還原",
+      "summary": "貼文轉述 Reverse Engineer Anything 的成果：能把 1996 年遊戲的某個函式逐位元組重建。在簡單 App 上，僅憑截圖的 agent 也幾乎能還原，但無法破解 CAPTCHA。",
+      "target": "1996 年遊戲函式與簡單 App",
+      "metric": "遊戲函式逐位元組重建",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-11-03",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/AkitaOnRails/status/2117429097965945219",
+      "title": "Post novo: \"Criando um framework para IA com IA: REA Launcher SDK\"  Depois de criar launchers pra vários retrogames, quase todos os Colin Mc",
+      "author": "@AkitaOnRails",
+      "date": "2026-11-03",
+      "source": "X",
+      "kind": "貼文",
+      "score": 44,
+      "pop": {
+        "likes": 44,
+        "views": 4826
+      },
+      "lang": "fr",
+      "found": "2026-11-03",
+      "relevant": true,
+      "title_zh": "發布 REA Launcher SDK，讓 AI 協助建立復古遊戲啟動器",
+      "summary": "作者先前已為多款復古賽車遊戲（Colin McRae、Outrun、Sega Rally、Screamer 等）做出啟動器，進而整理成 SDK。使用者只要對 AI harness 說明使用該 SDK 即可建立新的啟動器，並附 GitHub 連結。",
+      "target": "復古遊戲啟動器 SDK",
+      "metric": "已為多款老賽車遊戲製作啟動器並釋出 SDK",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-03",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/Sukiea1008/status/2117415964367024205",
+      "title": "有人用 AI 把年付 $144 的 Typeless 拆了个底朝天，然后从零重写了一个免费开源版！  做这件事的是一个 B 站博主，用的是 GitHub 上 42 万 Star 的开源逆向项目 REA。他把 Typeless 的客户端一层层拆开，整理成 18 篇逆向笔记，最后自己",
+      "author": "@Sukiea1008",
+      "date": "2026-11-03",
+      "source": "X",
+      "kind": "貼文",
+      "score": 2,
+      "pop": {
+        "likes": 2,
+        "views": 249
+      },
+      "lang": "zh",
+      "found": "2026-11-03",
+      "relevant": true,
+      "title_zh": "用 REA 拆解 Typeless 客戶端並重寫免費開源版 SpeakMore",
+      "summary": "B 站博主以 REA 逐層拆解年費 $144 的語音輸入工具 Typeless，整理成 18 篇逆向筆記，並從零寫出 MIT 授權的 SpeakMore。支援 Mac 與 Windows，可在任何輸入框語音輸入、自動刪除語氣詞並將中文轉為英文。",
+      "target": "Typeless 語音輸入客戶端",
+      "metric": "18 篇逆向筆記與開源 SpeakMore 復刻",
+      "category": "Native",
+      "status": "shipped",
+      "wow": 5,
+      "scored": "2026-11-03",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/addy_oz/status/2117406915408122338",
+      "title": "Great thread. Inspired by REA, I re-built a REA skill with recursive self learning, so it keeps building till the task is done. Give it a sp",
+      "author": "@addy_oz",
+      "date": "2026-11-03",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 36
+      },
+      "lang": "en",
+      "found": "2026-11-03",
+      "relevant": true,
+      "title_zh": "受 REA 啟發打造具遞迴自我學習的逆向技能",
+      "summary": "作者重建一個帶遞迴自我學習的 REA skill，讓它持續迭代直到任務完成，並公開 GitHub repo。內容僅為工具介紹，未說明實測目標或成果。",
+      "target": "REA 自我學習迴圈 skill",
+      "metric": "公開 GitHub repo",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-03",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/utabk/marrow",
       "title": "utabk/marrow: Marrow (formerly REA Studio) is a desktop GUI for REA, the reverse engineering MCP: a classic code browser (listing, decompiler, function graph) and all 229 REA tools in one app for macOS, Windows and Linux, with your AI agent in the same session.",
       "author": "utabk",
@@ -126,15 +314,6 @@
       "wow": 2,
       "scored": "2026-11-03",
       "scored_by": "sonnet"
-    },
-    {
-      "url": "https://github.com/InfRec-Cardinal/REA",
-      "title": "InfRec-Cardinal/REA: Official repository for REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Cont",
-      "source": "GitHub",
-      "found": "2026-11-03",
-      "relevant": false,
-      "scored": "2026-11-03",
-      "scored_by": "jev"
     },
     {
       "url": "https://github.com/chiefnhanle/agentic-anything",
@@ -675,6 +854,82 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://github.com/Bhumikams/spelunk",
+      "title": "Bhumikams/spelunk: Hybrid-search RAG over a codebase (REA): tree-sitter chunking, Atlas Search BM25 + Atlas Vector Search fused with RRF, Groq answers with line-level citations.",
+      "author": "Bhumikams",
+      "date": "2026-11-02",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-03",
+      "relevant": true,
+      "title_zh": "以 RAG 混合搜尋工具對 REA 原始碼庫建立可問答索引",
+      "summary": "Spelunk 以 REA 倉庫為示範目標，用 tree-sitter 切分程式碼，結合 Atlas BM25 與向量搜尋並以 RRF 融合，由 LLM 回答並附行號引用。它是分析 REA 原始碼的問答工具，並非用 REA 逆向目標，但提供架構圖、搜尋比較等功能。",
+      "target": "morluto/rea 原始碼庫（約 2,700 檔、62 萬行）",
+      "metric": "REA 上 100% 非空白行被切塊涵蓋",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-03",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/Rehanasharmin/REA-optimized-for-arena-agent",
+      "title": "Rehanasharmin/REA-optimized-for-arena-agent: REA (Reverse Engineer Anything) adapted for headless Arena agent sandboxes: one-command bootstrap, machine-checked capability verifier, agent runbook. Upstream: https://github.com/morluto/rea",
+      "author": "Rehanasharmin",
+      "date": "2026-11-02",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-03",
+      "relevant": true,
+      "title_zh": "將 REA 改造為無頭 Arena 代理沙盒的一鍵部署版本",
+      "summary": "此分支提供一鍵啟動腳本、機器可驗證的能力檢查器與代理操作手冊，讓 REA 在拋棄式無頭沙盒中透過 CLI 運行，並精簡檢出檔案。分析引擎皆為上游程式碼，作者誠實列出沙盒內不可用的功能。",
+      "target": "REA 在無頭代理沙盒環境的部署",
+      "metric": "約 40 秒完成暖啟動，檢出檔案由約 7.2k 縮減到約 3.2k",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-03",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/akitaonrails/rea-launcher-sdk",
+      "title": "akitaonrails/rea-launcher-sdk: Framework to build retrogame launchers",
+      "source": "GitHub",
+      "found": "2026-11-03",
+      "relevant": false,
+      "scored": "2026-11-03",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/paonx_eth/status/2117322392418828415",
+      "title": "Claude now cuts REA off mid-task  So I moved it to Grok Bot. 2 messages from me, it installed everything itself  My first run: 234 tools loa",
+      "author": "@paonx_eth",
+      "date": "2026-11-02",
+      "source": "X",
+      "kind": "貼文",
+      "score": 30,
+      "pop": {
+        "likes": 30,
+        "views": 566
+      },
+      "lang": "en",
+      "found": "2026-11-03",
+      "relevant": true,
+      "title_zh": "將 REA 移到 Grok Bot 執行，測試 App 追蹤 5 個檔案",
+      "summary": "作者因 Claude 中途中斷 REA，改在 Grok Bot 上跑，兩則訊息就自行安裝完成。首次執行載入 234 個工具，追蹤測試 App 經過 5 個檔案，8 個步驟全部確認，且從未實際執行該 App。",
+      "target": "測試 App",
+      "metric": "8/8 步驟確認，追蹤 5 個檔案",
+      "category": "工具鏈",
+      "status": "reported",
+      "wow": 3,
+      "scored": "2026-11-03",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://x.com/SataEricUX/status/2116938308043559412",
       "title": "A year ago I'd have paid for Higgsfield, Figma Weave and Flora.ai and called it a day. This time I was so frustrated that I used Reverse Eng",
       "author": "@SataEricUX",
@@ -812,6 +1067,27 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://github.com/protonspy/harness-for-rea",
+      "title": "protonspy/harness-for-rea: Desktop app and terminal UI for deep analysis of software you own: an orchestrator plans, a sandboxed Claude Code specialist reverse engineers in Docker, with REA and Cheat Engine over MCP.",
+      "author": "protonspy",
+      "date": "2026-10-28",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 10,
+      "lang": "en",
+      "found": "2026-11-03",
+      "relevant": true,
+      "title_zh": "打造以 REA 驅動沙盒化 Claude Code 專家的逆向桌面應用",
+      "summary": "Harness for REA 是桌面與終端機應用，由協調者模型規劃任務，並在 Docker 容器中讓內建 REA 與 Cheat Engine 的 Claude Code 專家做深度逆向分析。專案有發行版、npm 套件與 CI，但節錄中未見對具體目標的分析成果。",
+      "target": "使用者自有或已授權的軟體與二進位檔",
+      "metric": "雙代理架構，專家在 Docker 隔離容器中執行並整合 REA MCP",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-03",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://qoshe.com/paradigm-shift/inayat-arshad/an-ai-did-that-rea-and-the-october-2026-reverse-engineering-wave/189418220",
       "title": "QOSHE - An AI Did That: REA and the October 2026 Reverse-Engineering Wave - Inayat Arshad",
       "author": "Inayat Arshad",
@@ -819,6 +1095,43 @@
       "source": "Web",
       "kind": "文章",
       "lang": "en",
+      "found": "2026-11-03",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "scored": "2026-11-03",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/DannyBaanks/rea",
+      "title": "DannyBaanks/rea: Research fork of REA (morluto/rea) — compact MCP tools, Malbolge analysis and auditable execution traces.",
+      "author": "DannyBaanks",
+      "date": "2026-10-25",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-03",
+      "relevant": true,
+      "title_zh": "REA 研究分支：精簡 MCP 工具集與 Malbolge 分析",
+      "summary": "DannyBaanks 的 REA 分支新增精簡 MCP 目錄（僅暴露 3 個元工具）及 Malbolge 靜態解碼、有界追蹤等分析功能。精簡模式把廣告的 schema 從 3.48 MB（213 個工具）降到 7 KB，同時保留完整工具存取。",
+      "target": "morluto/rea 分支（rea-agents 6.5.0 之上 62 個提交）",
+      "metric": "工具 schema 由 3.48 MB 降至 7 KB（減少 99.8%）",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-03",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/43b27c97594cb502f907519e72b8f0652e27c4e8",
+      "title": "わずか2週間でGitHubスター30万超 AIでリバース ...",
+      "author": "news.yahoo.co.jp",
+      "date": "2026-10-21",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "ja",
       "found": "2026-11-03",
       "relevant": true,
       "wow": 1,
@@ -852,6 +1165,15 @@
       "wow": 2,
       "scored": "2026-11-03",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/InfRec-Cardinal/REA",
+      "title": "InfRec-Cardinal/REA: Official repository for REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Cont",
+      "source": "GitHub",
+      "found": "2026-11-03",
+      "relevant": false,
+      "scored": "2026-11-03",
+      "scored_by": "jev"
     },
     {
       "url": "https://www.reddit.com/r/AusRenovation/comments/1tgcvpv/were_building_a_property_platform_to_compete_with/",
@@ -43636,6 +43958,35 @@
   "runs": [
     {
       "date": "2026-11-03",
+      "added": 15,
+      "stats": {
+        "githubShowAndTell": 14,
+        "githubRepos": 247,
+        "githubCode": 47,
+        "hackerNews": 22,
+        "qiita": 47,
+        "devto": 150,
+        "juejin": 6,
+        "reddit": 20,
+        "v2ex": 13,
+        "youtube": 90,
+        "bluesky": 162,
+        "mastodon": 160,
+        "exaWeb": 57,
+        "x": 13
+      },
+      "scoring": {
+        "scored": 12,
+        "jev": {
+          "low": 2,
+          "irrelevant": 1,
+          "errors": 0,
+          "toClaude": 12
+        }
+      }
+    },
+    {
+      "date": "2026-11-03",
       "added": 44,
       "stats": {
         "githubShowAndTell": 14,
@@ -44474,36 +44825,7 @@
           "toClaude": 46
         }
       }
-    },
-    {
-      "date": "2026-10-22",
-      "added": 29,
-      "stats": {
-        "githubShowAndTell": 10,
-        "githubRepos": 241,
-        "githubCode": 44,
-        "hackerNews": 19,
-        "qiita": 42,
-        "devto": 150,
-        "juejin": 2,
-        "reddit": 60,
-        "v2ex": 10,
-        "youtube": 90,
-        "bluesky": 160,
-        "mastodon": 160,
-        "exaWeb": 56,
-        "x": 25
-      },
-      "scoring": {
-        "scored": 19,
-        "jev": {
-          "low": 8,
-          "irrelevant": 2,
-          "errors": 0,
-          "toClaude": 19
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-03T00:24:45.221Z"
+  "updatedAt": "2026-11-03T04:39:18.137Z"
 }

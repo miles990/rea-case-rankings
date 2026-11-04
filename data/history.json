@@ -33081,16 +33081,23 @@
     },
     {
       "date": "2026-11-04",
-      "stars": 427029,
-      "stars_delta": 3410,
+      "stars": 427722,
+      "stars_delta": 4103,
       "new": [
+        "d-508a57390a",
+        "d-bb243b894d",
         "d-fceccbabee",
+        "d-658670d625",
+        "d-9a3b912ef1",
         "d-30ccef12ed",
         "d-b2d9e2ee8a",
         "d-c639837ee3",
         "d-c9ab7706a0",
+        "d-d6e4e91006",
         "d-e821ed0df9",
         "d-f1ef99da8f",
+        "d-6053c3ceeb",
+        "d-b301933b41",
         "d-1ec404cc5e",
         "d-a82ad0acfd",
         "d-efdb7a673c",
@@ -33100,37 +33107,40 @@
         "d-7f3ed658ed",
         "d-7a03383256",
         "d-e89d75438a",
+        "d-6d98bbc060",
         "d-cc1aaeb000"
       ],
       "stats": {
-        "count": 17,
+        "count": 25,
         "wow": {
-          "2": 10,
-          "3": 5,
-          "4": 2
+          "2": 12,
+          "3": 7,
+          "4": 5,
+          "5": 1
         },
         "type": {
-          "case": 7,
-          "app": 10
+          "case": 12,
+          "app": 12,
+          "news": 1
         },
         "status": {
-          "tested": 5,
-          "shipped": 5,
+          "shipped": 11,
+          "tested": 7,
           "reported": 7
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 星數破 42.7 萬，逆向用途擴及老遊戲復刻，也出現防禦工具",
-          "summary": "REA 的 GitHub 星數達 427,029，比前一個紀錄 423,619 增加 3,410。今天的項目除了 GameFrame 以 REA、Ghidra 與 Unicorn 逆向老遊戲並逐項比對原版，以及對 Microsoft Teams 新版桌面端的證據報告，也出現以 BLA 加工建置產物阻礙 AI 逆向，並用 REA 驗證加固效果的工具；BLA 作者自述會讓 Electron ASAR 觸發 REA 16MiB 標頭上限。另有 leanrea 以 8KB Skill 取代 207 個 MCP 工具，作者自述成本下降、正答分數由 75/75 降為 74/75。這顯示 REA 同時被用來攻與防，且重點愈來愈放在驗證與成本。多數 X 貼文為作者自述，證據有限。"
+          "headline": "REA 星數破 42.7 萬，逆向成果與防禦工具同日湧現",
+          "summary": "REA 星數升至 427,722，比前一個紀錄 423,619 多了 4,103。當天最扎實的案例是用 REA 逆向已停運預算 App，救回 18,406 筆交易並抽查 300 筆無差異，以及逆向 Paste 後重做開源的 Pasto、公開證據報告的 Microsoft Teams 分析。同時出現 BLA 這類專門阻礙 AI 逆向的加工工具，以及 leanrea 以 8KB Skill 取代 207 個 MCP 工具、Windows 實測指出每次提問約耗 16 萬至 20 萬 token 等成本討論，顯示 REA 的攻防、驗證與效率問題正同步浮現。"
         },
         "en": {
-          "headline": "REA passes 427K stars as use spreads to retro-game rebuilds and defenses",
-          "summary": "REA's GitHub stars reached 427,029, up 3,410 from the previous record of 423,619. Today's items include GameFrame, which uses REA, Ghidra and Unicorn to reverse old games and compare them step by step against the original, and an evidence report on the new Microsoft Teams desktop client. Defensive tools also appeared: BLA processes build artifacts to hinder AI reverse engineering (its author says an Electron ASAR hit REA's 16MiB header limit), and another project uses REA to verify hardening. Separately, leanrea replaces 207 MCP tools with an 8KB Skill, with the author reporting lower cost and a score drop from 75/75 to 74/75. REA is being used on both offense and defense, with verification and cost increasingly central. Most X posts are self-reported with limited evidence."
+          "headline": "REA passes 427K stars as reverse-engineering results and defenses surface together",
+          "summary": "REA's GitHub stars rose to 427,722, up 4,103 from the previous record of 423,619. The strongest cases were recovering 18,406 transactions from a defunct budgeting app (300 spot checks, no differences), rebuilding the Paste clipboard manager as the open-source Pasto, and a Microsoft Teams analysis published with an evidence report. Alongside these, BLA, a tool that processes build artifacts to hinder AI reverse engineering, appeared, as did cost discussions: leanrea replaces 207 MCP tools with an 8KB Skill, and a Windows 11 test put each query at roughly 160K to 200K tokens. Offense, defense, verification and efficiency around REA are all surfacing at once."
         },
         "zh-CN": {
-          "headline": "REA 星数破 42.7 万，逆向用途扩及老游戏复刻，也出现防御工具",
-          "summary": "REA 的 GitHub 星数达 427,029，比前一个纪录 423,619 增加 3,410。今天的项目除了 GameFrame 以 REA、Ghidra 与 Unicorn 逆向老游戏并逐项比对原版，以及对 Microsoft Teams 新版桌面端的证据报告，也出现以 BLA 加工构建产物阻碍 AI 逆向，并用 REA 验证加固效果的工具；BLA 作者自述会让 Electron ASAR 触发 REA 16MiB 头部上限。另有 leanrea 以 8KB Skill 取代 207 个 MCP 工具，作者自述成本下降、正确答案得分由 75/75 降为 74/75。这显示 REA 同时被用来攻与防，且重点越来越放在验证与成本。多数 X 帖子为作者自述，证据有限。"
+          "headline": "REA 星数破 42.7 万，逆向成果与防御工具同日涌现",
+          "summary": "REA 星数升至 427,722，比之前的纪录 423,619 多了 4,103。当天最扎实的案例是用 REA 逆向已停运的预算 App，救回 18,406 笔交易并抽查 300 笔无差异，以及逆向 Paste 后重做开源的 Pasto、公开证据报告的 Microsoft Teams 分析。同时出现 BLA 这类专门阻碍 AI 逆向的加工工具，以及 leanrea 以 8KB Skill 取代 207 个 MCP 工具、Windows 实测指出每次提问约耗 16 万至 20 万 token 等成本讨论，显示 REA 的攻防、验证与效率问题正同步浮现。"
         }
       },
       "signals": [
@@ -33139,9 +33149,9 @@
         "F"
       ],
       "highlights": [
-        "d-fceccbabee",
+        "d-bb243b894d",
         "d-30ccef12ed",
-        "d-b2d9e2ee8a"
+        "d-c639837ee3"
       ],
       "rank": [
         "dx-ball-sound-pan",
@@ -33179,6 +33189,7 @@
         "d-4e8823e589",
         "d-c24f94de41",
         "d-b704d89ca5",
+        "d-508a57390a",
         "d-f84033b4af",
         "d-4e14365345",
         "d-3e5af8dc22",
@@ -33192,6 +33203,7 @@
         "d-c0e79c81db",
         "d-fab901f33e",
         "d-ecc8500670",
+        "d-bb243b894d",
         "d-cee0e01049",
         "d-285bd9104d",
         "d-c4d6e29d0f",
@@ -33236,6 +33248,7 @@
         "d-5ad356d565",
         "d-0a6ed6f8cf",
         "d-5725375ff2",
+        "d-658670d625",
         "d-4c582fe204",
         "d-f6fd313d80",
         "d-509795de4d",
@@ -33252,6 +33265,7 @@
         "d-cd0456f031",
         "d-27154f0faa",
         "d-db6b6eae3f",
+        "d-9a3b912ef1",
         "d-f86a61586d",
         "d-1a95aa94f5",
         "d-89f5bae7e1",
@@ -33513,6 +33527,7 @@
         "d-6840ab3975",
         "d-1584370128",
         "d-c9ab7706a0",
+        "d-d6e4e91006",
         "d-e821ed0df9",
         "d-4cf507c59c",
         "d-657ad1be8c",
@@ -33545,6 +33560,7 @@
         "zenn-electron-known-answer",
         "d-95812085d2",
         "kingy-notes-exporter",
+        "d-6053c3ceeb",
         "d-b0cf41d54f",
         "d-c5567e2294",
         "d-d78c76dda9",
@@ -33608,6 +33624,7 @@
         "d-06d883bc3a",
         "d-a62efe5ad8",
         "d-eb98db1222",
+        "d-b301933b41",
         "d-005e2b7890",
         "d-491195bc3d",
         "d-01656141db",
@@ -33985,6 +34002,7 @@
         "d-31c137eac0",
         "d-5c56802593",
         "d-1fd6dd385e",
+        "d-6d98bbc060",
         "d-b6a39a36bb",
         "d-512cbe4f2b",
         "d-a6a41f7d34",
@@ -34628,6 +34646,7 @@
         "d-1d5883af5b",
         "d-1480a7cf0c",
         "d-6e9497310d",
+        "d-5667bb9b07",
         "d-f660f546e1",
         "d-f161d608cd",
         "d-672dba878c",
@@ -34907,9 +34926,11 @@
         "d-2761852b3d",
         "d-2f09a54a93",
         "d-aea5295058",
+        "d-eb449ec66d",
         "d-c8284ea6af",
         "d-826c0dcc90",
         "d-1e37244e98",
+        "d-c4c872e694",
         "d-e8b98e6240",
         "d-3a5186319d",
         "d-b6f2bc06ea",
@@ -35237,27 +35258,28 @@
     "to": "2026-11-04",
     "text": {
       "zh-TW": {
-        "headline": "REA 熱度續升，重點從展示能力轉向證明複製得對、成本划算",
-        "summary": "本週 REA 星數從約 40.8 萬升至 42.7 萬，驗證（B）七天都出現，是最穩定的主軸。早期以勒索軟體分析、Cluely 重建等案例為主，隨後出現 DX-Ball 逐位元組一致（270 個函數）、Excalidraw 252/252 測試與 10 萬次模糊測試等可量化的驗證。同時獨立對照實驗（20 個程式、PvZ、小型程式）都未顯示 REA 有明顯準確度優勢，使「證據」比「展示」更重要。應用範圍由老遊戲延伸到商業軟體淨室重建（Typeless 變 SpeakMore）、硬體控制（Redmi G 2021），並出現 BLA、REAShield 等反逆向工具，形成攻防並存，成本與工具負擔（207 個工具壓成 3 個入口或 8KB Skill）也成為焦點。",
-        "watch": "可留意能附上逐函數比對、測試或模糊測試證據的重建與遷移服務，以及把驗證流程標準化的工具。也觀察反逆向加固（BLA 等）與 leanrea 這類精簡方案是否出現獨立數據佐證；目前多為作者自述，行動前宜先查證。"
+        "headline": "REA 從展示走向驗證,逆向成果開始落地到真實需求",
+        "summary": "本週 REA 星數從約 40.8 萬增至 42.7 萬,「驗證是瓶頸」(B)七天都出現。內容從單純拆解,轉向逐位元組比對(DX-Ball 270 個函式一致)、模糊測試與抽查等可驗證的成果,獨立對照實驗則顯示 REA 在小型程式或有文件的情況下未必有準確度優勢。應用場景從老遊戲(Colin McRae、Mega Drive)延伸到已停運的預算 App 資料救援,以及把付費工具(Typeless、Paste)淨室重建為開源版,舊軟體保存與遷移(C)和客戶端不再是護城河(A)後半週更常出現。另一方面,BLA、REAShield 等反 AI 逆向工具,以及 leanrea 將 207 個工具壓縮成 8KB Skill,顯示攻防與成本效率也同步升溫。",
+        "watch": "機會在「可驗證的重建與遷移服務」:例如為停運或老舊軟體提供附證據的資料救援、淨室重寫,以及能公開比對報告的流程。也要留意反逆向加固工具是否被獨立測試證實有效,以及降低 token 成本(每次提問約 16 萬至 20 萬 token)的輕量方案能否成為主流。作者自述但缺乏證據的案例仍多,宜優先採信附有測試或比對結果者。"
       },
       "en": {
-        "headline": "REA hype keeps growing, but the focus shifts to proving clones are correct and affordable",
-        "summary": "Over the week REA's stars rose from about 408K to 427K, and verification (B) appeared all seven days as the steadiest theme. Early cases like ransomware analysis and the Cluely rebuild gave way to quantified proofs: DX-Ball byte-identical across 270 functions, Excalidraw passing 252/252 tests plus 100K fuzz runs. Independent controlled comparisons (20 programs, PvZ, small programs) found no clear accuracy advantage for REA, making evidence matter more than demos. Use cases widened from old games to clean-room rebuilds of paid software (Typeless to SpeakMore) and hardware control (Redmi G 2021), while anti-REA tools like BLA and REAShield emerged, creating an attack-and-defense dynamic. Cost and tool overhead also drew attention, with 207 tools squeezed into 3 entry points or an 8KB Skill.",
-        "watch": "Look for rebuild and migration services that ship per-function diffs, tests or fuzzing as proof, and for tools that standardize verification. Also watch whether anti-reversing hardening (BLA and similar) and lean setups like leanrea get independent measurements; most claims are still self-reported, so verify before acting."
+        "headline": "REA is shifting from demos to verification, with results landing in real needs",
+        "summary": "Over the week REA's GitHub stars rose from about 408K to 427K, and the signal 'verification is the bottleneck' (B) appeared all seven days. Coverage moved from plain teardowns to checkable results: byte-for-byte matches (270 DX-Ball functions), fuzzing and spot checks, while independent controlled comparisons suggested REA gave no clear accuracy edge on small programs or when documentation was available. Use cases widened from old games (Colin McRae, Mega Drive) to recovering data from a defunct budgeting app and clean-room rebuilding paid tools (Typeless, Paste) as open source, and legacy preservation (C) and 'client code is no moat' (A) showed up more in the second half. Meanwhile anti-AI-reverse-engineering tools such as BLA and REAShield, and leanrea's 8KB Skill replacing 207 tools, show that attack/defense and cost efficiency are heating up together.",
+        "watch": "The opportunity is in verifiable rebuild and migration work: evidence-backed data rescue for discontinued or legacy software, clean-room rewrites, and workflows that publish comparison reports. Watch whether independent tests confirm that anti-REA hardening actually works, and whether lightweight setups that cut token cost (roughly 160K–200K tokens per query) become the norm. Many claims are still self-reported without evidence, so favor cases that show tests or diffs."
       },
       "zh-CN": {
-        "headline": "REA 热度持续上升，重点从展示能力转向证明复制得对、成本划算",
-        "summary": "本周 REA 星数从约 40.8 万升至 42.7 万，验证（B）七天都出现，是最稳定的主轴。早期以勒索软件分析、Cluely 重建等案例为主，随后出现 DX-Ball 逐字节一致（270 个函数）、Excalidraw 252/252 测试与 10 万次模糊测试等可量化的验证。同时独立对照实验（20 个程序、PvZ、小型程序）都未显示 REA 有明显准确度优势，使“证据”比“展示”更重要。应用范围由老游戏延伸到商业软件净室重建（Typeless 变 SpeakMore）、硬件控制（Redmi G 2021），并出现 BLA、REAShield 等反逆向工具，形成攻防并存，成本与工具负担（207 个工具压成 3 个入口或 8KB Skill）也成为焦点。",
-        "watch": "可留意能附上逐函数比对、测试或模糊测试证据的重建与迁移服务，以及把验证流程标准化的工具。也观察反逆向加固（BLA 等）与 leanrea 这类精简方案是否出现独立数据佐证；目前多为作者自述，行动前宜先查证。"
+        "headline": "REA 从展示走向验证,逆向成果开始落地到真实需求",
+        "summary": "本周 REA 星数从约 40.8 万增至 42.7 万,“验证是瓶颈”(B)七天都出现。内容从单纯拆解,转向逐字节比对(DX-Ball 270 个函数一致)、模糊测试与抽查等可验证的成果,独立对照实验则显示 REA 在小型程序或有文档的情况下未必有准确度优势。应用场景从老游戏(Colin McRae、Mega Drive)延伸到已停运预算 App 的数据救援,以及把付费工具(Typeless、Paste)净室重建为开源版,旧软件保存与迁移(C)和客户端不再是护城河(A)在后半周更常出现。另一方面,BLA、REAShield 等反 AI 逆向工具,以及 leanrea 将 207 个工具压缩成 8KB Skill,显示攻防与成本效率也同步升温。",
+        "watch": "机会在“可验证的重建与迁移服务”:例如为停运或老旧软件提供附证据的数据救援、净室重写,以及能公开比对报告的流程。也要留意反逆向加固工具是否被独立测试证实有效,以及降低 token 成本(每次提问约 16 万至 20 万 token)的轻量方案能否成为主流。作者自述但缺乏证据的案例仍多,宜优先采信附有测试或比对结果者。"
       }
     },
     "rising": [
-      "B",
-      "C"
+      "C",
+      "A",
+      "D"
     ],
     "fading": [
-      "E"
+      "G"
     ],
     "tally": {
       "A": 3,

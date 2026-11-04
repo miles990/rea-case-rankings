@@ -69,6 +69,118 @@
       "scored_by": "jev"
     },
     {
+      "url": "https://github.com/WallisonWS/tactical-rmm-enhanced",
+      "title": "WallisonWS/tactical-rmm-enhanced: Tactical RMM Enhanced Monorepo (Django API + Vue 3 Dashboard + Go Agent) — Modelado com REA Reverse Engineering, EDR Security, Telemetria em Tempo Real, Network Tools, Auto-Cura, Winget & AI Diagnostics",
+      "author": "WallisonWS",
+      "date": "2026-11-04",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-04",
+      "relevant": true,
+      "title_zh": "以 REA 逆向建模 Tactical RMM，擴充 Go 代理與儀表板",
+      "summary": "以 REA 結構化逆向 Tactical RMM，整合 Django API、Vue 3 儀表板與 Go 代理，並附逆向工程報告與證據帳本。新增約 18 個 RPC 指令，涵蓋遙測、EDR 安全稽核、網路工具、自動修復與 Winget 管理。",
+      "target": "Tactical RMM（遠端監控管理平台）",
+      "metric": "新增 18 個 Go 代理 RPC 指令，附逆向報告與證據帳本",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 3,
+      "scored": "2026-11-04",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/moneythemoney999/whatsapp_rea",
+      "title": "moneythemoney999/whatsapp_rea: Test de retro ingénierie avec REA accompagner par mon agent Gemini CLI ",
+      "author": "moneythemoney999",
+      "date": "2026-11-04",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "fr",
+      "found": "2026-11-04",
+      "relevant": true,
+      "title_zh": "用 REA 搭配 Gemini CLI 做 WhatsApp 逆向測試",
+      "summary": "repo 僅一次提交，只有 .gitignore 與 action.yml，說明為以 REA 和 Gemini CLI 做逆向工程測試。內容中沒有任何分析結果或成果。",
+      "target": "WhatsApp",
+      "metric": "僅 1 次提交，無可見成果",
+      "category": "Native",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-11-04",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://juejin.cn/post/7704140391016136755",
+      "title": "用 REA 反编译 Paste，做了个免费开源的 Pasto，支持分组迁移和 iCloud 同步",
+      "author": "天驱",
+      "date": "2026-11-04",
+      "source": "掘金",
+      "kind": "文章",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 6
+      },
+      "lang": "zh",
+      "found": "2026-11-04",
+      "relevant": true,
+      "title_zh": "用 REA 分析 Paste，獨立實作免費開源剪貼簿工具 Pasto",
+      "summary": "以 REA 分析 macOS 剪貼簿工具 Paste，獨立實作開源替代品 Pasto。功能包含歷史搜尋、分組遷移、OCR 與可選的 iCloud Drive 同步。內容為作者自述，節錄中未見測試或證據細節。",
+      "target": "Paste（macOS 剪貼簿工具）",
+      "metric": "完成開源 Pasto，支援歷史搜尋、分組遷移、OCR、iCloud 同步",
+      "category": "Native / macOS",
+      "status": "shipped",
+      "wow": 4,
+      "scored": "2026-11-04",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://www.v2ex.com/t/1254342",
+      "title": "[开源自荐] 用 REA 反编译 Paste，做了个免费开源的 Pasto，支持分组迁移和 iCloud 同步",
+      "author": "dkfjiwerj",
+      "date": "2026-11-04",
+      "source": "V2EX",
+      "kind": "討論",
+      "lang": "zh",
+      "found": "2026-11-04",
+      "relevant": true,
+      "title_zh": "用 REA 逆向 Paste，重做開源剪貼簿工具 Pasto",
+      "summary": "以 REA 反編譯 macOS 剪貼簿管理器 Paste，依分析結果用 Swift 重新實作常用功能，做成免費開源的 Pasto。支援分組遷移、iCloud 同步、OCR、MCP 等，並把逆向分析與實作對照記錄放進公開倉庫與安裝包。作者自述交互細節與跨應用貼上相容性仍在驗證中。",
+      "target": "Paste（macOS 剪貼簿管理器）",
+      "metric": "功能對照表中 13 項核心功能已實作 9 項以上，並提供 DMG 與公開原始碼",
+      "category": "Native / macOS",
+      "status": "shipped",
+      "wow": 5,
+      "scored": "2026-11-04",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/joelhooks/status/2117836809929695319",
+      "title": "Potion Calendar. REA clean-room cloned notion calendar. an alchemy/effect app. it turned out nice. https://github.com/joelhooks/potion-calen",
+      "author": "@joelhooks",
+      "date": "2026-11-04",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 114
+      },
+      "lang": "en",
+      "found": "2026-11-04",
+      "relevant": true,
+      "title_zh": "用 REA 無塵室復刻 Notion Calendar，做成 Potion Calendar",
+      "summary": "作者以 REA 對 Notion Calendar 做無塵室復刻，成品為煉金術風格的 Potion Calendar，使用 Effect 並公開 GitHub repo。節錄只有作者自述，沒有測試或比對證據。",
+      "target": "Notion Calendar",
+      "metric": "公開 Potion Calendar 開源復刻 repo",
+      "category": "Web / JS",
+      "status": "shipped",
+      "wow": 4,
+      "scored": "2026-11-04",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/rigmateus-dev/rea-rigs",
       "title": "rigmateus-dev/rea-rigs: REA de Rig's : appli Windows pour analyser des applis avec REA dans une boite fermee",
       "author": "rigmateus-dev",
@@ -322,24 +434,6 @@
       "scored_by": "sonnet"
     },
     {
-      "url": "https://x.com/Eric_P8/status/2117644192482480291",
-      "title": "I'm not seeing any network requests, it looks like to just calls random on a forecast enum to get a case and persists to",
-      "source": "X",
-      "found": "2026-11-04",
-      "relevant": false,
-      "scored": "2026-11-04",
-      "scored_by": "jev"
-    },
-    {
-      "url": "https://x.com/wquguru/status/2117579351583830022",
-      "title": "REA 逆向飞书会议纪要，功能比原版更强大，客户端已💯开源，模型💯免费，商用魔改无限制👇 Github：https://github.com/wquguru/cicada 官网直达：https://cicada.indaloop.ap",
-      "source": "X",
-      "found": "2026-11-04",
-      "relevant": false,
-      "scored": "2026-11-04",
-      "scored_by": "jev"
-    },
-    {
       "url": "https://x.com/ce_tpie28553/status/2117626278895607873",
       "title": "没有免费试用的软件我就这样用REA逆向…sry但是我真的很想体验功能",
       "author": "@ce_tpie28553",
@@ -476,6 +570,115 @@
       "status": "shipped",
       "scored": "2026-11-04",
       "scored_by": "jev"
+    },
+    {
+      "url": "https://dev.to/madnessbrains_i/rea-crosses-400k-stars-agents-decompile-windows-binaries-through-mcp-and-ghidra-44c7",
+      "title": "REA Crosses 400k Stars — Agents Decompile Windows Binaries Through MCP and Ghidra",
+      "author": "madnessbrains_i",
+      "date": "2026-11-03",
+      "source": "DEV",
+      "kind": "文章",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-04",
+      "relevant": true,
+      "title_zh": "報導 REA 突破 40 萬星，代理經 MCP 與 Ghidra 反編譯",
+      "summary": "文章介紹 REA 透過 MCP 把程式碼代理連到 Ghidra，並提到 Windows 支援仍屬實驗性。內容談及音訊路徑與擷取預算，但節錄屬於報導與評論性質，沒有具體成果。",
+      "target": "REA 與 Ghidra 的 MCP 整合",
+      "metric": "報導 REA 星數突破 40 萬",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-11-04",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://localai-kobo.com/rea-reverse-engineer-anything/",
+      "title": "42万スターの「何でも逆解析」REAは本物か：実機で主張と限界を確かめる | KOBO Lab",
+      "author": "KOBO Lab の新しい記事を受け取る",
+      "date": "2026-11-03",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "ja",
+      "found": "2026-11-04",
+      "relevant": true,
+      "title_zh": "在 Windows 11 實機測試 REA 的主張與限制",
+      "summary": "在 Windows 11 實機上驗證 REA 的導入與解析能力，對自製小型 Electron 風格應用與 Rust EXE 皆與正解相符，搭配 Ghidra 可說明無符號函式。對大型實際應用 Mark Text，預設全體解析逾時，縮小範圍到 main 與 preload 後 75.3 秒完成，並指出每次提問約耗 16 萬至 20 萬 token。",
+      "target": "自製測試應用、Rust EXE、Mark Text（Electron）",
+      "metric": "自製應用 IPC 通道 5/5 全數找出；Mark Text 全體解析 449.5 秒逾時，縮小範圍後 75.3 秒完成",
+      "category": "報導 / 評論",
+      "status": "tested",
+      "wow": 3,
+      "scored": "2026-11-04",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/mpptritan/status/2117734802728292430",
+      "title": "Akita, mandei uma PR no Colin MCrae 1, vc disse que não tinha testado no Windows, testei aqui, e fui arrumando os proble",
+      "source": "X",
+      "found": "2026-11-04",
+      "relevant": false,
+      "scored": "2026-11-04",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/AkitaOnRails/status/2117664162356617348",
+      "title": "I released a bunch of launchers for old games to run in modern PC. Most of the Colin McRae games, the original Screamer ",
+      "source": "X",
+      "found": "2026-11-04",
+      "relevant": false,
+      "scored": "2026-11-04",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/robiartec/status/2117616286368739350",
+      "title": "ESTO ME ACABA DE DEJAR LOCO DE LA CABEZA. Claude Code hizo ingeniería inversa de una app de presupuestos muerta y sacó de ella 11 años de mi",
+      "author": "@robiartec",
+      "date": "2026-11-03",
+      "source": "X",
+      "kind": "貼文",
+      "score": 78,
+      "pop": {
+        "likes": 78,
+        "views": 2797
+      },
+      "lang": "es",
+      "found": "2026-11-04",
+      "relevant": true,
+      "title_zh": "逆向已停運的預算 App，救回 11 年交易紀錄",
+      "summary": "對一款公司已於 2023 年關閉伺服器的預算 App，用 Claude Code 搭配 REA 逆向，找出 SQLite 資料庫中以加密 blob 儲存的金額。解出 24 個欄位，匯出 18,406 筆交易為 CSV 與 1,212 張照片，並抽查 300 筆全部無差異。",
+      "target": "已停運的預算記帳 App（SQLite 加密金額欄位）",
+      "metric": "匯出 18,406 筆交易與 1,212 張照片，抽驗 300 筆 0 差異",
+      "category": "Native",
+      "status": "tested",
+      "wow": 4,
+      "scored": "2026-11-04",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/AkitaOnRails/status/2117431959408218330",
+      "title": "Perguntei que jogos/abandonware vocês gostariam de modernizar. Não dá pra eu fazer todos, mas agora eu preparei tudo que vocês precisam pra ",
+      "author": "@AkitaOnRails",
+      "date": "2026-11-03",
+      "source": "X",
+      "kind": "貼文",
+      "score": 222,
+      "pop": {
+        "likes": 222,
+        "views": 7633
+      },
+      "lang": "pt",
+      "found": "2026-11-04",
+      "relevant": true,
+      "title_zh": "發布 REA Launcher SDK，讓人自行現代化老遊戲",
+      "summary": "作者先蒐集大家想現代化的老遊戲與 abandonware，再把所需資源整理成 rea-launcher-sdk 框架並公開在 GitHub，附上說明文章。內容是工具與框架，讓讀者自己動手，推文中未提供具體的逆向成果數據。",
+      "target": "老遊戲與 abandonware（REA Launcher SDK）",
+      "metric": "公開 rea-launcher-sdk GitHub 倉庫與說明文章",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-04",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://x.com/rS_alonewolf/status/2117103708555387255",
@@ -648,6 +851,27 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://github.com/csiscs/ReaTestProject1",
+      "title": "csiscs/ReaTestProject1: 使用REA MCP正式反编译重构独游的第一个游戏《Nobody》",
+      "author": "csiscs",
+      "date": "2026-10-29",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "zh",
+      "found": "2026-11-04",
+      "relevant": true,
+      "title_zh": "用 REA MCP 反編譯並重構獨立遊戲《Nobody》",
+      "summary": "作者以 REA MCP 反編譯並重構獨立遊戲《Nobody》，repo 為測試專案。節錄僅有一句描述，未見測試、截圖或成果細節。",
+      "target": "獨立遊戲《Nobody》",
+      "metric": "公開反編譯重構專案 ReaTestProject1",
+      "category": "Native / 遊戲",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-04",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://x.com/ba3hit/status/2115384628324528545",
       "title": "Worth adding: REA v6.8.0 (Oct 25) now lets agents build local environments from network captures or browser sessions, then check them agains",
       "author": "@ba3hit",
@@ -757,6 +981,42 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://www.reddit.com/r/AusPropertyChat/comments/1l7htnm/accc_probes_real_estate_giant_rea_group_over/",
+      "title": "ACCC probes real estate giant REA Group over price gouging amid soaring costs : r/AusPropertyChat",
+      "source": "Reddit r/AusPropertyChat",
+      "found": "2026-11-04",
+      "relevant": false,
+      "scored": "2026-11-04",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://www.reddit.com/r/AusPropertyChat/comments/1g9ax65/reas_would_or_has_anyone_dealt_with_an_rea_so_bad/",
+      "title": "REA's - Would or Has anyone dealt with an REA so bad it would or has stopped you from considering one of their listings?",
+      "source": "Reddit r/AusPropertyChat",
+      "found": "2026-11-04",
+      "relevant": false,
+      "scored": "2026-11-04",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/Eric_P8/status/2117644192482480291",
+      "title": "I'm not seeing any network requests, it looks like to just calls random on a forecast enum to get a case and persists to",
+      "source": "X",
+      "found": "2026-11-04",
+      "relevant": false,
+      "scored": "2026-11-04",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/wquguru/status/2117579351583830022",
+      "title": "REA 逆向飞书会议纪要，功能比原版更强大，客户端已💯开源，模型💯免费，商用魔改无限制👇 Github：https://github.com/wquguru/cicada 官网直达：https://cicada.indaloop.ap",
+      "source": "X",
+      "found": "2026-11-04",
+      "relevant": false,
+      "scored": "2026-11-04",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://github.com/jcrabapple/hermes-skills",
       "title": "jcrabapple/hermes-skills: Reusable skills and tools for Hermes Agent",
       "source": "GitHub",
@@ -801,6 +1061,23 @@
       "wow": 1,
       "scored": "2026-11-04",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://youtu.be/hO93ZV9Ge7M",
+      "title": "REA in Claude Code: A Phenomenal Breakthrough in Reverse Engineering",
+      "author": "БЕЗ ВОДЫ",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 98,
+      "lang": "en",
+      "found": "2026-11-04",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-04",
+      "scored_by": "jev"
     },
     {
       "url": "https://github.com/fmflavio/super-volleyball-pc",
@@ -44759,6 +45036,35 @@
   "runs": [
     {
       "date": "2026-11-04",
+      "added": 15,
+      "stats": {
+        "githubShowAndTell": 13,
+        "githubRepos": 241,
+        "githubCode": 48,
+        "hackerNews": 22,
+        "qiita": 48,
+        "devto": 150,
+        "juejin": 6,
+        "reddit": 20,
+        "v2ex": 14,
+        "youtube": 90,
+        "bluesky": 162,
+        "mastodon": 160,
+        "exaWeb": 59,
+        "x": 13
+      },
+      "scoring": {
+        "scored": 10,
+        "jev": {
+          "low": 1,
+          "irrelevant": 4,
+          "errors": 0,
+          "toClaude": 10
+        }
+      }
+    },
+    {
+      "date": "2026-11-04",
       "added": 40,
       "stats": {
         "githubShowAndTell": 13,
@@ -45597,36 +45903,7 @@
           "toClaude": 40
         }
       }
-    },
-    {
-      "date": "2026-10-23",
-      "added": 13,
-      "stats": {
-        "githubShowAndTell": 10,
-        "githubRepos": 231,
-        "githubCode": 42,
-        "hackerNews": 18,
-        "qiita": 43,
-        "devto": 150,
-        "juejin": 16,
-        "reddit": 60,
-        "v2ex": 10,
-        "youtube": 90,
-        "bluesky": 160,
-        "mastodon": 160,
-        "exaWeb": 57,
-        "x": 25
-      },
-      "scoring": {
-        "scored": 11,
-        "jev": {
-          "low": 2,
-          "irrelevant": 0,
-          "errors": 0,
-          "toClaude": 11
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-04T00:25:15.108Z"
+  "updatedAt": "2026-11-04T04:38:15.065Z"
 }

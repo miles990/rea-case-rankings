@@ -18013,5 +18013,125 @@
       "target": "某 iPhone 应用（未具名）",
       "metric": "猜测用户名即可获得终身授权"
     }
+  },
+  "d-508a57390a": {
+    "hash": "4494fd02e6f7",
+    "en": {
+      "title": "Reverse-Engineering Paste with REA to Rebuild an Open-Source Clipboard Tool, Pasto",
+      "summary": "Using REA, the author decompiled Paste, a macOS clipboard manager, and re-implemented its commonly used features in Swift based on the analysis, producing the free, open-source Pasto. It supports group migration, iCloud sync, OCR, MCP and more, and the reverse-engineering notes and implementation comparison are published in the public repo and the installer package. The author says interaction details and cross-app paste compatibility are still being verified.",
+      "target": "Paste (macOS clipboard manager)",
+      "metric": "9+ of 13 core features in the comparison table implemented; DMG and public source code provided"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向 Paste,重做开源剪贴板工具 Pasto",
+      "summary": "用 REA 反编译 macOS 剪贴板管理器 Paste,并根据分析结果用 Swift 重新实现常用功能,做成免费开源的 Pasto。支持分组迁移、iCloud 同步、OCR、MCP 等,并将逆向分析与实现对照记录放入公开仓库和安装包。作者自述交互细节与跨应用粘贴兼容性仍在验证中。",
+      "target": "Paste(macOS 剪贴板管理器)",
+      "metric": "功能对照表中 13 项核心功能已实现 9 项以上,并提供 DMG 与公开源代码"
+    }
+  },
+  "d-bb243b894d": {
+    "hash": "4c29f1bc078b",
+    "en": {
+      "title": "Reverse-Engineering a Defunct Budget App to Recover 11 Years of Transactions",
+      "summary": "For a budget app whose company shut down its servers in 2023, the author used Claude Code with REA to find the amounts stored as encrypted blobs in the SQLite database. After decoding 24 fields, they exported 18,406 transactions as CSV along with 1,212 photos, and a spot check of 300 records showed no discrepancies.",
+      "target": "Defunct budget/bookkeeping app (SQLite with encrypted amount fields)",
+      "metric": "Exported 18,406 transactions and 1,212 photos; 300 sampled records, 0 discrepancies"
+    },
+    "zh-CN": {
+      "title": "逆向已停运的预算 App,救回 11 年交易记录",
+      "summary": "针对一款公司已于 2023 年关闭服务器的预算 App,用 Claude Code 搭配 REA 逆向,找出 SQLite 数据库中以加密 blob 存储的金额。解出 24 个字段,将 18,406 笔交易导出为 CSV,并导出 1,212 张照片,抽查 300 笔全部无差异。",
+      "target": "已停运的预算记账 App(SQLite 加密金额字段)",
+      "metric": "导出 18,406 笔交易与 1,212 张照片,抽验 300 笔 0 差异"
+    }
+  },
+  "d-658670d625": {
+    "hash": "ebcc92295ad5",
+    "en": {
+      "title": "Clean-Room Recreation of Notion Calendar with REA: Potion Calendar",
+      "summary": "The author used REA to do a clean-room recreation of Notion Calendar. The result, Potion Calendar, has an alchemy-themed style, is built with Effect, and is published in a public GitHub repo. The excerpt is the author's own account only, with no tests or comparison evidence.",
+      "target": "Notion Calendar",
+      "metric": "Open-source Potion Calendar recreation repo published"
+    },
+    "zh-CN": {
+      "title": "用 REA 无尘室复刻 Notion Calendar,做成 Potion Calendar",
+      "summary": "作者用 REA 对 Notion Calendar 进行无尘室复刻,成品是炼金术风格的 Potion Calendar,使用 Effect 并公开了 GitHub repo。节选内容仅为作者自述,没有测试或比对证据。",
+      "target": "Notion Calendar",
+      "metric": "公开 Potion Calendar 开源复刻 repo"
+    }
+  },
+  "d-9a3b912ef1": {
+    "hash": "88b2c46c4e32",
+    "en": {
+      "title": "Analyzing Paste with REA to Independently Build Pasto, a Free Open-Source Clipboard Tool",
+      "summary": "Using REA to analyze Paste, a macOS clipboard tool, the author independently built an open-source alternative, Pasto. Features include history search, group migration, OCR, and optional iCloud Drive sync. The content is the author's own account, and the excerpt shows no tests or supporting evidence.",
+      "target": "Paste (macOS clipboard tool)",
+      "metric": "Open-source Pasto completed, with history search, group migration, OCR, and iCloud sync"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析 Paste,独立实现免费开源剪贴板工具 Pasto",
+      "summary": "用 REA 分析 macOS 剪贴板工具 Paste,独立实现开源替代品 Pasto。功能包括历史搜索、分组迁移、OCR 以及可选的 iCloud Drive 同步。内容为作者自述,节选中未见测试或证据细节。",
+      "target": "Paste(macOS 剪贴板工具)",
+      "metric": "完成开源 Pasto,支持历史搜索、分组迁移、OCR、iCloud 同步"
+    }
+  },
+  "d-d6e4e91006": {
+    "hash": "5f8ee1d2a8bc",
+    "en": {
+      "title": "Testing REA's Claims and Limits on a Real Windows 11 Machine",
+      "summary": "REA's import and parsing capabilities were verified on a real Windows 11 machine. On both a custom small Electron-style app and a Rust EXE, the results matched the ground truth, and pairing REA with Ghidra could explain stripped functions. On a large real-world application, Mark Text, the default whole-app parse timed out; narrowing the scope to main and preload finished in 75.3 seconds. Each query was also found to consume roughly 160,000 to 200,000 tokens.",
+      "target": "Custom test app, Rust EXE, Mark Text (Electron)",
+      "metric": "Custom app: 5/5 IPC channels found; Mark Text: full parse timed out at 449.5 s, narrowed scope finished in 75.3 s"
+    },
+    "zh-CN": {
+      "title": "在 Windows 11 实机上测试 REA 的主张与限制",
+      "summary": "在 Windows 11 实机上验证了 REA 的导入与解析能力:对自制的小型 Electron 风格应用和 Rust EXE,结果均与标准答案一致,配合 Ghidra 还能解释无符号函数。面对大型实际应用 Mark Text,默认的全体解析超时,将范围缩小到 main 和 preload 后,75.3 秒完成。同时发现每次提问大约消耗 16 万至 20 万 token。",
+      "target": "自制测试应用、Rust EXE、Mark Text(Electron)",
+      "metric": "自制应用 IPC 通道 5/5 全部找出;Mark Text 全体解析 449.5 秒超时,缩小范围后 75.3 秒完成"
+    }
+  },
+  "d-6053c3ceeb": {
+    "hash": "7667c3442a30",
+    "en": {
+      "title": "Modeling Tactical RMM with REA and Extending Its Go Agent and Dashboard",
+      "summary": "Used REA to reverse engineer Tactical RMM in a structured way, covering the Django API, the Vue 3 dashboard and the Go agent, with a reverse engineering report and an evidence ledger attached. Added about 18 new RPC commands spanning telemetry, EDR security auditing, network tools, auto-remediation and Winget management.",
+      "target": "Tactical RMM (remote monitoring and management platform)",
+      "metric": "18 new Go agent RPC commands, with a reverse engineering report and evidence ledger"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向建模 Tactical RMM,扩展 Go 代理与仪表板",
+      "summary": "使用 REA 对 Tactical RMM 进行结构化逆向,涵盖 Django API、Vue 3 仪表板和 Go 代理,并附有逆向工程报告与证据账本。新增约 18 个 RPC 指令,涉及遥测、EDR 安全审计、网络工具、自动修复和 Winget 管理。",
+      "target": "Tactical RMM(远程监控管理平台)",
+      "metric": "新增 18 个 Go 代理 RPC 指令,附逆向报告与证据账本"
+    }
+  },
+  "d-b301933b41": {
+    "hash": "4d390fc49501",
+    "en": {
+      "title": "Releasing the REA Launcher SDK So Anyone Can Modernize Old Games",
+      "summary": "The author first collected the old games and abandonware people most want modernized, then organized the required resources into the rea-launcher-sdk framework and published it on GitHub with an accompanying write-up. It is a set of tools and a framework for readers to work with hands-on; the post gives no concrete reverse engineering results or figures.",
+      "target": "Old games and abandonware (REA Launcher SDK)",
+      "metric": "Public rea-launcher-sdk GitHub repository and write-up"
+    },
+    "zh-CN": {
+      "title": "发布 REA Launcher SDK,让人自行现代化老游戏",
+      "summary": "作者先收集大家想要现代化的老游戏和 abandonware,再把所需资源整理成 rea-launcher-sdk 框架并公开在 GitHub,附有说明文章。内容是工具和框架,供读者自己动手,帖子中没有给出具体的逆向成果数据。",
+      "target": "老游戏与 abandonware(REA Launcher SDK)",
+      "metric": "公开 rea-launcher-sdk GitHub 仓库与说明文章"
+    }
+  },
+  "d-6d98bbc060": {
+    "hash": "ec605d6810de",
+    "en": {
+      "title": "Decompiling and Rebuilding the Indie Game Nobody with REA MCP",
+      "summary": "The author used REA MCP to decompile and rebuild the indie game Nobody; the repo is a test project. The excerpt contains only a single sentence of description, with no tests, screenshots or result details.",
+      "target": "Indie game Nobody",
+      "metric": "Public decompile-and-rebuild project ReaTestProject1"
+    },
+    "zh-CN": {
+      "title": "用 REA MCP 反编译并重构独立游戏《Nobody》",
+      "summary": "作者使用 REA MCP 反编译并重构了独立游戏《Nobody》,repo 为测试项目。节选内容只有一句描述,没有测试、截图或成果细节。",
+      "target": "独立游戏《Nobody》",
+      "metric": "公开反编译重构项目 ReaTestProject1"
+    }
   }
 }

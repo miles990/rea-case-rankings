@@ -17758,5 +17758,260 @@
       "target": "测试 App",
       "metric": "8/8 步骤确认，追踪 5 个文件"
     }
+  },
+  "d-a82ad0acfd": {
+    "hash": "18b142effdb0",
+    "en": {
+      "title": "Building a Reverse Engineering Studio by Connecting REA with 16 Repos",
+      "summary": "The author uses a single config to integrate REA and 16 other repos into one MCP session, routing tasks to tools such as Ghidra, jadx, and mitmproxy by target type. The post is a workflow overview and gives no specific analysis target or results.",
+      "target": "REA integrated with Ghidra, jadx, mitmproxy, and other tools",
+      "metric": "17 repos integrated in a single MCP session"
+    },
+    "zh-CN": {
+      "title": "用 REA 串联 16 个 repo 搭建逆向工程工作室",
+      "summary": "作者用一份配置把 REA 与另外 16 个 repo 整合成单一 MCP 会话,按目标类型分派给 Ghidra、jadx、mitmproxy 等工具。内容为工作流介绍,未提供具体分析目标或成果。",
+      "target": "REA 与 Ghidra、jadx、mitmproxy 等工具整合",
+      "metric": "17 个 repo 整合于同一 MCP 会话"
+    }
+  },
+  "d-efdb7a673c": {
+    "hash": "9904ce63dcd4",
+    "en": {
+      "title": "Tracing the Archived Maybe Finance App's UI with REA and Building a Portfolio Simulation",
+      "summary": "The author used REA to trace the screens of Maybe, an archived open-source personal finance app, built an asset management interface from them, and showed a backtest of a portfolio of 40% SPY plus five large-cap tech stocks, rebalanced monthly. The post is mostly investment performance figures; REA's actual role and the supporting evidence are unclear and rest on the author's own account.",
+      "target": "Maybe personal finance app (archived)",
+      "metric": "$100K backtest gained $16,048, beating SPY by $3,840, with 12 rebalances"
+    },
+    "zh-CN": {
+      "title": "用 REA 追踪已归档的 Maybe 理财应用界面并做出投资组合模拟",
+      "summary": "作者用 REA 追踪已归档的开源理财应用 Maybe 的界面,做成资产管理界面,并以 40% SPY 加五只大型科技股、每月再平衡的组合展示回测。内容主要是投资业绩数字,REA 的实际作用和证据不明确,仅有作者自述。",
+      "target": "Maybe 个人理财应用(已归档)",
+      "metric": "10 万美元回测盈利 16,048 美元,领先 SPY 3,840 美元,12 次再平衡"
+    }
+  },
+  "d-149f5fe1fd": {
+    "hash": "c2fab542c767",
+    "en": {
+      "title": "A Reverse Engineering Skill with Recursive Self-Learning, Inspired by REA",
+      "summary": "Inspired by REA, the author built a reverse engineering skill with recursive self-learning that keeps iterating until the task is done, and published a GitHub repo. The post offers no test results.",
+      "target": "reverse-engineer-anything self-learning loop skill",
+      "metric": "Public GitHub repo (recursive self-learning loop)"
+    },
+    "zh-CN": {
+      "title": "受 REA 启发重做具备递归自学能力的逆向 skill",
+      "summary": "作者受 REA 启发,制作了一个具备递归自学习能力的逆向工程 skill,让它持续迭代直到任务完成,并公开了 GitHub repo。帖子未提供实测成果。",
+      "target": "reverse-engineer-anything 自学循环 skill",
+      "metric": "公开 GitHub repo(递归自学循环)"
+    }
+  },
+  "d-561b3b0555": {
+    "hash": "16343af69092",
+    "en": {
+      "title": "Decompiling Apple's Weather App with REA and Opus 5.5",
+      "summary": "The author tried REA for the first time to decompile Apple's built-in Weather app. They only note that it appears to import just three libraries: Foundation, SwiftUI, and Random. No further results or evidence are given.",
+      "target": "Apple Weather app",
+      "metric": "Only 3 imported libraries observed"
+    },
+    "zh-CN": {
+      "title": "用 REA 搭配 Opus 5.5 反编译 Apple 天气应用",
+      "summary": "作者首次试用 REA,对 Apple 内置的天气应用进行反编译。仅提到它似乎只导入了 Foundation、SwiftUI 和 Random 三个库,没有更多成果或证据。",
+      "target": "Apple 天气应用",
+      "metric": "观察到仅导入 3 个库"
+    }
+  },
+  "d-6ddbb1b68c": {
+    "hash": "476f5f8bfbd1",
+    "en": {
+      "title": "Testing REA/Ghidra in a Local AI Environment on Linux and Fixing MCP Disconnections",
+      "summary": "The goal was to get a locally hosted model-driven coding agent working smoothly with REA and Ghidra. The author documented an investigation into sessions dropping because of unknown MCP progress tokens, used a temporary patch to verify that function evidence is preserved, and ran a simplified two-tool REA benchmark on four local models. The result is a set of guides, troubleshooting notes and benchmark notes, focused more on tooling and lessons learned.",
+      "target": "LM Studio, Qwen Code, REA and Ghidra workflow on Linux (AMD Strix Halo)",
+      "metric": "All four local models completed the REA benchmark; reproduced and mitigated the MCP progress-notification race condition"
+    },
+    "zh-CN": {
+      "title": "在 Linux 本地 AI 环境测试 REA/Ghidra 并修复 MCP 断线问题",
+      "summary": "目标是让由本地模型驱动的代码智能体顺畅使用 REA 与 Ghidra。做法是记录 MCP 未知进度令牌导致会话中断的排查过程,用临时补丁验证函数证据得以保留,并用四个本地模型运行简化的双工具 REA 基准测试。成果是指南、故障排除与基准测试笔记,偏向工具与经验整理。",
+      "target": "Linux(AMD Strix Halo)上的 LM Studio、Qwen Code、REA、Ghidra 工作流",
+      "metric": "四个本地模型均完成 REA 基准测试;复现并缓解了 MCP 进度通知竞态问题"
+    }
+  },
+  "d-7f3ed658ed": {
+    "hash": "b5b0ff5f7b60",
+    "en": {
+      "title": "A Sandboxed REA App for Windows with Network Isolation and Hash-Pinned Versions",
+      "summary": "The goal is to let users analyze applications with REA safely on Windows. It is packaged as a Docker container with no network, read-only mounts and restricted privileges, pins the REA version by sha256, and checks npm signatures weekly to generate an update report. The result is an installable Windows app with an automated update pipeline, though analysis is limited to .NET, Electron and manifests, with no Ghidra/IDA support yet.",
+      "target": "Secure sandbox packaging for REA (Windows / Docker)",
+      "metric": "Weekly automated npm signature verification, plus build, test and publish of the sandbox image"
+    },
+    "zh-CN": {
+      "title": "为 Windows 打造沙箱化 REA 应用,隔离网络并以哈希锁定版本",
+      "summary": "目标是让用户在 Windows 上安全地使用 REA 分析应用程序。做法是以 Docker 容器封装:无网络、只读挂载、受限权限,并以 sha256 锁定 REA 版本,每周自动检查 npm 签名并生成更新报告。成果是可安装的 Windows 应用与自动更新流程,但分析范围仅限于 .NET、Electron 与清单,尚不支持 Ghidra/IDA。",
+      "target": "REA 的安全沙箱封装(Windows/Docker)",
+      "metric": "每周自动验证 npm 签名,并构建、测试、发布沙箱镜像"
+    }
+  },
+  "d-7a03383256": {
+    "hash": "1e6566923001",
+    "en": {
+      "title": "A REA Reverse-Engineering Investigation Skill for Codex, with a Post-Upgrade Crash Walkthrough",
+      "summary": "The goal is to let Codex investigate release builds through the REA MCP when source code is unavailable. It provides a Skill and an investigation workflow that separates observed evidence, inferences and open questions, using \"old projects crash after an upgrade\" as a hypothetical example. The content is tooling and tutorial material, with no test results against a real target.",
+      "target": "REA reverse-engineering investigation Skill for Codex",
+      "metric": "Provides four investigation scenarios and one example workflow for locating a crash"
+    },
+    "zh-CN": {
+      "title": "为 Codex 制作 REA 逆向调查 Skill,附升级后崩溃的示例流程",
+      "summary": "目标是让 Codex 在没有源代码时,通过 REA MCP 调查发布版产物。做法是提供 Skill 与调查工作流程,区分已观察证据、推断与待验证问题,并以“升级后打开旧工程崩溃”为假设示例。内容属于工具与教学,没有针对真实目标的实测结果。",
+      "target": "Codex 的 REA 逆向调查 Skill",
+      "metric": "提供四类调查场景和一个崩溃定位示例流程"
+    }
+  },
+  "d-e89d75438a": {
+    "hash": "8d5b29da614f",
+    "en": {
+      "title": "A Docker Sandbox Harness for Running Local LLMs with REA",
+      "summary": "The goal is to let a local AI agent use REA in an isolated environment. The author integrates the Pi agent, REA MCP (229 tools), Chrome DevTools MCP and superpowers skills in a Docker container, connected to a local llama.cpp model on the host. It includes startup scripts, smoke tests and performance measurements across several models.",
+      "target": "Sandbox harness for local LLMs with REA",
+      "metric": "REA MCP exposes 229 tools; Qwen3.6-35B-A3B at 128k with -cmoe reaches about 54 tok/s"
+    },
+    "zh-CN": {
+      "title": "打造让本地 LLM 搭配 REA 的 Docker 沙箱 harness",
+      "summary": "目标是让本地 AI 智能体在隔离环境中使用 REA。作者在 Docker 容器中整合 Pi 智能体、REA MCP(229 个工具)、Chrome DevTools MCP 与 superpowers 技能,并连接主机上的 llama.cpp 本地模型,同时附有启动脚本、冒烟测试以及多款模型的性能实测。",
+      "target": "REA 本地 LLM 沙箱 harness",
+      "metric": "REA MCP 共 229 个工具;Qwen3.6-35B-A3B 在 128k 下使用 -cmoe 约 54 tok/s"
+    }
+  },
+  "d-c9ab7706a0": {
+    "hash": "c802e8e721ee",
+    "en": {
+      "title": "Evaluating and Verifying App Hardening Against AI Reverse Engineering with REA",
+      "summary": "The goal is to measure how exposed software is to AI-driven reverse engineering and apply defenses. The workflow captures a pre-hardening baseline, generates a plan that requires user approval, applies it to an isolated candidate build, and compares results using REA and behavioral checks. In the example, an obfuscated build of a Flutter app passed acceptance on the first try, verified with REA 6.8.0, an Android cold start, and signature validation.",
+      "target": "Hardening workflow for Flutter/JavaScript/WASM apps (including the Foodie Flutter example)",
+      "metric": "Flutter Foodie example completed a BEFORE/AFTER acceptance in one pass (REA 6.8.0 + cold start + signature validation)"
+    },
+    "zh-CN": {
+      "title": "用 REA 评估并验证应用对 AI 逆向的加固效果",
+      "summary": "目标是衡量软件暴露于 AI 逆向工程的程度并实施防御。流程为:采集加固前基线,生成需用户批准的方案,在隔离的候选版本上应用,并用 REA 与行为检查进行比对。示例中为 Flutter 应用构建了混淆版本,借助 REA 6.8.0、Android 冷启动和签名校验,一次通过验收。",
+      "target": "Flutter／JavaScript／WASM 等应用的加固流程(含 Foodie Flutter 示例)",
+      "metric": "Flutter Foodie 示例一次完成 BEFORE/AFTER 验收(REA 6.8.0＋冷启动＋签名校验)"
+    }
+  },
+  "d-e821ed0df9": {
+    "hash": "61063e2d5a8a",
+    "en": {
+      "title": "Head-to-Head Test: Recreating FocuSee Auto-Zoom with REA + Ghidra vs. Plain Claude Code",
+      "summary": "The author used REA with Ghidra to analyze FocuSee's compiled binary, and separately built an auto-zoom clone with plain Claude Code for comparison. The REA version took about 8 minutes, shipped with 7 tests, and explained how FocuSee's typing zoom behaves, but took roughly 9 minutes longer.",
+      "target": "FocuSee auto-zoom feature",
+      "metric": "REA version: 2 click zooms with the whole input box kept in frame, 7 tests, about 9 minutes longer"
+    },
+    "zh-CN": {
+      "title": "对照实测 REA 加 Ghidra 与纯 Claude Code 复刻 FocuSee 自动缩放",
+      "summary": "作者用 REA 搭配 Ghidra 解析 FocuSee 的编译程序,并与纯 Claude Code 各做了一份自动缩放功能的复制品。REA 版约 8 分钟完成、附 7 个测试,并解释了 FocuSee 打字缩放的行为,但多花约 9 分钟。",
+      "target": "FocuSee 自动缩放功能",
+      "metric": "REA 版点击缩放 2 次且整个输入框在画面内,含 7 个测试,约多花 9 分钟"
+    }
+  },
+  "d-f1ef99da8f": {
+    "hash": "0cf9c0db6068",
+    "en": {
+      "title": "REA Explained, with a Hands-On Static Analysis of a Small Electron App",
+      "summary": "The article explains what REA is for and which tools and data each type of target requires. On Linux, the author ran static analysis with rea-agents 6.7.0 on a small Electron clipboard app, identifying the functions exposed by preload, the IPC channels, and the main-process handlers, then pairing the sending and receiving sides.",
+      "target": "Small Electron clipboard app",
+      "metric": "Successfully identified preload functions, IPC channels, and main-process handlers, and paired senders with receivers"
+    },
+    "zh-CN": {
+      "title": "解说 REA 并实测静态分析小型 Electron 应用",
+      "summary": "文章说明了 REA 的用途,以及分析各类目标所需的工具与数据。作者在 Linux 上用 rea-agents 6.7.0 对一个小型 Electron 剪贴板应用做静态分析,找出 preload 暴露的函数、IPC 通道和主进程处理逻辑,并将发送端与接收端配对。",
+      "target": "小型 Electron 剪贴板应用",
+      "metric": "成功找出 preload 函数、IPC 通道与主进程处理逻辑,并配对发送端与接收端"
+    }
+  },
+  "d-1ec404cc5e": {
+    "hash": "9061bb2e76dc",
+    "en": {
+      "title": "Analyzing a Video with REA and Recreating It with HyperFrames",
+      "summary": "The author asked Claude to analyze a video through REA, then used HeyGen's hyperframes to copy, improve, and publish the video. The content is self-reported; no result links or supporting evidence are provided.",
+      "target": "A video (recreated with HyperFrames)",
+      "metric": "Analysis and recreation completed within minutes (self-reported)"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析视频并以 HyperFrames 复刻",
+      "summary": "作者让 Claude 通过 REA 分析一支视频,再用 HeyGen 的 hyperframes 复制并改进该视频后发布。内容为作者自述,未提供成果链接或对照证据。",
+      "target": "一支视频(以 HyperFrames 复刻)",
+      "metric": "数分钟内完成分析与复刻(作者自述)"
+    }
+  },
+  "d-fceccbabee": {
+    "hash": "aae46ee3b3ce",
+    "en": {
+      "title": "GameFrame: Reverse-Engineering Old Games with REA and Other Tools, Compared Item by Item Against the Original",
+      "summary": "GameFrame is a reverse-engineering framework for coding agents, built on Ghidra, Unicorn, and REA. It covers decompilation, rewriting, and comparison against the original, with tests at every step. It also provides stand-in DLLs for Glide 2, PowerVR SGL, ATI3DCIF, S3D Toolkit, and DirectDraw, and has so far been tested only with POD under Wine.",
+      "target": "Late-1990s Windows games for 3D accelerator cards (POD)",
+      "metric": "Stand-in DLLs for 5 graphics APIs, verified with POD under Wine"
+    },
+    "zh-CN": {
+      "title": "GameFrame:用 REA 等工具逆向老游戏,并与原版逐项比对",
+      "summary": "GameFrame 是面向编程 agent 的逆向框架,底层结合 Ghidra、Unicorn 与 REA,涵盖反编译、重写以及与原版的比对,每一步都有测试。它还为 Glide 2、PowerVR SGL、ATI3DCIF、S3D Toolkit 和 DirectDraw 制作了替身 DLL,目前仅在 Wine 下用《POD》测试过。",
+      "target": "90 年代末 3D 加速卡版 Windows 游戏(《POD》)",
+      "metric": "5 种图形 API 替身 DLL,在 Wine 下以《POD》验证"
+    }
+  },
+  "d-30ccef12ed": {
+    "hash": "d227b0756f8c",
+    "en": {
+      "title": "Reverse-Engineering the New Microsoft Teams Desktop Client with REA, with a Public Evidence Report",
+      "summary": "The target is the new Microsoft Teams desktop client (Maglev T2.1). The work involved read-only static analysis of the MSIX package and the bundled web app, plus passive observation of the running client. Findings: the UI is a locally bundled React app running inside WebView2, calling native modules through a custom JSON bridge, while calls go through a separate Skype-derived media stack. 5,175 client settings were exported.",
+      "target": "Microsoft Teams desktop client 26072.519.4556.7438",
+      "metric": "6,430 files and 176.4 MB of web assets; 5,175 client settings and 9 cloud settings exported"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向分析 Microsoft Teams 新版桌面端并公开证据报告",
+      "summary": "目标是新版 Microsoft Teams 桌面客户端(Maglev T2.1)。研究对 MSIX 包和打包的网页应用做只读静态分析,并被动观察运行中的客户端。发现其 UI 是运行在 WebView2 内的本地打包 React 应用,通过自定义 JSON 桥接调用原生模块,通话则走独立的 Skype 系媒体栈,并导出了 5,175 项客户端设置。",
+      "target": "Microsoft Teams 桌面客户端 26072.519.4556.7438",
+      "metric": "6,430 个文件、176.4 MB 网页资源;导出 5,175 项客户端设置、9 组云端设置"
+    }
+  },
+  "d-b2d9e2ee8a": {
+    "hash": "708dfc4577bf",
+    "en": {
+      "title": "leanrea: Replacing 207 MCP Tools with an 8KB Skill for Reverse Engineering",
+      "summary": "The developer proposes leanrea, which replaces REA's original 207 MCP tools with a single 8KB playbook Skill that lets an AI carry out reverse engineering. Compared with the original REA, processing time and API cost both drop, while the correct-answer score goes from 75/75 to 74/75.",
+      "target": "REA's MCP toolset (replaced by a Skill)",
+      "metric": "Time 627s→388s, cost $3.36→$2.17, correct 74/75"
+    },
+    "zh-CN": {
+      "title": "leanrea:用 8KB 的 Skill 取代 207 个 MCP 工具做逆向",
+      "summary": "开发者提出 leanrea,用一份 8KB 的手顺书式 Skill 取代 REA 原有的 207 个 MCP 工具,让 AI 执行逆向工程。与原版 REA 相比,处理时间和 API 费用均下降,正确率得分从 75/75 降为 74/75。",
+      "target": "REA 的 MCP 工具集(以 Skill 取代)",
+      "metric": "时间 627 秒→388 秒、费用 $3.36→$2.17、正确 74/75"
+    }
+  },
+  "d-c639837ee3": {
+    "hash": "1b3aaf02ba36",
+    "en": {
+      "title": "BLA: A CLI/MCP That Processes Build Artifacts Before Release to Hinder AI Reverse Engineering",
+      "summary": "BLA processes the build artifacts of in-house software before release, making AI-driven reverse engineering difficult. The author reports validating it against a real REA: an Electron ASAR grew from 607B to 16.9MiB, triggering a capacity error at REA's default 16MiB header limit, and Go, Erlang BEAM, JavaScript, Safetensors, GGUF, and others also produced errors or resource limits.",
+      "target": "REA's handling limits for various build artifacts (ASAR, Go, BEAM, GGUF, etc.)",
+      "metric": "ASAR 607B→16.9MiB, exceeding REA's 16MiB header limit and raising an error"
+    },
+    "zh-CN": {
+      "title": "BLA:发布前加工构建产物以阻碍 AI 逆向的 CLI/MCP",
+      "summary": "BLA 会在发布前处理自研软件的构建产物,使 AI 逆向工程难以进行。作者自述已在真实的 REA 上验证:Electron ASAR 从 607B 增至 16.9MiB,触发 REA 默认 16MiB 头部上限的容量错误,Go、Erlang BEAM、JavaScript、Safetensors、GGUF 等也出现了错误或资源限制。",
+      "target": "REA 对各类构建产物(ASAR、Go、BEAM、GGUF 等)的处理限制",
+      "metric": "ASAR 607B→16.9MiB,超过 REA 16MiB 头部上限而报错"
+    }
+  },
+  "d-cc1aaeb000": {
+    "hash": "77ab73789710",
+    "en": {
+      "title": "Analyzing an iPhone app with REA: guessing a few usernames yields a lifetime license",
+      "summary": "The author used REA to examine an iPhone app they use themselves and found that guessing just a few usernames is enough to obtain a lifetime license, concluding its security is very poor. The account is the author's own; no concrete steps or evidence are provided.",
+      "target": "An iPhone app (unnamed)",
+      "metric": "Guessing a username is enough to obtain a lifetime license"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析 iPhone 应用，猜测账号即可获得终身授权",
+      "summary": "作者用 REA 检视了一款自己在用的 iPhone 应用，发现只需猜几个用户名就能获得终身授权，认为其安全性很差。内容为作者自述，没有提供具体步骤或证据。",
+      "target": "某 iPhone 应用（未具名）",
+      "metric": "猜测用户名即可获得终身授权"
+    }
   }
 }

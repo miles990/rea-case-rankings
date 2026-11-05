@@ -2,6 +2,27 @@
   "updated": "2026-11-05",
   "items": [
     {
+      "url": "https://github.com/BrenoSGTO/getting-over-it-web-coop",
+      "title": "BrenoSGTO/getting-over-it-web-coop: Web Co-op physics game cloning Getting Over It mechanics via REA (Reverse Engineer Anything), Planck.js (Box2D) and WebRTC PeerJS",
+      "author": "BrenoSGTO",
+      "date": "2026-11-05",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-05",
+      "relevant": true,
+      "title_zh": "用 REA 反編譯 Getting Over It 物理並做成網頁多人合作複製版",
+      "summary": "目標是《Getting Over It》的 Assembly-CSharp.dll。作者用 rea inspect-managed-members 靜態檢視 CIL 指令，取出重力、游標速度濾波、關節馬達、摩擦切換與攝影機阻尼等常數與公式，再以 Planck.js、TypeScript 與 WebRTC PeerJS 實作可連線的合作版遊戲。成果為公開 repo，內含可遊玩的 P2P 合作複製版，但未見與原版逐筆對照的測試。",
+      "target": "Getting Over It with Bennett Foddy（Assembly-CSharp.dll）",
+      "metric": "還原重力 -30 等多項函式級物理常數，並做出 WebRTC P2P 合作版",
+      "category": "Native / 遊戲",
+      "status": "shipped",
+      "wow": 4,
+      "scored": "2026-11-05",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/Allknight106/REA-AND-BAMA-MCP",
       "title": "Allknight106/REA-AND-BAMA-MCP: Combine MCP for REA AN BAMA",
       "author": "Allknight106",
@@ -21,15 +42,6 @@
       "wow": 2,
       "scored": "2026-11-05",
       "scored_by": "sonnet"
-    },
-    {
-      "url": "https://github.com/prathikcannotcode/aranya",
-      "title": "prathikcannotcode/aranya: Open-source Indian environmental-law agent for the National Green Tribunal, built as Claude Co",
-      "source": "GitHub",
-      "found": "2026-11-05",
-      "relevant": false,
-      "scored": "2026-11-05",
-      "scored_by": "jev"
     },
     {
       "url": "https://github.com/gthubtom1/reverse-workflow-installer",
@@ -114,15 +126,6 @@
       "wow": 2,
       "scored": "2026-11-05",
       "scored_by": "sonnet"
-    },
-    {
-      "url": "https://github.com/JuneYaooo/rea-video",
-      "title": "REA (Reverse Engineer Anything) for Videos",
-      "source": "Hacker News",
-      "found": "2026-11-05",
-      "relevant": false,
-      "scored": "2026-11-05",
-      "scored_by": "jev"
     },
     {
       "url": "https://bsky.app/profile/oludai.bsky.social/post/3mzicl62b3l2z",
@@ -347,15 +350,6 @@
       "scored_by": "sonnet"
     },
     {
-      "url": "https://x.com/gengdaJ/status/2117899207764062606",
-      "title": "我把飞书录音豆给逆向了。新搭建了一个飞书应用“录音豆”，放在了底部的导航栏。所有UI界面、功能定制、模型消耗，全部重新自定义！你现在可以用0.15元/h的StepFun API，也可以自己接1元/h豆包实时转写API，无需加钱购买官方套餐。",
-      "source": "X",
-      "found": "2026-11-05",
-      "relevant": false,
-      "scored": "2026-11-05",
-      "scored_by": "jev"
-    },
-    {
       "url": "https://x.com/dokryptorg/status/2117914988392415394",
       "title": "made marrow: a desktop gui for rea, the reverse engineering mcp. listing, decompiler, function graph, and claude in the same session. https:",
       "author": "@dokryptorg",
@@ -519,15 +513,6 @@
       "wow": 1,
       "category": "教學",
       "status": "reported",
-      "scored": "2026-11-05",
-      "scored_by": "jev"
-    },
-    {
-      "url": "https://x.com/realdrovex/status/2117950077855465799",
-      "title": "It is becoming f*cking dangerous: Claude Code is taking apart the devices in your house someone is also logging every ca",
-      "source": "X",
-      "found": "2026-11-05",
-      "relevant": false,
       "scored": "2026-11-05",
       "scored_by": "jev"
     },
@@ -743,6 +728,22 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://www.shippingskool.com/blog/ai-reverse-engineering-apps-games-ghidra",
+      "title": "How AI Reverse Engineers Apps and Games with Ghidra and REA | Shipping Skool",
+      "author": "Beau Johnson",
+      "date": "2026-10-19",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-11-05",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "scored": "2026-11-05",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://www.reverseengineeranything.wiki/learning/reverse-engineer-anything-how-to-become-a-reverse-engineer",
       "title": "Reverse Engineer Anything: How to Become a Reverse Engineer - Reverse Engineer Anything Wiki",
       "author": "Reverse Engineer Anything Wiki Team",
@@ -799,6 +800,120 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://reamcp.dev/zh-cn/cases/rea-reverse-engineer-anything-458c04",
+      "title": "rea — REA 使用案例｜工具与集成 · REA MCP",
+      "author": "A AI 极客新闻 @ aigeeknews",
+      "date": "2026-10-12",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "zh",
+      "found": "2026-11-05",
+      "relevant": true,
+      "title_zh": "整理 REA 的使用案例頁，介紹工具能力與官方展示案例",
+      "summary": "頁面概述 REA 為開源 MCP 伺服器加 CLI，涵蓋原生二進位、Electron、.NET、APK、韌體等目標，並列出 DX-Ball、Notion、TH04 三個官方案例與安裝方式。內容是對上游專案與官方案例的整理轉述，沒有新的獨立實測。",
+      "target": "REA（morluto/rea）上游專案與官方案例",
+      "metric": "轉述 DX-Ball 重建通過 3,205 筆原始 x86 用例並重現 63 個函式位元組",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-11-05",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://quibbler.cn/post/1503",
+      "title": "REA：Agent 时代的逆向工程工具 | AI笔记本",
+      "author": "quibbler.cn",
+      "date": "2026-10-12",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "zh",
+      "found": "2026-11-05",
+      "relevant": true,
+      "title_zh": "介紹 REA 的支援目標、本地分析方式與官方三個案例",
+      "summary": "文章介紹 REA 這個 Agent 時代的逆向工具，列出原生、Go、WASM、EVM、Electron、網站、APK、韌體等目標與所需依賴，並說明分析在本機執行、結論附帶證據。文中轉述官方案例，如 DX-Ball 音效計算與 Notion 剪貼簿橋接，本身沒有作者自己的實測。",
+      "target": "REA 工具本身（轉述官方案例）",
+      "metric": "轉述官方 DX-Ball 案例：3,205 筆 x86 用例中 63 個函式位元組全數重現",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-11-05",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://aihow.tv/use-cases/recover-hidden-logic-from-a-compiled-app-with-no-source-code/",
+      "title": "没有源码，也能从编译后的 App 里还原隐藏逻辑｜REA 实战用例",
+      "author": "Rob Shocks",
+      "date": "2026-10-09",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "zh",
+      "found": "2026-11-05",
+      "relevant": true,
+      "title_zh": "用 REA 從去除符號的 Mac 應用還原隱藏解鎖碼規則",
+      "summary": "Rob Shocks 自製一個帶隱藏解鎖碼、已去掉函式名的 Mac 應用，讓編程智能體透過 REA MCP 與 Ghidra 分析二進位檔。智能體在 242 個以上無名函式中反編譯並追蹤到關鍵函式，寫出新的解鎖碼產生器，並以 AGNT-1001 成功解鎖，結果與源碼對照驗證。",
+      "target": "作者自製的 Mac 保險庫應用（已去符號）",
+      "metric": "在 242 個以上無名函式中找出規則，產生的解鎖碼 AGNT-1001 成功解鎖",
+      "category": "Native / macOS",
+      "status": "tested",
+      "wow": 3,
+      "scored": "2026-11-05",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://www.reddit.com/r/AusProperty/comments/1wt0kzm/agents_review_on_realestatecomau/",
+      "title": "AGENTS REVIEW ON REALESTATE.COM.AU : r/AusProperty",
+      "source": "Reddit r/AusProperty",
+      "found": "2026-11-05",
+      "relevant": false,
+      "scored": "2026-11-05",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://www.reddit.com/r/AusPropertyChat/comments/1kb6bds/tenant_vs_rea/",
+      "title": "Tenant vs REA : r/AusPropertyChat",
+      "source": "Reddit r/AusPropertyChat",
+      "found": "2026-11-05",
+      "relevant": false,
+      "scored": "2026-11-05",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/prathikcannotcode/aranya",
+      "title": "prathikcannotcode/aranya: Open-source Indian environmental-law agent for the National Green Tribunal, built as Claude Co",
+      "source": "GitHub",
+      "found": "2026-11-05",
+      "relevant": false,
+      "scored": "2026-11-05",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/JuneYaooo/rea-video",
+      "title": "REA (Reverse Engineer Anything) for Videos",
+      "source": "Hacker News",
+      "found": "2026-11-05",
+      "relevant": false,
+      "scored": "2026-11-05",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/gengdaJ/status/2117899207764062606",
+      "title": "我把飞书录音豆给逆向了。新搭建了一个飞书应用“录音豆”，放在了底部的导航栏。所有UI界面、功能定制、模型消耗，全部重新自定义！你现在可以用0.15元/h的StepFun API，也可以自己接1元/h豆包实时转写API，无需加钱购买官方套餐。",
+      "source": "X",
+      "found": "2026-11-05",
+      "relevant": false,
+      "scored": "2026-11-05",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/realdrovex/status/2117950077855465799",
+      "title": "It is becoming f*cking dangerous: Claude Code is taking apart the devices in your house someone is also logging every ca",
+      "source": "X",
+      "found": "2026-11-05",
+      "relevant": false,
+      "scored": "2026-11-05",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://github.com/ArfanZaky/9router_azaky",
       "title": "ArfanZaky/9router_azaky: Private fork of Wisyam/9router_wyx0 with Antigravity bulk automation",
       "source": "GitHub",
@@ -844,6 +959,56 @@
       "wow": 2,
       "scored": "2026-11-05",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://youtu.be/TyKvGAP3dYg",
+      "title": "What exactly is REA, the trending reverse engineering tool?",
+      "author": "트루스 랩 Truth Lab",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 1,
+      "lang": "en",
+      "found": "2026-11-05",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-11-05",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://youtu.be/NK90PTH1-vI",
+      "title": "REA: el MCP que le da ingeniería inversa a tu agente de IA",
+      "author": "Fazt Code",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 2674,
+      "lang": "en",
+      "found": "2026-11-05",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-05",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://hackernoon.com/lang/ja/is-software-really-dead-the-rise-of-ai-powered-reverse-engineering",
+      "title": "ソフトウェアは本当に終わっているのか？ AIを活用した逆エンジニアリングの台頭",
+      "author": "hackernoon.com",
+      "date": null,
+      "source": "Web",
+      "kind": "文章",
+      "lang": "ja",
+      "found": "2026-11-05",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-05",
+      "scored_by": "jev"
     },
     {
       "url": "https://qiita.com/shu15511551/items/1bd62fdb86fa7c2a17db",
@@ -45880,6 +46045,35 @@
   "runs": [
     {
       "date": "2026-11-05",
+      "added": 10,
+      "stats": {
+        "githubShowAndTell": 13,
+        "githubRepos": 245,
+        "githubCode": 48,
+        "hackerNews": 29,
+        "qiita": 48,
+        "devto": 150,
+        "juejin": 5,
+        "reddit": 20,
+        "v2ex": 14,
+        "youtube": 90,
+        "bluesky": 162,
+        "mastodon": 160,
+        "exaWeb": 59,
+        "x": 9
+      },
+      "scoring": {
+        "scored": 4,
+        "jev": {
+          "low": 4,
+          "irrelevant": 2,
+          "errors": 0,
+          "toClaude": 4
+        }
+      }
+    },
+    {
+      "date": "2026-11-05",
       "added": 41,
       "stats": {
         "githubShowAndTell": 13,
@@ -46718,36 +46912,7 @@
           "toClaude": 33
         }
       }
-    },
-    {
-      "date": "2026-10-24",
-      "added": 18,
-      "stats": {
-        "githubShowAndTell": 10,
-        "githubRepos": 224,
-        "githubCode": 42,
-        "hackerNews": 24,
-        "qiita": 44,
-        "devto": 150,
-        "juejin": 11,
-        "reddit": 60,
-        "v2ex": 10,
-        "youtube": 90,
-        "bluesky": 160,
-        "mastodon": 160,
-        "exaWeb": 56,
-        "x": 24
-      },
-      "scoring": {
-        "scored": 12,
-        "jev": {
-          "low": 5,
-          "irrelevant": 1,
-          "errors": 0,
-          "toClaude": 12
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-05T00:24:59.496Z"
+  "updatedAt": "2026-11-05T04:38:33.932Z"
 }

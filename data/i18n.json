@@ -18448,5 +18448,35 @@
       "target": "通用逆向工程流程（无特定目标）",
       "metric": "提出以目标哈希保存报告并归档日志以便复现的流程"
     }
+  },
+  "d-ead749edee": {
+    "hash": "8ca4bf7302f4",
+    "en": {
+      "title": "Decompiling Getting Over It's Physics with REA and Rebuilding It as a Web-Based Co-op Clone",
+      "summary": "The target is Assembly-CSharp.dll from Getting Over It. The author used rea inspect-managed-members to statically inspect CIL instructions and extract constants and formulas for gravity, cursor velocity filtering, joint motors, friction switching, and camera damping. These were then reimplemented with Planck.js, TypeScript, and WebRTC PeerJS as a networked co-op game. The result is a public repo containing a playable P2P co-op clone, though no line-by-line comparison tests against the original were found.",
+      "target": "Getting Over It with Bennett Foddy (Assembly-CSharp.dll)",
+      "metric": "Recovered function-level physics constants such as gravity -30, and built a WebRTC P2P co-op version"
+    },
+    "zh-CN": {
+      "title": "用 REA 反编译 Getting Over It 物理并做成网页多人合作复刻版",
+      "summary": "目标是《Getting Over It》的 Assembly-CSharp.dll。作者用 rea inspect-managed-members 静态查看 CIL 指令，提取出重力、光标速度滤波、关节马达、摩擦切换与摄像机阻尼等常量和公式，再用 Planck.js、TypeScript 与 WebRTC PeerJS 实现可联机的合作版游戏。成果是一个公开 repo，包含可玩的 P2P 合作复刻版，但未见与原版逐项对照的测试。",
+      "target": "Getting Over It with Bennett Foddy（Assembly-CSharp.dll）",
+      "metric": "还原重力 -30 等多项函数级物理常量，并做出 WebRTC P2P 合作版"
+    }
+  },
+  "d-99bd005042": {
+    "hash": "a2f732241b1f",
+    "en": {
+      "title": "Recovering a Hidden Unlock-Code Rule from a Symbol-Stripped Mac App with REA",
+      "summary": "Rob Shocks built a Mac app with a hidden unlock code and its function names stripped, then had a coding agent analyze the binary through REA MCP and Ghidra. Among 242+ unnamed functions, the agent decompiled and traced the key functions, wrote a new unlock-code generator, and successfully unlocked the app with AGNT-1001. The result was verified against the source code.",
+      "target": "Author-built Mac vault app (symbols stripped)",
+      "metric": "Found the rule among 242+ unnamed functions; the generated code AGNT-1001 unlocked the app"
+    },
+    "zh-CN": {
+      "title": "用 REA 从去除符号的 Mac 应用还原隐藏解锁码规则",
+      "summary": "Rob Shocks 自制了一个带隐藏解锁码、已去掉函数名的 Mac 应用，让编程智能体通过 REA MCP 与 Ghidra 分析二进制文件。智能体在 242 个以上无名函数中反编译并追踪到关键函数，写出新的解锁码生成器，并以 AGNT-1001 成功解锁，结果与源码对照验证。",
+      "target": "作者自制的 Mac 保险库应用（已去符号）",
+      "metric": "在 242 个以上无名函数中找出规则，生成的解锁码 AGNT-1001 成功解锁"
+    }
   }
 }

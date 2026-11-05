@@ -35244,15 +35244,17 @@
     },
     {
       "date": "2026-11-05",
-      "stars": 430838,
-      "stars_delta": 3116,
+      "stars": 431561,
+      "stars_delta": 3839,
       "new": [
         "d-d0aeb4edd2",
         "d-e321680ea6",
         "d-59d96100d1",
         "d-935feca6bb",
+        "d-ead749edee",
         "d-c8493551a6",
         "d-fb483fa7b4",
+        "d-99bd005042",
         "d-d8702b1435",
         "d-c2a4ba5e74",
         "d-a79bad61f4",
@@ -35270,48 +35272,48 @@
         "d-3cbd63ed38"
       ],
       "stats": {
-        "count": 21,
+        "count": 23,
         "wow": {
           "2": 15,
-          "3": 2,
-          "4": 1,
+          "3": 3,
+          "4": 2,
           "5": 3
         },
         "type": {
-          "case": 9,
+          "case": 11,
           "app": 6,
           "news": 1,
           "learn": 5
         },
         "status": {
-          "tested": 4,
-          "shipped": 7,
+          "tested": 5,
+          "shipped": 8,
           "reported": 10
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 星數破 43 萬，DX-Ball 與逆向仿製案例持續擴散",
-          "summary": "REA 的 GitHub 星數升到 430838，比前一個紀錄 427722 多了 3116。當天排名最前面的是 DX-Ball 1996 年 63 位元組函式逐位元組重現、通過 3,205 筆測試的案例，以及用 REA 逆向 Typeless 後開源出 SpeakMore。另有逆向飛書錄音豆藍牙流程的 beanscribe，和 PowerToys Color Picker 9 項發現中 8 項正確的對照驗證。這些案例顯示：有測試或對照原始碼的成果最有說服力，而僅有作者自述的案例可信度較低；同時，也出現 marrow 桌面介面和多個部署工具，顯示周邊生態在擴張。"
+          "headline": "REA 星數破 43 萬，DX-Ball 逐位元組重現成當日焦點",
+          "summary": "REA 的 GitHub 星數升至 431,561，比前一個紀錄 427,722 增加 3,839。當天最受關注的是 DX-Ball 1996 年 63 位元組函式的重現，結果與原版逐位元組一致並通過 3,205 筆測試，另有 Typeless 逆向重寫成開源版 SpeakMore、飛書錄音豆藍牙流程逆向等案例。值得注意的是，有測試或對照原始碼驗證的案例（如 PowerToys 9 項中 8 項正確、隱藏解鎖碼經源碼對照）最受重視，而許多自述型貼文缺乏證據；同時出現 marrow、多客戶端部署器等周邊工具，顯示生態持續擴張。"
         },
         "en": {
-          "headline": "REA passes 430K stars as DX-Ball and clone-by-reverse-engineering cases spread",
-          "summary": "REA's GitHub stars rose to 430,838, up 3,116 from the previous record of 427,722. The top items were the DX-Ball case, where a 1996 63-byte function was reproduced byte for byte and passed 3,205 tests, and a creator who reverse-engineered Typeless and released the open-source SpeakMore. Also notable were beanscribe, built from the Feishu recording bean's Bluetooth flow, and a PowerToys Color Picker check where 8 of 9 findings were correct against the open source. Results backed by tests or source comparison are the most convincing, while self-reported claims are weaker; meanwhile the desktop GUI marrow and several deployment tools show the surrounding ecosystem growing."
+          "headline": "REA passes 430k stars as DX-Ball byte-exact rebuild leads the day",
+          "summary": "REA's GitHub stars rose to 431,561, up 3,839 from the previous record of 427,722. The top story was the DX-Ball rebuild: a 63-byte function from 1996 matched the original byte for byte and passed 3,205 tests. Other cases include reverse-engineering Typeless into the open-source SpeakMore and the Feishu recording bean's Bluetooth flow. Cases backed by tests or source comparison (such as 8 of 9 PowerToys findings correct, and a hidden unlock-code rule checked against source) stand out, while many self-reported posts lack evidence. Companion tools like marrow and multi-client installers show the ecosystem still growing."
         },
         "zh-CN": {
-          "headline": "REA 星数破 43 万，DX-Ball 与逆向仿制案例持续扩散",
-          "summary": "REA 的 GitHub 星数升到 430838，比前一个记录 427722 多了 3116。当天排名最靠前的是 DX-Ball 1996 年 63 字节函数逐字节重现、通过 3,205 条测试的案例，以及用 REA 逆向 Typeless 后开源出 SpeakMore。另有逆向飞书录音豆蓝牙流程的 beanscribe，和 PowerToys Color Picker 9 项发现中 8 项正确的对照验证。这些案例表明：有测试或对照源码的成果最有说服力，而仅有作者自述的案例可信度较低；同时，也出现了 marrow 桌面界面和多个部署工具，显示周边生态在扩张。"
+          "headline": "REA 星数破 43 万,DX-Ball 逐字节复现成当日焦点",
+          "summary": "REA 的 GitHub 星数升至 431,561,比之前的纪录 427,722 增加 3,839。当天最受关注的是 DX-Ball 1996 年 63 字节函数的复现,结果与原版逐字节一致并通过 3,205 条测试,另有 Typeless 逆向重写为开源版 SpeakMore、飞书录音豆蓝牙流程逆向等案例。值得注意的是,有测试或对照源码验证的案例(如 PowerToys 9 项中 8 项正确、隐藏解锁码经源码对照)最受重视,而许多自述型帖子缺乏证据;同时出现 marrow、多客户端部署器等周边工具,显示生态持续扩张。"
         }
       },
       "signals": [
         "A",
         "B",
-        "D"
+        "G"
       ],
       "highlights": [
         "d-d0aeb4edd2",
-        "d-59d96100d1",
-        "d-935feca6bb"
+        "d-fb483fa7b4",
+        "d-99bd005042"
       ],
       "rank": [
         "dx-ball-sound-pan",
@@ -35465,6 +35467,7 @@
         "d-45164a9283",
         "d-831a3c86b4",
         "d-6417fa2b6c",
+        "d-ead749edee",
         "d-30ccef12ed",
         "d-029391e0a4",
         "d-9be7b965e2",
@@ -35724,6 +35727,7 @@
         "d-62e2adfb7e",
         "d-87ce73d9b4",
         "zenn-electron-known-answer",
+        "d-99bd005042",
         "d-95812085d2",
         "kingy-notes-exporter",
         "d-6053c3ceeb",
@@ -36589,6 +36593,7 @@
         "d-dfec4c6e86",
         "d-e6cd2c1866",
         "d-b0c7d4b688",
+        "d-afbc1ed456",
         "d-74d051a8ff",
         "d-c799328661",
         "d-1f1a970fbf",
@@ -37042,6 +37047,7 @@
         "d-21ff85ef83",
         "d-7ea62a94c9",
         "d-6d90768d2a",
+        "d-a1e704847c",
         "d-e431ec7062",
         "d-ad7b8650ff",
         "d-aad0fb4ed9",
@@ -37120,6 +37126,8 @@
         "d-e776c1c4c1",
         "d-2761852b3d",
         "d-2f09a54a93",
+        "d-840533a74e",
+        "d-c1adde7047",
         "d-3454ef531a",
         "d-aea5295058",
         "d-eb449ec66d",
@@ -37333,6 +37341,8 @@
         "d-6a65fa1327",
         "d-71728ca771",
         "d-4fd198eb29",
+        "d-6973a82a9a",
+        "d-2dc92095df",
         "d-a473dd5942",
         "d-cd8b793dfd",
         "d-edee6b8973",
@@ -37455,18 +37465,18 @@
     "text": {
       "zh-TW": {
         "headline": "REA 從展示走向驗證：逐位元組比對成為可信度門檻",
-        "summary": "本週星數從 408,640 升至 430,838，逆向成果從「做出新應用」（Rustify、hexgrab、SpeakMore）逐步轉為強調證據：DX-Ball 270 個函數位元組一致、Excalidraw 252/252 測試與 10 萬次模糊測試、預算 App 救回 18,406 筆交易並抽查 300 筆。驗證訊號（B）七天全數出現，且同時有對照實驗指出 REA 在小型程式或去符號 PvZ 上未必勝過一般工具，顯示社群開始誠實評分。應用範圍也從老遊戲與桌面軟體延伸到 Redmi G 硬體控制與飛書錄音豆藍牙（beanscribe），並出現 BLA、REAShield、anti-rea 等反逆向工具與 leanrea 這類降低 token 成本的做法。",
-        "watch": "留意有測試、對照原始碼或公開證據報告的案例，僅有作者自述的數據（如 leanrea 的速度與成本）應保留懷疑。可關注硬體／藍牙互通與付費軟體淨室重寫這兩類機會，以及反逆向工具對 REA 成功率的實際影響。"
+        "summary": "本週驗證訊號（B）七天全勤，是最穩定的主軸。起初多是重建與重寫的展示，如 Rustify、hexgrab 與 xRAR，並已有評測指出 REA 在小型程式上未必勝過一般 shell 工具。接著 DX-Ball 以 270 個函數位元組一致、3,205 筆輸入比對成為標竿，Excalidraw 的 252/252 測試與 10 萬次模糊測試、預算 App 救回 18,406 筆交易並抽查 300 筆，也都強調證據。應用從老遊戲延伸到 Typeless 改寫的 SpeakMore、Paste 開源版 Pasto 等商用軟體，以及 Redmi G 2021、飛書錄音豆藍牙等硬體控制；同時 BLA、REAShield、anti-rea 等反逆向工具出現，成本討論（leanrea 以 8KB Skill 取代 207 個工具、每次提問約 16 萬至 20 萬 token）也隨之升溫。星數由 408,640 增至 431,561，熱度持續。",
+        "watch": "可留意能附上測試、比對或原始碼對照的重建案例，單純自述者可信度低，這是做驗證工具或評測服務的空間。其次是反逆向加固（BLA 等）與降低 token 成本的輕量方案（leanrea），兩者都還在早期。另可觀察商用軟體的開源替代品與裝置控制工具是否持續增加，但淨室做法與授權風險需自行評估。"
       },
       "en": {
-        "headline": "REA shifts from showcasing to proving: byte-level verification is now the credibility bar",
-        "summary": "Over the week stars rose from 408,640 to 430,838, and results moved from \"building new apps\" (Rustify, hexgrab, SpeakMore) toward evidence: DX-Ball with 270 functions byte-identical, Excalidraw with 252/252 tests and 100k fuzz runs, and a defunct budget app with 18,406 transactions recovered and 300 spot-checked. The verification signal (B) appeared all seven days, alongside controlled comparisons showing REA doesn't necessarily beat ordinary tools on small programs or a stripped PvZ binary, a sign of more honest grading. Scope also widened from old games and desktop software to Redmi G hardware control and Feishu recording-bean Bluetooth (beanscribe), while anti-RE tools (BLA, REAShield, anti-rea) and token-saving efforts like leanrea emerged.",
-        "watch": "Favor cases backed by tests, reference-source comparisons or published evidence reports, and treat author-only numbers (such as leanrea's speed and cost claims) with caution. Opportunities to watch are hardware/Bluetooth interop and clean-room rewrites of paid software, plus how much anti-RE tooling actually reduces REA's success rate."
+        "headline": "REA shifts from showcase to proof: byte-exact matching becomes the credibility bar",
+        "summary": "Verification (B) appeared all seven days and was the steadiest thread of the week. It began with rebuild showcases such as Rustify, hexgrab and xRAR, alongside an evaluation noting that REA did not beat plain shell tools on small programs. DX-Ball then became the benchmark, with 270 functions byte-identical and 3,205 inputs matched, while Excalidraw (252/252 tests, 100k fuzz runs) and a defunct budget app (18,406 transactions recovered, 300 spot-checked) also stressed evidence. Scope widened from old games to commercial software like Typeless (rewritten as SpeakMore) and Paste (reborn as Pasto), and to hardware control such as the Redmi G 2021 and Feishu's Bluetooth recording device. Anti-reverse-engineering tools (BLA, REAShield, anti-rea) appeared, and cost debate grew (leanrea's 8KB Skill replacing 207 tools; roughly 160k–200k tokens per query). Stars climbed from 408,640 to 431,561.",
+        "watch": "Look for rebuilds that ship tests, diffs or source comparisons; self-reported claims carry little credibility, which leaves room for verification tooling and evaluation services. Anti-RE hardening (BLA and similar) and lightweight token-saving approaches (leanrea) are both still early. Also watch whether open-source replacements for paid software and device-control tools keep growing, while weighing clean-room practice and licensing risk yourself."
       },
       "zh-CN": {
         "headline": "REA 从展示走向验证：逐字节比对成为可信度门槛",
-        "summary": "本周星数从 408,640 升至 430,838，逆向成果从“做出新应用”（Rustify、hexgrab、SpeakMore）逐步转为强调证据：DX-Ball 270 个函数字节一致、Excalidraw 252/252 测试与 10 万次模糊测试、预算 App 救回 18,406 笔交易并抽查 300 笔。验证信号（B）七天全部出现，同时有对照实验指出 REA 在小型程序或去符号 PvZ 上未必胜过普通工具，说明社区开始诚实评分。应用范围也从老游戏和桌面软件延伸到 Redmi G 硬件控制与飞书录音豆蓝牙（beanscribe），并出现 BLA、REAShield、anti-rea 等反逆向工具，以及 leanrea 这类降低 token 成本的做法。",
-        "watch": "关注有测试、对照源码或公开证据报告的案例，仅有作者自述的数据（如 leanrea 的速度与成本）应保持怀疑。可留意硬件／蓝牙互通与付费软件净室重写这两类机会，以及反逆向工具对 REA 成功率的实际影响。"
+        "summary": "本周验证信号（B）七天全勤，是最稳定的主轴。起初多是重建与重写的展示，如 Rustify、hexgrab 与 xRAR，并已有评测指出 REA 在小型程序上未必胜过普通 shell 工具。随后 DX-Ball 以 270 个函数字节一致、3,205 组输入比对成为标杆，Excalidraw 的 252/252 测试与 10 万次模糊测试、预算 App 救回 18,406 笔交易并抽查 300 笔，也都强调证据。应用从老游戏延伸到 Typeless 改写的 SpeakMore、Paste 开源版 Pasto 等商业软件，以及 Redmi G 2021、飞书录音豆蓝牙等硬件控制；同时 BLA、REAShield、anti-rea 等反逆向工具出现，成本讨论（leanrea 以 8KB Skill 取代 207 个工具、每次提问约 16 万至 20 万 token）也随之升温。星数由 408,640 增至 431,561，热度持续。",
+        "watch": "可留意能附上测试、比对或源码对照的重建案例，纯自述者可信度低，这是做验证工具或评测服务的空间。其次是反逆向加固（BLA 等）与降低 token 成本的轻量方案（leanrea），两者都还在早期。另可观察商业软件的开源替代品与设备控制工具是否持续增加，但净室做法与授权风险需自行评估。"
       }
     },
     "rising": [
@@ -37474,17 +37484,17 @@
       "C"
     ],
     "fading": [
-      "A",
-      "E"
+      "E",
+      "D"
     ],
     "tally": {
       "A": 4,
       "B": 7,
       "C": 4,
-      "D": 2,
+      "D": 1,
       "E": 0,
       "F": 2,
-      "G": 2
+      "G": 3
     }
   }
 }

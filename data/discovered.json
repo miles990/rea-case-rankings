@@ -23,6 +23,69 @@
       "scored_by": "jev"
     },
     {
+      "url": "https://github.com/yankess233/rea-switch",
+      "title": "yankess233/rea-switch: A security-hardened local DSH composer chip that toggles REA MCP tools, masks inherited schemas, shadows prompt sections, and reports token cost.",
+      "author": "yankess233",
+      "date": "2026-11-06",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-06",
+      "relevant": true,
+      "title_zh": "開發 REA Switch 外掛，一鍵開關 REA MCP 工具並顯示 token 成本",
+      "summary": "針對 DSH 輸入框開發本機外掛，可一鍵開關 REA 的 MCP 工具面，關閉時在執行層攔截、從 agent schema 移除工具並遮蔽提示詞。晶片上會顯示被隱藏的工具數量與 token 估算，附有 37 項測試（36 通過、1 略過）。",
+      "target": "DSH 的 REA MCP 工具面",
+      "metric": "關閉後隱藏 207 個工具、約省 19.4 萬 tokens；37 項測試 36 通過",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-06",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://bsky.app/profile/everydevai.bsky.social/post/3mzma6qtkhm26",
+      "title": "Reverse engineering with AI agents often means juggling Node runtimes, a JVM for Ghidra and cloud tooling. REA (Rust) from is a local-only p",
+      "author": "everydevai.bsky.social",
+      "date": "2026-11-06",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-06",
+      "relevant": true,
+      "wow": 1,
+      "category": "工具鏈",
+      "status": "shipped",
+      "scored": "2026-11-06",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/ldysynthx/status/2118538543337463890",
+      "title": "Blew my mind! As an experiment I asked gemini argon if it could reverse engineer the chatgpt app using REA and change it to point at my loca",
+      "author": "@ldysynthx",
+      "date": "2026-11-06",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 14
+      },
+      "lang": "en",
+      "found": "2026-11-06",
+      "relevant": true,
+      "title_zh": "用 REA 逆向 ChatGPT 應用並改接本機 ML 沙盒",
+      "summary": "作者讓 Gemini 代理用 REA 逆向 ChatGPT 應用，並改成指向自己的本機 ML 沙盒。作者自述成果幾乎與原版一致且更快，但貼文沒有提供程式碼或可驗證的證據。",
+      "target": "ChatGPT 應用",
+      "metric": "作者自述產出近乎原版外觀且更快（無證據）",
+      "category": "Native",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-11-06",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/leo-snczki/claude-reverse-engineer-nix",
       "title": "leo-snczki/claude-reverse-engineer-nix: Claude Code for reverse engineering (REA, replica, reverse-api-engineer), pinned with Nix and isolated in a Docker container",
       "author": "leo-snczki",
@@ -147,15 +210,6 @@
       "wow": 2,
       "scored": "2026-11-06",
       "scored_by": "sonnet"
-    },
-    {
-      "url": "https://github.com/Omi811/autonomous-web-studio",
-      "title": "Omi811/autonomous-web-studio: Closed-Loop Autonomous Web Studio: Unified REA Developer Ecosystem & Universal SEO Agent S",
-      "source": "GitHub",
-      "found": "2026-11-06",
-      "relevant": false,
-      "scored": "2026-11-06",
-      "scored_by": "jev"
     },
     {
       "url": "https://github.com/KarlwebPhantom/i-asset-extraction-rpocket",
@@ -573,15 +627,6 @@
       "scored_by": "jev"
     },
     {
-      "url": "https://x.com/0xMovez/status/2118459260967305652",
-      "title": "this is f*cking crazy... I reverse-engineered my AirPods case into an Air mouse for my Mac with Opus 5.5. → https://podm",
-      "source": "X",
-      "found": "2026-11-06",
-      "relevant": false,
-      "scored": "2026-11-06",
-      "scored_by": "jev"
-    },
-    {
       "url": "https://x.com/wangxiaoxin88/status/2118258767695589532",
       "title": "逆向工程也能让 Agent 上手干活了——Eleven。本地代码走 Ghidra（经 REA）或 Rizin 读取，Android APK 交给 jadx 解析；GPU 核心和着色器这边，CUDA/HIP PTX 及 Metal 都覆盖。函数可重写成多种主流编程语言。",
       "author": "@wangxiaoxin88",
@@ -626,6 +671,132 @@
       "status": "reported",
       "scored": "2026-11-06",
       "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/bnk_dev/status/2118486328488911151",
+      "title": "On the one hand, it is very impressive at what it can do with just a single prompt to the terminal. I asked it to find the logic associated ",
+      "author": "@bnk_dev",
+      "date": "2026-11-05",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 3
+      },
+      "lang": "en",
+      "found": "2026-11-06",
+      "relevant": true,
+      "title_zh": "用 REA 單一提示找出小遊戲相關邏輯",
+      "summary": "作者對終端機下一個提示，要求找出特定小遊戲的邏輯，約一小時後產出幾個看起來大致正確的檔案。貼文未指明具體遊戲，也沒有驗證結果。",
+      "target": "某款遊戲的小遊戲邏輯（未指明）",
+      "metric": "約一小時產出數個看似正確的檔案",
+      "category": "Native / 遊戲",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-11-06",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/bnk_dev/status/2118486331051631030",
+      "title": "On the other hand, it was way too easy to do that. No tech this powerful should have such a low level of entry.  On a third malformed AI-gen",
+      "author": "@bnk_dev",
+      "date": "2026-11-05",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 1
+      },
+      "lang": "en",
+      "found": "2026-11-06",
+      "relevant": true,
+      "title_zh": "評論 REA 門檻過低並回報 token 消耗",
+      "summary": "作者認為如此強大的技術進入門檻太低，並提到兩個提示就消耗約 10 萬 tokens。內容屬於心得與評論，沒有具體的逆向成果。",
+      "target": "REA 工具本身（無具體目標）",
+      "metric": "兩個提示消耗約 10 萬 tokens",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-11-06",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/Jackson77li/status/2118291852961173555",
+      "title": "对啊，逆向了，用rea，做自己专属的agent",
+      "author": "@Jackson77li",
+      "date": "2026-11-05",
+      "source": "X",
+      "kind": "貼文",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 67
+      },
+      "lang": "zh",
+      "found": "2026-11-06",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-06",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/EvKaravanych/status/2118376748563701782",
+      "title": "Небольшие результаты использования REA :) есть у меня немного оптимизма конечно, что в мире где все всё могут скопировать важно понимать что",
+      "author": "@EvKaravanych",
+      "date": "2026-11-05",
+      "source": "X",
+      "kind": "貼文",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 433
+      },
+      "lang": "ru",
+      "found": "2026-11-06",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-06",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/EvKaravanych/status/2118377322193596625",
+      "title": "Данных конечно мало, но эт я пока балуюсь, на след неделе потащу всю систему что построил на проект со 100к даю, там пос",
+      "source": "X",
+      "found": "2026-11-06",
+      "relevant": false,
+      "scored": "2026-11-06",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/techdocpcu/status/2118216362388767178",
+      "title": "REA repo is amazing , I used it to make a website builder and started using the website builder to build a website.",
+      "author": "@techdocpcu",
+      "date": "2026-11-05",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 12
+      },
+      "lang": "en",
+      "found": "2026-11-06",
+      "relevant": true,
+      "title_zh": "用 REA 做出網站建置工具並拿來建站",
+      "summary": "作者表示用 REA 做了一個網站建置工具，並開始用它建立網站。內容僅是簡短自述，沒有說明逆向目標、做法或證據。",
+      "target": "網站建置工具（未說明）",
+      "metric": "作者自述已做出並使用網站建置工具",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-11-06",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://x.com/techdocpcu/status/2117883775887560786",
@@ -791,6 +962,40 @@
       "scored_by": "jev"
     },
     {
+      "url": "http://www.menglanglang.cn/?p=5770",
+      "title": "逆向工程（REA）——逆向了解世间万物 | 郎图腾",
+      "author": "menglanglang.cn",
+      "date": "2026-10-14",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "zh",
+      "found": "2026-11-06",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "tested",
+      "scored": "2026-11-06",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/Omi811/autonomous-web-studio",
+      "title": "Omi811/autonomous-web-studio: Closed-Loop Autonomous Web Studio: Unified REA Developer Ecosystem & Universal SEO Agent S",
+      "source": "GitHub",
+      "found": "2026-11-06",
+      "relevant": false,
+      "scored": "2026-11-06",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/0xMovez/status/2118459260967305652",
+      "title": "this is f*cking crazy... I reverse-engineered my AirPods case into an Air mouse for my Mac with Opus 5.5. → https://podm",
+      "source": "X",
+      "found": "2026-11-06",
+      "relevant": false,
+      "scored": "2026-11-06",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://www.reddit.com/r/AusPropertyChat/comments/1bvhcg3/what_does_the_rea_mean_comparable_property_market/",
       "title": "What does the REA mean? Comparable property market research ?? : r/AusPropertyChat",
       "source": "Reddit r/AusPropertyChat",
@@ -856,6 +1061,26 @@
       "category": "Native / 遊戲",
       "status": "reported",
       "wow": 4,
+      "scored": "2026-11-06",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://korben.info/pt-br/rea-testei-engenharia-reversa-com-agente-de-ia.html",
+      "title": "REA - Testei engenharia reversa com agente de IA",
+      "author": "korben.info",
+      "date": null,
+      "source": "Web",
+      "kind": "文章",
+      "lang": "pt",
+      "found": "2026-11-06",
+      "relevant": true,
+      "title_zh": "用 REA 搭配 Ghidra 實測 keygen、patch 等逆向任務",
+      "summary": "作者以 Claude Code、REA 6.4.0 與 Ghidra 建立測試環境，對自製的 PixelNote Pro 模擬授權程式做 keygen 與 patch 等練習。代理約 2 分鐘產出 Python keygen，在 479 組隨機名稱上全數通過驗證。",
+      "target": "自製 crackme「PixelNote Pro」（Mac ARM）",
+      "metric": "keygen 在 479 組隨機名稱上全數被接受，約 2 分鐘、API 成本 0.5 美元",
+      "category": "Native / 資安",
+      "status": "tested",
+      "wow": 3,
       "scored": "2026-11-06",
       "scored_by": "sonnet"
     },
@@ -46903,6 +47128,35 @@
   "runs": [
     {
       "date": "2026-11-06",
+      "added": 11,
+      "stats": {
+        "githubShowAndTell": 13,
+        "githubRepos": 218,
+        "githubCode": 48,
+        "hackerNews": 29,
+        "qiita": 48,
+        "devto": 150,
+        "juejin": 4,
+        "reddit": 20,
+        "v2ex": 14,
+        "youtube": 90,
+        "bluesky": 162,
+        "mastodon": 160,
+        "exaWeb": 59,
+        "x": 17
+      },
+      "scoring": {
+        "scored": 6,
+        "jev": {
+          "low": 4,
+          "irrelevant": 1,
+          "errors": 0,
+          "toClaude": 6
+        }
+      }
+    },
+    {
+      "date": "2026-11-06",
       "added": 41,
       "stats": {
         "githubShowAndTell": 13,
@@ -47741,36 +47995,7 @@
           "toClaude": 37
         }
       }
-    },
-    {
-      "date": "2026-10-25",
-      "added": 0,
-      "stats": {
-        "githubShowAndTell": "error: The operation was aborted due to timeout",
-        "githubRepos": "error: fetch failed",
-        "githubCode": 42,
-        "hackerNews": 21,
-        "qiita": 43,
-        "devto": 150,
-        "juejin": 11,
-        "reddit": 60,
-        "v2ex": 10,
-        "youtube": 90,
-        "bluesky": 159,
-        "mastodon": 160,
-        "exaWeb": 57,
-        "x": "error: spawnSync grok ETIMEDOUT"
-      },
-      "scoring": {
-        "scored": 0,
-        "jev": {
-          "low": 0,
-          "irrelevant": 0,
-          "errors": 0,
-          "toClaude": 0
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-06T00:25:30.858Z"
+  "updatedAt": "2026-11-06T04:40:50.016Z"
 }

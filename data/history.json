@@ -37450,8 +37450,8 @@
     },
     {
       "date": "2026-11-06",
-      "stars": 434300,
-      "stars_delta": 2739,
+      "stars": 435005,
+      "stars_delta": 3444,
       "new": [
         "d-c9705f9b2e",
         "d-fee523476b",
@@ -37459,6 +37459,7 @@
         "d-37b48a30da",
         "d-1c40563dc3",
         "d-485b30cc9e",
+        "d-008b374106",
         "d-5cbb2046f8",
         "d-3565b5b2a8",
         "d-50986132a2",
@@ -37469,51 +37470,54 @@
         "d-c98a892c4f",
         "d-bb57785727",
         "d-20641caf85",
+        "d-11725d5c3a",
         "d-9828abc1e0",
+        "d-1684f22656",
         "d-232f0c6510",
         "d-82eb82b954",
         "d-3a91089658",
         "d-c67335b10f",
         "d-3083addec3",
-        "d-eae3bbaf42"
+        "d-eae3bbaf42",
+        "d-ac483dc078"
       ],
       "stats": {
-        "count": 23,
+        "count": 27,
         "wow": {
-          "2": 16,
-          "3": 3,
+          "2": 19,
+          "3": 4,
           "4": 4
         },
         "type": {
-          "case": 11,
-          "app": 8,
+          "case": 14,
+          "app": 9,
           "learn": 3,
           "news": 1
         },
         "status": {
-          "tested": 1,
-          "reported": 14,
-          "shipped": 8
+          "tested": 2,
+          "reported": 16,
+          "shipped": 9
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 逆向從舊 APK 到舊遊戲，實作案例與規格重建並進",
-          "summary": "今天 REA 的 GitHub 星數來到 434,300，比前一個紀錄 431,561 多了 2,739。最受關注的是兩則實作：有人用 REA 與 JADX 逆向舊 APK，為已下架的行李箱 App 做出 iPhone 原生版；另有人用 REA 與 Ghidra 解析舊 MMO 的 game.dll，替離線同伴加上拖放背包。另一個趨勢是「先產出規格、再由全新 Claude 重建」的做法，作者自述分別還原 531 個函式中的 530 個、697 個中的 696 個，並刻意做壞實作來驗證，但這些數字都是自述。同時也出現針對 REA 的反逆向工具 Antirea，以及多個 Nix 環境與專案範本，顯示生態系持續擴張。"
+          "headline": "REA 星數破 43.5 萬，逆向案例從舊 App 到遊戲同伴齊開花",
+          "summary": "REA 的 GitHub 星數來到 435005，比前一個紀錄 431561 多了 3444。當天排名最前面的是實際成果：有人用 REA 與 JADX 逆向已下架的行李箱 APK，重做出 iPhone 原生 App；也有人用 REA 與 Ghidra 解析舊 MMO 的 game.dll，替離線同伴加上拖放背包。另一個值得注意的主題是「先寫規格、再讓全新 Claude 重建」的做法，作者自述分別還原 531 個函式中的 530 個、697 個中的 696 個，但這些數字都是作者自述，尚未獨立驗證。"
         },
         "en": {
-          "headline": "REA reverse engineering spans old APKs to legacy games, with spec-based rebuilds rising",
-          "summary": "REA's GitHub stars reached 434,300 today, up 2,739 from the previous record of 431,561. The top items are two hands-on cases: someone used REA and JADX on an old APK to build a native iPhone app for a discontinued luggage app, and another used REA with Ghidra on a legacy MMO's game.dll to add a drag-and-drop inventory for offline companions. A growing pattern is writing a spec first and having a fresh Claude session rebuild from it, with authors claiming 530 of 531 and 696 of 697 functions matched, and deliberately broken implementations used as checks; these figures are self-reported. Antirea, a tool built to defend against REA-style analysis, and several Nix setups and templates also appeared, showing the ecosystem keeps expanding."
+          "headline": "REA passes 435K stars as reverse-engineering cases span old apps to game companions",
+          "summary": "REA's GitHub stars reached 435,005, up 3,444 from the previous record of 431,561. The top-ranked items are concrete results: someone used REA and JADX on a discontinued suitcase's old APK to build a native iPhone app, and another used REA with Ghidra on an old MMO's game.dll to add a drag-and-drop inventory for offline companions. A notable theme is the 'write a spec, then have a fresh Claude rebuild it' workflow, with authors self-reporting 530 of 531 and 696 of 697 functions matching, though these figures are unverified self-reports."
         },
         "zh-CN": {
-          "headline": "REA 逆向从旧 APK 到旧游戏，实操案例与规格重建并进",
-          "summary": "今天 REA 的 GitHub 星数达到 434,300，比之前的纪录 431,561 多了 2,739。最受关注的是两则实操：有人用 REA 与 JADX 逆向旧 APK，为已下架的行李箱 App 做出 iPhone 原生版；另有人用 REA 与 Ghidra 解析旧 MMO 的 game.dll，为离线同伴加上拖放背包。另一个趋势是“先产出规格、再由全新 Claude 重建”的做法，作者自述分别还原 531 个函数中的 530 个、697 个中的 696 个，并刻意做坏实现来验证，但这些数字均为自述。同时也出现针对 REA 的反逆向工具 Antirea，以及多个 Nix 环境和项目模板，显示生态系统持续扩张。"
+          "headline": "REA 星数破 43.5 万，逆向案例从旧 App 到游戏同伴齐开花",
+          "summary": "REA 的 GitHub 星数达到 435005，比之前的纪录 431561 多了 3444。当天排名最靠前的是实际成果：有人用 REA 与 JADX 逆向已下架的行李箱 APK，重做出 iPhone 原生 App；也有人用 REA 与 Ghidra 解析旧 MMO 的 game.dll，为离线同伴加上拖放背包。另一个值得关注的主题是“先写规格、再让全新 Claude 重建”的做法，作者自述分别还原 531 个函数中的 530 个、697 个中的 696 个，但这些数字都是作者自述，尚未独立验证。"
         }
       },
       "signals": [
         "B",
         "C",
-        "G"
+        "D"
       ],
       "highlights": [
         "d-c9705f9b2e",
@@ -37906,6 +37910,7 @@
         "d-6c0afd5e75",
         "d-6840ab3975",
         "d-1584370128",
+        "d-008b374106",
         "d-c9ab7706a0",
         "d-d6e4e91006",
         "d-e821ed0df9",
@@ -38307,6 +38312,7 @@
         "d-fa40d24345",
         "d-5df65cb299",
         "d-20641caf85",
+        "d-11725d5c3a",
         "d-9828abc1e0",
         "d-d00af6736b",
         "d-bda53da224",
@@ -38379,6 +38385,7 @@
         "d-40c0474406",
         "d-49c3fe3859",
         "heartland-side-effects",
+        "d-1684f22656",
         "d-232f0c6510",
         "d-82eb82b954",
         "d-3a91089658",
@@ -38565,6 +38572,7 @@
         "d-beb2070b7b",
         "d-3083addec3",
         "d-eae3bbaf42",
+        "d-ac483dc078",
         "d-cc1aaeb000",
         "d-2b96854c66",
         "d-9bccd2be10",
@@ -38889,6 +38897,7 @@
         "d-c5a1d95239",
         "d-d9e014279e",
         "d-806965650f",
+        "d-6f2e265375",
         "d-92a0883354",
         "d-7143963d6e",
         "d-70f6debcd1",
@@ -39003,6 +39012,7 @@
         "d-f71e85fca8",
         "d-4eb3314b7f",
         "d-d6d43268cf",
+        "d-c731c8206c",
         "d-cb6f9c4b43",
         "d-004e59a738",
         "d-3dc22031b1",
@@ -39214,6 +39224,7 @@
         "d-fae9d57e5b",
         "d-aefcaff5ff",
         "d-48a8956cd7",
+        "d-d63249af6e",
         "d-1fc2231d5d",
         "d-fb827a03d4",
         "d-a5e22ec2c1",
@@ -39254,10 +39265,12 @@
         "d-9e82c1fd22",
         "d-d822cafab7",
         "d-c8a7dbc8ed",
+        "d-7ab5a74563",
         "d-cbe8f38835",
         "d-adfbebad69",
         "d-23b709a338",
         "d-b7d24e5410",
+        "d-f70f7787eb",
         "d-e2058a14b2",
         "d-611ef523b4",
         "d-9e15953208",
@@ -39369,6 +39382,7 @@
         "d-2f09a54a93",
         "d-b737368a37",
         "d-0704b8591f",
+        "d-b625bb2ec7",
         "d-840533a74e",
         "d-c1adde7047",
         "d-3454ef531a",
@@ -39707,38 +39721,36 @@
     "to": "2026-11-06",
     "text": {
       "zh-TW": {
-        "headline": "驗證成為瓶頸：從展示逆向轉向證明還原正確",
-        "summary": "本週「驗證」訊號 7 天全數出現，是最穩定的主軸：DX-Ball 以 270 個函式、3,205 筆輸入逐位元組比對一致反覆登場，Excalidraw 以測試與模糊測試驗證，預算 App 以抽查 300 筆確認資料無差異。內容重心從遊戲重建（DX-Ball、Colin McRae、Mega Drive）延伸到停運或下架軟體的搶救（預算 App、行李箱 App），也出現 Typeless、Paste 這類商業軟體被淨室重寫成開源版的案例，反映客戶端程式碼不再是護城河。11 月 5 日的簡報指出，有測試或原始碼對照的案例最受重視，自述型貼文因缺乏證據被看輕。另一條線是攻防並進：BLA、REAShield、anti-rea、Antirea 等反 AI 逆向工具接連出現，同時 leanrea 等輕量替代品針對 207 個工具造成的上下文成本做優化。週末後生態擴張（Nix 環境、專案範本、周邊工具）升溫，硬體互通與模型平台限制則較少被討論。",
-        "watch": "留意「先產出規格、再由全新模型重建」這類流程能否補上獨立驗證，因為目前 530/531、696/697 的還原率都只是自述；能提供差異測試與證據報告的工具或服務有機會。也可觀察反逆向工具與 leanrea 一類的成本優化方案是否出現第三方實測，以及遺留軟體搶救是否從遊戲進一步擴大到企業資料遷移。"
+        "headline": "REA 從展示複製轉向證明複製正確，驗證成為核心",
+        "summary": "本週「驗證是瓶頸」(B) 七天全數出現，是最穩定的主線。週初以 DX-Ball 270 個函式位元組一致、3,205 筆輸入比對為代表，並伴隨 BLA、REAShield、anti-rea 等反 AI 逆向工具。週中焦點轉到商業軟體的淨室重建（Typeless 變成 SpeakMore、Paste 變成 Pasto），「客戶端程式碼不是護城河」(A) 在 11/3 至 11/5 連續出現。11/4 的預算 App 救援（18,406 筆交易抽查 300 筆無差異）與 11/5 PowerToys、解鎖碼對照原始碼，都顯示有測試或證據的案例才被重視，自述型貼文則被扣分。週末案例延伸到下架 APK 重做 iPhone 原生 App，以及硬體與裝置控制（D，11/2 與 11/6 出現）。",
+        "watch": "留意「先寫規格、再讓全新 Claude 重建」這類自述還原率（530/531、696/697）是否有人獨立驗證，以及 leanrea 等降低 token 成本的工具有沒有第三方實測。反 REA 防護與逆向工具的攻防可能升級，適合做評測基準或差異測試工具。硬體與 BLE 裝置控制、已停運 App 的資料搶救是目前案例最具體、也最容易被驗證的切入點。"
       },
       "en": {
-        "headline": "Verification is the bottleneck: from showing reverse engineering to proving it correct",
-        "summary": "The verification signal appeared all 7 days and was the steadiest theme of the week: DX-Ball was matched byte-for-byte (270 functions, 3,205 inputs) again and again, Excalidraw was checked with tests and fuzzing, and a defunct budgeting app's data was confirmed with a 300-record spot check. The focus widened from game reconstruction (DX-Ball, Colin McRae, Mega Drive) to rescuing discontinued or delisted software (a budgeting app, a luggage app), and commercial tools such as Typeless and Paste were clean-room rewritten as open source, which shows client-side code is no longer a moat. The Nov 5 briefing noted that cases backed by tests or source comparison got the most attention, while self-reported posts without evidence were discounted. Offense and defense also advanced together: anti-AI-reversing tools (BLA, REAShield, anti-rea, Antirea) kept appearing, while lighter alternatives like leanrea targeted the context cost of REA's 207 tools. By the end of the week, ecosystem expansion (Nix environments, templates, side tools) was gaining ground, while hardware interop and platform limits were barely discussed.",
-        "watch": "Watch whether the 'spec first, then rebuild with a fresh model' workflow gets independent verification, since the 530/531 and 696/697 recovery rates are self-reported; tools or services that offer differential tests and evidence reports have room to grow. Also look for third-party benchmarks of the anti-reversing tools and cost-cutting options like leanrea, and for legacy-software rescue moving from games toward enterprise data migration."
+        "headline": "REA shifts from showing clones to proving them correct; verification is now central",
+        "summary": "Verification as the bottleneck (B) appeared all seven days and was the steadiest thread of the week. Early on, DX-Ball (270 functions byte-identical, 3,205 inputs matched) set the standard, alongside anti-AI-reverse-engineering tools such as BLA, REAShield and anti-rea. Midweek the focus moved to clean-room rebuilds of commercial software (Typeless became SpeakMore, Paste became Pasto), and 'client-side code is no moat' (A) showed up on Nov 3–5 in a row. The rescued budgeting-app data (18,406 transactions, 300 spot-checked with no differences) on Nov 4 and the PowerToys and unlock-code checks against source on Nov 5 show that cases with tests or evidence got the attention, while self-reported posts were marked down. By the end of the week cases reached a delisted APK remade as a native iPhone app and hardware/device control (D, Nov 2 and Nov 6).",
+        "watch": "Check whether anyone independently verifies the self-reported recovery rates of the 'write the spec first, then rebuild with a fresh Claude' approach (530/531, 696/697), and whether leanrea-style token-saving tools get third-party benchmarks. The back-and-forth between anti-REA protections and reverse-engineering tools may escalate, which leaves room for benchmarks or differential-testing tools. Hardware and BLE device control and data rescue from shut-down apps are the most concrete and most verifiable entry points right now."
       },
       "zh-CN": {
-        "headline": "验证成为瓶颈：从展示逆向转向证明还原正确",
-        "summary": "本周“验证”信号 7 天全部出现，是最稳定的主轴：DX-Ball 以 270 个函数、3,205 组输入逐字节比对一致反复登场，Excalidraw 以测试与模糊测试验证，预算 App 以抽查 300 条确认数据无差异。内容重心从游戏重建（DX-Ball、Colin McRae、Mega Drive）延伸到停运或下架软件的抢救（预算 App、行李箱 App），也出现 Typeless、Paste 这类商业软件被净室重写成开源版的案例，反映客户端代码不再是护城河。11 月 5 日的简报指出，有测试或源码对照的案例最受重视，自述型帖子因缺乏证据被看轻。另一条线是攻防并进：BLA、REAShield、anti-rea、Antirea 等反 AI 逆向工具接连出现，同时 leanrea 等轻量替代品针对 207 个工具造成的上下文成本做优化。临近周末生态扩张（Nix 环境、项目模板、周边工具）升温，硬件互通与模型平台限制则较少被讨论。",
-        "watch": "留意“先产出规格、再由全新模型重建”这类流程能否补上独立验证，因为目前 530/531、696/697 的还原率都只是自述；能提供差异测试与证据报告的工具或服务有机会。也可观察反逆向工具与 leanrea 一类的成本优化方案是否出现第三方实测，以及遗留软件抢救是否从游戏进一步扩大到企业数据迁移。"
+        "headline": "REA 从展示复制转向证明复制正确，验证成为核心",
+        "summary": "本周“验证是瓶颈”(B) 七天全部出现，是最稳定的主线。周初以 DX-Ball 270 个函数字节一致、3,205 条输入比对为代表，同时出现 BLA、REAShield、anti-rea 等反 AI 逆向工具。周中焦点转到商业软件的净室重建（Typeless 变成 SpeakMore、Paste 变成 Pasto），“客户端代码不是护城河”(A) 在 11/3 至 11/5 连续出现。11/4 的预算 App 救援（18,406 笔交易抽查 300 笔无差异）与 11/5 PowerToys、解锁码对照源码，都说明有测试或证据的案例才受重视，自述型帖子则被扣分。周末案例延伸到下架 APK 重做 iPhone 原生 App，以及硬件与设备控制（D，11/2 与 11/6 出现）。",
+        "watch": "留意“先写规格、再让全新 Claude 重建”这类自述还原率（530/531、696/697）是否有人独立验证，以及 leanrea 等降低 token 成本的工具有没有第三方实测。反 REA 防护与逆向工具的攻防可能升级，适合做评测基准或差异测试工具。硬件与 BLE 设备控制、已停运 App 的数据抢救，是目前案例最具体、也最容易被验证的切入点。"
       }
     },
     "rising": [
-      "B",
-      "C",
-      "G"
+      "A",
+      "D"
     ],
     "fading": [
-      "D",
       "E"
     ],
     "tally": {
       "A": 3,
       "B": 7,
       "C": 5,
-      "D": 1,
+      "D": 2,
       "E": 0,
       "F": 2,
-      "G": 3
+      "G": 2
     }
   }
 }

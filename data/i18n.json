@@ -18823,5 +18823,65 @@
       "target": "授权的净室重制工作流程",
       "metric": "含 18 个工具的本地 MCP 服务器与 Beta 发布闸门"
     }
+  },
+  "d-008b374106": {
+    "hash": "dd5befc537c5",
+    "en": {
+      "title": "Testing keygen, patching and other reverse-engineering tasks with REA and Ghidra",
+      "summary": "Using Claude Code, REA 6.4.0 and Ghidra, the author built a test environment and practiced keygen and patching on a self-made mock-licensing program, PixelNote Pro. The agent produced a Python keygen in about 2 minutes, and it passed validation on all 479 random names.",
+      "target": "Self-made crackme \"PixelNote Pro\" (Mac ARM)",
+      "metric": "Keygen accepted on all 479 random names, in about 2 minutes at an API cost of $0.5"
+    },
+    "zh-CN": {
+      "title": "用 REA 搭配 Ghidra 实测 keygen、patch 等逆向任务",
+      "summary": "作者使用 Claude Code、REA 6.4.0 和 Ghidra 搭建测试环境,对自制的 PixelNote Pro 模拟授权程序进行 keygen 与 patch 等练习。代理约 2 分钟产出 Python keygen,在 479 组随机名称上全部通过验证。",
+      "target": "自制 crackme「PixelNote Pro」(Mac ARM)",
+      "metric": "keygen 在 479 组随机名称上全部被接受,约 2 分钟、API 成本 0.5 美元"
+    }
+  },
+  "d-11725d5c3a": {
+    "hash": "c2c19a77f388",
+    "en": {
+      "title": "Reverse-engineering a ChatGPT app with REA and repointing it to a local ML sandbox",
+      "summary": "The author had a Gemini agent use REA to reverse-engineer a ChatGPT app and redirect it to their own local ML sandbox. They claim the result looks nearly identical to the original and runs faster, but the post provides no code or verifiable evidence.",
+      "target": "ChatGPT app",
+      "metric": "Author claims output nearly matches the original's look and is faster (no evidence)"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向 ChatGPT 应用并改接本地 ML 沙盒",
+      "summary": "作者让 Gemini 代理用 REA 逆向 ChatGPT 应用,并改为指向自己的本地 ML 沙盒。作者自称成果与原版几乎一致且更快,但帖子没有提供代码或可验证的证据。",
+      "target": "ChatGPT 应用",
+      "metric": "作者自称产出近乎原版外观且更快(无证据)"
+    }
+  },
+  "d-1684f22656": {
+    "hash": "ca4f5abeab4a",
+    "en": {
+      "title": "Building the REA Switch plugin: toggle REA MCP tools in one click and show token cost",
+      "summary": "A local plugin for the DSH input box that toggles REA's MCP tool surface in one click. When off, it blocks calls at the execution layer, removes the tools from the agent schema and masks them in the prompt. A chip shows the number of hidden tools and a token estimate, and the plugin ships with 37 tests (36 passed, 1 skipped).",
+      "target": "DSH's REA MCP tool surface",
+      "metric": "207 tools hidden when off, saving about 194K tokens; 36 of 37 tests passed"
+    },
+    "zh-CN": {
+      "title": "开发 REA Switch 插件,一键开关 REA MCP 工具并显示 token 成本",
+      "summary": "针对 DSH 输入框开发的本地插件,可一键开关 REA 的 MCP 工具面。关闭时在执行层拦截、从 agent schema 中移除工具并屏蔽提示词。芯片上会显示被隐藏的工具数量与 token 估算,附带 37 项测试(36 通过、1 跳过)。",
+      "target": "DSH 的 REA MCP 工具面",
+      "metric": "关闭后隐藏 207 个工具、约节省 19.4 万 tokens;37 项测试 36 通过"
+    }
+  },
+  "d-ac483dc078": {
+    "hash": "88c8253eb95f",
+    "en": {
+      "title": "Finding minigame-related logic with a single REA prompt",
+      "summary": "The author gave the terminal a single prompt asking it to find the logic of a particular minigame, and after about an hour it produced several files that look roughly correct. The post does not name the game and does not verify the results.",
+      "target": "Minigame logic of an unspecified game",
+      "metric": "Several correct-looking files produced in about an hour"
+    },
+    "zh-CN": {
+      "title": "用 REA 单一提示找出小游戏相关逻辑",
+      "summary": "作者对终端下了一个提示,要求找出特定小游戏的逻辑,约一小时后产出几个看起来大致正确的文件。帖子未指明具体游戏,也没有验证结果。",
+      "target": "某款游戏的小游戏逻辑(未指明)",
+      "metric": "约一小时产出数个看似正确的文件"
+    }
   }
 }

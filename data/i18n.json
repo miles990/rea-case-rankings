@@ -18478,5 +18478,350 @@
       "target": "作者自制的 Mac 保险库应用（已去符号）",
       "metric": "在 242 个以上无名函数中找出规则，生成的解锁码 AGNT-1001 成功解锁"
     }
+  },
+  "d-50986132a2": {
+    "hash": "5888515b1621",
+    "en": {
+      "title": "Analyzing Electron apps with REA in one command, with a case study tracing Notion's clipboard",
+      "summary": "The post shows how to run rea-agents' analyze-javascript-application via npx against an Electron app.asar. REA's case study traces the Notion clipboard flow from the window through preload and IPC to the main process.",
+      "target": "Electron apps (Notion, Discord, Figma, Obsidian)",
+      "metric": "One command to analyze app.asar; case study traces Notion clipboard preload→IPC→main process"
+    },
+    "zh-CN": {
+      "title": "介绍用一行命令通过 REA 分析 Electron 应用，案例追踪 Notion 剪贴板",
+      "summary": "帖子介绍用 npx 运行 rea-agents 的 analyze-javascript-application 来分析 Electron 的 app.asar。REA 的案例研究追踪了 Notion 剪贴板从窗口经 preload 与 IPC 到主进程的流程。",
+      "target": "Electron 应用（Notion、Discord、Figma、Obsidian）",
+      "metric": "一行命令分析 app.asar，案例追踪 Notion 剪贴板的 preload→IPC→主进程"
+    }
+  },
+  "d-eac7e36ada": {
+    "hash": "d56ca015b68e",
+    "en": {
+      "title": "Tutorial: Using REA to have an agent analyze source-less programs and export an evidence bundle",
+      "summary": "A getting-started walkthrough: run npx rea-agents setup, restart Claude Code, run rea doctor, point it at a program you are permitted to analyze and ask how a feature works, then export an evidence bundle. It is an introductory tutorial with no specific target or result.",
+      "target": "Any source-less program that may be legally analyzed",
+      "metric": "Workflow of setup → rea doctor → exporting an evidence bundle"
+    },
+    "zh-CN": {
+      "title": "教程：用 REA 让代理分析无源码程序并导出证据包",
+      "summary": "提供上手步骤：运行 npx rea-agents setup，重启 Claude Code，执行 rea doctor，指向允许分析的程序并询问导出功能如何工作，最后导出证据包。属于入门教程，没有具体分析目标或成果。",
+      "target": "任何可合法分析的无源码程序",
+      "metric": "setup → rea doctor → 导出证据包的流程"
+    }
+  },
+  "d-a36f3e20cb": {
+    "hash": "5b2a6c3e8efa",
+    "en": {
+      "title": "Introducing Eleven: letting agents do reverse engineering with Ghidra, Rizin, and jadx",
+      "summary": "Introduces a tool called Eleven. Local code is read through REA using Ghidra or Rizin, Android APKs are handed to jadx, and it also covers GPU kernels and shaders in CUDA/HIP PTX and Metal. Functions can be rewritten into several mainstream programming languages. This is a tool introduction; no actual target or result is shown.",
+      "target": "Eleven reverse engineering tool (local programs, APKs, GPU kernels)",
+      "metric": "Supports Ghidra/Rizin/jadx and CUDA, HIP PTX, Metal"
+    },
+    "zh-CN": {
+      "title": "介绍 Eleven：让代理用 Ghidra、Rizin、jadx 做逆向",
+      "summary": "介绍名为 Eleven 的工具：本地代码通过 REA 使用 Ghidra 或 Rizin 读取，Android APK 交给 jadx 解析，并涵盖 CUDA/HIP PTX 与 Metal 的 GPU 内核和着色器。函数可改写成多种主流编程语言。内容为工具介绍，未见实际目标或成果。",
+      "target": "Eleven 逆向工具（本地程序、APK、GPU 内核）",
+      "metric": "支持 Ghidra／Rizin／jadx 以及 CUDA、HIP PTX、Metal"
+    }
+  },
+  "d-072862bcff": {
+    "hash": "ed247da6fbd7",
+    "en": {
+      "title": "Building a website builder from the REA repo and using it to make a website",
+      "summary": "The author says they built a website builder using the REA repo and then used it to create a website. The post contains only a brief self-description and tags, with no further detail.",
+      "target": "Website builder",
+      "metric": "Claims to have built a website builder and completed one website"
+    },
+    "zh-CN": {
+      "title": "用 REA repo 做出网站构建器并用它创建网站",
+      "summary": "作者表示利用 REA repo 构建出网站构建器，并用它制作了一个网站。内容仅有简短自述和标签，没有更多细节。",
+      "target": "网站构建器",
+      "metric": "自述构建出网站构建器并完成一个网站"
+    }
+  },
+  "d-1c40563dc3": {
+    "hash": "254356ce2843",
+    "en": {
+      "title": "Tracing a feature with REA to produce a spec that a fresh Claude can rebuild from scratch",
+      "summary": "Use REA with Ghidra, Hopper, or IDA to trace a target feature, export the evidence into a single spec, then have a fresh Claude session rebuild it from scratch. The method deliberately breaks the implementation in three ways and requires all three tests to fail. The author reports recovering 531 functions in 9 days on one project, 530 of which matched exactly.",
+      "target": "An unnamed software feature (reverse-engineered with Ghidra/Hopper/IDA)",
+      "metric": "531 functions recovered in 9 days, 530 exact matches"
+    },
+    "zh-CN": {
+      "title": "用 REA 追踪功能并产出规格，让全新的 Claude 从零重建",
+      "summary": "用 REA 配合 Ghidra、Hopper 或 IDA 追踪目标功能，把证据导出为单一规格，再由全新的 Claude 会话从零重建。做法包括刻意以三种方式破坏实现，并要求三项测试都必须失败。作者自述某项目 9 天内还原了 531 个函数，其中 530 个完全吻合。",
+      "target": "未具名的软件功能（用 Ghidra／Hopper／IDA 逆向）",
+      "metric": "9 天还原 531 个函数，530 个完全吻合"
+    }
+  },
+  "d-485b30cc9e": {
+    "hash": "7106ed60f248",
+    "en": {
+      "title": "Using REA to produce a spec so a fresh Claude can rebuild a feature without copying code",
+      "summary": "Run npx rea-agents setup to have REA investigate a feature and write it up as a spec, then let a fresh Claude session rebuild it from the spec alone. /goal is used to test three deliberately broken implementations. The author reports recovering 697 functions in 12 days on one project, 696 of which matched exactly.",
+      "target": "An unnamed software feature",
+      "metric": "697 functions recovered in 12 days, 696 exact matches"
+    },
+    "zh-CN": {
+      "title": "用 REA 产出规格，让全新的 Claude 不抄代码重建功能",
+      "summary": "通过 npx rea-agents setup 让 REA 调查功能并写成规格，再由全新的 Claude 会话仅凭规格重建。用 /goal 测试三个刻意做坏的实现。作者自述某项目 12 天内还原了 697 个函数，其中 696 个完全吻合。",
+      "target": "未具名的软件功能",
+      "metric": "12 天还原 697 个函数，696 个完全吻合"
+    }
+  },
+  "d-5cbb2046f8": {
+    "hash": "f7716a6d5a94",
+    "en": {
+      "title": "REA case roundup: old game audio functions decompiled and rewritten in C, passing 3205 tests",
+      "summary": "A roundup of several posts: Aykut Üçeş says REA can locally analyze .NET, APK, Go/Rust binaries, and firmware, and gives an example of decompiling an old game's audio functions and rewriting them in C, with all 3205 tests passing. Also included are an OpenCode installation tutorial video and a walkthrough of analyzing a homemade .NET game DLL and producing a patched version.",
+      "target": "Old game audio functions; a .NET game DLL (RGRunner.dll)",
+      "metric": "All 3205 test cases passed"
+    },
+    "zh-CN": {
+      "title": "REA 案例汇总：旧游戏音效函数反编译重写为 C 并通过 3205 个测试",
+      "summary": "汇总多则分享：Aykut Üçeş 称 REA 可在本地分析 .NET、APK、Go/Rust 二进制文件与固件，并举例将旧游戏的音效函数反编译后用 C 重写，3205 个测试全部通过。另有 OpenCode 安装教学视频，以及分析自制 .NET 游戏 DLL 并生成补丁版本的演练。",
+      "target": "旧游戏音效函数、.NET 游戏 DLL（RGRunner.dll）",
+      "metric": "3205 个测试用例全部通过"
+    }
+  },
+  "d-3565b5b2a8": {
+    "hash": "a4ec960013a2",
+    "en": {
+      "title": "Scoped game asset extraction using REA with a coding agent",
+      "summary": "A GitHub project whose title describes scoped asset extraction from a game using REA together with a coding agent. The excerpt is empty, so there are no further details on the method or results.",
+      "target": "Game assets (the specific game is not stated)",
+      "metric": "A GitHub repo exists, but no result details"
+    },
+    "zh-CN": {
+      "title": "以 REA 驱动代码代理进行限定范围的游戏资源提取",
+      "summary": "这是一个 GitHub 项目，标题说明利用 REA 搭配代码代理，对游戏进行范围受限的资源提取。内容摘录为空，没有更多方法或成果细节。",
+      "target": "游戏资源（具体游戏未说明）",
+      "metric": "有 GitHub 仓库，但无成果细节"
+    }
+  },
+  "d-c9705f9b2e": {
+    "hash": "36e8f9b9afd9",
+    "en": {
+      "title": "Reverse-engineering an old APK with REA and JADX to rebuild a native iPhone app for a suitcase",
+      "summary": "The official app had been pulled from the store. The author found an old Android APK, had Codex reverse it with REA and JADX, and tested the Bluetooth commands against a real suitcase. The result is a native SwiftUI app with auto-connect, weighing, lock/unlock, and widgets.",
+      "target": "Android APK and Bluetooth protocol of a smart suitcase",
+      "metric": "A SwiftUI app that operates a real suitcase, built in about one hour"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 JADX 逆向旧 APK,为行李箱重做 iPhone 原生 App",
+      "summary": "原厂 App 已下架,作者找到旧版 Android APK,请 Codex 用 REA 和 JADX 逆向,并在实体行李箱上测试蓝牙指令。成果是一个 SwiftUI 原生 App,支持自动连接、称重、上锁/解锁和小组件。",
+      "target": "智能行李箱的 Android APK 与蓝牙协议",
+      "metric": "约一小时完成可操作实体行李箱的 SwiftUI App"
+    }
+  },
+  "d-fee523476b": {
+    "hash": "ff9342a3f9aa",
+    "en": {
+      "title": "Analyzing an old MMO's game.dll with REA and Ghidra to add a drag-and-drop inventory for offline companions",
+      "summary": "The author used REA with Ghidra to read the game.dll of an old MMO, then had Claude implement a drag-and-drop inventory for offline companions based on the analysis. A before-and-after YouTube video is included, and the run reportedly consumed about 50% of a 5-hour Opus quota.",
+      "target": "game.dll of an old MMO (offline companion inventory feature)",
+      "metric": "Drag-and-drop inventory added successfully, using about 50% of the 5-hour Opus quota, with a before-and-after video"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Ghidra 解析旧 MMO 的 game.dll,为离线同伴加入拖放背包",
+      "summary": "作者用 REA 搭配 Ghidra 读取旧 MMO 的 game.dll,再让 Claude 根据分析结果为离线同伴实现可拖放的背包功能。附有前后对比的 YouTube 视频,并提到消耗了约 50% 的 5 小时 Opus 用量。",
+      "target": "旧 MMO 的 game.dll(离线同伴背包功能)",
+      "metric": "成功加入拖放背包,耗用约 50% 的 5 小时 Opus 额度,附前后对比视频"
+    }
+  },
+  "d-66b780f4be": {
+    "hash": "ee1647f3917e",
+    "en": {
+      "title": "Rebuilding the Paws for Trello desktop app as a web/cloud version with REA",
+      "summary": "Using REA to analyze the app.asar of Paws for Trello 2.16.10, the author rebuilt it as a web version deployable on Vercel, adding Google Sheets/Docs and MCP integrations. The documentation lists restored modules such as 8 menu groups and 9 windows, but there is no side-by-side testing against the original.",
+      "target": "Paws for Trello 2.16.10 (Electron)",
+      "metric": "Restored 8 menu groups, 9 windows, and 21 languages; deployed on Vercel"
+    },
+    "zh-CN": {
+      "title": "用 REA 将 Paws for Trello 桌面版重建为 Web/云端版",
+      "summary": "借助 REA 分析 Paws for Trello 2.16.10 的 app.asar,重建为可部署在 Vercel 上的 Web 版本,并加入 Google Sheets/Docs 与 MCP 集成。文档列出了已还原的 8 组菜单和 9 个窗口等模块,但没有与原版的对照测试。",
+      "target": "Paws for Trello 2.16.10(Electron)",
+      "metric": "还原 8 组菜单、9 个窗口和 21 种语言,并已部署到 Vercel"
+    }
+  },
+  "d-37b48a30da": {
+    "hash": "85f8c818d182",
+    "en": {
+      "title": "Game mods and interoperability: several game rebuild and porting projects aided by REA",
+      "summary": "A roundup of several cases: a clean-room C++20 remake of Battlefield 2's Refractor 2 engine, a recompilation of Spore from x86/D3D9 to ARM64 and Metal, a Rust/Bevy port of GunZ, co-op networking added to single-player games (Deus Ex, Dungeon Keeper, and Stalker SOC completed), and a Linux utility for Acer's DTS:X audio. Most entries are project introductions, and much of the evidence in the excerpts is self-reported by the authors.",
+      "target": "Battlefield 2 engine, Spore, GunZ, Deus Ex and other games, plus the Acer audio engine",
+      "metric": "Online co-op play completed in Deus Ex, Dungeon Keeper, and Stalker SOC"
+    },
+    "zh-CN": {
+      "title": "游戏 Mod 与互操作性类别:多个借助 REA 的游戏重建与移植项目",
+      "summary": "汇总多个案例:以 C++20 净室重制战地风云 2 的 Refractor 2 引擎、将孢子从 x86/D3D9 重编译为 ARM64 与 Metal、GunZ 的 Rust/Bevy 移植、为单机游戏加入合作联机(Deus Ex、Dungeon Keeper、Stalker SOC 已完成),以及 Linux 版 Acer DTS:X 音效工具。多数为项目介绍,节选中的证据大多为作者自述。",
+      "target": "战地风云 2 引擎、孢子、GunZ、Deus Ex 等游戏与 Acer 音效引擎",
+      "metric": "在 Deus Ex、Dungeon Keeper、Stalker SOC 中完成在线合作游玩"
+    }
+  },
+  "d-87c96d5da6": {
+    "hash": "27050a6b3883",
+    "en": {
+      "title": "How REA works, plus the WordCraft case of rewriting a Word-like app in Rust",
+      "summary": "Explains how to hook REA into Claude Code, Codex and Cursor with npx rea-agents setup, and outlines the approach: rank errors by call count, take apart one function at a time, and rebuild in a clean-room fashion. It cites the WordCraft case, a from-scratch Rust rewrite of a Word-like word processor. The piece is a secondhand overview and offers no hands-on evidence of its own.",
+      "target": "Word-like word processor (WordCraft case)",
+      "metric": "WordCraft rewritten in Rust, about 17k GitHub stars (as relayed by the author)"
+    },
+    "zh-CN": {
+      "title": "说明 REA 的实现方式与 WordCraft 用 Rust 重写类 Word 软件案例",
+      "summary": "介绍如何通过 npx rea-agents setup 接入 Claude Code、Codex、Cursor,并说明做法:按调用次数对错误排序、一次只拆解一个函数、以洁净室方式重做。文中引用了 WordCraft 用 Rust 从零重写类 Word 文字处理软件的案例。内容为转述介绍,未提供作者自己的实测证据。",
+      "target": "类 Word 文字处理软件(WordCraft 案例)",
+      "metric": "WordCraft 以 Rust 重写,GitHub 约 1.7 万星(作者转述)"
+    }
+  },
+  "d-c98a892c4f": {
+    "hash": "b91e38895d4a",
+    "en": {
+      "title": "Building an anti-reverse-engineering toolkit that resists CDP/REA analysis",
+      "summary": "Antirea is an anti-reverse-engineering and anti-copying toolkit. It detects CDP/DevTools analysis tools, REA included, serves them decoy content, and moves core logic to run server-side. The project has multiple packages, a control panel, screenshots and CI, but it doesn't use REA for reverse engineering; it defends against it.",
+      "target": "Anti-reverse-engineering protection for websites/SaaS",
+      "metric": "Control panel in 9 languages and several protection packages (secure-fn, honeypot, guard, etc.)"
+    },
+    "zh-CN": {
+      "title": "打造抵御 CDP/REA 分析的反逆向防护工具集",
+      "summary": "Antirea 是一套防逆向与防复制工具集,可检测包括 REA 在内的 CDP/DevTools 分析工具,向其提供诱饵内容,并将核心逻辑迁移到服务器端执行。项目包含多个软件包、控制面板、截图与 CI,但并未使用 REA 做逆向,而是针对它做防御。",
+      "target": "网站/SaaS 的反逆向防护",
+      "metric": "提供 9 种语言的控制面板与多个防护包(secure-fn、honeypot、guard 等)"
+    }
+  },
+  "d-bb57785727": {
+    "hash": "986746fbc54a",
+    "en": {
+      "title": "Introducing REA: letting an agent read disassembly to trace an Electron clipboard flow",
+      "summary": "Describes how REA hands a disassembler to an agent. Asked how an app's clipboard works, the agent walks through the renderer API, preload, IPC and main process in turn, returning pseudocode, assembly, strings and exact file offsets. It also lists supported formats, such as PE/ELF/Mach-O, GGUF, IL2CPP, Godot PCK, WASM, .NET CIL, adb and HAR. The content is feature-oriented, with no specific target or verification.",
+      "target": "Clipboard feature of an Electron app (unnamed)",
+      "metric": "Returns pseudocode, assembly, strings and exact file offsets"
+    },
+    "zh-CN": {
+      "title": "介绍 REA 让代理读取反汇编结果,追踪 Electron 剪贴板流程",
+      "summary": "说明 REA 将反汇编器交给代理,当询问应用的剪贴板如何运作时,代理会依次走过 renderer API、preload、IPC、主进程,并返回伪代码、汇编、字符串与确切的文件偏移。同时列出所支持的格式,如 PE/ELF/Mach-O、GGUF、IL2CPP、Godot PCK、WASM、.NET CIL、adb、HAR。内容偏功能介绍,没有具体目标与验证。",
+      "target": "Electron 应用的剪贴板功能(未具名)",
+      "metric": "返回伪代码、汇编、字符串与确切的文件偏移"
+    }
+  },
+  "d-20641caf85": {
+    "hash": "ededdfc63095",
+    "en": {
+      "title": "Building a GrapesJS website builder with REA and Codex, then making a site with it",
+      "summary": "The author used REA and Codex to build a website builder around GrapesJS, then used it to make a website. A full experiment video was recorded, covering five versions and the finished result.",
+      "target": "GrapesJS website builder",
+      "metric": "Full experiment video covering five versions and the final product"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Codex 打造 GrapesJS 网站构建器并制作网站",
+      "summary": "作者借助 REA 和 Codex 围绕 GrapesJS 搭建了一个网站构建器,再用它做出一个网站。录制了包含五个版本及最终成品的完整实验视频。",
+      "target": "GrapesJS 网站构建器",
+      "metric": "录制了五个版本与最终成品的完整实验视频"
+    }
+  },
+  "d-c67335b10f": {
+    "hash": "d988105afa34",
+    "en": {
+      "title": "PAWA: A Four-Layer Autonomous Behavior Brain for Single-Player Game Protagonists, Built on the REA Protocol",
+      "summary": "The goal is to have an AI agent use REA to locate a game's perception, input, camera, and event seams, then attach a four-layer cognitive architecture (GOAP + utility AI + situational steering) so the protagonist fights on its own. The material consists of an open-source SDK, a whitepaper, and a skill protocol; the excerpt shows no tested results on any specific game.",
+      "target": "Autonomous combat for single-player game protagonists (e.g., Assassin's Creed Odyssey)",
+      "metric": "Provides a shared brain SDK across TS/C#/C++20/Lua, plus a whitepaper"
+    },
+    "zh-CN": {
+      "title": "PAWA：为单机游戏主角设计的四层自主行为大脑与 REA 协议",
+      "summary": "目标是让 AI 代理通过 REA 找出游戏的感知、输入、镜头与事件接缝，再接入四层认知架构（GOAP＋效用 AI＋情境转向），让主角自动战斗。内容为开源 SDK、白皮书与技能协议，节选中未见针对特定游戏的实测成果。",
+      "target": "单机游戏（如刺客信条：奥德赛）主角自主战斗",
+      "metric": "提供 TS/C#/C++20/Lua 多语言共用大脑 SDK 与白皮书"
+    }
+  },
+  "d-3083addec3": {
+    "hash": "826f6754fbbf",
+    "en": {
+      "title": "REA Getting Started: Install, Connect Claude Code or Codex, and Run Your First Analysis",
+      "summary": "This tutorial page explains how to install REA, connect it to Claude Code or Codex, choose a native backend, and run a first analysis on an Electron app or your own binary. It is introductory guidance with no concrete reverse-engineering results.",
+      "target": "Getting started with REA (Electron apps or your own binaries)",
+      "metric": "Provides a complete onboarding flow from installation to first analysis"
+    },
+    "zh-CN": {
+      "title": "REA 入门教程：安装、连接 Claude Code 或 Codex 并完成首次分析",
+      "summary": "教程页面说明如何安装 REA、连接 Claude Code 或 Codex、选择原生后端，并对 Electron 应用或自己的二进制文件进行首次分析。属于入门指引，没有具体的逆向成果。",
+      "target": "REA 工具入门（Electron 应用或自有二进制文件）",
+      "metric": "提供从安装到首次分析的完整入门流程"
+    }
+  },
+  "d-eae3bbaf42": {
+    "hash": "f9a24f624aa3",
+    "en": {
+      "title": "Using REA to Find Mini-Game Logic: A Few Matching Files in About an Hour",
+      "summary": "With two prompts, the author asked REA to locate the logic of a particular mini-game and, after about an hour, got a few files that look roughly correct. The run consumed around 100k tokens, and no verification evidence is provided.",
+      "target": "Mini-game logic from a certain game",
+      "metric": "Two prompts, about 1 hour, about 100k tokens; produced a few files that look correct"
+    },
+    "zh-CN": {
+      "title": "用 REA 找出小游戏相关逻辑，约一小时产出几个相符的文件",
+      "summary": "作者通过两次提示请 REA 找出特定小游戏的逻辑，约一小时后得到几个看起来大致正确的文件。过程消耗约 10 万 token，未提供验证证据。",
+      "target": "某游戏的小游戏逻辑",
+      "metric": "两次提示、约 1 小时、约 10 万 token，产出几个看起来正确的文件"
+    }
+  },
+  "d-9828abc1e0": {
+    "hash": "7234990a7400",
+    "en": {
+      "title": "Analyzing a pure-binary Delphi VCL program with GLM on a machine with REA installed",
+      "summary": "The author had a GLM model analyze a pure-binary Delphi VCL program on a machine with REA installed. The model needed some nudging before it agreed to reverse it; no concrete results are reported.",
+      "target": "Pure-binary Delphi VCL program",
+      "metric": "Target confirmed as Delphi VCL; the model needed prompting before it would reverse it"
+    },
+    "zh-CN": {
+      "title": "在安装了 REA 的电脑上用 GLM 分析 Delphi VCL 纯二进制文件",
+      "summary": "作者在安装了 REA 的电脑上，让 GLM 模型分析一个 Delphi VCL 纯二进制程序。需要稍加引导，模型才肯进行逆向，文中未说明具体成果。",
+      "target": "Delphi VCL 纯二进制程序",
+      "metric": "确认目标为 Delphi VCL，需引导模型才愿进行逆向"
+    }
+  },
+  "d-232f0c6510": {
+    "hash": "3f07e3302c6a",
+    "en": {
+      "title": "Packaging and isolating a Claude Code reverse-engineering environment with REA using Nix",
+      "summary": "Uses Nix to pin versions and bundle Claude Code, the REA skill and MCP, replica, reverse-api-engineer, and tools such as rizin and Frida, with optional isolated execution in a Docker container. The docs say multi-platform binaries can be analyzed, but only Linux x86_64 is marked as tested.",
+      "target": "Claude Code reverse-engineering environment",
+      "metric": "Only Linux x86_64 marked as tested; integrates 3 skill sets including REA plus multiple reversing tools"
+    },
+    "zh-CN": {
+      "title": "用 Nix 封装并隔离含 REA 的 Claude Code 逆向环境",
+      "summary": "通过 Nix 固定版本，将 Claude Code、REA 技能与 MCP、replica、reverse-api-engineer 以及 rizin、Frida 等工具打包，并可在 Docker 容器中隔离运行。文档称可分析多平台二进制文件，但仅 Linux x86_64 标注为已测试。",
+      "target": "Claude Code 逆向工程环境",
+      "metric": "Linux x86_64 标注已测试；集成 REA 等 3 组技能与多种逆向工具"
+    }
+  },
+  "d-82eb82b954": {
+    "hash": "b828e5e035c9",
+    "en": {
+      "title": "A project template with REA skills and MCP",
+      "summary": "A template repo that loads the REA reverse-engineering skills through a Nix devShell and configures the rea MCP server in .mcp.json. It aims to help people get started with REA quickly; it contains no target-specific analysis results.",
+      "target": "REA skill and MCP development environment",
+      "metric": "Nix pins the REA version, with MCP pre-configured to enable without prompts"
+    },
+    "zh-CN": {
+      "title": "提供含 REA 技能与 MCP 的项目模板",
+      "summary": "这是一个模板 repo，通过 Nix devShell 加载 REA 逆向技能，并在 .mcp.json 中配置 rea MCP 服务器。目的是让人快速上手 REA，没有针对具体目标的分析成果。",
+      "target": "REA 技能与 MCP 开发环境",
+      "metric": "Nix 固定 REA 版本，并预先配置 MCP 免提示启用"
+    }
+  },
+  "d-3a91089658": {
+    "hash": "65506e93351a",
+    "en": {
+      "title": "An authorized clean-room rebuild workflow integrating Ghidra, REA, and other tools",
+      "summary": "A Codex plugin and installer for Windows that orchestrates Ghidra, ReVa, REA, and LLM4Decompile for clean-room reimplementation. It provides an 18-tool MCP server, a live status interface, and a release gate, but shows no rebuild results for a specific target.",
+      "target": "Authorized clean-room reimplementation workflow",
+      "metric": "Local MCP server with 18 tools and a Beta release gate"
+    },
+    "zh-CN": {
+      "title": "整合 Ghidra、REA 等工具的授权净室重建流程",
+      "summary": "Windows 上的 Codex 插件与安装器，协调 Ghidra、ReVa、REA 与 LLM4Decompile 进行净室重制。提供含 18 个工具的 MCP 服务器、实时状态界面与发布闸门，但没有展示具体目标的重建成果。",
+      "target": "授权的净室重制工作流程",
+      "metric": "含 18 个工具的本地 MCP 服务器与 Beta 发布闸门"
+    }
   }
 }

@@ -18883,5 +18883,215 @@
       "target": "某款游戏的小游戏逻辑(未指明)",
       "metric": "约一小时产出数个看似正确的文件"
     }
+  },
+  "d-044e18626c": {
+    "hash": "f302a23d8446",
+    "en": {
+      "title": "REA case roundup: old game's sound functions decompiled, all 3205 tests pass",
+      "summary": "This page collects REA use cases and relays a Threads post: a legacy game's sound functions were decompiled and rewritten back into C, with all 3205 tests passing. It also lists a tutorial on using OpenCode with REA to analyze your own .NET game DLL and test the patched result. Mostly secondhand, with limited detail.",
+      "target": "Legacy game sound functions, .NET game DLL (RGRunner.dll)",
+      "metric": "All 3205 test cases pass"
+    },
+    "zh-CN": {
+      "title": "REA 案例收录页:旧游戏声音函数反编译并通过 3205 个测试",
+      "summary": "页面汇总 REA 使用案例,转述 Threads 上的分享:旧游戏的声音函数被反编译并重写回 C,3205 个测试全部通过。另列出用 OpenCode 加 REA 分析自己的 .NET 游戏 DLL 并测试补丁结果的教程。多为转述,细节有限。",
+      "target": "旧游戏声音函数、.NET 游戏 DLL(RGRunner.dll)",
+      "metric": "3205 个测试用例全部通过"
+    }
+  },
+  "d-155d93d14d": {
+    "hash": "3d8781496236",
+    "en": {
+      "title": "REA fork turned into a semantic reverse-engineering framework for Windows PE/DLL",
+      "summary": "A fork of REA that adds continuous semantic deobfuscation, cross-architecture function matching, goal-directed patching, and auditing of embedded neural-network weights. The excerpt contains only feature claims and CI badges, with no measured data or results to back them up.",
+      "target": "Windows PE/DLL executables",
+      "metric": "Claims cross-architecture function matching with cosine similarity above 90% (no measured evidence in the excerpt)"
+    },
+    "zh-CN": {
+      "title": "分支 REA 为专攻 Windows PE/DLL 的语义逆向框架",
+      "summary": "将 REA 分支并加入连续语义去混淆、跨架构函数比对、面向目标的补丁以及内嵌神经网络权重审计等功能。节选中只有功能宣称和 CI 徽章,未提供实测数据或成果证据。",
+      "target": "Windows PE/DLL 可执行文件",
+      "metric": "宣称跨架构函数比对余弦相似度超过 90%(节选中无实测佐证)"
+    }
+  },
+  "d-c399769ae1": {
+    "hash": "2a0e10f02322",
+    "en": {
+      "title": "Linux launcher for Colin McRae 2005, fixing crashes and the GOG install",
+      "summary": "The author published rea-colin-mcrae-2005 on GitHub, a launcher for the game. It fixes crashes on Linux and the GOG version's failure to install on Linux.",
+      "target": "Colin McRae 2005 (game)",
+      "metric": "Public GitHub launcher repo; fixes Linux crashes and GOG install issues"
+    },
+    "zh-CN": {
+      "title": "为 Colin McRae 2005 制作 Linux 启动器，修复崩溃与 GOG 安装问题",
+      "summary": "作者在 GitHub 上发布了 rea-colin-mcrae-2005 项目，这是该游戏的启动器。它修复了 Linux 上的崩溃，以及 GOG 版在 Linux 上无法安装的问题。",
+      "target": "Colin McRae 2005（游戏）",
+      "metric": "公开 GitHub 启动器仓库，修复 Linux 崩溃与 GOG 安装问题"
+    }
+  },
+  "d-53e561e613": {
+    "hash": "23cb0a5bff51",
+    "en": {
+      "title": "A launcher for DiRT Rally (2015) finally makes it playable on Linux",
+      "summary": "The author published rea-dirt-rally on GitHub, targeting DiRT Rally 2015, which had never run on Linux (and also had problems on Windows). The author says it is now playable.",
+      "target": "DiRT Rally (2015) (game)",
+      "metric": "Public GitHub launcher repo; a game that previously wouldn't run on Linux is now playable"
+    },
+    "zh-CN": {
+      "title": "为 DiRT Rally (2015) 制作启动器，让 Linux 上终于能玩",
+      "summary": "作者在 GitHub 上发布了 rea-dirt-rally 项目，针对此前在 Linux 上始终无法运行（Windows 上也有问题）的 DiRT Rally 2015。作者表示现在已经可以游玩。",
+      "target": "DiRT Rally (2015)（游戏）",
+      "metric": "公开 GitHub 启动器仓库，原本无法在 Linux 运行的游戏现可游玩"
+    }
+  },
+  "d-9d74002386": {
+    "hash": "a9cd483ee244",
+    "en": {
+      "title": "Launcher for Colin McRae Rally 3 with a cinematic visual preset",
+      "summary": "The author published rea-colin-mcrae-3 on GitHub, solving the game's difficult installation. For its long-standing gamma misconfiguration that leaves the image washed out, it provides a more cinematic color preset.",
+      "target": "Colin McRae Rally 3 (game)",
+      "metric": "Public GitHub launcher repo with gamma/color presets"
+    },
+    "zh-CN": {
+      "title": "为 Colin McRae Rally 3 制作启动器并加入电影感画面预设",
+      "summary": "作者在 GitHub 上发布了 rea-colin-mcrae-3 项目，解决了该游戏难以安装的问题。针对长期伽马失调导致画面发白的情况，提供了更具电影感的色彩预设。",
+      "target": "Colin McRae Rally 3（游戏）",
+      "metric": "公开 GitHub 启动器仓库，附带伽马/色彩预设"
+    }
+  },
+  "d-545594b076": {
+    "hash": "23abf268260e",
+    "en": {
+      "title": "Grok bot reverse-engineers an Electron app and finds where exported notes are saved in 20 minutes",
+      "summary": "With just two messages, the author asked a Grok bot to reverse-engineer an app through REA (which provides 234 tools), asking what happens when you click \"Export notes\". After about 20 minutes it traced an 8-step call chain and confirmed every step, without ever running the app, pinpointing lines 9-10 of main.js.",
+      "target": "Export feature of an Electron notes app",
+      "metric": "8-step call chain, 8/8 confirmed; located at main.js lines 9-10; app never executed"
+    },
+    "zh-CN": {
+      "title": "让 Grok 机器人逆向 Electron 应用，20 分钟内追出导出笔记的文件保存位置",
+      "summary": "作者仅用两条消息，请 Grok 机器人通过 REA（提供 234 个工具）逆向一个应用，询问点击“Export notes”会发生什么。约 20 分钟后，它追出 8 步调用链并全部确认，全程未运行该应用，定位到 main.js 第 9-10 行。",
+      "target": "Electron 笔记应用的导出功能",
+      "metric": "8 步调用链 8/8 确认，定位到 main.js 第 9-10 行，且从未运行该应用"
+    }
+  },
+  "d-7cd5f87cd3": {
+    "hash": "bdd374bfaf5e",
+    "en": {
+      "title": "Using REA to scout game binaries and build an auto-combat agent for single-player games",
+      "summary": "Provides an agent skill for use with REA and a multi-language decision-brain SDK that lets AI take over character combat in single-player games. The repo includes per-game target reports, such as Ghost Recon Breakpoint (halted due to anti-cheat) and Assassin's Creed Odyssey (external approach only).",
+      "target": "Single-player games (including Ghost Recon Breakpoint, AC Odyssey)",
+      "metric": "Includes multi-language SDKs, a whitepaper, and two game target reports"
+    },
+    "zh-CN": {
+      "title": "用 REA 侦察游戏二进制并打造单机游戏自动战斗代理",
+      "summary": "提供搭配 REA 的 agent skill 与多语言决策大脑 SDK,让角色在单机游戏战斗时由 AI 接手。仓库内含针对特定游戏的目标报告,如《Ghost Recon Breakpoint》因反作弊而中止、《刺客信条 奥德赛》仅限外部方案。",
+      "target": "单机游戏(含 Ghost Recon Breakpoint、AC Odyssey)",
+      "metric": "含多语言 SDK、白皮书与两份游戏目标报告"
+    }
+  },
+  "d-f946e2d686": {
+    "hash": "f1319681d6ca",
+    "en": {
+      "title": "Using REA to connect the ChatGPT iOS app to a mock server backed by a self-hosted model",
+      "summary": "The author says they used REA and Gemini to get the ChatGPT iOS app to connect to a mock codex server running a Qwen model, without modifying the iOS device. It is a single post with no code, screenshots, or steps to verify.",
+      "target": "ChatGPT iOS app",
+      "metric": "Redirects to a model of choice with no changes to the iOS device"
+    },
+    "zh-CN": {
+      "title": "用 REA 让 ChatGPT iOS app 连接到自建模型的模拟服务器",
+      "summary": "作者自述通过 REA 与 Gemini,让 ChatGPT iOS app 连接到模拟的 codex 服务器并使用 Qwen 模型,且未修改 iOS 设备。仅有一则帖子,没有代码、截图或步骤可供验证。",
+      "target": "ChatGPT iOS app",
+      "metric": "无需改动 iOS 设备即可转接到自选模型"
+    }
+  },
+  "d-4f2d66ee59": {
+    "hash": "5e5230a1210d",
+    "en": {
+      "title": "Using REA to analyze a web page and trace data flows through fetch, localStorage, and beacon",
+      "summary": "The author briefly describes a test run: REA located where the frontend uses fetch, localStorage, and beacon, getting 4 of 7 flagged items right. The ranking formula was read by Claude directly from the minified bundle. The conclusion is specific but narrow in scope, and no evidence files are attached.",
+      "target": "Minified browser-side JavaScript",
+      "metric": "REA got 4 of 7 flagged items right"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析网页,找出 fetch、localStorage、beacon 的数据流",
+      "summary": "作者简述一次实测:REA 找出前端中 fetch、localStorage 与 beacon 的使用位置,7 个标记项目中对了 4 个。排名公式则是 Claude 直接从压缩文件中读出。结论具体但范围较小,未附证据文件。",
+      "target": "浏览器端压缩后的 JavaScript",
+      "metric": "7 个标记项目中 REA 对了 4 个"
+    }
+  },
+  "d-a5960144ea": {
+    "hash": "00883ae03171",
+    "en": {
+      "title": "Measuring how evidence IDs change and what is preserved from REA 6.7 to 6.8",
+      "summary": "Compares two REA versions using the same artifact on the same machine, measuring which parts of the evidence trail remain valid after the upgrade. The excerpt gives only a short description; specific results and figures are not provided.",
+      "target": "Evidence IDs in REA 6.7 and 6.8",
+      "metric": "Compares how many evidence IDs survive across the two versions (the excerpt gives no figures)"
+    },
+    "zh-CN": {
+      "title": "实测 REA 6.7 到 6.8 证据 ID 的变动与保留范围",
+      "summary": "以相同产物和机器比较两个 REA 版本,衡量升级后证据轨迹中哪些部分仍然有效。节选只有简短描述,具体结果与数字未提供。",
+      "target": "REA 6.7 与 6.8 版本的证据 ID",
+      "metric": "对照两版本证据 ID 的存活范围(节选未列具体数字)"
+    }
+  },
+  "d-a5eafc4e39": {
+    "hash": "9a2d84d64856",
+    "en": {
+      "title": "Building a Docker Lab with REA for Static and Dynamic Malware Analysis",
+      "summary": "A Kali workstation integrates Ghidra, REA, capa, Frida and other tools, and detonates samples under Wine on an internet-less fake network, with egress isolated through WARP and Tor. Full installation steps and the network isolation design are provided; the excerpt shows no analysis results for any specific sample.",
+      "target": "Windows malware sample analysis environment",
+      "metric": "Three-tier network isolation: egress gateway, internal workstation, and a fake network with no gateway"
+    },
+    "zh-CN": {
+      "title": "搭建含 REA 的 Docker 恶意软件静态与动态分析实验室",
+      "summary": "以 Kali 工作站整合 Ghidra、REA、capa、Frida 等工具,并用 Wine 在无外网的假网络中引爆样本,出口经 WARP 与 Tor 隔离。提供完整安装步骤与网络隔离设计,节选中未见对特定样本的分析成果。",
+      "target": "Windows 恶意软件样本分析环境",
+      "metric": "三层网络隔离:出口网关、内部工作站、无网关的假网络"
+    }
+  },
+  "d-e5797001a4": {
+    "hash": "e180acd1acd3",
+    "en": {
+      "title": "Releasing a REA-Based Runbook and Execution Suite for Authorized Software Reconstruction",
+      "summary": "Combines REA, Ghidra and other tools into an authorized software reconstruction workflow for AI agents, including a main prompt, validation templates, and a Recreator Suite that runs on the standard library. The content is mostly methodology and process documentation; the excerpt shows no reconstruction results for any concrete target.",
+      "target": "Authorized software reconstruction workflow (general methodology)",
+      "metric": "Includes a 76-item limitations register and a Recreator Suite that runs on Python 3.10+"
+    },
+    "zh-CN": {
+      "title": "发布以 REA 为基础的授权软件重建作业手册与执行套件",
+      "summary": "整合 REA、Ghidra 等工具,提供给 AI agent 使用的授权软件重建流程,包含主提示、验证模板与基于标准库运行的 Recreator Suite。内容以方法与流程文档为主,节选中未见对具体目标的重建成果。",
+      "target": "授权软件重建流程(通用方法)",
+      "metric": "附 76 项限制登记表与可用 Python 3.10+ 运行的 Recreator Suite"
+    }
+  },
+  "d-f03b2989e5": {
+    "hash": "2c9adc32c086",
+    "en": {
+      "title": "A Rust Clean-Room Reconstruction System Combining REA and Replica-Square",
+      "summary": "Aims to chain REA's reverse-engineering forensics and clean-room reconstruction into a four-stage pipeline, implemented in Rust and integrated via MCP stdio. It includes an evidence ledger, ten tool agents, an architecture diagram and CI badges. The excerpt contains only architecture and feature descriptions, with no reverse-engineering results for any specific target.",
+      "target": "REA and Replica-Square integration platform",
+      "metric": "Ten tool agents and a four-stage pipeline"
+    },
+    "zh-CN": {
+      "title": "以 REA 加 Replica-Square 组成的 Rust 净室重建系统",
+      "summary": "目标是把 REA 的逆向取证与净室重建串成四阶段流程,并以 Rust 实现、通过 MCP stdio 集成。内容有证据账本、十个工具代理、架构图与 CI 徽章。节选只有架构与功能描述,没有针对具体目标的逆向成果。",
+      "target": "REA 与 Replica-Square 集成平台",
+      "metric": "十个工具代理与四阶段流程"
+    }
+  },
+  "d-248ae92129": {
+    "hash": "0359fdfc2071",
+    "en": {
+      "title": "An Agent Skill Built on REA for Researching Real-World App Feature Design",
+      "summary": "Provides an agent skill that researches, from public sources, how real apps design the screens, flows and patterns of a given feature, and notes that it was built with REA. The excerpt is a single line of description, with no other results or evidence.",
+      "target": "Feature design patterns of real-world apps",
+      "metric": "Excerpt is a single line of description, with no concrete results"
+    },
+    "zh-CN": {
+      "title": "以 REA 打造研究真实应用功能设计的 agent skill",
+      "summary": "提供一个 agent skill,从公开来源研究真实 App 如何设计某项功能的界面、流程与模式,并说明是以 REA 构建而成。节选仅有一行说明,没有其他成果或证据。",
+      "target": "真实 App 的功能设计模式",
+      "metric": "节选仅一行说明,无具体成果"
+    }
   }
 }

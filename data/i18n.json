@@ -19093,5 +19093,140 @@
       "target": "真实 App 的功能设计模式",
       "metric": "节选仅一行说明,无具体成果"
     }
+  },
+  "d-61932178b4": {
+    "hash": "77bf1c97d889",
+    "en": {
+      "title": "Reverse-Engineering and Re-Implementing Features with Claude Code and REA's Three-Stage Prompts",
+      "summary": "The article covers REA's supported scope, installation steps, and principles for authorized use, and provides three prompts: first map features to evidence, then explain the pattern in plain language, and finally implement it independently. It is a tutorial and setup guide, with no results for a specific target.",
+      "target": "How to use REA (general)",
+      "metric": "3-prompt workflow; REA package version 6.5.0"
+    },
+    "zh-CN": {
+      "title": "用 Claude Code 搭配 REA 的三段提示词逆向分析并复刻功能",
+      "summary": "文章介绍了 REA 的支持范围、安装步骤与授权使用原则，并提供三段提示词：先以证据对应功能，再用通俗语言说明模式，最后独立实现。内容为教学与配置指引，没有针对具体目标的成果。",
+      "target": "REA 使用方式（通用）",
+      "metric": "3 段提示词流程，REA 套件版本 6.5.0"
+    }
+  },
+  "d-1f9d5f0199": {
+    "hash": "a174815cadbd",
+    "en": {
+      "title": "Building the ReClarity toolkit so REA can handle BLA-hardened builds",
+      "summary": "The goal is to keep REA working on builds that BLA has seeded with decoy code to exhaust its budget. The approach covers scanning for traps, cleaning up copies, and sandboxed execution with coverage and budget limits. The project is still under construction; the tools and skills have not been released.",
+      "target": "BLA-hardened JavaScript/Electron builds",
+      "metric": "Planned technique matrix; no usable tools yet"
+    },
+    "zh-CN": {
+      "title": "开发 ReClarity 工具包，让 REA 能应对 BLA 加固过的构建",
+      "summary": "目标是让 REA 在被 BLA 植入诱饵代码、耗尽预算的构建上仍能正常工作。做法包括扫描陷阱、清理副本，以及在沙盒中执行并限制覆盖率与预算上限。项目仍在构建中，工具与 skill 尚未发布。",
+      "target": "BLA 加固的 JavaScript/Electron 构建",
+      "metric": "规划中的技术对照表，暂无可用工具"
+    }
+  },
+  "d-fd47d08473": {
+    "hash": "388d2619a6e6",
+    "en": {
+      "title": "Building an Excel health-check tool with REA's dissection mindset, analyzing in 0.008 s",
+      "summary": "Inspired by REA's dissection approach, the author worked with Claude and Gemini Flash to build \"Excel Health Check\", which analyzes an entire worksheet and gives an A–D grade. It was completed after overcoming problems such as COM being far too slow, though the AI initially built it as a diagnostic report written to a new worksheet. The piece is mostly development notes and does not actually reverse-engineer any target with REA.",
+      "target": "Excel worksheet analysis tool (self-built)",
+      "metric": "Analysis takes only 0.008 s"
+    },
+    "zh-CN": {
+      "title": "以 REA 解剖思想打造 Excel 健检工具，0.008 秒完成分析",
+      "summary": "作者受 REA 解剖思想启发，与 Claude、Gemini Flash 协作开发了“Excel 健检”，可分析整份工作表并给出 A–D 评分。在克服 COM 速度过慢等问题后完成，但 AI 起初只把它做成输出新工作表的诊断报告。内容主要是开发心得，并未实际用 REA 逆向目标。",
+      "target": "Excel 工作表分析工具（自制）",
+      "metric": "分析耗时仅 0.008 秒"
+    }
+  },
+  "d-6552062e55": {
+    "hash": "394f479d0d55",
+    "en": {
+      "title": "Packaging an Antigravity plugin bundle that includes REA, with a cross-platform installer",
+      "summary": "The goal is a portable plugin and skill suite for Google Antigravity, with REA as just one of the plugins (229 tools, 5 skills). The content covers installation and key-isolation integration; there are no actual reverse-engineering results.",
+      "target": "Google Antigravity plugin environment",
+      "metric": "6 plugins, 270+ tools integrated (229 from REA)"
+    },
+    "zh-CN": {
+      "title": "打包含 REA 的 Antigravity 插件合集与跨平台安装器",
+      "summary": "目标是为 Google Antigravity 提供可移植的插件与技能套件，REA 只是其中一个插件（229 个工具、5 项技能）。内容为安装与密钥隔离的集成，没有任何逆向工程的实际成果。",
+      "target": "Google Antigravity 插件环境",
+      "metric": "6 个插件、270+ 工具集成（REA 提供 229 个）"
+    }
+  },
+  "d-94ee434800": {
+    "hash": "74ce1b23dc0e",
+    "en": {
+      "title": "YouTube video: set up REA and see a reverse-engineering demo in 4 minutes",
+      "summary": "The video covers how to install and configure REA, with a short demo of having an AI agent take an application apart. The excerpt contains only an introduction, with no concrete reverse-engineering target or results.",
+      "target": "REA installation and getting started",
+      "metric": "4-minute quick-start tutorial"
+    },
+    "zh-CN": {
+      "title": "YouTube 视频：4 分钟教你设置 REA 并演示逆向",
+      "summary": "视频介绍如何安装配置 REA，并简短演示让 AI 代理拆解应用程序。节选内容仅有简介，没有具体的逆向目标或成果。",
+      "target": "REA 安装与入门",
+      "metric": "4 分钟上手教程"
+    }
+  },
+  "d-ffdf43da66": {
+    "hash": "9a4fd132ee2d",
+    "en": {
+      "title": "Reverse-Engineering the MT5 WebTerminal Protocol with REA and Ghidra to Build a Native Live-Quote Connector",
+      "summary": "The target is Weltrade's MT5 WebTerminal web client. Using REA to capture the bundle and decode the protocol, with Ghidra's help, the author wrote a roughly 15KB Node.js connector that runs on Termux without a browser. Tested against a demo server, it logged in successfully, received a catalog of 41 symbols, and took in 869 quotes within 60 seconds with zero errors. The evidence files and reverse-engineering scripts are published.",
+      "target": "Weltrade MT5 WebTerminal protocol",
+      "metric": "869 quotes captured in 60 seconds, 0 errors; catalog of 41 symbols"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Ghidra 逆向 MT5 WebTerminal 协议,做出原生实时报价连接器",
+      "summary": "目标是 Weltrade 的 MT5 WebTerminal 网页客户端。作者用 REA 抓取 bundle、解码协议,并借助 Ghidra,写出约 15KB 的 Node.js 连接器,无需浏览器即可在 Termux 中运行。针对演示服务器实测:登录成功,收到 41 个品种目录,60 秒内收到 869 条报价,零错误,并公开了证据文件和逆向脚本。",
+      "target": "Weltrade MT5 WebTerminal 协议",
+      "metric": "60 秒抓取 869 条报价、0 错误,目录含 41 个品种"
+    }
+  },
+  "d-986245d19d": {
+    "hash": "d3aacc0e7076",
+    "en": {
+      "title": "Reverse-Engineering Sacred Gold with REA and Ghidra for 32:9 Ultrawide Support and an Auto-Attack Module",
+      "summary": "The target is the 2004 game Sacred Gold. Using REA and Ghidra, the author wrote a binary patch that enlarges the display mode and map rendering, but characters and the HUD still had problems, so SacredBild was adopted as the working solution. The author also developed an auto-attack module on a fork, locating the game's command handler and its command-issuing mechanism (address 0x6172C0), and published notes and tools.",
+      "target": "Sacred Gold (2004) game executable",
+      "metric": "Works at 5120x1440 in testing; command handler found at 0x6172C0"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Ghidra 逆向 Sacred Gold,支持 32:9 超宽屏并编写自动攻击模块",
+      "summary": "目标是 2004 年的游戏 Sacred Gold。作者用 REA 加 Ghidra 进行分析,写出可扩大显示模式和地图渲染的二进制补丁,但角色与 HUD 仍有问题,最终采用 SacredBild 作为可用方案。此外还在 fork 上开发自动攻击模块,找到游戏的命令处理器及下达命令的机制(地址 0x6172C0),并公开了笔记与工具。",
+      "target": "Sacred Gold (2004) 游戏可执行文件",
+      "metric": "5120x1440 实测可用;找到命令处理器 0x6172C0"
+    }
+  },
+  "d-6195edf409": {
+    "hash": "162f6b289f12",
+    "en": {
+      "title": "Modding Tyrian with a Local AI, REA and Ghidra: Swapping the Starting Weapon for the Zica Laser",
+      "summary": "This tutorial drives REA with OpenCode, a local Qwen model and Ollama, using Ghidra to analyze the loading and firing logic of Tyrian, the 1995 DOS shooter. After locating the relevant data records, it builds a reversible patch and produces a verification report listing every changed file.",
+      "target": "Tyrian (1995 DOS shooter)",
+      "metric": "Reversible starting-weapon replacement patch with an evidence report"
+    },
+    "zh-CN": {
+      "title": "用本地 AI 搭配 REA 与 Ghidra 修改 Tyrian,将初始武器换成 Zica Laser",
+      "summary": "本教程使用 OpenCode、本地 Qwen 和 Ollama 驱动 REA,通过 Ghidra 分析 1995 年 DOS 射击游戏 Tyrian 的加载与开火逻辑。找到对应的数据记录后,编写可还原的补丁,并生成列出所有变更文件的验证报告。",
+      "target": "Tyrian(1995 年 DOS 射击游戏)",
+      "metric": "可还原的初始武器替换补丁与证据报告"
+    }
+  },
+  "d-7b02a62518": {
+    "hash": "db13018058bd",
+    "en": {
+      "title": "Building AEGIS, a Build-Time Protection Layer That Makes Release Artifacts Harder for AI Reverse-Engineering Agents to Read",
+      "summary": "The goal is to make release artifacts costly for AI reverse-engineering agents such as REA while leaving runtime behavior unchanged. The approach rotates decoys by seed, pushes past each format's cost budget, and measures the result with REA probes. The benchmark covers 14 targets, but the figures are the project's own cost estimates, not real LLM runs.",
+      "target": "Anti-reverse-engineering benchmark targets in 14 formats (asar, wasm, ELF, dex, etc.)",
+      "metric": "Estimated reconstruction cost up about 305x on average across 14 targets (all self-estimated)"
+    },
+    "zh-CN": {
+      "title": "开发 AEGIS 构建期防护层,让 AI 逆向代理更难读懂发布文件",
+      "summary": "目标是让发布产物对 REA 这类 AI 逆向代理变得代价高昂,同时保持运行行为不变。做法是按种子轮换诱饵、突破各格式的成本预算,并用 REA 探针进行度量。基准测试涵盖 14 个目标,但数字是项目自己的成本估算,并非真实的 LLM 运行结果。",
+      "target": "14 种格式的防逆向基准目标(asar、wasm、ELF、dex 等)",
+      "metric": "14 个目标的估算重建成本平均提升约 305 倍(均为自估)"
+    }
   }
 }

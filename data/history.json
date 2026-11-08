@@ -41968,35 +41968,39 @@
     },
     {
       "date": "2026-11-08",
-      "stars": 441001,
-      "stars_delta": 2537,
+      "stars": 441426,
+      "stars_delta": 2962,
       "new": [
         "d-ffdf43da66",
         "d-986245d19d",
         "d-6195edf409",
+        "d-45b5a72072",
         "d-7b02a62518",
         "d-1f9d5f0199",
         "d-fd47d08473",
         "d-6552062e55",
         "d-94ee434800",
-        "d-61932178b4"
+        "d-61932178b4",
+        "d-93db29041f",
+        "d-b441119fce"
       ],
       "stats": {
-        "count": 9,
+        "count": 12,
         "wow": {
-          "2": 6,
+          "2": 9,
           "3": 1,
           "4": 2
         },
         "type": {
           "case": 2,
-          "learn": 3,
+          "learn": 5,
+          "news": 1,
           "app": 4
         },
         "status": {
           "tested": 1,
           "shipped": 4,
-          "reported": 4
+          "reported": 7
         }
       },
       "text": {
@@ -42709,6 +42713,7 @@
         "d-af78088488",
         "d-c830cb6a4e",
         "d-105efaffea",
+        "d-45b5a72072",
         "d-23da1c12d6",
         "d-1123456fff",
         "d-94a05a4cd7",
@@ -43112,6 +43117,7 @@
         "d-9daf5b57af",
         "d-0eeb1d9606",
         "d-78fdc14174",
+        "d-93db29041f",
         "d-3120653029",
         "d-82106cc30a",
         "d-a4531c634e",
@@ -43178,6 +43184,7 @@
         "d-a5261129ea",
         "d-43170c8eca",
         "d-269ae047fe",
+        "d-b441119fce",
         "d-f5aa9129b9",
         "d-c61e14bff3",
         "d-78644bee75",
@@ -43289,6 +43296,7 @@
         "d-9b672fd678",
         "d-0d55526a45",
         "d-9fbe3f22eb",
+        "d-ccd353c84f",
         "d-4fb735b4e9",
         "d-e2d58a1041",
         "d-1e468f16a2",
@@ -43390,6 +43398,7 @@
         "d-f72ffdfbf6",
         "d-e850375db0",
         "d-9186891065",
+        "d-3d0d923fca",
         "d-7cb789794a",
         "d-67df4b035a",
         "d-db0aa10277",
@@ -44254,19 +44263,19 @@
     "to": "2026-11-08",
     "text": {
       "zh-TW": {
-        "headline": "REA 從展示能力轉向以實測與位元組比對證明成果",
-        "summary": "本週星數從 41.9 萬升到 44.1 萬,每天穩定增加。「驗證是瓶頸」(B)七天都出現:DX-Ball 以 270 個函數位元組級一致、Excalidraw 以 10 萬次模糊測試、預算 App 以抽查 300 筆無差異來證明成果,只有自述的數字(如 530/531 個函式)被特別標註為未經驗證。應用重心以舊遊戲與舊軟體的保存、重建為主(C 出現 5 天),Colin McRae 與 DiRT Rally 的 Linux 啟動器是例子,並延伸到已停運 App 的資料救援與 Typeless、Paste 的開源重寫。同時出現 REAShield、BLA、AEGIS 等反逆向工具,以及 ReClarity 這類反制的反制,顯示 REA 已被視為需要防範的對象。",
-        "watch": "留意能附上測試數量、位元組比對或可重現證據的案例,這類最受重視,也是做驗證工具或驗證服務的機會。反逆向加固與反制工具的攻防才剛開始,AEGIS 的成本數字只是自家估算,ReClarity 尚未釋出,值得追蹤實際效果。另外,對停運 App 的資料救援與開源替代品有明確需求,可優先考慮這類題材。"
+        "headline": "REA 本週從展示複製走向驗證，舊遊戲復活仍是主力",
+        "summary": "本週 REA 星數從 419,489 升至約 44.1 萬，每天穩定成長。訊號 B（驗證）七天全數出現，案例從 DX-Ball 逐函數位元組比對、預算 App 抽查 300 筆無差異，到 MT5 連接器 60 秒零錯誤，可信度取決於有沒有測試與證據，自述型貼文則被質疑。訊號 C 出現五天，成果主要集中在老遊戲啟動器與重建，企業端的例子（預算 App 救資料、Teams 分析、MT5 協定）才剛冒頭。同時 Typeless、Paste 被重寫成開源版，REAShield、anti-rea、BLA、AEGIS 等防護工具也出現，顯示 REA 已被當成需要防範的對象；模型平台限制（E）本週僅在 11/3 被提及，之後不再出現。",
+        "watch": "可留意逆向加固與反加固（AEGIS、ReClarity）的真實效果，目前前者只有自家成本估算、後者尚未釋出，能提供獨立實測者有機會。另可關注從遊戲延伸到停運 App、金融協定等企業遷移的案例，以及附帶測試與位元組級比對證據的驗證工具與方法。"
       },
       "en": {
-        "headline": "REA shifts from showing off to proving results with tests and byte-level matches",
-        "summary": "Stars rose steadily from 419k to 441k this week. Signal B (verification is the bottleneck) appeared all seven days: DX-Ball matched 270 functions byte-for-byte, Excalidraw was backed by 100k fuzz runs, and a budget-app recovery was spot-checked on 300 transactions with no differences, while self-reported figures (such as 530/531 functions) were explicitly flagged as unverified. The focus was mostly preservation and rebuilding of old games and software (C, 5 days), such as the Colin McRae and DiRT Rally Linux launchers, extending to data rescue from discontinued apps and open-source rewrites of Typeless and Paste. Anti-reverse-engineering tools (REAShield, BLA, AEGIS) and a counter-counter tool (ReClarity) also appeared, showing REA is now treated as something to defend against.",
-        "watch": "Cases that come with test counts, byte-level comparisons or reproducible evidence get the most attention, which points to an opportunity in verification tooling and services. The hardening-versus-countermeasure race is just starting: AEGIS's cost figures are its own estimates and ReClarity is not yet released, so track real-world results. Demand for data rescue from discontinued apps and open-source alternatives is clear, making those good topics to pursue first."
+        "headline": "REA shifts from showcasing clones to proving them; old games still lead",
+        "summary": "REA's GitHub stars climbed steadily from 419,489 to about 441k this week. Signal B (verification) appeared all seven days: from DX-Ball's function-by-function byte match and a budget app recovery with 300 spot-checks showing no differences, to an MT5 connector with zero errors in 60 seconds. Credibility now depends on tests and evidence, while self-reported posts are discounted. Signal C appeared five days, mostly old-game launchers and rebuilds, with enterprise examples (a defunct budget app, Teams analysis, the MT5 protocol) just emerging. Typeless and Paste were rewritten as open-source versions, and defenses such as REAShield, anti-rea, BLA and AEGIS appeared, showing REA is now treated as a threat to guard against. Model-platform limits (E) came up only on 11/3 and then disappeared.",
+        "watch": "Watch whether hardening and counter-hardening tools (AEGIS, ReClarity) actually work: the former has only its own cost estimates and the latter is unreleased, so independent testing is an opening. Also watch for cases moving from games to defunct apps and financial protocols, and for verification tooling and methods backed by tests and byte-level comparison."
       },
       "zh-CN": {
-        "headline": "REA 从展示能力转向以实测与字节比对证明成果",
-        "summary": "本周星数从 41.9 万升到 44.1 万,每天稳定增长。“验证是瓶颈”(B)七天都出现:DX-Ball 以 270 个函数字节级一致、Excalidraw 以 10 万次模糊测试、预算 App 以抽查 300 笔无差异来证明成果,只有自述的数字(如 530/531 个函数)被特别标注为未经验证。应用重心以旧游戏与旧软件的保存、重建为主(C 出现 5 天),Colin McRae 与 DiRT Rally 的 Linux 启动器是例子,并延伸到已停运 App 的数据抢救以及 Typeless、Paste 的开源重写。同时出现 REAShield、BLA、AEGIS 等反逆向工具,以及 ReClarity 这类反制的反制,显示 REA 已被视为需要防范的对象。",
-        "watch": "留意能附上测试数量、字节比对或可复现证据的案例,这类最受重视,也是做验证工具或验证服务的机会。反逆向加固与反制工具的攻防才刚开始,AEGIS 的成本数字只是自家估算,ReClarity 尚未发布,值得追踪实际效果。另外,对停运 App 的数据抢救和开源替代品有明确需求,可优先考虑这类题材。"
+        "headline": "REA 本周从展示复制走向验证，老游戏复活仍是主力",
+        "summary": "本周 REA 星数从 419,489 升至约 44.1 万，每天稳定增长。信号 B（验证）七天全部出现，案例从 DX-Ball 逐函数字节比对、预算 App 抽查 300 笔无差异，到 MT5 连接器 60 秒零错误，可信度取决于有没有测试与证据，自述型帖子则被质疑。信号 C 出现五天，成果主要集中在老游戏启动器与重建，企业端的例子（预算 App 救回数据、Teams 分析、MT5 协议）才刚冒头。同时 Typeless、Paste 被重写成开源版，REAShield、anti-rea、BLA、AEGIS 等防护工具也出现，说明 REA 已被当成需要防范的对象；模型平台限制（E）本周仅在 11/3 被提及，之后不再出现。",
+        "watch": "可留意逆向加固与反加固（AEGIS、ReClarity）的真实效果，目前前者只有自家成本估算、后者尚未发布，能提供独立实测者有机会。另可关注从游戏延伸到停运 App、金融协议等企业迁移的案例，以及附带测试与字节级比对证据的验证工具与方法。"
       }
     },
     "rising": [

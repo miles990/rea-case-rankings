@@ -86,15 +86,6 @@
       "scored_by": "sonnet"
     },
     {
-      "url": "https://github.com/REA-Research-Labs-Inc/secure-hermes-agent-setup",
-      "title": "REA-Research-Labs-Inc/secure-hermes-agent-setup: Unofficial beginner guide to setting up Hermes Agent with safety basics",
-      "source": "GitHub",
-      "found": "2026-11-08",
-      "relevant": false,
-      "scored": "2026-11-08",
-      "scored_by": "jev"
-    },
-    {
       "url": "https://qiita.com/shu15511551/items/9f60d7babe242d49b808",
       "title": "所要時間わずか 0.008秒、Excelドックが完成するもなぜか診断の道具としか見てなかったAI達の話",
       "author": "shu15511551",
@@ -262,6 +253,26 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://reamcp.dev/zh-cn/cases/you-can-now-build-a-serious-ai-powered-reverse-engineering-e-2c8782",
+      "title": "使用 Claude Code、REA 和 Ghidra 构建 AI 驱动的逆向工程环境 — REA 使用案例｜工具与集成 · REA MCP",
+      "author": "𝓑𝓲𝓬_𝓡𝓮𝓿𝓮𝓵𝓪𝓽𝓲𝓸𝓷",
+      "date": "2026-10-28",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "zh",
+      "found": "2026-11-08",
+      "relevant": true,
+      "title_zh": "以 Claude Code、REA 與 Ghidra 建構 AI 逆向工程環境的指南",
+      "summary": "說明如何以 npx rea-agents setup 安裝 REA，並依目標類型挑選 Ghidra、JADX、Apktool、Frida、ILSpy 等分析工具。重點是結合靜態分析、執行期觀察與證據蒐集，並指出 REA 無法還原所有應用的原始碼。內容為環境配置建議，沒有對具體目標的分析結果。",
+      "target": "Claude Code、REA 與 Ghidra 等逆向工具鏈",
+      "metric": "依目標類型搭配多種分析引擎的配置建議",
+      "category": "教學",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-11-08",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://www.cnblogs.com/wintersun/p/23424139",
       "title": "学习REA路线图 - PetterLiu - 博客园",
       "author": "PetterLiu",
@@ -280,6 +291,44 @@
       "wow": 1,
       "scored": "2026-11-08",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://reamcp.dev/zh-cn/cases/ai-can-now-reverse-engineer-any-app-without-source-code-rea--8cf0ec",
+      "title": "AI 现在可以逆向工程任何应用——无需源代码（REA 解析） — REA 使用案例｜工具与集成 · REA MCP",
+      "author": "The Solo Engineer",
+      "date": "2026-10-13",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "zh",
+      "found": "2026-11-08",
+      "relevant": true,
+      "title_zh": "REA 教學影片：四步調查流程與 Dino、DX-Ball、Notion 示範",
+      "summary": "YouTube 教學介紹 REA 的 Ask、Inspect、Evidence、Explain 四步調查流程與七種支援目標類型。示範包括 Chrome Dino 加速公式、DX-Ball 音效聲像位元組比對（63 位元組匹配）、Notion Electron IPC 剪貼簿追蹤，並說明 30 秒安裝。內容以教學講解為主，節錄未附可驗證的測試或程式碼。",
+      "target": "Chrome Dino、DX-Ball、Notion（Electron）",
+      "metric": "DX-Ball 聲像位元組 63 位元組匹配",
+      "category": "教學",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-11-08",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://www.reddit.com/r/ASX_Bets/comments/vtycd9/hi_rea/",
+      "title": "Hi REA! : r/ASX_Bets",
+      "source": "Reddit r/ASX_Bets",
+      "found": "2026-11-08",
+      "relevant": false,
+      "scored": "2026-11-08",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/REA-Research-Labs-Inc/secure-hermes-agent-setup",
+      "title": "REA-Research-Labs-Inc/secure-hermes-agent-setup: Unofficial beginner guide to setting up Hermes Agent with safety basics",
+      "source": "GitHub",
+      "found": "2026-11-08",
+      "relevant": false,
+      "scored": "2026-11-08",
+      "scored_by": "jev"
     },
     {
       "url": "https://github.com/Harsh8-beep/Reverse_Enginnering_Anything",
@@ -334,6 +383,61 @@
       "wow": 1,
       "category": "教學",
       "status": "shipped",
+      "scored": "2026-11-08",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://youtu.be/DU6RrT8hUbw",
+      "title": "Vibe Coding Isn't Possible With Just One Click | Why Fundamentals Are Even More Important in the ...",
+      "author": "아는개발자",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 881,
+      "lang": "en",
+      "found": "2026-11-08",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-08",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://youtu.be/aPkQ9hCtjno",
+      "title": "They say REA can copy an app entirely... so I tested it on my own website and app",
+      "author": "다움_나답게 일하는 삶",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 179,
+      "lang": "en",
+      "found": "2026-11-08",
+      "relevant": true,
+      "title_zh": "用 REA 複製自己的網站與 App 的實測影片",
+      "summary": "作者在 YouTube 影片中聽說 REA 可完整複製應用程式，因此拿自己的網站與 App 來測試。節錄內容僅有聊天室連結與開場白，沒有呈現具體做法或結果。",
+      "target": "作者自己的網站與 App",
+      "metric": "節錄內容未提供具體成果",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-11-08",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://youtu.be/dQd-f0nNQtI",
+      "title": "The AI trend 99% of people don't know about | Sharing everything from REA to insane open-source p...",
+      "author": "신영선의 AI탐구",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 14206,
+      "lang": "en",
+      "found": "2026-11-08",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
       "scored": "2026-11-08",
       "scored_by": "jev"
     },
@@ -47890,6 +47994,35 @@
   "runs": [
     {
       "date": "2026-11-08",
+      "added": 6,
+      "stats": {
+        "githubShowAndTell": 14,
+        "githubRepos": 227,
+        "githubCode": 47,
+        "hackerNews": 31,
+        "qiita": 50,
+        "devto": 150,
+        "juejin": 4,
+        "reddit": 20,
+        "v2ex": 14,
+        "youtube": 90,
+        "bluesky": 162,
+        "mastodon": 160,
+        "exaWeb": 60,
+        "x": "error: Command failed: grok -p Search X for posts from the last 7 days where people sho"
+      },
+      "scoring": {
+        "scored": 3,
+        "jev": {
+          "low": 2,
+          "irrelevant": 1,
+          "errors": 0,
+          "toClaude": 3
+        }
+      }
+    },
+    {
+      "date": "2026-11-08",
       "added": 19,
       "stats": {
         "githubShowAndTell": 14,
@@ -48728,36 +48861,7 @@
           "toClaude": 12
         }
       }
-    },
-    {
-      "date": "2026-10-27",
-      "added": 54,
-      "stats": {
-        "githubShowAndTell": 10,
-        "githubRepos": 233,
-        "githubCode": 42,
-        "hackerNews": 22,
-        "qiita": 43,
-        "devto": 150,
-        "juejin": 10,
-        "reddit": "error: 429 reddit rss",
-        "v2ex": 10,
-        "youtube": 90,
-        "bluesky": 159,
-        "mastodon": 160,
-        "exaWeb": 57,
-        "x": 30
-      },
-      "scoring": {
-        "scored": 35,
-        "jev": {
-          "low": 19,
-          "irrelevant": 0,
-          "errors": 0,
-          "toClaude": 35
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-08T00:22:20.119Z"
+  "updatedAt": "2026-11-08T04:33:56.228Z"
 }

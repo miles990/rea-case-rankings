@@ -19228,5 +19228,50 @@
       "target": "14 种格式的防逆向基准目标(asar、wasm、ELF、dex 等)",
       "metric": "14 个目标的估算重建成本平均提升约 305 倍(均为自估)"
     }
+  },
+  "d-45b5a72072": {
+    "hash": "8c2771bab148",
+    "en": {
+      "title": "Hands-on video: using REA to clone the author's own website and app",
+      "summary": "After hearing in a YouTube video that REA can fully clone an application, the author tried it on their own website and app. The excerpt contains only a chat room link and an opening greeting, with no concrete method or results shown.",
+      "target": "The author's own website and app",
+      "metric": "The excerpt gives no concrete results"
+    },
+    "zh-CN": {
+      "title": "用 REA 复制自己网站与 App 的实测视频",
+      "summary": "作者在 YouTube 视频中听说 REA 可以完整复制应用程序，于是拿自己的网站和 App 来测试。节选内容只有聊天室链接和开场白，没有展示具体做法或结果。",
+      "target": "作者自己的网站与 App",
+      "metric": "节选内容未提供具体成果"
+    }
+  },
+  "d-93db29041f": {
+    "hash": "63711c8c739c",
+    "en": {
+      "title": "Guide to building an AI reverse-engineering environment with Claude Code, REA, and Ghidra",
+      "summary": "Explains how to install REA with npx rea-agents setup and pick analysis tools such as Ghidra, JADX, Apktool, Frida, and ILSpy based on the target type. The focus is on combining static analysis, runtime observation, and evidence gathering, and it notes that REA cannot recover the original source code of every application. The content is setup advice, with no analysis results for a specific target.",
+      "target": "Claude Code, REA, and a Ghidra-based reverse-engineering toolchain",
+      "metric": "Setup recommendations pairing multiple analysis engines with each target type"
+    },
+    "zh-CN": {
+      "title": "用 Claude Code、REA 与 Ghidra 搭建 AI 逆向工程环境的指南",
+      "summary": "介绍如何通过 npx rea-agents setup 安装 REA，并根据目标类型选择 Ghidra、JADX、Apktool、Frida、ILSpy 等分析工具。重点是结合静态分析、运行时观察与证据收集，并指出 REA 无法还原所有应用的原始源码。内容为环境配置建议，没有针对具体目标的分析结果。",
+      "target": "Claude Code、REA 与 Ghidra 等逆向工具链",
+      "metric": "按目标类型搭配多种分析引擎的配置建议"
+    }
+  },
+  "d-b441119fce": {
+    "hash": "32c3e5341b74",
+    "en": {
+      "title": "REA tutorial video: the four-step investigation flow, with Dino, DX-Ball, and Notion demos",
+      "summary": "A YouTube tutorial introducing REA's four-step investigation flow (Ask, Inspect, Evidence, Explain) and its seven supported target types. Demos include the Chrome Dino acceleration formula, DX-Ball sound-effect panning byte matching (63 bytes matched), and Notion Electron IPC clipboard tracing, plus a 30-second install. It is mostly a walkthrough; the excerpt includes no verifiable tests or code.",
+      "target": "Chrome Dino, DX-Ball, Notion (Electron)",
+      "metric": "DX-Ball panning bytes: 63-byte match"
+    },
+    "zh-CN": {
+      "title": "REA 教学视频：四步调查流程与 Dino、DX-Ball、Notion 演示",
+      "summary": "YouTube 教程介绍了 REA 的 Ask、Inspect、Evidence、Explain 四步调查流程和七种支持的目标类型。演示包括 Chrome Dino 加速公式、DX-Ball 音效声像字节比对（63 字节匹配）、Notion Electron IPC 剪贴板追踪，并说明 30 秒即可完成安装。内容以教学讲解为主，节选中未附可验证的测试或代码。",
+      "target": "Chrome Dino、DX-Ball、Notion（Electron）",
+      "metric": "DX-Ball 声像字节 63 字节匹配"
+    }
   }
 }

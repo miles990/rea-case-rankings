@@ -19273,5 +19273,185 @@
       "target": "Chrome Dino、DX-Ball、Notion（Electron）",
       "metric": "DX-Ball 声像字节 63 字节匹配"
     }
+  },
+  "d-8761f04072": {
+    "hash": "ada5d0a5f3c0",
+    "en": {
+      "title": "REA-Style Analysis of the Hytale Launcher Protocol, Plus a Native Android Vulkan Proof of Concept",
+      "summary": "From open-source launcher code, the author documents Hytale's OAuth PKCE flow, download endpoints, required headers, and patch manifest format. They also wrote a pure-Python ELF/APK static inspector and a C++ Vulkan program for Android. This is educational research, not a reverse-engineering of the game itself, and there is no evidence it runs.",
+      "target": "Hytale launcher protocol and an Android Vulkan porting idea",
+      "metric": "2 analysis scripts and one NDK Vulkan pipeline codebase, no execution verified"
+    },
+    "zh-CN": {
+      "title": "以 REA 风格分析 Hytale 启动器协议并做 Android 原生 Vulkan 概念验证",
+      "summary": "作者从开源启动器源码中整理出 Hytale 的 OAuth PKCE 流程、下载端点、必要请求头与补丁清单格式,另写了纯 Python 的 ELF/APK 静态检查器,以及 C++ Vulkan 的 Android 程序。内容属于教育性研究,并未逆向游戏本体,也没有证据表明已能运行。",
+      "target": "Hytale 启动器协议与 Android Vulkan 移植构想",
+      "metric": "2 个分析脚本加一份 NDK Vulkan 管线代码,未经运行验证"
+    }
+  },
+  "d-466594aa0b": {
+    "hash": "e97441552ba8",
+    "en": {
+      "title": "A DeepSeek Harness Sidebar Toggle to Start and Stop REA and Craft Anything in One Click",
+      "summary": "This plugin adds a sidebar entry to DeepSeek Harness that toggles two reverse-engineering MCP backends, REA (170 tools) and Craft Anything, with one click. It edits the disabled field in the config file line by line, needs no restart, and uses no context when disabled.",
+      "target": "REA / Craft Anything MCP integration for DeepSeek Harness",
+      "metric": "One-click toggle for REA's 170 tools and 6 prompts"
+    },
+    "zh-CN": {
+      "title": "做出 DeepSeek Harness 侧边栏开关,一键启停 REA 与 Craft Anything",
+      "summary": "该插件为 DeepSeek Harness 增加了侧边栏入口,一键切换 REA(170 个工具)与 Craft Anything 两个逆向 MCP 后端。做法是逐行修改配置文件中的 disabled 字段,无需重启,未启用时不占用上下文。",
+      "target": "DeepSeek Harness 的 REA / Craft Anything MCP 集成",
+      "metric": "一键切换 REA 的 170 个工具与 6 个提示"
+    }
+  },
+  "d-215fcd8916": {
+    "hash": "f53e73527440",
+    "en": {
+      "title": "Packaging the REA MCP as a Plugin You Can Toggle in DeepSeek Harness Plugin Management",
+      "summary": "This repository contains only package.json and cordis.patch.yml. It uses insert to attach REA's MCP service to DeepSeek Harness, so it can be enabled or disabled in plugin management. The docs cover how it differs from the official rea setup --client dsh, the installation steps, and a troubleshooting table.",
+      "target": "DeepSeek Harness and REA MCP integration",
+      "metric": "REA can be toggled in plugin management, with a comparison against the official setup"
+    },
+    "zh-CN": {
+      "title": "把 REA MCP 打包成可在 DeepSeek Harness 插件管理中开关的插件",
+      "summary": "该仓库只包含 package.json 与 cordis.patch.yml,通过 insert 把 REA 的 MCP 服务挂接到 DeepSeek Harness,可在插件管理中启用或停用。文档说明了与官方 rea setup --client dsh 的差异、安装步骤和排查表。",
+      "target": "DeepSeek Harness 与 REA MCP 集成",
+      "metric": "可在插件管理中一键启停 REA,并附与官方配置的对照"
+    }
+  },
+  "d-26f6c84ad8": {
+    "hash": "f7bd9c92f63b",
+    "en": {
+      "title": "BLA, an Open-Source Tool for Blocking AI Reverse-Engineering Agents from Analyzing Your Software",
+      "summary": "BLA (Blind LLM Agents) is an open-source defensive tool meant to make it harder for AI reverse-engineering agents (REA) to analyze the user's own software. The post only briefly describes its purpose, how it works, and its limitations, and gives no test data or comparison results.",
+      "target": "BLA, an open-source tool for defending against AI reverse-engineering agents",
+      "metric": "Open-source defensive tool, no test data yet"
+    },
+    "zh-CN": {
+      "title": "开源工具 BLA 用来阻止 AI 逆向代理分析自家软件",
+      "summary": "BLA(Blind LLM Agents)是一个开源防御工具,目的是让 AI 逆向工程代理(REA)更难分析用户自己的软件。帖子仅简述了其用途、工作方式与局限,没有提供实测数据或对照结果。",
+      "target": "防御 AI 逆向代理的开源工具 BLA",
+      "metric": "开源防御工具,暂无实测数据"
+    }
+  },
+  "d-fe777badf9": {
+    "hash": "cfe436991a1e",
+    "en": {
+      "title": "Reverse-engineering the Matica ID card printer with REA and Claude Code, and writing a Linux CUPS driver",
+      "summary": "The target is the Matica XID8300/XID8100 network ID card printer. The author reverse-engineered the TCP 50710 protocol and the spool format, then wrote a CUPS filter, a network backend, and a PPD. The project also ships a .deb package and end-to-end tests that run against a simulated printer. Cards have been printed on a real XID8100, but many options have not yet been verified on hardware.",
+      "target": "Matica XID8300/XID8100 ID card printers",
+      "metric": "Successful card printing on a real XID8100; Ubuntu and Debian pass make check and the cupsd end-to-end tests"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Claude Code 逆向 Matica 证卡打印机并编写 Linux CUPS 驱动",
+      "summary": "目标是 Matica XID8300/XID8100 网络证卡打印机。作者逆向出 TCP 50710 协议和 spool 格式,编写了 CUPS 过滤器、网络后端和 PPD,并提供 .deb 安装包以及基于模拟打印机的端到端测试。已在 XID8100 实机上成功打印卡片,但许多选项尚未在实机上验证。",
+      "target": "Matica XID8300/XID8100 证卡打印机",
+      "metric": "XID8100 实机打卡成功;Ubuntu 和 Debian 通过 make check 与 cupsd 端到端测试"
+    }
+  },
+  "d-4b5e6c8668": {
+    "hash": "58cad1d0a6a2",
+    "en": {
+      "title": "Auditing five Nairobi city government portals with REA and building a municipal gateway prototype",
+      "summary": "Using REA's browser and bundle analysis, the author examined five public Nairobi city government portals, documenting each site's tech stack and key findings with evidence IDs. Based on this, they wrote reference implementations in Python and SQLite: BM25 service search, a case state machine, and a hash-chained audit ledger, with unit test commands included.",
+      "target": "Five public Nairobi city government portals",
+      "metric": "All 5 portals have REA evidence IDs and an identified tech stack"
+    },
+    "zh-CN": {
+      "title": "用 REA 审计内罗毕市政府五个门户网站并制作市政网关原型",
+      "summary": "借助 REA 的浏览器与 bundle 分析,检查了内罗毕市政府的五个公开门户网站,记录各站的技术栈和关键发现,并附上证据 ID。在此基础上,用 Python 和 SQLite 编写了 BM25 服务搜索、案件状态机和哈希链审计账本的参考实现,并附单元测试命令。",
+      "target": "内罗毕市政府五个公开门户网站",
+      "metric": "5 个门户网站均有 REA 证据 ID 与技术栈识别"
+    }
+  },
+  "d-730151250b": {
+    "hash": "3b5d74b3ca5a",
+    "en": {
+      "title": "Testing the REA skill: rebuilding MindNode with multiple subagents and verifying the result",
+      "summary": "The author covers the setup REA requires, the role of Hopper, and how the MCP server is loaded. They then have up to 8 Haiku and Opus subagents rebuild MindNode in full and test the outcome. The excerpt does not state how complete the rebuild was or give specific test results.",
+      "target": "MindNode (macOS mind-mapping app)",
+      "metric": "Up to 8 Haiku/Opus subagents used to rebuild MindNode"
+    },
+    "zh-CN": {
+      "title": "实测 REA 技能,用多个子代理重建 MindNode 并检验结果",
+      "summary": "作者介绍了 REA 所需的配置、Hopper 的作用以及 MCP 服务器的加载方式,随后让最多 8 个 Haiku 和 Opus 子代理完整重建 MindNode 并测试成果。节选中未说明重建的完成度或具体测试结果。",
+      "target": "MindNode(macOS 思维导图应用)",
+      "metric": "最多 8 个 Haiku/Opus 子代理重建 MindNode"
+    }
+  },
+  "d-281ba1b3f0": {
+    "hash": "d182bb9df16b",
+    "en": {
+      "title": "YouTube tutorial: using DeepSeek with REA to replicate software for free",
+      "summary": "The video shows how to use DeepSeek as an AI developer connected to REA so it can study and replicate how a piece of software works. The excerpt only describes the setup process and gives no specific target or verifiable result.",
+      "target": "Setup workflow for DeepSeek with REA",
+      "metric": "No concrete result in the excerpt; setup tutorial only"
+    },
+    "zh-CN": {
+      "title": "YouTube 教程:用 DeepSeek 搭配 REA 免费复制软件",
+      "summary": "视频演示了如何把 DeepSeek 当作 AI 开发者并接入 REA,让它研究并复刻软件的工作方式。节选只描述了配置流程,没有具体目标或可验证的成果。",
+      "target": "DeepSeek 搭配 REA 的配置流程",
+      "metric": "节选中无具体成果,仅为配置教程"
+    }
+  },
+  "d-251269afa3": {
+    "hash": "d6cd527a6667",
+    "en": {
+      "title": "Building a Windows reverse-engineering desktop workbench that integrates REA, Ghidra, radare2 and AI",
+      "summary": "The author built REA Studio with Electron, React and TypeScript, bringing static analysis, a binary viewer, REA, Ghidra, radare2/Rizin and an AI assistant into a single desktop interface. It is currently a 0.1.0 preview with Windows installation and testing sections, but the excerpt contains no reverse-engineering results for a specific target.",
+      "target": "REA Studio desktop app (Windows x64)",
+      "metric": "0.1.0 preview, integrating REA/Ghidra/radare2/AI"
+    },
+    "zh-CN": {
+      "title": "打造整合 REA、Ghidra、radare2 与 AI 的 Windows 逆向桌面工作台",
+      "summary": "作者使用 Electron、React、TypeScript 开发了 REA Studio,把静态分析、二进制查看器与 REA、Ghidra、radare2/Rizin 及 AI 助手整合在同一个桌面界面中。目前为 0.1.0 预览版,包含 Windows 安装与测试章节,但节选内容中没有针对具体目标的逆向成果。",
+      "target": "REA Studio 桌面应用(Windows x64)",
+      "metric": "0.1.0 预览版,整合 REA/Ghidra/radare2/AI"
+    }
+  },
+  "d-f1fdfb3808": {
+    "hash": "ad7d5869b7cf",
+    "en": {
+      "title": "DRE: a business/domain analysis companion to REA, with 11 MCP tools",
+      "summary": "As a counterpart to REA's technical reverse engineering, this MCP server analyzes a website's business model, pricing, financial reports and advertising. It includes collectors for pricing, terms, tech stack and SEC/DART filings, and every conclusion is tagged with evidence and uncertainty. The author says the 11 tools are built and tested, but the accuracy benchmark still needs to be annotated.",
+      "target": "Business model / pricing / financial analysis of websites and products",
+      "metric": "11 MCP tools; accuracy benchmark AC-008 not yet completed"
+    },
+    "zh-CN": {
+      "title": "DRE:REA 的商业/领域分析姊妹工具,提供 11 个 MCP 工具",
+      "summary": "与 REA 的技术层面逆向相对应,这是一个用于分析网站商业模式、定价、财报与广告的 MCP 服务器。包含定价、条款、技术栈、SEC/DART 财报等收集器,每个结论都标注证据与不确定性。作者自述 11 个工具已构建并测试,但准确度基准仍待标注。",
+      "target": "网站与产品的商业模式/定价/财务分析",
+      "metric": "11 个 MCP 工具,准确度基准 AC-008 尚未完成"
+    }
+  },
+  "d-856ee8fbb5": {
+    "hash": "099a7484ab39",
+    "en": {
+      "title": "Publishing a 12-step PDF tutorial on connecting REA to Claude Code for reverse engineering apps",
+      "summary": "This is a 9-page, 12-step paid guide on connecting REA to Claude Code and using it to analyze applications without source code. It covers installation checks, an Electron app tracing example, 6 built-in workflows, and prompts for use with Ghidra, Hopper, IDA, .NET, APK and more.",
+      "target": "REA and Claude Code integration tutorial",
+      "metric": "12 steps, 9-page PDF, with 6 built-in workflows"
+    },
+    "zh-CN": {
+      "title": "发布 12 步骤 PDF 教程,教人把 REA 接入 Claude Code 逆向应用",
+      "summary": "这是一份 9 页、共 12 步骤的付费指南,讲解如何把 REA 连接到 Claude Code,并用于分析没有源代码的应用。内容涵盖安装检查、Electron 应用追踪示例、6 个内置工作流,以及搭配 Ghidra、Hopper、IDA 和 .NET、APK 等的提示词。",
+      "target": "REA 与 Claude Code 集成教程",
+      "metric": "12 步骤、9 页 PDF,含 6 个内置工作流"
+    }
+  },
+  "d-faa34db9dc": {
+    "hash": "1fed2b720bf8",
+    "en": {
+      "title": "Building a Claude Code skill that safely installs and runs REA in a sandbox",
+      "summary": "The skill installs Node, REA, JDK, Ghidra and Kuna into a single folder and verifies SHA-256, analyzes websites in an isolated Chrome with a blank profile, and then turns the Evidence files into a report. The author ran bootstrap.sh in full on Windows; on Linux, each step was carried out manually in an Ubuntu 24.04 container.",
+      "target": "REA installation and usage workflow (Claude Code skill)",
+      "metric": "Supports rea-agents 6.8.0; bootstrap.sh fully run on Windows"
+    },
+    "zh-CN": {
+      "title": "制作 Claude Code 技能,在沙盒中安全安装并运行 REA",
+      "summary": "该技能会把 Node、REA、JDK、Ghidra、Kuna 安装到同一文件夹并核对 SHA-256,用空白配置文件的独立 Chrome 分析网站,再把 Evidence 文件整理成报告。作者在 Windows 上完整运行了 bootstrap.sh,Linux 则在 Ubuntu 24.04 容器中手动完成了各个步骤。",
+      "target": "REA 安装与使用流程(Claude Code 技能)",
+      "metric": "支持 rea-agents 6.8.0,bootstrap.sh 已在 Windows 完整运行"
+    }
   }
 }

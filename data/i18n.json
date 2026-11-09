@@ -19453,5 +19453,50 @@
       "target": "REA 安装与使用流程(Claude Code 技能)",
       "metric": "支持 rea-agents 6.8.0,bootstrap.sh 已在 Windows 完整运行"
     }
+  },
+  "d-2d678e9a2a": {
+    "hash": "b97f5ab8a21c",
+    "en": {
+      "title": "A toolkit for setting up REA on Windows, verified against real files",
+      "summary": "Addresses the non-obvious problems of running REA on Windows (PATH, environment variables, BOM, absolute paths) with a reproducible deployment toolkit that ties together Ghidra, jadx, apktool, WABT, pcap and adb. The author notes this is an integration tool for upstream REA rather than a new analysis engine, and provides regression tests and an evidence index, along with notes on historical results and version differences.",
+      "target": "REA deployment and integration on Windows",
+      "metric": "Documents 4 common failure points in Windows paths, with regression tests and an evidence index"
+    },
+    "zh-CN": {
+      "title": "整理 REA 在 Windows 上搭建并以真实文件验证的工具包",
+      "summary": "针对 REA 在 Windows 上的非显而易见问题(PATH、环境变量、BOM、绝对路径),构建可复现的部署工具包,串接 Ghidra、jadx、apktool、WABT、pcap 与 adb。作者注明这是上游 REA 的集成工具而非新的分析引擎,并附有回归测试与证据索引,同时说明历史结果与版本差异。",
+      "target": "REA 的 Windows 部署与集成",
+      "metric": "整理出 Windows 路径的 4 个常见故障点,并附回归测试与证据索引"
+    }
+  },
+  "d-16f345e376": {
+    "hash": "f80880895147",
+    "en": {
+      "title": "Deploying REA on Windows and verifying six tool capabilities against real files",
+      "summary": "Integrates engines such as Ghidra 12.1.4 and jadx on Windows 10, and documents 4 deployment pitfalls along with the features blocked on Windows. Each capability comes with measured records in the evidence directory, including notepad.exe decompilation, APK analysis, WASM inspection and tshark packet capture.",
+      "target": "REA deployment on Windows (Ghidra, jadx, apktool, WABT, tshark, adb)",
+      "metric": "Usable tools increased from 86 to 110 (207 in total in REA 6.5.0); 794 functions identified in notepad.exe"
+    },
+    "zh-CN": {
+      "title": "在 Windows 部署 REA 并以真实文件验证六项工具能力",
+      "summary": "在 Windows 10 上串接 Ghidra 12.1.4 与 jadx 等引擎,并整理 4 个部署陷阱以及 Windows 上被封锁的功能。每项能力都附有 evidence 目录中的实测记录,包括 notepad.exe 反编译、APK 分析、WASM 检查与 tshark 抓包。",
+      "target": "REA 的 Windows 部署(Ghidra、jadx、apktool、WABT、tshark、adb)",
+      "metric": "可用工具由 86 个增至 110 个(REA 6.5.0 共 207 个);notepad.exe 识别出 794 个函数"
+    }
+  },
+  "d-f3e9f26835": {
+    "hash": "78427c72c562",
+    "en": {
+      "title": "A usage guide for REA, featuring official cases such as DX-Ball",
+      "summary": "The site introduces what REA is for and lists scenarios including Electron app mapping, native binaries, Android/Flutter analysis and version diffing. It cites the official DX-Ball case, in which C converted from pseudocode passed 3,205 original x86 tests, and adds its own Electron test that located the IPC handler in about 1.6 seconds. The content is mostly an introduction and a retelling of official cases; its own measurements are small-scale examples.",
+      "target": "REA overall use cases, with examples including DX-Ball, TH04, Notion and the Saber APK",
+      "metric": "DX-Ball reconstruction passed 3,205 original x86 tests (official case)"
+    },
+    "zh-CN": {
+      "title": "REA 使用场景指南,列举 DX-Ball 等官方案例",
+      "summary": "网站介绍 REA 的用途并列出场景,包括 Electron 应用映射、原生二进制、Android/Flutter 分析与版本比对。其中引用官方案例:DX-Ball 由伪代码转成的 C 通过 3,205 条原版 x86 测试,并附自己的 Electron 实测,约 1.6 秒找到 IPC handler。内容主要是介绍与转述官方案例,自身的实测属小型示例。",
+      "target": "REA 的整体用途,含 DX-Ball、TH04、Notion、Saber APK 等示例",
+      "metric": "DX-Ball 重建通过 3,205 条原版 x86 测试(官方案例)"
+    }
   }
 }

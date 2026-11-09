@@ -2,6 +2,48 @@
   "updated": "2026-11-09",
   "items": [
     {
+      "url": "https://github.com/ExinX/rea-windows-verified",
+      "title": "ExinX/rea-windows-verified: REA (Reverse Engineer Anything) on Windows: verified deployment with Ghidra, jadx, apktool, WABT, pcap and adb",
+      "author": "ExinX",
+      "date": "2026-11-09",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 1,
+      "lang": "en",
+      "found": "2026-11-09",
+      "relevant": true,
+      "title_zh": "整理 REA 在 Windows 上搭建並以真實檔案驗證的工具包",
+      "summary": "針對 REA 在 Windows 上的非顯而易見問題（PATH、環境變數、BOM、絕對路徑），建立可重現的部署工具包，串接 Ghidra、jadx、apktool、WABT、pcap 與 adb。作者註明這是上游 REA 的整合工具而非新分析引擎，並附有回歸測試與證據索引，同時說明歷史結果與版本差異。",
+      "target": "REA 的 Windows 部署與整合",
+      "metric": "為 Windows 路徑整理 4 個常見故障點，並附回歸測試與證據索引",
+      "category": "工具鏈",
+      "status": "tested",
+      "wow": 2,
+      "scored": "2026-11-09",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/ExinX/rea-windows-setup",
+      "title": "ExinX/rea-windows-setup: Verified REA (Reverse Engineer Anything) deployment on Windows: Ghidra, jadx, apktool, WABT, pcap, adb - with evidence",
+      "author": "ExinX",
+      "date": "2026-11-09",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-09",
+      "relevant": true,
+      "title_zh": "在 Windows 部署 REA 並以真實檔案驗證六項工具能力",
+      "summary": "在 Windows 10 上串接 Ghidra 12.1.4 與 jadx 等引擎，並整理 4 個部署陷阱與 Windows 上被封鎖的功能。每項能力都附有 evidence 目錄的實測紀錄，包含 notepad.exe 反編譯、APK 分析、WASM 檢查與 tshark 封包擷取。",
+      "target": "REA 的 Windows 部署（Ghidra、jadx、apktool、WABT、tshark、adb）",
+      "metric": "可用工具由 86 個增至 110 個（REA 6.5.0 共 207 個）；notepad.exe 辨識出 794 個程序",
+      "category": "工具鏈",
+      "status": "tested",
+      "wow": 2,
+      "scored": "2026-11-09",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/Shirozo/xid8300-linux",
       "title": "Shirozo/xid8300-linux: Linux CUPS driver for Matica XID8300 / XID8100 retransfer card printers (network). Reverse engineered with REA (github.com/morluto/rea) and Claude Code.",
       "author": "Shirozo",
@@ -318,11 +360,18 @@
       "scored_by": "sonnet"
     },
     {
-      "url": "https://github.com/regoists/Skeeto",
-      "title": "regoists/Skeeto: A client enhancement framework for Left 4 Dead 2",
-      "source": "GitHub",
+      "url": "https://ai-tools-db.com/ai-trends/what-is-rea-reverse-engineer-anything/",
+      "title": "REA (Reverse Engineer Anything)とは？AIでソフトの中身を調べる仕組み・使い方・注意点",
+      "author": "たてばやし 淳",
+      "date": "2026-11-01",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "ja",
       "found": "2026-11-09",
-      "relevant": false,
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
       "scored": "2026-11-09",
       "scored_by": "jev"
     },
@@ -347,15 +396,6 @@
       "scored_by": "sonnet"
     },
     {
-      "url": "https://github.com/mehsimsim/Reacode",
-      "title": "mehsimsim/Reacode",
-      "source": "GitHub",
-      "found": "2026-11-09",
-      "relevant": false,
-      "scored": "2026-11-09",
-      "scored_by": "jev"
-    },
-    {
       "url": "https://www.madewithstack.com/blog/how-ai-agents-reverse-engineer-software-with-rea",
       "title": "How AI Agents Reverse Engineer Software With REA - MadeWithStack",
       "author": "madewithstack.com",
@@ -374,6 +414,24 @@
       "wow": 1,
       "scored": "2026-11-09",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/regoists/Skeeto",
+      "title": "regoists/Skeeto: A client enhancement framework for Left 4 Dead 2",
+      "source": "GitHub",
+      "found": "2026-11-09",
+      "relevant": false,
+      "scored": "2026-11-09",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/mehsimsim/Reacode",
+      "title": "mehsimsim/Reacode",
+      "source": "GitHub",
+      "found": "2026-11-09",
+      "relevant": false,
+      "scored": "2026-11-09",
+      "scored_by": "jev"
     },
     {
       "url": "https://www.reddit.com/r/AusProperty/comments/17i7otd/is_it_illegal_for_rea_to_go_backandforth_to/",
@@ -439,6 +497,81 @@
       "metric": "12 步驟、9 頁 PDF，含 6 個內建工作流程",
       "category": "教學",
       "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-09",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://youtu.be/IiAmcKZs3fg",
+      "title": "How REA Cracked Closed-Source Software Wide Open",
+      "author": "InRecord",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 66723,
+      "lang": "en",
+      "found": "2026-11-09",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "scored": "2026-11-09",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://youtu.be/PQ2v8BKQfsQ",
+      "title": "全网最新！REA逆向复刻软件保姆级教程，10分钟让你快速克隆任何软件，零基础小白也能轻松学会，建议收藏！！",
+      "author": "白白说大模型",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 810,
+      "lang": "zh",
+      "found": "2026-11-09",
+      "relevant": true,
+      "title_zh": "YouTube 教學影片介紹用 REA 逆向複刻軟體",
+      "summary": "影片標題宣稱 10 分鐘教會零基礎使用者用 REA 逆向並複刻軟體。節錄內容只有大模型教材的領取廣告，沒有任何具體目標、步驟或成果。",
+      "target": "未說明（泛稱任何軟體）",
+      "metric": "無具體成果，節錄僅含教材領取資訊",
+      "category": "教學",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-11-09",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://youtu.be/PuMe7ou3f2I",
+      "title": "REAとは？AIがアプリの中身を読み解く仕組みと使い方、作る側の備えを13分で解説",
+      "author": "AI速報ラジオ",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 400,
+      "lang": "ja",
+      "found": "2026-11-09",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-11-09",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://reaguide.com/use-cases/",
+      "title": "REA Use Cases: reverse engineer Electron apps (3,205 test cases), APKs with AI",
+      "author": "reaguide.com",
+      "date": null,
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-11-09",
+      "relevant": true,
+      "title_zh": "REA 使用情境指南，列舉 DX-Ball 等官方案例",
+      "summary": "網站介紹 REA 的用途並列出情境，包含 Electron 應用對映、原生二進位、Android/Flutter 分析與版本比對。其中引用官方案例：DX-Ball 偽代碼轉成的 C 通過 3,205 筆原版 x86 測試，並附自己的 Electron 實測，約 1.6 秒找到 IPC handler。內容主要是介紹與轉述官方案例，自身的實測屬小型範例。",
+      "target": "REA 整體用途，含 DX-Ball、TH04、Notion、Saber APK 等範例",
+      "metric": "DX-Ball 重建通過 3,205 筆原版 x86 測試（官方案例）",
+      "category": "教學",
+      "status": "reported",
       "wow": 2,
       "scored": "2026-11-09",
       "scored_by": "sonnet"
@@ -48436,6 +48569,35 @@
   "runs": [
     {
       "date": "2026-11-09",
+      "added": 7,
+      "stats": {
+        "githubShowAndTell": 15,
+        "githubRepos": 239,
+        "githubCode": 47,
+        "hackerNews": 29,
+        "qiita": 49,
+        "devto": 150,
+        "juejin": 4,
+        "reddit": 20,
+        "v2ex": 14,
+        "youtube": 90,
+        "bluesky": 162,
+        "mastodon": 160,
+        "exaWeb": 60,
+        "x": "error: Command failed: grok -p Search X for posts from the last 7 days where people sho"
+      },
+      "scoring": {
+        "scored": 4,
+        "jev": {
+          "low": 3,
+          "irrelevant": 0,
+          "errors": 0,
+          "toClaude": 4
+        }
+      }
+    },
+    {
+      "date": "2026-11-09",
       "added": 25,
       "stats": {
         "githubShowAndTell": 15,
@@ -49274,36 +49436,7 @@
           "toClaude": 10
         }
       }
-    },
-    {
-      "date": "2026-10-28",
-      "added": 41,
-      "stats": {
-        "githubShowAndTell": 10,
-        "githubRepos": 233,
-        "githubCode": 44,
-        "hackerNews": 21,
-        "qiita": 43,
-        "devto": 150,
-        "juejin": 6,
-        "reddit": "error: 429 reddit rss",
-        "v2ex": 10,
-        "youtube": 90,
-        "bluesky": 159,
-        "mastodon": 160,
-        "exaWeb": 56,
-        "x": 30
-      },
-      "scoring": {
-        "scored": 30,
-        "jev": {
-          "low": 7,
-          "irrelevant": 4,
-          "errors": 0,
-          "toClaude": 30
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-09T00:22:28.304Z"
+  "updatedAt": "2026-11-09T04:36:25.220Z"
 }

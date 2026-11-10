@@ -46559,8 +46559,8 @@
     },
     {
       "date": "2026-11-10",
-      "stars": 446926,
-      "stars_delta": 2618,
+      "stars": 447477,
+      "stars_delta": 3169,
       "new": [
         "d-24170ace51",
         "d-4fc1509395",
@@ -46595,27 +46595,27 @@
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 重建 Windows 記事本與 Sopwith，成果驗證成焦點",
-          "summary": "11 月 10 日 REA 的 GitHub 星數達 446,926，比前一個紀錄 444,308 增加 2,618。排名最前的四項都是 5/5 案例：用 REA 與 Ghidra 重建通過 26 項測試的 Windows 記事本、對 Beekeeper Studio CSV 匯出做無塵室複製且在 18 組資料集上位元組一致，以及兩篇 DeepSeek 以 REA 逆向 1984 年 Sopwith 並重建成 Chrome 遊戲的報導（其中一篇提到花費 0.68 美元）。這些案例都強調對照測試與可驗證的結果，也同時揭露 REA 在大型套件上記憶體不足等限制；下半部多為整合與設定類項目，沒有具體逆向成果。"
+          "headline": "REA 星數破 44.7 萬，記事本與 Sopwith 重建案例齊發",
+          "summary": "11 月 10 日 REA 星數增至 447,477，單日比前一個紀錄多 3,169。排名最前的是 5/5 高分案例：用 REA 與 Ghidra 重建 Windows 記事本並通過 26 項測試、對 Beekeeper Studio 做無塵室複製且 CSV 匯出在 18 組資料集上位元組一致，以及 DeepSeek 以約 0.68 美元把 1984 年 Sopwith 重建成 Chrome 遊戲（同一事件有兩筆收錄）。重點在於這些成果都附對照測試或逐幀比對，同時也坦承 REA 在大型套件上記憶體不足、規格會漏掉上游行為等限制；另有 LASIK 去混淆工具與 Ouroboros、Red Gravity 的技能整合，顯示生態仍在擴張。"
         },
         "en": {
-          "headline": "REA rebuilds Notepad and Sopwith, with verified results in focus",
-          "summary": "On Nov 10, REA's GitHub stars reached 446,926, up 2,618 from the previous record of 444,308. The top four items are all 5/5 cases: a Windows Notepad rebuilt with REA and Ghidra that passes 26 tests, a clean-room copy of Beekeeper Studio's CSV export that matches the original byte for byte on 18 edge-case datasets, and two reports of DeepSeek reversing the 1984 game Sopwith with REA and rebuilding it as a Chrome game (one cites a cost of $0.68). These cases stress differential testing and checkable results, and they also admit limits such as REA running out of memory on large suites; the lower-ranked items are mostly integrations and setup guides with no concrete reverse-engineering outcome."
+          "headline": "REA passes 447K stars as Notepad and Sopwith rebuilds land",
+          "summary": "On Nov 10 REA's GitHub stars reached 447,477, up 3,169 from the previous record. The top items are 5/5 cases: a Windows Notepad rebuilt with REA and Ghidra that passes 26 tests, a clean-room Beekeeper Studio clone whose CSV export matches the original byte for byte on 18 edge-case datasets, and DeepSeek rebuilding the 1984 DOS game Sopwith as a Chrome game for about $0.68 (listed twice). What stands out is that each result comes with differential tests or frame-by-frame comparison, and the authors openly report limits such as REA running out of memory on large suites and specs missing upstream behavior. LASIK's de-obfuscation tool and the Ouroboros and Red Gravity skill integrations show the ecosystem still expanding."
         },
         "zh-CN": {
-          "headline": "REA 重建 Windows 记事本与 Sopwith，成果验证成焦点",
-          "summary": "11 月 10 日 REA 的 GitHub 星数达到 446,926，比之前的记录 444,308 增加 2,618。排名最靠前的四项都是 5/5 案例：用 REA 与 Ghidra 重建通过 26 项测试的 Windows 记事本、对 Beekeeper Studio CSV 导出做无尘室复制且在 18 组数据集上字节完全一致，以及两篇 DeepSeek 用 REA 逆向 1984 年 Sopwith 并重建为 Chrome 游戏的报道（其中一篇提到花费 0.68 美元）。这些案例都强调对照测试与可验证的结果，也同时披露 REA 在大型套件上内存不足等限制；后半部分多为集成与配置类项目，没有具体逆向成果。"
+          "headline": "REA 星数破 44.7 万，记事本与 Sopwith 重建案例齐发",
+          "summary": "11 月 10 日 REA 星数增至 447,477，单日比之前的纪录多 3,169。排名最靠前的是 5/5 高分案例：用 REA 与 Ghidra 重建 Windows 记事本并通过 26 项测试、对 Beekeeper Studio 做无尘室复制且 CSV 导出在 18 组数据集上字节一致，以及 DeepSeek 以约 0.68 美元把 1984 年 Sopwith 重建成 Chrome 游戏（同一事件有两条收录）。重点在于这些成果都附对照测试或逐帧比对，同时也坦承 REA 在大型套件上内存不足、规格会漏掉上游行为等限制；另有 LASIK 去混淆工具与 Ouroboros、Red Gravity 的技能集成，显示生态仍在扩张。"
         }
       },
       "signals": [
-        "A",
         "B",
-        "C"
+        "C",
+        "G"
       ],
       "highlights": [
         "d-4fc1509395",
-        "d-5160e8ae64",
-        "d-24170ace51"
+        "d-24170ace51",
+        "d-5160e8ae64"
       ],
       "rank": [
         "dx-ball-sound-pan",
@@ -48548,6 +48548,8 @@
         "d-e776c1c4c1",
         "d-2761852b3d",
         "d-2f09a54a93",
+        "d-046a577ca8",
+        "d-c9146cd96a",
         "d-ea18e40e20",
         "d-7d6c83d687",
         "d-df19f7695c",
@@ -48901,38 +48903,38 @@
     "to": "2026-11-10",
     "text": {
       "zh-TW": {
-        "headline": "REA 從展示走向驗證:逆向成果以實測可信度勝出,攻防同步升溫",
-        "summary": "本週 REA 星數從 42.7 萬升至 44.7 萬,每天穩定新增。驗證訊號(B)七天全數出現,從 11/5 DX-Ball 逐位元組一致、11/8 MT5 實測 60 秒 869 筆報價,到 11/10 記事本 26 項測試與 Beekeeper 18 組資料集位元組一致,有證據的案例明顯優於自述型貼文。案例仍以舊遊戲與停運 App 的保存與重製為主(C),11/6、11/9 則出現行李箱、證卡印表機等硬體相關成果(D)。同時 BLA、AEGIS、ReClarity 等阻擋或對抗 AI 逆向的工具出現,客戶端程式碼不再是護城河(A);周邊生態則轉向 Windows 部署包與桌面工作台(G)。成本議題(F)只在 11/4 被提及,模型平台限制(E)全週未出現。",
-        "watch": "接下來幾天可留意 ReClarity 是否正式釋出,以及加固與反加固工具的實測對照結果。想找機會的人,可優先做附對照測試的舊軟體重建、停運 App 資料救援或硬體驅動,並記錄大型套件記憶體不足等限制;Windows 部署與桌面工作台類工具也值得關注。"
+        "headline": "REA 熱度續攀高，焦點從展示轉向可驗證的重建成果",
+        "summary": "本週 REA 星數從 42.7 萬升至 44.7 萬，每天都有 3,000 上下的增幅。「驗證是瓶頸」（B）七天全數出現，討論從 11/5 的 DX-Ball 逐位元組重現，一路到 11/10 的記事本 26 項測試與 Beekeeper CSV 在 18 組資料集上位元組一致，附測試的案例明顯比自述型貼文更受重視。遺留軟體保存（C）仍以舊遊戲為主，如 Linux 賽車啟動器與 Sopwith，但已延伸到記事本、行動 App 與市政入口網站稽核等一般軟體。硬體互通（D）在行李箱 APK、錄音豆藍牙與證卡印表機驅動中零星出現，防禦端的 BLA、AEGIS 與 ReClarity 也開始出現，攻防雙方同時成形。",
+        "watch": "可以留意附對照測試或逐幀比對的案例，以及規格漏掉上游行為、大型套件記憶體不足等已被坦承的限制，這些缺口是工具與流程的機會。也值得觀察 BLA、AEGIS 與尚未釋出的 ReClarity 之間的攻防，以及 Windows 部署工具與 Skill 整合能否壓低每次提問約 16 萬至 20 萬 token 的成本。"
       },
       "en": {
-        "headline": "REA shifts from demos to verified results, with offense and defense rising together",
-        "summary": "REA stars grew from 427K to 447K this week, with steady daily gains. Verification (B) appeared all seven days: DX-Ball byte-for-byte match on 11/5, the MT5 connector receiving 869 quotes in 60 seconds on 11/8, and Notepad with 26 tests plus Beekeeper byte-identical on 18 datasets on 11/10. Cases with evidence clearly outranked self-reported posts. Work still centered on preserving and remaking old games and shut-down apps (C), with hardware-adjacent results like a luggage app and a card printer driver on 11/6 and 11/9 (D). Tools to block or counter AI reverse engineering (BLA, AEGIS, ReClarity) appeared, showing client code is no longer a moat (A), while the ecosystem grew toward Windows deployment kits and desktop workbenches (G). Cost (F) came up only on 11/4, and model-platform limits (E) never appeared.",
-        "watch": "Watch whether ReClarity actually ships and how hardening and counter-hardening tools fare in real tests. For opportunities, favor old-software rebuilds with differential tests, data rescue from shut-down apps, and hardware drivers, and document limits such as running out of memory on large suites. Windows deployment and desktop workbench tooling is also worth tracking."
+        "headline": "REA keeps surging as focus shifts from demos to verifiable rebuilds",
+        "summary": "REA stars climbed from 427K to 447K this week, adding roughly 3,000 a day. 'Verification is the bottleneck' (B) appeared all seven days: from DX-Ball's byte-for-byte reproduction on 11/5 to Notepad passing 26 tests and Beekeeper's CSV export matching byte for byte on 18 datasets on 11/10, cases with tests clearly outranked self-reported posts. Legacy preservation (C) is still led by old games such as Linux racing launchers and Sopwith, but it now reaches general software like Notepad, a mobile app and a municipal portal audit. Hardware interop (D) showed up sporadically in a luggage APK, a recorder's Bluetooth flow and a card-printer driver, while defensive tools (BLA, AEGIS, ReClarity) appeared, so attack and defense are forming together.",
+        "watch": "Look for cases that ship comparison tests or frame-by-frame diffs, and for the limits now admitted openly, such as specs missing upstream behavior and memory running out on large codebases; those gaps are where tooling and process opportunities sit. Also watch the contest between BLA, AEGIS and the not-yet-released ReClarity, and whether Windows deployment kits and Skill integrations can cut the roughly 160K–200K tokens per question reported."
       },
       "zh-CN": {
-        "headline": "REA 从展示走向验证:逆向成果以实测可信度取胜,攻防同步升温",
-        "summary": "本周 REA 星数从 42.7 万升至 44.7 万,每天稳定新增。验证信号(B)七天全部出现,从 11/5 DX-Ball 逐字节一致、11/8 MT5 实测 60 秒 869 条报价,到 11/10 记事本 26 项测试与 Beekeeper 18 组数据集字节一致,有证据的案例明显优于自述型帖子。案例仍以旧游戏与停运 App 的保存和重制为主(C),11/6、11/9 则出现行李箱、证卡打印机等硬件相关成果(D)。同时 BLA、AEGIS、ReClarity 等阻挡或对抗 AI 逆向的工具出现,客户端代码不再是护城河(A);周边生态则转向 Windows 部署包与桌面工作台(G)。成本议题(F)只在 11/4 被提及,模型平台限制(E)全周未出现。",
-        "watch": "接下来几天可留意 ReClarity 是否正式发布,以及加固与反加固工具的实测对照结果。想找机会的人,可优先做附对照测试的旧软件重建、停运 App 数据救援或硬件驱动,并记录大型套件内存不足等限制;Windows 部署与桌面工作台类工具也值得关注。"
+        "headline": "REA 热度持续攀高，焦点从展示转向可验证的重建成果",
+        "summary": "本周 REA 星数从 42.7 万升至 44.7 万，每天都有 3,000 上下的增幅。“验证是瓶颈”（B）七天全部出现，讨论从 11/5 的 DX-Ball 逐字节重现，一路到 11/10 的记事本 26 项测试与 Beekeeper CSV 在 18 组数据集上字节一致，附测试的案例明显比自述型帖子更受重视。遗留软件保存（C）仍以旧游戏为主，如 Linux 赛车启动器与 Sopwith，但已延伸到记事本、移动应用与市政门户审计等一般软件。硬件互通（D）在行李箱 APK、录音豆蓝牙与证卡打印机驱动中零星出现，防御端的 BLA、AEGIS 与 ReClarity 也开始出现，攻防双方同时成形。",
+        "watch": "可以留意附对照测试或逐帧比对的案例，以及规格漏掉上游行为、大型套件内存不足等已被坦承的限制，这些缺口是工具与流程的机会。也值得观察 BLA、AEGIS 与尚未发布的 ReClarity 之间的攻防，以及 Windows 部署工具与 Skill 整合能否压低每次提问约 16 万至 20 万 token 的成本。"
       }
     },
     "rising": [
       "B",
       "C",
-      "A"
+      "G"
     ],
     "fading": [
       "E",
       "F"
     ],
     "tally": {
-      "A": 4,
+      "A": 3,
       "B": 7,
       "C": 4,
       "D": 2,
       "E": 0,
       "F": 1,
-      "G": 3
+      "G": 4
     }
   }
 }

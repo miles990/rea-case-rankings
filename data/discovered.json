@@ -2,6 +2,39 @@
   "updated": "2026-11-10",
   "items": [
     {
+      "url": "https://bsky.app/profile/chuiho.net/post/3mzwhkv2s2c2g",
+      "title": "［注意］REA などAI改造ブーム、スマート家電の危険",
+      "author": "chuiho.net",
+      "date": "2026-11-10",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 0,
+      "lang": "ja",
+      "found": "2026-11-10",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-10",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2611/10/2000002975/",
+      "title": "“何でもリバースエンジニアリング”生成AIで広がる　ソフトウェアもスマート家電も手軽に改造……ブームに潜む危険：この頃、セキュリティ界隈で - ITmedia NEWS",
+      "author": "著者 鈴木聖子 [ITmedia]",
+      "date": "2026-11-10",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "ja",
+      "found": "2026-11-10",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-10",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://github.com/pktq/lasik",
       "title": "pktq/lasik: BLA blinds your agent. LASIK gives it its sight back. Static de-blinding CLI + MCP server that undoes BLA (Blind LLM Agents) hardening so coding agents and REA can read the real code again. Never executes the target.",
       "author": "pktq",
@@ -327,15 +360,6 @@
       "scored_by": "sonnet"
     },
     {
-      "url": "https://github.com/raghavkhandal72-coder/apex",
-      "title": "raghavkhandal72-coder/apex: ⚡ Autonomous Self-Healing Code Engine (pip=0, <400KB): CEGIS 1-token synthesis, Weiser AST s",
-      "source": "GitHub",
-      "found": "2026-11-10",
-      "relevant": false,
-      "scored": "2026-11-10",
-      "scored_by": "sonnet"
-    },
-    {
       "url": "https://github.com/razzant/OuroborosHub",
       "title": "razzant/OuroborosHub: Official Ouroboros skills catalog",
       "author": "razzant",
@@ -358,6 +382,15 @@
       "category": "工具鏈",
       "status": "shipped",
       "wow": 2,
+      "scored": "2026-11-10",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/raghavkhandal72-coder/apex",
+      "title": "raghavkhandal72-coder/apex: ⚡ Autonomous Self-Healing Code Engine (pip=0, <400KB): CEGIS 1-token synthesis, Weiser AST s",
+      "source": "GitHub",
+      "found": "2026-11-10",
+      "relevant": false,
       "scored": "2026-11-10",
       "scored_by": "sonnet"
     },
@@ -48993,6 +49026,35 @@
   "runs": [
     {
       "date": "2026-11-10",
+      "added": 2,
+      "stats": {
+        "githubShowAndTell": 15,
+        "githubRepos": 237,
+        "githubCode": 47,
+        "hackerNews": 30,
+        "qiita": 49,
+        "devto": 150,
+        "juejin": 1,
+        "reddit": 20,
+        "v2ex": 15,
+        "youtube": 90,
+        "bluesky": 162,
+        "mastodon": 160,
+        "exaWeb": 60,
+        "x": "error: Command failed: grok -p Search X for posts from the last 7 days where people sho"
+      },
+      "scoring": {
+        "scored": 0,
+        "jev": {
+          "low": 2,
+          "irrelevant": 0,
+          "errors": 0,
+          "toClaude": 0
+        }
+      }
+    },
+    {
+      "date": "2026-11-10",
       "added": 23,
       "stats": {
         "githubShowAndTell": 15,
@@ -49831,36 +49893,7 @@
           "toClaude": 26
         }
       }
-    },
-    {
-      "date": "2026-10-29",
-      "added": 39,
-      "stats": {
-        "githubShowAndTell": 13,
-        "githubRepos": 244,
-        "githubCode": 45,
-        "hackerNews": 18,
-        "qiita": 43,
-        "devto": 150,
-        "juejin": 6,
-        "reddit": "error: 429 reddit rss",
-        "v2ex": 10,
-        "youtube": 90,
-        "bluesky": 160,
-        "mastodon": 160,
-        "exaWeb": 57,
-        "x": 30
-      },
-      "scoring": {
-        "scored": 28,
-        "jev": {
-          "low": 9,
-          "irrelevant": 2,
-          "errors": 0,
-          "toClaude": 28
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-10T00:22:05.089Z"
+  "updatedAt": "2026-11-10T04:34:00.014Z"
 }

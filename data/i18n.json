@@ -19498,5 +19498,170 @@
       "target": "REA 的整体用途,含 DX-Ball、TH04、Notion、Saber APK 等示例",
       "metric": "DX-Ball 重建通过 3,205 条原版 x86 测试(官方案例)"
     }
+  },
+  "d-b61e1b90de": {
+    "hash": "48759e05379e",
+    "en": {
+      "title": "Writing a REA Reverse Engineering Skill for the Ouroboros Skill Catalog",
+      "summary": "The official OuroborosHub skill catalog adds a rea-reverse-engineering skill, rewriting the evidence-driven analysis workflow from morluto/rea into a lightweight version. The skill does not bundle REA, an MCP server, or any analysis engine; it is only integration documentation for the workflow.",
+      "target": "Ouroboros skill catalog",
+      "metric": "Adds skills/rea-reverse-engineering/SKILL.md (v0.1.0); does not bundle REA itself"
+    },
+    "zh-CN": {
+      "title": "为 Ouroboros 技能目录编写 REA 逆向工程技能",
+      "summary": "OuroborosHub 官方技能目录新增 rea-reverse-engineering 技能，将 morluto/rea 以证据为导向的分析流程改写为轻量版。该技能不内含 REA、MCP 服务器或分析引擎，仅是工作流程的集成说明。",
+      "target": "Ouroboros 技能目录",
+      "metric": "新增 skills/rea-reverse-engineering/SKILL.md（v0.1.0），不打包 REA 本体"
+    }
+  },
+  "d-c85f2be9ba": {
+    "hash": "db2aa4d4f1c6",
+    "en": {
+      "title": "Red Gravity: A Red-Team Multi-Agent Suite with a REA Reverse Engineering Skill",
+      "summary": "Packages 39 sub-agents, 70 skills, and 19 security toolkits for the Antigravity IDE, including one REA reverse engineering skill (ASAR unpacking, PE/ELF analysis, deobfuscation). The content is mostly integration and configuration; it does not demonstrate reverse engineering results against any specific target.",
+      "target": "Antigravity IDE plugin and control panel",
+      "metric": "39 sub-agents, 70 skills (including 1 REA skill)"
+    },
+    "zh-CN": {
+      "title": "Red Gravity：含 REA 逆向技能的红队多代理套件",
+      "summary": "为 Antigravity IDE 打包 39 个子代理、70 个技能与 19 组安全工具套件，其中包含一项 REA 逆向技能（ASAR 解包、PE/ELF 分析、去混淆）。内容以集成与配置为主，没有展示针对具体目标的逆向成果。",
+      "target": "Antigravity IDE 插件与控制面板",
+      "metric": "39 个子代理、70 个技能（含 1 项 REA 技能）"
+    }
+  },
+  "d-aea2c602a6": {
+    "hash": "84aa8c19a22b",
+    "en": {
+      "title": "Setup and Scripts for Using REA with the Ghidra Decompiler",
+      "summary": "Provides an installation guide for using Ghidra as the REA analysis engine, along with environment variable examples, bridge build steps, and Ghidra auto-analysis scripts. The content is setup tutorials and helper scripts; it includes no analysis results for any specific target.",
+      "target": "REA and Ghidra environment setup",
+      "metric": "Provides a Ghidra bridge build and auto-decompilation scripts"
+    },
+    "zh-CN": {
+      "title": "整理 REA 搭配 Ghidra 反编译器的配置与脚本",
+      "summary": "提供以 Ghidra 作为 REA 分析引擎的安装指南、环境变量示例、桥接构建与 Ghidra 自动分析脚本。内容为配置教程与辅助脚本，没有针对特定目标的分析成果。",
+      "target": "REA 与 Ghidra 的环境配置",
+      "metric": "提供 Ghidra 桥接构建与自动反编译脚本"
+    }
+  },
+  "d-074ce3c4b0": {
+    "hash": "ea117670a901",
+    "en": {
+      "title": "Auto-generating an AI agent practice environment from a HAR recording with REA",
+      "summary": "The author recorded a HAR session on a self-built folder-management web app, and REA generated an MCP practice environment from it. REA exposes only the read, create, and rename operations backed by evidence, deliberately withholding delete and reset. Once connected, an agent can use it and the responses match the real app. Code and screenshots are included, and REA's built-in validator passes.",
+      "target": "Self-built web app (folder-management REST API)",
+      "metric": "REA validator passed; 3 operation types exposed, delete and reset deliberately withheld"
+    },
+    "zh-CN": {
+      "title": "用 REA 从 HAR 录制自动生成 AI 代理练习环境",
+      "summary": "作者在自制的文件夹管理网页 App 上录制了 HAR 会话,由 REA 生成 MCP 练习环境。REA 只开放有证据支持的读取、创建、重命名,并刻意保留删除与重置;代理连接后即可使用,且响应与真实 App 一致。附代码、截图,REA 内置验证器通过。",
+      "target": "自制网页 App(文件夹管理 REST API)",
+      "metric": "REA 验证器通过;开放 3 类操作,刻意保留删除与重置"
+    }
+  },
+  "d-ba2e4d452b": {
+    "hash": "d3ff16883d8f",
+    "en": {
+      "title": "Reverse-engineering the GBA Aladdin ROM with REA and Claude to rebuild its physics",
+      "summary": "The author used REA (Ghidra) to have Claude analyze character movement and jumping in the 3.98MB Aladdin GBA ROM. It found parameters such as gravity but could not locate the jump parameters, and the recovered physics values were used to build an original browser game. Every result carries an evidence ID and SHA-256 for traceability.",
+      "target": "Aladdin GBA ROM (3,987,712 bytes)",
+      "metric": "Gravity value 0x38 found; jump parameters not found"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Claude 逆向 GBA《阿拉丁》ROM 并重建物理",
+      "summary": "作者对 3.98MB 的 Aladdin GBA ROM 使用 REA(Ghidra),让 Claude 分析角色移动与跳跃。成功找到重力等参数,但未找到跳跃参数,并据所还原的物理参数制作了原创的浏览器游戏。每个结果均附证据 ID 与 SHA-256,可追溯。",
+      "target": "Aladdin GBA ROM(3,987,712 字节)",
+      "metric": "找出重力值 0x38,但未找到跳跃参数"
+    }
+  },
+  "d-6a2ffd15ad": {
+    "hash": "818db519b582",
+    "en": {
+      "title": "LASIK: undoing BLA anti-agent obfuscation so REA can read the real code",
+      "summary": "Aimed at protective obfuscation like BLA that stops AI agents from reading code, this project provides a static deobfuscation CLI and MCP server. It removes opaque predicates, encrypted strings, decoy code, and more, without ever executing the target. The cleaned output can be handed to REA for analysis, sharply cutting token usage on the public BLA CrackMe corpus.",
+      "target": "BLA-protected code bundles and multiple formats (JS, ELF/PE, APK, etc.)",
+      "metric": "1,262x token reduction on the BLA CrackMe corpus; 59 of 63 protections recovered"
+    },
+    "zh-CN": {
+      "title": "LASIK:还原 BLA 反代理混淆,让 REA 能读懂真实代码",
+      "summary": "针对 BLA 这类阻止 AI 代理阅读的防护混淆,开发了静态去混淆 CLI 与 MCP 服务器,可移除不透明谓词、加密字符串、诱饵代码等,且从不执行目标。清理后的产出可交给 REA 分析,在公开的 BLA CrackMe 语料上大幅减少 token 用量。",
+      "target": "BLA 防护的代码包及多种格式(JS、ELF/PE、APK 等)",
+      "metric": "BLA CrackMe 语料 token 减少 1,262 倍;63 项防护中 59 项还原"
+    }
+  },
+  "d-0f6e48d2b8": {
+    "hash": "377620b2d548",
+    "en": {
+      "title": "YouTube tutorial: reverse-engineering software features with REA in Claude Code",
+      "summary": "The video shows how to integrate REA into Claude Code, using AI to reverse-engineer software features and build applications from them. The excerpt is only an overview, with no specific target or results.",
+      "target": "Unspecified (general software reverse engineering)",
+      "metric": "Tutorial introduction only; no concrete results"
+    },
+    "zh-CN": {
+      "title": "YouTube 教程:在 Claude Code 中用 REA 逆向软件功能",
+      "summary": "视频介绍如何把 REA 集成到 Claude Code,用 AI 逆向软件功能并据此构建应用。节选内容只有概述,没有具体目标或成果。",
+      "target": "未指明(通用软件逆向)",
+      "metric": "仅有教程介绍,无具体成果"
+    }
+  },
+  "d-24170ace51": {
+    "hash": "c51b9ae5b608",
+    "en": {
+      "title": "Rebuilding Windows Notepad with REA and Ghidra, Passing 26 Tests",
+      "summary": "Using REA with Ghidra, we statically analyzed Windows 11's notepad.exe (stripped, /O2-optimized), then rebuilt its behavior in C++17 through manual review. The result is about 4.3k lines of code covering the window, file encodings, find and replace, printing, settings, and autosave, verified by 26 message-driven tests that all pass. To avoid copyright issues, it contains no Microsoft code or resources.",
+      "target": "Windows Notepad notepad.exe (10.0.26100.9278)",
+      "metric": "All 26 functional and isolation tests pass; about 4.3k lines of C++ rebuilt"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Ghidra 重建 Windows 记事本并通过 26 项测试",
+      "summary": "以 REA 搭配 Ghidra 对 Windows 11 的 notepad.exe(已去符号、/O2 优化)做静态分析,再以 C++17 手工审阅重建行为。产出约 4.3k 行代码,涵盖窗口、文件编码、查找替换、打印、设置与自动保存,并以 26 项消息驱动测试验证,全部通过;为避免版权问题,不包含任何微软代码或资源。",
+      "target": "Windows 记事本 notepad.exe(10.0.26100.9278)",
+      "metric": "26 项功能与隔离测试全部通过,约 4.3k 行 C++ 重建"
+    }
+  },
+  "d-4fc1509395": {
+    "hash": "b7c102a9eef8",
+    "en": {
+      "title": "Clean-Room Replication of Beekeeper Studio with REA, Verified on CSV Export",
+      "summary": "For the CSV export feature of Beekeeper Studio 6.2.0, four isolated agents handled analysis, scoring, replication, and comparison testing in sequence. The replica is byte-for-byte identical to the original on 18 edge-case datasets, even reproducing the original's bugs. The run also exposed REA's limits: it runs out of memory on large bundles, and the spec missed some upstream behavior.",
+      "target": "CSV export feature of Beekeeper Studio 6.2.0",
+      "metric": "18/18 edge-case datasets byte-identical; 90/90 match across five database dialects"
+    },
+    "zh-CN": {
+      "title": "用 REA 对 Beekeeper Studio 做净室复制并验证 CSV 导出",
+      "summary": "针对 Beekeeper Studio 6.2.0 的 CSV 导出功能,使用四个相互隔离的代理依次完成分析、评分、复制与对照测试。复制品在 18 组边界数据集上与原版字节完全一致,连原版缺陷也一并复制,同时暴露了 REA 在大型包上内存不足、规格遗漏上游行为等局限。",
+      "target": "Beekeeper Studio 6.2.0 的 CSV 导出功能",
+      "metric": "18/18 边界数据集字节一致,五种数据库方言 90/90 一致"
+    }
+  },
+  "d-805a74537c": {
+    "hash": "8cd3134bbf06",
+    "en": {
+      "title": "DeepSeek Reverse-Engineers 1984's Sopwith with REA and Rebuilds It as a Chrome Game",
+      "summary": "With a single prompt, DeepSeek V4.1 Flash used REA and Ghidra to decompile the 43KB Sopwith DOS executable, recovering the game loop, physics, scoring, and data tables. It then used Python to extract the sprites and a 3,000-point terrain from the EXE, rebuilt the game in HTML/Canvas, and compared it frame by frame against the original in DOSBox.",
+      "target": "Sopwith (1984 DOS game, 43KB EXE)",
+      "metric": "1 hour, one prompt, $0.68 total cost; checked against DOSBox original screens"
+    },
+    "zh-CN": {
+      "title": "DeepSeek 用 REA 逆向 1984 年的 Sopwith 并重建为 Chrome 游戏",
+      "summary": "DeepSeek V4.1 Flash 仅凭一条提示,通过 REA 与 Ghidra 反编译 43KB 的 Sopwith DOS 可执行文件,还原游戏循环、物理、计分与数据表。随后用 Python 从 EXE 中提取精灵与 3,000 点地形,重建为 HTML/Canvas 游戏,并与 DOSBox 原版逐帧对照。",
+      "target": "Sopwith(1984 年 DOS 游戏,43KB EXE)",
+      "metric": "1 小时、一条提示、总成本 $0.68,与 DOSBox 原版画面对照"
+    }
+  },
+  "d-5160e8ae64": {
+    "hash": "62ad35b13e74",
+    "en": {
+      "title": "DeepSeek Reverse-Engineers 1984 DOS Game Sopwith with REA, Rebuilding a Playable Chrome Version for $0.68",
+      "summary": "The target is the 1984 Sopwith DOS executable, just 43 KB with no source code. DeepSeek V4.1 Flash decompiled it through REA (built on Ghidra), recovering the game loop, physics, and scoring, and used Python to extract sprites, a 3000-point terrain, and data tables from the EXE, rebuilding it as a 320x200 HTML/Canvas game. The author also captured the original's screens in DOSBox and compared them frame by frame with the port running in headless Chrome.",
+      "target": "Sopwith (1984 DOS game)",
+      "metric": "One hour, one prompt, $0.68 total cost; 7 of 624 tool calls were REA"
+    },
+    "zh-CN": {
+      "title": "DeepSeek 以 REA 逆向 1984 年 DOS 游戏 Sopwith,花 0.68 美元重建为 Chrome 可玩版",
+      "summary": "目标是仅 43 KB、没有源代码的 1984 年 Sopwith DOS 可执行文件。DeepSeek V4.1 Flash 通过 REA(底层为 Ghidra)反编译,还原游戏循环、物理与计分,并用 Python 从 EXE 中提取精灵图、3000 点地形与数据表,重建为 320x200 的 HTML/Canvas 游戏。作者还在 DOSBox 中截取原版画面,与无头 Chrome 中的移植版逐帧对照。",
+      "target": "Sopwith(1984 年 DOS 游戏)",
+      "metric": "一小时、一个提示、总成本 0.68 美元;624 次工具调用中有 7 次为 REA"
+    }
   }
 }

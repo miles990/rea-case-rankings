@@ -19663,5 +19663,155 @@
       "target": "Sopwith(1984 年 DOS 游戏)",
       "metric": "一小时、一个提示、总成本 0.68 美元;624 次工具调用中有 7 次为 REA"
     }
+  },
+  "d-eba3f084a6": {
+    "hash": "a758d8459b57",
+    "en": {
+      "title": "Roundup of real-world REA use cases: GunZ Rust port, Electron analysis, .NET patching",
+      "summary": "The REA MCP case page collects several real-world uses, including a clean-room Rust/Bevy port of GunZ: The Duel, analysis of a custom-built Electron app with REA, and analysis and patching of a .NET game DLL using OpenCode. According to the author, REA recovered the Electron app's window, preload script, bridge functions, private channels, and deliberately hidden network calls in about 30 seconds.",
+      "target": "GunZ: The Duel, Electron demo app, RGRunner.dll, etc.",
+      "metric": "Recovered the Electron demo app's 1 window, 3 bridge functions, 3 private channels, and hidden network calls in about 30 seconds (author-reported)"
+    },
+    "zh-CN": {
+      "title": "汇总 REA 实际使用案例:GunZ Rust 移植、Electron 分析、.NET 修补",
+      "summary": "REA MCP 案例页收录了多个实际使用场景,包括 GunZ: The Duel 的净室 Rust/Bevy 移植、用 REA 分析自制的 Electron 应用,以及用 OpenCode 分析并修补 .NET 游戏 DLL。据作者自述,REA 在约 30 秒内还原了该 Electron 应用的窗口、preload 脚本、桥接函数、私有通道以及被刻意隐藏的网络调用。",
+      "target": "GunZ: The Duel、Electron 演示应用、RGRunner.dll 等",
+      "metric": "约 30 秒内还原 Electron 演示应用的 1 个窗口、3 个桥接函数、3 个私有通道及隐藏的网络调用(作者自述)"
+    }
+  },
+  "d-bfc3ec401f": {
+    "hash": "623b25fb2d67",
+    "en": {
+      "title": "Course final project studying how REA can be used for pseudo-white-box attacks",
+      "summary": "A UCSD CSE227 final project examining how REA affects the ability of malicious actors to improve their attacks. The excerpt contains only Docker and Gemini CLI installation steps, used to verify that REA can be installed inside a container; it presents no actual analysis results.",
+      "target": "REA itself (Gemini CLI environment)",
+      "metric": "Environment setup steps only; no analysis results"
+    },
+    "zh-CN": {
+      "title": "研究 REA 如何被用于伪白盒攻击的课程期末项目",
+      "summary": "UCSD CSE227 期末项目,探讨 REA 对恶意行为者改进攻击的影响。节选内容仅包含 Docker 与 Gemini CLI 的安装步骤,用于验证 REA 能在容器内安装,没有呈现任何实际分析成果。",
+      "target": "REA 本身(Gemini CLI 环境)",
+      "metric": "仅有环境安装流程,无分析结果"
+    }
+  },
+  "d-24c0a69191": {
+    "hash": "91a5c06c23b8",
+    "en": {
+      "title": "Reverse-engineering the Genius Scorpion K7 keyboard protocol and building a Linux configuration tool",
+      "summary": "The official software supports only Windows and macOS, so the author used REA to reverse-engineer the protocol and rebuilt it as a native GNOME app, released as a deb package. Features include lighting, Copilot key remapping, macros of up to 19 keys, and profiles, with settings stored in the keyboard's onboard memory.",
+      "target": "Genius Scorpion K7 RGB keyboard (USB 0458:6013)",
+      "metric": "Feature parity with the official software, with 19-key macros and 12 official macro presets supported"
+    },
+    "zh-CN": {
+      "title": "逆向 Genius Scorpion K7 键盘协议并开发 Linux 配置工具",
+      "summary": "官方软件仅支持 Windows 和 macOS，作者使用 REA 逆向其协议，重新构建为原生 GNOME 应用并发布 deb 安装包。功能包括灯光、Copilot 键重映射、最多 19 个按键的宏以及配置文件，设置保存在键盘内置存储器中。",
+      "target": "Genius Scorpion K7 RGB 键盘（USB 0458:6013）",
+      "metric": "功能与官方软件对齐，支持 19 个按键的宏和 12 个官方宏预设"
+    }
+  },
+  "d-ff1a55f170": {
+    "hash": "f2cb01bcb339",
+    "en": {
+      "title": "Decompiling and modding SuperTuxKart with Claude Code and Codex alongside REA",
+      "summary": "The video covers how REA works and how to install it, then demonstrates using Claude Code and Codex to decompile the racing game SuperTuxKart in order to create mods. Chapters cover the modding results, the challenges encountered, and hands-on gameplay testing.",
+      "target": "SuperTuxKart",
+      "metric": "Video demonstrates the modded game and a hands-on playtest"
+    },
+    "zh-CN": {
+      "title": "用 Claude Code 和 Codex 配合 REA 反编译并修改 SuperTuxKart",
+      "summary": "视频介绍了 REA 的工作原理与安装方法，并演示如何使用 Claude Code 和 Codex 反编译赛车游戏 SuperTuxKart 以制作修改版。章节内容包括修改成果、遇到的挑战以及实机游玩测试。",
+      "target": "SuperTuxKart",
+      "metric": "视频演示了修改版游戏并进行实机游玩测试"
+    }
+  },
+  "d-172b025660": {
+    "hash": "97e03a573ead",
+    "en": {
+      "title": "Video demo: reverse-engineering Linux GNOME Calculator with REA",
+      "summary": "Daniel Hirsch shows in a video how he used REA to reverse-engineer Linux GNOME Calculator. The excerpt contains only a brief description, with no specific findings or result data.",
+      "target": "Linux GNOME Calculator",
+      "metric": "Video demonstrates REA reverse-engineering GNOME Calculator"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向 Linux GNOME 计算器的视频演示",
+      "summary": "Daniel Hirsch 通过视频展示了如何使用 REA 对 Linux GNOME Calculator 进行逆向。节选内容只有简短描述，没有具体发现或结果数据。",
+      "target": "Linux GNOME Calculator",
+      "metric": "视频演示 REA 逆向 GNOME 计算器"
+    }
+  },
+  "d-0e1b6a93d6": {
+    "hash": "c02f518559b9",
+    "en": {
+      "title": "Bug bounty automation project includes an REA wrapper skill",
+      "summary": "BMNTR/BugBounty is an automation project that uses AI agents to assist the bug bounty workflow (recon, scanning, reporting). One of its skill files wraps REA and lists installation and MCP configuration. The excerpt shows no actual results from using REA to analyze a specific target.",
+      "target": "BugBounty automation workflow",
+      "metric": "Repo includes the bbp-rea-wrapper skill and REA MCP configuration"
+    },
+    "zh-CN": {
+      "title": "赏金猎人自动化项目内含 REA 封装技能",
+      "summary": "BMNTR/BugBounty 是借助 AI agent 辅助漏洞赏金流程（侦察、扫描、报告）的自动化项目。其中一个 skill 文件将 REA 封装起来，列出了安装和 MCP 配置。节选内容中没有展示用 REA 分析具体目标的实际成果。",
+      "target": "BugBounty 自动化工作流",
+      "metric": "repo 内含 bbp-rea-wrapper skill 与 REA MCP 配置"
+    }
+  },
+  "d-4d9a8482c9": {
+    "hash": "9834410e36d0",
+    "en": {
+      "title": "Installing REA on Kali and practicing analysis with a C270 webcam",
+      "summary": "A personal AI assistant project that installs REA 6.7.0 and 15 tools on a Kali laptop, and mentions a completed 15-tool teardown of the Logitech C270, concluding it is a clean, stock UVC device. REA is only one part of the overall project; the analysis details and evidence are not shown in the excerpt.",
+      "target": "Logitech C270 webcam (UVC device)",
+      "metric": "15-tool teardown of the C270 completed; concluded to be a clean, stock UVC device"
+    },
+    "zh-CN": {
+      "title": "在 Kali 上安装 REA 并以 C270 网络摄像头做分析练习",
+      "summary": "个人 AI 助理项目,将 REA 6.7.0 与 15 项工具安装在 Kali 笔记本上,并提到完成了对 Logitech C270 的 15 工具拆解,结论为原厂干净的 UVC 设备。REA 只是整个项目的一部分,分析细节与证据在节选中未呈现。",
+      "target": "Logitech C270 网络摄像头(UVC 设备)",
+      "metric": "C270 15 项工具拆解完成,结论为原厂干净的 UVC 设备"
+    }
+  },
+  "d-fa34dfdfaa": {
+    "hash": "8c400b71f360",
+    "en": {
+      "title": "Packaging the REA MCP as a ZCode plugin with readiness checks and workflow skills",
+      "summary": "The plugin registers a version-pinned REA MCP server and adds an evidence-first workflow skill plus an environment readiness checker. It contains no REA code itself, and shows no analysis results for any specific target.",
+      "target": "ZCode plugin (wrapping the REA MCP)",
+      "metric": "Pins rea-agents@6.8.0 and provides a /rea command and readiness check"
+    },
+    "zh-CN": {
+      "title": "将 REA MCP 打包为 ZCode 插件,附就绪检查与工作流技能",
+      "summary": "该插件注册了固定版本的 REA MCP 服务器,并加入以证据为先的工作流技能与环境就绪检查器。本身不含 REA 代码,也没有展示对任何具体目标的分析成果。",
+      "target": "ZCode 插件(封装 REA MCP)",
+      "metric": "固定 rea-agents@6.8.0,并提供 /rea 命令与就绪检查"
+    }
+  },
+  "d-8581815e33": {
+    "hash": "d6eea24e3b9d",
+    "en": {
+      "title": "A reverse engineering, auditing and reconstruction CLI built on REA and Ghidra",
+      "summary": "Trinetra runs multiple analyses against a single target and produces a consolidated report. It handles JS AST taint tracking and ELF, Mach-O and PE hardening checks itself, delegates native decompilation and Electron semantic graphs to REA, and leaves reconstruction to Claude.",
+      "target": "JavaScript, Electron apps and native binaries",
+      "metric": "A single CLI integrating REA, Ghidra and Semgrep, with Markdown, HTML and JSON report output"
+    },
+    "zh-CN": {
+      "title": "以 REA 与 Ghidra 为底的逆向、审计与重建 CLI",
+      "summary": "Trinetra 对单一目标运行多种分析并生成整合报告,自身负责 JS AST 污点追踪与 ELF、Mach-O、PE 的加固检查。原生反编译与 Electron 语义图则委派给 REA,重建功能交由 Claude。",
+      "target": "JavaScript、Electron 应用与原生二进制文件",
+      "metric": "整合 REA、Ghidra、Semgrep 的单一 CLI,输出 Markdown、HTML、JSON 报告"
+    }
+  },
+  "d-ec7f5e80fe": {
+    "hash": "142de779ad2b",
+    "en": {
+      "title": "A reverse engineering project map that marks which projects use REA",
+      "summary": "REA Atlas is an unofficial map of reverse engineering projects covering game decompilation, recompilation, asset extraction and general-purpose tools, marking each entry for whether it uses REA (Yes only where there is public evidence). The REA use cases it lists include a DX-Ball reconstruction tested against the original x86 build, a clean-room C++20 reimplementation of the OpenBattlefield2 engine, and reconstructions of the CapCut and Claude Desktop UIs.",
+      "target": "Compilation of REA use cases (DX-Ball, OpenBattlefield2, CapCut, Claude Desktop, etc.)",
+      "metric": "Lists 14 REA-using projects with public evidence, including DX-Ball 1.07 tested against the original x86 build"
+    },
+    "zh-CN": {
+      "title": "整理逆向工程项目地图并标注各项目是否使用 REA",
+      "summary": "REA Atlas 是非官方的逆向工程项目地图,涵盖游戏反编译、重编译、资源提取与通用工具,并为每项标注是否使用 REA(有公开证据才标 Yes)。其中列出的 REA 使用案例包括 DX-Ball 重建并与原版 x86 对照测试、OpenBattlefield2 引擎以 C++20 净室重新实现、CapCut 与 Claude Desktop UI 的重建等。",
+      "target": "REA 使用案例汇总(DX-Ball、OpenBattlefield2、CapCut、Claude Desktop 等)",
+      "metric": "列出 14 个有公开证据的 REA 使用项目,含 DX-Ball 1.07 与原版 x86 对照测试"
+    }
   }
 }

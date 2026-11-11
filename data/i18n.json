@@ -19813,5 +19813,80 @@
       "target": "REA 使用案例汇总(DX-Ball、OpenBattlefield2、CapCut、Claude Desktop 等)",
       "metric": "列出 14 个有公开证据的 REA 使用项目,含 DX-Ball 1.07 与原版 x86 对照测试"
     }
+  },
+  "d-260787126e": {
+    "hash": "81eea7b745db",
+    "en": {
+      "title": "How REA works with Ghidra for reverse engineering, using the DX-Ball example",
+      "summary": "A plain-language walkthrough of REA's step-by-step investigation process, drawing on the classic game DX-Ball case from the official guide to show how to go from locating functions to reconstructing and verifying them. The article is a retelling and tutorial; the results come from the official REA documentation, not the author's own testing.",
+      "target": "REA and Ghidra analysis workflow (DX-Ball example)",
+      "metric": "The reconstructed C function matched the original on 3,205 test inputs and reproduced the original function's 63 bytes of machine code"
+    },
+    "zh-CN": {
+      "title": "说明 REA 如何配合 Ghidra 逆向分析,引用 DX-Ball 示例",
+      "summary": "以通俗易懂的方式介绍 REA 的逐步调查流程,并引用官方指南中的老游戏 DX-Ball 案例,说明从查找函数到重建与比对的做法。文章属于转述与教学性质,成果来自 REA 官方文档,而非作者自己的实测。",
+      "target": "REA 与 Ghidra 分析流程(DX-Ball 示例)",
+      "metric": "重建的 C 函数在 3,205 条测试输入上与原版一致,并复现了原函数 63 字节的机器码"
+    }
+  },
+  "d-d3d53bf2ce": {
+    "hash": "c2fb45289277",
+    "en": {
+      "title": "A DeepSeek Harness plugin that mounts REA MCP tools via an input-box toggle",
+      "summary": "Built the dsh-rea-pro plugin, which registers the rea-agents MCP service with DeepSeek Harness and adds a toggle in the input box; turning it off also exits the subprocess to save context. Includes a status endpoint and DNS rebinding protection, but it is only an integration plugin and shows no reverse-engineering results.",
+      "target": "REA MCP integration for DeepSeek Harness",
+      "metric": "One-click input-box toggle to mount 229 REA tools, with a 20-second shutdown budget"
+    },
+    "zh-CN": {
+      "title": "制作 DeepSeek Harness 插件，通过输入框开关挂载 REA MCP 工具",
+      "summary": "开发 dsh-rea-pro 插件，将 rea-agents 的 MCP 服务注册到 DeepSeek Harness，并在输入框提供开关，关闭时子进程随之退出以节省上下文。含状态接口与 DNS 重绑定防护，但仅是集成插件，未展示逆向成果。",
+      "target": "DeepSeek Harness 的 REA MCP 集成",
+      "metric": "输入框一键开关挂载 229 个 REA 工具，并设 20 秒关闭预算"
+    }
+  },
+  "d-9f070fa2bb": {
+    "hash": "64931428aec6",
+    "en": {
+      "title": "A comparison guide and similarity-verification toolkit for Craft Anything vs. REA",
+      "summary": "Provides a trilingual guide comparing Craft Anything with REA, along with Playwright scripts that measure similarity between the original site and a recreated version, a feature checklist, and tests. The content is based mainly on hands-on testing of Craft Anything; REA appears only as a point of comparison and was not actually used for reverse engineering.",
+      "target": "Craft Anything vs. REA tool comparison",
+      "metric": "Structure and color similarity scripts at 3 widths (1440/820/390 px)"
+    },
+    "zh-CN": {
+      "title": "撰写 Craft Anything 与 REA 的对比指南与相似度验证工具包",
+      "summary": "提供三语指南，对比 Craft Anything 与 REA，并附上以 Playwright 比对原站与自制版本相似度的脚本、功能检查清单与测试。内容以 Craft Anything 的实测为主，REA 仅为对比对象，并未实际使用 REA 逆向。",
+      "target": "Craft Anything 与 REA 工具对比",
+      "metric": "附 3 种宽度（1440/820/390 px）的结构与色彩相似度比对脚本"
+    }
+  },
+  "d-20cfa1eb69": {
+    "hash": "e36157bcead6",
+    "en": {
+      "title": "An REA integration plugin for DeepSeek Harness with a managed runtime and rollback-able upgrades",
+      "summary": "Built dsh-reakit for DeepSeek Harness, which automatically deploys a pinned Node and an REA 6.8.0 runtime, and offers an all-tools toggle, a live status indicator, and in-place upgrades that can be rolled back. The work is published as an npm package and a GitHub repo, but it contains no analysis code itself and presents no actual reverse-engineering results.",
+      "target": "REA integration for DeepSeek Harness",
+      "metric": "One-click toggle registers 229 REA tools (mcp__rea__*)"
+    },
+    "zh-CN": {
+      "title": "为 DeepSeek Harness 打造 REA 集成插件，含托管运行环境与升级回滚",
+      "summary": "针对 DeepSeek Harness 制作 dsh-reakit，自动部署固定版本的 Node 与 REA 6.8.0 运行环境，并提供全工具开关、实时状态灯号与可回滚的原地升级。作品已发布 npm 包与 GitHub 仓库，但本身不含分析代码，也未呈现实际逆向成果。",
+      "target": "DeepSeek Harness 的 REA 集成",
+      "metric": "一键开关注册 229 个 REA 工具（mcp__rea__*）"
+    }
+  },
+  "d-b1c46e574f": {
+    "hash": "64f171402f73",
+    "en": {
+      "title": "Reversium, built on REA: an MCP server with versioned blueprints and a compare loop",
+      "summary": "Builds an MCP server and skills that hand software targets to REA for unpacking, and provides archivable, diffable blueprint versions plus a build-and-compare loop. Currently at v0.1 with smoke tests, but no publicly available reverse-engineering case results.",
+      "target": "Reverse-engineering blueprint workflow for software, devices, and more",
+      "metric": "Provides 11+ MCP tools, including blueprint version diffing and loop_compare"
+    },
+    "zh-CN": {
+      "title": "以 REA 为底打造 Reversium：版本化蓝图与比对循环 MCP 服务器",
+      "summary": "构建 MCP 服务器与 skills，将软件目标交给 REA 解包，并提供可存档、可比较版本的蓝图与构建比对循环。目前为 v0.1，有 smoke 测试，但没有公开的逆向成果案例。",
+      "target": "软件、设备等逆向蓝图工作流程",
+      "metric": "提供 11 个以上 MCP 工具，含 blueprint 版本差异与 loop_compare"
+    }
   }
 }

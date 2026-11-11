@@ -2,6 +2,65 @@
   "updated": "2026-11-11",
   "items": [
     {
+      "url": "https://github.com/AcuteSZW/dsh-rea-pro",
+      "title": "AcuteSZW/dsh-rea-pro: DeepSeek Harness 插件，通过 Composer 开关挂载 REA 的 MCP 工具",
+      "author": "AcuteSZW",
+      "date": "2026-11-11",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "zh",
+      "found": "2026-11-11",
+      "relevant": true,
+      "title_zh": "製作 DeepSeek Harness 外掛，以輸入框開關掛載 REA MCP 工具",
+      "summary": "開發 dsh-rea-pro 外掛，將 rea-agents 的 MCP 服務註冊到 DeepSeek Harness，並在輸入框提供開關，關閉時子程序隨之退出以節省上下文。含狀態接口與 DNS 重綁定防護，但僅是整合外掛，未展示逆向成果。",
+      "target": "DeepSeek Harness 的 REA MCP 整合",
+      "metric": "輸入框一鍵開關掛載 229 個 REA 工具，並設 20 秒關閉預算",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-11",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/inematds/craft-anything-vs-rea",
+      "title": "inematds/craft-anything-vs-rea: Craft Anything × REA: faça a sua versão de um app e confira se ficou parecida e se funciona (guia PT/EN/ES + kit)",
+      "author": "inematds",
+      "date": "2026-11-11",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "pt",
+      "found": "2026-11-11",
+      "relevant": true,
+      "title_zh": "撰寫 Craft Anything 與 REA 的比較指南與相似度驗證工具包",
+      "summary": "提供三語指南，比較 Craft Anything 與 REA，並附上以 Playwright 比對原站與自製版本相似度的腳本、功能檢查清單與測試。內容以 Craft Anything 的實測為主，REA 僅為比較對象，並未實際使用 REA 逆向。",
+      "target": "Craft Anything 與 REA 工具比較",
+      "metric": "附 3 種寬度（1440/820/390 px）的結構與色彩相似度比對腳本",
+      "category": "教學",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-11",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://bsky.app/profile/k-ichida.bsky.social/post/3mzys7ywdfk2u",
+      "title": "大手AIの安全装置が個人の機器解析を阻み、利用者はオープンウェイトモデルへ移る動き。",
+      "author": "k-ichida.bsky.social",
+      "date": "2026-11-11",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 0,
+      "lang": "ja",
+      "found": "2026-11-11",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-11",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://github.com/nirodg/scorpion-keyboard",
       "title": "nirodg/scorpion-keyboard: Open-source Linux configurator for the Genius Scorpion K7 RGB keyboard: lighting, Copilot key remapping, top-bar icon. Reverse-engineered with REA.",
       "author": "nirodg",
@@ -21,15 +80,6 @@
       "wow": 4,
       "scored": "2026-11-11",
       "scored_by": "sonnet"
-    },
-    {
-      "url": "https://github.com/Viniciuscarvalho/video-prompt-rea",
-      "title": "Viniciuscarvalho/video-prompt-rea: Reverse Anything Engineering (REA) for generative AI video & motion graphics. Extract",
-      "source": "GitHub",
-      "found": "2026-11-11",
-      "relevant": false,
-      "scored": "2026-11-11",
-      "scored_by": "jev"
     },
     {
       "url": "https://github.com/romangalaxys10-spec/zcode-rea",
@@ -277,11 +327,60 @@
       "scored_by": "sonnet"
     },
     {
-      "url": "https://github.com/SeanShaffer88/rea-offline",
-      "title": "SeanShaffer88/rea-offline: Universal Offline Windows Client & REA Analysis Engine",
+      "url": "https://github.com/ferrisching/dsh-reakit",
+      "title": "ferrisching/dsh-reakit: Batteries-included REA integration for DeepSeek Harness: managed Node/REA runtime, global tool switch, live composer status indicator, on-demand optional tool setup, and in-place runtime upgrades with rollback.",
+      "author": "ferrisching",
+      "date": "2026-11-10",
       "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
       "found": "2026-11-11",
-      "relevant": false,
+      "relevant": true,
+      "title_zh": "為 DeepSeek Harness 打造 REA 整合外掛，含託管執行環境與升級回滾",
+      "summary": "針對 DeepSeek Harness 製作 dsh-reakit，自動佈署固定版本的 Node 與 REA 6.8.0 執行環境，並提供全工具開關、即時狀態燈號與可回滾的原地升級。作品已發布 npm 套件與 GitHub repo，但本身不含分析程式碼，也未呈現實際逆向成果。",
+      "target": "DeepSeek Harness 的 REA 整合",
+      "metric": "一鍵開關註冊 229 個 REA 工具（mcp__rea__*）",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-11",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://news.mixi.jp/view_news.pl?id=9022104&media_id=32",
+      "title": "“何でもリバースエンジニアリング”生成AIで広がる　ソフトウェアもスマート家電も手軽に改造……ブームに潜む危険 | mixiニュース",
+      "author": "ITmedia NEWS",
+      "date": "2026-11-10",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "ja",
+      "found": "2026-11-11",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-11",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/ckaico/reversium",
+      "title": "ckaico/reversium: Reverse engineer everything. Saved, versioned blueprints and a build-and-compare loop. MCP server + skills, built on REA.",
+      "author": "ckaico",
+      "date": "2026-11-09",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-11",
+      "relevant": true,
+      "title_zh": "以 REA 為底打造 Reversium：版本化藍圖與比對迴圈 MCP 伺服器",
+      "summary": "建構 MCP 伺服器與 skills，將軟體目標交給 REA 解包，並提供可存檔、可比較版本的藍圖與建置比對迴圈。目前為 v0.1，有 smoke 測試，但沒有公開的逆向成果案例。",
+      "target": "軟體、裝置等逆向藍圖工作流程",
+      "metric": "提供 11 個以上 MCP 工具，含 blueprint 版本差異與 loop_compare",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
       "scored": "2026-11-11",
       "scored_by": "sonnet"
     },
@@ -342,6 +441,26 @@
       "target": "Logitech C270 網路攝影機（UVC 裝置）",
       "metric": "C270 15 項工具拆解完成，結論為原廠乾淨的 UVC 裝置",
       "category": "工具鏈",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-11-11",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://www.sevydevy.com/learn/reverse-engineer-anything-explained-ai-agents-ghidra-mcp",
+      "title": "Reverse Engineer Anything Explained (2026): Ghidra via MCP | SevyDevy",
+      "author": "Saket Bhatnagar",
+      "date": "2026-10-19",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-11-11",
+      "relevant": true,
+      "title_zh": "說明 REA 如何搭配 Ghidra 逆向分析，引用 DX-Ball 範例",
+      "summary": "以淺顯方式介紹 REA 的逐步調查流程，並引用官方指南中的老遊戲 DX-Ball 案例，說明從找函式到重建與比對的做法。文章屬於轉述與教學，成果來自 REA 官方文件而非作者自己的實測。",
+      "target": "REA 與 Ghidra 分析流程（DX-Ball 範例）",
+      "metric": "重建的 C 函式在 3,205 筆測試輸入上與原版一致，並重現原函式 63 位元組機器碼",
+      "category": "教學",
       "status": "reported",
       "wow": 2,
       "scored": "2026-11-11",
@@ -409,6 +528,15 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://www.reddit.com/r/AusPropertyMasteryPK/comments/1vijanh/rea_group_boss_says_the_property_gloom_is/",
+      "title": "REA Group boss says the property gloom is overdone — and predicts solid house price rises end of this year. : r/AusPrope",
+      "source": "Reddit r/AusPropertyMasteryPK",
+      "found": "2026-11-11",
+      "relevant": false,
+      "scored": "2026-11-11",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://github.com/BMNTR/BugBounty",
       "title": "BMNTR/BugBounty: Agent-assisted Bug Bounty workflow automation — featuring autonomous recon, scanning, and AI-driven reporting.",
       "author": "BMNTR",
@@ -431,6 +559,24 @@
       "category": "工具鏈",
       "status": "shipped",
       "wow": 2,
+      "scored": "2026-11-11",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/Viniciuscarvalho/video-prompt-rea",
+      "title": "Viniciuscarvalho/video-prompt-rea: Reverse Anything Engineering (REA) for generative AI video & motion graphics. Extract",
+      "source": "GitHub",
+      "found": "2026-11-11",
+      "relevant": false,
+      "scored": "2026-11-11",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/SeanShaffer88/rea-offline",
+      "title": "SeanShaffer88/rea-offline: Universal Offline Windows Client & REA Analysis Engine",
+      "source": "GitHub",
+      "found": "2026-11-11",
+      "relevant": false,
       "scored": "2026-11-11",
       "scored_by": "sonnet"
     },
@@ -49573,6 +49719,35 @@
   "runs": [
     {
       "date": "2026-11-11",
+      "added": 8,
+      "stats": {
+        "githubShowAndTell": 16,
+        "githubRepos": 234,
+        "githubCode": 47,
+        "hackerNews": 31,
+        "qiita": 49,
+        "devto": 150,
+        "juejin": 0,
+        "reddit": 20,
+        "v2ex": 15,
+        "youtube": 90,
+        "bluesky": 162,
+        "mastodon": 160,
+        "exaWeb": 60,
+        "x": "error: Command failed: grok -p Search X for posts from the last 7 days where people sho"
+      },
+      "scoring": {
+        "scored": 5,
+        "jev": {
+          "low": 2,
+          "irrelevant": 1,
+          "errors": 0,
+          "toClaude": 5
+        }
+      }
+    },
+    {
+      "date": "2026-11-11",
       "added": 32,
       "stats": {
         "githubShowAndTell": 15,
@@ -50411,36 +50586,7 @@
           "toClaude": 1
         }
       }
-    },
-    {
-      "date": "2026-10-29",
-      "added": 1,
-      "stats": {
-        "githubShowAndTell": 15,
-        "githubRepos": 234,
-        "githubCode": 46,
-        "hackerNews": 26,
-        "qiita": 43,
-        "devto": 150,
-        "juejin": 0,
-        "reddit": "error: 429 reddit rss",
-        "v2ex": 12,
-        "youtube": 90,
-        "bluesky": 162,
-        "mastodon": 160,
-        "exaWeb": 0,
-        "x": 0
-      },
-      "scoring": {
-        "scored": 1,
-        "jev": {
-          "low": 0,
-          "irrelevant": 0,
-          "errors": 0,
-          "toClaude": 1
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-11T00:23:28.424Z"
+  "updatedAt": "2026-11-11T04:33:58.814Z"
 }

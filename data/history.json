@@ -48889,55 +48889,60 @@
     },
     {
       "date": "2026-11-11",
-      "stars": 449955,
-      "stars_delta": 2478,
+      "stars": 450488,
+      "stars_delta": 3011,
       "new": [
         "d-24c0a69191",
         "d-ff1a55f170",
         "d-172b025660",
         "d-0e1b6a93d6",
         "d-4d9a8482c9",
+        "d-d3d53bf2ce",
+        "d-9f070fa2bb",
         "d-fa34dfdfaa",
+        "d-20cfa1eb69",
+        "d-b1c46e574f",
         "d-8581815e33",
         "d-ec7f5e80fe",
         "d-eba3f084a6",
+        "d-260787126e",
         "d-bfc3ec401f"
       ],
       "stats": {
-        "count": 10,
+        "count": 15,
         "wow": {
-          "2": 8,
+          "2": 13,
           "3": 1,
           "4": 1
         },
         "type": {
           "case": 3,
-          "app": 4,
-          "news": 2,
-          "learn": 1
+          "app": 7,
+          "learn": 3,
+          "news": 2
         },
         "status": {
-          "shipped": 4,
-          "reported": 6
+          "shipped": 8,
+          "reported": 7
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 星數破 44.9 萬，Linux 鍵盤逆向案例領銜",
-          "summary": "GitHub 星數來到 449,955，比前一個紀錄 447,477 增加 2,478。當天最亮眼的是 Genius Scorpion K7 鍵盤案例：官方軟體只支援 Windows 與 macOS，作者以 REA 逆向其協定，做出原生 GNOME 設定工具並發布 deb 套件，設定存在鍵盤內建記憶體。其餘多為 MCP 外掛、Kali 安裝、整合式 CLI 與案例彙整，顯示 REA 正被包進更多工作流程，但許多項目的節錄中沒有具體分析成果。"
+          "headline": "REA 星數破 45 萬，整合外掛湧現",
+          "summary": "REA GitHub 星數來到 450488，比前一個紀錄 447477 多了 3011。當天榜首是有具體成果的案例：作者以 REA 逆向 Genius Scorpion K7 鍵盤協定，做出 Linux 原生設定工具並發布 deb 套件。其餘多為 DeepSeek Harness、ZCode 等平台的 REA MCP 外掛與包裝，多數沒有公開逆向成果，顯示生態系擴張快過實證。"
         },
         "en": {
-          "headline": "REA passes 449K stars; Linux keyboard reverse-engineering leads",
-          "summary": "GitHub stars reached 449,955, up 2,478 from the previous record of 447,477. The standout item is the Genius Scorpion K7 keyboard case: the official software supports only Windows and macOS, so the author used REA to reverse its protocol and built a native GNOME configuration tool shipped as a deb package, with settings stored in the keyboard's onboard memory. Most other items are MCP plugins, a Kali install, an integrated CLI and case roundups, showing REA being wrapped into more workflows, though many excerpts show no concrete analysis results."
+          "headline": "REA passes 450K stars as integration plugins multiply",
+          "summary": "REA's GitHub stars reached 450488, up 3011 from the previous record of 447477. The top item is a concrete result: an author used REA to reverse the Genius Scorpion K7 keyboard protocol and built a native Linux settings tool shipped as a deb package. Most other items are REA MCP plugins and wrappers for platforms such as DeepSeek Harness and ZCode, and few show published reverse-engineering results, so ecosystem growth is outpacing evidence."
         },
         "zh-CN": {
-          "headline": "REA 星数破 44.9 万，Linux 键盘逆向案例领衔",
-          "summary": "GitHub 星数达到 449,955，比之前的纪录 447,477 增加 2,478。当天最亮眼的是 Genius Scorpion K7 键盘案例：官方软件只支持 Windows 和 macOS，作者用 REA 逆向其协议，做出原生 GNOME 配置工具并发布 deb 包，设置保存在键盘内置存储中。其余多为 MCP 插件、Kali 安装、整合式 CLI 和案例汇总，显示 REA 正被封装进更多工作流程，但许多项目的节选中没有具体分析成果。"
+          "headline": "REA 星数破 45 万，集成插件涌现",
+          "summary": "REA GitHub 星数达到 450488，比之前的纪录 447477 多了 3011。当天榜首是有具体成果的案例：作者用 REA 逆向 Genius Scorpion K7 键盘协议，做出 Linux 原生设置工具并发布 deb 包。其余多为 DeepSeek Harness、ZCode 等平台的 REA MCP 插件与封装，多数没有公开逆向成果，说明生态扩张快过实证。"
         }
       },
       "signals": [
-        "D",
         "G",
+        "D",
         "B"
       ],
       "highlights": [
@@ -49252,6 +49257,7 @@
         "d-9c9b054962",
         "d-43ba2a9c24",
         "d-8f2bebd111",
+        "gunzrs",
         "d-d4ac31aaf8",
         "d-733ba71db9",
         "d-661e831152",
@@ -49263,7 +49269,6 @@
         "d-4520ccec27",
         "d-ab1d7273ce",
         "d-1717937cb1",
-        "gunzrs",
         "d-dd0fa2fab4",
         "d-27b0054d80",
         "d-fb483fa7b4",
@@ -49844,7 +49849,11 @@
         "d-40c0474406",
         "d-49c3fe3859",
         "heartland-side-effects",
+        "d-d3d53bf2ce",
+        "d-9f070fa2bb",
         "d-fa34dfdfaa",
+        "d-20cfa1eb69",
+        "d-b1c46e574f",
         "d-aea2c602a6",
         "d-856ee8fbb5",
         "d-faa34db9dc",
@@ -50096,6 +50105,7 @@
         "d-0449afba5d",
         "d-5fd7481b29",
         "d-0ba406f633",
+        "d-260787126e",
         "d-d7859fb373",
         "d-3ed7703caf",
         "d-5d7d0b5bdc",
@@ -50891,6 +50901,7 @@
         "d-e776c1c4c1",
         "d-2761852b3d",
         "d-2f09a54a93",
+        "d-ac0ffedb1d",
         "d-a21a230535",
         "d-fc831951e8",
         "d-fe1661027d",
@@ -50900,6 +50911,7 @@
         "d-3c3d4fda5f",
         "d-628dfd7b51",
         "d-0caa59e013",
+        "d-0a2ea61b22",
         "d-046a577ca8",
         "d-c9146cd96a",
         "d-ea18e40e20",
@@ -51257,30 +51269,28 @@
     "to": "2026-11-11",
     "text": {
       "zh-TW": {
-        "headline": "REA 熱度續漲，成果重心從展示轉向可驗證的實測",
-        "summary": "本週 REA 星數從 43.1 萬升至 44.9 萬，每天穩定增加。「驗證是瓶頸」每天都出現：11/5 的 DX-Ball 逐位元組重現、11/10 的記事本 26 項測試與 CSV 18 組資料集位元組一致，都附上對照證據，而自述型數字則被明確標註為未驗證。題材從遊戲保存（DX-Ball、Colin McRae 啟動器、Sopwith）延伸到企業軟體與硬體，如 MT5 協定、證卡印表機 Linux 驅動、Linux 鍵盤設定工具。生態面則持續擴張：Windows 部署包、REA Studio、MCP 外掛與 DeepSeek Harness 陸續出現，同時 AEGIS、BLA 等阻擋 AI 逆向的工具開始登場。",
-        "watch": "可留意硬體與裝置控制類案例（韌體、藍牙、Linux 驅動）是否繼續增加，這類需求明確、成果容易實測。另外，防禦端工具（AEGIS、BLA）與 ReClarity 等反制工具的攻防演變，以及 REA 在大型套件上記憶體不足、規格漏掉上游行為的限制，都是可切入的空間。"
+        "headline": "REA 熱度續漲,重心從展示轉向驗證與生態擴張",
+        "summary": "本週 REA 星數由 43.1 萬升至 45 萬,每日穩定增加約 2,500 至 3,800。「驗證是瓶頸」七天全數出現,最受重視的是有對照測試或逐位元組比對的成果,例如 DX-Ball 重現、記事本重建通過 26 項測試、Beekeeper Studio 的 CSV 匯出在 18 組資料集上一致,自述型貼文則缺乏說服力。題材從老遊戲保存(DX-Ball、Colin McRae 啟動器、Sacred Gold)延伸到企業與工具軟體,並逐漸出現硬體案例,如證卡印表機驅動與 Genius Scorpion K7 鍵盤。另一方面,外掛、Windows 部署包與 MCP 整合快速湧現,同時出現 AEGIS、BLA 等防止 AI 逆向的工具,顯示 REA 已被視為需要防範的對象。",
+        "watch": "接下來幾天可留意外掛與整合是否開始附上實測成果,還是只停留在包裝;能提供對照測試的案例最值得追蹤。硬體與韌體逆向(鍵盤、印表機、藍牙)是正在升溫的空間,適合在這類沒有官方 Linux 支援的裝置上找機會。也可觀察 AEGIS、ReClarity、BLA 這類攻防工具的後續,以及 REA 在大型套件上記憶體不足等限制是否被解決。"
       },
       "en": {
-        "headline": "REA keeps surging as results shift from demos to verified, tested outputs",
-        "summary": "REA's GitHub stars climbed from 431K to 449K this week, rising steadily each day. 'Verification is the bottleneck' appeared all seven days: DX-Ball's byte-for-byte reproduction (11/5), Notepad passing 26 tests and Beekeeper Studio's CSV export matching byte-for-byte on 18 datasets (11/10) came with comparison evidence, while self-reported figures were explicitly flagged as unverified. Subject matter widened from game preservation (DX-Ball, Colin McRae launchers, Sopwith) to enterprise software and hardware, such as the MT5 protocol, a card-printer Linux driver and a Linux keyboard configuration tool. The ecosystem kept expanding with Windows deployment kits, REA Studio, MCP plugins and a DeepSeek harness, while tools that block AI reverse-engineering agents (AEGIS, BLA) began to appear.",
-        "watch": "Watch whether hardware and device-control cases (firmware, Bluetooth, Linux drivers) keep growing; the need is clear and results are easy to test. The back-and-forth between defensive tools (AEGIS, BLA) and counter-tools like ReClarity is another area to follow, as are REA's stated limits, namely running out of memory on large suites and specs that miss upstream behavior, which leave room for new tooling."
+        "headline": "REA keeps surging, shifting from showcases to verification and ecosystem growth",
+        "summary": "This week REA's GitHub stars climbed from 431K to 450K, adding roughly 2,500 to 3,800 a day. 'Verification is the bottleneck' appeared all seven days, and the most respected results came with differential tests or byte-for-byte comparison: the DX-Ball reproduction, a Notepad rebuild passing 26 tests, and Beekeeper Studio CSV exports matching on 18 datasets, while self-reported claims drew skepticism. Subjects moved from legacy game preservation (DX-Ball, Colin McRae launchers, Sacred Gold) toward enterprise and tooling software, with hardware cases emerging such as a card-printer driver and the Genius Scorpion K7 keyboard. Meanwhile plugins, Windows deployment kits and MCP integrations multiplied, and tools like AEGIS and BLA appeared to block AI reverse-engineering agents, showing REA is now treated as something to defend against.",
+        "watch": "In the next few days, check whether the plugins and integrations start shipping tested results or stay as packaging; cases with differential tests are the ones worth following. Hardware and firmware reverse engineering (keyboards, printers, Bluetooth) is warming up, so devices lacking official Linux support are a promising place to find opportunities. Also follow the offense-defense tools AEGIS, ReClarity and BLA, and whether REA's limits, such as running out of memory on large codebases, get addressed."
       },
       "zh-CN": {
-        "headline": "REA 热度续涨，成果重心从展示转向可验证的实测",
-        "summary": "本周 REA 星数从 43.1 万升至 44.9 万，每天稳定增加。“验证是瓶颈”每天都出现：11/5 的 DX-Ball 逐字节重现、11/10 的记事本 26 项测试与 CSV 在 18 组数据集上字节一致，都附有对照证据，而自述型数字则被明确标注为未验证。题材从游戏保存（DX-Ball、Colin McRae 启动器、Sopwith）延伸到企业软件与硬件，如 MT5 协议、证卡打印机 Linux 驱动、Linux 键盘设置工具。生态方面持续扩张：Windows 部署包、REA Studio、MCP 插件与 DeepSeek Harness 陆续出现，同时 AEGIS、BLA 等阻止 AI 逆向的工具开始登场。",
-        "watch": "可留意硬件与设备控制类案例（固件、蓝牙、Linux 驱动）是否继续增加，这类需求明确、成果容易实测。另外，防御端工具（AEGIS、BLA）与 ReClarity 等反制工具的攻防演变，以及 REA 在大型套件上内存不足、规格遗漏上游行为的限制，都是可以切入的空间。"
+        "headline": "REA 热度续涨,重心从展示转向验证与生态扩张",
+        "summary": "本周 REA 星数由 43.1 万升至 45 万,每日稳定增加约 2,500 至 3,800。“验证是瓶颈”七天全部出现,最受重视的是有对照测试或逐字节比对的成果,例如 DX-Ball 重现、记事本重建通过 26 项测试、Beekeeper Studio 的 CSV 导出在 18 组数据集上一致,自述型帖子则缺乏说服力。题材从老游戏保存(DX-Ball、Colin McRae 启动器、Sacred Gold)延伸到企业与工具软件,并逐渐出现硬件案例,如证卡打印机驱动与 Genius Scorpion K7 键盘。另一方面,插件、Windows 部署包与 MCP 集成快速涌现,同时出现 AEGIS、BLA 等阻止 AI 逆向的工具,显示 REA 已被视为需要防范的对象。",
+        "watch": "接下来几天可留意插件与集成是否开始附上实测成果,还是只停留在包装;能提供对照测试的案例最值得追踪。硬件与固件逆向(键盘、打印机、蓝牙)是正在升温的领域,适合在这类没有官方 Linux 支持的设备上寻找机会。也可观察 AEGIS、ReClarity、BLA 这类攻防工具的后续,以及 REA 在大型套件上内存不足等限制是否被解决。"
       }
     },
     "rising": [
       "B",
-      "C",
       "G",
       "D"
     ],
     "fading": [
-      "E",
-      "F"
+      "A"
     ],
     "tally": {
       "A": 2,

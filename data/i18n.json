@@ -19888,5 +19888,215 @@
       "target": "软件、设备等逆向蓝图工作流程",
       "metric": "提供 11 个以上 MCP 工具，含 blueprint 版本差异与 loop_compare"
     }
+  },
+  "d-25fddf2dc9": {
+    "hash": "766435e443f6",
+    "en": {
+      "title": "GitHub Action for Defending Against AI Reverse-Engineering Agents in CI",
+      "summary": "Provides a code-protection Action that runs on build artifacts and claims to keep AI reverse-engineering agents such as REA from understanding the logic. The content is marketing copy and usage instructions; no empirical evidence against REA is provided.",
+      "target": "Protection of JS/TS/WASM/Python build artifacts",
+      "metric": "Offers three protection levels: standard/hardened/maximum"
+    },
+    "zh-CN": {
+      "title": "可在 CI 中防御 AI 逆向代理的 GitHub Action",
+      "summary": "提供在构建产物上运行的代码保护 Action，宣称能让 REA 等 AI 逆向代理无法理解逻辑。内容为营销说明与使用方法，没有提供对抗 REA 的实测证据。",
+      "target": "JS/TS/WASM/Python 构建产物的保护",
+      "metric": "提供 standard/hardened/maximum 三种保护等级"
+    }
+  },
+  "d-ecf05c48dd": {
+    "hash": "4ccb24d44c3d",
+    "en": {
+      "title": "A Long-Form REA Tutorial Covering the DX-Ball, Notion, and TH04 Cases",
+      "summary": "The article walks through REA installation and verification, the three tiers of analyzable targets, the rea doctor health check, and the evidence-first design principle. It also cites official cases, such as the DX-Ball sound-positioning reconstruction passing 3205 x86 test cases, Notion clipboard chain tracing, and TH04 bullet-ring computation reconstruction.",
+      "target": "REA usage and official cases (DX-Ball, Notion, TH04)",
+      "metric": "DX-Ball reconstruction passes 3205 original x86 test cases"
+    },
+    "zh-CN": {
+      "title": "万字教程：REA 入门并梳理 DX-Ball、Notion、TH04 案例",
+      "summary": "文章介绍了 REA 的安装验收、分三档的可分析目标、rea doctor 体检以及证据优先的设计原则，并引用官方案例，例如 DX-Ball 声音定位还原通过 3205 个 x86 测试用例、Notion 剪贴板链路追踪、TH04 子弹环计算还原。",
+      "target": "REA 使用方法与官方案例（DX-Ball、Notion、TH04）",
+      "metric": "DX-Ball 还原通过 3205 个原始 x86 测试用例"
+    }
+  },
+  "d-c3123ccb5d": {
+    "hash": "795ce0cc68e7",
+    "en": {
+      "title": "A Framework Using Adversarial Code to Defend Against AI Reverse-Engineering Agents",
+      "summary": "An open-core, build-time code defense engine that claims to block REA and decompilation pipelines. It ships a ledger showing 45 tests passed and 26 attack vectors verified, but the excerpt does not show what was actually compared.",
+      "target": "Build-artifact protection for JS / desktop / backend apps",
+      "metric": "26/26 verified vectors passed, 45 tests passed (self-reported)"
+    },
+    "zh-CN": {
+      "title": "以对抗式代码防御对付 AI 逆向代理的框架",
+      "summary": "开源核心的构建期代码防御引擎,声称能够阻挡 REA 与反编译流水线。附带 45 项测试通过、26 个攻击向量验证的台账,但节选内容中看不到具体对照细节。",
+      "target": "JS／桌面／后端应用的构建产物防护",
+      "metric": "26/26 验证向量通过、45 项测试通过(自述)"
+    }
+  },
+  "d-6943269a13": {
+    "hash": "ca63edaff8c5",
+    "en": {
+      "title": "REA Case Roundup: ASIAIR Firmware, the untangle Blind Test, and Super Mario 64",
+      "summary": "The case page lists several projects: using REA with Ghidra to analyze the communication protocol and architecture of ZWO ASIAIR firmware; a blind test on untangle.exe where findings were frozen first and then scored against the source code; and a video creator who claims to have measured Super Mario 64's values and built an original game from them. It also includes playbooks for Electron inspection and Evidence JSON conversion.",
+      "target": "ZWO ASIAIR firmware, untangle.exe, Super Mario 64",
+      "metric": "untangle.exe findings frozen first, then scored against the answer key"
+    },
+    "zh-CN": {
+      "title": "REA 案例页汇总:ASIAIR 固件、untangle 盲测与马力欧 64",
+      "summary": "案例页列出多个项目:用 REA 搭配 Ghidra 分析 ZWO ASIAIR 固件的通信协议与架构;对 untangle.exe 先冻结发现、再对照源代码评分的盲测;以及视频作者声称测量《超级马力欧 64》数值后做出原创游戏。另有 Electron 检查与 Evidence JSON 转换的操作手册。",
+      "target": "ZWO ASIAIR 固件、untangle.exe、Super Mario 64",
+      "metric": "untangle.exe 发现先冻结再对答案评分"
+    }
+  },
+  "d-a886ca128a": {
+    "hash": "040e0e285b2f",
+    "en": {
+      "title": "Video Claims to Use REA to Analyze CapCut and Build a Free Video Editor",
+      "summary": "The author used REA to analyze CapCut and claims to have built their own editor to replace CapCut Pro. The excerpt contains only a title and a one-line intro, with no concrete findings, code, or test evidence.",
+      "target": "CapCut",
+      "metric": "Author claims to have built a free editor (no evidence)"
+    },
+    "zh-CN": {
+      "title": "视频声称用 REA 分析 CapCut 并做出免费剪辑器",
+      "summary": "作者以 REA 分析 CapCut,并声称据此做出自己的剪辑器来取代 CapCut Pro。节选内容只有标题和一句介绍,没有具体发现、代码或测试证据。",
+      "target": "CapCut",
+      "metric": "作者自称做出免费剪辑器(无证据)"
+    }
+  },
+  "d-1026ce0a68": {
+    "hash": "9090bea217ca",
+    "en": {
+      "title": "A Windows Template Combining Local AI and Reverse-Engineering Tools",
+      "summary": "Bundles Ollama, Hermes, OpenClaw, Grafana, Obsidian, and reverse-engineering tools such as Ghidra, JADX, and Frida into a local suite. The content is mostly configuration and installation instructions, with no reverse-engineering results on a specific target; here \"REA\" is interpreted as a \"Revived by AI\" methodology, and its relationship to morluto/rea is unclear.",
+      "target": "Local AI and reverse-engineering toolkit for Windows 10/11",
+      "metric": "Configuration template integrating 12 bots and multiple reverse-engineering tools"
+    },
+    "zh-CN": {
+      "title": "整合本地 AI 与逆向工具的 Windows 模板",
+      "summary": "把 Ollama、Hermes、OpenClaw、Grafana、Obsidian 与 Ghidra、JADX、Frida 等逆向工具组成本地套件。内容以配置与安装说明为主,没有针对具体目标的逆向成果;此处「REA」被解释为「Revived by AI」方法论,与 morluto/rea 的关联不明。",
+      "target": "Windows 10/11 本地 AI 与逆向工具套件",
+      "metric": "整合 12 个 bot 与多种逆向工具的配置模板"
+    }
+  },
+  "d-bd46158f08": {
+    "hash": "3787d1e14026",
+    "en": {
+      "title": "BLADE: A De-Hardening Pipeline That Strips BLA Protections for REA Analysis",
+      "summary": "Targets the decoys and protections added by bla-agents: it identifies their signatures, then removes or repairs them so REA and decompilers see the real logic. Supports about 20 formats, with 200+ adversarial test cases, recovery levels, and measured reduction results.",
+      "target": "Various artifacts hardened by bla-agents (JS, ASAR, WASM, ELF, etc.)",
+      "metric": "138 KB of hardened JS restored to about 2 KB of real logic; 17.4 MB ASAR header reduced to 532 B"
+    },
+    "zh-CN": {
+      "title": "BLADE：移除 BLA 防护以便 REA 分析的去强化流水线",
+      "summary": "针对 bla-agents 添加的诱饵与防护，识别其特征并移除或修复，让 REA 与反编译器看到真实逻辑。支持约 20 种格式，附 200 多个对抗性测试用例与恢复等级，并有实测缩减结果。",
+      "target": "bla-agents 强化过的各类产物（JS、ASAR、WASM、ELF 等）",
+      "metric": "138 KB 强化 JS 还原为约 2 KB 真实逻辑；17.4 MB ASAR 头部缩减为 532 B"
+    }
+  },
+  "d-53bbfbaf43": {
+    "hash": "b00ee7458a97",
+    "en": {
+      "title": "Game Modding and Interoperability REA Cases: Ski or Die, GunZ, Spore, and More",
+      "summary": "A category page collecting several REA-assisted projects: a Rust+SDL2 rebuild of Ski or Die's Snowball War minigame; a clean-room Rust/Bevy port of GunZ (with maps, modes, and movement techniques); a recompilation of Spore's x86/D3D9 binaries to ARM64/Metal for Apple Silicon; and a GameFrame skill set. Most are full projects, but the excerpt shows no test data.",
+      "target": "Ski or Die, GunZ: The Duel, Spore, reimplementations of classic games",
+      "metric": "Spore recompiled to ARM64/Metal and running natively on Apple Silicon"
+    },
+    "zh-CN": {
+      "title": "游戏模组与互通类 REA 案例汇总：Ski or Die、GunZ、Spore 等",
+      "summary": "分类页收录多个借助 REA 完成的项目：用 Rust+SDL2 重建 Ski or Die 的 Snowball War 小游戏；GunZ 的 Rust/Bevy 净室移植版（含地图、模式、移动技巧）；将 Spore 的 x86/D3D9 二进制重编译为 ARM64/Metal，在 Apple Silicon 上运行；以及 GameFrame 技能集。多数为完整项目，但节选中未见测试数据。",
+      "target": "Ski or Die、GunZ: The Duel、Spore、老游戏重实现",
+      "metric": "Spore 重编译为 ARM64/Metal，可在 Apple Silicon 上原生运行"
+    }
+  },
+  "d-9cb436c3c5": {
+    "hash": "a58ebe10514b",
+    "en": {
+      "title": "Dissecting the Suitable Student Engagement Platform with REA and Building a Prototype",
+      "summary": "For Suitable, a higher-ed student engagement software, REA analyzed the 42 scripts on the login page using only public pages, extracting two lists: API clients and screen names. Also includes a table of cited facts and a self-built clickable Waypoint front-end prototype (student and staff sides).",
+      "target": "Suitable (suitable.co) student engagement platform",
+      "metric": "42 scripts captured, producing API and screen lists, plus a prototype covering student and staff views"
+    },
+    "zh-CN": {
+      "title": "用 REA 拆解 Suitable 学生参与平台并制作原型",
+      "summary": "针对高教学生参与软件 Suitable，仅用公开页面和 REA 分析登录页的 42 个脚本，提取出 API 客户端和界面名称两份清单。并附带引用事实表及自制的 Waypoint 前端可点击原型（学生端与职员端）。",
+      "target": "Suitable（suitable.co）学生参与平台",
+      "metric": "捕获 42 个脚本，产出 API 与界面两份清单，并做出含学生与职员视角的原型"
+    }
+  },
+  "d-0c78326592": {
+    "hash": "9457aeef81e4",
+    "en": {
+      "title": "Reverse Engineering the Chrome Remote Desktop Host and Building a One-Click Deployment Tool",
+      "summary": "Used REA and Ghidra to analyze Google's remoting_core.dll, finding behaviors such as re-registration deleting the existing host. Based on this, built a one-click unattended installer for Windows, with safeguards including config migration, parameter validation, and policy pre-checks.",
+      "target": "Chrome Remote Desktop host (remoting_core.dll)",
+      "metric": "5 reverse-engineering findings, e.g. re-registering an existing host_id deletes the original host"
+    },
+    "zh-CN": {
+      "title": "逆向 Chrome Remote Desktop 主机并制作一键部署工具",
+      "summary": "使用 REA 与 Ghidra 分析 Google 的 remoting_core.dll，发现重复注册会删除现有主机等行为。据此制作了 Windows 一键无人值守安装工具，并加入配置迁移、参数检查与策略预检等防护。",
+      "target": "Chrome Remote Desktop 主机（remoting_core.dll）",
+      "metric": "5 项逆向发现，例如对已有 host_id 重新注册会删除原主机"
+    }
+  },
+  "d-171a1944cd": {
+    "hash": "2e25c0841c9f",
+    "en": {
+      "title": "An evidence-based REA reverse-engineering workflow for multiple agent hosts",
+      "summary": "Provides a portable Agent Skill, a Claude Code subagent, an installer that defaults to dry-run, environment diagnostics, and a CLI for JSON Schema and report validation. Supports Claude Code, Codex, dsh, and WorkBuddy, with unit tests and CI. The project is workflow and tooling integration; it reports no results against a specific reverse-engineering target.",
+      "target": "Agent hosts such as Claude Code, Codex, dsh, and WorkBuddy",
+      "metric": "Zero-dependency CLI with JSON Schema validation and GitHub Actions CI"
+    },
+    "zh-CN": {
+      "title": "为多种 agent 主机打造以证据为本的 REA 逆向工作流",
+      "summary": "提供可移植的 Agent Skill、Claude Code 子代理、默认 dry-run 的安装器、环境诊断，以及 JSON Schema 与报告验证 CLI。支持 Claude Code、Codex、dsh、WorkBuddy，并配有单元测试与 CI。内容是工作流与工具集成，没有针对具体逆向目标的成果。",
+      "target": "Claude Code、Codex、dsh、WorkBuddy 等 agent 主机",
+      "metric": "zero-dependency CLI，含 JSON Schema 验证与 GitHub Actions CI"
+    }
+  },
+  "d-d1d00f9de9": {
+    "hash": "233320591b3e",
+    "en": {
+      "title": "Packaging the REA MCP and skills as a one-step DeepSeek Harness plugin",
+      "summary": "A filtering proxy cuts REA's default 229 tools (about 75k tokens) down to roughly 16 curated tools, with the rest loadable on demand, and bundles the reverse-engineer-anything skill. Environment variables configure the Ghidra and JDK paths. This is integration and plugin work and covers no specific reverse-engineering results.",
+      "target": "DeepSeek Harness (dsh) plugin and REA MCP server",
+      "metric": "Tools reduced from 229 (about 75k tokens) to about 16 curated tools"
+    },
+    "zh-CN": {
+      "title": "把 REA MCP 与技能打包成 DeepSeek Harness 一键插件",
+      "summary": "通过过滤代理，把 REA 默认的 229 个工具（约 75k tokens）缩减为约 16 个精选工具，其余工具可按需加载，同时内置 reverse-engineer-anything 技能。提供 Ghidra 与 JDK 路径的环境变量配置。属于集成与插件工作，未涉及具体逆向成果。",
+      "target": "DeepSeek Harness（dsh）插件与 REA MCP 服务器",
+      "metric": "工具从 229 个（约 75k tokens）缩减为约 16 个精选工具"
+    }
+  },
+  "d-7fd19af8c4": {
+    "hash": "b02ba528328c",
+    "en": {
+      "title": "A web-first REA reverse-engineering skill pack for Antigravity",
+      "summary": "Derived from morluto/rea, it targets front-end JS bundles, HAR captures, and Electron apps, organized into a 6-stage process with 11 reference guides. It stresses separating evidence sources, clean-room reconstruction specs, and an authorization gate that blocks work when authorization is missing, and includes build notes for Windows/Node 26. This is a skill pack and documentation effort; the README shows no reverse-engineering results against a specific target.",
+      "target": "Web reverse-engineering skill for Google Antigravity",
+      "metric": "SKILL.md kept to about 2,988 tokens, with 11 reference guides"
+    },
+    "zh-CN": {
+      "title": "为 Antigravity 打造网页优先的 REA 逆向工程技能包",
+      "summary": "衍生自 morluto/rea，针对前端 JS bundle、HAR 抓包与 Electron 应用，整理为 6 阶段流程与 11 份参考指南。强调区分证据来源、净室重建规格，以及未授权即阻断的授权闸门，并提供 Windows/Node 26 的构建说明。属于技能包与文档整理，README 中未见针对具体目标的逆向成果。",
+      "target": "Google Antigravity 的 Web 逆向工程技能",
+      "metric": "SKILL.md 控制在约 2,988 tokens，附 11 份参考指南"
+    }
+  },
+  "d-2227087b76": {
+    "hash": "05bf1acb5d72",
+    "en": {
+      "title": "A lightweight Rust hardening tool against AI reverse-engineering agents",
+      "summary": "A zero-dependency Rust tool that audits and lightly hardens GGUF, Safetensors, and WASM releases by adding canary metadata and nested-metadata traps, with the added size capped by default at 4 KiB or 5%. It also provides an agent team loop for audit, harden, verify, and report. This is a defensive tool aimed at REA, not one that uses REA to reverse-engineer anything.",
+      "target": "Your own GGUF, Safetensors, and WASM releases",
+      "metric": "Single binary of about 470 KB, zero dependencies, added size capped at 4 KiB or 5%"
+    },
+    "zh-CN": {
+      "title": "打造抵御 AI 逆向代理的轻量 Rust 防护工具",
+      "summary": "以零依赖 Rust 工具对 GGUF、Safetensors 与 WASM 发行文件进行审计与轻量加固，加入金丝雀元数据与嵌套元数据陷阱，附加体积上限默认为 4 KiB 或 5%。同时提供审计、加固、验证、报告的 agent 团队循环。这是针对 REA 的防御工具，并非用 REA 做逆向。",
+      "target": "自有的 GGUF、Safetensors 与 WASM 发行文件",
+      "metric": "单个约 470 KB 的二进制文件，零依赖，附加体积上限 4 KiB 或 5%"
+    }
   }
 }

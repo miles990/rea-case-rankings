@@ -51255,9 +51255,10 @@
     },
     {
       "date": "2026-11-12",
-      "stars": 452705,
-      "stars_delta": 2217,
+      "stars": 453177,
+      "stars_delta": 2689,
       "new": [
+        "d-1d63d93011",
         "d-bd46158f08",
         "d-53bbfbaf43",
         "d-9cb436c3c5",
@@ -51268,52 +51269,57 @@
         "d-1026ce0a68",
         "d-171a1944cd",
         "d-d1d00f9de9",
+        "d-f1fff75cd8",
         "d-7fd19af8c4",
         "d-2227087b76",
         "d-25fddf2dc9",
-        "d-ecf05c48dd"
+        "d-820e5dfd78",
+        "d-ecf05c48dd",
+        "d-29cbe8756a"
       ],
       "stats": {
-        "count": 14,
+        "count": 18,
         "wow": {
-          "2": 8,
+          "2": 11,
           "3": 2,
-          "4": 4
+          "4": 4,
+          "5": 1
         },
         "type": {
-          "app": 7,
-          "case": 6,
-          "learn": 1
+          "case": 7,
+          "app": 8,
+          "news": 1,
+          "learn": 2
         },
         "status": {
-          "tested": 2,
-          "shipped": 10,
-          "reported": 2
+          "shipped": 11,
+          "tested": 3,
+          "reported": 4
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 星數破 45 萬，防禦與整合工具成當日主角",
-          "summary": "REA 星數增至 452705，比前一紀錄多 2217。當天榜上最熱的是對抗 REA 的工具：BLADE 想移除 BLA 防護以利分析，另有多個專案宣稱能防禦 AI 逆向代理，但多數沒有對照實測。其餘多為技能包、外掛與工作流整合，以及遊戲重建、Chrome Remote Desktop 逆向等案例，顯示 REA 生態擴張的同時，攻防兩端也開始成形。"
+          "headline": "Discord 桌面版被 REA 完整重建,同日多款防禦工具現身",
+          "summary": "當天 REA GitHub 星數達 453,177,較前一個紀錄 450,488 增加 2,689。排名最前的是以 REA 逆向 Discord Desktop 1.0.9262 並重建含語音、視訊與螢幕分享的應用,作者公開安裝檔、原始碼與附 SHA-256 的證據摘要,是少見成果完整且可驗證的案例。同時出現 BLADE、對抗式程式碼防禦框架、Rust 防護工具與 GitHub Action 等多個專門對付 AI 逆向代理的工具,顯示攻防雙方都在成形;另有多個外掛與技能包聚焦縮減 REA 的工具數量與 token 消耗。"
         },
         "en": {
-          "headline": "REA passes 450K stars as defense and integration tools lead the day",
-          "summary": "REA's GitHub stars rose to 452,705, up 2,217 from the previous record. The hottest items were tools aimed at AI reverse-engineering agents: BLADE strips BLA protections so REA can analyze code, while several other projects claim to defend against such agents, mostly without side-by-side evidence. The rest were skill packs, plugins and workflow integrations, plus case write-ups such as game rebuilds and a Chrome Remote Desktop teardown. The ecosystem is growing, and both offense and defense are taking shape."
+          "headline": "REA rebuilds Discord Desktop in full as defenses against AI reversing multiply",
+          "summary": "REA's GitHub stars reached 453,177, up 2,689 from the previous record of 450,488. The top item is a rebuild of Discord Desktop 1.0.9262 with voice, video and screen sharing using REA; the author published installers, source and an evidence summary with SHA-256 hashes, a rare complete and checkable case. Several tools aimed at stopping AI reverse-engineering agents also appeared, including BLADE, an adversarial code-defense framework, a Rust hardening tool and a GitHub Action, showing both offense and defense taking shape. Other plugins and skill packs focus on cutting REA's tool count and token use."
         },
         "zh-CN": {
-          "headline": "REA 星数破 45 万，防御与集成工具成当日主角",
-          "summary": "REA 星数增至 452705，比前一纪录多 2217。当天榜上最热的是对抗 REA 的工具：BLADE 想移除 BLA 防护以利分析，另有多个项目宣称能防御 AI 逆向代理，但多数没有对照实测。其余多为技能包、插件与工作流集成，以及游戏重建、Chrome Remote Desktop 逆向等案例，显示 REA 生态扩张的同时，攻防两端也开始成形。"
+          "headline": "Discord 桌面版被 REA 完整重建,同日多款防御工具现身",
+          "summary": "当天 REA GitHub 星数达 453,177,较前一个记录 450,488 增加 2,689。排名最前的是以 REA 逆向 Discord Desktop 1.0.9262 并重建含语音、视频与屏幕共享的应用,作者公开安装包、源码与附 SHA-256 的证据摘要,是少见成果完整且可验证的案例。同时出现 BLADE、对抗式代码防御框架、Rust 防护工具与 GitHub Action 等多个专门对付 AI 逆向代理的工具,显示攻防双方都在成形;另有多个插件与技能包聚焦缩减 REA 的工具数量与 token 消耗。"
         }
       },
       "signals": [
         "A",
         "B",
-        "G"
+        "F"
       ],
       "highlights": [
+        "d-1d63d93011",
         "d-bd46158f08",
-        "d-0c78326592",
-        "d-d1d00f9de9"
+        "d-f1fff75cd8"
       ],
       "rank": [
         "dx-ball-sound-pan",
@@ -51358,6 +51364,7 @@
         "d-4e8823e589",
         "d-c24f94de41",
         "d-b704d89ca5",
+        "d-1d63d93011",
         "d-508a57390a",
         "d-f84033b4af",
         "d-4e14365345",
@@ -52188,6 +52195,7 @@
         "d-d7e149d4b2",
         "d-793448136a",
         "d-1c34171707",
+        "d-f1fff75cd8",
         "d-16f345e376",
         "d-a5960144ea",
         "d-78266f1fb7",
@@ -52429,6 +52437,7 @@
         "d-d79fa65f04",
         "d-0c2d1d1da6",
         "d-beb2070b7b",
+        "d-820e5dfd78",
         "d-ec7f5e80fe",
         "d-eba3f084a6",
         "d-f3e9f26835",
@@ -52510,6 +52519,7 @@
         "d-e042abe941",
         "d-48bae55f69",
         "d-ecf05c48dd",
+        "d-29cbe8756a",
         "d-bfc3ec401f",
         "d-ae82d24494",
         "d-40d07b20d2",
@@ -52970,6 +52980,7 @@
         "d-15493ac0e3",
         "d-1d5883af5b",
         "d-1480a7cf0c",
+        "d-0c57c77254",
         "d-11af6be106",
         "d-4e9ff25a61",
         "d-6e9497310d",
@@ -53484,6 +53495,7 @@
         "d-b399483926",
         "d-a954f169cc",
         "d-d92d6ec2a2",
+        "d-04c01fedae",
         "d-f651c9ea4a",
         "d-141fa803c3",
         "d-015dfe09de",
@@ -53655,19 +53667,19 @@
     "to": "2026-11-12",
     "text": {
       "zh-TW": {
-        "headline": "REA 從展示走向驗證，生態擴張快過實證，攻防兩端成形",
-        "summary": "本週 REA 星數從 43.5 萬一路升至 45.2 萬，單日增幅約 2,200 至 3,400。早期以遊戲與舊 App 復活為主，如賽車啟動器、MMO 同伴與行李箱 App 重建，後來逐漸出現硬體與協定案例，如證卡印表機驅動與 Genius Scorpion K7 鍵盤。驗證成為全週不變的主軸：Notepad 重建通過 26 項測試、CSV 匯出位元組一致、MT5 連接器實測報價，但也有作者自述的數字仍待查證。同時，Windows 工具包、MCP 外掛與各平台整合大量湧現，多半缺少公開的逆向成果。另一個新變化是 AEGIS、BLA、BLADE 等防禦與反制工具出現，顯示 REA 本身已被視為需要防範的對象。",
-        "watch": "接下來幾天可留意 BLA 與 BLADE 之間的攻防是否出現對照實測，以及 ReClarity 是否實際釋出，這類有數據的對抗案例最有機會形成新的工具需求。另外，硬體與裝置控制（韌體、BLE、IoT）的案例仍少但有實成果，是尚未擁擠的切入點；整合外掛則可優先看有逐項測試或位元組比對的專案，避免被僅有宣稱的包裝誤導。"
+        "headline": "REA 熱度續攀，焦點從展示轉向可驗證的重建成果",
+        "summary": "本週 REA 星數從 43.5 萬一路升到 45.3 萬，每天穩定增加約 2,500 至 3,500。早期案例以行李箱 App、舊 MMO 同伴與賽車遊戲啟動器等舊軟體保存為主，作者自述的還原數字也尚未獨立驗證。到了 11 月 10 日起，高分案例開始附上對照測試、逐幀比對與位元組一致的匯出結果，11 月 12 日更有 Discord 桌面版重建並公開附 SHA-256 的證據摘要。同時生態系外掛快速增加，但多數沒有公開逆向成果；防禦端也出現 AEGIS、BLA、BLADE 等專門對抗 AI 逆向代理的工具，顯示攻防雙方都在成形。硬體互通（Matica 印表機、K7 鍵盤）則是較小但穩定的線索。",
+        "watch": "留意能附上對照測試與證據摘要的重建案例，以及反制 AI 逆向代理的防禦工具（如 ReClarity 是否釋出）是否出現實測對抗結果。想找機會的人可從縮減工具數量與 token 消耗的外掛，以及硬體裝置的 Linux 驅動與設定工具切入，因為這些需求明確且較容易驗證。"
       },
       "en": {
-        "headline": "REA moves from demos to verification; integrations outpace proof as offense and defense emerge",
-        "summary": "This week REA's GitHub stars climbed from 435K to 452.7K, gaining roughly 2,200 to 3,400 per day. Early cases centered on reviving old games and apps, such as racing-game launchers, an MMO companion and a rebuilt luggage app, then shifted toward hardware and protocols, such as a card-printer driver and the Genius Scorpion K7 keyboard tool. Verification was the constant theme: a Notepad rebuild passed 26 tests, CSV exports matched byte for byte, and an MT5 connector was tested on live quotes, though some figures remain author-reported and unverified. Meanwhile Windows kits, MCP plugins and platform integrations multiplied, mostly without public reverse-engineering results. A new development is the arrival of defensive and counter tools such as AEGIS, BLA and BLADE, showing REA is now treated as something to defend against.",
-        "watch": "In the coming days, watch whether the BLA versus BLADE contest produces side-by-side test data, and whether ReClarity actually ships; benchmarked offense-defense cases are the likeliest to create real tooling demand. Hardware and device-control work (firmware, BLE, IoT) still has few but real results, so it is a less crowded place to build. For integrations, favor projects with per-item tests or byte-level comparisons over packaging that only makes claims."
+        "headline": "REA keeps climbing as the focus shifts from demos to verifiable rebuilds",
+        "summary": "REA's GitHub stars rose from about 435K to 453K this week, adding roughly 2,500 to 3,500 a day. Early cases centered on preserving old software, such as a luggage-app rebuild, a legacy MMO companion and racing-game launchers, with restoration figures that were self-reported and not independently verified. From Nov 10, top cases began to include differential tests, frame-by-frame comparisons and byte-identical exports, and on Nov 12 a Discord Desktop rebuild shipped with SHA-256 evidence summaries. Plugins and integrations multiplied but mostly lacked public reverse-engineering results, while defenses against AI reverse-engineering agents (AEGIS, BLA, BLADE) emerged, so both attack and defense are taking shape. Hardware interop (the Matica printer, the K7 keyboard) was a smaller but steady thread.",
+        "watch": "Watch for rebuilds that ship with differential tests and evidence summaries, and for whether anti-agent defenses such as ReClarity release and show tested results against each other. For opportunities, look at plugins that cut tool count and token use, and at Linux drivers and configuration tools for hardware devices, where the need is clear and easier to verify."
       },
       "zh-CN": {
-        "headline": "REA 从展示走向验证，生态扩张快过实证，攻防两端成形",
-        "summary": "本周 REA 星数从 43.5 万一路升至 45.2 万，单日增幅约 2,200 至 3,400。早期以游戏与旧 App 复活为主，如赛车启动器、MMO 同伴与行李箱 App 重建，后来逐渐出现硬件与协议案例，如证卡打印机驱动与 Genius Scorpion K7 键盘。验证成为全周不变的主轴：记事本重建通过 26 项测试、CSV 导出字节一致、MT5 连接器实测报价，但也有作者自述的数字仍待查证。同时，Windows 工具包、MCP 插件与各平台集成大量涌现，多半缺少公开的逆向成果。另一个新变化是 AEGIS、BLA、BLADE 等防御与反制工具出现，表明 REA 本身已被视为需要防范的对象。",
-        "watch": "接下来几天可留意 BLA 与 BLADE 之间的攻防是否出现对照实测，以及 ReClarity 是否真正发布，这类有数据的对抗案例最有机会形成新的工具需求。另外，硬件与设备控制（固件、BLE、IoT）的案例仍少但有实成果，是尚未拥挤的切入点；集成插件则可优先看有逐项测试或字节比对的项目，避免被仅有宣称的包装误导。"
+        "headline": "REA 热度续攀，焦点从展示转向可验证的重建成果",
+        "summary": "本周 REA 星数从 43.5 万一路升到 45.3 万，每天稳定增加约 2,500 至 3,500。早期案例以行李箱 App、旧 MMO 同伴与赛车游戏启动器等旧软件保存为主，作者自述的还原数字也尚未独立验证。从 11 月 10 日起，高分案例开始附上对照测试、逐帧比对与字节一致的导出结果，11 月 12 日更有 Discord 桌面版重建并公开附 SHA-256 的证据摘要。同时生态系插件快速增加，但多数没有公开逆向成果；防御端也出现 AEGIS、BLA、BLADE 等专门对抗 AI 逆向代理的工具，显示攻防双方都在成形。硬件互通（Matica 打印机、K7 键盘）则是较小但稳定的线索。",
+        "watch": "留意能附上对照测试与证据摘要的重建案例，以及反制 AI 逆向代理的防御工具（如 ReClarity 是否发布）是否出现实测对抗结果。想找机会的人可从缩减工具数量与 token 消耗的插件，以及硬件设备的 Linux 驱动与配置工具切入，因为这些需求明确且较容易验证。"
       }
     },
     "rising": [
@@ -53675,15 +53687,17 @@
       "C",
       "G"
     ],
-    "fading": [],
+    "fading": [
+      "E"
+    ],
     "tally": {
       "A": 2,
       "B": 7,
       "C": 4,
       "D": 3,
       "E": 0,
-      "F": 0,
-      "G": 5
+      "F": 1,
+      "G": 4
     }
   }
 }

@@ -2,6 +2,65 @@
   "updated": "2026-11-12",
   "items": [
     {
+      "url": "https://github.com/berbs-sudo/discord-rea",
+      "title": "berbs-sudo/discord-rea: Recriação completa do Discord Desktop guiada por Engenharia Reversa com morluto/rea — Voz, Vídeo, Compartilhamento de Tela (Go Live) e Instalador .EXE Multi-Rede",
+      "author": "berbs-sudo",
+      "date": "2026-11-12",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "pt",
+      "found": "2026-11-12",
+      "relevant": true,
+      "title_zh": "以 REA 逆向 Discord 桌面版並重建含語音、視訊、螢幕分享的應用與安裝檔",
+      "summary": "目標是 Discord Desktop 1.0.9262，利用 REA 分析 app.asar、core.asar、discord_voice 等產物，擷取 Webpack 模組與 VoiceEngine 介面，並重建出可運作的桌面應用。作者公開了 Windows 安裝檔與可攜版 .EXE、原始碼與證據摘要 JSON（含 SHA-256 與 evidence ID），支援多網路連線與 WebRTC 螢幕分享。",
+      "target": "Discord Desktop 1.0.9262",
+      "metric": "app.asar 1,447 節點、976 個 Webpack 模組；公開 78.7 MB Windows 安裝檔",
+      "category": "Electron",
+      "status": "shipped",
+      "wow": 5,
+      "scored": "2026-11-12",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/smounives/dsh-rea-switch",
+      "title": "smounives/dsh-rea-switch: DSH plugin: toggle the REA MCP server on/off from Settings → REA (and a composer-dock pill), without editing patches by hand.",
+      "author": "smounives",
+      "date": "2026-11-12",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-12",
+      "relevant": true,
+      "title_zh": "開發 DSH 外掛，一鍵開關 REA MCP 伺服器以節省系統提示詞",
+      "summary": "針對 DSH 環境，外掛在設定頁與輸入框 dock 提供 REA MCP 的啟停開關，透過在 home patch 追加受管覆蓋區塊達成。附 22 個測試與端到端驗證腳本，並實測關閉後可省下約 229 個工具定義、約 37k tokens。",
+      "target": "DSH 的 REA MCP 伺服器設定",
+      "metric": "關閉後省約 37k tokens（229 個工具）；約 2.2 秒生效",
+      "category": "工具鏈",
+      "status": "tested",
+      "wow": 2,
+      "scored": "2026-11-12",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://bsky.app/profile/patrickcmiller.bsky.social/post/3n23bzvwaqb2p",
+      "title": "'Reverse Engineer Anything': AI Companies Crack Down on the Coolest Thing People Were Doing With AI www.404media.co/reverse-engi...",
+      "author": "patrickcmiller.bsky.social",
+      "date": "2026-11-12",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 1,
+      "lang": "en",
+      "found": "2026-11-12",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-12",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://github.com/Learnmore-smart/BLADE",
       "title": "Learnmore-smart/BLADE: De-hardening pipeline that strips BLA (bla-agents) defenses from hardened artifacts for REA/human analysis — 16 formats, recovery grades, adversarial fixture corpus",
       "author": "Learnmore-smart",
@@ -191,24 +250,6 @@
       "scored_by": "sonnet"
     },
     {
-      "url": "https://github.com/offtheblockdispatch-prog/new-alpha-application-workbench",
-      "title": "offtheblockdispatch-prog/new-alpha-application-workbench: New Alpha Application Workbench — a modular AI-native workbenc",
-      "source": "GitHub",
-      "found": "2026-11-12",
-      "relevant": false,
-      "scored": "2026-11-12",
-      "scored_by": "sonnet"
-    },
-    {
-      "url": "https://github.com/Amz34/agentic-infra-mesh",
-      "title": "Amz34/agentic-infra-mesh: Ultra high-pitch enterprise AI agentic infrastructure mesh with REA-EGM consensus auditing, He",
-      "source": "GitHub",
-      "found": "2026-11-12",
-      "relevant": false,
-      "scored": "2026-11-12",
-      "scored_by": "jev"
-    },
-    {
       "url": "https://qiita.com/hisashi-ito/items/0df1df4572c95ec198d9",
       "title": "バズった REA は、実際に何に使われているのか",
       "author": "hisashi-ito",
@@ -368,6 +409,46 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://divert.stream/watch/HvfmnI6wl5c?autoplay=1",
+      "title": "Reverse Engineer Anything (REA) with Claude Code (Beginner's Guide) — divert.stream",
+      "author": "divert.stream",
+      "date": "2026-10-15",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-11-12",
+      "relevant": true,
+      "title_zh": "教學影片：用 Claude Code 搭配 REA 重建 Mac 計算機並與無 REA 對照",
+      "summary": "教學影片說明 REA 的原理並示範搭配 Hopper 安裝，以重建 Mac 計算機 App 為例，比較有無 REA 的 Claude Code。有 REA 時直接指向反編譯程式碼中的規則，無 REA 則靠試誤，對真實 App 測試約 44 分鐘。",
+      "target": "Mac 計算機 App",
+      "metric": "無 REA 的 Claude Code 靠試誤測試約 44 分鐘",
+      "category": "教學",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-11-12",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://reamcp.dev/zh-cn/cases/rea-reverse-engineer-anything-3-star-12-2-5-mit-6db14d",
+      "title": "REA（Reverse Engineer Anything）逆向一切 三天从 3 万 Star 涨到 12… — REA 使用案例 · REA MCP",
+      "author": "前端哥Liam",
+      "date": "2026-10-13",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "zh",
+      "found": "2026-11-12",
+      "relevant": true,
+      "title_zh": "報導 REA 三天從 3 萬 Star 漲到 12 萬及其逆向工作流程",
+      "summary": "文章介紹 REA 專案的爆紅，並說明用 adb 抓 App、分析抓包、拆韌體後交給 Claude Code 或 Codex 還原協議的流程。另提到有人用同樣思路逆向空調並做成 Mac 狀態列應用，內容為轉述與介紹。",
+      "target": "REA 專案與空調控制端案例（轉述）",
+      "metric": "三天內 Star 數由 3 萬漲到 12 萬",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-11-12",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://jishuzhan.net/article/2108403181692936193",
       "title": "REA：用 AI Agent 逆向工程任何 app，从行为分析到二进制破解 - 技术栈",
       "author": "jishuzhan.net",
@@ -386,6 +467,33 @@
       "wow": 1,
       "scored": "2026-11-12",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://www.reddit.com/r/AusProperty/comments/147nxkh/rea/",
+      "title": "REA : r/AusProperty",
+      "source": "Reddit r/AusProperty",
+      "found": "2026-11-12",
+      "relevant": false,
+      "scored": "2026-11-12",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/offtheblockdispatch-prog/new-alpha-application-workbench",
+      "title": "offtheblockdispatch-prog/new-alpha-application-workbench: New Alpha Application Workbench — a modular AI-native workbenc",
+      "source": "GitHub",
+      "found": "2026-11-12",
+      "relevant": false,
+      "scored": "2026-11-12",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/Amz34/agentic-infra-mesh",
+      "title": "Amz34/agentic-infra-mesh: Ultra high-pitch enterprise AI agentic infrastructure mesh with REA-EGM consensus auditing, He",
+      "source": "GitHub",
+      "found": "2026-11-12",
+      "relevant": false,
+      "scored": "2026-11-12",
+      "scored_by": "jev"
     },
     {
       "url": "https://github.com/robertoatila/jarvis-skill-registry",
@@ -463,6 +571,26 @@
       "category": "Native / 遊戲",
       "status": "shipped",
       "wow": 4,
+      "scored": "2026-11-12",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://reamcp.dev/ja/categories/app-recreation",
+      "title": "アプリ機能の再現の REA 活用事例 · REA MCP",
+      "author": "M MindfulReturn 身心修复局 @ MindfulReturn",
+      "date": null,
+      "source": "Web",
+      "kind": "文章",
+      "lang": "ja",
+      "found": "2026-11-12",
+      "relevant": true,
+      "title_zh": "案例彙整：以 REA 重建 Sopwith 等應用與教學影片",
+      "summary": "頁面彙整應用重建類案例：包含用 Ghidra 搭配 REA 反編譯 1984 年 Sopwith DOS 程式，抽出精靈、地形與遊戲表後以 HTML/Canvas 重建，以及 DeepSeek 以 REA 重建 DOS 遊戲的轉述。另有數支安裝與重建教學影片，內容為摘要性質。",
+      "target": "Sopwith DOS 遊戲、Google Calendar 風格 Web 應用",
+      "metric": "以 0.68 美元成本重建 1984 年 DOS 遊戲到 Chrome",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 2,
       "scored": "2026-11-12",
       "scored_by": "sonnet"
     },
@@ -50184,6 +50312,35 @@
   "runs": [
     {
       "date": "2026-11-12",
+      "added": 7,
+      "stats": {
+        "githubShowAndTell": 18,
+        "githubRepos": 242,
+        "githubCode": 45,
+        "hackerNews": 32,
+        "qiita": 51,
+        "devto": 150,
+        "juejin": 0,
+        "reddit": 20,
+        "v2ex": 16,
+        "youtube": 90,
+        "bluesky": 162,
+        "mastodon": 160,
+        "exaWeb": 60,
+        "x": "error: Command failed: grok -p Search X for posts from the last 7 days where people sho"
+      },
+      "scoring": {
+        "scored": 5,
+        "jev": {
+          "low": 1,
+          "irrelevant": 1,
+          "errors": 0,
+          "toClaude": 5
+        }
+      }
+    },
+    {
+      "date": "2026-11-12",
       "added": 25,
       "stats": {
         "githubShowAndTell": 18,
@@ -51022,36 +51179,7 @@
           "toClaude": 2
         }
       }
-    },
-    {
-      "date": "2026-10-29",
-      "added": 0,
-      "stats": {
-        "githubShowAndTell": 15,
-        "githubRepos": 235,
-        "githubCode": 46,
-        "hackerNews": 24,
-        "qiita": 43,
-        "devto": 150,
-        "juejin": 1,
-        "reddit": "error: 429 reddit rss",
-        "v2ex": 12,
-        "youtube": 90,
-        "bluesky": 162,
-        "mastodon": 160,
-        "exaWeb": 44,
-        "x": 0
-      },
-      "scoring": {
-        "scored": 0,
-        "jev": {
-          "low": 0,
-          "irrelevant": 0,
-          "errors": 0,
-          "toClaude": 0
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-12T00:22:10.785Z"
+  "updatedAt": "2026-11-12T04:34:11.194Z"
 }

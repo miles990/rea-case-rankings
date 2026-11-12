@@ -20098,5 +20098,65 @@
       "target": "自有的 GGUF、Safetensors 与 WASM 发行文件",
       "metric": "单个约 470 KB 的二进制文件，零依赖，附加体积上限 4 KiB 或 5%"
     }
+  },
+  "d-1d63d93011": {
+    "hash": "b1431ecfd270",
+    "en": {
+      "title": "Reverse-engineering Discord Desktop with REA and rebuilding the app, including voice, video, and screen sharing, along with its installer",
+      "summary": "The target is Discord Desktop 1.0.9262. Using REA, the author analyzed artifacts such as app.asar, core.asar, and discord_voice, extracted the Webpack modules and the VoiceEngine interface, and rebuilt a working desktop app. The Windows installer, a portable .EXE, the source code, and an evidence summary JSON (with SHA-256 hashes and evidence IDs) have all been published. The rebuild supports multiple network connections and WebRTC screen sharing.",
+      "target": "Discord Desktop 1.0.9262",
+      "metric": "app.asar: 1,447 nodes and 976 Webpack modules; 78.7 MB Windows installer published"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向 Discord 桌面版，重建包含语音、视频、屏幕共享的应用及安装包",
+      "summary": "目标是 Discord Desktop 1.0.9262。作者借助 REA 分析了 app.asar、core.asar、discord_voice 等产物，提取出 Webpack 模块和 VoiceEngine 接口，并重建出可运行的桌面应用。作者公开了 Windows 安装包和便携版 .EXE、源代码，以及证据摘要 JSON（含 SHA-256 和 evidence ID），支持多网络连接和 WebRTC 屏幕共享。",
+      "target": "Discord Desktop 1.0.9262",
+      "metric": "app.asar 共 1,447 个节点、976 个 Webpack 模块；公开 78.7 MB 的 Windows 安装包"
+    }
+  },
+  "d-f1fff75cd8": {
+    "hash": "452159446227",
+    "en": {
+      "title": "A DSH plugin that toggles the REA MCP server with one click to save system prompt tokens",
+      "summary": "Built for the DSH environment, the plugin adds an on/off switch for the REA MCP server in both the settings page and the input-box dock, by appending a managed override block to the home patch. It ships with 22 tests and an end-to-end verification script, and measurements show that turning the server off saves about 229 tool definitions, or roughly 37k tokens.",
+      "target": "REA MCP server settings in DSH",
+      "metric": "Turning it off saves about 37k tokens (229 tools); takes effect in about 2.2 seconds"
+    },
+    "zh-CN": {
+      "title": "开发 DSH 插件，一键开关 REA MCP 服务器以节省系统提示词",
+      "summary": "针对 DSH 环境，该插件在设置页和输入框 dock 中提供 REA MCP 的启停开关，实现方式是在 home patch 中追加受管的覆盖块。项目附带 22 个测试和端到端验证脚本，实测关闭后可节省约 229 个工具定义，约 37k tokens。",
+      "target": "DSH 中的 REA MCP 服务器设置",
+      "metric": "关闭后节省约 37k tokens（229 个工具）；约 2.2 秒生效"
+    }
+  },
+  "d-820e5dfd78": {
+    "hash": "cee9119fb844",
+    "en": {
+      "title": "Case roundup: rebuilding Sopwith and other apps with REA, plus tutorial videos",
+      "summary": "This page collects app-rebuilding cases. They include decompiling the 1984 DOS program Sopwith with Ghidra and REA, extracting its sprites, terrain, and game tables, and rebuilding it in HTML/Canvas, as well as a retelling of DeepSeek rebuilding a DOS game with REA. It also lists several installation and rebuilding tutorial videos, summarized briefly.",
+      "target": "Sopwith DOS game, a Google Calendar-style web app",
+      "metric": "Rebuilt a 1984 DOS game in Chrome for a cost of $0.68"
+    },
+    "zh-CN": {
+      "title": "案例汇总：用 REA 重建 Sopwith 等应用及教学视频",
+      "summary": "本页汇总了应用重建类案例：包括用 Ghidra 配合 REA 反编译 1984 年的 Sopwith DOS 程序，提取精灵、地形和游戏表后以 HTML/Canvas 重建，以及 DeepSeek 用 REA 重建 DOS 游戏的转述。另有几支安装和重建教学视频，内容为摘要性质。",
+      "target": "Sopwith DOS 游戏、Google Calendar 风格的 Web 应用",
+      "metric": "以 0.68 美元的成本将 1984 年的 DOS 游戏重建到 Chrome"
+    }
+  },
+  "d-29cbe8756a": {
+    "hash": "66123a6cdb11",
+    "en": {
+      "title": "Tutorial video: rebuilding a Mac calculator with Claude Code and REA, compared against a run without REA",
+      "summary": "The tutorial video explains how REA works and demonstrates installing it alongside Hopper. Using the rebuild of a Mac calculator app as the example, it compares Claude Code with and without REA. With REA, Claude Code points directly to rules in the decompiled code; without it, it relies on trial and error, testing against the real app for about 44 minutes.",
+      "target": "Mac calculator app",
+      "metric": "Claude Code without REA spent about 44 minutes on trial-and-error testing"
+    },
+    "zh-CN": {
+      "title": "教学视频：用 Claude Code 配合 REA 重建 Mac 计算器，并与无 REA 的情况对比",
+      "summary": "教学视频讲解了 REA 的原理，并演示与 Hopper 搭配安装，以重建 Mac 计算器 App 为例，对比有无 REA 的 Claude Code。有 REA 时可直接指向反编译代码中的规则；没有 REA 则靠试错，对真实 App 测试了约 44 分钟。",
+      "target": "Mac 计算器 App",
+      "metric": "无 REA 的 Claude Code 靠试错测试约 44 分钟"
+    }
   }
 }

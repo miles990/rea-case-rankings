@@ -53653,54 +53653,59 @@
     },
     {
       "date": "2026-11-13",
-      "stars": 455252,
-      "stars_delta": 2075,
+      "stars": 455680,
+      "stars_delta": 2503,
       "new": [
         "d-d19ed37abb",
         "d-6d688e42d3",
+        "d-8b38f154e8",
+        "d-f1cf53c5c2",
         "d-c6fd18d485",
         "d-ef1f9f3a05",
         "d-47f95078bb"
       ],
       "stats": {
-        "count": 5,
+        "count": 7,
         "wow": {
-          "2": 3,
+          "2": 4,
+          "3": 1,
           "4": 1,
           "5": 1
         },
         "type": {
           "case": 1,
-          "app": 4
+          "app": 5,
+          "news": 1
         },
         "status": {
-          "tested": 2,
+          "tested": 3,
+          "reported": 1,
           "shipped": 3
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "AI 代理重建東方 TH08 原始碼，反逆向宣稱也被實測稽核",
-          "summary": "11 月 13 日 REA 的 GitHub 星數升至 455,252，比前一個紀錄多 2,075。榜首案例是開發者用 REA 搭配 AI 代理，從編譯檔重建東方 TH08 與 TH095 的原始碼，TH08 完成全部 1,107 個函式，但文章也坦言仍有一個函式未通過驗證。另一個項目用 12 個 fixture 與真實 REA 實測 BLA 的反逆向宣稱，結果 4 個放大、3 個中性、5 個被拒，顯示「完成」與「正確」之間需要證據來檢驗。其餘三項是以 REA 為基礎的 Rust 重建技能、發佈前安全稽核閘門與一鍵安裝工作台，偏向工具與整合。"
+          "headline": "REA 星數破 45.5 萬,獨立稽核開始檢驗其實際成效",
+          "summary": "今天 REA 星數升至 455,680,比前一個紀錄增加 2,503。最值得注意的是兩項獨立稽核:一項以 12 個 fixture 實測 BLA 的反逆向宣稱,結果 4 個放大、3 個中性、5 個被拒;另一項以 20 個程式測試,在中小型程式上未偵測到 REA 帶來準確度提升。同時東方 TH08、TH095 的 AI 代理重建案例展示了實際成果,但也坦承仍有一個函式未通過驗證,顯示驗證才是真正的瓶頸。其餘項目多為安裝包、技能組或影片宣稱,缺乏具體成果證據。"
         },
         "en": {
-          "headline": "AI agent rebuilds Touhou TH08 source; anti-reversing claims get tested",
-          "summary": "On 13 Nov, REA's GitHub stars rose to 455,252, up 2,075 from the previous record. The top case is a developer using REA with an AI agent to rebuild the source of Touhou TH08 and TH095 from compiled binaries; TH08 covers all 1,107 functions, though the write-up admits one function still fails verification. Another item audits BLA's anti-reversing claims with 12 fixtures and real REA runs: 4 amplified, 3 neutral, 5 rejected, showing that 'done' and 'correct' need evidence to separate. The other three items are tooling and integration: Rust-rebuild skills built on REA, a pre-release security audit gate, and a one-click install workbench."
+          "headline": "REA passes 455K stars as independent audits test its real impact",
+          "summary": "REA's GitHub stars reached 455,680 today, up 2,503 from the previous record. The most notable items are two independent audits: one ran 12 fixtures against BLA's anti-reverse-engineering claims (4 amplified, 3 neutral, 5 rejected), and another tested 20 programs and detected no accuracy improvement from REA on small and mid-sized programs. Meanwhile the Touhou TH08 and TH095 AI-agent reconstruction shows concrete results, yet admits one function still fails verification, underlining that verification is the bottleneck. Most other items are installers, skill bundles or video claims without concrete evidence of results."
         },
         "zh-CN": {
-          "headline": "AI 代理重建东方 TH08 源码，反逆向宣称也被实测审计",
-          "summary": "11 月 13 日 REA 的 GitHub 星数升至 455,252，比前一个记录多 2,075。榜首案例是开发者用 REA 搭配 AI 代理，从编译文件重建东方 TH08 与 TH095 的源码，TH08 完成全部 1,107 个函数，但文章也坦言仍有一个函数未通过验证。另一个项目用 12 个 fixture 与真实 REA 实测 BLA 的反逆向宣称，结果 4 个放大、3 个中性、5 个被拒，说明「完成」与「正确」之间需要证据来检验。其余三项是以 REA 为基础的 Rust 重建技能、发布前安全审计闸门与一键安装工作台，偏向工具与集成。"
+          "headline": "REA 星数破 45.5 万,独立审计开始检验其实际成效",
+          "summary": "今天 REA 星数升至 455,680,比之前的纪录增加 2,503。最值得注意的是两项独立审计:一项以 12 个 fixture 实测 BLA 的反逆向宣称,结果 4 个放大、3 个中性、5 个被拒;另一项以 20 个程序测试,在中小型程序上未检测到 REA 带来准确度提升。同时东方 TH08、TH095 的 AI 代理重建案例展示了实际成果,但也坦承仍有一个函数未通过验证,显示验证才是真正的瓶颈。其余项目多为安装包、技能组或视频宣称,缺乏具体成果证据。"
         }
       },
       "signals": [
         "B",
         "C",
-        "G"
+        "F"
       ],
       "highlights": [
         "d-d19ed37abb",
         "d-6d688e42d3",
-        "d-ef1f9f3a05"
+        "d-8b38f154e8"
       ],
       "rank": [
         "dx-ball-sound-pan",
@@ -53715,8 +53720,8 @@
         "d-fe71147f43",
         "d-59d96100d1",
         "d-311702c242",
-        "d-8f1f2064bd",
         "ski-or-die",
+        "d-8f1f2064bd",
         "d-d155fe3d33",
         "d-301760cfa8",
         "zwo-asiair",
@@ -54127,6 +54132,7 @@
         "d-29a0f7ce64",
         "d-debe9dcba2",
         "d-0f357bf846",
+        "d-8b38f154e8",
         "d-79ada06595",
         "d-57b32b5b62",
         "d-ecace49741",
@@ -54201,6 +54207,7 @@
         "d-dd06678520",
         "d-467f111f7c",
         "d-281ba1b3f0",
+        "d-f1cf53c5c2",
         "d-ecbb34ba3f",
         "d-84b4a32aa0",
         "d-c358a50d4a",
@@ -56061,28 +56068,28 @@
     "to": "2026-11-13",
     "text": {
       "zh-TW": {
-        "headline": "REA 成果從遊戲保存走向可驗證的重建，攻防雙方同時成形",
-        "summary": "本週初，成果集中在 Colin McRae 與 DiRT Rally 等舊遊戲的 Linux 啟動器，生態系工具多半只有宣稱。中段起，案例開始附上對照測試與逐幀比對，例如記事本 26 項測試通過、Beekeeper Studio 的 CSV 匯出在 18 組資料集上位元組一致。範圍也從遊戲延伸到硬體與企業軟體，包括 Matica 證卡印表機驅動、Genius Scorpion K7 鍵盤協定與 Discord Desktop 重建。同時，AEGIS、BLA、BLADE 等專門對付 AI 逆向代理的防禦工具出現，意味著客戶端程式碼不再是護城河，但這些防禦宣稱本身也要被驗證；「驗證是瓶頸」整週天天出現。",
-        "watch": "留意 BLA 這類反逆向宣稱的實測稽核是否增加，以及 TH08 剩下一個未通過驗證的函式能否補齊。可行動的機會在於提供對照測試、證據摘要與可重現驗證的工具與服務，以及硬體與企業軟體的實際重建案例，因為外掛與包裝的數量成長快過實證成果。"
+        "headline": "REA 熱度續漲，但真正的焦點已從展示轉向驗證",
+        "summary": "本週 REA 星數從約 43.8 萬升至 45.5 萬，生態系擴張與舊遊戲保存是主旋律，早期以 Colin McRae、DiRT Rally 啟動器與 Sacred Gold 修補為代表。中段開始出現可驗證的成果，如記事本重建通過 26 項測試、Beekeeper Studio 的 CSV 匯出位元組一致、Sopwith 逐幀比對，以及 Discord 桌面版附 SHA-256 證據的完整重建，應用也從遊戲延伸到企業軟體與鍵盤、證卡印表機等硬體。同時防禦端成形，AEGIS、BLA、BLADE 等專門阻擋 AI 逆向代理的工具接連出現，也有降低 token 消耗的外掛。到週末，獨立稽核開始檢驗成效：BLA 的 12 個 fixture 中 4 個被放大、5 個被拒，另一項 20 程式測試未見 REA 在中小型程式上提升準確度，而 TH08、TH095 重建仍有一個函式未通過。整體而言，驗證已取代產出本身，成為真正的瓶頸。",
+        "watch": "接下來可留意更多獨立稽核與對照測試能否重現 REA 的實際成效，以及防禦工具與反制工具（如尚未釋出的 ReClarity）的攻防結果。有機會的方向包括可驗證的證據與評分工具、以及舊軟體與硬體的重建服務；單靠外掛與包裝、缺乏成果證據的項目則需保持懷疑。"
       },
       "en": {
-        "headline": "REA results move from game revival to verifiable rebuilds, as attack and defense both take shape",
-        "summary": "Early in the week, results centered on Linux launchers for old games like Colin McRae and DiRT Rally, while most ecosystem tools offered only claims. From midweek, cases came with differential tests and frame-by-frame comparisons, such as Notepad passing 26 tests and Beekeeper Studio's CSV export matching byte for byte across 18 datasets. Scope also widened from games to hardware and enterprise-style software, including a Matica card printer driver, the Genius Scorpion K7 keyboard protocol and a Discord Desktop rebuild. Meanwhile defensive tools aimed at AI reverse-engineering agents appeared (AEGIS, BLA, BLADE), signaling client-side code is no longer a moat, yet those defense claims themselves need verification. Verification as the bottleneck showed up every single day.",
-        "watch": "Watch whether audits of anti-reverse-engineering claims like BLA's become more common, and whether TH08's last unverified function gets closed. The opportunity is in differential testing, evidence summaries and reproducible verification tooling, plus real rebuild cases in hardware and enterprise software, since plugins and wrappers are growing faster than proven results."
+        "headline": "REA hype keeps climbing, but the real focus has shifted from demos to verification",
+        "summary": "Over the week REA's GitHub stars rose from about 438K to 455K, with ecosystem expansion and old-game preservation as the main themes, early on shown by the Colin McRae and DiRT Rally launchers and the Sacred Gold patch. Mid-week brought verifiable results: a Notepad rebuild passing 26 tests, a Beekeeper Studio CSV export byte-identical across 18 datasets, a frame-by-frame Sopwith comparison, and a full Discord Desktop rebuild with SHA-256 evidence, extending the work from games to enterprise software and hardware such as a keyboard and a card printer. Defenses also took shape, with AEGIS, BLA and BLADE built to block AI reverse-engineering agents, alongside plugins that cut token use. By week's end independent audits began testing the claims: of 12 BLA fixtures, 4 were amplified and 5 refused; a 20-program test found no accuracy gain from REA on small and mid-sized programs; and the TH08/TH095 rebuilds still had one function failing verification. Verification, not output, is now the real bottleneck.",
+        "watch": "Watch whether more independent audits and differential tests can reproduce REA's claimed gains, and how the attack-versus-defense contest plays out, including the not-yet-released ReClarity. Opportunities lie in verifiable evidence and grading tooling and in rebuild services for legacy software and hardware; treat plugins and packaging with no evidence of results with skepticism."
       },
       "zh-CN": {
-        "headline": "REA 成果从游戏保存走向可验证的重建，攻防双方同时成形",
-        "summary": "本周初，成果集中在 Colin McRae 与 DiRT Rally 等旧游戏的 Linux 启动器，生态系工具多半只有宣称。中段起，案例开始附上对照测试与逐帧比对，例如记事本 26 项测试通过、Beekeeper Studio 的 CSV 导出在 18 组数据集上字节一致。范围也从游戏延伸到硬件与企业软件，包括 Matica 证卡打印机驱动、Genius Scorpion K7 键盘协议与 Discord Desktop 重建。同时，AEGIS、BLA、BLADE 等专门对付 AI 逆向代理的防御工具出现，意味着客户端代码不再是护城河，但这些防御宣称本身也要被验证；“验证是瓶颈”整周天天出现。",
-        "watch": "留意 BLA 这类反逆向宣称的实测审计是否增加，以及 TH08 剩下一个未通过验证的函数能否补齐。可行动的机会在于提供对照测试、证据摘要与可复现验证的工具与服务，以及硬件与企业软件的实际重建案例，因为插件与包装的数量增长快过实证成果。"
+        "headline": "REA 热度续涨，但真正的焦点已从展示转向验证",
+        "summary": "本周 REA 星数从约 43.8 万升至 45.5 万，生态系扩张与旧游戏保存是主旋律，早期以 Colin McRae、DiRT Rally 启动器与 Sacred Gold 补丁为代表。中段开始出现可验证的成果，如记事本重建通过 26 项测试、Beekeeper Studio 的 CSV 导出字节一致、Sopwith 逐帧比对，以及 Discord 桌面版附 SHA-256 证据的完整重建，应用也从游戏延伸到企业软件和键盘、证卡打印机等硬件。同时防御端成形，AEGIS、BLA、BLADE 等专门阻挡 AI 逆向代理的工具接连出现，也有降低 token 消耗的插件。到周末，独立审计开始检验成效：BLA 的 12 个 fixture 中 4 个被放大、5 个被拒绝，另一项 20 个程序的测试未见 REA 在中小型程序上提升准确度，而 TH08、TH095 重建仍有一个函数未通过。整体而言，验证已取代产出本身，成为真正的瓶颈。",
+        "watch": "接下来可留意更多独立审计与对照测试能否复现 REA 的实际成效，以及防御工具与反制工具（如尚未发布的 ReClarity）的攻防结果。有机会的方向包括可验证的证据与评分工具、以及旧软件与硬件的重建服务；仅靠插件与包装、缺乏成果证据的项目则需保持怀疑。"
       }
     },
     "rising": [
-      "A",
       "B",
-      "G"
+      "G",
+      "C"
     ],
     "fading": [
-      "E"
+      "A"
     ],
     "tally": {
       "A": 2,
@@ -56090,8 +56097,8 @@
       "C": 4,
       "D": 2,
       "E": 0,
-      "F": 1,
-      "G": 5
+      "F": 2,
+      "G": 4
     }
   }
 }

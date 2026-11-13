@@ -20233,5 +20233,35 @@
       "target": "自家前端与桌面应用的构建产物",
       "metric": "内置 SEC/BND/MAC 系列检查，无 REA 时静态扫描可在 100ms 内完成"
     }
+  },
+  "d-8b38f154e8": {
+    "hash": "0c5c70f6e20a",
+    "en": {
+      "title": "Testing Whether REA Improves AI Analysis Accuracy with 20 Independent Programs",
+      "summary": "The author built 20 target programs and compared how correctly an AI agent explained source-less programs with and without REA, and whether it admitted what it could not determine. No accuracy improvement was detected on these small-to-medium programs. The agent rarely chose REA on its own, and when told to use it, it was slower and took more steps. When prompted about what could not be determined, every group said the hidden key could not be recovered.",
+      "target": "REA itself (20 self-built test programs)",
+      "metric": "Dev set 45/45, 44/45, 45/45; held-out set 5, 6, 6 of 6; no accuracy difference detected"
+    },
+    "zh-CN": {
+      "title": "用 20 个程序独立测试 REA 是否提升 AI 分析准确度",
+      "summary": "作者设计了 20 个目标程序,比较有无 REA 时 AI 代理解释无源码程序的正确性,并测试其是否会承认无法确定的事。结果在这些中小型程序上未检测到准确度提升,代理自行很少选用 REA,被要求使用时更慢、步数更多。当提示询问无法确定之处时,各组都表示无法还原隐藏的密钥。",
+      "target": "REA 本身(20 个自制测试程序)",
+      "metric": "开发集 45/45、44/45、45/45;留出集 5、6、6/6,未检测到准确度差异"
+    }
+  },
+  "d-f1cf53c5c2": {
+    "hash": "473e073ed8b9",
+    "en": {
+      "title": "Recreating Claude Code with Free DeepSeek and GLM Models Plus REA",
+      "summary": "The video claims to rebuild Claude Code from scratch using only free AI models (DeepSeek V4.1 Flash, GLM 5.3 Flash) together with REA. The excerpt provides no concrete evidence of code, tests, or results.",
+      "target": "Claude Code",
+      "metric": "Video claims a full rebuild of Claude Code; no concrete verification data"
+    },
+    "zh-CN": {
+      "title": "用 DeepSeek 与 GLM 免费模型搭配 REA 复刻 Claude Code",
+      "summary": "视频声称仅用免费 AI 模型(DeepSeek V4.1 Flash、GLM 5.3 Flash)搭配 REA,从零重建 Claude Code。节选内容未提供代码、测试或成果的具体证据。",
+      "target": "Claude Code",
+      "metric": "视频自称完整重建 Claude Code,无具体验证数据"
+    }
   }
 }

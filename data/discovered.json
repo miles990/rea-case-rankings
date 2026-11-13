@@ -82,15 +82,6 @@
       "scored_by": "sonnet"
     },
     {
-      "url": "https://github.com/isaactony/rea-docs",
-      "title": "isaactony/rea-docs",
-      "source": "GitHub",
-      "found": "2026-11-13",
-      "relevant": false,
-      "scored": "2026-11-13",
-      "scored_by": "jev"
-    },
-    {
       "url": "https://github.com/AIshihzong/awesome-reverse-engineer-anything/blob/main/docs/is-it-rea.md",
       "title": "Did it use REA? Checking viral AI reverse-engineering demos",
       "author": "AIshihzong",
@@ -230,6 +221,45 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://github.com/ansarbuilds/rea-study",
+      "title": "ansarbuilds/rea-study: An independent, reproducible study of REA and AI-assisted program analysis.",
+      "author": "ansarbuilds",
+      "date": "2026-10-19",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-13",
+      "relevant": true,
+      "title_zh": "以 20 個程式獨立測試 REA 是否提升 AI 分析準確度",
+      "summary": "作者設計 20 個目標程式，比較有無 REA 時 AI 代理解釋無原始碼程式的正確性，並測試其是否承認無法確定的事。結果在這些中小型程式上未偵測到準確度提升，代理自行不常選用 REA，被要求使用時更慢、步數更多。當提示詢問無法確定之處時，各組都表示無法還原隱藏的密鑰。",
+      "target": "REA 本身（20 個自製測試程式）",
+      "metric": "開發集 45/45、44/45、45/45；留存集 5、6、6／6，未偵測到準確度差異",
+      "category": "工具鏈",
+      "status": "tested",
+      "wow": 3,
+      "scored": "2026-11-13",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://www.reddit.com/r/AusPropertyChat/comments/11kh9vl/rea_told_us_hes_cutting_his_commission_for_us/",
+      "title": "REA told us he's cutting his commission for us? : r/AusPropertyChat",
+      "source": "Reddit r/AusPropertyChat",
+      "found": "2026-11-13",
+      "relevant": false,
+      "scored": "2026-11-13",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/isaactony/rea-docs",
+      "title": "isaactony/rea-docs",
+      "source": "GitHub",
+      "found": "2026-11-13",
+      "relevant": false,
+      "scored": "2026-11-13",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://github.com/aff-star/rea",
       "title": "aff-star/rea: 逆向一切",
       "source": "GitHub",
@@ -298,6 +328,27 @@
       "status": "shipped",
       "scored": "2026-11-13",
       "scored_by": "jev"
+    },
+    {
+      "url": "https://youtu.be/ihElfZhR-eI",
+      "title": "DeepSeek + REA Cloned Claude Code for FREE (Full Build)",
+      "author": "Outskill",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 145227,
+      "lang": "en",
+      "found": "2026-11-13",
+      "relevant": true,
+      "title_zh": "用 DeepSeek 與 GLM 免費模型搭配 REA 復刻 Claude Code",
+      "summary": "影片宣稱只用免費 AI 模型（DeepSeek V4.1 Flash、GLM 5.3 Flash）搭配 REA，從零重建 Claude Code。節錄內容未提供程式碼、測試或成果的具體證據。",
+      "target": "Claude Code",
+      "metric": "影片自述完整重建 Claude Code，無具體驗證數據",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-11-13",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://github.com/berbs-sudo/discord-rea",
@@ -50610,6 +50661,35 @@
   "runs": [
     {
       "date": "2026-11-13",
+      "added": 3,
+      "stats": {
+        "githubShowAndTell": 18,
+        "githubRepos": 236,
+        "githubCode": 46,
+        "hackerNews": 29,
+        "qiita": 51,
+        "devto": 150,
+        "juejin": 3,
+        "reddit": 20,
+        "v2ex": "error: fetch failed",
+        "youtube": 90,
+        "bluesky": 162,
+        "mastodon": 160,
+        "exaWeb": 60,
+        "x": "error: Command failed: grok -p Search X for posts from the last 7 days where people sho"
+      },
+      "scoring": {
+        "scored": 2,
+        "jev": {
+          "low": 0,
+          "irrelevant": 1,
+          "errors": 0,
+          "toClaude": 2
+        }
+      }
+    },
+    {
+      "date": "2026-11-13",
       "added": 18,
       "stats": {
         "githubShowAndTell": 18,
@@ -51448,36 +51528,7 @@
           "toClaude": 4
         }
       }
-    },
-    {
-      "date": "2026-10-30",
-      "added": 1,
-      "stats": {
-        "githubShowAndTell": 15,
-        "githubRepos": 234,
-        "githubCode": 46,
-        "hackerNews": 26,
-        "qiita": 43,
-        "devto": 150,
-        "juejin": 0,
-        "reddit": "error: 429 reddit rss",
-        "v2ex": 12,
-        "youtube": 90,
-        "bluesky": 162,
-        "mastodon": 160,
-        "exaWeb": 56,
-        "x": 0
-      },
-      "scoring": {
-        "scored": 1,
-        "jev": {
-          "low": 0,
-          "irrelevant": 0,
-          "errors": 0,
-          "toClaude": 1
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-13T00:22:18.003Z"
+  "updatedAt": "2026-11-13T04:34:15.893Z"
 }

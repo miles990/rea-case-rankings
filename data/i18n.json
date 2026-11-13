@@ -20158,5 +20158,80 @@
       "target": "Mac 计算器 App",
       "metric": "无 REA 的 Claude Code 靠试错测试约 44 分钟"
     }
+  },
+  "d-47f95078bb": {
+    "hash": "d001a75e8ae6",
+    "en": {
+      "title": "A one-click-install AI reverse-engineering workbench combining REA and Craft Anything",
+      "summary": "Bundles REA (229 tools), the Craft Anything replication engine, and 12 reverse-engineering skills, installable in one click into agents such as DeepSeek Harness, Codex, and Claude Code. Provides a source-first two-stage workflow and an auto-update script. The content centers on installation and usage instructions; no reverse-engineering results against a specific target are shown.",
+      "target": "Reverse-engineering workflow integration for agents such as DeepSeek Harness / Codex / Claude Code",
+      "metric": "12 skills, REA 229 tools, Craft Anything 314 tools"
+    },
+    "zh-CN": {
+      "title": "整合 REA 与 Craft Anything 的一键安装式 AI 逆向工作台",
+      "summary": "将 REA（229 个工具）、Craft Anything 复刻引擎与 12 个逆向技能打包，可一键装入 DeepSeek Harness、Codex、Claude Code 等 agent。提供源码优先的两阶段流程与自动更新脚本。内容以安装与使用说明为主，未见针对具体目标的逆向成果。",
+      "target": "DeepSeek Harness / Codex / Claude Code 等 agent 的逆向工作流整合",
+      "metric": "12 个技能、REA 229 个工具、Craft Anything 314 个工具"
+    }
+  },
+  "d-d19ed37abb": {
+    "hash": "d187c26c310e",
+    "en": {
+      "title": "AI Agent Rebuilds Touhou TH08 and TH095 Source Code from Compiled Binaries",
+      "summary": "Developer N0zoM1z0 used REA together with an AI agent to reconstruct the source code of Touhou Project's 8th game (TH08) and 9.5th game (TH095) from the compiled programs. TH08 was completed between August 13 and 19, 2026, with all 1,107 functions done and a playable Linux port; TH095 took about 12 days to finish 697 functions and is playable along verified paths. The write-up also cautions that finished source code does not mean every function is fully correct: one function still fails verification.",
+      "target": "Touhou Project TH08, TH095 (Windows games)",
+      "metric": "696 of TH095's 697 functions pass one-by-one comparison (about 12 days)"
+    },
+    "zh-CN": {
+      "title": "AI 代理从编译文件重建东方 TH08 与 TH095 源代码",
+      "summary": "开发者 N0zoM1z0 使用 REA 搭配 AI 代理，从编译后的程序重建了东方 Project 第 8 作（TH08）与第 9.5 作（TH095）的源代码。TH08 于 2026 年 8 月 13–19 日完成全部 1,107 个函数，并有可玩的 Linux 移植；TH095 约用 12 天完成 697 个函数，可沿已验证路径游玩。文章同时提醒，完成源代码不等于每个函数都完全正确，仍有一个函数未通过验证。",
+      "target": "东方 Project TH08、TH095（Windows 游戏）",
+      "metric": "TH095 的 697 个函数中有 696 个通过逐条比对（约 12 天）"
+    }
+  },
+  "d-6d688e42d3": {
+    "hash": "3dd0f330a38d",
+    "en": {
+      "title": "Auditing BLA's Anti-Reverse-Engineering Amplification Claims with Reproducible Docker Tests",
+      "summary": "An audit of BLA's anti-reverse-engineering claims at a single commit, measured with the real REA against 12 independently written fixtures. Results: 4 amplified, 3 neutral, 5 rejected, and the cost for the same file ranges from 1.82x to 275.4x depending on how it is queried. The repository ships a Docker environment, 15 case rows, and an interactive preview, reproducible without an API key.",
+      "target": "BLA (bla-agents 3.2.5) anti-reverse-engineering protection and REA 6.9.0",
+      "metric": "WASM amplification 2,077.21x; BLA's self-reported 1067.3x and claimed 639.5x are inconsistent, with 7 of 14 formats differing"
+    },
+    "zh-CN": {
+      "title": "以可复现 Docker 测试审计 BLA 反逆向放大倍率宣称",
+      "summary": "在同一 commit 对 BLA 的反逆向宣称进行审计，并用 12 个独立编写的 fixture 以真实 REA 实测。结果为 4 个放大、3 个中性、5 个被拒，且同一文件的成本会因查询方式落在 1.82x 到 275.4x。仓库附 Docker 环境、15 个案例行与交互式预览，无需 API key 即可复现。",
+      "target": "BLA（bla-agents 3.2.5）反逆向保护与 REA 6.9.0",
+      "metric": "WASM 放大 2,077.21x；BLA 自报 1067.3x 与宣称 639.5x 不一致，14 种格式中 7 种不同"
+    }
+  },
+  "d-c6fd18d485": {
+    "hash": "d5632b12ff6c",
+    "en": {
+      "title": "REA-Based Skills for Rebuilding Idiomatic Rust Software from Binaries",
+      "summary": "A set of Claude Code agent skills that walk an agent through probe, product spec, interaction spec, and architecture stages to rebuild software from a binary and implement it in Rust. Each skill declares REA as a dependency in its metadata. The excerpt shows only the skills and their dependencies, with no actual reconstruction results.",
+      "target": "Arbitrary binary software (rebuilt in Rust)",
+      "metric": "4 skills depend on REA (probe, design, product, architecture)"
+    },
+    "zh-CN": {
+      "title": "基于 REA 的 skills，从二进制重建惯用 Rust 软件",
+      "summary": "提供一组 Claude Code agent skills，按 probe、产品规格、交互规格、架构等阶段，让 agent 从二进制重建软件并用 Rust 实现。各技能在 metadata 中声明依赖 REA。节选只显示技能与依赖，未见实际重建成果。",
+      "target": "任意二进制软件（重建为 Rust）",
+      "metric": "4 个 skills 依赖 REA（probe、design、product、architecture）"
+    }
+  },
+  "d-ef1f9f3a05": {
+    "hash": "a57410cec8a2",
+    "en": {
+      "title": "Pre-Release Reverse-Engineering and Security Audit Gate for Your Own Build Artifacts with REA",
+      "summary": "Scans your own dist/, .wasm, Electron, and macOS .app artifacts for issues such as embedded secrets, source maps, developer paths, and Homebrew dynamic links. With REA installed, it adds JS semantic, WASM import/export, and Mach-O analysis, and supports build-to-build --compare regression checks and CI exit codes.",
+      "target": "Build artifacts of your own frontend and desktop apps",
+      "metric": "Built-in SEC/BND/MAC check series; without REA, the static scan finishes within 100ms"
+    },
+    "zh-CN": {
+      "title": "用 REA 对自家构建产物做发布前逆向与安全审计闸门",
+      "summary": "针对自家 dist/、.wasm、Electron 与 macOS .app 产物，扫描内嵌密钥、source map、开发者路径与 Homebrew 动态链接等问题。装有 REA 时可加做 JS 语义、WASM 导入导出与 Mach-O 分析，并支持构建间 --compare 回归比对与 CI 退出码。",
+      "target": "自家前端与桌面应用的构建产物",
+      "metric": "内置 SEC/BND/MAC 系列检查，无 REA 时静态扫描可在 100ms 内完成"
+    }
   }
 }

@@ -2,6 +2,27 @@
   "updated": "2026-11-14",
   "items": [
     {
+      "url": "https://x.com/wquguru/status/2121457462897467402",
+      "title": "我翻了大厂程序员在 REA 提的代码。除了阿里、美团、微软、网易的工程师，动作最大的是 Scale AI 的工程师，他直接拿这个逆向工具做出了 97 个训练环境。美团大模型团队给浏览器分析加了截图区域框选和区域比对；阿里的工程师让安装流程支持 Qwen Code；微软工程师修复了",
+      "author": "@wquguru",
+      "date": "2026-11-14",
+      "source": "X",
+      "kind": "貼文",
+      "score": 5,
+      "pop": {
+        "likes": 5,
+        "views": 306
+      },
+      "lang": "zh",
+      "found": "2026-11-14",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-14",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://github.com/subirkundu/rea-windows-calculator",
       "title": "subirkundu/rea-windows-calculator: Windows 11 Calculator reconstructed from native Microsoft.WindowsCalculator binaries using Reverse Engineer Anything  (REA) and Fluent Design.",
       "author": "subirkundu",
@@ -628,6 +649,81 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://x.com/phosphenq/status/2120619685582401814",
+      "title": "this is real alpha, so I built 6.9 from the release branch myself and put the new features to work: 1. on my test app it caught the full sou",
+      "author": "@phosphenq",
+      "date": "2026-11-11",
+      "source": "X",
+      "kind": "貼文",
+      "score": 38,
+      "pop": {
+        "likes": 38,
+        "views": 1907
+      },
+      "lang": "en",
+      "found": "2026-11-14",
+      "relevant": true,
+      "title_zh": "自行從 release 分支建置 REA 6.9,實測 source map、環境變數金鑰與 ESP32 映像分析",
+      "summary": "作者從 release 分支自行建置 REA 6.9,並測試新功能。在測試用 app 上找出 source map 內的完整原始碼與 .env.production 中的 Stripe 金鑰,並以旗標做為發布閘門(有高風險暴露時回傳 exit code 3)。餵入 ESP32 映像後,切分成 5 個區段並驗證校驗碼與 SHA-256。",
+      "target": "REA 6.9 新功能(測試 app 與 ESP32 韌體映像)",
+      "metric": "ESP32 映像切分為 5 個區段,校驗碼與 SHA-256 皆通過驗證",
+      "category": "韌體 / 硬體",
+      "status": "reported",
+      "wow": 3,
+      "scored": "2026-11-14",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/kimwong_wwk/status/2120649374237962588",
+      "title": "Just try REA: Real, a reverse-engineering toolbox for your agent. fed it a stripped program only i had the source for → it rebuilt the logic",
+      "author": "@kimwong_wwk",
+      "date": "2026-11-11",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 40
+      },
+      "lang": "en",
+      "found": "2026-11-14",
+      "relevant": true,
+      "title_zh": "以 REA 讓 agent 還原僅作者持有原始碼的 stripped 程式邏輯",
+      "summary": "作者將一個只有自己握有原始碼的 stripped 程式交給 REA,讓 agent 進行還原。約 28 秒內正確重建出程式邏輯。作者也指出,深入分析需要安裝體積較大的 Ghidra。",
+      "target": "自製的 stripped 程式",
+      "metric": "約 28 秒正確重建程式邏輯",
+      "category": "Native",
+      "status": "reported",
+      "wow": 3,
+      "scored": "2026-11-14",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/boxput1/status/2120571163600617552",
+      "title": "I Tested “Reverse Engineer Anything” with ChatGPT | Built a Thumbnail Maker https://www.youtube.com/watch?si=5S7gqXrcuyDhs1S3&v=Ma7T3311rbI&",
+      "author": "@boxput1",
+      "date": "2026-11-11",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 16
+      },
+      "lang": "en",
+      "found": "2026-11-14",
+      "relevant": true,
+      "title_zh": "用 ChatGPT 搭配 REA 測試並製作縮圖產生器的影片",
+      "summary": "作者分享一支 YouTube 影片,內容是用 ChatGPT 測試 Reverse Engineer Anything,並製作縮圖產生器。貼文節錄只有影片連結,沒有說明具體逆向對象或結果。",
+      "target": "縮圖產生器(影片展示)",
+      "metric": "影片展示製作縮圖產生器,節錄中無具體數字",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-11-14",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://reamcp.dev/ja/cases/you-can-now-ask-your-coding-agent-how-almost-any-app-works-a-9ee265",
       "title": "ほぼあらゆるアプリがどう動作するかをコーディングエージェントに尋ねて、リバースエンジニアリングできるようになりました — REA 活用事例 · REA MCP",
       "author": "Robert Ta",
@@ -723,6 +819,27 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://x.com/whyamas/status/2119413499717906717",
+      "title": "Where does the Linux cal binary keep the 1752 calendar switch? @fahdmirza found it in the stripped code with REA in about a minute and a hal",
+      "author": "@whyamas",
+      "date": "2026-11-08",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 23
+      },
+      "lang": "en",
+      "found": "2026-11-14",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-14",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://akshayshinde.com/blog/reverse-engineering-with-ai-agents-rea",
       "title": "Reverse Engineering with AI Agents: Exploring REA | Akshay Shinde",
       "author": "Akshay Shinde",
@@ -782,6 +899,44 @@
       "wow": 2,
       "scored": "2026-11-14",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://clipzag.com/watch?v=HvfmnI6wl5c",
+      "title": "Reverse Engineer Anything (REA) with Claude Code (Beginner's Guide) - Clipzag.com",
+      "author": "clipzag.com",
+      "date": "2026-10-15",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-11-14",
+      "relevant": true,
+      "title_zh": "以 Claude Code 搭配 Hopper 使用 REA 的入門影片教學",
+      "summary": "這是一支 YouTube 入門教學影片的頁面,用白話說明 AI 逆向工程如何運作。內容包含用 Hopper 安裝 REA,並用 Claude Code 搭配 REA 進行測試。節錄中沒有對具體目標的分析成果。",
+      "target": "REA 入門教學(Claude Code + Hopper)",
+      "metric": "教學影片:安裝 REA 並以 Claude Code 測試",
+      "category": "教學",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-11-14",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/Blue-Mink/moo",
+      "title": "Blue-Mink/moo: Moo — fnOS 第三方应用中心：三源同步 / 智能归类 / 安装更新 / 多渠道通知 / GitHub 加速",
+      "source": "GitHub",
+      "found": "2026-11-14",
+      "relevant": false,
+      "scored": "2026-11-14",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/CorvidLabs/skills",
+      "title": "CorvidLabs/skills: 🍳 Shared CorvidLabs agent skills and installer",
+      "source": "GitHub",
+      "found": "2026-11-14",
+      "relevant": false,
+      "scored": "2026-11-14",
+      "scored_by": "jev"
     },
     {
       "url": "https://youtu.be/lKz3cDrLgTk",
@@ -853,6 +1008,26 @@
       "metric": "四個含互動驗證演示的逆向教學案例",
       "category": "教學",
       "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-14",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://addmcp.app/reverse-engineering/rea/guide",
+      "title": "How to Install Reverse Engineer Anything (REA) | AddMCP",
+      "author": "addmcp.app",
+      "date": null,
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-11-14",
+      "relevant": true,
+      "title_zh": "REA 6.9.0 安裝與設定指南(支援多種 AI agent)",
+      "summary": "AddMCP 的安裝教學,說明 REA 6.9.0 的 Node.js 版本需求,以及用 npx rea-agents setup 連接 Claude Code、Cursor、Codex 等 agent。同時列出分析不同目標所需的引擎,如 Ghidra、Hopper、IDA、JDK 與 jadx。內容只是安裝文件,沒有實際分析成果。",
+      "target": "REA 安裝與設定",
+      "metric": "一行指令 npx rea-agents setup 連接多種 agent",
+      "category": "教學",
+      "status": "reported",
       "wow": 2,
       "scored": "2026-11-14",
       "scored_by": "sonnet"
@@ -51517,6 +51692,35 @@
   "runs": [
     {
       "date": "2026-11-14",
+      "added": 9,
+      "stats": {
+        "githubShowAndTell": 19,
+        "githubRepos": 243,
+        "githubCode": 46,
+        "hackerNews": 28,
+        "qiita": 51,
+        "devto": "error: 429 https://dev.to/api/articles?tag=claudecode&per_page=50",
+        "juejin": 4,
+        "reddit": 20,
+        "v2ex": "error: fetch failed",
+        "youtube": 90,
+        "bluesky": "error: 500 https://api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=%22Reverse%20Engineer%",
+        "mastodon": 160,
+        "exaWeb": 60,
+        "x": 11
+      },
+      "scoring": {
+        "scored": 5,
+        "jev": {
+          "low": 2,
+          "irrelevant": 2,
+          "errors": 0,
+          "toClaude": 5
+        }
+      }
+    },
+    {
+      "date": "2026-11-14",
       "added": 38,
       "stats": {
         "githubShowAndTell": 19,
@@ -52355,36 +52559,7 @@
           "toClaude": 10
         }
       }
-    },
-    {
-      "date": "2026-10-30",
-      "added": 19,
-      "stats": {
-        "githubShowAndTell": 15,
-        "githubRepos": 232,
-        "githubCode": 46,
-        "hackerNews": 21,
-        "qiita": 43,
-        "devto": 150,
-        "juejin": 0,
-        "reddit": 20,
-        "v2ex": 12,
-        "youtube": 90,
-        "bluesky": 162,
-        "mastodon": 160,
-        "exaWeb": 58,
-        "x": 18
-      },
-      "scoring": {
-        "scored": 19,
-        "jev": {
-          "low": 0,
-          "irrelevant": 0,
-          "errors": 0,
-          "toClaude": 19
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-14T00:25:08.966Z"
+  "updatedAt": "2026-11-14T04:37:39.155Z"
 }

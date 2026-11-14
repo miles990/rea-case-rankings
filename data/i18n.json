@@ -20713,5 +20713,65 @@
       "target": "通用型逆向分析方法(技能工具)",
       "metric": "六步骤流程,含竞争性解释与挑战阶段"
     }
+  },
+  "d-62f767ea1b": {
+    "hash": "d53bd8ef1612",
+    "en": {
+      "title": "Building REA 6.9 from the release branch: testing source maps, env-var secrets, and ESP32 image analysis",
+      "summary": "The author built REA 6.9 from the release branch and tried out its new features. On a test app, it found the full original source code inside a source map and a Stripe key in .env.production, and used a flag as a release gate (returning exit code 3 when high-risk exposure is found). Fed an ESP32 image, it split it into 5 segments and verified the checksums and SHA-256.",
+      "target": "New features in REA 6.9 (test app and ESP32 firmware image)",
+      "metric": "ESP32 image split into 5 segments; checksums and SHA-256 all verified"
+    },
+    "zh-CN": {
+      "title": "从 release 分支自行构建 REA 6.9,实测 source map、环境变量密钥与 ESP32 镜像分析",
+      "summary": "作者从 release 分支自行构建 REA 6.9,并测试了新功能。在测试用 app 上找出 source map 中的完整原始码和 .env.production 里的 Stripe 密钥,并用标志位作为发布闸门(存在高风险暴露时返回 exit code 3)。输入 ESP32 镜像后,将其切分为 5 个区段,并验证了校验码与 SHA-256。",
+      "target": "REA 6.9 新功能(测试 app 与 ESP32 固件镜像)",
+      "metric": "ESP32 镜像切分为 5 个区段,校验码与 SHA-256 均通过验证"
+    }
+  },
+  "d-efa6963a37": {
+    "hash": "0a7262bd2d5f",
+    "en": {
+      "title": "Using REA to have an agent reconstruct the logic of a stripped binary whose source only the author holds",
+      "summary": "The author gave REA a stripped program for which only they hold the source code, and had an agent reconstruct it. The program logic was correctly rebuilt in about 28 seconds. The author also notes that deeper analysis requires installing the sizable Ghidra.",
+      "target": "A self-made stripped binary",
+      "metric": "Program logic correctly reconstructed in about 28 seconds"
+    },
+    "zh-CN": {
+      "title": "用 REA 让 agent 还原仅作者持有源码的 stripped 程序逻辑",
+      "summary": "作者把一个只有自己持有源码的 stripped 程序交给 REA,让 agent 进行还原。约 28 秒内正确重建出程序逻辑。作者也指出,深入分析需要安装体积较大的 Ghidra。",
+      "target": "自制的 stripped 程序",
+      "metric": "约 28 秒正确重建程序逻辑"
+    }
+  },
+  "d-ea9913ba31": {
+    "hash": "9012c9f87fd1",
+    "en": {
+      "title": "REA 6.9.0 installation and setup guide (supports multiple AI agents)",
+      "summary": "An AddMCP installation guide covering REA 6.9.0's Node.js version requirement and how to connect agents such as Claude Code, Cursor, and Codex with npx rea-agents setup. It also lists the engines needed for different targets, such as Ghidra, Hopper, IDA, JDK, and jadx. The content is installation documentation only, with no actual analysis results.",
+      "target": "REA installation and setup",
+      "metric": "One command, npx rea-agents setup, connects multiple agents"
+    },
+    "zh-CN": {
+      "title": "REA 6.9.0 安装与配置指南(支持多种 AI agent)",
+      "summary": "AddMCP 的安装教程,说明 REA 6.9.0 的 Node.js 版本要求,以及用 npx rea-agents setup 连接 Claude Code、Cursor、Codex 等 agent。同时列出分析不同目标所需的引擎,如 Ghidra、Hopper、IDA、JDK 和 jadx。内容仅为安装文档,没有实际分析成果。",
+      "target": "REA 安装与配置",
+      "metric": "一行命令 npx rea-agents setup 连接多种 agent"
+    }
+  },
+  "d-8da6c0fcf1": {
+    "hash": "f3161398be7f",
+    "en": {
+      "title": "Beginner video tutorial on using REA with Claude Code and Hopper",
+      "summary": "This is a YouTube beginner tutorial page that explains in plain language how AI reverse engineering works. It covers installing REA with Hopper and testing it with Claude Code. The excerpt contains no analysis results for a specific target.",
+      "target": "REA beginner tutorial (Claude Code + Hopper)",
+      "metric": "Tutorial video: install REA and test it with Claude Code"
+    },
+    "zh-CN": {
+      "title": "以 Claude Code 搭配 Hopper 使用 REA 的入门视频教程",
+      "summary": "这是一个 YouTube 入门教程视频的页面,用通俗的语言说明 AI 逆向工程如何运作。内容包括用 Hopper 安装 REA,并用 Claude Code 搭配 REA 进行测试。节选中没有针对具体目标的分析成果。",
+      "target": "REA 入门教程(Claude Code + Hopper)",
+      "metric": "教程视频:安装 REA 并用 Claude Code 测试"
+    }
   }
 }

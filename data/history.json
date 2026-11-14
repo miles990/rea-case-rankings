@@ -56054,8 +56054,8 @@
     },
     {
       "date": "2026-11-14",
-      "stars": 457654,
-      "stars_delta": 1974,
+      "stars": 457960,
+      "stars_delta": 2280,
       "new": [
         "d-9d75687c9b",
         "d-d2c7d28ce9",
@@ -56063,11 +56063,13 @@
         "d-5cf0c71930",
         "d-fde272ff86",
         "d-b92e4b8ad4",
+        "d-62f767ea1b",
         "d-8951d51c68",
         "d-0d93b9c36a",
         "d-e8d949185a",
         "d-fbc6cb9013",
         "d-62a11da8a2",
+        "d-efa6963a37",
         "d-ba3c915c01",
         "d-60e54ab9dc",
         "d-975c4be750",
@@ -56085,51 +56087,53 @@
         "d-7e28bd6d34",
         "d-17116b2b2c",
         "d-524a35b298",
+        "d-ea9913ba31",
         "d-3ba3560aea",
-        "d-0ac05237cf"
+        "d-0ac05237cf",
+        "d-8da6c0fcf1"
       ],
       "stats": {
-        "count": 30,
+        "count": 34,
         "wow": {
-          "2": 16,
-          "3": 8,
+          "2": 18,
+          "3": 10,
           "4": 6
         },
         "type": {
-          "case": 18,
+          "case": 20,
           "app": 7,
-          "learn": 4,
+          "learn": 6,
           "news": 1
         },
         "status": {
-          "reported": 16,
+          "reported": 20,
           "shipped": 12,
           "tested": 2
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 星數破 45.7 萬，逆向案例從門鎖到桌面端全面開花",
-          "summary": "REA 的 GitHub 星數來到 457654，單日增加 1974。當天最熱的是逆向 Anker 錄音豆藍牙協議並自製錄音與 MCP 軟體、用 APK 拆解重建下架的藍牙智慧門鎖網頁版 App，以及一週內仿出 Bear 風格筆記 App。另有多篇作者拿自家 Electron 桌面端來測，報告都掃出 178 個 IPC 通道，且核心密鑰洩漏為 0，顯示社群開始用 REA 檢驗自己的防逆向邊界。多數成果仍是作者自述，需要留意驗證程度。"
+          "headline": "REA 星數破 45.7 萬，逆向對象從應用擴及藍牙與驅動",
+          "summary": "REA 的 GitHub 星數來到 457960，比前一個紀錄 455680 多了 2280。當天案例涵蓋 Anker 錄音豆藍牙協議、藍牙智慧門鎖、Digi 001 PCI 驅動，以及重建 Windows 計算機、Bear 風格筆記 App 與 Discord 客戶端，顯示功能複製與硬體互通都在加速。另有數則作者逆向自家 Electron 桌面端的測試，報告顯示 178 個 IPC 通道、核心密鑰洩漏為 0；多數成果仍是作者自述，只有部分附公開 repo 或測試。"
         },
         "en": {
-          "headline": "REA passes 457K stars as reverse-engineering cases span locks to desktop apps",
-          "summary": "REA's GitHub stars reached 457,654, up 1,974 in a day. The hottest items were a reverse-engineered Anker recorder Bluetooth protocol turned into recording and MCP software, a web rebuild of a delisted Bluetooth fingerprint lock app from its APK, and a Bear-style notes app rebuilt in about a week. Several authors also pointed REA at their own Electron desktop apps; the reports found 178 IPC channels and zero leaked core secrets, a sign people now use REA to test their own anti-reverse-engineering boundaries. Most results are still self-reported, so the level of verification varies."
+          "headline": "REA passes 457K stars as reverse engineering reaches BLE and drivers",
+          "summary": "REA's GitHub stars reached 457,960, up 2,280 from the previous record of 455,680. Cases span an Anker recorder's Bluetooth protocol, a Bluetooth smart lock, a Digi 001 PCI driver port, and rebuilds of Windows Calculator, a Bear-style notes app and a Discord client, showing both fast feature cloning and hardware interop. Several posts also reverse-engineer the authors' own Electron desktop app, reporting 178 IPC channels and zero core-secret leaks. Most results are self-reported; only some come with public repos or tests."
         },
         "zh-CN": {
-          "headline": "REA 星数破 45.7 万，逆向案例从门锁到桌面端全面开花",
-          "summary": "REA 的 GitHub 星数来到 457654，单日增加 1974。当天最热的是逆向 Anker 录音豆蓝牙协议并自制录音与 MCP 软件、用 APK 拆解重建下架的蓝牙智能门锁网页版 App，以及一周内仿出 Bear 风格笔记 App。另有多篇作者拿自家 Electron 桌面端来测，报告都扫出 178 个 IPC 通道，且核心密钥泄漏为 0，显示社区开始用 REA 检验自己的防逆向边界。多数成果仍是作者自述，需要留意验证程度。"
+          "headline": "REA 星数破 45.7 万，逆向对象从应用扩及蓝牙与驱动",
+          "summary": "REA 的 GitHub 星数达到 457960，比之前的纪录 455680 多了 2280。当天案例涵盖 Anker 录音豆蓝牙协议、蓝牙智能门锁、Digi 001 PCI 驱动，以及重建 Windows 计算器、Bear 风格笔记 App 与 Discord 客户端，显示功能复制与硬件互通都在加速。另有数则作者逆向自家 Electron 桌面端的测试，报告显示 178 个 IPC 通道、核心密钥泄漏为 0；多数成果仍是作者自述，只有部分附公开 repo 或测试。"
         }
       },
       "signals": [
         "A",
         "D",
-        "B"
+        "G"
       ],
       "highlights": [
         "d-9d75687c9b",
-        "d-d2c7d28ce9",
-        "d-8951d51c68"
+        "d-b92e4b8ad4",
+        "d-5cf0c71930"
       ],
       "rank": [
         "dx-ball-sound-pan",
@@ -56395,6 +56399,7 @@
         "d-327fc3431f",
         "d-04c6b16c3b",
         "openbattlefield2",
+        "d-62f767ea1b",
         "d-cad67e4e11",
         "d-d2e16da0a8",
         "d-c8493551a6",
@@ -56508,6 +56513,7 @@
         "d-ec49bf6b05",
         "d-3f323fbc13",
         "d-a42d638ebb",
+        "d-efa6963a37",
         "d-3bba75b1fc",
         "d-77593de27f",
         "d-9fa69c73f3",
@@ -57282,6 +57288,7 @@
         "d-d79fa65f04",
         "d-0c2d1d1da6",
         "d-beb2070b7b",
+        "d-ea9913ba31",
         "d-3ba3560aea",
         "d-820e5dfd78",
         "d-ec7f5e80fe",
@@ -57365,6 +57372,7 @@
         "d-fc0b602317",
         "d-e042abe941",
         "d-48bae55f69",
+        "d-8da6c0fcf1",
         "d-ecf05c48dd",
         "d-29cbe8756a",
         "d-bfc3ec401f",
@@ -57614,6 +57622,7 @@
         "d-9135d9263f",
         "d-e329aa2f14",
         "d-e4223f76b7",
+        "d-1c084096b4",
         "d-cddf19eba7",
         "d-b74f195865",
         "d-9a1b12cfd2",
@@ -57953,8 +57962,10 @@
         "d-45518a1b3f",
         "d-182c75956c",
         "d-e5c7cffbbc",
+        "d-f83b828c90",
         "d-b54b56c6fc",
         "d-5b8bac3c86",
+        "d-d3bac1055f",
         "d-33c18f9821",
         "d-73cec7f359",
         "d-7a6d1c5deb",
@@ -58530,37 +58541,37 @@
     "to": "2026-11-14",
     "text": {
       "zh-TW": {
-        "headline": "REA 從展示走向驗證：成果更完整，也出現獨立稽核",
-        "summary": "本週前期以遊戲重建與協定逆向的實戰案例為主，並附上測試與逐幀比對；11 月 10 至 12 日，記事本、Beekeeper Studio、Discord 桌面版等重建案例開始公開 SHA-256 證據與位元組一致的結果。11 月 13 日出現獨立稽核：BLA 的反逆向宣稱在 12 個 fixture 中有 5 個被拒，REA 在 20 個中小型程式上也未測得準確度提升，同日東方重建案例仍坦承一個函式未通過驗證。應用範圍也從遊戲擴展到鍵盤、錄音豆、智慧門鎖等硬體與藍牙裝置。同時，防禦工具（AEGIS、BLA、BLADE）與縮減 token 的外掛陸續出現，但多數外掛仍缺乏公開成果，11 月 14 日的案例也多為作者自述。",
-        "watch": "留意更多對 REA 成效與防禦工具的獨立稽核，以及是否有人公開對照測試與證據摘要。想行動的人可從硬體與藍牙裝置的自有設備控制切入，並把測試與證據一併公開，因為可驗證性是目前最稀缺的條件。"
+        "headline": "REA 熱潮從展示轉向驗證，戰場延伸到硬體與攻防",
+        "summary": "本週 REA 星數從約 44.1 萬升至 45.8 萬，每天穩定增加 2,200 至 3,200 顆。一開始是 MT5 連接器與 Sacred Gold 等實戰案例，以及 AEGIS、BLA 等防止 AI 逆向的工具同日出現，顯示 REA 已被視為需要防範的對象。中段出現 Windows 記事本、Beekeeper Studio、Discord 桌面版的重建，並附上對照測試或 SHA-256 證據；後段的獨立稽核卻顯示，BLA 的反逆向宣稱實測 5 個被拒，REA 在中小型程式上也未測出準確度提升。到了週末，逆向對象從應用擴及 Anker 藍牙、智慧門鎖與 Digi 001 驅動，硬體互通明顯升溫。同時，多數外掛與包裝沒有公開成果，生態擴張快過實證，且本週完全沒有平台限制（E）的討論。",
+        "watch": "接下來幾天可留意硬體與藍牙協議這類尚無現成工具的領域，以及有人把 11 月 14 日那些自述成果補上公開 repo 或測試。也可觀察防禦工具（BLA、BLADE、ReClarity）是否有更多獨立稽核，以及能附上差異測試與證據的案例，這些才是真正可信、值得跟進的機會。"
       },
       "en": {
-        "headline": "REA shifts from demos to verification, with independent audits emerging",
-        "summary": "Early in the week, cases were game rebuilds and protocol reverse-engineering backed by tests and frame-by-frame comparisons. From Nov 10 to 12, rebuilds of Notepad, Beekeeper Studio and Discord Desktop began publishing SHA-256 evidence and byte-identical results. On Nov 13, independent audits appeared: 5 of 12 fixtures rejected BLA's anti-reversing claims, and no accuracy gain from REA was detected across 20 small and mid-sized programs, while a Touhou rebuild admitted one function still failed verification. Scope also widened from games to hardware and Bluetooth devices such as a keyboard, a voice recorder and a smart lock. Meanwhile defensive tools (AEGIS, BLA, BLADE) and token-trimming plugins kept arriving, though many plugins show no public results and the Nov 14 cases are mostly self-reported.",
-        "watch": "Watch for more independent audits of REA's effectiveness and of the defensive tools, and for whether authors publish comparison tests and evidence digests. For those looking to act, controlling your own hardware and Bluetooth devices is an open area, and publishing tests and evidence alongside results matters because verifiability is the scarcest asset right now."
+        "headline": "REA hype shifts from showcases to verification, and into hardware and attack-defense",
+        "summary": "This week REA's GitHub stars rose from about 441k to 458k, adding roughly 2,200 to 3,200 per day. It opened with practical cases like the MT5 connector and Sacred Gold, alongside tools such as AEGIS and BLA that make releases harder for AI agents to reverse, so REA is now treated as something to defend against. Midweek brought rebuilds of Windows Notepad, Beekeeper Studio and Discord Desktop, backed by comparison tests or SHA-256 evidence. Later, independent audits found 5 of 12 BLA fixtures rejected its anti-reversing claim, and no measurable accuracy gain from REA on small and mid-size programs. By the weekend the targets had broadened from apps to Anker Bluetooth, smart locks and the Digi 001 driver, so hardware interop is clearly rising. Most plugins and packages still ship no public results, so the ecosystem is growing faster than the evidence, and platform limits (E) did not appear all week.",
+        "watch": "Over the next few days, watch for hardware and Bluetooth protocols that have no ready-made tools, and for authors backing the self-reported 14 November results with public repos or tests. Also watch whether defensive tools (BLA, BLADE, ReClarity) get more independent audits, and favour cases with differential tests and evidence, since those are the credible ones worth following up."
       },
       "zh-CN": {
-        "headline": "REA 从展示走向验证:成果更完整,也出现独立审计",
-        "summary": "本周前期以游戏重建与协议逆向的实战案例为主,并附上测试与逐帧比对;11 月 10 至 12 日,记事本、Beekeeper Studio、Discord 桌面版等重建案例开始公开 SHA-256 证据与字节一致的结果。11 月 13 日出现独立审计:BLA 的反逆向宣称在 12 个 fixture 中有 5 个被拒,REA 在 20 个中小型程序上也未测得准确度提升,同日东方重建案例仍坦承一个函数未通过验证。应用范围也从游戏扩展到键盘、录音豆、智能门锁等硬件与蓝牙设备。同时,防御工具(AEGIS、BLA、BLADE)与缩减 token 的插件陆续出现,但多数插件仍缺乏公开成果,11 月 14 日的案例也多为作者自述。",
-        "watch": "留意更多对 REA 成效与防御工具的独立审计,以及是否有人公开对照测试与证据摘要。想行动的人可从硬件与蓝牙设备的自有设备控制切入,并把测试与证据一并公开,因为可验证性是目前最稀缺的条件。"
+        "headline": "REA 热潮从展示转向验证，战场延伸到硬件与攻防",
+        "summary": "本周 REA 星数从约 44.1 万升至 45.8 万，每天稳定增加 2,200 至 3,200 颗。一开始是 MT5 连接器与 Sacred Gold 等实战案例，以及 AEGIS、BLA 等防止 AI 逆向的工具同日出现，显示 REA 已被视为需要防范的对象。中段出现 Windows 记事本、Beekeeper Studio、Discord 桌面版的重建，并附上对照测试或 SHA-256 证据；后段的独立审计却显示，BLA 的反逆向宣称实测 5 个被拒，REA 在中小型程序上也未测出准确度提升。到了周末，逆向对象从应用扩及 Anker 蓝牙、智能门锁与 Digi 001 驱动，硬件互通明显升温。同时，多数插件与包装没有公开成果，生态扩张快过实证，且本周完全没有平台限制（E）的讨论。",
+        "watch": "接下来几天可留意硬件与蓝牙协议这类尚无现成工具的领域，以及有人把 11 月 14 日那些自述成果补上公开 repo 或测试。也可观察防御工具（BLA、BLADE、ReClarity）是否有更多独立审计，以及能附上差分测试与证据的案例，这些才是真正可信、值得跟进的机会。"
       }
     },
     "rising": [
       "B",
       "D",
-      "F"
+      "G"
     ],
     "fading": [
       "E"
     ],
     "tally": {
       "A": 3,
-      "B": 7,
+      "B": 6,
       "C": 3,
       "D": 3,
       "E": 0,
       "F": 2,
-      "G": 3
+      "G": 4
     }
   }
 }

@@ -21043,5 +21043,65 @@
       "target": "以 REA 为假想对手的软件发行物防护",
       "metric": "声称 31 个防御工具，14 个展示目标基准测试"
     }
+  },
+  "d-4c9f2fb357": {
+    "hash": "b233ef16623b",
+    "en": {
+      "title": "Rebuilding the PowerToys Color Picker core in one day with REA, and checking the conclusions",
+      "summary": "The author used REA with Claude Code to analyze the PowerToys Color Picker's .NET and native DLLs, identified the Windows APIs it calls and its hook behavior, and rebuilt it as a small tool, hexgrab, on .NET 10. REA's conclusions were then checked one by one against the PowerToys 0.98.0 source code.",
+      "target": "PowerToys Color Picker (ColorPickerUI.dll and ColorPicker.dll)",
+      "metric": "8 of 9 conclusions fully correct, 1 partially correct"
+    },
+    "zh-CN": {
+      "title": "用 REA 一天重建 PowerToys 取色器核心并核对结论",
+      "summary": "作者使用 REA 搭配 Claude Code 分析 PowerToys 取色器的 .NET 与原生 DLL,找出其调用的 Windows API 与钩子行为,并以 .NET 10 重新实现为小工具 hexgrab。随后对照 PowerToys 0.98.0 源码,逐条核对 REA 的结论。",
+      "target": "PowerToys 取色器(ColorPickerUI.dll 与 ColorPicker.dll)",
+      "metric": "9 条结论中 8 条完全正确,1 条部分正确"
+    }
+  },
+  "d-b83a680196": {
+    "hash": "4886b15b751a",
+    "en": {
+      "title": "Reverse-engineering the DareU driver to build a Linux keyboard and mouse control app",
+      "summary": "Using Antigravity and REA skills, the author reverse-engineered the Windows DAREU driver suite and built a hidraw daemon, a desktop GUI, and an Arch package for Linux. The 64-bit and 65-bit HID protocols and disassembly notes are documented. So far only keyboard lighting control on the EK75 Pro is confirmed working, and the project is still in progress.",
+      "target": "DAREU keyboard and mouse (EK75 Pro) Windows driver",
+      "metric": "EK75 Pro keyboard lighting control confirmed working"
+    },
+    "zh-CN": {
+      "title": "逆向 DareU 驱动,做出 Linux 版键鼠控制程序",
+      "summary": "借助 Antigravity 与 REA skills 逆向 Windows 版 DAREU 驱动套件,在 Linux 上实现了 hidraw 常驻程序、桌面 GUI 和 Arch 软件包。已整理 64 位与 65 位 HID 协议及反汇编笔记,目前仅确认 EK75 Pro 的键盘灯光控制可用,整体仍在进行中。",
+      "target": "DAREU 键盘与鼠标(EK75 Pro)Windows 驱动",
+      "metric": "EK75 Pro 键盘灯光控制已确认可用"
+    }
+  },
+  "d-0dee35c307": {
+    "hash": "81ac6669ae20",
+    "en": {
+      "title": "Axiom: a toolkit that merges REA and reverse-engineering agents under an evidence discipline",
+      "summary": "Merges REA's native-binary reverse-engineering experience (including Ghidra troubleshooting on Windows and an MCP launcher) with product teardown methods into a single repository. It provides evidence and verification rules, a four-tier target folder layout, a self-check script, and CI. The content is methodology and tooling, with no results for any specific target.",
+      "target": "Reverse-engineering methodology and toolkit (native, mobile, web, product)",
+      "metric": "Four-tier target structure; one check.py runs build, smoke, and asset guards"
+    },
+    "zh-CN": {
+      "title": "Axiom:合并 REA 与逆向 Agent 的证据规范工具集",
+      "summary": "将 REA 的原生二进制逆向经验(含 Ghidra 在 Windows 上的排障与 MCP launcher)与产品拆解方法合并到同一个仓库。提供证据与验证规范、四层目标文件夹、自检脚本和 CI。内容为方法与工具,没有针对具体目标的成果。",
+      "target": "逆向工程方法论与工具集(原生、移动、Web、产品)",
+      "metric": "四层目标结构,一个 check.py 跑完编译、冒烟与资产守卫"
+    }
+  },
+  "d-1493282673": {
+    "hash": "2a12b5c63d2c",
+    "en": {
+      "title": "REA's evidence-first five-step reverse-engineering workflow tutorial",
+      "summary": "A wiki tutorial describing how to do reverse engineering with an AI agent: identify the target, map it statically, locate and trace, observe at runtime, then verify and write the report. It stresses separating direct observation from inference and linking each conclusion to an address or evidence. It covers the process only, with no results for a specific target.",
+      "target": "General reverse-engineering workflow (no specific target)",
+      "metric": "Five-step evidence-first workflow"
+    },
+    "zh-CN": {
+      "title": "REA 证据优先的五步骤逆向工作流程教程",
+      "summary": "Wiki 教程文章,说明用 AI agent 做逆向的流程:识别目标、静态映射、定位追踪、运行时观察、验证并产出报告。强调区分直接观察与推断,并将结论关联到地址或证据。内容仅为流程说明,没有具体目标的成果。",
+      "target": "通用逆向工程流程(无特定目标)",
+      "metric": "五步骤证据优先工作流程"
+    }
   }
 }

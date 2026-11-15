@@ -2,6 +2,48 @@
   "updated": "2026-11-15",
   "items": [
     {
+      "url": "https://github.com/guodongshang91-beep/axiom",
+      "title": "guodongshang91-beep/axiom: Axiom / 公理 - first principles for reverse engineering: REA + Reverse Engineering Agent merged, four target layers, room for the next project.",
+      "author": "guodongshang91-beep",
+      "date": "2026-11-15",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "zh",
+      "found": "2026-11-15",
+      "relevant": true,
+      "title_zh": "Axiom：合併 REA 與逆向 Agent 的證據規範工具集",
+      "summary": "把 REA 的原生二進位逆向經驗（含 Ghidra 在 Windows 上的排障與 MCP launcher）和產品拆解方法合併成一個倉庫。提供證據與驗證規範、四層目標資料夾、自檢腳本和 CI。內容是方法與工具，沒有針對具體目標的成果。",
+      "target": "逆向工程方法論與工具集（原生、行動、Web、產品）",
+      "metric": "四層目標結構，一個 check.py 跑完編譯、冒煙與資產守衛",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-15",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/An020/ReverseDareu",
+      "title": "An020/ReverseDareu: DareU driver port for Linux. Used Antigravity and REA skills.",
+      "author": "An020",
+      "date": "2026-11-15",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-15",
+      "relevant": true,
+      "title_zh": "逆向 DareU 驅動，做出 Linux 版鍵鼠控制程式",
+      "summary": "以 Antigravity 與 REA skills 逆向 Windows 版 DAREU 驅動套件，在 Linux 上實作 hidraw 常駐程式、桌面 GUI 與 Arch 套件。已整理 64 位元與 65 位元 HID 協定及反組譯筆記，目前僅確認 EK75 Pro 的鍵盤燈光控制可用，整體仍在進行中。",
+      "target": "DAREU 鍵盤與滑鼠（EK75 Pro）Windows 驅動",
+      "metric": "EK75 Pro 鍵盤燈光控制已確認可用",
+      "category": "韌體 / 硬體",
+      "status": "shipped",
+      "wow": 4,
+      "scored": "2026-11-15",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/CBMODS/rea-tools-termux",
       "title": "CBMODS/rea-tools-termux: Instalación de REA en termux",
       "author": "CBMODS",
@@ -538,15 +580,6 @@
       "scored_by": "jev"
     },
     {
-      "url": "https://x.com/xjtumj/status/2121157685714518128",
-      "title": "但核心完全安全： 混淆留下 42352 个未知项 密钥与提示词泄漏为 0 核心逻辑放服务端，静态逆向就拿你没办法。 (2/3)",
-      "source": "X",
-      "found": "2026-11-15",
-      "relevant": false,
-      "scored": "2026-11-15",
-      "scored_by": "jev"
-    },
-    {
       "url": "https://x.com/DarkFactorr/status/2121389809100877852",
       "title": "stop wasting hours trying to learn REA  ACTUAL REA RUNS 1. a DX-Ball sound function rebuilt, 3,205 original x86 test cases passed, all 63 co",
       "author": "@DarkFactorr",
@@ -595,15 +628,6 @@
       "wow": 1,
       "scored": "2026-11-15",
       "scored_by": "sonnet"
-    },
-    {
-      "url": "https://github.com/hozin-king/hasil-dump",
-      "title": "hozin-king/hasil-dump: Arsip dump full + REA (reverse engineering) — per package / versi / arsitektur",
-      "source": "GitHub",
-      "found": "2026-11-15",
-      "relevant": false,
-      "scored": "2026-11-15",
-      "scored_by": "jev"
     },
     {
       "url": "https://x.com/ArchiveExplorer/status/2120936071756403159",
@@ -744,6 +768,44 @@
       "scored_by": "jev"
     },
     {
+      "url": "https://celery94.github.io/posts/reverse-engineer-anything-rea/",
+      "title": "REA 让 agent 一天重做 PowerToys 取色器 | Aide Hub",
+      "author": "Celery Liu",
+      "date": "2026-10-28",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "zh",
+      "found": "2026-11-15",
+      "relevant": true,
+      "title_zh": "用 REA 一天重建 PowerToys 取色器核心並核對結論",
+      "summary": "作者用 REA 搭配 Claude Code 分析 PowerToys 取色器的 .NET 與原生 DLL，找出所呼叫的 Windows API 與鉤子行為，並以 .NET 10 重做成小工具 hexgrab。再用 PowerToys 0.98.0 原始碼逐條核對 REA 的結論。",
+      "target": "PowerToys 取色器（ColorPickerUI.dll 與 ColorPicker.dll）",
+      "metric": "9 條結論中 8 條完全正確、1 條部分正確",
+      "category": "Native",
+      "status": "tested",
+      "wow": 5,
+      "scored": "2026-11-15",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/xjtumj/status/2121157685714518128",
+      "title": "但核心完全安全： 混淆留下 42352 个未知项 密钥与提示词泄漏为 0 核心逻辑放服务端，静态逆向就拿你没办法。 (2/3)",
+      "source": "X",
+      "found": "2026-11-15",
+      "relevant": false,
+      "scored": "2026-11-15",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/hozin-king/hasil-dump",
+      "title": "hozin-king/hasil-dump: Arsip dump full + REA (reverse engineering) — per package / versi / arsitektur",
+      "source": "GitHub",
+      "found": "2026-11-15",
+      "relevant": false,
+      "scored": "2026-11-15",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://www.reddit.com/r/AusPropertyChat/comments/1fqk0r0/choosing_a_rea/",
       "title": "Choosing a REA : r/AusPropertyChat",
       "source": "Reddit r/AusPropertyChat",
@@ -833,6 +895,47 @@
       "category": "Native / 遊戲",
       "status": "shipped",
       "wow": 4,
+      "scored": "2026-11-15",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://youtu.be/VwtL2C6Ihoo",
+      "title": "AI GAME HACKING",
+      "author": "cazz",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 39837,
+      "lang": "en",
+      "found": "2026-11-15",
+      "relevant": true,
+      "title_zh": "YouTube 影片介紹用 REA 做遊戲逆向",
+      "summary": "影片說明什麼是 REA、如何設定 REA 與 agent 環境以及如何選擇工具。節錄只有章節標題，看不出對具體目標的實際成果。",
+      "target": "遊戲逆向（影片介紹）",
+      "metric": "影片章節介紹 REA 設定與使用",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-11-15",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://www.reverseengineeranything.wiki/guide/reverse-engineer-anything-tutorial",
+      "title": "Reverse Engineer Anything Tutorial: Step-by-Step Workflow - Reverse Engineer Anything Wiki",
+      "author": "Reverse Engineer Anything Wiki Team",
+      "date": null,
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-11-15",
+      "relevant": true,
+      "title_zh": "REA 證據優先的五步驟逆向工作流程教學",
+      "summary": "Wiki 教學文章，說明用 AI agent 做逆向的流程：辨識目標、靜態對應、定位追蹤、執行期觀察、驗證並產出報告。強調區分直接觀察與推論，並將結論連結到位址或證據。內容僅為流程說明，沒有具體目標的成果。",
+      "target": "通用逆向工程流程（無特定目標）",
+      "metric": "五步驟證據優先工作流程",
+      "category": "教學",
+      "status": "reported",
+      "wow": 2,
       "scored": "2026-11-15",
       "scored_by": "sonnet"
     },
@@ -52527,6 +52630,35 @@
   "runs": [
     {
       "date": "2026-11-15",
+      "added": 5,
+      "stats": {
+        "githubShowAndTell": 19,
+        "githubRepos": 245,
+        "githubCode": 45,
+        "hackerNews": 31,
+        "qiita": 51,
+        "devto": 150,
+        "juejin": 5,
+        "reddit": 20,
+        "v2ex": "error: fetch failed",
+        "youtube": 90,
+        "bluesky": 163,
+        "mastodon": 160,
+        "exaWeb": 60,
+        "x": 10
+      },
+      "scoring": {
+        "scored": 5,
+        "jev": {
+          "low": 0,
+          "irrelevant": 0,
+          "errors": 0,
+          "toClaude": 5
+        }
+      }
+    },
+    {
+      "date": "2026-11-15",
       "added": 40,
       "stats": {
         "githubShowAndTell": 19,
@@ -53365,36 +53497,7 @@
           "toClaude": 17
         }
       }
-    },
-    {
-      "date": "2026-10-31",
-      "added": 53,
-      "stats": {
-        "githubShowAndTell": 15,
-        "githubRepos": 240,
-        "githubCode": 46,
-        "hackerNews": 22,
-        "qiita": 46,
-        "devto": 150,
-        "juejin": 4,
-        "reddit": 20,
-        "v2ex": 12,
-        "youtube": 90,
-        "bluesky": 162,
-        "mastodon": 160,
-        "exaWeb": 59,
-        "x": 28
-      },
-      "scoring": {
-        "scored": 37,
-        "jev": {
-          "low": 15,
-          "irrelevant": 1,
-          "errors": 0,
-          "toClaude": 37
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-15T00:25:07.100Z"
+  "updatedAt": "2026-11-15T04:38:57.788Z"
 }

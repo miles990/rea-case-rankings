@@ -58527,9 +58527,11 @@
     },
     {
       "date": "2026-11-15",
-      "stars": 459865,
-      "stars_delta": 1905,
+      "stars": 460214,
+      "stars_delta": 2254,
       "new": [
+        "d-4c9f2fb357",
+        "d-b83a680196",
         "d-27a9b364da",
         "d-df12fb8c6b",
         "d-1ab4e53713",
@@ -58543,54 +58545,57 @@
         "d-99724d6e8a",
         "d-cd8be7663e",
         "d-0b62b50eef",
+        "d-0dee35c307",
         "d-a69ce8a8be",
         "d-de4b23bcf5",
         "d-5036d25376",
         "d-8bbebe230a",
+        "d-1493282673",
         "d-aa886d01eb"
       ],
       "stats": {
-        "count": 18,
+        "count": 22,
         "wow": {
-          "2": 12,
+          "2": 14,
           "3": 4,
-          "4": 2
+          "4": 3,
+          "5": 1
         },
         "type": {
-          "case": 7,
+          "case": 9,
           "news": 1,
-          "app": 8,
-          "learn": 2
+          "app": 9,
+          "learn": 3
         },
         "status": {
-          "shipped": 7,
-          "reported": 10,
-          "tested": 1
+          "tested": 2,
+          "shipped": 9,
+          "reported": 11
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 實戰案例與防禦工具同日湧現,星數突破 45.9 萬",
-          "summary": "REA GitHub 星數來到 459,865,單日增加 1,905。當天案例涵蓋用 Frida、Ghidra 與 REA 讓 AuditionCMD 客戶端連本地伺服器並加入 120 首歌、重建舊 DOS 遊戲、確認 netcat 無後門,另有作者用 REA 掃出自家建置遺留的 source map。同時 BLA、REAegis 等專門對抗 REA 的防禦工具出現,也有多個 Android/Termux、arm64 移植與整合,顯示 REA 的應用與對抗同步擴張;不過部分介紹類項目並無實際目標或成果數據。"
+          "headline": "REA 案例從重建走向實戰:Linux 驅動、伺服器與防禦並進",
+          "summary": "REA GitHub 星數來到 460214,比前一個紀錄增加 2254。當天排名最前的是具體成果:用 REA 一天重建 PowerToys 取色器並對照原始碼核對、逆向 DareU 驅動做出 Linux 控制程式,以及讓 AuditionCMD 客戶端連上本地伺服器並加入 120 首歌。另有 Android/Termux、arm64 的移植與外掛,以及 BLA、REAegis 這類針對 REA 的防禦工具出現,顯示生態在擴張,同時也開始有人設法對抗 AI 逆向。"
         },
         "en": {
-          "headline": "Real REA cases and counter-tools both surge as stars pass 459k",
-          "summary": "REA's GitHub stars reached 459,865, up 1,905 from the previous record of 457,960. The day's cases include using Frida, Ghidra and REA to make an AuditionCMD client connect natively to a local server with 120 songs added, rebuilding classic DOS games, confirming netcat has no backdoor, and one author finding forgotten source maps in their own builds. Defensive tools aimed at REA, such as BLA and REAegis, also appeared alongside several Android/Termux, arm64 and Qwen Code-based ports and integrations, so both use and resistance are expanding together. Some intro-style items, however, show no concrete target or results."
+          "headline": "REA cases move to real targets, with ports and defenses emerging",
+          "summary": "REA's GitHub stars reached 460214, up 2254 from the previous record. The top items were concrete results: rebuilding the PowerToys color picker in a day and checking REA's conclusions against the source, reverse engineering a DareU driver into a Linux control tool, and getting an AuditionCMD client to talk natively to a local server with 120 songs added. Ports and plugins for Android/Termux and arm64 appeared, alongside defensive tools such as BLA and REAegis aimed at REA, showing the ecosystem growing while some start pushing back against AI reverse engineering."
         },
         "zh-CN": {
-          "headline": "REA 实战案例与防御工具同日涌现,星数突破 45.9 万",
-          "summary": "REA GitHub 星数达到 459,865,单日增加 1,905。当天案例涵盖用 Frida、Ghidra 与 REA 让 AuditionCMD 客户端连本地服务器并加入 120 首歌、重建旧 DOS 游戏、确认 netcat 无后门,另有作者用 REA 扫出自家构建遗留的 source map。同时 BLA、REAegis 等专门对抗 REA 的防御工具出现,也有多个 Android/Termux、arm64 移植与整合,显示 REA 的应用与对抗同步扩张;不过部分介绍类项目并无实际目标或成果数据。"
+          "headline": "REA 案例从重建走向实战:Linux 驱动、服务器与防御并进",
+          "summary": "REA GitHub 星数达到 460214,比之前的记录增加 2254。当天排名靠前的是具体成果:用 REA 一天重建 PowerToys 取色器并对照源码核对、逆向 DareU 驱动做出 Linux 控制程序,以及让 AuditionCMD 客户端连上本地服务器并加入 120 首歌。另有 Android/Termux、arm64 的移植与插件,以及 BLA、REAegis 这类针对 REA 的防御工具出现,说明生态在扩张,同时也开始有人设法对抗 AI 逆向。"
         }
       },
       "signals": [
+        "B",
         "C",
-        "G",
-        "A"
+        "D"
       ],
       "highlights": [
-        "d-df12fb8c6b",
-        "d-1ab4e53713",
-        "d-8acbf40233"
+        "d-4c9f2fb357",
+        "d-b83a680196",
+        "d-df12fb8c6b"
       ],
       "rank": [
         "dx-ball-sound-pan",
@@ -58618,6 +58623,7 @@
         "d-5160e8ae64",
         "d-d19ed37abb",
         "d-9b56944c50",
+        "d-4c9f2fb357",
         "d-a895219c2a",
         "d-c24d05d4a2",
         "d-9ce58c2176",
@@ -58765,6 +58771,7 @@
         "d-45164a9283",
         "d-831a3c86b4",
         "d-6417fa2b6c",
+        "d-b83a680196",
         "d-27a9b364da",
         "d-df12fb8c6b",
         "d-b92e4b8ad4",
@@ -59544,6 +59551,7 @@
         "d-40c0474406",
         "d-49c3fe3859",
         "heartland-side-effects",
+        "d-0dee35c307",
         "d-a69ce8a8be",
         "d-de4b23bcf5",
         "d-5036d25376",
@@ -59762,6 +59770,7 @@
         "d-d79fa65f04",
         "d-0c2d1d1da6",
         "d-beb2070b7b",
+        "d-1493282673",
         "d-aa886d01eb",
         "d-ea9913ba31",
         "d-3ba3560aea",
@@ -59931,6 +59940,7 @@
         "d-7c6bdd50e8",
         "d-db4f53ee50",
         "d-d77627b0d3",
+        "d-6b27e73c31",
         "d-4f1984fa33",
         "d-d93895a122",
         "d-625d52f336",
@@ -61034,36 +61044,38 @@
     "to": "2026-11-15",
     "text": {
       "zh-TW": {
-        "headline": "REA 熱潮從展示轉向驗證,攻防與硬體互通同步升溫",
-        "summary": "本週初以 Windows 部署工具、外掛與技能包等生態擴張為主,但很快出現附對照測試與逐幀比對的重建案例(記事本、Beekeeper Studio、Sopwith、Discord),功能複製的速度成為焦點。11 月 13 日獨立稽核出現:BLA 的反逆向宣稱在 12 個 fixture 中僅 5 個被拒,另一項 20 個程式測試未見 REA 在中小型程式上提升準確度,驗證成為最常出現的瓶頸(5 天)。逆向對象也從桌面與遊戲延伸到鍵盤協定、藍牙錄音豆與智慧門鎖、PCI 驅動等硬體,同時 BLA、BLADE、REAegis 等防禦工具與縮減 token 的外掛陸續出現。平台限制類訊號本週完全沒有出現。",
-        "watch": "留意更多獨立稽核與可重現的對照測試,附證據(SHA-256、位元組一致、逐幀比對)的案例比單純的安裝包更值得追蹤。硬體與藍牙、驅動的逆向(含 Linux 原生工具)以及舊軟體重建與遷移,是目前成果最具體的機會;防禦與反防禦工具的實測結果也值得持續觀察。"
+        "headline": "REA 從展示重建走向驗證，並開始延伸到硬體與防禦",
+        "summary": "本週 REA 星數由 11 月 9 日的 44.4 萬升至 11 月 15 日的 46.0 萬，每日約增 2,200 至 3,200。生態面起初以 Windows 部署包、外掛與桌面工作台為主，到週中出現 Notepad、Beekeeper Studio、Discord 與 PowerToys 等附對照測試或 SHA-256 證據的完整重建。驗證成為最常出現的主題（6 天），獨立稽核顯示 BLA 的反逆向宣稱僅 5/12 被拒，且在中小型程式上未偵測到 REA 帶來準確度提升，同時仍有函式未通過驗證。逆向對象也從遊戲與應用，擴及 Matica 印表機、鍵盤、藍牙錄音豆與門鎖、PCI 與 Linux 驅動等硬體，並出現 Linux 原生工具。防禦端（BLA、BLADE、REAegis）同步成形，攻防雙方都在建立。",
+        "watch": "可留意附有對照測試、位元組一致比對或證據摘要的案例，這類成果最容易被信任，驗證工具與誠實評分是明確的空缺。硬體互通（Linux 驅動、BLE 協議、韌體）仍有許多未驗證選項，適合以實機測試補足。另外也值得追蹤防禦工具後續的獨立稽核結果，以及縮減 token 與工具數量的外掛是否持續成長。"
       },
       "en": {
-        "headline": "REA moves from demos to verification, while defense and hardware interop rise",
-        "summary": "The week opened with ecosystem expansion: Windows deployment kits, plugins and skill packs. It quickly shifted to rebuilds backed by differential tests and frame-by-frame comparison (Notepad, Beekeeper Studio, Sopwith, Discord), which made the speed of feature cloning the story. On Nov 13 independent audits arrived: BLA's anti-reverse-engineering claims were rejected in only 5 of 12 fixtures, and a 20-program test found no accuracy gain from REA on small and mid-sized programs, making verification the most frequent bottleneck (5 days). Targets also widened from desktop apps and games to keyboard protocols, Bluetooth recorders and smart locks, and PCI drivers, while defensive tools (BLA, BLADE, REAegis) and token-trimming plugins appeared. Model-platform limits did not surface at all this week.",
-        "watch": "Look for more independent audits and reproducible comparison tests; cases with evidence (SHA-256, byte-identical output, frame comparisons) are worth tracking more than bare install packages. Hardware, BLE and driver reverse engineering (including native Linux tools) and legacy software rebuilds and migration offer the most concrete opportunities now, and the measured results of attack versus defense tooling deserve continued attention."
+        "headline": "REA is moving from showy rebuilds to verification, spreading into hardware and defense",
+        "summary": "REA stars rose from 444K on Nov 9 to 460K on Nov 15, adding roughly 2,200 to 3,200 a day. The week opened with Windows deployment kits, plugins and a desktop workbench, then midweek brought full rebuilds of Notepad, Beekeeper Studio, Discord and PowerToys backed by differential tests or SHA-256 evidence. Verification was the most frequent theme (6 days): an independent audit found BLA's anti-reverse-engineering claims rejected in only 5 of 12 fixtures, another detected no accuracy gain from REA on small and mid-size programs, and one rebuild still had a function failing validation. Targets also widened from games and apps to hardware, including a Matica card printer, a keyboard, Bluetooth recorders and locks, and PCI and Linux drivers, with native Linux tools as outputs. Defensive tools (BLA, BLADE, REAegis) appeared in parallel, so both attack and defense are taking shape.",
+        "watch": "Look for cases with differential tests, byte-identical comparisons or evidence digests, since those are the results people trust, and verification tooling and honest grading remain a clear gap. Hardware interop (Linux drivers, BLE protocols, firmware) still has many unverified options that real-device testing could close. Also track follow-up independent audits of the defensive tools and whether plugins that cut tokens and tool surface keep growing."
       },
       "zh-CN": {
-        "headline": "REA 热潮从展示转向验证,攻防与硬件互通同步升温",
-        "summary": "本周初以 Windows 部署工具、插件与技能包等生态扩张为主,但很快出现附对照测试与逐帧比对的重建案例(记事本、Beekeeper Studio、Sopwith、Discord),功能复制的速度成为焦点。11 月 13 日独立审计出现:BLA 的反逆向宣称在 12 个 fixture 中仅 5 个被拒,另一项 20 个程序测试未见 REA 在中小型程序上提升准确度,验证成为出现最多的瓶颈(5 天)。逆向对象也从桌面与游戏延伸到键盘协议、蓝牙录音豆与智能门锁、PCI 驱动等硬件,同时 BLA、BLADE、REAegis 等防御工具与缩减 token 的插件陆续出现。平台限制类信号本周完全没有出现。",
-        "watch": "留意更多独立审计与可复现的对照测试,附证据(SHA-256、字节一致、逐帧比对)的案例比单纯的安装包更值得追踪。硬件与蓝牙、驱动的逆向(含 Linux 原生工具)以及旧软件重建与迁移,是目前成果最具体的机会;防御与反防御工具的实测结果也值得持续观察。"
+        "headline": "REA 从展示重建走向验证，并开始延伸到硬件与防御",
+        "summary": "本周 REA 星数由 11 月 9 日的 44.4 万升至 11 月 15 日的 46.0 万，每日约增 2,200 至 3,200。生态面起初以 Windows 部署包、插件与桌面工作台为主，到周中出现 Notepad、Beekeeper Studio、Discord 与 PowerToys 等附对照测试或 SHA-256 证据的完整重建。验证成为最常出现的主题（6 天），独立审计显示 BLA 的反逆向宣称仅 5/12 被拒，且在中小型程序上未检测到 REA 带来准确度提升，同时仍有函数未通过验证。逆向对象也从游戏与应用，扩及 Matica 打印机、键盘、蓝牙录音豆与门锁、PCI 与 Linux 驱动等硬件，并出现 Linux 原生工具。防御端（BLA、BLADE、REAegis）同步成形，攻防双方都在建立。",
+        "watch": "可留意附有对照测试、字节一致比对或证据摘要的案例，这类成果最容易被信任，验证工具与诚实评分是明确的空缺。硬件互通（Linux 驱动、BLE 协议、固件）仍有许多未验证选项，适合用实机测试补足。另外也值得跟踪防御工具后续的独立审计结果，以及缩减 token 与工具数量的插件是否持续增长。"
       }
     },
     "rising": [
       "B",
-      "D"
+      "D",
+      "G"
     ],
     "fading": [
+      "A",
       "E"
     ],
     "tally": {
-      "A": 3,
-      "B": 5,
+      "A": 2,
+      "B": 6,
       "C": 3,
-      "D": 3,
+      "D": 4,
       "E": 0,
       "F": 2,
-      "G": 5
+      "G": 4
     }
   }
 }

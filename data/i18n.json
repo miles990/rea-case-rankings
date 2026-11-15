@@ -20773,5 +20773,275 @@
       "target": "REA 入门教程(Claude Code + Hopper)",
       "metric": "教程视频:安装 REA 并用 Claude Code 测试"
     }
+  },
+  "d-ea7a4a9634": {
+    "hash": "68e81143414e",
+    "en": {
+      "title": "Promoting mitmproxy with REA to audit app privacy traffic",
+      "summary": "Describes using mitmproxy to capture an app's network traffic into a HAR file, which REA then reads to point out the code that sends the data. Lists install and setup steps, but gives no concrete target or test results.",
+      "target": "Mobile/desktop app privacy auditing (no specific app named)",
+      "metric": "Provides a three-step workflow; no measured data"
+    },
+    "zh-CN": {
+      "title": "推广 mitmproxy 搭配 REA 审计 App 隐私流量",
+      "summary": "介绍用 mitmproxy 录下 App 网络流量并保存为 HAR,再由 REA 读取并指出发送数据的代码。列出了安装与配置步骤,但没有实际目标或测试结果。",
+      "target": "移动/桌面 App 隐私审计(未指明具体 App)",
+      "metric": "提供三步流程,无实测数据"
+    }
+  },
+  "d-8d6ed31a23": {
+    "hash": "0fd0db204d0d",
+    "en": {
+      "title": "YouTube video on installing and using REA and Workbuddy",
+      "summary": "A tutorial video on installing and using REA, which also demonstrates Workbuddy. The excerpt has no video description and shows no specific reverse-engineering target or outcome.",
+      "target": "REA installation and usage tutorial",
+      "metric": "Tutorial video with 182 views"
+    },
+    "zh-CN": {
+      "title": "YouTube 视频介绍 REA 与 Workbuddy 的安装及使用方法",
+      "summary": "视频是 REA 的使用与安装教程,同时演示了 Workbuddy 的用法。节选中没有视频描述,也看不到具体的逆向目标或成果。",
+      "target": "REA 安装与使用教程",
+      "metric": "182 次观看的教程视频"
+    }
+  },
+  "d-99724d6e8a": {
+    "hash": "efe8acf59f7b",
+    "en": {
+      "title": "Using REA to reverse-engineer a custom command-line tool for a new mouse",
+      "summary": "Finding the mouse vendor's configuration software too limited, the author used REA to reverse engineer it and produce a CLI dedicated to the mouse. Only the author's own claim of satisfaction is given; no code, repo, or test evidence is attached.",
+      "target": "Mouse vendor's configuration software / device communication",
+      "metric": "A working mouse CLI produced with REA (author's claim)"
+    },
+    "zh-CN": {
+      "title": "用 REA 为新鼠标逆向出自制命令行配置工具",
+      "summary": "作者嫌鼠标官方配置软件功能受限,改用 REA 逆向并产出一个鼠标专用的 CLI。仅有作者自述满意,未附代码、repo 或测试证据。",
+      "target": "鼠标官方配置软件/设备通信",
+      "metric": "用 REA 产出可用的鼠标 CLI(作者自述)"
+    }
+  },
+  "d-cd8be7663e": {
+    "hash": "0bf66f7628b4",
+    "en": {
+      "title": "REAegis: release auditing, encryption, and integrity verification against REA",
+      "summary": "REAegis is a release-protection workflow meant to stop reverse-engineering tools such as REA. It includes AES-256-GCM encryption for CommonJS, encrypted execution for Linux ELF, and server-side logic isolation. It ships audit, hardening, and verification commands plus tests, but it is a defensive tool rather than a case of reversing a specific target with REA.",
+      "target": "Release protection for JS/TS, Electron, and native Linux executables",
+      "metric": "Three protection layers, zero third-party Python runtime dependencies, with CI and verification docs"
+    },
+    "zh-CN": {
+      "title": "REAegis:针对 REA 的发行物审计、加密保护与完整性验证工具",
+      "summary": "REAegis 是用于防止 REA 等逆向工具的发行保护流程,包含 AES-256-GCM 加密 CommonJS、Linux ELF 加密执行以及服务端逻辑隔离。提供审计、加固、验证命令与测试,但属于防御工具,并非用 REA 逆向具体目标。",
+      "target": "JS/TS、Electron 与 Linux 原生可执行文件的发行物保护",
+      "metric": "三层保护机制,零第三方 Python 运行时依赖,附 CI 与验证文档"
+    }
+  },
+  "d-0b62b50eef": {
+    "hash": "0085328939f9",
+    "en": {
+      "title": "Explains passing an unpacked Electron app to analyze javascript application by absolute path",
+      "summary": "Explains that an already-extracted Electron app must be passed to analyze javascript application using an absolute path. Since 6.0.0, MCP requires file inputs to be absolute paths, so relative paths that work in the CLI can't be reused as-is.",
+      "target": "Electron app (unspecified)",
+      "metric": "File inputs must be absolute paths since MCP 6.0.0"
+    },
+    "zh-CN": {
+      "title": "说明已解包的 Electron 应用需以绝对路径交给 analyze javascript application",
+      "summary": "说明对已解出的 Electron 应用，需用绝对路径传给 analyze javascript application。MCP 自 6.0.0 起要求文件输入为绝对路径，CLI 中的相对路径不能直接沿用。",
+      "target": "Electron 应用（未指明）",
+      "metric": "MCP 6.0.0 起文件输入须为绝对路径"
+    }
+  },
+  "d-a69ce8a8be": {
+    "hash": "1093ebf6047c",
+    "en": {
+      "title": "Script for installing REA on Termux without root, fixing symlink errors",
+      "summary": "The author hit symlink permission errors when installing REA on Termux, so everything is now installed under $HOME/.local with shebangs fixed automatically. Install, environment-variable, diagnostic and uninstall scripts are provided, along with OpenCode integration, and the setup was tested on Android 16 / aarch64.",
+      "target": "REA's Termux installation workflow",
+      "metric": "4 scripts; tested working on Android 16 / Node 26 / OpenCode"
+    },
+    "zh-CN": {
+      "title": "提供在 Termux 免 root 安装 REA 的脚本，解决 symlink 错误",
+      "summary": "作者在 Termux 安装 REA 时遇到 symlink 权限错误，改为把全部内容安装到 $HOME/.local 并自动修正 shebang。提供安装、环境变量、诊断与卸载脚本，并接入 OpenCode，已在 Android 16 / aarch64 上测试。",
+      "target": "REA 的 Termux 安装流程",
+      "metric": "4 个脚本，在 Android 16 / Node 26 / OpenCode 上测试可用"
+    }
+  },
+  "d-de4b23bcf5": {
+    "hash": "3d4749d7c74c",
+    "en": {
+      "title": "Porting REA to Android Termux, building node-pty against bionic to make process capture work",
+      "summary": "The goal is to run REA fully on non-rooted Android/Termux. Upstream's @lydell/node-pty is a glibc binary that can't load on bionic, so process capture silently fails. This fork switches to node-pty compiled from source on the phone, and ships install and diagnostic scripts plus notes on known issues.",
+      "target": "REA on Android/Termux",
+      "metric": "node-pty rebuilt natively against bionic; process capture works on Termux"
+    },
+    "zh-CN": {
+      "title": "将 REA 移植到 Android Termux，以 bionic 编译 node-pty 使进程捕获可用",
+      "summary": "目标是让 REA 在无 root 的 Android/Termux 上完整运行。上游使用的 @lydell/node-pty 是 glibc 二进制文件，无法在 bionic 上加载，导致进程捕获静默失效。此 fork 改用 node-pty 在手机上从源码编译，并提供安装与诊断脚本及已知问题说明。",
+      "target": "REA 的 Android/Termux 环境",
+      "metric": "node-pty 改为 bionic 原生编译，进程捕获在 Termux 可用"
+    }
+  },
+  "d-5036d25376": {
+    "hash": "6caad4cfed13",
+    "en": {
+      "title": "MiraOS: bundling the REA engine into a Qwen Code–derived terminal coding agent",
+      "summary": "MiraOS is a renamed and re-themed build of the Qwen Code CLI that fetches a pinned version of REA at build time and bundles it as a built-in MCP server registered as rea. The content is mostly branding changes and integration scripts; it shows no reverse-engineering results on a specific target.",
+      "target": "Qwen Code CLI derivative and REA integration",
+      "metric": "Bundles REA's 255 tools, usable with no install step"
+    },
+    "zh-CN": {
+      "title": "MiraOS：把 REA 引擎内置进 Qwen Code 衍生的终端 coding agent",
+      "summary": "MiraOS 是 Qwen Code CLI 的改名与换色版本，并在构建时拉取固定版本的 REA 作为内置 MCP 服务器，注册为 rea。内容主要是品牌调整与集成脚本，没有展示针对具体目标的逆向成果。",
+      "target": "Qwen Code CLI 衍生版与 REA 集成",
+      "metric": "内置 REA 的 255 个工具，无需安装步骤即可使用"
+    }
+  },
+  "d-9eae0db8a3": {
+    "hash": "dd50518cae26",
+    "en": {
+      "title": "A Roundup of Real-World REA Cases: DX-Ball Sound Function Rebuilt, Passing 3,205 Tests",
+      "summary": "A look at REA in actual use: a DX-Ball sound function was rebuilt, passing 3,205 original x86 tests and reproducing all 63 compiled bytes. It also cites public stats showing 119 of 286 cases used REA, and notes that Perplexity built REA into its Computer agent as a built-in skill.",
+      "target": "DX-Ball sound function (x86)",
+      "metric": "All 3,205 original x86 tests passed; all 63 bytes reproduced"
+    },
+    "zh-CN": {
+      "title": "汇总 REA 实际案例：DX-Ball 音效函数重建通过 3,205 条测试",
+      "summary": "整理 REA 的实际运行案例：重建 DX-Ball 音效函数，通过 3,205 条原版 x86 测试，并复现全部 63 个编译字节。另提到公开统计 286 个案例中有 119 个用到 REA，以及 Perplexity 把 REA 做成 Computer agent 的内置技能。",
+      "target": "DX-Ball 音效函数（x86）",
+      "metric": "3,205 条原版 x86 测试全部通过，63 个字节全部复现"
+    }
+  },
+  "d-cde08ca38c": {
+    "hash": "d51040f83cbc",
+    "en": {
+      "title": "Statically Dissecting an Electron App with One rea-agents Command",
+      "summary": "Runs rea-agents' analyze-javascript-application via npx, with no Ghidra install or account login, to statically analyze an open-source Electron app. The output lists 20 nodes and 26 relationships, outlines the structure of main.js, preload.js and renderer.js, and notes 0 IPC channels and 0 contextBridge exposures. The author admits this is only a static breakdown.",
+      "target": "An open-source Electron app (about 458K stars)",
+      "metric": "20 nodes, 26 relationships, 0 IPC"
+    },
+    "zh-CN": {
+      "title": "用 rea-agents 一行命令静态拆解 Electron 应用",
+      "summary": "通过 npx 运行 rea-agents 的 analyze-javascript-application，无需安装 Ghidra 或登录账号，对一个 Electron 开源应用做静态分析。结果列出 20 个节点、26 条关系，指出 main.js、preload.js、renderer.js 的结构，并说明 0 条 IPC、0 个 contextBridge 暴露，作者也承认仅为静态拆解。",
+      "target": "一个开源 Electron 应用（约 45.8 万星）",
+      "metric": "20 个节点、26 条关系、0 条 IPC"
+    }
+  },
+  "d-7a104815a8": {
+    "hash": "184f3fc9b677",
+    "en": {
+      "title": "Introducing REA with GhidraMCP to Let Claude Rename Functions Automatically",
+      "summary": "Explains how REA picks out the parts worth analyzing, while GhidraMCP lets Claude drive Ghidra and rename functions. Lists the steps for installing the Ghidra plugin and running setup; there is no actual target or result.",
+      "target": "A program in Ghidra that you own (unspecified)",
+      "metric": "Three-step setup flow provided; no tested results"
+    },
+    "zh-CN": {
+      "title": "介绍 REA 搭配 GhidraMCP 让 Claude 自动重命名函数",
+      "summary": "说明 REA 挑出值得分析的部分，GhidraMCP 让 Claude 驱动 Ghidra 并重命名函数。列出安装 Ghidra 插件与运行 setup 的步骤，没有实际目标或成果。",
+      "target": "Ghidra 中自己拥有的程序（未指明）",
+      "metric": "提供三步设置流程，无实测成果"
+    }
+  },
+  "d-9bdb061b03": {
+    "hash": "77ece80d2085",
+    "en": {
+      "title": "Introducing a Four-Agent Reverse Engineering Team Built on REA",
+      "summary": "Presents a reverse engineering team setup for Claude Code built on REA, with four roles: an analyst, a spec writer, a rebuilder in an isolated container, and a verifier. The goal is to reduce drift in rebuilt output, but the post gives no actual target or comparison data.",
+      "target": "Claude Code multi-agent reverse engineering workflow",
+      "metric": "Four agents split the work: analysis, spec, rebuild, and verification match rate"
+    },
+    "zh-CN": {
+      "title": "介绍以 REA 为基础、由四个 agent 互相检查的逆向团队",
+      "summary": "介绍建立在 REA 上、供 Claude Code 使用的逆向团队配置，包含分析员、规格撰写者、独立容器中的重建者与验证者四个角色。目的是减少重建结果的偏离，但内容没有实际目标或对比数据。",
+      "target": "Claude Code 多 agent 逆向工作流",
+      "metric": "四个 agent 分工：分析、规格、重建、验证匹配率"
+    }
+  },
+  "d-27a9b364da": {
+    "hash": "9b54f53cf98a",
+    "en": {
+      "title": "REA case roundup: Ski or Die rebuild, netcat analysis, and a GunZ port",
+      "summary": "This page collects several REA cases: investigating the DOS version of Ski or Die with REA and rebuilding Snowball War in Rust + SDL2, statically analyzing Ubuntu's netcat-openbsd 1.234-1, and a clean-room Rust/Bevy port of GunZ: The Duel. The netcat analysis recovered functions, strings, and hardening settings, and confirmed there is no backdoor.",
+      "target": "Ski or Die, netcat-openbsd, GunZ: The Duel",
+      "metric": "DOS game rules recovered and rebuilt in Rust+SDL2; GunZRs implements maps, modes, movement techniques, and bots"
+    },
+    "zh-CN": {
+      "title": "REA 案例汇总页:滑雪游戏重建、netcat 分析与 GunZ 移植",
+      "summary": "页面汇总了多个 REA 案例,包括用 REA 调查 DOS 版 Ski or Die 并以 Rust + SDL2 重建 Snowball War、静态分析 Ubuntu netcat-openbsd 1.234-1,以及 GunZ: The Duel 的 Rust/Bevy 净室移植。其中 netcat 分析还原了函数、字符串与加固配置,并确认没有后门。",
+      "target": "Ski or Die、netcat-openbsd、GunZ: The Duel",
+      "metric": "还原 DOS 游戏规则并以 Rust+SDL2 重建;GunZRs 实现地图、模式、移动技巧与机器人"
+    }
+  },
+  "d-df12fb8c6b": {
+    "hash": "4fa7f984cde8",
+    "en": {
+      "title": "Using Frida, Ghidra, and REA to make the AuditionCMD 14.2.1 client connect natively to a local server and add 120 songs",
+      "summary": "The goal was to get the AuditionCMD 14.2.1 client to connect natively to a local V14.2 server. The author reverse-engineered the RC4, Blowfish, zlib, and other encryption formats of .acv/.thd/.bdy/.tbm files with Frida, Ghidra 12, and REA, wrote tools to read and generate them, and published the client, server, SQL, and tools. The result: the 120 songs from the V21 patch were added and play in the lobby, while 4 k-series songs and a second client check remain unresolved.",
+      "target": "AuditionCMD 14.2.1 game client and V14.2 server",
+      "metric": "120 V21 songs added and playable in the lobby (4 unresolved)"
+    },
+    "zh-CN": {
+      "title": "用 Frida、Ghidra 与 REA 让 AuditionCMD 14.2.1 客户端原生连接本地服务器并加入 120 首歌",
+      "summary": "目标是让 AuditionCMD 14.2.1 客户端原生连上本地 V14.2 服务器。作者以 Frida、Ghidra 12 与 REA 逆向 .acv/.thd/.bdy/.tbm 的 RC4、Blowfish、zlib 等加密格式,编写了读取与生成工具,并公开客户端、服务器、SQL 与工具。成果是 V21 补丁的 120 首歌已加入并可在大厅播放,仍有 4 首 k 系列歌曲与第二客户端检查未解决。",
+      "target": "AuditionCMD 14.2.1 游戏客户端与 V14.2 服务器",
+      "metric": "120 首 V21 歌曲加入并可在大厅播放(4 首未解决)"
+    }
+  },
+  "d-1ab4e53713": {
+    "hash": "9a04db99eb57",
+    "en": {
+      "title": "Scanning my own 5 builds with REA to find forgotten source maps",
+      "summary": "The author ran REA together with gitleaks on their own published builds to check what was exposed publicly. Of the 5 builds, 3 contained forgotten source maps, with 73 .map files across the published folders.",
+      "target": "The author's own 5 published builds",
+      "metric": "3 of 5 builds contained source maps, 73 .map files in total"
+    },
+    "zh-CN": {
+      "title": "用 REA 扫描自家 5 个构建,找出被遗忘的 source map",
+      "summary": "作者把 REA 搭配 gitleaks 用在自己发布的构建上,检查对外暴露的内容。5 个构建中有 3 个含有遗忘的 source map,发布文件夹共有 73 个 .map 文件。",
+      "target": "作者自己的 5 个发布构建",
+      "metric": "5 个构建中 3 个含 source map,共 73 个 .map 文件"
+    }
+  },
+  "d-8acbf40233": {
+    "hash": "932d79f9670a",
+    "en": {
+      "title": "Teaching the REA agent to skip BLA's decoy code and find the real functions",
+      "summary": "The author ran REA and BLA obfuscation on their own app and told the REA agent to ignore decoys. The hardened build had 537 lines, 480 of which were BLA's fake code; the agent filtered out roughly 90% and narrowed the real functions down to 47 lines.",
+      "target": "The author's own app hardened with BLA",
+      "metric": "480 decoy lines filtered out of 537, real functions pinned to 47 lines"
+    },
+    "zh-CN": {
+      "title": "让 REA agent 跳过 BLA 混淆的假代码,定位真正函数",
+      "summary": "作者在自己的 app 上同时运行 REA 与 BLA 混淆,并告诉 REA agent 忽略诱饵。加固版共 537 行,其中 480 行是 BLA 的假代码,agent 滤掉约九成后把真正函数锁定在 47 行内。",
+      "target": "作者自己以 BLA 加固的 app",
+      "metric": "537 行中滤除 480 行诱饵,锁定 47 行真函数"
+    }
+  },
+  "d-8bbebe230a": {
+    "hash": "2dc99240e6a0",
+    "en": {
+      "title": "Building a REA plugin for arm64 devices to fix Ghidra being flagged as unusable",
+      "summary": "The goal is to let REA find Ghidra and JDK 21 on arm64 devices (Android, Termux, Raspberry Pi, etc.) that have no java on PATH. The author added javaHome and reaPath settings to the dsh-rea plugin and made it auto-probe the ~/.dsh/tools directory. As a result, the plugin can expose all 139 REA tools, but the native decompiler still has to be compiled from source manually.",
+      "target": "dsh-rea plugin / Ghidra and JDK on arm64 devices",
+      "metric": "Added javaHome/reaPath settings; exposes 139 REA tools"
+    },
+    "zh-CN": {
+      "title": "为 arm64 设备制作 REA 插件，修复 Ghidra 被判定不可用的问题",
+      "summary": "目标是让 REA 在 PATH 中没有 java 的 arm64 设备（Android、Termux、树莓派等）上也能找到 Ghidra 与 JDK 21。作者在 dsh-rea 插件中加入 javaHome 与 reaPath 设置，并自动探测 ~/.dsh/tools 目录。结果是插件可以暴露全部 139 个 REA 工具，但原生反编译器仍需自行从源码编译。",
+      "target": "dsh-rea 插件 / arm64 设备上的 Ghidra 与 JDK",
+      "metric": "新增 javaHome/reaPath 设置，暴露 139 个 REA 工具"
+    }
+  },
+  "d-aa886d01eb": {
+    "hash": "d3866a527de7",
+    "en": {
+      "title": "BLA: A blue-team defense MCP and CLI against AI reverse-engineering agents like REA",
+      "summary": "BLA is a defensive tool for software authors. It applies resource limits and obfuscation to artifacts such as JS/TS, Electron ASAR, WASM, and native executables to counter AI reverse-engineering agents like REA. The README claims validation on 14 showcase targets and 31 defense tools, but the excerpt contains no verifiable testing details.",
+      "target": "Protecting software releases, with REA as the assumed adversary",
+      "metric": "Claims 31 defense tools; benchmarked on 14 showcase targets"
+    },
+    "zh-CN": {
+      "title": "BLA：对抗 REA 等 AI 逆向代理的蓝队防御 MCP 与 CLI",
+      "summary": "BLA 是为软件作者设计的防御工具，针对 JS/TS、Electron ASAR、WASM、原生可执行文件等产物设置资源上限与干扰，以对抗 REA 等 AI 逆向代理。README 声称已在 14 个展示目标上验证并提供 31 个防御工具，但节选内容中没有可检验的测试细节。",
+      "target": "以 REA 为假想对手的软件发行物防护",
+      "metric": "声称 31 个防御工具，14 个展示目标基准测试"
+    }
   }
 }

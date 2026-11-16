@@ -21103,5 +21103,245 @@
       "target": "通用逆向工程流程(无特定目标)",
       "metric": "五步骤证据优先工作流程"
     }
+  },
+  "d-f544f2b3ba": {
+    "hash": "71c435cad2ca",
+    "en": {
+      "title": "Dispatching an Agent to pre-research native components for VR streaming on Linux with REA",
+      "summary": "The goal is to evaluate compatibility options for Vision Pro and Linux VR streaming. The Agent inspects source code, checks version matching, and uses REA to analyze native components, covering multi-driver coexistence, pairing, coordinate alignment, and NVIDIA encoding. Still in a read-only pre-research phase; full compatibility has not been demonstrated.",
+      "target": "Native components for Linux VR streaming (multi-driver, Vision Pro, NVIDIA encoding)",
+      "metric": "Pre-research in progress; compatibility not yet verified"
+    },
+    "zh-CN": {
+      "title": "派 Agent 用 REA 预研 VR Linux 串流原生组件",
+      "summary": "目标是评估 Vision Pro 与 Linux VR 串流的兼容方案，让 Agent 检查源码、版本匹配，并用 REA 分析原生组件，涵盖多驱动共存、配对、坐标对齐与 NVIDIA 编码。目前仍处于只读预研阶段，尚未证明整套兼容。",
+      "target": "Linux VR 串流相关原生组件（多驱动、Vision Pro、NVIDIA 编码）",
+      "metric": "预研进行中，尚未验证兼容性"
+    }
+  },
+  "d-300a698235": {
+    "hash": "dc83abc6e261",
+    "en": {
+      "title": "Using REA with an uncensored model to reverse a leading platform's anti-cheat",
+      "summary": "The author installed REA and paired it with an uncensored model to reverse-engineer an anti-cheat system. They claim the leading platform's anti-cheat was reversed within 10 minutes, but provide no code or evidence.",
+      "target": "Anti-cheat system of a leading platform",
+      "metric": "Self-reported reversal completed within 10 minutes"
+    },
+    "zh-CN": {
+      "title": "用 REA 搭配无审查模型逆向某主流平台的反作弊",
+      "summary": "作者安装 REA，搭配无审查模型对反作弊系统做逆向。自述领先平台的反作弊在 10 分钟内被逆向，没有提供代码或证据。",
+      "target": "某主流平台的反作弊系统",
+      "metric": "自述 10 分钟内逆向完成"
+    }
+  },
+  "d-1c5ad82dbd": {
+    "hash": "463ab663148e",
+    "en": {
+      "title": "Parsing video with the rea-video skill and exploring agent-based recreation",
+      "summary": "The author has already used the rea-video skill to parse a video, but finds it hard to decide how to handle interactivity when recreating it, and is still exploring how to recreate it after parsing. No concrete results yet.",
+      "target": "Video content parsing and recreation",
+      "metric": "rea-video parsing done; recreation still being explored"
+    },
+    "zh-CN": {
+      "title": "用 rea-video 技能解析视频并探索以代理复刻",
+      "summary": "作者已用 rea-video 技能对视频做解析，但觉得复刻视频在交互上难以取舍，仍在探索解析后如何复刻。目前没有具体成果。",
+      "target": "视频内容解析与复刻",
+      "metric": "完成 rea-video 解析，复刻仍在探索"
+    }
+  },
+  "d-c8ba779a67": {
+    "hash": "522d75a41b09",
+    "en": {
+      "title": "Building oh-my-rea, an evidence-first terminal reverse-engineering agent powered by REA",
+      "summary": "Uses REA as the analysis backend, offering a TUI and CLI that connect to 33 model providers and local models. Answers must cite the evidence IDs REA retains. Includes guided workflows such as /triage, /frida, and /masvs, sub-agents, resumable sessions, and a --json event stream, plus an npm package and CI.",
+      "target": "Terminal agent tool built on REA (MCP)",
+      "metric": "33 built-in model providers; published on npm with CI"
+    },
+    "zh-CN": {
+      "title": "打造以 REA 为核心、证据优先的终端逆向工程代理 oh-my-rea",
+      "summary": "以 REA 为分析后端，提供 TUI 与 CLI，可接入 33 种模型供应商与本地模型。强调回答必须引用 REA 保留的证据 ID，内置 /triage、/frida、/masvs 等引导式工作流、子代理、可续跑与 --json 事件流，并提供 npm 包与 CI。",
+      "target": "基于 REA（MCP）的终端代理工具",
+      "metric": "内置 33 个模型供应商，发布于 npm 并配有 CI"
+    }
+  },
+  "d-01b52a07c0": {
+    "hash": "53661d7e6288",
+    "en": {
+      "title": "graphify + REA + BLA combo: auditing and hardening a release build",
+      "summary": "Describes using graphify to generate an architecture map, then having REA audit a release build like an attacker would, listing leaks such as source maps, debug files and keys, and finally hardening against REA with BLA. This is an overview of a toolchain and workflow; no results against a specific target are shown.",
+      "target": "Software release artifacts (source maps, debug files, keys)",
+      "metric": "After npx rea-agents setup, release-build leaks can be listed"
+    },
+    "zh-CN": {
+      "title": "graphify + REA + BLA 组合:审计并加固发布版本",
+      "summary": "介绍用 graphify 生成架构图,用 REA 像攻击者一样审计发布版本,列出 source map、调试文件与密钥等泄露,再用 BLA 针对 REA 加固。属于工具组合与流程介绍,未见具体目标的成果。",
+      "target": "软件发布产物(source map、调试文件、密钥)",
+      "metric": "执行 npx rea-agents setup 后可列出发布版本泄露项"
+    }
+  },
+  "d-f77977d25e": {
+    "hash": "8b857d127b6b",
+    "en": {
+      "title": "Video comparing REA and CraftAnything at recreating macOS Preview",
+      "summary": "The author gave REA and Craft Anything the same task, using AI to recreate the native macOS app Preview, and compared how each performed. The excerpt does not state specific results.",
+      "target": "Native macOS app Preview",
+      "metric": "Head-to-head comparison of REA and CraftAnything on Preview"
+    },
+    "zh-CN": {
+      "title": "视频对比 REA 与 CraftAnything 复刻 macOS Preview 的能力",
+      "summary": "作者让 REA 与 Craft Anything 完成同一个任务:用 AI 复刻原生 macOS 应用 Preview,并比较两者表现。节选中没有说明具体结果。",
+      "target": "macOS 原生应用 Preview",
+      "metric": "REA 与 CraftAnything 对 Preview 的同题对比"
+    }
+  },
+  "d-32d3ba20ad": {
+    "hash": "be0b62e5ebce",
+    "en": {
+      "title": "Multi-agent division of labor in a REA workflow: 16 agents for $1.12",
+      "summary": "The post shows a REA loop: Haiku reads each binary locally, Sonnet rebuilds in 4 clean-room worktrees, another Sonnet verifies, and Opus only signs off. It reports all 9 reader agents finished with no binaries uploaded; the figures come from the author's own dashboard.",
+      "target": "Multiple binaries (unspecified) in a multi-agent REA workflow",
+      "metric": "16 agents, 398 trace calls, $1.12 cost"
+    },
+    "zh-CN": {
+      "title": "以多代理分工执行 REA 逆向流程,16 个代理花费 1.12 美元",
+      "summary": "帖子展示了一套 REA 循环:Haiku 在本机读取各个二进制文件、Sonnet 在 4 个 clean-room worktree 中重建、另一个 Sonnet 负责验证、Opus 只负责签核。回报 9 个读取代理全部完成、没有上传任何二进制文件,内容为作者自述的看板数据。",
+      "target": "多个二进制文件(未具体说明)的多代理 REA 工作流",
+      "metric": "16 个代理、398 次追踪调用、成本 1.12 美元"
+    }
+  },
+  "d-1be1de2483": {
+    "hash": "da87df5e7d21",
+    "en": {
+      "title": "Decompiling a social platform's internal API with REA to build a plugin that lets an agent mimic the user",
+      "summary": "Built a Hermes plugin called log for the Nous Research hackathon. It uses a local model to rerank, chunk and embed conversations so the agent behaves more like the user. The author used REA to decompile the social platform so the agent could connect to its internal API.",
+      "target": "Social media platform's internal API and a Hermes plugin",
+      "metric": "Social platform decompiled with REA and internal API connected; all data stays local"
+    },
+    "zh-CN": {
+      "title": "用 REA 反编译社交平台内部 API,打造让代理模仿用户的插件",
+      "summary": "为 Nous Research 黑客松制作了名为 log 的 Hermes 插件,用本地模型对对话进行重排、分段与嵌入,让代理更像用户本人。作者用 REA 反编译社交平台,让代理能接入其内部 API。",
+      "target": "社交媒体平台内部 API 与 Hermes 插件",
+      "metric": "用 REA 反编译社交平台并对接内部 API,数据全部存放在本地"
+    }
+  },
+  "d-70fc599fd3": {
+    "hash": "e72c1d8d99a4",
+    "en": {
+      "title": "Rebuilding Humanizer and testing WinMerge without source code, using Claude Code + REA",
+      "summary": "The author handed a .NET DLL and a Windows app to Claude Code with REA and rebuilt them without source code. Humanizer was rebuilt in C# and passes 170 tests; WinMerge passes 51 tests, though Claude wrote those tests itself. The author also posted the full test run on YouTube.",
+      "target": "Humanizer (.NET DLL) and WinMerge (Windows app)",
+      "metric": "170 tests pass on the rebuilt Humanizer"
+    },
+    "zh-CN": {
+      "title": "用 Claude Code + REA 在无源码下重建 Humanizer 并测试 WinMerge",
+      "summary": "作者把 .NET DLL 与 Windows 应用交给 Claude Code 搭配 REA,在没有源码的情况下重建。Humanizer 以 C# 重建且 170 个测试通过;WinMerge 有 51 个测试通过,但测试由 Claude 自行编写,作者还附上了 YouTube 完整测试。",
+      "target": "Humanizer(.NET DLL)与 WinMerge(Windows 应用)",
+      "metric": "Humanizer 重建后 170 个测试通过"
+    }
+  },
+  "d-0f20d25d0e": {
+    "hash": "e26849bd6a65",
+    "en": {
+      "title": "Recreating Wispr Flow's hold-to-talk input with Claude Code and REA",
+      "summary": "The goal was to recreate HoldToType, the core Wispr Flow feature the author uses every day: hold a key and speak, and on release the text is typed in at the cursor. Speech recognition runs locally on the Mac with Whisper, with no cloud and no subscription.",
+      "target": "Wispr Flow (voice input product)",
+      "metric": "Whisper runs locally, no cloud, no subscription"
+    },
+    "zh-CN": {
+      "title": "用 Claude Code 加 REA 复刻 Wispr Flow 的按住说话输入功能",
+      "summary": "目标是复刻 Wispr Flow 每天都在用的核心功能 HoldToType:按住按键说话,松开后文字自动输入到光标处。语音识别使用 Whisper 在 Mac 本地运行,不上云端、无需订阅。",
+      "target": "Wispr Flow(语音输入产品)",
+      "metric": "Whisper 本地运行,无云端、无订阅"
+    }
+  },
+  "d-ffa515d625": {
+    "hash": "ff948c4e05a7",
+    "en": {
+      "title": "Using REA to have AI add a new character to the Android game Naruto Senki",
+      "summary": "The goal was to add a new character to an Android game without source code. In the first attempt, Cursor with Claude Opus 5.5 claimed it was done, but the modified package crashed on launch. The second attempt switched to Codex with GPT-6 Astra, which used REA to parse the cocos2d-x native library and three custom asset formats, then added Kai using Rock Lee's stats as the baseline.",
+      "target": "Android game Naruto Senki",
+      "metric": "First attempt claimed success but crashed on launch; second attempt switched to Codex and parsed three custom asset formats"
+    },
+    "zh-CN": {
+      "title": "用 REA 让 AI 为 Android 游戏《火影 Senki》新增角色",
+      "summary": "目标是在没有源码的 Android 游戏中加入新角色。第一轮 Cursor 加 Claude Opus 5.5 自称完成,但修改后的安装包一启动就崩溃;改用 Codex 加 GPT-6 Astra 后,通过 REA 解析 cocos2d-x 原生库与三种自定义资源格式,并以 Rock Lee 的数值为基准新增凯。",
+      "target": "Android 游戏《火影 Senki》",
+      "metric": "第一轮自称完成但启动即崩溃,第二轮改用 Codex 并解析三种自定义资源格式"
+    }
+  },
+  "d-595083ad6b": {
+    "hash": "38cbedd5dd97",
+    "en": {
+      "title": "REA-Video skill: analyzing YouTube videos frame by frame to extract editing style",
+      "summary": "A circulating REA-Video skill lets Claude download a YouTube video and analyze the relationships between frames to extract its editing style. The author tested it on a specific video during a livestream and says it worked very well, but has not published the results.",
+      "target": "Editing style of YouTube videos",
+      "metric": "Frame-by-frame editing-style analysis tested on livestream; results not published"
+    },
+    "zh-CN": {
+      "title": "REA-Video 技能:分析 YouTube 视频逐帧提取剪辑风格",
+      "summary": "流传的 REA-Video 技能能让 Claude 下载 YouTube 视频,逐帧分析画面之间的关系,以提取剪辑风格。作者在直播中对特定视频做了测试,自述效果很好,但未公开成果。",
+      "target": "YouTube 视频剪辑风格",
+      "metric": "直播测试逐帧分析剪辑风格,未公开成果"
+    }
+  },
+  "d-8bf8ebc723": {
+    "hash": "3da589ce66e0",
+    "en": {
+      "title": "Rebuilding 10 Paid Apps in 18 Days with 27 Agents and REA",
+      "summary": "The workflow first maps the target read-only (e.g. twindesk, 939 files), then has Agents run REA on each feature and store the findings as evidence. Per the article, 10 paid apps were rebuilt in 18 days, about 3 hours 12 minutes each, with fidelity to the originals rising from 61% to 97%.",
+      "target": "10 paid apps (e.g. twindesk)",
+      "metric": "10 apps in 18 days; fidelity to originals up from 61% to 97%"
+    },
+    "zh-CN": {
+      "title": "用 27 个 Agent 与 REA 在 18 天重建 10 款付费 App",
+      "summary": "流程先只读映射目标（如 twindesk，939 个文件），再让 Agent 对每个功能运行 REA，并把发现保存为证据。据文章，10 款付费 App 在 18 天内重建，每款约 3 小时 12 分钟，与原版一致度从 61% 提升至 97%。",
+      "target": "10 款付费 App（例：twindesk）",
+      "metric": "10 款 App／18 天，原版一致度从 61% 升至 97%"
+    }
+  },
+  "d-e684d92a03": {
+    "hash": "e33920054bfc",
+    "en": {
+      "title": "Black-Box Reverse Engineering of TikTok Viral Analytics SaaS spytok.com with REA, Fully Documented",
+      "summary": "Using REA to capture the Chrome DevTools protocol, passive page inspection, static JS analysis and browser replay, the author performed an observation-driven black-box reverse of spytok.com. The output includes documents on architecture, the API catalog, data model, MCP/OAuth surface and security findings, with every claim tied to an evidence record, plus a reproducible REA call sequence and an ops console built from it.",
+      "target": "spytok.com (TikTok viral analytics SaaS)",
+      "metric": "Complete API catalog, data model and MCP/OAuth metadata, with an evidence record for every claim"
+    },
+    "zh-CN": {
+      "title": "以 REA 黑盒逆向 TikTok 爆款分析 SaaS spytok.com 并公开完整文档",
+      "summary": "以 REA 采集 Chrome DevTools 协议、被动页面检查、静态 JS 分析与浏览器重放，对 spytok.com 做观察导向的黑盒逆向。产出架构、API 目录、数据模型、MCP/OAuth 接口与安全发现等多份文档，每项主张都对应证据记录，并附可复现的 REA 调用顺序与据此构建的 ops 控制台。",
+      "target": "spytok.com（TikTok 爆款分析 SaaS）",
+      "metric": "完整 API 目录、数据模型与 MCP/OAuth 元数据，每项主张均有证据记录"
+    }
+  },
+  "d-b39d5bbdf4": {
+    "hash": "a1ee4286b3cf",
+    "en": {
+      "title": "Reverse-Engineering a Mature Site with REA to Rebuild an AI Subscription Top-Up Store",
+      "summary": "The author first used REA to reverse-analyze a mature commercial site's page structure, design conventions and business interactions, had an Agent distill a design.md, then rebuilt the whole site from the documents. They also integrated upstream card-key vendors and supply channels themselves, completing the product, order, payment and automatic delivery flow, and built the site solo in 3 days.",
+      "target": "A mature commercial AI subscription top-up site",
+      "metric": "Whole site with payment and automatic delivery built solo in 3 days"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向成熟网站并重建 AI 订阅充值站",
+      "summary": "作者先用 REA 逆向分析成熟商业网站的页面结构、设计规范与业务交互，让 Agent 提炼出 design.md，再依文档重建整站。另自行对接上游卡网与供货渠道，完成商品、订单、支付与自动交付流程，3 天独立做出网站。",
+      "target": "成熟商业 AI 订阅充值网站",
+      "metric": "3 天独立完成含支付与自动交付的整站"
+    }
+  },
+  "d-98917dd247": {
+    "hash": "45e6a0072964",
+    "en": {
+      "title": "Reverse-Engineering an Offline Game with DeepSeek and REA to Build a Full Cheat Tool",
+      "summary": "The author had DeepSeek V4.1 Flash work with REA to reverse an offline game and build a trainer for it. Within a few hours they had a complete tool with complex features such as auto-aim and auto-block, though this is the author's own account.",
+      "target": "An offline game",
+      "metric": "Full trainer with auto-aim and auto-block produced within hours"
+    },
+    "zh-CN": {
+      "title": "用 DeepSeek 加 REA 逆向离线游戏并做出完整外挂工具",
+      "summary": "作者让 DeepSeek V4.1 Flash 搭配 REA 逆向一款离线游戏并在其上制作 trainer。数小时内得到完整工具，含自动瞄准与自动格挡等复杂功能，但仅为作者自述。",
+      "target": "某离线游戏",
+      "metric": "数小时内产出含自动瞄准与自动格挡的完整 trainer"
+    }
   }
 }

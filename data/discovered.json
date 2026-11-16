@@ -40,6 +40,52 @@
       "scored_by": "jev"
     },
     {
+      "url": "https://github.com/silentycj/vn-localization-skill",
+      "title": "silentycj/vn-localization-skill: End-to-end Visual Novel / Galgame localization skill for Antigravity: REA reverse engineering, registry/LE-free portable EXE patching, 4x supersampled CJK font rendering, adaptive GalTransl/workflow translation with layered safety-slice retries, and 1:1 anti-loop script auditing.",
+      "author": "silentycj",
+      "date": "2026-11-16",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-16",
+      "relevant": true,
+      "title_zh": "為 Antigravity 打造含 REA 逆向的 Galgame 漢化工作流技能",
+      "summary": "目標是視覺小說／Galgame 的端到端漢化。以 REA MCP 定位引擎封包、安裝檢測與字型呼叫鏈，並將補丁固化到 EXE 新增節區以免註冊表與 Locale Emulator。另提供翻譯、重試與腳本核對的腳本，成果以公開 repo 發布。",
+      "target": "CSystem 引擎視覺小說／Galgame",
+      "metric": "免註冊表與 LE 的獨立便攜 EXE 補丁，並附 4 支工作流腳本",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 3,
+      "scored": "2026-11-16",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/abcfy2/status/2122168532293263511",
+      "title": "https://gitea.com/abcfy2/dragonrise-revive 使用 REA + omp 把我十几年前老震动手柄(北通 BTOP-C033)在 Win11 上给复活了，还能在 Steam 上识别出来，绝了。REA 逆向老手柄的驱动程序，使用 Rust 进行重",
+      "author": "@abcfy2",
+      "date": "2026-11-16",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 15
+      },
+      "lang": "zh",
+      "found": "2026-11-16",
+      "relevant": true,
+      "title_zh": "逆向舊震動手柄驅動並用 Rust 重寫，在 Win11 與 Steam 復活",
+      "summary": "目標是十多年前的北通 BTOP-C033 震動手柄。以 REA 逆向原廠驅動，再用 Rust 重寫驅動與設定面板。作者自述手柄在 Win11 上可用、Steam 能識別，震動問題也已解決，並公開 gitea 倉庫。",
+      "target": "北通 BTOP-C033 手柄驅動",
+      "metric": "Win11 上可用，Steam 可識別，震動恢復",
+      "category": "韌體 / 硬體",
+      "status": "shipped",
+      "wow": 4,
+      "scored": "2026-11-16",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/voidvenom/oh-my-rea",
       "title": "voidvenom/oh-my-rea: Evidence-first reverse-engineering agent for your terminal, powered by REA. TUI + CLI, any LLM.",
       "author": "voidvenom",
@@ -317,6 +363,77 @@
       "category": "報導 / 評論",
       "status": "reported",
       "wow": 1,
+      "scored": "2026-11-16",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/jorilallo/status/2122070252351897620",
+      "title": "I had so many annoyances with smart home equipment and Home Assistant, but Codex paired with REA has been able to solve most of them. Buildi",
+      "author": "@jorilallo",
+      "date": "2026-11-15",
+      "source": "X",
+      "kind": "貼文",
+      "score": 33,
+      "pop": {
+        "likes": 33,
+        "views": 2360
+      },
+      "lang": "en",
+      "found": "2026-11-16",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-16",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/garabandic/status/2121994562012885267",
+      "title": "I'm playing PES 6 regularly during the weekend with my best friend, and I was always missing the gauge that modern football simulations have",
+      "author": "@garabandic",
+      "date": "2026-11-15",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 51
+      },
+      "lang": "en",
+      "found": "2026-11-16",
+      "relevant": true,
+      "title_zh": "用 REA 與 Codex 為 PES 6 加上傳球力度條",
+      "summary": "目標是遊戲 PES 6。作者以 REA 搭配 Codex，為傳球、直塞與吊傳加入現代足球遊戲常見的力度條。內容僅為作者自述，未附程式碼或截圖。",
+      "target": "PES 6",
+      "metric": "新增傳球／直塞／吊傳力度條",
+      "category": "Native / 遊戲",
+      "status": "reported",
+      "wow": 3,
+      "scored": "2026-11-16",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/GriFdotpy/status/2121826500810768755",
+      "title": "I had some fun with REA and made a web version of Mike Tyson’s Pumch Out with ASCII graphics lol https://daily-arcade.netlify.app/punch-out/",
+      "author": "@GriFdotpy",
+      "date": "2026-11-15",
+      "source": "X",
+      "kind": "貼文",
+      "score": 2,
+      "pop": {
+        "likes": 2,
+        "views": 81
+      },
+      "lang": "en",
+      "found": "2026-11-16",
+      "relevant": true,
+      "title_zh": "用 REA 做出 Punch-Out 的 ASCII 風格網頁版",
+      "summary": "目標是 Mike Tyson's Punch-Out。作者以 REA 製作了 ASCII 畫面風格的網頁版並提供可玩連結。內容簡短，沒有說明逆向細節。",
+      "target": "Mike Tyson's Punch-Out",
+      "metric": "提供可玩的 ASCII 網頁版連結",
+      "category": "Native / 遊戲",
+      "status": "shipped",
+      "wow": 3,
       "scored": "2026-11-16",
       "scored_by": "sonnet"
     },
@@ -609,6 +726,52 @@
       "scored_by": "jev"
     },
     {
+      "url": "https://x.com/codewithrohit/status/2119693975929946133",
+      "title": "tested REA (Reverse Engineering Anything) on one of my projects, a game application. it replicated 95% of the application. only some sounds ",
+      "author": "@codewithrohit",
+      "date": "2026-11-09",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 38
+      },
+      "lang": "en",
+      "found": "2026-11-16",
+      "relevant": true,
+      "title_zh": "用 REA 重建遊戲應用程式，還原約 95%",
+      "summary": "作者拿自己的遊戲應用程式測試 REA 的逆向工程能力。REA 重建了約 95% 的應用程式，僅部分音效與音樂不符，作者推測是來自後端。",
+      "target": "作者自己的遊戲應用程式",
+      "metric": "重建約 95% 的應用程式，僅部分音效與音樂不符",
+      "category": "Native / 遊戲",
+      "status": "reported",
+      "wow": 3,
+      "scored": "2026-11-16",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/Fractal-Tess/rea-flake",
+      "title": "Fractal-Tess/rea-flake: REA (Reverse Engineer Anything) packaged for Nix",
+      "author": "Fractal-Tess",
+      "date": "2026-10-15",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 9,
+      "lang": "en",
+      "found": "2026-11-16",
+      "relevant": true,
+      "title_zh": "將 REA 打包成 Nix flake，內建 Ghidra 並每日自動更新",
+      "summary": "目標是讓 Nix 與 NixOS 用戶方便使用 REA。以鎖定版本的 npm 發行包搭配 nixpkgs 的 Ghidra，提供 NixOS 與 Home Manager 模組，支援 x86_64 與 ARM64 Linux，並有每日更新工作流。這是封裝工具，沒有逆向成果。",
+      "target": "REA 的 Nix 封裝",
+      "metric": "支援 x86_64 與 ARM64 Linux，每日 12:00 UTC 自動更新",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-16",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/QuixiAI/QuixiDesk",
       "title": "QuixiAI/QuixiDesk",
       "source": "GitHub",
@@ -671,6 +834,43 @@
       "target": "Android 遊戲《火影 Senki》",
       "metric": "第一輪自稱完成但啟動即當機，第二輪改用 Codex 並解析三種自訂資源格式",
       "category": "Native / 遊戲",
+      "status": "reported",
+      "wow": 3,
+      "scored": "2026-11-16",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://youtu.be/uSeLeGNjDus",
+      "title": "REAの代わり【Craft Anything】登場？ Claudeの\"ゲームのコピー禁止\"は1週間で緩和【海外エンジニアは今】",
+      "author": "Jun Suzuki",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 420,
+      "lang": "ja",
+      "found": "2026-11-16",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-16",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://reamcp.dev/zh-cn/page/3",
+      "title": "案例 — REA 使用案例 · REA MCP (第 3)",
+      "author": "pablodiazjorge @ pablodiazjorge",
+      "date": null,
+      "source": "Web",
+      "kind": "文章",
+      "lang": "zh",
+      "found": "2026-11-16",
+      "relevant": true,
+      "title_zh": "用 REA 與 Ghidra 靜態分析 netcat-openbsd 並確認無後門",
+      "summary": "目標是 Ubuntu 的 netcat-openbsd 1.234-1 二進位檔。以 REA 搭配 Ghidra 做靜態逆向，恢復函式、字串與加固設定，並確認不存在後門。另有節錄提及以 REA 重建 Ski or Die 的 Snowball War 小遊戲（Rust + SDL2），以及 coop-anything 專案。",
+      "target": "Ubuntu netcat-openbsd 1.234-1",
+      "metric": "恢復函式、字串與加固配置，確認無後門",
+      "category": "Native / 資安",
       "status": "reported",
       "wow": 3,
       "scored": "2026-11-16",
@@ -53305,6 +53505,35 @@
   "runs": [
     {
       "date": "2026-11-16",
+      "added": 9,
+      "stats": {
+        "githubShowAndTell": 19,
+        "githubRepos": 242,
+        "githubCode": 44,
+        "hackerNews": 27,
+        "qiita": 51,
+        "devto": 150,
+        "juejin": 5,
+        "reddit": 20,
+        "v2ex": "error: fetch failed",
+        "youtube": 90,
+        "bluesky": 163,
+        "mastodon": 160,
+        "exaWeb": 60,
+        "x": 16
+      },
+      "scoring": {
+        "scored": 7,
+        "jev": {
+          "low": 2,
+          "irrelevant": 0,
+          "errors": 0,
+          "toClaude": 7
+        }
+      }
+    },
+    {
+      "date": "2026-11-16",
       "added": 32,
       "stats": {
         "githubShowAndTell": 19,
@@ -54143,36 +54372,7 @@
           "toClaude": 7
         }
       }
-    },
-    {
-      "date": "2026-11-01",
-      "added": 42,
-      "stats": {
-        "githubShowAndTell": 14,
-        "githubRepos": 233,
-        "githubCode": 46,
-        "hackerNews": 22,
-        "qiita": 45,
-        "devto": 150,
-        "juejin": 1,
-        "reddit": 20,
-        "v2ex": 12,
-        "youtube": 90,
-        "bluesky": 162,
-        "mastodon": 160,
-        "exaWeb": 57,
-        "x": 30
-      },
-      "scoring": {
-        "scored": 28,
-        "jev": {
-          "low": 10,
-          "irrelevant": 4,
-          "errors": 0,
-          "toClaude": 28
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-16T00:24:33.656Z"
+  "updatedAt": "2026-11-16T04:39:23.281Z"
 }

@@ -21343,5 +21343,110 @@
       "target": "某离线游戏",
       "metric": "数小时内产出含自动瞄准与自动格挡的完整 trainer"
     }
+  },
+  "d-b8192dac1f": {
+    "hash": "a356ab5a521d",
+    "en": {
+      "title": "A Galgame Localization Workflow Skill for Antigravity, Built on REA Reverse Engineering",
+      "summary": "The goal is end-to-end localization of visual novels/Galgames. REA MCP is used to locate the engine's packages, install checks and the font call chain, and the patch is baked into a new section of the EXE, so neither registry changes nor Locale Emulator are needed. Scripts for translation, retry and script verification are also provided, and the results are published in a public repo.",
+      "target": "Visual novels/Galgames on the CSystem engine",
+      "metric": "Standalone portable EXE patch with no registry or LE dependency, plus 4 workflow scripts"
+    },
+    "zh-CN": {
+      "title": "为 Antigravity 打造含 REA 逆向的 Galgame 汉化工作流技能",
+      "summary": "目标是视觉小说/Galgame 的端到端汉化。用 REA MCP 定位引擎封包、安装检测与字体调用链,并将补丁固化到 EXE 新增节区,免去注册表与 Locale Emulator。另提供翻译、重试与脚本核对的脚本,成果以公开 repo 发布。",
+      "target": "CSystem 引擎视觉小说/Galgame",
+      "metric": "免注册表与 LE 的独立便携 EXE 补丁,并附 4 个工作流脚本"
+    }
+  },
+  "d-fd8cc51b1b": {
+    "hash": "f0f1373581b9",
+    "en": {
+      "title": "Static Analysis of netcat-openbsd with REA and Ghidra Confirms No Backdoor",
+      "summary": "The target is the Ubuntu netcat-openbsd 1.234-1 binary. Static reverse engineering with REA and Ghidra recovered its functions, strings and hardening settings, and confirmed there is no backdoor. Excerpts also mention rebuilding the Snowball War minigame from Ski or Die with REA (Rust + SDL2), and the coop-anything project.",
+      "target": "Ubuntu netcat-openbsd 1.234-1",
+      "metric": "Recovered functions, strings and hardening configuration; confirmed no backdoor"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Ghidra 静态分析 netcat-openbsd 并确认无后门",
+      "summary": "目标是 Ubuntu 的 netcat-openbsd 1.234-1 二进制文件。借助 REA 与 Ghidra 做静态逆向,恢复函数、字符串与加固配置,并确认不存在后门。另有节选提到用 REA 重建 Ski or Die 的 Snowball War 小游戏(Rust + SDL2),以及 coop-anything 项目。",
+      "target": "Ubuntu netcat-openbsd 1.234-1",
+      "metric": "恢复函数、字符串与加固配置,确认无后门"
+    }
+  },
+  "d-59568b0a95": {
+    "hash": "2a1a922ac958",
+    "en": {
+      "title": "Packaging REA as a Nix Flake with Bundled Ghidra and Daily Auto-Updates",
+      "summary": "The goal is to make REA easy to use for Nix and NixOS users. It pairs a version-pinned npm release package with nixpkgs' Ghidra, provides NixOS and Home Manager modules, supports x86_64 and ARM64 Linux, and includes a daily update workflow. This is a packaging tool and has no reverse-engineering results.",
+      "target": "Nix packaging of REA",
+      "metric": "Supports x86_64 and ARM64 Linux; auto-updates daily at 12:00 UTC"
+    },
+    "zh-CN": {
+      "title": "将 REA 打包成 Nix flake,内置 Ghidra 并每日自动更新",
+      "summary": "目标是让 Nix 与 NixOS 用户方便使用 REA。以锁定版本的 npm 发行包搭配 nixpkgs 的 Ghidra,提供 NixOS 与 Home Manager 模块,支持 x86_64 与 ARM64 Linux,并有每日更新工作流。这是封装工具,没有逆向成果。",
+      "target": "REA 的 Nix 封装",
+      "metric": "支持 x86_64 与 ARM64 Linux,每日 12:00 UTC 自动更新"
+    }
+  },
+  "d-3317057c58": {
+    "hash": "d6f82082782f",
+    "en": {
+      "title": "Reverse-engineering an old rumble gamepad driver and rewriting it in Rust, revived on Win11 and Steam",
+      "summary": "The target is a BETOP BTOP-C033 rumble gamepad from over a decade ago. The author used REA to reverse-engineer the original driver, then rewrote both the driver and the settings panel in Rust. By their own account, the gamepad works on Win11, Steam recognizes it, and the rumble issue is fixed. A gitea repository has been made public.",
+      "target": "BETOP BTOP-C033 gamepad driver",
+      "metric": "Works on Win11, recognized by Steam, rumble restored"
+    },
+    "zh-CN": {
+      "title": "逆向旧震动手柄驱动并用 Rust 重写，在 Win11 与 Steam 复活",
+      "summary": "目标是十多年前的北通 BTOP-C033 震动手柄。作者用 REA 逆向原厂驱动，再用 Rust 重写驱动与设置面板。据作者自述，手柄在 Win11 上可用、Steam 能识别，震动问题也已解决，并公开了 gitea 仓库。",
+      "target": "北通 BTOP-C033 手柄驱动",
+      "metric": "Win11 上可用，Steam 可识别，震动恢复"
+    }
+  },
+  "d-839bf4860c": {
+    "hash": "77242fdadc09",
+    "en": {
+      "title": "Building an ASCII-style web version of Punch-Out with REA",
+      "summary": "The target is Mike Tyson's Punch-Out. The author used REA to build a web version with ASCII-style graphics and provided a playable link. The post is brief and gives no reverse-engineering details.",
+      "target": "Mike Tyson's Punch-Out",
+      "metric": "Playable ASCII web version link provided"
+    },
+    "zh-CN": {
+      "title": "用 REA 做出 Punch-Out 的 ASCII 风格网页版",
+      "summary": "目标是 Mike Tyson's Punch-Out。作者用 REA 制作了 ASCII 画面风格的网页版，并提供了可玩链接。内容简短，没有说明逆向细节。",
+      "target": "Mike Tyson's Punch-Out",
+      "metric": "提供可玩的 ASCII 网页版链接"
+    }
+  },
+  "d-d8074be2be": {
+    "hash": "a19c1bad3b94",
+    "en": {
+      "title": "Adding a pass power bar to PES 6 with REA and Codex",
+      "summary": "The target is the game PES 6. Using REA together with Codex, the author added the power bar common in modern football games to passes, through balls, and lobbed passes. The post is the author's own account only, with no code or screenshots attached.",
+      "target": "PES 6",
+      "metric": "Added power bar for pass / through ball / lobbed pass"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Codex 为 PES 6 加上传球力度条",
+      "summary": "目标是游戏 PES 6。作者用 REA 搭配 Codex，为传球、直塞与吊传加入了现代足球游戏常见的力度条。内容仅为作者自述，未附代码或截图。",
+      "target": "PES 6",
+      "metric": "新增传球／直塞／吊传力度条"
+    }
+  },
+  "d-4359b133dd": {
+    "hash": "6af1b62cceef",
+    "en": {
+      "title": "Rebuilding a game app with REA, recovering about 95%",
+      "summary": "The author tested REA's reverse-engineering ability on their own game app. REA reconstructed about 95% of the app; only some sound effects and music didn't match, which the author suspects come from the backend.",
+      "target": "The author's own game app",
+      "metric": "About 95% of the app rebuilt; only some sound effects and music differ"
+    },
+    "zh-CN": {
+      "title": "用 REA 重建游戏应用程序，还原约 95%",
+      "summary": "作者拿自己的游戏应用程序测试 REA 的逆向工程能力。REA 重建了约 95% 的应用程序，仅部分音效与音乐不符，作者推测是来自后端。",
+      "target": "作者自己的游戏应用程序",
+      "metric": "重建约 95% 的应用程序，仅部分音效与音乐不符"
+    }
   }
 }

@@ -61030,66 +61030,73 @@
     },
     {
       "date": "2026-11-16",
-      "stars": 461946,
-      "stars_delta": 1732,
+      "stars": 462300,
+      "stars_delta": 2086,
       "new": [
         "d-8bf8ebc723",
+        "d-3317057c58",
         "d-e684d92a03",
         "d-b39d5bbdf4",
+        "d-839bf4860c",
         "d-98917dd247",
         "d-70fc599fd3",
+        "d-d8074be2be",
         "d-0f20d25d0e",
+        "d-4359b133dd",
+        "d-b8192dac1f",
         "d-ffa515d625",
+        "d-fd8cc51b1b",
         "d-595083ad6b",
         "d-01b52a07c0",
         "d-f77977d25e",
         "d-32d3ba20ad",
         "d-1be1de2483",
+        "d-59568b0a95",
         "d-f544f2b3ba",
         "d-300a698235",
         "d-1c5ad82dbd",
         "d-c8ba779a67"
       ],
       "stats": {
-        "count": 16,
+        "count": 23,
         "wow": {
-          "2": 9,
-          "3": 5,
-          "4": 2
+          "2": 10,
+          "3": 10,
+          "4": 3
         },
         "type": {
-          "case": 10,
-          "app": 6
+          "case": 15,
+          "app": 8
         },
         "status": {
-          "reported": 14,
-          "tested": 1,
-          "shipped": 1
+          "reported": 17,
+          "shipped": 5,
+          "tested": 1
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 星數破 46 萬，十款付費 App 十八天重建成為焦點",
-          "summary": "11 月 16 日 REA 的 GitHub 星數來到 461,946，較前一個紀錄的 460,214 增加 1,732。當天熱度最高的是用 27 個 Agent 在 18 天重建 10 款付費 App 的案例，據文章與原版一致度從 61% 升至 97%；另有 spytok.com 黑箱逆向並附證據紀錄的完整文件，以及 oh-my-rea 這類強調引用證據 ID 的工具。多數成果仍屬作者自述，其中不少測試由模型自己撰寫，顯示功能被快速復刻的同時，如何驗證與誠實評分才是真正的瓶頸。"
+          "headline": "REA 星數破 46 萬，社群開始用它大規模重建付費 App",
+          "summary": "REA GitHub 星數來到 462300，比前一個紀錄多 2086。當天最受關注的是一篇自述：用 27 個 Agent 搭配 REA，在 18 天內重建 10 款付費 App，與原版一致度從 61% 升至 97%（作者自述）。另有逆向舊震動手柄驅動、黑箱逆向 spytok.com 並附證據紀錄，以及 Nix 封裝、oh-my-rea 等工具出現，顯示用途從單點實驗擴展到流程化、可驗證的工作方式。多數成果仍是作者自述，尚待獨立驗證。"
         },
         "en": {
-          "headline": "REA passes 460K stars as a 10-app rebuild in 18 days draws focus",
-          "summary": "On 2026-11-16 REA's GitHub stars reached 461,946, up 1,732 from the previous record of 460,214. The hottest item was a write-up of 27 agents rebuilding 10 paid apps in 18 days, with fidelity to the originals reportedly rising from 61% to 97%. Also notable were a fully documented black-box teardown of spytok.com with every claim tied to an evidence record, and oh-my-rea, a tool that requires answers to cite REA evidence IDs. Most results are still self-reported, and several tests were written by the model itself, so as features get cloned quickly, verification and honest grading are the real bottleneck."
+          "headline": "REA passes 460K stars as users rebuild paid apps at scale",
+          "summary": "REA's GitHub stars reached 462,300, up 2,086 from the previous record. The most-watched item is a self-reported write-up of 27 agents using REA to rebuild 10 paid apps in 18 days, with fidelity to the originals rising from 61% to 97%. Other items include reviving an old rumble gamepad driver in Rust, an evidence-backed black-box analysis of spytok.com, and tooling such as a Nix flake and oh-my-rea. Usage is moving from one-off experiments toward repeatable, evidence-tracked workflows, though most results are still author-reported and unverified."
         },
         "zh-CN": {
-          "headline": "REA 星数破 46 万，十款付费 App 十八天重建成焦点",
-          "summary": "11 月 16 日 REA 的 GitHub 星数达到 461,946，比之前的纪录 460,214 增加 1,732。当天热度最高的是用 27 个 Agent 在 18 天重建 10 款付费 App 的案例，据文章与原版一致度从 61% 升至 97%；另有 spytok.com 黑箱逆向并附证据记录的完整文档，以及 oh-my-rea 这类强调引用证据 ID 的工具。多数成果仍属作者自述，其中不少测试由模型自己编写，说明功能被快速复刻的同时，如何验证与诚实评分才是真正的瓶颈。"
+          "headline": "REA 星数破 46 万，社区开始用它大规模重建付费 App",
+          "summary": "REA GitHub 星数达到 462300，比前一个纪录多 2086。当天最受关注的是一篇自述：用 27 个 Agent 搭配 REA，在 18 天内重建 10 款付费 App，与原版一致度从 61% 升至 97%（作者自述）。另有逆向旧震动手柄驱动、黑箱逆向 spytok.com 并附证据记录，以及 Nix 封装、oh-my-rea 等工具出现，显示用途从单点实验扩展到流程化、可验证的工作方式。多数成果仍是作者自述，尚待独立验证。"
         }
       },
       "signals": [
         "A",
         "B",
-        "G"
+        "C"
       ],
       "highlights": [
         "d-8bf8ebc723",
         "d-e684d92a03",
-        "d-c8ba779a67"
+        "d-3317057c58"
       ],
       "rank": [
         "dx-ball-sound-pan",
@@ -61221,6 +61228,7 @@
         "d-1ef689aac2",
         "d-ba44215d32",
         "d-11f7715188",
+        "d-3317057c58",
         "d-f8bf1e5190",
         "d-cd0456f031",
         "d-27154f0faa",
@@ -61436,6 +61444,7 @@
         "d-4520ccec27",
         "d-ab1d7273ce",
         "d-1717937cb1",
+        "d-839bf4860c",
         "d-e8d949185a",
         "d-dd0fa2fab4",
         "d-27b0054d80",
@@ -61480,10 +61489,12 @@
         "d-174bb50dcb",
         "d-70fc599fd3",
         "d-ec49bf6b05",
+        "d-d8074be2be",
         "d-0f20d25d0e",
         "d-3f323fbc13",
         "d-a42d638ebb",
         "d-efa6963a37",
+        "d-4359b133dd",
         "d-3bba75b1fc",
         "d-77593de27f",
         "d-9fa69c73f3",
@@ -61565,6 +61576,7 @@
         "d-99bd005042",
         "d-95812085d2",
         "kingy-notes-exporter",
+        "d-b8192dac1f",
         "d-6943269a13",
         "d-6195edf409",
         "d-7cd5f87cd3",
@@ -61596,6 +61608,7 @@
         "d-4306768540",
         "d-b3a7a923a0",
         "d-ffa515d625",
+        "d-fd8cc51b1b",
         "d-ba3c915c01",
         "d-60e54ab9dc",
         "d-5cbb2046f8",
@@ -61753,6 +61766,7 @@
         "d-a0693fb036",
         "d-ea57348fa2",
         "d-ba479271dc",
+        "d-59568b0a95",
         "d-a36f3e20cb",
         "d-ce76f95f75",
         "d-b32618058c",
@@ -62540,6 +62554,7 @@
         "d-2825a73f70",
         "d-366b40197f",
         "d-5eea7c70bc",
+        "d-d17d626269",
         "d-ef1240483e",
         "d-a099b3f4a3",
         "d-976ab25b32",
@@ -62674,6 +62689,7 @@
         "d-05672978ca",
         "d-81ba24900f",
         "d-4773fa73b6",
+        "d-efbda39e6c",
         "d-75d72548ad",
         "d-b2db323d7b",
         "d-5dc54e8872",
@@ -63567,24 +63583,25 @@
     "to": "2026-11-16",
     "text": {
       "zh-TW": {
-        "headline": "REA 從展示重建走向驗證，並延伸到硬體與防禦",
-        "summary": "本週星數由 44.7 萬升至 46.2 萬，但每日增幅從 3,169 降到 1,732。早期焦點是記事本、Sopwith、Discord 等應用與遊戲重建，並以對照測試、逐幀比對或 SHA-256 證據佐證。中段出現獨立稽核：BLA 反逆向宣稱的實測，與 20 個程式測試中未見 REA 提升準確度，以及東方重建仍有一個函式未通過。後段目標轉向藍牙錄音豆、智慧門鎖、PCI 驅動、鍵盤與滑鼠協定，並出現 BLADE、REAegis 等對抗 AI 逆向的防禦工具。同時外掛與技能包大量湧現，多數缺乏公開成果，而 11 月 16 日十款 App 重建案例也承認許多測試由模型自己撰寫。",
-        "watch": "接下來幾天可留意是否有更多獨立稽核與第三方可重現的對照測試，以及防禦工具與反防禦工具的實測結果。硬體與驅動類逆向（BLE、Linux 控制程式）已有實際成果，是可行動的切入點；對外掛與技能包則應先查證是否附公開證據再採用。"
+        "headline": "REA 從「做得出來」走向「證明做對」，並延伸到硬體與舊軟體",
+        "summary": "本週 REA 星數從 44.7 萬升至 46.2 萬，每日穩定新增約 2,000–3,000 顆。早期案例（記事本、Sopwith、Discord）已強調對照測試、逐幀比對與 SHA-256 證據；中段出現獨立稽核，BLA 的反逆向宣稱 12 個 fixture 中僅 4 個放大，另一項 20 程式測試未見 REA 帶來準確度提升，顯示驗證才是瓶頸（本週 6 天出現）。對象從桌面應用與遊戲（東方、Sopwith）擴及藍牙、驅動與鍵盤協議等硬體。週末則出現 27 個 Agent 在 18 天重建 10 款付費 App 的自述，同時防禦工具（BLADE、BLA、REAegis）開始成形。",
+        "watch": "留意 18 天重建 10 款付費 App 的 97% 一致度是否有人獨立重現，以及防禦工具與稽核結果是否改變 REA 的實際成效。想找機會的人可聚焦兩處：能附對照測試與證據紀錄的驗證工具或流程，以及藍牙、Linux 驅動這類硬體互通的需求。另外縮減工具數量與 token 消耗的外掛也值得追蹤。"
       },
       "en": {
-        "headline": "REA shifts from showy rebuilds to verification, hardware and defense",
-        "summary": "Stars rose from 447k to 462k this week, though the daily gain fell from 3,169 to 1,732. Early highlights were app and game rebuilds (Notepad, Sopwith, Discord) backed by differential tests, frame-by-frame comparison or SHA-256 evidence. Mid-week, independent audits arrived: a 12-fixture test of BLA's anti-reversing claims, a 20-program test that found no accuracy gain from REA on small and mid-sized programs, and a Touhou rebuild with one function still failing verification. Later targets moved to Bluetooth recorders, smart locks, a PCI driver and keyboard/mouse protocols, while defensive tools against AI reversing (BLADE, REAegis) appeared. Plugins and skill packs kept multiplying with little public evidence, and the Nov 16 ten-app rebuild admitted many tests were written by the model itself.",
-        "watch": "Watch for more independent audits and third-party reproducible differential tests, plus real-world results for defensive tools and any counter-tools. Hardware and driver reversing (BLE, Linux control apps) already has concrete outcomes and is an actionable entry point; check that plugins and skill packs publish evidence before adopting them."
+        "headline": "REA is shifting from \"it can be built\" to \"prove it's right\", spreading into hardware and legacy software",
+        "summary": "REA's GitHub stars rose from 447K to 462K this week, adding roughly 2,000–3,000 a day. Early cases (Notepad, Sopwith, Discord) already stressed differential tests, frame-by-frame comparison and SHA-256 evidence. Mid-week, independent audits arrived: BLA's anti-reversing claims amplified in only 4 of 12 fixtures, and a 20-program test found no accuracy gain from REA, which makes verification the bottleneck (present on 6 days). Targets widened from desktop apps and games (Touhou, Sopwith) to Bluetooth, drivers and keyboard protocols. The weekend brought a self-reported rebuild of 10 paid apps by 27 agents in 18 days, while defensive tools (BLADE, BLA, REAegis) began to take shape.",
+        "watch": "Watch whether anyone independently reproduces the 97% match claimed for the 10 rebuilt paid apps, and whether defensive tools and audit results change REA's real-world effectiveness. For opportunities, focus on two areas: verification tooling and workflows that ship with differential tests and evidence logs, and hardware interop demand such as Bluetooth and Linux drivers. Plugins that cut tool count and token usage are also worth tracking."
       },
       "zh-CN": {
-        "headline": "REA 从展示重建走向验证,并延伸到硬件与防御",
-        "summary": "本周星数由 44.7 万升至 46.2 万,但每日增幅从 3,169 降到 1,732。早期焦点是记事本、Sopwith、Discord 等应用与游戏重建,并以对照测试、逐帧比对或 SHA-256 证据佐证。中段出现独立审计:BLA 反逆向声称的实测,以及 20 个程序测试中未见 REA 提升准确度,东方重建也仍有一个函数未通过验证。后段目标转向蓝牙录音豆、智能门锁、PCI 驱动、键盘与鼠标协议,并出现 BLADE、REAegis 等对抗 AI 逆向的防御工具。同时插件与技能包大量涌现,多数缺乏公开成果,而 11 月 16 日十款 App 重建案例也承认许多测试由模型自己编写。",
-        "watch": "接下来几天可留意是否有更多独立审计与第三方可复现的对照测试,以及防御工具与反防御工具的实测结果。硬件与驱动类逆向(BLE、Linux 控制程序)已有实际成果,是可行动的切入点;对插件与技能包则应先核实是否附公开证据再采用。"
+        "headline": "REA 从“做得出来”走向“证明做对”，并延伸到硬件与旧软件",
+        "summary": "本周 REA 星数从 44.7 万升至 46.2 万，每日稳定新增约 2,000–3,000 颗。早期案例（记事本、Sopwith、Discord）已强调对照测试、逐帧比对与 SHA-256 证据；中段出现独立审计，BLA 的反逆向宣称在 12 个 fixture 中仅 4 个被放大，另一项 20 个程序的测试未见 REA 带来准确度提升，显示验证才是瓶颈（本周 6 天出现）。对象从桌面应用与游戏（东方、Sopwith）扩及蓝牙、驱动与键盘协议等硬件。周末则出现 27 个 Agent 在 18 天重建 10 款付费 App 的自述，同时防御工具（BLADE、BLA、REAegis）开始成形。",
+        "watch": "留意 18 天重建 10 款付费 App 的 97% 一致度是否有人独立复现，以及防御工具与审计结果是否改变 REA 的实际成效。想找机会的人可聚焦两处：能附对照测试与证据记录的验证工具或流程，以及蓝牙、Linux 驱动这类硬件互通的需求。另外缩减工具数量与 token 消耗的插件也值得跟踪。"
       }
     },
     "rising": [
-      "G",
-      "B"
+      "B",
+      "C",
+      "D"
     ],
     "fading": [
       "E"
@@ -63592,11 +63609,11 @@
     "tally": {
       "A": 3,
       "B": 6,
-      "C": 3,
+      "C": 4,
       "D": 3,
       "E": 0,
       "F": 2,
-      "G": 4
+      "G": 3
     }
   }
 }

@@ -21448,5 +21448,260 @@
       "target": "作者自己的游戏应用程序",
       "metric": "重建约 95% 的应用程序，仅部分音效与音乐不符"
     }
+  },
+  "d-8dd011e0dc": {
+    "hash": "8cd1bcf9b596",
+    "en": {
+      "title": "Reverse-engineering Logitech G HUB with REA to build Hubless, a local macOS replacement",
+      "summary": "The goal was to replace Logitech G HUB's device management for the G560 speaker (HID++ 2.0) and the C922 webcam (UVC). The author reverse-engineered the protocols with REA, then built a full SwiftUI app with profiles, a menu bar item, and lighting and EQ controls. It ships with Release downloads, unit tests, and a self-test mode that reads values back from the hardware.",
+      "target": "Logitech G HUB (G560 speaker, C922 webcam)",
+      "metric": "A downloadable universal macOS app supporting G560 four-zone lighting and a 10-band EQ, plus the full set of C922 video controls"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向 Logitech G HUB,做出本地 macOS 替代品 Hubless",
+      "summary": "目标是替代 Logitech G HUB 的设备管理,针对 G560 音箱(HID++ 2.0)和 C922 网络摄像头(UVC)。作者用 REA 逆向协议后实现了完整的 SwiftUI 应用,包含配置文件、菜单栏、灯光与 EQ 控制,并提供 Release 下载、单元测试和硬件回读自测模式。",
+      "target": "Logitech G HUB(G560 音箱、C922 webcam)",
+      "metric": "可下载的通用 macOS 应用,支持 G560 四区灯光与 10 频段 EQ,以及 C922 全套视频控制"
+    }
+  },
+  "d-4d5161b601": {
+    "hash": "347e53f32c3b",
+    "en": {
+      "title": "Static reverse engineering of the public Echo Dot 3rd-gen (doebrite) OTA firmware with REA",
+      "summary": "The target is the public OTA firmware for the Echo Dot 3rd-gen model with a clock. After unpacking it and extracting the system partitions, the author analyzed the Alexa daemons and libraries with REA and Ghidra. The output is six subsystem documents and a conclusion: the device is fully hardened and has no statically exploitable entry point. The result is an architecture map; no firmware was distributed.",
+      "target": "Amazon Echo Dot 3 (doebrite, Fire OS 6.5.7.5, MT8167)",
+      "metric": "Six subsystem analysis documents, confirming no static software entry point"
+    },
+    "zh-CN": {
+      "title": "以 REA 静态逆向 Echo Dot 3 代(doebrite)公开 OTA 固件",
+      "summary": "目标是带时钟版 Echo Dot 3 代的公开 OTA 固件,经解包、提取系统分区后,用 REA 配合 Ghidra 分析 Alexa 守护进程与库。产出六份子系统文档和结论:设备防护完整,没有可静态利用的入口。成果为架构图,未分发固件。",
+      "target": "Amazon Echo Dot 3(doebrite,Fire OS 6.5.7.5,MT8167)",
+      "metric": "六份子系统分析文档,并确认无静态软件入口"
+    }
+  },
+  "d-2c7079b790": {
+    "hash": "7194c6b75331",
+    "en": {
+      "title": "Analyzing a 400-function app with REA: 41 minutes, $1.80, with evidence",
+      "summary": "The author pointed REA at an app of about 400 functions and finished in 41 minutes for $1.80, with evidence attached to every call result. They also explain that Electron apps expose their bundled scripts directly, so REA can trace the path from a click to the handler function, through IPC, to the network call. In one week, five apps were fully mapped for $14. The content is the author's own account, with no public evidence files attached.",
+      "target": "A 400-function app and five Electron apps",
+      "metric": "Analysis done in 41 minutes for $1.80; five apps in one week for $14 total"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析 400 个函数的应用,41 分钟、1.8 美元并附证据",
+      "summary": "作者将 REA 对准一个约 400 个函数的应用,41 分钟内完成,花费 1.80 美元,每个调用结果都附有证据。文中还说明,Electron 应用会直接读取打包脚本,可以追踪从点击到处理函数、IPC 再到网络调用的路径,一周内以 14 美元完整映射了五个应用。内容为作者自述,未附公开证据文件。",
+      "target": "400 个函数的应用与五个 Electron 应用",
+      "metric": "41 分钟、1.80 美元完成分析;一周 5 个应用共 14 美元"
+    }
+  },
+  "d-da76dc56cb": {
+    "hash": "7209edd69e0c",
+    "en": {
+      "title": "Reverse-engineering Cluely with REA to build Scandium, a desktop AI assistant",
+      "summary": "The project says it reverse-engineered Cluely with REA and then built a desktop AI assistant with real-time screen understanding, dual-channel audio, and a floating overlay, implemented in Electron and React. The README provides evidence such as a CI badge and a 150-utterance speech recognition benchmark, but the excerpt shows no concrete details of the reverse-engineering process.",
+      "target": "Cluely desktop AI assistant",
+      "metric": "CI 247/247 passing; speech benchmark of 150 utterances, 1.88% WER in a quiet environment"
+    },
+    "zh-CN": {
+      "title": "以 REA 逆向 Cluely,做出桌面 AI 助手 Scandium",
+      "summary": "项目自称用 REA 逆向 Cluely 后开发出具备实时屏幕理解、双通道音频和悬浮覆盖层的桌面 AI 助手,使用 Electron 和 React 实现。README 提供了 CI 徽章、150 句语音识别评测等证据,但节选中未见逆向过程的具体内容。",
+      "target": "Cluely 桌面 AI 助手",
+      "metric": "CI 247/247 通过;语音评测 150 句,安静环境 WER 1.88%"
+    }
+  },
+  "d-c36684bf67": {
+    "hash": "fe98c0436ec6",
+    "en": {
+      "title": "Reverse-engineering Antigravity with REA to make context compression length configurable",
+      "summary": "The author wanted to make Antigravity's context compression length freely configurable. Since Antigravity and Gemini refused to work with REA, they used a jailbroken Qwen3.8 flash with the Deepseek Harness for the reverse engineering. The post is self-reported only, with no specific functions, modifications, or evidence provided.",
+      "target": "Google Antigravity",
+      "metric": "Attempted custom context compression length (self-reported, no evidence)"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向 Antigravity,自由设置上下文压缩长度",
+      "summary": "作者想让 Antigravity 的上下文压缩长度可以自由设置。由于 Antigravity 与 Gemini 拒绝使用 REA,改用越狱后的 Qwen3.8 flash 搭配 Deepseek Harness 来进行逆向。内容仅为作者自述,没有提供具体找到的函数、修改方式或证据。",
+      "target": "Google Antigravity",
+      "metric": "尝试自定义上下文压缩长度(仅自述,无证据)"
+    }
+  },
+  "d-7b0ecb19c1": {
+    "hash": "4f749bf7579d",
+    "en": {
+      "title": "A REA plugin for DeepSeek Harness: 16 tools registered directly, all 255 reachable via a gateway",
+      "summary": "Wraps the rea-agents MCP engine as a DSH plugin with a custom MCP stdio client. 16 commonly used tools are registered directly, and the rest are called through the rea_tools / rea_call gateway. It also works around two upstream problems, output validation and input schema, and ships with schema and harness self-check tests.",
+      "target": "DeepSeek Harness (DSH) and the rea-agents MCP engine",
+      "metric": "16 direct tools plus a gateway covering 255 REA tools"
+    },
+    "zh-CN": {
+      "title": "为 DeepSeek Harness 开发 REA 插件:直接注册 16 个工具,并通过网关访问全部 255 个",
+      "summary": "将 rea-agents MCP 引擎封装为 DSH 插件,自研 MCP stdio 客户端,直接注册 16 个常用工具,其余通过 rea_tools / rea_call 网关调用。同时绕开了上游输出校验与输入 schema 两个问题,并附带 schema 与 harness 自检测试。",
+      "target": "DeepSeek Harness(DSH)与 rea-agents MCP 引擎",
+      "metric": "16 个直接工具加网关,覆盖 255 个 REA 工具"
+    }
+  },
+  "d-df39a5b801": {
+    "hash": "1b0dede005d5",
+    "en": {
+      "title": "A local status dashboard for rea-agents with version checks and one-click updates",
+      "summary": "The goal is to let users see REA's version, client integration, and analysis engine status without typing commands. It is built as a single-file Windows exe that calls the official doctor, compares versions against the npm registry, and offers one-click repair of integration settings plus updates. The project includes smoke tests and safety checks, but it is tooling around REA rather than a reverse-engineering result.",
+      "target": "Local installation and integration status of rea-agents (REA)",
+      "metric": "Single-file exe of about 83 MB with a bundled Node runtime, plus smoke tests"
+    },
+    "zh-CN": {
+      "title": "为 rea-agents 开发本机状态面板,可检查版本并一键更新",
+      "summary": "目标是让用户无需敲命令就能看到 REA 的版本、客户端接入与分析引擎状态。实现为 Windows 单文件 exe,调用官方 doctor、对比 npm registry 版本,并提供接入配置一键修复与更新。项目附带冒烟测试与安全检查,但属于 REA 的周边工具,而非逆向成果。",
+      "target": "rea-agents(REA)的本机安装与接入状态",
+      "metric": "单文件 exe 约 83 MB,自带 Node 运行环境,附冒烟测试"
+    }
+  },
+  "d-3e2e852b85": {
+    "hash": "79dbec2bec59",
+    "en": {
+      "title": "Using REA with Codex to find a web game's collision mechanics and rebuild a local version",
+      "summary": "In the video, REA is connected to Codex on Windows and pointed at a browser game. REA locates the game's JavaScript, Codex explains the collision mechanics, and then it is asked to build a local version with a two-second rewind feature. The excerpt contains only the video description, with no code or evidence of the result.",
+      "target": "Browser-based web game",
+      "metric": "REA located the game's JS and a local version with two-second rewind was rebuilt (self-reported)"
+    },
+    "zh-CN": {
+      "title": "用 REA 搭配 Codex 找出网页游戏碰撞机制并重做本机版",
+      "summary": "视频中在 Windows 上将 REA 接入 Codex,并给定一款浏览器游戏。REA 找出游戏的 JavaScript,Codex 解释碰撞机制,然后要求它做出带两秒回溯功能的本机版本。节选内容只有视频描述,没有代码或成果证据。",
+      "target": "浏览器网页游戏",
+      "metric": "由 REA 找出游戏 JS,并重做出含两秒回溯的本机版本(作者自述)"
+    }
+  },
+  "d-91f8d07a66": {
+    "hash": "d3aedf2bfca3",
+    "en": {
+      "title": "A minimal single-file Python reverse-engineering tool modeled on REA",
+      "summary": "Inspired by morluto/rea, the author wrote a single-file, local-first Python tool for reverse engineering shipped software artifacts, favoring free tools and public APIs. Only a repo link is provided; no concrete reversing results or tests are described.",
+      "target": "A minimal single-file Python version of REA",
+      "metric": "Single-file, local-first Python reverse-engineering tool (rea_mini)"
+    },
+    "zh-CN": {
+      "title": "仿 REA 做出单文件极简 Python 逆向工程工具",
+      "summary": "作者受 morluto/rea 启发,写了一个单文件、本机优先的 Python 工具,用于逆向已发布的软件产物,并优先使用免费工具和公开 API。内容仅提供 repo 链接,没有说明具体逆向成果或测试。",
+      "target": "REA 的极简单文件 Python 版本",
+      "metric": "单文件本机优先 Python 逆向工具(rea_mini)"
+    }
+  },
+  "d-64a1e7793d": {
+    "hash": "c091c89f3532",
+    "en": {
+      "title": "Inspecting an app with the REA skill suggests its cloud version may run Claude in its own harness",
+      "summary": "Using the REA skill to inspect an app, the author concluded that its cloud version, even when Claude Code is selected, runs inside the app's own harness (pi) using the user's credentials. The author asked the vendor to verify; the conclusion is unconfirmed and no evidence is provided.",
+      "target": "The cloud version of an AI coding app (how it runs Claude Code)",
+      "metric": "Suspected finding that the cloud version runs Claude via the pi harness (unconfirmed)"
+    },
+    "zh-CN": {
+      "title": "用 REA skill 检查某应用,发现云端版疑似用自家 harness 运行 Claude",
+      "summary": "作者用 REA skill 检查一款应用,认为其云端版即使选择 Claude Code,也是在自家 harness(pi)中运行并使用用户的凭据。作者已要求原厂核实,结论尚未证实,也没有附证据。",
+      "target": "某 AI 编程应用的云端版(Claude Code 使用方式)",
+      "metric": "疑似发现云端版以 pi harness 运行 Claude(未证实)"
+    }
+  },
+  "d-ca3884db13": {
+    "hash": "9659e812bf02",
+    "en": {
+      "title": "Claims to have cloned every paid app 1:1 with REA and self-hosted them on an iPhone",
+      "summary": "The author claims to have used REA with vibe coding to clone all the apps they used to pay for 1:1 and self-host them on an iPhone. It is a single self-description with no named target apps, evidence, or result links.",
+      "target": "Several apps the author previously paid for (unnamed)",
+      "metric": "Claims a 1:1 clone of every previously paid app"
+    },
+    "zh-CN": {
+      "title": "自称用 REA 1:1 复刻常用付费应用并部署在 iPhone 上",
+      "summary": "作者声称用 REA 搭配 vibe coding 把自己付费使用的应用全部 1:1 复刻,并在 iPhone 上自行托管。内容只有一句自述,没有指明目标应用,也没有证据或成果链接。",
+      "target": "作者原本付费使用的多个应用(未具名)",
+      "metric": "自称 1:1 复刻所有原本付费的应用"
+    }
+  },
+  "d-3790df25b7": {
+    "hash": "af19731c4452",
+    "en": {
+      "title": "Using a local model to call REA, rebuild a GitHub source repo, and reportedly unpack protected apps",
+      "summary": "The author notes that calling REA for decompilation through Claude or Codex often triggers AI ethics refusals, so they switched to a local model. They say they first reverse the app to build a GitHub source repo, and that packed apps can be unpacked directly, but name no specific target and provide no evidence.",
+      "target": "Unnamed apps (including packed apps)",
+      "metric": "Claims a local model bypasses refusals and unpacks directly"
+    },
+    "zh-CN": {
+      "title": "用本地模型调用 REA 逆向并重建 GitHub 源码库,称可脱壳",
+      "summary": "作者指出用 Claude、Codex 调用 REA 反编译时常遭 AI 道德拒绝,改用本地模型来调用。作者称先逆向建立 GitHub 源码库,加壳的应用也能直接脱壳,但没有指明具体目标或附证据。",
+      "target": "未具名的应用(含加壳应用)",
+      "metric": "自称本地模型可绕过拒绝并直接脱壳"
+    }
+  },
+  "d-08cb777759": {
+    "hash": "09aa440bcb93",
+    "en": {
+      "title": "A PCAP malware-traffic forensics pipeline chaining REA+Ghidra static analysis with sandbox emulation",
+      "summary": "The goal is to automatically turn packet captures of malware infections into incident reports. A Claude Code agent chains Zeek/Suricata triage, multi-perspective analysis, REA+Ghidra static reverse engineering, and network-less speakeasy sandbox emulation, plus adversarial review and a fail-closed reporting gate. Every value in the report comes with a reproducible command, though the README describes itself as V1 and warns about accuracy limits.",
+      "target": "PCAPs of malware infections in Windows network environments",
+      "metric": "Every value in the report is backed by a reproducible shell command"
+    },
+    "zh-CN": {
+      "title": "以 REA+Ghidra 静态分析与沙箱模拟串联 PCAP 恶意流量取证流程",
+      "summary": "目标是把恶意软件感染的数据包捕获文件自动转成事件报告。做法是用 Claude Code 代理串联 Zeek/Suricata 分流、多视角分析、REA+Ghidra 静态逆向与 speakeasy 无网络沙箱模拟，并加入对抗式复审和失败即封闭的报告关卡。报告中的每个值都附有可复现的命令，但 README 自述为 V1，并提示了准确度方面的限制。",
+      "target": "Windows 网络环境中的恶意软件感染 PCAP",
+      "metric": "报告中的每个值都附有可复现的 shell 命令"
+    }
+  },
+  "d-d48c2534f9": {
+    "hash": "314fe3e84cb8",
+    "en": {
+      "title": "Using REA to read Chrome's dinosaur game script and rebuild a mini version with adjustable speed",
+      "summary": "Robert Ta demonstrates using REA with a coding agent to read the script of Chrome's dinosaur game and find the rules that control the dinosaur's acceleration. He then rebuilds a mini version with speed control. The content is a demo write-up and offers no tests or comparative evidence.",
+      "target": "Chrome dinosaur game",
+      "metric": "Found the dinosaur's acceleration rules and rebuilt a mini version with speed control"
+    },
+    "zh-CN": {
+      "title": "用 REA 读取 Chrome 恐龙游戏脚本并重建可调速的迷你版",
+      "summary": "Robert Ta 演示了用 REA 搭配编程智能体读取 Chrome 恐龙游戏的脚本，找出控制恐龙加速的规则，随后重建了一个带速度控制的迷你版本。内容为演示说明，未提供测试或对照证据。",
+      "target": "Chrome 恐龙游戏",
+      "metric": "找出恐龙加速规则并重建带速度控制的迷你版"
+    }
+  },
+  "d-2f095e8ce5": {
+    "hash": "8095b18e539b",
+    "en": {
+      "title": "Static analysis of 叭哥說 with REA plus a competitor comparison wins first prize",
+      "summary": "The author used REA to statically analyze 叭哥說, compared it with similar products, built a prototype with Claude Artifact, and won first prize by submitting an 8-page PDF. The write-up doesn't describe the specific findings of the static analysis; it rests only on the author's own account.",
+      "target": "叭哥說 (product)",
+      "metric": "Submitted an 8-page PDF and won first prize"
+    },
+    "zh-CN": {
+      "title": "用 REA 静态分析叭哥说并做竞品比较，夺得头奖",
+      "summary": "作者用 REA 对“叭哥说”做静态分析，与同类产品比较，再用 Claude Artifact 做原型，提交 8 页 PDF 而获得头奖。内容未说明静态分析的具体发现，只有作者自述。",
+      "target": "叭哥说（产品）",
+      "metric": "提交 8 页 PDF 并获头奖"
+    }
+  },
+  "d-668d19eb32": {
+    "hash": "915db8cfb411",
+    "en": {
+      "title": "A video-reversing skill that is faster than REA-Video, with comparison figures",
+      "summary": "The author claims that HyperFrames' reverse-any-video skill beats REA-Video in both speed and similarity. The figures are 81 seconds versus 1,595 seconds, and SSIM of 0.96 versus 0.78. This is a self-reported benchmark comparison, and the excerpt includes no raw evidence.",
+      "target": "REA-Video video-reversing skill",
+      "metric": "81 seconds vs 1,595 seconds (about 20x), SSIM 0.96 vs 0.78"
+    },
+    "zh-CN": {
+      "title": "做出比 REA-Video 更快的视频逆向技能并附对比数据",
+      "summary": "作者宣称 HyperFrames 的 reverse-any-video 技能与 REA-Video 相比，速度和相似度都更好。数据为耗时 81 秒对 1,595 秒，SSIM 为 0.96 对 0.78。这是作者自述的基准对比，节选内容中没有附原始证据。",
+      "target": "REA-Video 视频逆向技能",
+      "metric": "耗时 81 秒 vs 1,595 秒（约 20 倍），SSIM 0.96 vs 0.78"
+    }
+  },
+  "d-ec94b458c4": {
+    "hash": "808940baa016",
+    "en": {
+      "title": "Writing a setup guide for connecting REA, Ghidra, and OpenCode over HTTP on Fedora Silverblue",
+      "summary": "The goal is to let an OpenCode agent use REA for reverse engineering inside a sandbox that doesn't grant host permissions. It uses mcp-proxy to expose rea mcp over HTTP, with two setup routes, verification, and troubleshooting steps. This is an installation and configuration tutorial; no specific target was reverse engineered.",
+      "target": "REA / Ghidra / OpenCode environment on Fedora Silverblue",
+      "metric": "Guide verified on the specified versions; about 207 tools available once REA is connected"
+    },
+    "zh-CN": {
+      "title": "编写 Fedora Silverblue 上通过 HTTP 串接 REA、Ghidra 与 OpenCode 的配置指南",
+      "summary": "目标是在不开放主机权限的沙箱环境中,让 OpenCode 代理使用 REA 进行逆向。通过 mcp-proxy 将 rea mcp 转为 HTTP,并提供两条路线、验证与故障排查步骤。内容为安装配置教程,未针对特定目标做逆向分析。",
+      "target": "Fedora Silverblue 上的 REA/Ghidra/OpenCode 环境",
+      "metric": "指南已在指定版本验证,REA 连接后约 207 个工具"
+    }
   }
 }

@@ -21703,5 +21703,65 @@
       "target": "Fedora Silverblue 上的 REA/Ghidra/OpenCode 环境",
       "metric": "指南已在指定版本验证,REA 连接后约 207 个工具"
     }
+  },
+  "d-1dc3993dfb": {
+    "hash": "6227900a1a07",
+    "en": {
+      "title": "Reverse-engineering Worms 2 into a real-time game with online multiplayer, using REA and Claude Code",
+      "summary": "The author used REA with Claude Code to reverse-engineer Worms 2, rebuilding it as a real-time game and adding an online multiplayer mode, which they then played with their brother over the network. The account is the author's own; no repo or test evidence is provided, but the result is described as a playable, complete reconstruction.",
+      "target": "Worms 2 (game)",
+      "metric": "Playable reconstruction with online multiplayer"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Claude Code 将 Worms 2 逆向重建为实时游戏并加入在线对战",
+      "summary": "作者以 REA 搭配 Claude Code 逆向 Worms 2,重建为实时游戏,并加入在线多人模式,实际与兄弟联机游玩。内容为作者自述,未提供 repo 或测试证据,但成果为可玩的完整重建。",
+      "target": "Worms 2(游戏)",
+      "metric": "可玩的重建版,支持在线对战"
+    }
+  },
+  "d-0796530bf8": {
+    "hash": "8279b8b590b9",
+    "en": {
+      "title": "Analyzing the NVIDIA V100 driver with REA and reimplementing it in Rust (MIT)",
+      "summary": "The author claims to have reverse-engineered the NVIDIA V100 driver with REA and reimplemented it in Rust, released under the MIT license. The post links no repo, tests, or evidence, so the scope of the result cannot be verified from its content.",
+      "target": "NVIDIA V100 driver",
+      "metric": "Rust rewrite under the MIT license (self-reported)"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析 NVIDIA V100 驱动并以 Rust 重新实现(MIT)",
+      "summary": "作者声称用 REA 逆向 NVIDIA V100 驱动,并以 Rust 重新实现后采用 MIT 许可发布。推文未附 repo、测试或证据,成果范围无法从内容验证。",
+      "target": "NVIDIA V100 驱动",
+      "metric": "Rust 重写并以 MIT 许可(作者自述)"
+    }
+  },
+  "d-0072a79fc9": {
+    "hash": "0e529ea0eab7",
+    "en": {
+      "title": "Studying Chordify with REA and building ChordLocal, a free local version",
+      "summary": "The article introduces REA and uses it, via CDP, to analyze the Chordify website and test whether its paid features are mostly simple transformations of existing analysis results (such as transposition). Based on this, the author built the local ChordLocal; the first round compiled a feature matrix from public information, and no full test results appear in the excerpt.",
+      "target": "Chordify (chord recognition site) and ChordLocal",
+      "metric": "Hypothesis: most paid features are simple transformations of analysis results"
+    },
+    "zh-CN": {
+      "title": "用 REA 研究 Chordify 并构建本地免费版 ChordLocal",
+      "summary": "文章介绍 REA,并用它通过 CDP 分析 Chordify 网站,以验证付费功能多为对既有分析结果的简单变换(如移调)。作者据此构建本地版 ChordLocal,第一轮基于公开信息整理功能矩阵,节选中尚未看到完整的实测结果。",
+      "target": "Chordify(和弦识别网站)与 ChordLocal",
+      "metric": "提出假设:多数付费功能是对分析结果的简单变换"
+    }
+  },
+  "d-a7cf2737ac": {
+    "hash": "5d5e39b0f9d4",
+    "en": {
+      "title": "r2b: a project merging the REA reverse-engineering CLI/MCP with the Replica app-cloning skill",
+      "summary": "aphrody-labs' r2b repo is described as combining the REA reverse-engineering CLI/MCP server with the Replica app-cloning skill. The README is still template content (a one-line description, installation, license), with no usage examples or results.",
+      "target": "Toolchain integrating REA and the Replica skill",
+      "metric": "README is only a template; no actual results"
+    },
+    "zh-CN": {
+      "title": "合并 REA 逆向 CLI/MCP 与 Replica 应用复制技能的 r2b 项目",
+      "summary": "aphrody-labs 的 r2b repo 被描述为整合 REA 逆向工程 CLI/MCP 服务器与 Replica 应用复制技能。README 仍是模板内容(一句话说明、安装、许可),没有实际使用示例或成果。",
+      "target": "整合 REA 与 Replica 技能的工具链",
+      "metric": "README 仅为模板,无实际成果"
+    }
   }
 }

@@ -63569,13 +63569,16 @@
     },
     {
       "date": "2026-11-17",
-      "stars": 464126,
-      "stars_delta": 1826,
+      "stars": 464502,
+      "stars_delta": 2202,
       "new": [
         "d-8dd011e0dc",
+        "d-1dc3993dfb",
         "d-4d5161b601",
         "d-2c7079b790",
+        "d-0796530bf8",
         "d-da76dc56cb",
+        "d-0072a79fc9",
         "d-08cb777759",
         "d-d48c2534f9",
         "d-2f095e8ce5",
@@ -63587,41 +63590,42 @@
         "d-c36684bf67",
         "d-7b0ecb19c1",
         "d-df39a5b801",
+        "d-a7cf2737ac",
         "d-3e2e852b85",
         "d-ec94b458c4"
       ],
       "stats": {
-        "count": 17,
+        "count": 21,
         "wow": {
-          "2": 11,
-          "3": 4,
-          "4": 1,
+          "2": 12,
+          "3": 6,
+          "4": 2,
           "5": 1
         },
         "type": {
-          "case": 10,
+          "case": 13,
           "news": 1,
-          "app": 5,
+          "app": 6,
           "learn": 1
         },
         "status": {
           "tested": 1,
-          "shipped": 6,
-          "reported": 10
+          "reported": 12,
+          "shipped": 8
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 逆向 Logitech G HUB 做出 macOS 替代品，星數破 46.4 萬",
-          "summary": "今天最完整的成果是 Hubless：作者用 REA 逆向 Logitech G HUB 的 HID++ 與 UVC 協定，實作出含設定檔、燈光與 EQ 控制的 SwiftUI 應用，並附單元測試與硬體讀回自測。另一個 Echo Dot 3 韌體分析得出「無靜態可利用入口」的誠實結論。GitHub 星數升至 464126，較前一紀錄增加 1826。社群上不少貼文提到 Claude、Gemini 等拒絕執行逆向，改用本地或越獄模型，但多為自述、缺乏證據。"
+          "headline": "REA 星數破 46.4 萬，硬體逆向案例當日最受矚目",
+          "summary": "REA 星數升至 464502，較前一個紀錄增加 2202。排名最前的是 Hubless：作者以 REA 逆向 Logitech G HUB 的 HID++ 與 UVC 協定，做出附測試與 Release 的 macOS 替代品；另有 Echo Dot 3 代 OTA 韌體的靜態分析，結論為無靜態可利用入口。熱度最高的是兩則 X 貼文，分別談 400 個函式 41 分鐘、1.8 美元的分析成本，以及 REA 加 Claude Code 重建 Worms 2，但皆為作者自述。另有數則提到 Claude、Gemini 等模型拒絕使用 REA 而改用本地模型，不過同樣缺乏證據。"
         },
         "en": {
-          "headline": "REA reverse-engineers Logitech G HUB into a macOS replacement; stars pass 464K",
-          "summary": "The strongest result today is Hubless: the author used REA to reverse the HID++ and UVC protocols behind Logitech G HUB and built a SwiftUI app with profiles, lighting and EQ control, backed by unit tests and a hardware read-back self-test. Another project's Echo Dot 3 firmware analysis honestly concluded there is no statically exploitable entry point. GitHub stars rose to 464,126, up 1,826 from the previous record. Several posts say Claude and Gemini refused reverse-engineering work, pushing people to local or jailbroken models, but most are self-reported with no evidence."
+          "headline": "REA passes 464K stars; hardware reverse-engineering cases lead the day",
+          "summary": "REA's GitHub stars rose to 464,502, up 2,202 from the previous record. The top item is Hubless, a macOS replacement for Logitech G HUB built after REA reverse-engineered its HID++ and UVC protocols, with tests and a release. Another is a static analysis of Echo Dot 3 OTA firmware, concluding there is no statically exploitable entry point. The hottest items are two X posts, one on analyzing a ~400-function app in 41 minutes for $1.80 and one on rebuilding Worms 2 with REA and Claude Code, though both are self-reported. A few posts say Claude and Gemini refused to use REA so the authors switched to local models, but none offer evidence."
         },
         "zh-CN": {
-          "headline": "REA 逆向 Logitech G HUB 做出 macOS 替代品，星数破 46.4 万",
-          "summary": "今天最完整的成果是 Hubless：作者用 REA 逆向 Logitech G HUB 的 HID++ 与 UVC 协议，实现了含配置文件、灯光与 EQ 控制的 SwiftUI 应用，并附单元测试与硬件读回自测。另一个 Echo Dot 3 固件分析得出“无静态可利用入口”的诚实结论。GitHub 星数升至 464126，较前一纪录增加 1826。社区里不少帖子提到 Claude、Gemini 等拒绝执行逆向，改用本地或越狱模型，但多为自述、缺乏证据。"
+          "headline": "REA 星数破 46.4 万，硬件逆向案例当日最受关注",
+          "summary": "REA 星数升至 464502，较前一个记录增加 2202。排名最靠前的是 Hubless：作者以 REA 逆向 Logitech G HUB 的 HID++ 与 UVC 协议，做出附测试与 Release 的 macOS 替代品；另有 Echo Dot 3 代 OTA 固件的静态分析，结论为无静态可利用入口。热度最高的是两条 X 帖子，分别谈 400 个函数 41 分钟、1.8 美元的分析成本，以及 REA 加 Claude Code 重建 Worms 2，但均为作者自述。另有数条提到 Claude、Gemini 等模型拒绝使用 REA 而改用本地模型，同样缺乏证据。"
         }
       },
       "signals": [
@@ -63632,7 +63636,7 @@
       "highlights": [
         "d-8dd011e0dc",
         "d-4d5161b601",
-        "d-08cb777759"
+        "d-2c7079b790"
       ],
       "rank": [
         "dx-ball-sound-pan",
@@ -63765,6 +63769,7 @@
         "d-1ef689aac2",
         "d-ba44215d32",
         "d-11f7715188",
+        "d-1dc3993dfb",
         "d-3317057c58",
         "d-f8bf1e5190",
         "d-cd0456f031",
@@ -63930,6 +63935,7 @@
         "d-1857cbc37d",
         "d-9bf3ce4cb1",
         "d-00d5ff1999",
+        "d-0796530bf8",
         "d-fadb448c34",
         "d-16a16d354b",
         "d-36eef39e98",
@@ -64116,6 +64122,7 @@
         "d-99bd005042",
         "d-95812085d2",
         "kingy-notes-exporter",
+        "d-0072a79fc9",
         "d-08cb777759",
         "d-b8192dac1f",
         "d-6943269a13",
@@ -64636,6 +64643,7 @@
         "d-f42df336a7",
         "d-e38c803c58",
         "d-7e28bd6d34",
+        "d-a7cf2737ac",
         "d-17116b2b2c",
         "d-ef1f9f3a05",
         "d-47f95078bb",
@@ -65234,6 +65242,7 @@
         "d-b4b9c4170b",
         "d-f2965ebbaf",
         "d-0697816d39",
+        "d-2bb97d458c",
         "d-c68e182143",
         "d-4de11ef5b1",
         "d-45e55f596f",
@@ -65254,6 +65263,7 @@
         "d-e38dc18735",
         "d-f71f877a80",
         "d-24586d51c6",
+        "d-511ac20774",
         "d-39a5da7b62",
         "d-963f79963a",
         "d-e5b636c31f",
@@ -66145,19 +66155,19 @@
     "to": "2026-11-17",
     "text": {
       "zh-TW": {
-        "headline": "REA 從重建展示走向可驗證成果,硬體互通成為主戰場",
-        "summary": "本週 REA 星數由 45 萬升至 46.4 萬,每天穩定新增 1,800–3,000 顆。案例從 Genius 鍵盤、Discord 桌面版,擴及藍牙門鎖、驅動與 Logitech G HUB,重心由應用複製逐步轉向硬體互通。驗證成為最常出現的主題(5 天):有附 SHA-256 證據與單元測試的完整案例,也有獨立稽核指出 REA 在中小型程式上未見準確度提升,BLA 的反逆向宣稱亦只有部分成立。同時生態持續擴張(外掛、Nix 封裝、arm64 移植),並出現 BLADE、REAegis 等專門對抗 AI 逆向的防禦工具,而 27 個 Agent 在 18 天重建 10 款付費 App 的自述則顯示客戶端程式碼的護城河正在消失。",
-        "watch": "接下來可留意 27 Agent 重建付費 App 的說法是否有人獨立複現,以及防禦工具與稽核報告是否出現更多實測數據。機會在於附證據、可驗證的硬體協定工具(如 Linux/macOS 版周邊設定軟體),以及能降低 token 與工具數量的外掛;另外,本週最後一天開始有人提到模型拒絕執行逆向而改用本地或越獄模型,值得持續觀察是否成為趨勢。"
+        "headline": "REA 從展示走向驗證，並由應用複製延伸到硬體互通",
+        "summary": "本週 REA 星數從 45 萬一路升至 46.4 萬，每天約增 2000 至 3000。早期內容以外掛與包裝為主，多數沒有公開逆向成果。中段開始出現可驗證的案例，如附 SHA-256 證據的 Discord 重建，以及獨立稽核：20 個程式測試未見準確度提升，東方重建也坦承仍有一個函式未通過驗證。驗證訊號本週出現 5 天，是最穩定的主軸。對象也從應用擴及藍牙、驅動與 HID 協定，如 Logitech G HUB 的 macOS 替代品、DareU 的 Linux 控制程式。另一方面，BLADE、BLA、REAegis 等針對 AI 逆向的防禦工具同步出現。",
+        "watch": "可優先做有公開 repo、測試與證據紀錄的硬體協定逆向，例如鍵盤、滑鼠、手柄的 Linux 與 macOS 替代工具，這類成果最容易被驗證。『27 個 Agent 重建 10 款付費 App，一致度 97%』與『400 個函式 1.8 美元』目前都是作者自述，待獨立驗證前不宜當成事實。模型拒絕使用 REA 的說法也缺乏證據，可留意是否有人提供可重現的紀錄。"
       },
       "en": {
-        "headline": "REA shifts from showy rebuilds to verifiable results, with hardware interop now the main front",
-        "summary": "REA's GitHub stars rose from 450k to 464k this week, adding roughly 1,800–3,000 per day. Cases broadened from a Genius keyboard and the Discord desktop app to Bluetooth locks, drivers and Logitech G HUB, so the emphasis is moving from app cloning toward hardware interop. Verification was the most frequent theme (5 days): some complete cases ship SHA-256 evidence and unit tests, while independent audits found no accuracy gain from REA on small and mid-sized programs, and BLA's anti-reversing claims held only in part. The ecosystem keeps expanding (plugins, Nix packaging, arm64 ports) alongside defensive tools such as BLADE and REAegis aimed at AI reversing agents, and a self-reported rebuild of 10 paid apps by 27 agents in 18 days suggests client-side code is no longer a moat.",
-        "watch": "Watch whether anyone independently reproduces the 27-agent paid-app rebuild claim, and whether the defensive tools and audits publish more measured data. Opportunities lie in evidence-backed, verifiable hardware-protocol tools (for example Linux or macOS configuration apps for peripherals) and plugins that cut token use and tool surface. Also note that on the final day some posts mentioned models refusing reverse-engineering tasks and users switching to local or jailbroken models; see whether that grows."
+        "headline": "REA shifts from demos to verification, from app cloning toward hardware interop",
+        "summary": "Stars climbed from 450K to 464K this week, about 2,000–3,000 a day. Early coverage was mostly plugins and wrappers with little public reverse-engineering output. Mid-week brought verifiable cases such as a Discord rebuild with SHA-256 evidence, plus independent audits: a 20-program test found no accuracy gain, and a Touhou rebuild admitted one function still failed verification. Verification appeared on 5 of 7 days, the steadiest theme. Targets also widened from apps to Bluetooth, drivers and HID protocols, such as a macOS replacement for Logitech G HUB and a Linux controller for DareU. Meanwhile defenses aimed at AI reversing agents (BLADE, BLA, REAegis) appeared alongside.",
+        "watch": "Hardware protocol work with a public repo, tests and evidence logs is the most actionable and verifiable niche, for example Linux or macOS replacements for keyboard, mouse and gamepad tools. Treat the claims of 27 agents rebuilding 10 paid apps at 97% parity, and 400 functions for $1.8, as author self-reports until independently verified. Claims that models refuse to use REA lack evidence too, so watch for anyone publishing reproducible logs."
       },
       "zh-CN": {
-        "headline": "REA 从重建展示走向可验证成果,硬件互通成为主战场",
-        "summary": "本周 REA 星数由 45 万升至 46.4 万,每天稳定新增 1,800–3,000 颗。案例从 Genius 键盘、Discord 桌面版,扩及蓝牙门锁、驱动与 Logitech G HUB,重心由应用复制逐步转向硬件互通。验证是最常出现的主题(5 天):有附 SHA-256 证据与单元测试的完整案例,也有独立审计指出 REA 在中小型程序上未见准确度提升,BLA 的反逆向宣称也只有部分成立。同时生态持续扩张(插件、Nix 打包、arm64 移植),并出现 BLADE、REAegis 等专门对抗 AI 逆向的防御工具,而 27 个 Agent 在 18 天重建 10 款付费 App 的自述则显示客户端代码的护城河正在消失。",
-        "watch": "接下来可留意 27 Agent 重建付费 App 的说法是否有人独立复现,以及防御工具与审计报告是否出现更多实测数据。机会在于附证据、可验证的硬件协议工具(如 Linux/macOS 版外设配置软件),以及能降低 token 与工具数量的插件;另外,本周最后一天开始有人提到模型拒绝执行逆向而改用本地或越狱模型,值得持续观察是否成为趋势。"
+        "headline": "REA 从展示走向验证，并由应用复制延伸到硬件互通",
+        "summary": "本周 REA 星数从 45 万一路升至 46.4 万，每天约增 2000 至 3000。早期内容以插件与封装为主，多数没有公开逆向成果。中段开始出现可验证的案例，如附 SHA-256 证据的 Discord 重建，以及独立审计：20 个程序测试未见准确度提升，东方重建也坦承仍有一个函数未通过验证。验证信号本周出现 5 天，是最稳定的主线。对象也从应用扩及蓝牙、驱动与 HID 协议，如 Logitech G HUB 的 macOS 替代品、DareU 的 Linux 控制程序。另一方面，BLADE、BLA、REAegis 等针对 AI 逆向的防御工具同步出现。",
+        "watch": "可优先做有公开 repo、测试与证据记录的硬件协议逆向，例如键盘、鼠标、手柄的 Linux 与 macOS 替代工具，这类成果最容易被验证。“27 个 Agent 重建 10 款付费 App，一致度 97%”与“400 个函数 1.8 美元”目前都是作者自述，待独立验证前不宜当成事实。模型拒绝使用 REA 的说法也缺乏证据，可留意是否有人提供可复现的记录。"
       }
     },
     "rising": [
@@ -66165,7 +66175,7 @@
       "D"
     ],
     "fading": [
-      "G"
+      "E"
     ],
     "tally": {
       "A": 3,

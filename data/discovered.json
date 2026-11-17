@@ -2,6 +2,51 @@
   "updated": "2026-11-17",
   "items": [
     {
+      "url": "https://dev.to/julian_cardozo_dev/ingenieria-inversa-con-agentes-de-chordify-a-chordlocal-con-rea-1ki",
+      "title": "Ingeniería inversa con agentes: de Chordify a ChordLocal con REA - DEV Community",
+      "author": "Julián Cardozo",
+      "date": "2026-11-17",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "es",
+      "found": "2026-11-17",
+      "relevant": true,
+      "title_zh": "用 REA 研究 Chordify 並建構本機免費版 ChordLocal",
+      "summary": "文章介紹 REA 並用它透過 CDP 分析 Chordify 網站，以驗證付費功能多為對既有分析結果的簡單轉換（如移調）。作者據此建構本機版 ChordLocal，第一輪以公開資訊整理功能矩陣，節錄中尚未看到完整的實測結果。",
+      "target": "Chordify（和弦辨識網站）與 ChordLocal",
+      "metric": "提出假設：多數付費功能是對分析結果的簡單轉換",
+      "category": "Web / JS",
+      "status": "shipped",
+      "wow": 3,
+      "scored": "2026-11-17",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/QuixiAI/status/2122533076425134343",
+      "title": "REA'ing @nvidia's V100 drivers, reimplementing in Rust, MIT.  Why does anyone even bother with close-sourcing stuff anymore?  @morluto",
+      "author": "@QuixiAI",
+      "date": "2026-11-17",
+      "source": "X",
+      "kind": "貼文",
+      "score": 18,
+      "pop": {
+        "likes": 18,
+        "views": 640
+      },
+      "lang": "en",
+      "found": "2026-11-17",
+      "relevant": true,
+      "title_zh": "用 REA 分析 NVIDIA V100 驅動並以 Rust 重新實作（MIT）",
+      "summary": "作者宣稱用 REA 逆向 NVIDIA V100 驅動，並以 Rust 重新實作後採 MIT 授權釋出。推文未附 repo、測試或證據，成果範圍無法從內容驗證。",
+      "target": "NVIDIA V100 驅動",
+      "metric": "Rust 重寫並以 MIT 授權（作者自述）",
+      "category": "韌體 / 硬體",
+      "status": "reported",
+      "wow": 3,
+      "scored": "2026-11-17",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/nicolasalbani/rea-logitech-ghub",
       "title": "nicolasalbani/rea-logitech-ghub: Local-only macOS replacement for Logitech G HUB device management (G560 speakers, C922 webcam), reverse-engineered with REA",
       "author": "nicolasalbani",
@@ -425,6 +470,56 @@
       "scored_by": "jev"
     },
     {
+      "url": "https://x.com/EdhiAitheEnti/status/2122331515686432924",
+      "title": "i used REA skills to find the prompt of the picture generated using AI   cc @datapelter garu ..",
+      "author": "@EdhiAitheEnti",
+      "date": "2026-11-16",
+      "source": "X",
+      "kind": "貼文",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 214
+      },
+      "lang": "en",
+      "found": "2026-11-17",
+      "relevant": true,
+      "title_zh": "自稱用 REA skills 反推 AI 生成圖片的提示詞",
+      "summary": "作者在推文中表示使用 REA skills 找出一張 AI 生成圖片的 prompt。內容僅有一句話，沒有說明做法、過程或結果證據。",
+      "target": "AI 生成圖片的提示詞",
+      "metric": "僅作者自述，無具體成果",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-11-17",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/alik_im/status/2122326607360655528",
+      "title": "Fulfilled a childhood dream this week: reverse-engineered Worms 2 into a real-time live-action game using REA and Claude Code. Added online ",
+      "author": "@alik_im",
+      "date": "2026-11-16",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 33
+      },
+      "lang": "en",
+      "found": "2026-11-17",
+      "relevant": true,
+      "title_zh": "用 REA 與 Claude Code 把 Worms 2 逆向重建為即時遊戲並加入線上對戰",
+      "summary": "作者以 REA 搭配 Claude Code 逆向 Worms 2，重建成即時遊戲，並加入線上多人模式，實際與兄弟連線遊玩。內容為作者自述，未提供 repo 或測試證據，但成果為可玩的完整重建。",
+      "target": "Worms 2（遊戲）",
+      "metric": "可玩的重建版並支援線上對戰",
+      "category": "Native / 遊戲",
+      "status": "reported",
+      "wow": 4,
+      "scored": "2026-11-17",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/Ruban-Edward/habla-language-app",
       "title": "Ruban-Edward/habla-language-app: Interactive language-learning app, with progress tracking and Supabase sync. Built with support from the REA reverse-engineering MCP project.",
       "author": "Ruban-Edward",
@@ -442,13 +537,25 @@
       "scored_by": "jev"
     },
     {
-      "url": "https://x.com/0xDeniAi/status/2122019260931183021",
-      "title": "test subject: my Samsung TV. ads on the home screen, and ACR tracking that reports what's on screen. what Claude did onc",
-      "source": "X",
+      "url": "https://github.com/aphrody-labs/r2b",
+      "title": "aphrody-labs/r2b: rea to build: REA reverse-engineering CLI/MCP server merged with the Replica app-cloning skills.",
+      "author": "aphrody-labs",
+      "date": "2026-11-12",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
       "found": "2026-11-17",
-      "relevant": false,
+      "relevant": true,
+      "title_zh": "將 REA 逆向 CLI/MCP 與 Replica 應用複製技能合併的 r2b 專案",
+      "summary": "aphrody-labs 的 r2b repo 描述為把 REA 逆向工程 CLI/MCP 伺服器與 Replica 應用複製技能整合。README 仍是範本內容（一句話說明、安裝、授權），沒有實際使用範例或成果。",
+      "target": "REA 與 Replica 技能整合的工具鏈",
+      "metric": "README 僅為範本，無實際成果",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
       "scored": "2026-11-17",
-      "scored_by": "jev"
+      "scored_by": "sonnet"
     },
     {
       "url": "https://reamcp.dev/zh-cn/cases/you-can-now-ask-your-coding-agent-how-almost-any-app-works-a-9ee265",
@@ -490,6 +597,15 @@
       "wow": 3,
       "scored": "2026-11-17",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/0xDeniAi/status/2122019260931183021",
+      "title": "test subject: my Samsung TV. ads on the home screen, and ACR tracking that reports what's on screen. what Claude did onc",
+      "source": "X",
+      "found": "2026-11-17",
+      "relevant": false,
+      "scored": "2026-11-17",
+      "scored_by": "jev"
     },
     {
       "url": "https://youtu.be/4oYWe3K76rs",
@@ -568,6 +684,23 @@
       "wow": 1,
       "scored": "2026-11-17",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://youtu.be/WIdi35clSxw",
+      "title": "ИИ теперь разбирает ЛЮБУЮ программу? Проверил REA сам",
+      "author": "Александр Логвиненко | нейросети | граф дизайн",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 439,
+      "lang": "ru",
+      "found": "2026-11-17",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-17",
+      "scored_by": "jev"
     },
     {
       "url": "https://bsky.app/profile/oludai.bsky.social/post/3n2f7v5gtps25",
@@ -54073,6 +54206,35 @@
   "runs": [
     {
       "date": "2026-11-17",
+      "added": 6,
+      "stats": {
+        "githubShowAndTell": 19,
+        "githubRepos": 239,
+        "githubCode": 44,
+        "hackerNews": 33,
+        "qiita": 51,
+        "devto": 150,
+        "juejin": 4,
+        "reddit": 20,
+        "v2ex": 16,
+        "youtube": 90,
+        "bluesky": 163,
+        "mastodon": 160,
+        "exaWeb": 60,
+        "x": 15
+      },
+      "scoring": {
+        "scored": 5,
+        "jev": {
+          "low": 1,
+          "irrelevant": 0,
+          "errors": 0,
+          "toClaude": 5
+        }
+      }
+    },
+    {
+      "date": "2026-11-17",
       "added": 27,
       "stats": {
         "githubShowAndTell": 19,
@@ -54911,36 +55073,7 @@
           "toClaude": 7
         }
       }
-    },
-    {
-      "date": "2026-11-02",
-      "added": 37,
-      "stats": {
-        "githubShowAndTell": 14,
-        "githubRepos": 243,
-        "githubCode": 46,
-        "hackerNews": 20,
-        "qiita": 45,
-        "devto": 150,
-        "juejin": 3,
-        "reddit": 20,
-        "v2ex": 13,
-        "youtube": 90,
-        "bluesky": 162,
-        "mastodon": 160,
-        "exaWeb": 56,
-        "x": 22
-      },
-      "scoring": {
-        "scored": 25,
-        "jev": {
-          "low": 7,
-          "irrelevant": 5,
-          "errors": 0,
-          "toClaude": 25
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-17T00:33:11.034Z"
+  "updatedAt": "2026-11-17T04:41:49.695Z"
 }

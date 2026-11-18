@@ -21763,5 +21763,50 @@
       "target": "整合 REA 与 Replica 技能的工具链",
       "metric": "README 仅为模板,无实际成果"
     }
+  },
+  "d-371c24defa": {
+    "hash": "a8c790394d2a",
+    "en": {
+      "title": "Learning REA? Here’s a practical roadmap—with linked resources, real investigations, and the fundamentals alongside it : r/SATNA_PROJECT",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "Learning REA? Here’s a practical roadmap—with linked resources, real investigations, and the fundamentals alongside it : r/SATNA_PROJECT",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-8f90b54523": {
+    "hash": "18ac0305156f",
+    "en": {
+      "title": "Reverse Engineering Anything using small open models",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "Reverse Engineering Anything using small open models",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-183b081f66": {
+    "hash": "d0c143e88e58",
+    "en": {
+      "title": "bx2o/rea: Reverse Engineer Anything",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "bx2o/rea: Reverse Engineer Anything",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
   }
 }

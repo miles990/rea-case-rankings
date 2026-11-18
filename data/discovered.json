@@ -1,6 +1,331 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "items": [
+    {
+      "url": "https://bsky.app/profile/openpicking.bsky.social/post/3n2kcmpnu6t2t",
+      "title": "📈 Day 4 at the top: morluto/rea, +2,178 stars in 24h.",
+      "author": "openpicking.bsky.social",
+      "date": "2026-11-18",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-18",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-18",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/huanyukechuang/REA-Studio",
+      "title": "huanyukechuang/REA-Studio: 一款本地逆向分析与恶意样本研判工具 ©科创云玄武安全实验室",
+      "author": "huanyukechuang",
+      "date": "2026-11-17",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 1,
+      "lang": "zh",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://github.com/bearstone31/yacht-dice-rea",
+      "title": "bearstone31/yacht-dice-rea: Yacht dice web game reconstructed by reverse-engineering the original with REA — local & online multiplayer, AI, settings, friends",
+      "author": "bearstone31",
+      "date": "2026-11-17",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://github.com/TeagleTheEagle/re-toolkit",
+      "title": "TeagleTheEagle/re-toolkit: Programmable reverse-engineering toolkit over the REA engine: classify any artifact, run the right inspections, keep the evidence, write the report",
+      "author": "TeagleTheEagle",
+      "date": "2026-11-17",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://github.com/liky4887-stack/appsplicer-studio",
+      "title": "liky4887-stack/appsplicer-studio: MCP orchestrator UI for REA APK reverse-engineering and Craft Anything code generation",
+      "author": "liky4887-stack",
+      "date": "2026-11-17",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://github.com/wangjianjq/magpie-rea-updater",
+      "title": "wangjianjq/magpie-rea-updater: Magpie plugin: keeps the global npm package rea-agents up to date",
+      "author": "wangjianjq",
+      "date": "2026-11-17",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://github.com/untoco/nbt_evo",
+      "title": "untoco/nbt_evo: NBT Evo native application tooling, QNX builds, Ghidra/REA and evidence-based HU research",
+      "author": "untoco",
+      "date": "2026-11-17",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://github.com/ajainvivek/rea-sec",
+      "title": "ajainvivek/rea-sec: REA-Sec: Reverse Engineer Any Breach. Agent skill that turns breach notices, CVE patches and phishin",
+      "source": "GitHub",
+      "found": "2026-11-18",
+      "relevant": false,
+      "scored": "2026-11-18",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/ArafatAhmedMubinOfficial/SimpleRun",
+      "title": "ArafatAhmedMubinOfficial/SimpleRun",
+      "author": "ArafatAhmedMubinOfficial",
+      "date": "2026-11-17",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "pop": {
+        "stars": 0
+      },
+      "needsRepoKind": true,
+      "evidence": "Files that mention REA: package.json",
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://bsky.app/profile/openpicking.bsky.social/post/3n2ik3jfn5c2q",
+      "title": "📈 Day 3 at the top: morluto/rea, +2,179 stars in 24h.",
+      "author": "openpicking.bsky.social",
+      "date": "2026-11-17",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 1,
+      "lang": "en",
+      "found": "2026-11-18",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "scored": "2026-11-18",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/nicobm/rea-guide",
+      "title": "nicobm/rea-guide: Ghidra + MCP en Fedora Silverblue: REA por HTTP con OpenCode, sin permisos de host",
+      "author": "nicobm",
+      "date": "2026-11-16",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://github.com/maxmonice/MXM-Penetrator",
+      "title": "maxmonice/MXM-Penetrator: CLI-first AI-powered security assessment platform with intelligent local/cloud model routing, modular testing, REA integration via MCP, strict target controls, evidence-driven findings, and automated reporting.",
+      "author": "maxmonice",
+      "date": "2026-11-15",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 1,
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://worksonmybench.dev/writeups/reverse-engineering-a-unity-game-with-rea/",
+      "title": "Reverse Engineering a Unity Game's Formulas With REA, Then Testing Against Them · Works On My Bench",
+      "author": "worksonmybench.dev",
+      "date": "2026-11-05",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://github.com/Lianhahaha/Decompiler-KIT",
+      "title": "Lianhahaha/Decompiler-KIT: Self-installing decompiler / reverse-engineering / modding toolkit: 71 tools pinned by version and sha256 in one manifest, fetched on demand. Also vendors the REA ('dissectdat') source.",
+      "author": "Lianhahaha",
+      "date": "2026-10-30",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1xjh09z/an_exclusive_conversation_with_the_developer_of/",
+      "title": "An exclusive conversation with the developer of REA, the viral AI reverse engineering tool : r/ArtificialInteligence",
+      "author": "scientificamerican",
+      "date": "2026-10-30",
+      "source": "Reddit r/ArtificialInteligence",
+      "kind": "討論",
+      "score": 5,
+      "pop": {
+        "upvotes": 5,
+        "comments": 0
+      },
+      "lang": "en",
+      "found": "2026-11-18",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-18",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://www.reddit.com/r/SATNA_PROJECT/comments/1xg7vvw/learning_rea_heres_a_practical_roadmapwith_linked/",
+      "title": "Learning REA? Here’s a practical roadmap—with linked resources, real investigations, and the fundamentals alongside it : r/SATNA_PROJECT",
+      "author": "ZookeepergameMost817",
+      "date": "2026-10-26",
+      "source": "Reddit r/SATNA_PROJECT",
+      "kind": "討論",
+      "score": 0,
+      "pop": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://huggingface.co/blog/ybelkada/reverse-engineering-anything-with-small-local-mode",
+      "title": "Reverse Engineering Anything using small open models",
+      "author": "huggingface.co",
+      "date": "2026-10-26",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://www.reddit.com/r/aicuriosity/comments/1x92u8s/reverse_engineering_anything_rea_agents_67_rolls/",
+      "title": "Reverse Engineering Anything (REA) Agents 6.7 Rolls Out with Big Stability Fixes : r/aicuriosity",
+      "author": "techspecsmart",
+      "date": "2026-10-18",
+      "source": "Reddit r/aicuriosity",
+      "kind": "討論",
+      "score": 39,
+      "pop": {
+        "upvotes": 39,
+        "comments": 2
+      },
+      "lang": "en",
+      "found": "2026-11-18",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "scored": "2026-11-18",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/bx2o/rea",
+      "title": "bx2o/rea: Reverse Engineer Anything",
+      "author": "bx2o",
+      "date": "2026-10-16",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://www.reddit.com/r/OpenSourceAI/comments/1x6liz6/i_made_an_opensource_companion_for_rea_that_turns/",
+      "title": "I made an open-source companion for REA that turns reverse-engineering findings into a build plan : r/OpenSourceAI",
+      "author": "Electrical_Worth7942",
+      "date": "2026-10-15",
+      "source": "Reddit r/OpenSourceAI",
+      "kind": "討論",
+      "score": 20,
+      "pop": {
+        "upvotes": 20,
+        "comments": 5
+      },
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://github.com/funkeyyou/rea-light-mcp",
+      "title": "funkeyyou/rea-light-mcp: Lightweight stateful REA MCP for Codex: on-demand schemas, paged Evidence, and Windows/macOS/Linux installers",
+      "author": "funkeyyou",
+      "date": "2026-10-13",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 1,
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://github.com/bbylw/rea-cn",
+      "title": "bbylw/rea-cn: REA：逆向一切 通过一个 MCP 服务，逆向分析二进制文件、应用程序和运行时行为。 看到喜欢的功能，弄清它的工作原理，深入到二进制层面。",
+      "author": "bbylw",
+      "date": "2026-10-11",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 941,
+      "lang": "zh",
+      "found": "2026-11-18",
+      "relevant": true,
+      "wow": 1,
+      "category": "工具鏈",
+      "status": "shipped",
+      "scored": "2026-11-18",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1x23sld/resurrecting_freeware_from_2000_with_claude_code/",
+      "title": "Resurrecting freeware from 2000 with Claude Code and REA : r/ClaudeCode",
+      "author": "Ucodia",
+      "date": "2026-10-10",
+      "source": "Reddit r/ClaudeCode",
+      "kind": "討論",
+      "score": 138,
+      "pop": {
+        "upvotes": 138,
+        "comments": 16
+      },
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://youtu.be/aN-65z6bvKk",
+      "title": "Everyone’s Letting AI Hack Their TVs… So I Tried It",
+      "author": "RelfWolf",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 620398,
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://reverseengineeringanything.com/guides/commands/",
+      "title": "CLI command reference — Reverse Engineering Anything Guide",
+      "author": "Reverse Engineering Anything",
+      "date": null,
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-11-18"
+    },
     {
       "url": "https://dev.to/julian_cardozo_dev/ingenieria-inversa-con-agentes-de-chordify-a-chordlocal-con-rea-1ki",
       "title": "Ingeniería inversa con agentes: de Chordify a ChordLocal con REA - DEV Community",
@@ -54205,6 +54530,36 @@
   ],
   "runs": [
     {
+      "date": "2026-11-18",
+      "added": 25,
+      "stats": {
+        "githubShowAndTell": 18,
+        "githubRepos": 239,
+        "githubCode": 44,
+        "hackerNews": 34,
+        "qiita": 51,
+        "devto": 150,
+        "juejin": 2,
+        "reddit": 15,
+        "v2ex": 16,
+        "youtube": 75,
+        "bluesky": 163,
+        "mastodon": 160,
+        "exaWeb": 30,
+        "x": "error: Command failed: grok -p Search X for posts from the last 7 days where people sho"
+      },
+      "scoring": {
+        "scored": 0,
+        "jev": {
+          "low": 5,
+          "irrelevant": 1,
+          "errors": 0,
+          "toClaude": 19
+        },
+        "error": "claude CLI unavailable; remaining items stay unscored"
+      }
+    },
+    {
       "date": "2026-11-17",
       "added": 6,
       "stats": {
@@ -55044,36 +55399,7 @@
           "toClaude": 33
         }
       }
-    },
-    {
-      "date": "2026-11-02",
-      "added": 9,
-      "stats": {
-        "githubShowAndTell": 14,
-        "githubRepos": 238,
-        "githubCode": 46,
-        "hackerNews": 20,
-        "qiita": 45,
-        "devto": 150,
-        "juejin": 0,
-        "reddit": 20,
-        "v2ex": 13,
-        "youtube": 90,
-        "bluesky": 162,
-        "mastodon": 160,
-        "exaWeb": 57,
-        "x": 14
-      },
-      "scoring": {
-        "scored": 7,
-        "jev": {
-          "low": 2,
-          "irrelevant": 0,
-          "errors": 0,
-          "toClaude": 7
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-17T04:41:49.695Z"
+  "updatedAt": "2026-11-18T00:51:43.387Z"
 }

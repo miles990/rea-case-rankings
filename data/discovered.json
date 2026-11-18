@@ -85,15 +85,6 @@
       "found": "2026-11-18"
     },
     {
-      "url": "https://github.com/ajainvivek/rea-sec",
-      "title": "ajainvivek/rea-sec: REA-Sec: Reverse Engineer Any Breach. Agent skill that turns breach notices, CVE patches and phishin",
-      "source": "GitHub",
-      "found": "2026-11-18",
-      "relevant": false,
-      "scored": "2026-11-18",
-      "scored_by": "jev"
-    },
-    {
       "url": "https://github.com/ArafatAhmedMubinOfficial/SimpleRun",
       "title": "ArafatAhmedMubinOfficial/SimpleRun",
       "author": "ArafatAhmedMubinOfficial",
@@ -127,6 +118,162 @@
       "scored_by": "jev"
     },
     {
+      "url": "https://x.com/yoni_blend/status/2122796497712353742",
+      "title": "Tried something wild today. I took an Android app apart with REA, added new functionality, and rebuilt it. Without the original source code.",
+      "author": "@yoni_blend",
+      "date": "2026-11-17",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 37
+      },
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://x.com/yoni_blend/status/2122796502112432573",
+      "title": "So I gave Mike a public transport APK. We used REA to inspect it and find the functions behind route planning and bus arrivals. Then we adde",
+      "author": "@yoni_blend",
+      "date": "2026-11-17",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 35
+      },
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://x.com/yoni_blend/status/2122796504473841970",
+      "title": "It worked. I can ask Mike to find routes, check bus arrivals, and open a chosen route in the app. I started with an APK and ended with a wor",
+      "author": "@yoni_blend",
+      "date": "2026-11-17",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 38
+      },
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://x.com/Bitcoineo/status/2122715615186284582",
+      "title": "Used REA repo by @morluto to build my own local versions of: • Remove Background • Flux • Xnapper • Scroll Reverser and plenty of Chrome ext",
+      "author": "@Bitcoineo",
+      "date": "2026-11-17",
+      "source": "X",
+      "kind": "貼文",
+      "score": 5,
+      "pop": {
+        "likes": 5,
+        "views": 874
+      },
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://x.com/Bitcoineo/status/2122730582807577030",
+      "title": "Usually use REA to build my own version of existing tools or to debug a feature I struggle to implement. But you might be right, latest mode",
+      "author": "@Bitcoineo",
+      "date": "2026-11-17",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 49
+      },
+      "lang": "en",
+      "found": "2026-11-18",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-18",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/ScientificBrad/status/2122805913488945220",
+      "title": "Amiga is still glitchy.. but WOW! #REA tore apart the Game Boy boot ROM, byte for byte. Now TETRIS (1989) is running on my own REGameBoy emu",
+      "author": "@ScientificBrad",
+      "date": "2026-11-17",
+      "source": "X",
+      "kind": "貼文",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 118
+      },
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://x.com/ScientificBrad/status/2122781974637269212",
+      "title": "Lemmings (1991) intro on #REAmiga v0.8.2, my own Amiga emulator! MC68000 execution, OCS bitplanes, Copper updates and DM",
+      "source": "X",
+      "found": "2026-11-18",
+      "relevant": false,
+      "scored": "2026-11-18",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/echoplexone/status/2122729776632795398",
+      "title": "I paid for a reMarkable Paper Pro Move. GLM, running locally, using REA has figured out how to hook into their cloud \"convert to text\" featu",
+      "author": "@echoplexone",
+      "date": "2026-11-17",
+      "source": "X",
+      "kind": "貼文",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 64
+      },
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://x.com/OxEnsooo/status/2122639737148051778",
+      "title": "You don’t need to read assembly to reverse engineer your own devices anymore. But there’s one check you can’t skip. Without it, Claude will ",
+      "author": "@OxEnsooo",
+      "date": "2026-11-17",
+      "source": "X",
+      "kind": "貼文",
+      "score": 8,
+      "pop": {
+        "likes": 8,
+        "views": 1301
+      },
+      "lang": "en",
+      "found": "2026-11-18",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-11-18",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/0xca0a/status/2122734629820027268",
+      "title": "i kinda want to get away from home assistant. i want agents instead. i made kevin for the house one for bills one for root shell hacking and",
+      "author": "@0xca0a",
+      "date": "2026-11-17",
+      "source": "X",
+      "kind": "貼文",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 66
+      },
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
       "url": "https://github.com/nicobm/rea-guide",
       "title": "nicobm/rea-guide: Ghidra + MCP en Fedora Silverblue: REA por HTTP con OpenCode, sin permisos de host",
       "author": "nicobm",
@@ -138,6 +285,51 @@
       "found": "2026-11-18"
     },
     {
+      "url": "https://x.com/ScientificBrad/status/2122311752045981813",
+      "title": "Rebuilding a Amiga 500 from the CPU / ROM level is no easy task. Hundreds of millions of AI tokens later, my MC68000 core is executing Kicks",
+      "author": "@ScientificBrad",
+      "date": "2026-11-16",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 30
+      },
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://x.com/ScientificBrad/status/2122380001219596539",
+      "title": "#rea Milestone unlocked! REAmiga v0.7.0, Amiga 500 emulator, now boots Keir Fraser's Amiga Test Kit 1.21 from an ADF! MC68000, Kickstart 1.3",
+      "author": "@ScientificBrad",
+      "date": "2026-11-16",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 48
+      },
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://x.com/ScientificBrad/status/2122356903376457971",
+      "title": "#REAmiga #MC68000 execution, CIA keyboard IRQs, MFM disk DMA, Copper lists, blitter and Paula PCM working together. #PinballDreams loads fro",
+      "author": "@ScientificBrad",
+      "date": "2026-11-16",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 38
+      },
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
       "url": "https://github.com/maxmonice/MXM-Penetrator",
       "title": "maxmonice/MXM-Penetrator: CLI-first AI-powered security assessment platform with intelligent local/cloud model routing, modular testing, REA integration via MCP, strict target controls, evidence-driven findings, and automated reporting.",
       "author": "maxmonice",
@@ -145,6 +337,51 @@
       "source": "GitHub",
       "kind": "專案",
       "score": 1,
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://x.com/ScientificBrad/status/2121287549125804240",
+      "title": "#REA is cooking again... it got the Motorola MC68000 manual, checked it, then built the first CPU slice. 0 warnings, 0 errors. Verification ",
+      "author": "@ScientificBrad",
+      "date": "2026-11-13",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 40
+      },
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://x.com/ScientificBrad/status/2121350971171459450",
+      "title": "Update on #Amiga emulator: Kickstart 1.3 now runs 262,151 instructions / 2,359,362 CPU clocks before stopping honestly at F00000 - the cartr",
+      "author": "@ScientificBrad",
+      "date": "2026-11-13",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 49
+      },
+      "lang": "en",
+      "found": "2026-11-18"
+    },
+    {
+      "url": "https://x.com/ScientificBrad/status/2120621924598374770",
+      "title": "AI + a 40-year-old Acorn ROM + a service manual I didn't know I'd downloaded = chaos Bringing the 6502 Second Processor back to life. Check ",
+      "author": "@ScientificBrad",
+      "date": "2026-11-11",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 49
+      },
       "lang": "en",
       "found": "2026-11-18"
     },
@@ -203,7 +440,13 @@
         "comments": 0
       },
       "lang": "en",
-      "found": "2026-11-18"
+      "found": "2026-11-18",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-11-18",
+      "scored_by": "jev"
     },
     {
       "url": "https://huggingface.co/blog/ybelkada/reverse-engineering-anything-with-small-local-mode",
@@ -212,6 +455,23 @@
       "date": "2026-10-26",
       "source": "Web",
       "kind": "文章",
+      "lang": "en",
+      "found": "2026-11-18",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-18",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/kirkchinese/dsh-capability-catalog",
+      "title": "kirkchinese/dsh-capability-catalog: Lazy capability catalog for DeepSeek Harness: hundreds of MCP tools and skills behind one compact index, with per-session switches. −96.6% first-request tokens with REA.",
+      "author": "kirkchinese",
+      "date": "2026-10-23",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 5,
       "lang": "en",
       "found": "2026-11-18"
     },
@@ -303,7 +563,22 @@
         "comments": 16
       },
       "lang": "en",
-      "found": "2026-11-18"
+      "found": "2026-11-18",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-18",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/ajainvivek/rea-sec",
+      "title": "ajainvivek/rea-sec: REA-Sec: Reverse Engineer Any Breach. Agent skill that turns breach notices, CVE patches and phishin",
+      "source": "GitHub",
+      "found": "2026-11-18",
+      "relevant": false,
+      "scored": "2026-11-18",
+      "scored_by": "jev"
     },
     {
       "url": "https://youtu.be/aN-65z6bvKk",
@@ -314,7 +589,13 @@
       "kind": "影片",
       "score": 620398,
       "lang": "en",
-      "found": "2026-11-18"
+      "found": "2026-11-18",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-18",
+      "scored_by": "jev"
     },
     {
       "url": "https://reverseengineeringanything.com/guides/commands/",
@@ -325,6 +606,22 @@
       "kind": "文章",
       "lang": "en",
       "found": "2026-11-18"
+    },
+    {
+      "url": "https://youtu.be/8CtO_1eKMRM",
+      "title": "How To Recreate Any Game Using GitHub REA + Antigravity AI",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": null,
+      "lang": "en",
+      "found": "2026-11-18",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-11-18",
+      "scored_by": "jev"
     },
     {
       "url": "https://dev.to/julian_cardozo_dev/ingenieria-inversa-con-agentes-de-chordify-a-chordlocal-con-rea-1ki",
@@ -54531,6 +54828,37 @@
   "runs": [
     {
       "date": "2026-11-18",
+      "added": 18,
+      "stats": {
+        "githubShowAndTell": 18,
+        "githubRepos": 242,
+        "githubCode": 44,
+        "hackerNews": 30,
+        "qiita": 51,
+        "devto": 150,
+        "juejin": 2,
+        "reddit": 20,
+        "v2ex": 16,
+        "youtube": 90,
+        "bluesky": 163,
+        "mastodon": 160,
+        "exaWeb": 60,
+        "x": 23
+      },
+      "scoring": {
+        "scored": 0,
+        "jev": {
+          "low": 7,
+          "irrelevant": 1,
+          "errors": 0,
+          "toClaude": 29
+        },
+        "failed": 29,
+        "error": "Command failed: claude -p --output-format json --max-turns 1 --tools  --no-session-persistence --model sonnet\n"
+      }
+    },
+    {
+      "date": "2026-11-18",
       "added": 25,
       "stats": {
         "githubShowAndTell": 18,
@@ -55370,36 +55698,7 @@
           "toClaude": 12
         }
       }
-    },
-    {
-      "date": "2026-11-03",
-      "added": 44,
-      "stats": {
-        "githubShowAndTell": 14,
-        "githubRepos": 236,
-        "githubCode": 46,
-        "hackerNews": 23,
-        "qiita": 47,
-        "devto": 150,
-        "juejin": 5,
-        "reddit": 20,
-        "v2ex": 13,
-        "youtube": 90,
-        "bluesky": 162,
-        "mastodon": 160,
-        "exaWeb": 58,
-        "x": 26
-      },
-      "scoring": {
-        "scored": 33,
-        "jev": {
-          "low": 8,
-          "irrelevant": 3,
-          "errors": 0,
-          "toClaude": 33
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-18T00:51:43.387Z"
+  "updatedAt": "2026-11-18T04:39:12.713Z"
 }

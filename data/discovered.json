@@ -2,15 +2,6 @@
   "updated": "2026-11-19",
   "items": [
     {
-      "url": "https://github.com/emrpg/gta6-oot-rea-reverse-engineering",
-      "title": "emrpg/gta6-oot-rea-reverse-engineering: GTA 6 / GTA Series & Zelda: Ocarina of Time Open/Closed-Source Reverse Engineeri",
-      "source": "GitHub",
-      "found": "2026-11-19",
-      "relevant": false,
-      "scored": "2026-11-19",
-      "scored_by": "sonnet"
-    },
-    {
       "url": "https://github.com/arafay4573/Vibe-Swift",
       "title": "arafay4573/Vibe-Swift: An AI-driven reverse-engineering and cloning engine that ingests target websites/apps via morluto/rea, extracts their structural blueprints, and rebuilds them as customized Next.js & Tailwind applications.",
       "author": "arafay4573",
@@ -196,15 +187,6 @@
       "scored_by": "jev"
     },
     {
-      "url": "https://bsky.app/profile/afrath.bsky.social/post/3n2kvfmx4z22x",
-      "title": "Reverse Engineer Anything!",
-      "source": "Bluesky",
-      "found": "2026-11-19",
-      "relevant": false,
-      "scored": "2026-11-19",
-      "scored_by": "jev"
-    },
-    {
       "url": "https://bsky.app/profile/oludai.bsky.social/post/3n2mklb3heh2p",
       "title": "Morluto/rea just jumped 6,449 stars in a day to 466.2k total — the fastest riser in open-source AI for reverse engineering anything, from ap",
       "author": "oludai.bsky.social",
@@ -220,33 +202,6 @@
       "status": "reported",
       "scored": "2026-11-19",
       "scored_by": "jev"
-    },
-    {
-      "url": "https://x.com/maxescu/status/2123185527008751765",
-      "title": "I was curious about REA-video (Reverse Engineer Anything) So I tried it.  I got the latest Brad Pitt film trailer, fed i",
-      "source": "X",
-      "found": "2026-11-19",
-      "relevant": false,
-      "scored": "2026-11-19",
-      "scored_by": "sonnet"
-    },
-    {
-      "url": "https://x.com/curiousjar/status/2123049783774396781",
-      "title": "reverse-engineered a youtube short style with the rea-video skill. then applied it to my own talking-head video.   steps",
-      "source": "X",
-      "found": "2026-11-19",
-      "relevant": false,
-      "scored": "2026-11-19",
-      "scored_by": "sonnet"
-    },
-    {
-      "url": "https://x.com/yao_june12106/status/2123035245578768558",
-      "title": "用rea-video拆解+复刻，电商带货效果来啦",
-      "source": "X",
-      "found": "2026-11-19",
-      "relevant": false,
-      "scored": "2026-11-19",
-      "scored_by": "sonnet"
     },
     {
       "url": "https://x.com/Jo3Alt/status/2122917268552364238",
@@ -299,24 +254,6 @@
       "scored_by": "sonnet"
     },
     {
-      "url": "https://x.com/MatinSenPai/status/2123025717675889141",
-      "title": "ساخت ویدئو با Claude Fable 5.2 و Higgsfield mcp   تماشا در یوتوب: https://www.youtube.com/watch?v=YcDSDSrxaH4&feature=yo",
-      "source": "X",
-      "found": "2026-11-19",
-      "relevant": false,
-      "scored": "2026-11-19",
-      "scored_by": "sonnet"
-    },
-    {
-      "url": "https://x.com/pamelaaaaa1218/status/2122712213639307740",
-      "title": "有个吃播博主，每次吃东西跟变魔术一样，吃的是怎么到手里的，完全看不出剪辑痕迹，困惑我很久了！  正好刷到一个Github开源项目「rea-video」，现在 ★1万+，号称能逆向拆解任何视频，甚至直接给出复刻方案。  哪些是实拍、哪些是AI",
-      "source": "X",
-      "found": "2026-11-19",
-      "relevant": false,
-      "scored": "2026-11-19",
-      "scored_by": "sonnet"
-    },
-    {
       "url": "https://github.com/jujudamara/AUCN.14.2",
       "title": "jujudamara/AUCN.14.2: EN — The AuditionCMD 14.2.1 client running natively against the local V14.2 servers. Reverse engineering was done with Frida, Ghidra 12 and REA. 120 songs from the V21 patches are added and playing in the lobby.  PT ",
       "author": "jujudamara",
@@ -336,15 +273,6 @@
       "wow": 4,
       "scored": "2026-11-19",
       "scored_by": "sonnet"
-    },
-    {
-      "url": "https://x.com/lightcityfran/status/2121956208412373323",
-      "title": "These are my actual hiking clips. I turned them into a cinematic edit with ChatGPT + rea-video + ChatCut. @ChatGPT @yao_",
-      "source": "X",
-      "found": "2026-11-19",
-      "relevant": false,
-      "scored": "2026-11-19",
-      "scored_by": "jev"
     },
     {
       "url": "https://x.com/PixelRainbowNFT/status/2121830742787584491",
@@ -393,6 +321,22 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://news.sulat.com/2026/11/10/rea-reverse-engineer-anything-coding-agents-community-builds/",
+      "title": "What REA is and what people are building with it - Sulat AI & Tech News",
+      "author": "JP Caparas",
+      "date": "2026-11-10",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-11-19",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-19",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://github.com/PandaBoby/dsh-rea",
       "title": "PandaBoby/dsh-rea: DeepSeek Harness plugin bundle: REA (Reverse Engineer Anything) MCP tools behind a single Plugins-page switch. Ships no engine — only the connection declaration.",
       "author": "PandaBoby",
@@ -414,6 +358,78 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://github.com/emrpg/gta6-oot-rea-reverse-engineering",
+      "title": "emrpg/gta6-oot-rea-reverse-engineering: GTA 6 / GTA Series & Zelda: Ocarina of Time Open/Closed-Source Reverse Engineeri",
+      "source": "GitHub",
+      "found": "2026-11-19",
+      "relevant": false,
+      "scored": "2026-11-19",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://bsky.app/profile/afrath.bsky.social/post/3n2kvfmx4z22x",
+      "title": "Reverse Engineer Anything!",
+      "source": "Bluesky",
+      "found": "2026-11-19",
+      "relevant": false,
+      "scored": "2026-11-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/maxescu/status/2123185527008751765",
+      "title": "I was curious about REA-video (Reverse Engineer Anything) So I tried it.  I got the latest Brad Pitt film trailer, fed i",
+      "source": "X",
+      "found": "2026-11-19",
+      "relevant": false,
+      "scored": "2026-11-19",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/curiousjar/status/2123049783774396781",
+      "title": "reverse-engineered a youtube short style with the rea-video skill. then applied it to my own talking-head video.   steps",
+      "source": "X",
+      "found": "2026-11-19",
+      "relevant": false,
+      "scored": "2026-11-19",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/yao_june12106/status/2123035245578768558",
+      "title": "用rea-video拆解+复刻，电商带货效果来啦",
+      "source": "X",
+      "found": "2026-11-19",
+      "relevant": false,
+      "scored": "2026-11-19",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/MatinSenPai/status/2123025717675889141",
+      "title": "ساخت ویدئو با Claude Fable 5.2 و Higgsfield mcp   تماشا در یوتوب: https://www.youtube.com/watch?v=YcDSDSrxaH4&feature=yo",
+      "source": "X",
+      "found": "2026-11-19",
+      "relevant": false,
+      "scored": "2026-11-19",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/pamelaaaaa1218/status/2122712213639307740",
+      "title": "有个吃播博主，每次吃东西跟变魔术一样，吃的是怎么到手里的，完全看不出剪辑痕迹，困惑我很久了！  正好刷到一个Github开源项目「rea-video」，现在 ★1万+，号称能逆向拆解任何视频，甚至直接给出复刻方案。  哪些是实拍、哪些是AI",
+      "source": "X",
+      "found": "2026-11-19",
+      "relevant": false,
+      "scored": "2026-11-19",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/lightcityfran/status/2121956208412373323",
+      "title": "These are my actual hiking clips. I turned them into a cinematic edit with ChatGPT + rea-video + ChatCut. @ChatGPT @yao_",
+      "source": "X",
+      "found": "2026-11-19",
+      "relevant": false,
+      "scored": "2026-11-19",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://github.com/AIPMAndy/rea-guide-cn",
       "title": "AIPMAndy/rea-guide-cn",
       "author": "github.com",
@@ -432,6 +448,16 @@
       "wow": 2,
       "scored": "2026-11-19",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://rea.atomgit.com/readme/README_zh.html",
+      "title": "REA：逆向一切 - rea",
+      "author": "rea.atomgit.com",
+      "date": null,
+      "source": "Web",
+      "kind": "文章",
+      "lang": "zh",
+      "found": "2026-11-19"
     },
     {
       "url": "https://bsky.app/profile/openpicking.bsky.social/post/3n2kcmpnu6t2t",
@@ -873,15 +899,6 @@
       "scored_by": "sonnet"
     },
     {
-      "url": "https://x.com/ScientificBrad/status/2122380001219596539",
-      "title": "#rea Milestone unlocked! REAmiga v0.7.0, Amiga 500 emulator, now boots Keir Fraser's Amiga Test Kit 1.21 from an ADF! MC",
-      "source": "X",
-      "found": "2026-11-18",
-      "relevant": false,
-      "scored": "2026-11-19",
-      "scored_by": "jev"
-    },
-    {
       "url": "https://x.com/ScientificBrad/status/2122356903376457971",
       "title": "#REAmiga #MC68000 execution, CIA keyboard IRQs, MFM disk DMA, Copper lists, blitter and Paula PCM working together. #PinballDreams loads fro",
       "author": "@ScientificBrad",
@@ -1144,15 +1161,6 @@
       "scored_by": "jev"
     },
     {
-      "url": "https://github.com/bx2o/rea",
-      "title": "bx2o/rea: Reverse Engineer Anything",
-      "source": "GitHub",
-      "found": "2026-11-18",
-      "relevant": false,
-      "scored": "2026-11-19",
-      "scored_by": "sonnet"
-    },
-    {
       "url": "https://www.reddit.com/r/OpenSourceAI/comments/1x6liz6/i_made_an_opensource_companion_for_rea_that_turns/",
       "title": "I made an open-source companion for REA that turns reverse-engineering findings into a build plan : r/OpenSourceAI",
       "author": "Electrical_Worth7942",
@@ -1235,6 +1243,24 @@
       "status": "reported",
       "scored": "2026-11-18",
       "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/ScientificBrad/status/2122380001219596539",
+      "title": "#rea Milestone unlocked! REAmiga v0.7.0, Amiga 500 emulator, now boots Keir Fraser's Amiga Test Kit 1.21 from an ADF! MC",
+      "source": "X",
+      "found": "2026-11-18",
+      "relevant": false,
+      "scored": "2026-11-19",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/bx2o/rea",
+      "title": "bx2o/rea: Reverse Engineer Anything",
+      "source": "GitHub",
+      "found": "2026-11-18",
+      "relevant": false,
+      "scored": "2026-11-19",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://x.com/ScientificBrad/status/2122781974637269212",
@@ -55512,6 +55538,36 @@
   "runs": [
     {
       "date": "2026-11-19",
+      "added": 2,
+      "stats": {
+        "githubShowAndTell": 18,
+        "githubRepos": 242,
+        "githubCode": 45,
+        "hackerNews": 32,
+        "qiita": 51,
+        "devto": 150,
+        "juejin": 3,
+        "reddit": 20,
+        "v2ex": 16,
+        "youtube": 90,
+        "bluesky": 162,
+        "mastodon": 160,
+        "exaWeb": 60,
+        "x": "error: Command failed: grok -p Search X for posts from the last 7 days where people sho"
+      },
+      "scoring": {
+        "scored": 0,
+        "jev": {
+          "low": 1,
+          "irrelevant": 0,
+          "errors": 0,
+          "toClaude": 2
+        },
+        "error": "claude CLI unavailable; remaining items stay unscored"
+      }
+    },
+    {
+      "date": "2026-11-19",
       "added": 25,
       "stats": {
         "githubShowAndTell": 18,
@@ -56353,36 +56409,7 @@
           "toClaude": 10
         }
       }
-    },
-    {
-      "date": "2026-11-04",
-      "added": 40,
-      "stats": {
-        "githubShowAndTell": 13,
-        "githubRepos": 236,
-        "githubCode": 47,
-        "hackerNews": 22,
-        "qiita": 48,
-        "devto": "error: 429 https://dev.to/api/articles?tag=claudecode&per_page=50",
-        "juejin": 6,
-        "reddit": 18,
-        "v2ex": 13,
-        "youtube": 90,
-        "bluesky": 162,
-        "mastodon": 160,
-        "exaWeb": 59,
-        "x": 30
-      },
-      "scoring": {
-        "scored": 22,
-        "jev": {
-          "low": 15,
-          "irrelevant": 3,
-          "errors": 0,
-          "toClaude": 22
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-19T00:26:01.809Z"
+  "updatedAt": "2026-11-19T04:38:36.191Z"
 }

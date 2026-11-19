@@ -68754,8 +68754,8 @@
     },
     {
       "date": "2026-11-19",
-      "stars": 468263,
-      "stars_delta": 1614,
+      "stars": 468556,
+      "stars_delta": 1907,
       "new": [
         "d-ebe5f70667",
         "d-46e6cfffc5",
@@ -68768,38 +68768,41 @@
         "d-97efc9ed66",
         "d-3b43d64ab3",
         "d-588482dd67",
-        "d-15932402c0"
+        "d-15932402c0",
+        "d-a91e1e08e0"
       ],
       "stats": {
-        "count": 12,
+        "count": 13,
         "wow": {
           "2": 8,
           "3": 2,
-          "4": 2
+          "4": 2,
+          "none": 1
         },
         "type": {
-          "case": 5,
+          "case": 6,
           "app": 6,
           "learn": 1
         },
         "status": {
           "tested": 1,
           "shipped": 6,
-          "reported": 5
+          "reported": 5,
+          "none": 1
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "npm MCP 靜態風險報告卡與 Audition 逆向領銜,REA 星數破 46.8 萬",
-          "summary": "REA GitHub 星數升至 468,263,單日增加 1,614。當天排名最高的兩個案例有實證:一個以 REA 建立 npm MCP 伺服器的靜態風險報告卡,在植入式測試夾具上找出 13 個植入行為中的 13 個、0 誤報,而 grep 只找到 12 個、8 誤報;另一個逆向 Audition 客戶端的加密格式,並把 V21 的 120 首歌加入本地伺服器。其餘多是 Termux、Windows 分支、DeepSeek 外掛等安裝與整合型專案,以及尚無成果的本地 qwen 模型實驗,顯示生態擴張持續,但可驗證的分析成果仍集中在少數案例。"
+          "headline": "REA 從逆向走向實戰：靜態審查 npm MCP 套件全數命中",
+          "summary": "今天 REA 星數增至 468556（較前一紀錄多 1907）。最亮眼的是用 REA 為 npm MCP 伺服器做靜態風險報告卡，在自建夾具上找出 13 個植入行為中的 13 個、0 誤報，優於 grep 的 12 個與 8 誤報；另有逆向 Audition 客戶端的加密格式並新增 120 首歌曲。其餘多為生態擴充，如 Termux、Windows 檢查點與 DeepSeek 外掛，顯示 REA 正向更多平台延伸，同時以證據與實測強調驗證的重要。"
         },
         "en": {
-          "headline": "npm MCP risk report card and Audition reversing lead as REA passes 468K stars",
-          "summary": "REA's GitHub stars reached 468,263, up 1,614 in a day. The two top-ranked cases carry real evidence: a static risk report card for npm MCP servers found 13 of 13 planted behaviors with 0 false positives on its test fixture (grep found 12 with 8 false positives), and an Audition client reverse-engineering reversed its encrypted formats and added 120 V21 songs to a local server. Most other items are installation or integration projects (Termux, a Windows fork, a DeepSeek plugin) plus a local-qwen experiment with no results yet, so ecosystem growth continues while verifiable analysis results remain concentrated in a few cases."
+          "headline": "REA moves into practice: static audit of npm MCP servers finds all planted behaviors",
+          "summary": "REA's GitHub stars rose to 468,556 today, up 1,907 from the previous record. The standout is a static risk report card for npm MCP servers built on REA: on a self-made fixture it found 13 of 13 planted behaviors with 0 false positives, versus 12 found and 8 false positives for grep. Another case reverse-engineered Audition client encryption formats and added 120 songs. Most other items are ecosystem expansion, such as Termux, a Windows checkpoint fork and a DeepSeek plugin, showing REA reaching more platforms while evidence-backed verification stays central."
         },
         "zh-CN": {
-          "headline": "npm MCP 静态风险报告卡与 Audition 逆向领衔,REA 星数破 46.8 万",
-          "summary": "REA GitHub 星数升至 468,263,单日增加 1,614。当天排名最高的两个案例有实证:一个以 REA 构建 npm MCP 服务器的静态风险报告卡,在植入式测试夹具上找出 13 个植入行为中的 13 个、0 误报,而 grep 只找到 12 个、8 误报;另一个逆向 Audition 客户端的加密格式,并把 V21 的 120 首歌加入本地服务器。其余多是 Termux、Windows 分支、DeepSeek 插件等安装与集成型项目,以及尚无成果的本地 qwen 模型实验,显示生态扩张持续,但可验证的分析成果仍集中在少数案例。"
+          "headline": "REA 走向实战：静态审查 npm MCP 套件全数命中",
+          "summary": "今天 REA 星数增至 468556（较前一纪录多 1907）。最亮眼的是用 REA 为 npm MCP 服务器做静态风险报告卡，在自建夹具上找出 13 个植入行为中的 13 个、0 误报，优于 grep 的 12 个与 8 误报；另有逆向 Audition 客户端的加密格式并新增 120 首歌曲。其余多为生态扩展，如 Termux、Windows 检查点与 DeepSeek 插件，显示 REA 正向更多平台延伸，同时以证据与实测强调验证的重要。"
         }
       },
       "signals": [
@@ -68810,7 +68813,7 @@
       "highlights": [
         "d-ebe5f70667",
         "d-46e6cfffc5",
-        "d-018814033f"
+        "d-8bb10fca91"
       ],
       "rank": [
         "dx-ball-sound-pan",
@@ -71013,6 +71016,7 @@
         "d-ed04e27e0b",
         "d-8d1682c9bf",
         "d-ac0ffedb1d",
+        "d-ef9b1275ae",
         "d-a21a230535",
         "d-fc831951e8",
         "d-fe1661027d",
@@ -71366,7 +71370,8 @@
         "d-8a15203586",
         "d-3db45b5ca0",
         "d-9c31b3d5b4",
-        "d-6944356cf1"
+        "d-6944356cf1",
+        "d-a91e1e08e0"
       ]
     }
   ],
@@ -71385,19 +71390,19 @@
     "to": "2026-11-19",
     "text": {
       "zh-TW": {
-        "headline": "REA 從重建展示轉向可驗證成果，並延伸到硬體與舊軟體",
-        "summary": "本週 REA 星數由 455,680 升至 468,263，每天穩定增加約 1,600 至 2,500。11 月 13 日出現兩項獨立稽核，一項測試 BLA 的反逆向宣稱，另一項在中小型程式上未偵測到準確度提升，同日的 TH08、TH095 重建也承認仍有一個函式未通過驗證。之後焦點轉向硬體與舊軟體：Anker 錄音豆藍牙、Digi 001 驅動、DareU 驅動、Logitech G HUB 的 HID++ 協定、Echo Dot 韌體，以及舊震動手柄、Audition、Worms 2 等。到 11 月 19 日，npm MCP 風險報告卡以 13/13 命中、0 誤報對比 grep 的 12 個命中、8 個誤報，成為少數有實證的成果。多數成果仍是作者自述，生態工具（Termux、Nix、MCP 整合、防禦工具）持續擴張。",
-        "watch": "留意更多附有測試、對照基準或公開 repo 的案例，例如與 grep 的對比，以及 BLA、REAegis 這類針對 REA 的防禦工具是否有人再做獨立評測。硬體協定逆向（HID++、BLE、韌體）和舊軟體復活是目前最常出現的主題，可以優先在這兩類找機會。另外，各模型拒絕使用 REA 而改用本地模型的說法目前缺乏證據，需要等有實際紀錄再判斷。"
+        "headline": "REA從展示成果轉向驗證與硬體實戰，獨立稽核開始登場",
+        "summary": "週初星數突破45.5萬，同時出現獨立稽核：BLA反逆向測試與20個程式的準確度檢驗，並坦承仍有函式未通過驗證，驗證成為核心議題。中段焦點從應用重建（Windows計算機、筆記App、27個Agent重建10款付費App）擴及藍牙門鎖、Digi 001驅動、DareU與Logitech HID++等硬體互通。後段出現Echo Dot韌體靜態分析、電視破解影片，以及針對npm MCP套件的靜態風險報告卡（13/13命中、0誤報，優於grep）。同時Termux、arm64、Nix、MCP整合等周邊工具持續擴張，反逆向防禦工具BLA、REAegis也開始出現。星數每日增幅由約2,500降至約1,900，成長略為放緩，且多數成果仍屬作者自述。",
+        "watch": "留意是否有更多獨立稽核或可重現的測試夾具，以及27個Agent重建付費App的一致度數字能否被第三方驗證。硬體協議逆向（HID++、BLE、驅動）與舊軟體復活具明確需求，適合作為實作切入點；同時可關注反逆向防禦工具的後續發展。"
       },
       "en": {
-        "headline": "REA shifts from rebuild demos to verifiable results, spreading into hardware and legacy software",
-        "summary": "REA stars rose from 455,680 to 468,263 this week, adding roughly 1,600 to 2,500 per day. On Nov 13 two independent audits appeared: one tested BLA's anti-reverse-engineering claims, the other found no measurable accuracy gain on small and mid-size programs, and the same day's TH08/TH095 rebuilds admitted one function still failing verification. Attention then moved to hardware and old software: Anker recorder Bluetooth, Digi 001 and DareU drivers, Logitech G HUB's HID++ protocol, Echo Dot firmware, an old rumble-pad driver, Audition and Worms 2. By Nov 19, an npm MCP static risk report card that found 13 of 13 planted behaviors with 0 false positives (grep: 12 found, 8 false positives) was one of the few results backed by evidence. Most claims are still self-reported, while ecosystem tooling (Termux, Nix, MCP integrations, defensive tools) keeps expanding.",
-        "watch": "Look for more cases that ship tests, baselines or public repos, such as the comparison against grep, and for whether anyone independently evaluates defensive tools like BLA and REAegis. Hardware protocol reverse engineering (HID++, BLE, firmware) and reviving old software are the most frequent themes, so they are the best places to look for opportunities first. Reports of models refusing to use REA and users switching to local models still lack evidence, so wait for actual records before drawing conclusions."
+        "headline": "REA shifts from showcases to verification and hands-on hardware work",
+        "summary": "The week opened with stars passing 455k alongside independent audits: a BLA anti-RE test on 12 fixtures and a 20-program accuracy check, plus an admission that one function still failed verification, making verification the core issue. Midweek focus broadened from app rebuilds (Windows calculator, a notes app, 27 agents rebuilding 10 paid apps) to hardware interop such as Bluetooth locks, the Digi 001 driver, DareU and Logitech HID++. Later days brought static Echo Dot firmware analysis, a TV-hacking video, and a static risk scorecard for npm MCP packages (13/13 found, 0 false positives, beating grep). Ecosystem tooling (Termux, arm64, Nix, MCP integrations) kept expanding, and anti-RE defenses like BLA and REAegis appeared. Daily star gains eased from about 2,500 to about 1,900, and most results remain self-reported.",
+        "watch": "Watch for more independent audits or reproducible fixtures, and whether the 27-agent paid-app rebuild's consistency figures get third-party verification. Hardware protocol reverse engineering (HID++, BLE, drivers) and reviving old software show clear demand and are practical entry points; also track how the anti-RE defense tools develop."
       },
       "zh-CN": {
-        "headline": "REA 从重建展示转向可验证成果，并延伸到硬件与旧软件",
-        "summary": "本周 REA 星数由 455,680 升至 468,263，每天稳定增加约 1,600 至 2,500。11 月 13 日出现两项独立审计，一项测试 BLA 的反逆向宣称，另一项在中小型程序上未检测到准确度提升，同日的 TH08、TH095 重建也承认仍有一个函数未通过验证。之后焦点转向硬件与旧软件：Anker 录音豆蓝牙、Digi 001 驱动、DareU 驱动、Logitech G HUB 的 HID++ 协议、Echo Dot 固件，以及旧震动手柄、Audition、Worms 2 等。到 11 月 19 日，npm MCP 风险报告卡以 13/13 命中、0 误报对比 grep 的 12 个命中、8 个误报，成为少数有实证的成果。多数成果仍是作者自述，生态工具（Termux、Nix、MCP 集成、防御工具）持续扩张。",
-        "watch": "留意更多附有测试、对照基准或公开 repo 的案例，例如与 grep 的对比，以及 BLA、REAegis 这类针对 REA 的防御工具是否有人再做独立评测。硬件协议逆向（HID++、BLE、固件）和旧软件复活是目前最常出现的主题，可以优先在这两类找机会。另外，各模型拒绝使用 REA 而改用本地模型的说法目前缺乏证据，需要等有实际记录再判断。"
+        "headline": "REA从展示成果转向验证与硬件实战，独立审计开始出现",
+        "summary": "周初星数突破45.5万，同时出现独立审计：BLA反逆向测试与20个程序的准确度检验，并坦承仍有函数未通过验证，验证成为核心议题。中段焦点从应用重建（Windows计算器、笔记App、27个Agent重建10款付费App）扩展到蓝牙门锁、Digi 001驱动、DareU与Logitech HID++等硬件互通。后段出现Echo Dot固件静态分析、电视破解视频，以及针对npm MCP包的静态风险报告卡（13/13命中、0误报，优于grep）。同时Termux、arm64、Nix、MCP集成等周边工具持续扩张，反逆向防御工具BLA、REAegis也开始出现。星数每日增幅由约2,500降至约1,900，增长略有放缓，且多数成果仍属作者自述。",
+        "watch": "留意是否有更多独立审计或可复现的测试夹具，以及27个Agent重建付费App的一致度数据能否被第三方验证。硬件协议逆向（HID++、BLE、驱动）与旧软件复活需求明确，适合作为实践切入点；同时可关注反逆向防御工具的后续发展。"
       }
     },
     "rising": [

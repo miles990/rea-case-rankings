@@ -21808,5 +21808,590 @@
       "target": "",
       "metric": ""
     }
+  },
+  "d-de661bf7ef": {
+    "hash": "d94af5a0d332",
+    "en": {
+      "title": "Extracting Unity Game Formulas with REA and Building a CIL Interpreter as a Test Baseline",
+      "summary": "Using REA to read NGU Idle's Assembly-CSharp.dll, the author extracted formulas and data tables system by system, then wrote a roughly 700-line CIL interpreter that executes the game's original methods. It serves as the test oracle for a public TypeScript version, verified against real save files, randomized inputs, and synthetic inputs, with config values in the data tables filled in from the level0 data file.",
+      "target": "Unity game NGU Idle (Assembly-CSharp.dll)",
+      "metric": "Retrieved CIL instructions for 3,537 methods and used them in comparison testing"
+    },
+    "zh-CN": {
+      "title": "用 REA 提取 Unity 游戏公式，并构建 CIL 解释器作为测试基准",
+      "summary": "作者用 REA 读取 NGU Idle 的 Assembly-CSharp.dll，逐个系统提取公式和数据表，并编写了约 700 行的 CIL 解释器来执行游戏原始方法，作为 TypeScript 公开版的测试 oracle。通过真实存档、随机化输入和合成输入进行对照验证，并从 level0 数据文件中补全数据表里的配置值。",
+      "target": "Unity 游戏 NGU Idle（Assembly-CSharp.dll）",
+      "metric": "获取 3,537 个方法的 CIL 指令并用于对照测试"
+    }
+  },
+  "d-bd0f9da29b": {
+    "hash": "7d4cc8e13c7d",
+    "en": {
+      "title": "Parsing the Game Boy Boot ROM with REA and Running Tetris",
+      "summary": "The author analyzed the Game Boy boot ROM byte by byte with REA and used it to write a custom REGameBoy emulator, implementing the SM83 CPU, PPU scanline timing, VRAM rendering, and the memory bus. A video shows Tetris running at about 60 FPS.",
+      "target": "Game Boy boot ROM and the REGameBoy emulator",
+      "metric": "Tetris runs at about 60 FPS on the custom emulator"
+    },
+    "zh-CN": {
+      "title": "用 REA 解析 Game Boy 启动 ROM 并运行俄罗斯方块",
+      "summary": "作者用 REA 逐字节分析 Game Boy 启动 ROM，据此编写了自制的 REGameBoy 模拟器，实现了 SM83 CPU、PPU 扫描线时序、VRAM 渲染和内存总线。成果通过视频展示，《Tetris》以约 60 FPS 运行。",
+      "target": "Game Boy 启动 ROM 与 REGameBoy 模拟器",
+      "metric": "Tetris 在自制模拟器上以约 60 FPS 运行"
+    }
+  },
+  "d-ef2f88b375": {
+    "hash": "148a17cd8fef",
+    "en": {
+      "title": "Building an Amiga Emulator Through Reverse Engineering with REA and Running Kickstart 1.3",
+      "summary": "The author got Kickstart 1.3 running on an Amiga emulator and wired up chips including INTENA, INTREQ, DMACON, Paula, and Denise. Execution currently halts, honestly, at a read from the cartridge slot address F00000, so this is an in-progress milestone.",
+      "target": "Amiga Kickstart 1.3 and a custom emulator",
+      "metric": "Executed 262,151 instructions / 2,359,362 CPU clock cycles"
+    },
+    "zh-CN": {
+      "title": "以 REA 逆向打造 Amiga 模拟器并运行 Kickstart 1.3",
+      "summary": "作者在 Amiga 模拟器上让 Kickstart 1.3 跑了起来，并接入了 INTENA、INTREQ、DMACON、Paula、Denise 等芯片。目前执行到读取卡带槽地址 F00000 时如实停止，属于进行中的阶段性成果。",
+      "target": "Amiga Kickstart 1.3 与自制模拟器",
+      "metric": "执行 262,151 条指令／2,359,362 个 CPU 时钟周期"
+    }
+  },
+  "d-6b70f8b440": {
+    "hash": "a4d6f17fd6d8",
+    "en": {
+      "title": "Rebuilding the Amiga 500 with REA: Loading from ADF and Selecting a Pinball Dreams Table",
+      "summary": "The author rebuilt an Amiga 500 emulator in C#, with MC68000 execution, CIA keyboard interrupts, MFM disk DMA, the Copper, the Blitter, and Paula PCM working together. Pinball Dreams now loads from an ADF and lets you select a table, but this is only the author's own claim in a post, with no public repo or tests provided.",
+      "target": "Amiga 500 / Pinball Dreams",
+      "metric": "Pinball Dreams loads from an ADF and a table can be selected"
+    },
+    "zh-CN": {
+      "title": "用 REA 重建 Amiga 500，已能从 ADF 加载并选择 Pinball Dreams 球台",
+      "summary": "作者用 C# 重建了 Amiga 500 模拟器，让 MC68000 执行、CIA 键盘中断、MFM 磁盘 DMA、Copper、Blitter 和 Paula PCM 协同工作。Pinball Dreams 已能从 ADF 加载并选择球台，但这仅是作者在帖子中的自述，未附公开 repo 或测试。",
+      "target": "Amiga 500 / Pinball Dreams",
+      "metric": "Pinball Dreams 从 ADF 加载并可选择球台"
+    }
+  },
+  "d-018814033f": {
+    "hash": "c5b110e8f7d4",
+    "en": {
+      "title": "Tracing the Full Call Chain of Electron App Note Export with REA",
+      "summary": "Used REA to trace what happens after the export button is clicked in an Electron app, split into three layers: renderer.js captures the click, preload.js passes the notes:export message across the sandbox, and main.js writes notes.csv to the downloads folder. Each step maps to a specific file, and the conclusion is clear and concrete, though no full code or tests are shown.",
+      "target": "Export feature of an Electron note-taking app",
+      "metric": "Three-layer call chain located in renderer.js, preload.js, and main.js"
+    },
+    "zh-CN": {
+      "title": "用 REA 追踪 Electron 应用导出笔记的完整调用链",
+      "summary": "使用 REA 追踪 Electron 应用中点击导出按钮后的流程,并分为三层:renderer.js 捕获点击、preload.js 跨沙箱传递 notes:export 消息、main.js 将 notes.csv 写入下载文件夹。每个环节都对应到具体文件,结论清晰具体,但未见完整代码或测试。",
+      "target": "Electron 笔记应用的导出功能",
+      "metric": "三层调用链定位到 renderer.js、preload.js、main.js"
+    }
+  },
+  "d-7c1e2c061f": {
+    "hash": "581fa9bc3a3f",
+    "en": {
+      "title": "Decoding the THD75 Factory Software with REA: Protocol Figured Out in Under 30 Minutes",
+      "summary": "The author wanted to build SDR software for the THD75 radio on a portable Raspberry Pi but didn't know its communication protocol. After having REA analyze the factory software, the protocol was worked out in under 30 minutes, and the author believes SDR software can be developed from it. This is the author's own account, with no evidence attached.",
+      "target": "THD75 radio factory software and communication protocol",
+      "metric": "Protocol worked out in under 30 minutes"
+    },
+    "zh-CN": {
+      "title": "用 REA 解析 THD75 原厂程序,30 分钟内摸清通信协议",
+      "summary": "作者想为 THD75 无线电开发便携式 Raspberry Pi 的 SDR 程序,但不了解其通信协议。让 REA 分析原厂程序后,不到 30 分钟就得出了协议,作者认为可据此开发 SDR 程序。内容为作者自述,未附证据。",
+      "target": "THD75 无线电原厂程序与通信协议",
+      "metric": "不到 30 分钟即解出通信协议"
+    }
+  },
+  "d-31f4b05867": {
+    "hash": "b9c70a3a523f",
+    "en": {
+      "title": "Using a Local GLM with REA to Work Out How to Hook Into reMarkable's Cloud \"Convert to Text\" Feature",
+      "summary": "After buying a reMarkable Paper Pro Move, the author had a locally running GLM reverse engineer the device through REA to figure out how to connect to the official cloud's handwriting-to-text feature, then self-hosted a similar service. Based solely on the author's account, with no code, screenshots, or steps provided.",
+      "target": "Cloud text conversion feature of the reMarkable Paper Pro Move",
+      "metric": "Found a way to connect to the cloud text conversion feature, enabling a self-hosted service"
+    },
+    "zh-CN": {
+      "title": "用本地 GLM 搭配 REA 找出 reMarkable 云端“转文字”功能的对接方式",
+      "summary": "作者购买 reMarkable Paper Pro Move 后,让本地运行的 GLM 通过 REA 逆向,摸清如何对接官方云端的手写转文字功能,进而自行搭建同类服务。仅有作者自述,没有提供代码、截图或步骤。",
+      "target": "reMarkable Paper Pro Move 云端转文字功能",
+      "metric": "找出可对接云端转文字功能的方法,可自建服务"
+    }
+  },
+  "d-956d471e60": {
+    "hash": "d3f9f5d2ed82",
+    "en": {
+      "title": "A Lightweight MCP Adapter for REA: Resident Tools Cut from 255 to 4",
+      "summary": "A standalone adapter built for Codex that keeps only 4 tools resident, while the remaining REA features are searched and called on demand. It retains a single backend process and stores large results in files for paginated reading. Includes Windows/macOS/Linux installers and cross-platform CI tests.",
+      "target": "Context overhead of REA MCP in Codex",
+      "metric": "Tool definitions reduced from 4,655,032 to 2,784 characters (about -99.94%)"
+    },
+    "zh-CN": {
+      "title": "为 REA 制作轻量 MCP 转接层,常驻工具由 255 个降至 4 个",
+      "summary": "针对 Codex 开发独立转接器,只常驻 4 个工具,其余 REA 功能按需搜索和调用,并保留单一后端进程、大型结果存档分页读取。提供 Windows/macOS/Linux 安装器与跨平台 CI 测试。",
+      "target": "REA MCP 在 Codex 中的上下文负担",
+      "metric": "工具定义由 4,655,032 字符降至 2,784 字符(约 -99.94%)"
+    }
+  },
+  "d-8a70c20180": {
+    "hash": "5e0634b6bac3",
+    "en": {
+      "title": "REA Studio: An Offline Malware Analysis Workbench Built on the REA Engine",
+      "summary": "A single-file Windows desktop app that embeds the rea-agents analysis engine and a local Qwen3.5-0.8B model. It combines 24 static analysis modules, virus-signature detection, matching against 184 CVEs, controlled dynamic execution, and MD/HTML/PDF reports. It runs fully offline so samples never leave the machine, and an installer release is available.",
+      "target": "Windows malware and multi-format file analysis",
+      "metric": "24 static analysis modules, 200+ virus signatures, 184 CVEs"
+    },
+    "zh-CN": {
+      "title": "以 REA 引擎打造离线的恶意样本分析工作台 REA Studio",
+      "summary": "Windows 单文件桌面软件,内嵌 rea-agents 分析引擎与本地 Qwen3.5-0.8B 模型,集成 24 个静态分析模块、病毒规则检测、184 个 CVE 漏洞比对、受控动态执行以及 MD/HTML/PDF 报告。主打离线运行、样本不出本机,并提供发行版安装包。",
+      "target": "Windows 恶意样本与多种格式文件分析",
+      "metric": "24 个静态分析模块、200 多条病毒规则、184 个 CVE"
+    }
+  },
+  "d-cd793e46e1": {
+    "hash": "209aa55c6f93",
+    "en": {
+      "title": "Reviving the Acorn 6502 Second Processor with AI and REA",
+      "summary": "Using a 40-year-old Acorn ROM and the service manual, the author got a BBC 6502 Second Processor working again with the help of AI tools, and linked a GitHub repo. The post is only a short note, with no test data or concrete verification details.",
+      "target": "Acorn BBC 6502 Second Processor ROM",
+      "metric": "Post claims the Second Processor is \"revived\"; GitHub repo linked"
+    },
+    "zh-CN": {
+      "title": "用 AI 与 REA 重现 Acorn 6502 第二处理器",
+      "summary": "作者利用 40 年前的 Acorn ROM 与维修手册,借助 AI 工具让 BBC 6502 Second Processor 重新运作,并附上 GitHub 链接。帖子仅有简短自述,没有测试数据或具体验证细节。",
+      "target": "Acorn BBC 6502 Second Processor ROM",
+      "metric": "帖子称第二处理器“复活”,附 GitHub repo"
+    }
+  },
+  "d-7fc0a62fae": {
+    "hash": "f8a6ff0a0980",
+    "en": {
+      "title": "REA Reads the MC68000 Manual and Builds the First CPU Slice; Kickstart 3.2 Trace Runs 429,733 Instructions",
+      "summary": "After REA obtained and cross-checked the Motorola MC68000 manual, the author had it build the first CPU slice, which compiled with 0 warnings and 0 errors and passed verification. In a Kickstart 3.2 trace it executed 429,733 instructions with the checksum passing, and reached the machine-probe fallback — early progress toward booting an Amiga.",
+      "target": "Amiga / MC68000 CPU / Kickstart 3.2",
+      "metric": "Kickstart 3.2 trace: 429,733 instructions, checksum passed"
+    },
+    "zh-CN": {
+      "title": "REA 读 MC68000 手册后建出首个 CPU 切片,Kickstart 3.2 追踪 429,733 条指令",
+      "summary": "作者让 REA 获取 Motorola MC68000 手册并核查后,建出第一个 CPU 切片,编译 0 警告 0 错误并通过验证。在 Kickstart 3.2 追踪中执行 429,733 条指令、校验和通过,并到达 machine-probe fallback,为 Amiga 启动的早期进展。",
+      "target": "Amiga / MC68000 CPU / Kickstart 3.2",
+      "metric": "Kickstart 3.2 追踪 429,733 条指令且校验和通过"
+    }
+  },
+  "d-de0c7f7fd5": {
+    "hash": "85d776acace2",
+    "en": {
+      "title": "Disassembling an Android App with REA and Rebuilding It with New Features",
+      "summary": "Without access to the source code, the author used REA to disassemble an Android app, add new features, and repackage it, so that the phone AI agent Mike can call the app's internal functions. This is the first post in a thread; details follow in later posts.",
+      "target": "Android app (a bus app)",
+      "metric": "Added features and rebuilt without source code; claimed to work in practice"
+    },
+    "zh-CN": {
+      "title": "用 REA 拆解 Android 应用并加入新功能重建",
+      "summary": "作者在没有源代码的情况下用 REA 拆解 Android 应用、加入新功能并重新打包,让手机 AI 代理 Mike 能调用 App 内部函数。这是系列推文的第一则,细节见后续帖子。",
+      "target": "Android 应用(公交 App)",
+      "metric": "无源代码下加入功能并重建,声称实际可运行"
+    }
+  },
+  "d-ebe5f70667": {
+    "hash": "a52ef344636d",
+    "en": {
+      "title": "A Static Risk Report Card for npm MCP Server Packages Built on REA",
+      "summary": "The goal is to see what an npm MCP server package actually does without installing or running it. The approach builds an application graph with REA, then adds a custom classifier and an AST layer to list environment variables, network hosts, files, child processes and eval, each with file:line and cross-checked against the README. On a purpose-built fixture with planted behaviors, it found 13 of 13 with 0 false positives, while grep found only 12 with 8 false positives. It ships with 25 tests and reports on 12 real packages.",
+      "target": "npm MCP server packages (including 12 real packages)",
+      "metric": "13/13 planted behaviors detected, 0 false positives (grep: 12/13, 8 false positives)"
+    },
+    "zh-CN": {
+      "title": "基于 REA 构建的 npm MCP 服务器包静态风险报告卡",
+      "summary": "目标是在不安装、不执行的前提下,查看 npm MCP 服务器包实际会做什么。做法是用 REA 构建应用图,再加上自定义分类器和 AST 层,列出环境变量、网络主机、文件、子进程与 eval,附 file:line 并与 README 对照。在自建的植入式测试夹具上,13 个植入行为全部找出,0 误报;而 grep 只找到 12 个,有 8 个误报。另附 25 个测试及 12 个真实包的报告。",
+      "target": "npm 上的 MCP 服务器包(含 12 个真实包)",
+      "metric": "植入测试 13/13 命中、0 误报(grep 为 12/13、8 个误报)"
+    }
+  },
+  "d-5a821d62f4": {
+    "hash": "d80460878065",
+    "en": {
+      "title": "Analyzing the Original Yacht Dice Game with REA and Rebuilding It for the Web",
+      "summary": "REA was used to analyze the original game's rules and AI, with the findings recorded in ANALYSIS.md, and the game was rebuilt as a playable web game supporting solo play against the AI, local multiplayer and online multiplayer, plus settings, friends and stats. It includes npm test, covering scoring rules, the AI, the engine, and online integration tests that launch a real server.",
+      "target": "Yacht dice game",
+      "metric": "Fully playable web rebuild with online multiplayer and automated tests"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析原版 Yacht 骰子游戏并重建为网页版",
+      "summary": "用 REA 分析原版游戏的规则与 AI,并将结果记录在 ANALYSIS.md 中,同时重建为可玩的网页游戏,支持单人对战 AI、本地多人和在线多人,另有设置、好友、战绩等功能。附带 npm test,涵盖计分规则、AI、引擎,以及实际启动服务器的在线集成测试。",
+      "target": "Yacht 骰子游戏",
+      "metric": "可玩的完整网页重建,含在线多人模式与自动化测试"
+    }
+  },
+  "d-305843e943": {
+    "hash": "3191dc55d4b4",
+    "en": {
+      "title": "A REA-Assisted MIT-Licensed Clean-Room Reimplementation of SimpliGen",
+      "summary": "SimpleTun is an open-source clean-room reimplementation of SimpliGen, offering ComfyUI orchestration, a multi-clip video timeline and an MCP server with 74 tools. The project used REA to assist with architecture and verification, and includes REA forensic report documents and a testing section.",
+      "target": "SimpliGen (AI image/video tool)",
+      "metric": "MCP server with 74 tools, with REA forensic report"
+    },
+    "zh-CN": {
+      "title": "以 REA 辅助制作 SimpliGen 的 MIT 开源净室复刻",
+      "summary": "SimpleTun 是 SimpliGen 的净室开源复刻,提供 ComfyUI 编排、多片段视频时间线和包含 74 个工具的 MCP 服务器。项目借助 REA 辅助架构设计与验证,附有 REA 取证报告文档和测试章节。",
+      "target": "SimpliGen(AI 图像/视频工具)",
+      "metric": "74 个工具的 MCP 服务器,附 REA 取证报告"
+    }
+  },
+  "d-46e6cfffc5": {
+    "hash": "302095f7c612",
+    "en": {
+      "title": "Reverse Engineering the Audition Client with Frida, Ghidra and REA to Add 120 Songs",
+      "summary": "The goal was to let the AuditionCMD 14.2.1 client connect natively to a local V14.2 server. The author reverse engineered V21's encrypted formats, including .acv (RC4+zlib), .thd (Blowfish) and .tbm, wrote tools to read and generate them, and added 120 V21 songs to lobby play. Four more songs and a check against a second client remain unresolved.",
+      "target": "AuditionCMD 14.2.1 client and V14.2 server",
+      "metric": "120 V21 songs successfully added and playable in the lobby, with complete encryption format documentation and tool code"
+    },
+    "zh-CN": {
+      "title": "用 Frida、Ghidra 与 REA 逆向 Audition 客户端并新增 120 首歌曲",
+      "summary": "目标是让 AuditionCMD 14.2.1 客户端原生连接本地 V14.2 服务器。作者逆向出 V21 的 .acv(RC4+zlib)、.thd(Blowfish)和 .tbm 等加密格式,编写了读取与生成工具,并把 V21 的 120 首歌加入大厅播放;另有 4 首歌曲及第二客户端的检查尚未解决。",
+      "target": "AuditionCMD 14.2.1 客户端与 V14.2 服务器",
+      "metric": "120 首 V21 歌曲成功加入并可在大厅播放,附完整加密格式说明与工具代码"
+    }
+  },
+  "d-bc025b4364": {
+    "hash": "c5a07b045a21",
+    "en": {
+      "title": "Using REA to take apart a bus APK and repackage it with an injected SDK",
+      "summary": "The author used REA to inspect a public transit APK, located the route-planning and bus-arrival functions, added their own Mike Connect SDK, wired it to those functions, and repackaged the app. After installing it on a phone, the AI agent Mike could look up routes and arrival times and open routes.",
+      "target": "Public transit Android APK",
+      "metric": "APK rebuilt without source code; Mike can call the route-planning and arrival functions"
+    },
+    "zh-CN": {
+      "title": "用 REA 拆解公交 APK 并注入 SDK 重新打包",
+      "summary": "作者用 REA 检查公共交通 APK，找出路线规划与公交到站的函数，加入自家的 Mike Connect SDK 并与这些函数对接后重新打包。安装到手机测试后，AI 代理 Mike 可以查询路线、到站时间并打开路线。",
+      "target": "公共交通 Android APK",
+      "metric": "无源码重建 APK，Mike 可调用路线规划与到站函数"
+    }
+  },
+  "d-a332d2daa8": {
+    "hash": "225fb386c964",
+    "en": {
+      "title": "Rebuilding the Amiga 500 from the CPU/ROM level with REA: the MC68000 now runs Kickstart 1.3",
+      "summary": "The author spent hundreds of millions of AI tokens rebuilding the Amiga 500 from the CPU and ROM level. The homemade MC68000 core can now run Kickstart 1.3, and the custom chips have started producing graphics. The author says there is still a long way to go. This is a self-report with no evidence links.",
+      "target": "Amiga 500 / Kickstart 1.3",
+      "metric": "MC68000 core runs Kickstart 1.3 and produces graphics"
+    },
+    "zh-CN": {
+      "title": "用 REA 从 CPU/ROM 层重建 Amiga 500，MC68000 已运行 Kickstart 1.3",
+      "summary": "作者耗费数亿 AI token，从 CPU 与 ROM 层重建 Amiga 500，自制的 MC68000 内核已能运行 Kickstart 1.3，自定义芯片也开始生成图像。作者表示还有很长的路要走。内容为自述，未附证据链接。",
+      "target": "Amiga 500 / Kickstart 1.3",
+      "metric": "MC68000 内核运行 Kickstart 1.3 并生成图像"
+    }
+  },
+  "d-a58351a6c0": {
+    "hash": "a13fb3469457",
+    "en": {
+      "title": "Researching the BMW NBT Evo head unit with Ghidra/REA and the QNX toolchain",
+      "summary": "For the BMW NBT Evo / iDrive 6 head unit, the author set up ENET diagnostics, ARM32 QNX compilation, and a Docker-based Ghidra + REA analysis environment. The repository publishes only verified facts, code, tests, and anonymized evidence reports, along with unit tests and public-content checks.",
+      "target": "BMW NBT Evo / iDrive 6 head unit (QNX)",
+      "metric": "Head unit research environment and tooling, including docs/facts.md and anonymized evidence reports"
+    },
+    "zh-CN": {
+      "title": "以 Ghidra/REA 与 QNX 工具链研究 BMW NBT Evo 车机",
+      "summary": "针对 BMW NBT Evo/iDrive 6 车机，搭建了 ENET 诊断、ARM32 QNX 编译以及 Docker 内的 Ghidra + REA 分析环境。仓库只发布经过验证的事实、代码、测试和匿名化的取证报告，并附有单元测试和公开内容检查。",
+      "target": "BMW NBT Evo/iDrive 6 车机（QNX）",
+      "metric": "含 docs/facts.md 与匿名化证据报告的车机研究环境与工具"
+    }
+  },
+  "d-ec795744a2": {
+    "hash": "ed483c88519e",
+    "en": {
+      "title": "Reddit post: an open-source companion tool that turns REA reverse-engineering findings into build plans",
+      "summary": "The post title says the author built an open-source companion for REA that turns reverse-engineering findings into a build plan. The page was blocked by the network, so the body could not be retrieved and the implementation and results cannot be confirmed.",
+      "target": "REA companion tool (content unavailable)",
+      "metric": "Title only; body blocked"
+    },
+    "zh-CN": {
+      "title": "Reddit 帖子：把 REA 逆向发现转成构建计划的开源配套工具",
+      "summary": "帖子标题称作者做了 REA 的开源配套工具，用来把逆向发现转化为构建计划。但页面被网络拦截，无法获取正文，无法确认其实现或成果。",
+      "target": "REA 配套工具（内容无法获取）",
+      "metric": "仅有标题，正文被拦截"
+    }
+  },
+  "d-28e7102156": {
+    "hash": "e3a38ff8f20b",
+    "en": {
+      "title": "Building local versions of several tools with REA",
+      "summary": "The author claims to have used REA to build local versions of Remove Background, Flux, Xnapper, Scroll Reverser and several Chrome extensions, so they can add or remove features freely and avoid supply-chain risk. The post provides no code or evidence, and a commenter notes that REA may not be necessary.",
+      "target": "Remove Background, Flux, Xnapper, Scroll Reverser, Chrome extensions",
+      "metric": "Self-reported rebuild of 4 apps and several Chrome extensions"
+    },
+    "zh-CN": {
+      "title": "用 REA 自制多款工具的本地版本",
+      "summary": "作者声称用 REA 自建了 Remove Background、Flux、Xnapper、Scroll Reverser 及多个 Chrome 扩展的本地版本，以便自行增减功能并规避供应链风险。帖子未提供代码或证据，且有评论指出不一定需要 REA。",
+      "target": "Remove Background、Flux、Xnapper、Scroll Reverser、Chrome 扩展",
+      "metric": "自述重建 4 款应用与多个 Chrome 扩展"
+    }
+  },
+  "d-77b1c71994": {
+    "hash": "dcc6c919fe16",
+    "en": {
+      "title": "A capability catalog for DeepSeek Harness that sharply cuts REA tool tokens",
+      "summary": "REA exposes 207 tools with about 668 KB of parameter definitions, and registering them directly adds roughly 250K tokens to the first request. This plugin uses a compact index plus on-demand lookup, description and invocation, so MCP tools load lazily. It ships as an npm package with a UI.",
+      "target": "DeepSeek Harness and the REA MCP server",
+      "metric": "First-request tokens cut from 249,653 to 8,404 (−96.6%)"
+    },
+    "zh-CN": {
+      "title": "为 DeepSeek Harness 做能力目录，大幅降低 REA 工具 token",
+      "summary": "REA 提供 207 个工具、约 668 KB 参数定义，直接注册会使第一个请求多出约 25 万 token。该插件通过精简索引加按需查询、描述与调用，让 MCP 工具延迟加载，并提供 npm 包和界面。",
+      "target": "DeepSeek Harness 与 REA MCP 服务器",
+      "metric": "首次请求 token 由 249,653 降至 8,404（−96.6%）"
+    }
+  },
+  "d-f62f92151d": {
+    "hash": "21ce395f7456",
+    "en": {
+      "title": "Packaging REA as a DeepSeek Harness plugin with a one-click switch for 255 tools",
+      "summary": "The goal is to let DeepSeek Harness users enable REA MCP tools with one click on the plugin page. The approach is a bundle containing only the connection declaration, with the engine fetched at runtime from the npm package rea-agents, along with a note on the roughly 200K+ token context cost. The result is a working integration plugin, but no reverse-engineering findings.",
+      "target": "DeepSeek Harness plugin system and REA MCP",
+      "metric": "One switch mounts 255 tools, taking about 200K+ tokens of context"
+    },
+    "zh-CN": {
+      "title": "将 REA 打包为 DeepSeek Harness 插件，一键开关 255 个工具",
+      "summary": "目标是让 DeepSeek Harness 用户在插件页面一键启用 REA MCP 工具。做法是提供只含连接声明的 bundle，引擎由 npm 的 rea-agents 在运行时获取，并说明约 200K+ token 的上下文成本。结果是可用的集成插件，但没有逆向分析成果。",
+      "target": "DeepSeek Harness 插件系统与 REA MCP",
+      "metric": "一个开关挂载 255 个工具，约占 200K+ token 上下文"
+    }
+  },
+  "d-bd0316bff4": {
+    "hash": "6905a4756ba8",
+    "en": {
+      "title": "Reversing Alpha Centauri with a local qwen model and REA",
+      "summary": "The author tries to reverse the classic game Sid Meier's Alpha Centauri using only a local qwen-flash-next endpoint together with REA. Even after expanding the context to 512k they still hit limits, and there are no concrete results yet; it is an ongoing experiment.",
+      "target": "Sid Meier's Alpha Centauri",
+      "metric": "512k context still insufficient, no results yet"
+    },
+    "zh-CN": {
+      "title": "用本地 qwen 模型搭配 REA 逆向《异形星球》",
+      "summary": "作者尝试仅用本地 qwen-flash-next 端点，搭配 REA 逆向经典游戏《Sid Meier's Alpha Centauri》。即使上下文扩到 512k 仍遇到限制，目前尚无具体成果，只是进行中的实验。",
+      "target": "Sid Meier's Alpha Centauri",
+      "metric": "上下文 512k 仍不足，尚无成果"
+    }
+  },
+  "d-c1eafc7b2d": {
+    "hash": "f6284dcc92d7",
+    "en": {
+      "title": "Replacing Home Assistant with multiple agents, one dedicated to root shells and device reverse engineering",
+      "summary": "The author wants to replace Home Assistant with several AI agents, including a butler, billing and manual agents. One of them handles root shell exploitation and reverse engineering devices with REA, so the agents can control devices around the home. The content is only a self-described idea and setup, with no concrete reverse engineering target, result or evidence.",
+      "target": "Smart devices around the home",
+      "metric": "1 agent built for root shells and REA-based device reverse engineering"
+    },
+    "zh-CN": {
+      "title": "用多个 agent 取代 Home Assistant,其中一个负责 root shell 与设备逆向",
+      "summary": "作者想用多个 AI agent 取代 Home Assistant,建立了管家、账单、手册等 agent,其中一个专门负责 root shell 破解和用 REA 逆向设备,让 agent 能够控制家中设备。内容只是自述的构想与配置,没有具体的逆向目标、成果或证据。",
+      "target": "家中智能设备",
+      "metric": "建立 1 个专做 root shell 与 REA 设备逆向的 agent"
+    }
+  },
+  "d-8bb10fca91": {
+    "hash": "e696b83a0155",
+    "en": {
+      "title": "Running REA's Ghidra, JADX and Kuna on an Android arm64 phone via Termux",
+      "summary": "The goal is to run REA and its analysis engines in a Termux environment on Android/arm64. It ships a one-step install script that builds the arm64 decompilers from source, applies platform shims and hooks everything into OpenCode, plus a verification script. As a result, .so files and APKs can be analyzed with Ghidra/JADX on the phone, but this is installation and integration work, with no analysis results for a specific target.",
+      "target": "REA and analysis engines in a Termux environment on Android arm64",
+      "metric": "One-step install exposing 255 REA tools in OpenCode"
+    },
+    "zh-CN": {
+      "title": "在 Termux 上让 REA 的 Ghidra、JADX、Kuna 在 Android arm64 手机运行",
+      "summary": "目标是让 REA 及其分析引擎在 Android/arm64 的 Termux 环境中运行。做法是提供一键安装脚本,从源码编译 arm64 反编译器、应用平台 shim 并接入 OpenCode,另附验证脚本。结果是可以在手机上用 Ghidra/JADX 分析 .so 与 APK,但这属于安装集成工作,未见针对具体目标的分析成果。",
+      "target": "Android arm64 Termux 环境上的 REA 与分析引擎",
+      "metric": "一键安装并在 OpenCode 中暴露 255 个 REA 工具"
+    }
+  },
+  "d-c4e1b59b08": {
+    "hash": "3d96a82413b0",
+    "en": {
+      "title": "A Windows-optimized fork of REA that persists Ghidra analysis checkpoints",
+      "summary": "Repeatedly analyzing the same DLL with Ghidra on Windows means long waits. This fork extends REA's Checkpoint to Windows and adds an auto mode that reclaims retained targets when memory hits 90% or after 30 minutes idle. The project includes implementation, test and performance-log documents along with build instructions, but the excerpt shows no concrete timing figures.",
+      "target": "REA's Ghidra session layer (Windows)",
+      "metric": "Auto mode: releases at 90% memory or 30 minutes idle, with Windows checkpoint implementation and test docs"
+    },
+    "zh-CN": {
+      "title": "为 REA 打造 Windows 优化分支,持久化 Ghidra 分析检查点",
+      "summary": "在 Windows 上用 Ghidra 反复分析同一个 DLL 需要长时间等待。该分支将 REA 的 Checkpoint 扩展到 Windows,并新增 auto 模式,在内存达 90% 或闲置 30 分钟时自动回收保留的目标。项目附有实现、测试和性能记录文档以及构建说明,但节选中未见具体耗时数据。",
+      "target": "REA 的 Ghidra 会话层(Windows)",
+      "metric": "auto 模式:内存 90% 或闲置 30 分钟自动释放,并附 Windows 检查点实现与测试文档"
+    }
+  },
+  "d-369473fbbd": {
+    "hash": "4f524cebceba",
+    "en": {
+      "title": "A CLI-based AI security assessment platform integrating REA via MCP",
+      "summary": "MXM Penetrator is a CLI-first AI security assessment platform. Its planned features include local/cloud model routing, modular testing, strict target scoping and automated reporting, with REA integrated through MCP. Most of the content describes planned features and architectural direction; there are no actual results or test outcomes from using REA.",
+      "target": "MXM Penetrator security assessment platform (self-built)",
+      "metric": "README features are stated as plans; no measured results"
+    },
+    "zh-CN": {
+      "title": "以 MCP 集成 REA 的 CLI 型 AI 安全评估平台",
+      "summary": "MXM Penetrator 是以 CLI 为主的 AI 安全评测平台,规划包含本地/云端模型路由、模块化测试、严格的目标管控与自动报告,并通过 MCP 集成 REA。内容多为“规划中的功能与架构方向”,没有实际使用 REA 的成果或测试结果。",
+      "target": "MXM Penetrator 安全评估平台(自建)",
+      "metric": "README 自述功能为规划方向,无实测成果"
+    }
+  },
+  "d-97efc9ed66": {
+    "hash": "19da349d3b4d",
+    "en": {
+      "title": "A Traditional Chinese hands-on guide to REA reverse engineering, with 38 chapters and 64 task prompts",
+      "summary": "A standalone Chinese-language tutorial project covering REA installation, MCP/CLI, the Evidence chain, and authorized reverse-engineering workflows for JS, Electron, Native, and Android. It includes 38 chapters, 64 copy-ready task prompts, 12 graded cases, and a 30-day training plan, and states plainly that most of the cases are teaching-lab plans only.",
+      "target": "A tutorial on using the REA reverse-engineering tool",
+      "metric": "38 chapters, 64 task prompts, 12 graded cases"
+    },
+    "zh-CN": {
+      "title": "撰写 REA 逆向工程的繁体中文实战指南，含 38 章与 64 条指令",
+      "summary": "独立的中文教学项目，涵盖 REA 安装、MCP/CLI、Evidence 证据链，以及 JS、Electron、Native、Android 等授权逆向流程。内容包含 38 章、64 条可复制任务指令、12 个分级案例与 30 天训练计划，并明确说明其中多数案例仅为教学实验计划。",
+      "target": "REA 逆向工程工具的使用教程",
+      "metric": "38 章、64 条任务指令、12 个分级案例"
+    }
+  },
+  "d-3b43d64ab3": {
+    "hash": "cde0e7faba2b",
+    "en": {
+      "title": "Combining REA and the Goldfish reviewers into a phone-based reverse-engineering and design-review workstation",
+      "summary": "The goal is to merge REA's Android arm64 installation scheme with Google's Elephant-Goldfish design-review suite. It provides unified install and verification scripts, adapted to work with OpenCode v2. The result is that both reverse-engineering and review workflows can be used together on a Termux phone, though the work is limited to installation and documentation integration.",
+      "target": "REA and EGM/Goldfish on a Termux Android phone",
+      "metric": "One repo combining the REA tool with 10 Goldfish reviewer roles"
+    },
+    "zh-CN": {
+      "title": "整合 REA 与 Goldfish 审查者，打造手机端逆向与设计审查工作站",
+      "summary": "目标是把 REA 的 Android arm64 安装方案与 Google Elephant-Goldfish 设计审查套件合并。做法是提供统一的安装与验证脚本，并调整为可搭配 OpenCode v2 使用。结果是可在 Termux 手机上同时使用逆向与审查流程，但仅限于安装与文档整合。",
+      "target": "Termux Android 手机上的 REA 与 EGM/Goldfish",
+      "metric": "一个 repo 整合 REA 工具与 10 个 Goldfish 审查者角色"
+    }
+  },
+  "d-c60458dd20": {
+    "hash": "ba9091739f6c",
+    "en": {
+      "title": "An independent site compiling a command-line reference for REA",
+      "summary": "A third-party REA CLI reference covering installation diagnostics, static analysis of JavaScript/Electron, native binaries (Ghidra), and inspection of .NET managed assemblies. The content is educational and contains no actual analysis results for any specific target.",
+      "target": "How to use the REA CLI (tutorial)",
+      "metric": "Covers 4 categories of analysis commands (setup, JS/Electron, native, managed assemblies)"
+    },
+    "zh-CN": {
+      "title": "独立网站整理的 REA 命令行参考指南",
+      "summary": "这是一份第三方撰写的 REA CLI 命令参考，涵盖安装诊断、JavaScript／Electron 静态分析、原生二进制（Ghidra）与 .NET 托管程序集检视。内容为教学性质，没有针对特定目标的实际分析成果。",
+      "target": "REA CLI 使用方式（教程）",
+      "metric": "涵盖 4 类分析命令（设置、JS/Electron、原生、托管程序集）"
+    }
+  },
+  "d-1fa721e890": {
+    "hash": "bd53bf9441dc",
+    "en": {
+      "title": "A one-command reverse-engineering workflow and report toolkit built on the REA engine",
+      "summary": "For any executable, firmware image, APK, or similar artifact, it first classifies the file by magic bytes (without executing the target), then automatically selects the applicable REA inspections and preserves the evidence from each step, and finally produces report.md and summary.json. It ships with 39 self-tests, a cheat sheet, and two-day workshop materials.",
+      "target": "Any PE/ELF/Mach-O/APK/firmware or other artifact",
+      "metric": "39 self-tests, an automated workflow supporting 9 artifact types"
+    },
+    "zh-CN": {
+      "title": "以 REA 引擎打造一键式逆向分析流程与报告工具包",
+      "summary": "针对任意可执行文件／固件／APK 等产物，先以魔术字节分类（不执行目标），再自动挑选适用的 REA 检查并保留每步证据，最后生成 report.md 与 summary.json。附 39 项自检、速查表与两日工作坊教材。",
+      "target": "任意 PE／ELF／Mach-O／APK／固件等产物",
+      "metric": "39 项自检、支持 9 类产物的自动化分析流程"
+    }
+  },
+  "d-588482dd67": {
+    "hash": "19e59000e10a",
+    "en": {
+      "title": "A cloning engine that captures a website's structure with REA and rebuilds it as a Next.js app",
+      "summary": "The project claims to use morluto/rea to ingest a target website or app, extract a structural blueprint, and rebuild it as a custom app with Next.js and Tailwind. The excerpt contains only a one-line description, with no results, code, or test evidence.",
+      "target": "Structural capture and reconstruction of websites/apps",
+      "metric": "Description only; no concrete results"
+    },
+    "zh-CN": {
+      "title": "用 REA 提取网站结构并重建为 Next.js 应用的克隆引擎",
+      "summary": "该项目声称通过 morluto/rea 吸收目标网站或应用，提取结构蓝图后，以 Next.js 和 Tailwind 重建为定制应用。节选内容仅有一句简介，没有成果、代码或测试证据。",
+      "target": "网站／应用的结构提取与重建",
+      "metric": "仅有简介，无具体成果"
+    }
+  },
+  "d-15932402c0": {
+    "hash": "ddbd35e83b24",
+    "en": {
+      "title": "A preflight skill for REA that helps determine which tools need to be added",
+      "summary": "The goal is to have an AI agent verify its connection before using REA and decide whether the task needs extra tools, such as a decompiler. It ships only a single SKILL.md of instructions, with no scripts or server. The author says the install command has not been tested, and there are no concrete reverse-engineering results.",
+      "target": "Tool-assessment workflow before using REA",
+      "metric": "A single SKILL.md skill; install command untested"
+    },
+    "zh-CN": {
+      "title": "为 REA 提供前置检查技能，帮助判断需补充哪些工具",
+      "summary": "目标是让 AI agent 在使用 REA 之前先确认连接，并判断任务是否需要额外工具（如反编译器）。做法是只提供一份 SKILL.md 指令，不含脚本或服务器。作者自述安装命令尚未实测，也没有具体的逆向成果。",
+      "target": "REA 使用前的工具评估流程",
+      "metric": "单个 SKILL.md 技能，安装命令尚未实测"
+    }
+  },
+  "d-6944356cf1": {
+    "hash": "257402f28299",
+    "en": {
+      "title": "It worked. I can ask Mike to find routes, check bus arrivals, and open a chosen route in the app. I started with an APK and ended with a wor",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    },
+    "zh-CN": {
+      "title": "It worked. I can ask Mike to find routes, check bus arrivals, and open a chosen route in the app. I started with an APK and ended with a wor",
+      "summary": "",
+      "target": "",
+      "metric": ""
+    }
+  },
+  "d-1444dac01e": {
+    "hash": "10158d1ca33c",
+    "en": {
+      "title": "MCP orchestration UI for REA's APK reverse engineering and code generation",
+      "summary": "An MCP orchestrator UI that connects REA's APK reverse-engineering analysis with Craft Anything code generation. The source excerpt is empty, so it can only be judged an integration tool from the title; no concrete results can be verified.",
+      "target": "Android APK reverse engineering workflow",
+      "metric": "MCP orchestration UI (no concrete result data)"
+    },
+    "zh-CN": {
+      "title": "为 REA 的 APK 逆向与代码生成构建 MCP 编排界面",
+      "summary": "提供 MCP 编排器 UI，串联 REA 的 APK 逆向分析与 Craft Anything 代码生成。内容节选为空，仅能从标题判断为集成工具，没有可验证的具体成果。",
+      "target": "Android APK 逆向流程",
+      "metric": "MCP 编排 UI（无具体成果数据）"
+    }
+  },
+  "d-fb634df351": {
+    "hash": "289da6589892",
+    "en": {
+      "title": "A Magpie plugin that auto-updates rea-agents",
+      "summary": "A Magpie plugin that checks the global npm package rea-agents for new versions on a schedule (every 6 hours by default) and whenever the window opens, then installs updates automatically when no rea process is running. Includes an update status page and panel.",
+      "target": "Magpie plugin and the rea-agents npm package",
+      "metric": "Checks every 6 hours and updates when no rea is running"
+    },
+    "zh-CN": {
+      "title": "为 Magpie 开发自动更新 rea-agents 的插件",
+      "summary": "Magpie 插件，定时（默认 6 小时）以及窗口打开时检查全局 npm 包 rea-agents 的版本，在没有 rea 进程运行时自动安装更新。提供更新状态页面和面板。",
+      "target": "Magpie 插件与 rea-agents npm 包",
+      "metric": "每 6 小时自动检查，无 rea 运行时更新"
+    }
+  },
+  "d-2e22901651": {
+    "hash": "a0e92cac7886",
+    "en": {
+      "title": "Ghidra setup guide for connecting REA and OpenCode over HTTP on Fedora Silverblue",
+      "summary": "A Spanish-language tutorial showing how to use mcp-proxy on Fedora Silverblue to expose rea mcp over HTTP, so the Flatpak build of OpenCode can use Ghidra reverse-engineering features without host permissions. It lists verified version combinations, compares the REA route with the GhidraMCP bridge route, and includes installation, verification, troubleshooting and security notes.",
+      "target": "Ghidra / OpenCode / Fedora Silverblue",
+      "metric": "About 207 REA tools available once connected"
+    },
+    "zh-CN": {
+      "title": "在 Fedora Silverblue 上通过 HTTP 连接 REA 与 OpenCode 的 Ghidra 配置指南",
+      "summary": "一份西班牙语教程，说明在 Fedora Silverblue 上用 mcp-proxy 将 rea mcp 转为 HTTP，使 Flatpak 版 OpenCode 无需主机权限即可使用 Ghidra 逆向功能。文中列出已验证的版本组合，对比 REA 路线与 GhidraMCP 桥接路线，并附安装、验证、故障排查和安全说明。",
+      "target": "Ghidra / OpenCode / Fedora Silverblue",
+      "metric": "连接后提供约 207 个 REA 工具"
+    }
+  },
+  "d-bdc02a82d6": {
+    "hash": "3a686b99ac3c",
+    "en": {
+      "title": "An auto-installing toolkit of 71 reverse-engineering tools, with REA source included",
+      "summary": "Decompiler-KIT pins versions and sha256 hashes in a single manifest and downloads 71 reverse-engineering and decompilation tools on demand, including Ghidra, rizin and Frida, along with AI agent skill notes. The repository itself ships no tool binaries and embeds only the REA (dissectdat) source; it is not a reverse-engineering result for any specific target.",
+      "target": "Reverse-engineering / decompilation toolchain integration",
+      "metric": "71 tools with versions pinned by sha256"
+    },
+    "zh-CN": {
+      "title": "收录 71 款逆向工具的自动安装工具包，内含 REA 源码",
+      "summary": "Decompiler-KIT 通过单一 manifest 固定版本与 sha256，按需下载 Ghidra、rizin、Frida 等 71 款逆向／反编译工具，并附 AI agent 技能说明。仓库本身不含工具二进制文件，只内嵌 REA（dissectdat）源码，并非针对特定目标的逆向成果。",
+      "target": "逆向／反编译工具链整合",
+      "metric": "71 款工具以 sha256 固定版本"
+    }
   }
 }

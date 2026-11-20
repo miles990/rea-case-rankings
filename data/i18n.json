@@ -22320,18 +22320,18 @@
     }
   },
   "d-6944356cf1": {
-    "hash": "257402f28299",
+    "hash": "c3cf24550204",
     "en": {
-      "title": "It worked. I can ask Mike to find routes, check bus arrivals, and open a chosen route in the app. I started with an APK and ended with a wor",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "Taking apart a bus APK, adding an SDK and rebuilding it for an AI agent to operate",
+      "summary": "The author used REA to inspect a public transit APK, located the functions for route planning and bus arrivals, added the Mike Connect SDK, then repackaged and installed it on a phone. The AI agent Mike can then look up routes, check arrival times and open the chosen route in the app; the author reports it works.",
+      "target": "Public transit Android APK",
+      "metric": "The rebuilt APK lets an AI agent look up routes, check bus arrivals and open routes"
     },
     "zh-CN": {
-      "title": "It worked. I can ask Mike to find routes, check bus arrivals, and open a chosen route in the app. I started with an APK and ended with a wor",
-      "summary": "",
-      "target": "",
-      "metric": ""
+      "title": "用 REA 拆解公交 APK,加入 SDK 重建后让 AI 代理操作",
+      "summary": "作者用 REA 检查公共交通 APK,找出路线规划与公交到站的函数,加入 Mike Connect SDK 并重新打包安装到手机。结果 AI 代理 Mike 能查路线、查到站时间并在 App 中打开所选路线,作者自述运行成功。",
+      "target": "公共交通 Android APK",
+      "metric": "重建后的 APK 可让 AI 代理查路线、查公交到站并打开路线"
     }
   },
   "d-1444dac01e": {
@@ -22407,6 +22407,141 @@
       "summary": "",
       "target": "",
       "metric": ""
+    }
+  },
+  "d-0b1a744ee4": {
+    "hash": "c4b0ca343968",
+    "en": {
+      "title": "Controlled test: with or without REA, the AI cracks the mystery program, but REA costs about 3x more",
+      "summary": "The author had the same AI analyze the same mystery program with and without REA. Both reached the correct conclusion, but using REA cost roughly 3x more. The author argues that REA's stars buy coverage (apps, APKs, firmware), not a smarter agent.",
+      "target": "A mystery program (with vs. without REA comparison)",
+      "metric": "Both runs correct; REA run cost about 3x more"
+    },
+    "zh-CN": {
+      "title": "对照测试:有无 REA 都能解开神秘程序,但用 REA 成本约三倍",
+      "summary": "作者让同一个 AI 在有与没有 REA 的情况下分析同一个神秘程序,两者都得出了正确结论,但使用 REA 成本约高出 3 倍。作者认为,REA 的 star 数买到的是覆盖范围(应用、APK、固件),而不是更聪明的代理。",
+      "target": "某神秘程序(有无 REA 对照)",
+      "metric": "两组均答对,使用 REA 成本约 3 倍"
+    }
+  },
+  "d-8810654dcf": {
+    "hash": "17db2508eb55",
+    "en": {
+      "title": "Forking REA into REA+ to speed up large JS bundle analysis",
+      "summary": "A fork of morluto/rea that adds module sharding, resumable facts, budget-based triage, and DRAE-mode analyzer governance. The excerpt is mostly the original REA README and shows no concrete reverse-engineering target or results.",
+      "target": "The REA tool itself (large JS bundle analysis)",
+      "metric": "Fork with module sharding and resumable facts"
+    },
+    "zh-CN": {
+      "title": "fork REA 为 REA+,加速大型 JS bundle 分析",
+      "summary": "这是 morluto/rea 的 fork,加入了模块分片、可续跑的 facts、预算分流,以及 DRAE 模式分析器治理。节选内容主要是原 REA 的 README,没有展示具体的逆向目标或成果。",
+      "target": "REA 工具本身(大型 JS bundle 分析)",
+      "metric": "支持模块分片与可续跑 facts 的 fork"
+    }
+  },
+  "d-912f5e4595": {
+    "hash": "fa95b12af855",
+    "en": {
+      "title": "First PR to the REA project submitted and merged into main",
+      "summary": "The author submitted their first PR to the REA (Reverse Engineer Anything) project, and it has been merged into the main branch. The excerpt does not say what was changed; it appears to be a small contribution to the project itself.",
+      "target": "The REA project itself (morluto/rea)",
+      "metric": "First PR merged into main"
+    },
+    "zh-CN": {
+      "title": "提交首个 REA 项目 PR 并被合并进 main",
+      "summary": "作者向 REA（Reverse Engineer Anything）项目提交了第一个 PR，并已合并到 main 分支。节选未说明修改内容，属于对项目本身的小幅贡献。",
+      "target": "REA 项目本身（morluto/rea）",
+      "metric": "首个 PR 已合并至 main"
+    }
+  },
+  "d-fe05032adb": {
+    "hash": "cd634b4e6945",
+    "en": {
+      "title": "leanrea replaces REA's MCP with an 8 KB skill, with near-identical benchmark results",
+      "summary": "Instead of REA's MCP, leanrea uses a single 8 KB skill file. Across 36 benchmark runs it scored 74/75 versus REA's 75/75, at 35% lower cost, loading roughly 34.5K tokens of context compared with about 400.7K for REA.",
+      "target": "Performance and cost comparison between REA's MCP and the leanrea skill",
+      "metric": "74/75 vs 75/75, 35% lower cost, ~34.5K vs 400.7K tokens of context"
+    },
+    "zh-CN": {
+      "title": "leanrea 以 8 KB skill 取代 REA 的 MCP，基准测试近乎持平",
+      "summary": "leanrea 不使用 REA 的 MCP，改用一个 8 KB 的 skill 文件。在 36 次基准测试中得分 74/75，REA 为 75/75，成本低 35%，加载上下文约 3.45 万 token，相比 REA 约 40.07 万。",
+      "target": "REA 的 MCP 与 leanrea skill 的性能与成本对比",
+      "metric": "74/75 对 75/75，成本低 35%，上下文约 3.45 万 vs 40.07 万 token"
+    }
+  },
+  "d-19b1434059": {
+    "hash": "50ad37d75604",
+    "en": {
+      "title": "Replicating a program in two hours with REA, running on a local model",
+      "summary": "The author claims to have used REA to replicate a target in two hours, with the entire workflow driven by a local model on a desktop machine. The post does not say what was replicated or give details of the result.",
+      "target": "Unspecified program",
+      "metric": "Replicated within two hours using a local model"
+    },
+    "zh-CN": {
+      "title": "用 REA 在两小时内复制某程序并以本地模型运行",
+      "summary": "作者声称用 REA 在两小时内复制了某个目标，且整个流程由台式机上的本地模型驱动。内容未说明复制的对象与成果细节。",
+      "target": "未说明的程序",
+      "metric": "两小时内完成复制，使用本地模型"
+    }
+  },
+  "d-d9da72993b": {
+    "hash": "463ab1340a27",
+    "en": {
+      "title": "Author says they used REA to reverse a binary back into C code",
+      "summary": "The author says they tried REA themselves and it was able to reverse a binary into C source, even replicating it despite a license check along the way. The post is mostly commentary on the risks to copyright and clean-room design, and offers no specific target or verifiable evidence.",
+      "target": "Unspecified binary (with a license check)",
+      "metric": "Author reports recovering C from a binary; no concrete figures"
+    },
+    "zh-CN": {
+      "title": "自述用 REA 将二进制文件逆向还原成 C 代码",
+      "summary": "作者自称亲自试用 REA，能把二进制文件逆向成 C 源代码，即使途中有授权检查也能复制。内容偏向评论版权与净室设计的风险，未提供具体目标或可验证的证据。",
+      "target": "未指明的二进制程序（含授权检查）",
+      "metric": "作者自述可从二进制还原为 C，无具体数字"
+    }
+  },
+  "d-c3193be7ee": {
+    "hash": "2a6777e841a3",
+    "en": {
+      "title": "Reverse-engineering ArcMap into a Mac app with REA",
+      "summary": "Using REA with the DeepSeek API, the author reverse-engineered ArcMap and built a Mac app that opens .mxd files, toggles and edits layers, imports FileGDB, handles symbology/labeling/layouts, and exports to PDF/PNG/SVG. Based solely on the author's own account; no public code or tests were found.",
+      "target": "Esri ArcMap",
+      "metric": "About 50 RMB in DeepSeek API costs; .mxd opening and PDF/PNG/SVG export working"
+    },
+    "zh-CN": {
+      "title": "用 REA 将 ArcMap 逆向重建为 Mac 应用",
+      "summary": "作者使用 REA 搭配 DeepSeek API 逆向 ArcMap,做出可打开 .mxd、切换与编辑图层、导入 FileGDB、处理符号/标注/布局并导出 PDF/PNG/SVG 的 Mac 应用。仅有作者自述,未见公开代码或测试。",
+      "target": "Esri ArcMap",
+      "metric": "DeepSeek API 约花费 50 元人民币,完成 .mxd 打开与 PDF/PNG/SVG 导出"
+    }
+  },
+  "d-56d030f191": {
+    "hash": "073177d0fd36",
+    "en": {
+      "title": "Reverse-engineering how a Kirby game calls the system SDK, and reproducing the launch in a homebrew program",
+      "summary": "The author used REA to analyze how a Kirby game launches through the system SDK, then launched the game from homebrew using the same API. Based solely on the author's own account; no code or evidence provided.",
+      "target": "Kirby game (system SDK launch mechanism)",
+      "metric": "Game launched from homebrew via the same API"
+    },
+    "zh-CN": {
+      "title": "逆向 Kirby 游戏调用系统 SDK 的方式,并在自制程序中重现启动",
+      "summary": "作者用 REA 分析 Kirby 游戏如何通过系统 SDK 启动,并以相同 API 从 homebrew 启动该游戏。仅有作者自述,未附代码或证据。",
+      "target": "Kirby 游戏(系统 SDK 启动机制)",
+      "metric": "以相同 API 从 homebrew 启动游戏"
+    }
+  },
+  "d-8e935d5ee5": {
+    "hash": "a11e6cd70feb",
+    "en": {
+      "title": "Re-running the LeanREA and REA reverse-engineering benchmark with three new tasks",
+      "summary": "With Ghidra and jadx installed, the run compares three setups: no tools, the LeanREA skill, and the REA MCP, across 7 tasks and 63 runs, plus 21 pilot runs. LeanREA scored 155/156 overall with lower time and cost; REA scored 15/15 on the electron task but was slower and more expensive overall.",
+      "target": "LeanREA and REA reverse-engineering benchmark",
+      "metric": "63 runs across 7 tasks; LeanREA 155/156"
+    },
+    "zh-CN": {
+      "title": "重跑 LeanREA 与 REA 的逆向基准测试并新增三项任务",
+      "summary": "在安装 Ghidra 与 jadx 的条件下,比较无工具、LeanREA 技能与 REA MCP 三种方式,共 7 项任务、63 次运行,另有 21 次试跑。结果 LeanREA 总分 155/156,耗时与成本都较低;REA 在 electron 任务拿到 15/15,但整体较慢、较贵。",
+      "target": "LeanREA 与 REA 的逆向工程基准",
+      "metric": "7 项任务共 63 次运行,LeanREA 155/156"
     }
   }
 }

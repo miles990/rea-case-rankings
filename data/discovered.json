@@ -19,6 +19,27 @@
       "scored_by": "jev"
     },
     {
+      "url": "https://github.com/johnatan28/ghostcomp",
+      "title": "johnatan28/ghostcomp: Experimental static recompilation of Ghost Rider (PS2) using Ghidra, REA, and PS2Recomp",
+      "author": "johnatan28",
+      "date": "2026-11-20",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-20",
+      "relevant": true,
+      "title_zh": "用 Ghidra、REA 與 PS2Recomp 對 PS2《Ghost Rider》做靜態重編譯的實驗專案",
+      "summary": "目標是把 PS2 遊戲《Ghost Rider》(MIPS R5900) 靜態重編譯成可在 PC 原生執行的程式，使用 Ghidra、REA 與 PS2Recomp。目前只完成 Phase 0 環境建置，ELF 分析、重編譯、執行環境與圖形等階段都還是待辦，repo 內也不含遊戲資產或生成程式碼。",
+      "target": "Ghost Rider (PS2, 2007)",
+      "metric": "6 個階段中僅完成環境建置（Phase 0）",
+      "category": "Native / 遊戲",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-20",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/stacylmartin1/leanrea-vs-rea-benchmark",
       "title": "stacylmartin1/leanrea-vs-rea-benchmark: LeanREA vs REA reverse-engineering benchmark, rerun with Ghidra and jadx installed and three new tasks",
       "author": "stacylmartin1",
@@ -36,24 +57,6 @@
       "category": "工具鏈",
       "status": "tested",
       "wow": 3,
-      "scored": "2026-11-20",
-      "scored_by": "sonnet"
-    },
-    {
-      "url": "https://github.com/wpsoul/rea-viral",
-      "title": "wpsoul/rea-viral: REA Viral: an agent skill that reverse engineers what goes viral (why an account grows, why a post ble",
-      "source": "GitHub",
-      "found": "2026-11-20",
-      "relevant": false,
-      "scored": "2026-11-20",
-      "scored_by": "jev"
-    },
-    {
-      "url": "https://github.com/NicoSKOOL/rea-seo",
-      "title": "NicoSKOOL/rea-seo: Free Claude skill by AI Ranking: find out why a site is outranked. Checks 5 to 10 keywords, finds the",
-      "source": "GitHub",
-      "found": "2026-11-20",
-      "relevant": false,
       "scored": "2026-11-20",
       "scored_by": "sonnet"
     },
@@ -372,15 +375,6 @@
       "scored_by": "jev"
     },
     {
-      "url": "https://x.com/OxEnsooo/status/2123418830516961354",
-      "title": "I was paying $99 a year for an X scheduler and using 5 of its features. So I had Opus 5.5 prototype my own version of th",
-      "source": "X",
-      "found": "2026-11-20",
-      "relevant": false,
-      "scored": "2026-11-20",
-      "scored_by": "sonnet"
-    },
-    {
       "url": "https://x.com/ceticismo/status/2123436455255064732",
       "title": "Gente usando REA para fazer suas cópias",
       "author": "@ceticismo",
@@ -421,6 +415,27 @@
       "status": "reported",
       "scored": "2026-11-20",
       "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/nextcode4u/jEnesisDS-Decomp-REA",
+      "title": "nextcode4u/jEnesisDS-Decomp-REA: REA and Ghidra analysis of jEnesisDS 0.7.4 with a byte-matching devkitARM r20 rebuild",
+      "author": "nextcode4u",
+      "date": "2026-11-19",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-20",
+      "relevant": true,
+      "title_zh": "用 REA 與 Ghidra 分析 jEnesisDS 0.7.4，並以 devkitARM r20 重建出逐位元組一致的 ROM",
+      "summary": "目標是 NDS 上的 Genesis 模擬器 jEnesisDS 0.7.4。用 REA 從 Ghidra 匯出 ARM9 與 ARM7 的偽碼，重建啟動程式並連結原始 payload，取得與原版逐位元組一致的 ROM；重建版在 melonDS 1.1 上開機，並用 Genesis 診斷 ROM 驗證 68000 與 VDP。",
+      "target": "jEnesisDS 0.7.4（Nintendo DS 模擬器）",
+      "metric": "匯出 2,879 個 ARM9 與 204 個 ARM7 函式，重建 ROM 與原版逐位元組一致（SHA-256 比對）",
+      "category": "Native / 遊戲",
+      "status": "tested",
+      "wow": 5,
+      "scored": "2026-11-20",
+      "scored_by": "sonnet"
     },
     {
       "url": "https://x.com/birmeya/status/2123102786489295309",
@@ -471,6 +486,52 @@
       "wow": 1,
       "scored": "2026-11-20",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/nurfaizfoat/status/2122968446275330244",
+      "title": "Out of curiosity, I just subscribed to an open-weight, abliterated/uncensored LLM and tried REA an app I use regularly, and tweak it to my c",
+      "author": "@nurfaizfoat",
+      "date": "2026-11-18",
+      "source": "X",
+      "kind": "貼文",
+      "score": 25,
+      "pop": {
+        "likes": 25,
+        "views": 1597
+      },
+      "lang": "en",
+      "found": "2026-11-20",
+      "relevant": true,
+      "title_zh": "作者自述用未審查開源權重 LLM 搭配 REA 改造常用 App",
+      "summary": "作者以一句感想說明，用開源權重的去審查 LLM 搭配 REA 處理自己常用的 App 並依喜好調整。內容沒有指出具體目標、做法或可驗證的成果。",
+      "target": "作者日常使用的 App（未說明）",
+      "metric": "無具體成果，僅自述「沒有護城河」的感想",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-11-20",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/EntropySucker/status/2122901993253654702",
+      "title": "GPT这家伙，自从学会了rea，我没让他rea都自己会调用rea",
+      "author": "@EntropySucker",
+      "date": "2026-11-18",
+      "source": "X",
+      "kind": "貼文",
+      "score": 2,
+      "pop": {
+        "likes": 2,
+        "views": 245
+      },
+      "lang": "zh",
+      "found": "2026-11-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-20",
+      "scored_by": "jev"
     },
     {
       "url": "https://x.com/AI_shizhong/status/2122561059437297844",
@@ -544,6 +605,31 @@
       "scored_by": "jev"
     },
     {
+      "url": "https://x.com/niko70129972/status/2122686326235381762",
+      "title": "目前agy还是无法作为我的主力工作流，只能是当做是去执行长期异步任务的脚本  比如云端用REA去静态和动态去参考致敬多个竞品  因为对它的速度要求不高 只是记的时候偶尔翻一下看看，并且，虽然它的UI设计不如Claude，但是它的交互方面甚至比Claude还要好  既然没有期待 那",
+      "author": "@niko70129972",
+      "date": "2026-11-17",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 52
+      },
+      "lang": "zh",
+      "found": "2026-11-20",
+      "relevant": true,
+      "title_zh": "作者自述用 REA 在雲端對多個競品做靜態與動態分析",
+      "summary": "作者提到目前把 agy 當作長時間非同步任務的腳本，例如在雲端用 REA 對多個競品做靜態與動態分析以參考致敬。內容重點在工作流程心得，沒有具體目標、結果或證據。",
+      "target": "多個競品（未具名）",
+      "metric": "無具體成果，僅自述工作流程用法",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-11-20",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://x.com/Hmountain5/status/2121269175041802695",
       "title": "전반적으로 유사한 UI, 유사한 기능 REA로 카피를뜬건가싶은수준. 피클나올때도 의문이었는데 지금처럼 네오클라우드 주저앉는시기에 무료토큰제공이 어떻게가능한걸까? 요금제가 별도있기는하나 초대시스템을 대부분 이용할테고 무료토큰량이 적지도않고 멀티모달에 이",
       "author": "@Hmountain5",
@@ -602,6 +688,85 @@
       "category": "工具鏈",
       "status": "shipped",
       "wow": 2,
+      "scored": "2026-11-20",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://olive-kyoto.me/rea-reverse-engineer-anything-ai-agent-tool/",
+      "title": "REA（Reverse Engineer Anything）とは？——AIエージェントにソフトの“中身調べ”を任せる無料ツール、できることと法的な注意点 | AI Japan Project",
+      "author": "olive-kyoto.me",
+      "date": "2026-10-21",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "ja",
+      "found": "2026-11-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "scored": "2026-11-20",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://injoys.com/ja/articles/rea-ai-reverse-engineering-performance-and-limits",
+      "title": "REAのAIリバースエンジニアリングの仕組みと性能の限界 - Injoys",
+      "author": "Injoys 編集部",
+      "date": "2026-10-18",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "ja",
+      "found": "2026-11-20",
+      "relevant": true,
+      "title_zh": "Injoys 介紹 REA 的 AI 逆向工程運作方式與效能限制",
+      "summary": "文章說明 REA 如何透過 MCP 讓 AI agent 呼叫逆向工具，並區分分析與原始碼還原的差異。文中提到 DX-Ball 公開案例只驗證特定函式，不代表整個遊戲已完成重建，同時說明伺服器端程式碼無法靠分析 App 取得。",
+      "target": "REA 概念說明與 DX-Ball 公開案例（評論性質）",
+      "metric": "指出 DX-Ball 案例僅驗證特定函式，並非完整重建",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-11-20",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://motitory.com/ja/blog/rea-reverse-engineer-anything",
+      "title": "REA（Reverse Engineer Anything）まとめ：エージェントと解析ツールのつなぎ方、学ぶこと、注目点 · Motitory",
+      "author": "motitory.com",
+      "date": "2026-10-14",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "ja",
+      "found": "2026-11-20",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "shipped",
+      "scored": "2026-11-20",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/wpsoul/rea-viral",
+      "title": "wpsoul/rea-viral: REA Viral: an agent skill that reverse engineers what goes viral (why an account grows, why a post ble",
+      "source": "GitHub",
+      "found": "2026-11-20",
+      "relevant": false,
+      "scored": "2026-11-20",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/NicoSKOOL/rea-seo",
+      "title": "NicoSKOOL/rea-seo: Free Claude skill by AI Ranking: find out why a site is outranked. Checks 5 to 10 keywords, finds the",
+      "source": "GitHub",
+      "found": "2026-11-20",
+      "relevant": false,
+      "scored": "2026-11-20",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/OxEnsooo/status/2123418830516961354",
+      "title": "I was paying $99 a year for an X scheduler and using 5 of its features. So I had Opus 5.5 prototype my own version of th",
+      "source": "X",
+      "found": "2026-11-20",
+      "relevant": false,
       "scored": "2026-11-20",
       "scored_by": "sonnet"
     },
@@ -56195,6 +56360,35 @@
   "runs": [
     {
       "date": "2026-11-20",
+      "added": 8,
+      "stats": {
+        "githubShowAndTell": 18,
+        "githubRepos": 248,
+        "githubCode": 45,
+        "hackerNews": 28,
+        "qiita": 51,
+        "devto": 150,
+        "juejin": 4,
+        "reddit": 20,
+        "v2ex": "error: fetch failed",
+        "youtube": 90,
+        "bluesky": 162,
+        "mastodon": 160,
+        "exaWeb": 60,
+        "x": 16
+      },
+      "scoring": {
+        "scored": 5,
+        "jev": {
+          "low": 3,
+          "irrelevant": 0,
+          "errors": 0,
+          "toClaude": 5
+        }
+      }
+    },
+    {
+      "date": "2026-11-20",
       "added": 31,
       "stats": {
         "githubShowAndTell": 18,
@@ -57037,36 +57231,7 @@
           "toClaude": 4
         }
       }
-    },
-    {
-      "date": "2026-11-05",
-      "added": 41,
-      "stats": {
-        "githubShowAndTell": 13,
-        "githubRepos": 243,
-        "githubCode": 48,
-        "hackerNews": 24,
-        "qiita": 48,
-        "devto": 150,
-        "juejin": 5,
-        "reddit": 5,
-        "v2ex": 14,
-        "youtube": 90,
-        "bluesky": 162,
-        "mastodon": 160,
-        "exaWeb": 59,
-        "x": 30
-      },
-      "scoring": {
-        "scored": 27,
-        "jev": {
-          "low": 9,
-          "irrelevant": 5,
-          "errors": 0,
-          "toClaude": 27
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-20T00:24:21.122Z"
+  "updatedAt": "2026-11-20T04:38:13.740Z"
 }

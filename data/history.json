@@ -71376,9 +71376,10 @@
     },
     {
       "date": "2026-11-20",
-      "stars": 469983,
-      "stars_delta": 1427,
+      "stars": 470268,
+      "stars_delta": 1712,
       "new": [
+        "d-6531f88945",
         "d-c3193be7ee",
         "d-56d030f191",
         "d-8e935d5ee5",
@@ -71387,50 +71388,44 @@
         "d-19b1434059",
         "d-d9da72993b",
         "d-0b1a744ee4",
+        "d-0daf5b74b0",
         "d-8810654dcf"
       ],
       "stats": {
-        "count": 9,
+        "count": 11,
         "wow": {
-          "2": 6,
+          "2": 7,
           "3": 2,
-          "4": 1
+          "4": 1,
+          "5": 1
         },
         "type": {
-          "case": 3,
+          "case": 5,
           "app": 5,
           "news": 1
         },
         "status": {
+          "tested": 4,
           "reported": 4,
-          "tested": 3,
-          "shipped": 2
+          "shipped": 3
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 星數破 46.9 萬,LeanREA 輕量方案挑戰 MCP 成本",
-          "summary": "星數增至 469,983(單日增加 1,427)。當天最受矚目的是兩則 LeanREA 基準測試:以約 8 KB 的 skill 取代 REA 的 MCP,在 7 項任務、63 次執行中得 155/156,成本與耗時較低;REA 則在 electron 任務拿到 15/15,但較慢、較貴。另一則對照測試也指出,有無 REA 都能解開同一支程式,使用 REA 成本約高 3 倍。案例面有 ArcMap 重建為 Mac 應用、Kirby 啟動呼叫重現等,但多為作者自述,尚無公開程式碼或證據可驗證。"
+          "headline": "REA 星數破 47 萬,位元組級重建 NDS 模擬器與輕量化爭論並行",
+          "summary": "REA 的 GitHub 星數來到 470268,比前一個紀錄增加 1712。今天最有分量的是 jEnesisDS 0.7.4 案例:作者用 REA 搭配 Ghidra,以 devkitARM r20 重建出與原版逐位元組一致的 ROM,並在 melonDS 上以診斷 ROM 驗證,是少見附有驗證的成果。另一條主線是成本與工具面:LeanREA 以 8 KB skill 取代 MCP,在基準測試中近乎持平且成本較低,另有對照測試指出用 REA 成本約高三倍;其餘 ArcMap、Kirby 等案例僅有作者自述,尚無公開證據。"
         },
         "en": {
-          "headline": "REA passes 469K stars as LeanREA challenges MCP cost",
-          "summary": "Stars rose to 469,983 (+1,427 in a day). The standout items are two LeanREA benchmarks: an ~8 KB skill replacing REA's MCP scored 155/156 across 7 tasks and 63 runs at lower cost and time, while REA hit 15/15 on the electron task but was slower and pricier. A separate side-by-side test also found both approaches solved the same mystery program, with REA costing about 3x more. Case reports, such as rebuilding ArcMap as a Mac app and reproducing a Kirby launch call, are mostly self-reported with no public code or evidence to verify."
+          "headline": "REA passes 470K stars: byte-exact NDS rebuild alongside a lean-tooling debate",
+          "summary": "REA's GitHub stars reached 470,268, up 1,712 from the previous record. The standout item is the jEnesisDS 0.7.4 case: the author used REA with Ghidra to rebuild a ROM byte-identical to the original with devkitARM r20, and checked it in melonDS with diagnostic ROMs, which is rare verified work. The other thread is cost and tool surface: LeanREA's 8 KB skill replaces the MCP with near-equal benchmark scores at lower cost, and a side-by-side test found REA about three times costlier. Other cases such as ArcMap and Kirby rest on the authors' own claims with no public evidence yet."
         },
         "zh-CN": {
-          "headline": "REA 星数破 46.9 万,LeanREA 轻量方案挑战 MCP 成本",
-          "summary": "星数增至 469,983(单日增加 1,427)。当天最受关注的是两则 LeanREA 基准测试:以约 8 KB 的 skill 取代 REA 的 MCP,在 7 项任务、63 次运行中得 155/156,成本与耗时更低;REA 则在 electron 任务拿到 15/15,但更慢、更贵。另一则对照测试也指出,有无 REA 都能解开同一个程序,使用 REA 成本约高 3 倍。案例方面有 ArcMap 重建为 Mac 应用、Kirby 启动调用重现等,但多为作者自述,尚无公开代码或证据可验证。"
+          "headline": "REA 星数破 47 万,字节级重建 NDS 模拟器与轻量化之争并行",
+          "summary": "REA 的 GitHub 星数达到 470268,比上一个纪录增加 1712。今天最有分量的是 jEnesisDS 0.7.4 案例:作者用 REA 搭配 Ghidra,以 devkitARM r20 重建出与原版逐字节一致的 ROM,并在 melonDS 上用诊断 ROM 验证,是少见附有验证的成果。另一条主线是成本与工具面:LeanREA 以 8 KB skill 取代 MCP,在基准测试中近乎持平且成本更低,另有对照测试指出使用 REA 成本约高三倍;其余 ArcMap、Kirby 等案例仅有作者自述,尚无公开证据。"
         }
       },
-      "signals": [
-        "F",
-        "B",
-        "G"
-      ],
-      "highlights": [
-        "d-8e935d5ee5",
-        "d-0b1a744ee4",
-        "d-c3193be7ee"
-      ],
+      "signals": [],
+      "highlights": [],
       "rank": [
         "dx-ball-sound-pan",
         "obsidian-quick-switcher",
@@ -71451,6 +71446,7 @@
         "zwo-asiair",
         "d-c2133517a2",
         "d-46649d8806",
+        "d-6531f88945",
         "d-8dd011e0dc",
         "d-24170ace51",
         "d-4fc1509395",
@@ -72460,6 +72456,7 @@
         "d-40c0474406",
         "d-49c3fe3859",
         "heartland-side-effects",
+        "d-0daf5b74b0",
         "d-97efc9ed66",
         "d-3b43d64ab3",
         "d-c60458dd20",
@@ -72973,6 +72970,7 @@
         "d-fbe1318da1",
         "d-b459ed93cc",
         "d-e90ed175c1",
+        "d-4322a169b4",
         "d-84dd027ce5",
         "d-e7a32c316d",
         "d-2ec3b33c8d",
@@ -73095,6 +73093,7 @@
         "d-b4b9c4170b",
         "d-f2965ebbaf",
         "d-0697816d39",
+        "d-39b94db750",
         "d-2bb97d458c",
         "d-c68e182143",
         "d-4de11ef5b1",
@@ -73378,6 +73377,7 @@
         "d-81fd52627f",
         "d-0ffc442fb4",
         "d-365e525168",
+        "d-b19b249db1",
         "d-dddb890666",
         "d-ab2b6d4ed8",
         "d-319cdeb3a5",
@@ -73548,6 +73548,7 @@
         "d-1d87327f53",
         "d-c2bfe0bbc8",
         "d-cb4ab0e58c",
+        "d-204f79af1f",
         "d-74a572076a",
         "d-1b62a0e0d8",
         "d-a68387ca4c",
@@ -73589,6 +73590,7 @@
         "d-866d973de1",
         "d-569595e846",
         "d-a99a7dbce2",
+        "d-c1df95e437",
         "d-93e97984a0",
         "d-e2c85e3809",
         "d-839ec4dd92",
@@ -73790,6 +73792,7 @@
         "d-1b8f85ff9a",
         "d-10f53d8787",
         "d-5e39b4b560",
+        "d-3aeeb5f3c7",
         "d-5ba5858696",
         "d-ebcf1c876f",
         "d-2890a54847",
@@ -74034,37 +74037,38 @@
     "to": "2026-11-20",
     "text": {
       "zh-TW": {
-        "headline": "REA 從展示重建走向講求驗證，並開始比拼成本",
-        "summary": "本週星數由約 45.8 萬升至近 47 萬，但單日增幅從 2,280 降到 1,427。月初的案例以藍牙、驅動與 App 複製為主，展現功能容易被仿製與硬體互通的需求。中段出現 27 個 Agent 重建 10 款付費 App、與原版一致度升至 97% 的自述，以及附證據紀錄的黑箱逆向，驗證成為討論重點。11 月 19 日出現用 REA 靜態審查 npm MCP 套件的實測，在自建夾具上 13 個植入行為全數命中、0 誤報。11 月 20 日 LeanREA 以約 8 KB 的 skill 取代 MCP，成績接近且成本較低，焦點轉向效率。多數成果仍為作者自述。",
-        "watch": "接下來可留意 LeanREA 與 REA 的成本與準確度對比是否有人獨立重現，以及靜態審查、差異測試這類附證據的工作流是否有公開程式碼。想找機會的人，可考慮做驗證與評分工具、輕量化的接入方式，或硬體與舊軟體的重建服務，並優先選擇有公開 repo 或測試的案例當參考。"
+        "headline": "REA 從炫技重建轉向可驗證成果，並延伸到硬體與跨平台",
+        "summary": "週初（11/14–16）以功能複製與規模化展示為主，從重建計算機、Discord 客戶端到「27 個 Agent 重建 10 款付費 App」，多為作者自述。中段焦點轉向硬體互通，如 Logitech HID++、Linux 驅動與 Echo Dot 韌體分析，並出現針對 REA 的防禦工具。週末起驗證與證據明顯增加：npm MCP 套件靜態審查 13/13 命中、0 誤報，jEnesisDS 以 Ghidra 比對做到逐位元組一致的 ROM。同時生態持續擴張（Termux、Nix、DeepSeek 外掛），成本議題也浮現：LeanREA 以 8KB skill 取代 MCP，另有測試指出成本約高三倍。整體星數穩定成長至 47 萬，但單日增幅由 2280 降至 1712。",
+        "watch": "留意附公開 repo、測試或逐位元組比對的案例，這類驗證型成果最有參考價值，也是工具與服務的切入點。可關注輕量化（skill 取代 MCP）與成本基準測試的後續，以及針對 REA 的防禦工具（BLA、REAegis）是否形成新需求。硬體協定逆向與舊軟體保存仍是穩定的機會領域。"
       },
       "en": {
-        "headline": "REA shifts from showy rebuilds to verification and cost competition",
-        "summary": "Stars rose from about 458K to nearly 470K this week, but the daily gain slowed from 2,280 to 1,427. Early cases centered on Bluetooth, drivers and app cloning, showing both how easily features get copied and the demand for hardware interop. Midweek brought a self-reported run of 27 agents rebuilding 10 paid apps to 97% parity, plus a black-box teardown with evidence logs, putting verification in focus. On Nov 19, a static audit of npm MCP packages found 13 of 13 planted behaviors with 0 false positives on a self-built fixture. On Nov 20, LeanREA's roughly 8 KB skill replaced the MCP at near-equal scores and lower cost, moving the discussion to efficiency. Most results remain self-reported.",
-        "watch": "Watch whether anyone independently reproduces the LeanREA vs REA cost and accuracy comparison, and whether evidence-backed workflows such as static audits and differential tests get public code. For opportunities, consider verification and grading tools, lightweight integration paths, or rebuild services for hardware and legacy software, using cases with public repos or tests as references."
+        "headline": "REA shifts from flashy rebuilds to verifiable results, spreading into hardware and new platforms",
+        "summary": "Early in the week (Nov 14–16) the focus was feature cloning and scale, from a rebuilt Windows calculator and Discord client to '27 agents rebuilding 10 paid apps', mostly self-reported. The middle of the week turned to hardware interop, such as Logitech HID++, Linux drivers and Echo Dot firmware analysis, and defenses aimed at REA appeared. Verification then became more visible: a static audit of npm MCP packages hit 13/13 implants with 0 false positives, and jEnesisDS was rebuilt as a byte-identical ROM using Ghidra. The ecosystem kept expanding (Termux, Nix, a DeepSeek plugin) while cost surfaced as an issue: LeanREA swaps MCP for an 8 KB skill, and one comparison claims REA costs about 3x more. Stars climbed steadily to 470k, though the daily gain slowed from 2,280 to 1,712.",
+        "watch": "Look for cases backed by public repos, tests or byte-level comparison; these verified results are the most credible and the best entry point for tools and services. Follow the lightweight (skill instead of MCP) and cost-benchmark threads, and whether anti-REA defenses like BLA and REAegis turn into real demand. Hardware protocol reverse engineering and legacy software preservation remain steady opportunity areas."
       },
       "zh-CN": {
-        "headline": "REA 从展示重建走向讲求验证，并开始比拼成本",
-        "summary": "本周星数由约 45.8 万升至近 47 万，但单日增幅从 2,280 降到 1,427。月初的案例以蓝牙、驱动与 App 复制为主，体现功能容易被仿制以及硬件互通的需求。中段出现 27 个 Agent 重建 10 款付费 App、与原版一致度升至 97% 的自述，以及附证据记录的黑盒逆向，验证成为讨论重点。11 月 19 日出现用 REA 静态审查 npm MCP 包的实测，在自建夹具上 13 个植入行为全部命中、0 误报。11 月 20 日 LeanREA 以约 8 KB 的 skill 取代 MCP，成绩接近且成本更低，焦点转向效率。多数成果仍为作者自述。",
-        "watch": "接下来可留意 LeanREA 与 REA 的成本和准确度对比是否有人独立复现，以及静态审查、差分测试这类附证据的工作流是否有公开代码。想找机会的人，可考虑做验证与评分工具、轻量化的接入方式，或硬件与旧软件的重建服务，并优先选择有公开 repo 或测试的案例作参考。"
+        "headline": "REA 从炫技重建转向可验证成果，并延伸到硬件与跨平台",
+        "summary": "周初（11/14–16）以功能复制与规模化展示为主，从重建计算器、Discord 客户端到“27 个 Agent 重建 10 款付费 App”，多为作者自述。中段焦点转向硬件互通，如 Logitech HID++、Linux 驱动与 Echo Dot 固件分析，并出现针对 REA 的防御工具。周末起验证与证据明显增加：npm MCP 包静态审查 13/13 命中、0 误报，jEnesisDS 借助 Ghidra 做到逐字节一致的 ROM。同时生态持续扩张（Termux、Nix、DeepSeek 插件），成本议题也浮现：LeanREA 以 8KB skill 取代 MCP，另有测试指出成本约高三倍。整体星数稳定增长至 47 万，但单日增幅由 2280 降至 1712。",
+        "watch": "留意附公开 repo、测试或逐字节比对的案例，这类验证型成果最有参考价值，也是工具与服务的切入点。可关注轻量化（skill 取代 MCP）与成本基准测试的后续，以及针对 REA 的防御工具（BLA、REAegis）是否形成新需求。硬件协议逆向与旧软件保存仍是稳定的机会领域。"
       }
     },
     "rising": [
       "B",
+      "C",
+      "D",
       "G"
     ],
     "fading": [
-      "A",
       "E"
     ],
     "tally": {
       "A": 2,
-      "B": 4,
+      "B": 3,
       "C": 4,
       "D": 4,
       "E": 1,
-      "F": 2,
-      "G": 4
+      "F": 1,
+      "G": 3
     }
   }
 }

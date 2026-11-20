@@ -22543,5 +22543,35 @@
       "target": "LeanREA 与 REA 的逆向工程基准",
       "metric": "7 项任务共 63 次运行,LeanREA 155/156"
     }
+  },
+  "d-6531f88945": {
+    "hash": "e76aa01a218a",
+    "en": {
+      "title": "Analyzing jEnesisDS 0.7.4 with REA and Ghidra, and rebuilding a byte-identical ROM with devkitARM r20",
+      "summary": "The target is jEnesisDS 0.7.4, a Genesis emulator for the NDS. REA was used to export ARM9 and ARM7 pseudocode from Ghidra, rebuild the bootstrap, and link the original payload, producing a ROM byte-identical to the original. The rebuilt ROM boots on melonDS 1.1, and a Genesis diagnostic ROM was used to verify the 68000 and VDP.",
+      "target": "jEnesisDS 0.7.4 (Nintendo DS emulator)",
+      "metric": "Exported 2,879 ARM9 and 204 ARM7 functions; the rebuilt ROM is byte-identical to the original (verified by SHA-256)"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Ghidra 分析 jEnesisDS 0.7.4,并以 devkitARM r20 重建出逐字节一致的 ROM",
+      "summary": "目标是 NDS 上的 Genesis 模拟器 jEnesisDS 0.7.4。通过 REA 从 Ghidra 导出 ARM9 与 ARM7 的伪代码,重建启动程序并链接原始 payload,得到与原版逐字节一致的 ROM;重建版在 melonDS 1.1 上可正常启动,并用 Genesis 诊断 ROM 验证了 68000 与 VDP。",
+      "target": "jEnesisDS 0.7.4(Nintendo DS 模拟器)",
+      "metric": "导出 2,879 个 ARM9 与 204 个 ARM7 函数,重建 ROM 与原版逐字节一致(SHA-256 比对)"
+    }
+  },
+  "d-0daf5b74b0": {
+    "hash": "927eef9efcb5",
+    "en": {
+      "title": "An experimental static recompilation of PS2 Ghost Rider using Ghidra, REA, and PS2Recomp",
+      "summary": "The goal is to statically recompile the PS2 game Ghost Rider (MIPS R5900) into a program that runs natively on PC, using Ghidra, REA, and PS2Recomp. Only Phase 0 (environment setup) is done so far; ELF analysis, recompilation, the runtime, and graphics are still to do, and the repo contains no game assets or generated code.",
+      "target": "Ghost Rider (PS2, 2007)",
+      "metric": "Only environment setup (Phase 0) is complete, out of 6 phases"
+    },
+    "zh-CN": {
+      "title": "用 Ghidra、REA 与 PS2Recomp 对 PS2《Ghost Rider》做静态重编译的实验项目",
+      "summary": "目标是把 PS2 游戏《Ghost Rider》(MIPS R5900) 静态重编译成可在 PC 上原生运行的程序,使用 Ghidra、REA 与 PS2Recomp。目前仅完成 Phase 0 环境搭建,ELF 分析、重编译、运行环境与图形等阶段仍待完成,repo 中也不包含游戏资源或生成的代码。",
+      "target": "Ghost Rider(PS2,2007)",
+      "metric": "6 个阶段中仅完成环境搭建(Phase 0)"
+    }
   }
 }

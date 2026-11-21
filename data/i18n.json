@@ -22783,5 +22783,80 @@
       "target": "Contra (USA) NES ROM 与 Notion 桌面端",
       "metric": "20 多分钟做出核心手感约 80% 的可玩版"
     }
+  },
+  "d-c84daf5019": {
+    "hash": "83258d86e71f",
+    "en": {
+      "title": "A Local MCP Workbench Unifying REA, Craft Anything, and Source Code Analysis",
+      "summary": "A local MCP server with 14 tools that combines REA, Craft Anything, and analyses such as Tree-sitter, Semgrep, Git history, and crash stacks into an evidence-traced debugging and investigation workflow. Ships with install, test, and doctor checks, and its backend integration has been verified on macOS arm64.",
+      "target": "General application debugging and reverse-engineering investigation workflow",
+      "metric": "14 MCP tools; backend integration verified on macOS arm64"
+    },
+    "zh-CN": {
+      "title": "整合 REA、Craft Anything 与源代码分析的本地 MCP 工作台",
+      "summary": "提供 14 个工具的本地 MCP 服务器,将 REA、Craft Anything 与 Tree-sitter、Semgrep、Git 历史、崩溃堆栈等分析整合为带证据追踪的调试与调查流程。附带安装、测试与 doctor 检查,并已在 macOS arm64 上验证后端集成。",
+      "target": "通用应用程序调试与逆向调查流程",
+      "metric": "14 个 MCP 工具,macOS arm64 后端集成已验证"
+    }
+  },
+  "d-858d55b93f": {
+    "hash": "78cd7a0ded1f",
+    "en": {
+      "title": "Using REA to Take Apart Four AI Coding Tools and Uncover Each One's Local Communication Mechanism",
+      "summary": "The author used REA to reverse-engineer Codex desktop, Antigravity, OpenCode and Claude Code without installing anything inside the apps. Findings: Codex uses a local IPC socket (length-prefixed JSON), Antigravity's language server uses Connect-RPC, OpenCode runs a local HTTP server, and Claude Code uses a peer socket.",
+      "target": "Codex desktop, Antigravity, OpenCode, Claude Code",
+      "metric": "Identified the local communication protocol of each of 4 apps"
+    },
+    "zh-CN": {
+      "title": "用 REA 拆解四款 AI 编码工具,找出各自的本地通信机制",
+      "summary": "作者用 REA 逆向 Codex 桌面版、Antigravity、OpenCode 和 Claude Code,无需在应用内安装任何东西。结果发现:Codex 使用本地 IPC socket(长度前缀 JSON),Antigravity 的语言服务器使用 Connect-RPC,OpenCode 使用本地 HTTP 服务器,Claude Code 使用 peer socket。",
+      "target": "Codex desktop、Antigravity、OpenCode、Claude Code",
+      "metric": "识别出 4 款应用各自的本地通信协议"
+    }
+  },
+  "d-11f90c00fe": {
+    "hash": "10738350cbb2",
+    "en": {
+      "title": "A Ghidra Extension for graphify That Turns Binaries into a Queryable Knowledge Graph",
+      "summary": "Exports Ghidra analysis results (functions, call graph, imports, strings, capability tags) or REA output into a graphify knowledge graph, with ranked reading suggestions and call-chain queries. In a callchain test on whoami.exe, it found a 5-level call chain from entry to LookupPrivilegeNameW.",
+      "target": "Windows executables analyzed in Ghidra (e.g. whoami.exe)",
+      "metric": "Found a 5-level call chain from entry to LookupPrivilegeNameW in whoami.exe"
+    },
+    "zh-CN": {
+      "title": "为 graphify 开发 Ghidra 扩展,把二进制转成可查询知识图谱",
+      "summary": "将 Ghidra 分析结果(函数、调用图、导入、字符串、能力标签)或 REA 输出导出为 graphify 知识图谱,并提供排序后的起读建议和沿调用链查询。在 whoami.exe 上实测 callchain,找出了从 entry 到 LookupPrivilegeNameW 的 5 层调用链。",
+      "target": "经 Ghidra 分析的 Windows 可执行文件(如 whoami.exe)",
+      "metric": "在 whoami.exe 上找出 entry 到 LookupPrivilegeNameW 的 5 层调用链"
+    }
+  },
+  "d-42c8e3f66f": {
+    "hash": "7ec8699837f0",
+    "en": {
+      "title": "A Triage Board Sorting Open REA PRs and Issues by the Help They Need",
+      "summary": "For the large backlog of unhandled PRs and issues in morluto/rea, a script (no AI involved) sorts them into five columns by the kind of help needed and generates a static web page, refreshed every 3 hours. This is a supporting maintenance tool for the REA project, not a reverse-engineering of a specific target using REA.",
+      "target": "PRs and issues of morluto/rea",
+      "metric": "A five-column help board that auto-updates every 3 hours"
+    },
+    "zh-CN": {
+      "title": "建立 REA 开放 PR 与 issue 的协助需求分类看板",
+      "summary": "针对 morluto/rea 大量未处理的 PR 与 issue,用脚本(不使用 AI)按所需协助分成五栏并生成静态网页,每 3 小时更新。属于 REA 项目的周边运维工具,并非用 REA 逆向特定目标。",
+      "target": "morluto/rea 的 PR 与 issue",
+      "metric": "每 3 小时自动更新的五栏协助看板"
+    }
+  },
+  "d-37528b9515": {
+    "hash": "2f4740704da6",
+    "en": {
+      "title": "Driving Reverse Engineering with the pi Coding Agent and the REA CLI Through a Custom Session Layer",
+      "summary": "The author has the pi coding agent drive the REA reverse-engineering CLI through a session layer they wrote themselves, noting that both are MIT-licensed. The post only describes the integration architecture, with no concrete reverse-engineering target or result.",
+      "target": "Integration of the pi coding agent and the REA CLI",
+      "metric": "pi agent + REA CLI integrated via a custom session layer"
+    },
+    "zh-CN": {
+      "title": "以 pi coding agent 搭配 REA CLI,通过自制 session 层驱动逆向",
+      "summary": "作者让 pi coding agent 的 agent 通过自己编写的 session 层驱动 REA 逆向 CLI,并说明两者均为 MIT 许可。内容只描述集成架构,没有具体的逆向目标或成果。",
+      "target": "pi coding agent 与 REA CLI 集成",
+      "metric": "pi agent + REA CLI 通过自制 session 层集成"
+    }
   }
 }

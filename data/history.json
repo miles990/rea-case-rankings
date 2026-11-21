@@ -74023,18 +74023,23 @@
     },
     {
       "date": "2026-11-21",
-      "stars": 471485,
-      "stars_delta": 1217,
+      "stars": 471682,
+      "stars_delta": 1414,
       "new": [
         "d-733cc261ac",
         "d-aff84a993f",
         "d-6af8096b4f",
         "d-31a4697cd9",
         "d-c47e834e7c",
+        "d-858d55b93f",
         "d-560ebab578",
+        "d-11f90c00fe",
         "d-986a902143",
         "d-a7b2127f0d",
+        "d-42c8e3f66f",
+        "d-37528b9515",
         "d-9f509e819d",
+        "d-c84daf5019",
         "d-b8de3056d6",
         "d-0d5da3ae8d",
         "d-d174df8569",
@@ -74042,47 +74047,47 @@
         "d-149dc3953c"
       ],
       "stats": {
-        "count": 14,
+        "count": 19,
         "wow": {
-          "2": 7,
-          "3": 3,
+          "2": 10,
+          "3": 5,
           "4": 3,
           "5": 1
         },
         "type": {
-          "case": 8,
-          "app": 4,
+          "case": 9,
+          "app": 8,
           "learn": 2
         },
         "status": {
           "tested": 3,
-          "shipped": 5,
-          "reported": 6
+          "shipped": 8,
+          "reported": 8
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 逆向成果集中在遊戲重建，DX-Ball 達位元組級一致",
-          "summary": "當天最亮眼的是 DX-Ball 1.07 案例：270 個函式、84,968 位元組重新編譯後與原檔逐位元組一致，並能在 Wine 執行。其他高分項目也多是遊戲或客戶端的還原，包括《魂斗羅》網頁重寫、PS2《Ghost Rider》靜態重編譯，以及飛書 Mac 客戶端多開。REA 星數增加 1217，達 471485。低分項目多是工具、外掛與安裝教學，少數作者自述沒附證據，顯示可驗證的成果仍是少數。"
+          "headline": "REA 逆向成果落地：1996 年 DX-Ball 重建達 270 函式位元組級一致",
+          "summary": "星數來到 471,682，比前一個紀錄增加 1,414。今天最有分量的是 DX-Ball 1.07 案例：Codex 搭配 REA 重建 270 個函式、84,968 位元組，用 Visual C++ 4.0 重編後與原檔逐位元組一致，並以 Wine 實測通關到第三關。其他案例包含飛書 Mac 多開、PS2《Ghost Rider》靜態重編譯與《魂斗羅》網頁重寫，遊戲與老軟體仍是主軸；周邊工具（橋接層技能、MCP 工作台、graphify 擴充）也持續增加。多款 AI 模型比較與嬰兒 App 分析僅為作者自述，缺乏證據檔。"
         },
         "en": {
-          "headline": "REA results cluster in game rebuilds; DX-Ball matches byte for byte",
-          "summary": "The standout is the DX-Ball 1.07 case: 270 functions and 84,968 bytes recompiled and matched the original byte for byte, and the rebuild runs under Wine. Other top items are also game or client reconstructions: a playable Contra web rewrite, a static recompilation of PS2 Ghost Rider, and a multi-instance Feishu Mac client. REA stars rose by 1,217 to 471,485. Lower-ranked items are mostly tooling, plugins and setup guides, and a few self-reported claims come without evidence, so verifiable results remain the minority."
+          "headline": "REA delivers: 1996 DX-Ball rebuilt with 270 byte-identical functions",
+          "summary": "GitHub stars reached 471,682, up 1,414 from the previous record. The standout is the DX-Ball 1.07 case: Codex with REA rebuilt 270 functions (84,968 bytes), recompiled with Visual C++ 4.0 and matched the original byte for byte, then ran under Wine through level three. Other cases include a multi-instance Feishu Mac client, static recompilation of PS2 Ghost Rider, and a playable Contra web rewrite, so games and legacy software remain the core theme, while auxiliary tooling (bridge-layer skill, MCP workbench, graphify extension) keeps growing. The multi-model router firmware comparison and baby-app teardown are self-reported with no evidence files."
         },
         "zh-CN": {
-          "headline": "REA 逆向成果集中在游戏重建，DX-Ball 达字节级一致",
-          "summary": "当天最亮眼的是 DX-Ball 1.07 案例：270 个函数、84,968 字节重新编译后与原文件逐字节一致，并能在 Wine 运行。其他高分项目也多是游戏或客户端的还原，包括《魂斗罗》网页重写、PS2《Ghost Rider》静态重编译，以及飞书 Mac 客户端多开。REA 星数增加 1217，达 471485。低分项目多是工具、插件与安装教程，少数作者自述没附证据，说明可验证的成果仍是少数。"
+          "headline": "REA 逆向成果落地：1996 年 DX-Ball 重建达 270 函数字节级一致",
+          "summary": "星数达到 471,682，比之前的纪录增加 1,414。今天最有分量的是 DX-Ball 1.07 案例：Codex 搭配 REA 重建 270 个函数、84,968 字节，用 Visual C++ 4.0 重新编译后与原文件逐字节一致，并在 Wine 中实测玩到第三关。其他案例包括飞书 Mac 多开、PS2《Ghost Rider》静态重编译与《魂斗罗》网页重写，游戏与老软件仍是主轴；周边工具（桥接层技能、MCP 工作台、graphify 扩展）也在持续增加。多模型路由器固件对比与婴儿 App 分析仅为作者自述，缺少证据文件。"
         }
       },
       "signals": [
-        "C",
         "B",
+        "C",
         "A"
       ],
       "highlights": [
         "d-733cc261ac",
-        "d-31a4697cd9",
-        "d-aff84a993f"
+        "d-aff84a993f",
+        "d-6af8096b4f"
       ],
       "rank": [
         "dx-ball-sound-pan",
@@ -74478,6 +74483,7 @@
         "d-23bb627776",
         "d-7865c24368",
         "d-a8f3fa7f6a",
+        "d-858d55b93f",
         "d-404af97bf0",
         "d-54364f0845",
         "d-18e63554ed",
@@ -74598,6 +74604,7 @@
         "d-99bd005042",
         "d-95812085d2",
         "kingy-notes-exporter",
+        "d-11f90c00fe",
         "d-0072a79fc9",
         "d-08cb777759",
         "d-b8192dac1f",
@@ -74951,6 +74958,7 @@
         "d-474313631a",
         "d-d3c3a5e30d",
         "d-58c16f12d8",
+        "d-42c8e3f66f",
         "d-8bb10fca91",
         "d-c4e1b59b08",
         "d-cd8be7663e",
@@ -74998,6 +75006,7 @@
         "d-2ae836da21",
         "d-bd181ec8c5",
         "d-e4a8cb395f",
+        "d-37528b9515",
         "d-e166572be7",
         "d-97cc6611d2",
         "d-3e5cba43bc",
@@ -75123,6 +75132,7 @@
         "d-40c0474406",
         "d-49c3fe3859",
         "heartland-side-effects",
+        "d-c84daf5019",
         "d-b8de3056d6",
         "d-0d5da3ae8d",
         "d-0daf5b74b0",
@@ -75977,6 +75987,7 @@
         "d-15493ac0e3",
         "d-1d5883af5b",
         "d-1480a7cf0c",
+        "d-669a0e2cfc",
         "d-1f8c491073",
         "d-506b909eef",
         "d-50bdd3a72d",
@@ -76059,6 +76070,7 @@
         "d-81fd52627f",
         "d-0ffc442fb4",
         "d-365e525168",
+        "d-b2da5d35ac",
         "d-b19b249db1",
         "d-dddb890666",
         "d-ab2b6d4ed8",
@@ -76088,6 +76100,7 @@
         "d-aeedf9cffd",
         "d-0c184ab02d",
         "d-934a047ebe",
+        "d-28fd8cbf45",
         "d-7b34a7c27e",
         "d-be540166e7",
         "d-c6c739f522",
@@ -76146,6 +76159,7 @@
         "d-aefcaff5ff",
         "d-aa2e3a7f53",
         "d-72c8247b80",
+        "d-9307d42a78",
         "d-46104f71f9",
         "d-48a8956cd7",
         "d-d63249af6e",
@@ -76194,6 +76208,7 @@
         "d-adfbebad69",
         "d-23b709a338",
         "d-b7d24e5410",
+        "d-75ace5745c",
         "d-5d00da8e82",
         "d-8e630ad320",
         "d-b79e54a304",
@@ -76323,6 +76338,7 @@
         "d-e776c1c4c1",
         "d-2761852b3d",
         "d-2f09a54a93",
+        "d-3f672e99f9",
         "d-8a9f3baddf",
         "d-003545dc3c",
         "d-863f19abbc",
@@ -76724,29 +76740,30 @@
     "to": "2026-11-21",
     "text": {
       "zh-TW": {
-        "headline": "REA 從展示走向可驗證重建，遊戲與硬體並進，成本之爭浮現",
-        "summary": "本週星數從 46 萬升至 47.1 萬，每日約增 1,200 至 2,250，但增速逐日放緩。11/15–16 的焦點是實戰成果與大規模重建（含自述 18 天重建 10 款付費 App），多為作者自述；11/17 轉向硬體，如 Logitech HID++ 協定與 Echo Dot 韌體分析。11/19 起出現靜態審查 npm MCP 套件等帶量化結果的案例，11/20–21 則出現 NDS 與 DX-Ball 的逐位元組一致重建，驗證門檻明顯提高。遺留軟體重建（C）全週出現 5 天，是最穩定的主線；成本與輕量化（F）在 11/20 才出現，LeanREA 以 8 KB skill 取代 MCP。",
-        "watch": "可留意是否有更多案例附上逐位元組比對、差異測試或證據紀錄，沒有這些的自述成果可信度較低。遊戲與舊軟體重建（C）仍是最容易跟進的切入點，成本與輕量工具（F）的基準測試也值得追蹤；另外可觀察防禦工具（如 BLA、REAegis）與模型拒絕問題（E）是否持續出現。"
+        "headline": "REA 從展示走向可驗證重建，並擴及硬體與安全審查",
+        "summary": "本週星數由 460214 升至 471682，但每日增幅從 2254 逐步降至 1414，熱度趨於平穩。內容從 11/15 的驅動與伺服器實戰、11/16 的大規模重建付費 App，轉到 11/17 的硬體協定逆向（Hubless、Echo Dot），再到 11/19 的 npm MCP 套件靜態審查。11/20 與 11/21 出現 NDS 模擬器與 DX-Ball 的逐位元組一致重建，並以模擬器或 Wine 實測，驗證成為主軸。遊戲與舊軟體重建全週最常出現（5 天），周邊工具與平台移植（Termux、arm64、Windows）持續擴張；成本爭論（LeanREA、約三倍成本）與模型拒絕使用則僅零星出現。",
+        "watch": "留意是否有更多附位元組比對、差異測試或證據檔的案例，而非僅作者自述；這類可驗證成果最值得跟進。可關注把 REA 用於硬體協定、MCP／npm 供應鏈審查與舊軟體遷移的做法，以及輕量化 skill 與成本對照是否有後續獨立複測。"
       },
       "en": {
-        "headline": "REA shifts from demos to verifiable rebuilds; games and hardware advance, cost debate emerges",
-        "summary": "Stars rose from about 460K to 471K this week, adding roughly 1,200–2,250 per day, though daily gains slowed. On 11/15–16 the focus was real-world results and large-scale rebuilds (including a self-reported 10 paid apps in 18 days), mostly author claims; 11/17 turned to hardware, such as Logitech HID++ protocols and Echo Dot firmware analysis. From 11/19, cases with quantified results appeared, such as statically auditing npm MCP packages, and on 11/20–21 byte-identical rebuilds of an NDS emulator and DX-Ball raised the verification bar. Legacy software rebuilding (C) appeared on 5 of 7 days and was the steadiest thread; cost and slimming (F) only surfaced on 11/20, with LeanREA replacing MCP with an 8 KB skill.",
-        "watch": "Watch whether more cases ship byte-level comparisons, differential tests or evidence logs; self-reported results without them deserve less trust. Game and old-software rebuilds (C) remain the easiest entry point to follow, and cost/lightweight-tooling benchmarks (F) are worth tracking. Also see whether defensive tools (BLA, REAegis) and model refusal issues (E) keep recurring."
+        "headline": "REA moves from demos to verifiable rebuilds, spreading into hardware and security audits",
+        "summary": "Stars rose from 460,214 to 471,682 this week, though daily gains slowed from 2,254 to 1,414. Coverage shifted from Linux drivers and servers (11/15) and mass rebuilds of paid apps (11/16) to hardware protocol work such as Hubless and Echo Dot (11/17), then static audits of npm MCP packages (11/19). On 11/20 and 11/21, byte-identical rebuilds of an NDS emulator and DX-Ball, checked on an emulator and Wine, made verification the main theme. Legacy software and games appeared most often (5 days), while tooling and ports (Termux, arm64, Windows) kept expanding; cost debates (LeanREA, ~3x cost) and model refusals surfaced only occasionally.",
+        "watch": "Look for more cases that ship byte comparisons, differential tests or evidence files rather than self-reports alone; those are the most credible to follow. Applying REA to hardware protocols, MCP/npm supply-chain audits and legacy migration looks promising, as does whether the lightweight skill and cost comparisons get independent re-tests."
       },
       "zh-CN": {
-        "headline": "REA 从展示走向可验证重建，游戏与硬件并进，成本之争浮现",
-        "summary": "本周星数从 46 万升至 47.1 万，每日约增 1,200 至 2,250，但增速逐日放缓。11/15–16 的焦点是实战成果与大规模重建（含自述 18 天重建 10 款付费 App），多为作者自述；11/17 转向硬件，如 Logitech HID++ 协议与 Echo Dot 固件分析。11/19 起出现静态审查 npm MCP 包等带量化结果的案例，11/20–21 则出现 NDS 与 DX-Ball 的逐字节一致重建，验证门槛明显提高。遗留软件重建（C）全周出现 5 天，是最稳定的主线；成本与轻量化（F）在 11/20 才出现，LeanREA 以 8 KB skill 取代 MCP。",
-        "watch": "可留意是否有更多案例附上逐字节比对、差异测试或证据记录，没有这些的自述成果可信度较低。游戏与旧软件重建（C）仍是最容易跟进的切入点，成本与轻量工具（F）的基准测试也值得跟踪；另外可观察防御工具（如 BLA、REAegis）与模型拒绝问题（E）是否持续出现。"
+        "headline": "REA 从展示走向可验证重建，并扩及硬件与安全审查",
+        "summary": "本周星数由 460214 升至 471682，但每日增幅从 2254 逐步降至 1414，热度趋于平稳。内容从 11/15 的驱动与服务器实战、11/16 的大规模重建付费 App，转到 11/17 的硬件协议逆向（Hubless、Echo Dot），再到 11/19 的 npm MCP 包静态审查。11/20 与 11/21 出现 NDS 模拟器与 DX-Ball 的逐字节一致重建，并以模拟器或 Wine 实测，验证成为主轴。游戏与旧软件重建全周最常出现（5 天），周边工具与平台移植（Termux、arm64、Windows）持续扩张；成本争论（LeanREA、约三倍成本）与模型拒绝使用则仅零星出现。",
+        "watch": "留意是否有更多附字节比对、差异测试或证据文件的案例，而不只是作者自述；这类可验证成果最值得跟进。可关注把 REA 用于硬件协议、MCP／npm 供应链审查与旧软件迁移的做法，以及轻量化 skill 与成本对照是否有后续独立复测。"
       }
     },
     "rising": [
       "B",
       "C",
-      "F"
+      "D"
     ],
     "fading": [
       "A",
-      "E"
+      "E",
+      "F"
     ],
     "tally": {
       "A": 2,

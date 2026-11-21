@@ -2,6 +2,124 @@
   "updated": "2026-11-21",
   "items": [
     {
+      "url": "https://github.com/Cavalo172191/Reversa---REA",
+      "title": "Cavalo172191/Reversa---REA: COPIAR QUALQUER SISTEMA/FUNCIONALIDADE",
+      "author": "Cavalo172191",
+      "date": "2026-11-21",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-21",
+      "relevant": true,
+      "title_zh": "名為 Reversa REA 的 REA 官方 README 副本倉庫",
+      "summary": "內容節錄看起來是 REA 官方 README 的複製，標題宣稱「複製任何系統或功能」，但沒有顯示任何自己的實測、目標或成果。REA 官方已提醒相似名稱的倉庫不代表官方來源。",
+      "target": "無具體目標",
+      "metric": "無自己的成果，僅為 README 副本",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-11-21",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/CassieFox23/rea-board",
+      "title": "CassieFox23/rea-board: Open pull requests and issues on morluto/rea, sorted by the help each one needs.",
+      "author": "CassieFox23",
+      "date": "2026-11-21",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 1,
+      "lang": "en",
+      "found": "2026-11-21",
+      "relevant": true,
+      "title_zh": "建立 REA 開放 PR 與 issue 的協助需求分類看板",
+      "summary": "針對 morluto/rea 大量未處理的 PR 與 issue，用腳本（不使用 AI）依所需協助分成五欄並產生靜態網頁，每 3 小時更新。屬於 REA 專案的周邊維運工具，並非用 REA 逆向特定目標。",
+      "target": "morluto/rea 的 PR 與 issue",
+      "metric": "每 3 小時自動更新的五欄協助看板",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-21",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/wsmithkwi/graphify-ghidra",
+      "title": "wsmithkwi/graphify-ghidra: Ghidra support for graphify: export a Program (or REA output) as a queryable reverse-engineering knowledge graph",
+      "author": "wsmithkwi",
+      "date": "2026-11-21",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-21",
+      "relevant": true,
+      "title_zh": "為 graphify 開發 Ghidra 擴充，把二進位轉成可查詢知識圖",
+      "summary": "將 Ghidra 分析結果（函式、呼叫圖、匯入、字串、能力標籤）或 REA 輸出匯出為 graphify 知識圖，並提供排序後的起讀建議與沿呼叫鏈查詢。在 whoami.exe 上實測 callchain，找出從 entry 到 LookupPrivilegeNameW 的 5 層呼叫鏈。",
+      "target": "Ghidra 分析的 Windows 執行檔（如 whoami.exe）",
+      "metric": "whoami.exe 上找出 entry 到 LookupPrivilegeNameW 的 5 層呼叫鏈",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 3,
+      "scored": "2026-11-21",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/umaralfatehsuhaimi02-rgb/abli-code",
+      "title": "umaralfatehsuhaimi02-rgb/abli-code: Open-source (MIT) Abliterated AI IDE, Terminal CLI, Supabase + Stripe Gateway, Compu",
+      "source": "GitHub",
+      "found": "2026-11-21",
+      "relevant": false,
+      "scored": "2026-11-21",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/tanjialin-labs/app-analysis-mcp",
+      "title": "tanjialin-labs/app-analysis-mcp: Local MCP workflows for REA, Craft Anything, source analysis, and evidence-backed debugging.",
+      "author": "tanjialin-labs",
+      "date": "2026-11-21",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-21",
+      "relevant": true,
+      "title_zh": "整合 REA、Craft Anything 與原始碼分析的本地 MCP 工作台",
+      "summary": "提供 14 個工具的本地 MCP 伺服器，將 REA、Craft Anything 與 Tree-sitter、Semgrep、Git 歷史、崩潰堆疊等分析整合成有證據追蹤的除錯與調查流程。附有安裝、測試與 doctor 檢查，並在 macOS arm64 驗證過後端整合。",
+      "target": "通用應用程式除錯與逆向調查流程",
+      "metric": "14 個 MCP 工具，macOS arm64 後端整合已驗證",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-21",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/ns0bj/status/2123942908319424668",
+      "title": "How: I took each app apart with rea, my reverse-engineering agent.  - Codex desktop: a local IPC socket, length-prefixed JSON - Antigravity:",
+      "author": "@ns0bj",
+      "date": "2026-11-21",
+      "source": "X",
+      "kind": "貼文",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 28
+      },
+      "lang": "en",
+      "found": "2026-11-21",
+      "relevant": true,
+      "title_zh": "用 REA 拆解四款 AI 編碼工具,找出各自的本地通訊機制",
+      "summary": "作者以 REA 逆向 Codex 桌面版、Antigravity、OpenCode 與 Claude Code,不在 app 內安裝任何東西。找出 Codex 使用本地 IPC socket(長度前綴 JSON)、Antigravity 的語言伺服器使用 Connect-RPC、OpenCode 使用本地 HTTP 伺服器、Claude Code 使用 peer socket。",
+      "target": "Codex desktop、Antigravity、OpenCode、Claude Code",
+      "metric": "辨識出 4 款應用各自的本地通訊協定",
+      "category": "Native",
+      "status": "reported",
+      "wow": 3,
+      "scored": "2026-11-21",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/digoo/opencode-harness-setup",
       "title": "digoo/opencode-harness-setup: Complete OpenCode harness setup: MCP servers, plugins, skills, RTK + Headroom token pipeline, and a REA model guard",
       "author": "digoo",
@@ -86,15 +204,6 @@
       "scored_by": "sonnet"
     },
     {
-      "url": "https://github.com/Deviladk/REA-Ollama-NodeJS-ReactJS-SpringBoot",
-      "title": "Deviladk/REA-Ollama-NodeJS-ReactJS-SpringBoot: REA (Real-world Execution Agent) – A local AI assistant powered by Ollama",
-      "source": "GitHub",
-      "found": "2026-11-21",
-      "relevant": false,
-      "scored": "2026-11-21",
-      "scored_by": "jev"
-    },
-    {
       "url": "https://github.com/mea1224/Binweave",
       "title": "mea1224/Binweave: A Cross-AI-Agent Reverse Platform Based on REA",
       "author": "mea1224",
@@ -156,15 +265,6 @@
       "wow": 2,
       "scored": "2026-11-21",
       "scored_by": "sonnet"
-    },
-    {
-      "url": "https://x.com/jnklibrty/status/2123902632796569955",
-      "title": "2 weeks ago I became a dad. And since I’m on night duty, I thought it’d be fun to build a self-hosted baby tracking app.",
-      "source": "X",
-      "found": "2026-11-21",
-      "relevant": false,
-      "scored": "2026-11-21",
-      "scored_by": "jev"
     },
     {
       "url": "https://x.com/kn0w1et/status/2123899028270112847",
@@ -271,6 +371,52 @@
         "views": 83
       },
       "lang": "ja",
+      "found": "2026-11-21",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-21",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/0xca0a/status/2123782153091649615",
+      "title": "interesting. im looking for ways to integrate a board into https://pine.pmnd.re we have delegation but it's lacking more means to communicat",
+      "author": "@0xca0a",
+      "date": "2026-11-20",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 95
+      },
+      "lang": "en",
+      "found": "2026-11-21",
+      "relevant": true,
+      "title_zh": "自述用本地 DeepSeek 的 REA agent 對家用裝置韌體找 0-day,但速度太慢",
+      "summary": "作者想把開發板整合進 pine.pmnd.re,並提到用本地 DeepSeek 驅動 REA agent 對家用裝置做 0-day 研究以掌控韌體。內容僅為自述,沒有具體目標、發現或證據,且抱怨速度太慢。",
+      "target": "家用裝置韌體(未指明)",
+      "metric": "無具體成果,僅自述速度過慢",
+      "category": "韌體 / 硬體",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-11-21",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/smokyproductco/status/2123778551388205140",
+      "title": "Look into Claude Projects it's my favorite way to work currently. Give your agents a headstart, I used @morluto REA and dissected it here : ",
+      "author": "@smokyproductco",
+      "date": "2026-11-20",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 52
+      },
+      "lang": "en",
       "found": "2026-11-21",
       "relevant": true,
       "wow": 1,
@@ -410,6 +556,31 @@
       "scored_by": "jev"
     },
     {
+      "url": "https://x.com/virqdroid/status/2123018588999049634",
+      "title": "The agents run on the pi coding agent by @badlogicgames and drive the reverse engineering CLI REA by @morluto through my own session layer. ",
+      "author": "@virqdroid",
+      "date": "2026-11-18",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 82
+      },
+      "lang": "en",
+      "found": "2026-11-21",
+      "relevant": true,
+      "title_zh": "以 pi coding agent 搭配 REA CLI 透過自製 session 層驅動逆向",
+      "summary": "作者讓 pi coding agent 的 agent 透過自己寫的 session 層驅動 REA 逆向 CLI,並說明兩者皆為 MIT 授權。內容只描述整合架構,沒有具體逆向目標或成果。",
+      "target": "pi coding agent 與 REA CLI 整合",
+      "metric": "pi agent + REA CLI 透過自製 session 層整合",
+      "category": "工具鏈",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-11-21",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://x.com/birmeya/status/2122705987442245659",
       "title": "Every tool, command and number in it comes from real documentation and real builds. I keep running into the same wall. I pay for apps whose ",
       "author": "@birmeya",
@@ -445,6 +616,27 @@
       "pop": {
         "likes": 1,
         "views": 178
+      },
+      "lang": "en",
+      "found": "2026-11-21",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-21",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/GitTested/status/2122793210195898407",
+      "title": "Our test points that way too. On small programs, an agent with ordinary shell tools already explained the code almost perfectly, so rea adde",
+      "author": "@GitTested",
+      "date": "2026-11-17",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 25
       },
       "lang": "en",
       "found": "2026-11-21",
@@ -504,6 +696,27 @@
       "wow": 1,
       "scored": "2026-11-21",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/iwendypatrick/status/2121629485485441297",
+      "title": "Usage limits got cut on a tool he liked, so this guy pointed an agent at a repo called reverse engineer anything and said he had no idea how",
+      "author": "@iwendypatrick",
+      "date": "2026-11-14",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 10
+      },
+      "lang": "en",
+      "found": "2026-11-21",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-21",
+      "scored_by": "jev"
     },
     {
       "url": "https://lockergnome.com/rea-codex-rebuilt-dx-ball-from-exe-byte-for-byte/",
@@ -627,6 +840,24 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://github.com/Deviladk/REA-Ollama-NodeJS-ReactJS-SpringBoot",
+      "title": "Deviladk/REA-Ollama-NodeJS-ReactJS-SpringBoot: REA (Real-world Execution Agent) – A local AI assistant powered by Ollama",
+      "source": "GitHub",
+      "found": "2026-11-21",
+      "relevant": false,
+      "scored": "2026-11-21",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/jnklibrty/status/2123902632796569955",
+      "title": "2 weeks ago I became a dad. And since I’m on night duty, I thought it’d be fun to build a self-hosted baby tracking app.",
+      "source": "X",
+      "found": "2026-11-21",
+      "relevant": false,
+      "scored": "2026-11-21",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://wpnews.pro/news/moon-buggy-moon-buggy-florian-burnel-uses-rea-and-claude-to-read-a-binary-and-a",
       "title": "Moon-Buggy: Moon-Buggy: Florian BURNEL uses REA and Claude to read a binary and rebuild a browser game",
       "author": "wpnews.pro",
@@ -643,6 +874,26 @@
       "category": "Native / 遊戲",
       "status": "reported",
       "wow": 3,
+      "scored": "2026-11-21",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/morluto/rea/main/.agents/skills/reverse-engineer-anything/SKILL.md",
+      "title": "N/A",
+      "author": "raw.githubusercontent.com",
+      "date": null,
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-11-21",
+      "relevant": true,
+      "title_zh": "REA 官方 reverse-engineer-anything 技能說明文件",
+      "summary": "這是 REA 倉庫內的 agent skill 說明，規範何時使用 REA、如何連接與設定各分析引擎（如 IDA、Ghidra）。內容是官方使用指引，不是對某個目標的逆向成果。",
+      "target": "REA 技能與提供者設定說明",
+      "metric": "官方技能文件，無目標分析成果",
+      "category": "教學",
+      "status": "shipped",
+      "wow": 1,
       "scored": "2026-11-21",
       "scored_by": "sonnet"
     },
@@ -57005,6 +57256,35 @@
   "runs": [
     {
       "date": "2026-11-21",
+      "added": 12,
+      "stats": {
+        "githubShowAndTell": 19,
+        "githubRepos": 248,
+        "githubCode": 45,
+        "hackerNews": 24,
+        "qiita": 51,
+        "devto": "error: 429 https://dev.to/api/articles?tag=claudecode&per_page=50",
+        "juejin": 3,
+        "reddit": 20,
+        "v2ex": "error: fetch failed",
+        "youtube": 90,
+        "bluesky": 162,
+        "mastodon": 160,
+        "exaWeb": 60,
+        "x": 15
+      },
+      "scoring": {
+        "scored": 9,
+        "jev": {
+          "low": 3,
+          "irrelevant": 0,
+          "errors": 0,
+          "toClaude": 9
+        }
+      }
+    },
+    {
+      "date": "2026-11-21",
       "added": 31,
       "stats": {
         "githubShowAndTell": 18,
@@ -57847,36 +58127,7 @@
           "toClaude": 6
         }
       }
-    },
-    {
-      "date": "2026-11-06",
-      "added": 41,
-      "stats": {
-        "githubShowAndTell": 13,
-        "githubRepos": 247,
-        "githubCode": 48,
-        "hackerNews": 29,
-        "qiita": 48,
-        "devto": 150,
-        "juejin": 4,
-        "reddit": 20,
-        "v2ex": 14,
-        "youtube": 90,
-        "bluesky": 162,
-        "mastodon": 160,
-        "exaWeb": 59,
-        "x": 30
-      },
-      "scoring": {
-        "scored": 24,
-        "jev": {
-          "low": 14,
-          "irrelevant": 3,
-          "errors": 0,
-          "toClaude": 24
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-21T00:24:23.507Z"
+  "updatedAt": "2026-11-21T04:38:28.183Z"
 }

@@ -22573,5 +22573,215 @@
       "target": "Ghost Rider(PS2,2007)",
       "metric": "6 个阶段中仅完成环境搭建(Phase 0)"
     }
+  },
+  "d-d42ab57ab7": {
+    "hash": "42910f3d7fb1",
+    "en": {
+      "title": "Using REA to inspect upstream headroom and rebuild a zero-dependency LLM context compressor",
+      "summary": "The author used REA to run static and SQLite inspection on headroomlabs-ai/headroom, identified gaps such as dependencies and telemetry, and rewrote it as zero-dependency Python, JS and PowerShell versions with prompt-injection protection and a PII vault added. The result is a public repo and a web tool, largely a self-written reimplementation; the 60–95% compression rate is the author's own claim, and the excerpt contains no test evidence.",
+      "target": "headroomlabs-ai/headroom (Apache-2.0 open-source project)",
+      "metric": "Claims 60–95% token reduction on JSON, log and RAG content (author's claim)"
+    },
+    "zh-CN": {
+      "title": "用 REA 检查上游 headroom 并重写零依赖的 LLM 上下文压缩器",
+      "summary": "作者使用 REA 对 headroomlabs-ai/headroom 做静态和 SQLite 检查，找出依赖、遥测等缺口，改写成零依赖的 Python／JS／PowerShell 版本，并加入提示注入防护与 PII 保险库。成果为公开 repo 和网页工具，主要是自行重写，压缩率 60–95% 为作者自述，节选内容中没有测试证据。",
+      "target": "headroomlabs-ai/headroom（Apache-2.0 开源项目）",
+      "metric": "声称压缩 JSON／日志／RAG 内容 60–95% token（作者自述）"
+    }
+  },
+  "d-149dc3953c": {
+    "hash": "d86d0615c1f8",
+    "en": {
+      "title": "Setting up REA and connecting it to AI coding agents",
+      "summary": "Covers the Node.js version REA requires, the supported clients (Claude Code, Codex, Cursor and others), and the install-and-verify flow using npx rea-agents setup. This is an installation guide; no specific target is reverse-engineered.",
+      "target": "REA installation and setup (rea-agents 6.4.0)",
+      "metric": "Supports more than ten clients, including Claude Code, Codex and Cursor"
+    },
+    "zh-CN": {
+      "title": "REA 安装与连接 AI 编码代理的配置教程",
+      "summary": "介绍 REA 所需的 Node.js 版本、支持的客户端（Claude Code、Codex、Cursor 等），以及通过 npx rea-agents setup 安装并验证的流程。内容为安装教程，没有对具体目标做逆向。",
+      "target": "REA 安装配置（rea-agents 6.4.0）",
+      "metric": "支持 Claude Code、Codex、Cursor 等十多个客户端"
+    }
+  },
+  "d-9f509e819d": {
+    "hash": "b18a1f076537",
+    "en": {
+      "title": "A non-developer uses REA to break down the features of five baby-tracking apps",
+      "summary": "The author, who is not a developer, used REA in an Android emulator to analyze baby-tracking apps including Huckleberry, Glow, Nara, BabyDaybook and Amila. The goal was to separate standard features (feeding, sleep, diapers) from paid ones (predictions, insights, inviting family members) to inform trade-offs for their own app. Based solely on the author's own account; no concrete output was provided.",
+      "target": "Five Android baby-tracking apps",
+      "metric": "Compared standard vs. paid features across 5 apps"
+    },
+    "zh-CN": {
+      "title": "非开发者用 REA 拆解五款婴儿追踪 App 的功能",
+      "summary": "作者不是开发者，在 Android 模拟器中用 REA 分析 Huckleberry、Glow、Nara、BabyDaybook 与 Amila 等婴儿追踪 App。目的是区分标准功能（喂养、睡眠、尿布）与付费功能（预测、洞察、邀请家人），作为自家 App 的取舍参考。仅有作者自述，未提供具体产出。",
+      "target": "五款 Android 婴儿追踪 App",
+      "metric": "比较 5 款 App 的标准与付费功能"
+    }
+  },
+  "d-b8de3056d6": {
+    "hash": "865ce2f3cdab",
+    "en": {
+      "title": "OpenCode toolchain setup guide, with a REA model guard",
+      "summary": "A tutorial for building a token-efficient OpenCode harness on macOS, covering MCP servers, plugins, RTK and the Headroom compression pipeline, plus a model guard for the restricted MCP server (REA). It focuses on setup steps and troubleshooting rather than reverse engineering a specific target with REA.",
+      "target": "OpenCode working environment (MCP, RTK, Headroom)",
+      "metric": "RTK after-tool hook compresses 51,374 B to 16,108 B (69%)"
+    },
+    "zh-CN": {
+      "title": "OpenCode 工具链设置指南，含 REA 模型守卫",
+      "summary": "一份在 macOS 上搭建节省 token 的 OpenCode harness 的教程，涵盖 MCP 服务器、插件、RTK 与 Headroom 压缩管线，以及针对受限 MCP 服务器（REA）的模型守卫。重点是配置步骤与故障排查，并非用 REA 逆向特定目标。",
+      "target": "OpenCode 工作环境（MCP、RTK、Headroom）",
+      "metric": "RTK after-tool hook 将 51,374 B 压缩到 16,108 B（69%）"
+    }
+  },
+  "d-0d5da3ae8d": {
+    "hash": "e608382533a6",
+    "en": {
+      "title": "Red/blue/purple-team security testing plugin with an optional REA reverse-engineering lane",
+      "summary": "An authorized security-testing plugin for DSH desktop, with 16 methodology skills and 10 workflows, defaulting to report-only mode with a written-authorization gate. REA is just one optional lane (reverse.js) for local artifact reverse engineering and degrades gracefully when absent. The content centers on plugin structure and process, with no reverse-engineering results for any specific target.",
+      "target": "DSH desktop security-testing plugin",
+      "metric": "16 skills, 10 workflows, sanitization checks 36 items with 0 blockers"
+    },
+    "zh-CN": {
+      "title": "红蓝紫队安全测试插件，含可选的 REA 逆向 lane",
+      "summary": "DSH 桌面版的授权安全测试插件，含 16 个方法论技能与 10 个 workflow，默认 report-only 并有书面授权门禁。REA 只是其中一个可选的本地制品逆向 lane（reverse.js），缺失时降级。内容以插件结构与流程为主，没有针对具体目标的逆向成果。",
+      "target": "DSH 桌面版安全测试插件",
+      "metric": "16 个技能、10 个 workflow、净化检查 36 条 0 blocker"
+    }
+  },
+  "d-d174df8569": {
+    "hash": "28e2dc98f6a1",
+    "en": {
+      "title": "Cross-AI-agent reverse-engineering platform built on REA (early development)",
+      "summary": "Binweave is a cross-AI-agent reverse-engineering platform built on REA. The excerpt contains only a to-do list dated 2026-11-20: fixing the read_byte feature, aligning Codex integration, context handling, UI adjustments and multi-platform releases. No concrete results are evident yet.",
+      "target": "Cross-agent reverse-engineering platform on top of REA",
+      "metric": "To-do list only, no results yet"
+    },
+    "zh-CN": {
+      "title": "以 REA 为基础的跨 AI agent 逆向平台（开发初期）",
+      "summary": "Binweave 是以 REA 为底的跨 AI agent 逆向平台。节选内容只有 2026-11-20 的待办清单，包括修复 read_byte 功能、对齐 Codex 接入、上下文处理、界面调整与多平台发布，看不出已有具体成果。",
+      "target": "REA 之上的跨 agent 逆向平台",
+      "metric": "仅有待办清单，尚无成果"
+    }
+  },
+  "d-c47e834e7c": {
+    "hash": "4d9fa5ebbe66",
+    "en": {
+      "title": "Same Router Firmware, 4 AI Models Tested: GPT-6 Sol Goes from Reverse Engineering to Implementation",
+      "summary": "The author tested four AI models with REA on the same router firmware. GPT-6 Sol sustained the work through reverse engineering, privilege escalation, and persistence analysis, and ultimately implemented the desired feature. Grok 4.7 refused at the BSS dump stage, while DeepSeek V4.1 Flash struggled at vulnerability hunting and Shellcode. Content is the author's own account, with no evidence files attached.",
+      "target": "Router firmware",
+      "metric": "Of 4 models, only GPT-6 Sol completed reverse engineering, privilege escalation, and feature implementation"
+    },
+    "zh-CN": {
+      "title": "同一份路由器固件测试 4 个 AI 模型,GPT-6 Sol 完成逆向到实现",
+      "summary": "作者用同一份路由器固件测试四个 AI 模型搭配 REA。GPT-6 Sol 从逆向、提权到持久化分析都能持续推进,最终实现了想要的功能;Grok 4.7 在 BSS dump 阶段拒绝执行,DeepSeek V4.1 Flash 在漏洞挖掘与 Shellcode 阶段力不从心。内容为作者自述,未附证据文件。",
+      "target": "路由器固件",
+      "metric": "4 个模型中只有 GPT-6 Sol 完成逆向、提权到功能实现"
+    }
+  },
+  "d-560ebab578": {
+    "hash": "531e32170f10",
+    "en": {
+      "title": "Measuring Chrome Dino Game Speed Rules with REA, and Logging Three Roadblocks",
+      "summary": "The target is the Chrome 154 dino game. REA was used to analyze neterror.js extracted from resources.pak, locating the acceleration rule at line 92. The computed initial speed of 6, per-frame acceleration of 0.001, and max speed of 13 match the public Chromium source. Three roadblocks came up along the way — observing the error page, opening the pak file, and feature tracing — each needing a Node script workaround.",
+      "target": "Chrome 154 dino game (neterror.js)",
+      "metric": "Speed 6, acceleration 0.001, cap 13, matching the source"
+    },
+    "zh-CN": {
+      "title": "用 REA 实测 Chrome 恐龙游戏速度规则,并记录三处卡关",
+      "summary": "目标是 Chrome 154 的恐龙游戏。用 REA 分析从 resources.pak 解出的 neterror.js,定位到第 92 行的加速规则,算出的起始速度 6、每帧加速 0.001、最高速度 13 与 Chromium 公开源码一致。过程中在错误页观察、打开 pak 文件、功能追踪三处卡关,需用 Node 脚本绕过。",
+      "target": "Chrome 154 恐龙游戏(neterror.js)",
+      "metric": "速度 6、加速 0.001、上限 13,与源码一致"
+    }
+  },
+  "d-986a902143": {
+    "hash": "7bb5c0e22d1d",
+    "en": {
+      "title": "Reading the Moon-Buggy Binary with REA and Claude Code, Rebuilt as a Web Game",
+      "summary": "The author used REA with Claude Code to analyze the Moon-Buggy binary, having the AI inspect the program, pull references, and identify key functions. The game was then rebuilt as a web app. Content is the author's own account; no tests or code evidence are shown.",
+      "target": "Moon-Buggy (terminal game)",
+      "metric": "Rebuilt as a web version of Moon-Buggy"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Claude Code 读取 Moon-Buggy 二进制并重建为网页游戏",
+      "summary": "作者以 REA 搭配 Claude Code 分析 Moon-Buggy 二进制文件,让 AI 检视程序、获取引用并找出关键函数。最后将游戏重建为网页应用。内容为作者自述,未见测试或代码证据。",
+      "target": "Moon-Buggy(终端游戏)",
+      "metric": "重建为网页版 Moon-Buggy"
+    }
+  },
+  "d-a7b2127f0d": {
+    "hash": "b1bf8fde8e8b",
+    "en": {
+      "title": "Building an REA-Based Agent Skill for Bridging Software Without APIs",
+      "summary": "For desktop software with no API (clinic systems, bookkeeping, legacy ERP), this offers a seven-step methodology that lets a coding agent use REA to find where data is stored and how it is read and written, then produce REST, MCP, and CLI bridge layers. Every table and write path must be backed by evidence found with REA, and documents such as BRIDGE.md and UNKNOWNS.md are maintained. The excerpt shows only the method description and install commands, with no results from an actual target.",
+      "target": "Desktop and legacy software without APIs (clinics, ERP, etc.)",
+      "metric": "Seven-step process; each step must pass a check before continuing"
+    },
+    "zh-CN": {
+      "title": "打造以 REA 为基础、为无 API 软件搭建桥接层的 agent 技能",
+      "summary": "针对没有 API 的桌面软件(诊所、记账、旧 ERP),提供七步骤方法论,让 coding agent 用 REA 找出数据存放位置与读写方式,再产出 REST、MCP、CLI 桥接层。每个数据表与写入路径都要有 REA 找到的证据,并维护 BRIDGE.md、UNKNOWNS.md 等文档。节选内容只见方法说明与安装指令,未见实际目标的成果。",
+      "target": "无 API 的桌面与传统软件(诊所、ERP 等)",
+      "metric": "七步骤流程,每步须通过检查才能继续"
+    }
+  },
+  "d-733cc261ac": {
+    "hash": "392f915b6e9e",
+    "en": {
+      "title": "Using REA to have Codex rebuild the 1996 DX-Ball from its exe, with 270 functions matching byte for byte",
+      "summary": "The target is DX-Ball 1.07 from 1996. The user had Codex work with REA (Ghidra) to recover the functions, recompiled them with Visual C++ 4.0, and compared the result byte by byte against the original executable. All 270 functions and 84,968 bytes of code match. The rebuilt version runs under Wine, and a 15-minute playthrough to level 3 ran without crashes.",
+      "target": "DX-Ball 1.07 (1996 Windows game)",
+      "metric": "270 functions, 84,968 bytes identical to the original"
+    },
+    "zh-CN": {
+      "title": "用 REA 让 Codex 从 exe 重建 1996 年 DX-Ball，270 个函数字节级一致",
+      "summary": "目标是 1996 年的 DX-Ball 1.07。用户让 Codex 搭配 REA（Ghidra）还原函数，并用 Visual C++ 4.0 重新编译，与原始可执行文件逐字节比对。结果 270 个函数、84,968 字节代码全部一致，重建版可在 Wine 运行，15 分钟玩到第三关无崩溃。",
+      "target": "DX-Ball 1.07（1996 年 Windows 游戏）",
+      "metric": "270 个函数、84,968 字节与原版完全一致"
+    }
+  },
+  "d-aff84a993f": {
+    "hash": "86a13c5abd77",
+    "en": {
+      "title": "Taking apart the Feishu Mac client with REA to build a multi-instance \"Feishu 2\" in 6 minutes",
+      "summary": "The target is the Feishu macOS client. REA first produced an architecture analysis report, then the AI copied the app, replaced 18 occurrences of LarkShell with LarkDual2 across 15 native files, disabled auto-update, and re-signed it. Two Feishu instances can now be logged into different accounts at the same time, and lsof confirmed their data directories do not overlap. The original's signature and hash are unchanged.",
+      "target": "Feishu macOS client (Electron hybrid architecture)",
+      "metric": "Multi-instance done in 6 minutes, 18 LarkShell replacements"
+    },
+    "zh-CN": {
+      "title": "用 REA 拆解飞书 Mac 客户端，6 分钟做出可多开的「飞书 2」",
+      "summary": "目标是飞书 macOS 客户端。先用 REA 产出架构分析报告，再让 AI 复制应用、把 15 个原生文件中的 18 处 LarkShell 替换为 LarkDual2、关闭自动更新并重新签名。结果两个飞书可同时登录不同账号，并用 lsof 验证数据目录互不交叉，原版签名与哈希未变。",
+      "target": "飞书 macOS 客户端（Electron 混合架构）",
+      "metric": "6 分钟完成多开，18 处 LarkShell 替换"
+    }
+  },
+  "d-6af8096b4f": {
+    "hash": "00dae0f81579",
+    "en": {
+      "title": "Static recompilation of the PS2 version of Ghost Rider with Ghidra, REA, and PS2Recomp",
+      "summary": "For the MIPS R5900 ELF of the PS2 game Ghost Rider, Ghidra and REA were used to build a function table, then PS2Recomp generated C++ that compiles into a native PC executable. Function identification and recompilation are done, while the runtime and HLE are still in progress. The screen already renders with 640×448 double buffering, but graphics, audio, and gameplay are not yet verified.",
+      "target": "Ghost Rider (2007, PS2)",
+      "metric": "11,211 of 11,309 functions recompiled, 98 stubbed, with live rendering"
+    },
+    "zh-CN": {
+      "title": "以 Ghidra、REA 与 PS2Recomp 静态重编译《Ghost Rider》PS2 版",
+      "summary": "针对 PS2 游戏《Ghost Rider》的 MIPS R5900 ELF，用 Ghidra 与 REA 建立函数表，再以 PS2Recomp 生成 C++ 并编译出原生 PC 可执行文件。函数识别与重编译已完成，运行时与 HLE 仍在进行，画面已能以 640×448 双缓冲渲染，图形、音频与游戏性尚未验证。",
+      "target": "《Ghost Rider》（2007，PS2）",
+      "metric": "11,309 个函数中 11,211 个完成重编译、98 个为 stub，并出现实时渲染"
+    }
+  },
+  "d-31a4697cd9": {
+    "hash": "d861695c6aa4",
+    "en": {
+      "title": "Reverse engineering NES Contra with REA and rewriting the first third of level 1 as a playable web version",
+      "summary": "The target is the 1988 US NES ROM of Contra. REA traced 24,000 frames to recover jump gravity, weapon and bullet rules, and terrain data, and the game was then rewritten in plain JavaScript as a standalone playable web version, with the 30-lives cheat also found. The author rates the core feel about 80% complete, and also used REA to study the Notion desktop app in order to upgrade their own editor.",
+      "target": "Contra (USA) NES ROM and Notion desktop app",
+      "metric": "Playable build with about 80% of the core feel in 20+ minutes"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向《魂斗罗》NES 并重写第一关前 1/3 的可玩网页版",
+      "summary": "目标是 1988 年美版 NES《魂斗罗》ROM。用 REA 追踪 24,000 帧，还原跳跃重力、武器与子弹规则及地形数据，再以纯 JavaScript 重写独立可玩网页版，并找出 30 条命秘技。作者自评核心手感约完成 80%，另用 REA 研究 Notion 桌面端以升级自己的编辑器。",
+      "target": "Contra (USA) NES ROM 与 Notion 桌面端",
+      "metric": "20 多分钟做出核心手感约 80% 的可玩版"
+    }
   }
 }

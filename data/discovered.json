@@ -2,6 +2,48 @@
   "updated": "2026-11-22",
   "items": [
     {
+      "url": "https://github.com/jinhuanranwansui-gif/reacraft",
+      "title": "jinhuanranwansui-gif/reacraft: Read a target, write a verifiable contract, rebuild it, score the rebuild, close the gap. Engine-free closure layer for REA + craft-anything, with a native DSH plugin.",
+      "author": "jinhuanranwansui-gif",
+      "date": "2026-11-22",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-22",
+      "relevant": true,
+      "title_zh": "發布 ReaCraft：把 REA 的解析結果轉成可驗證合約並為重建評分",
+      "summary": "ReaCraft 是無依賴的 Node 工具層，銜接 REA 與 craft-anything：把靜態解析結果轉成各自附驗收測試的義務，對重建成果評分，並把失敗項目轉成下一步指令。repo 有 CI、release 與雜湊鏈紀錄，內附範例，但節錄中沒有對真實目標的重建成果。",
+      "target": "REA 解析結果的合約化與重建評分流程",
+      "metric": "範例重建得分 30%（門檻 80%），0 依賴",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-22",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/Quimera-Laboratory/quimera-agent-mutation",
+      "title": "Quimera-Laboratory/quimera-agent-mutation: REA + Complex Systems Mutation Testing Engine for AI Agents",
+      "author": "Quimera-Laboratory",
+      "date": "2026-11-22",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-22",
+      "relevant": true,
+      "title_zh": "建立針對 AI agent 的突變測試引擎 quimera-agent-mutation",
+      "summary": "GitHub 專案 quimera-agent-mutation，以 Rust 撰寫，簡介為「REA + 複雜系統突變測試引擎」，用於 AI agent。repo 有原始碼、測試目錄與 3 個提交，但節錄中沒有說明如何使用 REA，也沒有成果或測試結果。",
+      "target": "AI agent 突變測試引擎",
+      "metric": "3 個提交、0 star，含 src 與 tests 目錄",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-22",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/vongyangchen/rea-gemini-extension",
       "title": "vongyangchen/rea-gemini-extension: Gemini CLI extension for REA (Reverse Engineer Anything) — bundles the REA MCP server launcher, Agent Skill, context file, and /rea:* slash commands.",
       "author": "vongyangchen",
@@ -78,15 +120,6 @@
       "scored_by": "jev"
     },
     {
-      "url": "https://x.com/ns0bj/status/2123942816397291683",
-      "title": "I reverse engineered how Claude Code, the Codex desktop app, Antigravity and OpenCode talk on my Mac, one app at a time.",
-      "source": "X",
-      "found": "2026-11-22",
-      "relevant": false,
-      "scored": "2026-11-22",
-      "scored_by": "jev"
-    },
-    {
       "url": "https://x.com/tonbistudio/status/2124205756769812765",
       "title": "What's in the new update of REA? I made a quick breakdown of what is in REA v6.10.1, as well as a demo of using REA on the gh cli binary to ",
       "author": "@tonbistudio",
@@ -108,15 +141,6 @@
       "category": "教學",
       "status": "reported",
       "wow": 2,
-      "scored": "2026-11-22",
-      "scored_by": "sonnet"
-    },
-    {
-      "url": "https://x.com/danjindev/status/2124276473154736250",
-      "title": "Same browser, same session. Login once, and that's it. I just REA linear, github and notion with ONE prompt. Now I can u",
-      "source": "X",
-      "found": "2026-11-22",
-      "relevant": false,
       "scored": "2026-11-22",
       "scored_by": "sonnet"
     },
@@ -330,29 +354,48 @@
       "scored_by": "jev"
     },
     {
-      "url": "https://x.com/danjindev/status/2123907411270643814",
-      "title": "After making a team on antiloki, even using claude, each run is just a few cents. Each run was a complete REA on Linear,",
+      "url": "https://x.com/im_xiaoxiao/status/2124045167384834230",
+      "title": "跑REA逆向最抗压的其实是硬盘。每次都是几百个G的分析结果。跑到硬盘空间报警。",
+      "author": "@im_xiaoxiao",
+      "date": "2026-11-21",
       "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 273
+      },
+      "lang": "zh",
       "found": "2026-11-22",
-      "relevant": false,
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
       "scored": "2026-11-22",
-      "scored_by": "sonnet"
+      "scored_by": "jev"
     },
     {
-      "url": "https://x.com/danjindev/status/2123892730744963520",
-      "title": "Your preferred web apps inside antiloki. You have antiloki's agents and teams connected via MCP to your accounts. All lo",
+      "url": "https://x.com/0rdlibrary/status/2124174279575257502",
+      "title": "Love to see it!!!!  I’ve been using @reatools daily.  And have come up with my own…  REA @bot to work in parallel!!!!  https://x.ai/bot/cl6R",
+      "author": "@0rdlibrary",
+      "date": "2026-11-21",
       "source": "X",
+      "kind": "貼文",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 347
+      },
+      "lang": "en",
       "found": "2026-11-22",
-      "relevant": false,
-      "scored": "2026-11-22",
-      "scored_by": "sonnet"
-    },
-    {
-      "url": "https://x.com/jaklimoff/status/2123764891924472027",
-      "title": "i was bored and decided to go through 9,578 popular agent skills that my agents scraped from GitHub for me. sorting by s",
-      "source": "X",
-      "found": "2026-11-22",
-      "relevant": false,
+      "relevant": true,
+      "title_zh": "作者自述每天使用 REA，並自建平行運作的 REA bot",
+      "summary": "作者在推文中表示每天都在使用 REA，並自行做出一個可平行運作的 REA bot。內容只有簡短自述與一個連結，沒有說明逆向的目標、做法或成果。",
+      "target": "未說明（REA 日常使用與自建 bot）",
+      "metric": "自述每日使用，並自建 REA bot 平行運作",
+      "category": "工具鏈",
+      "status": "reported",
+      "wow": 2,
       "scored": "2026-11-22",
       "scored_by": "sonnet"
     },
@@ -374,15 +417,6 @@
       "wow": 1,
       "category": "教學",
       "status": "shipped",
-      "scored": "2026-11-22",
-      "scored_by": "jev"
-    },
-    {
-      "url": "https://x.com/gvrkiran/status/2122783263475569034",
-      "title": "update: we tried this with my student and decompiled and analyzed Instagram app for Android. Shows a ton of interesting ",
-      "source": "X",
-      "found": "2026-11-22",
-      "relevant": false,
       "scored": "2026-11-22",
       "scored_by": "jev"
     },
@@ -512,6 +546,80 @@
       "wow": 4,
       "scored": "2026-11-22",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://benx.ai/blog/posts/rea-reverse-engineer-feishu-dual-instance/",
+      "title": "我用 GitHub 第一的 REA 拆了飞书，6 分钟实现了飞书多开 | Dots to Line",
+      "author": "Ben",
+      "date": "2026-10-15",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "zh",
+      "found": "2026-11-22",
+      "relevant": true,
+      "title_zh": "用 REA 解析飛書 Mac 客戶端，6 分鐘做出可同時登入兩個帳號的「飛書 2」",
+      "summary": "作者讓 Codex 安裝 REA 並解析飛書 Mac 客戶端，得到混合架構、25 個 ASAR 包、33 個註冊模組、382 個擴充入口，以及剪貼簿橋接與請求分流等發現。接著找出單實例鎖所在的 LarkShell 目錄，在副本的 15 個原生檔案中把 18 處 LarkShell 換成 LarkDual2、關閉自動更新並重新簽名，做出可並行登入的多開版本。作者以 lsof 確認沒有交叉讀寫資料目錄，原版簽名驗證通過且主程式雜湊不變。",
+      "target": "飛書（Lark）macOS 客戶端",
+      "metric": "6 分鐘做出多開版本；15 個原生檔案、18 處字串替換，原版雜湊不變",
+      "category": "Native / macOS",
+      "status": "tested",
+      "wow": 4,
+      "scored": "2026-11-22",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/ns0bj/status/2123942816397291683",
+      "title": "I reverse engineered how Claude Code, the Codex desktop app, Antigravity and OpenCode talk on my Mac, one app at a time.",
+      "source": "X",
+      "found": "2026-11-22",
+      "relevant": false,
+      "scored": "2026-11-22",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/danjindev/status/2124276473154736250",
+      "title": "Same browser, same session. Login once, and that's it. I just REA linear, github and notion with ONE prompt. Now I can u",
+      "source": "X",
+      "found": "2026-11-22",
+      "relevant": false,
+      "scored": "2026-11-22",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/danjindev/status/2123907411270643814",
+      "title": "After making a team on antiloki, even using claude, each run is just a few cents. Each run was a complete REA on Linear,",
+      "source": "X",
+      "found": "2026-11-22",
+      "relevant": false,
+      "scored": "2026-11-22",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/danjindev/status/2123892730744963520",
+      "title": "Your preferred web apps inside antiloki. You have antiloki's agents and teams connected via MCP to your accounts. All lo",
+      "source": "X",
+      "found": "2026-11-22",
+      "relevant": false,
+      "scored": "2026-11-22",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/jaklimoff/status/2123764891924472027",
+      "title": "i was bored and decided to go through 9,578 popular agent skills that my agents scraped from GitHub for me. sorting by s",
+      "source": "X",
+      "found": "2026-11-22",
+      "relevant": false,
+      "scored": "2026-11-22",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/gvrkiran/status/2122783263475569034",
+      "title": "update: we tried this with my student and decompiled and analyzed Instagram app for Android. Shows a ton of interesting ",
+      "source": "X",
+      "found": "2026-11-22",
+      "relevant": false,
+      "scored": "2026-11-22",
+      "scored_by": "jev"
     },
     {
       "url": "https://youtu.be/Am-3OVXWNHU",
@@ -57789,6 +57897,35 @@
   "runs": [
     {
       "date": "2026-11-22",
+      "added": 5,
+      "stats": {
+        "githubShowAndTell": 18,
+        "githubRepos": 244,
+        "githubCode": 44,
+        "hackerNews": 26,
+        "qiita": 51,
+        "devto": 150,
+        "juejin": 2,
+        "reddit": 20,
+        "v2ex": "error: fetch failed",
+        "youtube": 90,
+        "bluesky": 160,
+        "mastodon": 160,
+        "exaWeb": 60,
+        "x": 13
+      },
+      "scoring": {
+        "scored": 4,
+        "jev": {
+          "low": 1,
+          "irrelevant": 0,
+          "errors": 0,
+          "toClaude": 4
+        }
+      }
+    },
+    {
+      "date": "2026-11-22",
       "added": 28,
       "stats": {
         "githubShowAndTell": 18,
@@ -58631,36 +58768,7 @@
           "toClaude": 10
         }
       }
-    },
-    {
-      "date": "2026-11-07",
-      "added": 22,
-      "stats": {
-        "githubShowAndTell": 14,
-        "githubRepos": 237,
-        "githubCode": 48,
-        "hackerNews": 31,
-        "qiita": 47,
-        "devto": 150,
-        "juejin": 4,
-        "reddit": 20,
-        "v2ex": "error: fetch failed",
-        "youtube": 90,
-        "bluesky": 162,
-        "mastodon": 160,
-        "exaWeb": 60,
-        "x": 30
-      },
-      "scoring": {
-        "scored": 16,
-        "jev": {
-          "low": 2,
-          "irrelevant": 4,
-          "errors": 0,
-          "toClaude": 16
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-22T00:24:27.233Z"
+  "updatedAt": "2026-11-22T04:37:36.814Z"
 }

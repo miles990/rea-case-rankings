@@ -76726,58 +76726,63 @@
     },
     {
       "date": "2026-11-22",
-      "stars": 472780,
-      "stars_delta": 1098,
+      "stars": 472986,
+      "stars_delta": 1304,
       "new": [
+        "d-d867061b9d",
         "d-b7b78eff15",
         "d-e750556792",
+        "d-f85f50ca6f",
         "d-c40b58715b",
         "d-8fccac2498",
         "d-5069e6b967",
+        "d-53e9fe54bd",
+        "d-a89b79210c",
         "d-2b533dd4ce",
         "d-fa91a81ead",
         "d-ddb540a997",
         "d-5308f8a76a"
       ],
       "stats": {
-        "count": 9,
+        "count": 13,
         "wow": {
-          "2": 8,
-          "4": 1
+          "2": 11,
+          "4": 2
         },
         "type": {
-          "case": 2,
+          "case": 3,
           "learn": 4,
-          "app": 3
+          "app": 6
         },
         "status": {
-          "reported": 6,
-          "shipped": 3
+          "tested": 1,
+          "reported": 7,
+          "shipped": 5
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 逆向從遊戲拆解延伸到 Gemini、DeepSeek 等新平台整合",
-          "summary": "今天最具體的案例是作者用 Codex 搭配 REA 逆向安卓遊戲《火影戰記》，摸清 cocos2d-x 原生庫與私有資源格式，新增可玩角色並在模擬器驗證，同時分析一款 Flutter 學習 App。另有兩個 GitHub 專案把 REA 打包成 Gemini CLI 擴充與 DeepSeek Harness 預設，後者並以精簡 schema 降低上下文負擔。其餘多為短篇示範或介紹，如 gh CLI 二進位分析、無 API 軟體的資料橋接、audit-release-exposure 與 crackme 教學，Canon 韌體案例則缺乏細節。GitHub 星數增加 1098，達 472780；整體重心在擴展到更多平台與老舊軟體改造。"
+          "headline": "REA 實戰案例回歸:解析飛書做出雙開版、逆向安卓遊戲加角色",
+          "summary": "星數增至 472986,比前一個紀錄多 1304。今天排名最前的是兩個完整的實戰案例:作者用 Codex 搭配 REA 解析飛書 Mac 客戶端,做出可同時登入兩個帳號的多開版本,並驗證原版簽名與雜湊未變;另一篇拆解安卓單機遊戲《火影戰記》,新增可玩角色並在模擬器驗證。其餘多是簡短推文,以及為 Gemini CLI、DeepSeek Harness 打包 REA 的整合,還有把解析結果轉成可驗證合約並評分的 ReaCraft,顯示生態持續擴張,而可驗證的成果仍是重點。"
         },
         "en": {
-          "headline": "REA reaches Gemini and DeepSeek as a game teardown shows its reach",
-          "summary": "The most concrete case today: an author used Codex with REA to reverse the Android game Naruto Senki, mapping the cocos2d-x native library and private asset formats, adding a playable character and verifying it in an emulator, plus analyzing a Flutter learning app. Two GitHub projects package REA as a Gemini CLI extension and a DeepSeek Harness preset, the latter using a slim schema to cut context load. The rest are short demos or intros (gh CLI binary analysis, bridging API-less software, audit-release-exposure, a crackme tutorial), and the Canon firmware item lacks detail. GitHub stars rose by 1,098 to 472,780."
+          "headline": "Real REA cases lead: a dual-login Feishu build and a modded Android game",
+          "summary": "GitHub stars rose to 472986, up 1304 from the previous record. The top items are two substantive case studies: one author used Codex with REA to analyze the Feishu (Lark) Mac client and built a version that can log into two accounts at once, verifying that the original's signature and hash were unchanged; another took apart the Android game Naruto Senki, added a playable character and checked it in an emulator. The rest are mostly short posts plus integrations packaging REA for Gemini CLI and DeepSeek Harness, and ReaCraft, which turns analysis results into verifiable contracts and grades rebuilds. This shows the ecosystem still expanding, with verifiable results remaining the key point."
         },
         "zh-CN": {
-          "headline": "REA 逆向从游戏拆解延伸到 Gemini、DeepSeek 等新平台整合",
-          "summary": "今天最具体的案例是作者用 Codex 搭配 REA 逆向安卓游戏《火影战记》，摸清 cocos2d-x 原生库与私有资源格式，新增可玩角色并在模拟器验证，同时分析一款 Flutter 学习 App。另有两个 GitHub 项目把 REA 打包成 Gemini CLI 扩展与 DeepSeek Harness 预设，后者并以精简 schema 降低上下文负担。其余多为短篇演示或介绍，如 gh CLI 二进制分析、无 API 软件的数据桥接、audit-release-exposure 与 crackme 教程，Canon 固件案例则缺乏细节。GitHub 星数增加 1098，达 472780；整体重心在扩展到更多平台与老旧软件改造。"
+          "headline": "REA 实战案例回归:解析飞书做出双开版、逆向安卓游戏加角色",
+          "summary": "星数增至 472986,比前一个纪录多 1304。今天排名最靠前的是两个完整的实战案例:作者用 Codex 搭配 REA 解析飞书 Mac 客户端,做出可同时登录两个账号的多开版本,并验证原版签名与哈希未变;另一篇拆解安卓单机游戏《火影战记》,新增可玩角色并在模拟器验证。其余多是简短推文,以及为 Gemini CLI、DeepSeek Harness 打包 REA 的集成,还有把解析结果转成可验证合约并评分的 ReaCraft,显示生态持续扩张,而可验证的成果仍是重点。"
         }
       },
       "signals": [
-        "C",
-        "F",
-        "G"
+        "A",
+        "B",
+        "C"
       ],
       "highlights": [
+        "d-d867061b9d",
         "d-b7b78eff15",
-        "d-2b533dd4ce",
-        "d-fa91a81ead"
+        "d-53e9fe54bd"
       ],
       "rank": [
         "dx-ball-sound-pan",
@@ -76958,6 +76963,7 @@
         "d-69c807bd6b",
         "d-04c8d6cd92",
         "d-e2356eb09a",
+        "d-d867061b9d",
         "d-aff84a993f",
         "d-b02b8f77eb",
         "d-1554b3f66e",
@@ -77523,6 +77529,7 @@
         "d-bbb03904da",
         "d-88cdc0d74f",
         "d-a82ddff1d7",
+        "d-f85f50ca6f",
         "d-4958308adc",
         "d-94f24dd97b",
         "d-d2c64cc5c2",
@@ -77827,6 +77834,8 @@
         "d-40c0474406",
         "d-49c3fe3859",
         "heartland-side-effects",
+        "d-53e9fe54bd",
+        "d-a89b79210c",
         "d-2b533dd4ce",
         "d-fa91a81ead",
         "d-c84daf5019",
@@ -78545,6 +78554,7 @@
         "d-981fcb08d7",
         "d-ef7be6a060",
         "d-541d86fb17",
+        "d-f4fbe0bee1",
         "d-fbcaa29a5c",
         "d-6a6a287239",
         "d-b00c3d6cc5",
@@ -79452,38 +79462,38 @@
     "to": "2026-11-22",
     "text": {
       "zh-TW": {
-        "headline": "REA 從展示走向可驗證重建，並向更多平台擴張",
-        "summary": "本週 REA 星數由 46.2 萬穩步增至 47.2 萬，每日增幅約 1,100 至 2,200。早期簡報以「27 個 Agent 重建 10 款付費 App」等作者自述為主，後段則出現 jEnesisDS 與 DX-Ball 這類逐位元組一致、可重編並在模擬器或 Wine 實測的案例，以及 npm MCP 套件靜態審查的 13/13 命中、0 誤報，重心從展示轉向驗證。主題以遊戲與老軟體的保存、重建為主軸，本週有 5 天出現，也延伸到 Logitech HID++ 與 Echo Dot 韌體等硬體案例。生態面則持續擴張，包含 Gemini CLI 擴充、DeepSeek、Termux 與 Windows 檢查點；成本議題如 LeanREA 的 8 KB skill 取代 MCP，也在同步升溫。",
-        "watch": "接下來可留意是否有更多附位元組比對、模擬器測試或證據檔的重建案例，這類成果最容易被獨立複現，也是切入的機會。同時可關注輕量化與成本對照（LeanREA 與約三倍成本的說法）是否有公開基準，並留意模型拒絕使用 REA、改用本地模型的傳聞能否得到證實。"
+        "headline": "REA 從炫技走向可驗證：位元組級重建與證據成為主軸",
+        "summary": "本週 REA 星數從 46.2 萬升至 47.3 萬，但每日增幅由約 2,100 逐步降到約 1,300。內容脈絡從 11/16 用 27 個 Agent 重建付費 App 的自述，轉向 11/19 對 npm MCP 套件靜態審查（13/13 命中、0 誤報），再到 11/20 的 NDS 與 11/21 的 DX-Ball 位元組級一致重建，驗證成為每週反覆出現的主題。題材方面，遊戲與老軟體持續領跑（一週五天出現），同時擴及硬體（Logitech G HUB、Echo Dot 韌體、電視）與資安審查，生態也不斷長出 MCP、Termux、Gemini CLI 等整合。模型拒絕、成本等訊號僅偶爾出現，且多為缺乏證據的作者自述。",
+        "watch": "留意能附上位元組比對、測試或證據檔的案例，以及把結果轉成可評分合約的工具（如 ReaCraft）；這類驗證層與評測是明顯的空白機會。也可觀察輕量化（LeanREA 取代 MCP）與本地模型路線是否在成本爭論中站穩，並關注飛書雙開這類『改客戶端』案例是否延伸到更多商業 App。"
       },
       "en": {
-        "headline": "REA shifts from demos to verifiable rebuilds and wider platform reach",
-        "summary": "REA's GitHub stars rose steadily from 462K to 472K this week, adding roughly 1,100 to 2,200 per day. Early briefings leaned on self-reported claims such as 27 agents rebuilding 10 paid apps, while later ones featured byte-identical rebuilds (jEnesisDS, DX-Ball) validated in emulators or Wine, plus an npm MCP static audit that caught 13 of 13 implants with zero false positives. Legacy software preservation was the dominant theme, appearing on 5 of 7 days, and hardware work such as Logitech HID++ and Echo Dot firmware analysis showed up midweek. The ecosystem kept widening with a Gemini CLI extension, DeepSeek, Termux and Windows checkpoints, while cost debates like LeanREA's 8 KB skill replacing MCP ran alongside.",
-        "watch": "Watch for more rebuilds that ship byte-level comparisons, emulator tests or evidence files, since these are the easiest to reproduce independently and the clearest openings to build on. Also look for public benchmarks on the lightweight-versus-cost question (LeanREA versus the claimed roughly threefold cost), and for evidence behind the reports of models refusing REA and users switching to local models."
+        "headline": "REA shifts from showmanship to proof: byte-exact rebuilds and evidence lead",
+        "summary": "REA stars climbed from about 462K to 473K this week, though daily gains slowed from roughly 2,100 to about 1,300. The narrative moved from the 11/16 self-reported rebuild of 10 paid apps with 27 agents, to the 11/19 static audit of npm MCP packages (13/13 hits, 0 false positives), then to byte-identical rebuilds of an NDS emulator (11/20) and DX-Ball (11/21), making verification a recurring theme. Legacy games and old software led the topics (five days out of seven) while coverage widened to hardware (Logitech G HUB, Echo Dot firmware, a TV) and security review, and integrations kept sprouting (MCP, Termux, Gemini CLI). Model refusals and cost appeared only occasionally, mostly as unevidenced author claims.",
+        "watch": "Look for cases that ship byte comparisons, tests or evidence files, and for tools that turn results into gradable contracts (such as ReaCraft); a verification and evaluation layer looks like a clear open opportunity. Also watch whether lightweight approaches (LeanREA replacing MCP) and local models hold up in the cost debate, and whether client-modification cases like the Feishu multi-instance build spread to more commercial apps."
       },
       "zh-CN": {
-        "headline": "REA 从展示走向可验证重建，并向更多平台扩张",
-        "summary": "本周 REA 星数由 46.2 万稳步增至 47.2 万，每日增幅约 1,100 至 2,200。早期简报以“27 个 Agent 重建 10 款付费 App”等作者自述为主，后段则出现 jEnesisDS 与 DX-Ball 这类逐字节一致、可重编并在模拟器或 Wine 实测的案例，以及 npm MCP 包静态审查 13/13 命中、0 误报，重心从展示转向验证。主题以游戏与老软件的保存、重建为主轴，本周有 5 天出现，也延伸到 Logitech HID++ 与 Echo Dot 固件等硬件案例。生态面持续扩张，包括 Gemini CLI 扩展、DeepSeek、Termux 与 Windows 检查点；成本议题如 LeanREA 的 8 KB skill 取代 MCP，也同步升温。",
-        "watch": "接下来可留意是否有更多附字节比对、模拟器测试或证据文件的重建案例，这类成果最容易被独立复现，也是切入的机会。同时可关注轻量化与成本对照（LeanREA 与约三倍成本的说法）是否有公开基准，并留意模型拒绝使用 REA、改用本地模型的传闻能否得到证实。"
+        "headline": "REA 从炫技走向可验证：字节级重建与证据成为主轴",
+        "summary": "本周 REA 星数从 46.2 万升至 47.3 万，但每日增幅由约 2,100 逐步降到约 1,300。内容脉络从 11/16 用 27 个 Agent 重建付费 App 的自述，转向 11/19 对 npm MCP 包的静态审查（13/13 命中、0 误报），再到 11/20 的 NDS 与 11/21 的 DX-Ball 字节级一致重建，验证成为每周反复出现的主题。题材方面，游戏与老软件持续领跑（一周五天出现），同时扩及硬件（Logitech G HUB、Echo Dot 固件、电视）与安全审查，生态也不断长出 MCP、Termux、Gemini CLI 等集成。模型拒绝、成本等信号仅偶尔出现，且多为缺乏证据的作者自述。",
+        "watch": "留意能附上字节比对、测试或证据文件的案例，以及把结果转成可评分合约的工具（如 ReaCraft）；这类验证层与评测是明显的空白机会。也可观察轻量化（LeanREA 取代 MCP）与本地模型路线是否在成本争论中站稳，并关注飞书双开这类“改客户端”案例是否延伸到更多商业 App。"
       }
     },
     "rising": [
+      "B",
       "C",
-      "G",
-      "B"
+      "G"
     ],
     "fading": [
-      "D",
-      "E"
+      "E",
+      "F"
     ],
     "tally": {
-      "A": 2,
-      "B": 3,
+      "A": 3,
+      "B": 4,
       "C": 5,
       "D": 2,
       "E": 1,
-      "F": 2,
-      "G": 3
+      "F": 1,
+      "G": 2
     }
   }
 }

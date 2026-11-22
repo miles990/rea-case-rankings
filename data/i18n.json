@@ -22993,5 +22993,41 @@
       "target": "REA MCP 配置(无具体逆向目标)",
       "metric": "无具体成果,仅为安装与配置指南"
     }
+  },
+  "d-d867061b9d": {
+    "hash": "c22513b7e43e",
+    "en": {
+      "title": "Using REA to analyze the Feishu (Lark) Mac client and build \"Feishu 2\" in 6 minutes, with two accounts logged in at once",
+      "summary": "The author had Codex install REA and analyze the Lark Mac client, which turned up a hybrid architecture, 25 ASAR packages, 33 registered modules, 382 extension entry points, and findings such as a clipboard bridge and request routing. They then located the LarkShell directory that holds the single-instance lock, replaced 18 occurrences of LarkShell with LarkDual2 across 15 native files in a copy, disabled auto-update and re-signed it, producing a multi-instance build that can run side by side. Using lsof, the author confirmed there was no cross-access to data directories; the original's signature still verifies and its main binary hash is unchanged.",
+      "target": "Feishu (Lark) macOS client",
+      "metric": "Multi-instance build in 6 minutes; 15 native files, 18 string replacements, original hash unchanged"
+    }
+  },
+  "d-f85f50ca6f": {
+    "hash": "da904e442d93",
+    "en": {
+      "title": "Author says they use REA daily and built their own REA bot that runs in parallel",
+      "summary": "In a tweet, the author says they use REA every day and have built an REA bot that can run in parallel. The post contains only a brief statement and a link, with no description of the reverse-engineering target, method, or results.",
+      "target": "Not specified (daily REA use and a self-built bot)",
+      "metric": "Claims daily use and a self-built REA bot running in parallel"
+    }
+  },
+  "d-53e9fe54bd": {
+    "hash": "89b0958ee8d9",
+    "en": {
+      "title": "Releasing ReaCraft: turning REA analysis results into verifiable contracts and scoring reconstructions",
+      "summary": "ReaCraft is a dependency-free Node layer that bridges REA and craft-anything: it turns static analysis results into obligations, each with its own acceptance test, scores a reconstruction, and converts failing items into next-step instructions. The repo has CI, releases, and a hash-chained log, and ships with an example, but the excerpt shows no reconstruction of a real target.",
+      "target": "Contract generation and reconstruction scoring pipeline for REA analysis results",
+      "metric": "Example reconstruction scores 30% (threshold 80%); 0 dependencies"
+    }
+  },
+  "d-a89b79210c": {
+    "hash": "7bba92895e92",
+    "en": {
+      "title": "Building quimera-agent-mutation, a mutation testing engine for AI agents",
+      "summary": "quimera-agent-mutation is a GitHub project written in Rust, described as an \"REA + complex-system mutation testing engine\" for AI agents. The repo has source code, a tests directory, and 3 commits, but the excerpt does not explain how REA is used and shows no results or test outcomes.",
+      "target": "Mutation testing engine for AI agents",
+      "metric": "3 commits, 0 stars; includes src and tests directories"
+    }
   }
 }

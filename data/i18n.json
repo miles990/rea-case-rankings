@@ -22858,5 +22858,140 @@
       "target": "pi coding agent 与 REA CLI 集成",
       "metric": "pi agent + REA CLI 通过自制 session 层集成"
     }
+  },
+  "d-5308f8a76a": {
+    "hash": "4e2ab16323f9",
+    "en": {
+      "title": "Using REA and Ghidra to have an AI agent reverse a small crackme and locate its check function",
+      "summary": "A German-language tutorial demonstrates REA with Ghidra analyzing a sample program, getting decompiled output in about 10 seconds and spotting the validation logic in the check_key function. It is a teaching demo rather than a large real-world target.",
+      "target": "Sample crackme program (Ghidra provider)",
+      "metric": "Analysis finished in about 10 seconds; located the check_key validation function"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Ghidra 让 AI 代理逆向小型 crackme 并找出检查函数",
+      "summary": "一个德语教程演示了 REA 搭配 Ghidra 分析示例程序，约 10 秒即可得到反编译结果，并在 check_key 函数中看出验证逻辑。内容偏教学演示，并非大型真实目标。",
+      "target": "示例 crackme 程序（Ghidra provider）",
+      "metric": "约 10 秒完成分析，定位 check_key 验证函数"
+    }
+  },
+  "d-b7b78eff15": {
+    "hash": "1cb9031fae8b",
+    "en": {
+      "title": "Using REA to reverse-engineer an Android offline game and add a playable character, plus an analysis of a Flutter learning app",
+      "summary": "The author used Codex with REA to take apart Naruto Senki, mapping its cocos2d-x native library, three proprietary asset formats and the character registration flow. They added Might Guy and confirmed on an emulator that character selection and battles work. They also analyzed a Flutter learning app, finding libapp.so, a 360 packer that only protects the Java layer, and an outdated encryption library.",
+      "target": "Naruto Senki Android game and a Flutter learning app",
+      "metric": "New character is selectable and fights in the emulator, backed by screenshots"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向安卓单机游戏并新增可玩角色，另分析 Flutter 学习 App",
+      "summary": "作者用 Codex 搭配 REA 拆解《火影战记》，摸清 cocos2d-x 原生库与三种私有资源格式及角色注册流程，新增迈特凯，并在模拟器中验证选人与战斗均可正常运行。另分析一款 Flutter 学习 App，发现 libapp.so、360 加固仅保护 Java 层以及旧版加密库等问题。",
+      "target": "《火影战记》安卓游戏与一款 Flutter 学习 App",
+      "metric": "新角色在模拟器中可选人并进场战斗，有截图佐证"
+    }
+  },
+  "d-e750556792": {
+    "hash": "d3e8ad0295f2",
+    "en": {
+      "title": "Introducing the REA v6.10.1 update and a demo analyzing the gh CLI binary",
+      "summary": "The author summarizes what's new in REA v6.10.1 and demonstrates using REA to analyze modules inside the gh cli executable. It is a short demo and introduction with limited detail.",
+      "target": "GitHub CLI (gh) binary",
+      "metric": "REA v6.10.1 update summary plus a gh module analysis demo"
+    },
+    "zh-CN": {
+      "title": "介绍 REA v6.10.1 更新并演示分析 gh CLI 二进制文件",
+      "summary": "作者整理了 REA v6.10.1 的更新内容，并演示用 REA 分析 gh cli 可执行文件中的模块。属于简短的演示与介绍，细节有限。",
+      "target": "GitHub CLI（gh）二进制文件",
+      "metric": "REA v6.10.1 更新摘要加 gh 模块分析演示"
+    }
+  },
+  "d-c40b58715b": {
+    "hash": "6cc73ce152ac",
+    "en": {
+      "title": "bridge-anything: building data bridges for API-less software with REA",
+      "summary": "This approach uses REA to reverse-engineer API-less software such as clinic, distributor and legacy ERP systems, finding where data is stored and how it is read and written, then builds a small bridge alongside it that exposes the data over REST, MCP and CLI. REA can inspect installations and identify SQL Server, Firebird and SQLite.",
+      "target": "Legacy software without APIs (clinics, distributors, ERP)",
+      "metric": "Identifies SQL Server, Firebird and SQLite and outputs REST/MCP/CLI"
+    },
+    "zh-CN": {
+      "title": "bridge-anything：用 REA 为无 API 软件建立数据桥接",
+      "summary": "此方法以 REA 逆向诊所、经销商、旧 ERP 等无 API 软件，找出数据存放位置与读写方式，再在旁边建立小型桥接，通过 REST、MCP、CLI 提供数据。REA 可检查安装并识别 SQL Server、Firebird、SQLite。",
+      "target": "无 API 的旧式软件（诊所、经销商、ERP）",
+      "metric": "可识别 SQL Server、Firebird、SQLite 并输出 REST/MCP/CLI"
+    }
+  },
+  "d-8fccac2498": {
+    "hash": "a2377b953edc",
+    "en": {
+      "title": "Using REA to remove a restriction from older Canon LaserJet firmware",
+      "summary": "The author says they had a model run rea to reverse-engineer and remove a feature from older Canon LaserJet firmware. No code, steps or evidence are provided, so the details are unclear.",
+      "target": "Older Canon LaserJet printer firmware",
+      "metric": "Claims the restriction was removed from the firmware (no evidence)"
+    },
+    "zh-CN": {
+      "title": "用 REA 从旧款 Canon LaserJet 固件移除限制",
+      "summary": "作者自述让一个模型运行 rea 逆向，并从较旧的 Canon LaserJet 固件中移除某项功能。没有附代码、步骤或证据，细节不明。",
+      "target": "旧款 Canon LaserJet 打印机固件",
+      "metric": "自述成功从固件移除限制（无证据）"
+    }
+  },
+  "d-5069e6b967": {
+    "hash": "73b5a493d83b",
+    "en": {
+      "title": "Introducing REA usage notes and the audit-release-exposure command",
+      "summary": "The author reminds readers in Korean to try it on their own apps first, and quotes the README: use is limited to lawful research, education, interoperability, preservation, and software one owns or is authorized to test. They introduce rea audit-release-exposure, which checks whether a release build still ships source map source code or API keys. It works on desktop and Electron apps and never declares anything \"secure\".",
+      "target": "Release builds of desktop and Electron apps",
+      "metric": "audit-release-exposure checks for source map and API key leaks"
+    },
+    "zh-CN": {
+      "title": "介绍 REA 使用须知与 audit-release-exposure 命令",
+      "summary": "作者用韩文提醒读者先在自己的应用上试用,并引用 README 说明仅限合法研究、教育、兼容、保存以及自有或获授权软件。他介绍 rea audit-release-exposure 可检查发布版是否残留 source map 源码或 API 密钥,适用于桌面和 Electron 应用,且不会判定“安全”。",
+      "target": "桌面与 Electron 应用的发布版",
+      "metric": "audit-release-exposure 检查 source map 与 API 密钥泄露"
+    }
+  },
+  "d-2b533dd4ce": {
+    "hash": "2d9a7862ff02",
+    "en": {
+      "title": "Packaging the REA extension for Gemini CLI: MCP launcher, skills, and slash commands",
+      "summary": "An REA extension for Gemini CLI that includes an MCP server launcher script, an Agent Skill, a context file, and commands such as /rea:analyze, js, diff, reconstruct, and doctor. The repo ships validation and test scripts and is ready to install and use.",
+      "target": "Gemini CLI integration with REA (rea-agents 6.10.1)",
+      "metric": "5 /rea:* slash commands, with npm validate/test scripts"
+    },
+    "zh-CN": {
+      "title": "为 Gemini CLI 打包 REA 扩展:MCP 启动器、技能与斜杠命令",
+      "summary": "为 Gemini CLI 制作的 REA 扩展,包含 MCP 服务器启动脚本、Agent Skill、上下文文件,以及 /rea:analyze、js、diff、reconstruct、doctor 等命令。仓库附带验证与测试脚本,可直接安装使用。",
+      "target": "Gemini CLI 与 REA(rea-agents 6.10.1)集成",
+      "metric": "5 个 /rea:* 斜杠命令,附 npm validate/test 脚本"
+    }
+  },
+  "d-fa91a81ead": {
+    "hash": "0dd879dccf1a",
+    "en": {
+      "title": "Making REA an opt-in preset for DeepSeek Harness",
+      "summary": "An REA preset for DeepSeek Harness that mounts the REA skill and MCP tools only when selected, using a hot-cold catalog and compact schemas to reduce context load. The repo includes validation and smoke-test scripts.",
+      "target": "DeepSeek Harness and REA MCP integration",
+      "metric": "Initial tools cut from 263 to 5; tools/list reduced from about 340KB to about 7.5KB"
+    },
+    "zh-CN": {
+      "title": "把 REA 做成 DeepSeek Harness 的可选预设模式",
+      "summary": "为 DeepSeek Harness 制作 REA 预设,仅在选用时挂载 REA skill 与 MCP 工具,并以 hot-cold 目录和精简 schema 降低上下文负担。仓库附带验证与冒烟测试脚本。",
+      "target": "DeepSeek Harness 与 REA MCP 集成",
+      "metric": "初始工具由 263 个降为 5 个,tools/list 约 340KB 降至约 7.5KB"
+    }
+  },
+  "d-ddb540a997": {
+    "hash": "d369300192e2",
+    "en": {
+      "title": "REA guide: registering the rea-agents MCP in Claude Code, plus OpSec notes",
+      "summary": "A usage guide for REA published by OpSecRadar, covering Ghidra/Hopper integration and how to register the MCP in Claude Code and CLI mode. The excerpt contains only headings and section titles, with no actual reverse-engineering target or results.",
+      "target": "REA MCP setup (no specific reverse-engineering target)",
+      "metric": "No concrete results; installation and setup guide only"
+    },
+    "zh-CN": {
+      "title": "REA 指南:在 Claude Code 注册 rea-agents MCP 与 OpSec 说明",
+      "summary": "OpSecRadar 发布的 REA 使用指南,介绍 Ghidra/Hopper 集成,以及在 Claude Code 和 CLI 模式下注册 MCP 的方法。节选内容只有标题和章节,没有实际的逆向目标或成果。",
+      "target": "REA MCP 配置(无具体逆向目标)",
+      "metric": "无具体成果,仅为安装与配置指南"
+    }
   }
 }

@@ -23006,28 +23006,166 @@
   "d-f85f50ca6f": {
     "hash": "da904e442d93",
     "en": {
-      "title": "Author says they use REA daily and built their own REA bot that runs in parallel",
-      "summary": "In a tweet, the author says they use REA every day and have built an REA bot that can run in parallel. The post contains only a brief statement and a link, with no description of the reverse-engineering target, method, or results.",
+      "title": "Author says they use REA daily and built a REA bot that runs in parallel",
+      "summary": "In a tweet, the author says they use REA every day and have built their own REA bot that can run in parallel. The post is just a short statement and a link, with no details on the reverse-engineering target, method, or results.",
       "target": "Not specified (daily REA use and a self-built bot)",
-      "metric": "Claims daily use and a self-built REA bot running in parallel"
+      "metric": "Self-reported daily use, plus a self-built REA bot running in parallel"
+    },
+    "zh-CN": {
+      "title": "作者自述每天使用 REA，并自建可并行运行的 REA bot",
+      "summary": "作者在推文中表示每天都在使用 REA，并自行做出了一个可并行运行的 REA bot。内容只有简短自述和一个链接，没有说明逆向的目标、方法或成果。",
+      "target": "未说明（REA 日常使用与自建 bot）",
+      "metric": "自述每日使用，并自建 REA bot 并行运行"
     }
   },
   "d-53e9fe54bd": {
     "hash": "89b0958ee8d9",
     "en": {
-      "title": "Releasing ReaCraft: turning REA analysis results into verifiable contracts and scoring reconstructions",
-      "summary": "ReaCraft is a dependency-free Node layer that bridges REA and craft-anything: it turns static analysis results into obligations, each with its own acceptance test, scores a reconstruction, and converts failing items into next-step instructions. The repo has CI, releases, and a hash-chained log, and ships with an example, but the excerpt shows no reconstruction of a real target.",
-      "target": "Contract generation and reconstruction scoring pipeline for REA analysis results",
-      "metric": "Example reconstruction scores 30% (threshold 80%); 0 dependencies"
+      "title": "Release ReaCraft: turning REA analysis output into verifiable contracts and scoring reconstructions",
+      "summary": "ReaCraft is a dependency-free Node tooling layer bridging REA and craft-anything. It converts static analysis output into obligations, each with its own acceptance test, scores reconstruction results, and turns failing items into next-step instructions. The repo has CI, releases, and hash-chain records, and ships with examples, but the excerpt shows no reconstruction of a real target.",
+      "target": "Contract generation and reconstruction scoring pipeline for REA analysis output",
+      "metric": "Example reconstruction scored 30% (threshold 80%), 0 dependencies"
+    },
+    "zh-CN": {
+      "title": "发布 ReaCraft：将 REA 的解析结果转为可验证合约并为重建评分",
+      "summary": "ReaCraft 是无依赖的 Node 工具层，衔接 REA 与 craft-anything：把静态解析结果转成各自附验收测试的义务，对重建成果评分，并把失败项目转成下一步指令。repo 含 CI、release 与哈希链记录，附有示例，但节选内容中没有针对真实目标的重建成果。",
+      "target": "REA 解析结果的合约化与重建评分流程",
+      "metric": "示例重建得分 30%（门槛 80%），0 依赖"
     }
   },
   "d-a89b79210c": {
     "hash": "7bba92895e92",
     "en": {
       "title": "Building quimera-agent-mutation, a mutation testing engine for AI agents",
-      "summary": "quimera-agent-mutation is a GitHub project written in Rust, described as an \"REA + complex-system mutation testing engine\" for AI agents. The repo has source code, a tests directory, and 3 commits, but the excerpt does not explain how REA is used and shows no results or test outcomes.",
+      "summary": "quimera-agent-mutation is a GitHub project written in Rust, described as a \"REA + complex-system mutation testing engine\" for AI agents. The repo contains source code, a tests directory, and 3 commits, but the excerpt doesn't explain how REA is used and shows no results or test outcomes.",
       "target": "Mutation testing engine for AI agents",
-      "metric": "3 commits, 0 stars; includes src and tests directories"
+      "metric": "3 commits, 0 stars, with src and tests directories"
+    },
+    "zh-CN": {
+      "title": "构建面向 AI agent 的突变测试引擎 quimera-agent-mutation",
+      "summary": "GitHub 项目 quimera-agent-mutation，以 Rust 编写，简介为“REA + 复杂系统突变测试引擎”，用于 AI agent。repo 含源码、测试目录与 3 个提交，但节选内容中没有说明如何使用 REA，也没有成果或测试结果。",
+      "target": "AI agent 突变测试引擎",
+      "metric": "3 个提交、0 star，含 src 与 tests 目录"
+    }
+  },
+  "d-6767dbfb4d": {
+    "hash": "73022f02e931",
+    "zh-CN": {
+      "title": "搭建 dsh 全套逆向环境，整合 REA 6.9.0 及相关 Skill",
+      "summary": "帖子仅列出环境组成：Fanqi89/dsh-rea、REA 6.9.0、reverse-engineer-anything Skill 与 dsh-rea-toggle。没有说明逆向目标，也没有任何成果。",
+      "target": "dsh 逆向环境（目标未说明）",
+      "metric": "整合 REA 6.9.0 与 dsh-rea-toggle"
+    },
+    "en": {
+      "title": "Setting up a full dsh reverse-engineering environment with REA 6.9.0 and related Skills",
+      "summary": "The post only lists the environment's components: Fanqi89/dsh-rea, REA 6.9.0, the reverse-engineer-anything Skill, and dsh-rea-toggle. It doesn't state what is being reverse-engineered and shows no results.",
+      "target": "dsh reverse-engineering environment (target unspecified)",
+      "metric": "Integrates REA 6.9.0 and dsh-rea-toggle"
+    }
+  },
+  "d-36e96fda55": {
+    "hash": "f8830e7e90cc",
+    "zh-CN": {
+      "title": "用本地 LLM 搭配 rea-mcp 反编译 ROM 与 PE/DLL",
+      "summary": "作者介绍了用本地量化模型（abliterated 与 qwen3.6 heretic 等）搭配 rea-mcp，处理 ROM 及 PE/DLL 的反编译工作，认为这对逆向工程很有帮助。内容没有指出具体目标、发现或成果。",
+      "target": "ROM、PE/DLL（未具体说明）",
+      "metric": "以本地 GGUF 量化模型驱动 rea-mcp 反编译 ROM 与 PE/DLL"
+    },
+    "en": {
+      "title": "Decompiling ROMs and PE/DLLs with a local LLM and rea-mcp",
+      "summary": "The author describes using local quantized models (abliterated, qwen3.6 heretic, and others) with rea-mcp to decompile ROMs and PE/DLLs, and finds it a big help for reverse engineering. The post names no specific target, findings, or results.",
+      "target": "ROMs, PE/DLLs (not specified further)",
+      "metric": "Local GGUF quantized models driving rea-mcp to decompile ROMs and PE/DLLs"
+    }
+  },
+  "d-c552ed3abb": {
+    "hash": "41a657a8740e",
+    "zh-CN": {
+      "title": "用 REA 调整家用 WiFi 固件并重建 KNX 设备固件",
+      "summary": "作者自述用 REA 修改家中 WiFi 设备的固件，重建了损坏的旧 KNX 设备固件，并用 XKNX 取代 ETS，接下来打算处理洗碗机。内容仅为简短自述，没有提供代码、测试或成果链接。",
+      "target": "家用 WiFi 设备、KNX 设备固件",
+      "metric": "重建旧 KNX 设备固件，并改用 XKNX 取代 ETS（作者自述）"
+    },
+    "en": {
+      "title": "Tweaking home WiFi firmware and rebuilding KNX device firmware with REA",
+      "summary": "The author says they used REA to modify the firmware of their home WiFi devices, rebuilt the firmware of a broken old KNX device and replaced ETS with XKNX, and plan to tackle their dishwasher next. The post is a brief statement with no code, tests, or links to results.",
+      "target": "Home WiFi devices, KNX device firmware",
+      "metric": "Rebuilt old KNX device firmware and replaced ETS with XKNX (self-reported)"
+    }
+  },
+  "d-3b6126ffce": {
+    "hash": "8ed71abbe99a",
+    "zh-CN": {
+      "title": "GigaMesh 将 REA 整合进自我演化的代理式 SIEM 防御系统",
+      "summary": "GigaMesh 是以 Git 作为神经网络的安全防御平台，通过 REA 桥接（rea-agents CLI/MCP）剖析被诱捕的攻击者产物，并将结果转化为经过验证的防御模块。项目有完整的模块架构和说明，但摘录中没有 REA 剖析实际样本的结果或测试数据。",
+      "target": "攻击者产物与代理式安全事件（GigaMesh SIEM）",
+      "metric": "整合 REA 的多子系统架构（Git 神经 repo、Thompson Sampling 路由、同步防火墙）"
+    },
+    "en": {
+      "title": "GigaMesh integrates REA into a self-evolving agentic SIEM defense system",
+      "summary": "GigaMesh is a security defense platform that uses Git as its neural network. Through a REA bridge (rea-agents CLI/MCP), it analyzes captured attacker artifacts and turns the results into validated defense modules. The project has a thorough module architecture and documentation, but the excerpt contains no results or test data from REA analyzing real samples.",
+      "target": "Attacker artifacts and agentic security incidents (GigaMesh SIEM)",
+      "metric": "Multi-subsystem architecture with REA integration (Git neural repo, Thompson Sampling routing, synchronized firewall)"
+    }
+  },
+  "d-376eecdf23": {
+    "hash": "1c4beaf916f8",
+    "en": {
+      "title": "Analyzing Luraph v14 with REA and building a Lua static analyzer and encoder simulator",
+      "summary": "For Luraph-style Lua obfuscation, the author maps out a seven-layer obfuscation structure (CFF, Ascii85, LEB128 bytecode, binary-search VM dispatch, etc.) and implements a simulated encoder in Node.js with round-trip comparison tests, plus CI and a web workbench. The author states this is clean-room educational research; the excerpt gives no details on how REA was actually used.",
+      "target": "Luraph v14-style Lua virtual machine and obfuscation",
+      "metric": "Seven-layer obfuscation structure analyzed; encoder with test-compare tests (original vs. encoded VM)"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析 Luraph v14,并做出 Lua 静态分析器与编码模拟器",
+      "summary": "针对 Luraph 风格的 Lua 混淆,梳理出七层混淆结构(CFF、Ascii85、LEB128 字节码、二分查找 VM 分派等),并用 Node.js 实现模拟编码器与 Round-Trip 对比测试,附带 CI 与 Web Workbench。作者声明为 clean-room 教育研究,节选中没有说明 REA 实际使用方式的细节。",
+      "target": "Luraph v14 风格 Lua 虚拟机与混淆",
+      "metric": "解析七层混淆结构,encoder 搭配 test-compare 对照测试(原始 vs 编码 VM)"
+    }
+  },
+  "d-4612dd8de4": {
+    "hash": "fcb930e5a711",
+    "en": {
+      "title": "Using REA to read the Chrome dino game script, recover its speed-up rules, and build an adjustable-speed version",
+      "summary": "Connecting REA through UCloud Xingtu, the author fetched the index.js actually loaded by the t-rex-runner page and found the acceleration logic: starting speed 6, increment 0.001 per step, cap 13, along with the corresponding code. They then generated a single-file HTML game with a speed slider (2–18). The result is a mini-game that opens directly in the browser; the visuals and some collision handling are reimplemented.",
+      "target": "Chromium dino game (wayou.github.io/t-rex-runner)",
+      "metric": "Recovered speed-up rules (start 6, increment 0.001, cap 13); produced adjustable-speed dino-demo.html"
+    },
+    "zh-CN": {
+      "title": "用 REA 读取 Chrome 小恐龙游戏脚本,还原加速规则并做出可调速版本",
+      "summary": "通过 UCloud 星图接入 REA,获取 t-rex-runner 网页实际加载的 index.js,找出起始速度 6、每次增量 0.001、上限 13 的加速逻辑及对应代码,再生成带速度滑块(2–18)的单文件 HTML 游戏。成果为可在浏览器中直接打开的小游戏,画面与部分碰撞处理为重新实现。",
+      "target": "Chromium 小恐龙游戏(wayou.github.io/t-rex-runner)",
+      "metric": "还原加速规则(起始 6、增量 0.001、上限 13),产出可调速 dino-demo.html"
+    }
+  },
+  "d-cb2f335322": {
+    "hash": "950a37a19071",
+    "en": {
+      "title": "Building an internal PDF editor with REA",
+      "summary": "Fed up with Adobe and online PDF editors, the author says they used REA to build an internal PDF editor and that it works well. The post doesn't say what was reverse-engineered or how, and shows no results.",
+      "target": "PDF editor (reverse-engineering target not specified)",
+      "metric": "Self-built internal PDF editor (author's claim)"
+    },
+    "zh-CN": {
+      "title": "用 REA 自建内部 PDF 编辑器",
+      "summary": "作者受够了 Adobe 和在线 PDF 编辑器,自述用 REA 打造了一个内部使用的 PDF 编辑器,并说运行良好。帖子没有说明逆向对象和做法,也没有展示成果。",
+      "target": "PDF 编辑器(逆向对象未说明)",
+      "metric": "自建内部 PDF 编辑器(作者自述)"
+    }
+  },
+  "d-3b5438c202": {
+    "hash": "6cdb86032871",
+    "en": {
+      "title": "Getting a root shell and rewriting firmware on a device with DeepSeek and REA",
+      "summary": "The author claims to have used DeepSeek together with REA to get a root shell on a device and rewrite its firmware, adding that they're doing the same to every device that annoys them. The post names no device and gives no details or evidence.",
+      "target": "Firmware of an unnamed hardware device",
+      "metric": "Root shell obtained and firmware rewritten (author's claim)"
+    },
+    "zh-CN": {
+      "title": "用 DeepSeek 与 REA 获取设备 root shell 并改写固件",
+      "summary": "作者自述用 DeepSeek 搭配 REA 获取某设备的 root shell 并改写其固件,还说正对所有惹恼他的设备这样做。帖子没有指明设备、细节或证据。",
+      "target": "未具名的硬件设备固件",
+      "metric": "获取 root shell 并改写固件(作者自述)"
     }
   }
 }

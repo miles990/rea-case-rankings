@@ -22997,10 +22997,16 @@
   "d-d867061b9d": {
     "hash": "c22513b7e43e",
     "en": {
-      "title": "Using REA to analyze the Feishu (Lark) Mac client and build \"Feishu 2\" in 6 minutes, with two accounts logged in at once",
-      "summary": "The author had Codex install REA and analyze the Lark Mac client, which turned up a hybrid architecture, 25 ASAR packages, 33 registered modules, 382 extension entry points, and findings such as a clipboard bridge and request routing. They then located the LarkShell directory that holds the single-instance lock, replaced 18 occurrences of LarkShell with LarkDual2 across 15 native files in a copy, disabled auto-update and re-signed it, producing a multi-instance build that can run side by side. Using lsof, the author confirmed there was no cross-access to data directories; the original's signature still verifies and its main binary hash is unchanged.",
+      "title": "Dissecting the Feishu (Lark) Mac client with REA: building a dual-login \"Feishu 2\" in 6 minutes",
+      "summary": "The author had Codex install REA and analyze the Feishu Mac client, uncovering a hybrid architecture, 25 ASAR packages, 33 registered modules, 382 extension entry points, plus a clipboard bridge and request routing. They then located the LarkShell directory holding the single-instance lock, replaced 18 occurrences of LarkShell with LarkDual2 across 15 native files in a copy, disabled auto-update and re-signed it, producing a multi-instance build that can log in in parallel. Using lsof, the author confirmed no cross-access to data directories; the original app's signature still verifies and its main binary hash is unchanged.",
       "target": "Feishu (Lark) macOS client",
-      "metric": "Multi-instance build in 6 minutes; 15 native files, 18 string replacements, original hash unchanged"
+      "metric": "Multi-instance build made in 6 minutes; 15 native files, 18 string replacements, original hash unchanged"
+    },
+    "zh-CN": {
+      "title": "用 REA 解析飞书 Mac 客户端，6 分钟做出可同时登录两个账号的「飞书 2」",
+      "summary": "作者让 Codex 安装 REA 并解析飞书 Mac 客户端，得到混合架构、25 个 ASAR 包、33 个注册模块、382 个扩展入口，以及剪贴板桥接与请求分流等发现。接着找出单实例锁所在的 LarkShell 目录，在副本的 15 个原生文件中把 18 处 LarkShell 替换为 LarkDual2、关闭自动更新并重新签名，做出可并行登录的多开版本。作者用 lsof 确认没有交叉读写数据目录，原版签名验证通过且主程序哈希不变。",
+      "target": "飞书（Lark）macOS 客户端",
+      "metric": "6 分钟做出多开版本；15 个原生文件、18 处字符串替换，原版哈希不变"
     }
   },
   "d-f85f50ca6f": {
@@ -23166,6 +23172,96 @@
       "summary": "作者自述用 DeepSeek 搭配 REA 获取某设备的 root shell 并改写其固件,还说正对所有惹恼他的设备这样做。帖子没有指明设备、细节或证据。",
       "target": "未具名的硬件设备固件",
       "metric": "获取 root shell 并改写固件(作者自述)"
+    }
+  },
+  "d-291d79b449": {
+    "hash": "616ae2959dc3",
+    "en": {
+      "title": "Using the REA MCP Bridge to Have Claude Code Analyze a Closed Electron App and Write a Clean-Room Client",
+      "summary": "The author says they used Claude Code with REA to analyze a closed Electron app, working out the IPC bus, mapping a hidden WebSocket API, and writing a clean-room client within 4 minutes. The post does not name the app and offers no code or tests to back this up.",
+      "target": "An unnamed closed Electron app",
+      "metric": "IPC and WebSocket API analysis completed and a client produced within 4 minutes (self-reported)"
+    },
+    "zh-CN": {
+      "title": "通过 REA MCP 桥接让 Claude Code 分析封闭 Electron 应用并编写 clean-room 客户端",
+      "summary": "作者自述使用 Claude Code 借助 REA 分析一个封闭的 Electron 应用，在 4 分钟内解析出 IPC 总线、映射出隐藏的 WebSocket API，并编写出 clean-room 客户端。帖子未说明应用名称，也没有代码或测试佐证。",
+      "target": "未具名的封闭 Electron 应用",
+      "metric": "4 分钟内完成 IPC 与 WebSocket API 分析并产出客户端（作者自述）"
+    }
+  },
+  "d-0a296c8a10": {
+    "hash": "b2f32c361e66",
+    "en": {
+      "title": "Packaging REA as a Claude Chat Plugin Marketplace with Automatic Updates",
+      "summary": "Packages the REA runtime as a plugin installable in claude.ai and Claude Code, running through a CLI in a sandbox and automatically downloading Ghidra and a JDK. The repo checks daily for new npm releases, includes CI with an end-to-end Ghidra decompilation test, and either auto-merges or opens an Issue depending on the release type.",
+      "target": "Claude plugin packaging of REA",
+      "metric": "Daily automatic updates; CI includes an end-to-end Ghidra decompilation test"
+    },
+    "zh-CN": {
+      "title": "将 REA 封装为 Claude 聊天插件市场并自动更新",
+      "summary": "将 REA 运行环境打包为可在 claude.ai 与 Claude Code 中安装的插件，通过 CLI 在沙箱中运行，并自动下载 Ghidra 与 JDK。仓库每日检测 npm 新版本，包含 CI 与 Ghidra 端到端反编译测试，并按版本类型自动合并或创建 Issue。",
+      "target": "REA 的 Claude 插件封装",
+      "metric": "每日自动更新，CI 含 Ghidra 端到端反编译测试"
+    }
+  },
+  "d-7c1ae0aee2": {
+    "hash": "fdbf421e0b25",
+    "en": {
+      "title": "An Independent Reverse-Engineering Lab for a PS2 Soccer Game Using Ghidra and REA",
+      "summary": "A research repo built around Ghidra headless and REA, targeting movement, ball physics, animation, and AI in a PS2 (MIPS R5900) soccer game. Its current contents are research task plans, the tool stack, and workflow documents; the excerpt shows no concrete findings or reproducible results yet.",
+      "target": "A PS2 soccer game (MIPS R5900 / Emotion Engine)",
+      "metric": "Research repo and workflow set up, but no concrete reverse-engineering findings yet"
+    },
+    "zh-CN": {
+      "title": "以 Ghidra 与 REA 研究 PS2 足球游戏的独立逆向实验室",
+      "summary": "针对 PS2（MIPS R5900）足球游戏的移动、球物理、动画与 AI，建立了以 Ghidra headless 与 REA 为核心的研究仓库。目前内容为研究任务规划、工具栈与流程文档，节选中尚未看到具体发现或可复现成果。",
+      "target": "PS2 足球游戏（MIPS R5900 / Emotion Engine）",
+      "metric": "已建立研究仓库与流程，但尚无具体逆向发现"
+    }
+  },
+  "d-04911af8df": {
+    "hash": "6a91a83c9392",
+    "en": {
+      "title": "Four reverse-engineering tests with REA, Ghidra and Claude Code: keygen, binary patching and more",
+      "summary": "Using Claude Code (Opus 5.5) with REA 6.4.0 and Ghidra, the author built a fake-license crackme called PixelNote Pro. The agent read the pseudocode, cross-checked it against the assembly, and produced a Python keygen in two minutes; all 479 random names tested were accepted. The agent was also asked to place instructions in empty space and re-sign the binary, successfully patching in a character-count feature.",
+      "target": "Custom PixelNote Pro crackme (Mac ARM) and a text-counting tool",
+      "metric": "Keygen passed all 479 random-name tests; took 2 minutes, API cost about $0.5"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Ghidra 搭配 Claude Code 完成 keygen、二进制修补等四项逆向实测",
+      "summary": "作者以 Claude Code（Opus 5.5）加 REA 6.4.0 与 Ghidra，自制 PixelNote Pro 假授权 crackme 进行测试。代理读取伪代码并对照汇编，两分钟内生成 Python keygen，用 479 个随机名称验证全部通过；另让代理把指令放进空白区并重新签名，完成字符计数功能的修补。",
+      "target": "自制 PixelNote Pro crackme（Mac ARM）与文本计数工具",
+      "metric": "keygen 以 479 个随机名称测试全部通过，耗时 2 分钟、API 成本约 0.5 美元"
+    }
+  },
+  "d-a24c11cd8f": {
+    "hash": "afa02c820bef",
+    "en": {
+      "title": "Using REA to add a playable character to the Android offline game Naruto Chronicles and analyze a learning app",
+      "summary": "The AI used REA to take apart the game package, working out the cocos2d-x native library, three proprietary resource formats and the character registration flow. It added Might Guy and verified in an emulator that he can be selected, enter a stage and use skills. It also ran static analysis on a Flutter learning app, identifying the scope of its hardening shell and its commercial tactics, though the model refused to reconstruct the full source code.",
+      "target": "Android game Naruto Chronicles and a Flutter learning app",
+      "metric": "New character Might Guy can be selected, enter a stage and use skills in the emulator"
+    },
+    "zh-CN": {
+      "title": "用 REA 为安卓单机游戏《火影战记》新增可玩角色并分析学习 APP",
+      "summary": "AI 以 REA 拆解游戏安装包，摸清 cocos2d-x 原生库与三种私有资源格式及角色注册流程，新增迈特凯并在模拟器中验证可选角、进场与放技能。另对一款 Flutter 学习 APP 做静态分析，识别出加固壳范围与商业套路，但模型拒绝还原完整源代码。",
+      "target": "安卓游戏《火影战记》与 Flutter 学习 APP",
+      "metric": "新角色迈特凯在模拟器中可选人、进场并放技能"
+    }
+  },
+  "d-72c8f239e2": {
+    "hash": "908f804fd205",
+    "en": {
+      "title": "Reverse-engineering Xuexitong with REA and publishing a proxy check-in forger and auto course-grinding tool",
+      "summary": "The author used REA to reverse-engineer Xuexitong, wrote a program that forges proxy check-ins and automatically grinds through courses, and published it on GitHub (Pybsama/Caochaoxing). The author tested parts of it with classmates, but it has not been extensively tested.",
+      "target": "Xuexitong (Chaoxing Xuexitong app)",
+      "metric": "Public GitHub project with proxy check-in forgery and auto course-grinding; only lightly tested"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向学习通并公开伪造代签到与自动刷课程序",
+      "summary": "作者用 REA 逆向学习通，编写出伪造代签到与自动刷课的程序，并公开于 GitHub（Pybsama/Caochaoxing）。作者与同学做过部分测试，但未经大量测试。",
+      "target": "学习通（超星学习通 App）",
+      "metric": "GitHub 公开项目，含代签到伪造与自动刷课，仅小范围测试"
     }
   }
 }

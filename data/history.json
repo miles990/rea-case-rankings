@@ -79448,10 +79448,11 @@
     },
     {
       "date": "2026-11-23",
-      "stars": 474083,
-      "stars_delta": 1097,
+      "stars": 474370,
+      "stars_delta": 1384,
       "new": [
         "d-04911af8df",
+        "d-a24c11cd8f",
         "d-72c8f239e2",
         "d-291d79b449",
         "d-376eecdf23",
@@ -79460,49 +79461,51 @@
         "d-3b5438c202",
         "d-36e96fda55",
         "d-c552ed3abb",
+        "d-0a296c8a10",
+        "d-7c1ae0aee2",
         "d-3b6126ffce",
         "d-6767dbfb4d"
       ],
       "stats": {
-        "count": 11,
+        "count": 14,
         "wow": {
-          "2": 6,
+          "2": 8,
           "3": 4,
-          "4": 1
+          "4": 2
         },
         "type": {
-          "case": 8,
-          "app": 3
+          "case": 10,
+          "app": 4
         },
         "status": {
           "tested": 2,
-          "shipped": 3,
-          "reported": 6
+          "reported": 7,
+          "shipped": 5
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 星數破 47.4 萬，Claude Code 逆向實測成當日焦點",
-          "summary": "REA GitHub 星數升至 474083，較前一紀錄 472986 增加 1097。當天最值得看的是一篇附驗證的實測：作者以 Claude Code 搭配 REA 與 Ghidra，兩分鐘產出 keygen 並以 479 個隨機名稱驗證全數通過，另完成二進位修補。其餘多為 X 上的簡短自述，涵蓋韌體改寫、自建工具與封閉 Electron 應用的 clean-room 客戶端，但多數沒有程式碼或證據。使用場景正從軟體擴展到家用裝置與混淆分析。"
+          "headline": "REA 逆向實測湧現,但多數仍僅是自述、缺乏佐證",
+          "summary": "11 月 23 日 REA 星數升至 474370,較前一個紀錄增加 1384。最值得看的是排名前列的實測:以 Claude Code、REA 與 Ghidra 完成 keygen 與二進位修補,並用 479 個隨機名稱驗證;另有安卓遊戲新增角色的案例。不過熱度較高的 X 貼文(如改寫裝置韌體、自建 PDF 編輯器、分析 Electron 應用)大多沒有程式碼、細節或成果佐證,顯示討論熱度與可驗證程度之間仍有落差。同時也出現把 REA 包成外掛市集、整合進資安防禦系統等生態延伸。"
         },
         "en": {
-          "headline": "REA passes 474K stars; Claude Code RE test leads the day",
-          "summary": "REA's GitHub stars rose to 474,083, up 1,097 from the previous record of 472,986. The standout item is a verified hands-on test: the author paired Claude Code with REA and Ghidra, produced a keygen in two minutes that was accepted for all 479 random names, and also completed a binary patch. Most other items are brief self-reports on X covering firmware rewriting, in-house tools and a clean-room client for a closed Electron app, mostly without code or evidence. Use is spreading from software to home devices and obfuscation analysis."
+          "headline": "REA reverse-engineering tests surge, but most claims lack evidence",
+          "summary": "On 2026-11-23 REA's GitHub stars reached 474,370, up 1,384 from the previous record. The most substantial items are the top-ranked tests: Claude Code with REA and Ghidra produced a keygen and a binary patch, validated against 479 random names, plus a case adding a playable character to an Android game. By contrast, the hotter X posts (rewriting device firmware, an in-house PDF editor, a clean-room Electron client) offer no code, details or results, so buzz and verifiability remain far apart. Ecosystem expansion also continued, with REA packaged as a plugin marketplace and integrated into a security defense system."
         },
         "zh-CN": {
-          "headline": "REA 星数破 47.4 万，Claude Code 逆向实测成当日焦点",
-          "summary": "REA GitHub 星数升至 474083，较前一纪录 472986 增加 1097。当天最值得看的是一篇附验证的实测：作者用 Claude Code 搭配 REA 与 Ghidra，两分钟产出 keygen 并以 479 个随机名称验证全部通过，另完成二进制补丁。其余多为 X 上的简短自述，涵盖固件改写、自建工具与封闭 Electron 应用的 clean-room 客户端，但多数没有代码或证据。使用场景正从软件扩展到家用设备与混淆分析。"
+          "headline": "REA 逆向实测涌现,但多数仍仅是自述、缺乏佐证",
+          "summary": "11 月 23 日 REA 星数升至 474370,较前一个纪录增加 1384。最值得看的是排名靠前的实测:以 Claude Code、REA 与 Ghidra 完成 keygen 与二进制修补,并用 479 个随机名称验证;另有安卓游戏新增角色的案例。不过热度较高的 X 帖子(如改写设备固件、自建 PDF 编辑器、分析 Electron 应用)大多没有代码、细节或成果佐证,显示讨论热度与可验证程度之间仍有落差。同时也出现把 REA 打包成插件市场、整合进安全防御系统等生态延伸。"
         }
       },
       "signals": [
         "B",
-        "D",
+        "G",
         "A"
       ],
       "highlights": [
         "d-04911af8df",
-        "d-376eecdf23",
-        "d-c552ed3abb"
+        "d-a24c11cd8f",
+        "d-0a296c8a10"
       ],
       "rank": [
         "dx-ball-sound-pan",
@@ -79764,6 +79767,7 @@
         "d-f0ba2f76ab",
         "d-37b48a30da",
         "d-b912e082d8",
+        "d-a24c11cd8f",
         "d-b7b78eff15",
         "d-44b05a613b",
         "smart-toilet",
@@ -80563,6 +80567,8 @@
         "d-40c0474406",
         "d-49c3fe3859",
         "heartland-side-effects",
+        "d-0a296c8a10",
+        "d-7c1ae0aee2",
         "d-3b6126ffce",
         "d-53e9fe54bd",
         "d-a89b79210c",
@@ -81168,6 +81174,7 @@
         "d-af3396f8f6",
         "d-3fb72be9a7",
         "d-e7442c0957",
+        "d-6e190be105",
         "d-f72ffdfbf6",
         "d-e850375db0",
         "d-9186891065",
@@ -81577,6 +81584,7 @@
         "d-9cf47d90e7",
         "d-45518a1b3f",
         "d-182c75956c",
+        "d-d836e77c46",
         "d-2641e99164",
         "d-6f57093c2f",
         "d-e5c7cffbbc",
@@ -81912,6 +81920,7 @@
         "d-44a4b19dff",
         "d-65675ed871",
         "d-2201431890",
+        "d-1b547931b2",
         "d-700e8ff1f9",
         "d-7e0c32656d",
         "d-65e5fe9252",
@@ -82199,26 +82208,28 @@
     "to": "2026-11-23",
     "text": {
       "zh-TW": {
-        "headline": "REA 從炫技展示轉向可驗證成果，並由遊戲延伸至硬體與家用裝置",
-        "summary": "週初焦點是硬體逆向（Logitech G HUB 替代品、Echo Dot 韌體分析），以及模型拒絕使用 REA 的傳聞，但多為作者自述。中段生態工具大量湧現（MCP 整合、Termux、Windows、DeepSeek、Gemini CLI），同時出現以 npm MCP 套件風險報告卡 13/13 命中的實測。後半週重心轉為附驗證的重建成果：NDS 模擬器逐位元組一致、DX-Ball 270 函式逐位元組一致並以 Wine 通關、飛書雙開驗證簽名未變、keygen 以 479 個隨機名稱全數通過。遊戲與老軟體仍是主軸，但週末起場景延伸到家用裝置與封閉 Electron 應用。每日星數增幅則由 2200 逐步降至約 1100，熱度略為趨緩。",
-        "watch": "可留意以位元組一致、隨機測試或模擬器實測作為驗收的案例，這類有證據的成果最容易被信任與複製。另可關注家用裝置韌體、封閉 Electron 客戶端 clean-room 重寫，以及驗證與評分工具（如 ReaCraft）與輕量化 skill 取代 MCP 的成本之爭。"
+        "headline": "REA 從炫技展示轉向可驗證成果，老軟體重建與生態擴張並進",
+        "summary": "本週星數從 464502 升至 474370，每日增幅約 1,300 至 2,200，熱度穩定。11 月中旬以硬體逆向（Logitech G HUB、Echo Dot 韌體）與電視破解影片領頭，之後轉為遊戲與老軟體重建：jEnesisDS 位元組級一致的 NDS ROM、DX-Ball 270 個函式逐位元組重編，並以模擬器或 Wine 實測。驗證成為主軸，包括 npm MCP 套件靜態審查 13/13 命中且 0 誤報、keygen 以 479 個隨機名稱驗證，以及將結果轉為可評分合約的 ReaCraft。同時生態持續擴張，出現 Termux、Gemini CLI、DeepSeek、外掛市集等整合，並出現 LeanREA 等成本與輕量化討論；然而熱度最高的 X 貼文多數仍只是作者自述，缺乏證據。",
+        "watch": "可留意附有逐位元組比對、模擬器實測或隨機測資驗證的案例，這類成果最能被信任與複用。機會在於驗證工具（差異測試、評分合約）、老軟體與遊戲的重建遷移，以及跨模型、跨平台的整合封裝。對只有自述的熱門貼文，建議等到出現程式碼或證據檔再採信。"
       },
       "en": {
-        "headline": "REA is shifting from flashy demos to verifiable results, and from games toward hardware and home devices",
-        "summary": "Early in the week the spotlight was hardware reverse engineering (a Logitech G HUB replacement, Echo Dot firmware analysis) plus unverified claims of models refusing to use REA. Mid-week saw a burst of ecosystem tooling (MCP integrations, Termux, Windows, DeepSeek, Gemini CLI) alongside a measured npm MCP risk-report-card that caught 13 of 13 planted behaviors. The second half centered on verified rebuilds: a byte-identical NDS emulator, a 270-function DX-Ball rebuild confirmed on Wine, a Feishu multi-instance build with signature unchanged, and a keygen passing 479 random names. Games and old software remain the core, but by the weekend use cases were reaching home devices and closed Electron apps. Daily star gains slid from about 2,200 to about 1,100, a modest cooling.",
-        "watch": "Look for cases that close with byte-identical output, randomized tests, or emulator runs, since evidenced results are the easiest to trust and replicate. Also watch home-device firmware, clean-room clients for closed Electron apps, and verification/grading tooling like ReaCraft, along with the cost debate over lightweight skills replacing MCP."
+        "headline": "REA shifts from flashy demos to verifiable results, with legacy-software rebuilds and ecosystem growth",
+        "summary": "Stars rose from 464,502 to 474,370 over the week, adding roughly 1,300–2,200 a day, so attention stayed steady. Mid-week coverage opened with hardware reverse engineering (Logitech G HUB, Echo Dot firmware) and a TV-hacking video, then moved to game and old-software rebuilds: a byte-identical NDS ROM for jEnesisDS and a byte-for-byte recompile of 270 DX-Ball functions, both checked in an emulator or Wine. Verification became the main thread: a static audit of npm MCP packages hit 13 of 13 planted behaviors with no false positives, a keygen was checked against 479 random names, and ReaCraft turns results into gradable contracts. The ecosystem kept expanding with Termux, Gemini CLI, DeepSeek and plugin-marketplace integrations, alongside cost and lightweight debates such as LeanREA. Yet the hottest X posts were mostly author claims without evidence.",
+        "watch": "Look for cases backed by byte-level comparison, emulator runs or randomized test inputs, since those are the results others can trust and reuse. Opportunities lie in verification tooling (differential tests, gradable contracts), legacy game and software rebuilds and migrations, and packaging REA for other models and platforms. Treat popular self-reported posts cautiously until code or evidence files appear."
       },
       "zh-CN": {
-        "headline": "REA 从炫技展示转向可验证成果，并由游戏延伸至硬件与家用设备",
-        "summary": "周初焦点是硬件逆向（Logitech G HUB 替代品、Echo Dot 固件分析），以及模型拒绝使用 REA 的传闻，但多为作者自述。中段生态工具大量涌现（MCP 集成、Termux、Windows、DeepSeek、Gemini CLI），同时出现以 npm MCP 包风险报告卡 13/13 命中的实测。后半周重心转为附验证的重建成果：NDS 模拟器逐字节一致、DX-Ball 270 个函数逐字节一致并用 Wine 通关、飞书双开验证签名未变、keygen 以 479 个随机名称全部通过。游戏与老软件仍是主轴，但周末起场景延伸到家用设备与封闭 Electron 应用。每日星数增幅则由 2200 逐步降至约 1100，热度略有趋缓。",
-        "watch": "可留意以字节一致、随机测试或模拟器实测作为验收的案例，这类有证据的成果最容易被信任与复制。另可关注家用设备固件、封闭 Electron 客户端 clean-room 重写，以及验证与评分工具（如 ReaCraft）与轻量化 skill 取代 MCP 的成本之争。"
+        "headline": "REA 从炫技展示转向可验证成果，老软件重建与生态扩张并进",
+        "summary": "本周星数从 464502 升至 474370，每日增幅约 1,300 至 2,200，热度稳定。11 月中旬以硬件逆向（Logitech G HUB、Echo Dot 固件）和电视破解视频领头，之后转为游戏与老软件重建：jEnesisDS 字节级一致的 NDS ROM、DX-Ball 270 个函数逐字节重编，并用模拟器或 Wine 实测。验证成为主线，包括 npm MCP 包静态审查 13/13 命中且 0 误报、keygen 以 479 个随机名称验证，以及把结果转为可评分合约的 ReaCraft。同时生态持续扩张，出现 Termux、Gemini CLI、DeepSeek、插件市场等集成，并有 LeanREA 等成本与轻量化讨论；然而热度最高的 X 帖子多数仍只是作者自述，缺乏证据。",
+        "watch": "可留意附有逐字节比对、模拟器实测或随机测试数据验证的案例，这类成果最容易被信任和复用。机会在于验证工具（差异测试、评分合约）、老软件与游戏的重建迁移，以及跨模型、跨平台的集成封装。对只有自述的热门帖子，建议等到出现代码或证据文件再采信。"
       }
     },
     "rising": [
       "B",
-      "C"
+      "C",
+      "G"
     ],
     "fading": [
+      "D",
       "E",
       "F"
     ],
@@ -82226,10 +82237,10 @@
       "A": 3,
       "B": 4,
       "C": 4,
-      "D": 3,
+      "D": 2,
       "E": 1,
       "F": 1,
-      "G": 2
+      "G": 3
     }
   }
 }

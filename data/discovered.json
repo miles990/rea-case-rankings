@@ -2,6 +2,69 @@
   "updated": "2026-11-23",
   "items": [
     {
+      "url": "https://github.com/Rafiel00/rea-plugin-claude",
+      "title": "Rafiel00/rea-plugin-claude: Unofficial packaging of REA (reverse engineering toolkit) as a Claude chat plugin marketplace",
+      "author": "Rafiel00",
+      "date": "2026-11-23",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-23",
+      "relevant": true,
+      "title_zh": "把 REA 封裝成 Claude 聊天外掛市集並自動更新",
+      "summary": "將 REA 執行環境打包為 claude.ai 與 Claude Code 可安裝的外掛，以 CLI 在沙盒中執行，並自動下載 Ghidra 與 JDK。倉庫含每日偵測 npm 新版、CI 與 Ghidra 端到端反編譯測試，並依版本類型自動合併或開 Issue。",
+      "target": "REA 的 Claude 外掛封裝",
+      "metric": "每日自動更新，CI 含 Ghidra 端到端反編譯測試",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-23",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/Nicolas25vlad/bomba-patch-rea",
+      "title": "Nicolas25vlad/bomba-patch-rea: Pesquisa independente de gameplay, física e animações de futebol no PS2 com Ghidra, REA e agentes de IA.",
+      "author": "Nicolas25vlad",
+      "date": "2026-11-23",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "pt",
+      "found": "2026-11-23",
+      "relevant": true,
+      "title_zh": "以 Ghidra 與 REA 研究 PS2 足球遊戲的獨立逆向實驗室",
+      "summary": "針對 PS2（MIPS R5900）足球遊戲的移動、球物理、動畫與 AI，建立以 Ghidra headless 與 REA 為核心的研究倉庫。目前內容為研究任務規劃、工具堆疊與流程文件，節錄中尚未看到具體發現或可重現成果。",
+      "target": "PS2 足球遊戲（MIPS R5900 / Emotion Engine）",
+      "metric": "建立研究倉庫與流程，但尚無具體逆向發現",
+      "category": "Native / 遊戲",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-23",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/611_CC/status/2124714859397059027",
+      "title": "open code goでGLM 5.3が湯水のように使えるのでreaでリバースエンジニアリングしまくってる",
+      "author": "@611_CC",
+      "date": "2026-11-23",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 16
+      },
+      "lang": "ja",
+      "found": "2026-11-23",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-23",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://github.com/Phlotonic/gigamesh",
       "title": "Phlotonic/gigamesh: GigaMesh: Non-linear, self-evolving, human-aggregated agentic SIEM with an immutable Git neural repo, recursive Darwinian A/B forking, mutual sync firewall, and Reverse Engineer Anything (REA) defensive metabolism.",
       "author": "Phlotonic",
@@ -320,6 +383,46 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://zenn.dev/aiforall/articles/c909b7c51a3b39",
+      "title": "AIで変わるリバースエンジニアリング：REAの紹介と、今後のアプリ開発への懸念",
+      "author": "GamiSan",
+      "date": "2026-10-23",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "ja",
+      "found": "2026-11-23",
+      "relevant": true,
+      "title_zh": "介紹 REA 的運作方式並提醒 AI 逆向的風險",
+      "summary": "說明 REA 是連接 AI 代理與逆向分析工具的 MCP 伺服器與 CLI，並引用 Notion 剪貼簿處理流程的案例。文章重點在介紹與評論，並提醒分析結果需人工驗證。",
+      "target": "REA 工具本身（引用 Notion 案例）",
+      "metric": "介紹 REA 並提醒結果需人工驗證",
+      "category": "報導 / 評論",
+      "status": "reported",
+      "wow": 1,
+      "scored": "2026-11-23",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://developer.cloud.tencent.com/article/2762444",
+      "title": "我用 REA 逆向了付费颜色 APP，结果很意外！-腾讯云开发者社区-腾讯云",
+      "author": "developer.cloud.tencent.com",
+      "date": "2026-10-16",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "zh",
+      "found": "2026-11-23",
+      "relevant": true,
+      "title_zh": "用 REA 為安卓單機遊戲《火影戰記》新增可玩角色並分析學習 APP",
+      "summary": "AI 以 REA 拆解遊戲安裝包，摸清 cocos2d-x 原生庫與三種私有資源格式及角色註冊流程，新增邁特凱並在模擬器中驗證可選角、進場與放技能。另對一款 Flutter 學習 APP 做靜態分析，辨識出加固殼範圍與商業套路，但模型拒絕還原完整原始碼。",
+      "target": "安卓遊戲《火影戰記》與 Flutter 學習 APP",
+      "metric": "新角色邁特凱在模擬器中可選人、進場並放技能",
+      "category": "Android",
+      "status": "reported",
+      "wow": 4,
+      "scored": "2026-11-23",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://solo.xin/topic/6061",
       "title": "短短几天暴涨8.1万Star！我用爆火的REA逆向了Chrome | Solo 独立开发者社区-链接每一位独立开发者, 从 Solo 开始",
       "author": "社交名流UCL预备生",
@@ -387,6 +490,23 @@
       "wow": 4,
       "scored": "2026-11-23",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://youtu.be/xky0HQS6fu4",
+      "title": "Forget Claude Code: Reverse Engineer Anything 10x Better (Full Guide)",
+      "author": "Gao Dalie (高達烈)",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 995,
+      "lang": "en",
+      "found": "2026-11-23",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-11-23",
+      "scored_by": "jev"
     },
     {
       "url": "https://github.com/jinhuanranwansui-gif/reacraft",
@@ -58284,6 +58404,35 @@
   "runs": [
     {
       "date": "2026-11-23",
+      "added": 6,
+      "stats": {
+        "githubShowAndTell": 18,
+        "githubRepos": 235,
+        "githubCode": 44,
+        "hackerNews": 29,
+        "qiita": 51,
+        "devto": 150,
+        "juejin": 3,
+        "reddit": 20,
+        "v2ex": "error: fetch failed",
+        "youtube": 90,
+        "bluesky": 160,
+        "mastodon": 160,
+        "exaWeb": 60,
+        "x": 22
+      },
+      "scoring": {
+        "scored": 4,
+        "jev": {
+          "low": 2,
+          "irrelevant": 0,
+          "errors": 0,
+          "toClaude": 4
+        }
+      }
+    },
+    {
+      "date": "2026-11-23",
       "added": 18,
       "stats": {
         "githubShowAndTell": 18,
@@ -59126,36 +59275,7 @@
           "toClaude": 15
         }
       }
-    },
-    {
-      "date": "2026-11-08",
-      "added": 6,
-      "stats": {
-        "githubShowAndTell": 14,
-        "githubRepos": 227,
-        "githubCode": 47,
-        "hackerNews": 31,
-        "qiita": 50,
-        "devto": 150,
-        "juejin": 4,
-        "reddit": 20,
-        "v2ex": 14,
-        "youtube": 90,
-        "bluesky": 162,
-        "mastodon": 160,
-        "exaWeb": 60,
-        "x": "error: Command failed: grok -p Search X for posts from the last 7 days where people sho"
-      },
-      "scoring": {
-        "scored": 3,
-        "jev": {
-          "low": 2,
-          "irrelevant": 1,
-          "errors": 0,
-          "toClaude": 3
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-23T00:26:33.351Z"
+  "updatedAt": "2026-11-23T04:36:55.817Z"
 }

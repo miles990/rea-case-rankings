@@ -2,6 +2,44 @@
   "updated": "2026-11-24",
   "items": [
     {
+      "url": "https://github.com/aldelete/androidharness-rea-toolkit",
+      "title": "aldelete/androidharness-rea-toolkit: Offline Ghidra/JDK/JADX/decompiler toolkit for REA on Android arm64",
+      "author": "aldelete",
+      "date": "2026-11-24",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-24",
+      "relevant": true,
+      "title_zh": "打包可在 Android arm64 離線執行 REA 的工具組",
+      "summary": "目標是讓 REA 的 Ghidra、JADX 與反編譯器堆疊能在 Android arm64 的 Linux 容器內執行。做法是打包 Ghidra 12.2、arm64 bionic 版 decompile、OpenJDK 25、jadx-headless-mcp、Node 與固定版本的 rea-agents，並附安裝與驗證腳本及 SHA-256 校驗。成果是一個免 root 的單一下載套件。",
+      "target": "REA 在 Android arm64 上的執行環境",
+      "metric": "內含 Ghidra 12.2、OpenJDK 25、jadx-headless-mcp 0.7.1 與 Node 26.13 的離線套件",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-24",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/fauzinoorsyabani/fauzi-portfolio-v2",
+      "title": "fauzinoorsyabani/fauzi-portfolio-v2: Obsidian dark-mode React JS interactive portfolio with Framer Motion 3D animations, REA reverse-engineered craft, and verified AI/Data/Full-Stack case studies.",
+      "author": "fauzinoorsyabani",
+      "date": "2026-11-24",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-24",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "scored": "2026-11-24",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://github.com/nivaldomcj/skifree",
       "title": "nivaldomcj/skifree: Multiplatform port of SkiFree (personal project), based on full reverse engineering of ski32.exe with REA + Ghidra",
       "author": "nivaldomcj",
@@ -107,24 +145,6 @@
       "scored_by": "sonnet"
     },
     {
-      "url": "https://github.com/alisyyed/rea-mcp-omni-cloud",
-      "title": "alisyyed/rea-mcp-omni-cloud: rea (morluto) Omni-Nexus - 24/7 Cloud MCP Server (555 Universal Foundry v4.0)",
-      "source": "GitHub",
-      "found": "2026-11-24",
-      "relevant": false,
-      "scored": "2026-11-24",
-      "scored_by": "sonnet"
-    },
-    {
-      "url": "https://github.com/alisyyed/rea-portal-mcp-omni-cloud",
-      "title": "alisyyed/rea-portal-mcp-omni-cloud: rea.tools Live Docs & Scraper Nexus - 24/7 Cloud MCP Server (555 Universal Foundry v",
-      "source": "GitHub",
-      "found": "2026-11-24",
-      "relevant": false,
-      "scored": "2026-11-24",
-      "scored_by": "sonnet"
-    },
-    {
       "url": "https://github.com/fxfihad16/antigem_plugins",
       "title": "fxfihad16/antigem_plugins: Agent Hina plugins (REA, Android dev, browser, ClipPolish).",
       "author": "fxfihad16",
@@ -194,15 +214,6 @@
       "wow": 2,
       "scored": "2026-11-24",
       "scored_by": "sonnet"
-    },
-    {
-      "url": "https://x.com/Aniketh_Deb/status/2124934403378074087",
-      "title": "I reverse engineered a conversation model that has never seen a word of text.  413M params. 826 MB. Two copies talk to e",
-      "source": "X",
-      "found": "2026-11-24",
-      "relevant": false,
-      "scored": "2026-11-24",
-      "scored_by": "jev"
     },
     {
       "url": "https://x.com/Aniketh_Deb/status/2124934409375875188",
@@ -349,15 +360,6 @@
       "status": "reported",
       "scored": "2026-11-24",
       "scored_by": "jev"
-    },
-    {
-      "url": "https://x.com/battarchicken/status/2124848490765529107",
-      "title": "I have been using @instinct a lot lately. From researching, filling forms, setting up reminders, role-playing, interacti",
-      "source": "X",
-      "found": "2026-11-24",
-      "relevant": false,
-      "scored": "2026-11-24",
-      "scored_by": "sonnet"
     },
     {
       "url": "https://x.com/VinZhizi/status/2124882261711392911",
@@ -532,6 +534,42 @@
       "scored_by": "jev"
     },
     {
+      "url": "https://github.com/alisyyed/rea-mcp-omni-cloud",
+      "title": "alisyyed/rea-mcp-omni-cloud: rea (morluto) Omni-Nexus - 24/7 Cloud MCP Server (555 Universal Foundry v4.0)",
+      "source": "GitHub",
+      "found": "2026-11-24",
+      "relevant": false,
+      "scored": "2026-11-24",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/alisyyed/rea-portal-mcp-omni-cloud",
+      "title": "alisyyed/rea-portal-mcp-omni-cloud: rea.tools Live Docs & Scraper Nexus - 24/7 Cloud MCP Server (555 Universal Foundry v",
+      "source": "GitHub",
+      "found": "2026-11-24",
+      "relevant": false,
+      "scored": "2026-11-24",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/Aniketh_Deb/status/2124934403378074087",
+      "title": "I reverse engineered a conversation model that has never seen a word of text.  413M params. 826 MB. Two copies talk to e",
+      "source": "X",
+      "found": "2026-11-24",
+      "relevant": false,
+      "scored": "2026-11-24",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/battarchicken/status/2124848490765529107",
+      "title": "I have been using @instinct a lot lately. From researching, filling forms, setting up reminders, role-playing, interacti",
+      "source": "X",
+      "found": "2026-11-24",
+      "relevant": false,
+      "scored": "2026-11-24",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://youtu.be/v6oYoDdGq_U",
       "title": "Stop REA From Copying Your App",
       "author": "Cloud Codes",
@@ -586,6 +624,26 @@
       "category": "Native / macOS",
       "status": "tested",
       "wow": 4,
+      "scored": "2026-11-24",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/git-sanbu/awesome-rea/blob/main/README.zh-CN.md",
+      "title": "README.zh-CN.md",
+      "author": "github.com",
+      "date": null,
+      "source": "Web",
+      "kind": "文章",
+      "lang": "zh",
+      "found": "2026-11-24",
+      "relevant": true,
+      "title_zh": "awesome-rea：彙整 45 個用 REA 逆向的公開案例清單",
+      "summary": "這是一份收錄官方與社群使用 REA 的案例索引，涵蓋遊戲移植、應用程式研究、CTF 與 Android 驗證碼演算法等。內容為各案例的標題與問題描述，並註明已閱讀公開原文但未獨立重跑測試。本身是目錄而非單一逆向成果。",
+      "target": "REA 公開案例集（awesome-rea）",
+      "metric": "收錄 45 個公開案例（5 官方、40 社群）",
+      "category": "報導 / 評論",
+      "status": "shipped",
+      "wow": 2,
       "scored": "2026-11-24",
       "scored_by": "sonnet"
     },
@@ -58992,6 +59050,35 @@
   "runs": [
     {
       "date": "2026-11-24",
+      "added": 3,
+      "stats": {
+        "githubShowAndTell": 18,
+        "githubRepos": 246,
+        "githubCode": 43,
+        "hackerNews": 31,
+        "qiita": 51,
+        "devto": 150,
+        "juejin": 0,
+        "reddit": 20,
+        "v2ex": 16,
+        "youtube": 90,
+        "bluesky": 160,
+        "mastodon": 160,
+        "exaWeb": 60,
+        "x": "error: Command failed: grok -p Search X for posts from the last 7 days where people sho"
+      },
+      "scoring": {
+        "scored": 2,
+        "jev": {
+          "low": 1,
+          "irrelevant": 0,
+          "errors": 0,
+          "toClaude": 2
+        }
+      }
+    },
+    {
+      "date": "2026-11-24",
       "added": 29,
       "stats": {
         "githubShowAndTell": 18,
@@ -59834,36 +59921,7 @@
           "toClaude": 13
         }
       }
-    },
-    {
-      "date": "2026-11-09",
-      "added": 7,
-      "stats": {
-        "githubShowAndTell": 15,
-        "githubRepos": 239,
-        "githubCode": 47,
-        "hackerNews": 29,
-        "qiita": 49,
-        "devto": 150,
-        "juejin": 4,
-        "reddit": 20,
-        "v2ex": 14,
-        "youtube": 90,
-        "bluesky": 162,
-        "mastodon": 160,
-        "exaWeb": 60,
-        "x": "error: Command failed: grok -p Search X for posts from the last 7 days where people sho"
-      },
-      "scoring": {
-        "scored": 4,
-        "jev": {
-          "low": 3,
-          "irrelevant": 0,
-          "errors": 0,
-          "toClaude": 4
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-24T00:24:37.642Z"
+  "updatedAt": "2026-11-24T04:34:09.539Z"
 }

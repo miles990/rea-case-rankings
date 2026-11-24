@@ -82194,8 +82194,8 @@
     },
     {
       "date": "2026-11-24",
-      "stars": 475581,
-      "stars_delta": 1211,
+      "stars": 475828,
+      "stars_delta": 1458,
       "new": [
         "d-f7f24eed1a",
         "d-669fc5abac",
@@ -82212,54 +82212,56 @@
         "d-f2f4d519db",
         "d-bc5c7a0572",
         "d-ea3501e774",
+        "d-5aa63338d1",
+        "d-6a8e149bef",
         "d-082f1bfb8b",
         "d-a22ea23353",
         "d-3589c622c8",
         "d-76b4858aaa"
       ],
       "stats": {
-        "count": 19,
+        "count": 21,
         "wow": {
-          "2": 9,
+          "2": 11,
           "3": 3,
           "4": 6,
           "5": 1
         },
         "type": {
           "case": 9,
-          "app": 8,
+          "app": 9,
           "learn": 1,
-          "news": 1
+          "news": 2
         },
         "status": {
-          "shipped": 8,
+          "shipped": 10,
           "tested": 5,
           "reported": 6
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "SkiFree 完整逆向並以 Rust 移植，成為當日最強案例",
-          "summary": "今天排名最前的是以 REA 與 Ghidra 完整逆向 SkiFree 並用 Rust 忠實移植，可跨 macOS、Windows、Linux 與瀏覽器執行，且相同種子在各平台畫面一致。其他高分案例還有 Game Boy 模擬器 ReaBoy、沐語客戶端 Flutter 重建與《火影戰記》新增角色，顯示遊戲與舊軟體的重建仍是主軸。模型產物的雜湊與張量核對（參數總和與設定檔吻合）以及 Grok Bot 的 177 份報告，則強調以量測與標註區分事實與推論。另有 DeepSeek Harness、DSH、Agent Hina 三個整合外掛，其中 DSH 外掛針對約 263 個工具佔用上下文的問題做開關。"
+          "headline": "REA 完整逆向 SkiFree 並以 Rust 移植，星數破 47.5 萬",
+          "summary": "11/24 的重點是 SkiFree 案例：作者以 REA 與 Ghidra 完整逆向 ski32.exe，用 Rust 忠實移植，並在多平台以相同種子重現相同畫面。同日還有 ReaBoy（Game Boy 模擬器）、沐語 Flutter 重建與《火影戰記》新增角色等案例，另有 Android arm64 離線工具組與兩個 DeepSeek、DSH 外掛，生態持續擴張。REA 星數升至 475,828，單日增加 1,458。多個項目強調以雜湊、參數總量對照來驗證，而部分推文缺乏證據，仍屬作者自述。"
         },
         "en": {
-          "headline": "Full SkiFree reverse and Rust port tops the day's cases",
-          "summary": "The top item is a complete reverse of SkiFree with REA and Ghidra, faithfully ported to Rust for macOS, Windows, Linux and browsers, with identical frames across platforms from the same seed. Other strong cases include the ReaBoy Game Boy emulator, a Flutter rebuild of the Muyu client, and adding a new character to the Android game Huoying Zhanji, so games and legacy software remain the main theme. Model-artifact checks (hash match, tensor parameter total matching the config) and the Grok Bot report set stress separating measurement from inference. Three integration plugins (DeepSeek Harness, DSH, Agent Hina) also appeared, with the DSH one gating roughly 263 tools to save context."
+          "headline": "REA fully reverses SkiFree for a Rust port; stars pass 475K",
+          "summary": "The top item on 11/24 is the SkiFree case: the author fully reverse-engineered ski32.exe with REA and Ghidra and ported it faithfully to Rust, with identical frames from the same seed across platforms. Other cases include the ReaBoy Game Boy emulator, a Flutter rebuild of the Muyu client and a new character in the Naruto-themed Android game, plus an Android arm64 offline toolkit and DeepSeek and DSH plugins showing the ecosystem widening. REA stars rose to 475,828, up 1,458 in a day. Several items stress verification via hash and parameter-count matches, while some posts lack evidence and remain author claims."
         },
         "zh-CN": {
-          "headline": "SkiFree 完整逆向并以 Rust 移植,成为当日最强案例",
-          "summary": "今天排名最前的是以 REA 与 Ghidra 完整逆向 SkiFree 并用 Rust 忠实移植,可跨 macOS、Windows、Linux 与浏览器运行,且相同种子在各平台画面一致。其他高分案例还有 Game Boy 模拟器 ReaBoy、沐语客户端 Flutter 重建与《火影战记》新增角色,显示游戏与旧软件的重建仍是主轴。模型产物的哈希与张量核对(参数总和与配置文件吻合)以及 Grok Bot 的 177 份报告,则强调以测量与标注区分事实与推论。另有 DeepSeek Harness、DSH、Agent Hina 三个集成插件,其中 DSH 插件针对约 263 个工具占用上下文的问题做开关。"
+          "headline": "REA 完整逆向 SkiFree 并用 Rust 移植，星数破 47.5 万",
+          "summary": "11/24 的重点是 SkiFree 案例：作者以 REA 与 Ghidra 完整逆向 ski32.exe，用 Rust 忠实移植，并在多平台以相同种子重现相同画面。同日还有 ReaBoy（Game Boy 模拟器）、沐语 Flutter 重建与《火影战记》新增角色等案例，另有 Android arm64 离线工具组与两个 DeepSeek、DSH 插件，生态持续扩张。REA 星数升至 475,828，单日增加 1,458。多个项目强调以哈希、参数总量对照来验证，而部分推文缺乏证据，仍属作者自述。"
         }
       },
       "signals": [
         "C",
-        "B",
-        "G"
+        "G",
+        "B"
       ],
       "highlights": [
         "d-f7f24eed1a",
-        "d-654f6c0258",
-        "d-bd90a7030e"
+        "d-bd90a7030e",
+        "d-5aa63338d1"
       ],
       "rank": [
         "dx-ball-sound-pan",
@@ -83336,6 +83338,8 @@
         "d-40c0474406",
         "d-49c3fe3859",
         "heartland-side-effects",
+        "d-5aa63338d1",
+        "d-6a8e149bef",
         "d-082f1bfb8b",
         "d-a22ea23353",
         "d-3589c622c8",
@@ -84446,6 +84450,7 @@
         "d-adfbebad69",
         "d-23b709a338",
         "d-b7d24e5410",
+        "d-e163b4fd0d",
         "d-15c2faedb8",
         "d-c0d7ac5154",
         "d-75ace5745c",
@@ -84987,19 +84992,19 @@
     "to": "2026-11-24",
     "text": {
       "zh-TW": {
-        "headline": "REA 從展示走向可驗證重建，遊戲與舊軟體仍是主軸",
-        "summary": "本週星數由約46.6萬穩定升至47.5萬，每日新增約1,300至1,900。11月18日以YouTube破解電視、復活舊軟體等話題性內容為主；11月19日起出現MCP套件靜態審查13/13命中、0誤報的量測結果；後續則由NDS ROM逐位元組重建、DX-Ball 270函式重編後一致、SkiFree以Rust跨平台移植等附驗證的案例接棒。同時，LeanREA與對照測試開始討論成本與工具負擔，11月23日也有多篇熱門貼文被指缺乏佐證，顯示熱度與可驗證性之間仍有落差。生態面持續擴張，如Gemini CLI、DeepSeek、Termux、Windows與外掛市集等整合。",
-        "watch": "可留意「重建後以重編位元組一致或跨平台同種子結果一致作為驗收」的做法，這類案例最容易被信任與複製。另一個機會是舊遊戲與老軟體的重建、移植工具鏈，以及降低工具上下文佔用（如約263個工具的開關機制）的輕量方案；硬體與韌體方向本週只出現一天，仍待實質成果。"
+        "headline": "REA 從展示走向驗證：位元組級重建與遊戲移植成為主流",
+        "summary": "本週 REA 星數由約 46.6 萬升至 47.6 萬，每天穩定增加 1,300 至 1,900。早期簡報以影片、Reddit 討論與周邊工具為主，中段起出現附帶驗證的成果：NDS 模擬器以 devkitARM 重建出逐位元組一致的 ROM、DX-Ball 重建 270 個函式並位元組一致、npm MCP 靜態審查 13 項植入行為全數命中。遊戲與老軟體仍是主軸，11/24 的 SkiFree 以 Rust 移植並以相同種子在多平台重現畫面，另有 ReaBoy 與沐語 Flutter 重建。同時，缺乏證據的作者自述與高熱度推文（如裝置韌體改寫）反覆出現，顯示熱度與可驗證程度之間仍有落差；生態周邊（Termux、Gemini CLI、DeepSeek 外掛、Android arm64 工具組）也持續擴張。",
+        "watch": "可留意是否有人把逐位元組一致或相同種子重現的做法，延伸到硬體與韌體案例，目前這類主張多半缺乏證據。也可關注輕量化 skill 取代 MCP 的成本爭論，以及把驗證流程標準化、可評分的工具（如 ReaCraft）能否出現可複用的基準，這些是接下來較具體的切入機會。"
       },
       "en": {
-        "headline": "REA shifts from demos to verifiable rebuilds; games and legacy software lead",
-        "summary": "Stars rose steadily from about 466K to 475K, adding roughly 1,300–1,900 per day. Nov 18 was dominated by buzzy content such as an AI hacking a TV and reviving old freeware; from Nov 19 measured results appeared, like static audits of npm MCP packages catching 13 of 13 implants with zero false positives. Verified rebuilds then took over: a byte-identical NDS ROM, DX-Ball with 270 functions recompiling to identical bytes, and SkiFree ported to Rust across platforms with matching same-seed output. Meanwhile cost and tool-surface debates emerged (LeanREA, comparison tests), and on Nov 23 several popular posts were noted as lacking evidence, showing a gap between hype and verifiability. The ecosystem kept expanding with integrations for Gemini CLI, DeepSeek, Termux, Windows and plugin marketplaces.",
-        "watch": "Watch for projects that accept results by byte-identical recompilation or cross-platform same-seed output, since these are the most trusted and replicable. Opportunities lie in reconstruction and porting toolchains for old games and software, and in lightweight approaches that cut tool context overhead (e.g. toggling around 263 tools). Hardware and firmware appeared on only one day this week and still need substantive, evidenced results."
+        "headline": "REA shifts from demos to verification: byte-exact rebuilds and game ports lead",
+        "summary": "REA stars rose from about 466k to 476k this week, adding roughly 1,300–1,900 per day. Early briefings were dominated by videos, Reddit threads and side tools, but from midweek the results came with verification: an NDS emulator rebuilt into a byte-identical ROM with devkitARM, DX-Ball rebuilt across 270 functions byte-for-byte, and a static audit of npm MCP packages catching 13 of 13 planted behaviors. Games and old software remained the core theme, and on 11/24 SkiFree was ported to Rust and reproduced the same frames across platforms from the same seed, alongside ReaBoy and a Flutter rebuild of Muyu. Meanwhile, unsubstantiated self-reports and high-heat posts (such as device firmware rewrites) kept recurring, showing a gap between buzz and verifiability, while ecosystem add-ons (Termux, Gemini CLI, DeepSeek plugins, an Android arm64 toolkit) kept expanding.",
+        "watch": "Watch whether byte-exact or same-seed reproduction methods extend to hardware and firmware cases, where claims so far mostly lack evidence. Also follow the cost debate over lightweight skills replacing MCP, and whether gradeable verification tools like ReaCraft produce reusable benchmarks, which are the more concrete openings in the coming days."
       },
       "zh-CN": {
-        "headline": "REA 从展示走向可验证重建，游戏与旧软件仍是主轴",
-        "summary": "本周星数由约46.6万稳步升至47.5万，每日新增约1,300至1,900。11月18日以YouTube破解电视、复活旧软件等话题性内容为主；11月19日起出现MCP套件静态审查13/13命中、0误报的量测结果；随后由NDS ROM逐字节重建、DX-Ball 270函数重编后一致、SkiFree以Rust跨平台移植等附验证的案例接棒。同时，LeanREA与对照测试开始讨论成本与工具负担，11月23日也有多篇热门帖子被指缺乏佐证，说明热度与可验证性之间仍有落差。生态面持续扩张，如Gemini CLI、DeepSeek、Termux、Windows与插件市场等集成。",
-        "watch": "可留意“重建后以重编字节一致或跨平台同种子结果一致作为验收”的做法，这类案例最容易被信任与复制。另一个机会是旧游戏与老软件的重建、移植工具链，以及降低工具上下文占用（如约263个工具的开关机制）的轻量方案；硬件与固件方向本周只出现一天，仍待实质成果。"
+        "headline": "REA 从展示走向验证：字节级重建与游戏移植成主流",
+        "summary": "本周 REA 星数由约 46.6 万升至 47.6 万，每天稳定增加 1,300 至 1,900。早期简报以视频、Reddit 讨论和周边工具为主，中段起出现附带验证的成果：NDS 模拟器用 devkitARM 重建出逐字节一致的 ROM、DX-Ball 重建 270 个函数并字节一致、npm MCP 静态审查 13 项植入行为全部命中。游戏与老软件仍是主轴，11/24 的 SkiFree 以 Rust 移植并用相同种子在多平台复现画面，另有 ReaBoy 与沐语 Flutter 重建。同时，缺乏证据的作者自述和高热度推文（如设备固件改写）反复出现，说明热度与可验证程度之间仍有落差；生态周边（Termux、Gemini CLI、DeepSeek 插件、Android arm64 工具组）也持续扩张。",
+        "watch": "可留意是否有人把逐字节一致或相同种子复现的做法延伸到硬件与固件案例，目前这类主张多半缺乏证据。也可关注轻量化 skill 取代 MCP 的成本争论，以及把验证流程标准化、可评分的工具（如 ReaCraft）能否出现可复用的基准，这些是接下来较具体的切入机会。"
       }
     },
     "rising": [
@@ -85009,7 +85014,8 @@
     ],
     "fading": [
       "A",
-      "D"
+      "E",
+      "F"
     ],
     "tally": {
       "A": 3,

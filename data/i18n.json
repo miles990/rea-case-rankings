@@ -23548,5 +23548,35 @@
       "target": "Bun 可执行文件、Unity 资源包、GitHub CLI",
       "metric": "实测三个目标（无具体发现）"
     }
+  },
+  "d-5aa63338d1": {
+    "hash": "5ae32b0eaca6",
+    "en": {
+      "title": "Packaging an offline toolkit to run REA on Android arm64",
+      "summary": "The goal is to get REA's Ghidra, JADX and decompiler stack running inside a Linux container on Android arm64. The package bundles Ghidra 12.2, the arm64 bionic build of decompile, OpenJDK 25, jadx-headless-mcp, Node and a pinned version of rea-agents, plus install and verification scripts with SHA-256 checksums. The result is a single root-free download.",
+      "target": "REA runtime environment on Android arm64",
+      "metric": "Offline package containing Ghidra 12.2, OpenJDK 25, jadx-headless-mcp 0.7.1 and Node 26.13"
+    },
+    "zh-CN": {
+      "title": "打包可在 Android arm64 离线运行 REA 的工具集",
+      "summary": "目标是让 REA 的 Ghidra、JADX 与反编译器堆栈能在 Android arm64 的 Linux 容器内运行。做法是打包 Ghidra 12.2、arm64 bionic 版 decompile、OpenJDK 25、jadx-headless-mcp、Node 与固定版本的 rea-agents，并附安装与验证脚本及 SHA-256 校验。成果是一个无需 root 的单一下载包。",
+      "target": "REA 在 Android arm64 上的运行环境",
+      "metric": "内含 Ghidra 12.2、OpenJDK 25、jadx-headless-mcp 0.7.1 与 Node 26.13 的离线包"
+    }
+  },
+  "d-6a8e149bef": {
+    "hash": "70119f6caf93",
+    "en": {
+      "title": "awesome-rea: a curated list of 45 public reverse-engineering cases using REA",
+      "summary": "An index of official and community cases that use REA, covering game ports, application research, CTFs, Android CAPTCHA algorithms and more. Each entry gives the case title and problem description, noting that the public write-ups were read but not independently re-run. It is a directory rather than a single reverse-engineering result.",
+      "target": "Public REA case collection (awesome-rea)",
+      "metric": "45 public cases listed (5 official, 40 community)"
+    },
+    "zh-CN": {
+      "title": "awesome-rea：汇总 45 个用 REA 逆向的公开案例清单",
+      "summary": "这是一份收录官方与社区使用 REA 的案例索引，涵盖游戏移植、应用程序研究、CTF 与 Android 验证码算法等。内容为各案例的标题与问题描述，并注明已阅读公开原文但未独立重跑测试。本身是目录而非单一逆向成果。",
+      "target": "REA 公开案例集（awesome-rea）",
+      "metric": "收录 45 个公开案例（5 官方、40 社区）"
+    }
   }
 }

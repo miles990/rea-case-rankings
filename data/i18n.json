@@ -23263,5 +23263,290 @@
       "target": "学习通（超星学习通 App）",
       "metric": "GitHub 公开项目，含代签到伪造与自动刷课，仅小范围测试"
     }
+  },
+  "d-5b751582aa": {
+    "hash": "65058e4baa16",
+    "en": {
+      "title": "Mapping the GTA6 official site's network surface with REA",
+      "summary": "The author pointed REA at GTA6-related sites and listed subdomains, URLs, API routes and source-map references. They found authentication and token-refresh endpoints, a checkout API, and a registry mapping to 13 micro-frontends. The content is the author's own account, with no evidence files or screenshots attached.",
+      "target": "GTA6 (Rockstar) related websites",
+      "metric": "126 subdomains, 289 URLs, 19 API routes"
+    },
+    "zh-CN": {
+      "title": "用 REA 对 GTA6 官方网站做网络面盘点",
+      "summary": "作者将 REA 指向 GTA6 相关网站，列出子域名、URL、API 路由与 source-map 引用，并找到验证与 token 刷新端点、结账 API 以及对应 13 个微前端的注册表。内容仅为作者自述，未附证据文件或截图。",
+      "target": "GTA6（Rockstar）相关网站",
+      "metric": "126 个子域名、289 个 URL、19 条 API 路由"
+    }
+  },
+  "d-bca6d1173d": {
+    "hash": "f503242160f0",
+    "en": {
+      "title": "Inventorying a model's tensors and verifying the total parameter count with REA",
+      "summary": "Used REA to obtain a listing of 137 tensors (all BF16) and summed the parameter counts by module. The total of 413,198,848 matches n_params in the config file exactly.",
+      "target": "Tensor file of an AI model (137 tensors)",
+      "metric": "413,198,848 parameters in total, exactly matching n_params in the config"
+    },
+    "zh-CN": {
+      "title": "用 REA 盘点模型张量并核对参数总量",
+      "summary": "以 REA 获取 137 个张量（全为 BF16）的清单，按模块汇总参数量。总和 413,198,848 与配置文件中的 n_params 完全吻合。",
+      "target": "某 AI 模型的张量文件（137 个张量）",
+      "metric": "参数总数 413,198,848，与 config 的 n_params 完全一致"
+    }
+  },
+  "d-3107427373": {
+    "hash": "985009050d4c",
+    "en": {
+      "title": "Building revrsly, a reverse-engineering tool for closed-source Solana programs",
+      "summary": "The author built revrsly, which takes the ID of a closed-source Solana program and tries to recover near-original source code. They also opened an issue on the REA GitHub suggesting it be merged via a PR. The author admits the results are imperfect but usable as a starting point; the post gives no concrete test data.",
+      "target": "Closed-source on-chain programs on Solana",
+      "metric": "Enter a program ID to attempt source recovery (imperfect, per the author)"
+    },
+    "zh-CN": {
+      "title": "做出 Solana 闭源程序逆向工具 revrsly",
+      "summary": "作者开发了 revrsly，输入 Solana 闭源程序 ID，尝试还原接近原始代码的内容，并曾在 REA GitHub 提 issue，建议以 PR 形式纳入。作者自述结果并不完美，但可作为分析起点，正文未提供具体测试数据。",
+      "target": "Solana 链上闭源程序",
+      "metric": "输入程序 ID 即可尝试还原源码（作者自述不完美）"
+    }
+  },
+  "d-b0b0bb14c1": {
+    "hash": "fb55571d0d9f",
+    "en": {
+      "title": "A three-step guide to installing and using REA",
+      "summary": "Explains how to install REA with npx rea-agents setup and hook it up to clients such as Claude Code and Cursor, and how to troubleshoot with doctor. Recommends having the AI scan only the modules you care about, to avoid exhausting context with a full decompilation. This is a how-to guide with no actual reverse-engineering results.",
+      "target": "REA installation and usage workflow",
+      "metric": "Three steps to set up (setup, doctor, scoped module scanning)"
+    },
+    "zh-CN": {
+      "title": "整理 REA 三步安装与使用流程教程",
+      "summary": "介绍如何用 npx rea-agents setup 安装 REA 并接入 Claude Code、Cursor 等客户端，以及用 doctor 排查问题。建议只让 AI 扫描关心的模块，避免全量反编译耗尽上下文。内容为操作教程，没有实际逆向成果。",
+      "target": "REA 工具安装与使用流程",
+      "metric": "三步完成配置（setup、doctor、限定模块扫描）"
+    }
+  },
+  "d-f2f4d519db": {
+    "hash": "aad12575f952",
+    "en": {
+      "title": "Using REA to analyze the hyped \"REA marketing\" skill",
+      "summary": "The author ran REA against a popular marketing skill and found that everything underneath runs through the publisher's paid service. The takeaway: anyone can reverse-engineer a product, so only promote what it can actually deliver.",
+      "target": "The \"REA marketing\" skill",
+      "metric": "Found that everything underneath goes through the publisher's paid service"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析被炒作的“REA marketing”技能",
+      "summary": "作者用 REA 检查了一个热门的营销技能，发现其底层全部通过发布者的付费服务运行。结论是任何人都能逆向产品，只应宣传实际能交付的内容。",
+      "target": "“REA marketing”技能（skill）",
+      "metric": "发现底层全部走发布者的付费服务"
+    }
+  },
+  "d-bc5c7a0572": {
+    "hash": "f6c45ed6ecdd",
+    "en": {
+      "title": "Using REA to hash model artifacts, page through tensors, and audit the math",
+      "summary": "A brief description of using REA to hash model artifacts, inspect tensors page by page, read the source code, and audit the math, with an emphasis on separating measurement from inference. This entry is only a method description; it mentions Ghidra and gives no concrete results.",
+      "target": "Model artifacts (tensors and source code)",
+      "metric": "No concrete figures; only describes the audit workflow"
+    },
+    "zh-CN": {
+      "title": "用 REA 对模型产物做哈希、分页读取张量并审查数学",
+      "summary": "作者简述了用 REA 对模型产物做哈希、分页查看张量、阅读源代码并审查数学的流程，强调区分测量与推断。此条仅为方法描述，提及 Ghidra，没有具体结果。",
+      "target": "模型产物（张量与源代码）",
+      "metric": "无具体数字，仅描述审查流程"
+    }
+  },
+  "d-ea3501e774": {
+    "hash": "bf903c5e294e",
+    "en": {
+      "title": "Using REA on an app the author planned to use, finding it mostly assembled from open-source tools",
+      "summary": "Wary of an app, the author ran REA on it and concluded it leans heavily on open-source tools with only a few features of its own, attributing its success to marketing. The app is not named, no concrete evidence is given, and the author says they will investigate further.",
+      "target": "Unnamed app",
+      "metric": "Conclusion: heavy use of open-source tools, very few original features"
+    },
+    "zh-CN": {
+      "title": "用 REA 检查一款打算使用的应用，发现多为开源工具拼装",
+      "summary": "作者对一款存疑的应用使用 REA，判断其大量采用开源工具、仅加上少量功能，认为其成功来自营销。文中未说明是哪个应用，也没有具体证据，且作者自称还要再深入调查。",
+      "target": "未具名应用",
+      "metric": "结论：大量使用开源工具、自有功能很少"
+    }
+  },
+  "d-082f1bfb8b": {
+    "hash": "8c5b3d99f12a",
+    "en": {
+      "title": "A plugin for integrating REA's MCP with DeepSeek Harness",
+      "summary": "Packaged as a DeepSeek Harness bundle, it connects REA's MCP server to every session, exposing about two hundred mcp__rea__* tools, with a diagnostics module and notes on path resolution. It contains no REA code itself; it is integration configuration only.",
+      "target": "DeepSeek Harness and REA MCP integration",
+      "metric": "Verified on Desktop 0.2.2-rc.5 on Windows, exposing about 200 REA operations"
+    },
+    "zh-CN": {
+      "title": "为 DeepSeek Harness 提供 REA MCP 集成插件",
+      "summary": "打包为 DeepSeek Harness 的 bundle，将 REA 的 MCP 服务器接入每个会话，暴露约两百项 mcp__rea__* 工具，并附诊断模块与路径解析说明。本身不含 REA 代码，属集成配置。",
+      "target": "DeepSeek Harness 与 REA MCP 集成",
+      "metric": "在 Desktop 0.2.2-rc.5 Windows 上验证，暴露约 200 项 REA 操作"
+    }
+  },
+  "d-fe3f7bb991": {
+    "hash": "36ce772caf81",
+    "en": {
+      "title": "Using REA to add a character to the Android game Naruto Senki and analyze a Flutter learning app",
+      "summary": "The author used REA to take apart the game's cocos2d-x native library and three proprietary asset formats, worked out the character registration flow, and had Codex add the character Might Guy. The result was verified on a standalone emulator: the new character appears on the selection screen and his skills cast normally. A separate static analysis of a Flutter learning app identified libapp.so, the 360 packer, and an older encryption library.",
+      "target": "Android game Naruto Senki; a Flutter learning app",
+      "metric": "Verified on an emulator that the new character is selectable and plays normally in battle"
+    },
+    "zh-CN": {
+      "title": "用 REA 为安卓游戏《火影战记》新增角色并分析 Flutter 学习 APP",
+      "summary": "作者借助 REA 拆解安卓游戏的 cocos2d-x 原生库与三种私有资源格式,摸清角色注册流程,让 Codex 新增迈特凯角色。成品在独立模拟器中验证,选人页出现新角色且技能可正常释放。另对一款 Flutter 学习 APP 做静态分析,识别出 libapp.so、360 加固壳与旧版加密库。",
+      "target": "安卓游戏《火影战记》、Flutter 学习 APP",
+      "metric": "在模拟器中验证新增角色可选用并正常战斗"
+    }
+  },
+  "d-654f6c0258": {
+    "hash": "3b855068fc17",
+    "en": {
+      "title": "Reverse-engineering the Grok Bot desktop app with REA and publishing the findings",
+      "summary": "REA was used to statically unpack the Grok Bot desktop app. Many low-cost model readers each wrote a feature report, tagging claims as READ or INFERRED, after which the lead spot-checked them and took read-only live captures for measurement. The repository publishes 177 reports, a feature comparison matrix of about 1,000 rows, and re-reads across multiple versions (0.71.2 to 1.2.3), but contains only findings, no application code.",
+      "target": "Grok Bot desktop app (xAI)",
+      "metric": "177 reader reports, a feature matrix of about 1,000 rows, covering 5 versions"
+    },
+    "zh-CN": {
+      "title": "以 REA 逆向 Grok Bot 桌面应用并公开研究发现",
+      "summary": "以 REA 静态解包 Grok Bot 桌面应用,让大量低成本模型读者各自撰写功能报告,并标注 READ 或 INFERRED,再由主导者抽查并通过只读实时抓取进行测量。仓库公开 177 份报告、约 1,000 行的对照矩阵以及多版本(0.71.2 至 1.2.3)重读,但仅含发现、不含应用代码。",
+      "target": "Grok Bot 桌面应用(xAI)",
+      "metric": "177 份读者报告、约 1,000 行功能对照矩阵、涵盖 5 个版本"
+    }
+  },
+  "d-12f0f06aa2": {
+    "hash": "dd1b9d2310a1",
+    "en": {
+      "title": "Using REA to add the playable character Might Guy to the offline Android game Naruto Senki",
+      "summary": "The author used Codex with REA to take apart the cocos2d-x native library and three proprietary asset formats, worked out the character registration flow, then added a new character with pixel art, and verified in an Android emulator that the selection screen, entrance, and skills all work. A separate experiment on a paid learning app was static analysis only: it identified Flutter's libapp.so and the extent of the 360 packer, and the AI declined to reconstruct the full source code.",
+      "target": "Android game Naruto Senki (cocos2d-x) and a Flutter learning app",
+      "metric": "New character Might Guy is selectable and plays normally in the emulator"
+    },
+    "zh-CN": {
+      "title": "用 REA 为安卓单机游戏《火影战记》新增可玩角色迈特凯",
+      "summary": "作者以 Codex 搭配 REA 拆解 cocos2d-x 原生库与三种私有资源格式,摸清角色注册流程后加入新角色与像素美术,并在安卓模拟器中验证选人界面、入场与技能均可正常运作。另一个针对付费学习 APP 的实验只做了静态分析,识别出 Flutter 的 libapp.so 与 360 加固范围,AI 拒绝还原完整源代码。",
+      "target": "安卓游戏《火影战记》(cocos2d-x)与一款 Flutter 学习 APP",
+      "metric": "新角色迈特凯在模拟器中可选用并正常战斗"
+    }
+  },
+  "d-bab0e7cbdd": {
+    "hash": "84a366de0909",
+    "en": {
+      "title": "Verifying the hash of the naklecha/caramel-1 model weights with REA",
+      "summary": "The target is naklecha/caramel-1, a fully open Apache 2.0 model. REA streamed and hashed the entire artifact, and the SHA-256 matched the repository's SHA256SUMS exactly. The author uses this as the starting point for testing claims against a reference artifact.",
+      "target": "naklecha/caramel-1 model artifact",
+      "metric": "826,411,320-byte hash exactly matches SHA256SUMS"
+    },
+    "zh-CN": {
+      "title": "用 REA 验证 naklecha/caramel-1 模型权重的哈希",
+      "summary": "目标是完全公开的 Apache 2.0 模型 naklecha/caramel-1。REA 流式读取并哈希整个产物,SHA-256 与仓库的 SHA256SUMS 完全吻合,作者以此作为对照产物检验各项声明的起点。",
+      "target": "naklecha/caramel-1 模型产物",
+      "metric": "826,411,320 字节哈希与 SHA256SUMS 完全一致"
+    }
+  },
+  "d-f7f24eed1a": {
+    "hash": "0b0a0d11eab6",
+    "en": {
+      "title": "Full reverse engineering of SkiFree with REA and Ghidra, faithfully ported to Rust",
+      "summary": "A complete reverse engineering of ski32.exe, with the recovered logic faithfully ported to Rust and runnable on macOS, Windows, Linux, and in the browser. The repository ships no original files or assets; users supply their own ski32.exe and extract assets with a script. The same seed and input (replays/showcase.json) produce identical frames on every platform.",
+      "target": "SkiFree (ski32.exe)",
+      "metric": "Playable on macOS/Windows/Linux/browser; replays with the same seed produce identical frames"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Ghidra 完整逆向 SkiFree 并以 Rust 忠实移植",
+      "summary": "对 ski32.exe 进行完整逆向，并将还原出的逻辑用 Rust 忠实移植，可在 macOS、Windows、Linux 和浏览器中运行。仓库不包含原版文件与资源，由用户自备 ski32.exe 并通过脚本提取资源；相同种子与输入（replays/showcase.json）在各平台上生成相同画面。",
+      "target": "SkiFree（ski32.exe）",
+      "metric": "支持 macOS／Windows／Linux／浏览器运行，相同种子重放画面一致"
+    }
+  },
+  "d-669fc5abac": {
+    "hash": "72cd505a6255",
+    "en": {
+      "title": "Rebuilding the Game Boy emulator ReaBoy bit by bit with REA, now in public testing",
+      "summary": "The author used REA to rebuild a Game Boy and Game Boy Color emulator byte by byte in C#, releasing Windows and Android versions along with a website seeking testers. The result is publicly available, but the post includes no test data, so the accuracy claims are the author's own.",
+      "target": "Game Boy / Game Boy Color emulator",
+      "metric": "Rebuilt byte by byte in C#; supports Windows and Android"
+    },
+    "zh-CN": {
+      "title": "用 REA 逐位重建 Game Boy 模拟器 ReaBoy 并公开测试",
+      "summary": "作者使用 REA 以 C# 逐字节重建了 Game Boy 与 Game Boy Color 模拟器，发布了 Windows 和 Android 版本，并设有官网征集测试者。成果已公开可用，但推文未附测试数据，精确度的说法属作者自述。",
+      "target": "Game Boy / Game Boy Color 模拟器",
+      "metric": "C# 逐字节重建，支持 Windows 与 Android"
+    }
+  },
+  "d-5396547718": {
+    "hash": "6682935aeca9",
+    "en": {
+      "title": "Keygen, binary patching, Amphetamine feature clone, and Wolfenstein 3D cheat codes with REA",
+      "summary": "The author tested REA with four exercises: writing a keygen, patching a small utility's binary, cloning Amphetamine's keep-awake feature, and finding the cheat keys in the compressed DOS version of Wolfenstein 3D. The keygen passed on all 479 random names, and Amphetamine's behavior was rewritten in Swift and verified working with a calculator test.",
+      "target": "A custom utility, Amphetamine (macOS), Wolfenstein 3D shareware",
+      "metric": "Keygen accepted by the original program on all 479 random names; API cost about US$0.5"
+    },
+    "zh-CN": {
+      "title": "用 REA 完成 keygen、二进制补丁、Amphetamine 功能复刻与 Wolfenstein 3D 作弊码",
+      "summary": "作者通过四个练习测试 REA：编写 keygen、为小工具打二进制补丁、复刻 Amphetamine 的防休眠功能，并在压缩的 DOS 版 Wolfenstein 3D 中找出作弊键。Keygen 在随机 479 个名字上全部通过，Amphetamine 的行为用 Swift 重写并经计算器实测可用。",
+      "target": "自制小工具、Amphetamine（macOS）、Wolfenstein 3D 共享版",
+      "metric": "keygen 在 479 个随机名字上全部被原程序接受，API 成本约 0.5 美元"
+    }
+  },
+  "d-bd90a7030e": {
+    "hash": "d37392345cd4",
+    "en": {
+      "title": "Reverse engineering the Muyu Windows client with REA and rebuilding it in Flutter",
+      "summary": "Static reverse engineering and runtime memory forensics of Muyu v2.0.3 (Muyu.exe) captured the real request URLs, which were cross-checked against the source of a related Go project to fix mistakes in the authentication and stream-fetching parameters. The Huawei Music playback loop and UI were rewritten in Flutter, with 12 themes and word-by-word lyrics; analyze reports no issues and all 8 tests pass.",
+      "target": "Muyu Muyu.exe v2.0.3 (Huawei Music client)",
+      "metric": "flutter analyze clean; all 8 tests pass, including the Digest auth header and HMRC regression tests"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向沐语 Windows 客户端并以 Flutter 重建",
+      "summary": "对沐语 v2.0.3（Muyu.exe）进行静态逆向与运行时内存取证，抓取到真实请求 URL，并与同源 Go 项目源码交叉校正，修正了鉴权与取流参数的错误。以 Flutter 重写了华为音乐播放闭环与界面，含 12 款主题与逐字歌词，analyze 无问题、8 项测试全部通过。",
+      "target": "沐语 Muyu.exe v2.0.3（华为音乐客户端）",
+      "metric": "flutter analyze 无问题，8 项测试全部通过，含 Digest 鉴权头与 HMRC 回归测试"
+    }
+  },
+  "d-a22ea23353": {
+    "hash": "4896bbdbcfe1",
+    "en": {
+      "title": "Per-session toggle plugin for REA tools in DSH",
+      "summary": "REA registers about 263 tools for every DSH session, eating up context. This plugin decides per workspace and session whether the tools are visible to the model, defaulting to off. It provides a sidebar panel, a header chip, and an rea_gate tool, along with tests.",
+      "target": "DSH and the REA toolset",
+      "metric": "About 263 mcp__rea__* tools can be toggled per workspace, off by default"
+    },
+    "zh-CN": {
+      "title": "为 DSH 开发的 REA 工具按会话开关插件",
+      "summary": "REA 会为每个 DSH 会话注册约 263 个工具，占用上下文。该插件按工作区和会话决定工具是否对模型可见，默认关闭，并提供侧边栏面板、标头标签和 rea_gate 工具，另附测试。",
+      "target": "DSH 与 REA 工具集",
+      "metric": "约 263 个 mcp__rea__* 工具可按工作区开关，默认关闭"
+    }
+  },
+  "d-3589c622c8": {
+    "hash": "db2b9c9b58d4",
+    "en": {
+      "title": "REA skill plugin and install script for Agent Hina",
+      "summary": "This repo provides the REA skill plugin for Agent Hina, teaching the agent to set up REA on a phone, check the MCP server, and analyze APK, Flutter, React Native, and native code. It includes an install script, MCP launch commands, and tool grouping configuration.",
+      "target": "Agent Hina (REA environment in proot Ubuntu on a phone)",
+      "metric": "Ships an REA install script, MCP launch commands, and tool grouping configuration"
+    },
+    "zh-CN": {
+      "title": "为 Agent Hina 制作的 REA 技能插件与安装脚本",
+      "summary": "该仓库提供 Agent Hina 的 REA 技能插件，指导 agent 在手机上配置 REA、检查 MCP 服务器，并分析 APK、Flutter、React Native 与原生代码。内含安装脚本、MCP 启动命令和工具分组配置。",
+      "target": "Agent Hina（手机端 proot Ubuntu 中的 REA 环境）",
+      "metric": "提供 REA 安装脚本、MCP 启动命令和工具分组配置"
+    }
+  },
+  "d-76b4858aaa": {
+    "hash": "da9a873f604d",
+    "en": {
+      "title": "Video: reverse engineering a Bun executable, a Unity asset bundle, and GitHub CLI with REA",
+      "summary": "The video introduces two new REA releases and puts them to work analyzing a Bun executable, a Unity game asset bundle, and GitHub CLI. The excerpt has only a short description and lists no specific findings.",
+      "target": "Bun executable, Unity asset bundle, GitHub CLI",
+      "metric": "Three targets tested (no specific findings)"
+    },
+    "zh-CN": {
+      "title": "用 REA 逆向 Bun 可执行文件、Unity 资源包与 GitHub CLI 的视频",
+      "summary": "视频介绍了 REA 的两个新版本，并实际用来分析 Bun 可执行文件、Unity 游戏资源包和 GitHub CLI。节选仅有简短描述，未列出具体发现。",
+      "target": "Bun 可执行文件、Unity 资源包、GitHub CLI",
+      "metric": "实测三个目标（无具体发现）"
+    }
   }
 }

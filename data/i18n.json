@@ -23578,5 +23578,245 @@
       "target": "REA 公开案例集（awesome-rea）",
       "metric": "收录 45 个公开案例（5 官方、40 社区）"
     }
+  },
+  "d-e22de4c088": {
+    "hash": "c24a01d39c7a",
+    "en": {
+      "title": "One-click installer and on-demand toggle manager for bundled REA",
+      "summary": "Lets a user (or Agent) set up everything REA needs in one step: Node, JDK, the REA CLI, the IDA bridge, and JADX. Provides /rea on/off/status/verify commands and defaults to a zero-resident, CLI-only mode. This is installation and usage documentation; it presents no reverse-engineering results against any specific target.",
+      "target": "REA environment setup and management (Windows)",
+      "metric": "Installs the rea-agents 6.10.1 CLI, which includes 204 analysis commands"
+    },
+    "zh-CN": {
+      "title": "打包 REA 的一键安装与按需开关管理器",
+      "summary": "目标是让用户（或 Agent）一键装好 REA 所需环境：Node、JDK、REA CLI、IDA 桥接与 JADX。提供 /rea on/off/status/verify 命令，默认零常驻走 CLI。内容为安装与使用说明，未展示任何针对具体目标的逆向成果。",
+      "target": "REA 环境安装与管理（Windows）",
+      "metric": "安装 rea-agents 6.10.1 CLI，内含 204 条分析命令"
+    }
+  },
+  "d-40ab1f7bb1": {
+    "hash": "3794bb955040",
+    "en": {
+      "title": "Dissecting Dance Central with REA to build a similar webcam dance game",
+      "summary": "The author used Gemini and REA to take apart the Dance Central games and understand how they work, and is now building a new game playable with a laptop webcam. Art and music are generated with other AI tools. The post is a self-description only, with no concrete results or evidence.",
+      "target": "Dance Central series",
+      "metric": "Self-reported as in development; no public results yet"
+    },
+    "zh-CN": {
+      "title": "用 REA 拆解 Dance Central 游戏并开发类似的网络摄像头舞蹈游戏",
+      "summary": "作者搭配 Gemini 与 REA 拆解 Dance Central 系列游戏来弄懂其运作，并正在制作可用笔记本网络摄像头游玩的新游戏。美术与音乐由其他 AI 工具生成，帖子只有自述，没有具体成果或证据。",
+      "target": "Dance Central 系列游戏",
+      "metric": "自述正在开发中，暂无公开成果"
+    }
+  },
+  "d-4e3804fb05": {
+    "hash": "b23c45080866",
+    "en": {
+      "title": "Reverse-engineering a government app and calling its API directly for faster responses",
+      "summary": "The author used the REA skill to reverse a poorly performing government app, found its backend API, and switched to calling it directly. Responses were faster than the original app, but no code, API details, or test evidence were provided.",
+      "target": "Government app (unnamed)",
+      "metric": "Direct API calls respond faster than the original app"
+    },
+    "zh-CN": {
+      "title": "逆向政府 App 后直接调用其 API，响应更快",
+      "summary": "作者用 REA skill 逆向一款运行不畅的政府 App，找出后端 API 并改为直接调用。结果响应速度比原 App 更快，但未提供代码、API 细节或测试证据。",
+      "target": "政府 App（未具名）",
+      "metric": "直接调用 API，响应比原 App 更快"
+    }
+  },
+  "d-398792e684": {
+    "hash": "1e178eb18cd8",
+    "en": {
+      "title": "Using REA to analyze SEO/GEO site rules and optimize one's own website",
+      "summary": "The author had Codex analyze several SEO and GEO websites through REA to learn their rules, then handed their own site to Codex to optimize based on what it learned. The post is a self-description only and lists no specific sites, rules, or results.",
+      "target": "Existing SEO / GEO websites",
+      "metric": "Analyzed multiple SEO/GEO sites and applied the findings to the author's own site (no data)"
+    },
+    "zh-CN": {
+      "title": "用 REA 分析 SEO/GEO 站点规则并优化自己的网站",
+      "summary": "作者让 Codex 通过 REA 分析多个 SEO 与 GEO 网站，学习其规则后，再把自己的站点交给 Codex 依所学内容进行优化。帖子只有自述，没有列出具体站点、规则或成效。",
+      "target": "市面上的 SEO / GEO 网站",
+      "metric": "分析多个 SEO/GEO 站点后应用于自家站点（无数据）"
+    }
+  },
+  "d-3d893028e8": {
+    "hash": "a9914d3b083b",
+    "en": {
+      "title": "Browser-Based Front-End Workbench for REA Reverse-Engineering Investigations",
+      "summary": "Aims to provide a web interface for organizing authorized REA reverse-engineering investigations, including case intake and a local queue. The author states that the front end does not yet run any REA analysis; records exist only in the browser session.",
+      "target": "REA investigation workbench (web front end)",
+      "metric": "First-release front end is not connected to the REA runtime; no actual analysis performed"
+    },
+    "zh-CN": {
+      "title": "为 REA 打造的浏览器端逆向调查工作台前端",
+      "summary": "目标是提供网页界面来整理 REA 的授权逆向调查，包括案件收件与本地队列。作者明确表示目前前端尚未执行任何 REA 分析，记录只存在于浏览器会话中。",
+      "target": "REA 调查工作台（网页前端）",
+      "metric": "首版前端尚未接入 REA 运行环境，无实际分析"
+    }
+  },
+  "d-9b6a3b82cf": {
+    "hash": "dd9b617f3914",
+    "en": {
+      "title": "One-Click Windows Installer for an Integrated Reverse-Engineering Toolchain",
+      "summary": "Aims to set up a complete reverse-engineering environment on Windows in one go, including Ghidra, x64dbg, IDA Free, Wireshark, Frida, and angr, bundled with rea-agents. Provides health-check, offline-install, and regression-test scripts. The content is an installer; it contains no concrete reverse-engineering results.",
+      "target": "Windows reverse-engineering toolchain environment",
+      "metric": "One-click install of Ghidra 12.2, x64dbg and other tools, plus 15 Python analysis libraries"
+    },
+    "zh-CN": {
+      "title": "整合逆向工具链的 Windows 一键安装器",
+      "summary": "目标是在 Windows 上一次装齐 Ghidra、x64dbg、IDA Free、Wireshark、Frida、angr 等逆向环境，并附带 rea-agents。提供体检、离线安装与回归测试脚本。内容为安装器，没有具体的逆向分析成果。",
+      "target": "Windows 逆向工具链环境",
+      "metric": "一键安装 Ghidra 12.2、x64dbg 等多项工具与 15 个 Python 分析库"
+    }
+  },
+  "d-8dd0525eab": {
+    "hash": "e393758c611c",
+    "en": {
+      "title": "Three-Stage Release Gate for Pre-Ship Security and Anti-AI Reverse Engineering",
+      "summary": "Aims to run, before code ships, a secret scan, a dual-LLM adversarial source audit, and build hardening against AI-driven reverse engineering such as REA. Produces SARIF output and an Ed25519-signed release certificate. This is a defensive tool: REA is the threat being guarded against, not a tool used to do the reverse engineering.",
+      "target": "Code and build artifacts before shipping",
+      "metric": "Three-stage gate; the CLI blocks release with exit codes 10/20/30"
+    },
+    "zh-CN": {
+      "title": "出货前安全与防 AI 逆向的三阶段发布闸门",
+      "summary": "目标是在代码出货前，依次进行密钥扫描、双 LLM 对抗式源码审计，以及防范 REA 类 AI 逆向的构建加固。产出 SARIF 与 Ed25519 签名的发布凭证。这是防御向的工具，REA 只是被防范的对象，并非用 REA 做逆向。",
+      "target": "出货前的代码与构建产物",
+      "metric": "三阶段闸门，CLI 以退出码 10/20/30 阻止发布"
+    }
+  },
+  "d-d2d7ae53bd": {
+    "hash": "07de71d5b417",
+    "en": {
+      "title": "REA Lands as a conda-forge Packaging Feedstock",
+      "summary": "conda-forge has created a feedstock for rea-agents, installable via conda, mamba, or pixi, covering macOS build variants for Node.js 24 and 26. This is package-distribution infrastructure; no reverse-engineering target was analyzed.",
+      "target": "REA (rea-agents) package distribution",
+      "metric": "rea-agents installable via conda / mamba / pixi"
+    },
+    "zh-CN": {
+      "title": "REA 的 conda-forge 打包 feedstock 上架",
+      "summary": "conda-forge 为 rea-agents 建立了 feedstock，可通过 conda、mamba、pixi 安装，涵盖 Node.js 24 与 26 的 macOS 构建变体。内容是软件包发布的基础设施，并未对任何逆向目标做分析。",
+      "target": "REA（rea-agents）软件包发布",
+      "metric": "可通过 conda / mamba / pixi 安装 rea-agents"
+    }
+  },
+  "d-6cf59e094b": {
+    "hash": "a75236805073",
+    "en": {
+      "title": "Rebuilding the DX-Ball executable in C with REA and Ghidra, verified case by case",
+      "summary": "The report cites N0zoM1z0's dx-ball case: using REA 4.1.0 and Ghidra to rebuild a source-less Windows brick-breaker game in C. Since the decompiler output was not enough, the author built separate tests to compare against the original x86 binary case by case, covering random-number order, 2×2 pixel drawing, and 200 frames of behavior.",
+      "target": "DX-Ball (Windows brick-breaker game)",
+      "metric": "4,580 comparison cases against the original x86; all 3,205 audio-balance function cases passed, with 63 bytes matching exactly"
+    },
+    "zh-CN": {
+      "title": "用 REA 加 Ghidra 将 DX-Ball 可执行文件重建为 C 并逐项验证",
+      "summary": "报道引用了 N0zoM1z0 的 dx-ball 案例：用 REA 4.1.0 与 Ghidra 将没有源码的 Windows 打砖块游戏重建为 C。由于反编译结果不够用，作者另建测试，与原版 x86 逐项比对，涵盖随机数顺序、2×2 像素绘制和 200 帧行为。",
+      "target": "DX-Ball（Windows 打砖块游戏）",
+      "metric": "4,580 项与原版 x86 的比对用例，音频平衡函数 3,205 项全部通过，63 字节完全一致"
+    }
+  },
+  "d-6b34c6b113": {
+    "hash": "68e95987e72b",
+    "en": {
+      "title": "Reverse engineering Bookworm Adventures Deluxe with REA and Codex to build a debug menu mod",
+      "summary": "The goal was to add a battle debug menu to Bookworm Adventures Deluxe. After reverse engineering the game with REA and Codex, the author built an installable mod: press F9 to edit letters, gems, HP, potions, status effects, and treasures. It comes with an installer, restore function, and screenshots.",
+      "target": "Bookworm Adventures Deluxe (PC game)",
+      "metric": "F9 battle debug menu, with installer, backup/restore, and screenshots"
+    },
+    "zh-CN": {
+      "title": "用 REA 加 Codex 逆向并制作蠕虫冒险豪华版调试菜单模组",
+      "summary": "目标是为 Bookworm Adventures Deluxe 加入战斗调试菜单。作者用 REA 与 Codex 逆向游戏后，做出可安装的模组，按 F9 即可修改字母、宝石、血量、药水、状态与宝物，附带安装器、还原功能和截图。",
+      "target": "Bookworm Adventures Deluxe（PC 游戏）",
+      "metric": "F9 战斗调试菜单，含安装器、备份还原与截图"
+    }
+  },
+  "d-638e612ba6": {
+    "hash": "6d8b87a1e8c7",
+    "en": {
+      "title": "Promoting rea with reanimate, claiming an identical match on all 417 frames of the Vercel toolbar",
+      "summary": "The post claims rea can reveal the code behind an app's behavior, while reanimate records animations and rebuilds them in code. Using the Vercel toolbar as an example, it claims all 417 frames are identical. The content is promotional, with no reproduction steps or evidence files attached.",
+      "target": "Vercel toolbar animation (rebuilt with reanimate)",
+      "metric": "417 of 417 frames identical (self-reported by the author)"
+    },
+    "zh-CN": {
+      "title": "推广 rea 搭配 reanimate，声称 Vercel 工具栏 417 帧完全一致",
+      "summary": "推文宣称 rea 能揭示应用行为背后的代码，reanimate 则录下动画并用代码重建。以 Vercel 工具栏为例，声称 417 帧全部相同。内容偏宣传，未附复现步骤或证据文件。",
+      "target": "Vercel 工具栏动画（reanimate 重建）",
+      "metric": "417 帧中 417 帧相同（作者自述）"
+    }
+  },
+  "d-0bc399de7b": {
+    "hash": "b32c5ba9189c",
+    "en": {
+      "title": "Cloning the Mac Vitals app in 30 minutes with REA and Claude Code",
+      "summary": "The author used REA with Claude Code to reverse engineer the Vitals app, which only runs on their own Mac, learned its local functionality, then rebuilt the parts they needed. The result is a Vitals clone with slight visual differences, built in about 30 minutes, and the post also mentions the parts needed to reverse engineer the Rabbit R1.",
+      "target": "Vitals app for Mac, Rabbit R1-related parts",
+      "metric": "Vitals clone completed in about 30 minutes"
+    },
+    "zh-CN": {
+      "title": "用 REA 与 Claude Code 30 分钟复制 Mac 版 Vitals App",
+      "summary": "作者用 REA 搭配 Claude Code 逆向只能在自己 Mac 上运行的 Vitals App，了解其本机功能后重建出自己需要的部分。成果是外观略有差异的 Vitals 复制品，用时约 30 分钟，并提到逆向 Rabbit R1 所需的部分。",
+      "target": "Mac 版 Vitals App、Rabbit R1 相关部分",
+      "metric": "约 30 分钟完成 Vitals 复制品"
+    }
+  },
+  "d-7a251ea4b2": {
+    "hash": "46bc05e3d525",
+    "en": {
+      "title": "Turning the DX-Ball sound rules REA found into a WASM stereo-panning demo",
+      "summary": "The author gave Claude the sound rules the REA team found in DX-Ball, and it produced a small WASM program in which a beep pans from left to right as the ball moves. When asked to reverse the direction, Claude changed just one byte and provided an online demo that can be played in the browser.",
+      "target": "DX-Ball sound panning rules (WASM demo)",
+      "metric": "Panning direction reversed by changing a single byte, with online demo"
+    },
+    "zh-CN": {
+      "title": "把 REA 找到的 DX-Ball 音效规则写成 WASM 声像演示",
+      "summary": "作者将 REA 团队在 DX-Ball 中找到的声音规则交给 Claude，生成了一个小型 WASM 程序，让哔声随球由左向右移动。再要求反向时，Claude 只改了一个字节，并提供了可在浏览器中试听的在线演示。",
+      "target": "DX-Ball 音效声像规则（WASM 演示）",
+      "metric": "仅改一个字节即反转声像方向，附在线演示"
+    }
+  },
+  "d-ceda17516f": {
+    "hash": "4848ff54a80d",
+    "en": {
+      "title": "Testing AI reverse engineering with REA and Ghidra: keygen, patch, feature clone",
+      "summary": "The author used Claude Code with REA 6.4.0 and Ghidra to test a custom-built Apple Silicon crackme and a line-counting tool. The agent wrote a keygen in two minutes, and completed a patch on its own by placing instructions into a zero-padded region, rewriting three instructions and re-signing; the Amphetamine clone was blocked because REA refused.",
+      "target": "Custom PixelNote Pro crackme and text-counting tool (macOS Apple Silicon)",
+      "metric": "Keygen passed all 479 random names; API cost about $0.5"
+    },
+    "zh-CN": {
+      "title": "用 REA 加 Ghidra 测试 AI 逆向：keygen、patch、功能复刻",
+      "summary": "作者用 Claude Code 搭配 REA 6.4.0 与 Ghidra，对自制的 Apple Silicon crackme 和行数统计工具做测试。Agent 两分钟内写出 keygen，并自行把指令放进零填充区、改写三条指令、重新签名，完成 patch；Amphetamine 的复刻则因 REA 拒绝而受阻。",
+      "target": "自制 PixelNote Pro crackme 与文本计数工具（macOS Apple Silicon）",
+      "metric": "keygen 对 479 个随机名称全部通过，API 成本约 0.5 美元"
+    }
+  },
+  "d-5bf60980bd": {
+    "hash": "dd26ffc518c1",
+    "en": {
+      "title": "Spanish-language YouTube video introduces using REA to reverse engineer and modify any app",
+      "summary": "The video introduces REA (an MCP server plus CLI) and how it lets an AI understand what happens inside an app when you press \"save\" and then modify it. The excerpt contains only a brief description, with no concrete target, result or evidence.",
+      "target": "Any application (unspecified)",
+      "metric": "No concrete results in the excerpt"
+    },
+    "zh-CN": {
+      "title": "YouTube 西班牙语视频介绍用 REA 逆向并修改任意应用",
+      "summary": "视频介绍 REA（MCP 服务器加 CLI）如何让 AI 了解应用“点击保存”时的内部行为并进行修改。节选只有简短描述，没有看到具体目标、成果或证据。",
+      "target": "任意应用程序（未指明）",
+      "metric": "节选中无具体成果"
+    }
+  },
+  "d-8b273a5b86": {
+    "hash": "56f6da74e6ce",
+    "en": {
+      "title": "Introducing the Chinese edition rea-cn and citing the DX-Ball rebuild that passes 3,205 tests",
+      "summary": "The post introduces rea-cn, the Chinese edition, which supports inspection of APK signatures, IL2CPP metadata, SQLite, WASM, Godot PCK and more. It also relays a case from the repository: tracing sound calls to the panning function, with the rebuilt C passing 3,205 original x86 test cases and reproducing a 63-byte compiled output byte for byte. The content retells someone else's case; the author did not implement it personally.",
+      "target": "DX-Ball (native x86 program), rea-cn Chinese edition",
+      "metric": "Rebuilt C passes 3,205 x86 test cases, 63 bytes reproduced byte for byte"
+    },
+    "zh-CN": {
+      "title": "介绍 rea-cn 中文版并引述 DX-Ball 重建通过 3,205 个测试",
+      "summary": "推文介绍 rea-cn 中文版，支持 APK 签名、IL2CPP 元数据、SQLite、WASM、Godot PCK 等检视。并转述仓库案例：沿声音调用追到声像计算函数，重建的 C 通过 3,205 个原始 x86 测试用例，并逐字节复现 63 字节编译产物。内容为转述他人的案例，作者本人没有自行实现。",
+      "target": "DX-Ball（x86 原生程序）、rea-cn 中文版",
+      "metric": "重建的 C 通过 3,205 个 x86 测试用例，逐字节复现 63 字节"
+    }
   }
 }

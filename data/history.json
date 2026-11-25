@@ -84978,8 +84978,8 @@
     },
     {
       "date": "2026-11-25",
-      "stars": 477108,
-      "stars_delta": 1280,
+      "stars": 477374,
+      "stars_delta": 1546,
       "new": [
         "d-6cf59e094b",
         "d-6b34c6b113",
@@ -84987,60 +84987,63 @@
         "d-0bc399de7b",
         "d-7a251ea4b2",
         "d-ceda17516f",
+        "d-9806b6cc81",
         "d-5bf60980bd",
         "d-8b273a5b86",
         "d-e22de4c088",
         "d-40ab1f7bb1",
         "d-4e3804fb05",
         "d-398792e684",
+        "d-e3ce2f0c12",
         "d-3d893028e8",
         "d-9b6a3b82cf",
         "d-8dd0525eab",
-        "d-d2d7ae53bd"
+        "d-d2d7ae53bd",
+        "d-af68c1f421"
       ],
       "stats": {
-        "count": 16,
+        "count": 19,
         "wow": {
-          "2": 10,
+          "2": 13,
           "3": 4,
           "4": 1,
           "5": 1
         },
         "type": {
           "case": 9,
-          "learn": 1,
-          "news": 1,
-          "app": 5
+          "app": 7,
+          "learn": 2,
+          "news": 1
         },
         "status": {
           "tested": 2,
-          "shipped": 7,
-          "reported": 7
+          "shipped": 9,
+          "reported": 8
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "DX-Ball 重建案例再受矚目,REA 星數突破 47.7 萬",
-          "summary": "今天 REA 星數增至 477,108(前次紀錄 475,828,增加 1,280)。排名最前的是 DX-Ball 案例:用 REA 加 Ghidra 重建為 C,並另建測試與原版 x86 逐筆比對;另有推文把其中的音效規則做成 WASM 示範,也有人轉述它通過 3,205 個測試。其他項目多為自述或安裝工具,例如蠕蟲冒險除錯選單模組、Mac 版 Vitals 複製、crackme 測試,說明複製與修改軟體越來越快,而能否驗證結果才是關鍵。"
+          "headline": "DX-Ball 重建案例延燒，REA 星數增 1546 突破 47.7 萬",
+          "summary": "11 月 25 日榜首是用 REA 加 Ghidra 把無原始碼的 DX-Ball 重建為 C，並以測試與原版 x86 逐筆比對，涵蓋亂數順序與 200 幀行為；另有人把其音效規則做成 WASM 聲像示範，也有人轉述其 3,205 個測試通過的結果。REA 星數升至 477,374，比前一個紀錄增加 1,546。其他項目多為安裝器、打包與外掛等生態工具，同時出現防 REA 類 AI 逆向的發佈閘門；較高分的案例還有為 Bookworm Adventures Deluxe 做的除錯選單模組，以及 Mac 版 Vitals App 的 30 分鐘復刻，顯示重點仍在以測試驗證重建結果。"
         },
         "en": {
-          "headline": "DX-Ball rebuild case resurfaces as REA stars pass 477K",
-          "summary": "REA's GitHub stars rose to 477,108 today (previous record 475,828, up 1,280). The top item is the DX-Ball case: rebuilt in C with REA and Ghidra, then checked against the original x86 with purpose-built tests. Another post turned its sound rules into a WASM demo, and a third repeated its 3,205-test result. Most other items are self-reports or installers, such as a Bookworm Adventures debug-menu mod, a Mac Vitals clone and a crackme test, which show cloning and patching getting faster while verifying the result is what counts."
+          "headline": "DX-Ball rebuild leads the day as REA stars rise 1,546 to 477,374",
+          "summary": "The top item on 25 Nov rebuilds the source-less DX-Ball in C using REA and Ghidra, verified against the original x86 build with tests covering random ordering and 200 frames of behavior. Spinoffs include a WASM stereo-pan demo of its sound rules and a retelling of the 3,205 passing tests. Stars reached 477,374, up 1,546 from the previous record. Most other entries are installers, packaging and plugins, and one is a release gate built to resist AI reverse engineering like REA. Higher-rated cases also include a debug-menu mod for Bookworm Adventures Deluxe and a 30-minute clone of the Mac Vitals app, so the emphasis stays on test-verified reconstruction."
         },
         "zh-CN": {
-          "headline": "DX-Ball 重建案例再受关注,REA 星数突破 47.7 万",
-          "summary": "今天 REA 星数增至 477,108(此前纪录 475,828,增加 1,280)。排名最前的是 DX-Ball 案例:用 REA 加 Ghidra 重建为 C,并另建测试与原版 x86 逐条比对;另有推文把其中的音效规则做成 WASM 演示,也有人转述它通过 3,205 个测试。其他项目多为自述或安装工具,例如蠕虫冒险调试菜单模组、Mac 版 Vitals 复刻、crackme 测试,说明复制与修改软件越来越快,而能否验证结果才是关键。"
+          "headline": "DX-Ball 重建案例延烧，REA 星数增 1546 突破 47.7 万",
+          "summary": "11 月 25 日榜首是用 REA 加 Ghidra 把无源码的 DX-Ball 重建为 C，并以测试与原版 x86 逐笔比对，涵盖乱数顺序与 200 帧行为；另有人把其音效规则做成 WASM 声像演示，也有人转述其 3,205 个测试通过的结果。REA 星数升至 477,374，比前一个纪录增加 1,546。其他项目多为安装器、打包与插件等生态工具，同时出现防 REA 类 AI 逆向的发布闸门；较高分的案例还有为 Bookworm Adventures Deluxe 做的调试菜单模组，以及 Mac 版 Vitals App 的 30 分钟复刻，显示重点仍在以测试验证重建结果。"
         }
       },
       "signals": [
-        "A",
         "B",
-        "C"
+        "C",
+        "G"
       ],
       "highlights": [
         "d-6cf59e094b",
         "d-6b34c6b113",
-        "d-ceda17516f"
+        "d-0bc399de7b"
       ],
       "rank": [
         "dx-ball-sound-pan",
@@ -85676,6 +85679,7 @@
         "d-ec0218b130",
         "d-1ea735e339",
         "d-d2121f9a00",
+        "d-9806b6cc81",
         "d-b5b43768ad",
         "d-41e56f0fde",
         "d-679e91d8c3",
@@ -86129,6 +86133,7 @@
         "d-40c0474406",
         "d-49c3fe3859",
         "heartland-side-effects",
+        "d-e3ce2f0c12",
         "d-3d893028e8",
         "d-9b6a3b82cf",
         "d-8dd0525eab",
@@ -86498,6 +86503,7 @@
         "d-a5261129ea",
         "d-43170c8eca",
         "d-269ae047fe",
+        "d-af68c1f421",
         "d-b441119fce",
         "d-f5aa9129b9",
         "d-c61e14bff3",
@@ -87800,38 +87806,37 @@
     "to": "2026-11-25",
     "text": {
       "zh-TW": {
-        "headline": "熱度從展示轉向驗證：逐位元組重建成為本週標準",
-        "summary": "本週 REA 星數從約 46.9 萬升至 47.7 萬，每天穩定成長一千多。內容從 11/19 的 npm MCP 套件靜態審查、Audition 加密格式逆向，逐步集中到經過驗證的重建：jEnesisDS 的 ROM 逐位元組一致、DX-Ball 270 個函式重編後一致、SkiFree 以 Rust 移植並用相同種子重現畫面。遊戲與老軟體仍是主軸，並延伸到飛書多開、安卓遊戲加角色等實戰改作。驗證訊號（B）本週出現 6 天，與此同時，11/23 起有不少熱門貼文缺乏程式碼或佐證，顯示熱度與可驗證程度之間仍有落差。生態擴充（Termux、DeepSeek／Gemini 外掛、Android 離線工具組）持續出現，但相對是配角。",
-        "watch": "接下來幾天可留意是否有更多案例附上雜湊、測試數量或差異比對等證據檔，這類「可驗證」的成果比單純展示更具參考價值。想找機會的人，可以考慮做驗證與評分工具（如 ReaCraft 這類把結果轉成合約並打分的方向），或針對老軟體重建與遷移提供服務。另外，硬體互通、平台限制與成本三項本週都沒有出現，若有新案例冒出，值得視為早期訊號。"
+        "headline": "REA 從展示走向驗證：逐位元組重建成為逆向新標準",
+        "summary": "本週 REA 星數由約 46.9 萬升至 47.7 萬，每天穩定增加 1,300 至 1,900。脈絡上，11/19 以 npm MCP 套件靜態審查（13 抓 13、0 誤報）帶出證據導向；11/20 的 NDS 模擬器與 11/21 的 DX-Ball 重建（270 函式逐位元組一致）把驗證推到位元組級。11/24 的 SkiFree 以相同種子跨平台重現畫面，11/25 的 DX-Ball 再加入亂數順序與 200 幀行為比對，顯示老遊戲與舊軟體保存／移植是最穩定的主軸。生態端持續擴張（Termux、Gemini CLI、DeepSeek 外掛、安裝器），但許多熱門貼文仍只是作者自述，缺乏證據，另有防 AI 逆向的發佈閘門開始出現。",
+        "watch": "可留意能附上差異測試、雜湊或逐位元組比對的重建與移植工具，這類成果最容易被信任。同時觀察防 REA 類逆向的發佈閘門如何演進，以及舊遊戲、舊企業軟體遷移是否出現可複製的流程與服務機會。"
       },
       "en": {
-        "headline": "Hype is giving way to proof: byte-exact rebuilds became the standard this week",
-        "summary": "REA's GitHub stars rose from about 469K to 477K this week, adding over a thousand a day. Coverage moved from 11/19 items like a static risk audit of npm MCP packages and the Audition crypto-format reversal toward verified reconstructions: jEnesisDS rebuilt a byte-identical ROM, DX-Ball matched across 270 recompiled functions, and SkiFree was ported to Rust with identical frames from the same seed. Games and old software stayed the core, extending into practical mods such as a dual-login Feishu client and added characters in an Android game. The verification signal (B) appeared on 6 days, yet from 11/23 many popular posts lacked code or evidence, showing a gap between buzz and verifiability. Ecosystem expansion (Termux, DeepSeek/Gemini plugins, an Android offline toolkit) kept appearing, but as a supporting theme.",
-        "watch": "Over the next few days, watch for more cases that ship hashes, test counts or differential comparisons; verifiable results are worth more than demos. For those looking for opportunities, tooling that verifies and grades results (the ReaCraft direction of turning findings into scored contracts) and services for legacy-software rebuilds and migration look promising. Hardware interop, platform limits and cost did not appear at all this week, so any new case in those areas is worth treating as an early signal."
+        "headline": "REA shifts from demos to proof: byte-exact reconstruction becomes the bar",
+        "summary": "REA's stars rose from about 469k to 477k this week, adding roughly 1,300–1,900 per day. The week opened with evidence-led work, a static npm MCP audit that caught 13 of 13 planted behaviors with zero false positives, then pushed to byte-level verification with the NDS emulator rebuild (11/20) and DX-Ball (11/21, 270 functions byte-identical). SkiFree (11/24) reproduced identical frames across platforms from the same seed, and the 11/25 DX-Ball work added RNG-order and 200-frame behavior comparison, making legacy game preservation and porting the steadiest theme. The ecosystem kept widening (Termux, Gemini CLI, DeepSeek plugins, installers), yet many popular posts remained self-reported without evidence, and anti-AI-reversing release gates began to appear.",
+        "watch": "Look for reconstruction and porting tools that ship differential tests, hashes or byte-exact comparisons, since those are the results people will trust. Also watch how release gates against REA-style reversing evolve, and whether legacy game and enterprise migration yields repeatable workflows or service opportunities."
       },
       "zh-CN": {
-        "headline": "热度从展示转向验证：逐字节重建成为本周标准",
-        "summary": "本周 REA 星数从约 46.9 万升至 47.7 万，每天稳定增长一千多。内容从 11/19 的 npm MCP 包静态审查、Audition 加密格式逆向，逐步集中到经过验证的重建：jEnesisDS 的 ROM 逐字节一致、DX-Ball 270 个函数重编后一致、SkiFree 用 Rust 移植并以相同种子复现画面。游戏与老软件仍是主线，并延伸到飞书多开、安卓游戏加角色等实战改造。验证信号（B）本周出现 6 天，同时自 11/23 起不少热门帖子缺乏代码或佐证，说明热度与可验证程度之间仍有落差。生态扩展（Termux、DeepSeek／Gemini 插件、Android 离线工具包）持续出现，但相对是配角。",
-        "watch": "接下来几天可留意是否有更多案例附上哈希、测试数量或差异比对等证据，这类可验证的成果比单纯展示更有参考价值。想找机会的人，可以考虑做验证与评分工具（如 ReaCraft 这类把结果转成合约并打分的方向），或针对老软件重建与迁移提供服务。另外，硬件互通、平台限制与成本三项本周都没有出现，若有新案例冒出，值得视为早期信号。"
+        "headline": "REA 从展示走向验证：逐字节重建成为逆向新标准",
+        "summary": "本周 REA 星数由约 46.9 万升至 47.7 万，每天稳定增加 1,300 至 1,900。脉络上，11/19 以 npm MCP 包静态审查（13 抓 13、0 误报）带出证据导向；11/20 的 NDS 模拟器与 11/21 的 DX-Ball 重建（270 个函数逐字节一致）把验证推到字节级。11/24 的 SkiFree 以相同种子跨平台复现画面，11/25 的 DX-Ball 又加入随机数顺序与 200 帧行为比对，显示老游戏与旧软件的保存／移植是最稳定的主线。生态端持续扩张（Termux、Gemini CLI、DeepSeek 插件、安装器），但许多热门帖子仍只是作者自述，缺乏证据，另有防 AI 逆向的发布闸门开始出现。",
+        "watch": "可关注能附上差分测试、哈希或逐字节比对的重建与移植工具，这类成果最容易被信任。同时观察防 REA 类逆向的发布闸门如何演进，以及旧游戏、旧企业软件迁移是否出现可复制的流程与服务机会。"
       }
     },
     "rising": [
       "B",
-      "C"
+      "C",
+      "G"
     ],
     "fading": [
-      "D",
-      "E",
-      "F"
+      "A"
     ],
     "tally": {
-      "A": 4,
+      "A": 3,
       "B": 6,
       "C": 5,
       "D": 0,
       "E": 0,
       "F": 0,
-      "G": 3
+      "G": 4
     }
   }
 }

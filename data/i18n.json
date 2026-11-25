@@ -23818,5 +23818,50 @@
       "target": "DX-Ball（x86 原生程序）、rea-cn 中文版",
       "metric": "重建的 C 通过 3,205 个 x86 测试用例，逐字节复现 63 字节"
     }
+  },
+  "d-9806b6cc81": {
+    "hash": "8f4756e4ed2a",
+    "en": {
+      "title": "AegisOps Security Operations Platform Ships a Built-in REA Reverse-Analysis Skill Plugin",
+      "summary": "AegisOps is an AI security operations workbench. Its hub plugin includes a rea SKILL.md pinned to rea-agents 6.4.0. Depending on whether the light or full profile is chosen, the skill installs JDK 21 and Ghidra 12.1.4, registers the MCP service, and verifies tool calls against a locally generated sample. This is an integration plugin; no reverse-engineering results on a specific target are shown.",
+      "target": "AegisOps security operations workbench (with integrated REA skill)",
+      "metric": "Pinned to rea-agents 6.4.0; the full profile auto-configures Ghidra 12.1.4 and JDK 21"
+    },
+    "zh-CN": {
+      "title": "AegisOps 安全运营平台内置 REA 逆向分析技能插件",
+      "summary": "AegisOps 是 AI 安全运营工作台，其 hub 插件中包含一份 rea 的 SKILL.md，锁定 rea-agents 6.4.0。技能会按轻量或完整档安装 JDK 21 与 Ghidra 12.1.4，注册 MCP 服务并用本地生成的样例验证工具调用。这是集成性质的插件，未见针对具体目标的逆向成果。",
+      "target": "AegisOps 安全运营工作台（集成 REA 技能）",
+      "metric": "锁定 rea-agents 6.4.0，完整档自动配置 Ghidra 12.1.4 与 JDK 21"
+    }
+  },
+  "d-e3ce2f0c12": {
+    "hash": "346e22c7a07d",
+    "en": {
+      "title": "clone-every-thing: REA Core Plus Shared J2ME Porting Tools and Skills",
+      "summary": "This repo contains the REA (Reverse Engineer Anything) core along with shared J2ME porting tools and skills, with READMEs in multiple languages. The excerpt mainly covers REA's introduction, installation and community links; no concrete porting results or test evidence are shown.",
+      "target": "REA core and J2ME porting tools",
+      "metric": "A repo providing the REA core and shared J2ME porting tools/skills (README available in 23 languages)"
+    },
+    "zh-CN": {
+      "title": "clone-every-thing：REA 核心及共用的 J2ME 移植工具与技能",
+      "summary": "该 repo 收录 REA（Reverse Engineer Anything）核心及共用的 J2ME 移植工具与技能，附多语言 README。节选内容主要是 REA 的介绍、安装与社区链接，未展示具体的移植成果或测试证据。",
+      "target": "REA 核心与 J2ME 移植工具",
+      "metric": "提供 REA 核心与共用 J2ME 移植工具/技能的 repo（README 提供 23 种语言）"
+    }
+  },
+  "d-af68c1f421": {
+    "hash": "72d0c45429b1",
+    "en": {
+      "title": "REA MCP Setup Guide: Connecting Claude Code, Cursor and Codex with rea-agents",
+      "summary": "This is an installation guide on rea-reverse.com explaining that REA's npm package is named rea-agents and requires Node.js 22.19+ among other prerequisites. It covers the interactive flow of npx rea-agents setup, the config files written for each agent, version pinning and restart steps. It is an installation and usage tutorial and does not cover reverse-engineering results on any specific target.",
+      "target": "REA (rea-agents) MCP installation and configuration",
+      "metric": "A single command, npx rea-agents setup, connects multiple coding agents"
+    },
+    "zh-CN": {
+      "title": "REA MCP 安装教程：用 rea-agents 接入 Claude Code、Cursor 与 Codex",
+      "summary": "这是 rea-reverse.com 上的安装指南，说明 REA 在 npm 上的包名为 rea-agents，需 Node.js 22.19+ 等条件。内容涵盖 npx rea-agents setup 的交互流程、各 agent 的配置文件写入、版本锁定与重启方式。属于安装与使用教程，未涉及针对具体目标的逆向成果。",
+      "target": "REA（rea-agents）MCP 安装与配置",
+      "metric": "npx rea-agents setup 一行命令即可接入多种 coding agent"
+    }
   }
 }

@@ -2,6 +2,27 @@
   "updated": "2026-11-25",
   "items": [
     {
+      "url": "https://github.com/EpicTalesCoder/clone-every-thing",
+      "title": "EpicTalesCoder/clone-every-thing: Reverse Engineer Anything (REA) core + shared J2ME porting tools & skills",
+      "author": "EpicTalesCoder",
+      "date": "2026-11-25",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-25",
+      "relevant": true,
+      "title_zh": "clone-every-thing：REA 核心加上共用的 J2ME 移植工具與技能",
+      "summary": "此 repo 收錄 REA（Reverse Engineer Anything）核心及共用的 J2ME 移植工具與技能，附多語言 README。節錄內容主要是 REA 的介紹、安裝與社群連結，未顯示具體的移植成果或測試證據。",
+      "target": "REA 核心與 J2ME 移植工具",
+      "metric": "提供 REA 核心與共用 J2ME 移植工具／技能的 repo（README 提供 23 種語言）",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-25",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/themarneilx/Bookworm-Adventures-Deluxe-Debug-Menu-Mod",
       "title": "themarneilx/Bookworm-Adventures-Deluxe-Debug-Menu-Mod: A debug menu for experimenting in Bookworm Adventures Deluxe. Reversed Engineered with REA + Codex",
       "author": "themarneilx",
@@ -84,15 +105,6 @@
       "wow": 2,
       "scored": "2026-11-25",
       "scored_by": "sonnet"
-    },
-    {
-      "url": "https://github.com/Moosecat313/uREA",
-      "title": "Moosecat313/uREA: REA — Your Local AI Software Mechanic. Local AI-powered Windows software diagnosis, reverse engineerin",
-      "source": "GitHub",
-      "found": "2026-11-25",
-      "relevant": false,
-      "scored": "2026-11-25",
-      "scored_by": "jev"
     },
     {
       "url": "https://github.com/HyChamp/rea-manager",
@@ -601,6 +613,32 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://github.com/knot07/AegisOps",
+      "title": "knot07/AegisOps: 御枢 · AegisOps — AI 安全运营工作台：告警研判、应急响应、漏洞整改，连接 Atlas、模型、工具与工作流。",
+      "author": "knot07",
+      "date": "2026-11-06",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 162,
+      "pop": {
+        "stars": 162
+      },
+      "needsRepoKind": true,
+      "evidence": "Files that mention REA: defaults/hub/plugins/skills/rea/SKILL.md",
+      "lang": "zh",
+      "found": "2026-11-25",
+      "relevant": true,
+      "title_zh": "AegisOps 安全運營平台內建 REA 逆向分析技能外掛",
+      "summary": "AegisOps 是 AI 安全運營工作台，其 hub 外掛中包含一份 rea 的 SKILL.md，鎖定 rea-agents 6.4.0。技能會依輕量或完整檔安裝 JDK 21 與 Ghidra 12.1.4，註冊 MCP 服務並以本地生成樣例驗證工具呼叫。這是整合性質的外掛，未見對具體目標的逆向成果。",
+      "target": "AegisOps 安全運營工作台（整合 REA 技能）",
+      "metric": "鎖定 rea-agents 6.4.0，完整檔自動配置 Ghidra 12.1.4 與 JDK 21",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-25",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://static.rdintel.com/news/item/hn/50100843",
       "title": "REA – I tested AI agent reverse engineering - RD Intelligence News",
       "author": "static.rdintel.com",
@@ -617,6 +655,26 @@
       "category": "Native / macOS",
       "status": "tested",
       "wow": 3,
+      "scored": "2026-11-25",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://rea-reverse.com/zh/getting-started-rea-mcp/",
+      "title": "REA MCP 安装：用 rea-agents 接入 Claude Code、Cursor 与 Codex | rea-reverse",
+      "author": "rea-reverse.com",
+      "date": "2026-10-13",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "zh",
+      "found": "2026-11-25",
+      "relevant": true,
+      "title_zh": "REA MCP 安裝教學：用 rea-agents 接入 Claude Code、Cursor 與 Codex",
+      "summary": "這是 rea-reverse.com 上的安裝指南，說明 REA 在 npm 的套件名為 rea-agents，需 Node.js 22.19+ 等條件。內容涵蓋 npx rea-agents setup 的互動流程、各 agent 的設定檔寫入、版本鎖定與重啟方式。屬於安裝與使用教學，未涉及對具體目標的逆向成果。",
+      "target": "REA（rea-agents）MCP 安裝與設定",
+      "metric": "npx rea-agents setup 一行指令即可接入多種 coding agent",
+      "category": "教學",
+      "status": "reported",
+      "wow": 2,
       "scored": "2026-11-25",
       "scored_by": "sonnet"
     },
@@ -639,6 +697,15 @@
       "wow": 5,
       "scored": "2026-11-25",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://github.com/Moosecat313/uREA",
+      "title": "Moosecat313/uREA: REA — Your Local AI Software Mechanic. Local AI-powered Windows software diagnosis, reverse engineerin",
+      "source": "GitHub",
+      "found": "2026-11-25",
+      "relevant": false,
+      "scored": "2026-11-25",
+      "scored_by": "jev"
     },
     {
       "url": "https://youtu.be/yi0D-b-dg68",
@@ -59710,6 +59777,35 @@
   "runs": [
     {
       "date": "2026-11-25",
+      "added": 3,
+      "stats": {
+        "githubShowAndTell": 19,
+        "githubRepos": 246,
+        "githubCode": 44,
+        "hackerNews": 30,
+        "qiita": "error: terminated",
+        "devto": 150,
+        "juejin": 0,
+        "reddit": 20,
+        "v2ex": 16,
+        "youtube": 90,
+        "bluesky": 160,
+        "mastodon": 160,
+        "exaWeb": 60,
+        "x": "error: Command failed: grok -p Search X for posts from the last 7 days where people sho"
+      },
+      "scoring": {
+        "scored": 3,
+        "jev": {
+          "low": 0,
+          "irrelevant": 0,
+          "errors": 0,
+          "toClaude": 3
+        }
+      }
+    },
+    {
+      "date": "2026-11-25",
       "added": 30,
       "stats": {
         "githubShowAndTell": 19,
@@ -60552,36 +60648,7 @@
           "toClaude": 14
         }
       }
-    },
-    {
-      "date": "2026-11-10",
-      "added": 2,
-      "stats": {
-        "githubShowAndTell": 15,
-        "githubRepos": 237,
-        "githubCode": 47,
-        "hackerNews": 30,
-        "qiita": 49,
-        "devto": 150,
-        "juejin": 1,
-        "reddit": 20,
-        "v2ex": 15,
-        "youtube": 90,
-        "bluesky": 162,
-        "mastodon": 160,
-        "exaWeb": 60,
-        "x": "error: Command failed: grok -p Search X for posts from the last 7 days where people sho"
-      },
-      "scoring": {
-        "scored": 0,
-        "jev": {
-          "low": 2,
-          "irrelevant": 0,
-          "errors": 0,
-          "toClaude": 0
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-25T00:24:35.952Z"
+  "updatedAt": "2026-11-25T04:34:18.647Z"
 }

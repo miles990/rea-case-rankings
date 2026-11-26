@@ -1,6 +1,124 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "items": [
+    {
+      "url": "https://github.com/harvatechs/reengine",
+      "title": "harvatechs/reengine: Model-agnostic, security-first reverse-engineering terminal harness with built-in REA MCP engine, themeable Ink TUI, and headless automation.",
+      "author": "harvatechs",
+      "date": "2026-11-25",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-26",
+      "relevant": true,
+      "title_zh": "打造內建 REA 引擎的逆向工程終端工具 ReEngine",
+      "summary": "ReEngine 是不綁定模型的逆向工程終端工具，把 REA 當作受監管的內建 MCP 子行程，搭配 Ink 終端介面與無介面自動化執行器。專案以 repo 公開，提供權限政策、證據分類與打包單一執行檔的腳本；節錄中未見實際分析目標的成果。",
+      "target": "逆向工程終端工具（整合 REA MCP 引擎）",
+      "metric": "內建 170 個工具的權限政策",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-26",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://dev.to/shubham399/reverse-engineering-with-your-coding-agent-30d6",
+      "title": "Reverse engineering with your coding agent",
+      "author": "shubham399",
+      "date": "2026-11-25",
+      "source": "DEV",
+      "kind": "文章",
+      "score": 4,
+      "lang": "en",
+      "found": "2026-11-26",
+      "relevant": true,
+      "title_zh": "用 REA 搭配 Claude Code 分析 Windows 小算盤與手機 App",
+      "summary": "作者用 REA 搭配 Claude Code 檢視 Windows 小算盤與一個未具名的手機 App。文章介紹工作流程、重建過程與限制；節錄中沒有列出具體發現或可驗證的成果。",
+      "target": "Windows 小算盤、未具名手機 App",
+      "metric": "實測 2 個目標：Windows 小算盤與一款手機 App",
+      "category": "教學",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-11-26",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://bsky.app/profile/sambowne.infosec.exchange.ap.brid.gy/post/3n35uw5cst222",
+      "title": "For the last week or so, Claude constantly tells me I broke the \"cyber\" restrictions even for the most mundane task. Anthropic seems determi",
+      "author": "sambowne.infosec.exchange.ap.brid.gy",
+      "date": "2026-11-25",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-26",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-26",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://bsky.app/profile/kcurry.bsky.social/post/3n35g5bu2432n",
+      "title": "synth manufacturers are scrambling after vibe coding agents and tools like Reverse Engineer Anything blew open the modding community. some a",
+      "author": "kcurry.bsky.social",
+      "date": "2026-11-25",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-26",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-26",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://bsky.app/profile/feed.igeek.gamer-geek-news.com.ap.brid.gy/post/3n357wyyw7be2",
+      "title": "📰 **Has vibe coding made open source the new normal for synths?**",
+      "author": "feed.igeek.gamer-geek-news.com.ap.brid.gy",
+      "date": "2026-11-25",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-26",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-26",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/TimothyVang/verdict-dfir",
+      "title": "TimothyVang/verdict-dfir: VERDICT — REA for DFIR: unified local-first DFIR monorepo (MCP + CLI + CaseForge privacy/model",
+      "source": "GitHub",
+      "found": "2026-11-26",
+      "relevant": false,
+      "scored": "2026-11-26",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/morluto/rea/refs/heads/main/.agents/skills/reverse-engineer-anything/SKILL.md",
+      "title": "N/A",
+      "author": "raw.githubusercontent.com",
+      "date": null,
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-11-26",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-11-26",
+      "scored_by": "jev"
+    },
     {
       "url": "https://github.com/EpicTalesCoder/clone-every-thing",
       "title": "EpicTalesCoder/clone-every-thing: Reverse Engineer Anything (REA) core + shared J2ME porting tools & skills",
@@ -59776,6 +59894,35 @@
   ],
   "runs": [
     {
+      "date": "2026-11-26",
+      "added": 7,
+      "stats": {
+        "githubShowAndTell": 19,
+        "githubRepos": 233,
+        "githubCode": 45,
+        "hackerNews": 32,
+        "qiita": 51,
+        "devto": 150,
+        "juejin": 0,
+        "reddit": 20,
+        "v2ex": 16,
+        "youtube": 90,
+        "bluesky": 160,
+        "mastodon": 160,
+        "exaWeb": 60,
+        "x": "error: Command failed: grok -p Search X for posts from the last 7 days where people sho"
+      },
+      "scoring": {
+        "scored": 2,
+        "jev": {
+          "low": 4,
+          "irrelevant": 1,
+          "errors": 0,
+          "toClaude": 2
+        }
+      }
+    },
+    {
       "date": "2026-11-25",
       "added": 3,
       "stats": {
@@ -60619,36 +60766,7 @@
           "toClaude": 5
         }
       }
-    },
-    {
-      "date": "2026-11-11",
-      "added": 32,
-      "stats": {
-        "githubShowAndTell": 15,
-        "githubRepos": 232,
-        "githubCode": 47,
-        "hackerNews": 26,
-        "qiita": 49,
-        "devto": "error: 429 https://dev.to/api/articles?tag=claudecode&per_page=50",
-        "juejin": 0,
-        "reddit": 20,
-        "v2ex": 15,
-        "youtube": 90,
-        "bluesky": 162,
-        "mastodon": 160,
-        "exaWeb": 60,
-        "x": "error: Command failed: grok -p Search X for posts from the last 7 days where people sho"
-      },
-      "scoring": {
-        "scored": 14,
-        "jev": {
-          "low": 13,
-          "irrelevant": 5,
-          "errors": 0,
-          "toClaude": 14
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-25T04:34:18.647Z"
+  "updatedAt": "2026-11-26T00:22:04.730Z"
 }

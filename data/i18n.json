@@ -23863,5 +23863,35 @@
       "target": "REA（rea-agents）MCP 安装与配置",
       "metric": "npx rea-agents setup 一行命令即可接入多种 coding agent"
     }
+  },
+  "d-6ba45d4696": {
+    "hash": "8b387e7bbf3e",
+    "en": {
+      "title": "Analyzing Windows Calculator and a mobile app with REA and Claude Code",
+      "summary": "The author uses REA with Claude Code to examine Windows Calculator and an unnamed mobile app. The article covers the workflow, reconstruction process and limitations; the excerpt lists no specific findings or verifiable results.",
+      "target": "Windows Calculator, unnamed mobile app",
+      "metric": "2 targets tested: Windows Calculator and one mobile app"
+    },
+    "zh-CN": {
+      "title": "用 REA 搭配 Claude Code 分析 Windows 计算器与手机 App",
+      "summary": "作者用 REA 搭配 Claude Code 检视 Windows 计算器和一个未具名的手机 App。文章介绍工作流程、重建过程与局限；节选中没有列出具体发现或可验证的成果。",
+      "target": "Windows 计算器、未具名手机 App",
+      "metric": "实测 2 个目标：Windows 计算器和一款手机 App"
+    }
+  },
+  "d-a1ef9bb9c7": {
+    "hash": "59b2740bcc59",
+    "en": {
+      "title": "Building ReEngine, a reverse engineering terminal tool with a built-in REA engine",
+      "summary": "ReEngine is a model-agnostic reverse engineering terminal tool that runs REA as a supervised, built-in MCP child process, paired with an Ink terminal UI and a headless automation runner. The project is published as a repo with a permission policy, evidence classification and a script for packaging a single executable; the excerpt shows no results from analyzing real targets.",
+      "target": "Reverse engineering terminal tool (integrating the REA MCP engine)",
+      "metric": "Built-in permission policy for 170 tools"
+    },
+    "zh-CN": {
+      "title": "打造内置 REA 引擎的逆向工程终端工具 ReEngine",
+      "summary": "ReEngine 是不绑定模型的逆向工程终端工具，将 REA 作为受监管的内置 MCP 子进程，搭配 Ink 终端界面和无界面自动化执行器。项目以 repo 形式公开，提供权限策略、证据分类以及打包单一可执行文件的脚本；节选中未见实际分析目标的成果。",
+      "target": "逆向工程终端工具（集成 REA MCP 引擎）",
+      "metric": "内置 170 个工具的权限策略"
+    }
   }
 }

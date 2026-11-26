@@ -2,6 +2,15 @@
   "updated": "2026-11-26",
   "items": [
     {
+      "url": "https://github.com/ImXLLM/OneRing",
+      "title": "ImXLLM/OneRing: OneRing hosts KIAN v2 — sovereign AI-agent kernel & dual-trust marketplace: 11-crate zero-unsafe Rust mo",
+      "source": "GitHub",
+      "found": "2026-11-26",
+      "relevant": false,
+      "scored": "2026-11-26",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://github.com/harvatechs/reengine",
       "title": "harvatechs/reengine: Model-agnostic, security-first reverse-engineering terminal harness with built-in REA MCP engine, themeable Ink TUI, and headless automation.",
       "author": "harvatechs",
@@ -59895,6 +59904,35 @@
   "runs": [
     {
       "date": "2026-11-26",
+      "added": 1,
+      "stats": {
+        "githubShowAndTell": 19,
+        "githubRepos": 233,
+        "githubCode": 45,
+        "hackerNews": 29,
+        "qiita": 51,
+        "devto": 150,
+        "juejin": 0,
+        "reddit": 20,
+        "v2ex": 16,
+        "youtube": 90,
+        "bluesky": 160,
+        "mastodon": 160,
+        "exaWeb": 60,
+        "x": "error: Command failed: grok -p Search X for posts from the last 7 days where people sho"
+      },
+      "scoring": {
+        "scored": 0,
+        "jev": {
+          "low": 0,
+          "irrelevant": 1,
+          "errors": 0,
+          "toClaude": 0
+        }
+      }
+    },
+    {
+      "date": "2026-11-26",
       "added": 7,
       "stats": {
         "githubShowAndTell": 19,
@@ -60737,36 +60775,7 @@
           "toClaude": 18
         }
       }
-    },
-    {
-      "date": "2026-11-11",
-      "added": 8,
-      "stats": {
-        "githubShowAndTell": 16,
-        "githubRepos": 234,
-        "githubCode": 47,
-        "hackerNews": 31,
-        "qiita": 49,
-        "devto": 150,
-        "juejin": 0,
-        "reddit": 20,
-        "v2ex": 15,
-        "youtube": 90,
-        "bluesky": 162,
-        "mastodon": 160,
-        "exaWeb": 60,
-        "x": "error: Command failed: grok -p Search X for posts from the last 7 days where people sho"
-      },
-      "scoring": {
-        "scored": 5,
-        "jev": {
-          "low": 2,
-          "irrelevant": 1,
-          "errors": 0,
-          "toClaude": 5
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-26T00:22:04.730Z"
+  "updatedAt": "2026-11-26T04:33:57.289Z"
 }

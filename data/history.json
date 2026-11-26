@@ -87792,8 +87792,8 @@
     },
     {
       "date": "2026-11-26",
-      "stars": 478459,
-      "stars_delta": 1085,
+      "stars": 478667,
+      "stars_delta": 1293,
       "new": [
         "d-6ba45d4696",
         "d-a1ef9bb9c7"
@@ -87814,20 +87814,21 @@
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 被內嵌進新終端工具，另有實作分享",
-          "summary": "本日列出兩個項目：開源專案 ReEngine 把 REA 當作受監管的內建 MCP 子行程，做成不綁定模型的逆向工程終端工具；另一篇 DEV 文章介紹用 REA 搭配 Claude Code 分析 Windows 小算盤與一個未具名手機 App 的流程與限制。REA GitHub 星數為 478459，比前一個紀錄增加 1085。ReEngine 顯示 REA 可被整合為其他工具的引擎，但兩者的節錄都未提供可驗證的分析成果。"
+          "headline": "REA 新增終端工具整合與實作分享",
+          "summary": "ReEngine 公開 repo，把 REA 當作受監管的內建 MCP 子行程，提供權限政策與證據分類。另有 DEV 文章介紹用 REA 搭配 Claude Code 檢視 Windows 小算盤與一個未具名手機 App 的流程與限制。兩者的節錄都未列出可驗證的分析成果，目前適合當作整合方式與工作流程的參考。REA 的 GitHub 星數為 478,667，比前一筆紀錄多 1,293。"
         },
         "en": {
-          "headline": "REA embedded in a new terminal tool, plus a walkthrough",
-          "summary": "Two items are listed for the day: ReEngine, a public repo, builds a model-agnostic reverse-engineering terminal tool that runs REA as a supervised built-in MCP subprocess, and a DEV article describes the workflow and limits of using REA with Claude Code on Windows Calculator and an unnamed mobile app. REA's GitHub stars stand at 478459, up 1085 from the previous record. ReEngine shows REA being integrated as another tool's engine, though neither excerpt presents verifiable analysis results."
+          "headline": "REA gets a terminal tool and a hands-on walkthrough",
+          "summary": "ReEngine, now available as a repo, runs REA as a supervised, built-in MCP child process, with permission policies and evidence classification. A DEV article also describes the workflow and limits of using REA with Claude Code to examine Windows Calculator and an unnamed mobile app. Neither excerpt shows verifiable analysis results, so for now both are mainly useful as references for integration and workflow. REA has 478,667 GitHub stars, up 1,293 from the previous record."
         },
         "zh-CN": {
-          "headline": "REA 被内嵌进新终端工具，另有实操分享",
-          "summary": "当天列出两个项目：开源项目 ReEngine 把 REA 作为受监管的内置 MCP 子进程，做成不绑定模型的逆向工程终端工具；另一篇 DEV 文章介绍用 REA 搭配 Claude Code 分析 Windows 计算器与一个未具名手机 App 的流程与限制。REA GitHub 星标数为 478459，比前一个记录增加 1085。ReEngine 表明 REA 可作为引擎集成进其他工具，但两者的节选都未提供可验证的分析成果。"
+          "headline": "REA 新增终端工具集成与实践分享",
+          "summary": "ReEngine 公开了 repo，把 REA 作为受监管的内置 MCP 子进程，提供权限策略与证据分类。另有 DEV 文章介绍用 REA 搭配 Claude Code 检视 Windows 计算器和一个未具名手机 App 的流程与局限。两者的节选都未列出可验证的分析成果，目前适合作为集成方式与工作流程的参考。REA 的 GitHub 星标数为 478,667，比上一条记录多 1,293。"
         }
       },
       "signals": [
-        "G"
+        "G",
+        "B"
       ],
       "highlights": [
         "d-a1ef9bb9c7",
@@ -90600,19 +90601,19 @@
     "to": "2026-11-26",
     "text": {
       "zh-TW": {
-        "headline": "重建案例比拚驗證，生態整合接力升溫",
-        "summary": "本週較扎實的成果多集中在遊戲與老軟體重建，例如 jEnesisDS 與 DX-Ball 的位元組級一致、SkiFree 的 Rust 移植，以及另一個 DX-Ball C 重建與原版 x86 的行為比對。驗證訊號在 11/21 至 11/25 連續出現，但熱門貼文中仍有不少只有作者自述，討論熱度與可驗證程度有落差。生態擴張自 11/23 起持續出現，從外掛、安裝器、離線工具組延伸到把 REA 內嵌為子行程的 ReEngine。功能快速復刻的訊號在 11/21 至 11/23 出現後未再標記；11/26 僅 2 項，不足以判斷驗證或舊軟體主題已經退燒。",
-        "watch": "可留意 ReEngine、外掛等整合是否交出可重現的分析成果，以及防 REA 類 AI 逆向的發佈閘門是否有後續。想切入的人可挑一個小型老遊戲或工具，公開雜湊、差異測試與重現步驟，讓成果能被他人查核。工具成本也值得自行實測：11/20 的 LeanREA 基準與另一項約三倍成本的對照指向同一疑問，但本週資料不足以定論。"
+        "headline": "可驗證成果成為焦點，生態工具持續擴張",
+        "summary": "本週較扎實的案例集中在遊戲與老軟體：從 jEnesisDS、DX-Ball 的位元組級一致重建，到 SkiFree 的 Rust 移植以相同種子重現相同畫面，以及 DX-Ball 的 C 重建與原版 x86 逐筆比對。週中題材延伸到飛書雙開、安卓遊戲加角色與 keygen 修補，但不少熱門貼文仍缺少程式碼或證據。11/23 起生態訊號連日出現，包括外掛市集、安裝打包、終端工具整合，也出現防 AI 逆向的發佈閘門。星數由 470,268 增至 478,667，不過星數成長不代表個別成果已獲驗證。",
+        "watch": "可優先嘗試把差異測試、雜湊比對與證據分級做成可重用工具，並挑一個有原版可對照的小型老遊戲或舊程式練習。接下來觀察 ReEngine 等整合是否公開可驗證的分析成果（11/26 僅 2 項，尚不足以判斷降溫），以及防逆向閘門是否提出實測效果。"
       },
       "en": {
-        "headline": "Verified rebuilds lead as integrations pick up",
-        "summary": "The more substantial results this week centered on rebuilding games and legacy software: byte-identical work on jEnesisDS and DX-Ball, a Rust port of SkiFree, and a separate DX-Ball C reconstruction checked against the original x86 behavior. The verification signal appeared every day from 11/21 to 11/25, yet many popular posts still rested on authors' own claims, leaving a gap between buzz and verifiability. Ecosystem expansion showed up every day from 11/23, moving from plugins, installers and an offline toolkit to ReEngine, which embeds REA as a subprocess. The fast feature-cloning signal was not tagged after 11/23; with only 2 items on 11/26, that day cannot show that verification or legacy software work has cooled.",
-        "watch": "Watch whether integrations such as ReEngine and the new plugins deliver reproducible analysis results, and whether the release gate against REA-style AI reverse engineering gets any follow-up. A practical entry point is to rebuild a small old game or utility and publish hashes, differential tests and reproduction steps so others can check it. Test tool costs yourself as well: the LeanREA benchmark and a separate comparison showing about three times the cost (both 11/20) raise the question, but this week's data does not settle it."
+        "headline": "Verifiable results lead as tooling expands",
+        "summary": "This week's more substantial cases centered on games and legacy software: byte-identical rebuilds of jEnesisDS and DX-Ball, a SkiFree port to Rust that reproduced the same frames from the same seed, and a C reconstruction of DX-Ball tested case by case against the original x86. Midweek, topics broadened to running two Feishu accounts, adding an Android game character, and keygen and patching work, yet many popular posts still lacked code or evidence. From Nov 23, ecosystem signals appeared daily, including a plugin marketplace, installers and packaging, terminal tool integration, and a release gate against AI-driven reverse engineering. Stars rose from 470,268 to 478,667, but that growth does not verify any individual result.",
+        "watch": "A practical opening is to turn differential testing, hash comparison and evidence grading into reusable tools, practicing on a small legacy game or program with an original to compare against. Watch whether integrations such as ReEngine publish verifiable analysis results (Nov 26 had only 2 items, too few to call a slowdown), and whether the anti-reversing gate shows measured effectiveness."
       },
       "zh-CN": {
-        "headline": "重建案例比拼验证，生态整合接力升温",
-        "summary": "本周较扎实的成果多集中在游戏与老软件重建，例如 jEnesisDS 与 DX-Ball 的字节级一致、SkiFree 的 Rust 移植，以及另一个 DX-Ball C 重建与原版 x86 的行为比对。验证信号在 11/21 至 11/25 连续出现，但热门帖子中仍有不少只有作者自述，讨论热度与可验证程度存在落差。生态扩张自 11/23 起持续出现，从插件、安装器、离线工具包延伸到把 REA 内嵌为子进程的 ReEngine。功能快速复刻的信号在 11/21 至 11/23 出现后未再标记；11/26 仅 2 项，不足以判断验证或旧软件主题已经退烧。",
-        "watch": "可留意 ReEngine、插件等整合是否交出可复现的分析成果，以及防 REA 类 AI 逆向的发布闸门是否有后续。想切入的人可挑一个小型老游戏或工具，公开哈希、差异测试与复现步骤，让成果能被他人核查。工具成本也值得自行实测：11/20 的 LeanREA 基准与另一项约三倍成本的对照指向同一疑问，但本周数据不足以定论。"
+        "headline": "可验证成果成为焦点，生态工具持续扩张",
+        "summary": "本周较扎实的案例集中在游戏与老软件：从 jEnesisDS、DX-Ball 的字节级一致重建，到 SkiFree 的 Rust 移植以相同种子重现相同画面，以及 DX-Ball 的 C 重建与原版 x86 逐条比对。周中题材延伸到飞书双开、安卓游戏添加角色与 keygen 补丁，但不少热门帖子仍缺少代码或证据。11/23 起生态信号连日出现，包括插件市场、安装打包、终端工具集成，也出现防 AI 逆向的发布门禁。星标数由 470,268 增至 478,667，不过星标增长不代表个别成果已获验证。",
+        "watch": "可优先尝试把差异测试、哈希比对与证据分级做成可复用工具，并挑一个有原版可对照的小型老游戏或旧程序练手。接下来观察 ReEngine 等集成是否公开可验证的分析成果（11/26 仅 2 项，尚不足以判断降温），以及防逆向门禁是否给出实测效果。"
       }
     },
     "rising": [
@@ -90623,7 +90624,7 @@
     ],
     "tally": {
       "A": 3,
-      "B": 5,
+      "B": 6,
       "C": 4,
       "D": 0,
       "E": 0,

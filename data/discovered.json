@@ -2,6 +2,69 @@
   "updated": "2026-11-27",
   "items": [
     {
+      "url": "https://github.com/cat-clash/REA",
+      "title": "cat-clash/REA: Reverse engineering resource index: AI/MCP tooling, agent skills, binary analysis toolchain. Chinese-first, machine-readable, auto-updated.",
+      "author": "cat-clash",
+      "date": "2026-11-27",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-27",
+      "relevant": true,
+      "title_zh": "整理 AI 輔助逆向工程資源索引",
+      "summary": "此 repo 彙整 MCP 伺服器、Agent 技能與逆向工具鏈，以中文優先並提供機器可讀的資料檔，每週自動更新。morluto/rea 是收錄項目之一，節錄內容未顯示作者實際用它分析目標。",
+      "target": "AI 輔助逆向工程相關的開源資源",
+      "metric": "收錄 97 個 repo，分為 9 個任務場景與 9 種形態",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 1,
+      "scored": "2026-11-27",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://bsky.app/profile/plastikelectrik.bsky.social/post/3n3b5tl3mbd2j",
+      "title": "💻 The average devops engineer spends 10 hours/week debugging native binaries.",
+      "author": "plastikelectrik.bsky.social",
+      "date": "2026-11-27",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 1,
+      "lang": "en",
+      "found": "2026-11-27",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-27",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/AdyLovelace/status/2126116558028108138",
+      "title": "Project Fusion: Abyss & MysticalCore on macOS 27.3 (AArch64) resulting in the FileFault 2 REVoz PoC  This research was conducted using REA +",
+      "author": "@AdyLovelace",
+      "date": "2026-11-27",
+      "source": "X",
+      "kind": "貼文",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 57
+      },
+      "lang": "en",
+      "found": "2026-11-27",
+      "relevant": true,
+      "title_zh": "以 REA 研究 macOS 並稱產出 PoC",
+      "summary": "作者表示針對 AArch64 版 macOS 27.3 研究 Abyss 與 MysticalCore，並產出 FileFault 2 REVoz PoC。研究使用 REA、Ghidra、AI agent 與自訂本機分析流程；貼文未提供技術細節或佐證。",
+      "target": "macOS 27.3（AArch64）的 Abyss 與 MysticalCore",
+      "metric": "作者自述產出 FileFault 2 REVoz PoC",
+      "category": "Native / 資安",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-11-27",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/ImAhmedZarir/carea",
       "title": "ImAhmedZarir/carea: Autonomous Level-1 reverse engineering & rebuild orchestration (/carea, /rea, /ca): extract system architecture, design tokens, and verified rebuilds over REA & Craft Anything.",
       "author": "ImAhmedZarir",
@@ -228,15 +291,6 @@
       "scored_by": "sonnet"
     },
     {
-      "url": "https://x.com/0rdlibrary/status/2125769682653245527",
-      "title": "Today I claimed my first bounty. Put up by @toly to crack the percolator lean bounty. Here is how I did it. I used my RE",
-      "source": "X",
-      "found": "2026-11-27",
-      "relevant": false,
-      "scored": "2026-11-27",
-      "scored_by": "sonnet"
-    },
-    {
       "url": "https://x.com/0rdlibrary/status/2125772400188944553",
       "title": "My bug @bot hit a bounty tonight. It used a swarm of @bot’s to accomplish it, in fact. Including percolator and clawd @bot Paired with @morl",
       "author": "@0rdlibrary",
@@ -312,6 +366,74 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://x.com/NateWeb3AI/status/2126042737698803766",
+      "title": "The test: curl.exe, which ships with every Windows PC.  My prompt: \"Which HTTP errors make curl --retry try again, and h",
+      "source": "X",
+      "found": "2026-11-27",
+      "relevant": false,
+      "scored": "2026-11-27",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/NateWeb3AI/status/2126042743084298467",
+      "title": "4/ What it found: • retries on 408, 429, 500, 502, 503, 504, 522, 524 • waits 1 s, then doubles, up to 10 min • a server's Retry-After overr",
+      "author": "@NateWeb3AI",
+      "date": "2026-11-26",
+      "source": "X",
+      "kind": "貼文",
+      "score": 0,
+      "pop": {
+        "likes": 0,
+        "views": 9
+      },
+      "lang": "en",
+      "found": "2026-11-27",
+      "relevant": true,
+      "title_zh": "分析出目標程式的重試與退避規則",
+      "summary": "作者在討論串中列出 REA 找到的重試行為，包括會重試的 HTTP 狀態碼、等待時間與 Retry-After 的優先順序。逾時、連線被拒與 FTP 錯誤另有獨立規則；此則貼文未說明分析目標與驗證方式。",
+      "target": "未具名程式的重試機制（含 HTTP 與 FTP 錯誤處理）",
+      "metric": "遇 408、429、500 等 8 種狀態碼重試，等待由 1 秒起倍增，上限 10 分鐘",
+      "category": "Native",
+      "status": "reported",
+      "wow": 3,
+      "scored": "2026-11-27",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/NateWeb3AI/status/2126042746763051025",
+      "title": "5/ Was it right? curl is open source, so I checked.  Source code: 8/8 status codes and every constant match. Live run ag",
+      "source": "X",
+      "found": "2026-11-27",
+      "relevant": false,
+      "scored": "2026-11-27",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/0rdlibrary/status/2125954598816927773",
+      "title": "Took the opportunity to add my new @solana formal verification skills and tech into @morluto REA.  https://github.com/morluto/rea/pull/7339#",
+      "author": "@0rdlibrary",
+      "date": "2026-11-26",
+      "source": "X",
+      "kind": "貼文",
+      "score": 1,
+      "pop": {
+        "likes": 1,
+        "views": 293
+      },
+      "lang": "en",
+      "found": "2026-11-27",
+      "relevant": true,
+      "title_zh": "向 REA 提交 Solana 形式驗證技能",
+      "summary": "作者表示把自己的 Solana 形式驗證技能與技術加入 morluto 的 REA。貼文附上相關 PR 的留言連結，但節錄內容未說明功能細節、測試結果或是否合併。",
+      "target": "REA 的 Solana 形式驗證擴充",
+      "metric": "附上 REA PR #7339 的連結",
+      "category": "工具鏈",
+      "status": "shipped",
+      "wow": 2,
+      "scored": "2026-11-27",
+      "scored_by": "sonnet"
+    },
+    {
       "url": "https://github.com/protonspy/opencode-rea",
       "title": "protonspy/opencode-rea: One command that runs OpenCode with an abliterated model (NanoGPT or NEAR AI) and the REA reverse-engineering MCP server, on a hash-pinned toolchain.",
       "author": "protonspy",
@@ -356,24 +478,6 @@
       "wow": 2,
       "scored": "2026-11-27",
       "scored_by": "sonnet"
-    },
-    {
-      "url": "https://x.com/Sad_HAMs_/status/2125710259369001053",
-      "title": "The results: Hi, haters! BLUF TripIt 16.1.0 puts itinerary content into third-party analytics, not just crash data. Flig",
-      "source": "X",
-      "found": "2026-11-27",
-      "relevant": false,
-      "scored": "2026-11-27",
-      "scored_by": "jev"
-    },
-    {
-      "url": "https://x.com/Sad_HAMs_/status/2125720901467734028",
-      "title": "Open the app once, without touching anything, and your trip data is already on its way to five companies besides TripIt.",
-      "source": "X",
-      "found": "2026-11-27",
-      "relevant": false,
-      "scored": "2026-11-27",
-      "scored_by": "jev"
     },
     {
       "url": "https://x.com/Sad_HAMs_/status/2125711711487635858",
@@ -472,31 +576,29 @@
       "scored_by": "sonnet"
     },
     {
-      "url": "https://x.com/Sad_HAMs_/status/2125210656836137374",
-      "title": "American Airlines pissed me off yesterday. So I'm going to return the favor. BLUF com.aa.android 2026.35 talks to AA inf",
+      "url": "https://x.com/alymoursy/status/2124874108358033814",
+      "title": "you should have used the @VeezaAI blur tool that I built with REA - i got fed up blurring with gpt image causing it to flag the photo as mad",
+      "author": "@alymoursy",
+      "date": "2026-11-23",
       "source": "X",
+      "kind": "貼文",
+      "score": 7,
+      "pop": {
+        "likes": 7,
+        "views": 806
+      },
+      "lang": "en",
       "found": "2026-11-27",
-      "relevant": false,
+      "relevant": true,
+      "title_zh": "用 REA 打造圖片模糊工具",
+      "summary": "作者表示因為用 GPT 圖像功能做模糊會讓照片被標記為 AI 製作，且對現有模糊工具不滿，於是用 REA 打造 VeezaAI 模糊工具。貼文未說明逆向的對象、做法或附上可驗證的成果。",
+      "target": "VeezaAI 圖片模糊工具",
+      "metric": "作者自述已做出模糊工具並推薦他人使用",
+      "category": "工具鏈",
+      "status": "reported",
+      "wow": 2,
       "scored": "2026-11-27",
-      "scored_by": "jev"
-    },
-    {
-      "url": "https://x.com/Sad_HAMs_/status/2125244779780817047",
-      "title": "tl;dr: American Airlines android app (and, presumably, iOS app as well) sends a whole bunch of your private and sensitiv",
-      "source": "X",
-      "found": "2026-11-27",
-      "relevant": false,
-      "scored": "2026-11-27",
-      "scored_by": "jev"
-    },
-    {
-      "url": "https://x.com/Sad_HAMs_/status/2125212286402896295",
-      "title": "From proxying all its traffic:",
-      "source": "X",
-      "found": "2026-11-27",
-      "relevant": false,
-      "scored": "2026-11-27",
-      "scored_by": "jev"
+      "scored_by": "sonnet"
     },
     {
       "url": "https://x.com/Gaso1818848/status/2123776947172090295",
@@ -586,6 +688,60 @@
       "scored_by": "sonnet"
     },
     {
+      "url": "https://x.com/0rdlibrary/status/2125769682653245527",
+      "title": "Today I claimed my first bounty. Put up by @toly to crack the percolator lean bounty. Here is how I did it. I used my RE",
+      "source": "X",
+      "found": "2026-11-27",
+      "relevant": false,
+      "scored": "2026-11-27",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/Sad_HAMs_/status/2125710259369001053",
+      "title": "The results: Hi, haters! BLUF TripIt 16.1.0 puts itinerary content into third-party analytics, not just crash data. Flig",
+      "source": "X",
+      "found": "2026-11-27",
+      "relevant": false,
+      "scored": "2026-11-27",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/Sad_HAMs_/status/2125720901467734028",
+      "title": "Open the app once, without touching anything, and your trip data is already on its way to five companies besides TripIt.",
+      "source": "X",
+      "found": "2026-11-27",
+      "relevant": false,
+      "scored": "2026-11-27",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/Sad_HAMs_/status/2125210656836137374",
+      "title": "American Airlines pissed me off yesterday. So I'm going to return the favor. BLUF com.aa.android 2026.35 talks to AA inf",
+      "source": "X",
+      "found": "2026-11-27",
+      "relevant": false,
+      "scored": "2026-11-27",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/Sad_HAMs_/status/2125244779780817047",
+      "title": "tl;dr: American Airlines android app (and, presumably, iOS app as well) sends a whole bunch of your private and sensitiv",
+      "source": "X",
+      "found": "2026-11-27",
+      "relevant": false,
+      "scored": "2026-11-27",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/Sad_HAMs_/status/2125212286402896295",
+      "title": "From proxying all its traffic:",
+      "source": "X",
+      "found": "2026-11-27",
+      "relevant": false,
+      "scored": "2026-11-27",
+      "scored_by": "jev"
+    },
+    {
       "url": "https://youtu.be/aDY1ZH3S8Qw",
       "title": "REA + Claude Code: el FIN de Pagar Suscripciones",
       "date": null,
@@ -600,6 +756,27 @@
       "target": "REA 安裝與應用複製示範",
       "metric": "影片約 2 千次觀看",
       "category": "教學",
+      "status": "reported",
+      "wow": 2,
+      "scored": "2026-11-27",
+      "scored_by": "sonnet"
+    },
+    {
+      "url": "https://youtu.be/Mj8LZTDstUo",
+      "title": "APK만으로 앱 속 계산을 읽을 수 있을까? REA 직접 분석",
+      "author": "인생2회차 고양이 춘식이",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 635,
+      "lang": "ko",
+      "found": "2026-11-27",
+      "relevant": true,
+      "title_zh": "用 REA 讀取自製 APK 中的折扣邏輯",
+      "summary": "作者以自行開發的 Android App 為目標，測試能否從 APK 讀出畫面上沒有顯示的折扣邏輯。做法是用 REA 分別查詢基本版與 R8 最佳化版 APK；節錄內容未包含最終結果。",
+      "target": "自製 Android App 的 APK（基本版與 R8 最佳化版）",
+      "metric": "對照分析基本版與 R8 最佳化版 2 種 APK",
+      "category": "Android",
       "status": "reported",
       "wow": 2,
       "scored": "2026-11-27",
@@ -60508,6 +60685,35 @@
   "runs": [
     {
       "date": "2026-11-27",
+      "added": 9,
+      "stats": {
+        "githubShowAndTell": 19,
+        "githubRepos": 250,
+        "githubCode": 46,
+        "hackerNews": 30,
+        "qiita": 51,
+        "devto": 150,
+        "juejin": 0,
+        "reddit": 20,
+        "v2ex": 16,
+        "youtube": 90,
+        "bluesky": 160,
+        "mastodon": 160,
+        "exaWeb": 60,
+        "x": 18
+      },
+      "scoring": {
+        "scored": 6,
+        "jev": {
+          "low": 1,
+          "irrelevant": 2,
+          "errors": 0,
+          "toClaude": 6
+        }
+      }
+    },
+    {
+      "date": "2026-11-27",
       "added": 30,
       "stats": {
         "githubShowAndTell": 19,
@@ -61350,36 +61556,7 @@
           "toClaude": 7
         }
       }
-    },
-    {
-      "date": "2026-11-12",
-      "added": 7,
-      "stats": {
-        "githubShowAndTell": 18,
-        "githubRepos": 242,
-        "githubCode": 45,
-        "hackerNews": 32,
-        "qiita": 51,
-        "devto": 150,
-        "juejin": 0,
-        "reddit": 20,
-        "v2ex": 16,
-        "youtube": 90,
-        "bluesky": 162,
-        "mastodon": 160,
-        "exaWeb": 60,
-        "x": "error: Command failed: grok -p Search X for posts from the last 7 days where people sho"
-      },
-      "scoring": {
-        "scored": 5,
-        "jev": {
-          "low": 1,
-          "irrelevant": 1,
-          "errors": 0,
-          "toClaude": 5
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-27T00:25:05.518Z"
+  "updatedAt": "2026-11-27T04:37:47.312Z"
 }

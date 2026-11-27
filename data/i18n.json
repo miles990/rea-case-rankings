@@ -24208,5 +24208,80 @@
       "target": "DeepSeek Harness（DSH）",
       "metric": "内置挂载 rea-agents@6.4.0 作为逆向分析组件"
     }
+  },
+  "d-6f075571bb": {
+    "hash": "52a62a4f2fff",
+    "en": {
+      "title": "macOS research with REA and a claimed PoC",
+      "summary": "The author says they researched Abyss and MysticalCore on AArch64 macOS 27.3 and produced the FileFault 2 REVoz PoC. The work used REA, Ghidra, AI agent, and a custom local analysis workflow; the post gives no technical details or supporting evidence.",
+      "target": "Abyss and MysticalCore on macOS 27.3 (AArch64)",
+      "metric": "Author reports producing the FileFault 2 REVoz PoC"
+    },
+    "zh-CN": {
+      "title": "用 REA 研究 macOS 并称产出 PoC",
+      "summary": "作者表示针对 AArch64 版 macOS 27.3 研究 Abyss 与 MysticalCore，并产出 FileFault 2 REVoz PoC。研究使用 REA、Ghidra、AI agent 与自定义本地分析流程；帖子未提供技术细节或佐证。",
+      "target": "macOS 27.3（AArch64）的 Abyss 与 MysticalCore",
+      "metric": "作者自述产出 FileFault 2 REVoz PoC"
+    }
+  },
+  "d-89517b45b0": {
+    "hash": "67dee795bd67",
+    "en": {
+      "title": "Uncovering a target program's retry and backoff rules",
+      "summary": "In a thread, the author lists the retry behavior REA found, including which HTTP status codes are retried, the wait times, and how Retry-After takes precedence. Timeouts, refused connections, and FTP errors follow separate rules; this post does not say what the analysis target was or how the findings were verified.",
+      "target": "Retry mechanism of an unnamed program (including HTTP and FTP error handling)",
+      "metric": "Retries on 8 status codes including 408, 429, and 500; wait starts at 1 second and doubles, capped at 10 minutes"
+    },
+    "zh-CN": {
+      "title": "分析出目标程序的重试与退避规则",
+      "summary": "作者在讨论串中列出 REA 找到的重试行为，包括会重试的 HTTP 状态码、等待时间与 Retry-After 的优先顺序。超时、连接被拒与 FTP 错误另有独立规则；这条帖子未说明分析目标与验证方式。",
+      "target": "未具名程序的重试机制（含 HTTP 与 FTP 错误处理）",
+      "metric": "遇 408、429、500 等 8 种状态码重试，等待从 1 秒起倍增，上限 10 分钟"
+    }
+  },
+  "d-c344e94d64": {
+    "hash": "efc336620e13",
+    "en": {
+      "title": "Building an image blur tool with REA",
+      "summary": "The author says that blurring with GPT's image features got photos flagged as AI-made, and, unhappy with existing blur tools, built the VeezaAI blur tool with REA. The post does not explain what was reverse engineered or how, nor does it include verifiable results.",
+      "target": "VeezaAI image blur tool",
+      "metric": "Author reports having built a blur tool and recommends it to others"
+    },
+    "zh-CN": {
+      "title": "用 REA 打造图片模糊工具",
+      "summary": "作者表示，用 GPT 图像功能做模糊会让照片被标记为 AI 制作，且对现有模糊工具不满，于是用 REA 打造了 VeezaAI 模糊工具。帖子未说明逆向的对象和做法，也未附上可验证的成果。",
+      "target": "VeezaAI 图片模糊工具",
+      "metric": "作者自述已做出模糊工具并推荐他人使用"
+    }
+  },
+  "d-e07f1463bd": {
+    "hash": "74cbdf852efc",
+    "en": {
+      "title": "Reading discount logic from a self-built APK with REA",
+      "summary": "Using a self-developed Android app as the target, the author tests whether discount logic not shown on screen can be read from the APK. The method is to query the basic and R8-optimized APKs separately with REA; the excerpt does not include the final result.",
+      "target": "APKs of a self-built Android app (basic and R8-optimized builds)",
+      "metric": "Compared analysis of 2 APKs: basic and R8-optimized"
+    },
+    "zh-CN": {
+      "title": "用 REA 读取自制 APK 中的折扣逻辑",
+      "summary": "作者以自行开发的 Android App 为目标，测试能否从 APK 中读出界面上没有显示的折扣逻辑。做法是用 REA 分别查询基础版与 R8 优化版 APK；节选内容未包含最终结果。",
+      "target": "自制 Android App 的 APK（基础版与 R8 优化版）",
+      "metric": "对照分析基础版与 R8 优化版 2 种 APK"
+    }
+  },
+  "d-4ee04c4da1": {
+    "hash": "261a9582ce97",
+    "en": {
+      "title": "Submitting a Solana formal verification skill to REA",
+      "summary": "The author says they added their own Solana formal verification skill and techniques to morluto's REA. The post includes a link to a comment on the related PR, but the excerpt does not describe feature details, test results, or whether it was merged.",
+      "target": "Solana formal verification extension for REA",
+      "metric": "Includes a link to REA PR #7339"
+    },
+    "zh-CN": {
+      "title": "向 REA 提交 Solana 形式化验证技能",
+      "summary": "作者表示将自己的 Solana 形式化验证技能与技术加入了 morluto 的 REA。帖子附上了相关 PR 的评论链接，但节选内容未说明功能细节、测试结果或是否已合并。",
+      "target": "REA 的 Solana 形式化验证扩展",
+      "metric": "附上 REA PR #7339 的链接"
+    }
   }
 }

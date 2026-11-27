@@ -90587,17 +90587,22 @@
     },
     {
       "date": "2026-11-27",
-      "stars": 479755,
-      "stars_delta": 1088,
+      "stars": 480023,
+      "stars_delta": 1356,
       "new": [
         "d-5f351ee836",
         "d-805067807d",
+        "d-89517b45b0",
         "d-29cd402eed",
         "d-34f861a96b",
         "d-00ab27c81e",
         "d-ce33f12d2f",
+        "d-c344e94d64",
+        "d-e07f1463bd",
+        "d-4ee04c4da1",
         "d-7417188c8c",
         "d-5480bdbb99",
+        "d-6f075571bb",
         "d-2e58e86369",
         "d-cf30d71491",
         "d-59e75bc93a",
@@ -90613,45 +90618,45 @@
         "d-5876c3d485"
       ],
       "stats": {
-        "count": 21,
+        "count": 26,
         "wow": {
-          "2": 18,
-          "3": 3
+          "2": 22,
+          "3": 4
         },
         "type": {
-          "case": 9,
-          "app": 9,
+          "case": 12,
+          "app": 11,
           "news": 2,
           "learn": 1
         },
         "status": {
-          "reported": 12,
-          "shipped": 9
+          "reported": 16,
+          "shipped": 10
         }
       },
       "text": {
         "zh-TW": {
-          "headline": "REA 用途擴展到 App 移植、模擬器與產品拆解",
-          "summary": "這天排名前段的案例包括把機車定位器 App 移植到 Wear OS、打造 ZX Spectrum 模擬器核心，以及拆解兩款 AI 故事動畫產品；另有舊軟體加功能、遊戲移植（仍在進行中）和多個整合 REA 的啟動器與插件。REA GitHub 星數為 479755，比前一個紀錄增加 1088。多數成果來自作者自述，不少未附程式碼、截圖或具體發現，解讀時宜保留。"
+          "headline": "REA 用途延伸至移植與工具整合，成果多待驗證",
+          "summary": "本日出現 26 個項目，REA GitHub 星數達 480023，比前一個紀錄增加 1356。案例包括把機車定位器 App 移植到 Wear OS、協助打造 ZX Spectrum 模擬器、為舊版 exe 加功能，另有多個插件與啟動器將 REA 接進其他 AI 工具。值得注意的是，不少成果仍是作者自述，列出的貼文常缺少技術細節或驗證資料；也有專案串接去除拒答機制的模型，並自行警告自動核准指令的安全風險。"
         },
         "en": {
-          "headline": "REA use spans app ports, emulators and product teardowns",
-          "summary": "Top-ranked items include porting a scooter tracker app to Wear OS, building a ZX Spectrum emulator core, and tearing down two AI story-animation products, alongside adding features to an abandoned program, a game port still in progress, and several launchers and plugins that integrate REA. REA's GitHub stars reached 479755, up 1088 from the previous record. Many results are self-reported and a number lack code, screenshots or concrete findings, so treat them with caution."
+          "headline": "REA spreads to ports and integrations; proof often thin",
+          "summary": "26 items appeared today, and REA reached 480023 GitHub stars, up 1356 from the previous record. Examples include porting a scooter tracker app to Wear OS, helping build a ZX Spectrum emulator and adding features to an old .exe, while several plugins and launchers connect REA to other AI tools. Many results remain self-reported, often without technical detail or verification in the material provided; one launcher also connects a model with refusals removed and warns that auto-approving commands is a security risk."
         },
         "zh-CN": {
-          "headline": "REA 用途扩展到 App 移植、模拟器与产品拆解",
-          "summary": "当天排名靠前的案例包括把摩托车定位器 App 移植到 Wear OS、打造 ZX Spectrum 模拟器核心，以及拆解两款 AI 故事动画产品；另有给旧软件添加功能、游戏移植（仍在进行中）和多个集成 REA 的启动器与插件。REA GitHub 星标数为 479755，比前一条记录增加 1088。多数成果来自作者自述，不少未附代码、截图或具体发现，解读时应保持谨慎。"
+          "headline": "REA 用途延伸至移植与工具集成，成果多待验证",
+          "summary": "当天出现 26 个项目，REA GitHub 星数达 480023，比前一个记录增加 1356。案例包括把摩托车定位器 App 移植到 Wear OS、协助打造 ZX Spectrum 模拟器、为旧版 exe 添加功能，另有多个插件与启动器将 REA 接入其他 AI 工具。值得注意的是，不少成果仍是作者自述，列出的帖子常缺少技术细节或验证资料；也有项目接入去除拒答机制的模型，并自行警告自动批准命令的安全风险。"
         }
       },
       "signals": [
         "G",
         "C",
-        "A"
+        "E"
       ],
       "highlights": [
         "d-5f351ee836",
-        "d-805067807d",
-        "d-29cd402eed"
+        "d-29cd402eed",
+        "d-805067807d"
       ],
       "rank": [
         "dx-ball-sound-pan",
@@ -91136,6 +91141,7 @@
         "d-0ec7d0be4e",
         "d-805067807d",
         "d-e47190a16c",
+        "d-89517b45b0",
         "d-3dc971ce2d",
         "d-7196b2d73c",
         "d-b4e6c3f5c4",
@@ -91373,6 +91379,7 @@
         "d-ea7a4a9634",
         "d-4991122854",
         "d-21657b277b",
+        "d-c344e94d64",
         "d-118099f7ed",
         "d-51f61bd749",
         "d-932e59dbf2",
@@ -91419,6 +91426,7 @@
         "d-feb4210df1",
         "psp-mips-lab",
         "rea-jev",
+        "d-e07f1463bd",
         "d-28ab8f66ac",
         "d-d3bf4424bf",
         "d-48a0f992c2",
@@ -91437,6 +91445,7 @@
         "d-94f24dd97b",
         "d-d2c64cc5c2",
         "d-d150fc5a4f",
+        "d-4ee04c4da1",
         "d-c6fd18d485",
         "d-f62f92151d",
         "d-c126c356e1",
@@ -91525,6 +91534,7 @@
         "d-94a05a4cd7",
         "d-88e3eb4684",
         "d-135476cbb2",
+        "d-6f075571bb",
         "d-2e58e86369",
         "d-cf30d71491",
         "d-c552ed3abb",
@@ -92660,6 +92670,7 @@
         "d-15493ac0e3",
         "d-1d5883af5b",
         "d-1480a7cf0c",
+        "d-dee5bfbcb1",
         "d-669a0e2cfc",
         "d-1f8c491073",
         "d-506b909eef",
@@ -92894,6 +92905,7 @@
         "d-adfbebad69",
         "d-23b709a338",
         "d-b7d24e5410",
+        "d-ad7eb41b26",
         "d-6e6e81d44c",
         "d-ad6d73ede0",
         "d-e163b4fd0d",
@@ -93444,19 +93456,19 @@
     "to": "2026-11-27",
     "text": {
       "zh-TW": {
-        "headline": "重建靠測試立標竿，生態擴張接棒升溫",
-        "summary": "本週前段到中段的亮點多是遊戲與老軟體重建：DX-Ball 自述達成 270 函式位元組級一致，另有以測試比對原版的重建案例，SkiFree 的 Rust 移植則以相同種子重現畫面。週中起，外掛、安裝器、啟動器與代理整合明顯增多，11/27 的用途更延伸到 App 移植、模擬器核心與產品拆解。不過許多推文與新案例仍屬作者自述，缺少程式碼或證據檔，能否驗證依然是區分成果的關鍵。星數由 471,682 增至 479,755，但最後兩筆增幅放緩至 1,293 與 1,088。",
-        "watch": "接下來幾天可追蹤 Wear OS 移植、ZX Spectrum 模擬器核心與遊戲移植是否補上程式碼、測試或可重現的成果。想切入的人可先挑一個小型老軟體，建立與原版比對的差分測試和證據清單，或把這套驗收流程做成可接入現有整合工具的元件。"
+        "headline": "重心從可驗證重建案例移向工具整合擴張",
+        "summary": "週初到週中以遊戲與老軟體成果最扎實，包括 DX-Ball 270 個函式重編後逐位元組一致、SkiFree 的 Rust 移植，以及用原版 x86 逐筆比對的 DX-Ball C 重建。11/23 起生態擴張訊號天天出現，外掛、啟動器、安裝器與各種 AI 工具整合增多，11/26 與 11/27 的節錄則多缺少可驗證成果或驗證資料。驗證仍是分辨成果與自述的關鍵，多日簡報都指出熱門貼文常缺少程式碼、細節或證據。同期星數由 471,682 增至 480,023，但熱度不代表成果已獲證實；週末也出現串接去除拒答機制模型的專案，其作者自行警告自動核准指令有安全風險。",
+        "watch": "接下來幾天可觀察機車定位器 App 移植、ZX Spectrum 模擬器、舊版 exe 加功能等案例，以及 ReEngine 這類整合是否補上測試、雜湊比對或其他證據。想找機會的讀者可從遊戲與老軟體移植切入，嘗試製作差分測試、證據整理與評分工具；採用新外掛或啟動器前，先檢查權限政策，尤其是指令自動核准設定。"
       },
       "en": {
-        "headline": "Tested rebuilds lead as the ecosystem widens",
-        "summary": "The standouts from early to mid-week were mostly game and legacy software rebuilds: DX-Ball reported a byte-level match across 270 functions, another rebuild was tested against the original, and a Rust port of SkiFree reproduced the same screens from the same seeds. From mid-week, plugins, installers, launchers and agent integrations became more prominent, and by 11/27 uses had spread to app porting, emulator cores and product teardowns. Many posts and newer cases are still self-reported without code or evidence files, so verifiability remains what separates results. Stars rose from 471,682 to 479,755, though the last two gains slowed to 1,293 and 1,088.",
-        "watch": "Over the next few days, check whether the Wear OS port, the ZX Spectrum emulator core and the game ports add code, tests or reproducible results. To get involved, pick a small legacy program and build differential tests against the original plus an evidence checklist, or package that acceptance workflow as a component for existing integrations."
+        "headline": "Focus shifts from verified rebuilds to integrations",
+        "summary": "From early to mid-week, the most solid results came from games and legacy software: 270 DX-Ball functions recompiled to a byte-for-byte match, a Rust port of SkiFree, and a C reconstruction of DX-Ball compared case by case against the original x86. Ecosystem expansion has appeared every day since 11/23, with more plugins, launchers, installers and AI tool integrations, while the 11/26 and 11/27 material largely lacked verifiable results or validation data. Verification remains what separates results from self-reports, and several briefs noted that popular posts often had no code, detail or evidence. Stars rose from 471,682 to 480,023 over the period, but attention does not prove the work holds up; late in the week, one project also connected a model with refusals removed and warned of the security risk of auto-approving commands.",
+        "watch": "Over the next few days, watch whether the motorcycle tracker app port to Wear OS, the ZX Spectrum emulator work, the old-exe feature additions and integrations such as ReEngine add tests, hash comparisons or other evidence. Readers looking for opportunities could start with game and legacy software ports and build differential testing, evidence packaging or grading tools; before adopting a new plugin or launcher, check its permission policy, especially command auto-approval."
       },
       "zh-CN": {
-        "headline": "重建靠测试立标杆，生态扩张接棒升温",
-        "summary": "本周前段到中段的亮点多是游戏与老软件重建：DX-Ball 自述达成 270 个函数字节级一致，另有通过测试比对原版的重建案例，SkiFree 的 Rust 移植则用相同种子复现画面。周中起，插件、安装器、启动器与代理集成明显增多，11/27 的用途更延伸到 App 移植、模拟器核心与产品拆解。不过许多推文与新案例仍属作者自述，缺少代码或证据文件，能否验证依然是区分成果的关键。星标数由 471,682 增至 479,755，但最后两次涨幅放缓至 1,293 与 1,088。",
-        "watch": "接下来几天可跟踪 Wear OS 移植、ZX Spectrum 模拟器核心与游戏移植是否补上代码、测试或可复现的成果。想切入的人可先挑一个小型老软件，建立与原版比对的差分测试和证据清单，或把这套验收流程做成可接入现有集成工具的组件。"
+        "headline": "重心从可验证重建案例移向工具集成扩张",
+        "summary": "周初到周中以游戏与老软件成果最扎实，包括 DX-Ball 270 个函数重新编译后逐字节一致、SkiFree 的 Rust 移植，以及与原版 x86 逐笔比对的 DX-Ball C 重建。11/23 起生态扩张信号每天出现，插件、启动器、安装器与各类 AI 工具集成增多，11/26 与 11/27 的节录则大多缺少可验证成果或验证资料。验证仍是区分成果与自述的关键，多日简报都指出热门帖子常缺少代码、细节或证据。同期星数由 471,682 增至 480,023，但热度不代表成果已获证实；周末也出现接入去除拒答机制模型的项目，其作者自行警告自动批准命令存在安全风险。",
+        "watch": "接下来几天可观察机车定位器 App 移植、ZX Spectrum 模拟器、旧版 exe 增加功能等案例，以及 ReEngine 这类集成是否补上测试、哈希比对或其他证据。想寻找机会的读者可从游戏与老软件移植切入，尝试制作差分测试、证据整理与评分工具；采用新插件或启动器前，先检查权限策略，尤其是命令自动批准设置。"
       }
     },
     "rising": [
@@ -93466,11 +93478,11 @@
       "A"
     ],
     "tally": {
-      "A": 4,
+      "A": 3,
       "B": 6,
       "C": 5,
       "D": 0,
-      "E": 0,
+      "E": 1,
       "F": 0,
       "G": 5
     }

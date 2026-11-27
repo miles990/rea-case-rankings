@@ -23893,5 +23893,320 @@
       "target": "逆向工程终端工具（集成 REA MCP 引擎）",
       "metric": "内置 170 个工具的权限策略"
     }
+  },
+  "d-00ab27c81e": {
+    "hash": "23072ae3e4d2",
+    "en": {
+      "title": "Automatically pulling apps from a phone for static and traffic analysis",
+      "summary": "An agent pulls an app from the phone over wireless debugging ADB, decompiles it and runs static analysis. It then launches the app behind mitmproxy, establishes a traffic baseline, captures and analyzes live traffic, and reports; no specific findings are mentioned.",
+      "target": "Apps on the author's phone",
+      "metric": "Chains the full flow from ADB retrieval, decompilation and mitmproxy traffic analysis to reporting"
+    },
+    "zh-CN": {
+      "title": "自动从手机拉取 App 做静态与流量分析",
+      "summary": "代理通过无线调试 ADB 从手机拉取 App、反编译并做静态分析。接着在 mitmproxy 前置下启动 App，建立流量基线后抓取并分析实时流量，然后给出报告；内容未提及具体发现。",
+      "target": "作者手机上的 App",
+      "metric": "串起 ADB 取文件、反编译、mitmproxy 流量分析到报告的完整流程"
+    }
+  },
+  "d-ce33f12d2f": {
+    "hash": "1a5b8fd0e24d",
+    "en": {
+      "title": "Local LLM with REA adds features to a legacy exe via DLL",
+      "summary": "Instead of rewriting an abandoned old .exe, the author connected a local LLM to REA MCP to decompile and analyze the binary, then added new features through a DLL. The author says everything ran offline with no data sent over the network; the excerpt does not name the program or features.",
+      "target": "Closed-source legacy Windows executable (unnamed)",
+      "metric": "Added features to a closed-source legacy program via DLL, fully offline"
+    },
+    "zh-CN": {
+      "title": "本地 LLM 接 REA，用 DLL 为旧版 exe 添加功能",
+      "summary": "作者没有重写被弃用的旧 .exe，而是将本地 LLM 接到 REA MCP 上反编译分析该二进制文件，再通过 DLL 加入新功能。作者称全程离线、未向网络发送数据，节选内容未说明具体程序与功能。",
+      "target": "闭源旧版 Windows 可执行文件（未具名）",
+      "metric": "全程离线，通过 DLL 为闭源旧程序添加新功能"
+    }
+  },
+  "d-7417188c8c": {
+    "hash": "e54cdc127d0e",
+    "en": {
+      "title": "Self-reported bug bounty win using multiple bots with REA",
+      "summary": "The author says their bug-hunting bot used a group of bots together with REA and landed a bounty that evening, then made a video set to a new song of their own. The target, vulnerability details and amount are not disclosed.",
+      "target": "Undisclosed bug bounty target",
+      "metric": "Self-reported one bounty hit (amount undisclosed)"
+    },
+    "zh-CN": {
+      "title": "自述用多个 bot 搭配 REA 拿下漏洞赏金",
+      "summary": "作者表示其漏洞挖掘 bot 调动了一群 bot，并搭配 REA，在当晚拿到一笔赏金，之后制作视频配上自己的新歌。内容未说明目标、漏洞细节或金额。",
+      "target": "未公开的漏洞赏金目标",
+      "metric": "自述命中一笔赏金（金额未公开）"
+    }
+  },
+  "d-5480bdbb99": {
+    "hash": "93aa33e54f60",
+    "en": {
+      "title": "Adding a formal verification skill to a REA-inspired bot",
+      "summary": "The author says they added a new formal verification skill to their REA-inspired REA bot, connected it to Certora and HarmonicMath, and included a link to the bot. No actual analysis target or verification results are provided.",
+      "target": "The author's self-built REA bot",
+      "metric": "Integrated a formal verification skill, Certora and HarmonicMath"
+    },
+    "zh-CN": {
+      "title": "为受 REA 启发的 bot 添加形式化验证技能",
+      "summary": "作者表示在自己受 REA 启发的 REA bot 中添加了新的形式化验证技能，并接入 Certora 与 HarmonicMath，附上 bot 链接。内容未提供实际分析对象或验证结果。",
+      "target": "作者自建的 REA bot",
+      "metric": "集成形式化验证技能、Certora 与 HarmonicMath"
+    }
+  },
+  "d-5f351ee836": {
+    "hash": "f3862bbd39df",
+    "en": {
+      "title": "Reverse engineering a motorcycle tracker app and porting it to Wear OS",
+      "summary": "The author used REA to reverse engineer the app for their motorcycle tracker and ported it to a Wear OS version that runs on a watch. The author says the port is fully functional, but provides no code or screenshots.",
+      "target": "Motorcycle tracker mobile app",
+      "metric": "Author says the Wear OS port is 100% functional"
+    },
+    "zh-CN": {
+      "title": "逆向摩托车定位器 App 并移植到 Wear OS",
+      "summary": "作者用 REA 对自己摩托车定位器的 App 做逆向工程，移植出可在手表上使用的 Wear OS 版本。作者自述移植版功能完全正常，未附代码或截图说明。",
+      "target": "摩托车定位器手机 App",
+      "metric": "作者称 Wear OS 移植版 100% 可用"
+    }
+  },
+  "d-805067807d": {
+    "hash": "aa68e2a11611",
+    "en": {
+      "title": "Building a ZX Spectrum emulator with REA skills and AI",
+      "summary": "The author used REA skills together with AI to write a ZX Spectrum emulator core and published the GitHub repository. The author notes that loading a game takes a 15-minute wait, and provides no test or compatibility data.",
+      "target": "ZX Spectrum",
+      "metric": "Published the zx-spectrum-core repository"
+    },
+    "zh-CN": {
+      "title": "用 REA 技能与 AI 打造 ZX Spectrum 模拟器",
+      "summary": "作者使用 REA 技能搭配 AI 写出 ZX Spectrum 模拟器核心，并公开 GitHub 仓库。作者提到游戏加载需等待 15 分钟，未提供测试或兼容性数据。",
+      "target": "ZX Spectrum",
+      "metric": "公开 zx-spectrum-core 仓库"
+    }
+  },
+  "d-29cd402eed": {
+    "hash": "c39d1e68b4c4",
+    "en": {
+      "title": "Tearing down two AI story animation products with REA and sharing the skill",
+      "summary": "While using two story animation apps, the author recorded sent and received content with REA (keeping only field names), then had Claude compile it into a teardown report covering tech stacks and design decisions. The report separates findings into those confirmed in traffic and those inferred from clues, and the product-teardown skill is freely available on GitHub.",
+      "target": "Two AI story animation web products",
+      "metric": "Tore down 2 products and published the product-teardown skill"
+    },
+    "zh-CN": {
+      "title": "用 REA 拆解两款 AI 故事动画产品并分享技能",
+      "summary": "作者在操作两款故事动画应用时，用 REA 记录收发内容（仅保留字段名称），再由 Claude 整理成拆解报告，涵盖技术栈与设计决策。报告将发现分为流量中已证实与依线索推测两类，并将 product-teardown 技能免费公开于 GitHub。",
+      "target": "两款 AI 故事动画网页产品",
+      "metric": "拆解 2 款产品并公开 product-teardown 技能"
+    }
+  },
+  "d-34f861a96b": {
+    "hash": "6463b063b687",
+    "en": {
+      "title": "Static analysis and traffic capture of TripIt with REA",
+      "summary": "The author used REA in Claude Code, with Opus 5 and a self-built proxy assistant, to analyze the TripIt app pulled directly from a phone. The workflow included static analysis and live traffic capture analysis, and the author says nothing was refused at any point; the excerpt does not list any findings.",
+      "target": "TripIt mobile app",
+      "metric": "Completed static plus live traffic analysis workflow; author reports zero refusals"
+    },
+    "zh-CN": {
+      "title": "用 REA 对 TripIt 做静态分析与流量抓取",
+      "summary": "作者在 Claude Code 中以 Opus 5 搭配自制代理助手使用 REA，分析直接从手机提取的 TripIt App。流程包含静态分析与实时流量抓包分析，作者称全程未遭拒绝；节选内容未列出分析发现。",
+      "target": "TripIt 手机 App",
+      "metric": "完成静态分析加实时流量分析流程，作者称零次拒绝"
+    }
+  },
+  "d-2e58e86369": {
+    "hash": "ddb6abf96e02",
+    "en": {
+      "title": "Trying REA with different models, then building a working app with K3",
+      "summary": "The author spent two days testing REA with Craft Anything. Pairing it with 6.2 Sol or Fable 5.2 gave poor results and burned a large number of tokens, with no refusals along the way. After switching to Kimi K3, the author reports getting a working app in under an hour, but does not name the target or share the output.",
+      "target": "Unspecified application",
+      "metric": "Working app built in under 1 hour after switching to K3"
+    },
+    "zh-CN": {
+      "title": "试用 REA 搭配不同模型，改用 K3 做出可用 App",
+      "summary": "作者用 REA 与 Craft Anything 试了两天，搭配 6.2 Sol 或 Fable 5.2 结果很差且消耗大量 token，过程中未遇到拒绝。改用 Kimi K3 后自述不到一小时就得到可运行的 App，但未说明目标，也未附成果。",
+      "target": "未说明的应用程序",
+      "metric": "改用 K3 后不到 1 小时做出可运行的 App"
+    }
+  },
+  "d-cf30d71491": {
+    "hash": "ddd2e8432f4e",
+    "en": {
+      "title": "Porting Rainbow Six: Vegas 2 with Astra and REA",
+      "summary": "The author says they are using Astra with REA to port Rainbow Six: Vegas 2 to Unreal 5, with plans to add modern equipment afterward and possibly build a map editor. The work is still in progress, with no code, screenshots, or playable build shared.",
+      "target": "Rainbow Six: Vegas 2",
+      "metric": "Port to Unreal 5 in progress"
+    },
+    "zh-CN": {
+      "title": "用 Astra 搭配 REA 移植《彩虹六号：维加斯 2》",
+      "summary": "作者自述正用 Astra 搭配 REA，将《彩虹六号：维加斯 2》移植到 Unreal 5，之后打算加入现代装备，也可能做地图编辑器。目前仍在进行中，未附代码、截图或可玩成果。",
+      "target": "Rainbow Six: Vegas 2",
+      "metric": "移植到 Unreal 5 的工作进行中"
+    }
+  },
+  "d-59e75bc93a": {
+    "hash": "695843579e49",
+    "en": {
+      "title": "One-click launch of OpenCode with an uncensored model and REA",
+      "summary": "A launcher written in Go that installs Node.js, REA, and OpenCode at pinned versions and hashes, and connects them to a model with its refusal mechanism removed. The project provides multi-platform release binaries and a way to verify build provenance, and warns of the security risk of auto-approving commands by default.",
+      "target": "Launch environment for OpenCode and REA MCP",
+      "metric": "amd64 and arm64 releases for Windows, macOS, and Linux"
+    },
+    "zh-CN": {
+      "title": "一键启动 OpenCode 搭配去审查模型与 REA",
+      "summary": "用 Go 编写的启动器，安装固定版本与哈希值的 Node.js、REA 与 OpenCode，并接入去除拒答机制的模型。项目提供多平台发行文件与构建来源验证方式，并警告默认自动批准命令的安全风险。",
+      "target": "OpenCode 与 REA MCP 的启动环境",
+      "metric": "提供 Windows、macOS、Linux 的 amd64 与 arm64 发行文件"
+    }
+  },
+  "d-9cac375832": {
+    "hash": "ab781e30be31",
+    "en": {
+      "title": "DeepSeek Harness plugin that lazy-loads REA tools",
+      "summary": "Registers REA MCP tools in the Agent tool table and lazy-loads their schema definitions, and adds an environment sidebar, engine setup, saving results to disk, and auditing. The plugin is published as an npm package and through GitHub Releases.",
+      "target": "DeepSeek Harness and REA MCP",
+      "metric": "Persistent overhead of 237 tools cut from 194 KB to 1.4 KB"
+    },
+    "zh-CN": {
+      "title": "将 REA 工具延迟加载的 DeepSeek Harness 插件",
+      "summary": "把 REA MCP 的工具注册进 Agent 工具表并延迟加载结构定义，另提供环境侧栏、引擎准备、结果落盘与审计功能。插件以 npm 包与 GitHub Releases 发布。",
+      "target": "DeepSeek Harness 与 REA MCP",
+      "metric": "237 个工具的常驻开销由 194 KB 降至 1.4 KB"
+    }
+  },
+  "d-8a275245a4": {
+    "hash": "0100f579b42d",
+    "en": {
+      "title": "Dissecting Three Open-Source Projects with REA and DeepSeek",
+      "summary": "The author connected REA to DeepSeek Harness to analyze smolagents, the Puck page editor, and Discourse. By the author's account, DeepSeek V4.1 Flash dissected them one by one and produced evidence files, but the excerpt cuts off here and shows no specific findings.",
+      "target": "smolagents, Puck, Discourse",
+      "metric": "3 well-known open-source projects analyzed"
+    },
+    "zh-CN": {
+      "title": "用 REA 搭配 DeepSeek 拆解三个开源项目",
+      "summary": "作者将 REA 接入 DeepSeek Harness，分析 smolagents、Puck 页面编辑器与 Discourse。作者自述由 DeepSeek V4.1 Flash 逐一拆解并产出证据文件，但节录内容到此中断，未见具体发现。",
+      "target": "smolagents、Puck、Discourse",
+      "metric": "分析 3 个知名开源项目"
+    }
+  },
+  "d-c2693bfc36": {
+    "hash": "a39aa683d31b",
+    "en": {
+      "title": "Having Claude Use REA to Dissect Claude Code and Edit Its Prompts",
+      "summary": "The author says they asked Claude to use REA to disassemble Claude Code, list all its prompts, change the parts they didn't like, and recompile the binary. The post is only a brief self-report, with no results or evidence attached.",
+      "target": "Claude Code",
+      "metric": "Self-reported workflow from prompt extraction and editing to recompilation, with no evidence attached"
+    },
+    "zh-CN": {
+      "title": "让 Claude 用 REA 拆解 Claude Code 改提示词",
+      "summary": "作者表示要求 Claude 使用 REA 反汇编 Claude Code、列出所有提示词、修改不喜欢的部分并重新编译二进制文件。帖子仅有简短自述，未附成果或证据。",
+      "target": "Claude Code",
+      "metric": "自述涵盖从提取提示词、修改到重新编译的流程，未附证据"
+    }
+  },
+  "d-85e0b1884f": {
+    "hash": "90ee60d1d320",
+    "en": {
+      "title": "Having Claude Use REA to Analyze a Windows Executable Without Source Code",
+      "summary": "The author added the REA skill to Claude Code, gave it a Windows .exe with no source code, and asked a question in plain language. The author says it opened the binary, found the relevant code, and explained how it works, but the post text doesn't specify the target or the findings.",
+      "target": "Windows .exe executable",
+      "metric": "Found the relevant code and explained how it works from one plain-language question"
+    },
+    "zh-CN": {
+      "title": "让 Claude 用 REA 分析无源代码的 Windows 可执行文件",
+      "summary": "作者在 Claude Code 中添加 REA 技能，交给它一个没有源代码的 Windows .exe，并用大白话提出一个问题。作者称它打开二进制文件、找到相关代码并解释了运作方式，但帖子文字未说明具体目标与发现。",
+      "target": "Windows .exe 可执行文件",
+      "metric": "凭一个大白话问题找到相关代码并解释运作方式"
+    }
+  },
+  "d-fcbdd129b9": {
+    "hash": "ade1757d3b79",
+    "en": {
+      "title": "A Skill Pack Coordinating REA and Craft Anything for Reverse-Engineered Reconstruction",
+      "summary": "carea uses a skill pack and a zero-dependency Python CLI to connect the external REA and Craft Anything, with a workflow covering architecture and design analysis, clean-room handoff checks, and two-axis consistency verification. The excerpt shows no reconstruction results for a specific target.",
+      "target": "Collaborative workflow between REA and Craft Anything",
+      "metric": "Provides a Modes 1–6 workflow and versioned handoff schema 1.1.0"
+    },
+    "zh-CN": {
+      "title": "协调 REA 与 Craft Anything 的逆向重建技能包",
+      "summary": "carea 以技能包与零依赖 Python CLI 串接外部的 REA 和 Craft Anything，流程涵盖架构与设计分析、洁净室交接检查及双轴一致性验证。节录内容未展示针对具体目标的重建成果。",
+      "target": "REA 与 Craft Anything 的协作流程",
+      "metric": "提供 Modes 1–6 流程与版本化交接结构 1.1.0"
+    }
+  },
+  "d-5876c3d485": {
+    "hash": "096d5a1341ae",
+    "en": {
+      "title": "Spanish video tutorial: Cloning apps with REA and Claude Code",
+      "summary": "A YouTube video introduces what REA does and how to install it, explaining how it lets Claude Code connect to IDA, Ghidra and Hopper. The video description says an app will be cloned live, but the provided content lists no actual results.",
+      "target": "REA installation and app cloning demo",
+      "metric": "About 2K video views"
+    },
+    "zh-CN": {
+      "title": "西语视频教程：用 REA 搭配 Claude Code 复制应用",
+      "summary": "YouTube 视频介绍 REA 的用途与安装方式，说明它如何让 Claude Code 连接 IDA、Ghidra 与 Hopper。视频简介称会现场演示复制一个应用程序，但提供的内容未列出实际成果。",
+      "target": "REA 安装与应用复制演示",
+      "metric": "视频约 2 千次观看"
+    }
+  },
+  "d-56d6376775": {
+    "hash": "be4a9f3b3f34",
+    "en": {
+      "title": "Free coding tool combining browser chat, VS Code and REA",
+      "summary": "A Chrome or Edge extension and a local Python bridge let web-based AI chats operate VS Code and REA. The project bundles the REA package and Windows install scripts, with only some REA tools exposed.",
+      "target": "Integration of browser AI chat, VS Code and REA",
+      "metric": "Supports 9 AI chat sites, bundles REA 6.10.1"
+    },
+    "zh-CN": {
+      "title": "整合浏览器聊天、VS Code 与 REA 的免费编程工具",
+      "summary": "通过 Chrome 或 Edge 扩展与本地 Python 桥接，让网页版 AI 聊天可操作 VS Code 与 REA。项目内附 REA 套件与 Windows 安装脚本，REA 仅开放部分工具。",
+      "target": "浏览器 AI 聊天、VS Code 与 REA 的整合",
+      "metric": "支持 9 个 AI 聊天网站，内附 REA 6.10.1"
+    }
+  },
+  "d-96663ded0e": {
+    "hash": "b1f5dd05fa1c",
+    "en": {
+      "title": "Surveying school management platforms and using REA to help dissect the top three backends",
+      "summary": "Compiles rankings and profiles of the top 20 school management platforms worldwide and the top 10 in India, and uses REA to help analyze the backends of PowerSchool, Infinite Campus and Ellucian based on public evidence. The output is a research report and an open-source platform blueprint; the excerpt shows no reverse engineering of actual programs.",
+      "target": "School management platforms such as PowerSchool, Infinite Campus and Ellucian",
+      "metric": "Main report of about 152,600 characters, with 40 platform profiles"
+    },
+    "zh-CN": {
+      "title": "调研校务管理平台并用 REA 辅助拆解前三名后端",
+      "summary": "整理全球前 20 名与印度前 10 名校务管理平台的排名与档案，并依据公开证据以 REA 辅助分析 PowerSchool、Infinite Campus、Ellucian 的后端。成果是研究报告与开源平台蓝图，节选内容未显示对实际程序进行逆向。",
+      "target": "PowerSchool、Infinite Campus、Ellucian 等校务管理平台",
+      "metric": "主报告约 152,600 字，含 40 份平台档案"
+    }
+  },
+  "d-b3884e7682": {
+    "hash": "89d314d79f21",
+    "en": {
+      "title": "Investigating Dexter Copilot from public data and planning a Linux architecture",
+      "summary": "Infers Dexter Copilot's components, features and integrations from public evidence such as the official website, GitHub and npm, with REA framework documentation and a native Linux architecture blueprint included. The author states that the installer was never downloaded, run or analyzed.",
+      "target": "Dexter Copilot",
+      "metric": "Inventories 10 components, 25 features and 8 integrations (inferred results)"
+    },
+    "zh-CN": {
+      "title": "依据公开资料调查 Dexter Copilot 并规划 Linux 架构",
+      "summary": "根据官网、GitHub、npm 等公开证据推断 Dexter Copilot 的组件、功能与集成，并附 REA 框架文档与 Linux 原生架构蓝图。作者声明从未下载、运行或分析其安装程序。",
+      "target": "Dexter Copilot",
+      "metric": "清点 10 个组件、25 项功能与 8 项集成（推断结果）"
+    }
+  },
+  "d-1c53830679": {
+    "hash": "86fbebfdc9ac",
+    "en": {
+      "title": "DSH plugin mounts REA and other MCP servers in one place",
+      "summary": "dsh-work-components is a DeepSeek Harness plugin that mounts and manages MCP servers for various work software from a single settings page. REA is its reverse engineering component (rea-agents@6.4.0); the project's source code is public and installable via npm.",
+      "target": "DeepSeek Harness (DSH)",
+      "metric": "Ships with rea-agents@6.4.0 mounted as the reverse engineering component"
+    },
+    "zh-CN": {
+      "title": "DSH 插件整合挂载 REA 等多款 MCP 服务器",
+      "summary": "dsh-work-components 是 DeepSeek Harness 的插件，在设置页统一挂载与管理多种工作软件的 MCP 服务器。REA 是其中的逆向分析组件（rea-agents@6.4.0），项目已公开代码并可通过 npm 安装。",
+      "target": "DeepSeek Harness（DSH）",
+      "metric": "内置挂载 rea-agents@6.4.0 作为逆向分析组件"
+    }
   }
 }

@@ -1,6 +1,178 @@
 {
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "items": [
+    {
+      "url": "https://github.com/rajatinfo/Anti-Master-REA",
+      "title": "rajatinfo/Anti-Master-REA: Master Reverse Engineering Anything (REA) - Unified hub connecting morluto/rea, awesome-reverse-engineer-anything, REA_Skill, REA-Windows-Github, and DecompileAnything.",
+      "author": "rajatinfo",
+      "date": "2026-11-27",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-28"
+    },
+    {
+      "url": "https://github.com/augenthere/Rea-Android",
+      "title": "augenthere/Rea-Android: AndroidHarness x REA Android Ultimate V6 - Requires AndroidHarness by Sanu (look below for download link). The most complete APK reverse engineering toolkit for Android. Fully offline, 200+ tools, Ghidra + rizin + JADX, MCP server, web dashboard.",
+      "author": "augenthere",
+      "date": "2026-11-27",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 4,
+      "lang": "en",
+      "found": "2026-11-28"
+    },
+    {
+      "url": "https://github.com/406464/kit-rea",
+      "title": "406464/kit-rea: 把 REA 逆向工具族接进 agent 宿主：版本锁定、注册、引擎探测、断言式自检、一键回滚 / Wire REA (rea-agents) MCP into any agent host, with verifiable assertions and rollback",
+      "author": "406464",
+      "date": "2026-11-27",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "zh",
+      "found": "2026-11-28"
+    },
+    {
+      "url": "https://bsky.app/profile/oludai.bsky.social/post/3n3canxst4c2i",
+      "title": "Reverse engineering just got a star surge: morluto/rea gained +4,196 stars in a day, hitting nearly half a million. That’s attention for an ",
+      "author": "oludai.bsky.social",
+      "date": "2026-11-27",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 1,
+      "lang": "en",
+      "found": "2026-11-28",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-28",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://bsky.app/profile/plastikelectrik.bsky.social/post/3n3bs53lddc2o",
+      "title": "Mastering Reverse Engineer Anything (REA)",
+      "author": "plastikelectrik.bsky.social",
+      "date": "2026-11-27",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 2,
+      "lang": "en",
+      "found": "2026-11-28",
+      "relevant": true,
+      "wow": 1,
+      "category": "教學",
+      "status": "reported",
+      "scored": "2026-11-28",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://bsky.app/profile/openpicking.bsky.social/post/3n3dadtmcos2i",
+      "title": "🎉 morluto/rea just passed 480k stars.",
+      "author": "openpicking.bsky.social",
+      "date": "2026-11-27",
+      "source": "Bluesky",
+      "kind": "貼文",
+      "score": 1,
+      "lang": "en",
+      "found": "2026-11-28",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-28",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://mastodon.social/@sslaia/117690400085626882",
+      "title": "The REA (Reverse Engineering Anything) could be a blessing for people who stick to old programs, which are not supported anymore. With AI th",
+      "author": "sslaia",
+      "date": "2026-11-27",
+      "source": "Mastodon",
+      "kind": "貼文",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-28",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-28",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://github.com/ckir/rea",
+      "title": "ckir/rea: REA",
+      "author": "ckir",
+      "date": "2026-11-03",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 0,
+      "lang": "en",
+      "found": "2026-11-28"
+    },
+    {
+      "url": "https://github.com/Heretek-AI/opencode-rea",
+      "title": "Heretek-AI/opencode-rea: OpenCode v2 plugin wiring REA reverse-engineering agents, skills, slash commands, and catalog pinning.",
+      "author": "Heretek-AI",
+      "date": "2026-10-12",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 1,
+      "lang": "en",
+      "found": "2026-11-28"
+    },
+    {
+      "url": "https://github.com/vecnode/vn-code",
+      "title": "vecnode/vn-code: vn-code: OSS Node ADE with core DSH for professional Engineering and Design. 33 Plugins 51 skills.",
+      "author": "vecnode",
+      "date": "2026-09-08",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 10,
+      "pop": {
+        "stars": 10
+      },
+      "needsRepoKind": true,
+      "evidence": "Files that mention REA: packages/dsh-rea/package.json",
+      "lang": "en",
+      "found": "2026-11-28"
+    },
+    {
+      "url": "https://github.com/IHUI-INF-AI/IHUI-AI",
+      "title": "IHUI-INF-AI/IHUI-AI: Eight-platform full-stack AI operating system - unifies 176 LLMs via LangGraph + MCP + A2A. Multi-tenant RLS over 340 tables, RAG knowledge base, agent marketplace. Web/API/CLI/Desktop/Extension/Mobile/Miniapp. Apache 2.0.",
+      "author": "IHUI-INF-AI",
+      "date": "2026-06-21",
+      "source": "GitHub",
+      "kind": "專案",
+      "score": 32,
+      "pop": {
+        "stars": 32
+      },
+      "needsRepoKind": true,
+      "evidence": "Files that mention REA: .ihui/skills/rea-surpass/SKILL.md, package.json",
+      "lang": "zh",
+      "found": "2026-11-28"
+    },
+    {
+      "url": "https://youtu.be/TomU5DSLsFw",
+      "title": "REA vs BLA 攻防对决：AI 能逆向一切，你的代码到底该怎么防？",
+      "author": "程序员寒山",
+      "date": null,
+      "source": "YouTube",
+      "kind": "影片",
+      "score": 336,
+      "lang": "zh",
+      "found": "2026-11-28",
+      "relevant": true,
+      "wow": 1,
+      "category": "報導 / 評論",
+      "status": "reported",
+      "scored": "2026-11-28",
+      "scored_by": "jev"
+    },
     {
       "url": "https://github.com/cat-clash/REA",
       "title": "cat-clash/REA: Reverse engineering resource index: AI/MCP tooling, agent skills, binary analysis toolchain. Chinese-first, machine-readable, auto-updated.",
@@ -366,15 +538,6 @@
       "scored_by": "sonnet"
     },
     {
-      "url": "https://x.com/NateWeb3AI/status/2126042737698803766",
-      "title": "The test: curl.exe, which ships with every Windows PC.  My prompt: \"Which HTTP errors make curl --retry try again, and h",
-      "source": "X",
-      "found": "2026-11-27",
-      "relevant": false,
-      "scored": "2026-11-27",
-      "scored_by": "jev"
-    },
-    {
       "url": "https://x.com/NateWeb3AI/status/2126042743084298467",
       "title": "4/ What it found: • retries on 408, 429, 500, 502, 503, 504, 522, 524 • waits 1 s, then doubles, up to 10 min • a server's Retry-After overr",
       "author": "@NateWeb3AI",
@@ -398,15 +561,6 @@
       "wow": 3,
       "scored": "2026-11-27",
       "scored_by": "sonnet"
-    },
-    {
-      "url": "https://x.com/NateWeb3AI/status/2126042746763051025",
-      "title": "5/ Was it right? curl is open source, so I checked.  Source code: 8/8 status codes and every constant match. Live run ag",
-      "source": "X",
-      "found": "2026-11-27",
-      "relevant": false,
-      "scored": "2026-11-27",
-      "scored_by": "jev"
     },
     {
       "url": "https://x.com/0rdlibrary/status/2125954598816927773",
@@ -686,6 +840,24 @@
       "wow": 2,
       "scored": "2026-11-27",
       "scored_by": "sonnet"
+    },
+    {
+      "url": "https://x.com/NateWeb3AI/status/2126042737698803766",
+      "title": "The test: curl.exe, which ships with every Windows PC.  My prompt: \"Which HTTP errors make curl --retry try again, and h",
+      "source": "X",
+      "found": "2026-11-27",
+      "relevant": false,
+      "scored": "2026-11-27",
+      "scored_by": "jev"
+    },
+    {
+      "url": "https://x.com/NateWeb3AI/status/2126042746763051025",
+      "title": "5/ Was it right? curl is open source, so I checked.  Source code: 8/8 status codes and every constant match. Live run ag",
+      "source": "X",
+      "found": "2026-11-27",
+      "relevant": false,
+      "scored": "2026-11-27",
+      "scored_by": "jev"
     },
     {
       "url": "https://x.com/0rdlibrary/status/2125769682653245527",
@@ -60684,6 +60856,37 @@
   ],
   "runs": [
     {
+      "date": "2026-11-28",
+      "added": 12,
+      "stats": {
+        "githubShowAndTell": 19,
+        "githubRepos": 250,
+        "githubCode": 46,
+        "hackerNews": 29,
+        "qiita": 51,
+        "devto": 150,
+        "juejin": 0,
+        "reddit": 20,
+        "v2ex": 16,
+        "youtube": 90,
+        "bluesky": 161,
+        "mastodon": 160,
+        "exaWeb": 60,
+        "x": "error: Command failed: grok -p Search X for posts from the last 7 days where people sho"
+      },
+      "scoring": {
+        "scored": 0,
+        "jev": {
+          "low": 5,
+          "irrelevant": 0,
+          "errors": 0,
+          "toClaude": 7
+        },
+        "failed": 7,
+        "error": "Command failed: claude -p --output-format json --max-turns 1 --tools  --no-session-persistence --model sonnet\n"
+      }
+    },
+    {
       "date": "2026-11-27",
       "added": 9,
       "stats": {
@@ -61527,36 +61730,7 @@
           "toClaude": 2
         }
       }
-    },
-    {
-      "date": "2026-11-13",
-      "added": 18,
-      "stats": {
-        "githubShowAndTell": 18,
-        "githubRepos": 236,
-        "githubCode": 46,
-        "hackerNews": 30,
-        "qiita": 51,
-        "devto": 150,
-        "juejin": 3,
-        "reddit": 20,
-        "v2ex": "error: fetch failed",
-        "youtube": 90,
-        "bluesky": 162,
-        "mastodon": 160,
-        "exaWeb": 60,
-        "x": "error: Command failed: grok -p Search X for posts from the last 7 days where people sho"
-      },
-      "scoring": {
-        "scored": 7,
-        "jev": {
-          "low": 6,
-          "irrelevant": 5,
-          "errors": 0,
-          "toClaude": 7
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-27T04:37:47.312Z"
+  "updatedAt": "2026-11-28T00:22:01.079Z"
 }

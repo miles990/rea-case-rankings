@@ -93442,27 +93442,26 @@
     },
     {
       "date": "2026-11-28",
-      "stars": 481131,
-      "stars_delta": 1108,
+      "stars": 481300,
+      "stars_delta": 1277,
       "new": [
-        "d-cae44a3ac0",
-        "d-d3769a5e27",
         "d-f5b6a62010",
         "d-c76c439ed7",
         "d-352c998b6e",
         "d-2a3375ebbb",
-        "d-b8da6143f9"
+        "d-b8da6143f9",
+        "d-5d5153be4b"
       ],
       "stats": {
-        "count": 7,
+        "count": 6,
         "wow": {
-          "none": 7
+          "none": 6
         },
         "type": {
-          "case": 7
+          "case": 6
         },
         "status": {
-          "none": 7
+          "none": 6
         }
       },
       "rank": [
@@ -95204,6 +95203,7 @@
         "d-af3396f8f6",
         "d-3fb72be9a7",
         "d-e7442c0957",
+        "d-d3769a5e27",
         "d-6e190be105",
         "d-be251769d9",
         "d-f72ffdfbf6",
@@ -96250,13 +96250,12 @@
         "d-8a15203586",
         "d-3db45b5ca0",
         "d-9c31b3d5b4",
-        "d-cae44a3ac0",
-        "d-d3769a5e27",
         "d-f5b6a62010",
         "d-c76c439ed7",
         "d-352c998b6e",
         "d-2a3375ebbb",
-        "d-b8da6143f9"
+        "d-b8da6143f9",
+        "d-5d5153be4b"
       ]
     }
   ],

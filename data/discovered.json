@@ -114,6 +114,16 @@
       "found": "2026-11-28"
     },
     {
+      "url": "https://zexingguo.com/blog/rea-reverse-engineer-anything",
+      "title": "Jack Guo — Notes & Writing",
+      "author": "zexingguo.com",
+      "date": "2026-10-17",
+      "source": "Web",
+      "kind": "文章",
+      "lang": "en",
+      "found": "2026-11-28"
+    },
+    {
       "url": "https://github.com/Heretek-AI/opencode-rea",
       "title": "Heretek-AI/opencode-rea: OpenCode v2 plugin wiring REA reverse-engineering agents, skills, slash commands, and catalog pinning.",
       "author": "Heretek-AI",
@@ -138,23 +148,22 @@
       "needsRepoKind": true,
       "evidence": "Files that mention REA: packages/dsh-rea/package.json",
       "lang": "en",
-      "found": "2026-11-28"
+      "found": "2026-11-28",
+      "relevant": true,
+      "wow": 1,
+      "category": "工具鏈",
+      "status": "shipped",
+      "scored": "2026-11-28",
+      "scored_by": "jev"
     },
     {
       "url": "https://github.com/IHUI-INF-AI/IHUI-AI",
-      "title": "IHUI-INF-AI/IHUI-AI: Eight-platform full-stack AI operating system - unifies 176 LLMs via LangGraph + MCP + A2A. Multi-tenant RLS over 340 tables, RAG knowledge base, agent marketplace. Web/API/CLI/Desktop/Extension/Mobile/Miniapp. Apache 2.0.",
-      "author": "IHUI-INF-AI",
-      "date": "2026-06-21",
+      "title": "IHUI-INF-AI/IHUI-AI: Eight-platform full-stack AI operating system - unifies 176 LLMs via LangGraph + MCP + A2A. Multi-t",
       "source": "GitHub",
-      "kind": "專案",
-      "score": 32,
-      "pop": {
-        "stars": 32
-      },
-      "needsRepoKind": true,
-      "evidence": "Files that mention REA: .ihui/skills/rea-surpass/SKILL.md, package.json",
-      "lang": "zh",
-      "found": "2026-11-28"
+      "found": "2026-11-28",
+      "relevant": false,
+      "scored": "2026-11-28",
+      "scored_by": "jev"
     },
     {
       "url": "https://youtu.be/TomU5DSLsFw",
@@ -60857,6 +60866,37 @@
   "runs": [
     {
       "date": "2026-11-28",
+      "added": 1,
+      "stats": {
+        "githubShowAndTell": 19,
+        "githubRepos": 255,
+        "githubCode": 46,
+        "hackerNews": 33,
+        "qiita": 51,
+        "devto": "error: 429 https://dev.to/api/articles?tag=claudecode&per_page=50",
+        "juejin": 1,
+        "reddit": 20,
+        "v2ex": 16,
+        "youtube": 90,
+        "bluesky": 161,
+        "mastodon": 160,
+        "exaWeb": 60,
+        "x": "error: Command failed: grok -p Search X for posts from the last 7 days where people sho"
+      },
+      "scoring": {
+        "scored": 0,
+        "jev": {
+          "low": 1,
+          "irrelevant": 1,
+          "errors": 0,
+          "toClaude": 6
+        },
+        "failed": 6,
+        "error": "Command failed: claude -p --output-format json --max-turns 1 --tools  --no-session-persistence --model sonnet\n"
+      }
+    },
+    {
+      "date": "2026-11-28",
       "added": 12,
       "stats": {
         "githubShowAndTell": 19,
@@ -61701,36 +61741,7 @@
           "toClaude": 34
         }
       }
-    },
-    {
-      "date": "2026-11-13",
-      "added": 3,
-      "stats": {
-        "githubShowAndTell": 18,
-        "githubRepos": 236,
-        "githubCode": 46,
-        "hackerNews": 29,
-        "qiita": 51,
-        "devto": 150,
-        "juejin": 3,
-        "reddit": 20,
-        "v2ex": "error: fetch failed",
-        "youtube": 90,
-        "bluesky": 162,
-        "mastodon": 160,
-        "exaWeb": 60,
-        "x": "error: Command failed: grok -p Search X for posts from the last 7 days where people sho"
-      },
-      "scoring": {
-        "scored": 2,
-        "jev": {
-          "low": 0,
-          "irrelevant": 1,
-          "errors": 0,
-          "toClaude": 2
-        }
-      }
     }
   ],
-  "updatedAt": "2026-11-28T00:22:01.079Z"
+  "updatedAt": "2026-11-28T04:33:53.010Z"
 }
